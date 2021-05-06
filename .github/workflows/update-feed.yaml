@@ -25,9 +25,8 @@ jobs:
       - name: Build the feed
         run: |
           npm run build
-          ls -l
-          echo "feed.ramonmedeiros.dev" > CNAME
-          ls -s 
+          echo "feed.ramonmedeiros.dev" > public/CNAME
+          ls -lR 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
