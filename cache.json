@@ -90,6 +90,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Priya Wadhwa, Google Open Source Security Team\n\nWith over 16 million pulls per month, Google’s `distroless` base images are widely used and depended on by large projects like Kubernetes and Istio. These minimal images don’t include common tools like shells or package managers, making their attack surface (and download size!) smaller than traditional base images such as `ubuntu` or `alpine`. Even with this additional protection, users could still fall prey to typosquatting attacks, or receive a mal…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/FLp9ykAkb4U/making-internet-more-secure-one-signed.html",
+          "publishedOn": "2021-05-06T13:00:00.001Z",
+          "wordCount": 867,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Making the Internet more secure one signed container at a time"
+        },
+        {
           "description": "Alex Gough, Engineer, Chrome Platform Security Team\nChrome 90 for Windows adopts Hardware-enforced Stack Protection, a mitigation technology to make the exploitation of security bugs more difficult for attackers. This is supported by Windows 20H1 (December Update) or later, running on processors with Control-flow Enforcement Technology (CET) such as Intel 11th Gen or AMD Zen 3 CPUs. With this mitigation the processor maintains a new, protected, stack of valid return addresses (a shadow stack). This improves…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/IB3cidyQPkc/enabling-hardware-enforced-stack.html",
           "publishedOn": "2021-05-04T17:00:00.018Z",
@@ -324,7 +333,7 @@
           "description": "David Cassel, on The New Stack:\nWidely-respected security expert Dan Kaminsky passed away on April 23 from diabetic ketoacidosis at the age of 42. His considerable legacy went beyond expertise with a rare and memorable kindness.\nI met Dan very briefly at ShmooCon back in 2004. His kindness was memorable, for sure, but the thing I remember most was just how larger-than-life he was to me at the time. The guy contributed so much to the infosec community and yet remained humble and kind despite it all. It was s…",
           "link": "https://thenewstack.io/remembering-dan-kaminsky/",
           "publishedOn": "2021-05-03T14:42:00.000Z",
-          "wordCount": 2454,
+          "wordCount": 2466,
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Remembering Dan Kaminsky"
@@ -333,7 +342,7 @@
           "description": "The feed is hosted on GitHub Pages (which means it’s public to all) and is static until it gets rebuilt. Building is done periodically via a GitHub Action; configuration is via a YAML file (It’d be cooler if you could import an OPML instead). Even if it’s not something you’d use, I think this project is interesting for two reasons:\nIt’s part of a “GitHub as Stack” meta-trend\nIt promotes RSS, which is one of the web’s great treasures\nDiscuss on Changelog News",
           "link": "https://github.com/osmoscraft/osmosfeed",
           "publishedOn": "2021-05-03T13:50:00.000Z",
-          "wordCount": 1249,
+          "wordCount": 1256,
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "A web-based RSS reader running entirely from your GitHub repo"
@@ -351,7 +360,7 @@
           "description": "A handy shell script to help you undo all the things (commits, pushes, pulls, you name it).\n\nDiscuss on Changelog News",
           "link": "https://github.com/Bhupesh-V/ugit",
           "publishedOn": "2021-04-30T14:16:00.000Z",
-          "wordCount": 1071,
+          "wordCount": 1099,
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "ugit helps you undo your last git command with grace"
@@ -459,7 +468,7 @@
           "description": "What does “developer productivity” mean to you?\nAt face value, when we think of developer productivity we might think of effectiveness in time management, communication, and task completion. Although we are drawn to personal workflow or time management tools, and learning secrets to improving our productivity, ironically this quest for the holy grail can sometimes take us off course and be a detriment to our productivity. … As a developer of scientific software, and one who has transitioned to working remot…",
           "link": "https://cacm.acm.org/opinion/articles/252174-the-10-best-practices-for-remote-software-engineering/fulltext",
           "publishedOn": "2021-04-27T13:45:00.000Z",
-          "wordCount": 4573,
+          "wordCount": 4562,
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "10 best practices for remote software engineering"
@@ -522,7 +531,7 @@
           "description": "Oli Larkin:\nThis is a curated list of my favourite music DSP and audio programming resources. It was originally meant to be an official “Awesome list”, but apparently you are not meant to write in the first person, so it is now a “more awesome” list.\nI’m still giving this the awesome topic, despite his first person point of view. Oli is a long-time audio programmer, so he’s well positioned to curate a list like this one.\nDiscuss on Changelog News",
           "link": "https://github.com/olilarkin/awesome-musicdsp",
           "publishedOn": "2021-04-26T13:15:00.000Z",
-          "wordCount": 3453,
+          "wordCount": 3444,
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "A curated list of music DSP and audio programming resources"
@@ -567,7 +576,7 @@
           "description": "The accompanying video (22:36) explains why and walks you through the development process as well.\n\nDiscuss on Changelog News",
           "link": "https://github.com/jdah/tetris-os",
           "publishedOn": "2021-04-22T14:29:00.000Z",
-          "wordCount": 864,
+          "wordCount": 858,
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "An operating system that only plays Tetris"
@@ -692,279 +701,8 @@
       ]
     },
     {
-      "href": "https://news.ycombinator.com/rss",
-      "articles": [
-        {
-          "description": "Comments",
-          "link": "https://www.apple.com/hotnews/thoughts-on-flash/",
-          "publishedOn": "2021-05-06T06:52:25.000Z",
-          "wordCount": null,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Apple deletes Steve Jobs's “Thoughts on Flash”"
-        },
-        {
-          "description": "Comments",
-          "link": "https://www.bbc.co.uk/news/world-us-canada-57004302",
-          "publishedOn": "2021-05-06T06:51:54.000Z",
-          "wordCount": 1400,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Covid: US backs waiver on vaccine intellectual property"
-        },
-        {
-          "description": "Comments",
-          "link": "https://arxiv.org/abs/2103.03198",
-          "publishedOn": "2021-05-06T06:44:00.000Z",
-          "wordCount": 702,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Catala: A Programming Language for the Law"
-        },
-        {
-          "description": "Comments",
-          "link": "https://klarasystems.com/articles/deep-diving-into-the-strengths-of-freebsd/",
-          "publishedOn": "2021-05-06T05:42:00.000Z",
-          "wordCount": 2145,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Deep Diving into the Strengths of FreeBSD"
-        },
-        {
-          "description": "Comments",
-          "link": "https://blog.pyston.org/2021/05/05/pyston-v2-2-faster-and-open-source/",
-          "publishedOn": "2021-05-06T04:14:37.000Z",
-          "wordCount": 585,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Pyston v2.2: faster and open source"
-        },
-        {
-          "description": "Comments",
-          "link": "https://github.com/Sysinternals/ProcMon-for-Linux/",
-          "publishedOn": "2021-05-06T03:38:58.000Z",
-          "wordCount": 1072,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "ProcMon for Linux (Preview)"
-        },
-        {
-          "description": "Comments",
-          "link": "https://www.overcomingbias.com/2021/05/ufos-say-govt-competence-is-either-surprisingly-high-or-surprisingly-low.html",
-          "publishedOn": "2021-05-06T02:18:06.000Z",
-          "wordCount": 1618,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "UFOs Shows Govt. Competence as Either Surprisingly High or Low"
-        },
-        {
-          "description": "Comments",
-          "link": "https://techstartups.com/2021/05/05/liveleak-shuts-15-years-online/",
-          "publishedOn": "2021-05-06T01:38:11.000Z",
-          "wordCount": 805,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "LiveLeak shuts down after 15 years online"
-        },
-        {
-          "description": "Comments",
-          "link": "https://www.scientificamerican.com/article/major-depressive-disorders-have-an-enormous-economic-impact/",
-          "publishedOn": "2021-05-06T01:34:54.000Z",
-          "wordCount": 1311,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Major Depressive Disorders Have an Enormous Economic Impact"
-        },
-        {
-          "description": "Comments",
-          "link": "https://news.ycombinator.com/item?id=27057978",
-          "publishedOn": "2021-05-06T01:06:37.000Z",
-          "wordCount": 4473,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Ask HN: How do you generally build a product?"
-        },
-        {
-          "description": "Comments",
-          "link": "https://pxlnv.com/linklog/california-exception/",
-          "publishedOn": "2021-05-05T21:52:35.000Z",
-          "wordCount": 405,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "The California Exception"
-        },
-        {
-          "description": "Comments",
-          "link": "https://www.workatastartup.com/jobs/43771",
-          "publishedOn": "2021-05-05T21:00:24.000Z",
-          "wordCount": 395,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Zumo Labs (YC W20) Is Hiring a Product Manager"
-        },
-        {
-          "description": "Comments",
-          "link": "https://blog.google/inside-google/life-at-google/hybrid-approach-work/",
-          "publishedOn": "2021-05-05T20:53:18.000Z",
-          "wordCount": 1756,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "A Hybrid Approach to Work"
-        },
-        {
-          "description": "Comments",
-          "link": "https://blog.px.dev/open-source-release/",
-          "publishedOn": "2021-05-05T20:32:46.000Z",
-          "wordCount": 1257,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Open sourcing Pixie under Apache 2.0 license"
-        },
-        {
-          "description": "Comments",
-          "link": "http://www.falkoriemenschneider.de/a__2021-05-10__Six-years-of-professional-Clojure-development.html",
-          "publishedOn": "2021-05-05T19:53:33.000Z",
-          "wordCount": 1301,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Six years of professional Clojure development"
-        },
-        {
-          "description": "Comments",
-          "link": "https://www.csweapons.com",
-          "publishedOn": "2021-05-05T19:15:41.000Z",
-          "wordCount": 7,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Show HN: CS Weapons – Counter-Strike weapon data comparison app"
-        },
-        {
-          "description": "Comments",
-          "link": "https://markodenic.com/posts/html-tips/",
-          "publishedOn": "2021-05-05T19:14:40.000Z",
-          "wordCount": 605,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "HTML Tips (2020)"
-        },
-        {
-          "description": "Comments",
-          "link": "https://mysteries.wizardzines.com/50ms-request.html",
-          "publishedOn": "2021-05-05T18:41:05.000Z",
-          "wordCount": 14076,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "The Case of the 50ms request"
-        },
-        {
-          "description": "Comments",
-          "link": "https://undark.org/2021/01/25/debate-over-melanoma-diagnosis/",
-          "publishedOn": "2021-05-05T18:32:37.000Z",
-          "wordCount": 2464,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Are we screening too much for skin cancer? It's complicated"
-        },
-        {
-          "description": "Comments",
-          "link": "http://www.macflim.com",
-          "publishedOn": "2021-05-05T18:20:35.000Z",
-          "wordCount": 1106,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "MacFlim: Full-motion video on B&W Macs"
-        },
-        {
-          "description": "Comments",
-          "link": "https://github.com/timvisee/send",
-          "publishedOn": "2021-05-05T17:25:43.000Z",
-          "wordCount": 1215,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Send: A Fork of Mozilla's Firefox Send"
-        },
-        {
-          "description": "Comments",
-          "link": "https://technicshistory.com/2021/05/05/the-pumping-engine/",
-          "publishedOn": "2021-05-05T15:57:26.000Z",
-          "wordCount": 4178,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "The Pumping Engine"
-        },
-        {
-          "description": "Comments",
-          "link": "https://github.com/andymatuschak/orbit",
-          "publishedOn": "2021-05-05T15:50:53.000Z",
-          "wordCount": 1508,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Orbit: an experimental platform for small tasks repeated over time"
-        },
-        {
-          "description": "Comments",
-          "link": "https://blubrry.com/microsoftresearch/76856095/120-advancing-excel-as-a-programming-language-with-andy-gordon-and-simon-peyton-jones/",
-          "publishedOn": "2021-05-05T11:42:48.000Z",
-          "wordCount": 270,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Advancing Excel as a programming language [audio]"
-        },
-        {
-          "description": "Comments",
-          "link": "https://phys.org/news/2021-05-machine-cosmological-simulations.html",
-          "publishedOn": "2021-05-05T09:51:05.000Z",
-          "wordCount": 1912,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Machine learning accelerates cosmological simulations"
-        },
-        {
-          "description": "Comments",
-          "link": "https://github.com/ClearURLs/Addon/",
-          "publishedOn": "2021-05-05T07:46:54.000Z",
-          "wordCount": 1348,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "ClearURLs – automatically remove tracking elements from URLs"
-        },
-        {
-          "description": "Comments",
-          "link": "https://furbo.org/2013/06/28/the-origin-of-tweet/",
-          "publishedOn": "2021-05-05T03:16:30.000Z",
-          "wordCount": 1894,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "The origin of “tweet” at Twitter (2013)"
-        },
-        {
-          "description": "Comments",
-          "link": "https://en.wikipedia.org/wiki/1700_Cascadia_earthquake",
-          "publishedOn": "2021-05-05T02:24:01.000Z",
-          "wordCount": 3124,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "1700 Cascadia Earthquake"
-        },
-        {
-          "description": "Comments",
-          "link": "http://evan.nemerson.com/2021/05/04/portability-is-reliability/",
-          "publishedOn": "2021-05-05T00:01:06.000Z",
-          "wordCount": 2763,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Portability Is Reliability"
-        },
-        {
-          "description": "Comments",
-          "link": "https://www.vox.com/22410713/lumber-prices-shortage",
-          "publishedOn": "2021-05-04T11:49:52.000Z",
-          "wordCount": 4506,
-          "sourceHref": "https://news.ycombinator.com/rss",
-          "sourceTitle": "Hacker News",
-          "title": "Lumber mania is sweeping North America"
-        }
-      ]
+      "href": "https://blog.comma.ai/feed.xml",
+      "articles": []
     },
     {
       "href": "https://blog.google/technology/ai/rss",
