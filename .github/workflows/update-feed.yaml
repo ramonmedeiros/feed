@@ -23,7 +23,11 @@ jobs:
       - name: Install dependencies
         run: npm i
       - name: Build the feed
-        run: npm run build
+        run: |
+          npm run build
+          ls -l
+          echo "feed.ramonmedeiros.dev" > CNAME
+          ls -s 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
