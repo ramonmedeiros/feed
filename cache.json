@@ -1,0 +1,565 @@
+{
+  "sources": [
+    {
+      "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
+      "articles": [
+        {
+          "description": "Posted by Priya Wadhwa, Jake Sanders, Google Open Source Security Team\n\nWith over 16 million pulls per month, Google’s `distroless` base images are widely used and depended on by large projects like Kubernetes and Istio. These minimal images don’t include common tools like shells or package managers, making their attack surface (and download size!) smaller than traditional base images such as `ubuntu` or `alpine`. Even with this additional protection, users could still fall prey to typosquatting attacks, or…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/FLp9ykAkb4U/making-internet-more-secure-one-signed.html",
+          "publishedOn": "2021-05-06T13:00:00.002Z",
+          "wordCount": 869,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Making the Internet more secure one signed container at a time"
+        },
+        {
+          "description": "Alex Gough, Engineer, Chrome Platform Security Team\nChrome 90 for Windows adopts Hardware-enforced Stack Protection, a mitigation technology to make the exploitation of security bugs more difficult for attackers. This is supported by Windows 20H1 (December Update) or later, running on processors with Control-flow Enforcement Technology (CET) such as Intel 11th Gen or AMD Zen 3 CPUs. With this mitigation the processor maintains a new, protected, stack of valid return addresses (a shadow stack). This improves…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/IB3cidyQPkc/enabling-hardware-enforced-stack.html",
+          "publishedOn": "2021-05-04T17:00:00.018Z",
+          "wordCount": 2167,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Enabling Hardware-enforced Stack Protection (cetcompat) in Chrome"
+        },
+        {
+          "description": "Posted by Krish Vitaldevara, Director of Product Management Trust & Safety, Google Play\n\nProviding safe experiences to billions of users and millions of Android developers has been one of the highest priorities for Google Play for many years. Last year we introduced new policies, improved our systems, and further optimized our processes to better protect our users, assist good developers and strengthen our guard against bad apps and developers. Additionally, in 2020, Google Play Protect scanned over 100B in…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/W4mBUTFAZVU/how-we-fought-bad-apps-and-developers.html",
+          "publishedOn": "2021-04-21T17:01:00.000Z",
+          "wordCount": 1022,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "How we fought bad apps and developers in 2020"
+        },
+        {
+          "description": "Posted by Brooke Davis and Eugene Liderman, Android Security and Privacy Team\n\nWith all of the challenges from this past year, users have become increasingly dependent on their mobile devices to create fitness routines, stay connected with loved ones, work remotely, and order things like groceries with ease. According to eMarketer, in 2020 users spent over three and a half hours per day using mobile apps. With so much time spent on mobile devices, ensuring the safety of mobile apps is more important than ev…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/CWNZYkPtbRw/a-new-standard-for-mobile-app-security.html",
+          "publishedOn": "2021-04-15T13:00:00.001Z",
+          "wordCount": 970,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "A New Standard for Mobile App Security"
+        },
+        {
+          "description": "Posted by Wedson Almeida Filho, Android Team  \nIn our previous post, we announced that Android now supports the Rust programming language for developing the OS itself. Related to this, we are also participating in the effort to evaluate the use of Rust as a supported language for developing the Linux kernel. In this post, we discuss some technical aspects of this work using a few simple examples. \n  \nC has been the language of choice for writing kernels for almost half a century because it offers the level …",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/LvBcsVnFFDc/rust-in-linux-kernel.html",
+          "publishedOn": "2021-04-14T23:27:00.002Z",
+          "wordCount": 5801,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Rust in the Linux kernel"
+        }
+      ]
+    },
+    {
+      "href": "http://googletesting.blogspot.com/atom.xml",
+      "articles": [
+        {
+          "description": ".code-reserved {     color: #9c27b0;   }   .code-method,   .code-attribute {     color: #3367d6;   }   .code-string {     color: #0f9d58;   }   .code-numerical {     color: #c53929;   }   .code-changed-added {     background-color: #d9ead3;     border: 1px solid green;   }   .code-changed-removed {     background-color: #f4cccc;     border: 1px solid red;   }  By Goran Petrovic\n\nHistory  \n\n\nIt’s been a long-standing tradition of my team to organize hackathons twice a year. In weeks prior to the hackathon, t…",
+          "link": "http://feedproxy.google.com/~r/blogspot/RLXA/~3/LbIQe4Pahdg/mutation-testing.html",
+          "publishedOn": "2021-04-12T15:16:00.001Z",
+          "wordCount": 5406,
+          "sourceHref": "http://googletesting.blogspot.com/atom.xml",
+          "sourceTitle": "Google Testing Blog",
+          "title": "Mutation Testing"
+        }
+      ]
+    },
+    {
+      "href": "https://changelog.com/feed",
+      "articles": [
+        {
+          "description": "This week Elixir creator José Valim joins Jerod and Practical AI’s Daniel Whitenack to discuss Numerical Elixir, his new project that’s bringing Elixir into the world of machine learning. We discuss why José chose this as his next direction, the team’s layered approach, influences and collaborators on this effort, and their awesome collaborative notebook project that’s built on Phoenix LiveView.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappe…",
+          "link": "https://changelog.com/podcast/439",
+          "publishedOn": "2021-05-07T21:00:00.000Z",
+          "wordCount": 446,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Changelog 439: Elixir meets machine learning"
+        },
+        {
+          "description": "The benefits of such a setup are numerous, especially for small sites and side projects:\nHosting a static website is much easier than a “real” server - there’s many free and reliable options (like GitHub, GitLab Pages, Netlify, etc), and it scales to basically infinity without any effort.\nThe how is also super interesting:\nSo how do you use a database on a static file hoster? Firstly, SQLite (written in C) is compiled to WebAssembly. SQLite can be compiled with emscripten without any modifications, and the …",
+          "link": "https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/",
+          "publishedOn": "2021-05-07T17:28:00.000Z",
+          "wordCount": 1707,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Hosting SQLite databases on GitHub Pages"
+        },
+        {
+          "description": "Paul Bakaus from Google Web Creators joins Amal, Nick, &amp; Jerod to talk about this new initiative to promote, educate, and equip people to create on the web.\nAlong the way we discuss Web Stories, AMP, RSS, Google Reader, and more, of course. Join us: for a more dope web!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by doing — Python, data, AI, machine learning, Kubernetes, Docker, and more. Just op…",
+          "link": "https://changelog.com/jsparty/174",
+          "publishedOn": "2021-05-07T16:30:00.000Z",
+          "wordCount": 410,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "JS Party 174: For a more dope web!"
+        },
+        {
+          "description": "Mark Eriksen:\nMany great Phoenix LiveView examples exist. They often show the ease and power of LiveView but stop at multiple browsers talking to a single web server. I wanted to go further and create a fully clustered, globally distributed, privately networked, secure application. What’s more, I wanted to have fun doing it.\nSo I set out to see if I could create a fully distributed, clustered, privately networked, global game server system. Spoiler Alert: I did.\nI like the way he frames his experience. He s…",
+          "link": "https://fly.io/blog/building-a-distributed-turn-based-game-system-in-elixir/",
+          "publishedOn": "2021-05-07T14:33:00.000Z",
+          "wordCount": 1384,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Building a distributed turn-based game system in Elixir"
+        },
+        {
+          "description": "Paul Graham on preposterous sounding ideas and how easy they are to dismiss:\nMost implausible-sounding ideas are in fact bad and could be safely dismissed. But not when they’re proposed by reasonable domain experts. If the person proposing the idea is reasonable, then they know how implausible it sounds. And yet they’re proposing it anyway. That suggests they know something you don’t. And if they have deep domain expertise, that’s probably the source of it.\nSuch ideas are not merely unsafe to dismiss, but d…",
+          "link": "http://paulgraham.com/newideas.html",
+          "publishedOn": "2021-05-07T13:47:00.000Z",
+          "wordCount": 1304,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Crazy new ideas"
+        },
+        {
+          "description": "Perspectives from both the workshop leaders perspective, as well as the workshop participants. What are some top tips, things to watch out for, and ways to innovate and keep your participants engaged, especially in the remote world we are now living in.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nTeleport – Quickly access any resource anywhere using a Unified Access Plane that consolidates access controls and auditing across a…",
+          "link": "https://changelog.com/gotime/178",
+          "publishedOn": "2021-05-06T15:25:00.000Z",
+          "wordCount": 376,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Go Time 178: What makes wonderful workshops?"
+        },
+        {
+          "description": "The motivation for building Slidev:\nI always found myself spending too much time styling and layouting slides when using apps like PowerPoint / Keynote / Google Slides. Whenever I need to share code snippets, I would also need to use other tools to generate the highlighted code as images over and over again.\nSo as a frontend developer, why not solve it the way that fits better with what I am good at?\nLooks slick: themeable, hackable, and you write your slides in Markdown. 👌\nDiscuss on Changelog News",
+          "link": "https://sli.dev/",
+          "publishedOn": "2021-05-06T14:56:00.000Z",
+          "wordCount": 75,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Slidev – presentation slides for developers"
+        },
+        {
+          "description": "ClearURLs is an add-on based on the new WebExtensions technology and is optimized for Firefox and Chrome based browsers.\nThis extension will automatically remove tracking elements from URLs to help protect your privacy when browse through the Internet, which is regularly updated by us and can be found here.\nDiscuss on Changelog News",
+          "link": "https://github.com/ClearURLs/Addon/",
+          "publishedOn": "2021-05-05T15:40:00.000Z",
+          "wordCount": 1348,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An extension that automatically removes tracking elements from URLs"
+        },
+        {
+          "description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.\nOur #1 goal is speed – you should be able to get a share link in less than 2 seconds with the absolute minimum number of clicks.\nThat’s why Wormhole supports instant file streaming. There’s no need to wait for your files to finish uploading before you can copy the link and send it to your recipient. The recipient can star…",
+          "link": "https://wormhole.app/?ref=changelog",
+          "publishedOn": "2021-05-05T14:47:00.000Z",
+          "wordCount": 62,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Wormhole – Simple, fast, private file sharing ✨"
+        },
+        {
+          "description": "This comes from Mike Bostock (D3.js) who knows a thing or two about visualizing data in the browser.\nIt has a concise and (hopefully) memorable API to foster fluency — and plenty of examples to learn from and copy-paste.\n\nDiscuss on Changelog News",
+          "link": "https://observablehq.com/@observablehq/plot",
+          "publishedOn": "2021-05-05T13:26:00.000Z",
+          "wordCount": 8,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Plot – a JS library to help you quickly visualize tabular data"
+        },
+        {
+          "description": "Smart home data is complicated. There are all kinds of devices, and they are in many different combinations, geographies, configurations, etc. This complicated data situation is further exacerbated during a pandemic when time series data seems to be filled with anomalies. Evan Welbourne joins us to discuss how Amazon is synthesizing this disparate data into functionality for the next generation of smart homes. He discusses the challenges of working with smart home technology, and he describes how they devel…",
+          "link": "https://changelog.com/practicalai/132",
+          "publishedOn": "2021-05-04T15:30:00.000Z",
+          "wordCount": 434,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 132: Generating \"hunches\" using smart home data 🏠"
+        },
+        {
+          "description": "This repository offers a collection of services with great free tiers for developers on a budget. Because not everyone has 20$ per month to spend on app or database hosting for every single side-project.\nNowadays, a lot of services are offering really good free tier more than enough for testing small apps and even put them in production. They are just waiting to be used by you.\nI got a kick out of their FTDD acronym: Free Tier Driven Development\nDiscuss on Changelog News",
+          "link": "https://github.com/255kb/stack-on-a-budget",
+          "publishedOn": "2021-05-04T14:23:00.000Z",
+          "wordCount": 1015,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A collection of services with great free tiers for developers on a budget"
+        },
+        {
+          "description": "This article provides an in-depth view and comparison on modern regular expression engines. Hyperscan and RE2 come out on top and offer great scalability for large scale regex applications.\nDiscuss on Changelog News",
+          "link": "https://geekmonkey.org/regular-expression-matching-at-scale-with-hyperscan/",
+          "publishedOn": "2021-05-04T13:37:00.000Z",
+          "wordCount": 1998,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Regular expression matching at scale with Hyperscan"
+        },
+        {
+          "description": "In the wake of recent events at Basecamp (and DHH’s continued involvement with Ruby on Rails), many have questioned the governance process for Rails. This post from “The Rails Team” is meant to “clarify how the team is structured,” and how they operate.\n…no one on the Core team, or their employers, have sole control over the framework or community. There is no individual or subset of individuals who have power to enact policies unilaterally in the Rails community spaces that we operate (for example on issue…",
+          "link": "https://weblog.rubyonrails.org/2021/5/2/rails-governance/",
+          "publishedOn": "2021-05-03T16:19:08.000Z",
+          "wordCount": 287,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Clarity on Rails' governance"
+        },
+        {
+          "description": "Thanks to Muhammad Raza for sharing some of his favorite command line one liners to make his workflow productive and more efficient.\nAs a regular Linux user, I have been using commandline extensively to perform daily tasks such as creating files, navigating through directories, moving files and editing files using vim.\nDiscuss on Changelog News",
+          "link": "https://muhammadraza.me/2021/Oneliners/",
+          "publishedOn": "2021-05-03T16:01:29.000Z",
+          "wordCount": 489,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "My favorite (command line) one liners"
+        },
+        {
+          "description": "Any git repository may contain tons of information about commits, contributors, and files. Extracting this information is not always trivial, mostly because there are a gadzillion options to a gadzillion git commands – I don’t think there is a single person alive who knows them all. Probably not even Linus Torvalds himself :).\n\nDiscuss on Changelog News",
+          "link": "https://github.com/arzzen/git-quick-stats",
+          "publishedOn": "2021-05-03T15:31:00.000Z",
+          "wordCount": 1708,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A simple and efficient way to access various stats in a Git repo"
+        },
+        {
+          "description": "David Cassel, on The New Stack:\nWidely-respected security expert Dan Kaminsky passed away on April 23 from diabetic ketoacidosis at the age of 42. His considerable legacy went beyond expertise with a rare and memorable kindness.\nI met Dan very briefly at ShmooCon back in 2004. His kindness was memorable, for sure, but the thing I remember most was just how larger-than-life he was to me at the time. The guy contributed so much to the infosec community and yet remained humble and kind despite it all. It was s…",
+          "link": "https://thenewstack.io/remembering-dan-kaminsky/",
+          "publishedOn": "2021-05-03T14:42:00.000Z",
+          "wordCount": 2474,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Remembering Dan Kaminsky"
+        },
+        {
+          "description": "The feed is hosted on GitHub Pages (which means it’s public to all) and is static until it gets rebuilt. Building is done periodically via a GitHub Action; configuration is via a YAML file (It’d be cooler if you could import an OPML instead). Even if it’s not something you’d use, I think this project is interesting for two reasons:\nIt’s part of a “GitHub as Stack” meta-trend\nIt promotes RSS, which is one of the web’s great treasures\nDiscuss on Changelog News",
+          "link": "https://github.com/osmoscraft/osmosfeed",
+          "publishedOn": "2021-05-03T13:50:00.000Z",
+          "wordCount": 1197,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A web-based RSS reader running entirely from your GitHub repo"
+        },
+        {
+          "description": "KBall, Amal, and Feross are joined by special guest Jenn Creighton to talk about all things Apollo. How does Apollo fit into the GraphQL ecosystem, what’s the next big thing, and when would you choose to use it?\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by doing — Python, data, AI, machine learning, Kubernetes, Docker, and more. Just open your browser and dive in. Learn more and keep your teams’ sk…",
+          "link": "https://changelog.com/jsparty/173",
+          "publishedOn": "2021-04-30T16:00:00.000Z",
+          "wordCount": 397,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "JS Party 173: Blasting off with Apollo 🚀"
+        },
+        {
+          "description": "A handy shell script to help you undo all the things (commits, pushes, pulls, you name it).\n\nDiscuss on Changelog News",
+          "link": "https://github.com/Bhupesh-V/ugit",
+          "publishedOn": "2021-04-30T14:16:00.000Z",
+          "wordCount": 1093,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "ugit helps you undo your last git command with grace"
+        },
+        {
+          "description": "SQLite is so hot right now.\nEven if you start out small and later need to upscale, as long as your web application can run on the same machine as the database, which it can in 99% of the time, you can just upgrade the hardware to a beefier machine and keep business as usual.\nThe only time you need to consider a client-server setup is…\nDiscuss on Changelog News",
+          "link": "https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html",
+          "publishedOn": "2021-04-30T13:30:00.000Z",
+          "wordCount": 1499,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "SQLite is the only database you will ever need in most cases"
+        },
+        {
+          "description": "Startups are all about iterating quickly, building MVPs, and finding that elusive product market fit, so how does Go fit into that picture? Is Go a good choice for startups, or is it exclusively for the larger corporations? In this episode Jon is joined by four startup founders to learn about their experience building a startup with Go.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by doing — Python, d…",
+          "link": "https://changelog.com/gotime/177",
+          "publishedOn": "2021-04-29T15:45:00.000Z",
+          "wordCount": 440,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Go Time 177: Building startups with Go"
+        },
+        {
+          "description": "A solid primer on using openssl to encrypt all the things, which in this day and age is a skill that shoiuld be taught in secondary school right alongside how to bake a cake and change a tire.\nDiscuss on Changelog News",
+          "link": "https://opensource.com/article/21/4/encryption-decryption-openssl",
+          "publishedOn": "2021-04-29T15:43:00.000Z",
+          "wordCount": 3214,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Encrypting and decrypting files with OpenSSL"
+        },
+        {
+          "description": "This article starts with a concise description of the relationship and differences of these 3 commonly used industry terms. Then it digs into the history.\nDeep learning is a subset of machine learning, which in turn is a subset of artificial intelligence, but the origins of these names arose from an interesting history. In addition, there are fascinating technical characteristics that can differentiate deep learning from other types of machine learning…essential working knowledge for anyone with ML, DL, or …",
+          "link": "https://www.exxactcorp.com/blog/Deep-Learning/difference-between-ai-machine-learning-and-deep-learning",
+          "publishedOn": "2021-04-29T14:15:00.000Z",
+          "wordCount": 6510,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Disentangling AI, machine learning, and deep learning"
+        },
+        {
+          "description": "Most software companies have to make decisions on whether to build a custom software or buy it from a vendor. In the last year I read many good articles on the web that helped shape my thoughts on how to approach these discussions. This article lists of questions that I have started to use to understand and make these decisions.\nDiscuss on Changelog News",
+          "link": "https://shekhargulati.com/2021/03/06/questions-to-ask-when-making-build-versus-buy-decision/",
+          "publishedOn": "2021-04-29T13:26:00.000Z",
+          "wordCount": 2146,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Questions to ask when making Build vs Buy decisions"
+        },
+        {
+          "description": "April Fool’s may be over, but once we set up a system to react every time someone typed Command+C, we realized there was also an opportunity to learn about how people use our site. Here’s what we found.\nTLDR; one in four users copy something within five minutes of hitting a page. But this blog post (and accompanying podcast episode) goes deep into the details and lays it all out for you with pretty charts.\nDiscuss on Changelog News",
+          "link": "https://stackoverflow.blog/2021/04/19/how-often-do-people-actually-copy-and-paste-from-stack-overflow-now-we-know/",
+          "publishedOn": "2021-04-28T18:37:00.000Z",
+          "wordCount": 6419,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "How often do people actually copy/paste from Stack Overflow? Now we know"
+        },
+        {
+          "description": "This is a solid move in protecting people’s privacy, especially for those completely unaware. Sounds like WordPress is considering the same  and a helpful Hacker News commenter typed up how to accomplish it on a bevy of popular web servers.\nRelated: I just deployed this to changelog.com as well. 😎\nDiscuss on Changelog News",
+          "link": "https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/",
+          "publishedOn": "2021-04-28T16:07:00.000Z",
+          "wordCount": 174,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "GitHub blocks FLoC across all of GitHub Pages"
+        },
+        {
+          "description": "Casey Newton interviewed a half-dozen Basecamp employees, as well as David Heinemeier Hansson (Basecamp co-founder) to write this account of recent events.\nHow a list of “funny” customer names triggered an internal reckoning. The controversy that embroiled enterprise software maker Basecamp this week began more than a decade ago, with a simple list of customers. Around 2009, Basecamp customer service representatives began keeping a list of names that they found funny. More than a decade later, current emplo…",
+          "link": "https://www.platformer.news/p/-what-really-happened-at-basecamp",
+          "publishedOn": "2021-04-28T13:26:00.000Z",
+          "wordCount": 2704,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "What really happened at Basecamp"
+        },
+        {
+          "description": "Ro Gupta from CARMERA teaches Daniel and Chris all about road intelligence.  CARMERA maintains the maps that move the world, from HD maps for automated driving to consumer maps for human navigation.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by doing — Python, data, AI, machine learning, Kubernetes, Docker, and more. Just open your browser and dive in. Learn more and keep your teams’ skills sharp at…",
+          "link": "https://changelog.com/practicalai/131",
+          "publishedOn": "2021-04-27T19:15:00.000Z",
+          "wordCount": 8664,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 131: Mapping the world"
+        },
+        {
+          "description": "WSLg provides an integrated experience for developers, scientists or enthusiasts that prefer or need to run Windows on their PC but also need the ability to run tools or applications which works best, or exclusively, in a Linux environment. While users can accomplish this today using a multiple system setup, with individual PC dedicated to Windows and Linux, virtual machine hosting either Windows or Linux, or an XServer running on Windows and projected into WSL, WSLg provides a more integrated, user friendl…",
+          "link": "https://github.com/microsoft/wslg",
+          "publishedOn": "2021-04-27T15:35:00.000Z",
+          "wordCount": 4017,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "WSLg brings Linux GUI apps to Windows in a fully integrated fashion"
+        },
+        {
+          "description": "“The tests are timing out again!”, someone yells. “Alright I’ll bump them”, you instinctively respond. Then you pause and feel uneasy. Is there another way?\nIn this blog post, I share my growing disconnect with code-coverage and unit-testing. I then detail the method I’ve been using for the greater part of 7 years and how it still allows me to preach at length that being correct is the single most important thing for a developer.\nDiscuss on Changelog News",
+          "link": "https://www.iamjonas.me/2021/04/the-test-plan.html",
+          "publishedOn": "2021-04-27T14:47:00.000Z",
+          "wordCount": 2857,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The test-plan"
+        },
+        {
+          "description": "What does “developer productivity” mean to you?\nAt face value, when we think of developer productivity we might think of effectiveness in time management, communication, and task completion. Although we are drawn to personal workflow or time management tools, and learning secrets to improving our productivity, ironically this quest for the holy grail can sometimes take us off course and be a detriment to our productivity. … As a developer of scientific software, and one who has transitioned to working remot…",
+          "link": "https://cacm.acm.org/opinion/articles/252174-the-10-best-practices-for-remote-software-engineering/fulltext",
+          "publishedOn": "2021-04-27T13:45:00.000Z",
+          "wordCount": 4572,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "10 best practices for remote software engineering"
+        },
+        {
+          "description": "This week we’re talking about NFTs — that’s right, non-fungible tokens and we’re joined by Mikeal Rogers, who’s leading all things InterPlanetary Linked Data at Protocol Labs. We go down the NFT rabbit hole on a very technical level and we come out the other side with clarity and a compelling use of NFTs.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSourcegraph – Sourcegraph is universal code search for every developer and team…",
+          "link": "https://changelog.com/podcast/438",
+          "publishedOn": "2021-04-27T11:00:00.000Z",
+          "wordCount": 16131,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Changelog 438: Let's mint some NFTs"
+        },
+        {
+          "description": "Marko Denic shared 10 or so very interesting CSS tips (and tricks) in this post with Codepen examples to play with. There were a few I hadn’t heard of, which is awesome.\nDiscuss on Changelog News",
+          "link": "https://markodenic.com/css-tips/",
+          "publishedOn": "2021-04-26T20:03:00.000Z",
+          "wordCount": 746,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "CSS tips and tricks (you won’t see in most tutorials)"
+        },
+        {
+          "description": "High-profile entrepreneurs like Elon Musk, venture capitalists like Peter Thiel and Keith Rabois, and big companies like Oracle and HP Enterprise are all leaving California. During COVID-19, Zoom-enabled tech workers have discovered the benefits of remote work from cheaper, less congested communities elsewhere. Is this the end of Silicon Valley as we know it? Perhaps. But other challenges to Silicon Valley’s preeminence are more fundamental than the tech diaspora.\nUnderstanding four trends that may shape th…",
+          "link": "https://www.oreilly.com/radar/the-end-of-silicon-valley-as-we-know-it/?sfmc_id=194547222",
+          "publishedOn": "2021-04-26T19:10:45.000Z",
+          "wordCount": 6345,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The end of Silicon Valley as we know it?"
+        },
+        {
+          "description": "Brett Cannon, who is a Python core developer (and a tall, snarky Canadian):\nI felt it was time to do another blog post to directly address the issue of entitlement by some open source users which is hurting open source, both for themselves and for others. I want to get the point across that open source maintainers owe you quite literally nothing when it comes to their open source code, and treating them poorly is unethical. And to me, this is the underlying social contract of open source. (emphasis added)\nY…",
+          "link": "https://snarky.ca/the-social-contract-of-open-source/",
+          "publishedOn": "2021-04-26T16:16:00.000Z",
+          "wordCount": 2066,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The social contract of open source"
+        },
+        {
+          "description": "Mongita is a lightweight embedded document database that implements a commonly-used subset of the MongoDB/PyMongo interface. Mongita differs from MongoDB in that instead of being a server, Mongita is a self-contained Python library.  Mongita can be configured to store its documents either on disk or in memory.\nI can’t speak to the implementation, but I love the idea behind this project. Already know and love Mongo? Here’s a way to use it in an embedded fashion with all of the advantages that come with such …",
+          "link": "https://github.com/scottrogowski/mongita",
+          "publishedOn": "2021-04-26T15:26:00.000Z",
+          "wordCount": 1396,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Mongita is to MongoDB as SQLite is to SQL"
+        },
+        {
+          "description": "This is an excellent article about understanding technical debt:\nIt is a fact that, over time, all development teams get slowed down by the existing codebase. But why? Is it because maintenance is inevitable? Or because we could do something better in the first place? Or both?\nLuca argues that technical debt is introduced as a by-product of disagreement, which itself is a by-product of two phenomena: wrong design, and rapid evolution. Thoughtful stuff. Well worth your time.\nDiscuss on Changelog News",
+          "link": "https://refactoring.fm/p/the-true-meaning-of-technical-debt",
+          "publishedOn": "2021-04-26T14:24:00.000Z",
+          "wordCount": 1484,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The true meaning of technical debt 💸"
+        },
+        {
+          "description": "Oli Larkin:\nThis is a curated list of my favourite music DSP and audio programming resources. It was originally meant to be an official “Awesome list”, but apparently you are not meant to write in the first person, so it is now a “more awesome” list.\nI’m still giving this the awesome topic, despite his first person point of view. Oli is a long-time audio programmer, so he’s well positioned to curate a list like this one.\nDiscuss on Changelog News",
+          "link": "https://github.com/olilarkin/awesome-musicdsp",
+          "publishedOn": "2021-04-26T13:15:00.000Z",
+          "wordCount": 3424,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A curated list of music DSP and audio programming resources"
+        },
+        {
+          "description": "The gang talks about thier favorite software and hardware as developers. Brian Douglas joins to share his unique and open GitHub Actions flow.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by doing — Python, data, AI, machine learning, Kubernetes, Docker, and more. Just open your browser and dive in. Learn more and keep your teams’ skills sharp at oreilly.com/changelog\n\n    \nSquare – Develop on the pla…",
+          "link": "https://changelog.com/jsparty/172",
+          "publishedOn": "2021-04-23T15:20:00.000Z",
+          "wordCount": 10500,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "JS Party 172: Sweet setups for easier dev"
+        },
+        {
+          "description": "In my 15+ years of web development, there are very few things I can say are unequivocally a good idea. It almost always does depend.\nStoring timestamps instead of booleans, however, is one of those things I can go out on a limb and say it doesn’t really depend all that much. You might as well timestamp it. There are plenty of times in my career when I’ve stored a boolean and later wished I’d had a timestamp. There are zero times when I’ve stored a timestamp and regretted that decision.\nWhy is that? Because …",
+          "link": "https://changelog.com/posts/you-might-as-well-timestamp-it",
+          "publishedOn": "2021-04-23T14:17:23.000Z",
+          "wordCount": 1416,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "You might as well timestamp it"
+        },
+        {
+          "description": "Thomas Ptacek writing on Fly’s blog:\nEven though most of our users deliver software to us as Docker containers, we don’t use Docker to run them. Docker is great, but we’re high-density multitenant, and despite strides, Docker’s isolation isn’t strong enough for that. So, instead, we transmogrify container images into Firecracker micro-VMs.\nThis is a fun, technical read about how they’re converting Docker’s OCI images (turns out they’re just a stack of tarballs) into Firecracker VMs. It’s much simpler to acc…",
+          "link": "https://fly.io/blog/docker-without-docker/",
+          "publishedOn": "2021-04-23T13:28:00.000Z",
+          "wordCount": 2331,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Docker without Docker"
+        },
+        {
+          "description": "The internet wouldn’t exist as we know it if it weren’t for TCP and UDP, yet many developers don’t quite understand the technology powering the web. In this episode we talk with Adam Woodbeck, author of Network Programming with Go, to learn about TCP and UDP; what they are, how they work, and how one can experiment with tools like Wireshark and Go to learn more.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – …",
+          "link": "https://changelog.com/gotime/176",
+          "publishedOn": "2021-04-22T16:15:00.000Z",
+          "wordCount": 12013,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Go Time 176: TCP & UDP"
+        },
+        {
+          "description": "The accompanying video (22:36) explains why and walks you through the development process as well.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/jdah/tetris-os",
+          "publishedOn": "2021-04-22T14:29:00.000Z",
+          "wordCount": 864,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An operating system that only plays Tetris"
+        },
+        {
+          "description": "You can think of Julia Evans’ new dnspeep tool as similar to tcpdump but specifically for watching your machine’s DNS queries.\nOne thing I like about this tool is that it gives me a sense for what programs on my computer are using the Internet! For example, I found out that something on my computer is making requests to ping.manjaro.org from time to time for some reason, probably to check I’m connected to the internet.\nA friend of mine actually discovered using this tool that he had some corporate monitorin…",
+          "link": "https://jvns.ca/blog/2021/03/31/dnspeep-tool/",
+          "publishedOn": "2021-04-22T13:42:00.000Z",
+          "wordCount": 1346,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A tool to spy on your DNS queries"
+        },
+        {
+          "description": "The music you hear is generated in your browser by a randomised algorithm, below you can see the notes and parameters that are currently in use. You can also interact with various parameters and buttons manually. The green autopilot switches change how automatic playback is. Leave them on for a lean-back experience. Buttons labelled ⟳ will generate new patterns. Source Code is on GitHub.\nBangin’\n\nDiscuss on Changelog News",
+          "link": "https://github.com/vitling/acid-banger",
+          "publishedOn": "2021-04-21T16:19:00.000Z",
+          "wordCount": 627,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An algorithmic human-computer techno jam"
+        },
+        {
+          "description": "John Resig and Loren Sands-Ramshaw first announced the beta of their GraphQL book (discussed here) nearly three years ago. After years of writing and re-writing, it’s now ready to be released. Loren had this to say in the linked announcement post:\nThis project has taken much longer than we expected, and the length of the book has wound up being much longer than we expected. We’d like to give a huge shout-out to our 740 beta readers who stuck with us through four major versions of the in-progress text.\nThe G…",
+          "link": "https://blog.graphql.guide/releasing-the-graphql-guide-d9be04747148?source=friends_link&sk=425e4952c1fbf88f1fcb538d726344a3",
+          "publishedOn": "2021-04-21T15:32:00.000Z",
+          "wordCount": 1160,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Releasing The GraphQL Guide"
+        },
+        {
+          "description": "Lily Cook:\nIn this article, I will talk about trending tech skills in 2021 that may help trainees or junior developers secure their desired position at FAANG. I will also uncover some tips for successful interviewing at the Big Five tech giants and reveal whether a cover letter can assist you in your FAANG job search. Let’s dive in.\nDiscuss on Changelog News",
+          "link": "https://cvcompiler.com/blog/getting-into-faang-as-an-aspiring-developer/",
+          "publishedOn": "2021-04-21T14:43:00.000Z",
+          "wordCount": 2390,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Getting into FAANG as a junior developer"
+        },
+        {
+          "description": "Learn the history and evolution of same-origin policy and CORS, understand CORS and the different types of cross-origin access in depth, and learn (some) best practices.\nDiscuss on Changelog News",
+          "link": "https://ieftimov.com/post/deep-dive-cors-history-how-it-works-best-practices/",
+          "publishedOn": "2021-04-21T13:43:00.000Z",
+          "wordCount": 4177,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A deep dive on CORS"
+        },
+        {
+          "description": "Raj Dutt, CEO and co-founder of Grafana Labs:\nOur company has always tried to balance the “value creation” of open source and community with the “value capture” of our monetization strategy. The choice of license is a key pillar of this strategy, and is something that we’ve deliberated on extensively since the company began.\nOver the last few years, we’ve watched closely as almost every at-scale open source company that we admire (such as Elastic, Redis Labs, MongoDB, Timescale, Cockroach Labs, and many oth…",
+          "link": "https://grafana.com/blog/2021/04/20/grafana-loki-tempo-relicensing-to-agplv3/",
+          "publishedOn": "2021-04-20T19:26:00.000Z",
+          "wordCount": 1545,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Grafana, Loki, and Tempo will be relicensed to AGPLv3"
+        }
+      ]
+    },
+    {
+      "href": "https://blog.google/technology/ai/rss",
+      "articles": [
+        {
+          "description": "“Our dictionary doesn’t have a word for shoe” my Uncle Allan Lena said, so when kids ask him what to call it in Yugambeh, he’ll say “jinung gulli” - a foot thing.\n\nUncle Allan Lena is a frontline worker in the battle to reteach the Yugambeh Aboriginal language to the children of southeast Queensland, Australia, where it hasn’t been spoken fluently for decades and thus is – like many other languages around the world – in danger of disappearing.  \n\nFor the younger generation, even general language can be a ch…",
+          "link": "https://blog.google/outreach-initiatives/arts-culture/woolaroo-new-tool-exploring-indigenous-languages/",
+          "publishedOn": "2021-05-05T20:00:00.000Z",
+          "wordCount": 1117,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "Woolaroo: a new tool for exploring indigenous languages"
+        },
+        {
+          "description": "Throughout history, from photography to video to hypertext, artists have pushed the expressive limits of new technologies, and artificial intelligence is no exception. At I/O 2019, Google Research and Google Arts &amp; Culture launched the Artists + Machine Intelligence Grants, providing a range of support and technical mentorship to six artists from around the globe following an open call for proposals. The inaugural grant program sought to expand the field of artists working with Machine Learning (ML) and…",
+          "link": "https://blog.google/outreach-initiatives/arts-culture/when-artists-and-machine-intelligence-come-together/",
+          "publishedOn": "2021-04-29T00:01:00.000Z",
+          "wordCount": 1309,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "When artists and machine intelligence come together"
+        },
+        {
+          "description": "A couple of years ago, Google AI for Social Good’s Bioacoustics team created a ML model that helps the scientific community detect the presence of humpback whale sounds using acoustic recordings. This tool, developed in partnership with the National Oceanic and Atmospheric Association, helps biologists study whale behaviors, patterns, population and potential human interactions. \nWe realized other researchers could use this model for their work, too — it could help them better understand the oceans and prot…",
+          "link": "https://blog.google/technology/ai/whale-tale-about-responsibility-and-ai/",
+          "publishedOn": "2021-04-22T15:00:00.000Z",
+          "wordCount": 1026,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "A whale of a tale about responsibility and AI"
+        },
+        {
+          "description": "The book that led to my visit to Google.\n\nWhen I first visited Google back in 2002, I was a computer science professor at UC Berkeley. My colleague John Hennessey and I were updating our textbook on computer architecture, and Larry Page — who rode a hot-rodded electric scooter at the time — agreed to show me how his then three-year-old company designed its computing for Search. I remember the setup was lean yet powerful: just 6,000 low-cost PC servers and 12,000 PC disks answering 70 million queries around …",
+          "link": "https://blog.google/technology/ai/minimizing-carbon-footprint/",
+          "publishedOn": "2021-04-22T03:00:00.000Z",
+          "wordCount": 1616,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "How we’re minimizing AI’s carbon footprint"
+        }
+      ]
+    }
+  ],
+  "cliVersion": "1.4.0"
+}
