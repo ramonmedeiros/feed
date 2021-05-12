@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Ivan Lozano, Android Team\n\nThe Android team has been working on introducing the Rust programming language into the Android Open Source Project (AOSP) since 2019 as a memory-safe alternative for platform native code development. As with any large project, introducing a new language requires careful consideration. For Android, one important area was assessing how to best fit Rust into Android’s build system. Currently this means the Soong build system (where the Rust support resides), but these desi…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/RTirZGlM7IY/integrating-rust-into-android-open.html",
+          "publishedOn": "2021-05-11T17:31:00.001Z",
+          "wordCount": 2603,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Integrating Rust Into the Android Open Source Project"
+        },
+        {
           "description": "Posted by Priya Wadhwa, Jake Sanders, Google Open Source Security Team\n\nWith over 16 million pulls per month, Google’s `distroless` base images are widely used and depended on by large projects like Kubernetes and Istio. These minimal images don’t include common tools like shells or package managers, making their attack surface (and download size!) smaller than traditional base images such as `ubuntu` or `alpine`. Even with this additional protection, users could still fall prey to typosquatting attacks, or…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/FLp9ykAkb4U/making-internet-more-secure-one-signed.html",
           "publishedOn": "2021-05-06T13:00:00.002Z",
@@ -52,21 +61,29 @@
     },
     {
       "href": "http://googletesting.blogspot.com/atom.xml",
-      "articles": [
-        {
-          "description": ".code-reserved {     color: #9c27b0;   }   .code-method,   .code-attribute {     color: #3367d6;   }   .code-string {     color: #0f9d58;   }   .code-numerical {     color: #c53929;   }   .code-changed-added {     background-color: #d9ead3;     border: 1px solid green;   }   .code-changed-removed {     background-color: #f4cccc;     border: 1px solid red;   }  By Goran Petrovic\n\nHistory  \n\n\nIt’s been a long-standing tradition of my team to organize hackathons twice a year. In weeks prior to the hackathon, t…",
-          "link": "http://feedproxy.google.com/~r/blogspot/RLXA/~3/LbIQe4Pahdg/mutation-testing.html",
-          "publishedOn": "2021-04-12T15:16:00.001Z",
-          "wordCount": 5406,
-          "sourceHref": "http://googletesting.blogspot.com/atom.xml",
-          "sourceTitle": "Google Testing Blog",
-          "title": "Mutation Testing"
-        }
-      ]
+      "articles": []
     },
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "To say that Jeff Adams is a trailblazer when it comes to speech technology is an understatement. Along with many other notable accomplishments, his team at Amazon developed the Echo, Dash, and Fire TV changing our perception of how we could interact with devices in our home. Jeff now leads Cobalt Speech and Language, and he was kind enough to join us for a discussion about human computer interaction, multimodal AI tasks, the history of language modeling, and AI for social good.\nDiscuss on Changelog News\nJoi…",
+          "link": "https://changelog.com/practicalai/133",
+          "publishedOn": "2021-05-11T19:00:00.000Z",
+          "wordCount": 458,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 133: 25 years of speech technology innovation"
+        },
+        {
+          "description": "Hidde de Vries takes a strong, reasoned stance to online criticism of others’ work:\nThis week, a friend shared a blog post that critiqued a popular framework for CSS. Twitter started to discuss if it’s okay to criticise tools. In this post, I’ll say it is not just okay, it is also important.\nThis is a tough subject because we identify so closely with the things we create (our code), but Hidde is right: if we want to progress as an industry (and individually) we need to be able to criticize (constructively) …",
+          "link": "https://hiddedevries.nl/en/blog/2021-05-08-criticism-pushes-the-web-forward/",
+          "publishedOn": "2021-05-11T15:27:00.000Z",
+          "wordCount": 2811,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Criticism pushes the web forward"
+        },
         {
           "description": "A nice primer on the many aspects of building full-text search, such as: data preparation, indexing, searching, term frequency, and computing relevance. It’s amazing what 150 lines of code can get done…\nDiscuss on Changelog News",
           "link": "https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/",
