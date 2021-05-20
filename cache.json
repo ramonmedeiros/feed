@@ -49,6 +49,15 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "Lima launches Linux VMs on your Intel or ARM-based Mac with automatic file sharing, port forwarding, and containerd. That means you can easily do cool stuff like:\n$ echo &quot;files under /Users on macOS filesystem are readable from Linux&quot; &gt; some-file\n\n$ lima cat some-file\nfiles under /Users on macOS filesystem are readable from Linux\n\n$ lima sh -c 'echo &quot;/tmp/lima is writable from both macOS and Linux&quot; &gt; /tmp/lima/another-file'\n\n$ cat /tmp/lima/another-file\n/tmp/lima is writable from b…",
+          "link": "https://github.com/AkihiroSuda/lima",
+          "publishedOn": "2021-05-19T14:22:00.000Z",
+          "wordCount": 1913,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Lima is like a \"macOS subsystem for Linux\""
+        },
+        {
           "description": "90% of AI / ML applications never make it to market, because fine tuning models for maximum performance across disparate ML software solutions and hardware backends requires a ton of manual labor and is cost-prohibitive.  Luis Ceze and his team created Apache TVM at the University of Washington, then left founded OctoML to bring the project to market.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by do…",
           "link": "https://changelog.com/practicalai/134",
           "publishedOn": "2021-05-18T20:45:00.000Z",
@@ -731,15 +740,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "A deep dive on CORS"
-        },
-        {
-          "description": "Raj Dutt, CEO and co-founder of Grafana Labs:\nOur company has always tried to balance the “value creation” of open source and community with the “value capture” of our monetization strategy. The choice of license is a key pillar of this strategy, and is something that we’ve deliberated on extensively since the company began.\nOver the last few years, we’ve watched closely as almost every at-scale open source company that we admire (such as Elastic, Redis Labs, MongoDB, Timescale, Cockroach Labs, and many oth…",
-          "link": "https://grafana.com/blog/2021/04/20/grafana-loki-tempo-relicensing-to-agplv3/",
-          "publishedOn": "2021-04-20T19:26:00.000Z",
-          "wordCount": 1545,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Grafana, Loki, and Tempo will be relicensed to AGPLv3"
         }
       ]
     },
@@ -769,6 +769,24 @@
     {
       "href": "https://blog.google/technology/ai/rss",
       "articles": [
+        {
+          "description": "AI is integral to so much of the work we do at Google. Fundamental advances in computing are helping us confront some of the greatest challenges of this century, like climate change. Meanwhile, AI is also powering updates across our products, including Search, Maps and Photos — demonstrating how machine learning can improve your life in both big and small ways. \nIn case you missed it, here are some of the AI-powered updates we announced at Google I/O.\n\n\nLaMDA is a breakthrough in natural language understand…",
+          "link": "https://blog.google/technology/ai/innovating-with-ai/",
+          "publishedOn": "2021-05-20T15:57:00.000Z",
+          "wordCount": 2184,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "11 ways we're innovating with AI"
+        },
+        {
+          "description": "Originally, Maysam Moussalem dreamed of being an architect. “When I was 10, I looked up to see the Art Nouveau dome over the Galeries Lafayette in Paris, and I knew I wanted to make things like that,” she says. “Growing up between Austin, Paris, Beirut and Istanbul just fed my love of architecture.” But she found herself often talking to her father, a computer science (CS) professor, about what she wanted in a career. \"I always loved art and science and I wanted to explore the intersections between fields. …",
+          "link": "https://blog.google/inside-google/googlers/maysam-moussalem-teaches-googlers-human-centered-ai/",
+          "publishedOn": "2021-05-19T16:00:00.000Z",
+          "wordCount": 1486,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "Maysam Moussalem teaches Googlers human-centered AI"
+        },
         {
           "description": "It’s great to be back hosting our I/O Developers Conference this year. Pulling up to our Mountain View campus this morning, I felt a sense of normalcy for the first time in a long while. Of course, it’s not the same without our developer community here in person. COVID-19 has deeply affected our entire global community over the past year and continues to take a toll. Places such as Brazil, and my home country of India, are now going through their most difficult moments of the pandemic yet. Our thoughts are …",
           "link": "https://blog.google/technology/developers/io21-helpful-google/",
@@ -865,6 +883,15 @@
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
         {
+          "description": "Collected quotes and snippets from people publicly sneezing off or belittling what curl is, explaining how easy it would be to make a replacement in no time with no effort or generally not being very helpful. These are statements made seriously. For all I know, they were not ironic. If you find others to add &#8230; Continue reading &#8220;I could rewrite curl&#8221; &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/05/20/i-could-rewrite-curl/",
+          "publishedOn": "2021-05-20T11:21:21.000Z",
+          "wordCount": 774,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "“I could rewrite curl”"
+        },
+        {
           "description": "One day in March 1998 I released a little file transfer tool I called curl. The first ever curl release. That was good. 10 By the end of July the same year, I released the 10th curl release. I&#8217;ve always believed in release early release often as a service to users and developers alike. 20 &#8230; Continue reading 200 OK &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/05/17/200-ok/",
           "publishedOn": "2021-05-17T08:43:00.000Z",
@@ -950,6 +977,15 @@
     {
       "href": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "articles": [
+        {
+          "description": "Twitter shares a technical analysis of its assessment for potential bias in its image cropping algorithm as part of its efforts to be more transparent around how it uses machine learning to improve pe",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm.html",
+          "publishedOn": "2021-05-20T12:20:35.755Z",
+          "wordCount": 1452,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Sharing learnings about our image cropping algorithm"
+        },
         {
           "description": "Learn how Shardlib, a new sharding library at Twitter simplifies the management of sharded ads services and enables dynamic resharding of these services without redeploying their clients.",
           "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/sharding-simplification-and-twitters-ads-serving-platform.html",
@@ -1148,15 +1184,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "HackerOne Product Enhancements Help Detect, Remediate, and Analyze Cloud Misconfigurations"
-        },
-        {
-          "description": "HackerOne sold our founding vulnerability as an NFT and donated the proceeds — 3.3 ETH / $7,086.19 — to Hack the Hood. Read on to learn why!",
-          "link": "https://www.hackerone.com/blog/why-we-sold-our-founding-vulnerability-nft-0",
-          "publishedOn": "2021-04-20T16:30:00.000Z",
-          "wordCount": 1541,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "Why we sold our founding vulnerability as an NFT"
         }
       ]
     }
