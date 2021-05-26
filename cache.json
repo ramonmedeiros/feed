@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Research Team: Salman Qazi, Yoongu Kim, Nicolas Boichat, Eric Shiu &amp; Mattias Nissler&nbsp;\n\nToday, we are sharing details around our discovery of Half-Double, a new Rowhammer technique that capitalizes on the worsening physics of some of the newer DRAM chips to alter the contents of memory.\nRowhammer is a DRAM vulnerability whereby repeated accesses to one address can tamper with the data stored at other addresses. Much like speculative execution vulnerabilities in CPUs, Rowhammer is a breach of the sec…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/Y2QoJFBaTug/introducing-half-double-new-hammering.html",
+          "publishedOn": "2021-05-25T15:59:00.000Z",
+          "wordCount": 862,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Introducing Half-Double: New hammering technique for DRAM Rowhammer bug"
+        },
+        {
           "description": "Posted by Ivan Lozano, Android Team\n\nThe Android team has been working on introducing the Rust programming language into the Android Open Source Project (AOSP) since 2019 as a memory-safe alternative for platform native code development. As with any large project, introducing a new language requires careful consideration. For Android, one important area was assessing how to best fit Rust into Android’s build system. Currently this means the Soong build system (where the Rust support resides), but these desi…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/RTirZGlM7IY/integrating-rust-into-android-open.html",
           "publishedOn": "2021-05-11T17:31:00.001Z",
@@ -650,60 +659,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "The Changelog 438: Let's mint some NFTs"
-        },
-        {
-          "description": "Marko Denic shared 10 or so very interesting CSS tips (and tricks) in this post with Codepen examples to play with. There were a few I hadn’t heard of, which is awesome.\nDiscuss on Changelog News",
-          "link": "https://markodenic.com/css-tips/",
-          "publishedOn": "2021-04-26T20:03:00.000Z",
-          "wordCount": 746,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "CSS tips and tricks (you won’t see in most tutorials)"
-        },
-        {
-          "description": "High-profile entrepreneurs like Elon Musk, venture capitalists like Peter Thiel and Keith Rabois, and big companies like Oracle and HP Enterprise are all leaving California. During COVID-19, Zoom-enabled tech workers have discovered the benefits of remote work from cheaper, less congested communities elsewhere. Is this the end of Silicon Valley as we know it? Perhaps. But other challenges to Silicon Valley’s preeminence are more fundamental than the tech diaspora.\nUnderstanding four trends that may shape th…",
-          "link": "https://www.oreilly.com/radar/the-end-of-silicon-valley-as-we-know-it/?sfmc_id=194547222",
-          "publishedOn": "2021-04-26T19:10:45.000Z",
-          "wordCount": 6345,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The end of Silicon Valley as we know it?"
-        },
-        {
-          "description": "Brett Cannon, who is a Python core developer (and a tall, snarky Canadian):\nI felt it was time to do another blog post to directly address the issue of entitlement by some open source users which is hurting open source, both for themselves and for others. I want to get the point across that open source maintainers owe you quite literally nothing when it comes to their open source code, and treating them poorly is unethical. And to me, this is the underlying social contract of open source. (emphasis added)\nY…",
-          "link": "https://snarky.ca/the-social-contract-of-open-source/",
-          "publishedOn": "2021-04-26T16:16:00.000Z",
-          "wordCount": 2066,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The social contract of open source"
-        },
-        {
-          "description": "Mongita is a lightweight embedded document database that implements a commonly-used subset of the MongoDB/PyMongo interface. Mongita differs from MongoDB in that instead of being a server, Mongita is a self-contained Python library.  Mongita can be configured to store its documents either on disk or in memory.\nI can’t speak to the implementation, but I love the idea behind this project. Already know and love Mongo? Here’s a way to use it in an embedded fashion with all of the advantages that come with such …",
-          "link": "https://github.com/scottrogowski/mongita",
-          "publishedOn": "2021-04-26T15:26:00.000Z",
-          "wordCount": 1396,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Mongita is to MongoDB as SQLite is to SQL"
-        },
-        {
-          "description": "This is an excellent article about understanding technical debt:\nIt is a fact that, over time, all development teams get slowed down by the existing codebase. But why? Is it because maintenance is inevitable? Or because we could do something better in the first place? Or both?\nLuca argues that technical debt is introduced as a by-product of disagreement, which itself is a by-product of two phenomena: wrong design, and rapid evolution. Thoughtful stuff. Well worth your time.\nDiscuss on Changelog News",
-          "link": "https://refactoring.fm/p/the-true-meaning-of-technical-debt",
-          "publishedOn": "2021-04-26T14:24:00.000Z",
-          "wordCount": 1484,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The true meaning of technical debt 💸"
-        },
-        {
-          "description": "Oli Larkin:\nThis is a curated list of my favourite music DSP and audio programming resources. It was originally meant to be an official “Awesome list”, but apparently you are not meant to write in the first person, so it is now a “more awesome” list.\nI’m still giving this the awesome topic, despite his first person point of view. Oli is a long-time audio programmer, so he’s well positioned to curate a list like this one.\nDiscuss on Changelog News",
-          "link": "https://github.com/olilarkin/awesome-musicdsp",
-          "publishedOn": "2021-04-26T13:15:00.000Z",
-          "wordCount": 3424,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A curated list of music DSP and audio programming resources"
         }
       ]
     },
@@ -837,6 +792,15 @@
     {
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
+        {
+          "description": "Welcome to the 200th curl release. We call it 200 OK. It coincides with us counting more than 900 commit authors and surpassing 2,400 credited contributors in the project. This is also the first release ever in which we thank more than 80 persons in the RELEASE-NOTES for having helped out making it and we&#8217;ve &#8230; Continue reading curl 7.77.0 &#8211; 200 OK &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/05/26/curl-7-77-0-200-ok/",
+          "publishedOn": "2021-05-26T06:39:30.000Z",
+          "wordCount": 1719,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "curl 7.77.0 – 200 OK"
+        },
         {
           "description": "For the eighth consecutive year we run the annual curl user survey again in 2021. The form just went up and I would love to have you spend 10 minutes of your busy life to tell us how you think curl works, what doesn&#8217;t work and what we should do next. We have no tracking &#8230; Continue reading The curl user survey 2021 &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/05/24/the-curl-user-survey-2021/",
@@ -1041,6 +1005,15 @@
     {
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
+        {
+          "description": "Server-side request forgery (or SSRF) vulnerabilities are particularly dangerous because they can lead to total system compromise. Discover where they’re most common, explore real-world examples, and learn prevention tips from hackers.",
+          "link": "https://www.hackerone.com/blog/spotlight-server-side",
+          "publishedOn": "2021-05-25T14:00:00.000Z",
+          "wordCount": 1374,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "Spotlight on the Server-Side"
+        },
         {
           "description": "Last week’s U.S. Presidential Executive Order underscores the critical status of #cybersecurity in the U.S. Today, HackerOne CEO Marten Mickos shares his perspective on how private sector CEOs should take action and make security a collective internal priority for organizations.",
           "link": "https://www.hackerone.com/blog/time-issue-your-own-cyber-executive-order",
