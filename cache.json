@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Jon Markoff and Sean Smith, Android Security and Privacy Team\n\n \nIntegrating security into your app development lifecycle can save a lot of time, money, and risk. That’s why we’ve launched Security by Design on Google Play Academy to help developers identify, mitigate, and proactively protect against security threats. \nThe Android ecosystem, including Google Play, has many built-in security features that help protect developers and users. The course Introduction to app security best practices take…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/2vy9ZDhnfjU/introducing-security-by-design.html",
+          "publishedOn": "2021-05-26T17:00:00.003Z",
+          "wordCount": 739,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Introducing Security By Design"
+        },
+        {
           "description": "Research Team: Salman Qazi, Yoongu Kim, Nicolas Boichat, Eric Shiu &amp; Mattias Nissler&nbsp;\n\nToday, we are sharing details around our discovery of Half-Double, a new Rowhammer technique that capitalizes on the worsening physics of some of the newer DRAM chips to alter the contents of memory.\nRowhammer is a DRAM vulnerability whereby repeated accesses to one address can tamper with the data stored at other addresses. Much like speculative execution vulnerabilities in CPUs, Rowhammer is a breach of the sec…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/Y2QoJFBaTug/introducing-half-double-new-hammering.html",
           "publishedOn": "2021-05-25T15:59:00.000Z",
@@ -48,6 +57,42 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Chris Manson goes into detail about the benefits of a clean git history and describes some tips and tricks that really help you clean up your branches and Pull Requests.\nDiscuss on Changelog News",
+          "link": "https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/",
+          "publishedOn": "2021-05-26T15:44:00.000Z",
+          "wordCount": 3325,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The magic of keeping a clean Git history"
+        },
+        {
+          "description": "Today we’re sharing a special crossover episode from The Changelog podcast here on Practical AI. Recently, Daniel Whitenack joined Jerod Santo to talk with José Valim, Elixir creator, about Numerical Elixir. This is José’s newest project that’s bringing Elixir into the world of machine learning. They discuss why José chose this as his next direction, the team’s layered approach, influences and collaborators on this effort, and their awesome collaborative notebook that’s built on Phoenix LiveView.\nDiscuss on…",
+          "link": "https://changelog.com/practicalai/135",
+          "publishedOn": "2021-05-26T14:45:00.000Z",
+          "wordCount": 445,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 135: Elixir meets machine learning"
+        },
+        {
+          "description": "Works out of the box, no configuration required. Great alternative to TeamViewer and AnyDesk! You have full control of your data, with no concerns about security. You can use our rendezvous/relay server, set up your own, or write your own rendezvous/relay server.\nThe built-in file transfer and tunneling look great.\nDiscuss on Changelog News",
+          "link": "https://github.com/rustdesk/rustdesk",
+          "publishedOn": "2021-05-26T14:32:00.000Z",
+          "wordCount": 929,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An open source RDP client in Rust"
+        },
+        {
+          "description": "Tom MacWright on the pendulum swinging back and forth between simple and “fancy”\nTechnology is seeing a little return to complexity. Dreamweaver gave way to hand-coding websites, which is now leading into Webflow, which is a lot like Dreamweaver. Evernote give way to minimal Markdown notes, which are now becoming Notion, Coda, or Craft. Visual Studio was “disrupted” by Sublime Text and TextMate, which are now getting replaced by Visual Studio Code. JIRA was replaced by GitHub issues, which is getting outmod…",
+          "link": "https://macwright.com/2021/03/16/return-of-fancy-tools.html",
+          "publishedOn": "2021-05-26T13:32:00.000Z",
+          "wordCount": 537,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The return of fancy tools"
+        },
         {
           "description": "This week we’re talking about the latest infrastructure updates we’ve made for 2021. We’re joined by Gerhard Lazu, our resident SRE here at Changelog, talking about the improvements we’ve made to 10x our speed and be 100% available. We also mention the new podcast we’re launching, hosted by Gerhard. Stick around the last half of the show for more details.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nLinode – Get $100 in free cr…",
           "link": "https://changelog.com/podcast/441",
@@ -614,51 +659,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "What really happened at Basecamp"
-        },
-        {
-          "description": "Ro Gupta from CARMERA teaches Daniel and Chris all about road intelligence.  CARMERA maintains the maps that move the world, from HD maps for automated driving to consumer maps for human navigation.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by doing — Python, data, AI, machine learning, Kubernetes, Docker, and more. Just open your browser and dive in. Learn more and keep your teams’ skills sharp at…",
-          "link": "https://changelog.com/practicalai/131",
-          "publishedOn": "2021-04-27T19:15:00.000Z",
-          "wordCount": 8664,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Practical AI 131: Mapping the world"
-        },
-        {
-          "description": "WSLg provides an integrated experience for developers, scientists or enthusiasts that prefer or need to run Windows on their PC but also need the ability to run tools or applications which works best, or exclusively, in a Linux environment. While users can accomplish this today using a multiple system setup, with individual PC dedicated to Windows and Linux, virtual machine hosting either Windows or Linux, or an XServer running on Windows and projected into WSL, WSLg provides a more integrated, user friendl…",
-          "link": "https://github.com/microsoft/wslg",
-          "publishedOn": "2021-04-27T15:35:00.000Z",
-          "wordCount": 4017,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "WSLg brings Linux GUI apps to Windows in a fully integrated fashion"
-        },
-        {
-          "description": "“The tests are timing out again!”, someone yells. “Alright I’ll bump them”, you instinctively respond. Then you pause and feel uneasy. Is there another way?\nIn this blog post, I share my growing disconnect with code-coverage and unit-testing. I then detail the method I’ve been using for the greater part of 7 years and how it still allows me to preach at length that being correct is the single most important thing for a developer.\nDiscuss on Changelog News",
-          "link": "https://www.iamjonas.me/2021/04/the-test-plan.html",
-          "publishedOn": "2021-04-27T14:47:00.000Z",
-          "wordCount": 2857,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The test-plan"
-        },
-        {
-          "description": "What does “developer productivity” mean to you?\nAt face value, when we think of developer productivity we might think of effectiveness in time management, communication, and task completion. Although we are drawn to personal workflow or time management tools, and learning secrets to improving our productivity, ironically this quest for the holy grail can sometimes take us off course and be a detriment to our productivity. … As a developer of scientific software, and one who has transitioned to working remot…",
-          "link": "https://cacm.acm.org/opinion/articles/252174-the-10-best-practices-for-remote-software-engineering/fulltext",
-          "publishedOn": "2021-04-27T13:45:00.000Z",
-          "wordCount": 4572,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "10 best practices for remote software engineering"
-        },
-        {
-          "description": "This week we’re talking about NFTs — that’s right, non-fungible tokens and we’re joined by Mikeal Rogers, who’s leading all things InterPlanetary Linked Data at Protocol Labs. We go down the NFT rabbit hole on a very technical level and we come out the other side with clarity and a compelling use of NFTs.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSourcegraph – Sourcegraph is universal code search for every developer and team…",
-          "link": "https://changelog.com/podcast/438",
-          "publishedOn": "2021-04-27T11:00:00.000Z",
-          "wordCount": 16131,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The Changelog 438: Let's mint some NFTs"
         }
       ]
     },
@@ -1094,15 +1094,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "How HackerOne Helps the Vulnerability Management Process"
-        },
-        {
-          "description": "A few weeks ago, HackerOne and PortSwigger teamed up to shine a light on the innovative ways that customers and security analysts are scaling risk assessments. Read on for key learnings.",
-          "link": "https://www.hackerone.com/blog/security-engineer-and-hacker-share-their-experiences-security-assessments",
-          "publishedOn": "2021-04-27T16:00:00.000Z",
-          "wordCount": 1102,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "A Security Engineer and Hacker Share Their Experiences with Security Assessments"
         }
       ]
     },
@@ -1126,6 +1117,101 @@
           "sourceHref": "https://hacks.mozilla.org/feed/",
           "sourceTitle": "Mozilla Hacks – the Web developer blog",
           "title": "Introducing Firefox’s new Site Isolation Security Architecture"
+        }
+      ]
+    },
+    {
+      "href": "https://github.blog/feed/",
+      "articles": [
+        {
+          "description": "Over the years, GitHub engineers have developed many ways to observe how our systems behave. We mostly make use of statsd for metrics, the syslog format for plain text logs and OpenTracing for request traces.",
+          "link": "https://github.blog/2021-05-26-why-and-how-github-is-adopting-opentelemetry/",
+          "publishedOn": "2021-05-26T19:20:09.000Z",
+          "wordCount": 1152,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Why (and how) GitHub is adopting OpenTelemetry"
+        },
+        {
+          "description": "Table of contents Executive summary Key findings Key takeaways for developers and software teams About the study What we found Interruptions and meetings have a large influence on our days Take a minute to reflect",
+          "link": "https://github.blog/2021-05-25-octoverse-spotlight-good-day-project/",
+          "publishedOn": "2021-05-25T15:00:43.000Z",
+          "wordCount": 4730,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Octoverse Spotlight 2021: The Good Day Project—Personal analytics to make your work days better"
+        },
+        {
+          "description": "The theme for Ludum Dare 48 was “deeper and deeper,” which inspired over ten thousand people to create almost four thousand games together over a weekend. As you can imagine, there were quite a lot",
+          "link": "https://github.blog/2021-05-19-ludum-dare-48-staff-picks/",
+          "publishedOn": "2021-05-19T22:34:44.000Z",
+          "wordCount": 1611,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Ludum Dare 48 staff picks"
+        },
+        {
+          "description": "GitHub is the home for software development teams and is the place where they collaborate and build. For larger organizations, you might have a dedicated reporting team that wants to export this activity at a",
+          "link": "https://github.blog/2021-05-18-github-artifact-exporter-open-source-release/",
+          "publishedOn": "2021-05-18T15:59:19.000Z",
+          "wordCount": 742,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "GitHub Artifact Exporter open source release"
+        },
+        {
+          "description": "Today we’re introducing The ReadME Podcast, a GitHub podcast that takes a peek behind the curtain of some of the most impactful open source projects, and the developers who make them happen. Join me and",
+          "link": "https://github.blog/2021-05-17-introducing-readme-podcast/",
+          "publishedOn": "2021-05-17T16:00:02.000Z",
+          "wordCount": 615,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Headphones on, volume up: Introducing The ReadME Podcast"
+        },
+        {
+          "description": "As developers, the ability to collaborate through video (for example, pair programming, demos, etc.) is an extremely important part of a software workflow, especially for communities and teams that are distributed. At GitHub, we’ve utilized",
+          "link": "https://github.blog/2021-05-13-video-uploads-available-github/",
+          "publishedOn": "2021-05-13T16:00:13.000Z",
+          "wordCount": 854,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Video uploads now available across GitHub"
+        },
+        {
+          "description": "This year, thousands of students from around the world came together and redefined the world we live in, how we learn, and how we move forward. We are honored to be part of the experience",
+          "link": "https://github.blog/2021-05-11-join-github-june-5-celebrate-class-of-2021/",
+          "publishedOn": "2021-05-11T22:08:56.000Z",
+          "wordCount": 699,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Join GitHub on June 5 to celebrate the Class of 2021"
+        },
+        {
+          "description": "GitHub has been at the forefront of security key adoption for many years. We were an early adopter of Universal 2nd Factor (&#8220;U2F&#8221;) and were also one of the first sites to transition to Webauthn.",
+          "link": "https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/",
+          "publishedOn": "2021-05-10T17:20:08.000Z",
+          "wordCount": 1539,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Security keys are now supported for SSH Git operations"
+        },
+        {
+          "description": "We&#8217;ve seen some amazing community projects this last month. These are exciting new releases from some of the coolest projects around. There’s everything from world-changing tech to weekend hobbies. There seems to be a bit",
+          "link": "https://github.blog/2021-05-07-release-radar-apr-2021/",
+          "publishedOn": "2021-05-07T23:00:02.000Z",
+          "wordCount": 1407,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Release Radar · April 2021 Edition"
+        },
+        {
+          "description": "GitHub Enterprise Server 3.1 is now available to download as a release candidate. This release follows the most popular GitHub Enterprise Server release in years. GitHub Enterprise Server 3.0 brought GitHub Actions, GitHub Packages and",
+          "link": "https://github.blog/2021-05-06-github-enterprise-server-3-1-available-release-candidate/",
+          "publishedOn": "2021-05-06T17:37:09.000Z",
+          "wordCount": 1059,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "GitHub Enterprise Server 3.1 available as a release candidate"
         }
       ]
     }
