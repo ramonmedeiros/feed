@@ -4,6 +4,24 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Joel Galenson and Matthew Maurer, Android Team \nOne of the main challenges of evaluating Rust for use within the Android platform was ensuring we could provide sufficient interoperability with our existing codebase. If Rust is to meet its goals of improving security, stability, and quality Android-wide, we need to be able to use Rust anywhere in the codebase that native code is required. To accomplish this, we need to provide the majority of functionality platform developers use. As we discussed p…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/C0H0OlKgVRY/rustc-interop-in-android-platform.html",
+          "publishedOn": "2021-06-08T17:00:00.002Z",
+          "wordCount": 2688,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Rust/C++ interop in the Android Platform"
+        },
+        {
+          "description": "Posted by Dan Lorenc, Priya Wadhwa, Open Source Security Team\n\nIf you've been paying attention to the news at all lately, you've probably noticed that software supply chain attacks are rapidly becoming a big problem. Whether you're trying to prevent these attacks, responding to an ongoing one or recovering from one, you understand that knowing what is happening in your CI/CD pipeline is critical. \nFortunately, the Kubernetes-native Tekton project –  an open-source framework for creating CI/CD systems – was …",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/2ZJ7vsPEBZU/verifiable-supply-chain-metadata-for.html",
+          "publishedOn": "2021-06-08T16:02:00.006Z",
+          "wordCount": 2641,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Verifiable Supply Chain Metadata for Tekton"
+        },
+        {
           "description": "Posted by Anna Hupa,&nbsp; Marc Henson, and Martin Straka, Google VRP Team&nbsp;\n\n\n\nOur Abuse Bug Bounty program has proved tremendously successful in the past three years since its introduction – thanks to our incredibly engaged community of researchers. Their contributions resulted in +1,000 valid bugs, helping us raise the bar in combating product abuse.\nAs a result of this continued success, today we are announcing a new experimental Abuse Research Grants Program in addition to the already existing Vuln…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/tKjA9YjPiSk/announcing-new-abuse-research-grants.html",
           "publishedOn": "2021-06-04T13:03:00.006Z",
@@ -57,6 +75,33 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Chris and Daniel sit down to chat about some exciting new AI developments including wav2vec-u (an unsupervised speech recognition model) and meta-learning (a new book about “How To Learn Deep Learning And Thrive In The Digital World”). Along the way they discuss engineering skills for AI developers and strategies for launching AI initiatives in established companies.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Med…",
+          "link": "https://changelog.com/practicalai/137",
+          "publishedOn": "2021-06-08T18:00:00.000Z",
+          "wordCount": 409,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 137: Learning to learn deep learning 📖"
+        },
+        {
+          "description": "Althttpd is a simple webserver that has run the sqlite.org website since 2004. Althttpd strives for simplicity, security, and low resource usage.\nAs of 2018, the althttpd instance for sqlite.org answers about 500,000 HTTP requests per day (about 5 or 6 per second) delivering about 50GB of content per day (about 4.6 megabits/second) on a $40/month Linode. The load average on this machine normally stays around 0.1 or 0.2. About 19% of the HTTP requests are CGI to various Fossil source-code repositories.\nRicha…",
+          "link": "https://sqlite.org/althttpd/doc/trunk/althttpd.md",
+          "publishedOn": "2021-06-08T15:57:00.000Z",
+          "wordCount": 2049,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Richard Hipp's single file webserver written in C"
+        },
+        {
+          "description": "Brendan Gregg tells a tale from 2005:\nThis is the story of the most unbelievable demo I’ve been given in world of open source. You can’t make this stuff up.\nI don’t want to ruin it, so I’ll just say that it’s not unbelievable in the way you might think it’s unbelievable.\nDiscuss on Changelog News",
+          "link": "https://brendangregg.com/blog/2021-06-04/an-unbelievable-demo.html",
+          "publishedOn": "2021-06-08T15:06:00.000Z",
+          "wordCount": 2557,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An unbelievable demo"
+        },
         {
           "description": "This week we’re joined by Ryan Dahl, Node.js creator, and now the creator of Deno - a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust.\nWe talk with Ryan about the massive success of Node and how it impacted his life, how he eventually created Deno and what he’s doing differently this time around. We also talk about The Deno Company, and what’s in store for Deno Delpoy.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, a…",
           "link": "https://changelog.com/podcast/443",
@@ -632,60 +677,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Criticism pushes the web forward"
-        },
-        {
-          "description": "A nice primer on the many aspects of building full-text search, such as: data preparation, indexing, searching, term frequency, and computing relevance. It’s amazing what 150 lines of code can get done…\nDiscuss on Changelog News",
-          "link": "https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/",
-          "publishedOn": "2021-05-10T17:23:00.000Z",
-          "wordCount": 3085,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Building a full-text search engine in 150 lines of Python code"
-        },
-        {
-          "description": "There are obvious upsides to pair programming. This post from Nat Bennett shares both the ups and the downs of pairing all day for years…\nSo I paired all day, most days, for about five years. This had a lot of upsides, far more than I can list here. There’s a standard list of benefits and drawbacks to pairing that you might be familiar with, but the impact of pairing, especially pairing that much, goes much deeper than its impact on the code, on the particular work the team delivers that week.\nNat goes on t…",
-          "link": "https://www.simplermachines.com/the-mortifying-ordeal-of-pairing-all-day/",
-          "publishedOn": "2021-05-10T16:37:50.000Z",
-          "wordCount": 1473,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "What happens when you pair all day, most days, for years?"
-        },
-        {
-          "description": "AMA Happy Hour with Priyanka Sharma \n\nAd-hoc conversations with you Carlos, Chico, Katie, Rahul &amp; Silviu were my favourite. They would not have happened was it not for your Happy Hour sessions Priyanka. And what would brilliant ideas be without your hard work Colleen &amp; Kristi, and the rest of your teams?\nI really appreciate how well this event came together. The virtual platform and diversity played a big part in this world-class experience. This was the perfect one to Ship It!, a brand new Changelo…",
-          "link": "https://changelog.com/posts/kubecon-cloudnativecon-europe-2021",
-          "publishedOn": "2021-05-10T16:00:00.000Z",
-          "wordCount": 1398,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "🚀 KubeCon + CloudNativeCon Europe 2021"
-        },
-        {
-          "description": "After working as a software engineer for 20 years, it’s still exciting to see how the results of your work become alive and you still feel yourself as a kid at that moment :)\nDiscuss on Changelog News",
-          "link": "https://sul.im/blog/excitement-of-making/",
-          "publishedOn": "2021-05-10T15:46:00.000Z",
-          "wordCount": 433,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The excitement of making things real"
-        },
-        {
-          "description": "Stripe Atlas has a wide array of guides to running an internet business that are totally open and free for everyone. This guide, written by Dr. Sherry Walling (a clinical psychologist), on “managing founder stress” covers everything from running smart (not just hard), coping with chronic stress, mastering the ups and downs, and a reminder that as a founder you are not alone.\nIf you like this guide, then you’ll probably be a fan of my podcast Founders Talk too.\nDiscuss on Changelog News",
-          "link": "https://stripe.com/atlas/guides/founder-stress",
-          "publishedOn": "2021-05-10T15:00:01.000Z",
-          "wordCount": 7895,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Guide to managing founder stress"
-        },
-        {
-          "description": "Bash is great, but when it comes to writing scripts, people usually choose a more convenient programming language. JavaScript is a perfect choice, but standard Node.js library requires additional hassle before using. zx package provides useful wrappers around child_process, escapes arguments and gives sensible defaults.\nI wouldn’t say JavaScript is a perfect choice for this kind of scripting, but it’s definitely a suitable one (especially if it’s the language you already know well). Here’s what scripting lo…",
-          "link": "https://github.com/google/zx",
-          "publishedOn": "2021-05-10T13:50:00.000Z",
-          "wordCount": 1053,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "google/zx – a tool for writing better scripts"
         }
       ]
     },
@@ -871,15 +862,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "curl -G vs curl -X GET"
-        },
-        {
-          "description": "I&#8217;ve worked hard on making the presentation I ended up calling libcurl under the hood. A part of that presentation is spent on explaining the main libcurl transfer state machine and here I&#8217;ll try to document some of what, in a written form. Understanding the main transfer state machine in libcurl could be valuable and &#8230; Continue reading The libcurl transfer state machine &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/05/10/the-libcurl-transfer-state-machine/",
-          "publishedOn": "2021-05-10T07:13:47.000Z",
-          "wordCount": 1417,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "The libcurl transfer state machine"
         }
       ]
     },
@@ -903,96 +885,6 @@
           "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
           "sourceTitle": "English (US)",
           "title": "Sharing learnings about our image cropping algorithm"
-        },
-        {
-          "description": "Learn how Shardlib, a new sharding library at Twitter simplifies the management of sharded ads services and enables dynamic resharding of these services without redeploying their clients.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/sharding-simplification-and-twitters-ads-serving-platform.html",
-          "publishedOn": "2021-05-10T12:26:01.303Z",
-          "wordCount": 4869,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Sharding, simplification, and Twitter’s ads serving platform"
-        },
-        {
-          "description": "Learn how we design a system that stores and retrieves ad impression metadata accurately and consistently in Twitter's ads ecosystem.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/storing-and-retrieving-millions-of-ad-impressions-per-second.html",
-          "publishedOn": "2021-05-10T12:26:01.245Z",
-          "wordCount": 2583,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Storing and retrieving millions of ad impressions per second"
-        },
-        {
-          "description": "In this post, we describe a graph neural network architecture (SIGN) that is of simple implementation and that works on very large graphs.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/simple-scalable-graph-neural-networks.html",
-          "publishedOn": "2021-05-10T12:26:01.222Z",
-          "wordCount": 3599,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Simple scalable graph neural networks"
-        },
-        {
-          "description": "Twitter annotated its data to a defined taxonomy by leveraging machine learning in its data platform by fusing Elasticsearch with neural networks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/fusing-elasticsearch-with-neural-networks-to-identify-data.html",
-          "publishedOn": "2021-05-10T12:26:01.190Z",
-          "wordCount": 1788,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Fusing Elasticsearch with neural networks to identify data"
-        },
-        {
-          "description": "Twitter built a data product to help with coronavirus research by opening our APIs to academic researchers, to access the public conversation around COVID-19.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/how-we-built-a-data-stream-to-assist-with-covid-19-research.html",
-          "publishedOn": "2021-05-10T12:26:01.174Z",
-          "wordCount": 1489,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Building a data stream to assist with COVID-19 research"
-        },
-        {
-          "description": "Twitter engineers found and fixed a Linux kernel bug in memory shrinker which caused OOM for us.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/dropping-cache-didnt-drop-cache.html",
-          "publishedOn": "2021-05-10T12:26:01.152Z",
-          "wordCount": 2274,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Dropping cache didn’t drop cache"
-        },
-        {
-          "description": "Introducing the dict-minimize package",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/harnessing-second-order-optimizers-from-deep-learning-frameworks.html",
-          "publishedOn": "2021-05-10T12:26:01.111Z",
-          "wordCount": 1636,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Harnessing second order optimizers from deep learning frameworks"
-        },
-        {
-          "description": "Learn about Twitter’s adoption of RocksDB within Manhattan, its internal distributed key-value store.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/adopting-rocksdb-within-manhattan.html",
-          "publishedOn": "2021-05-10T12:26:01.003Z",
-          "wordCount": 2254,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Adopting RocksDB within Manhattan"
-        },
-        {
-          "description": "This blog post is based on Michael Bronstein’s keynote talk at ICLR 2021 and the paper M. M. Bronstein et al., Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges (2021)",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/iclr-invited-talk-on-geometric-deep-learning.html",
-          "publishedOn": "2021-05-10T12:26:00.956Z",
-          "wordCount": 3228,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "ICLR Invited Talk on Geometric Deep Learning"
-        },
-        {
-          "description": "Introducing Twitter Text Editor, a standalone, flexible API that provides a full-featured rich text editor for iOS applications.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/introducing-twitter-text-editor.html",
-          "publishedOn": "2021-05-10T12:26:00.893Z",
-          "wordCount": 826,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Introducing Twitter Text Editor"
         }
       ]
     },
@@ -1100,6 +992,15 @@
       "href": "https://hacks.mozilla.org/feed/",
       "articles": [
         {
+          "description": "When implementing a language feature for JavaScript, an implementer must make decisions about how the language in the specification maps to the implementation. Private fields is an example of where the specification language and implementation reality diverge, at least in SpiderMonkey– the JavaScript engine which powers Firefox. To understand more, I’ll explain what private fields are, a couple of models for thinking about them, and explain why our implementation diverges from the specification language.\nTh…",
+          "link": "https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/",
+          "publishedOn": "2021-06-08T15:26:19.000Z",
+          "wordCount": 2659,
+          "sourceHref": "https://hacks.mozilla.org/feed/",
+          "sourceTitle": "Mozilla Hacks – the Web developer blog",
+          "title": "Implementing Private Fields for JavaScript"
+        },
+        {
           "description": "Firefox 89 has smartened up and brings with it a slimmed-down, slightly more minimalist interface.\nAlong with this new look, we get some great styling features including a force-colours feature for media queries and better control over how fonts are displayed. The long-awaited top-level await keyword for JavaScript modules is now enabled, as well as the PerformanceEventTiming interface, which is another addition to the performance suite of APIs: 89 really has been working out!\nThe post Looking fine with Fir…",
           "link": "https://hacks.mozilla.org/2021/06/looking-fine-with-firefox-89/",
           "publishedOn": "2021-06-01T15:19:01.000Z",
@@ -1131,6 +1032,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "GitHub secret scanning has been securing our users’ code by scanning for and revoking secrets since 2015. Recently, we’ve focused on scanning for package registry credentials as well&#8212;a significant and important expansion on our original",
+          "link": "https://github.blog/2021-06-08-securing-open-source-supply-chain-scanning-package-registry-credentials/",
+          "publishedOn": "2021-06-08T16:00:30.000Z",
+          "wordCount": 1679,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Securing the open source supply chain by scanning for package registry credentials"
+        },
         {
           "description": "One month ago, we started a discussion with the community about proposed revisions to clarify GitHub’s policies on security research, malware, and exploits with the goal to enable, welcome, and encourage dual-use security research and",
           "link": "https://github.blog/2021-06-04-updates-to-our-policies-regarding-exploits-malware-and-vulnerability-research/",
@@ -1238,15 +1148,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "Join GitHub on June 5 to celebrate the Class of 2021"
-        },
-        {
-          "description": "GitHub has been at the forefront of security key adoption for many years. We were an early adopter of Universal 2nd Factor (&#8220;U2F&#8221;) and were also one of the first sites to transition to Webauthn.",
-          "link": "https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/",
-          "publishedOn": "2021-05-10T17:20:08.000Z",
-          "wordCount": 1539,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Security keys are now supported for SSH Git operations"
         }
       ]
     }
