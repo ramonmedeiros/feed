@@ -67,6 +67,33 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "When it comes to scaling, we might need to think about:\ndata storage, if we store more and more data and it becomes expensive or slow working with them\nfast INSERTs and UPDATES for write-heavy workloads\nmaking SELECT queries faster because of their complexity or because they need to query huge amounts of data\nconcurrency if we have many clients interacting with the database\nIn this article, I will present some basic ideas and starting points on scaling traditional SQL databases.\nDiscuss on Changelog News",
+          "link": "https://stribny.name/blog/2020/07/scaling-relational-sql-databases/",
+          "publishedOn": "2021-06-14T17:07:00.000Z",
+          "wordCount": 2487,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Scaling relational SQL databases"
+        },
+        {
+          "description": "WWDC21 wasn’t the most exciting Apple keynote ever (especially for those of us hoping for some new hardware), but there were a lot of software things announced. Apple continues to iterate on Swift, and the new 5.5 beta has some really cool stuff in it. InfoQ has the rundown on its two flagship improvements.\nDiscuss on Changelog News",
+          "link": "https://www.infoq.com/news/2021/06/swift-async-await-actors/",
+          "publishedOn": "2021-06-14T14:19:00.000Z",
+          "wordCount": 3439,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Swift 5.5 brings async/await and actor support"
+        },
+        {
+          "description": "Don Watkins:\nMark Van Doren said, “the art of teaching is the art of assisting discovery.” I saw that play out in this classroom using open source tools. More students need opportunities like this to help them gain a quality education. The Raspberry Pi 400 is a great form factor for teaching and learning.\nSuch a cool program that’d be easy to reproduce in your local library.\nDiscuss on Changelog News",
+          "link": "https://opensource.com/article/21/6/teach-python-raspberry-pi",
+          "publishedOn": "2021-06-14T13:24:00.000Z",
+          "wordCount": 1401,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "How I teach Python on the Raspberry Pi 400 at the public library"
+        },
+        {
           "description": "Tanner joins Nick to talk about his projects, react-query and react table, and discuss scratching your own itch in a maintainable way with open source.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are …",
           "link": "https://changelog.com/jsparty/179",
           "publishedOn": "2021-06-11T17:30:00.000Z",
@@ -1049,6 +1076,15 @@
     {
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
+        {
+          "description": "Penetration testing, aka pen testing or ethical hacking, attempts to attempt to breach a system's security for the purpose of vulnerability identification. Testing is done in an authorized and structured manner to report and rectify so that weaknesses can be reported and rectified.",
+          "link": "https://www.hackerone.com/blog/what-penetration-testing-how-does-it-work-step-step-0",
+          "publishedOn": "2021-06-14T20:00:00.000Z",
+          "wordCount": 2384,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "What is Penetration Testing? How Does It Work Step-by-Step?"
+        },
         {
           "description": "It's been 60 days since the DoD's Defense Industrial Base Vulnerability Disclosure Program (DIB-VDP) pilot launched. In this blog, DC3 and HackerOne sit down to talk about the pilot’s early successes, learnings to date, and their goals for the future.",
           "link": "https://www.hackerone.com/blog/60-days-insights-dods-defense-industrial-base-vulnerability-disclosure-program-pilot-1",
