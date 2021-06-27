@@ -732,78 +732,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "A hacker mindset"
-        },
-        {
-          "description": "This week is all about Maintainer Week — it’s a week long event starting June 7th for open source maintainers to gather, share, and be celebrated. We’re joined by Josh Simmons (Ecosystem Strategy Lead at Tidelift &amp; President of Open Source Initiative) and Kara Sowles (Senior Open Source Program Manager at GitHub). Of course we love open source maintainers, that’s why we’re so excited about Maintainer Week and making it an annual thing. Today we talk through all the details of this event, what we can exp…",
-          "link": "https://changelog.com/podcast/442",
-          "publishedOn": "2021-05-28T21:00:00.000Z",
-          "wordCount": 478,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The Changelog 442: Maintainer week!"
-        },
-        {
-          "description": "Debugging containerized workloads is a daily task for everyone who works with Kubernetes, which can be made much simpler with kubectl debug - a beta feature of Kubernetes. In the article you will learn how to make it available in your cluster, how it works, as well as some examples how you can use it to easily debug both Kubernetes Pods and worker Nodes.\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/49",
-          "publishedOn": "2021-05-28T16:29:00.000Z",
-          "wordCount": 17,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The easiest way to debug Kubernetes workloads"
-        },
-        {
-          "description": "Brian LeRoux has been building the web long enough to see many ways we produce HTML come in and go out of fashion. On this episode, he joins Amal &amp; Nick to discuss the past, present, and potential future of rendering patterns on the web. SSR, ISR, &amp; DSR (oh my!)\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Media – Learn by doing — Python, data, AI, machine learning, Kubernetes, Docker, and more. Just open y…",
-          "link": "https://changelog.com/jsparty/177",
-          "publishedOn": "2021-05-28T15:30:00.000Z",
-          "wordCount": 406,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "JS Party 177: Let's talk rendering patterns"
-        },
-        {
-          "description": "Docker images can leak runtime secrets, build secrets, and even just some secret files you have lying around. Learn how to leak them, and (probably more usefully) how to avoid leaks.\nDiscuss on Changelog News",
-          "link": "https://pythonspeed.com/articles/leaking-secrets-docker/",
-          "publishedOn": "2021-05-28T14:49:00.000Z",
-          "wordCount": 1320,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "How to (not) use Docker to share your password with hackers"
-        },
-        {
-          "description": "This is an opinionated list that goes so far as to tell you what to avoid and some options to use instead. I’d love if they’d also tell you why to avoid things. For example, under the Photo Editing and Management section they say to avoid VSCO. Yeah but why?!\nDiscuss on Changelog News",
-          "link": "https://github.com/pluja/awesome-privacy",
-          "publishedOn": "2021-05-28T14:03:00.000Z",
-          "wordCount": 4613,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A curated list of services and alternatives that respect your privacy"
-        },
-        {
-          "description": "This week on Ship It! Gerhard talks with Alex Koutmos about Elixir observability using PromEx. Why do we need to understand how our setup behaves? What is PromEx and where does PromEx fit in changelog.com?\nBonus! Tune in to our LIVE Friday evening deploy 😱 of Erlang 24 in the context of changelog.com. Check the show notes for a link on YouTube. Bring your own popcorn 🍿\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRender – The…",
-          "link": "https://changelog.com/shipit/3",
-          "publishedOn": "2021-05-28T12:20:00.000Z",
-          "wordCount": 463,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Ship It! 3: Elixir observability using PromEx"
-        },
-        {
-          "description": "This week on Ship It! Gerhard is joined by Constance Caramanolis, Principal Engineer at Splunk and former maintainer of Envoy Proxy, and Stephen Augustus, Head of Open Source at Cisco &amp; self-proclaimed Caesar of Systems. Constance and Stephen are the KubeCon + CloudNativeCon co-chairs. Join us to find out what happens before and after KubeCon gets shipped.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRender – The Zero DevOp…",
-          "link": "https://changelog.com/shipit/2",
-          "publishedOn": "2021-05-28T12:10:00.000Z",
-          "wordCount": 441,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Ship It! 2: Shipping KubeCon EU 2021"
-        },
-        {
-          "description": "Welcome to Ship It! This is a new show from Changelog about shipping software - and all the details, challenges, and problems that surface. Changelog SRE Gerhard Lazu is taking us on a journey into the world of shipping code, infrastructure, ops, and the people making it happen.\nShipping is near and dear to every developers’ heart. We do it every day. It’s the essential first step. You have to ship it to share your ideas with the world. New episodes ship weekly.\nDiscuss on Changelog News\nJoin Changelog++ to…",
-          "link": "https://changelog.com/shipit/1",
-          "publishedOn": "2021-05-28T12:00:00.000Z",
-          "wordCount": 300,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Ship It! 1: Introducing Ship It!"
         }
       ]
     },
@@ -871,24 +799,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "curl localhost as a local host"
-        },
-        {
-          "description": "Thanks to funding by ISRG (via Google), we merged the hyper powered HTTP back-end into curl earlier this year as an alternative HTTP/1 and HTTP/2 implementation. Previously, there was only one way to do HTTP/1 and 2 in curl. Backends Core libcurl functionality can be powered by optional and alternative backends in a way that &#8230; Continue reading Taking hyper-curl further &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/05/28/taking-hyper-curl-further/",
-          "publishedOn": "2021-05-28T16:04:12.000Z",
-          "wordCount": 915,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "Taking hyper-curl further"
-        },
-        {
-          "description": "Part 1. The beginning. (There will be at least one more part later on following up the progress.) On May 18, 2021 I posted a tweet that I was giving away curl stickers for free to anyone who&#8217;d submit their address to me. It looked like this: Everyone once in a while when I post &#8230; Continue reading Giving away an insane amount of curl stickers &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/05/28/giving-away-an-insane-amount-of-curl-stickers/",
-          "publishedOn": "2021-05-28T06:28:28.000Z",
-          "wordCount": 1673,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "Giving away an insane amount of curl stickers"
         }
       ]
     },
