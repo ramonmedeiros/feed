@@ -86,6 +86,24 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "GAN Theft Auto is a Generative Adversarial Network that recreates the Grand Theft Auto 5 environment. It is created using a GameGAN fork based on NVIDIA’s GameGAN research.\nSource code here.\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=udPY5rQVoW0",
+          "publishedOn": "2021-06-29T14:11:00.000Z",
+          "wordCount": 23,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Playing a neural network's version of GTA V"
+        },
+        {
+          "description": "Sad but true: Git is simply too hard. One thing driving said truth is that undoing things often requires jumping through obscure hoops. Here’s what Waleed Khan has to say on the matter:\nWell, it’s not that it’s too easy to lose your data — but rather, that it’s too difficult to recover it. For each operation you want to recover from, there’s a different “magic” incantation to undo it. All the data is still there in principle, but it’s not accessible to many in practice.\nHere’s my theory: novice and intermed…",
+          "link": "https://blog.waleedkhan.name/git-undo/",
+          "publishedOn": "2021-06-29T13:24:00.000Z",
+          "wordCount": 487,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Git undo: we can do better"
+        },
+        {
           "description": "Dr. Axel Rauschmayer gives us a feel for one of the most exciting new APIs in JavaScript-land.\nThe Temporal date time API is accessible via the global variable Temporal. It is a pleasure to use:\nAll objects are immutable. Changing them produces new values, similarly to how strings work in JS.\nThere is support for time zones and non-Gregorian calendars.\nThere are several specialized classes for Temporal values (date time values with time zones, date time values without time zones, date values without time zo…",
           "link": "https://2ality.com/2021/06/temporal-api.html",
           "publishedOn": "2021-06-28T19:05:00.000Z",
@@ -845,15 +863,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "Bye bye metalink in curl"
-        },
-        {
-          "description": "When you use the name localhost in a URL, what does it mean? Where does the network traffic go when you ask curl to download http://localhost ? Is &#8220;localhost&#8221; just a name like any other or do you think it infers speaking to your local host on a loopback address? Previously curl http://localhost The name &#8230; Continue reading curl localhost as a local host &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/05/31/curl-localhost-as-a-local-host/",
-          "publishedOn": "2021-05-31T13:39:49.000Z",
-          "wordCount": 1792,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "curl localhost as a local host"
         }
       ]
     },
@@ -1035,7 +1044,17 @@
     },
     {
       "href": "https://googleprojectzero.blogspot.com/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6AfLhOPS0h0oMHpEhTRSdXHM5KEqTDahEV1ECVSsZOMl9_kmCvy597kDopqFAXvpeaA');.lst-kix_xko68zpk7do4-7>li{counter-increment:lst-ctn-kix_xko68zpk7do4-7}ol.lst-kix_69oxjbhu0l4-6.start{counter-reset:lst-ctn-kix_69oxjbhu0l4-6 0}ol.lst-kix_xko68zpk7do4-0.start{counter-reset:lst-ctn-kix_xko68zpk7do4-0 0}ol.lst-kix_44h6gatzfsnw-2{list-style-type:none}ol.lst-kix_xko68zpk7do4-6.start{counter-reset:lst-ctn-kix_xko68zpk7do4-6 0}ol.lst-kix_44h6ga…",
+          "link": "https://googleprojectzero.blogspot.com/2021/06/an-epyc-escape-case-study-of-kvm.html",
+          "publishedOn": "2021-06-29T15:58:00.002Z",
+          "wordCount": 6734,
+          "sourceHref": "https://googleprojectzero.blogspot.com/atom.xml",
+          "sourceTitle": "Project Zero",
+          "title": "An EPYC escape: Case-study of a KVM breakout"
+        }
+      ]
     },
     {
       "href": "https://www.hackerone.com/blog.rss",
@@ -1185,6 +1204,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "Today, we're launching a technical preview of GitHub Copilot, a new AI pair programmer that helps you write better code.",
+          "link": "https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/",
+          "publishedOn": "2021-06-29T14:28:51.000Z",
+          "wordCount": 416,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Introducing GitHub Copilot: your AI pair programmer"
+        },
         {
           "description": "GitHub’s bug bounty program is now a mature component of how we improve product security. We're excited to highlight some achievements (and interesting vulnerabilities)!",
           "link": "https://github.blog/2021-06-25-seven-years-github-security-bug-bounty-program/",
