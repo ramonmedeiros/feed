@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Kim Lewandowski, Azeem Shaikh, Laurent Simon, Google Open Source Security Team\n\n\nContributors to the Scorecards project, an automated security tool that produces a “risk score” for open source projects, have accomplished a lot since our launch last fall. Today, in collaboration  with the Open Source Security Foundation community, we are announcing Scorecards v2. We have added new security checks, scaled up the number of projects being scored, and made this data easily accessible for analysis.\n\nWit…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/aIycN3fXCO4/measuring-security-risks-in-open-source.html",
+          "publishedOn": "2021-07-01T13:00:00.001Z",
+          "wordCount": 2028,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Measuring Security Risks in Open Source Software: Scorecards Launches V2"
+        },
+        {
           "description": "Posted by Oliver Chang, Google Open Source Security team and Russ Cox, Go team&nbsp;\nIn recent months, Google has launched several efforts to strengthen open-source security on multiple fronts. One important focus is improving how we identify and respond to known security vulnerabilities without doing extensive manual work. It is essential to have a precise common data format to triage and remediate security vulnerabilities, particularly when communicating about risks to affected dependencies—it enables eas…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/s8eHYMtsmLg/announcing-unified-vulnerability-schema.html",
           "publishedOn": "2021-06-24T13:00:00.002Z",
@@ -85,6 +94,42 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "This repository is a collection of various materials and tools that I use every day in my work. It contains a lot of useful information gathered in one piece. It is an invaluable source of knowledge for me that I often look back on.\nThis repo is meant to only contain the good stuff, but holy cow there’s a LOT of stuff in here.\nDiscuss on Changelog News",
+          "link": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "publishedOn": "2021-07-01T18:04:00.000Z",
+          "wordCount": 22115,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Book of Secret Knowledge 📘"
+        },
+        {
+          "description": "Learning Go with code pop quizzes is a fun way to zoom in on different language features. People are looking forward to pop quizzes on Twitter and in conferences, and they also learn from that. Let’s chat about pop quizzes!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nCockroach Labs – Scale fast, survive anything, thrive everywhere! CockroachDB is most highly evolved database on the planet. Build and scale fast with CockroachCl…",
+          "link": "https://changelog.com/gotime/186",
+          "publishedOn": "2021-07-01T16:10:00.000Z",
+          "wordCount": 448,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Go Time 186: Pop quiz time! 😱"
+        },
+        {
+          "description": "Responsive design is evolving. Una Kravets:\nToday, when using the term: “responsive design”, you are most likely thinking about using media queries to change layout when resizing a design from mobile size, to tablet size, through to desktop size.\nBut soon, this perception of responsive design may be considered as outdated as using tables for page layout.\n“Responsive” used to mean a web design would respond based on the size of the device accessing it. In the not-so-distant future, it will mean a web design …",
+          "link": "https://web.dev/new-responsive/",
+          "publishedOn": "2021-07-01T14:57:00.000Z",
+          "wordCount": 2304,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Web design in a component-driven world"
+        },
+        {
+          "description": "Take a tour of Python’s functools module and learn how to use its higher-order functions to implement caching, overloading, creating decorators and in general how to make your code a bit more functional.\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/52",
+          "publishedOn": "2021-07-01T14:09:00.000Z",
+          "wordCount": 17,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The power of higher-order functions in Python"
+        },
         {
           "description": "Why Cloud Native? What are the guiding principles that you should keep in mind as you are choosing a project from the Cloud Native Landscape? How do you build &amp; ship an app in a Cloud Native way? Katie Gamanji, Ecosystem Advocate @ CNCF and former cloud engineer for American Express, Condé Nast and Microsoft, joins Gerhard to cover these topics in the context of the Cloud Native Fundamentals course that she developed. 15,000 students have already enrolled, and the initial feedback has been great. Tune i…",
           "link": "https://changelog.com/shipit/8",
@@ -741,42 +786,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Libera Chat –  a next-gen IRC network for FOSS projects"
-        },
-        {
-          "description": "Craig Kerstiens:\nPostgres has had “JSON” support for nearly 10 years now. I put JSON in quotes because well, 10 years ago when we announced JSON support we kinda cheated. We validated JSON was valid and then put it into a standard text field. Two years later in 2014 with Postgres 9.4 we got more proper JSON support with the JSONB datatype. My colleague @will likes to state that the B stands for better. In Postgres 14, the JSONB support is indeed getting way better.\nA small but solid improvement to how you q…",
-          "link": "https://blog.crunchydata.com/blog/better-json-in-postgres-with-postgresql-14",
-          "publishedOn": "2021-06-02T18:17:00.000Z",
-          "wordCount": 1391,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Better JSON in Postgres with PostgreSQL 14"
-        },
-        {
-          "description": "This is the resource that Una Kravets said we’d put in the show notes on JS Party #176. I thought it was worth a direct linking in News as well, since it’s so freakin’ well-done and useful:\nYou’ll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you’ll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.\nDiscuss on…",
-          "link": "https://web.dev/learn/css/",
-          "publishedOn": "2021-06-02T15:22:00.000Z",
-          "wordCount": 1040,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "An evergreen CSS course and reference to level up your web styling expertise"
-        },
-        {
-          "description": "This isn’t merely a speech-to-text thing. It also provides intent recognition, which makes it great for doing voice commands. For example, when trained with this template, the following command:\n$ voice2json transcribe-wav \\\n      &lt; turn-on-the-light.wav | \\\n      voice2json recognize-intent | \\\n      jq .\n\nProduces this JSON event:\n{\n    &quot;text&quot;: &quot;turn on the light&quot;,\n    &quot;intent&quot;: {\n        &quot;name&quot;: &quot;LightState&quot;\n    },\n    &quot;slots&quot;: {\n        &quo…",
-          "link": "https://github.com/synesthesiam/voice2json",
-          "publishedOn": "2021-06-02T13:42:00.000Z",
-          "wordCount": 893,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Command-line tools for speech and intent recognition on Linux"
-        },
-        {
-          "description": "This week on Ship It! Gerhard talks with Ben Ford, former Royal Marine and founder of Commando Development, about the OODA loop (observe, orient, decide, act). Shipping is just a small part of it. The OODA loop that you know is probably the wrong one. We explore Mission &amp; Command, Situational Awareness and a few other practices that will help you deal with complexity as you code and ship. As a former Royal Marine Commando, Ben learned these skills the hard way, and then refined them over many years as a…",
-          "link": "https://changelog.com/shipit/4",
-          "publishedOn": "2021-06-02T11:00:00.000Z",
-          "wordCount": 535,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Ship It! 4: OODA for operational excellence"
         }
       ]
     },
@@ -1030,15 +1039,6 @@
           "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
           "sourceTitle": "English (US)",
           "title": "Adopting RocksDB within Manhattan"
-        },
-        {
-          "description": "Twitter describes how to design local and computationally efficient provably powerful graph neural networks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/provably-expressive-graph-neural-networks.html",
-          "publishedOn": "2021-06-02T12:58:42.871Z",
-          "wordCount": 2201,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Provably expressive graph neural networks"
         }
       ]
     },
@@ -1166,15 +1166,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "How Digital Transformation Changes An Organization's Security Challenges"
-        },
-        {
-          "description": "Microsoft says the state-backed Russian hacker group Nobelium—the same actor behind the 2020 SolarWinds attacks—took control of the State Department’s United States Agency for International Development email system. This bold attack, expected to be ongoing, breached federal government supplier systems sending out official-looking emails to over 3,000 accounts across more than 150 organizations.",
-          "link": "https://www.hackerone.com/blog/microsoft-says-russian-solarwinds-hackers-hit-us-government-agencies-again",
-          "publishedOn": "2021-06-02T15:05:00.000Z",
-          "wordCount": 653,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "Microsoft Says: Russian SolarWinds Hackers Hit U.S. Government Agencies Again"
         }
       ]
     },
@@ -1320,15 +1311,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "GitHub Enterprise Server 3.1 is now generally available"
-        },
-        {
-          "description": "In May, we experienced two incidents resulting in significant impact to multiple GitHub services.",
-          "link": "https://github.blog/2021-06-02-github-availability-report-may-2021/",
-          "publishedOn": "2021-06-03T00:00:00.000Z",
-          "wordCount": 766,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "GitHub Availability Report: May 2021"
         }
       ]
     },
@@ -1361,15 +1343,6 @@
           "sourceHref": "https://building.nubank.com.br/feed/",
           "sourceTitle": "Building Nubank",
           "title": "Nubank raises US$500 million from Berkshire Hathaway"
-        },
-        {
-          "description": "Former Apple, Nike, and NBA Exec. will lead global marketing efforts as NuBank expands, following the brand's recent repositioning \nThe post Nubank appoints Arturo Nuñez as Chief Marketing Officer appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/arturo-nunez-new-nubank-chief-marketing-officer/",
-          "publishedOn": "2021-06-02T16:02:45.000Z",
-          "wordCount": 3319,
-          "sourceHref": "https://building.nubank.com.br/feed/",
-          "sourceTitle": "Building Nubank",
-          "title": "Nubank appoints Arturo Nuñez as Chief Marketing Officer"
         }
       ]
     }
