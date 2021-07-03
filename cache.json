@@ -65,15 +65,6 @@
           "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
           "sourceTitle": "Google Online Security Blog",
           "title": "Announcing New Abuse Research Grants Program"
-        },
-        {
-          "description": "Posted by Badr Salmi, Google Safe Browsing &amp; Varun Khaneja, Chrome Security \nIn 2020 we launched Enhanced Safe Browsing, which you can turn on in your Chrome security settings, with the goal of substantially increasing safety on the web. These improvements are being built on top of existing security mechanisms that already protect billions of devices. Since the initial launch, we have continuously worked behind the scenes to improve our real-time URL checks and apply machine learning models to warn on p…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/-aonhXBJuDM/new-protections-for-enhanced-safe.html",
-          "publishedOn": "2021-06-03T17:00:00.024Z",
-          "wordCount": 944,
-          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
-          "sourceTitle": "Google Online Security Blog",
-          "title": "New protections for Enhanced Safe Browsing users in Chrome"
         }
       ]
     },
@@ -94,6 +85,51 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "This week we’re sharing one of the most popular episodes from our new podcast Ship It. Ship It launched in May and now has 8 episodes in the feed to enjoy…it’s hosted by Gerhard Lazu, our SRE here at Changelog.\nIn this episode Gerhard talks with Dave Farley, co-author of Continuous Delivery and the inventor of the Deployment Pipeline. Today, most of us ship code the way we do because 25 years ago, Dave cared enough to drive the change that we now call CI/CD. He is one of the great software engineers: opinio…",
+          "link": "https://changelog.com/podcast/447",
+          "publishedOn": "2021-07-02T23:00:00.000Z",
+          "wordCount": 558,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Changelog 447: The foundations of Continuous Delivery"
+        },
+        {
+          "description": "Cakebrew is a Mac App (GUI) that lets you do most of the useful tasks you need in Homebrew. Including updating and finding problems with brew doctor!\nInstalls via Homebrew too - brew install --cask cakebrew\n\nDiscuss on Changelog News",
+          "link": "https://www.cakebrew.com/",
+          "publishedOn": "2021-07-02T16:18:52.000Z",
+          "wordCount": 426,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Cakebrew - macOS app for Homebrew"
+        },
+        {
+          "description": "Nick Reese joins the party to tell us all about Elder.js, his opinionated static site generator and web framework built with SEO in mind. Elder.js was purpose-built with large, content-heavy websites in mind and already serves in many production capacities. We discuss imposter syndrome, the startup/product mindset, Svelte’s virtues, and much more.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool – Retool is a low-code platfo…",
+          "link": "https://changelog.com/jsparty/182",
+          "publishedOn": "2021-07-02T16:00:00.000Z",
+          "wordCount": 426,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "JS Party 182: The Elder.js Guide to the Galaxy"
+        },
+        {
+          "description": "Every line of code written comes at a price: maintenance. To avoid paying for a lot of code, we build reusable software. The problem with code re-use is that it gets in the way of changing your mind later on.\nDeleting code is fun! Let’s all write code that’s easy to delete. But how?\nTo write code that’s easy to delete: repeat yourself to avoid creating dependencies, but don’t repeat yourself to manage them. Layer your code too: build simple-to-use APIs out of simpler-to-implement but clumsy-to-use parts. Sp…",
+          "link": "https://programmingisterrible.com/post/139222674273/how-to-write-disposable-code-in-large-systems",
+          "publishedOn": "2021-07-02T14:34:00.000Z",
+          "wordCount": 3537,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Write code that is easy to delete, not easy to extend"
+        },
+        {
+          "description": "Solid… does not use a Virtual DOM. Instead it opts to compile its templates down to real DOM nodes and wrap updates in fine grained reactions. This way when your state updates only the code that depends on it runs.\nSolid takes a lot of cues from React, but sets itself apart in that it doesn’t use a Virtual DOM. Here’s what Michel Weststrate had to say about it on Twitter:\nNot a revolution, but really solid (pun) evolution; clean component model, really efficient run-time model, deeply embedded reactivity. D…",
+          "link": "https://github.com/solidjs/solid",
+          "publishedOn": "2021-07-02T13:46:00.000Z",
+          "wordCount": 1310,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Solid – a declarative JavaScript library for creating user interfaces"
+        },
         {
           "description": "This repository is a collection of various materials and tools that I use every day in my work. It contains a lot of useful information gathered in one piece. It is an invaluable source of knowledge for me that I often look back on.\nThis repo is meant to only contain the good stuff, but holy cow there’s a LOT of stuff in here.\nDiscuss on Changelog News",
           "link": "https://github.com/trimstray/the-book-of-secret-knowledge",
@@ -750,42 +786,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "An attempt to improve Firefox's new Proton UI"
-        },
-        {
-          "description": "Open Source Insights is an experimental service developed and hosted by Google to help developers better understand the structure, construction, and security of open source software packages. The service examines each package, constructs a full, detailed graph of its dependencies and their properties, and makes the results available to anyone who could benefit from them. The goal is to provide developers with a picture of how their software is put together, how that changes as dependencies change, and what …",
-          "link": "https://deps.dev/",
-          "publishedOn": "2021-06-03T18:03:00.000Z",
-          "wordCount": 11,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Google's experimental Open Source Insights project"
-        },
-        {
-          "description": "In the past decade a variety of games have emerged where players need to create an AI to play the game rather than play the game directly. In this episode we speak with the creator of one of those games - Battlesnake. Brad Van Vugt joins us to talk about building a game engine using Go, making programming games easier for beginners to get started with, the long term vision for games like Battlesnake, and more.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make …",
-          "link": "https://changelog.com/gotime/182",
-          "publishedOn": "2021-06-03T16:20:00.000Z",
-          "wordCount": 459,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Go Time 182: Go Battlesnake Go!"
-        },
-        {
-          "description": "I hadn’t heard of Prosus prior to this announcement, so if you’re at all like me, this is for you:\nProsus invests globally across a range of online platforms focused on areas such as food delivery, classifieds and fintech. It also maintains a more than $200 billion holding in Tencent. Prosus’ parent company, Naspers Ltd., acquired the Tencent stake in 2001 for $34 million.\nTurning $34 million into $200 billion is quite the feat. They’re a savvy bunch, if nothing else. Joel Spolsky also wrote about the acqui…",
-          "link": "https://www.wsj.com/articles/software-developer-community-stack-overflow-sold-to-tech-giant-prosus-for-1-8-billion-11622648400",
-          "publishedOn": "2021-06-03T14:57:00.000Z",
-          "wordCount": 1622,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Stack Overflow sold to tech giant Prosus for $1.8 billion"
-        },
-        {
-          "description": "Due to concerns over control of user information, multiple volunteers have resigned from Freenode to found Libera Chat. This FAQ notes:\nWhat it appears to come down to, is that Andrew Lee is attempting to essentially take over the network by drowning staff in lawyers.\nDiscuss on Changelog News",
-          "link": "https://libera.chat/news/welcome-to-libera-chat",
-          "publishedOn": "2021-06-03T13:55:00.000Z",
-          "wordCount": 372,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Libera Chat –  a next-gen IRC network for FOSS projects"
         }
       ]
     },
@@ -1157,15 +1157,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "Hack Hard. Have Fun. Increase Security"
-        },
-        {
-          "description": "Last week, HackerOne joined WhiteSource, AWS, and IGT for a roundtable discussion about the new security challenges of digital transformation. The panel discussed cloud security, software supply chain security, and vulnerability disclosure programs as examples of proactive approaches organizations can take to mitigate their risk.",
-          "link": "https://www.hackerone.com/blog/how-digital-transformation-changes-organizations-security-challenges",
-          "publishedOn": "2021-06-03T16:00:00.000Z",
-          "wordCount": 861,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "How Digital Transformation Changes An Organization's Security Challenges"
         }
       ]
     },
@@ -1302,15 +1293,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "Release Radar · May 2021 Edition"
-        },
-        {
-          "description": "GitHub Enterprise Server 3.1 is now generally available for all customers. It helps customers work with large, busy repositories, while enabling developers to develop and deploy with less effort than ever. This release includes: GitHub",
-          "link": "https://github.blog/2021-06-03-github-enterprise-server-3-1-is-now-generally-available/",
-          "publishedOn": "2021-06-03T16:00:48.000Z",
-          "wordCount": 423,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "GitHub Enterprise Server 3.1 is now generally available"
         }
       ]
     },
