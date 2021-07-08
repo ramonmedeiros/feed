@@ -38,24 +38,6 @@
           "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
           "sourceTitle": "Google Online Security Blog",
           "title": "Introducing SLSA, an End-to-End Framework for Supply Chain Integrity"
-        },
-        {
-          "description": "Posted by Joel Galenson and Matthew Maurer, Android Team \nOne of the main challenges of evaluating Rust for use within the Android platform was ensuring we could provide sufficient interoperability with our existing codebase. If Rust is to meet its goals of improving security, stability, and quality Android-wide, we need to be able to use Rust anywhere in the codebase that native code is required. To accomplish this, we need to provide the majority of functionality platform developers use. As we discussed p…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/C0H0OlKgVRY/rustc-interop-in-android-platform.html",
-          "publishedOn": "2021-06-08T17:00:00.002Z",
-          "wordCount": 2688,
-          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
-          "sourceTitle": "Google Online Security Blog",
-          "title": "Rust/C++ interop in the Android Platform"
-        },
-        {
-          "description": "Posted by Dan Lorenc, Priya Wadhwa, Open Source Security Team\n\nIf you've been paying attention to the news at all lately, you've probably noticed that software supply chain attacks are rapidly becoming a big problem. Whether you're trying to prevent these attacks, responding to an ongoing one or recovering from one, you understand that knowing what is happening in your CI/CD pipeline is critical. \nFortunately, the Kubernetes-native Tekton project –  an open-source framework for creating CI/CD systems – was …",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/2ZJ7vsPEBZU/verifiable-supply-chain-metadata-for.html",
-          "publishedOn": "2021-06-08T16:02:00.006Z",
-          "wordCount": 2641,
-          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
-          "sourceTitle": "Google Online Security Blog",
-          "title": "Verifiable Supply Chain Metadata for Tekton"
         }
       ]
     },
@@ -76,6 +58,33 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Austin Gil explains some of the benefits of using SVG for your site’s favicon:\nCrisp image quality with a single file\nSupport for emojis\nInline icon (no need for a linked resource)\nDark mode detection (sweet!)\nDisclaimer: browser support is not amazing.\nDiscuss on Changelog News",
+          "link": "https://austingil.com/svg-favicons/",
+          "publishedOn": "2021-07-07T16:13:00.000Z",
+          "wordCount": 1328,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "SVG favicons have some cool benefits"
+        },
+        {
+          "description": "In this post, I explain what typeclasses are (an alternative to subtyping polymorphism) and how to use them. I give examples in 4 very different languages to show that this concept is universal. I also show that this idea is very pythonic by comparing our classes implementation with functools.singledispatch.\nCheck how easy it is to define a typeclass with classes:\nfrom classes import AssociatedType, Supports, typeclass\n\nclass Greet(AssociatedType):\n    &quot;&quot;&quot;Special type to represent that some i…",
+          "link": "https://sobolevn.me/2021/06/typeclasses-in-python",
+          "publishedOn": "2021-07-07T15:22:00.000Z",
+          "wordCount": 2869,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Typeclasses in Python"
+        },
+        {
+          "description": "One of our awesome Changelog++ members scratched their own itch:\nWhen you upgrade to Changelog++ you’re given access to ad-free versions of episodes however they’re only available in one giant bucket feed instead of through individual show feeds. Though only around 5 new podcast episodes are published weekly, if you’re coming in as a new listener you’ll have a long backlog list with over one thousand shows. It’s easier to sift through older episodes when they’re organized by show, so that’s what this projec…",
+          "link": "https://github.com/plus-or-minus/changelog-plus-plus-feed-sifter",
+          "publishedOn": "2021-07-07T14:26:00.000Z",
+          "wordCount": 844,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A GitHub Action to create single-show feeds from your Changelog++ feed"
+        },
         {
           "description": "Jacob Kaplan-Moss begins where I often do when discussing estimation:\nOne study by HBR found that one in six IT projects had cost overruns of over 200% and were late by almost 70%. Another study by McKinsey found that IT projects are on average 45% over budget and 7% over schedule. They found large software projects were particularly bad: software projects with budgets over $15M went over budget by an overage of 66% and had schedule overruns averaging 33%.\nNonetheless, there are good reasons to estimate any…",
           "link": "https://jacobian.org/2021/may/20/estimation/",
@@ -714,42 +723,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "What can \"Avengers: Endgame\" teach us about Git?"
-        },
-        {
-          "description": "Chris and Daniel sit down to chat about some exciting new AI developments including wav2vec-u (an unsupervised speech recognition model) and meta-learning (a new book about “How To Learn Deep Learning And Thrive In The Digital World”). Along the way they discuss engineering skills for AI developers and strategies for launching AI initiatives in established companies.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nO&#39;Reilly Med…",
-          "link": "https://changelog.com/practicalai/137",
-          "publishedOn": "2021-06-08T18:00:00.000Z",
-          "wordCount": 409,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Practical AI 137: Learning to learn deep learning 📖"
-        },
-        {
-          "description": "Althttpd is a simple webserver that has run the sqlite.org website since 2004. Althttpd strives for simplicity, security, and low resource usage.\nAs of 2018, the althttpd instance for sqlite.org answers about 500,000 HTTP requests per day (about 5 or 6 per second) delivering about 50GB of content per day (about 4.6 megabits/second) on a $40/month Linode. The load average on this machine normally stays around 0.1 or 0.2. About 19% of the HTTP requests are CGI to various Fossil source-code repositories.\nRicha…",
-          "link": "https://sqlite.org/althttpd/doc/trunk/althttpd.md",
-          "publishedOn": "2021-06-08T15:57:00.000Z",
-          "wordCount": 2049,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Richard Hipp's single file webserver written in C"
-        },
-        {
-          "description": "Brendan Gregg tells a tale from 2005:\nThis is the story of the most unbelievable demo I’ve been given in world of open source. You can’t make this stuff up.\nI don’t want to ruin it, so I’ll just say that it’s not unbelievable in the way you might think it’s unbelievable.\nDiscuss on Changelog News",
-          "link": "https://brendangregg.com/blog/2021-06-04/an-unbelievable-demo.html",
-          "publishedOn": "2021-06-08T15:06:00.000Z",
-          "wordCount": 2557,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "An unbelievable demo"
-        },
-        {
-          "description": "This week we’re joined by Ryan Dahl, Node.js creator, and now the creator of Deno - a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust.\nWe talk with Ryan about the massive success of Node and how it impacted his life, how he eventually created Deno and what he’s doing differently this time around. We also talk about The Deno Company, and what’s in store for Deno Delpoy.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, a…",
-          "link": "https://changelog.com/podcast/443",
-          "publishedOn": "2021-06-08T12:00:00.000Z",
-          "wordCount": 485,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The Changelog 443: Exploring Deno Land 🦕"
         }
       ]
     },
@@ -760,6 +733,24 @@
     {
       "href": "https://blog.google/technology/ai/rss",
       "articles": [
+        {
+          "description": "When I was growing up in Brisbane, Aussie Rules football wasn’t offered as a school sport – and there weren’t any professional female role models to look up to and learn from. Despite these limitations, we got resourceful. We organized football games in our lunch breaks with friends, using soccer or rugby goal posts and adding sticks or cones to serve as point posts. We practised accuracy using rubbish bins as targets.\nA decade later, women have truly made their mark in the AFL. There are, however,  many ba…",
+          "link": "https://blog.google/around-the-globe/google-asia/australia/footy-skills-lab/",
+          "publishedOn": "2021-07-08T06:00:00.000Z",
+          "wordCount": 1095,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "Kick like a pro with Footy Skills Lab"
+        },
+        {
+          "description": "Back in the day, there was a surefire way to tell humans and computers apart: You’d present a picture of a four-legged friend and ask if it was a cat or dog. A computer couldn’t identify felines from canines, but we humans could answer with doggone confidence. \nThat all changed about a decade ago thanks to leaps in computer vision and machine learning – specifically,  major advancements in neural networks, which can train computers to learn in a way similar to humans. Today, if you give a computer enough im…",
+          "link": "https://blog.google/technology/ai/ask-a-techspert-whats-a-neural-network/",
+          "publishedOn": "2021-07-07T16:00:00.000Z",
+          "wordCount": 1527,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "Ask a Techspert: What’s a neural network?"
+        },
         {
           "description": "Over the past year, responsibly developed AI has transformed health screenings, supportedfact-checking to battle misinformation and save lives, predicted Covid-19 cases to support public health, and protected wildlife after bushfires. Developing AI in a way that gets it right for everyone requires openness, transparency, and a clear focus on understanding the societal implications. That is why we were among the first companies to develop and publish AI Principles and why, each year, we share updates on our …",
           "link": "https://blog.google/technology/ai/update-our-progress-responsible-ai-innovation/",
@@ -1117,21 +1108,20 @@
     },
     {
       "href": "https://hacks.mozilla.org/feed/",
-      "articles": [
-        {
-          "description": "When implementing a language feature for JavaScript, an implementer must make decisions about how the language in the specification maps to the implementation. Private fields is an example of where the specification language and implementation reality diverge, at least in SpiderMonkey– the JavaScript engine which powers Firefox. To understand more, I’ll explain what private fields are, a couple of models for thinking about them, and explain why our implementation diverges from the specification language.\nTh…",
-          "link": "https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/",
-          "publishedOn": "2021-06-08T15:26:19.000Z",
-          "wordCount": 2659,
-          "sourceHref": "https://hacks.mozilla.org/feed/",
-          "sourceTitle": "Mozilla Hacks – the Web developer blog",
-          "title": "Implementing Private Fields for JavaScript"
-        }
-      ]
+      "articles": []
     },
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "In June, we experienced no incidents resulting in service downtime to our core services.",
+          "link": "https://github.blog/2021-07-07-github-availability-report-june-2021/",
+          "publishedOn": "2021-07-07T16:00:30.000Z",
+          "wordCount": 262,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "GitHub Availability Report: June 2021"
+        },
         {
           "description": "Today, we're launching a technical preview of GitHub Copilot, a new AI pair programmer that helps you write better code.",
           "link": "https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/",
@@ -1221,15 +1211,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "Privilege escalation with polkit: How to get root on Linux with a seven-year-old bug"
-        },
-        {
-          "description": "GitHub secret scanning has been securing our users’ code by scanning for and revoking secrets since 2015. Recently, we’ve focused on scanning for package registry credentials as well&#8212;a significant and important expansion on our original",
-          "link": "https://github.blog/2021-06-08-securing-open-source-supply-chain-scanning-package-registry-credentials/",
-          "publishedOn": "2021-06-08T16:00:30.000Z",
-          "wordCount": 1679,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Securing the open source supply chain by scanning for package registry credentials"
         }
       ]
     },
@@ -1244,24 +1225,6 @@
           "sourceHref": "https://building.nubank.com.br/feed/",
           "sourceTitle": "Building Nubank",
           "title": "Beyond prediction machines"
-        },
-        {
-          "description": "Series G becomes the largest private capital raise by a technology company in Latin America ever.\nThe post Nubank closes a second extension to its Series G round raising it to US$1.15B appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/investors-largest-private-capital-raise-in-latam/",
-          "publishedOn": "2021-06-08T12:00:09.000Z",
-          "wordCount": 3332,
-          "sourceHref": "https://building.nubank.com.br/feed/",
-          "sourceTitle": "Building Nubank",
-          "title": "Nubank closes a second extension to its Series G round raising it to US$1.15B"
-        },
-        {
-          "description": "The deal is an extension of the Series G round raised earlier this year for US$400 million\nThe post Nubank raises US$500 million from Berkshire Hathaway appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/investors-berkshire-hathaway/",
-          "publishedOn": "2021-06-08T11:58:19.000Z",
-          "wordCount": 3321,
-          "sourceHref": "https://building.nubank.com.br/feed/",
-          "sourceTitle": "Building Nubank",
-          "title": "Nubank raises US$500 million from Berkshire Hathaway"
         }
       ]
     }
