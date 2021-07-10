@@ -59,6 +59,42 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "This week we’re sharing a recent episode from Founders Talk that we continuously hear about from listeners. Listen and subscribe to Founders Talk at founderstalk.fm and anywhere you listen to podcasts.\nOn Founders Talk #75 — Adam talks with Spencer Kimball, CEO and Co-founder of Cockroach Labs — makers of CockroachDB an open source cloud-native distributed SQL database. Cockroach Labs recently raised $160 million dollars on a $2 billion dollar valuation. In this episode, Spencer shares his journey in open s…",
+          "link": "https://changelog.com/podcast/448",
+          "publishedOn": "2021-07-09T19:00:00.000Z",
+          "wordCount": 533,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Changelog 448: Massive scale and ultra-resilience"
+        },
+        {
+          "description": "KBall and Nick Nisi sit down with Nick Fitzgerald to learn about running JavaScript on WebAssembly. They talk about almost instantaneous startup, running interpreted languages at the edge, and take a deep dive into the weeds of how Wasm based modules will change the future of application development.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes …",
+          "link": "https://changelog.com/jsparty/183",
+          "publishedOn": "2021-07-09T15:30:00.000Z",
+          "wordCount": 420,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "JS Party 183: JS on Wasm"
+        },
+        {
+          "description": "Difftastic is an experimental structured diff tool that compares files based on their syntax. It is very much unfinished. It works reasonably on very parenthesised data (lisps, JSON), it works sometimes on other languages with sufficient parentheses (Rust, JS), and falls back to a line-oriented diff otherwise.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/Wilfred/difftastic",
+          "publishedOn": "2021-07-09T15:01:00.000Z",
+          "wordCount": 835,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A syntax-aware diffing tool"
+        },
+        {
+          "description": "This post does a great job of laying out all of the cumbersome/verbose ways you can solve a problem with regular expressions and then showing the tricky way of doing the same thing without all the hassle. With this trick up your sleeve, you’ll be able to answer all of these questions:\nHow do I match a word unless it’s surrounded by quotes?\nHow do I match xyz except in contexts a, b or c?\nHow do I match every word except those on a blacklist (or other contexts)?\nHow do I ignore all content that is bolded (… …",
+          "link": "http://rexegg.com/regex-best-trick.html",
+          "publishedOn": "2021-07-09T14:12:00.000Z",
+          "wordCount": 10433,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The best regex trick"
+        },
+        {
           "description": "Fuzzing is coming to the standard library. We speak to Katie Hockman and Jay Conrod who were part of the team responsible for designing and implementing it. We dig into the details, hear some best practices, where fuzzing can help your code, and learn more about how it works.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nCockroach Labs – Scale fast, survive anything, thrive everywhere! CockroachDB is most highly evolved database…",
           "link": "https://changelog.com/gotime/187",
           "publishedOn": "2021-07-08T16:15:00.000Z",
@@ -678,33 +714,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "\"The Ethereum community has accidentally solved a major problem of the Internet: Single Sign-On\""
-        },
-        {
-          "description": "This episode was recorded live from GopherCon Europe 2021!\nNatalie &amp; Mat host three amazing devs who gave talks that showcase using Go in unusual ways: Dr. Joakim Kennedy is tracking Go in malware, Mathilde Raynal is building quantum-resistant cryptography algorithms, and Preslav Rachev is creating digital art.\nWe hear from our speakers how they got into Go, how they made the choice to use Go for their unusual use case, and how it compares to other languages for their specific needs.\nWe also chat about …",
-          "link": "https://changelog.com/gotime/183",
-          "publishedOn": "2021-06-10T15:45:00.000Z",
-          "wordCount": 475,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Go Time 183: Using Go in unusual ways"
-        },
-        {
-          "description": "When it comes to open source, we came for the code, but we stayed for the people. Some of the best, brightest, &amp; kindest people we’ve met over our years doing The Changelog are maintainers of open source software.\nWe’ve been working (alongside others) to support, encourage, and shine our spotlight on these amazing people for awhile now, so it was exciting to hear that our friends at GitHub and Tidelift were organizing Maintainer Week.\nIf you listened to our Maintainer Week episode, then you already know…",
-          "link": "https://changelog.com/posts/thank-a-maintainer-on-us",
-          "publishedOn": "2021-06-10T11:05:00.000Z",
-          "wordCount": 611,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Thank a maintainer on us!"
-        },
-        {
-          "description": "Maintainer Week is finally here and we’re excited to make this an annual thing! If Maintainer Week is new to you, check out episode #442 with Josh Simmons and Kara Sowles.\nToday we’re talking Brett Cannon. Brett is Dev Manager of the Python Extension for VS Code, Python Steering Council Member, and core team member for Python. He recently shared a blog post The social contract of open source, so we invited Brett to join us for Maintainer Week to discuss this topic in detail.\nThank a maintainer on us! We’re …",
-          "link": "https://changelog.com/podcast/444",
-          "publishedOn": "2021-06-10T11:00:00.000Z",
-          "wordCount": 489,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The Changelog 444: Every commit is a gift"
         }
       ]
     },
@@ -922,78 +931,6 @@
           "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
           "sourceTitle": "English (US)",
           "title": "Sharing learnings about our image cropping algorithm"
-        },
-        {
-          "description": "This blog post is based on Michael Bronstein’s keynote talk at ICLR 2021 and the paper M. M. Bronstein et al., Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges (2021)",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/iclr-invited-talk-on-geometric-deep-learning.html",
-          "publishedOn": "2021-06-10T12:18:41.631Z",
-          "wordCount": 3223,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "ICLR Invited Talk on Geometric Deep Learning"
-        },
-        {
-          "description": "Twitter engineers found and fixed a Linux kernel bug in memory shrinker which caused OOM for us.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/dropping-cache-didnt-drop-cache.html",
-          "publishedOn": "2021-06-10T12:18:41.304Z",
-          "wordCount": 2282,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Dropping cache didn’t drop cache"
-        },
-        {
-          "description": "Learn how Shardlib, a new sharding library at Twitter simplifies the management of sharded ads services and enables dynamic resharding of these services without redeploying their clients.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/sharding-simplification-and-twitters-ads-serving-platform.html",
-          "publishedOn": "2021-06-10T12:18:41.281Z",
-          "wordCount": 4864,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Sharding, simplification, and Twitter’s ads serving platform"
-        },
-        {
-          "description": "Twitter annotated its data to a defined taxonomy by leveraging machine learning in its data platform by fusing Elasticsearch with neural networks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/fusing-elasticsearch-with-neural-networks-to-identify-data.html",
-          "publishedOn": "2021-06-10T12:18:41.156Z",
-          "wordCount": 1788,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Fusing Elasticsearch with neural networks to identify data"
-        },
-        {
-          "description": "Introducing the dict-minimize package",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/harnessing-second-order-optimizers-from-deep-learning-frameworks.html",
-          "publishedOn": "2021-06-10T12:18:41.108Z",
-          "wordCount": 1639,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Harnessing second order optimizers from deep learning frameworks"
-        },
-        {
-          "description": "In this post, we describe a graph neural network architecture (SIGN) that is of simple implementation and that works on very large graphs.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/simple-scalable-graph-neural-networks.html",
-          "publishedOn": "2021-06-10T12:18:41.091Z",
-          "wordCount": 3583,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Simple scalable graph neural networks"
-        },
-        {
-          "description": "Twitter built a data product to help with coronavirus research by opening our APIs to academic researchers, to access the public conversation around COVID-19.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/how-we-built-a-data-stream-to-assist-with-covid-19-research.html",
-          "publishedOn": "2021-06-10T12:18:41.075Z",
-          "wordCount": 1486,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Building a data stream to assist with COVID-19 research"
-        },
-        {
-          "description": "Learn about Twitter’s adoption of RocksDB within Manhattan, its internal distributed key-value store.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/adopting-rocksdb-within-manhattan.html",
-          "publishedOn": "2021-06-10T12:18:40.872Z",
-          "wordCount": 2250,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Adopting RocksDB within Manhattan"
         }
       ]
     },
@@ -1014,6 +951,15 @@
     {
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
+        {
+          "description": "Trying to understand the difference between a bug bounty vs. CTF? We explain the differences, the similarities, and the benefits of each.",
+          "link": "https://www.hackerone.com/blog/bug-bounty-vs-ctf-understanding-differences-benefits",
+          "publishedOn": "2021-07-09T23:30:00.000Z",
+          "wordCount": 1627,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "Bug Bounty vs. CTF [Understanding Differences & Benefits]"
+        },
         {
           "description": "Companies offer ongoing bug bounties to freelance ethical hackers to discover security vulnerabilities. Alternatively, penetration testing is a scheduled test of a system’s security to identify weaknesses and vulnerabilities.",
           "link": "https://www.hackerone.com/blog/bug-bounty-vs-penetration-testing-differences-explained",
@@ -1085,15 +1031,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "60 days of insights from the DoD’s Defense Industrial Base Vulnerability Disclosure Program Pilot"
-        },
-        {
-          "description": "HackerOne sat down with DDS and Army program leaders and one of the security researchers who hacked the Army. We discussed why Hack the matters, the results that were uncovered in Hack the Army 3.0, and their plans for the future of cybersecurity within the DoD and the U.S. Military. Read on to see what they had to say.",
-          "link": "https://www.hackerone.com/blog/announcing-hack-army-30-results-conversation-defense-digital-service-us-army-and-hack-army-0",
-          "publishedOn": "2021-06-10T12:00:00.000Z",
-          "wordCount": 2503,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "Announcing Hack the Army 3.0 Results: A Conversation with Defense Digital Service, U.S. Army, and Hack the Army 3.0’s Top Hacker"
         }
       ]
     },
@@ -1175,33 +1112,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "GitHub Desktop 2.9 includes squashing, reordering, amending, and more!"
-        },
-        {
-          "description": "What began as a small group effort in 2015 has now turned into a global initiative here at GitHub to amplify Black voices and talent in the tech community.",
-          "link": "https://github.blog/2021-06-10-blacktocats-turn-five/",
-          "publishedOn": "2021-06-10T19:03:23.000Z",
-          "wordCount": 941,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Blacktocats turn five"
-        },
-        {
-          "description": "In May, GitHub shipped a total of 20 new features. We love what we do, but we know it’s a lot to keep up with. So we’re trying something new on the GitHub Blog—a monthly recap of everything that shipped to Changelog in the past month. Check out some of the updates you might have missed.",
-          "link": "https://github.blog/2021-06-10-whats-new-from-github-changelog-may-2021-recap/",
-          "publishedOn": "2021-06-10T17:32:32.000Z",
-          "wordCount": 739,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "What’s new from GitHub Changelog? May 2021 Recap"
-        },
-        {
-          "description": "polkit is a system service installed by default on many Linux distributions. It’s used by systemd, so any Linux distribution that uses systemd also uses polkit. As a member of GitHub Security Lab, my job is to help improve the security of open source software by finding and reporting vulnerabilities. A few weeks ago, I found a privilege escalation vulnerability in polkit.",
-          "link": "https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/",
-          "publishedOn": "2021-06-10T16:00:52.000Z",
-          "wordCount": 2932,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Privilege escalation with polkit: How to get root on Linux with a seven-year-old bug"
         }
       ]
     },
