@@ -59,6 +59,33 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "This week on Founders Talk, Adam is joined by Mitch Wainer, previously CMO at DigitalOcean and a member of the founding team. They talk about his journey as an entrepreneur and marketer, the early days at DigitalOcean, and everything that went into disrupting the cloud with blazing fast SSDs. Back in March (2021), DigitalOcean started trading on the New York Stock Exchange (NYSE) — this obviously earned Mitch and many others a very large payday. They also talk about the work Mitch is doing now with Welcome …",
+          "link": "https://changelog.com/founderstalk/76",
+          "publishedOn": "2021-07-12T20:30:00.000Z",
+          "wordCount": 510,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Founders Talk 76: From disrupting the cloud to IPO"
+        },
+        {
+          "description": "Monocle is my universal, personal search engine. It can query across tens of thousands of documents from my blog posts, journal entries, notes, Tweets, contacts, and more to act as my extended memory spanning my entire life. Monocle is designed with a focus on speed, privacy, and hackability. It’s built to be very specific to the particulars of my personal workflow around data, so probably won’t work for anyone else.\nI’m logging this for your inspiration, not because you should download it and give it a try…",
+          "link": "https://monocle.surge.sh/",
+          "publishedOn": "2021-07-12T14:25:00.000Z",
+          "wordCount": 3,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Monocle is a universal, personal search engine"
+        },
+        {
+          "description": "Earthly is language agnostic, “steals” good ideas from Makefiles and Dockerfiles and combines them into one spec, and makes your builds self-contained, repeatable, portable and parallel.\nHere’s a ~5 minute video demoing how to  buil a simple Go app with Earthly\nDiscuss on Changelog News",
+          "link": "https://earthly.dev/",
+          "publishedOn": "2021-07-12T13:20:00.000Z",
+          "wordCount": 815,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Earthly is a build automation tool for the container era"
+        },
+        {
           "description": "This week we talk with Jean-Sébastien Pedron, RabbitMQ and FreeBSD contributor, about the importance of good release engineering for core infrastructure. Both Jean-Sébastien and I have been part of the Core RabbitMQ team for many years now. We have built some of the biggest CI/CD pipelines (check the show notes for one example), wrote and shipped some great code together, while breaking and fixing many things in the process.\nWe have been wrestling with today’s topic since 2016. Jean-Sébastien has some great…",
           "link": "https://changelog.com/shipit/9",
           "publishedOn": "2021-07-10T23:00:00.000Z",
@@ -823,7 +850,98 @@
     },
     {
       "href": "https://blog.twitter.com/engineering/en_us/blog.rss",
-      "articles": []
+      "articles": [
+        {
+          "description": "Learn how Shardlib, a new sharding library at Twitter simplifies the management of sharded ads services and enables dynamic resharding of these services without redeploying their clients.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/sharding-simplification-and-twitters-ads-serving-platform",
+          "publishedOn": "2021-07-13T12:19:17.711Z",
+          "wordCount": 4874,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Sharding, simplification, and Twitter’s ads serving platform"
+        },
+        {
+          "description": "In this post, we describe a graph neural network architecture (SIGN) that is of simple implementation and that works on very large graphs.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/simple-scalable-graph-neural-networks",
+          "publishedOn": "2021-07-13T12:19:17.678Z",
+          "wordCount": 3596,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Simple scalable graph neural networks"
+        },
+        {
+          "description": "This blog post is based on Michael Bronstein’s keynote talk at ICLR 2021 and the paper M. M. Bronstein et al., Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges (2021)",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/iclr-invited-talk-on-geometric-deep-learning",
+          "publishedOn": "2021-07-13T12:19:17.665Z",
+          "wordCount": 3228,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "ICLR Invited Talk on Geometric Deep Learning"
+        },
+        {
+          "description": "Twitter engineers found and fixed a Linux kernel bug in memory shrinker which caused OOM for us.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/dropping-cache-didnt-drop-cache",
+          "publishedOn": "2021-07-13T12:19:17.635Z",
+          "wordCount": 2282,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Dropping cache didn’t drop cache"
+        },
+        {
+          "description": "Twitter built a data product to help with coronavirus research by opening our APIs to academic researchers, to access the public conversation around COVID-19.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/how-we-built-a-data-stream-to-assist-with-covid-19-research",
+          "publishedOn": "2021-07-13T12:19:16.955Z",
+          "wordCount": 1480,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Building a data stream to assist with COVID-19 research"
+        },
+        {
+          "description": "Introducing the dict-minimize package",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/harnessing-second-order-optimizers-from-deep-learning-frameworks",
+          "publishedOn": "2021-07-13T12:19:16.944Z",
+          "wordCount": 1631,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Harnessing second order optimizers from deep learning frameworks"
+        },
+        {
+          "description": "Learn about Twitter’s adoption of RocksDB within Manhattan, its internal distributed key-value store.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/adopting-rocksdb-within-manhattan",
+          "publishedOn": "2021-07-13T12:19:16.929Z",
+          "wordCount": 2259,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Adopting RocksDB within Manhattan"
+        },
+        {
+          "description": "Twitter annotated its data to a defined taxonomy by leveraging machine learning in its data platform by fusing Elasticsearch with neural networks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/fusing-elasticsearch-with-neural-networks-to-identify-data",
+          "publishedOn": "2021-07-13T12:19:16.903Z",
+          "wordCount": 1788,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Fusing Elasticsearch with neural networks to identify data"
+        },
+        {
+          "description": "Twitter shares a technical analysis of its assessment for potential bias in its image cropping algorithm as part of its efforts to be more transparent around how it uses machine learning to improve pe",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm",
+          "publishedOn": "2021-07-13T12:19:16.668Z",
+          "wordCount": 1464,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Sharing learnings about our image cropping algorithm"
+        },
+        {
+          "description": "Twitter describes how to design local and computationally efficient provably powerful graph neural networks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/provably-expressive-graph-neural-networks",
+          "publishedOn": "2021-07-13T12:19:16.651Z",
+          "wordCount": 2202,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Provably expressive graph neural networks"
+        }
+      ]
     },
     {
       "href": "https://googleprojectzero.blogspot.com/atom.xml",
@@ -842,6 +960,15 @@
     {
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
+        {
+          "description": "Cyberattacks are the terrorism of today, hitting societies, commercial companies, and even individual citizens with data theft, money theft, ransomware, disruption of operations, public shaming, and loss of trust. The list of potential damage is long, and perpetrators are hiding in the dark web in jurisdictions outside of our control. The question is not whether you will be breached, but when or if it already happened without your knowledge. When a company’s digital assets are compromised, what would have c…",
+          "link": "https://www.hackerone.com/blog/top-top-cybersecurity-principles-every-board-member-must-know",
+          "publishedOn": "2021-07-12T20:15:00.000Z",
+          "wordCount": 1236,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "The Top Cybersecurity Principles Every Board Member Must Know"
+        },
         {
           "description": "Trying to understand the difference between a bug bounty vs. CTF? We explain the differences, the similarities, and the benefits of each.",
           "link": "https://www.hackerone.com/blog/bug-bounty-vs-ctf-understanding-differences-benefits",
@@ -923,6 +1050,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "At GitHub, we recently added a new feature to Rails that will be available in 7.0: support for handling associations across database clusters.",
+          "link": "https://github.blog/2021-07-12-adding-support-cross-cluster-associations-rails-7/",
+          "publishedOn": "2021-07-12T16:00:12.000Z",
+          "wordCount": 1449,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Adding support for cross-cluster associations to Rails 7"
+        },
         {
           "description": "In June, we experienced no incidents resulting in service downtime to our core services.",
           "link": "https://github.blog/2021-07-07-github-availability-report-june-2021/",
