@@ -59,6 +59,42 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "This is a follow-up blog post to Ship It! #6 Money flows rule everything\nTo achieve anything significant you need funding\nTo get funding you need to persuade the people with the money to part with it\nTo persuade the people with the money, you need to understand what they value\nTo understand what they value, you need to understand how their cash flows work\nTo understand how their cash flow works, you need to understand\n\nyour customers/clients and how and why they part with their money\nthe legal and regulator…",
+          "link": "https://zwischenzugs.com/2021/07/12/if-you-want-to-transform-it-start-with-finance/",
+          "publishedOn": "2021-07-13T18:51:00.000Z",
+          "wordCount": 5245,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "If you want to transform IT, start with finance"
+        },
+        {
+          "description": "How did we get from symbolic AI to deep learning models that help your write code (i.e., GitHub and OpenAI’s new Copilot)? That’s what Chris and Daniel discuss in this episode about the history and future of deep learning (with some help from an article recently published in ACM and written by the luminaries of deep learning).\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nPSSC Labs – Solutions from PSSC Labs provide a cost effec…",
+          "link": "https://changelog.com/practicalai/140",
+          "publishedOn": "2021-07-13T15:00:00.000Z",
+          "wordCount": 387,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 140: From symbols to AI pair programmers 💻"
+        },
+        {
+          "description": "Texthero is a python package to work with text data efficiently. It empowers NLP developers with a tool to quickly understand any text-based dataset and it provides a solid pipeline to clean and represent text data, from zero to hero.\nDiscuss on Changelog News",
+          "link": "https://texthero.org/",
+          "publishedOn": "2021-07-13T14:53:00.000Z",
+          "wordCount": 199,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Take your text pre-processing, representation, and visualization from zero to hero"
+        },
+        {
+          "description": "Emma Catlin writing for Pinterest Engineering:\n… at some point in my first year, I realized something critical: I needed to help the entire team, not just myself, in order to grow to the next engineering level. To start, one of my teammates recommended I review code.\nThe advice was simple enough — use code reviews as a way to learn more about a piece of code and expand my knowledge of our overall system. It turned out code reviews were the perfect way for me to continue my learning journey.\nShe got better a…",
+          "link": "https://medium.com/pinterest-engineering/how-to-review-code-as-a-junior-developer-10ffb7846958",
+          "publishedOn": "2021-07-13T13:41:00.000Z",
+          "wordCount": 1821,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "How to review code as a junior developer"
+        },
+        {
           "description": "This week on Founders Talk, Adam is joined by Mitch Wainer, previously CMO at DigitalOcean and a member of the founding team. They talk about his journey as an entrepreneur and marketer, the early days at DigitalOcean, and everything that went into disrupting the cloud with blazing fast SSDs. Back in March (2021), DigitalOcean started trading on the New York Stock Exchange (NYSE) — this obviously earned Mitch and many others a very large payday. They also talk about the work Mitch is doing now with Welcome …",
           "link": "https://changelog.com/founderstalk/76",
           "publishedOn": "2021-07-12T20:30:00.000Z",
@@ -696,33 +732,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Practical AI 138: Multi-GPU training is hard (without PyTorch Lightning)"
-        },
-        {
-          "description": "When it comes to scaling, we might need to think about:\ndata storage, if we store more and more data and it becomes expensive or slow working with them\nfast INSERTs and UPDATES for write-heavy workloads\nmaking SELECT queries faster because of their complexity or because they need to query huge amounts of data\nconcurrency if we have many clients interacting with the database\nIn this article, I will present some basic ideas and starting points on scaling traditional SQL databases.\nDiscuss on Changelog News",
-          "link": "https://stribny.name/blog/2020/07/scaling-relational-sql-databases/",
-          "publishedOn": "2021-06-14T17:07:00.000Z",
-          "wordCount": 2487,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Scaling relational SQL databases"
-        },
-        {
-          "description": "WWDC21 wasn’t the most exciting Apple keynote ever (especially for those of us hoping for some new hardware), but there were a lot of software things announced. Apple continues to iterate on Swift, and the new 5.5 beta has some really cool stuff in it. InfoQ has the rundown on its two flagship improvements.\nDiscuss on Changelog News",
-          "link": "https://www.infoq.com/news/2021/06/swift-async-await-actors/",
-          "publishedOn": "2021-06-14T14:19:00.000Z",
-          "wordCount": 3439,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Swift 5.5 brings async/await and actor support"
-        },
-        {
-          "description": "Don Watkins:\nMark Van Doren said, “the art of teaching is the art of assisting discovery.” I saw that play out in this classroom using open source tools. More students need opportunities like this to help them gain a quality education. The Raspberry Pi 400 is a great form factor for teaching and learning.\nSuch a cool program that’d be easy to reproduce in your local library.\nDiscuss on Changelog News",
-          "link": "https://opensource.com/article/21/6/teach-python-raspberry-pi",
-          "publishedOn": "2021-06-14T13:24:00.000Z",
-          "wordCount": 1401,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "How I teach Python on the Raspberry Pi 400 at the public library"
         }
       ]
     },
@@ -836,15 +845,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "What goes into curl?"
-        },
-        {
-          "description": "In the afternoon of October 17, 2013 we merged the first config file ever that would use Travis CI for the curl project using the nifty integration at GitHub. This was the actual introduction of the entire concept of building and testing the project on every commit and pull request for the curl project. Before &#8230; Continue reading Bye bye Travis CI &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/06/14/bye-bye-travis-ci/",
-          "publishedOn": "2021-06-14T09:14:30.000Z",
-          "wordCount": 1432,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "Bye bye Travis CI"
         }
       ]
     },
@@ -961,6 +961,15 @@
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
         {
+          "description": "Dr. Jasyn Voshell, Director for Product and Solution Security at Zebra Technologies, is a power user of HackerOne, with a Vulnerability Disclosure Program (VDP), bug bounty program, and his team regularly running pentests with hackers.",
+          "link": "https://www.hackerone.com/blog/how-hackerone-positively-influences-zebras-software-development-life-cycle",
+          "publishedOn": "2021-07-13T16:00:00.000Z",
+          "wordCount": 1269,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "How HackerOne Positively Influences Zebra’s Software Development Life Cycle"
+        },
+        {
           "description": "Cyberattacks are the terrorism of today, hitting societies, commercial companies, and even individual citizens with data theft, money theft, ransomware, disruption of operations, public shaming, and loss of trust. The list of potential damage is long, and perpetrators are hiding in the dark web in jurisdictions outside of our control. The question is not whether you will be breached, but when or if it already happened without your knowledge. When a company’s digital assets are compromised, what would have c…",
           "link": "https://www.hackerone.com/blog/top-top-cybersecurity-principles-every-board-member-must-know",
           "publishedOn": "2021-07-12T20:15:00.000Z",
@@ -1031,25 +1040,35 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "How Hackers Can Help Reduce Your Organization's Application Risk on AWS"
-        },
-        {
-          "description": "Penetration testing, aka pen testing or ethical hacking, attempts to attempt to breach a system's security for the purpose of vulnerability identification. Testing is done in an authorized and structured manner to report and rectify so that weaknesses can be reported and rectified.",
-          "link": "https://www.hackerone.com/blog/what-penetration-testing-how-does-it-work-step-step-0",
-          "publishedOn": "2021-06-14T20:00:00.000Z",
-          "wordCount": 2384,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "What is Penetration Testing? How Does It Work Step-by-Step?"
         }
       ]
     },
     {
       "href": "https://hacks.mozilla.org/feed/",
-      "articles": []
+      "articles": [
+        {
+          "description": "As the summer rolls around for those of us in the northern hemisphere, temperatures are high and unwinding with a cool ice tea is high on the agenda. Isn't it lucky then that Background Update is here for Windows, which means Firefox can update even if it's not running. We can just sit back and relax!\nAlso this release we see a few nice JavaScript additions, including private fields and methods for classes, and the at() method for Array, String and TypedArray global objects.\nThis blog post just provides a s…",
+          "link": "https://hacks.mozilla.org/2021/07/getting-lively-with-firefox-90/",
+          "publishedOn": "2021-07-13T15:02:10.000Z",
+          "wordCount": 876,
+          "sourceHref": "https://hacks.mozilla.org/feed/",
+          "sourceTitle": "Mozilla Hacks – the Web developer blog",
+          "title": "Getting lively with Firefox 90"
+        }
+      ]
     },
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "This month, we have some exciting updates to share. A lot of you have welcomed the improvements to your ability to sync a forked repo with upstream from the web UI, add video on issues",
+          "link": "https://github.blog/2021-07-13-whats-new-github-changelog-june-2021/",
+          "publishedOn": "2021-07-13T16:01:14.000Z",
+          "wordCount": 1435,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "What’s new from GitHub Changelog? June 2021 Recap"
+        },
         {
           "description": "At GitHub, we recently added a new feature to Rails that will be available in 7.0: support for handling associations across database clusters.",
           "link": "https://github.blog/2021-07-12-adding-support-cross-cluster-associations-rails-7/",
