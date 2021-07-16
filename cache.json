@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Ryan Hurst, Production Security Team\n\nThe way we design and build software is continually evolving. Just as we now think of security as something we build into software from the start, we are also increasingly looking for new ways to minimize trust in that software. One of the ways we can do that is by designing software so that you can get cryptographic certainty of what the software has done.\nIn this post, we'll introduce the concept of verifiable data structures that help us get this cryptograp…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/TDPwDnh8ayA/verifiable-design-in-modern-systems.html",
+          "publishedOn": "2021-07-15T17:18:00.005Z",
+          "wordCount": 1222,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Verifiable design in modern systems"
+        },
+        {
           "description": "Posted by Kim Lewandowski, Azeem Shaikh, Laurent Simon, Google Open Source Security Team\n\n\nContributors to the Scorecards project, an automated security tool that produces a “risk score” for open source projects, have accomplished a lot since our launch last fall. Today, in collaboration  with the Open Source Security Foundation community, we are announcing Scorecards v2. We have added new security checks, scaled up the number of projects being scored, and made this data easily accessible for analysis.\n\nWit…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/aIycN3fXCO4/measuring-security-risks-in-open-source.html",
           "publishedOn": "2021-07-01T13:00:00.001Z",
@@ -29,15 +38,6 @@
           "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
           "sourceTitle": "Google Online Security Blog",
           "title": "Get ready for the 2021 Google CTF"
-        },
-        {
-          "description": "Posted Kim Lewandowski, Google Open Source Security Team &amp; Mark Lodato, Binary Authorization for Borg Team&nbsp;\n\nSupply chain integrity attacks—unauthorized modifications to software packages—have been on the rise in the past two years, and are proving to be common and reliable attack vectors that affect all consumers of software. The software development and deployment supply chain is quite complicated, with numerous threats along the source ➞ build ➞ publish workflow. While point solutions do exist f…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/hZ31glCO8Qg/introducing-slsa-end-to-end-framework.html",
-          "publishedOn": "2021-06-16T15:36:00.029Z",
-          "wordCount": 4482,
-          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
-          "sourceTitle": "Google Online Security Blog",
-          "title": "Introducing SLSA, an End-to-End Framework for Supply Chain Integrity"
         }
       ]
     },
@@ -48,6 +48,60 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Doing ops properly is hard. Most of us are failing &amp; learning every day. Some of us manage to have fun too.\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=rK_7ozvm53o",
+          "publishedOn": "2021-07-15T16:20:00.000Z",
+          "wordCount": 18,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "That Sinking Feeling (The #HugOps Song)"
+        },
+        {
+          "description": "Go modules brought about quite a few changes to the Go ecosystem. One of those changes is semantic import versioning (SIV), which has a fairly pronounced effect on how libraries are identified. In this episode we are joined by Tim Heckman and Peter Bourgon to discuss some of the downsides to these changes and how it has lead to what a subset of the Go community refers to as the “v2+ problem.”\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!…",
+          "link": "https://changelog.com/gotime/188",
+          "publishedOn": "2021-07-15T15:30:00.000Z",
+          "wordCount": 474,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Go Time 188: SIV and the V2+ issue"
+        },
+        {
+          "description": "This sounds too good to be true, because it kind of is. There is no escaping the cloud (because of email trust) or the requirement of sysadmin’ing this setup (sending/receiving email is critical). If you slack on the details or upkeep, it’s your email.\nI have been on an ongoing quest to free myself from cloud services for years now. During this time, I have hosted my personal email (@bloomqu.ist) on a Google Apps G Suite Google Workspace account, which, while convenient, also means that my personal emails a…",
+          "link": "https://zach.bloomqu.ist/blog/2021/07/reliable-self-hosted-email.html",
+          "publishedOn": "2021-07-15T15:12:06.000Z",
+          "wordCount": 1471,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Reliable, deliverable, self-hosted email"
+        },
+        {
+          "description": "This series of interactive lessons and exercises is a great place to start if you want to learn SQL. And trust me: if you don’t know SQL, you want to learn SQL. Of all the technologies and tools I’ve picked up over the course of my career, SQL has had one of the highest ROIs. It’s portable across languages/runtimes and has incredible staying power in terms of skill relevancy.\nDiscuss on Changelog News",
+          "link": "https://sqlbolt.com/",
+          "publishedOn": "2021-07-15T14:25:00.000Z",
+          "wordCount": 672,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "SQLBolt – quickly learn SQL right in your browser"
+        },
+        {
+          "description": "Kaizen means “change for the better”, continuous improvement in this context. Failure is essential to learning, but how do we learn as a team? The simplest thing is to regularly dedicate time for taking a step back, talking about what works &amp; what doesn’t, maybe writing some of it down, and eventually deciding what should improve next. I intend to make every 10th Ship It! episode a Kaizen one.\nThis is the first one when we talk with Adam and Jerod about the things that we want to improve in our setup ov…",
+          "link": "https://changelog.com/shipit/10",
+          "publishedOn": "2021-07-15T14:00:00.000Z",
+          "wordCount": 587,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Ship It! 10: Kaizen! The day half the internet went down"
+        },
+        {
+          "description": "In any software project, over time new features and APIs are added and from time-to-time some of them also become deprecated and eventually get removed. Even huge project such as Kubernetes is no exception to this, yet core parts of its API don’t really come to mind when thinking about deprecating and eventual removal. So, the question is - could a core object or API in Kubernetes, such as Pod, Deployment or Service be removed and if so, how would that go?\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/53",
+          "publishedOn": "2021-07-15T13:38:00.000Z",
+          "wordCount": 17,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Could Kubernetes pods ever become deprecated?"
+        },
         {
           "description": "Ellen Spertus on Stack Overflow’s blog:\nWhile there are many resources to help programmers write better code—such as books and static analyzers—there are few for writing better comments. While it’s easy to measure the quantity of comments in a program, it’s hard to measure the quality, and the two are not necessarily correlated. A bad comment is worse than no comment at all. Here are some rules to help you achieve a happy medium.\nI like rule #6 (provide links to the original source of copied code) and rule …",
           "link": "https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/",
@@ -713,24 +767,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Ship It! 6: Follow the money"
-        },
-        {
-          "description": "Matthew Gerstman:\nI’ve been tasked with leading frontend. As a result, I’ve been teaching a whole lot of people about the web.\nKnowing where we came from can help us figure out where we should go. It’s also a mountain of technical debt, and we’re collectively building on top of it.\nForgive me if I skip the wonderful stories of Macromedia Flash, Java in the browser, or whatever other detour you can think of. While those were important to development of the web, most of us will never run into them again.\nThe …",
-          "link": "https://www.matthewgerstman.com/tech/history-of-the-web/",
-          "publishedOn": "2021-06-16T15:52:00.000Z",
-          "wordCount": 3550,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "History of the web: part 1"
-        },
-        {
-          "description": "You’ve probably seen many of these commands hit Changelog News over the years, but now you can see them all again in one hand-curated place. Who knows, maybe one or two will be new to you. I hadn’t heard of curlie previously, which looks like a nice merging of cur and httpie.\nDiscuss on Changelog News",
-          "link": "https://github.com/ibraheemdev/modern-unix",
-          "publishedOn": "2021-06-16T13:34:00.000Z",
-          "wordCount": 727,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Modern alternatives to Unix commands"
         }
       ]
     },
@@ -951,6 +987,15 @@
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
         {
+          "description": "Today, HackerOne is launching the industry’s first hacker API. This release is now out of beta and is available to the hacker community. It includes a collection of API endpoints that help automate common workflow tasks. In the past, hackers had to use the UI to complete repetitive tasks on the platform, with no supported mechanism to script or automate their workflows. With the new API, hackers can increase productivity and allocate more time towards creative bug hunting.",
+          "link": "https://www.hackerone.com/blog/how-industrys-first-hacker-powered-api-helps-hackers-automate-workflows",
+          "publishedOn": "2021-07-15T15:00:00.000Z",
+          "wordCount": 976,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "How the Industry’s First Hacker-Powered API Helps Hackers Automate Workflows"
+        },
+        {
           "description": "Dr. Jasyn Voshell, Director for Product and Solution Security at Zebra Technologies, is a power user of HackerOne, with a Vulnerability Disclosure Program (VDP), bug bounty program, and his team regularly running pentests with hackers.",
           "link": "https://www.hackerone.com/blog/how-hackerone-positively-influences-zebras-software-development-life-cycle",
           "publishedOn": "2021-07-13T16:00:00.000Z",
@@ -1012,15 +1057,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "How HackerOne and GitHub Now Work Better Together"
-        },
-        {
-          "description": "We recently sat down with Abhijith Chandrashekar, PSIRT Manager at Citrix, to discuss why Citrix continues to expand their bug bounty program and learn about their cloud security and scope expansion plans. Read on to see what he had to say.",
-          "link": "https://www.hackerone.com/blog/citrixs-hacker-powered-security-growth-plan-qa-abhijith-chandrashekar",
-          "publishedOn": "2021-06-16T15:00:00.000Z",
-          "wordCount": 1610,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "Citrix’s Hacker-Powered Security Growth Plan: Q&A with Abhijith Chandrashekar"
         }
       ]
     },
@@ -1041,6 +1077,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "The GitHub Education Stream Team is adding new shows. Job-hunting graduate? New to coding? No matter where you are, there's a show for you.",
+          "link": "https://github.blog/2021-07-15-student-leaders-github-campus-tv-next-level/",
+          "publishedOn": "2021-07-15T16:00:29.000Z",
+          "wordCount": 1142,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Student leaders are taking GitHub Campus TV to the next level"
+        },
         {
           "description": "This month, we have some exciting updates to share. A lot of you have welcomed the improvements to your ability to sync a forked repo with upstream from the web UI, add video on issues",
           "link": "https://github.blog/2021-07-13-whats-new-github-changelog-june-2021/",
@@ -1121,15 +1166,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "GitHub Packages Container registry is generally available"
-        },
-        {
-          "description": "The latest version of GitHub Desktop allows you to squash commits, squash and merge, reorder, amend your last commit, check out a branch from a previous commit, and more.",
-          "link": "https://github.blog/2021-06-16-github-desktop-2-9-squashing-reordering-amending/",
-          "publishedOn": "2021-06-16T16:00:57.000Z",
-          "wordCount": 676,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "GitHub Desktop 2.9 includes squashing, reordering, amending, and more!"
         }
       ]
     },
@@ -1137,13 +1173,13 @@
       "href": "https://building.nubank.com.br/feed/",
       "articles": [
         {
-          "description": "A huge part of Nubank’s Data Science team has been recently focusing on leveraging causal inference along with traditional machine learning to solve some of our toughest problems. This post aims at explaining why causal inference is such a powerful tool to solve business problems with data.\nThe post Beyond prediction machines appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/beyond-prediction-machines/",
-          "publishedOn": "2021-06-16T20:29:14.000Z",
-          "wordCount": 4455,
+          "description": "Analytical work can greatly benefit from software engineering standards in terms of quality and efficiency, here's how.\nThe post Scaling data analytics with software engineering best practices appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/scaling-data-analytics-with-software-engineering-best-practices/",
+          "publishedOn": "2021-07-15T15:31:27.000Z",
+          "wordCount": 4830,
           "sourceHref": "https://building.nubank.com.br/feed/",
           "sourceTitle": "Building Nubank",
-          "title": "Beyond prediction machines"
+          "title": "Scaling data analytics with software engineering best practices"
         }
       ]
     }
