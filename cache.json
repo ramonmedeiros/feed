@@ -4,6 +4,24 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Charlie Reis​ and Alex Moshchuk, Chrome Security Team\nChrome's Site Isolation is an essential security defense that makes it harder for malicious web sites to steal data from other web sites. On Windows, Mac, Linux, and Chrome OS, Site Isolation protects all web sites from each other, and also ensures they do not share processes with extensions, which are more highly privileged than web sites. As of Chrome 92, we will start extending this capability so that extensions can no longer share processes…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/CBZqJOPDFeY/protecting-more-with-site-isolation.html",
+          "publishedOn": "2021-07-20T17:00:00.007Z",
+          "wordCount": 1006,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Protecting more with Site Isolation"
+        },
+        {
+          "description": "Posted by Sarah Morales, Community Outreach Manager, Security&nbsp;\nIt’s no secret that lack of diversity in corporate America is a well-documented problem and improvements have been slow. To help improve female representation in the cybersecurity industry, Google teamed up with Women in Cybersecurity (WiCyS) and SANS Institute a year ago to establish the Security Training Scholarship Program. \nThe multi-stage security training program set participants on a path to launch and advance their careers in cybers…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/9UA3XccGiOc/advancing-inclusive-diverse-security.html",
+          "publishedOn": "2021-07-20T16:20:00.007Z",
+          "wordCount": 1043,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Advancing an inclusive, diverse security industry"
+        },
+        {
           "description": "Posted by Ryan Hurst, Production Security Team\n\nThe way we design and build software is continually evolving. Just as we now think of security as something we build into software from the start, we are also increasingly looking for new ways to minimize trust in that software. One of the ways we can do that is by designing software so that you can get cryptographic certainty of what the software has done.\nIn this post, we'll introduce the concept of verifiable data structures that help us get this cryptograp…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/TDPwDnh8ayA/verifiable-design-in-modern-systems.html",
           "publishedOn": "2021-07-15T17:18:00.005Z",
@@ -39,6 +57,42 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "This expands on topics that we have discussed in Ship It! #11 and covers community findings on the practices that make the biggest difference for:\nHigher productivity\nImprovement in code quality\nEnd-user satisfaction\nSoftware developer retention\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=W3UU2lsQDoo",
+          "publishedOn": "2021-07-20T17:34:00.000Z",
+          "wordCount": 27,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Mature teams ship better code faster and you can too"
+        },
+        {
+          "description": "In 1984 John Gage of Sun Microsystems was credited as saying “The Network is the computer.” Almost four decades ago, John had a vision of distributed systems working together to be greater than the sum of their parts.\nFor this article, I surveyed the land of hosted IDEs and it turns out that we’ve progressed beyond running VS Code on an iPad whilst sipping a cocktail.\nYou can still do that, but there’s way more to it today and I’ll take you through some of use-cases and add my own thoughts. There’s also a p…",
+          "link": "https://blog.alexellis.io/the-internet-is-my-computer/",
+          "publishedOn": "2021-07-20T16:43:00.000Z",
+          "wordCount": 2495,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Internet is my computer"
+        },
+        {
+          "description": "Angle-grinder allows you to parse, aggregate, sum, average, min/max, percentile, and sort your data. You can see it, live-updating, in your terminal. Angle grinder is designed for when, for whatever reason, you don’t have your data in graphite/honeycomb/kibana/sumologic/splunk/etc. but still want to be able to do sophisticated analytics.\nAngle grinder can process well above 1M rows per second (simple pipelines as high as 5M), so it’s usable for fairly meaty aggregation. The results will live update in your …",
+          "link": "https://github.com/rcoh/angle-grinder",
+          "publishedOn": "2021-07-20T15:55:00.000Z",
+          "wordCount": 4074,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Slice and dice logs on the command line with Angle Grinder"
+        },
+        {
+          "description": "9 out of 10 AI projects don’t end up creating value in production. Why? At least partly because these projects utilize unstable models and drifting data. In this episode, Roey from BeyondMinds gives us some insights on how to filter garbage input, detect risky output, and generally develop more robust AI systems.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nPSSC Labs – Solutions from PSSC Labs provide a cost effective, highly s…",
+          "link": "https://changelog.com/practicalai/141",
+          "publishedOn": "2021-07-20T15:00:00.000Z",
+          "wordCount": 397,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 141: Towards stability and robustness"
+        },
         {
           "description": "This week we’re talking to Rasmus Andersson about his journey as a software creator. We talk about the work he’s doing right now on Playbit, a computing environment which encourages playful learning, building, and sharing of software. We also talk about his work on the Inter typeface, as well as the reasons why this font family needed to be free and open source.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSourcegraph – Sourceg…",
           "link": "https://changelog.com/podcast/449",
@@ -686,42 +740,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "A high-performance, columnar, in-memory storage engine for Go"
-        },
-        {
-          "description": "AugLy is a great library to utilize for augmenting your data in model training, or to evaluate the robustness gaps of your model! We designed AugLy to include many specific data augmentations that users perform in real life on internet platforms like Facebook’s – for example making an image into a meme, overlaying text/emojis on images/videos, reposting a screenshot from social media. While AugLy contains more generic data augmentations as well, it will be particularly useful to you if you’re working on a p…",
-          "link": "https://github.com/facebookresearch/AugLy",
-          "publishedOn": "2021-06-21T20:50:00.000Z",
-          "wordCount": 1204,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A data augmentations library for audio, image, text, and video"
-        },
-        {
-          "description": "On this episode we’re talking with our good friend Mat Ryer whom you may know from the Go Time podcast. Mat created an awesome open source tool for putting just about anything in your Mac’s toolbar. It was originally written in Objective-C, but it just got a big rewrite in Go and abig  rename from BitBar to xbar.\nIf you don’t use a Mac don’t hit skip on this episode quite yet! There are lessons to be learned for anyone interested in hacking on tools to make your life better. Plus, with this rewrite Mat has …",
-          "link": "https://changelog.com/podcast/446",
-          "publishedOn": "2021-06-21T20:00:00.000Z",
-          "wordCount": 512,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The Changelog 446: xbar puts anything in your macOS menu bar"
-        },
-        {
-          "description": "You sigh. Maybe the compilation didn’t work? You recompile and run it again. Nope. Still the same problem. You stare out the window.\nThis post is about ways of getting unstuck on a problem when you do not (yet) have all the relevant knowledge. It focuses on the problem with the ego when being a more seasoned programmer and the difficulty on admitting that you don’t know (yet).\nFrom there we go through the steps on being unstuck and making that ego more inflated and annoying.\nDiscuss on Changelog News",
-          "link": "https://www.iamjonas.me/2021/06/getting-unstuck.html",
-          "publishedOn": "2021-06-21T15:23:00.000Z",
-          "wordCount": 1804,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Getting unstuck"
-        },
-        {
-          "description": "Super Mario World Widescreen is your beloved Mario World SNES game but in the 16:9 resolution. This is possible by expanding the horizontal resolution by 96 pixels, increasing resolution from 256x224 to 352x224. Since the original SNES does not have this resolution, the emulator focused into high definition mods bsnes-hd must be used.\nI love how open source hackers give classic games like this new life by applying their skill and ingenuity to a property they love. I wonder if having it in widescreen changes…",
-          "link": "https://github.com/VitorVilela7/wide-snes",
-          "publishedOn": "2021-06-21T14:37:00.000Z",
-          "wordCount": 1003,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Super Mario World modded to be 16:9"
         }
       ]
     },
@@ -791,6 +809,15 @@
     {
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
+        {
+          "description": "Welcome to another release! We did more bug-fixes than in any previous release (176). We paid more in bug-bounties than during any previous release cycle (4,200 USD) and we thank more contributors in the RELEASE-NOTES than ever before (83). Release presentation Numbers the 201st release6 changes56 days (total: 8,524)176 bug-fixes (total: 7,142)263 commits (total: 27,465)0 &#8230; Continue reading curl 7.78.0 five in one &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/07/21/curl-7-78-0-five-in-one/",
+          "publishedOn": "2021-07-21T07:32:03.000Z",
+          "wordCount": 1364,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "curl 7.78.0 five in one"
+        },
         {
           "description": "I&#8217;m proud and happy to mention that curl just passed the magic limit of 100,000 USD in raised sponsorship money. Or call it donations if you want. Since April 2018. That&#8217;s about 40 months. Donate? Do it here! Donations over time A grand total of 440 awesome organizations and individuals have donated money to the &#8230; Continue reading curl reaches 100K raised &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/07/06/curl-reaches-100k-raised/",
@@ -1003,21 +1030,21 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "Bug Bounty vs. Penetration Testing: \tDifferences Explained"
-        },
-        {
-          "description": "Hundreds of HackerOne customers use our platform in their application security processes. For the most part, these are organizations using bug bounty to find vulnerabilities in their deployed applications. But there is so much more that we can do for development teams",
-          "link": "https://www.hackerone.com/blog/hackerone-devsecops-0",
-          "publishedOn": "2021-06-21T17:00:00.000Z",
-          "wordCount": 1690,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "HackerOne in DevSecOps"
         }
       ]
     },
     {
       "href": "https://hacks.mozilla.org/feed/",
       "articles": [
+        {
+          "description": "As we’re all aware by now, we made some big platform changes at the end of 2020. Whilst the big move has happened, it’s given us a great opportunity to clear out the cupboards and closets. \nThe post Spring Cleaning MDN: Part 1 appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2021/07/spring-cleaning-mdn-part-1/",
+          "publishedOn": "2021-07-20T16:00:48.000Z",
+          "wordCount": 418,
+          "sourceHref": "https://hacks.mozilla.org/feed/",
+          "sourceTitle": "Mozilla Hacks – the Web developer blog",
+          "title": "Spring Cleaning MDN: Part 1"
+        },
         {
           "description": "As the summer rolls around for those of us in the northern hemisphere, temperatures are high and unwinding with a cool ice tea is high on the agenda. Isn't it lucky then that Background Update is here for Windows, which means Firefox can update even if it's not running. We can just sit back and relax!\nAlso this release we see a few nice JavaScript additions, including private fields and methods for classes, and the at() method for Array, String and TypedArray global objects.\nThis blog post just provides a s…",
           "link": "https://hacks.mozilla.org/2021/07/getting-lively-with-firefox-90/",
@@ -1112,15 +1139,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "A framework for building Open Graph images"
-        },
-        {
-          "description": "Throughout the beta, we added features to improve the experience of using the Container registry. Today, we’re excited to announce that the Container registry is generally available as part of GitHub Packages!",
-          "link": "https://github.blog/2021-06-21-github-packages-container-registry-generally-available/",
-          "publishedOn": "2021-06-21T19:04:56.000Z",
-          "wordCount": 934,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "GitHub Packages Container registry is generally available"
         }
       ]
     },
