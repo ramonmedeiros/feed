@@ -58,6 +58,33 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "This keeps getting better! We talked with @lawik about the same topic a few weeks back on Ship It! #7. We even did a follow-up YouTube stream. I intend to continue this conversation if Maik is up for it 🎙\nDiscuss on Changelog News",
+          "link": "https://ably.com/blog/no-we-dont-use-kubernetes",
+          "publishedOn": "2021-07-21T17:00:00.000Z",
+          "wordCount": 4671,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "No, we don’t use Kubernetes"
+        },
+        {
+          "description": "Too often, web tiers are full of boilerplate that does nothing except convert a result set into JSON. A middle tier could be as simple as a function call that returns JSON. All we need is an easy way to convert result sets into JSON in the database.\nPostgreSQL has built-in JSON generators that can be used to create structured JSON output right in the database, upping performance and radically simplifying web tiers. Fortunately, PostgreSQL has such functions, that run right next to the data, for better perfo…",
+          "link": "https://blog.crunchydata.com/blog/generating-json-directly-from-postgres",
+          "publishedOn": "2021-07-21T15:12:00.000Z",
+          "wordCount": 1051,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Generating JSON directly from Postgres"
+        },
+        {
+          "description": "On this special edition of The Changelog, we tell Vim’s story from the mouths of its users. Julia Evans, Drew Neil, Suz Hinton, and Gary Bernhardt join Jerod Santo for a deep and wide-ranging discussion about “the best text editor that anyone ever wrote.”\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSourcegraph – Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to…",
+          "link": "https://changelog.com/podcast/450",
+          "publishedOn": "2021-07-21T14:15:00.000Z",
+          "wordCount": 9353,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Changelog 450: Why we 💚 Vim"
+        },
+        {
           "description": "This expands on topics that we have discussed in Ship It! #11 and covers community findings on the practices that make the biggest difference for:\nHigher productivity\nImprovement in code quality\nEnd-user satisfaction\nSoftware developer retention\n\nDiscuss on Changelog News",
           "link": "https://www.youtube.com/watch?v=W3UU2lsQDoo",
           "publishedOn": "2021-07-20T17:34:00.000Z",
@@ -704,42 +731,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Conditional HTTP GET: The fastest requests need no response body"
-        },
-        {
-          "description": "This talk by Brittany Storoz from JSConf EU 2018 is sooo good! If you’ve ever wondered why we call bugs bugs, why we throw and catch exceptions, or why we use foo and bar as placeholder variables, give it a 👀\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=2KTK2qD4-gs",
-          "publishedOn": "2021-06-22T18:39:00.000Z",
-          "wordCount": 23,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The etymology of programming jargon"
-        },
-        {
-          "description": "Pinecone is the first vector database for machine learning.  Edo Liberty explains to Chris how vector similarity search works, and its advantages over traditional database approaches for machine learning.  It enables one to search through billions of vector embeddings for similar matches, in milliseconds, and Pinecone is a managed service that puts this capability at the fingertips of machine learning practitioners.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and…",
-          "link": "https://changelog.com/practicalai/139",
-          "publishedOn": "2021-06-22T16:00:00.000Z",
-          "wordCount": 409,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Practical AI 139: Vector databases for machine learning"
-        },
-        {
-          "description": "This project is no longer actively developed, but it looks like an excellent resource for anyone who is interested in compilers. Ruby is an easy language to grok, so it should make for (relatively) easy reading!\nRhizome is a paedagogical just-in-time compiler (JIT) for Ruby, implemented in pure Ruby. It’s not really designed to be used. It’s designed to show you how JITs work and why perhaps a JIT for Ruby should be written in Ruby. It’s also designed to try to go beyond the trivial aspects of a simple temp…",
-          "link": "https://github.com/chrisseaton/rhizome",
-          "publishedOn": "2021-06-22T14:52:00.000Z",
-          "wordCount": 812,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A pure-Ruby JIT compiler for Ruby (read it, don't use it!)"
-        },
-        {
-          "description": "The general idea is to leverage cache-friendly ways of organizing data in structures of arrays (SoA) otherwise known “columnar” storage in database design. This, in turn allows us to iterate and filter over columns very efficiently. On top of that, this package also adds bitmap indexing to the columnar storage, allowing to build filter queries using binary and, and not, or and xor (see kelindar/bitmap with SIMD support).\nDiscuss on Changelog News",
-          "link": "https://github.com/kelindar/column",
-          "publishedOn": "2021-06-22T13:50:00.000Z",
-          "wordCount": 3819,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A high-performance, columnar, in-memory storage engine for Go"
         }
       ]
     },
@@ -844,15 +835,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "Sending those stickers"
-        },
-        {
-          "description": "On May 17, I joined the Kathy and Brian, the hosts of the GitHub ReadMe podcast on a video meeting from my home and we had a chat. Mostly about my work on curl. Today the episode &#8220;aired&#8221;. &#8220;curl: 25 years and 200 releases later&#8221; You find it here. Also: Spotify. Apple podcasts. RSS feed. &#8230; Continue reading On the GitHub ReadMe podcast &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/06/22/on-the-github-readme-podcast/",
-          "publishedOn": "2021-06-22T16:11:53.000Z",
-          "wordCount": 945,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "On the GitHub ReadMe podcast"
         }
       ]
     },
@@ -1130,15 +1112,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "Introducing the new GitHub Issues"
-        },
-        {
-          "description": "We recently set about creating a framework and service for automatically generating social sharing images for repositories and other resources on GitHub.",
-          "link": "https://github.blog/2021-06-22-framework-building-open-graph-images/",
-          "publishedOn": "2021-06-22T17:07:49.000Z",
-          "wordCount": 1755,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "A framework for building Open Graph images"
         }
       ]
     },
