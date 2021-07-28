@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Jan Keller, Technical Program Manager, Google VRP&nbsp;\n\nA little over 10 years ago, we launched our Vulnerability Rewards Program (VRP). Our goal was to establish a channel for security researchers to report bugs to Google and offer an efficient way for us to thank them for helping make Google, our users, and the Internet a safer place. To recap our progress on these goals, here is a snapshot of what VRP has accomplished with the community over the past 10 years:\n\nTotal bugs rewarded: 11,055\nNumb…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/hQ3GKGkClOQ/a-new-chapter-for-googles-vulnerability.html",
+          "publishedOn": "2021-07-27T13:00:00.024Z",
+          "wordCount": 987,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "A new chapter for Google’s Vulnerability Reward Program"
+        },
+        {
           "description": "Posted by Charlie Reis​ and Alex Moshchuk, Chrome Security Team\nChrome's Site Isolation is an essential security defense that makes it harder for malicious web sites to steal data from other web sites. On Windows, Mac, Linux, and Chrome OS, Site Isolation protects all web sites from each other, and also ensures they do not share processes with extensions, which are more highly privileged than web sites. As of Chrome 92, we will start extending this capability so that extensions can no longer share processes…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/CBZqJOPDFeY/protecting-more-with-site-isolation.html",
           "publishedOn": "2021-07-20T17:00:00.007Z",
@@ -48,6 +57,33 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Inspired by a recent article from Erik Bernhardsson titled “Building a data team at a mid-stage startup: a short story”, Chris and Daniel discuss all things AI/data team building. They share some stories from their experiences kick starting AI efforts at various organizations and weight the pro and cons of things like centralized data management, prototype development, and a focus on engineering skills.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads…",
+          "link": "https://changelog.com/practicalai/142",
+          "publishedOn": "2021-07-27T14:45:00.000Z",
+          "wordCount": 399,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 142: Building a data team"
+        },
+        {
+          "description": "NocoDB will turn any MySQL, PostgreSQL, SQL Server, SQLite, or MariaDB into a smart-spreadsheet. Built with Node and Vue.js. Deploy directly to Heroku or with Docker.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/nocodb/nocodb",
+          "publishedOn": "2021-07-27T14:24:00.000Z",
+          "wordCount": 1463,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An open source AirTable alternative"
+        },
+        {
+          "description": "Apollo is a different type of search engine. Traditional search engines (like Google) are great for discovery when you’re trying to find the answer to a question, but you don’t know what you’re looking for.\nHowever, they’re very poor at recall and synthesis when you’ve seen something before on the internet somewhere but can’t remember where. Trying to find it becomes a nightmare - how can you synthezize the great material on the internet when you forgot where it even was? I’ve wasted many an hour combing th…",
+          "link": "https://github.com/amirgamil/apollo",
+          "publishedOn": "2021-07-27T13:36:00.000Z",
+          "wordCount": 2629,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A Unix-style personal search engine and web crawler for your digital footprint"
+        },
         {
           "description": "David Sacks shared frameworks for Series A, B, and C stage SaaS startup orgs, saying they can be “helpful as a starting point.”\nYou’re the founder of a nicely growing SaaS startup which has just raised a Series A, Series B, or Series C funding round. You need to hire rapidly to seize the opportunity. But how much should you hire, what roles should you hire, and what should the org chart look like when you’re done?\nDiscuss on Changelog News",
           "link": "https://sacks.substack.com/p/the-saas-org-chart",
@@ -722,42 +758,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Git undo: we can do better"
-        },
-        {
-          "description": "Dr. Axel Rauschmayer gives us a feel for one of the most exciting new APIs in JavaScript-land.\nThe Temporal date time API is accessible via the global variable Temporal. It is a pleasure to use:\nAll objects are immutable. Changing them produces new values, similarly to how strings work in JS.\nThere is support for time zones and non-Gregorian calendars.\nThere are several specialized classes for Temporal values (date time values with time zones, date time values without time zones, date values without time zo…",
-          "link": "https://2ality.com/2021/06/temporal-api.html",
-          "publishedOn": "2021-06-28T19:05:00.000Z",
-          "wordCount": 3474,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Temporal: getting started with JavaScript’s new date time API"
-        },
-        {
-          "description": "A perspective on incidents that makes a lot of sense actually, and captures the “Why?” perfectly. My highlights: Incidents involve more people than we think. Tooling just makes it really hard for them to help. We have more incidents than we realise. We just don’t hear about them. Your whole team, on the same team. Practice makes perfect.\nDiscuss on Changelog News",
-          "link": "https://incident.io/blog/incidents-are-for-everyone",
-          "publishedOn": "2021-06-28T17:08:00.000Z",
-          "wordCount": 1530,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Incidents are for everyone"
-        },
-        {
-          "description": "Brave Search has some similarities to DDG (which has been my default for a couple years now), but it’s different in that it builds its own index vs relying on Bing and Yandex. Brave’s principles:\nPrivacy: no tracking or profiling of users.\nUser-first: the user comes first, not the advertising and data industries.\nIndependence: Brave has its own search index for answering common queries privately without reliance on other providers.\nChoice: soon, options for ad-free paid search and ad-supported search.\nTrans…",
-          "link": "https://brave.com/brave-search-beta/",
-          "publishedOn": "2021-06-28T16:18:00.000Z",
-          "wordCount": 1462,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Brave adds a privacy-focused search engine (beta)"
-        },
-        {
-          "description": "Contributing to open-source projects can be intimidating – and PostgreSQL is no exception. As a long-time PostgreSQL contributor, Aleks shares his hard-earned tips to help you make your first contribution, or start contributing more.\nDiscuss on Changelog News",
-          "link": "https://blog.timescale.com/blog/how-and-why-to-become-a-postgresql-contributor/",
-          "publishedOn": "2021-06-28T15:24:00.000Z",
-          "wordCount": 3238,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "How (and why) to become a PostgreSQL contributor"
         }
       ]
     },
@@ -768,6 +768,15 @@
     {
       "href": "https://blog.google/technology/ai/rss",
       "articles": [
+        {
+          "description": "In 2019, our Quantum AI team achieved a beyond-classical computation by outperforming the world’s fastest classical computer. Today, a quantum processor from the Sycamore generation that accomplished this important computing milestone will be donated to the Deutsches Museum of Masterpieces of Science and Technology in Munich, Germany. \nThe Deutsches Museum has one of the largest collections of science and technology artifacts in the world. This means that the Sycamore will share the same exhibition space as…",
+          "link": "https://blog.google/technology/ai/our-quantum-processor-deutsches-museum/",
+          "publishedOn": "2021-07-28T08:00:00.000Z",
+          "wordCount": 1088,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "Our quantum processor at the Deutsches Museum"
+        },
         {
           "description": "As people searched for the latest information on COVID-19 last year, including school reopenings and travel restrictions, the BBC recognized they needed to find new ways of bringing their journalism to their audiences. They released a new online tool, the BBC Corona Bot, which uses artificial intelligence to draw on BBC News’ explanatory journalism. It responds with an answer to a reader’s specific question where possible, or points to health authorities’ websites when appropriate. AI technology allowed BBC…",
           "link": "https://blog.google/outreach-initiatives/google-news-initiative/launching-ai-academy-small-newsrooms/",
@@ -1068,6 +1077,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "GitHub’s Developer Defense Fund will enable independent legal support from the Stanford Juelsgaard Clinic to review and handle appropriate DMCA cases for developers on GitHub and across the software ecosystem.",
+          "link": "https://github.blog/2021-07-27-github-developer-rights-fellowship-stanford-law-school/",
+          "publishedOn": "2021-07-27T14:00:34.000Z",
+          "wordCount": 767,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Standing up for developers: the GitHub Developer Rights Fellowship at Stanford Law School"
+        },
         {
           "description": "When you move from 1 maintainer to 1+N maintainers of your project, things can get complicated. Minimum Viable Governance (MVG) is a simple, easy-to-implement governance framework for your free and open source projects.",
           "link": "https://github.blog/2021-07-22-minimum-viable-governance-lightweight-community-structure-foss-projects/",
