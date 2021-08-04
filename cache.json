@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Kees Cook, Software Engineer, Google Open Source Security Team\n\nTo borrow from an excellent analogy between the modern computer ecosystem and the US automotive industry of the 1960s, the Linux kernel runs well: when driving down the highway, you're not sprayed in the face with oil and gasoline, and you quickly get where you want to go. However, in the face of failure, the car may end up on fire, flying off a cliff.\n\nAs we approach its 30th Anniversary, Linux still remains the largest collaborative…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/e2pkIxkg4tI/linux-kernel-security-done-right.html",
+          "publishedOn": "2021-08-03T16:00:00.023Z",
+          "wordCount": 2091,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Linux Kernel Security Done Right"
+        },
+        {
           "description": "Posted by Jan Keller, Technical Program Manager, Google VRP&nbsp;\n\nA little over 10 years ago, we launched our Vulnerability Rewards Program (VRP). Our goal was to establish a channel for security researchers to report bugs to Google and offer an efficient way for us to thank them for helping make Google, our users, and the Internet a safer place. To recap our progress on these goals, here is a snapshot of what VRP has accomplished with the community over the past 10 years:\n\nTotal bugs rewarded: 11,055\nNumb…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/hQ3GKGkClOQ/a-new-chapter-for-googles-vulnerability.html",
           "publishedOn": "2021-07-27T13:00:00.024Z",
@@ -48,6 +57,42 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "AI is being used to transform the most personal instrument we have, our voice, into something that can be “played.” This is fascinating in and of itself, but Yotam Mann from Never Before Heard Sounds is doing so much more! In this episode, he describes how he is using neural nets to process audio in real time for musicians and how AI is poised to change the music industry forever.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRu…",
+          "link": "https://changelog.com/practicalai/143",
+          "publishedOn": "2021-08-03T18:45:00.000Z",
+          "wordCount": 421,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 143: AI is creating never before heard sounds! 🎵"
+        },
+        {
+          "description": "The FSF is funding white papers on “philosophical and legal questions around Copilot”. In their post announcing the fund, Donald Robertson states:\nThe Free Software Foundation has received numerous inquiries about our position on these questions. We can see that Copilot’s use of freely licensed software has many implications for an incredibly large portion of the free software community. Developers want to know whether training a neural network on their software can really be considered fair use. Others who…",
+          "link": "https://www.fsf.org/blogs/licensing/fsf-funded-call-for-white-papers-on-philosophical-and-legal-questions-around-copilot",
+          "publishedOn": "2021-08-03T15:41:00.000Z",
+          "wordCount": 1461,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Free Software Foundations declares GitHub Copilot \"unacceptable and unjust\""
+        },
+        {
+          "description": "For the past year, my friend, Ole Kröger, and I have been developing a native animation package in Julia called, Javis.jl. Through our development process, we have been able to build a nearly 70 person developer community, sponsor Google summer of code students, and help new Julia programmers create powerful visuals! We recently presented the tool at JuliaCon, and were able to show its use for educational outreach and beyond.\nOur hope is that this open source tool can be used by programmers, educators, prof…",
+          "link": "https://github.com/Wikunia/Javis.jl",
+          "publishedOn": "2021-08-03T14:54:00.000Z",
+          "wordCount": 962,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Javis.jl - Julia animations and visualizations"
+        },
+        {
+          "description": "Node recently introduced timers/promises API which provides functionality such as setTimeout and setInterval but using Promises. Developers usually achieved that functionality with various 3rd-party packages but now they have full STD support with additional features like native cancellation.\nSo, I thought it would be useful to have that same API available in browsers (even down to IE11) and older Node versions!\nDiscuss on Changelog News",
+          "link": "https://github.com/niksy/isomorphic-timers-promises",
+          "publishedOn": "2021-08-03T14:07:00.000Z",
+          "wordCount": 1033,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Node `timers/promises` for browser and server"
+        },
         {
           "description": "Jessica Kerr, TL;DR’ing herself for you:\nWhen different parts of an organization need to coordinate, it seems like a good idea to help them coordinate smoothly and frequently. Don’t. Help them coordinate less — more explicitly, less often.\nI think she may be on to something here…\nDiscuss on Changelog News",
           "link": "https://jessitron.com/2021/08/02/better-coordination-or-better-software/",
@@ -767,15 +812,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Security health metrics for open source projects"
-        },
-        {
-          "description": "Commit groups sounds interesting to me. Anyone reading this familiar with Git innards? Is this doable?\nYou know the “group” facility of vector graphics programs? You draw a couple of shapes, you group them together, and then you can apply transformations to the entire group at once, operating on it as if it were an atomic thing. But when need arises, you can “ungroup” it and look deeper.\nI’d love to see that same idea applied to Git commits. In Git, a commit group might just be a named and annotated range o…",
-          "link": "http://blog.danieljanus.pl/2021/07/01/commit-groups/",
-          "publishedOn": "2021-07-05T20:14:34.000Z",
-          "wordCount": 1900,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Things I wish Git had: Commit groups"
         }
       ]
     },
@@ -862,15 +898,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "curl reaches 100K raised"
-        },
-        {
-          "description": "It is time to once again tell you that people responded very similarly to how they did last year&#8230; curl user survey 2021 analysys Not a lot changed this year compared to last year. Perhaps the biggest three changes this year were that 1. HTTP/3, Unix domain sockets and DNS-over-HTTPS increased significantly among &#8220;used features&#8221; &#8230; Continue reading curl user survey 2021 &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/07/05/curl-user-survey-2021/",
-          "publishedOn": "2021-07-05T08:40:21.000Z",
-          "wordCount": 747,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "curl user survey 2021"
         }
       ]
     },
@@ -1071,6 +1098,15 @@
     {
       "href": "https://hacks.mozilla.org/feed/",
       "articles": [
+        {
+          "description": "Last month, Gregor Weber and Peter Bengtsson added an autocomplete search to MDN Web Docs, that allows you to quickly jump straight to the document you're looking for by typing parts of the document title. This is the story about how that's implemented. \nThe post How MDN&#8217;s autocomplete search works appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2021/08/mdns-autocomplete-search/",
+          "publishedOn": "2021-08-03T15:49:30.000Z",
+          "wordCount": 1490,
+          "sourceHref": "https://hacks.mozilla.org/feed/",
+          "sourceTitle": "Mozilla Hacks – the Web developer blog",
+          "title": "How MDN’s autocomplete search works"
+        },
         {
           "description": "As we’re all aware by now, we made some big platform changes at the end of 2020. Whilst the big move has happened, it’s given us a great opportunity to clear out the cupboards and closets. \nThe post Spring Cleaning MDN: Part 1 appeared first on Mozilla Hacks - the Web developer blog.",
           "link": "https://hacks.mozilla.org/2021/07/spring-cleaning-mdn-part-1/",
