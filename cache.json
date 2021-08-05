@@ -58,6 +58,42 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "This week we’re sharing a special episode of our new podcast called Ship It. This episode is our Kaizen-style episode where we point our lens inward to Changelog.com to see what we should improve next. The plan is do this episode style every 10 episodes.\nGerhard, Adam, and Jerod talk about the things that we want to improve in our setup over the next few months. We talk about how the June Fastly outage affected changelog.com, how we responded that day, and what we could do better. We discuss multi-cloud, mu…",
+          "link": "https://changelog.com/podcast/452",
+          "publishedOn": "2021-08-05T11:00:00.000Z",
+          "wordCount": 549,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Changelog 452: Kaizen! The day half the internet went down"
+        },
+        {
+          "description": "In this episode, Gerhard talks to his Skyhook Adventure friends: Alan Cooney, Saul Cullen &amp; Wycliffe Maina. They are the ones that introduced Gerhard to the world of serverless in the context of Amazon Web Services. Gerhard shared his experience with remote work, how to ship software with confidence and consistency, and what to look for in infrastructure as code.\nAt the heart of Skyhook Adventure are adventure trips, and 2020 was not a good one for this business. As you can already tell, code and infras…",
+          "link": "https://changelog.com/shipit/13",
+          "publishedOn": "2021-08-04T18:00:00.000Z",
+          "wordCount": 623,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Ship It! 13: A monorepo of serverless microservices"
+        },
+        {
+          "description": "Brewster Kahle, founder of the Internet Archive:\nAs a young man, I wanted to help make a new medium that would be a step forward from Gutenberg’s invention hundreds of years before.\nBy building a Library of Everything in the digital age, I thought the opportunity was not just to make it available to everybody in the world, but to make it better–smarter than paper. By using computers, we could make the Library not just searchable, but organizable; make it so that you could navigate your way through millions,…",
+          "link": "https://blog.archive.org/2021/07/21/reflections-as-the-internet-archive-turns-25/",
+          "publishedOn": "2021-08-04T16:19:00.000Z",
+          "wordCount": 2496,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Reflections as the Internet Archive turns 25"
+        },
+        {
+          "description": "axum focuses on ergonomics and modularity. It can:\nRoute requests to handlers with a macro free API.\nDeclaratively parse requests using extractors.\nSimple and predictable error handling model.\nGenerate responses with minimal boilerplate.\nTake full advantage of the [tower] and [tower-http] ecosystem of middleware, services, and utilities.\nLots of axum doing various webby things right here.\nDiscuss on Changelog News",
+          "link": "https://github.com/tokio-rs/axum",
+          "publishedOn": "2021-08-04T15:32:00.000Z",
+          "wordCount": 1047,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A Rusty web framework built with Tokio, Tower, and Hyper"
+        },
+        {
           "description": "AI is being used to transform the most personal instrument we have, our voice, into something that can be “played.” This is fascinating in and of itself, but Yotam Mann from Never Before Heard Sounds is doing so much more! In this episode, he describes how he is using neural nets to process audio in real time for musicians and how AI is poised to change the music industry forever.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRu…",
           "link": "https://changelog.com/practicalai/143",
           "publishedOn": "2021-08-03T18:45:00.000Z",
@@ -785,33 +821,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "A GitHub Action to create single-show feeds from your Changelog++ feed"
-        },
-        {
-          "description": "Jacob Kaplan-Moss begins where I often do when discussing estimation:\nOne study by HBR found that one in six IT projects had cost overruns of over 200% and were late by almost 70%. Another study by McKinsey found that IT projects are on average 45% over budget and 7% over schedule. They found large software projects were particularly bad: software projects with budgets over $15M went over budget by an overage of 66% and had schedule overruns averaging 33%.\nNonetheless, there are good reasons to estimate any…",
-          "link": "https://jacobian.org/2021/may/20/estimation/",
-          "publishedOn": "2021-07-06T19:52:00.000Z",
-          "wordCount": 768,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Software estimation is hard. Do it anyway."
-        },
-        {
-          "description": "Devon Zuegel on startup cities:\nWhile the startup cities industry is still small, it is already quite heterogeneous. Each project has its own distinct set of goals, motivations, and scope. However, this diversity isn’t fully captured by the vocabulary we use right now.\nTo help myself create a mental map of the industry, I’ve grouped these motivations into 5 categories. I’ve also included examples of places that personify each motivation.\nShe goes on to discuss each of the 5 categories: economic opportunity,…",
-          "link": "https://devonzuegel.com/post/what-are-startup-cities-for",
-          "publishedOn": "2021-07-06T18:50:00.000Z",
-          "wordCount": 1182,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "What are startup cities for?"
-        },
-        {
-          "description": "This project is a formalized list of checks that can be run against an open source codebase and a Go-based tool to run those checks and provide a report on the project’s health. Here are a few of the checks it runs, to get an idea of what it’s all about:\nDoes the project use fuzzing tools, e.g. OSS-Fuzz?\nDoes the project cryptographically sign releases?\nDoes the project contain a security policy?\nDiscuss on Changelog News",
-          "link": "https://github.com/ossf/scorecard",
-          "publishedOn": "2021-07-06T13:58:00.000Z",
-          "wordCount": 2211,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Security health metrics for open source projects"
         }
       ]
     },
@@ -889,15 +898,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "curl 7.78.0 five in one"
-        },
-        {
-          "description": "I&#8217;m proud and happy to mention that curl just passed the magic limit of 100,000 USD in raised sponsorship money. Or call it donations if you want. Since April 2018. That&#8217;s about 40 months. Donate? Do it here! Donations over time A grand total of 440 awesome organizations and individuals have donated money to the &#8230; Continue reading curl reaches 100K raised &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/07/06/curl-reaches-100k-raised/",
-          "publishedOn": "2021-07-06T06:52:19.000Z",
-          "wordCount": 989,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "curl reaches 100K raised"
         }
       ]
     },
@@ -1022,6 +1022,15 @@
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
         {
+          "description": "The world’s most popular women’s health app, Flo Health, is responsible for the sensitive health data of 40 million women. With that much PII under their purview, Flo Health’s CISO knew that enabling his security team with the most advanced security testing methods was of the utmost importance to brand trust and user loyalty.",
+          "link": "https://www.hackerone.com/blog/one-month-learnings-flo-healths-bug-bounty-program-qa-ciso-leo-cunningham",
+          "publishedOn": "2021-08-04T15:00:00.000Z",
+          "wordCount": 1610,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "One Month of Learnings from Flo Health’s Bug Bounty Program: A Q&A with CISO, Leo Cunningham"
+        },
+        {
           "description": "Wondering about vulnerability assessments? We give a full explanation of what vulnerability assessments are, how they work, and how they help prevent cyberattacks.",
           "link": "https://www.hackerone.com/blog/vulnerability-assessment-i-complete-guide",
           "publishedOn": "2021-07-30T13:15:00.000Z",
@@ -1130,6 +1139,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "In July, we experienced no incidents resulting in service downtime to our core services. Please follow our status page for real time updates. To learn more about what we’re working on, check out the GitHub",
+          "link": "https://github.blog/2021-08-04-github-availability-report-july-2021/",
+          "publishedOn": "2021-08-04T16:00:45.000Z",
+          "wordCount": 243,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "GitHub Availability Report: July 2021"
+        },
         {
           "description": "Today, we’re happy to announce more than 15 new integrations with open source security tools that broaden our language coverage to include PHP, Swift, Kotlin, Ruby, and more.",
           "link": "https://github.blog/2021-07-28-new-code-scanning-integrations-open-source-security-tools/",
