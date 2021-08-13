@@ -76,6 +76,78 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "This week Adam is joined by Eugenio Pace, co-founder and CEO of Auth0. Auth0 is a for developers, by developers identity, access, security, and authentication platform built for the cloud that secures billions of logins every year. Mid 2020 they raised $120 million at a $1.92 billion valuation after being told no several times. Then, earlier this year in March they announced they were being acquired by Okta for $6.5 billion, in a bold and future-thinking all stock deal. This episode is full of wisdom, inspi…",
+          "link": "https://changelog.com/founderstalk/78",
+          "publishedOn": "2021-08-13T11:00:00.000Z",
+          "wordCount": 490,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Founders Talk 78: Leading Auth0 to a $6.5 billion acquisition"
+        },
+        {
+          "description": "Mihai and Ashley join Jon to discuss data streaming. What is it, why is it being used, and common mistakes developers make when setting up. They also discuss some of the tools in the ecosystem, including Benthos, a tool created by Ashley Jeff’s to make the plumbing part of data streaming easier to get right.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nTeleport – Teleport Access Plane lets you access any computing resource anyw…",
+          "link": "https://changelog.com/gotime/192",
+          "publishedOn": "2021-08-12T20:45:00.000Z",
+          "wordCount": 406,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Go Time 192: Data streaming and Benthos"
+        },
+        {
+          "description": "In today’s episode, Gerhard is joined by Uma, CEO and co-founder of ChaosNative, as well as Karthik, CTO and also a ChaosNative co-founder. They talk Chaos Engineering and Litmus.\nChaos Engineering is not just for super SREs. It is not meant to prevent outages. And, it is not just about hardware. Chaos Engineering is about testing how reliable your systems are. It’s meant to show you how things fail, including when other dependent systems fail - think cascading failures. This is a good way to discover incon…",
+          "link": "https://changelog.com/shipit/14",
+          "publishedOn": "2021-08-12T19:30:00.000Z",
+          "wordCount": 548,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Ship It! 14: Cloud-native chaos engineering"
+        },
+        {
+          "description": "Where by “on the web” James means “in the browser”:\nSQL is a great way to build apps. Especially small local web apps. Key/value stores may have their place in large distributed systems, but wow wouldn’t it be great if we could use SQLite on the web?\nI’m excited to announce absurd-sql which makes this possible. absurd-sql is a filesystem backend for sql.js that allows SQLite to read/write from IndexedDB in small blocks, just like it would a disk. I ported my app to use and you can try it here.\nA very cool p…",
+          "link": "https://jlongster.com/future-sql-web",
+          "publishedOn": "2021-08-12T15:37:00.000Z",
+          "wordCount": 4260,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A future for SQL on the web"
+        },
+        {
+          "description": "Nick told us about this on our modern Unix tooling episode, but I thought I’d link up his excellent writeup/video on the subject for those who had a hard time following with audio only.\nLet’s say you have an nginx or Kubernetes config file which doesn’t support templating out of the box and you want to dynamically create config files based on 1 or more environment variables. This is what envsubst lets you do.\nDiscuss on Changelog News",
+          "link": "https://nickjanetakis.com/blog/using-envsubst-to-merge-environment-variables-into-config-files",
+          "publishedOn": "2021-08-12T14:48:00.000Z",
+          "wordCount": 419,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Using `envsubst` to merge environment variables into config files"
+        },
+        {
+          "description": "Ivan Velichko:\nI compiled this thread on Twitter, and all of a sudden, it got quite some attention. So here, I’ll try to elaborate on the topic a bit more. Maybe it would be helpful for someone trying to make a career decision or just improve general understanding of the most hyped titles in the industry.\nTitles come and go, and it’s worth knowing which ones are coming and which ones are going. This article is a good place to catch up if you haven’t been tracking. Oh, and there’s a pod for that too. 😉\nDisc…",
+          "link": "https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/",
+          "publishedOn": "2021-08-12T14:00:00.000Z",
+          "wordCount": 1925,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "DevOps, SRE, and Platform Engineering"
+        },
+        {
+          "description": "Jordan Eldredge:\nWebamp.org’s visualizer, Butterchurn, now uses WebAssembly (Wasm) to achieve better performance and improved security. Whereas most projects use Wasm by compiling pre-existing native code to Wasm, Butterchurn uses an in-browser compiler to compile untrusted user-supplied code to fast and secure Wasm at runtime.\n\nDiscuss on Changelog News",
+          "link": "https://jordaneldredge.com/blog/speeding-up-winamps-music-visualizer-with-webassembly/",
+          "publishedOn": "2021-08-11T16:38:00.000Z",
+          "wordCount": 1410,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Speeding up Webamp's music visualizer with WebAssembly"
+        },
+        {
+          "description": "Chris Coyier is not too pleased about browsers changing the way cross-origin iframes handle certain native JavaScript calls such as alert and confirm:\nCross-origin iframes are essentially the heart of how CodePen works. You write code, and we execute it for you in an iframe that doesn’t share the same domain as CodePen itself, as the very first line of security defense. We didn’t hear any heads up or anything, but I’m sure the plans were on display.\nThe change is about security and performance, it seems. Th…",
+          "link": "https://css-tricks.com/choice-words-about-the-upcoming-deprecation-of-javascript-dialogs/",
+          "publishedOn": "2021-08-11T15:46:00.000Z",
+          "wordCount": 2300,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Choice words about the upcoming deprecation of JavaScript dialogs"
+        },
+        {
           "description": "This week we’re joined by Lara Hogan – author of Resilient Management and management coach &amp; trainer for the tech industry. Lara lead engineering teams at Kickstarter and Etsy before she, and Deepa Subramaniam stepped away from their deep roots in the tech industry to start Wherewithall – a consultancy that helps level up managers and emerging leaders.\nThe majority of our conversation focuses on the four primary hats leaders and managers end up wearing; mentoring, coaching, sponsoring, and delivering fe…",
           "link": "https://changelog.com/podcast/453",
           "publishedOn": "2021-08-11T11:00:00.000Z",
@@ -776,78 +848,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Could Kubernetes pods ever become deprecated?"
-        },
-        {
-          "description": "Ellen Spertus on Stack Overflow’s blog:\nWhile there are many resources to help programmers write better code—such as books and static analyzers—there are few for writing better comments. While it’s easy to measure the quantity of comments in a program, it’s hard to measure the quality, and the two are not necessarily correlated. A bad comment is worse than no comment at all. Here are some rules to help you achieve a happy medium.\nI like rule #6 (provide links to the original source of copied code) and rule …",
-          "link": "https://stackoverflow.blog/2021/07/05/best-practices-for-writing-code-comments/",
-          "publishedOn": "2021-07-14T20:17:00.000Z",
-          "wordCount": 4490,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Best practices for writing code comments"
-        },
-        {
-          "description": "HOW HAVE I NOT HEARD OF GIT WORK TREES??? WHAT THE EFF.  They are so incredible.  You have to check them out!!! In this video I go over them briefly, assuming you are smart enough to understand them, and also show you my workflow with vim!  Its fantastic!\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=2uEqYw-N8uE",
-          "publishedOn": "2021-07-14T15:11:00.000Z",
-          "wordCount": 18,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Git's best and most unknown feature"
-        },
-        {
-          "description": "This is such a cool idea (inspired by Limelight), written in Lua, and using TreeSitter for better dimming. Will plugins like this start pulling normal Vim users over to Neovim?\n\nDiscuss on Changelog News",
-          "link": "https://github.com/folke/twilight.nvim",
-          "publishedOn": "2021-07-14T14:22:00.000Z",
-          "wordCount": 806,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Twilight is a plugin for Neovim that dims inactive portions of code"
-        },
-        {
-          "description": "This is my third eBook on Go, and it’s one of the ways I’m supporting my time to make open source contributions and lead the OpenFaaS community. The book covers samples, examples and techniques that I’ve learned over the past 5-6 years.\nThe point is not to be an 800-page tomb with tenuous links between content, but code from real open source applications that are run in production at scale.\nThere’s been over 300 copies sold already and I’m offering a money back guarantee if anyone should feel it didn’t meet…",
-          "link": "https://blog.alexellis.io/i-wrote-a-book-about-golang/",
-          "publishedOn": "2021-07-14T13:35:00.000Z",
-          "wordCount": 1052,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "I wrote a book about Everyday Go"
-        },
-        {
-          "description": "This is a follow-up blog post to Ship It! #6 Money flows rule everything\nTo achieve anything significant you need funding\nTo get funding you need to persuade the people with the money to part with it\nTo persuade the people with the money, you need to understand what they value\nTo understand what they value, you need to understand how their cash flows work\nTo understand how their cash flow works, you need to understand\n\nyour customers/clients and how and why they part with their money\nthe legal and regulator…",
-          "link": "https://zwischenzugs.com/2021/07/12/if-you-want-to-transform-it-start-with-finance/",
-          "publishedOn": "2021-07-13T18:51:00.000Z",
-          "wordCount": 5245,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "If you want to transform IT, start with finance"
-        },
-        {
-          "description": "How did we get from symbolic AI to deep learning models that help your write code (i.e., GitHub and OpenAI’s new Copilot)? That’s what Chris and Daniel discuss in this episode about the history and future of deep learning (with some help from an article recently published in ACM and written by the luminaries of deep learning).\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nPSSC Labs – Solutions from PSSC Labs provide a cost effec…",
-          "link": "https://changelog.com/practicalai/140",
-          "publishedOn": "2021-07-13T15:00:00.000Z",
-          "wordCount": 387,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Practical AI 140: From symbols to AI pair programmers 💻"
-        },
-        {
-          "description": "Texthero is a python package to work with text data efficiently. It empowers NLP developers with a tool to quickly understand any text-based dataset and it provides a solid pipeline to clean and represent text data, from zero to hero.\nDiscuss on Changelog News",
-          "link": "https://texthero.org/",
-          "publishedOn": "2021-07-13T14:53:00.000Z",
-          "wordCount": 199,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Take your text pre-processing, representation, and visualization from zero to hero"
-        },
-        {
-          "description": "Emma Catlin writing for Pinterest Engineering:\n… at some point in my first year, I realized something critical: I needed to help the entire team, not just myself, in order to grow to the next engineering level. To start, one of my teammates recommended I review code.\nThe advice was simple enough — use code reviews as a way to learn more about a piece of code and expand my knowledge of our overall system. It turned out code reviews were the perfect way for me to continue my learning journey.\nShe got better a…",
-          "link": "https://medium.com/pinterest-engineering/how-to-review-code-as-a-junior-developer-10ffb7846958",
-          "publishedOn": "2021-07-13T13:41:00.000Z",
-          "wordCount": 1821,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "How to review code as a junior developer"
         }
       ]
     },
@@ -901,6 +901,15 @@
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
         {
+          "description": "&#8220;The GitHub Stars program thanks GitHub’s most influential developers and gives them a platform to showcase their work, reach more people, and shape the future of GitHub.&#8221; That&#8217;s a quote from stars.github.com. In the beginning of June 2021 I was invited into the program. I consider it an honor to be recognized. See my featured &#8230; Continue reading A GitHub star &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/08/11/a-github-star/",
+          "publishedOn": "2021-08-11T12:18:48.000Z",
+          "wordCount": 1015,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "A GitHub star"
+        },
+        {
           "description": "Back in February of this year, I received one of the most chilling emails in my life when someone threatened my life: &#8220;I will slaughter you&#8220;. That email penetrated something deep into my soul and heart and I was not quite myself for a few days. Almost six month later (a few days ago), I &#8230; Continue reading Nocai&#8217;s apology &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/08/09/nocais-apology/",
           "publishedOn": "2021-08-09T07:19:31.000Z",
@@ -924,6 +933,15 @@
       "href": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "articles": [
         {
+          "description": "Describe how the Observability team applied Flame graphs to a novel use case (internal usage of Twitter’s time series database) outside of their typical application",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/applying-flame-graphs-outside-of-performance-analysis",
+          "publishedOn": "2021-08-13T12:17:53.542Z",
+          "wordCount": 1282,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Applying flame graphs outside of performance analysis"
+        },
+        {
           "description": "As part of this year’s DEFCON AI Village, we’re trying something radical by introducing the industry’s first algorithmic bias bounty competition.",
           "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/algorithmic-bias-bounty-challenge",
           "publishedOn": "2021-07-31T12:17:33.822Z",
@@ -940,96 +958,6 @@
           "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
           "sourceTitle": "English (US)",
           "title": "Graph Neural Networks as Neural Diffusion PDEs"
-        },
-        {
-          "description": "Learn how Shardlib, a new sharding library at Twitter simplifies the management of sharded ads services and enables dynamic resharding of these services without redeploying their clients.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/sharding-simplification-and-twitters-ads-serving-platform",
-          "publishedOn": "2021-07-13T12:19:17.711Z",
-          "wordCount": 4874,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Sharding, simplification, and Twitter’s ads serving platform"
-        },
-        {
-          "description": "In this post, we describe a graph neural network architecture (SIGN) that is of simple implementation and that works on very large graphs.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/simple-scalable-graph-neural-networks",
-          "publishedOn": "2021-07-13T12:19:17.678Z",
-          "wordCount": 3596,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Simple scalable graph neural networks"
-        },
-        {
-          "description": "This blog post is based on Michael Bronstein’s keynote talk at ICLR 2021 and the paper M. M. Bronstein et al., Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges (2021)",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/iclr-invited-talk-on-geometric-deep-learning",
-          "publishedOn": "2021-07-13T12:19:17.665Z",
-          "wordCount": 3228,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "ICLR Invited Talk on Geometric Deep Learning"
-        },
-        {
-          "description": "Twitter engineers found and fixed a Linux kernel bug in memory shrinker which caused OOM for us.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/dropping-cache-didnt-drop-cache",
-          "publishedOn": "2021-07-13T12:19:17.635Z",
-          "wordCount": 2282,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Dropping cache didn’t drop cache"
-        },
-        {
-          "description": "Twitter built a data product to help with coronavirus research by opening our APIs to academic researchers, to access the public conversation around COVID-19.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/how-we-built-a-data-stream-to-assist-with-covid-19-research",
-          "publishedOn": "2021-07-13T12:19:16.955Z",
-          "wordCount": 1480,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Building a data stream to assist with COVID-19 research"
-        },
-        {
-          "description": "Introducing the dict-minimize package",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/harnessing-second-order-optimizers-from-deep-learning-frameworks",
-          "publishedOn": "2021-07-13T12:19:16.944Z",
-          "wordCount": 1631,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Harnessing second order optimizers from deep learning frameworks"
-        },
-        {
-          "description": "Learn about Twitter’s adoption of RocksDB within Manhattan, its internal distributed key-value store.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/adopting-rocksdb-within-manhattan",
-          "publishedOn": "2021-07-13T12:19:16.929Z",
-          "wordCount": 2259,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Adopting RocksDB within Manhattan"
-        },
-        {
-          "description": "Twitter annotated its data to a defined taxonomy by leveraging machine learning in its data platform by fusing Elasticsearch with neural networks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/fusing-elasticsearch-with-neural-networks-to-identify-data",
-          "publishedOn": "2021-07-13T12:19:16.903Z",
-          "wordCount": 1788,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Fusing Elasticsearch with neural networks to identify data"
-        },
-        {
-          "description": "Twitter shares a technical analysis of its assessment for potential bias in its image cropping algorithm as part of its efforts to be more transparent around how it uses machine learning to improve pe",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm",
-          "publishedOn": "2021-07-13T12:19:16.668Z",
-          "wordCount": 1464,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Sharing learnings about our image cropping algorithm"
-        },
-        {
-          "description": "Twitter describes how to design local and computationally efficient provably powerful graph neural networks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/provably-expressive-graph-neural-networks",
-          "publishedOn": "2021-07-13T12:19:16.651Z",
-          "wordCount": 2202,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Provably expressive graph neural networks"
         }
       ]
     },
@@ -1093,15 +1021,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "How the Industry’s First Hacker-Powered API Helps Hackers Automate Workflows"
-        },
-        {
-          "description": "Dr. Jasyn Voshell, Director for Product and Solution Security at Zebra Technologies, is a power user of HackerOne, with a Vulnerability Disclosure Program (VDP), bug bounty program, and his team regularly running pentests with hackers.",
-          "link": "https://www.hackerone.com/blog/how-hackerone-positively-influences-zebras-software-development-life-cycle",
-          "publishedOn": "2021-07-13T16:00:00.000Z",
-          "wordCount": 1269,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "How HackerOne Positively Influences Zebra’s Software Development Life Cycle"
         }
       ]
     },
@@ -1134,21 +1053,39 @@
           "sourceHref": "https://hacks.mozilla.org/feed/",
           "sourceTitle": "Mozilla Hacks – the Web developer blog",
           "title": "Spring Cleaning MDN: Part 1"
-        },
-        {
-          "description": "As the summer rolls around for those of us in the northern hemisphere, temperatures are high and unwinding with a cool ice tea is high on the agenda. Isn't it lucky then that Background Update is here for Windows, which means Firefox can update even if it's not running. We can just sit back and relax!\nAlso this release we see a few nice JavaScript additions, including private fields and methods for classes, and the at() method for Array, String and TypedArray global objects.\nThis blog post just provides a s…",
-          "link": "https://hacks.mozilla.org/2021/07/getting-lively-with-firefox-90/",
-          "publishedOn": "2021-07-13T15:02:10.000Z",
-          "wordCount": 876,
-          "sourceHref": "https://hacks.mozilla.org/feed/",
-          "sourceTitle": "Mozilla Hacks – the Web developer blog",
-          "title": "Getting lively with Firefox 90"
         }
       ]
     },
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "A public beta for CodeQL package manager, additional options to manage Actions runs from first-time contributors, GitHub Discussions translation, and more.",
+          "link": "https://github.blog/2021-08-12-whats-new-from-github-changelog-july-2021-recap/",
+          "publishedOn": "2021-08-13T00:15:37.000Z",
+          "wordCount": 976,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "What’s new from GitHub Changelog? July 2021 Recap"
+        },
+        {
+          "description": "This GitHub Classroom extension for Visual Studio Code provides a simplified introduction to Git, GitHub Classroom, and Visual Studio Code.",
+          "link": "https://github.blog/2021-08-12-teaching-learning-github-classroom-visual-studio-code/",
+          "publishedOn": "2021-08-12T18:00:00.000Z",
+          "wordCount": 705,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Seamless teaching and learning through GitHub Classroom and Visual Studio Code"
+        },
+        {
+          "description": "Over the past months, we’ve left our macOS model behind and moved to Codespaces for the majority of GitHub.com development.",
+          "link": "https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/",
+          "publishedOn": "2021-08-11T16:00:14.000Z",
+          "wordCount": 2293,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "GitHub’s Engineering Team has moved to Codespaces"
+        },
         {
           "description": "The GitHub Campus Expert applications are officially open for the August 2021 generation!",
           "link": "https://github.blog/2021-08-09-august-2021-campus-experts-applications-are-open/",
@@ -1220,15 +1157,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "Student leaders are taking GitHub Campus TV to the next level"
-        },
-        {
-          "description": "This month, we have some exciting updates to share. A lot of you have welcomed the improvements to your ability to sync a forked repo with upstream from the web UI, add video on issues",
-          "link": "https://github.blog/2021-07-13-whats-new-github-changelog-june-2021/",
-          "publishedOn": "2021-07-13T16:01:14.000Z",
-          "wordCount": 1435,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "What’s new from GitHub Changelog? June 2021 Recap"
         }
       ]
     },
