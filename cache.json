@@ -56,15 +56,6 @@
           "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
           "sourceTitle": "Google Online Security Blog",
           "title": "Advancing an inclusive, diverse security industry"
-        },
-        {
-          "description": "Posted by Ryan Hurst, Production Security Team\n\nThe way we design and build software is continually evolving. Just as we now think of security as something we build into software from the start, we are also increasingly looking for new ways to minimize trust in that software. One of the ways we can do that is by designing software so that you can get cryptographic certainty of what the software has done.\nIn this post, we'll introduce the concept of verifiable data structures that help us get this cryptograp…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/TDPwDnh8ayA/verifiable-design-in-modern-systems.html",
-          "publishedOn": "2021-07-15T17:18:00.005Z",
-          "wordCount": 1222,
-          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
-          "sourceTitle": "Google Online Security Blog",
-          "title": "Verifiable design in modern systems"
         }
       ]
     },
@@ -75,6 +66,51 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Ned Batchelder, after reading some code to termine whether or not it was “Pythonic”:\nMy first response was that I don’t like this code, because I had to read it with my eyebrows. That is, I furrow my brow, and read slowly, and scowl at the code as I puzzle through it. This code is dense and tricky.\nIs it Pythonic? I guess in the sense that it uses a number of Python-specific constructs and tools, yes. But not in the sense of Python code being clear and straightforward. It uses Python thoroughly, but misses …",
+          "link": "https://nedbatchelder.com/blog/202108/pythonic_monotonic.html",
+          "publishedOn": "2021-08-13T18:43:00.000Z",
+          "wordCount": 2209,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "On reading code with your eyebrows"
+        },
+        {
+          "description": "Henrik Fricke:\nIndiepen lets you embed HTML, CSS, and JS code examples on a website. We built it because we wanted to embed code examples on our  blog, but many existing solutions set cookies, have a ton of features or just come with a bad performance.\n😎 No cookies, no tracking, no external requests\nCongrats, Henrik, on shipping your first open source project! 👏\nDiscuss on Changelog News",
+          "link": "https://indiepen.tech/",
+          "publishedOn": "2021-08-13T17:54:00.000Z",
+          "wordCount": 341,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Indiepen – a  privacy-friendly solution to present your code to people"
+        },
+        {
+          "description": "It’s 22 months since I found myself frustrated with writing boilerplate instructions to install simple, but necessary software in every tutorial I wrote for clients and for my own open source work.\nIn this article post I’ll walk you through the journey of the past two years from the initial creation, through to growing the community, getting the first sponsored app and what’s next. There will be code snippets, and technical details, but there should be something for everyone as we celebrate the two year ann…",
+          "link": "https://blog.alexellis.io/kubernetes-marketplace-two-year-update/",
+          "publishedOn": "2021-08-13T17:07:00.000Z",
+          "wordCount": 3295,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Building an open source marketplace for Kubernetes (2 years later)"
+        },
+        {
+          "description": "Luis Villa of Tidelift joins the show to discuss GitHub Copilot and the implications of an AI pair programmer from a legal perspective.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are using Retool to …",
+          "link": "https://changelog.com/jsparty/188",
+          "publishedOn": "2021-08-13T16:20:00.000Z",
+          "wordCount": 446,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "JS Party 188: We ask a lawyer about GitHub Copilot"
+        },
+        {
+          "description": "Fossil deliberately omits a “rebase” command because the original designer of Fossil (and original author of this article) considers rebase to be an anti-pattern to be avoided. This article attempts to explain that point of view.\nRead this article by SQLite/Fossil creator Richard Hipp to prep for next week’s episode of The Changelog. 😉\nDiscuss on Changelog News",
+          "link": "https://www.fossil-scm.org/home/doc/trunk/www/rebaseharm.md",
+          "publishedOn": "2021-08-13T13:51:00.000Z",
+          "wordCount": 3599,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Rebase considered harmful"
+        },
         {
           "description": "This week Adam is joined by Eugenio Pace, co-founder and CEO of Auth0. Auth0 is a for developers, by developers identity, access, security, and authentication platform built for the cloud that secures billions of logins every year. Mid 2020 they raised $120 million at a $1.92 billion valuation after being told no several times. Then, earlier this year in March they announced they were being acquired by Okta for $6.5 billion, in a bold and future-thinking all stock deal. This episode is full of wisdom, inspi…",
           "link": "https://changelog.com/founderstalk/78",
@@ -794,60 +830,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "The unreasonable effectiveness of just showing up everyday"
-        },
-        {
-          "description": "Doing ops properly is hard. Most of us are failing &amp; learning every day. Some of us manage to have fun too.\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=rK_7ozvm53o",
-          "publishedOn": "2021-07-15T16:20:00.000Z",
-          "wordCount": 18,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "That Sinking Feeling (The #HugOps Song)"
-        },
-        {
-          "description": "Go modules brought about quite a few changes to the Go ecosystem. One of those changes is semantic import versioning (SIV), which has a fairly pronounced effect on how libraries are identified. In this episode we are joined by Tim Heckman and Peter Bourgon to discuss some of the downsides to these changes and how it has lead to what a subset of the Go community refers to as the “v2+ problem.”\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!…",
-          "link": "https://changelog.com/gotime/188",
-          "publishedOn": "2021-07-15T15:30:00.000Z",
-          "wordCount": 474,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Go Time 188: SIV and the V2+ issue"
-        },
-        {
-          "description": "This sounds too good to be true, because it kind of is. There is no escaping the cloud (because of email trust) or the requirement of sysadmin’ing this setup (sending/receiving email is critical). If you slack on the details or upkeep, it’s your email.\nI have been on an ongoing quest to free myself from cloud services for years now. During this time, I have hosted my personal email (@bloomqu.ist) on a Google Apps G Suite Google Workspace account, which, while convenient, also means that my personal emails a…",
-          "link": "https://zach.bloomqu.ist/blog/2021/07/reliable-self-hosted-email.html",
-          "publishedOn": "2021-07-15T15:12:06.000Z",
-          "wordCount": 1471,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Reliable, deliverable, self-hosted email"
-        },
-        {
-          "description": "This series of interactive lessons and exercises is a great place to start if you want to learn SQL. And trust me: if you don’t know SQL, you want to learn SQL. Of all the technologies and tools I’ve picked up over the course of my career, SQL has had one of the highest ROIs. It’s portable across languages/runtimes and has incredible staying power in terms of skill relevancy.\nDiscuss on Changelog News",
-          "link": "https://sqlbolt.com/",
-          "publishedOn": "2021-07-15T14:25:00.000Z",
-          "wordCount": 672,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "SQLBolt – quickly learn SQL right in your browser"
-        },
-        {
-          "description": "Kaizen means “change for the better”, continuous improvement in this context. Failure is essential to learning, but how do we learn as a team? The simplest thing is to regularly dedicate time for taking a step back, talking about what works &amp; what doesn’t, maybe writing some of it down, and eventually deciding what should improve next. I intend to make every 10th Ship It! episode a Kaizen one.\nThis is the first one when we talk with Adam and Jerod about the things that we want to improve in our setup ov…",
-          "link": "https://changelog.com/shipit/10",
-          "publishedOn": "2021-07-15T14:00:00.000Z",
-          "wordCount": 587,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Ship It! 10: Kaizen! The day half the internet went down"
-        },
-        {
-          "description": "In any software project, over time new features and APIs are added and from time-to-time some of them also become deprecated and eventually get removed. Even huge project such as Kubernetes is no exception to this, yet core parts of its API don’t really come to mind when thinking about deprecating and eventual removal. So, the question is - could a core object or API in Kubernetes, such as Pod, Deployment or Service be removed and if so, how would that go?\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/53",
-          "publishedOn": "2021-07-15T13:38:00.000Z",
-          "wordCount": 17,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Could Kubernetes pods ever become deprecated?"
         }
       ]
     },
@@ -933,6 +915,69 @@
       "href": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "articles": [
         {
+          "description": "Twitter describes how to design local and computationally efficient provably powerful graph neural networks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/provably-expressive-graph-neural-networks",
+          "publishedOn": "2021-08-14T12:17:11.190Z",
+          "wordCount": 2221,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Provably expressive graph neural networks"
+        },
+        {
+          "description": "This blog post is based on Michael Bronstein’s keynote talk at ICLR 2021 and the paper M. M. Bronstein et al., Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges (2021)",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/iclr-invited-talk-on-geometric-deep-learning",
+          "publishedOn": "2021-08-14T12:17:09.228Z",
+          "wordCount": 3228,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "ICLR Invited Talk on Geometric Deep Learning"
+        },
+        {
+          "description": "Twitter engineers found and fixed a Linux kernel bug in memory shrinker which caused OOM for us.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/dropping-cache-didnt-drop-cache",
+          "publishedOn": "2021-08-14T12:17:09.196Z",
+          "wordCount": 2278,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Dropping cache didn’t drop cache"
+        },
+        {
+          "description": "Twitter shares a technical analysis of its assessment for potential bias in its image cropping algorithm as part of its efforts to be more transparent around how it uses machine learning to improve pe",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm",
+          "publishedOn": "2021-08-14T12:17:08.430Z",
+          "wordCount": 1457,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Sharing learnings about our image cropping algorithm"
+        },
+        {
+          "description": "Learn about Twitter’s adoption of RocksDB within Manhattan, its internal distributed key-value store.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/adopting-rocksdb-within-manhattan",
+          "publishedOn": "2021-08-14T12:17:08.416Z",
+          "wordCount": 2260,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Adopting RocksDB within Manhattan"
+        },
+        {
+          "description": "How Twitter moved from a home grown logging platform to the commercially available Splunk and the challenges we’ve encountered along the way.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/logging-at-twitter-updated",
+          "publishedOn": "2021-08-14T12:17:08.396Z",
+          "wordCount": 2396,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Logging at Twitter: Updated"
+        },
+        {
+          "description": "Twitter annotated its data to a defined taxonomy by leveraging machine learning in its data platform by fusing Elasticsearch with neural networks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/fusing-elasticsearch-with-neural-networks-to-identify-data",
+          "publishedOn": "2021-08-14T12:17:08.350Z",
+          "wordCount": 1790,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Fusing Elasticsearch with neural networks to identify data"
+        },
+        {
           "description": "Describe how the Observability team applied Flame graphs to a novel use case (internal usage of Twitter’s time series database) outside of their typical application",
           "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/applying-flame-graphs-outside-of-performance-analysis",
           "publishedOn": "2021-08-13T12:17:53.542Z",
@@ -1012,15 +1057,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "What Are Bug Bounties? How Do They Work? [With Examples]"
-        },
-        {
-          "description": "Today, HackerOne is launching the industry’s first hacker API. This release is now out of beta and is available to the hacker community. It includes a collection of API endpoints that help automate common workflow tasks. In the past, hackers had to use the UI to complete repetitive tasks on the platform, with no supported mechanism to script or automate their workflows. With the new API, hackers can increase productivity and allocate more time towards creative bug hunting.",
-          "link": "https://www.hackerone.com/blog/how-industrys-first-hacker-powered-api-helps-hackers-automate-workflows",
-          "publishedOn": "2021-07-15T15:00:00.000Z",
-          "wordCount": 976,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "How the Industry’s First Hacker-Powered API Helps Hackers Automate Workflows"
         }
       ]
     },
@@ -1148,15 +1184,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "GitHub brings supply chain security features to the Go community"
-        },
-        {
-          "description": "The GitHub Education Stream Team is adding new shows. Job-hunting graduate? New to coding? No matter where you are, there's a show for you.",
-          "link": "https://github.blog/2021-07-15-student-leaders-github-campus-tv-next-level/",
-          "publishedOn": "2021-07-15T16:00:29.000Z",
-          "wordCount": 1142,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Student leaders are taking GitHub Campus TV to the next level"
         }
       ]
     },
@@ -1171,15 +1198,6 @@
           "sourceHref": "https://building.nubank.com.br/feed/",
           "sourceTitle": "Building Nubank",
           "title": "Designing Nubank Ultravioleta: always purple, metalic and premium"
-        },
-        {
-          "description": "Analytical work can greatly benefit from software engineering standards in terms of quality and efficiency, here's how.\nThe post Scaling data analytics with software engineering best practices appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/scaling-data-analytics-with-software-engineering-best-practices/",
-          "publishedOn": "2021-07-15T15:31:27.000Z",
-          "wordCount": 4830,
-          "sourceHref": "https://building.nubank.com.br/feed/",
-          "sourceTitle": "Building Nubank",
-          "title": "Scaling data analytics with software engineering best practices"
         }
       ]
     }
