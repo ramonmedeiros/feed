@@ -67,6 +67,24 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "Brett Cannon:\n… over 3 years ago I set out to re-implement the Python Launcher for Unix in Rust. On July 24, 2021, I launched 1.0.0 of the Python Launcher for Unix… This gives you a py command on Unix which will always use the newest version of Python.\nHe goes on to describe some workflow niceties that a built in and also what this project is not about:\nThe Launcher is purely a convenience and not meant to be The Launcher For All Things; this should never end up in a Docker container.\nDiscuss on Changelog N…",
+          "link": "https://snarky.ca/introducing-the-python-launcher-for-unix/",
+          "publishedOn": "2021-08-16T14:33:00.000Z",
+          "wordCount": 1231,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Introducing the Python launcher for  Unix"
+        },
+        {
+          "description": "Matt Rickard shares 31 reflections after putting his time 10k hours in programming:\nThese are reflections only about pure coding — no lessons sum up to “programming is about people” or “how to be a senior technical leader” (arguably more important to a career, but not the topic of this post).\nThese reflections are just about deliberately writing code for 10,000 hours. Most don’t apply to beginners. These reflections are not career advice. Think of them as lessons on being a technical guitarist, not about be…",
+          "link": "https://matt-rickard.com/reflections-on-10-000-hours-of-programming/",
+          "publishedOn": "2021-08-16T13:39:00.000Z",
+          "wordCount": 934,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Reflections on 10,000 hours of programming"
+        },
+        {
           "description": "Ned Batchelder, after reading some code to termine whether or not it was “Pythonic”:\nMy first response was that I don’t like this code, because I had to read it with my eyebrows. That is, I furrow my brow, and read slowly, and scowl at the code as I puzzle through it. This code is dense and tricky.\nIs it Pythonic? I guess in the sense that it uses a number of Python-specific constructs and tools, yes. But not in the sense of Python code being clear and straightforward. It uses Python thoroughly, but misses …",
           "link": "https://nedbatchelder.com/blog/202108/pythonic_monotonic.html",
           "publishedOn": "2021-08-13T18:43:00.000Z",
@@ -996,6 +1014,15 @@
           "title": "One Month of Learnings from Flo Health’s Bug Bounty Program: A Q&A with CISO, Leo Cunningham"
         },
         {
+          "description": "The world’s most popular women’s health app, Flo Health, is responsible for the sensitive health data of 40 million women. With that much PII under their purview, Flo Health’s CISO knew that enabling his security team with the most advanced security testing methods was of the utmost importance to brand trust and user loyalty.",
+          "link": "https://www.hackerone.com/blog/vulnerability-management/one-month-learnings-flo-healths-bug-bounty-program-qa-ciso-leo",
+          "publishedOn": "2021-08-04T14:00:00.000Z",
+          "wordCount": 1709,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "One Month of Learnings from Flo Health’s Bug Bounty Program: A Q&A with CISO, Leo Cunningham"
+        },
+        {
           "description": "Wondering about vulnerability assessments? We give a full explanation of what vulnerability assessments are, how they work, and how they help prevent cyberattacks.",
           "link": "https://www.hackerone.com/blog/vulnerability-assessment-i-complete-guide",
           "publishedOn": "2021-07-30T13:15:00.000Z",
@@ -1005,6 +1032,15 @@
           "title": "Vulnerability Assessment I A Complete Guide"
         },
         {
+          "description": "Earlier this month, software vendor Kaseya made headlines when a vulnerability in its Virtual System Administrator (VSA) software led to an epidemic of the REvil ransomware.\n\nGlobal ransomware attacks are on the rise, with REvil attacks the most common. According to this year’s IBM X-Force Threat Intelligence Index, REvil ransomware actors made at least $123 million in 2020 and stole nearly 21.6 terabytes of data.",
+          "link": "https://www.hackerone.com/blog/vulnerability-management/what-we-can-learn-recent-ransomware-attacks",
+          "publishedOn": "2021-07-23T17:00:00.000Z",
+          "wordCount": 1666,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "What We Can Learn From Recent Ransomware Attacks"
+        },
+        {
           "description": "What can we learn from recent ransomware attacks where bad actors like REvil made over $120 million in 2020 alone? Organizations may have effective security but still fall prey to attacks due to supplier system vulnerabilities. Learn how you can use VDPs and hacker-powered security to stay safe.",
           "link": "https://www.hackerone.com/blog/what-we-can-learn-recent-ransomware-attacks",
           "publishedOn": "2021-07-23T17:00:00.000Z",
@@ -1012,6 +1048,15 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "What We Can Learn From Recent Ransomware Attacks"
+        },
+        {
+          "description": "HackerOne and PagerDuty have partnered to create a workflow automation integration that feeds critical and high severity vulnerability findings into PagerDuty alerts to notify security teams and take timely action immediately.",
+          "link": "https://www.hackerone.com/blog/vulnerability-management/how-use-hackerone-and-pagerduty-identify-when-vulnerabilities-need",
+          "publishedOn": "2021-07-19T14:00:00.000Z",
+          "wordCount": 964,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "How to Use HackerOne and PagerDuty to Identify When Vulnerabilities Need Action"
         },
         {
           "description": "Organizations rely on security testing to identify vulnerabilities, but how do they know when a vulnerability is critical and needs immediate attention? HackerOne and PagerDuty partnered to create a workflow automation integration that identifies when critical vulnerabilities need action minimizing cyber risk and remediation time.",
@@ -1059,6 +1104,24 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "The open source Git project just released Git 2.33, with features and bug fixes from over 74 contributors. Here's a look at some of the most interesting features and changes.",
+          "link": "https://github.blog/2021-08-16-highlights-from-git-2-33/",
+          "publishedOn": "2021-08-16T23:15:27.000Z",
+          "wordCount": 3754,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Highlights from Git 2.33"
+        },
+        {
+          "description": "The benefits of multifactor authentication are widely documented, and there are a number of options for using 2FA on GitHub.",
+          "link": "https://github.blog/2021-08-16-securing-your-github-account-two-factor-authentication/",
+          "publishedOn": "2021-08-16T18:00:51.000Z",
+          "wordCount": 761,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Securing your GitHub account with two-factor authentication"
+        },
         {
           "description": "A public beta for CodeQL package manager, additional options to manage Actions runs from first-time contributors, GitHub Discussions translation, and more.",
           "link": "https://github.blog/2021-08-12-whats-new-from-github-changelog-july-2021-recap/",
@@ -1154,6 +1217,15 @@
     {
       "href": "https://building.nubank.com.br/feed/",
       "articles": [
+        {
+          "description": "Machine learning (ML) models are very sensitive pieces of software; their successful use needs careful monitoring to make sure they are working correctly.\nThe post ML Model Monitoring &#8211; 9 Tips From the Trenches appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/ml-model-monitoring-9-tips-from-the-trenches/",
+          "publishedOn": "2021-08-16T17:48:43.000Z",
+          "wordCount": 5168,
+          "sourceHref": "https://building.nubank.com.br/feed/",
+          "sourceTitle": "Building Nubank",
+          "title": "ML Model Monitoring – 9 Tips From the Trenches"
+        },
         {
           "description": "Reinventing the premium experience in the credit card industry from Brazil\nThe post Designing Nubank Ultravioleta: always purple, metalic and premium appeared first on Building Nubank.",
           "link": "https://building.nubank.com.br/nubank-ultravioleta/",
