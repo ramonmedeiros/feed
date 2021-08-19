@@ -38,24 +38,6 @@
           "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
           "sourceTitle": "Google Online Security Blog",
           "title": "A new chapter for Google’s Vulnerability Reward Program"
-        },
-        {
-          "description": "Posted by Charlie Reis​ and Alex Moshchuk, Chrome Security Team\nChrome's Site Isolation is an essential security defense that makes it harder for malicious web sites to steal data from other web sites. On Windows, Mac, Linux, and Chrome OS, Site Isolation protects all web sites from each other, and also ensures they do not share processes with extensions, which are more highly privileged than web sites. As of Chrome 92, we will start extending this capability so that extensions can no longer share processes…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/CBZqJOPDFeY/protecting-more-with-site-isolation.html",
-          "publishedOn": "2021-07-20T17:00:00.007Z",
-          "wordCount": 1006,
-          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
-          "sourceTitle": "Google Online Security Blog",
-          "title": "Protecting more with Site Isolation"
-        },
-        {
-          "description": "Posted by Sarah Morales, Community Outreach Manager, Security&nbsp;\nIt’s no secret that lack of diversity in corporate America is a well-documented problem and improvements have been slow. To help improve female representation in the cybersecurity industry, Google teamed up with Women in Cybersecurity (WiCyS) and SANS Institute a year ago to establish the Security Training Scholarship Program. \nThe multi-stage security training program set participants on a path to launch and advance their careers in cybers…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/9UA3XccGiOc/advancing-inclusive-diverse-security.html",
-          "publishedOn": "2021-07-20T16:20:00.007Z",
-          "wordCount": 1043,
-          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
-          "sourceTitle": "Google Online Security Blog",
-          "title": "Advancing an inclusive, diverse security industry"
         }
       ]
     },
@@ -66,6 +48,42 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "In this episode, Gerhard follows up on The Changelog #375, which is the last time that he spoke Crossplane with Dan and Jared. Many things changed since then, such as abstractions and compositions, as well as using Crossplane to build platforms, which were mostly ideas.\nFast forward 18 months, 2k changes, as well as a major version, and Crossplane is now an easy choice - some would say the best choice - for platform teams to declare what infrastructure means to them. You can now use Crossplane to define you…",
+          "link": "https://changelog.com/shipit/15",
+          "publishedOn": "2021-08-18T16:30:00.000Z",
+          "wordCount": 563,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Ship It! 15: Assemble all your infrastructure"
+        },
+        {
+          "description": "I’ve been test-driving Neovim (episode coming soon!) and I’m impressed at how hacker its community is. Should use NvChad directly? I dunno, but it can surely be relied upon for inspiration and cherry-picking.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/NvChad/NvChad",
+          "publishedOn": "2021-08-18T15:30:00.000Z",
+          "wordCount": 1176,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An attempt to make Neovim as functional as an IDE"
+        },
+        {
+          "description": "This is an excellent post that takes you along on the author’s journey to build a simple, collaborative (desktop-like interactions and realtime collaborations, such as Notion, Discord, Figma, etc.) todo app:\nWith the help of many great tools, we’ve successfully built a fast, collaborative todo app. More importantly, we’ve worked out a reasonably simple approach to building similar web apps. As the user base and feature set grow, this approach shall scale well in both performance and complexity.\nBoth the res…",
+          "link": "https://zjy.cloud/posts/collaborative-web-apps",
+          "publishedOn": "2021-08-18T14:19:00.000Z",
+          "wordCount": 2531,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A simple way to build collaborative web apps"
+        },
+        {
+          "description": "There was a glorious (albeit too short) period on the web when we were mashing up APIs from various startups and tech companies to create cool stuff. Then things changed. The web grew up, became Serious Business™️, and free/public APIs got harder and harder to find. Turns out, there’s still a bunch of good ones out there!\nThis repo has collected them in one long, categorized list for us to reference. 👏\nDiscuss on Changelog News",
+          "link": "https://github.com/public-api-lists/public-api-lists",
+          "publishedOn": "2021-08-18T13:30:00.000Z",
+          "wordCount": 8232,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A collection of free/public APIs you can use to build awesome stuff"
+        },
         {
           "description": "PlayCover lets you sideload iOS apps and games onto your Mac and run them like any other app. Simply drag-n-drop the .ipa file and wait for PlayCover to convert and launch the app. Here’s a video of it in action playing Genshin Impact.\nDiscuss on Changelog News",
           "link": "https://github.com/Letscoder/PlayCover",
@@ -785,42 +803,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "The Changelog 450: Why we 💚 Vim"
-        },
-        {
-          "description": "This expands on topics that we have discussed in Ship It! #11 and covers community findings on the practices that make the biggest difference for:\nHigher productivity\nImprovement in code quality\nEnd-user satisfaction\nSoftware developer retention\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=W3UU2lsQDoo",
-          "publishedOn": "2021-07-20T17:34:00.000Z",
-          "wordCount": 27,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Mature teams ship better code faster and you can too"
-        },
-        {
-          "description": "In 1984 John Gage of Sun Microsystems was credited as saying “The Network is the computer.” Almost four decades ago, John had a vision of distributed systems working together to be greater than the sum of their parts.\nFor this article, I surveyed the land of hosted IDEs and it turns out that we’ve progressed beyond running VS Code on an iPad whilst sipping a cocktail.\nYou can still do that, but there’s way more to it today and I’ll take you through some of use-cases and add my own thoughts. There’s also a p…",
-          "link": "https://blog.alexellis.io/the-internet-is-my-computer/",
-          "publishedOn": "2021-07-20T16:43:00.000Z",
-          "wordCount": 2495,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The Internet is my computer"
-        },
-        {
-          "description": "Angle-grinder allows you to parse, aggregate, sum, average, min/max, percentile, and sort your data. You can see it, live-updating, in your terminal. Angle grinder is designed for when, for whatever reason, you don’t have your data in graphite/honeycomb/kibana/sumologic/splunk/etc. but still want to be able to do sophisticated analytics.\nAngle grinder can process well above 1M rows per second (simple pipelines as high as 5M), so it’s usable for fairly meaty aggregation. The results will live update in your …",
-          "link": "https://github.com/rcoh/angle-grinder",
-          "publishedOn": "2021-07-20T15:55:00.000Z",
-          "wordCount": 4074,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Slice and dice logs on the command line with Angle Grinder"
-        },
-        {
-          "description": "9 out of 10 AI projects don’t end up creating value in production. Why? At least partly because these projects utilize unstable models and drifting data. In this episode, Roey from BeyondMinds gives us some insights on how to filter garbage input, detect risky output, and generally develop more robust AI systems.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nPSSC Labs – Solutions from PSSC Labs provide a cost effective, highly s…",
-          "link": "https://changelog.com/practicalai/141",
-          "publishedOn": "2021-07-20T15:00:00.000Z",
-          "wordCount": 397,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Practical AI 141: Towards stability and robustness"
         }
       ]
     },
@@ -841,6 +823,15 @@
     {
       "href": "https://blog.google/technology/ai/rss",
       "articles": [
+        {
+          "description": "Before the pandemic, Alicia Chang was working on a new project. “I was experimenting with non-traditional ways to help teach Googlers the AI Principles,” she says. Alicia is a technical writer on the Engineering Education team focused on designing learning experiences to help Googlers learn about our AI Principles and how to apply them in their own work.\nThe challenge for Alicia would be how many people she needed to educate. “There are so many people spread over different locations, time zones, countries!”…",
+          "link": "https://blog.google/technology/ai/crossword-puzzle-big-purpose/",
+          "publishedOn": "2021-08-18T16:00:00.000Z",
+          "wordCount": 1272,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "A crossword puzzle with a big purpose"
+        },
         {
           "description": "From the early days of the internet to the development of the Human Genome Project, U.S. government-funded R&amp;D has yielded remarkable progress for society, and today it is an important engine for AI research. That’s why, last year, we were proud to announce our partnership with the U.S. National Science Foundation (NSF) to provide $5M to support the establishment of national research institutes working in the area of Human-AI Interaction and Collaboration (HAIC). This partnership—which is part of a more…",
           "link": "https://blog.google/technology/ai/partnering-nsf-research-institute-ai-improve-elderly-care/",
@@ -873,6 +864,15 @@
     {
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
+        {
+          "description": "SVT is the Swedish national public television. They recently announced their new series Det svenska spelundret, which translated to &#8220;The Swedish game wonder&#8221; or something. It is a five episode documentary series about the history behind and the creation of the flourishing Swedish computer game industry. In Swedish and the only subtitles available are also &#8230; Continue reading Early me caught on TV &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/08/19/early-me-caught-on-tv/",
+          "publishedOn": "2021-08-19T07:54:53.000Z",
+          "wordCount": 1047,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "Early me caught on TV"
+        },
         {
           "description": "&#8220;The GitHub Stars program thanks GitHub’s most influential developers and gives them a platform to showcase their work, reach more people, and shape the future of GitHub.&#8221; That&#8217;s a quote from stars.github.com. In the beginning of June 2021 I was invited into the program. I consider it an honor to be recognized. See my featured &#8230; Continue reading A GitHub star &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/08/11/a-github-star/",
@@ -1005,6 +1005,15 @@
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
         {
+          "description": "Hyatt’s three-year-old bug bounty program has reached a significant milestone: $500,000 in bounties paid to hackers. As the first organization in the hospitality industry to embrace hacker-powered security, Hyatt’s milestone today demonstrates its long-term commitment to setting the highest standard for cybersecurity.  We sat down with Robert Lowery, Senior Analyst at Hyatt, to learn more about the history of Hyatt’s bug bounty program and their most recent $500,000 milestone. Read on to see what Robert sha…",
+          "link": "https://www.hackerone.com/blog/bounty/hyatts-bug-bounty-program-update-qa-senior-analyst-robert-lowery",
+          "publishedOn": "2021-08-18T16:00:00.000Z",
+          "wordCount": 1555,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "Hyatt's Bug Bounty Program Update: Q&A with Senior Analyst Robert Lowery"
+        },
+        {
           "description": "The world’s most popular women’s health app, Flo Health, is responsible for the sensitive health data of 40 million women. With that much PII under their purview, Flo Health’s CISO knew that enabling his security team with the most advanced security testing methods was of the utmost importance to brand trust and user loyalty.",
           "link": "https://www.hackerone.com/blog/one-month-learnings-flo-healths-bug-bounty-program-qa-ciso-leo-cunningham",
           "publishedOn": "2021-08-04T15:00:00.000Z",
@@ -1055,6 +1064,15 @@
       "href": "https://hacks.mozilla.org/feed/",
       "articles": [
         {
+          "description": "Last month we removed a bunch of content from MDN. MDN is 16 years old (and yes it can drink in some countries), all that time ago it was a great place for all of Mozilla to document all of their things. As MDN evolved and the web reference became our core content, other areas became less relevant to the overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our focus should be there.\nThe post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks - the Web…",
+          "link": "https://hacks.mozilla.org/2021/08/spring-cleaning-mdn-part-2/",
+          "publishedOn": "2021-08-18T15:05:06.000Z",
+          "wordCount": 453,
+          "sourceHref": "https://hacks.mozilla.org/feed/",
+          "sourceTitle": "Mozilla Hacks – the Web developer blog",
+          "title": "Spring cleaning MDN: Part 2"
+        },
+        {
           "description": "August is already here, which means so is Firefox 91! For developers, Firefox 91 supports the Visual Viewport API and Intl.DateTimeFormat object additions.\nThe post Hopping on Firefox 91 appeared first on Mozilla Hacks - the Web developer blog.",
           "link": "https://hacks.mozilla.org/2021/08/hopping-on-firefox-91/",
           "publishedOn": "2021-08-10T15:04:27.000Z",
@@ -1071,15 +1089,6 @@
           "sourceHref": "https://hacks.mozilla.org/feed/",
           "sourceTitle": "Mozilla Hacks – the Web developer blog",
           "title": "How MDN’s autocomplete search works"
-        },
-        {
-          "description": "As we’re all aware by now, we made some big platform changes at the end of 2020. Whilst the big move has happened, it’s given us a great opportunity to clear out the cupboards and closets. \nThe post Spring Cleaning MDN: Part 1 appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2021/07/spring-cleaning-mdn-part-1/",
-          "publishedOn": "2021-07-20T16:00:48.000Z",
-          "wordCount": 418,
-          "sourceHref": "https://hacks.mozilla.org/feed/",
-          "sourceTitle": "Mozilla Hacks – the Web developer blog",
-          "title": "Spring Cleaning MDN: Part 1"
         }
       ]
     },
@@ -1208,6 +1217,15 @@
     {
       "href": "https://building.nubank.com.br/feed/",
       "articles": [
+        {
+          "description": "The lack of financial education represents a central reason for the discontents and anguish in contemporary culture. How can Nubank, as a customer-focused organization, help with this problem? \nThe post The Personal Financial Management team is born at Nubank appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/the-personal-financial-management-team-is-born/",
+          "publishedOn": "2021-08-17T22:36:07.000Z",
+          "wordCount": 3528,
+          "sourceHref": "https://building.nubank.com.br/feed/",
+          "sourceTitle": "Building Nubank",
+          "title": "The Personal Financial Management team is born at Nubank"
+        },
         {
           "description": "Machine learning (ML) models are very sensitive pieces of software; their successful use needs careful monitoring to make sure they are working correctly.\nThe post ML Model Monitoring &#8211; 9 Tips From the Trenches appeared first on Building Nubank.",
           "link": "https://building.nubank.com.br/ml-model-monitoring-9-tips-from-the-trenches/",
