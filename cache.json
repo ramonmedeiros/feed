@@ -31,6 +31,51 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "On this special edition of The Changelog, we’re talking with Cory Wilkerson, Senior Director of Engineering at GitHub, about GitHub Codespaces. For years now, the possibility of coding in the cloud seemed so close, yet so far away for a number of reasons. According to Cory, the raw ingredients to make coding in the cloud a reality have been there for years. The challenge has really been how the industry thinks, and we are now at a place where the skepticism in cloud based workflows is “non-existent.”\nAfter …",
+          "link": "https://changelog.com/podcast/459",
+          "publishedOn": "2021-09-11T04:00:00.000Z",
+          "wordCount": 439,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The Changelog 459: Coding in the cloud with Codespaces"
+        },
+        {
+          "description": "This looks great for those of us who haven’t memorized the command-line flags yet.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/jely2002/youtube-dl-gui",
+          "publishedOn": "2021-09-10T19:28:00.000Z",
+          "wordCount": 1069,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "youtube-del gets an Electron-based GUI"
+        },
+        {
+          "description": "Migrating off jQuery? So was Sachin Neravath:\nMost of the projects use only 15% to 20% or less than 30% of the jquery methods And in most of the cases, I didn’t want to support all the edge cases or legacy browsers. The hardest part was finding the jQuery methods in the existing project and writing the alternative vanilla js methods without making much changes in the codebase. So I wrote this library which automatically finds jquery methods in any particular JavaScript file and generates readable, chainable…",
+          "link": "https://github.com/sachinchoolur/replace-jquery",
+          "publishedOn": "2021-09-10T18:36:00.000Z",
+          "wordCount": 2214,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Auto-generate vanilla JS alternatives for jQuery methods"
+        },
+        {
+          "description": "Your favorite web dev podcasts join forces for a super collab that’ll knock you frontend off! Amelia joins Chris Coyier and Dave Rupert from ShopTalk Show while Divya teams up with Wes Box &amp; Scott Tolinski from Syntax. Let the FEUDing begin!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool For Startups – More and more startups are using Retool to focus their time on their core product. That’s exactly why Retool launched …",
+          "link": "https://changelog.com/jsparty/192",
+          "publishedOn": "2021-09-10T16:15:00.000Z",
+          "wordCount": 492,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "JS Party 192: Frontend Feud: ShopTalk vs Syntax"
+        },
+        {
+          "description": "Amazon EKS Anywhere is a new deployment option for Amazon EKS that enables you to easily create and operate Kubernetes clusters on-premises with your own virtual machines. It brings a consistent AWS management experience to your data center, building on the strengths of Amazon EKS Distro, the same distribution of Kubernetes that powers EKS on AWS. Its goal is to include full lifecycle management of multiple Kubernetes clusters that are capable of operating completely independently of any AWS services.\nDiscu…",
+          "link": "https://github.com/aws/eks-anywhere",
+          "publishedOn": "2021-09-10T13:41:00.000Z",
+          "wordCount": 999,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "You can now run Amazon EKS on your own infra"
+        },
+        {
           "description": "In this episode, Gerhard talks to David and Marques from Equinix Metal about the importance of bare metal for steady workloads. Terraform, Kubernetes and Tinkerbell come up, as does Crossplane - this conversation is a partial follow-up to episode 15.\nDavid Flanagan, a.k.a. Rawkode, needs no introduction. Some of you may remember Marques Johansson from The new changelog.com setup for 2019. Marques was behind the Linode Terraforming that we used at the time, and our infrastructure was simpler because of it!\nT…",
           "link": "https://changelog.com/shipit/18",
           "publishedOn": "2021-09-09T21:00:00.000Z",
@@ -614,51 +659,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Founders Talk 78: Leading Auth0 to a $6.5 billion acquisition"
-        },
-        {
-          "description": "Mihai and Ashley join Jon to discuss data streaming. What is it, why is it being used, and common mistakes developers make when setting up. They also discuss some of the tools in the ecosystem, including Benthos, a tool created by Ashley Jeff’s to make the plumbing part of data streaming easier to get right.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nTeleport – Teleport Access Plane lets you access any computing resource anyw…",
-          "link": "https://changelog.com/gotime/192",
-          "publishedOn": "2021-08-12T20:45:00.000Z",
-          "wordCount": 406,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Go Time 192: Data streaming and Benthos"
-        },
-        {
-          "description": "In today’s episode, Gerhard is joined by Uma, CEO and co-founder of ChaosNative, as well as Karthik, CTO and also a ChaosNative co-founder. They talk Chaos Engineering and Litmus.\nChaos Engineering is not just for super SREs. It is not meant to prevent outages. And, it is not just about hardware. Chaos Engineering is about testing how reliable your systems are. It’s meant to show you how things fail, including when other dependent systems fail - think cascading failures. This is a good way to discover incon…",
-          "link": "https://changelog.com/shipit/14",
-          "publishedOn": "2021-08-12T19:30:00.000Z",
-          "wordCount": 548,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Ship It! 14: Cloud-native chaos engineering"
-        },
-        {
-          "description": "Where by “on the web” James means “in the browser”:\nSQL is a great way to build apps. Especially small local web apps. Key/value stores may have their place in large distributed systems, but wow wouldn’t it be great if we could use SQLite on the web?\nI’m excited to announce absurd-sql which makes this possible. absurd-sql is a filesystem backend for sql.js that allows SQLite to read/write from IndexedDB in small blocks, just like it would a disk. I ported my app to use and you can try it here.\nA very cool p…",
-          "link": "https://jlongster.com/future-sql-web",
-          "publishedOn": "2021-08-12T15:37:00.000Z",
-          "wordCount": 4260,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A future for SQL on the web"
-        },
-        {
-          "description": "Nick told us about this on our modern Unix tooling episode, but I thought I’d link up his excellent writeup/video on the subject for those who had a hard time following with audio only.\nLet’s say you have an nginx or Kubernetes config file which doesn’t support templating out of the box and you want to dynamically create config files based on 1 or more environment variables. This is what envsubst lets you do.\nDiscuss on Changelog News",
-          "link": "https://nickjanetakis.com/blog/using-envsubst-to-merge-environment-variables-into-config-files",
-          "publishedOn": "2021-08-12T14:48:00.000Z",
-          "wordCount": 419,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Using `envsubst` to merge environment variables into config files"
-        },
-        {
-          "description": "Ivan Velichko:\nI compiled this thread on Twitter, and all of a sudden, it got quite some attention. So here, I’ll try to elaborate on the topic a bit more. Maybe it would be helpful for someone trying to make a career decision or just improve general understanding of the most hyped titles in the industry.\nTitles come and go, and it’s worth knowing which ones are coming and which ones are going. This article is a good place to catch up if you haven’t been tracking. Oh, and there’s a pod for that too. 😉\nDisc…",
-          "link": "https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/",
-          "publishedOn": "2021-08-12T14:00:00.000Z",
-          "wordCount": 1925,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "DevOps, SRE, and Platform Engineering"
         }
       ]
     },
@@ -1049,24 +1049,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "Securing your GitHub account with two-factor authentication"
-        },
-        {
-          "description": "A public beta for CodeQL package manager, additional options to manage Actions runs from first-time contributors, GitHub Discussions translation, and more.",
-          "link": "https://github.blog/2021-08-12-whats-new-from-github-changelog-july-2021-recap/",
-          "publishedOn": "2021-08-13T00:15:37.000Z",
-          "wordCount": 976,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "What’s new from GitHub Changelog? July 2021 Recap"
-        },
-        {
-          "description": "This GitHub Classroom extension for Visual Studio Code provides a simplified introduction to Git, GitHub Classroom, and Visual Studio Code.",
-          "link": "https://github.blog/2021-08-12-teaching-learning-github-classroom-visual-studio-code/",
-          "publishedOn": "2021-08-12T18:00:00.000Z",
-          "wordCount": 705,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Seamless teaching and learning through GitHub Classroom and Visual Studio Code"
         }
       ]
     },
