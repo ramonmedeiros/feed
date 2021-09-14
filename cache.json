@@ -31,6 +31,33 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "I read about KDL (pronounced “cuddle”) over the weekend. Color me impressed!\nKat (and others) put a lot of thought into this.\nKDL is a document language with xml-like semantics that looks like you’re invoking a bunch of CLI commands! It’s meant to be used both as a serialization format and a configuration language, much like JSON, YAML, or XML.\nCheck out the FAQ for all the common objections (like why not YAML or TOML or ETC) as well as a note about the XKCD comic you’re probably thinking about. Here’s hopi…",
+          "link": "https://kdl.dev/",
+          "publishedOn": "2021-09-13T22:12:00.000Z",
+          "wordCount": 1448,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "The KDL document language"
+        },
+        {
+          "description": "Chris Coyier on some of the new(ish) CSS compilers (such as Assembler) and how they’re flipping the script:\nThe popular Tailwind framework supports it. It kind of flips the mental model of Tailwind on its head, to me. Rather than providing a huge pile of CSS utility classes to use — then “purging” what is unused — it only creates what it needs to begin with.\nDiscuss on Changelog News",
+          "link": "https://css-tricks.com/just-in-time-css/",
+          "publishedOn": "2021-09-13T14:14:00.000Z",
+          "wordCount": 2121,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "“Just in Time” CSS"
+        },
+        {
+          "description": "The latest Phoenix release ditches webpack and npm for esbuild and… nothing?\nOf course, these are just the defaults — docs for Elixir’s esbuild clearly state that NPM is still supported and you can always pass --no-assets and do things 100% your way. But it’s easy to underestimate the power of defaults, especially those that cover area outside of target audience’s expertise — which is the case of Phoenix devs and JS bundlers.\nIn this post, the author lays out how they stitched together an esbuild + npm setu…",
+          "link": "https://cloudless.studio/wrapping-your-head-around-assets-in-phoenix-1-6",
+          "publishedOn": "2021-09-13T13:26:00.000Z",
+          "wordCount": null,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Wrapping your head around assets in Phoenix 1.6"
+        },
+        {
           "description": "On this special edition of The Changelog, we’re talking with Cory Wilkerson, Senior Director of Engineering at GitHub, about GitHub Codespaces. For years now, the possibility of coding in the cloud seemed so close, yet so far away for a number of reasons. According to Cory, the raw ingredients to make coding in the cloud a reality have been there for years. The challenge has really been how the industry thinks, and we are now at a place where the skepticism in cloud based workflows is “non-existent.”\nAfter …",
           "link": "https://changelog.com/podcast/459",
           "publishedOn": "2021-09-11T04:00:00.000Z",
@@ -680,6 +707,60 @@
       "href": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "articles": [
         {
+          "description": "Twitter engineers found and fixed a Linux kernel bug in memory shrinker which caused OOM for us.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/dropping-cache-didnt-drop-cache",
+          "publishedOn": "2021-09-14T12:25:23.132Z",
+          "wordCount": 2283,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Dropping cache didn’t drop cache"
+        },
+        {
+          "description": "This blog post is based on Michael Bronstein’s keynote talk at ICLR 2021 and the paper M. M. Bronstein et al., Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges (2021)",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/iclr-invited-talk-on-geometric-deep-learning",
+          "publishedOn": "2021-09-14T12:25:23.118Z",
+          "wordCount": 3223,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "ICLR Invited Talk on Geometric Deep Learning"
+        },
+        {
+          "description": "Twitter annotated its data to a defined taxonomy by leveraging machine learning in its data platform by fusing Elasticsearch with neural networks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/fusing-elasticsearch-with-neural-networks-to-identify-data",
+          "publishedOn": "2021-09-14T12:25:23.104Z",
+          "wordCount": 1793,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Fusing Elasticsearch with neural networks to identify data"
+        },
+        {
+          "description": "Twitter shares a technical analysis of its assessment for potential bias in its image cropping algorithm as part of its efforts to be more transparent around how it uses machine learning to improve pe",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm",
+          "publishedOn": "2021-09-14T12:25:22.872Z",
+          "wordCount": 1452,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Sharing learnings about our image cropping algorithm"
+        },
+        {
+          "description": "How Twitter moved from a home grown logging platform to the commercially available Splunk and the challenges we’ve encountered along the way.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/logging-at-twitter-updated",
+          "publishedOn": "2021-09-14T12:25:22.860Z",
+          "wordCount": 2391,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Logging at Twitter: Updated"
+        },
+        {
+          "description": "Twitter describes how to design local and computationally efficient provably powerful graph neural networks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/provably-expressive-graph-neural-networks",
+          "publishedOn": "2021-09-14T12:25:22.838Z",
+          "wordCount": 2221,
+          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
+          "sourceTitle": "English (US)",
+          "title": "Provably expressive graph neural networks"
+        },
+        {
           "description": "Describe how the Observability team applied Flame graphs to a novel use case (internal usage of Twitter’s time series database) outside of their typical application",
           "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/applying-flame-graphs-outside-of-performance-analysis",
           "publishedOn": "2021-09-13T12:28:03.910Z",
@@ -826,6 +907,15 @@
       "href": "https://github.blog/feed/",
       "articles": [
         {
+          "description": "What did we ship in August? Codespaces, Discussions, and lots of other updates, from the general availability of the dark high contrast theme to an auto-generated table of contents for wikis.",
+          "link": "https://github.blog/2021-09-13-whats-new-from-github-changelog-august-2021-recap/",
+          "publishedOn": "2021-09-13T17:01:15.000Z",
+          "wordCount": 1370,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "What’s new from GitHub Changelog? August 2021 Recap"
+        },
+        {
           "description": "Announcing recipients of the GitHub Open Source Grants and opening of GitHub Sponsors in India.",
           "link": "https://github.blog/2021-09-12-recipients-open-source-grants-github-sponsors-india/",
           "publishedOn": "2021-09-13T03:30:45.000Z",
@@ -956,6 +1046,15 @@
     {
       "href": "https://building.nubank.com.br/feed/",
       "articles": [
+        {
+          "description": "Nubank customers will have access to products and services from Creditas, a digital lending platform, by the end of the year. \nThe post Nubank and Creditas announce partnership appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nubank-creditas/",
+          "publishedOn": "2021-09-14T00:43:53.000Z",
+          "wordCount": 3224,
+          "sourceHref": "https://building.nubank.com.br/feed/",
+          "sourceTitle": "Building Nubank",
+          "title": "Nubank and Creditas announce partnership"
+        },
         {
           "description": "The Bug Bounty program rewards cybersecurity researchers who find potential vulnerabilities in our systems.\nThe post Nubank launches reward program for ethical hackers in partnership with HackerOne appeared first on Building Nubank.",
           "link": "https://building.nubank.com.br/nubank-launches-reward-program-for-ethical-hackers-in-partnership-with-hackerone/",
