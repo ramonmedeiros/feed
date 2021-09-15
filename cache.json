@@ -31,6 +31,33 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "Any AI play that lacks an underlying data strategy is doomed to fail, and a big part of any data strategy is labeling. Michael, from Label Studio, joins us in this episode to discuss how the industry’s perception of data labeling is shifting. We cover open source tooling, validating labels, and integrating ML/AI models in the labeling loop.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pipeline …",
+          "link": "https://changelog.com/practicalai/149",
+          "publishedOn": "2021-09-14T20:30:00.000Z",
+          "wordCount": 357,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 149: Trends in data labeling"
+        },
+        {
+          "description": "A (short) must-read piece from rachelbythebay:\n“Everyone knows” that code is something you type into a computer, that gets interpreted by a computer, and is run by a computer. But that’s not really the end of it. Before that, it’s being “run” on whoever’s working on it. After that, it’s “running” on whoever’s digging into it to fix a bug or add some feature.\nYou can throw all kinds of wicked, nasty, complicated, Klein-bottle-wannabe tricks into code and the computer will shrug and slog on through it.\nTry fe…",
+          "link": "https://rachelbythebay.com/w/2021/09/05/clever/",
+          "publishedOn": "2021-09-14T14:51:00.000Z",
+          "wordCount": 478,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Code runs on people. Please keep it simple."
+        },
+        {
+          "description": "This is phoboslab’s entry in this year’s JS 13k Games competition. Stunning what you can accomplish with so little. View the source right here and play the game (desktop only) right here.\n\nDiscuss on Changelog News",
+          "link": "https://js13kgames.com/entries/q1k3",
+          "publishedOn": "2021-09-14T13:48:00.000Z",
+          "wordCount": 181,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An homage to Quake in 13kb of JS"
+        },
+        {
           "description": "I read about KDL (pronounced “cuddle”) over the weekend. Color me impressed!\nKat (and others) put a lot of thought into this.\nKDL is a document language with xml-like semantics that looks like you’re invoking a bunch of CLI commands! It’s meant to be used both as a serialization format and a configuration language, much like JSON, YAML, or XML.\nCheck out the FAQ for all the common objections (like why not YAML or TOML or ETC) as well as a note about the XKCD comic you’re probably thinking about. Here’s hopi…",
           "link": "https://kdl.dev/",
           "publishedOn": "2021-09-13T22:12:00.000Z",
@@ -614,30 +641,22 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Practical AI 145: NLP to help pregnant mothers in Kenya"
-        },
-        {
-          "description": "Brett Cannon:\n… over 3 years ago I set out to re-implement the Python Launcher for Unix in Rust. On July 24, 2021, I launched 1.0.0 of the Python Launcher for Unix… This gives you a py command on Unix which will always use the newest version of Python.\nHe goes on to describe some workflow niceties that a built in and also what this project is not about:\nThe Launcher is purely a convenience and not meant to be The Launcher For All Things; this should never end up in a Docker container.\nDiscuss on Changelog N…",
-          "link": "https://snarky.ca/introducing-the-python-launcher-for-unix/",
-          "publishedOn": "2021-08-16T14:33:00.000Z",
-          "wordCount": 1231,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Introducing the Python launcher for  Unix"
-        },
-        {
-          "description": "Matt Rickard shares 31 reflections after putting his time 10k hours in programming:\nThese are reflections only about pure coding — no lessons sum up to “programming is about people” or “how to be a senior technical leader” (arguably more important to a career, but not the topic of this post).\nThese reflections are just about deliberately writing code for 10,000 hours. Most don’t apply to beginners. These reflections are not career advice. Think of them as lessons on being a technical guitarist, not about be…",
-          "link": "https://matt-rickard.com/reflections-on-10-000-hours-of-programming/",
-          "publishedOn": "2021-08-16T13:39:00.000Z",
-          "wordCount": 934,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Reflections on 10,000 hours of programming"
         }
       ]
     },
     {
       "href": "https://blog.comma.ai/feed.xml",
-      "articles": []
+      "articles": [
+        {
+          "description": "A getting started guide for openpilot development\nTime required: ~30 minutes\nSet up your development environment (Ubuntu 20.04)\n# clone openpilot into your home directory\ncd ~\ngit clone --recurse-submodules https://github.com/commaai/openpilot.git\n\n# setup ubuntu environment\nopenpilot/tools/ubuntu_setup.sh\n\n# build openpilot\ncd openpilot &amp;&amp; scons -j$(nproc)\n\n\nTODO: Add Windows and Mac instructions.\nRun a route replay and ui\nTODO: you might have to log in to access the demo route. see the replay read…",
+          "link": "https://blog.comma.ai/turning-the-speed-blue/",
+          "publishedOn": "2021-09-14T18:00:00.000Z",
+          "wordCount": 522,
+          "sourceHref": "https://blog.comma.ai/feed.xml",
+          "sourceTitle": "comma.ai blog",
+          "title": "Turning the speed blue"
+        }
+      ]
     },
     {
       "href": "https://blog.google/technology/ai/rss",
@@ -674,6 +693,15 @@
     {
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
+        {
+          "description": "The curl factory has once again cranked out a new curl release. Release presentation Numbers the 202nd release3 changes56 days (total: 8,580)128 bug-fixes (total: 7,270)186 commits (total: 27,651)0 new public libcurl function (total: 85)0 new curl_easy_setopt() option (total: 290)0 new curl command line option (total: 242)62 contributors, 25 new (total: 2,484)41 authors, 16 new (total: &#8230; Continue reading curl 7.79.0 &#8211; secure local cookies &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/09/15/curl-7-79-0-secure-local-cookies/",
+          "publishedOn": "2021-09-15T06:24:59.000Z",
+          "wordCount": 1488,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "curl 7.79.0 – secure local cookies"
+        },
         {
           "description": "There&#8217;s plan for version 8 being forged! Let me just take you back a bit in time first.. The early days When we first created libcurl, we bumped the major version number of the project from the previous version 6 to version 7. In late summer of 2000 we shipped curl and libcurl 7.1 as &#8230; Continue reading Heading towards curl eight &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/09/13/heading-towards-curl-eight/",
@@ -802,6 +830,15 @@
       "href": "https://googleprojectzero.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "ul.lst-kix_do14k59gl4sr-0{list-style-type:none}ul.lst-kix_do14k59gl4sr-1{list-style-type:none}ul.lst-kix_do14k59gl4sr-2{list-style-type:none}ul.lst-kix_do14k59gl4sr-3{list-style-type:none}.lst-kix_u927wi79aeqb-0>li:before{content:\"-  \"}.lst-kix_u927wi79aeqb-1>li:before{content:\"-  \"}.lst-kix_u927wi79aeqb-2>li:before{content:\"-  \"}.lst-kix_do14k59gl4sr-2>li:before{content:\"-  \"}ul.lst-kix_do14k59gl4sr-4{list-style-type:none}.lst-kix_u927wi79aeqb-5>li:before{content:\"-  \"}ul.lst-kix_do14k59gl4sr-5{list-style-…",
+          "link": "https://googleprojectzero.blogspot.com/2021/09/fuzzing-closed-source-javascript.html",
+          "publishedOn": "2021-09-14T17:14:00.000Z",
+          "wordCount": 3272,
+          "sourceHref": "https://googleprojectzero.blogspot.com/atom.xml",
+          "sourceTitle": "Project Zero",
+          "title": "Fuzzing Closed-Source JavaScript Engines with Coverage Feedback"
+        },
+        {
           "description": "ul.lst-kix_w3t1hchiy4w5-6{list-style-type:none}ul.lst-kix_a73fbzj8zqo2-1{list-style-type:none}ul.lst-kix_w3t1hchiy4w5-5{list-style-type:none}ul.lst-kix_a73fbzj8zqo2-0{list-style-type:none}ul.lst-kix_w3t1hchiy4w5-4{list-style-type:none}ul.lst-kix_a73fbzj8zqo2-3{list-style-type:none}ul.lst-kix_w3t1hchiy4w5-3{list-style-type:none}ul.lst-kix_a73fbzj8zqo2-2{list-style-type:none}ul.lst-kix_a73fbzj8zqo2-5{list-style-type:none}ul.lst-kix_a73fbzj8zqo2-4{list-style-type:none}ul.lst-kix_w3t1hchiy4w5-8{list-style-type:…",
           "link": "https://googleprojectzero.blogspot.com/2021/08/understanding-network-access-windows-app.html",
           "publishedOn": "2021-08-19T16:37:00.000Z",
@@ -815,6 +852,15 @@
     {
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
+        {
+          "description": "Challenges for Traditional Security Teams \n\nTraditional security teams are typically reactive. They’re seen as change-resistant, out of sync with development, and unable to predict or understand risk. For teams to go from reacting to cyberattacks to strategically and tactically planning for risk reduction, they need to plan and prioritize.",
+          "link": "https://www.hackerone.com/how-hacker-powered-security-can-help-security-teams-become-more-data-driven",
+          "publishedOn": "2021-09-14T16:00:00.000Z",
+          "wordCount": 1300,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "How Hacker-Powered Security Can Help Security Teams Become More Data-Driven"
+        },
         {
           "description": "Are you curious about the best vulnerability assessment tools? We detail some of the popular tools, what they do, and their pros and cons.",
           "link": "https://www.hackerone.com/vulnerability-management/vulnerability-assessment-tools-top-tools-what-they-do",
@@ -906,6 +952,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "In August of 2020, we started highlighting stories that showcase how developers, maintainers, and organizations are moving humanity forward through The ReadME Project.",
+          "link": "https://github.blog/2021-09-14-the-readme-project-a-look-back-community-stories/",
+          "publishedOn": "2021-09-14T16:00:10.000Z",
+          "wordCount": 566,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "The ReadME Project: A look back at the community stories that shape us"
+        },
         {
           "description": "What did we ship in August? Codespaces, Discussions, and lots of other updates, from the general availability of the dark high contrast theme to an auto-generated table of contents for wikis.",
           "link": "https://github.blog/2021-09-13-whats-new-from-github-changelog-august-2021-recap/",
@@ -1022,24 +1077,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "GitHub Discussions is out of beta"
-        },
-        {
-          "description": "The open source Git project just released Git 2.33, with features and bug fixes from over 74 contributors. Here's a look at some of the most interesting features and changes.",
-          "link": "https://github.blog/2021-08-16-highlights-from-git-2-33/",
-          "publishedOn": "2021-08-16T23:15:27.000Z",
-          "wordCount": 3754,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Highlights from Git 2.33"
-        },
-        {
-          "description": "The benefits of multifactor authentication are widely documented, and there are a number of options for using 2FA on GitHub.",
-          "link": "https://github.blog/2021-08-16-securing-your-github-account-two-factor-authentication/",
-          "publishedOn": "2021-08-16T18:00:51.000Z",
-          "wordCount": 761,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Securing your GitHub account with two-factor authentication"
         }
       ]
     },
@@ -1090,15 +1127,6 @@
           "sourceHref": "https://building.nubank.com.br/feed/",
           "sourceTitle": "Building Nubank",
           "title": "The Personal Financial Management team is born at Nubank"
-        },
-        {
-          "description": "Machine learning (ML) models are very sensitive pieces of software; their successful use needs careful monitoring to make sure they are working correctly.\nThe post ML Model Monitoring &#8211; 9 Tips From the Trenches appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/ml-model-monitoring-9-tips-from-the-trenches/",
-          "publishedOn": "2021-08-16T17:48:43.000Z",
-          "wordCount": 5168,
-          "sourceHref": "https://building.nubank.com.br/feed/",
-          "sourceTitle": "Building Nubank",
-          "title": "ML Model Monitoring – 9 Tips From the Trenches"
         }
       ]
     }
