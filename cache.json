@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Adrian Taylor, Andrew Whalley, Dana Jansens and Nasko Oskov, Chrome security team \nSecurity is a cat-and-mouse game. As attackers innovate, browsers always have to mount new defenses to stay ahead, and Chrome has invested in ever-stronger multi-process architecture built on sandboxing and site isolation. Combined with fuzzing, these are still our primary lines of defense, but they are reaching their limits, and we can no longer solely rely on this strategy to defeat in-the-wild attacks. \nLast year, we showe…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/XKkN9QXslxE/an-update-on-memory-safety-in-chrome.html",
+          "publishedOn": "2021-09-21T17:00:00.001Z",
+          "wordCount": 1040,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "An update on Memory Safety in Chrome"
+        },
+        {
           "description": "Posted by Kaylin Trychon, Google Open Source Security Team&nbsp;\n\nWe recently pledged to provide $100 million to support third-party foundations that manage open source security priorities and help fix vulnerabilities. As part of this commitment, we are excited to announce our support of the Open Source Technology Improvement Fund (OSTIF) to improve security of eight open-source projects.\nGoogle’s support will allow OSTIF to launch the Managed Audit Program (MAP), which will expand in-depth security reviews…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/J6olq6dpQeo/google-supports-open-source-technology.html",
           "publishedOn": "2021-09-15T18:17:00.003Z",
@@ -39,6 +48,33 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Will McGugan is a full-stack developer and Python expert who is offering up free reviews for any/all qualifying open source projects.What a great idea/service to the community!\nThe reviews will focus on API design and general architection of your project with a view to making them a) more maintainable b) future proof and c) user friendly, but will avoid anything that a linter could do for you. Reviews are intended to be constructive and hopefully give advice you can act on, but are in no way a “grade”.\nI wo…",
+          "link": "https://github.com/willmcgugan/codereviews",
+          "publishedOn": "2021-09-21T19:05:00.000Z",
+          "wordCount": 686,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Free code reviews for open source Python projects"
+        },
+        {
+          "description": "As you start developing an AI/ML based solution, you quickly figure out that you need to run workflows. Not only that, you might need to run those workflows across various kinds of infrastructure (including GPUs) at scale. Ville Tuulos developed MetaFlow while working at Netflix to help data scientists scale their work. In this episode, Ville tells us a bit more about MetaFlow, his new book on data science infrastructure, and his approach to helping scale ML/AI work.\nDiscuss on Changelog News\nJoin Changelog…",
+          "link": "https://changelog.com/practicalai/150",
+          "publishedOn": "2021-09-21T14:45:00.000Z",
+          "wordCount": 387,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 150: From notebooks to Netflix scale with MetaFlow"
+        },
+        {
+          "description": "Encore now supports the two most highly requested features from our users!\nNative support for building REST APIs\nSupport for ORMs and other database query helpers\nEncore v0.17 also comes with improvements to authentication, and lots of minor improvements and bug fixes!\nDiscuss on Changelog News",
+          "link": "https://encore.dev/blog/encore-v0.17",
+          "publishedOn": "2021-09-21T14:00:00.000Z",
+          "wordCount": 736,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Time to REST — Encore v0.17 is released"
+        },
         {
           "description": "Alexey Milovidov, announcing the formation of a (VC funded) corporation around ClickHouse, an open source analytics DBMS:\nToday I’m happy to announce ClickHouse Inc., the new home of ClickHouse. The development team has moved from Yandex and joined ClickHouse Inc. to continue building the fastest (and the greatest) analytical database management system. The company has received nearly $50M in Series A funding led by Index Ventures and Benchmark with participation by Yandex N.V. and others. I created ClickHo…",
           "link": "https://clickhouse.com/blog/en/2021/clickhouse-inc/",
@@ -743,6 +779,15 @@
       "href": "https://blog.google/technology/ai/rss",
       "articles": [
         {
+          "description": "Look around you right now and consider everything that was created by an inventor. The computer you’re reading this article on, the internet necessary to load this article, the electricity that powers the screen, even the coffee maker you used this morning. \n\nTo recognize the incredible contributions of those inventors and the benefits they bring to our everyday life, the National Inventors Hall of Fame has inducted a new group of honorees every year since 1973. In this year’s combined inductee class of 202…",
+          "link": "https://blog.google/technology/ai/marian-croak-inventors-hall-fame/",
+          "publishedOn": "2021-09-21T14:30:00.000Z",
+          "wordCount": 1777,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "Googler Marian Croak is now in the Inventors Hall of Fame"
+        },
+        {
           "description": "There’s a lot to love about online shopping: It’s fast, it’s easy and there are a ton of options to choose from. But there’s one obvious challenge — you can’t try anything on. This is something Google product manager Debbie Biswas noticed, as a tech industry veteran and startup founder herself. “Historically, the fashion industry only celebrates people of a certain size and skin color,” she says. “This was something I wanted to change.”\nDebbie grew up in India and moved to the U.S. after she graduated colle…",
           "link": "https://blog.google/technology/ai/this-googlers-team-is-making-shopping-more-inclusive/",
           "publishedOn": "2021-09-01T15:00:00.000Z",
@@ -750,21 +795,21 @@
           "sourceHref": "https://blog.google/technology/ai/rss",
           "sourceTitle": "AI",
           "title": "This Googler’s team is making shopping more inclusive"
-        },
-        {
-          "description": "“Farmers feed the entire world — so how might we support them to be resilient and build sustainable systems that also support global food security?” It’s a question that Diana Akrong found herself asking last year. Diana is a UX researcher based in Accra, Ghana, and the founding member of Google’s Accra UX team.\nAcross the world, her manager Dr. Courtney Heldreth, was equally interested in answering this question. Courtney is a social psychologist and a staff UX researcher based in Seattle, and both women w…",
-          "link": "https://blog.google/technology/ai/researchers-make-sure-ai-works-for-farmers/",
-          "publishedOn": "2021-08-23T15:00:00.000Z",
-          "wordCount": 1927,
-          "sourceHref": "https://blog.google/technology/ai/rss",
-          "sourceTitle": "AI",
-          "title": "These researchers are bringing AI to farmers"
         }
       ]
     },
     {
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
+        {
+          "description": "Within 24 hours of the previous release, 7.79.0, we got a bug-report filed that identified a pretty serious regression in the HTTP/2 code that we deemed required a fairly quick fix instead of waiting a full release cycle for it. So here&#8217;s 7.79.1 with several bug-fixes that we managed to queue up and merge in &#8230; Continue reading curl 7.79.1 &#8211; patched up and ready &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/09/22/curl-7-79-1-patched-up-and-ready/",
+          "publishedOn": "2021-09-22T06:22:43.000Z",
+          "wordCount": 1316,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "curl 7.79.1 – patched up and ready"
+        },
         {
           "description": "WebSockets has been one of the most requested features and protocol to add to curl and libcurl in the annual user survey. Repeatedly, over the last few years. WebSockets is not perfectly suitable to be done by libcurl since it&#8217;s not really an upload or download transfer protocol, but is more something like &#8220;a TCP &#8230; Continue reading You wanted WebSockets? &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/09/16/you-wanted-websockets/",
@@ -915,6 +960,15 @@
     {
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
+        {
+          "description": "Widespread digital transformation means increased cloud security risk. Learn how human intelligence—hacker-powered security—can help your organization defend against new attack vectors, mitigate risk, and improve cloud security.",
+          "link": "https://www.hackerone.com/application-security/top-5-cloud-security-risks-how-hacker-powered-security-can-help",
+          "publishedOn": "2021-09-21T16:00:00.000Z",
+          "wordCount": 1012,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "The Top 5 Cloud Security Risks: How Hacker-Powered Security Can Help"
+        },
         {
           "description": "Curious about vulnerability testing techniques? We explain processes such as vulnerability assessments, vulnerability scanning, and penetration testing.",
           "link": "https://www.hackerone.com/vulnerability-testing-best-techniques-assessing-risks",
