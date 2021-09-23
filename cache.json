@@ -4,6 +4,15 @@
       "href": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "articles": [
         {
+          "description": "Posted by Priya Wadhwa and Appu Goundan, Google Open Source Security Team\n\n\nA few months ago we announced that we started signing all distroless images with cosign, which allows users to verify that they have the correct image before starting the build process. Signing our images was our first step towards fully securing the distroless supply chain. Since then, we’ve implemented even more accountability in our supply chain and are excited to announce that distroless builds have achieved SLSA 2. SLSA is a se…",
+          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/21fk7__SXrc/distroless-builds-are-now-slsa-2.html",
+          "publishedOn": "2021-09-22T16:00:00.001Z",
+          "wordCount": 6509,
+          "sourceHref": "https://googleonlinesecurity.blogspot.com/atom.xml",
+          "sourceTitle": "Google Online Security Blog",
+          "title": "Distroless Builds Are Now SLSA 2"
+        },
+        {
           "description": "Adrian Taylor, Andrew Whalley, Dana Jansens and Nasko Oskov, Chrome security team \nSecurity is a cat-and-mouse game. As attackers innovate, browsers always have to mount new defenses to stay ahead, and Chrome has invested in ever-stronger multi-process architecture built on sandboxing and site isolation. Combined with fuzzing, these are still our primary lines of defense, but they are reaching their limits, and we can no longer solely rely on this strategy to defeat in-the-wild attacks. \nLast year, we showe…",
           "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/XKkN9QXslxE/an-update-on-memory-safety-in-chrome.html",
           "publishedOn": "2021-09-21T17:00:00.001Z",
@@ -48,6 +57,24 @@
     {
       "href": "https://changelog.com/feed",
       "articles": [
+        {
+          "description": "Dan Moren writing for Six Colors:\nSafari Keyword Search is a little tool that allows you to define shortcuts for searching specific sites. For example, you could type “imdb George Clooney” to be taken directly to the IMDb search results for George Clooney, or “w iPhone 13” to go straight to the Wikipedia page for the iPhone 13. You can also define your own shortcuts, so, for example, I’ve defined “sc” as a Google search limited to sixcolors.com, which helps me quickly turn up articles here…\nOn iOS 15, Mobil…",
+          "link": "https://sixcolors.com/post/2021/09/safari-keyword-search-hits-2-0-comes-to-ios/",
+          "publishedOn": "2021-09-22T14:35:00.000Z",
+          "wordCount": 472,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Safari Keyword Search hits 2.0, comes to iOS"
+        },
+        {
+          "description": "Nice is a highly customizable and lightweight framework for crafting CLI apps.\nNice respects idiomatic Go code and focuses to be clear, efficient and easy to write and maintain.\nYou can use it as a full-featured non-opinionated framework or use any nice packages as stand-alone libraries.\nI’m a big fan of the similar projects section in the README. Classy!\n\nDiscuss on Changelog News",
+          "link": "https://github.com/SuperPaintman/nice",
+          "publishedOn": "2021-09-22T13:47:00.000Z",
+          "wordCount": 693,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A highly customizable and lightweight framework for crafting Go CLIs"
+        },
         {
           "description": "Will McGugan is a full-stack developer and Python expert who is offering up free reviews for any/all qualifying open source projects.What a great idea/service to the community!\nThe reviews will focus on API design and general architection of your project with a view to making them a) more maintainable b) future proof and c) user friendly, but will avoid anything that a linter could do for you. Reviews are intended to be constructive and hopefully give advice you can act on, but are in no way a “grade”.\nI wo…",
           "link": "https://github.com/willmcgugan/codereviews",
@@ -802,6 +829,15 @@
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
         {
+          "description": "In April 2019 we launched the current curl bug-bounty program under the Hackerone umbrella and from my point of view it has been nothing but a raging success. Until today we&#8217;ve paid almost 17,000 USD in rewards and and the average payment amount has been increasing all the time. The reward money in this program &#8230; Continue reading curl joins the reborn IBB bug-bounty program &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/09/23/curl-joins-the-reborn-ibb-bug-bounty-program/",
+          "publishedOn": "2021-09-23T05:56:12.000Z",
+          "wordCount": 1330,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "curl joins the reborn IBB bug-bounty program"
+        },
+        {
           "description": "Within 24 hours of the previous release, 7.79.0, we got a bug-report filed that identified a pretty serious regression in the HTTP/2 code that we deemed required a fairly quick fix instead of waiting a full release cycle for it. So here&#8217;s 7.79.1 with several bug-fixes that we managed to queue up and merge in &#8230; Continue reading curl 7.79.1 &#8211; patched up and ready &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/09/22/curl-7-79-1-patched-up-and-ready/",
           "publishedOn": "2021-09-22T06:22:43.000Z",
@@ -1199,15 +1235,6 @@
           "sourceHref": "https://building.nubank.com.br/feed/",
           "sourceTitle": "Building Nubank",
           "title": "Yes, She Codes! Nubank’s software engineering women’s hiring program"
-        },
-        {
-          "description": "How Nubank deals with technical incidents in a healthy and simple way\nThe post How we deal with technical incidents appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/how-we-deal-with-incidents/",
-          "publishedOn": "2021-08-24T18:32:19.000Z",
-          "wordCount": 4020,
-          "sourceHref": "https://building.nubank.com.br/feed/",
-          "sourceTitle": "Building Nubank",
-          "title": "How we deal with technical incidents"
         }
       ]
     }
