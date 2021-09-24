@@ -58,6 +58,51 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "Ever wonder how new features get added to the go command? Or where tools like gopls come from? Well, there’s an open team that handles just those things.\nJust like the programming language itself, many of the tools that Go engineers use everyday are discussed and developed in the open. In this episode we’ll talk about this team, how it started, where it’s going, and how you can get involved.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\n…",
+          "link": "https://changelog.com/gotime/198",
+          "publishedOn": "2021-09-23T20:30:00.000Z",
+          "wordCount": 535,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Go Time 198: The little known team that keeps Go going"
+        },
+        {
+          "description": "This is a continuation of bashtop and bpytop only in C++. Linux today, but macOS &amp; BSD are planned.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/aristocratos/btop",
+          "publishedOn": "2021-09-23T20:19:01.000Z",
+          "wordCount": 2885,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "BTOP++ is a power resource monitor for Linux"
+        },
+        {
+          "description": "Craig Kerstiens on the little wins coming in Postgres 14, which is scheduled for the end of September:\nPostgres is, and for some time will continue to be, the first database I turn to. As Postgres focuses on the little things, it just deepens my commitment to it. Why look elsewhere when the bond just grows over time? So today I wanted to call some extra attention to those little things, the ones that don’t get the spotlight, but simply make a developer’s life better.\nHe goes on to highlight the JSON syntax …",
+          "link": "https://blog.crunchydata.com/blog/postgres-14-its-the-little-things",
+          "publishedOn": "2021-09-23T19:30:00.000Z",
+          "wordCount": 1177,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Postgres 14: it's the little things"
+        },
+        {
+          "description": "Trisha Gee writes (because Someone Is Wrong On The Internet):\nThe problem is not that we shouldn’t write readable code. Of course we should aim to write readable code, if only for our own poor selves further down the line (there is no one less capable of reading my code the following week than me). The problem is that these two issues are not mutually exclusive. It’s not “write readable code” or “learn to read code”. That’s like saying, “I’m going to drive really economically so I don’t need to put petrol i…",
+          "link": "https://trishagee.com/2020/09/07/reading-code-is-a-skill/",
+          "publishedOn": "2021-09-23T13:57:00.000Z",
+          "wordCount": 3361,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Reading code is a skill"
+        },
+        {
+          "description": "I’ve never gone full mouseless (nor do I necessarily recommend it), but there’s extreme productivity wins to be mined by keeping your hands on the home row as much as possible.\nBuilding a development environment with the shell as a keystone offers multiple benefits. You can use tools that fit nicely with each other, you can customize everything depending on your own needs, and the biggest of all, you can control your entire development environment with your keyboard. This can save a lot of cognitive energy …",
+          "link": "https://www.smashingmagazine.com/2021/09/mouseless-development-environment/",
+          "publishedOn": "2021-09-23T13:10:00.000Z",
+          "wordCount": 4144,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "How to build your own mouseless development environment"
+        },
+        {
           "description": "Dan Moren writing for Six Colors:\nSafari Keyword Search is a little tool that allows you to define shortcuts for searching specific sites. For example, you could type “imdb George Clooney” to be taken directly to the IMDb search results for George Clooney, or “w iPhone 13” to go straight to the Wikipedia page for the iPhone 13. You can also define your own shortcuts, so, for example, I’ve defined “sc” as a Google search limited to sixcolors.com, which helps me quickly turn up articles here…\nOn iOS 15, Mobil…",
           "link": "https://sixcolors.com/post/2021/09/safari-keyword-search-hits-2-0-comes-to-ios/",
           "publishedOn": "2021-09-22T14:35:00.000Z",
@@ -767,30 +812,21 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "Founders Talk 79: The acquisition of a lifetime"
-        },
-        {
-          "description": "Codex is a descendant of GPT-3 – its training data contains both natural language and billions of lines of source code from publicly available sources, including code in public GitHub repositories.\n“We see this as a tool to multiply programmers,” OpenAI’s CTO and co-founder Greg Brockman told The Verge. “Programming has two parts to it: you have ‘think hard about a problem and try to understand it,’ and ‘map those small pieces to existing code, whether it’s a library, a function, or an API.’” The second par…",
-          "link": "https://www.theverge.com/2021/8/10/22618128/openai-codex-natural-language-into-code-api-beta-access",
-          "publishedOn": "2021-08-25T21:57:22.000Z",
-          "wordCount": 1794,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "OpenAI Codex translates english into code"
-        },
-        {
-          "description": "Redis is awesome, but Redis commands are not always fun. Pottery is a Pythonic way to access Redis. If you know how to use Python dicts, then you already know how to use Pottery. Pottery is useful for accessing Redis more easily, and also for implementing microservice resilience patterns; and it has been battle tested in production at scale.\nDiscuss on Changelog News",
-          "link": "https://github.com/brainix/pottery",
-          "publishedOn": "2021-08-25T16:57:00.000Z",
-          "wordCount": 4204,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Pottery — Redis for humans."
         }
       ]
     },
     {
       "href": "https://blog.comma.ai/feed.xml",
       "articles": [
+        {
+          "description": "In the past, we’ve had blog posts every two years, describing the various building blocks of openpilot that work together to drive your car. With each iteration, you’ll notice that openpilot has simultaneously become much simpler (service/car abstraction, end-to-end) and much more complex (infrastructure, testing, models), while getting undeniably better. It’s been two years since that last post, so in keeping with tradition, here we go - how does openpilot really work?\nHow Does openpilot Really Work?\nopenp…",
+          "link": "https://blog.comma.ai/openpilot-tour/",
+          "publishedOn": "2021-09-22T18:00:00.000Z",
+          "wordCount": 1475,
+          "sourceHref": "https://blog.comma.ai/feed.xml",
+          "sourceTitle": "comma.ai blog",
+          "title": "How openpilot works - Take 3"
+        },
         {
           "description": "A getting started guide for openpilot development\nTime required: ~30 minutes\nSet up your development environment (Ubuntu 20.04)\n# clone openpilot into your home directory\ncd ~\ngit clone --recurse-submodules https://github.com/commaai/openpilot.git\n\n# setup ubuntu environment\nopenpilot/tools/ubuntu_setup.sh\n\n# build openpilot\ncd openpilot &amp;&amp; scons -j$(nproc)\n\n\nTODO: Add Windows and Mac instructions.\nRun a route replay and ui\nTODO: you might have to log in to access the demo route. see the replay read…",
           "link": "https://blog.comma.ai/turning-the-speed-blue/",
@@ -1040,24 +1076,6 @@
           "sourceHref": "https://www.hackerone.com/blog.rss",
           "sourceTitle": "HackerOne",
           "title": "Hacker-Powered Security and DeFi: How Human Intelligence Improves Cryptocurrency Security"
-        },
-        {
-          "description": "HackerOne announces new capabilities for AWS customers looking to improve security in their cloud applications. These include vulnerability pentests specific to AWS environments, an AWS Security Hub integration for fast, effective security actions, and AWS Certified hackers. AWS customers can now identify and fix vulnerabilities quickly and develop a better understanding of their cloud application security profile.",
-          "link": "https://www.hackerone.com/penetration-testing/hackerone-announces-hacker-powered-cloud-security-capabilities-aws-customers",
-          "publishedOn": "2021-08-25T13:00:00.000Z",
-          "wordCount": 1243,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "HackerOne Announces Hacker-Powered Cloud Security Capabilities for AWS Customers"
-        },
-        {
-          "description": "HackerOne announced an integration with AWS Security Hub that exchanges vulnerability findings and streamlines workflows to accelerate security actions. The integration consolidates and routes vulnerability intelligence from HackerOne to AWS Security Hub, delivering greater visibility into crucial gaps that could lead to a cyberattack.",
-          "link": "https://www.hackerone.com/company-news/how-new-hackerone-integration-aws-security-hub-accelerates-vulnerability-remediation",
-          "publishedOn": "2021-08-25T12:50:00.000Z",
-          "wordCount": 1144,
-          "sourceHref": "https://www.hackerone.com/blog.rss",
-          "sourceTitle": "HackerOne",
-          "title": "How a New HackerOne Integration with AWS Security Hub Accelerates Vulnerability Remediation Time"
         }
       ]
     },
@@ -1078,6 +1096,24 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "npm access tokens will now follow the established format of GitHub authentication tokens.",
+          "link": "https://github.blog/2021-09-23-announcing-npms-new-access-token-format/",
+          "publishedOn": "2021-09-23T17:19:34.000Z",
+          "wordCount": 538,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Announcing npm’s new access token format"
+        },
+        {
+          "description": "We’re excited to announce that the GitHub Advisory Database now includes curated security advisories on the Rust ecosystem!",
+          "link": "https://github.blog/2021-09-23-github-advisory-database-now-supports-rust/",
+          "publishedOn": "2021-09-23T16:09:35.000Z",
+          "wordCount": 564,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "GitHub Advisory Database now supports Rust"
+        },
         {
           "description": "If you're a GitHub Enterprise Cloud customer, you can now set up a stream of audit log and Git events to Splunk or an Azure Event Hub.",
           "link": "https://github.blog/2021-09-16-audit-log-streaming-public-beta/",
