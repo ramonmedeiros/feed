@@ -76,6 +76,33 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "In this article, we’ll train the car to do self-parking using a genetic algorithm. You can also launch the  Self-parking Car Evolution Simulator to see the evolution process directly in your browser.\n\nDiscuss on Changelog News",
+          "link": "https://trekhleb.dev/blog/2021/self-parking-car-evolution/",
+          "publishedOn": "2021-10-06T15:56:00.000Z",
+          "wordCount": 6297,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A self-parking car in 500 lines of code"
+        },
+        {
+          "description": "In this post, I expand upon Michael Nygard’s post Documenting Architecture Decisions. Michael defines architecturally significant decisions as those decisions that affect the structure, non-functional characteristics, dependencies, interfaces, or construction techniques. I add examples to each of the five decisions categories.\nDiscuss on Changelog News",
+          "link": "https://shekhargulati.com/2021/09/28/architecturally-significant-decisions/",
+          "publishedOn": "2021-10-06T15:02:00.000Z",
+          "wordCount": 1526,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Examples of architecturally significant decisions"
+        },
+        {
+          "description": "There are a lot of HTTP client tools out there. This one is neat because of its simple/repeatable plain text API that I’d imagine works great for writing integration tests.\n# Get home:\nGET https://example.net\n\nHTTP/1.1 200\n[Captures]\ncsrf_token: xpath &quot;string(//meta[@name='_csrf_token']/@content)&quot;\n\n# Do login!\nPOST https://example.net/login?user=toto&amp;password=1234\nX-CSRF-TOKEN: {{csrf_token}}\n\nHTTP/1.1 302\n\nDiscuss on Changelog News",
+          "link": "https://hurl.dev/index.html",
+          "publishedOn": "2021-10-06T13:21:00.000Z",
+          "wordCount": 463,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "A CLI that runs HTTP requests defined in a simple plain text format"
+        },
+        {
           "description": "Today we have a very special episode, where Gerhard gets to share his favourite learnings from Steve Jobs. If it wasn’t for his determination to build a better personal computer, Gerhard would have most likely continued with a career in physics.\nWe know what you’re thinking: it’s crazy and impossible to interview Steve Jobs, but on his 10th memorial anniversary, Gerhard was determined to combine the things that Steve said with his passion for computers, automation, and infrastructure.\nLive your life and shi…",
           "link": "https://changelog.com/shipit/22",
           "publishedOn": "2021-10-05T21:00:00.000Z",
@@ -740,60 +767,6 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "The Changelog 458: We ask a lawyer about GitHub Copilot"
-        },
-        {
-          "description": "htmlq uses CSS selectors to extract bits of content from HTML files. Mozilla’s MDN has a good reference for CSS selector syntax.\nThis looks super handy. Examples!\n// Find part of a page by ID\ncurl --silent https://www.rust-lang.org/ | htmlq '#get-help'\n\n// Find all links in a page\ncurl --silent https://www.rust-lang.org/ | htmlq --attribute href a\n\n// Get the text content of a post\ncurl --silent https://nixos.org/nixos/about.html | htmlq  --text .main\n\nDiscuss on Changelog News",
-          "link": "https://github.com/mgdm/htmlq",
-          "publishedOn": "2021-09-07T19:04:00.000Z",
-          "wordCount": 924,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A tool like jq, but for HTML"
-        },
-        {
-          "description": "Yonatan Geifman of Deci makes Daniel and Chris buckle up, and takes them on a tour of the ideas behind his amazing new inference platform.  It enables AI developers to build, optimize, and deploy blazing-fast deep learning models on any hardware.  Don’t blink or you’ll miss it!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pipeline made for developers. RudderStack is the smart customer data pipe…",
-          "link": "https://changelog.com/practicalai/148",
-          "publishedOn": "2021-09-07T18:00:00.000Z",
-          "wordCount": 382,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Practical AI 148: Stellar inference speed via AutoNAS"
-        },
-        {
-          "description": "Problem: TODOs as comments are too often forgotten or neglected\nSolution: TODOs as code that triggers compile errors based on set criteria\n// trigger a compile error if we're past a certain date\ntodo_or_die::after_date!(3000, 1, 1); // its the year 3000!\n\n// or a GitHub issue has closed\ntodo_or_die::issue_closed!(&quot;rust-lang&quot;, &quot;rust&quot;, 44265); // GATs are here!\n\n// or the latest version of a crate matches some expression\ntodo_or_die::crates_io!(&quot;serde&quot;, &quot;&gt;1.0.9000&quot;);…",
-          "link": "https://github.com/davidpdrsn/todo-or-die",
-          "publishedOn": "2021-09-07T16:06:00.000Z",
-          "wordCount": 588,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "These TODOs will self-destruct in 10... 9..."
-        },
-        {
-          "description": "I’ve often wondered this as well. My conclusion, after not thinking too deeply about the issue, was that it’s a combination of the difficulty in match making and poor tooling. (There are many startups trying to solve those problems, but it doesn’t seem like anybody has cracked the nut yet).\nThere’s lots of wisdom in this post by Curt Corginia:\nA wise, mature person would treat the software engineer interview process as a pure learning experience. He, or she, would enjoy learning about companies out there fo…",
-          "link": "https://betterprogramming.pub/if-software-engineering-is-in-demand-why-is-it-so-hard-to-get-a-software-engineering-job-c043a964e463",
-          "publishedOn": "2021-09-07T15:19:00.000Z",
-          "wordCount": 1892,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "An attempt to answer the question, “If software engineering is in demand, why is it so hard to get a software engineering job?”"
-        },
-        {
-          "description": "Ars Technica gave some of our favorite command-line tools the deep-dive they deserve:\nInstead of giving you encyclopedic listings of every possible argument and use case for each of these ubiquitous commands, we’re going to teach you how to think about them—and how to easily, productively incorporate them in your own daily command-line use.\nDiscuss on Changelog News",
-          "link": "https://arstechnica.com/gadgets/2021/08/linux-bsd-command-line-101-using-awk-sed-and-grep-in-the-terminal/",
-          "publishedOn": "2021-09-07T14:33:00.000Z",
-          "wordCount": 1331,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Learn to think in sed, awk, and grep"
-        },
-        {
-          "description": "This is an article about exploring Inlets, a cloud native tunnel, with various use cases (including the Apple Silicon RC version of inlets-pro) in my home lab along with its surrounding open source ecosystem. Also some tips about using inlets-operator and MetalLB at the same time, and what could be done in a Kubernetes cluster.\nDiscuss on Changelog News",
-          "link": "https://blog.zespre.com/inlets-the-cloud-native-tunnel.html",
-          "publishedOn": "2021-09-07T13:45:00.000Z",
-          "wordCount": 2381,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "A tour of Inlets (a tunnel built for the cloud)"
         }
       ]
     },
@@ -823,6 +796,15 @@
     {
       "href": "https://blog.google/technology/ai/rss",
       "articles": [
+        {
+          "description": "Over guacamole and corn chips at a party, a friend mentions that her favorite phone game uses augmented reality. Another friend points her phone at the host and shouts, \"Watch out—a t-rex is sneaking up behind you.\" Eager to join the conversation, you blurt, \"My blender has an augmented reality setting.\"\n\n\nIf only you had looked up augmented reality in Google's Machine Learning Glossary, which defines over 460 terms related to artificial intelligence, you’d know what the heck your friends are talking about.…",
+          "link": "https://blog.google/technology/ai/ml-glossary-five-years-new-language/",
+          "publishedOn": "2021-10-06T19:00:00.000Z",
+          "wordCount": 978,
+          "sourceHref": "https://blog.google/technology/ai/rss",
+          "sourceTitle": "AI",
+          "title": "The ML Glossary: Five years of new language"
+        },
         {
           "description": "Today, there’s more information accessible at people’s fingertips than at any point in human history. And advances in artificial intelligence will radically transform the way we use that information, with the ability to uncover new insights that can help us both in our daily lives and in the ways we are able to tackle complex global challenges.\nAt our Search On livestream event today, we shared how we’re bringing the latest in AI to Google’s products, giving people new ways to search and explore information…",
           "link": "https://blog.google/products/search/how-ai-making-information-more-useful/",
@@ -1051,6 +1033,15 @@
       "href": "https://www.hackerone.com/blog.rss",
       "articles": [
         {
+          "description": "​​​​​​​We explain how a bug bounty program identifies vulnerabilities, discuss the program’s benefits, and detail its challenges.",
+          "link": "https://www.hackerone.com/bounty/bug-bounty-benefits-why-you-need-bug-bounty-program",
+          "publishedOn": "2021-10-06T16:50:00.000Z",
+          "wordCount": 1313,
+          "sourceHref": "https://www.hackerone.com/blog.rss",
+          "sourceTitle": "HackerOne",
+          "title": "Bug Bounty Benefits | Why You Need a Bug Bounty Program"
+        },
+        {
           "description": "Security leaders have a lot on their plates in these later stages of the continuing COVID-19 pandemic. In a 2021 survey by Gartner, over three-quarters (76%) of respondents reported increased demand for new digital products or services during the pandemic — and 83% expected this demand to continue to increase. This imperative for transformation has been coming straight from the top: 69% of boards report accelerating digital business initiatives in response to COVID-19.",
           "link": "https://www.hackerone.com/company-news/navigating-safe-successful-return-office-5-tips-security-leaders",
           "publishedOn": "2021-10-04T16:50:00.000Z",
@@ -1137,6 +1128,15 @@
       "href": "https://hacks.mozilla.org/feed/",
       "articles": [
         {
+          "description": "In a world where data and AI are reshaping society, people currently have no tangible way to put their data to work for the causes they believe in. To address this, we built the Rally platform, a first-of-its-kind tool that enables you to contribute your data to specific studies and exercise consent at a granular level. Mozilla Rally puts you in control of your data while building a better Internet and a better society. \nThe post Control your data for good with Rally appeared first on Mozilla Hacks - the We…",
+          "link": "https://hacks.mozilla.org/2021/10/control-your-data-for-good-with-rally/",
+          "publishedOn": "2021-10-06T14:55:48.000Z",
+          "wordCount": 558,
+          "sourceHref": "https://hacks.mozilla.org/feed/",
+          "sourceTitle": "Mozilla Hacks – the Web developer blog",
+          "title": "Control your data for good with Rally"
+        },
+        {
           "description": "Starting with Firefox 93, Firefox will monitor available system memory and, should it ever become so critically low that a crash is imminent, Firefox will respond by unloading memory-heavy but not actively used tabs. This feature is currently enabled on Windows and will be deployed later for macOS and Linux as well.\nThe post Tab Unloading in Firefox 93 appeared first on Mozilla Hacks - the Web developer blog.",
           "link": "https://hacks.mozilla.org/2021/10/tab-unloading-in-firefox-93/",
           "publishedOn": "2021-10-05T16:52:07.000Z",
@@ -1168,6 +1168,15 @@
     {
       "href": "https://github.blog/feed/",
       "articles": [
+        {
+          "description": "In September, we experienced no incidents resulting in service downtime to our core services.",
+          "link": "https://github.blog/2021-10-06-github-availability-report-september-2021/",
+          "publishedOn": "2021-10-06T16:18:14.000Z",
+          "wordCount": 269,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "GitHub Availability Report: September 2021"
+        },
         {
           "description": "If you think about it, 13kB isn’t really a lot. The image above is 81kB. This page weighs over 3MB (waaay more if you include the videos). That’s why it’s so incredibly impressive that the",
           "link": "https://github.blog/2021-10-05-13-tiny-and-terrific-entries-from-the-js13kgames-competition/",
@@ -1311,21 +1320,21 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "GitHub security update: Vulnerabilities in tar and @npmcli/arborist"
-        },
-        {
-          "description": "How GitHub uses code scanning to increase developer happiness, and how you can too.",
-          "link": "https://github.blog/2021-09-07-increasing-developer-happiness-github-code-scanning/",
-          "publishedOn": "2021-09-07T16:10:42.000Z",
-          "wordCount": 974,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Increasing developer happiness with GitHub code scanning"
         }
       ]
     },
     {
       "href": "https://building.nubank.com.br/feed/",
       "articles": [
+        {
+          "description": "Learn how Nubank selects candidates for the job of Analytics Engineer and what you need to know to join this team\nThe post How is the selection process for Analytics Engineers at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/how-is-the-selection-process-for-analytics-engineers-at-nubank/",
+          "publishedOn": "2021-10-06T20:34:05.000Z",
+          "wordCount": 4744,
+          "sourceHref": "https://building.nubank.com.br/feed/",
+          "sourceTitle": "Building Nubank",
+          "title": "How is the selection process for Analytics Engineers at Nubank?"
+        },
         {
           "description": "How Nubank switched to a Contract and Acceptance testing strategy to scale to over 1k engineers\nThe post Why We Killed Our End-to-End Test Suite appeared first on Building Nubank.",
           "link": "https://building.nubank.com.br/why-we-killed-our-end-to-end-test-suite/",
