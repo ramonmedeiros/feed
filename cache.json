@@ -67,6 +67,33 @@
       "href": "https://changelog.com/feed",
       "articles": [
         {
+          "description": "Federated learning is increasingly practical for machine learning developers because of the challenges we face with model and data privacy. In this fully connected episode, Chris and Daniel dive into the topic and dissect the ideas behind federated learning, practicalities of implementing decentralized training, and current uses of the technique.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pip…",
+          "link": "https://changelog.com/practicalai/153",
+          "publishedOn": "2021-10-12T18:20:00.000Z",
+          "wordCount": 466,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Practical AI 153: Federated Learning 📱"
+        },
+        {
+          "description": "We often turn down news submissions that are published on Medium* because the reading experience sucks. With Scribe, you can simply swap medium.com with scribe.rip and fix that problem for good! Here’s an example of what a Medium post looks like on Scribe.\nOf course, most things done manually can be automated with a browser exension, and this is no exception to that rule. Here’s a general purpose redirector extension and Scribe’s author provides a ruleset you can use with it. Pretty cool!\n(*Maybe instead of…",
+          "link": "https://scribe.rip/",
+          "publishedOn": "2021-10-12T14:57:00.000Z",
+          "wordCount": 90,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "An alternative frontend to Medium"
+        },
+        {
+          "description": "Tim Raderschad shares some knowledge he acquired the hard way. The tricks are:\nReadonly\nAny vs Unknown\nTyping Objects with Records\nI knew exactly zero of these (although I’ve only written a few hundred lines of TypeScript thus far. I’m mostly ignoring it so I can retain my arch nemesis status with Nick (the perpetual TypeScript bull) on JS Party. 😉)\nDiscuss on Changelog News",
+          "link": "https://www.cstrnt.dev/blog/three-typescript-tricks",
+          "publishedOn": "2021-10-12T14:11:00.000Z",
+          "wordCount": 1160,
+          "sourceHref": "https://changelog.com/feed",
+          "sourceTitle": "Changelog",
+          "title": "Tricks I wish I knew when I learned TypeScript"
+        },
+        {
           "description": "I’ve heard way less people throwing SQL under the bus than I did back in the high-hype NoSQL days, but this article by Justin Etheredge does a good job of laying out some of the advantages and disadvantages of the RDBMS side of the fence:\nThe next time you hear someone describe relational databases as yesterday’s technology, or the next time you see someone assume a relational database can’t handle the needs of their unproven MVP, stop and ask them how they are going to account for the tradeoffs they’re mak…",
           "link": "https://www.simplethread.com/relational-databases-arent-dinosaurs-theyre-sharks/",
           "publishedOn": "2021-10-11T20:44:00.000Z",
@@ -704,39 +731,21 @@
           "sourceHref": "https://changelog.com/feed",
           "sourceTitle": "Changelog",
           "title": "An homage to Quake in 13kb of JS"
-        },
-        {
-          "description": "I read about KDL (pronounced “cuddle”) over the weekend. Color me impressed!\nKat (and others) put a lot of thought into this.\nKDL is a document language with xml-like semantics that looks like you’re invoking a bunch of CLI commands! It’s meant to be used both as a serialization format and a configuration language, much like JSON, YAML, or XML.\nCheck out the FAQ for all the common objections (like why not YAML or TOML or ETC) as well as a note about the XKCD comic you’re probably thinking about. Here’s hopi…",
-          "link": "https://kdl.dev/",
-          "publishedOn": "2021-09-13T22:12:00.000Z",
-          "wordCount": 1448,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "The KDL document language"
-        },
-        {
-          "description": "Chris Coyier on some of the new(ish) CSS compilers (such as Assembler) and how they’re flipping the script:\nThe popular Tailwind framework supports it. It kind of flips the mental model of Tailwind on its head, to me. Rather than providing a huge pile of CSS utility classes to use — then “purging” what is unused — it only creates what it needs to begin with.\nDiscuss on Changelog News",
-          "link": "https://css-tricks.com/just-in-time-css/",
-          "publishedOn": "2021-09-13T14:14:00.000Z",
-          "wordCount": 2121,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "“Just in Time” CSS"
-        },
-        {
-          "description": "The latest Phoenix release ditches webpack and npm for esbuild and… nothing?\nOf course, these are just the defaults — docs for Elixir’s esbuild clearly state that NPM is still supported and you can always pass --no-assets and do things 100% your way. But it’s easy to underestimate the power of defaults, especially those that cover area outside of target audience’s expertise — which is the case of Phoenix devs and JS bundlers.\nIn this post, the author lays out how they stitched together an esbuild + npm setu…",
-          "link": "https://cloudless.studio/wrapping-your-head-around-assets-in-phoenix-1-6",
-          "publishedOn": "2021-09-13T13:26:00.000Z",
-          "wordCount": null,
-          "sourceHref": "https://changelog.com/feed",
-          "sourceTitle": "Changelog",
-          "title": "Wrapping your head around assets in Phoenix 1.6"
         }
       ]
     },
     {
       "href": "https://blog.comma.ai/feed.xml",
       "articles": [
+        {
+          "description": "In the past, we’ve had blog posts every two years, describing the various building blocks of openpilot that work together to drive your car. With each iteration, you’ll notice that openpilot has simultaneously become much simpler (service/car abstraction, end-to-end) and much more complex (infrastructure, testing, models), while getting undeniably better. It’s been two years since that last post, so in keeping with tradition, here we go - how does openpilot work?\nHow Does openpilot Work?\nopenpilot is comma’…",
+          "link": "https://blog.comma.ai/openpilot-in-2021/",
+          "publishedOn": "2021-10-12T18:00:00.000Z",
+          "wordCount": 1597,
+          "sourceHref": "https://blog.comma.ai/feed.xml",
+          "sourceTitle": "comma.ai blog",
+          "title": "How openpilot works in 2021"
+        },
         {
           "description": "In the past, we’ve had blog posts every two years, describing the various building blocks of openpilot that work together to drive your car. With each iteration, you’ll notice that openpilot has simultaneously become much simpler (service/car abstraction, end-to-end) and much more complex (infrastructure, testing, models), while getting undeniably better. It’s been two years since that last post, so in keeping with tradition, here we go - how does openpilot work?\nHow Does openpilot Work?\nopenpilot is comma’…",
           "link": "https://blog.comma.ai/openpilot-services/",
@@ -810,6 +819,15 @@
     {
       "href": "https://daniel.haxx.se/blog/feed/",
       "articles": [
+        {
+          "description": "Have you been curious about getting your feet wet with doing Internet transfers with libcurl but reasons (excuses?) have kept you away? Maybe it has felt as a too big step to take? Fear not, on October 21 I&#8217;m doing a free webinar on Getting started with libcurl detailing useful first steps on how to &#8230; Continue reading Coming webinar: getting started with libcurl &#8594;",
+          "link": "https://daniel.haxx.se/blog/2021/10/12/coming-webinar-getting-started-with-libcurl/",
+          "publishedOn": "2021-10-12T15:48:55.000Z",
+          "wordCount": 891,
+          "sourceHref": "https://daniel.haxx.se/blog/feed/",
+          "sourceTitle": "daniel.haxx.se",
+          "title": "Coming webinar: getting started with libcurl"
+        },
         {
           "description": "In the curl project we keep track of and say thanks to every single contributor. That includes persons who report bugs or security problems, who run infrastructure for us, who assist in debugging or fixing problems as well as those who author code or edit the website. Those who have contributed to make curl to &#8230; Continue reading One new contributor every 3.4 days &#8594;",
           "link": "https://daniel.haxx.se/blog/2021/10/04/one-new-contributor-every-3-4-days/",
@@ -890,15 +908,6 @@
           "sourceHref": "https://daniel.haxx.se/blog/feed/",
           "sourceTitle": "daniel.haxx.se",
           "title": "curl 7.79.0 – secure local cookies"
-        },
-        {
-          "description": "There&#8217;s plan for version 8 being forged! Let me just take you back a bit in time first.. The early days When we first created libcurl, we bumped the major version number of the project from the previous version 6 to version 7. In late summer of 2000 we shipped curl and libcurl 7.1 as &#8230; Continue reading Heading towards curl eight &#8594;",
-          "link": "https://daniel.haxx.se/blog/2021/09/13/heading-towards-curl-eight/",
-          "publishedOn": "2021-09-13T10:22:42.000Z",
-          "wordCount": 1658,
-          "sourceHref": "https://daniel.haxx.se/blog/feed/",
-          "sourceTitle": "daniel.haxx.se",
-          "title": "Heading towards curl eight"
         }
       ]
     },
@@ -985,15 +994,6 @@
           "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
           "sourceTitle": "English (US)",
           "title": "Provably expressive graph neural networks"
-        },
-        {
-          "description": "Describe how the Observability team applied Flame graphs to a novel use case (internal usage of Twitter’s time series database) outside of their typical application",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/applying-flame-graphs-outside-of-performance-analysis",
-          "publishedOn": "2021-09-13T12:28:03.910Z",
-          "wordCount": 1292,
-          "sourceHref": "https://blog.twitter.com/engineering/en_us/blog.rss",
-          "sourceTitle": "English (US)",
-          "title": "Applying flame graphs outside of performance analysis"
         }
       ]
     },
@@ -1169,6 +1169,15 @@
       "href": "https://github.blog/feed/",
       "articles": [
         {
+          "description": "As part of our ongoing commitment to ensure GitHub’s conferences are accessible and inclusive to people from all walks of life, we’re offering 30-minute, 1:1 micro-mentoring sessions with GitHub employees.",
+          "link": "https://github.blog/2021-10-12-apply-github-universe-2021-micro-mentoring/",
+          "publishedOn": "2021-10-12T16:34:40.000Z",
+          "wordCount": 597,
+          "sourceHref": "https://github.blog/feed/",
+          "sourceTitle": "The GitHub Blog",
+          "title": "Apply now for GitHub Universe 2021 micro-mentoring"
+        },
+        {
           "description": "On September 28, 2021, we received notice from the developer Axosoft regarding a vulnerability in a dependency of their popular git GUI client - GitKraken. An underlying issue with a dependency, called `keypair`, resulted in the GitKraken client generating weak SSH keys.",
           "link": "https://github.blog/2021-10-11-github-security-update-revoking-weakly-generated-ssh-keys/",
           "publishedOn": "2021-10-11T17:00:22.000Z",
@@ -1311,24 +1320,6 @@
           "sourceHref": "https://github.blog/feed/",
           "sourceTitle": "The GitHub Blog",
           "title": "The ReadME Project: A look back at the community stories that shape us"
-        },
-        {
-          "description": "What did we ship in August? Codespaces, Discussions, and lots of other updates, from the general availability of the dark high contrast theme to an auto-generated table of contents for wikis.",
-          "link": "https://github.blog/2021-09-13-whats-new-from-github-changelog-august-2021-recap/",
-          "publishedOn": "2021-09-13T17:01:15.000Z",
-          "wordCount": 1370,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "What’s new from GitHub Changelog? August 2021 Recap"
-        },
-        {
-          "description": "Announcing recipients of the GitHub Open Source Grants and opening of GitHub Sponsors in India.",
-          "link": "https://github.blog/2021-09-12-recipients-open-source-grants-github-sponsors-india/",
-          "publishedOn": "2021-09-13T03:30:45.000Z",
-          "wordCount": 654,
-          "sourceHref": "https://github.blog/feed/",
-          "sourceTitle": "The GitHub Blog",
-          "title": "Announcing recipients of the GitHub Open Source Grants and GitHub Sponsors now open in India"
         }
       ]
     },
