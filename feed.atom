@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-13T12:25:37.798Z</updated>
+    <updated>2021-11-14T12:25:48.023Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Fun multipart/form-data inconsistencies]]></title>
+        <id>https://daniel.haxx.se/blog/?p=17764</id>
+        <link href="https://daniel.haxx.se/blog/2021/11/13/fun-multipart-form-data-inconsistencies/"/>
+        <updated>2021-11-13T12:58:47.000Z</updated>
+        <summary type="html"><![CDATA[I still remember the RFC number off the top of my head for the first multipart formdata spec that I implemented support for in curl. Added to curl in version 5.0, December 1998. RFC 1867. Multipart formdata is the name of the syntax for how HTTP clients send data in a HTTP POST when they … Continue reading Fun multipart/form-data inconsistencies →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Radar · October 2021 Edition]]></title>
         <id>https://github.blog/?p=61331</id>
@@ -1901,32 +1911,6 @@ A lot …]]></summary>
         <link href="https://daniel.haxx.se/blog/2021/10/19/hackad-curl-use-on-tv/"/>
         <updated>2021-10-19T13:28:24.000Z</updated>
         <summary type="html"><![CDATA[There’s this new TV-show on Swedish Television (SVT) called Hackad (“hacked” in English), which is about a team of white hat hackers showing the audience exactly how vulnerable lots of things, people and companies are and how they can be hacked using various means. In the show the hackers show how they hack into peoples … Continue reading Hackad: curl use on TV →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qubit the dog on the big questions in quantum computing]]></title>
-        <id>https://blog.google/technology/ai/qubit-dog-big-questions-quantum-computing/</id>
-        <link href="https://blog.google/technology/ai/qubit-dog-big-questions-quantum-computing/"/>
-        <updated>2021-10-15T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we sat down for an interview with Qubit the dog, whose human Julian Kelly is one of our lead Research Scientists with Google Quantum AI. Qubit was born in 2012, right when Julian and team were first designing the qubits that now underlie Google’s quantum computers. He nearly received the honor of pressing the submit button for the team’s beyond-classical result published in Nature, but he was narrowly edged out by a human.
-
-
-Qubit has never been interviewed before on such a range of technical and philosophical topics, so it was a privilege to have the opportunity -- a transcript of the discussion follows.
-
-
-Thank you for taking the time to sit down for this, Qubit. Given the complexity and depth of the topic, I was hoping we could jump right in. I first wanted to ask -- where do …]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl installations per capita]]></title>
-        <id>https://daniel.haxx.se/blog/?p=15990</id>
-        <link href="https://daniel.haxx.se/blog/2021/10/15/curl-installations-per-capita/"/>
-        <updated>2021-10-15T07:48:16.000Z</updated>
-        <summary type="html"><![CDATA[I’ve joked with friends and said that we should have a competition to see whom among us have the largest number of curl installations in their homes. This is of course somewhat based on that I claim that there are more than ten billion curl installations in the world. That’s more installations than humans. How … Continue reading curl installations per capita →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>
