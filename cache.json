@@ -100,6 +100,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/9O8Q",
+          "author": "Jerod Santo",
+          "description": "One-liners with explanations, a short tutorial, and links to other resources.\nDiscuss on Changelog News",
+          "link": "https://github.com/adrianscheff/useful-sed",
+          "publishedOn": "2021-11-15T16:30:00.000Z",
+          "wordCount": null,
+          "title": "Useful sed tips, techniques, and tricks for daily usage",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/aO6R",
+          "author": "Jerod Santo",
+          "description": "Doug Turnbull breaks down a major difference between two beloved programming languages in how they handle iteration.\nPython embraces for. Objects tell for how to work with them, and the for loop’s body processes what’s given back by the object. Ruby does the opposite. In Ruby, for itself (via each) is a method of the Object. The caller passes the body of the for loop to this method.\nHe goes on to give examples and explain why each approach might map to different developers’ brains… differently. Here’s a succinct summary, if you don’t have time for the deeper discussion:\nIn Ruby, the objects control the affordances. In Python, the language does.\nDiscuss on Changelog News",
+          "link": "https://softwaredoug.com/blog/2021/11/12/ruby-vs-python-for-loop.html",
+          "publishedOn": "2021-11-15T15:18:00.000Z",
+          "wordCount": null,
+          "title": "Ruby vs Python comes down to the for loop",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/P5z7",
+          "author": "Jerod Santo",
+          "description": "TIL Apple added a networkQuality utility to Monterey which measures the quality of your device’s internet connection much like speedtest.net and fast.com.\nλ networkQuality\n==== SUMMARY ====\nUpload capacity: 14.696 Mbps\nDownload capacity: 21.661 Mbps\nUpload flows: 20\nDownload flows: 12\nResponsiveness: Low (103 RPM)\n\nWhat’s interesting about it is that it measures your upload and download in parallel by default, which is more aligned with real-world usage than running them back-to-back like other tests do.\nDiscuss on Changelog News",
+          "link": "https://danpetrov.xyz/macos/2021/11/14/analysing-network-quality-macos.html",
+          "publishedOn": "2021-11-15T14:30:00.000Z",
+          "wordCount": null,
+          "title": "The secret of the macOS Monterey network quality tool",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1514",
           "author": null,
           "description": "This week we’re bringing JS Party to The Changelog — Mitch and Andrew from the 1Password team talk with Amal and Nick about the company’s transition to Electron and web technologies, and how the company utilized its existing web stack to shape the future of its desktop experience.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are using Retool to power their internal apps. Learn more and try it for free at retool.com/changelog\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFireHydrant – The reliability platform for teams of all sizes. With FireHydrant, teams achieve reliability at scale by enabling speed and consistency from a service deployment to an unexpected outage. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nFeaturing\nMitchell Cohen – Twitter, GitHub\nAndrew Beyer – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nAmal Hussein – Twitter, GitHub\nNotes and Links\n1Password 8: The Story So Far\nwc3 community group for web extensions\n1Password Security Design\nGopherJS\nReact\nSvelte\nElectron\nRust\nNeon (rust in Electron)\nRFCs for JMAP?\n1Password Careers Page (they are hiring!)",
@@ -1227,6 +1257,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61405",
+          "author": "Mike Hanley",
+          "description": "We're sharing details of recent incidents on the npm registry, our investigations, and how we’re continuing to invest in the security of npm.",
+          "link": "https://github.blog/2021-11-15-githubs-commitment-to-npm-ecosystem-security/",
+          "publishedOn": "2021-11-15T23:00:52.000Z",
+          "wordCount": 1402,
+          "title": "GitHub’s commitment to npm ecosystem security"
+        },
+        {
+          "id": "https://github.blog/?p=61348",
+          "author": "Taylor Blau",
+          "description": "To celebrate this most recent release, here's GitHub's look at some of the most interesting features and changes introduced since last time.",
+          "link": "https://github.blog/2021-11-15-highlights-from-git-2-34/",
+          "publishedOn": "2021-11-15T17:42:15.000Z",
+          "wordCount": 3658,
+          "title": "Highlights from Git 2.34"
+        },
         {
           "id": "https://github.blog/?p=61331",
           "author": "Michelle Mannering",

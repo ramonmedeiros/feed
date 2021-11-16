@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-15T12:27:45.925Z</updated>
+    <updated>2021-11-16T12:27:05.641Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub’s commitment to npm ecosystem security]]></title>
+        <id>https://github.blog/?p=61405</id>
+        <link href="https://github.blog/2021-11-15-githubs-commitment-to-npm-ecosystem-security/"/>
+        <updated>2021-11-15T23:00:52.000Z</updated>
+        <summary type="html"><![CDATA[We're sharing details of recent incidents on the npm registry, our investigations, and how we’re continuing to invest in the security of npm.]]></summary>
+        <author>
+            <name>Mike Hanley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Highlights from Git 2.34]]></title>
+        <id>https://github.blog/?p=61348</id>
+        <link href="https://github.blog/2021-11-15-highlights-from-git-2-34/"/>
+        <updated>2021-11-15T17:42:15.000Z</updated>
+        <summary type="html"><![CDATA[To celebrate this most recent release, here's GitHub's look at some of the most interesting features and changes introduced since last time.]]></summary>
+        <author>
+            <name>Taylor Blau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Useful sed tips, techniques, and tricks for daily usage]]></title>
+        <id>changelog.com/news/9O8Q</id>
+        <link href="https://github.com/adrianscheff/useful-sed"/>
+        <updated>2021-11-15T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[One-liners with explanations, a short tutorial, and links to other resources.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ruby vs Python comes down to the for loop]]></title>
+        <id>changelog.com/news/aO6R</id>
+        <link href="https://softwaredoug.com/blog/2021/11/12/ruby-vs-python-for-loop.html"/>
+        <updated>2021-11-15T15:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Doug Turnbull breaks down a major difference between two beloved programming languages in how they handle iteration.
+Python embraces for. Objects tell for how to work with them, and the for loop’s body processes what’s given back by the object. Ruby does the opposite. In Ruby, for itself (via each) is a method of the Object. The caller passes the body of the for loop to this method.
+He goes on to give examples and explain why each approach might map to different developers’ brains… differently. Here’s a succinct summary, if you don’t have time for the deeper discussion:
+In Ruby, the objects control the affordances. In Python, the language does.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The secret of the macOS Monterey network quality tool]]></title>
+        <id>changelog.com/news/P5z7</id>
+        <link href="https://danpetrov.xyz/macos/2021/11/14/analysing-network-quality-macos.html"/>
+        <updated>2021-11-15T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[TIL Apple added a networkQuality utility to Monterey which measures the quality of your device’s internet connection much like speedtest.net and fast.com.
+λ networkQuality
+==== SUMMARY ====
+Upload capacity: 14.696 Mbps
+Download capacity: 21.661 Mbps
+Upload flows: 20
+Download flows: 12
+Responsiveness: Low (103 RPM)
+
+What’s interesting about it is that it measures your upload and download in parallel by default, which is more aligned with real-world usage than running them back-to-back like other tests do.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fun multipart/form-data inconsistencies]]></title>
         <id>https://daniel.haxx.se/blog/?p=17764</id>
