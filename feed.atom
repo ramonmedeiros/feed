@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-17T12:27:27.239Z</updated>
+    <updated>2021-11-18T12:28:05.871Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AppFlowy is an open source alternative to Notion]]></title>
+        <id>changelog.com/news/Q5QN</id>
+        <link href="https://github.com/AppFlowy-IO/appflowy"/>
+        <updated>2021-11-17T17:19:00.000Z</updated>
+        <summary type="html"><![CDATA[If Microsoft can rip off be inspired by Notion, what’s stopping open sourcerers from getting in on it? 😜
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub’s developer-first approach to content moderation]]></title>
+        <id>https://github.blog/?p=61444</id>
+        <link href="https://github.blog/2021-11-17-githubs-developer-first-approach-to-content-moderation/"/>
+        <updated>2021-11-17T17:00:36.000Z</updated>
+        <summary type="html"><![CDATA[GitHub puts the needs of developers at the core of our content moderation policies. Learn more about our approach and how you can contribute.]]></summary>
+        <author>
+            <name>Abby Vollmer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Selecting a programming language can be a form of premature optimization]]></title>
+        <id>changelog.com/news/8OnL</id>
+        <link href="https://snarky.ca/programming-language-selection-is-a-form-of-premature-optimization/"/>
+        <updated>2021-11-17T16:31:00.000Z</updated>
+        <summary type="html"><![CDATA[The bulk of this post by Brett Cannon is a detailed argument that Python makes sense to select even for projects with known performance concerns, but I got my money’s worth from the concept in the title and opener:
+… it dawned on me that the problem is people are not treating language selection as potential form of premature optimization: if you select a programming language based on your preconceived notions of how a language performs, you will never know if the language that might be a better, more productive fit for your developers would have actually worked out.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 28: What does good DevOps look like?]]></title>
+        <id>changelog.com/14/1464</id>
+        <link href="https://changelog.com/shipit/28"/>
+        <updated>2021-11-17T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Gerhard is chatting with Romano Roth, Head of DevOps at Zühlke, a company founded by Gerhard Zühlke in 1968. Nowadays they help companies all over the world build, ship and run anything from factory robots, to AI assistants in complex regulatory environments, and even medical devices that perform autonomous robotic surgery.
+When Romano is not leading a team of 30 software engineers that specialise in operations, infrastructure and cloud, he is one of the organisers of DevOps Days Zürich, and also the DevOps Meetup group which is how Gerhard and Romano met in 2019.
+Having started his career as a .Net developer back in 2002, Romano had his fair share of dev and ops challenges, and he always enjoys seeing real business value delivered continuously in an automated way. In recent year…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enterprise-grade routing for React applications]]></title>
+        <id>changelog.com/news/n7Wr</id>
+        <link href="https://github.com/tannerlinsley/react-location"/>
+        <updated>2021-11-17T14:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Tanner Linsley (whom you may remember from JS Party #179) adds a new component to his TanStack.
+Declarative & asynchronous route elements and data loaders, first-class Search Param APIs, nested-routing, code-splitting and so much more.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GraphQL global ID migration update]]></title>
         <id>https://github.blog/?p=60724</id>
@@ -2022,47 +2080,6 @@ Join Changelog++ to …]]></summary>
 The post Hacks Decoded: Thomas Park, Founder of Codepip appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
         <author>
             <name>Xavier Harding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DevSecOps: Bridging the Gap Between Security and Development]]></title>
-        <id>https://hackerone.com/security-event/devsecops-bridging-gap-between-security-and-development</id>
-        <link href="https://www.hackerone.com/security-event/devsecops-bridging-gap-between-security-and-development"/>
-        <updated>2021-10-19T16:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Organizations that rely on developing secure, functional products understand the value of increased collaboration between security and development teams.
-
-Tighter partnerships between the two teams can allow organizations to deliver better, safer products faster, but how can this work in the real world?]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a simple Linux kernel memory corruption bug can lead to complete system compromise]]></title>
-        <id>https://googleprojectzero.blogspot.com/2021/10/how-simple-linux-kernel-memory.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2021/10/how-simple-linux-kernel-memory.html"/>
-        <updated>2021-10-19T16:08:00.000Z</updated>
-        <summary type="html"><![CDATA[.markdown-body pre {     padding: 16px;     overflow: auto;     font-size: 85%;     line-height: 1.45;     background-color: #e2e2e2;     border-radius: 3px;     font-family: Consolas, monospace;   } 
-  
-An analysis of current and potential kernel security mitigations
-  
-Posted by Jann Horn, Project Zero
-  
-Introduction
-This blog post describes a straightforward Linux kernel locking bug and how I exploited it against Debian Buster's 4.19.0-13-amd64 kernel. Based on that, it explores options for security mitigations that could prevent or hinder exploitation of issues similar to this one.
-I hope that stepping through such an exploit and sharing this compiled knowledge with the wider security community can help with reasoning about the relative utility of various mitigation approaches.
-A lot …]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hackad: curl use on TV]]></title>
-        <id>https://daniel.haxx.se/blog/?p=17523</id>
-        <link href="https://daniel.haxx.se/blog/2021/10/19/hackad-curl-use-on-tv/"/>
-        <updated>2021-10-19T13:28:24.000Z</updated>
-        <summary type="html"><![CDATA[There’s this new TV-show on Swedish Television (SVT) called Hackad (“hacked” in English), which is about a team of white hat hackers showing the audience exactly how vulnerable lots of things, people and companies are and how they can be hacked using various means. In the show the hackers show how they hack into peoples … Continue reading Hackad: curl use on TV →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
