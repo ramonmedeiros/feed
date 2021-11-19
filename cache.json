@@ -100,6 +100,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1517",
+          "author": null,
+          "description": "Tiago Mendes joins Mat, Jon, and Johnny to discuss eventual consistency and strategies for changing data at scale.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nIncident.io – Create, manage, and resolve incidents directly in Slack. Use the /incident command to create and manage incidents. This command lets you share updates, assign roles, set important lin…",
+          "link": "https://changelog.com/gotime/206",
+          "publishedOn": "2021-11-18T22:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 206: Eventually consistent (managing data at scale)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/206/go-time-206.mp3",
+            "length": "64460807",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Z3Lm",
+          "author": "Jerod Santo",
+          "description": "Our progress with safeguards makes it possible to remove the waitlist for GPT-3. Starting today, developers in supported countries can sign up and start experimenting with our API right away.\nGood news for anyone still waiting around for access.\nDiscuss on Changelog News",
+          "link": "https://openai.com/blog/api-no-waitlist/",
+          "publishedOn": "2021-11-18T17:33:00.000Z",
+          "wordCount": null,
+          "title": "OpenAI’s API is now open (goodbye, waitlist)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/MdOG",
+          "author": "Bhupesh Varshney",
+          "description": "Overdoing things can have a deep mental impact, one should not feel guilty about giving up on something. It’s the same with pursuing side-projects don’t hesitate to abandon them if the need arises\nDiscuss on Changelog News",
+          "link": "https://buttondown.email/bhupesh/archive/why-its-ok-to-abandon-your-side-projects/",
+          "publishedOn": "2021-11-18T15:35:00.000Z",
+          "wordCount": null,
+          "title": "Why it's OK to abandon your side projects",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/Q5QN",
           "author": "Jerod Santo",
           "description": "If Microsoft can rip off be inspired by Notion, what’s stopping open sourcerers from getting in on it? 😜\n\nDiscuss on Changelog News",
@@ -963,46 +998,6 @@
           "wordCount": null,
           "title": "Hummingbot – a client for crypto market making",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/4/1432",
-          "author": null,
-          "description": "Today Adam is joined by Quinn Slack, CEO of Sourcegraph. He’s been tracking Sourcegraph for years now and knew one day they would hit Unicorn status, and that happened this year. They’re just off a massive $125M Series D funding round led by Andreessen Horowitz at a $2.625B valuation to bring code search to every developer. The future of code search has never been more clear and we’re excited to share today’s show with you.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRender – The Zero DevOps cloud that empowers you to ship faster than your competitors. Render is built for modern applications and offers everything you need out-of-the-box. Learn more at render.com/changelog or email changelog@render.com for a personal introduction and to ask questions about the Render platform.\n\n    \nSnowplow Analytics – The behavioral data management platform powering your data journey. Capture and process high-quality behavioral data from all your platforms and products and deliver that data to your cloud destination of choice. Get started and experience Snowplow data for yourself at snowplowanalytics.com\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com and use code FOUNDERS for $25 in developer credit.\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nQuinn Slack – Twitter, GitHub, LinkedIn, Website\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nAnnouncing Sourcegraph’s Series D\nThe future of code search\nsourcegraph/sourcegraph on GitHub\nSourcegraph quick install\nSourcegraph  handbook\nOpenGrok \nWhy I love code (and how I started coding)",
-          "link": "https://changelog.com/founderstalk/81",
-          "publishedOn": "2021-10-20T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Founders Talk 81: The future of code search",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/founderstalk/81/founders-talk-81.mp3",
-            "length": "73642367",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/yk0o",
-          "author": "Jerod Santo",
-          "description": "Martin Tournoij lays out a bunch of ways he finds zsh more compelling than bash.\nThere are many more things. I’m not going to list them all here. None of this is new; much (if not all?) of this has around for 20 years, if not longer. I don’t know why bash is the de-facto default, or why people spend time on complex solutions to work around bash problems when zsh solves them. I guess because Linux used a lot of GNU stuff and bash was came with it, and GNU stuff was (and is) using bash. Not a very good reason, certainly not one 30 years later.\nDiscuss on Changelog News",
-          "link": "https://www.arp242.net/why-zsh.html",
-          "publishedOn": "2021-10-20T17:35:00.000Z",
-          "wordCount": null,
-          "title": "s/bash/zsh/g",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1461",
-          "author": null,
-          "description": "This week Gerhard is talking with Arnaud Porterie, founder of EchoesHQ, a new utility that measures and communicates engineering activity.\nThey start by re-creating the 60 seconds Y Combinator pitch, and then shift focus to what it was like to get EchoesHQ off the ground. Next, they tackle something which is always on Gerhard’s mind: Why is it important to connect our daily engineering activity to intent?\nBefore EchoesHQ, Arnaud used to run the core team and the open source project at Docker, and combined with other engineering leadership roles that he held for over a decade, he kept encountering misalignment that was preventing organisations from making meaningful progress. Let’s hear why EchoesHQ might just be a great way of addressing this.\nDiscuss on Changelog News\nJoin Changelog++ to …",
-          "link": "https://changelog.com/shipit/24",
-          "publishedOn": "2021-10-20T16:45:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 24: Connecting your daily work to intent & vision",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/24/ship-it-24.mp3",
-            "length": "58805291",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1046,6 +1041,15 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/technology/ai/decade-deep-learning-and-whats-next/",
+          "author": null,
+          "description": "Twenty years ago, Google started using machine learning, and 10 years ago, it helped spur rapid progress in AI using deep learning. Jeff Dean and Marian Croak of Google Research take a look at how we’ve innovated on these techniques and applied them in helpful ways, and look ahead to a responsible and inclusive path forward.\n\n\n\n\nJeff Dean\n\n\nFrom research demos to AI that really works\n\n\nI was first introduced to neural networks — computer systems that roughly imitate how biological brains accomplish tasks — as an undergrad in 1990. I did my senior thesis on using parallel computation to train neural networks. In those early days, I thought if we could 32X more compute power (using 32 processors at the time!), we could get neural networks to do impressive things. I was way off. It turns out …",
+          "link": "https://blog.google/technology/ai/decade-deep-learning-and-whats-next/",
+          "publishedOn": "2021-11-18T18:30:00.000Z",
+          "wordCount": 2534,
+          "title": "A decade in deep learning, and what's next"
+        },
+        {
           "id": "https://blog.google/technology/ai/expanding-our-ml-based-flood-forecasting/",
           "author": null,
           "description": "In 2018 we began our flood forecasting initiative to help combat the catastrophic damage from floods each year by equipping those in harm’s way with accurate and detailed alerts. This work is a part of Google’s broader Crisis Response program which provides people access to trusted information and resources in critical moments. For over a decade, our Crisis Response team has been partnering with front line and emergency workers to develop technology and programs that help keep people safe, informed and out of harm’s way.\n\nExpanding our forecasting reach\nIn the first three years, we expanded our program to cover much of India and Bangladesh, working in partnership with the Indian Central Water Commision and with the Bangladesh Water Development Board, covering an area with about 220 million…",
@@ -1088,6 +1092,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=17766",
+          "author": "Daniel Stenberg",
+          "description": "Imagine running a trillion dollar company that bundles various open source components into your products, making billions of dollars of profit annually. When one of your users reach out and ask for help, with the product you ship to your customers, you instead refer the user to the open source project. The project which is … Continue reading Free Apple support →",
+          "link": "https://daniel.haxx.se/blog/2021/11/18/free-apple-support/",
+          "publishedOn": "2021-11-18T14:50:03.000Z",
+          "wordCount": 729,
+          "title": "Free Apple support"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=17746",
           "author": "Daniel Stenberg",
@@ -1281,48 +1294,28 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html",
-          "author": null,
-          "description": ".lst-kix_21eii7u3d36d-6>li:before{content:\"\" counter(lst-ctn-kix_21eii7u3d36d-6,decimal) \". \"}.lst-kix_4h5ag0d3tyrp-4>li{counter-increment:lst-ctn-kix_4h5ag0d3tyrp-4}ol.lst-kix_21eii7u3d36d-8{list-style-type:none}ol.lst-kix_21eii7u3d36d-7{list-style-type:none}ol.lst-kix_21eii7u3d36d-0.start{counter-reset:lst-ctn-kix_21eii7u3d36d-0 0}ol.lst-kix_21eii7u3d36d-6{list-style-type:none}ol.lst-kix_21eii7u3d36d-5{list-style-type:none}.lst-kix_21eii7u3d36d-3>li:before{content:\"(\" counter(lst-ctn-kix_21eii7u3d36d-3,decimal) \") \"}ol.lst-kix_21eii7u3d36d-4{list-style-type:none}.lst-kix_21eii7u3d36d-7>li:before{content:\"\" counter(lst-ctn-kix_21eii7u3d36d-7,lower-latin) \". \"}ol.lst-kix_21eii7u3d36d-3{list-style-type:none}ol.lst-kix_4h5ag0d3tyrp-6.start{counter-reset:lst-ctn-kix_4h5ag0d3tyrp-6 0}.lst-kix_…",
-          "link": "https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html",
-          "publishedOn": "2021-10-20T16:38:00.000Z",
-          "wordCount": 4412,
-          "title": "Windows Exploitation Tricks: Relaying DCOM Authentication"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2021/10/using-kerberos-for-authentication-relay.html",
-          "author": null,
-          "description": "ol.lst-kix_d25vxsk234hv-6{list-style-type:none}.lst-kix_wkcrlfh2qk3l-7>li{counter-increment:lst-ctn-kix_wkcrlfh2qk3l-7}.lst-kix_i2wckd3yhfhe-0>li{counter-increment:lst-ctn-kix_i2wckd3yhfhe-0}ol.lst-kix_i2wckd3yhfhe-5.start{counter-reset:lst-ctn-kix_i2wckd3yhfhe-5 0}ol.lst-kix_d25vxsk234hv-5{list-style-type:none}ol.lst-kix_d25vxsk234hv-4{list-style-type:none}ol.lst-kix_jp16emg17n48-2.start{counter-reset:lst-ctn-kix_jp16emg17n48-2 0}ol.lst-kix_d25vxsk234hv-3{list-style-type:none}ol.lst-kix_i2wckd3yhfhe-8{list-style-type:none}ol.lst-kix_d25vxsk234hv-2{list-style-type:none}ol.lst-kix_d25vxsk234hv-3.start{counter-reset:lst-ctn-kix_d25vxsk234hv-3 0}ol.lst-kix_d25vxsk234hv-1{list-style-type:none}ol.lst-kix_d25vxsk234hv-0{list-style-type:none}.lst-kix_d25vxsk234hv-4>li{counter-increment:lst-ctn-ki…",
-          "link": "https://googleprojectzero.blogspot.com/2021/10/using-kerberos-for-authentication-relay.html",
-          "publishedOn": "2021-10-20T16:26:00.000Z",
-          "wordCount": 11739,
-          "title": "Using Kerberos for Authentication Relay Attacks"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org",
-      "articles": [
-        {
-          "id": "https://hacks.mozilla.org/?p=47440",
-          "author": "Xavier Harding",
-          "description": "Welcome to our Hacks: Decoded Interview series! We spoke with Thomas Park over email about coding, his favourite apps and his past life at Mozilla. Thomas is the founder of Codepip, a platform he created for coding games that helps people learn HTML, CSS, JavaScript, etc. The most popular game is Flexbox Froggy.\nThe post Hacks Decoded: Thomas Park, Founder of Codepip appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2021/10/hacks-decoded-thomas-park-founder-of-codepip/",
-          "publishedOn": "2021-10-20T14:35:47.000Z",
-          "wordCount": 1749,
-          "title": "Hacks Decoded: Thomas Park, Founder of Codepip"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61473",
+          "author": "Brian Douglas",
+          "description": "Check out some advanced automation and CI/CD capabilities you can use today with GitHub Actions on any GitHub account.",
+          "link": "https://github.blog/2021-11-18-7-advanced-workflow-automation-features-with-github-actions/",
+          "publishedOn": "2021-11-18T17:06:45.000Z",
+          "wordCount": 917,
+          "title": "7 advanced workflow automation features with GitHub Actions"
+        },
         {
           "id": "https://github.blog/?p=61444",
           "author": "Abby Vollmer",
@@ -1529,6 +1522,15 @@
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=17947",
+          "author": "Nubank Editorial",
+          "description": "In 2022, we want to be even closer to people through special events and content. The 2022 FIFA World Cup will be held in Qatar between November and December and will have Nubank as an official supporter. \nThe post Nubank is an official World Cup supporter: soon, we’ll have more surprises for our customers appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nubank-qatar-2022/",
+          "publishedOn": "2021-11-18T13:18:39.000Z",
+          "wordCount": 3237,
+          "title": "Nubank is an official World Cup supporter: soon, we’ll have more surprises for our customers"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=17913",
           "author": "Nubank Editorial",
           "description": "In the fifth – and final – episode of the web series about working at Nubank, learn how engineering and data science help us develop simpler, more efficient solutions without high fees.\nThe post Nu Game Changers 5: Engineering and Data Science in Product Development appeared first on Building Nubank.",
@@ -1589,6 +1591,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/vulnerability-management/bug-bounty-platforms-best-choices-bug-bounty-program",
+          "author": "HackerOne",
+          "description": "Are you wondering about bug bounty platforms? We explain what a bug bounty platform is and how it can help you run a successful bug bounty program.",
+          "link": "https://www.hackerone.com/vulnerability-management/bug-bounty-platforms-best-choices-bug-bounty-program",
+          "publishedOn": "2021-11-18T17:50:00.000Z",
+          "wordCount": 1323,
+          "title": "Bug Bounty Platforms [Best Choices For a Bug Bounty Program]"
+        },
         {
           "id": "https://hackerone.com/how-elastic-attracts-and-retains-top-hackers-without-offering-highest-bounties",
           "author": "HackerOne",
