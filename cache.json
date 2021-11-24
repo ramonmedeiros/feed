@@ -100,6 +100,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1529",
+          "author": null,
+          "description": "In this Fully-Connected episode, Daniel and Chris ponder whether in-person AI conferences are on the verge of making a post-pandemic comeback.  Then on to BigScience from Hugging Face, a year-long research workshop on large multilingual models and datasets.  Specifically they dive into the T0, a series of natural language processing (NLP) AI models specifically trained for researching zero-shot multitask learning.  Daniel provides a brief tour of the possible with the T0 family.  They finish up with a couple of new learning resources.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pipeline made for developers. RudderStack is the smart customer data pipeline. Connect your whole customer data stack. Warehouse-first, open source Segment alternative.\n\n    \niMerit ML DataOps Summit – A FREE virtual event on December 2nd, 2021! iMerit is excited to gather 1000+ senior leaders at the forefront of deploying data solutions that power machine learning and artificial intelligence. Learn more and register to attend at imerit.net/dataops\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nInfoQ: BigScience Research Workshop Releases AI Language Model T0\nHugging Face: bigscience / T0pp\nMultitask Prompted Training Enables Zero-Shot Task Generalization\nIEEE Specturm:  How Deep Learning Works\n5 Deep Learning Activation Functions You Need to Know",
+          "link": "https://changelog.com/practicalai/158",
+          "publishedOn": "2021-11-24T03:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 158: Zero-shot multitask learning",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/158/practical-ai-158.mp3",
+            "length": "45067935",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/X68q",
+          "author": "Stefan",
+          "description": "What if we could contribute to a project without having to create a pull request? Imagine all we have to do is to create an issue. Yes, you can with GitHub Actions and the new GitHub Issue Forms. Let’s get to it!\n\nDiscuss on Changelog News",
+          "link": "https://stefanbuck.com/blog/codeless-contributions-with-github-issue-forms",
+          "publishedOn": "2021-11-23T21:33:00.000Z",
+          "wordCount": null,
+          "title": "Codeless contributions with a GitHub Issue Form",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/P577",
+          "author": "Jerod Santo",
+          "description": "Building a modern front end in Django without reaching for a full-blown JavaScript framework. Choosing the right tools for the job, and bringing them into your project.\nThis is as close to a tutorial as you’ll see on Changelog News. I’m linking to it not for the step-by-step bits like talking to your “Django backend without a full-page reload”, but for the decision making bits like “when you might choose low-JavaScript.”\nDiscuss on Changelog News",
+          "link": "https://www.saaspegasus.com/guides/modern-javascript-for-django-developers/htmx-alpine/",
+          "publishedOn": "2021-11-23T20:41:00.000Z",
+          "wordCount": null,
+          "title": "Modern websites, JavaScript optional (Django + HTMX + Alpine)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Gb79",
+          "author": "Jerod Santo",
+          "description": "Eric Bailey’s take on CSS is certainly counter to the direction most are headed:\nHuman-friendly CSS is an interface that prioritizes people. It allows someone using your website or web app to easily make modifications to get what they need. This is huge because we can’t know who the person is, or what circumstances they’re experiencing.\nHumans reading/modifying your CSS may seem like an edge case, but it’s more common than you think:\nStylus on the Chrome Web Store has more than half a million users. Stylish has over three million. That’s a lot of people modifying the web to get what they want.\nHe goes on to point out that even if it weren’t that many people, it’s still worth considering for other reasons. Lots to ponder.\nDiscuss on Changelog News",
+          "link": "https://ericwbailey.design/writing/your-css-is-an-interface/",
+          "publishedOn": "2021-11-23T15:20:00.000Z",
+          "wordCount": null,
+          "title": "Your CSS is an interface",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/eZjN",
+          "author": "Jerod Santo",
+          "description": "The much-anticipated (and admittedly much-hyped) full stack web framework for React has opened its source (MIT license) to the public. What’s interesting about Remix? Here’s some marketing copy from the homepage:\nRemix is a seamless server and browser runtime that provides snappy page loads and instant transitions by leveraging distributed systems and native browser features instead of clunky static builds. Built on the Web Fetch API (instead of Node) it can run anywhere. It already runs natively on Cloudflare Workers, and of course supports serverless and traditional Node.js environments, so you can come as you are.\nOkay that is pretty sales-y (hit up the homepage for more like that), so you might prefer jumping straight over to the docs instead and check out the example Jokes app to see what’s what.\nDiscuss on Changelog News",
+          "link": "https://github.com/remix-run/remix",
+          "publishedOn": "2021-11-23T14:29:00.000Z",
+          "wordCount": null,
+          "title": "Remix is now open source",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/k2dg",
           "author": "Liran Tal",
           "description": "If you’re unaware of what Trojan Source attacks are, or how unicode characters injected into a codebase could be used in malicious ways, refer to the README of the anti-trojan-source source code repository.\nThis ESLint plugin is based on the library and command-line tool anti-trojan-source.\nDiscuss on Changelog News",
@@ -943,41 +998,6 @@
           "wordCount": null,
           "title": "Betting on Nix",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1444",
-          "author": null,
-          "description": "Robby Russell is back on The Changelog after more than 10 years to catch us up on all things Oh My Zsh — a delightful, open source, community-driven framework for managing your Zshell configuration. It comes bundled with plugins, themes, and can be easily customized and contributed to, because hey, that’s how open source works. In this episode Robby gives us a glimpse into the passion and the struggle of being an open source software maintainer.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and ch…",
-          "link": "https://changelog.com/podcast/465",
-          "publishedOn": "2021-10-25T19:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 465: Oh my! Zsh.",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/465/the-changelog-465.mp3",
-            "length": "68868761",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/pkZ3",
-          "author": "Jerod Santo",
-          "description": "GitHub’s ReadME project did a nice job re-telling the story of why the lucky stiff and his enduring impact on open source developers around the world.\nDiscuss on Changelog News",
-          "link": "https://github.com/readme/featured/why-the-lucky-stiff",
-          "publishedOn": "2021-10-25T14:32:00.000Z",
-          "wordCount": null,
-          "title": "What we can learn from \"_why\", the long lost open source developer",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4EJ4",
-          "author": "Jerod Santo",
-          "description": "There are many great articles written about the Seam Carving algorithm already, but I couldn’t resist the temptation to explore this elegant, powerful, and yet simple algorithm on my own, and to write about my personal experience with it. Another point that drew my attention (as a creator of javascript-algorithms repo) was the fact that Dynamic Programming (DP) approach might be smoothly applied to solve it. And, if you’re like me and still on your “learning algorithms” journey, this algorithmic solution may enrich your personal DP arsenal.\nDiscuss on Changelog News",
-          "link": "https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/",
-          "publishedOn": "2021-10-25T13:22:00.000Z",
-          "wordCount": null,
-          "title": "Content-aware image resizing in JavaScript",
-          "itunes": {}
         }
       ]
     },
@@ -1134,15 +1154,6 @@
           "publishedOn": "2021-10-26T13:51:24.000Z",
           "wordCount": 1305,
           "title": "a github wishlist"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=17581",
-          "author": "Daniel Stenberg",
-          "description": "In a world that is now gradually adopting HTTP/3 (which, as you know, is implemented over QUIC), the problem with the missing API for QUIC is still a key problem. There are a number of existing QUIC library implementation now since a few years back, and they are slowly maturing. The QUIC protocol became RFC … Continue reading The QUIC API OpenSSL will not provide →",
-          "link": "https://daniel.haxx.se/blog/2021/10/25/the-quic-api-openssl-will-not-provide/",
-          "publishedOn": "2021-10-25T13:58:22.000Z",
-          "wordCount": 2081,
-          "title": "The QUIC API OpenSSL will not provide"
         }
       ]
     },
@@ -1269,6 +1280,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61611",
+          "author": "Usha Narayanabhatta",
+          "description": "GitHub Actions now supports OpenID Connect for secure deployment to different cloud providers via short-lived, auto-rotated tokens.",
+          "link": "https://github.blog/2021-11-23-secure-deployments-openid-connect-github-actions-generally-available/",
+          "publishedOn": "2021-11-23T20:16:17.000Z",
+          "wordCount": 689,
+          "title": "Secure deployments with OpenID Connect & GitHub Actions now generally available"
+        },
+        {
+          "id": "https://github.blog/?p=61590",
+          "author": "Kevin Backhouse",
+          "description": "OSS-Fuzz is Google’s awesome fuzzing service for open source projects. GitHub Security Lab's @kevinbackhouse describes enrolling a project.",
+          "link": "https://github.blog/2021-11-23-how-to-squash-bugs-by-enrolling-in-oss-fuzz/",
+          "publishedOn": "2021-11-23T17:37:46.000Z",
+          "wordCount": 1637,
+          "title": "How to squash bugs by enrolling in OSS-Fuzz"
+        },
+        {
+          "id": "https://github.blog/?p=61574",
+          "author": "Justin Colannino",
+          "description": "Recently, the Copyright Office responded to the calls to clarify the scope of protected security research.",
+          "link": "https://github.blog/2021-11-23-copyright-office-expands-security-research-rights/",
+          "publishedOn": "2021-11-23T16:47:28.000Z",
+          "wordCount": 1229,
+          "title": "The Copyright Office expands your security research rights"
+        },
         {
           "id": "https://github.blog/?p=61563",
           "author": "Zack Koppert",
@@ -1563,15 +1601,6 @@
           "publishedOn": "2021-10-27T12:34:26.000Z",
           "wordCount": 3300,
           "title": "Nu Game Changers 3: the role of technology in Nubank products"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=17861",
-          "author": "Nubank Editorial",
-          "description": "In the second episode of the web series about our teams, Nubankers share stories of outstanding service interactions.\nThe post Nu Game Changers 2: humanized customer service and WOWs that made history appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nu-game-changers-2/",
-          "publishedOn": "2021-10-25T18:37:07.000Z",
-          "wordCount": 3315,
-          "title": "Nu Game Changers 2: humanized customer service and WOWs that made history"
         }
       ]
     },
