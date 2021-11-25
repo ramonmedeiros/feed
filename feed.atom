@@ -2,10 +2,116 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-24T12:27:32.434Z</updated>
+    <updated>2021-11-25T12:27:53.347Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Founders Talk 84: Building on global bare metal]]></title>
+        <id>changelog.com/4/1489</id>
+        <link href="https://changelog.com/founderstalk/84"/>
+        <updated>2021-11-24T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Adam is joined by Zac Smith, Co-Founder of Packet and now running Equinix Metal. They talk about the early days of the internet infrastructure space, the beginnings of Packet, the “why” of bare metal, transitioning Packet from startup to global company overnight when they were acquired by Equinix, and how all this for Zac is 20 years in the making.
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+Auth0 – The for developers, by developers identity platform built for the cloud era that secures billions of logins every year. Security, compliance, and industry standards are always up-to-date, plus devs are free to provide the login options their users want with the security their application demands. Make lo…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backstage 20: New Mac day!]]></title>
+        <id>changelog.com/12/1534</id>
+        <link href="https://changelog.com/backstage/20"/>
+        <updated>2021-11-24T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We upgraded to the new MacBook Pro M1 Max and decided to share our first impressions of the new hardware, how we migrate data and settings from our old machines (or don’t), which apps were “instant installs” for each of us, which apps we’re trying to live without, and how we get our new machines set up for work and play. Nerd out with us!
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Featuring
+Adam Stacoviak – Twitter, GitHub, LinkedIn, Website
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Jerod mentions
+iStat Menus
+Spark
+Transmit
+Espanso
+CopyClip
+Adam mentions
+Superhuman
+Dracula Pro
+Alfred
+Oh My Zsh
+1Password]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How not to write property tests in JavaScript]]></title>
+        <id>changelog.com/news/Dzab</id>
+        <link href="https://jrsinclair.com/articles/2021/how-not-to-write-property-tests-in-javascript/"/>
+        <updated>2021-11-24T17:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Property-based tests give us more confidence in our code. They’re great at catching edge-cases we may not have thought of otherwise. But this confidence comes at a cost. Property tests take more effort to write. They force you to think hard about what the code is doing, and what its expected behaviour should be. It’s hard work. And on top of that, running 100+ tests is always going to take longer than running 3–5 example-based tests. This cost is real, and it raises the question:
+How do we keep ourselves from over-specifying or writing unnecessary tests?
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>James Sinclair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flatpak is not the future of desktop Linux apps]]></title>
+        <id>changelog.com/news/o9MR</id>
+        <link href="https://ludocode.com/blog/flatpak-is-not-the-future"/>
+        <updated>2021-11-24T16:51:00.000Z</updated>
+        <summary type="html"><![CDATA[A fascinating look at the state of packaging apps for the Linux desktop:
+The stability of the Linux desktop has dramatically improved in recent years. Core library developers are finally seeing the benefits of maintaining compatibility. Despite this, many developers are not interested in depending on a stable base of libraries for binary software. Instead, they have decided to ignore and override almost all libraries pre-installed on the user’s system.
+And why the author thinks Flatpak (which some believe is the future) is not the way to go.
+I am not a fan. I’m going to outline here some of the technical, security and usability problems with Flatpak and others. I’ll try to avoid addressing “fixable” problems (like theming) and instead focus on fundamental problems inherent in their design. I aim to convince you that these are not the future of desktop Linux apps.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 29: Find the infrastructure advantage]]></title>
+        <id>changelog.com/14/1468</id>
+        <link href="https://changelog.com/shipit/29"/>
+        <updated>2021-11-24T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Zac Smith, managing director Equinix Metal, is sharing how Equinix Metal runs the best hardware and networking in the industry, why pairing magical software with the right hardware is the future, and what Open19 means for sustainability in the data centre. Think modular components that slot in (including CPUs), liquid cooling that converts heat into energy, and a few other solutions that minimise the impact on the environment.
+But first, Zac tells us about the transition from Packet to Equinix Metal, his reasons for doing what he does, as well as the things that he is really passionate about, such as the most efficient data centres in the world and building for the love of it.
+This is a great follow-up to episode 18 because it goes deeper into the reasons that make Gerhard excited about th…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A modern CSS reset]]></title>
+        <id>changelog.com/news/9O0Q</id>
+        <link href="https://www.joshwcomeau.com/css/custom-css-reset/"/>
+        <updated>2021-11-24T14:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Josh Comeau:
+Recently, I’ve been using my own custom CSS reset. It includes all of the little tricks I’ve discovered to improve both the user experience and the CSS authoring experience.
+Like other CSS resets, it’s unopinionated when it comes to design / cosmetics. You can use this reset for any project, no matter the aesthetic you’re going for.
+In this tutorial, we’ll go on a tour of my custom CSS reset. We’ll dig into each rule, and you’ll learn what it does and why you might want to use it!
+It has 9 rules and unlike previous resets, the goal is not to create a ‘blank slate’ that is uniform across browsers. Josh walks/talks you through each rule and why they made the cut.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nubank is an official FIFA World Cup™ supporter: soon, we’ll have more surprises for our customers]]></title>
+        <id>https://building.nubank.com.br/?p=17990</id>
+        <link href="https://building.nubank.com.br/nubank-official-fifa-world-cup-supporter/"/>
+        <updated>2021-11-24T13:09:23.000Z</updated>
+        <summary type="html"><![CDATA[In 2022, we want to be even closer to people through special events and content. The 2022 FIFA World Cup™ will be held in Qatar between November and December and will have Nubank as an official regional supporter. 
+The post Nubank is an official FIFA World Cup™ supporter: soon, we’ll have more surprises for our customers appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Nubank Press</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Practical AI 158: Zero-shot multitask learning]]></title>
         <id>changelog.com/7/1529</id>
@@ -2061,68 +2167,6 @@ The post Nu Announces Confidential Submission of Draft Registration Statement fo
 The post Nu Game Changers 3: the role of technology in Nubank products appeared first on Building Nubank.]]></summary>
         <author>
             <name>Nubank Editorial</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 155: Eureka moments with natural language processing]]></title>
-        <id>changelog.com/7/1507</id>
-        <link href="https://changelog.com/practicalai/155"/>
-        <updated>2021-10-26T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[When is the last time you had a eureka moment?  Chris had a chat with Nicholas Mohnacky, CEO and Cofounder of bundleIQ, where they use natural language processing algorithms like GPT-3 to connect your Google GSuite with other personal data sources to find deeper connections, go beyond the obvious, and create eureka moments.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-    
-LaunchDarkly / TrajectoryConf – Software powers the world. LaunchDarkly empowers all teams to deliver and control their software. DevOps and feature management are reimagining how we build and release new products. On November 9th and 10th, LaunchDarkly is hosting Trajectory Conference 2021 — a two-day event for software innovators who want to break orbit, not systems. Trajectory is a fully-virtual conference that focuses on the technology, people, and processes that continuously deliver better user experiences and more powerful software. Register for free at trajectoryconf.com
-
-    
-Linode – Get $100 in free credit to get started on Linode – Linode is our cloud of choice and the home of Changelog.com. Head to linode.com/changelog OR text CHANGELOG to 474747 to get instant access to that $100 in free credit.
-
-    
-Featuring
-Nicholas Mohnacky – Twitter, GitHub, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Notes and Links
-bundleIQ
-bundleIQ | LinkedIn]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use rust for embedded development]]></title>
-        <id>changelog.com/news/wkjz</id>
-        <link href="https://opensource.com/article/21/10/rust-embedded-development"/>
-        <updated>2021-10-26T18:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Alan Smithee on why Rust’s high performance, reliability, and productivity make it a good fit for embedded systems.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Betting on Nix]]></title>
-        <id>changelog.com/news/6OVg</id>
-        <link href="https://blog.replit.com/betting-on-nix"/>
-        <updated>2021-10-26T13:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Replit is donating $25k to the NixOS Foundation. Here’s why:
-Replit has a history of betting on nascent technologies. The first version of Replit used WebAssembly long before WebAssembly found widespread adoption. We’re betting that the Nix project will improve performance across the board, sidestep a whole slew of bugs for our community, and let any Replit user build and publish programming environments.
-For a primer convo on Nix, (re)visit our conversation with Domen Kozar on The Changelog.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[a github wishlist]]></title>
-        <id>https://daniel.haxx.se/blog/?p=17295</id>
-        <link href="https://daniel.haxx.se/blog/2021/10/26/a-github-wishlist/"/>
-        <updated>2021-10-26T13:51:24.000Z</updated>
-        <summary type="html"><![CDATA[The curl project’s source code has been hosted on GitHub since March 2010. I wrote a blog post in 2013 about what I missed from the service back then and while it has improved significantly since then, there are still features I miss and flaws I think can be fixed. For this reason, I’ve created … Continue reading a github wishlist →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
