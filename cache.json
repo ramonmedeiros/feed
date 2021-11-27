@@ -31,24 +31,6 @@
           "publishedOn": "2021-11-01T16:30:00.003Z",
           "wordCount": 825,
           "title": "Trick & Treat! 🎃 Paying Leets and Sweets for Linux Kernel privescs and k8s escapes"
-        },
-        {
-          "id": "http://security.googleblog.com/2021/10/protecting-your-device-information-with.html",
-          "author": null,
-          "description": "Posted by Kevin Yeo and Sarvar Patel, Private Computing Team \n\nAt Google, keeping you safe online is our top priority, so we continuously build the most advanced privacy-preserving technologies into our products. Over the past few years, we've utilized innovations in cryptographic research to keep your personal information private by design and secure by default. As part of this, we launched Password Checkup, which protects account credentials by notifying you if an entered username and password are known to have been compromised in a prior data breach. Using cryptographic techniques, Password Checkup can do this without revealing your credentials to anyone, including Google. Today, Password Checkup protects users across many platforms including Android, Chrome and Google Password Manager.…",
-          "link": "http://security.googleblog.com/2021/10/protecting-your-device-information-with.html",
-          "publishedOn": "2021-10-28T17:00:00.006Z",
-          "wordCount": 1407,
-          "title": "Protecting your device information with Private Set Membership"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/YaGw3qNjrUc/protecting-your-device-information-with.html",
-          "author": null,
-          "description": "Posted by Kevin Yeo and Sarvar Patel, Private Computing Team \n\nAt Google, keeping you safe online is our top priority, so we continuously build the most advanced privacy-preserving technologies into our products. Over the past few years, we've utilized innovations in cryptographic research to keep your personal information private by design and secure by default. As part of this, we launched Password Checkup, which protects account credentials by notifying you if an entered username and password are known to have been compromised in a prior data breach. Using cryptographic techniques, Password Checkup can do this without revealing your credentials to anyone, including Google. Today, Password Checkup protects users across many platforms including Android, Chrome and Google Password Manager.…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/YaGw3qNjrUc/protecting-your-device-information-with.html",
-          "publishedOn": "2021-10-28T17:00:00.006Z",
-          "wordCount": 1407,
-          "title": "Protecting your device information with Private Set Membership"
         }
       ]
     },
@@ -63,6 +45,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/1503",
+          "author": null,
+          "description": "Liana Leahy tells Amal and KBall all about her journey from software engineer to product manager. Along the way we learn what a PM does, how to be great at it, how to know if it’s for you, why the role is in such demand these days, and much more. - It’s UNIX, I know this!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nAuth0 – The for developers, by developers identity platform built for the cloud era that secures billions of logins every year. Security, compliance, and industry standards are always up-to-date, plus devs are free to provide the login options their users want with the security their application demands. Make login Auth0’s problem. Not yours. Learn more at Auth0.com\n\n    \nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nFeaturing\nLiana Leahy – Twitter, GitHub, LinkedIn, Website\nAmal Hussein – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nNotes and Links",
+          "link": "https://changelog.com/jsparty/203",
+          "publishedOn": "2021-11-26T18:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 203: From engineering to product",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/203/js-party-203.mp3",
+            "length": "63361386",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/bNbm",
+          "author": "Jerod Santo",
+          "description": "Sonic outperforms other Go implementations on all JSON sizes. Here are the results on a large dataset. 👇\n\nDiscuss on Changelog News",
+          "link": "https://github.com/bytedance/sonic",
+          "publishedOn": "2021-11-26T17:00:00.000Z",
+          "wordCount": null,
+          "title": "A blazingly fast JSON serializing & deserializing library",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/W37W",
+          "author": "Jerod Santo",
+          "description": "Blueboat aims to be a developer-friendly, multi-tenant platform for serverless web applications. A monolithic approach is followed: we try to implement features of commonly used libraries (in the web application context) natively in Rust to replace native Node addons, improve performance and reduce duplicated code. Blueboat’s architecture ensures the security of the platform, prevents code duplication and keeps the overhead low.\nDiscuss on Changelog News",
+          "link": "https://github.com/losfair/blueboat",
+          "publishedOn": "2021-11-26T16:03:00.000Z",
+          "wordCount": null,
+          "title": "An open source alternative to Cloudflare Workers",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1450",
           "author": null,
@@ -917,61 +934,6 @@
           "wordCount": null,
           "title": "RSS is wonderful",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1480",
-          "author": null,
-          "description": "Ashley Willis and Ela Krief join Natalie to discuss the ins and outs of management. They discuss what makes a good manager, common mistakes managers make, how to communicate effectively, dealing with conflict, and much more.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nIncident.io – Create, manage, and resolve incidents directly in Slack. Use the /incident command to create and manage incidents. This command lets you share updates, assign roles, set important links and more – all without ever leaving the incident channel. Each incident gets their own Slack channel plus a high-res dashboard at incident.io with the entire timeline from report to resolution. Learn more and sign up for free at incident.io — no credit card required.\n\n    \nFeaturing\nAshley Willis – Twitter, GitHub\nEla Krief – LinkedIn\nNatalie Pistunovich – Twitter, GitHub\nNotes and Links",
-          "link": "https://changelog.com/gotime/203",
-          "publishedOn": "2021-10-28T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 203: Just about managing",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/203/go-time-203.mp3",
-            "length": "48972854",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/4/1431",
-          "author": null,
-          "description": "Today Adam is joined by Evan Kaplan, CEO of InfluxData. Evan’s journey to become the CEO was not by way of founder, in this company. Evan has founded several companies in the past, and he’s been in a CEO position for more than 22 years. But InfluxData was founded by Paul Dix, and Paul knew years ago that his role (best role?) was to lead the technical and product direction of the company, which lead him to Evan. Today we share that story as well as a glimpse into operating the business that built the defacto platform for building time series applications with deep roots in open source.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRender – The Zero DevOps cloud that empowers you to ship faster than your competi…",
-          "link": "https://changelog.com/founderstalk/82",
-          "publishedOn": "2021-10-28T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Founders Talk 82: Journey to CEO, again",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/founderstalk/82/founders-talk-82.mp3",
-            "length": "71882206",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/1510",
-          "author": null,
-          "description": "We’re putting together a special highlight reel for our 200th episode! Share your favorite moments, guests, topics, and/or episodes from the past 100 shows. Every listener who gets their voice or text message included in the episode gets a free JS Party t-shirt!\nThe details for submission are at jsparty.fm/200\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubmit here\nT-shirt here",
-          "link": "https://changelog.com/jsparty/help-200",
-          "publishedOn": "2021-10-28T17:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party Help make episode 200 extra special!",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/jsparty/help-200/js-party-help-200.mp3",
-            "length": "1119732",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/P5yg",
-          "author": "Jerod Santo",
-          "description": "Olivier Lacan did an excellent job explaining his process of upgrading his audio and video setup for post-pandemic life. Comparisons and specific gear recommendations included.\nIt has become quite absurd to argue that remoteness has to mean becoming a less visible and valued contributor to your organization. I hope this post can help you convince anyone who might still believe that communicating remotely still has to be a pain.\nDiscuss on Changelog News",
-          "link": "https://olivierlacan.com/posts/high-fidelity-remote-communication/",
-          "publishedOn": "2021-10-28T14:15:00.000Z",
-          "wordCount": null,
-          "title": "High fidelity remote communication",
-          "itunes": {}
         }
       ]
     },
@@ -1040,15 +1002,6 @@
           "publishedOn": "2021-11-02T13:00:00.000Z",
           "wordCount": 1345,
           "title": "Reducing city transport emissions with Maps and AI"
-        },
-        {
-          "id": "https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/",
-          "author": null,
-          "description": "When I reflect on the past two decades of computer science research, few things inspire me more than the remarkable progress we’ve seen in the field of artificial intelligence.\n\n\nIn 2001, some colleagues sitting just a few feet away from me at Google realized they could use an obscure technique called machine learning to help correct misspelled Search queries. (I remember I was amazed to see it work on everything from “ayambic pitnamiter” to “unnblevaiabel”). Today, AI augments many of the things that we do, whether that’s helping you capture a nice selfie, or providing more useful search results, or warning hundreds of millions of people when and where flooding will occur. Twenty years of advances in research have helped elevate AI from a promising idea to an indispensable aid in billions…",
-          "link": "https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/",
-          "publishedOn": "2021-10-28T19:00:00.000Z",
-          "wordCount": 1978,
-          "title": "Introducing Pathways: A next-generation AI architecture"
         }
       ]
     },
@@ -1618,24 +1571,6 @@
           "publishedOn": "2021-10-29T16:00:00.000Z",
           "wordCount": 581,
           "title": "DOD's DIB-VDP Pilot Hits Six Month Milestone"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-disclosure/vulnerability-disclosure-whats-responsible-solution",
-          "author": "HackerOne",
-          "description": "Curious about vulnerability disclosure? We explain what it is, why there may be friction between the researcher and the organization, and possible solutions.",
-          "link": "https://www.hackerone.com/vulnerability-disclosure/vulnerability-disclosure-whats-responsible-solution",
-          "publishedOn": "2021-10-28T16:50:00.000Z",
-          "wordCount": 1832,
-          "title": "Vulnerability Disclosure | What’s the Responsible Solution?"
-        },
-        {
-          "id": "https://hackerone.com/best-practices/jedoxs-journey-hackerone-qa-cto-vladislav-malicevic",
-          "author": "HackerOne",
-          "description": "Jedox secures their cloud - and their customers - with HackerOne Assessments and HackerOne Bounty. Read this blog to learn how they're creating a best-in-class cybersecurity program thanks to ethical hackers.",
-          "link": "https://www.hackerone.com/best-practices/jedoxs-journey-hackerone-qa-cto-vladislav-malicevic",
-          "publishedOn": "2021-10-28T16:00:00.000Z",
-          "wordCount": 1476,
-          "title": "Jedox’s Journey with HackerOne: A Q&A with CTO, Vladislav Maličević"
         }
       ]
     }
