@@ -13,24 +13,6 @@
           "publishedOn": "2021-11-11T12:00:00.001Z",
           "wordCount": 860,
           "title": "ClusterFuzzLite: Continuous fuzzing for all"
-        },
-        {
-          "id": "http://security.googleblog.com/2021/11/trick-treat-paying-leets-and-sweets-for.html",
-          "author": null,
-          "description": "Posted by Eduardo Vela, Google Bug Hunters Team \n\nStarting today and for the next 3 months (until January 31 2022), we will pay 31,337 USD to security researchers that exploit privilege escalation in our lab environment with a patched vulnerability, and 50,337 USD to those that use a previously unpatched vulnerability, or a new exploit technique.\nWe are constantly investing in the security of the Linux Kernel because much of the internet, and Google—from the devices in our pockets, to the services running on Kubernetes in the cloud—depend on the security of it. We research its vulnerabilities and attacks, as well as study and develop its defenses.\nBut we know that there is more work to do. That’s why we have decided to build on top of our kCTF VRP from last year and triple our previous rew…",
-          "link": "http://security.googleblog.com/2021/11/trick-treat-paying-leets-and-sweets-for.html",
-          "publishedOn": "2021-11-01T16:30:00.003Z",
-          "wordCount": 825,
-          "title": "Trick & Treat! 🎃 Paying Leets and Sweets for Linux Kernel privescs and k8s escapes"
-        },
-        {
-          "id": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/GK5RjuPTjd0/trick-treat-paying-leets-and-sweets-for.html",
-          "author": null,
-          "description": "Posted by Eduardo Vela, Google Bug Hunters Team \n\nStarting today and for the next 3 months (until January 31 2022), we will pay 31,337 USD to security researchers that exploit privilege escalation in our lab environment with a patched vulnerability, and 50,337 USD to those that use a previously unpatched vulnerability, or a new exploit technique.\nWe are constantly investing in the security of the Linux Kernel because much of the internet, and Google—from the devices in our pockets, to the services running on Kubernetes in the cloud—depend on the security of it. We research its vulnerabilities and attacks, as well as study and develop its defenses.\nBut we know that there is more work to do. That’s why we have decided to build on top of our kCTF VRP from last year and triple our previous rew…",
-          "link": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/GK5RjuPTjd0/trick-treat-paying-leets-and-sweets-for.html",
-          "publishedOn": "2021-11-01T16:30:00.003Z",
-          "wordCount": 825,
-          "title": "Trick & Treat! 🎃 Paying Leets and Sweets for Linux Kernel privescs and k8s escapes"
         }
       ]
     },
@@ -45,6 +27,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/3YnG",
+          "author": "Jerod Santo",
+          "description": "Milosz Danczak shares a principle that was surely born from years of painful experiences:\nWhen committing to a piece of software, favor those created by people who value backward compatibility.\nBut how can you tell if a piece of software is likely to remain stable? Milosz also provides some heuristics you can apply when evaluating a project.\nDiscuss on Changelog News",
+          "link": "https://blog.sidebits.tech/life-is-too-short-to-depend-on-unstable-software/",
+          "publishedOn": "2021-11-30T18:20:00.000Z",
+          "wordCount": null,
+          "title": "Life is too short to depend on unstable software",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/pk4y",
+          "author": "Jerod Santo",
+          "description": "This question could be dismissed by saying that Nix and Docker are different tools that solve different problems. One is a toolkit for building and deploying containers and the other is a package and configuration manager. However, these tools do have some overlap: they can both be used to create reproducible environments.\nWhile both tools aim to solve this problem, they take different approaches.\nA solid rundown of the different approaches these two tools take, and how you might think about picking which one to use. Maybe you can have the best of both worlds?\nDiscuss on Changelog News",
+          "link": "https://blog.replit.com/nix-vs-docker",
+          "publishedOn": "2021-11-30T17:32:00.000Z",
+          "wordCount": null,
+          "title": "Will Nix overtake Docker?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/j5QW",
+          "author": "Adam Stacoviak",
+          "description": "As mentioned on Backstage #20, I’m automating a few rsync commands using cron and Cronitor to backup my “Production” files to the Storinator AV15 on the local network.\nIt turns out that cron on macOS is frowned upon in favor of launchd, but information on how to use all the power of launchd is sparse to say the least. This resource is the best I’ve found in learning all the parts of launchd and how to use it.\nAsk me anything in the comments, I’ll tell you everything I’ve learned.\nDiscuss on Changelog News",
+          "link": "https://www.launchd.info/",
+          "publishedOn": "2021-11-30T16:31:55.000Z",
+          "wordCount": null,
+          "title": "The best resource for launchd on macOS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1536",
+          "author": null,
+          "description": "Recently, GitHub released Copilot, which is an amazing AI pair programmer powered by OpenAI’s Codex model. In this episode, Natalie Pistunovich tells us all about Codex and helps us understand where it fits in our development workflow. We also discuss MLOps and how AI is influencing software engineering more generally.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pipeline made for developers. RudderStack is the smart customer data pipeline. Connect your whole customer data stack. Warehouse-first, open source Segment alternative.\n\n    \niMerit ML DataOps Summit – A FREE virtual event on December 2nd, 2021! iMerit is excited to gather 1000+ senior leaders at the forefront of deploying data solutions that power machine learning and artificial intelligence. Learn more and register to attend at imerit.net/dataops\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nFeaturing\nNatalie Pistunovich – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nGitHub Copilot\nOpenAI Codex Beta\nPrevious GopherCon Workshop: Infrastructure for a Fraud Detection ML Application",
+          "link": "https://changelog.com/practicalai/159",
+          "publishedOn": "2021-11-30T14:15:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 159: AI-generated code with OpenAI Codex",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/159/practical-ai-159.mp3",
+            "length": "44997669",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/news/q0Ww",
           "author": "Jerod Santo",
@@ -894,26 +921,6 @@
           "wordCount": null,
           "title": "Streamlining the Rails upgrade process on a large monolith",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/bN3e",
-          "author": "Jerod Santo",
-          "description": "Have you heard? The just-released 12th version of Next.js uses a Rust-based compiler (swc) to achieve ~3x faster local refreshes and ~5x faster production builds.\nCompilation using Rust is 17x faster than Babel and enabled by default using Next.js 12, replacing transforming JavaScript and TypeScript files. This meant we had to port the Babel transformations in Next.js to Rust, including a brand new CSS parser in Rust used to implement the styled-jsx transform.\nWith the increased popularity of Rust and Go-based JS tooling, could there be a future where we don’t use any JavaScript to build our JavaScript apps? 🤔\nDiscuss on Changelog News",
-          "link": "https://nextjs.org/blog/next-12",
-          "publishedOn": "2021-11-01T16:17:00.000Z",
-          "wordCount": null,
-          "title": "Rust and JavaScript, sitting in a tree (Next.js 12)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4E74",
-          "author": "Jerod Santo",
-          "description": "This post by Pat Shaugnessy echoes Matt Rickard’s sentiment that we discussed in-depth on The Changelog 463:\nThe best way to learn a new programming language, just like a human language, is from example. To learn how to write code you first need to read someone else’s code. But who is the best person to learn from? Which code should we read? Where should we look to find it?\nPat was looking into Crystal and found its standard library to be excellent reading. I think his conclusion generalizes pretty well, with caveats.\nOlder languages often have areas of the standard library that were written prior to new language features, so they are no longer idiomatic.\nSome standard library code is necessarily low-level, even dipping into the underlying language or using esoteric features. This can make for some tough sledding.\nStandard library code is used so frequently that it’s often highly optimized for performance, which reduces readability.\nDiscuss on Changelog News",
-          "link": "http://patshaughnessy.net/2021/10/23/to-learn-a-new-language-read-its-standard-library",
-          "publishedOn": "2021-11-01T14:04:00.000Z",
-          "wordCount": null,
-          "title": "To learn a new language, read its standard library",
-          "itunes": {}
         }
       ]
     },
@@ -939,15 +946,6 @@
           "publishedOn": "2021-11-05T00:00:00.000Z",
           "wordCount": 492,
           "title": "Turning the speed blue"
-        },
-        {
-          "id": "https://blog.comma.ai/0810release/",
-          "author": null,
-          "description": "In this post, we’ll try to explain in more detail what went into the latest openpilot release. A lot of work goes into every release, and the short list of release notes generally doesn’t fully capture the wide range of improvements in the release. So in this new experimental format of release documentation, we hope to give a better picture of what will change with this release of openpilot.",
-          "link": "https://blog.comma.ai/0810release/",
-          "publishedOn": "2021-11-01T18:00:00.000Z",
-          "wordCount": 1686,
-          "title": "openpilot 0.8.10"
         }
       ]
     },
@@ -956,6 +954,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/accessibility/ml-making-sign-language-more-accessible/",
+          "author": null,
+          "description": "Google has spent over twenty years helping to make information accessible and useful in more than 150 languages. And our work is definitely not done, because the internet changes so quickly. About 15% of searches we see are entirely new every day. And when it comes to other types of information beyond words, in many ways, technology hasn’t even begun to scratch the surface of what’s possible. Take one example: sign language.\nThe task is daunting. There are as many sign languages as there are spoken languages around the world. That’s why, when we started exploring how we could better support sign language, we started small by researching and experimenting with what machine learning models could recognize. We also spoke with members of the Deaf community, as well as linguistic experts. We be…",
+          "link": "https://blog.google/outreach-initiatives/accessibility/ml-making-sign-language-more-accessible/",
+          "publishedOn": "2021-12-01T01:00:00.000Z",
+          "wordCount": 1217,
+          "title": "Machine learning to make sign language more accessible"
+        },
         {
           "id": "https://blog.google/technology/ai/decade-deep-learning-and-whats-next/",
           "author": null,
@@ -1180,13 +1187,41 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=47474",
+          "author": "Xavier Harding",
+          "description": "Seyi Akiwowo’s reputation precedes her. Akiwowo is the founder of Glitch, an organization that seeks to end online abuse. We spoke with Seyi over video chat to learn about what drives her, why she does what she does and what she’d be doing if not battling trolls online for a living. \nThe post Hacks Decoded: Seyi Akiwowo, Founder of Glitch appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2021/11/hacks-decoded-seyi-akiwowo-founder-of-glitch/",
+          "publishedOn": "2021-11-30T16:02:27.000Z",
+          "wordCount": 1961,
+          "title": "Hacks Decoded: Seyi Akiwowo, Founder of Glitch"
+        }
+      ]
     },
     {
       "title": "The GitHub Blog",
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61656",
+          "author": "Maneesh Sharma",
+          "description": "Are you a student in India? Applications are open for the GitHub Externships Winter Cohort!",
+          "link": "https://github.blog/2021-11-30-github-externships-enabling-indias-next-generation-of-developers/",
+          "publishedOn": "2021-12-01T03:30:25.000Z",
+          "wordCount": 734,
+          "title": "GitHub Externships: enabling India’s next generation of developers"
+        },
+        {
+          "id": "https://github.blog/?p=61638",
+          "author": "Damian Brady",
+          "description": "From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.",
+          "link": "https://github.blog/2021-11-30-5-devops-tips-to-speed-up-your-developer-workflow/",
+          "publishedOn": "2021-11-30T17:09:28.000Z",
+          "wordCount": 2377,
+          "title": "5 DevOps tips to speed up your developer workflow"
+        },
         {
           "id": "https://github.blog/?p=61460",
           "author": "Jennifer Schelkopf",
@@ -1411,33 +1446,6 @@
           "publishedOn": "2021-11-02T16:16:01.000Z",
           "wordCount": 1571,
           "title": "Blue-teaming for Exiv2, part 1: creating a security advisory process"
-        },
-        {
-          "id": "https://github.blog/?p=61078",
-          "author": "Lee Reilly",
-          "description": "The theme for this year’s Game Off is… …BUG! Your challenge, should you choose to accept it, is to create a game between now and December 1 incorporating the theme somehow, and submit it to",
-          "link": "https://github.blog/2021-11-01-game-off-2021-theme-announcement/",
-          "publishedOn": "2021-11-01T20:30:06.000Z",
-          "wordCount": 646,
-          "title": "Game Off 2021 theme announcement"
-        },
-        {
-          "id": "https://github.blog/?p=61087",
-          "author": "Jeff Guerra",
-          "description": "We’re excited to highlight another top contributing researcher to GitHub’s Bug Bounty Program: @yvvdwf",
-          "link": "https://github.blog/2021-11-01-cybersecurity-spotlight-bug-bounty-researcher-yvvdwf/",
-          "publishedOn": "2021-11-01T17:00:37.000Z",
-          "wordCount": 1094,
-          "title": "Cybersecurity spotlight on bug bounty researcher @yvvdwf"
-        },
-        {
-          "id": "https://github.blog/?p=61054",
-          "author": "Nick Holden",
-          "description": "Maintainers can now limit who can approve and request changes on pull requests. You can also close issues and block users via your phone.",
-          "link": "https://github.blog/2021-11-01-github-keeps-getting-better-for-open-source-maintainers/",
-          "publishedOn": "2021-11-01T16:00:25.000Z",
-          "wordCount": 863,
-          "title": "GitHub keeps getting better for open source maintainers"
         }
       ]
     },
@@ -1480,6 +1488,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/vulnerability-management/securing-supply-chain-working-ethical-hackers",
+          "author": "HackerOne",
+          "description": "Software supply chain attacks increasingly create concern among cybersecurity experts as these exploits are becoming more common. But solving the problem has left organizations scrambling for an answer because supply-chain security management is inherently complex.",
+          "link": "https://www.hackerone.com/vulnerability-management/securing-supply-chain-working-ethical-hackers",
+          "publishedOn": "2021-11-30T17:50:00.000Z",
+          "wordCount": 1644,
+          "title": "Securing the Supply Chain by Working With Ethical Hackers"
+        },
         {
           "id": "https://hackerone.com/customer-stories/tiktok-celebrates-one-year-bug-bounty",
           "author": "HackerOne",
