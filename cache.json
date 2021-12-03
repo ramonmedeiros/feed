@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2021/12/exploring-container-security-storage.html",
+          "author": null,
+          "description": "Posted by Fabricio Voznika and Mauricio Poppe, Google Cloud \nKubernetes Security is constantly evolving - keeping pace with enhanced functionality, usability and flexibility while also balancing the security needs of a wide and diverse set of use-cases.\nRecently, the GKE Security team discovered a high severity vulnerability that allowed workloads to have access to parts of the host filesystem outside the mounted volumes boundaries. Although the vulnerability was patched back in September we thought it would be beneficial to write up a more in-depth analysis of the issue to share with the community.\nWe assessed the impact of the vulnerability as described in vulnerability management in open-source Kubernetes and worked closely with the GKE Storage team and the Kubernetes Security Response …",
+          "link": "http://security.googleblog.com/2021/12/exploring-container-security-storage.html",
+          "publishedOn": "2021-12-02T20:00:00.000Z",
+          "wordCount": 1307,
+          "title": "Exploring Container Security: A Storage Vulnerability Deep Dive"
+        },
+        {
           "id": "http://security.googleblog.com/2021/11/clusterfuzzlite-continuous-fuzzing-for.html",
           "author": null,
           "description": "Posted by Jonathan Metzman, Google Open Source Security Team\n\n\nIn recent years, continuous fuzzing has become an essential part of the software development lifecycle. By feeding unexpected or random data into a program, fuzzing catches bugs that would otherwise slip through the most thorough manual checks and provides coverage that would take staggering human effort to replicate. NIST’s guidelines for software verification, recently released in response to the White House Executive Order on Improving the Nation’s Cybersecurity, specify fuzzing among the minimum standard requirements for code verification.\nToday, we are excited to announce ClusterFuzzLite, a continuous fuzzing solution that runs as part of CI/CD workflows to find vulnerabilities faster than ever before. With just a few line…",
@@ -27,6 +36,81 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1542",
+          "author": null,
+          "description": "We’re prepping for our 4th annual state of the “log” episode where we look back at the year, discuss some of our favorite episodes as well as the most popular ones, and talk a bit about what we have in the works for 2022 and beyond.\nWe thought it’d be awesome to include some listener voices on the show! So, please share your favorite Changelog guests, topics, or a-ha moments you’ve had over the last year.\nIf you get your message included in the episode, we’ll send you a free t-shirt.\nIt doesn’t have to be super produced. Just pop open your Voice Memos app on your phone\nThen upload your audio to ~> changelog.fm/sotl\nWe’re recording the episode next week, so don’t sleep on the opportunity. We’d love to hear from you!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links",
+          "link": "https://changelog.com/podcast/help-sotl-2021",
+          "publishedOn": "2021-12-03T00:25:43.000Z",
+          "wordCount": null,
+          "title": "The Changelog Help make state of the \"log\" 2021 extra special!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/help-sotl-2021/the-changelog-help-sotl-2021.mp3",
+            "length": "1429726",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/1543",
+          "author": null,
+          "description": "Here’s a bonus episode this week from our friends behind Me, Myself, and AI — a podcast on artificial intelligence and business, and produced by MIT Sloan Management Review and Boston Consulting Group. We partnered with them to help promote their awesome podcast.\nWe hand picked this full-length episode to share with you because of its focus on using technology as a force for good, something we’re very passionate about. This episode features, Paula Goldman, Chief Ethical and Humane Use Officer at Salesforce, and the conversation touches on some interesting topics around the role tech companies play in society at large.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nFeaturing\nPaula Goldman – Twitter, LinkedIn, Website\nSam Ransbotham – Twitter\nShervin Khodabandeh – LinkedIn, Website\nNotes and Links\nSubscribe to Me, Myself, and AI on Apple Podcasts, Spotify, or Google Podcasts.",
+          "link": "https://changelog.com/practicalai/takeover-mmai-304",
+          "publishedOn": "2021-12-02T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI Technology as a force for good",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/takeover-mmai-304/practical-ai-takeover-mmai-304.mp3",
+            "length": "38552316",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/73gd",
+          "author": "Adam Stacoviak",
+          "description": "This is super interesting to see bare metal Mac mini’s attached through Thunderbolt to the Amazon EC2 infrastructure. Really makes me wish I had a reason to use them. 😂\n\nDiscuss on Changelog News",
+          "link": "https://aws.amazon.com/blogs/aws/use-amazon-ec2-m1-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/",
+          "publishedOn": "2021-12-02T18:18:10.000Z",
+          "wordCount": null,
+          "title": "EC2 M1 Mac instances",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1490",
+          "author": null,
+          "description": "We’ve talked several times about getting started with Go. But Go is already 12 years old! Let’s talk about how it all started, and hear about it from the people who were there from the beginning.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nTeleport – Securely access any computing resource anywhere. Engineers and security teams can unify access to SSH servers, Kubernetes clusters, web applications, and databases across all environments. Try Teleport today in the cloud, self-hosted, or open source at goteleport.com\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nEquinix Metal – If you want the choice and control of hardware…with low overhead…and the developer experience of the cloud – you need to check out Equinix Metal. Deploy in minutes across 18 global locations, from Silicon Valley to Sydney. Visit metal.equinix.com/justaddmetal and receive $100 credit to play.\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nFeaturing\nMiki Tebeka – Twitter, GitHub, LinkedIn, Website\nRoger Peppe – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nThe free lunch is over\nThe C10K problem\nSelenium and Go’s bindings\nt.Parallel()\nPython’s asyncio\nGo Community Code of Conduct\nRoger talking about the acme editor in Dev Tool Time\nMiki was trying Clojure and Erlang before settling on Go",
+          "link": "https://changelog.com/gotime/208",
+          "publishedOn": "2021-12-02T17:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 208: Our first decade with Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/208/go-time-208.mp3",
+            "length": "57940622",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/O2ga",
+          "author": "Jerod Santo",
+          "description": "ICYMI. (I miss it. Do you miss it?)\nDiscuss on Changelog News",
+          "link": "https://github.com/Anarios/return-youtube-dislike",
+          "publishedOn": "2021-12-02T16:18:00.000Z",
+          "wordCount": null,
+          "title": "A web extension that returns the YouTube dislike count",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/03le",
+          "author": "Jerod Santo",
+          "description": "Bryan Cantrill, announcing Hubris and Humility:\n… we found ourselves increasingly forcing existing systems out of the comfort of their design centers, we wondered: was our assumption of using an existing system wrong? Should we in fact be exploring our own de novo operating system? In particular, our colleague Cliff Biffle, who had a ton of experience with both Rust and embedded systems, had a vision for what such a system might look like (namely, the system that he had always wanted for himself!). Cliff dove into a sketch of his ideas, giving the nascent system a name that felt perfectly apt: Hubris.\nThere’s some serious innovation going on at Oxide and I can’t wait to see what they do next.\nDiscuss on Changelog News",
+          "link": "https://oxide.computer/blog/hubris-and-humility",
+          "publishedOn": "2021-12-02T15:26:00.000Z",
+          "wordCount": null,
+          "title": "An embedded OS all in Rust",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/1500",
           "author": null,
@@ -891,61 +975,6 @@
           "wordCount": null,
           "title": "Let’s take a look inside your <head>",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/k2L4",
-          "author": "Adam Stacoviak",
-          "description": "Thomas Dohmke will be CEO of GitHub. He served as GitHub’s Chief Product Officer, and according to his LinkedIn bio — Thomas led the acquisition of GitHub at Microsoft and the acquisitions of Dependabot, Semmle, and npm.\nThis morning, I shared the following post with Hubbers in response to Nat’s announcement about his next adventure. I am thrilled to take on the role of CEO to build the next phase of GitHub for our global community of software developers.\nExiting as CEO, Nat Friedman shared his thanks in a post titled “Thank you, GitHub”.\nThis morning, I sent the following post to the GitHub team. TL;DR: I’m moving on to my next adventure, and Thomas Dohmke (currently Chief Product Officer) will be GitHub’s next CEO. I will become Chairman Emeritus, which fulfills my lifelong ambition of having a title in Latin. My heartfelt thanks to every Hubber and every developer who makes GitHub what it is, every day.\nDiscuss on Changelog News",
-          "link": "https://github.blog/2021-11-03-building-the-next-phase-of-github-together/",
-          "publishedOn": "2021-11-03T21:05:42.000Z",
-          "wordCount": null,
-          "title": "GitHub has a new CEO",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/maGR",
-          "author": "Jerod Santo",
-          "description": "Two up-and-coming database options compared:\nRecently, TimescaleDB published a blog comparing ClickHouse & TimescaleDB using timescale/tsbs, a timeseries benchmarking framework. I have some experience with PostgreSQL and ClickHouse but never got the chance to play with TimescaleDB. Some of the claims about TimescaleDB made in their post are very bold, that made me even more curious. I thought it’d be a great opportunity to try it out and see if those claims are really true.\nDiscuss on Changelog News",
-          "link": "https://pradeepchhetri.xyz/clickhousevstimescaledb/",
-          "publishedOn": "2021-11-03T19:50:00.000Z",
-          "wordCount": null,
-          "title": "ClickHouse vs TimescaleDB",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1496",
-          "author": null,
-          "description": "In the second set of interviews from KubeCon North America 2021, Gerhard and Liz Rice talk about eBPF superpowers - Cilium + Hubble - and what’s it like to work with Duffie Cooley.\nJared Watts shares the story behind Crossplane reaching incubating status, and Dan Mangum tells us what it was like to be at this KubeCon in person. Dan’s new COO role (read Click Ops Officer) comes up.\nDavid Ansari from VMware speaks about his first KubeCon experience both as an attendee and as a speaker. The RabbitMQ Deep Dive talk that he gave will be a nice surprise if you watch it - link in the show notes.\nDan Lorenc brings his unique perspective on supply chain security, and tells us about the new company that he co-founded, Chainguard. How to secure container images gets covered, as well as one of the eas…",
-          "link": "https://changelog.com/shipit/26",
-          "publishedOn": "2021-11-03T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 26: Gerhard at KubeCon NA 2021: Part 2",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/26/ship-it-26.mp3",
-            "length": "84210899",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/d3o0",
-          "author": "Jerod Santo",
-          "description": "The team’s goal is to become “the de-facto open-source alternative to MongoDB.” Here’s why:\nMongoDB is a life-changing technology for many developers, empowering them to build applications faster than using relational databases. Its easy-to-use and well-documented drivers make MongoDB one of the easiest to use database solutions available. However, MongoDB abandoned its open-source roots, changing the license to SSPL - making it unusable for many open source and commercial projects.\nMost MongoDB users are not in need of many of the advanced features offered by MongoDB; however, they are in need of an open-source database solution. Recognizing this, MangoDB is here to fill the gap by providing an alternative.\nThis is currently a proof of concept. The concept: a proxy that converts Mongo’s wire protocol to SQL and stores everything in PostgreSQL. Fascinating idea! Will it work?\nDiscuss on Changelog News",
-          "link": "https://github.com/MangoDB-io/MangoDB",
-          "publishedOn": "2021-11-03T14:20:00.000Z",
-          "wordCount": null,
-          "title": "MangoDB  – a truly open source MongoDB alternative",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6O7g",
-          "author": "Jerod Santo",
-          "description": "The linked post is about a new book by Jeremy Wagner, but I just wanted to highlight the excellent aside on book writing by Chris Coyier near the end:\nWrite a blog post first, or maybe a whole bunch of blog posts. That’ll prove you clearly have words to say about this. Plus it will get the energy of your idea into the world. You might get feedback and constructive insights on the idea as it is shared. Then, hopefully, you can turn that blog post into a talk. That’ll really get you thinking deeply about your idea while getting even more comfortable with the idea of sharing it clearly. And, if all goes well, turn all of that into a book!\nLooks like Jeremy did just that.\nDiscuss on Changelog News",
-          "link": "https://css-tricks.com/responsible-javascript-2/",
-          "publishedOn": "2021-11-03T13:28:00.000Z",
-          "wordCount": null,
-          "title": "Have you ever had an inkling to write a tech book?",
-          "itunes": {}
         }
       ]
     },
@@ -1463,24 +1492,6 @@
           "publishedOn": "2021-11-04T15:57:06.000Z",
           "wordCount": 1188,
           "title": "10 GitHub Actions resources to bookmark from the basics to CI/CD"
-        },
-        {
-          "id": "https://github.blog/?p=61172",
-          "author": "Thomas Dohmke",
-          "description": "This morning, I shared the following post with Hubbers in response to Nat’s announcement about his next adventure. I am thrilled to take on the role of CEO to build the next phase of GitHub for our global community of software developers.",
-          "link": "https://github.blog/2021-11-03-building-the-next-phase-of-github-together/",
-          "publishedOn": "2021-11-03T15:08:47.000Z",
-          "wordCount": 757,
-          "title": "Building the next phase of GitHub, together"
-        },
-        {
-          "id": "https://github.blog/?p=61166",
-          "author": "Nat Friedman",
-          "description": "This morning, I sent the following post to the GitHub team. TL;DR: I’m moving on to my next adventure, and Thomas Dohmke (currently Chief Product Officer) will be GitHub’s next CEO.",
-          "link": "https://github.blog/2021-11-03-thank-you-github/",
-          "publishedOn": "2021-11-03T15:08:17.000Z",
-          "wordCount": 1059,
-          "title": "Thank you, GitHub"
         }
       ]
     },
@@ -1523,6 +1534,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/vulnerability-management/vulnerability-management-complete-guide-and-best-practices",
+          "author": "HackerOne",
+          "description": "We explain what vulnerability management is and why it matters, and we give a step-by-step guide to implementing a vulnerability management process.",
+          "link": "https://www.hackerone.com/vulnerability-management/vulnerability-management-complete-guide-and-best-practices",
+          "publishedOn": "2021-12-02T17:50:00.000Z",
+          "wordCount": 2231,
+          "title": "Vulnerability Management | A Complete Guide and Best Practices"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/securing-supply-chain-working-ethical-hackers",
           "author": "HackerOne",
