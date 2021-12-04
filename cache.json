@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/6/1498",
+          "author": null,
+          "description": "Salma Alam-Naylor joins us this week to share her thesis that JavaScript is best in moderation, and is a liability when creating performant, resilient, and accessible web applications. Salma says we’re drunk on JavaScript, and it’s time we learn how to leverage this powerful web primitive to enhance our web experiences, alongside HTML and CSS, instead of purely relying on JavaScript to completely run the show.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are using Retool to power thei…",
+          "link": "https://changelog.com/jsparty/204",
+          "publishedOn": "2021-12-03T17:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 204: JavaScript will kill you in the Apocalypse",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/204/js-party-204.mp3",
+            "length": "64753624",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/AaW5",
+          "author": "Jerod Santo",
+          "description": "Simon Eskildsen (of napkin math) shares a word of warning about one possible decision-making trap:\nWhenever you find yourself arguing for improving infrastructure by yanking up complexity, you need to be very careful.\nHe applies this thinking to a common technical proposal of switching from a general-purpose RDBMS to a specialty database to account for growth and scale.\nI’m a proponent of mastering and abusing existing tools, rather than chasing greener pastures. The more facility you gain with first-principle reasoning and napkin math, the closer I’d wager you’ll inch towards this conclusion as well. A new system theoretically having better guarantees is not enough of an argument. Adding a new system to your stack is a huge deal and difficult to undo.\nDiscuss on Changelog News",
+          "link": "https://sirupsen.com/trading-complexity",
+          "publishedOn": "2021-12-03T14:28:00.000Z",
+          "wordCount": null,
+          "title": "Careful trading complexity for 'improvements'",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Gb06",
+          "author": "Jerod Santo",
+          "description": "This the best intro to zk proofs I’ve seen. She starts simple with a Where’s Waldo example and works her way up to Sudoku.\nIn cryptography, zero knowledge proofs let you convince me that you know something, or have done something, without revealing to me what your secret thing was.\nDiscuss on Changelog News",
+          "link": "https://blog.goodaudience.com/understanding-zero-knowledge-proofs-through-simple-examples-df673f796d99",
+          "publishedOn": "2021-12-03T13:20:00.000Z",
+          "wordCount": null,
+          "title": "Understanding zero-knowledge proofs through illustrated examples",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1542",
           "author": null,
           "description": "We’re prepping for our 4th annual state of the “log” episode where we look back at the year, discuss some of our favorite episodes as well as the most popular ones, and talk a bit about what we have in the works for 2022 and beyond.\nWe thought it’d be awesome to include some listener voices on the show! So, please share your favorite Changelog guests, topics, or a-ha moments you’ve had over the last year.\nIf you get your message included in the episode, we’ll send you a free t-shirt.\nIt doesn’t have to be super produced. Just pop open your Voice Memos app on your phone\nThen upload your audio to ~> changelog.fm/sotl\nWe’re recording the episode next week, so don’t sleep on the opportunity. We’d love to hear from you!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links",
@@ -940,41 +975,6 @@
           "wordCount": null,
           "title": "Slow down, finish faster",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1488",
-          "author": null,
-          "description": "Each year a group of user researchers and the Go team get together and create a survey for the Go community. The results of the survey are analyzed and turned into a report made available to everyone in the Go community. In this episode we sit down with Alice Merrick and Todd Kulesza to discuss the survey, how it’s made, and some of the interesting results from this year’s survey.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nTeleport – Securely access any computing resource anywhere. Engineers and security teams can unify access to SSH servers, Kubernetes clusters, web applications, and databases across all environments. Try Teleport today in the cloud, self-hosted, or open source at goteleport.com\n\n    \nIncid…",
-          "link": "https://changelog.com/gotime/204",
-          "publishedOn": "2021-11-04T16:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 204: Discussing Go's annual developer survey",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/204/go-time-204.mp3",
-            "length": "70555543",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/53Pa",
-          "author": "Jerod Santo",
-          "description": "This is a short post by long-time open source maintainer Chris Manson about commitment to tasks in the open source world and how life always takes priority over dev.\nWe always need to keep in mind that most open source contributions are given from people that are opting to give up their spare time (usually for free) and the level of expectation can never come anywhere close to the sort of relationship that an employer might have with an employee or contractor.\nPairs well with Every commit is a gift. 🍷\nDiscuss on Changelog News",
-          "link": "https://chris.manson.ie/it's-all-gravy",
-          "publishedOn": "2021-11-04T14:14:00.000Z",
-          "wordCount": null,
-          "title": "It's all gravy",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/O2Oo",
-          "author": "Jerod Santo",
-          "description": "Your <head> is the single biggest render-blocking part of your page—ensuring it is well-formed is critical. ct.css is a diagnostic CSS snippet that exposes potential performance issues in your page’s <head> tags.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/csswizardry/ct",
-          "publishedOn": "2021-11-04T13:27:00.000Z",
-          "wordCount": null,
-          "title": "Let’s take a look inside your <head>",
-          "itunes": {}
         }
       ]
     },
@@ -991,15 +991,6 @@
           "publishedOn": "2021-11-29T18:00:00.000Z",
           "wordCount": 743,
           "title": "openpilot 0.8.11"
-        },
-        {
-          "id": "https://blog.comma.ai/turning-the-speed-blue/",
-          "author": null,
-          "description": "A getting started guide for openpilot development",
-          "link": "https://blog.comma.ai/turning-the-speed-blue/",
-          "publishedOn": "2021-11-05T00:00:00.000Z",
-          "wordCount": 492,
-          "title": "Turning the speed blue"
         }
       ]
     },
@@ -1051,6 +1042,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=17838",
+          "author": "Daniel Stenberg",
+          "description": "When I speak of curl in this post, I lump curl the command line tool and libcurl the library into one, and I just call them curl. Related: my webinar titled “Why everyone is using curl and you should too“. I believe just about every curl user has their own story and explanation about why … Continue reading Why curl is used everywhere, even on Mars →",
+          "link": "https://daniel.haxx.se/blog/2021/12/03/why-curl-is-used-everywhere-even-on-mars/",
+          "publishedOn": "2021-12-03T12:45:48.000Z",
+          "wordCount": 1617,
+          "title": "Why curl is used everywhere, even on Mars"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=17766",
           "author": "Daniel Stenberg",
@@ -1259,6 +1259,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61646",
+          "author": "Michelle Mannering",
+          "description": "The end of the year is getting closer, and our communities are busy working away on their projects. While you’ve all been busy maintaining open source projects and shipping releases, we’ve created a new open",
+          "link": "https://github.blog/2021-12-03-release-radar-nov-2021/",
+          "publishedOn": "2021-12-03T22:00:35.000Z",
+          "wordCount": 1236,
+          "title": "Release Radar · November 2021 Edition"
+        },
         {
           "id": "https://github.blog/?p=61701",
           "author": "Scott Sanders",
@@ -1474,24 +1483,6 @@
           "publishedOn": "2021-11-09T18:00:46.000Z",
           "wordCount": 1849,
           "title": "Three rules of bug fixing for better OSS security"
-        },
-        {
-          "id": "https://github.blog/?p=61187",
-          "author": "Scott Sanders",
-          "description": "In October, we experienced one incident resulting in significant impact and degraded state of availability for the GitHub Codespaces service.",
-          "link": "https://github.blog/2021-11-04-github-availability-report-october-2021/",
-          "publishedOn": "2021-11-04T20:37:09.000Z",
-          "wordCount": 453,
-          "title": "GitHub Availability Report: October 2021"
-        },
-        {
-          "id": "https://github.blog/?p=61148",
-          "author": "Brian Douglas",
-          "description": "Tips on how to get started using GitHub Actions and resources to learn more about making it work for you.",
-          "link": "https://github.blog/2021-11-04-10-github-actions-resources-basics-ci-cd/",
-          "publishedOn": "2021-11-04T15:57:06.000Z",
-          "wordCount": 1188,
-          "title": "10 GitHub Actions resources to bookmark from the basics to CI/CD"
         }
       ]
     },
@@ -1596,15 +1587,6 @@
           "publishedOn": "2021-11-09T17:50:00.000Z",
           "wordCount": 1421,
           "title": "What Is a Bug Bounty? Should You Offer One? And How To Do It"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/bug-bounty-vs-vdp-which-program-right-you",
-          "author": "HackerOne",
-          "description": "We explain bug bounty programs and Vulnerability Disclosure Programs (VDPs), their pros and cons, and how each can help your organization.",
-          "link": "https://www.hackerone.com/vulnerability-management/bug-bounty-vs-vdp-which-program-right-you",
-          "publishedOn": "2021-11-04T16:50:00.000Z",
-          "wordCount": 1253,
-          "title": "Bug Bounty vs. VDP | Which Program Is Right for You?"
         }
       ]
     }
