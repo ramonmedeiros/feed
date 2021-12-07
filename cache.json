@@ -37,6 +37,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/Q5zo",
+          "author": "Adam Stacoviak",
+          "description": "This hit my radar a few times in the past year – this week, and then most recently a few months back when we had Richard Hipp on The Changelog (again) – but, I didn’t post it to the newsfeed.\nHere’s what’s interesting about the SQLite test suite – it’s their secret sauce…the sustaining enablement of building a support business around SQLite. Here’s a direct quote from Richard Hipp in that episode.\nOriginally we thought we were gonna sell this and make money from it, and that’s how we were gonna support ongoing development. That didn’t really play out, nobody ever bought it. It does sort of become our business value, our intellectual property. I mean, you can take the SQLite code and fork it and start your own thing…but you don’t have the full test suite. You’ve got a lot of tests, but not all of them. So we’ve got a little bit of advantage over you there.\nClick here to play that episode from this quote.\nDiscuss on Changelog News",
+          "link": "https://www.sqlite.org/testing.html",
+          "publishedOn": "2021-12-06T22:53:11.000Z",
+          "wordCount": null,
+          "title": "How SQLite is tested",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/8Ozj",
+          "author": "Adam Stacoviak",
+          "description": "If you’re a fan of Easter eggs in software, you won’t find them in the curl codebase. Daniel explains, “There are no Easter eggs in curl. For the good.” The parimary reason is “trust,” but also to not waste time and effort on “useless work.”\nIf we would allow an Easter egg to get merged, we would soon start getting improvements to the egg code and people would like to add more eggs and to change the existing one. We would spend time and effort on the silly parts and we would need to spend testing and energy on these jokes instead of the real thing. We already have enough work without adding irrelevant work to the pile.\nGiven the massive usage of curl, I agree with the all business approach that Daniel desires and promises.\nDiscuss on Changelog News",
+          "link": "https://daniel.haxx.se/blog/2021/12/06/no-easter-eggs-in-curl/",
+          "publishedOn": "2021-12-06T17:22:01.000Z",
+          "wordCount": null,
+          "title": "There are \"no easter eggs in curl\"",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/N5XO",
+          "author": "Jerod Santo",
+          "description": "In Firefox 95, we’re shipping a novel sandboxing technology called RLBox that makes it easy and efficient to isolate subcomponents to make the browser more secure. This technology opens up new opportunities beyond what’s been possible with traditional process-based sandboxing…\nTurns out using WebAssembly to isolate potentially-buggy code is a pretty big win:\nGoing forward, we can treat these modules as untrusted code, and — assuming we did it right — even a zero-day vulnerability in any of them should pose no threat to Firefox.\nDiscuss on Changelog News",
+          "link": "https://hacks.mozilla.org/2021/12/webassembly-and-back-again-fine-grained-sandboxing-in-firefox-95/",
+          "publishedOn": "2021-12-06T16:29:00.000Z",
+          "wordCount": null,
+          "title": "Fine-grained sandboxing in Firefox 95",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/n7ZG",
+          "author": "Jerod Santo",
+          "description": "Jacob Kaplan-Moss, who has been writing a lot about good interview questions and how to hire well:\nWork sample tests are an exercise, a simulation, a small slice of real day-to-day work that we ask candidates to perform. They’re practical, hands-on, and very close or even identical to actual tasks the person would perform if hired. They’re also small, constrained, and simplified enough to be fair to include in a job selection process.\nTo give you a more concrete idea of what I’m talking about, here are several examples of work sample tests I’ve used…\nAnd just in case you think he’s prescribing whiteboarding…\nHowever, work sample tests are also a minefield: the space is littered with silly practices like whiteboarding, FizzBuzz, Leetcode, and “reverse a linked list”-style bullshit. The point of this series is to separate these silly practices from the good ones and to give you a framework and several examples to use in your hiring rounds.\nDiscuss on Changelog News",
+          "link": "https://jacobian.org/2021/nov/9/wst-intro/",
+          "publishedOn": "2021-12-06T15:32:00.000Z",
+          "wordCount": null,
+          "title": "An introduction to work sample tests",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/YNDL",
+          "author": "Jerod Santo",
+          "description": "Zinc is a search engine that does full text indexing. It is a lightweight alternative to elasticsearch and runs in less than 100 MB of RAM. It uses bluge as the underlying indexing library.\nIt is very simple and easy to operate as opposed to elasticsearch which requires a couple dozen knobs to understand and tune.\nIt is a drop-in replacement for elasticsearch if you are just ingesting data using APIs and searching using kibana (Kibana is not supported with zinc. Zinc provides its own UI).\nDiscuss on Changelog News",
+          "link": "https://github.com/prabhatsharma/zinc",
+          "publishedOn": "2021-12-06T14:46:00.000Z",
+          "wordCount": null,
+          "title": "A lightweight alternative to Elasticsearch that requires minimal resources",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/6/1498",
           "author": null,
           "description": "Salma Alam-Naylor joins us this week to share her thesis that JavaScript is best in moderation, and is a liability when creating performant, resilient, and accessible web applications. Salma says we’re drunk on JavaScript, and it’s time we learn how to leverage this powerful web primitive to enhance our web experiences, alongside HTML and CSS, instead of purely relying on JavaScript to completely run the show.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are using Retool to power thei…",
@@ -978,6 +1028,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=17834",
+          "author": "Daniel Stenberg",
+          "description": "Easter egg; noun: An unexpected or undocumented feature in a piece of computer software, included as a joke or a bonus. There are no Easter eggs in curl. For the good. I’ve been asked about this many times. Among the enthusiast community, people seem to generally like the concept of Easter eggs and hidden treasures, … Continue reading No easter eggs in curl →",
+          "link": "https://daniel.haxx.se/blog/2021/12/06/no-easter-eggs-in-curl/",
+          "publishedOn": "2021-12-06T13:47:58.000Z",
+          "wordCount": 1603,
+          "title": "No easter eggs in curl"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=17838",
           "author": "Daniel Stenberg",
           "description": "When I speak of curl in this post, I lump curl the command line tool and libcurl the library into one, and I just call them curl. Related: my webinar titled “Why everyone is using curl and you should too“. I believe just about every curl user has their own story and explanation about why … Continue reading Why curl is used everywhere, even on Mars →",
@@ -1179,6 +1238,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47492",
+          "author": "Bobby Holley",
+          "description": "In Firefox 95, we're shipping a novel sandboxing technology called RLBox — developed in collaboration with researchers at the University of California San Diego and the University of Texas — that makes it easy and efficient to isolate subcomponents to make the browser more secure. This technology opens up new opportunities beyond what's been possible with traditional process-based sandboxing, and we look forward to expanding its usage and (hopefully) seeing it adopted in other browsers and software projects.\nThe post WebAssembly and Back Again: Fine-Grained Sandboxing in Firefox 95 appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2021/12/webassembly-and-back-again-fine-grained-sandboxing-in-firefox-95/",
+          "publishedOn": "2021-12-06T13:05:44.000Z",
+          "wordCount": 1171,
+          "title": "WebAssembly and Back Again: Fine-Grained Sandboxing in Firefox 95"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47474",
           "author": "Xavier Harding",
           "description": "Seyi Akiwowo’s reputation precedes her. Akiwowo is the founder of Glitch, an organization that seeks to end online abuse. We spoke with Seyi over video chat to learn about what drives her, why she does what she does and what she’d be doing if not battling trolls online for a living. \nThe post Hacks Decoded: Seyi Akiwowo, Founder of Glitch appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1194,6 +1262,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61743",
+          "author": "Alvaro Munoz",
+          "description": "This lesser-known OWASP project aims to help developers prevent vulnerabilities from being introduced in the first place.",
+          "link": "https://github.blog/2021-12-06-write-more-secure-code-owasp-top-10-proactive-controls/",
+          "publishedOn": "2021-12-06T22:30:11.000Z",
+          "wordCount": 1813,
+          "title": "Write more secure code with the OWASP Top 10 Proactive Controls"
+        },
+        {
+          "id": "https://github.blog/?p=61737",
+          "author": "Justin Hutchings",
+          "description": "GitHub has partnered with the OpenSSF and Project Sigstore to add container image signing to our default “Publish Docker Container” workflow.",
+          "link": "https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/",
+          "publishedOn": "2021-12-06T17:30:08.000Z",
+          "wordCount": 1085,
+          "title": "Safeguard your containers with new container signing capability in GitHub Actions"
+        },
         {
           "id": "https://github.blog/?p=61646",
           "author": "Michelle Mannering",
