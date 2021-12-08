@@ -37,6 +37,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/W3qg",
+          "author": "Jerod Santo",
+          "description": "Highlights include built-in support for caching with Redis, more easily customizable forms and error lists, and standardizing Django’s timezone implementation to align with the Python standard library’s implementation. for the full list of goodies, check the release notes. Congrats to the entire Django team and community on the big release!\nSide note: we haven’t done an episode on Django for many moons. Are we due? Who’d be the perfect guest you’d love to hear from on the topic?\nDiscuss on Changelog News",
+          "link": "https://www.djangoproject.com/weblog/2021/dec/07/django-40-released/",
+          "publishedOn": "2021-12-07T17:01:00.000Z",
+          "wordCount": null,
+          "title": "Django 4.0 released",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1545",
+          "author": null,
+          "description": "This episode is a follow up to our recent Fully Connected show discussing federated learning. In that previous discussion, we mentioned Flower (a “friendly” federated learning framework). Well, one of the creators of Flower, Daniel Beutel, agreed to join us on the show to discuss the project (and federated learning more broadly)! The result is a really interesting and motivating discussion of ML, privacy, distributed training, and open source AI.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pipeline made for developers. RudderStack is the smart customer data pipeline. Connect your whole customer data stack. Warehouse-first, open source Segment alternative.\n\n    \nMe, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.\n\n    \nFeaturing\nDaniel Beutel – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nOur FC episode on federated learning\nFlower\nFlower Blog\nFlower Conference (with videos)",
+          "link": "https://changelog.com/practicalai/160",
+          "publishedOn": "2021-12-07T16:15:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 160:  Friendly federated learning 🌼",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/160/practical-ai-160.mp3",
+            "length": "45557406",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/4EXQ",
+          "author": "Jerod Santo",
+          "description": "Slashbase is an open-source collaborative IDE for your databases in your browser. Connect to your database, browse data, run a bunch of SQL commands or share SQL queries with your team, right from your browser!\nIt’s written in Golang and Nextjs React Framework (SPA) and runs as a single Linux binary with PostgreSQL. Documentation is currently WIP.\nIt’s early days and security will be a major concern to get right, but this has a lot of potential to unlock some cool use cases.\nDiscuss on Changelog News",
+          "link": "https://github.com/slashbase/slashbase",
+          "publishedOn": "2021-12-07T15:56:00.000Z",
+          "wordCount": null,
+          "title": "A collaborative IDE for your databases, right in your browser",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/q04w",
+          "author": "Jerod Santo",
+          "description": "Mitchell Hashimoto is partaking in Advent of Code this year and he’s added an extra facet to the challenge: implementing each solution with a single SQL statement.\nI’m not an expert at SQL (or PostgreSQL) by any means. One of the reasons I decided to use SQL was to regain some proficiency while also learning some new concepts. I expect that many of my solutions are suboptimal and there are likely much better ways (by various definitions) to reach the same answer. I’d love to hear about those (make an issue) but I won’t be merging any changes since this represents my approach.\nSounds like a fun challenge! But how does he find the time? By timeboxing each problem to just 30 minutes.\nDiscuss on Changelog News",
+          "link": "https://github.com/mitchellh/advent-2021-sql",
+          "publishedOn": "2021-12-07T15:04:00.000Z",
+          "wordCount": null,
+          "title": "Solving Advent of Code puzzles with PostgreSQL",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Z3b2",
+          "author": "Jerod Santo",
+          "description": "When your productivity takes a nosedive, it adds stress and anxiety, as you don’t have enough time to accomplish your goals and do what really matters to you. Understanding why your productivity is flailing will help you get back on track.\nThe idea is simple: ask “why” 5 times, until you get to the root cause of your issue. It’s not dissimilar to a kid who exasperates their parents by continually repeating “why”… but the benefits can be transformative!\n\nDiscuss on Changelog News",
+          "link": "https://blog.superhuman.com/five-whys-method",
+          "publishedOn": "2021-12-07T14:14:00.000Z",
+          "wordCount": null,
+          "title": "The \"5 whys\" productivity technique",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/Q5zo",
           "author": "Adam Stacoviak",
           "description": "This hit my radar a few times in the past year – this week, and then most recently a few months back when we had Richard Hipp on The Changelog (again) – but, I didn’t post it to the newsfeed.\nHere’s what’s interesting about the SQLite test suite – it’s their secret sauce…the sustaining enablement of building a support business around SQLite. Here’s a direct quote from Richard Hipp in that episode.\nOriginally we thought we were gonna sell this and make money from it, and that’s how we were gonna support ongoing development. That didn’t really play out, nobody ever bought it. It does sort of become our business value, our intellectual property. I mean, you can take the SQLite code and fork it and start your own thing…but you don’t have the full test suite. You’ve got a lot of tests, but not all of them. So we’ve got a little bit of advantage over you there.\nClick here to play that episode from this quote.\nDiscuss on Changelog News",
@@ -930,36 +985,6 @@
           "wordCount": null,
           "title": "How CockroachDB went serverless",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W3OX",
-          "author": "Jerod Santo",
-          "description": "A list of places where you can get the weather, your IP Address, recent news, word translations, and other useful things straight from curl and other hacker-friendly terminal tools.\nDiscuss on Changelog News",
-          "link": "https://github.com/chubin/awesome-console-services",
-          "publishedOn": "2021-11-08T18:45:00.000Z",
-          "wordCount": null,
-          "title": "A curated list of awesome console-accessible services",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4E14",
-          "author": "Jerod Santo",
-          "description": "Rachel by the Bay:\nThere’s a post going around tonight about how someone forgot to put an index on some database thing and wound up doing full table scans (or something like that). The rub is that instead of just being slow, it also cost a fair amount of money because this crazy vendor system charged by the row or somesuch. So, by scanning the whole table, they touched all of those rows, and oh hey, massive amounts of money just set ablaze!\nThe usual venues are discussing it, and I get the impression some people have the wrong approach to this. I want to describe a truly bad database schema I encountered, and then tell you a little about what it did to the system performance.\nA fun story with an excellent twist at the end.\nDiscuss on Changelog News",
-          "link": "https://rachelbythebay.com/w/2021/11/06/sql/",
-          "publishedOn": "2021-11-08T17:58:00.000Z",
-          "wordCount": null,
-          "title": "A terrible schema from a clueless programmer",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/q05N",
-          "author": "Jerod Santo",
-          "description": "Opensource.com asked the community to share about a time they sat down and wrote code that truly made them proud. Ten people responded with their experiences and learnings. Here’s an appetizer from Greg Scott:\nOne of mine around coding goes back to college in the 70s. I learned about parsing arithmetic expressions and putting them into Reverse Polish notation. And then, I figured out that, just like multiplication is repeated addition, division is repeated subtraction.\nDiscuss on Changelog News",
-          "link": "https://opensource.com/article/21/11/community-code-stories",
-          "publishedOn": "2021-11-08T17:10:01.000Z",
-          "wordCount": null,
-          "title": "Eureka moments of coding in the community",
-          "itunes": {}
         }
       ]
     },
@@ -1263,6 +1288,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=61776",
+          "author": "Ian Marsh",
+          "description": "GitHub Enterprise Server is now generally available for all customers. This release improves performance for CI/CD and for customers with large repositories.",
+          "link": "https://github.blog/2021-12-07-github-enterprise-server-3-3-is-generally-available/",
+          "publishedOn": "2021-12-08T01:04:26.000Z",
+          "wordCount": 550,
+          "title": "GitHub Enterprise Server 3.3 is generally available"
+        },
+        {
+          "id": "https://github.blog/?p=61784",
+          "author": "Myles Borins",
+          "description": "Today we're introducing enhanced login verification to the npm registry, and we will begin a staged rollout to maintainers beginning Dec 7.",
+          "link": "https://github.blog/2021-12-07-enrolling-npm-publishers-enhanced-login-verification-two-factor-authentication-enforcement/",
+          "publishedOn": "2021-12-07T17:00:09.000Z",
+          "wordCount": 809,
+          "title": "Enrolling all npm publishers in enhanced login verification and next steps for two-factor authentication enforcement"
+        },
+        {
           "id": "https://github.blog/?p=61743",
           "author": "Alvaro Munoz",
           "description": "This lesser-known OWASP project aims to help developers prevent vulnerabilities from being introduced in the first place.",
@@ -1546,6 +1589,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/security-event/how-hackers-help-organizations-face-new-attack-vectors-and-build-stronger-security",
+          "author": "HackerOne",
+          "description": "The risk of cyberattacks grows every day. But there is an essential defensive step that organizations can take: hacker-powered security programs.",
+          "link": "https://www.hackerone.com/security-event/how-hackers-help-organizations-face-new-attack-vectors-and-build-stronger-security",
+          "publishedOn": "2021-12-07T17:50:00.000Z",
+          "wordCount": 1636,
+          "title": "How Hackers Help Organizations Face New Attack Vectors and Build Stronger Security Programs"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/vulnerability-management-complete-guide-and-best-practices",
           "author": "HackerOne",
