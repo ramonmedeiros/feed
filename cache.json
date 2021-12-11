@@ -13,15 +13,6 @@
           "publishedOn": "2021-12-02T20:00:00.000Z",
           "wordCount": 1307,
           "title": "Exploring Container Security: A Storage Vulnerability Deep Dive"
-        },
-        {
-          "id": "http://security.googleblog.com/2021/11/clusterfuzzlite-continuous-fuzzing-for.html",
-          "author": null,
-          "description": "Posted by Jonathan Metzman, Google Open Source Security Team\n\n\nIn recent years, continuous fuzzing has become an essential part of the software development lifecycle. By feeding unexpected or random data into a program, fuzzing catches bugs that would otherwise slip through the most thorough manual checks and provides coverage that would take staggering human effort to replicate. NIST’s guidelines for software verification, recently released in response to the White House Executive Order on Improving the Nation’s Cybersecurity, specify fuzzing among the minimum standard requirements for code verification.\nToday, we are excited to announce ClusterFuzzLite, a continuous fuzzing solution that runs as part of CI/CD workflows to find vulnerabilities faster than ever before. With just a few line…",
-          "link": "http://security.googleblog.com/2021/11/clusterfuzzlite-continuous-fuzzing-for.html",
-          "publishedOn": "2021-11-11T12:00:00.001Z",
-          "wordCount": 860,
-          "title": "ClusterFuzzLite: Continuous fuzzing for all"
         }
       ]
     },
@@ -36,6 +27,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/1482",
+          "author": null,
+          "description": "Rich Harris joins Amal & Amelia for a Svelte deep-dive! What’s it all about? Why might you pick it over React and friends? What up with SvelteKit? Rich is working on it full-time now?! Will even more questions be answered?\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nAuth0 – The for developers, by developers identity platform built for the cloud era that secures billions of logins every year. Security, compliance, and industry standards are always up-to-date, plus devs are free to provide the login options their users want with the security their application demands. Make login Auth0’s problem. Not yours. Learn more at Auth0.com\n\n    \nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nFeaturing\nRich Harris – Twitter, GitHub\nAmal Hussein – Twitter, GitHub\nAmelia Wattenberger – Twitter, GitHub, Website\nNotes and Links\nRich on The Changelog\nSratch for Developers\nLerna\nRush",
+          "link": "https://changelog.com/jsparty/205",
+          "publishedOn": "2021-12-10T17:40:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 205: So much Sveltey goodness",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/205/js-party-205.mp3",
+            "length": "66759392",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/rlWq",
+          "author": "Jerod Santo",
+          "description": "GitHub’s all new code search is in technology preview (sign up here for early access) and this 5-minute video does a great job of providing a rundown on how it works and why you’ll probably want to try it asap.\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=UOIPBfPXkus",
+          "publishedOn": "2021-12-10T15:21:00.000Z",
+          "wordCount": null,
+          "title": "Improving GitHub code search",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/9OQJ",
+          "author": "Jerod Santo",
+          "description": "Check out the original RFC to find the genesis of this effort. Here’s the opening pitch:\nWe know there are huge costs and risks in introducing a new main language in the kernel. We risk dividing efforts and we increase the knowledge required to contribute to some parts of the kernel.\nMost importantly, any new language introduced means any module written in that language will be way harder to replace later on if the support for the new language gets dropped.\nNevertheless, we believe that, even today, the advantages of using Rust outweighs the cost. We will explain why in the following sections.\nGodspeed to everyone collaborating on what will surely be a massive, years-long undertaking.\nDiscuss on Changelog News",
+          "link": "https://lkml.org/lkml/2021/12/6/461",
+          "publishedOn": "2021-12-10T14:33:00.000Z",
+          "wordCount": null,
+          "title": "Experimental Rust support lands in the Linux kernel",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/posts/2509",
           "author": "Nora Jones",
@@ -920,81 +946,6 @@
           "wordCount": null,
           "title": "Don’t be spooky",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/12/1524",
-          "author": null,
-          "description": "We’re “doing it live” with Jerome Hardaway, a Senior Software Engineer at Microsoft and the Executive Director of Vets Who Code — a veteran-led and operated 501(c)(3) non-profit organization that focuses on training veterans, active duty military, and military spouses in software development and open source with the goal of starting careers in the technology industry.\nThis is a lengthly conversation in and around Jerome’s story, the Vets Who Code mission and impact, the experience of being in the United States Military, and the opportunity and potential of 1.5x’ing one of the most elite group of people on the planet.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nFeaturing\nJerome Hardaway – Twitter, GitHub, Website\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nDonate to #VetsWhoCode\nListen to the #VetsWhoCode podcast\nWaking Up On the Appalachian Trail: A Story of War, Brotherhood, and the Pursuit of Truth\nN. B. Hankes\nVeteran Artist Residencies\nTerminal Lance",
-          "link": "https://changelog.com/backstage/19",
-          "publishedOn": "2021-11-11T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Backstage 19: Honoring Veterans Day and #VetsWhoCode",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/backstage/19/backstage-19.mp3",
-            "length": "115633900",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/14/1465",
-          "author": null,
-          "description": "In this episode, Gerhard is joined by Cyrille Le Clerc, Product Manager Lead on Observability at Elastic, and Oleg Nenashev, Principal Engineer at CloudBees.\nIt all started with Oleg’s tweet back in July, in which he was promoting Akihiro Kiuchi’s work on Jenkins monitoring with OpenTelemetry. This was done in the context of Google’s Summer of Code - a link to Akihiro’s demo is in the show notes.\nAs you may remember from episode 20, instrumenting our changelog.com pipeline is on Gerhard’s mind, and this conversation helped him clarify a few things. If you are thinking of instrumenting your CI/CD pipeline with OpenTelemetry, this episode is for you.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nHoneycomb – Guess…",
-          "link": "https://changelog.com/shipit/27",
-          "publishedOn": "2021-11-11T19:15:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 27: OpenTelemetry in your CI/CD",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/27/ship-it-27.mp3",
-            "length": "58795964",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/lbqb",
-          "author": "Jerod Santo",
-          "description": "Cool move by Vercel. Rich says:\nso happy about what this means for svelte’s future. it’ll be the same independent, pluralistic project as before, but with Vercel’s backing we can get ✨ a m b i t i o u s ✨\nCongrats to the Svelte community! We’ll surely dicsuss this move and what all it means when Rich joins us on JS Party in early December.\nDiscuss on Changelog News",
-          "link": "https://twitter.com/Rich_Harris/status/1458822051263823875",
-          "publishedOn": "2021-11-11T18:01:00.000Z",
-          "wordCount": null,
-          "title": "Rich Harris joins Vercel to work on Svelte full time",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1398",
-          "author": null,
-          "description": "Natalie and Mat explore hacking in Go from the eyes of 2 security researchers. Joakim Kennedy and JAGS have both used Go for hacking: writing malware, hardware hacking, reverse engineering Go code, and more.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nTeleport – Securely access any computing resource anywhere. Engineers and security teams can unify access to SSH servers, Kubernetes clusters, web applications, and databases across all environments. Try Teleport today in the cloud, self-hosted, or open source at goteleport.com\n\n    \nIncident.io – Create, manage, and resolve incidents directly in Slack. Use the /incident command to create and manage incidents. This command lets you share updates, assign roles, s…",
-          "link": "https://changelog.com/gotime/205",
-          "publishedOn": "2021-11-11T17:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 205: Hacking with Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/205/go-time-205.mp3",
-            "length": "70938325",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/03nO",
-          "author": "Jerod Santo",
-          "description": "Luau is used by Roblox game developers to write game code, as well as by Roblox engineers to implement large parts of the user-facing application code as well as portions of the editor (Roblox Studio) as plugins. Roblox chose to open-source Luau to foster collaboration within the Roblox community as well as to allow other companies and communities to benefit from the ongoing language and runtime innovation.\nDiscuss on Changelog News",
-          "link": "https://github.com/Roblox/luau",
-          "publishedOn": "2021-11-11T16:58:00.000Z",
-          "wordCount": null,
-          "title": "Roblox's Lua-derived, gradually typed, embeddable scripting language",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Q59N",
-          "author": "Jerod Santo",
-          "description": "Svyatoslav Kryukov on the Evil Martian blog:\nRuby is awesome. We love its readability, flexibility, and developer-centric nature. Still, here at Mars, we also love Go because it has its own sense of simplicity and magic, too. Simply put, Go holds advantages over Ruby in some aspects: it’s faster, statically typed, and comes with cool concurrency primitives out of the box. This being said, some intrepid readers might find themselves grappling with a seemingly reasonable question: if Go is so darn good, why don’t we just write everything with it?\nRead this tale and learn to write Go in Ruby, gaining the ability to modify Ruby exactly as you desire.\nDiscuss on Changelog News",
-          "link": "https://evilmartians.com/chronicles/a-no-go-fantasy-writing-go-in-ruby-with-ruby-next",
-          "publishedOn": "2021-11-11T15:24:00.000Z",
-          "wordCount": null,
-          "title": "A no-go fantasy: writing Go in Ruby with Ruby Next",
-          "itunes": {}
         }
       ]
     },
@@ -1106,24 +1057,6 @@
           "publishedOn": "2021-11-12T14:29:32.000Z",
           "wordCount": 858,
           "title": "16000 curl commmits"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=17484",
-          "author": "Daniel Stenberg",
-          "description": "I like figuring out even or somehow particularly aligned numbers and dates to celebrate. Here’s another one: today marks the day when httpget 0.1 was released in 1996. httpget 0.1 was a tiny command line tool written by Rafael Sagula. It was less than 300 lines of C code. (Today, the product code is 173,000 … Continue reading My first 25 years of HTTP →",
-          "link": "https://daniel.haxx.se/blog/2021/11/11/my-first-25-years-of-http/",
-          "publishedOn": "2021-11-11T10:02:01.000Z",
-          "wordCount": 862,
-          "title": "My first 25 years of HTTP"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=17729",
-          "author": "Daniel Stenberg",
-          "description": "For a long time I have been wanting to avoid us to ever reach curl version 7.100.0. I strongly suspect that going three-digits in the minor number will cause misunderstandings and possibly even glitches in people’s comparison scripts etc. If nothing else, it is just a very high number to use in a version string … Continue reading The curl v8 plan →",
-          "link": "https://daniel.haxx.se/blog/2021/11/11/the-curl-v8-plan/",
-          "publishedOn": "2021-11-11T08:10:11.000Z",
-          "wordCount": 1031,
-          "title": "The curl v8 plan"
         }
       ]
     },
@@ -1212,15 +1145,6 @@
           "publishedOn": "2021-12-10T12:27:37.306Z",
           "wordCount": 1293,
           "title": "Applying flame graphs outside of performance analysis"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
-          "author": null,
-          "description": "This blog post shares optimization findings to speed up Transformer-based models’ CPU inference and improve computational demand in Google Cloud.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
-          "publishedOn": "2021-11-11T12:26:28.082Z",
-          "wordCount": 2675,
-          "title": "Speeding up Transformer CPU inference in Google Cloud"
         }
       ]
     },
@@ -1634,15 +1558,6 @@
           "publishedOn": "2021-11-16T17:50:00.000Z",
           "wordCount": 1726,
           "title": "How Elastic Attracts and Retains Top Hackers Without Offering the Highest Bounties"
-        },
-        {
-          "id": "https://hackerone.com/ethical-hacker/how-hackers-can-strengthen-cloud-security-applications",
-          "author": "HackerOne",
-          "description": "In this session at our 5th annual global cybersecurity conference, HackerOne’s Tim Matthews sat down with Josh Bressers, Tech Lead of Product Security at Elastic, to discuss cloud security for applications. They focused on the challenges around cloud security and the role of hacker-powered defensive efforts. Josh’s organization, Elastic, is the leading enterprise search company with expertise in building self-managed services for search, logging, security, and analytics use cases.",
-          "link": "https://www.hackerone.com/ethical-hacker/how-hackers-can-strengthen-cloud-security-applications",
-          "publishedOn": "2021-11-11T17:50:00.000Z",
-          "wordCount": 1603,
-          "title": "How Hackers Can Strengthen Cloud Security for Applications"
         }
       ]
     }
