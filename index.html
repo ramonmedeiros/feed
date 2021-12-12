@@ -16,6 +16,28 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-12">2021-12-12</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.twitter.com/engineering/en_us">English (US)</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Speeding up Transformer CPU inference in Google Cloud</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>This blog post shares optimization findings to speed up Transformer-based models’ CPU inference and improve computational demand in Google Cloud.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-12-10">2021-12-10</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -2380,160 +2402,9 @@ Discuss on Changelog News</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-11-12">2021-11-12</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Changelog 468: 1Password is all in on its web stack</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/podcast/468">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>This week we’re bringing JS Party to The Changelog — Mitch and Andrew from the 1Password team talk with Amal and Nick about the company’s transition to Electron and web technologies, and how the company utilized its existing web stack to shape the future of its desktop experience.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Fly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-    
-Retool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are using Retool to power their internal apps. Learn more and try it for free at retool.com/changelog
-
-    
-Sourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.
-
-    
-FireHydrant – The reliability platform for teams of all sizes. With FireHydrant, teams achieve reliability at scale by enabling speed and consistency from a service deployment to an unexpected outage. Try FireHydrant free for 14 days at firehydrant.io
-
-    
-Featuring
-Mitchell Cohen – Twitter, GitHub
-Andrew Beyer – Twitter, GitHub
-Nick Nisi – Twitter, GitHub, Website
-Amal Hussein – Twitter, GitHub
-Notes and Links
-1Password 8: The Story So Far
-wc3 community group for web extensions
-1Password Security Design
-GopherJS
-React
-Svelte
-Electron
-Rust
-Neon (rust in Electron)
-RFCs for JMAP?
-1Password Careers Page (they are hiring!)</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">JS Party 201: The inside story on React’s all new docs</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/jsparty/201">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Rachel Nabors –beloved educator, animator, &amp; documentation engineer at Meta– joins Amal and Amelia for a first look at the brand new React docs!
-This massive overhaul to the React website (which supports 2 million+ developers around the world) was no easy feat! We dive into all the behind the scenes coordination, as well of the goals, wins, and intended outcomes of this new way of approaching educational content and API reference material for open source projects.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Retool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from s…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A simple script to print the last 10 commands you ran in this directory</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/natethinks/jog">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>What was I doing the last time I was here?
-We’re linking to the repo, but the idea is where it’s at. The code is a one-liner (if you’re using zsh)
-grep -v &quot;jog&quot; ~/.zsh_history_ext | grep -a --color&#x3D;never &quot;${PWD}   &quot; | cut -f1 -d&quot;|&quot; | tail
-
-Then you add this to your .zshrc
-function zshaddhistory() {
-	echo &quot;${1%%$&#x27;\n&#x27;}|${PWD}   &quot; &gt;&gt; ~/.zsh_history_ext
-}
-
-Now you’re all set for the next time you need to jog your memory!
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Don’t be spooky</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://therealadam.com/2021/11/01/dont-be-spooky/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Sound career &amp;&amp; life advice by Adam Keys:
-It’s possibly the best advice for managers I’ve given so far. When you’re communicating with your team, lead with context and reassurance. Never message someone on your team, “let’s talk when you get a minute”. That’s void of information and scary as heck!
-I have to remind myself of this when I’m rushing. It’s faster to ping someone to arrange a synchronous talk than it is to write out what I need to say and cover all the bases. But that doesn’t give me license to skip all the context. Broad strokes are okay. An information vacuum is not okay.
-Hmm I probably have to work on this one…
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">16000 curl commmits</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2021/11/12/16000-curl-commmits/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Almost 14 months since I celebrated 15,000 commits in curl’s source code repository I have now passed 16,000 commits. My commit number 16,000 was a minor man page fix. The official gitstats page shows that I’ve committed changes on almost 4,600 separate days since the year 2000. 16,000 commits is 13,413 commits more than the … Continue reading 16000 curl commmits →</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">The GitHub Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Release Radar · October 2021 Edition</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-11-12-release-radar-oct-2021/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>What an incredible month it’s been for GitHub and our communities. Whilst we’ve been busy with GitHub Universe, our communities have been busy coding. It’s been a successful year for Hacktoberfest, with many first-time contributors</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Highlights from GitHub’s security roadmap at Universe 2021</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-11-12-highlights-github-security-roadmap-universe-2021/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>During Universe, we received a number of security questions ranging from our strategy to our advisories. Here&#x27;s what we&#x27;ve got planned!</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-12-11T12:26:38.231Z">2021-12-11T12:26:38.231Z</time>
+    <time id="build-timestamp" datetime="2021-12-12T12:26:39.496Z">2021-12-12T12:26:39.496Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
