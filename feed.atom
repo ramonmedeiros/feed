@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-12T12:26:39.515Z</updated>
+    <updated>2021-12-13T12:28:22.908Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Keeping curl safe]]></title>
+        <id>https://daniel.haxx.se/blog/?p=17920</id>
+        <link href="https://daniel.haxx.se/blog/2021/12/13/keeping-curl-safe/"/>
+        <updated>2021-12-13T10:00:47.000Z</updated>
+        <summary type="html"><![CDATA[I’ve talked on this topic before but I realized I never did a proper blog post on the topic. So here it is: how we develop curl to keep it safe. The topic of supply chain security is one that is discussed frequently these days and every so often there’s a very well used (open … Continue reading Keeping curl safe →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Speeding up Transformer CPU inference in Google Cloud]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud</id>
@@ -1769,16 +1779,6 @@ What’s interesting about it is that it measures your upload and download in pa
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fun multipart/form-data inconsistencies]]></title>
-        <id>https://daniel.haxx.se/blog/?p=17764</id>
-        <link href="https://daniel.haxx.se/blog/2021/11/13/fun-multipart-form-data-inconsistencies/"/>
-        <updated>2021-11-13T12:58:47.000Z</updated>
-        <summary type="html"><![CDATA[I still remember the RFC number off the top of my head for the first multipart formdata spec that I implemented support for in curl. Added to curl in version 5.0, December 1998. RFC 1867. Multipart formdata is the name of the syntax for how HTTP clients send data in a HTTP POST when they … Continue reading Fun multipart/form-data inconsistencies →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
