@@ -37,6 +37,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/q0nq",
+          "author": "Jerod Santo",
+          "description": "Russ Cox, for the Go team:\nGenerics are the most significant change to Go since the release of Go 1, and certainly the largest single language change we’ve ever made. With any large, new feature, it is common for new users to discover new bugs, and we don’t expect generics to be an exception to this rule; be sure to approach them with appropriate caution.\nIt didn’t make the headline, but fuzzing (tests that automatically find inputs which cause your program to crash or return invalid answers) also made it in the build, which our Go Time team has been quite excited about as well.\nDiscuss on Changelog News",
+          "link": "https://go.dev/blog/go1.18beta1",
+          "publishedOn": "2021-12-15T15:19:00.000Z",
+          "wordCount": null,
+          "title": "Go's 1.18 Beta 1 is available, with generics",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Z3Ml",
+          "author": "Jerod Santo",
+          "description": "The Supabase folks have open sourced a work-in-progress native PostgreSQL extension adding GraphQL support. First, they surveyed the field and liked what they saw from Graphile and Hasura, but…\nwe host free-tier projects on VMs with 1 GB of memory. After tallying the resources reserved for PostgreSQL, PostgREST, Kong, GoTrue, and a handful of smaller services, we were left with a total memory budget of … 0 MB 😬. Unsurprisingly, our pathological memory target disqualified any option that required launching another process in those VMs.\nBy their estimates, this effort will reduces the platform’s memory requirements by 525 TB/hours every month. Seems worth it!\nDiscuss on Changelog News",
+          "link": "https://supabase.com/blog/2021/12/03/pg-graphql",
+          "publishedOn": "2021-12-15T14:31:00.000Z",
+          "wordCount": null,
+          "title": "A native GraphQL extension for PostgreSQL",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1546",
           "author": null,
           "description": "The time has come! OpenAI’s API is now available with no waitlist. Chris and Daniel dig into the API and playground during this episode, and they also discuss some of the latest tool from Hugging Face (including new reinforcement learning environments). Finally, Daniel gives an update on how he is building out infrastructure for a new AI team.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pipeline made for developers. RudderStack is the smart customer data pipeline. Connect your whole customer data stack. Warehouse-first, open source Segment alternative.\n\n    \nMe, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nOpenAI’s API Now Available with No Waitlist\nHugging Face SnowballFight beta\nHugging Face Data Measurements Tool\nPandas Tutor\nClearML",
@@ -920,36 +940,6 @@
           "wordCount": null,
           "title": "Enterprise-grade routing for React applications",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RRJp",
-          "author": "Gerhard Lazu",
-          "description": "Run ping, DNS, TLS & HTTP test against any URL or host with a single command.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/ycd/dstp",
-          "publishedOn": "2021-11-16T15:58:00.000Z",
-          "wordCount": null,
-          "title": "Run common networking tests against your site with `dstp`",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/maNR",
-          "author": "Jonas Lundberg",
-          "description": "Often software developers are encouraged to learn deeply. Know your language and framework of choice better. That’s all good, but there’s another side to learning that’s often overlooked. Knowing a little about a lot of things so you have less blind spots.\nIn the blog post we look at the importance of learning broadly and how to go about it.\nDiscuss on Changelog News",
-          "link": "https://www.iamjonas.me/2021/10/want-to-be-great-know-lot.html",
-          "publishedOn": "2021-11-16T15:08:00.000Z",
-          "wordCount": null,
-          "title": "Want to be great? Know a lot",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Aa44",
-          "author": "James Sinclair",
-          "description": "Property-based testing helps us write better tests, with less code, and greater coverage. This leads to more confidence in our code, and fewer bugs in our applications. But, as always, there’s a price. Property tests take more effort to write, and they take longer to run. But they’re worth it.\nDiscuss on Changelog News",
-          "link": "https://jrsinclair.com/articles/2021/how-to-get-started-with-property-based-testing-in-javascript-with-fast-check/",
-          "publishedOn": "2021-11-16T14:20:00.000Z",
-          "wordCount": null,
-          "title": "Write better tests, with less code, and greater coverage",
-          "itunes": {}
         }
       ]
     },
@@ -958,6 +948,15 @@
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
       "articles": [
+        {
+          "id": "https://blog.comma.ai/0812release/",
+          "author": null,
+          "description": "Our latest release is for you, the people. You asked for better sounds, we designed a completely new set of sounds for 0.8.12. You asked for better longitudinal control in stop and go, so we put that in 0.8.12. You asked for a model that doesn’t take exits, 0.8.12 has that too. We really like 0.8.12, and we think you will too. Merry Christmas!",
+          "link": "https://blog.comma.ai/0812release/",
+          "publishedOn": "2021-12-15T12:00:00.000Z",
+          "wordCount": 1290,
+          "title": "🎄 openpilot 0.8.12 🎄"
+        },
         {
           "id": "https://blog.comma.ai/0811release/",
           "author": null,
@@ -1043,15 +1042,6 @@
           "publishedOn": "2021-11-18T14:50:03.000Z",
           "wordCount": 729,
           "title": "Free Apple support"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=17746",
-          "author": "Daniel Stenberg",
-          "description": "Thursday November 18 at 09:00 Pacific Time (17:00 UTC, 18:00 CET) I will sum up the curl news in the 7.80.0 release with extra focus and details on and about the post quantum features you can now use! Register here The webinar will be live and we end with a Q&A session where you can … Continue reading cURL Release Webinar – Featuring Post Quantum cURL →",
-          "link": "https://daniel.haxx.se/blog/2021/11/16/curl-release-webinar-featuring-post-quantum-curl/",
-          "publishedOn": "2021-11-16T12:38:08.000Z",
-          "wordCount": 710,
-          "title": "cURL Release Webinar – Featuring Post Quantum cURL"
         }
       ]
     },
@@ -1167,6 +1157,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html",
+          "author": null,
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#b7b7b7;border-top-width:1pt;border-right-width:1pt;border-left-color:#b7b7b7;vertical-align:top;border-right-color:#b7b7b7;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#b7b7b7;border-bottom-style:solid}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Courier New\";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:normal}.c20{padding-top:20pt;padding-bottom:…",
+          "link": "https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html",
+          "publishedOn": "2021-12-15T17:00:00.000Z",
+          "wordCount": 3515,
+          "title": "A deep dive into an NSO zero-click iMessage exploit: Remote Code Execution"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2021/12/this-shouldnt-have-happened.html",
           "author": null,
           "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=t66UaDGGO9uRFa9A_n0Ge4kPz49mG1-u2NJpkhDAP5E');.lst-kix_q4elz23jmthh-5>li{counter-increment:lst-ctn-kix_q4elz23jmthh-5}ol.lst-kix_q4elz23jmthh-6.start{counter-reset:lst-ctn-kix_q4elz23jmthh-6 0}ul.lst-kix_wy7koemfbmv1-3{list-style-type:none}ul.lst-kix_wy7koemfbmv1-2{list-style-type:none}ul.lst-kix_wy7koemfbmv1-5{list-style-type:none}.lst-kix_2hgb22nra90i-8>li:before{content:\"\\0025a0  \"}ul.lst-kix_wy7koemfbmv1-4{list-style-type:none}ul.lst-kix_wy7koemfbmv1-1{list-style-type:none}.lst-kix_2hgb22nra90i-7>li:before{content:\"\\0025cb  \"}ul.lst-kix_wy7koemfbmv1-0{list-style-type:none}ol.lst-kix_q4elz23jmthh-0.start{counter-reset:lst-ctn-kix_q4elz23jmthh-0 0}.lst-kix_2hgb22nra90i-4>li:before{content:\"\\0025cb  \"}.lst-kix_2hgb22nra90i-6>…",
@@ -1207,6 +1206,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62004",
+          "author": "Pavel Avgustinov",
+          "description": "This blog post tells the story of why we built a new search engine optimized for code.",
+          "link": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
+          "publishedOn": "2021-12-15T18:35:29.000Z",
+          "wordCount": 3094,
+          "title": "A brief history of code search at GitHub"
+        },
         {
           "id": "https://github.blog/?p=61983",
           "author": "Brittany O'Shea",
@@ -1440,33 +1448,6 @@
           "publishedOn": "2021-11-17T17:00:36.000Z",
           "wordCount": 1246,
           "title": "GitHub’s developer-first approach to content moderation"
-        },
-        {
-          "id": "https://github.blog/?p=60724",
-          "author": "Andrew Hoglund",
-          "description": "All newly created GraphQL objects now have IDs that conform to a new format, which we refer to as \"next IDs.\" Learn how to migrate older IDs to the new format and why we're making the change.",
-          "link": "https://github.blog/2021-11-16-graphql-global-id-migration-update/",
-          "publishedOn": "2021-11-16T21:00:47.000Z",
-          "wordCount": 990,
-          "title": "GraphQL global ID migration update"
-        },
-        {
-          "id": "https://github.blog/?p=61411",
-          "author": "Kevin Backhouse",
-          "description": "The Exiv2 team tightened our security by enabling GitHub’s code scanning feature and adding custom queries tailored to the Exiv2 code base.",
-          "link": "https://github.blog/2021-11-16-adding-custom-codeql-queries-code-scanning/",
-          "publishedOn": "2021-11-16T18:00:02.000Z",
-          "wordCount": 2700,
-          "title": "Blue-teaming for Exiv2: adding custom CodeQL queries to code scanning"
-        },
-        {
-          "id": "https://github.blog/?p=61422",
-          "author": "Eirini Kalliamvakou",
-          "description": "The State of the Octoverse analyzes data from millions of developers & repos to share trends across working habits, productivity, and career satisfaction.",
-          "link": "https://github.blog/2021-11-16-the-2021-state-of-the-octoverse/",
-          "publishedOn": "2021-11-16T14:00:01.000Z",
-          "wordCount": 539,
-          "title": "The 2021 State of the Octoverse"
         }
       ]
     },
@@ -1580,15 +1561,6 @@
           "publishedOn": "2021-11-18T17:50:00.000Z",
           "wordCount": 1323,
           "title": "Bug Bounty Platforms [Best Choices For a Bug Bounty Program]"
-        },
-        {
-          "id": "https://hackerone.com/how-elastic-attracts-and-retains-top-hackers-without-offering-highest-bounties",
-          "author": "HackerOne",
-          "description": "Skilled hackers are the foundation of an effective bug bounty program. But how can you ensure your program attracts top hackers and keeps them engaged?",
-          "link": "https://www.hackerone.com/how-elastic-attracts-and-retains-top-hackers-without-offering-highest-bounties",
-          "publishedOn": "2021-11-16T17:50:00.000Z",
-          "wordCount": 1726,
-          "title": "How Elastic Attracts and Retains Top Hackers Without Offering the Highest Bounties"
         }
       ]
     }

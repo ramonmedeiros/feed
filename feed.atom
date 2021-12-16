@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-15T12:27:58.740Z</updated>
+    <updated>2021-12-16T12:28:19.465Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A brief history of code search at GitHub]]></title>
+        <id>https://github.blog/?p=62004</id>
+        <link href="https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/"/>
+        <updated>2021-12-15T18:35:29.000Z</updated>
+        <summary type="html"><![CDATA[This blog post tells the story of why we built a new search engine optimized for code.]]></summary>
+        <author>
+            <name>Pavel Avgustinov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A deep dive into an NSO zero-click iMessage exploit: Remote Code Execution]]></title>
+        <id>https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html"/>
+        <updated>2021-12-15T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#b7b7b7;border-top-width:1pt;border-right-width:1pt;border-left-color:#b7b7b7;vertical-align:top;border-right-color:#b7b7b7;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#b7b7b7;border-bottom-style:solid}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Courier New";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c20{padding-top:20pt;padding-bottom:…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go's 1.18 Beta 1 is available, with generics]]></title>
+        <id>changelog.com/news/q0nq</id>
+        <link href="https://go.dev/blog/go1.18beta1"/>
+        <updated>2021-12-15T15:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Russ Cox, for the Go team:
+Generics are the most significant change to Go since the release of Go 1, and certainly the largest single language change we’ve ever made. With any large, new feature, it is common for new users to discover new bugs, and we don’t expect generics to be an exception to this rule; be sure to approach them with appropriate caution.
+It didn’t make the headline, but fuzzing (tests that automatically find inputs which cause your program to crash or return invalid answers) also made it in the build, which our Go Time team has been quite excited about as well.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A native GraphQL extension for PostgreSQL]]></title>
+        <id>changelog.com/news/Z3Ml</id>
+        <link href="https://supabase.com/blog/2021/12/03/pg-graphql"/>
+        <updated>2021-12-15T14:31:00.000Z</updated>
+        <summary type="html"><![CDATA[The Supabase folks have open sourced a work-in-progress native PostgreSQL extension adding GraphQL support. First, they surveyed the field and liked what they saw from Graphile and Hasura, but…
+we host free-tier projects on VMs with 1 GB of memory. After tallying the resources reserved for PostgreSQL, PostgREST, Kong, GoTrue, and a handful of smaller services, we were left with a total memory budget of … 0 MB 😬. Unsurprisingly, our pathological memory target disqualified any option that required launching another process in those VMs.
+By their estimates, this effort will reduces the platform’s memory requirements by 525 TB/hours every month. Seems worth it!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNNs through the lens of differential geometry and algebraic topology]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2021/graph-neural-networks-through-the-lens-of-differential-geometry-</id>
@@ -14,6 +60,16 @@
         <summary type="html"><![CDATA[In this post, we show how tools from the fields of differential geometry and algebraic topology can be used to reinterpret GNNs and address some of their common plights in a principled way.]]></summary>
         <author>
             <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🎄 openpilot 0.8.12 🎄]]></title>
+        <id>https://blog.comma.ai/0812release/</id>
+        <link href="https://blog.comma.ai/0812release/"/>
+        <updated>2021-12-15T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our latest release is for you, the people. You asked for better sounds, we designed a completely new set of sounds for 0.8.12. You asked for better longitudinal control in stop and go, so we put that in 0.8.12. You asked for a model that doesn’t take exits, 0.8.12 has that too. We really like 0.8.12, and we think you will too. Merry Christmas!]]></summary>
+        <author>
+            <name>comma.ai blog</name>
         </author>
     </entry>
     <entry>
@@ -1817,91 +1873,6 @@ Declarative & asynchronous route elements and data loaders, first-class Search P
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GraphQL global ID migration update]]></title>
-        <id>https://github.blog/?p=60724</id>
-        <link href="https://github.blog/2021-11-16-graphql-global-id-migration-update/"/>
-        <updated>2021-11-16T21:00:47.000Z</updated>
-        <summary type="html"><![CDATA[All newly created GraphQL objects now have IDs that conform to a new format, which we refer to as "next IDs." Learn how to migrate older IDs to the new format and why we're making the change.]]></summary>
-        <author>
-            <name>Andrew Hoglund</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blue-teaming for Exiv2: adding custom CodeQL queries to code scanning]]></title>
-        <id>https://github.blog/?p=61411</id>
-        <link href="https://github.blog/2021-11-16-adding-custom-codeql-queries-code-scanning/"/>
-        <updated>2021-11-16T18:00:02.000Z</updated>
-        <summary type="html"><![CDATA[The Exiv2 team tightened our security by enabling GitHub’s code scanning feature and adding custom queries tailored to the Exiv2 code base.]]></summary>
-        <author>
-            <name>Kevin Backhouse</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Elastic Attracts and Retains Top Hackers Without Offering the Highest Bounties]]></title>
-        <id>https://hackerone.com/how-elastic-attracts-and-retains-top-hackers-without-offering-highest-bounties</id>
-        <link href="https://www.hackerone.com/how-elastic-attracts-and-retains-top-hackers-without-offering-highest-bounties"/>
-        <updated>2021-11-16T17:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Skilled hackers are the foundation of an effective bug bounty program. But how can you ensure your program attracts top hackers and keeps them engaged?]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run common networking tests against your site with `dstp`]]></title>
-        <id>changelog.com/news/RRJp</id>
-        <link href="https://github.com/ycd/dstp"/>
-        <updated>2021-11-16T15:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Run ping, DNS, TLS & HTTP test against any URL or host with a single command.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Gerhard Lazu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Want to be great? Know a lot]]></title>
-        <id>changelog.com/news/maNR</id>
-        <link href="https://www.iamjonas.me/2021/10/want-to-be-great-know-lot.html"/>
-        <updated>2021-11-16T15:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Often software developers are encouraged to learn deeply. Know your language and framework of choice better. That’s all good, but there’s another side to learning that’s often overlooked. Knowing a little about a lot of things so you have less blind spots.
-In the blog post we look at the importance of learning broadly and how to go about it.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jonas Lundberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write better tests, with less code, and greater coverage]]></title>
-        <id>changelog.com/news/Aa44</id>
-        <link href="https://jrsinclair.com/articles/2021/how-to-get-started-with-property-based-testing-in-javascript-with-fast-check/"/>
-        <updated>2021-11-16T14:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Property-based testing helps us write better tests, with less code, and greater coverage. This leads to more confidence in our code, and fewer bugs in our applications. But, as always, there’s a price. Property tests take more effort to write, and they take longer to run. But they’re worth it.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>James Sinclair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2021 State of the Octoverse]]></title>
-        <id>https://github.blog/?p=61422</id>
-        <link href="https://github.blog/2021-11-16-the-2021-state-of-the-octoverse/"/>
-        <updated>2021-11-16T14:00:01.000Z</updated>
-        <summary type="html"><![CDATA[The State of the Octoverse analyzes data from millions of developers & repos to share trends across working habits, productivity, and career satisfaction.]]></summary>
-        <author>
-            <name>Eirini Kalliamvakou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[cURL Release Webinar – Featuring Post Quantum cURL]]></title>
-        <id>https://daniel.haxx.se/blog/?p=17746</id>
-        <link href="https://daniel.haxx.se/blog/2021/11/16/curl-release-webinar-featuring-post-quantum-curl/"/>
-        <updated>2021-11-16T12:38:08.000Z</updated>
-        <summary type="html"><![CDATA[Thursday November 18 at 09:00 Pacific Time (17:00 UTC, 18:00 CET) I will sum up the curl news in the 7.80.0 release with extra focus and details on and about the post quantum features you can now use! Register here The webinar will be live and we end with a Q&A session where you can … Continue reading cURL Release Webinar – Featuring Post Quantum cURL →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
