@@ -2,10 +2,163 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-16T12:28:19.465Z</updated>
+    <updated>2021-12-17T12:27:50.035Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How We Built Twitter’s Highly Reliable Ads Pacing Service]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service"/>
+        <updated>2021-12-17T12:27:32.255Z</updated>
+        <summary type="html"><![CDATA[In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving OSS-Fuzz and Jazzer to catch Log4Shell]]></title>
+        <id>http://security.googleblog.com/2021/12/improving-oss-fuzz-and-jazzer-to-catch.html</id>
+        <link href="http://security.googleblog.com/2021/12/improving-oss-fuzz-and-jazzer-to-catch.html"/>
+        <updated>2021-12-16T22:04:00.017Z</updated>
+        <summary type="html"><![CDATA[Posted by Jonathan Metzman, Google Open Source Security Team
+
+
+The discovery of the Log4Shell vulnerability has set the internet on fire. Similar to shellshock and heartbleed, Log4Shell is just the latest catastrophic vulnerability in software that runs the internet. Our mission as the Google Open Source Security Team is to secure the open source libraries the world depends on, such as Log4j. One of our capabilities in this space is OSS-Fuzz, a free fuzzing service that is used by over 500 critical open source projects and has found more than 7,000 vulnerabilities in its lifetime. 
+We want to empower open source developers to secure their code on their own. Over the next year we will work on better automated detection of non-memory corruption vulnerabilities such as Log4Shell. We have star…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technical interviews via Codespaces]]></title>
+        <id>https://github.blog/?p=62042</id>
+        <link href="https://github.blog/2021-12-16-technical-interviews-via-codespaces/"/>
+        <updated>2021-12-16T17:59:56.000Z</updated>
+        <summary type="html"><![CDATA[Codespaces is a great tool for technical hiring exercises and helps level the playing field for candidates.]]></summary>
+        <author>
+            <name>Ian Olsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CWE [Common Weakness Enumeration] | Why It Is Important]]></title>
+        <id>https://hackerone.com/vulnerability-management/cwe-common-weakness-enumeration-why-it-important</id>
+        <link href="https://www.hackerone.com/vulnerability-management/cwe-common-weakness-enumeration-why-it-important"/>
+        <updated>2021-12-16T17:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Are you wondering about CWE? We explain CWE (Common Weakness Enumeration) and why this community-based initiative is essential in cybersecurity]]></summary>
+        <author>
+            <name>vincent@hackerone.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 automations every developer should be running]]></title>
+        <id>https://github.blog/?p=61995</id>
+        <link href="https://github.blog/2021-12-16-5-automations-every-developer-should-be-running/"/>
+        <updated>2021-12-16T17:04:20.000Z</updated>
+        <summary type="html"><![CDATA[Looking to avoid security vulnerabilities, buttons that don’t work, slow site speeds, or manually writing release notes? This one's for you.]]></summary>
+        <author>
+            <name>Brian Douglas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 210: Mat asks the Go Team anything]]></title>
+        <id>changelog.com/2/1531</id>
+        <link href="https://changelog.com/gotime/210"/>
+        <updated>2021-12-16T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You had questions, the Go Team had answers! Topics covered include generics (of course), governance (of course), Go 2, text editors, GitHub Copilot, garbage collection, and more.
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+Sourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.
+
+    
+LaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.
+
+    
+Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog
+
+    
+Linode – Get $100 in free credit to get started on Linode – Linode is our cloud of choice and the home of Changelog.com. Head to linode.com/changelog OR text CHANGELOG to 474747 to get instant access to that $100 in free credit.
+
+    
+Featuring
+Sameer Ajmani – Twitter, GitHub
+Keith Randall – GitHub, Website
+Alice Merrick – Twitter, LinkedIn
+Rob Findley – 
+Cameron Balahan – Twitter
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+Notes and Links]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rails 7.0: fulfilling a vision]]></title>
+        <id>changelog.com/news/EQPj</id>
+        <link href="https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision"/>
+        <updated>2021-12-16T16:25:00.000Z</updated>
+        <summary type="html"><![CDATA[DHH announcing the 7th major release of Ruby on Rails:
+This version of Rails has been years in the conceptual making. It’s the fulfillment of a vision to present a truly full-stack approach to web development that tackles both the front- and back-end challenges with equal vigor. An omakase menu that includes everything from the aperitif to the dessert.
+There’s a lot to like about the new Node-free approach to the frontend, at-work encryption added to Active Record, a new auto-loading strategy, and more. Congrats to the hundreds of contributors who worked on this major milestone!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Developers: you might be a Product Manager if...]]></title>
+        <id>changelog.com/posts/2510</id>
+        <link href="https://changelog.com/posts/you-might-be-a-product-manager-if"/>
+        <updated>2021-12-16T15:39:28.000Z</updated>
+        <summary type="html"><![CDATA[This is a fancified excerpt of Liana Leahy from JS party #203. Liana spent 20 years as a developer before transitioning to product, so she knows what she’s talking about here. To get the full experience you should listen while you read.
+🎧  Click here to listen along while you read. It's better!   🎧
+Before making a move into product management, make the most of your technical career. The stories and experiences you gather as a developer will help you. But let’s say you’ve been in the software development field for a number of years, and you’re looking for your next challenge. Here’s a list of “You know you’re a PM if…” statements to help you decide if this career is right for you.
+If you’re the type of person who likes to know what features are on the roadmap…
+If you’re questioning why a new feature is gonna be useful…
+If you like to understand the problem that a feature is trying to solve…
+If you like to be involved in finding the solutions…
+If you care about the quality of the customer experience, as well as the quality of the code…
+If you love measuring success with quantifiable analytics and you don’t mind talking with users and other stakeholders…
+If you make sure the conversations that get alignment across teams happen, you’re the glue… and you might be a Product Manager.
+If you’re comfortable with the 80/20 rule, and can solve for the most common use cases and balance the trade-offs and edge cases…
+If you have a calm and upbeat demeanor, even when chaos swirls around you…
+You might be a Product Manager!
+
+  
+Subscribe to our YouTube channel for more clips like this, live show recordings, and more ✌️
+
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Liana Leahy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Need a laugh? log4jmemes.com delivers exactly what you expect from it]]></title>
+        <id>changelog.com/news/LpPn</id>
+        <link href="https://log4jmemes.com/"/>
+        <updated>2021-12-16T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA[We laugh so that we do not have time to cry. (via Zachary Taylor in our community Slack)
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mess with DNS]]></title>
+        <id>changelog.com/news/bNMd</id>
+        <link href="https://messwithdns.net/"/>
+        <updated>2021-12-16T14:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Julia Evans has a cool new web tool for experimenting with DNS. She wrote up why she created it and some of the tech behind the tool on her announcement post:
+Mess With DNS gives you a real subdomain, and it’s running a real DNS server (the address is mess-with-dns1.wizardzines.com). The interesting thing about DNS is that it’s a global system with many different computers interacting, and so I wanted people to be able to actually see that system in action.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A brief history of code search at GitHub]]></title>
         <id>https://github.blog/?p=62004</id>
@@ -1815,64 +1968,6 @@ Discuss on Changelog News]]></summary>
 The post Nubank is an official World Cup supporter: soon, we’ll have more surprises for our customers appeared first on Building Nubank.]]></summary>
         <author>
             <name>Nubank Editorial</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AppFlowy is an open source alternative to Notion]]></title>
-        <id>changelog.com/news/Q5QN</id>
-        <link href="https://github.com/AppFlowy-IO/appflowy"/>
-        <updated>2021-11-17T17:19:00.000Z</updated>
-        <summary type="html"><![CDATA[If Microsoft can rip off be inspired by Notion, what’s stopping open sourcerers from getting in on it? 😜
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub’s developer-first approach to content moderation]]></title>
-        <id>https://github.blog/?p=61444</id>
-        <link href="https://github.blog/2021-11-17-githubs-developer-first-approach-to-content-moderation/"/>
-        <updated>2021-11-17T17:00:36.000Z</updated>
-        <summary type="html"><![CDATA[GitHub puts the needs of developers at the core of our content moderation policies. Learn more about our approach and how you can contribute.]]></summary>
-        <author>
-            <name>Abby Vollmer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Selecting a programming language can be a form of premature optimization]]></title>
-        <id>changelog.com/news/8OnL</id>
-        <link href="https://snarky.ca/programming-language-selection-is-a-form-of-premature-optimization/"/>
-        <updated>2021-11-17T16:31:00.000Z</updated>
-        <summary type="html"><![CDATA[The bulk of this post by Brett Cannon is a detailed argument that Python makes sense to select even for projects with known performance concerns, but I got my money’s worth from the concept in the title and opener:
-… it dawned on me that the problem is people are not treating language selection as potential form of premature optimization: if you select a programming language based on your preconceived notions of how a language performs, you will never know if the language that might be a better, more productive fit for your developers would have actually worked out.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 28: What does good DevOps look like?]]></title>
-        <id>changelog.com/14/1464</id>
-        <link href="https://changelog.com/shipit/28"/>
-        <updated>2021-11-17T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week Gerhard is chatting with Romano Roth, Head of DevOps at Zühlke, a company founded by Gerhard Zühlke in 1968. Nowadays they help companies all over the world build, ship and run anything from factory robots, to AI assistants in complex regulatory environments, and even medical devices that perform autonomous robotic surgery.
-When Romano is not leading a team of 30 software engineers that specialise in operations, infrastructure and cloud, he is one of the organisers of DevOps Days Zürich, and also the DevOps Meetup group which is how Gerhard and Romano met in 2019.
-Having started his career as a .Net developer back in 2002, Romano had his fair share of dev and ops challenges, and he always enjoys seeing real business value delivered continuously in an automated way. In recent year…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enterprise-grade routing for React applications]]></title>
-        <id>changelog.com/news/n7Wr</id>
-        <link href="https://github.com/tannerlinsley/react-location"/>
-        <updated>2021-11-17T14:23:00.000Z</updated>
-        <summary type="html"><![CDATA[Tanner Linsley (whom you may remember from JS Party #179) adds a new component to his TanStack.
-Declarative & asynchronous route elements and data loaders, first-class Search Param APIs, nested-routing, code-splitting and so much more.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>
