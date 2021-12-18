@@ -16,8 +16,57 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-18">2021-12-18</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://security.googleblog.com/">Google Online Security Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Apache Log4j Vulnerability</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2021/12/apache-log4j-vulnerability.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Like many other companies, we’re closely following the multiple CVEs regarding Apache Log4j 2. Our security teams are investigating any potential impact on Google products and services and are focused on protecting our users and customers.
+We encourage anyone who manages environments containing Log4j 2 to update to the latest version.
+Based on findings in our ongoing investigations, here is our list of product and service updates as of December 17th (CVE-2021-44228 &amp; CVE-2021-45046):
+Android is not aware of any impact to the Android Platform or Enterprise. At this time, no update is required for this specific vulnerability, but we encourage our customers to ensure that the latest security updates are applied to their devices.
+Chrome OS  releases and infrastructure are not using versions of Log4j affected by the vulnerability.
+Chrome Browser releases, infrastructure and admin console are not using versions of Log4j affected by the vulnerability.
+Google Cloud has a specific advisory dedicated to updating customers on the status of GCP and Workspace products and services. 
+Google Marketing Platform, including Google Ads is not using versions of Log4j affected by the vulnerability. This includes Display &amp; Video 360, Search Ads 360, Google Ads, Analytics (360 and free), Optimize 360, Surveys 360  &amp; Tag Manager 360. 
+YouTube  is not using versions of Log4j affected by the vulnerability.  
+We will continue to update this advisory with the latest information.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-12-17">2021-12-17</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.google/technology/ai/">AI</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">This archaeologist fights tomb raiders with Google Earth</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.google/products/earth/archaeologist-fights-tomb-raiders-google-earth/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>In the summer, Dr. Gino Caspari’s day starts at 5:30 a.m. in Siberia, where he studies the ancient Scythians with the Swiss National Science Foundation. There, he looks for burial places of these nomadic warriors who rode through Asia 2,500 years ago. The work isn’t easy, from dealing with extreme temperatures, to swamps covered with mosquitos. But the biggest challenge is staying one step ahead of tomb raiders.
+It’s believed that more than 90% of the tombs — called kurgans — have already been destroyed by raiders looking to profit off what they find, but Gino is looking for the thousands he believes remain scattered across Russia, Mongolia and Western China. To track his progress, he began mapping these burial sites using Google Earth. “There’s a plethora of open data sources out there, b…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://blog.twitter.com/engineering/en_us">English (US)</a></h3>
@@ -29,6 +78,178 @@
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(9 min)</span>
                     <span>In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Changelog 472: AI-assisted development is here to stay</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/podcast/472">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>We’re joined by Eran Yahav — talking about AI assistants for developers. Eran has been working on this problem for more than a decade. We talk about his path to now and how the idea for Tabnine came to life, this AI revolution taking place and the role it will play in developer productivity, and we talk about the elephant in the room - how Tabnine compares to GitHub Copilot, and what they’re doing to make Tabnine the AI assistant for every developer regardless of the IDE or editor you choose.
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+InfluxData – InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive volumes and countless sources of time-stamped d…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Trying out generics in Go</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://markphelps.me/posts/trying-out-generics-in-go/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>This is the first (of probably many) “playing with generics” post we’ll see now that Go 1.18 is in beta with official support for the controversial feature.
+This post aims to describe my initial experience converting my markphelps/optional library from using code generation to using generics instead. Hopefully, after reading this post you’ll have a better understanding of what generics can do for you and what they can’t.
+Mark shares lots of good tips along the way. His findings are quite positive:
+I ❤️ that I was able to delete 95% of my code because of generics.
+I think that generics will be very beneficial to maintainers who create libraries for things like my own as well as for searching, sorting, transformations, and the like. I can also see some them being extremely helpful for creating well-tested libraries around the various concurrency patterns that are sometimes tricky to get right.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Don’t start with microservices – monoliths are your friend</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://arnoldgalovics.com/microservices-in-production/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Arnold Galovics:
+Microservices are getting natural and we almost feel like we’ve been always living in the world of microservices. Lately when I talked to other developers and asked how they would start a greenfield project, almost certainly the answer was, well, one microservice for this, another one for this, another one for user management, one more for authentication, another for authorization, one more for session management, and the list could go on.
+I’m gonna try to shed some light on what nobody is talking about when it comes to microservices. And yeah, it’s gonna be a first-hand experience from a past projects I worked on.
+This excellent piece gave me some serious deja vu of [Kelsey Hightower’s monoliths are the future. I’m quite looking forward to Arnold’s upcoming “chapter 2” of the story.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">JS Party 206: Frontend Feud: React Advanced Edition</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/jsparty/206">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Jerod, Nick, and a node_modules-worthy collection of JS friends played an intense game of Frontend Feud at React Advanced London’s after-party back in October. Today, you get to play along with us!
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+Retool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are using Retool to power their internal apps. Learn more and try it for free at retool.com/changelog
+
+    
+Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
+
+    
+Fastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!
+
+    
+Featuring
+Michael Chan – Twitter, GitHub, Website
+Yuraima Estevez – Twitter, GitHub, Website
+Brandon Dail – Twitter, GitHub, Website
+Tara Z. Manicsic – Twitter, GitHub, Website
+Nick Nisi – Twitter, GitHub, Website
+Colby Fayock – Twitter, GitHub, Website
+Jerod Santo – Twitter, GitHub
+Notes and Links
+JS Party Merch!
+JavaScript’s security model is based</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Clever uses of pass, the Unix password manager</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://vitalyparnas.com/guides/pass/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Turns out the pass command on your local Linux box can be used for a bunch of encryption-related things in addition to what most of us use it for: managing a user’s password.
+One cool example is you can hide API keys from shoulder surfers (and history’s memory) by storing the key encrypted on disk and using pass to access it at runtime:
+curl -H &quot;API-Key: $(pass provider/api_key)&quot; ...
+
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Ship It! 32: Crossing the platform gap</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/shipit/32">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>In 2014 Gerhard joined CloudCredo, a startup co-founded by Colin Humphreys, Paula Kennedy &amp; Chris Hedley. They stuck together through two acquisitions: Pivotal &amp; VMware. This year, Colin, Paula &amp; Chris co-founded Syntasso, the Platform-as-a-Product startup.
+Today they all get together to talk about about what it takes to build a platform team, why Team Topologies is a good conversation starter and why a curated blend of off-the-shelf, composed, and self-created services are required in any organisation operating at scale.
+Your hunch is right, all of them used to share the same Pivotal London office with Tammer Saleh, our guest from episode 31. Chris used to win all table tennis matches without even breaking a sweat, and today Gerhard gets his comeback. Touché!
+Discuss on Changelog News
+Joi…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">From Node to Ruby on Rails</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://nikodunk.com/a-node-js-developer-discovers-rails/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>A post from back in June resurfaced this week in light of the big Rails 7 release.
+I learned to code in the JavaScript stack and am building a JavaScript based product. I never questioned this stack: many companies default to it, JS everywhere seems good, and the community is big. But for my new side project I decided to try Rails because despite some perception that Ruby on Rails is ‘over’, people in HN comments say it was somehow more enjoyable than the newer Node based stack. Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.
+If you make your technology choices because of “perception that $TECHNOLOGY is ‘over’”, you are missing out on a world of potentially great options.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">The GitHub Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Getting started with GitHub Actions just got easier!</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>When you want to create a workflow in the Actions tab of your repository, the recommendations are now based on an analysis of repo content.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://security.googleblog.com/">Google Online Security Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Understanding the Impact of Apache Log4j Vulnerability</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2021/12/understanding-impact-of-apache-log4j.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Posted by James Wetter and Nicky Ringland, Open Source Insights Team 
+
+
+
+
+More than 35,000 Java packages, amounting to over 8% of the Maven Central repository (the most significant Java package repository), have been impacted by the recently disclosed log4j vulnerabilities (1, 2), with widespread fallout across the software industry. The vulnerabilities allow an attacker to perform remote code execution by exploiting the insecure JNDI lookups feature exposed by the logging library log4j. This exploitable feature was enabled by default in many versions of the library.
+
+
+This vulnerability has captivated the information security ecosystem since its disclosure on December 9th because of both its severity and widespread impact. As a popular logging tool, log4j is used by tens of thousands of s…</span>
                   </div>
                 </a>
               </details>
@@ -2505,160 +2726,9 @@ It was an awesome experience for me. I’m a hobby coder, and podcasts like The 
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-11-18">2021-11-18</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://blog.google/technology/ai/">AI</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A decade in deep learning, and what&#x27;s next</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.google/technology/ai/decade-deep-learning-and-whats-next/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Twenty years ago, Google started using machine learning, and 10 years ago, it helped spur rapid progress in AI using deep learning. Jeff Dean and Marian Croak of Google Research take a look at how we’ve innovated on these techniques and applied them in helpful ways, and look ahead to a responsible and inclusive path forward.
-
-
-
-
-Jeff Dean
-
-
-From research demos to AI that really works
-
-
-I was first introduced to neural networks — computer systems that roughly imitate how biological brains accomplish tasks — as an undergrad in 1990. I did my senior thesis on using parallel computation to train neural networks. In those early days, I thought if we could 32X more compute power (using 32 processors at the time!), we could get neural networks to do impressive things. I was way off. It turns out …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://building.nubank.com.br">Building Nubank</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nubank is an official World Cup supporter: soon, we’ll have more surprises for our customers</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://building.nubank.com.br/nubank-qatar-2022/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>In 2022, we want to be even closer to people through special events and content. The 2022 FIFA World Cup will be held in Qatar between November and December and will have Nubank as an official supporter. 
-The post Nubank is an official World Cup supporter: soon, we’ll have more surprises for our customers appeared first on Building Nubank.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Go Time 206: Eventually consistent (managing data at scale)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/gotime/206">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Tiago Mendes joins Mat, Jon, and Johnny to discuss eventual consistency and strategies for changing data at scale.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Sourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.
-
-    
-Incident.io – Create, manage, and resolve incidents directly in Slack. Use the /incident command to create and manage incidents. This command lets you share updates, assign roles, set important lin…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">OpenAI’s API is now open (goodbye, waitlist)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://openai.com/blog/api-no-waitlist/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Our progress with safeguards makes it possible to remove the waitlist for GPT-3. Starting today, developers in supported countries can sign up and start experimenting with our API right away.
-Good news for anyone still waiting around for access.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Why it&#x27;s OK to abandon your side projects</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://buttondown.email/bhupesh/archive/why-its-ok-to-abandon-your-side-projects/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Overdoing things can have a deep mental impact, one should not feel guilty about giving up on something. It’s the same with pursuing side-projects don’t hesitate to abandon them if the need arises
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Free Apple support</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2021/11/18/free-apple-support/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Imagine running a trillion dollar company that bundles various open source components into your products, making billions of dollars of profit annually. When one of your users reach out and ask for help, with the product you ship to your customers, you instead refer the user to the open source project. The project which is … Continue reading Free Apple support →</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">The GitHub Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">7 advanced workflow automation features with GitHub Actions</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-11-18-7-advanced-workflow-automation-features-with-github-actions/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Check out some advanced automation and CI/CD capabilities you can use today with GitHub Actions on any GitHub account.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.hackerone.com/">HackerOne</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Bug Bounty Platforms [Best Choices For a Bug Bounty Program]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.hackerone.com/vulnerability-management/bug-bounty-platforms-best-choices-bug-bounty-program">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Are you wondering about bug bounty platforms? We explain what a bug bounty platform is and how it can help you run a successful bug bounty program.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-12-17T12:27:50.011Z">2021-12-17T12:27:50.011Z</time>
+    <time id="build-timestamp" datetime="2021-12-18T12:26:57.760Z">2021-12-18T12:26:57.760Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>

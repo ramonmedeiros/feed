@@ -6,6 +6,24 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2021/12/apache-log4j-vulnerability.html",
+          "author": null,
+          "description": "Like many other companies, we’re closely following the multiple CVEs regarding Apache Log4j 2. Our security teams are investigating any potential impact on Google products and services and are focused on protecting our users and customers.\nWe encourage anyone who manages environments containing Log4j 2 to update to the latest version.\nBased on findings in our ongoing investigations, here is our list of product and service updates as of December 17th (CVE-2021-44228 & CVE-2021-45046):\nAndroid is not aware of any impact to the Android Platform or Enterprise. At this time, no update is required for this specific vulnerability, but we encourage our customers to ensure that the latest security updates are applied to their devices.\nChrome OS  releases and infrastructure are not using versions of Log4j affected by the vulnerability.\nChrome Browser releases, infrastructure and admin console are not using versions of Log4j affected by the vulnerability.\nGoogle Cloud has a specific advisory dedicated to updating customers on the status of GCP and Workspace products and services. \nGoogle Marketing Platform, including Google Ads is not using versions of Log4j affected by the vulnerability. This includes Display & Video 360, Search Ads 360, Google Ads, Analytics (360 and free), Optimize 360, Surveys 360  & Tag Manager 360. \nYouTube  is not using versions of Log4j affected by the vulnerability.  \nWe will continue to update this advisory with the latest information.",
+          "link": "http://security.googleblog.com/2021/12/apache-log4j-vulnerability.html",
+          "publishedOn": "2021-12-18T02:08:00.002Z",
+          "wordCount": 586,
+          "title": "Apache Log4j Vulnerability"
+        },
+        {
+          "id": "http://security.googleblog.com/2021/12/understanding-impact-of-apache-log4j.html",
+          "author": null,
+          "description": "Posted by James Wetter and Nicky Ringland, Open Source Insights Team \n\n\n\n\nMore than 35,000 Java packages, amounting to over 8% of the Maven Central repository (the most significant Java package repository), have been impacted by the recently disclosed log4j vulnerabilities (1, 2), with widespread fallout across the software industry. The vulnerabilities allow an attacker to perform remote code execution by exploiting the insecure JNDI lookups feature exposed by the logging library log4j. This exploitable feature was enabled by default in many versions of the library.\n\n\nThis vulnerability has captivated the information security ecosystem since its disclosure on December 9th because of both its severity and widespread impact. As a popular logging tool, log4j is used by tens of thousands of s…",
+          "link": "http://security.googleblog.com/2021/12/understanding-impact-of-apache-log4j.html",
+          "publishedOn": "2021-12-17T17:25:00.000Z",
+          "wordCount": 1850,
+          "title": "Understanding the Impact of Apache Log4j Vulnerability"
+        },
+        {
           "id": "http://security.googleblog.com/2021/12/improving-oss-fuzz-and-jazzer-to-catch.html",
           "author": null,
           "description": "Posted by Jonathan Metzman, Google Open Source Security Team\n\n\nThe discovery of the Log4Shell vulnerability has set the internet on fire. Similar to shellshock and heartbleed, Log4Shell is just the latest catastrophic vulnerability in software that runs the internet. Our mission as the Google Open Source Security Team is to secure the open source libraries the world depends on, such as Log4j. One of our capabilities in this space is OSS-Fuzz, a free fuzzing service that is used by over 500 critical open source projects and has found more than 7,000 vulnerabilities in its lifetime. \nWe want to empower open source developers to secure their code on their own. Over the next year we will work on better automated detection of non-memory corruption vulnerabilities such as Log4Shell. We have star…",
@@ -45,6 +63,91 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1519",
+          "author": null,
+          "description": "We’re joined by Eran Yahav — talking about AI assistants for developers. Eran has been working on this problem for more than a decade. We talk about his path to now and how the idea for Tabnine came to life, this AI revolution taking place and the role it will play in developer productivity, and we talk about the elephant in the room - how Tabnine compares to GitHub Copilot, and what they’re doing to make Tabnine the AI assistant for every developer regardless of the IDE or editor you choose.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nInfluxData – InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive volumes and countless sources of time-stamped d…",
+          "link": "https://changelog.com/podcast/472",
+          "publishedOn": "2021-12-17T22:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 472: AI-assisted development is here to stay",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/472/the-changelog-472.mp3",
+            "length": "73832369",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/DzPp",
+          "author": "Jerod Santo",
+          "description": "This is the first (of probably many) “playing with generics” post we’ll see now that Go 1.18 is in beta with official support for the controversial feature.\nThis post aims to describe my initial experience converting my markphelps/optional library from using code generation to using generics instead. Hopefully, after reading this post you’ll have a better understanding of what generics can do for you and what they can’t.\nMark shares lots of good tips along the way. His findings are quite positive:\nI ❤️ that I was able to delete 95% of my code because of generics.\nI think that generics will be very beneficial to maintainers who create libraries for things like my own as well as for searching, sorting, transformations, and the like. I can also see some them being extremely helpful for creating well-tested libraries around the various concurrency patterns that are sometimes tricky to get right.\nDiscuss on Changelog News",
+          "link": "https://markphelps.me/posts/trying-out-generics-in-go/",
+          "publishedOn": "2021-12-17T18:41:00.000Z",
+          "wordCount": null,
+          "title": "Trying out generics in Go",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/k2Me",
+          "author": "Jerod Santo",
+          "description": "Arnold Galovics:\nMicroservices are getting natural and we almost feel like we’ve been always living in the world of microservices. Lately when I talked to other developers and asked how they would start a greenfield project, almost certainly the answer was, well, one microservice for this, another one for this, another one for user management, one more for authentication, another for authorization, one more for session management, and the list could go on.\nI’m gonna try to shed some light on what nobody is talking about when it comes to microservices. And yeah, it’s gonna be a first-hand experience from a past projects I worked on.\nThis excellent piece gave me some serious deja vu of [Kelsey Hightower’s monoliths are the future. I’m quite looking forward to Arnold’s upcoming “chapter 2” of the story.\nDiscuss on Changelog News",
+          "link": "https://arnoldgalovics.com/microservices-in-production/",
+          "publishedOn": "2021-12-17T17:54:00.000Z",
+          "wordCount": null,
+          "title": "Don’t start with microservices – monoliths are your friend",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1505",
+          "author": null,
+          "description": "Jerod, Nick, and a node_modules-worthy collection of JS friends played an intense game of Frontend Feud at React Advanced London’s after-party back in October. Today, you get to play along with us!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of building internal tools from scratch, the world’s best teams, from startups to Fortune 500s, are using Retool to power their internal apps. Learn more and try it for free at retool.com/changelog\n\n    \nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nFeaturing\nMichael Chan – Twitter, GitHub, Website\nYuraima Estevez – Twitter, GitHub, Website\nBrandon Dail – Twitter, GitHub, Website\nTara Z. Manicsic – Twitter, GitHub, Website\nNick Nisi – Twitter, GitHub, Website\nColby Fayock – Twitter, GitHub, Website\nJerod Santo – Twitter, GitHub\nNotes and Links\nJS Party Merch!\nJavaScript’s security model is based",
+          "link": "https://changelog.com/jsparty/206",
+          "publishedOn": "2021-12-17T16:15:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 206: Frontend Feud: React Advanced Edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/206/js-party-206.mp3",
+            "length": "63715826",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/X6MZ",
+          "author": "Jerod Santo",
+          "description": "Turns out the pass command on your local Linux box can be used for a bunch of encryption-related things in addition to what most of us use it for: managing a user’s password.\nOne cool example is you can hide API keys from shoulder surfers (and history’s memory) by storing the key encrypted on disk and using pass to access it at runtime:\ncurl -H \"API-Key: $(pass provider/api_key)\" ...\n\nDiscuss on Changelog News",
+          "link": "https://vitalyparnas.com/guides/pass/",
+          "publishedOn": "2021-12-17T15:37:00.000Z",
+          "wordCount": null,
+          "title": "Clever uses of pass, the Unix password manager",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1499",
+          "author": null,
+          "description": "In 2014 Gerhard joined CloudCredo, a startup co-founded by Colin Humphreys, Paula Kennedy & Chris Hedley. They stuck together through two acquisitions: Pivotal & VMware. This year, Colin, Paula & Chris co-founded Syntasso, the Platform-as-a-Product startup.\nToday they all get together to talk about about what it takes to build a platform team, why Team Topologies is a good conversation starter and why a curated blend of off-the-shelf, composed, and self-created services are required in any organisation operating at scale.\nYour hunch is right, all of them used to share the same Pivotal London office with Tammer Saleh, our guest from episode 31. Chris used to win all table tennis matches without even breaking a sweat, and today Gerhard gets his comeback. Touché!\nDiscuss on Changelog News\nJoi…",
+          "link": "https://changelog.com/shipit/32",
+          "publishedOn": "2021-12-17T14:45:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 32: Crossing the platform gap",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/32/ship-it-32.mp3",
+            "length": "68916345",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/wkab",
+          "author": "Jerod Santo",
+          "description": "A post from back in June resurfaced this week in light of the big Rails 7 release.\nI learned to code in the JavaScript stack and am building a JavaScript based product. I never questioned this stack: many companies default to it, JS everywhere seems good, and the community is big. But for my new side project I decided to try Rails because despite some perception that Ruby on Rails is ‘over’, people in HN comments say it was somehow more enjoyable than the newer Node based stack. Having tried it I can say wow - coming from the current Javascript ecosystem makes discovering Rails a revelation.\nIf you make your technology choices because of “perception that $TECHNOLOGY is ‘over’”, you are missing out on a world of potentially great options.\nDiscuss on Changelog News",
+          "link": "https://nikodunk.com/a-node-js-developer-discovers-rails/",
+          "publishedOn": "2021-12-17T14:30:00.000Z",
+          "wordCount": null,
+          "title": "From Node to Ruby on Rails",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1531",
           "author": null,
@@ -924,41 +1027,6 @@
           "wordCount": null,
           "title": "Auto-improved transcripts with GitHub Actions",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1517",
-          "author": null,
-          "description": "Tiago Mendes joins Mat, Jon, and Johnny to discuss eventual consistency and strategies for changing data at scale.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nIncident.io – Create, manage, and resolve incidents directly in Slack. Use the /incident command to create and manage incidents. This command lets you share updates, assign roles, set important lin…",
-          "link": "https://changelog.com/gotime/206",
-          "publishedOn": "2021-11-18T22:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 206: Eventually consistent (managing data at scale)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/206/go-time-206.mp3",
-            "length": "64460807",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Z3Lm",
-          "author": "Jerod Santo",
-          "description": "Our progress with safeguards makes it possible to remove the waitlist for GPT-3. Starting today, developers in supported countries can sign up and start experimenting with our API right away.\nGood news for anyone still waiting around for access.\nDiscuss on Changelog News",
-          "link": "https://openai.com/blog/api-no-waitlist/",
-          "publishedOn": "2021-11-18T17:33:00.000Z",
-          "wordCount": null,
-          "title": "OpenAI’s API is now open (goodbye, waitlist)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/MdOG",
-          "author": "Bhupesh Varshney",
-          "description": "Overdoing things can have a deep mental impact, one should not feel guilty about giving up on something. It’s the same with pursuing side-projects don’t hesitate to abandon them if the need arises\nDiscuss on Changelog News",
-          "link": "https://buttondown.email/bhupesh/archive/why-its-ok-to-abandon-your-side-projects/",
-          "publishedOn": "2021-11-18T15:35:00.000Z",
-          "wordCount": null,
-          "title": "Why it's OK to abandon your side projects",
-          "itunes": {}
         }
       ]
     },
@@ -993,6 +1061,15 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/products/earth/archaeologist-fights-tomb-raiders-google-earth/",
+          "author": null,
+          "description": "In the summer, Dr. Gino Caspari’s day starts at 5:30 a.m. in Siberia, where he studies the ancient Scythians with the Swiss National Science Foundation. There, he looks for burial places of these nomadic warriors who rode through Asia 2,500 years ago. The work isn’t easy, from dealing with extreme temperatures, to swamps covered with mosquitos. But the biggest challenge is staying one step ahead of tomb raiders.\nIt’s believed that more than 90% of the tombs — called kurgans — have already been destroyed by raiders looking to profit off what they find, but Gino is looking for the thousands he believes remain scattered across Russia, Mongolia and Western China. To track his progress, he began mapping these burial sites using Google Earth. “There’s a plethora of open data sources out there, b…",
+          "link": "https://blog.google/products/earth/archaeologist-fights-tomb-raiders-google-earth/",
+          "publishedOn": "2021-12-17T17:00:00.000Z",
+          "wordCount": 1286,
+          "title": "This archaeologist fights tomb raiders with Google Earth"
+        },
+        {
           "id": "https://blog.google/outreach-initiatives/google-org/unlocking-human-rights-information-with-machine-learning/",
           "author": null,
           "description": "Human rights defenders need information from many sources to do their work effectively. But as issues evolve and new precedents are set, finding the right information to defend a particular case can be like looking for a needle in a haystack.\nFor example, a human rights advocate campaigning for LGBTQ rights may want to know which countries have made the most progress and what resolutions they’ve passed. To do so, they have to manually sift through thousands of pages of dense documentation covering global laws and victims’ testimonies to find what they’re looking for.\nThe curation and cataloging of documents makes this process much easier, but still relies on the manual work of skilled experts. To help, the non-profit organization HURIDOCS looked to machine learning. With support from Googl…",
@@ -1009,15 +1086,6 @@
           "publishedOn": "2021-12-01T01:00:00.000Z",
           "wordCount": 1217,
           "title": "Machine learning to make sign language more accessible"
-        },
-        {
-          "id": "https://blog.google/technology/ai/decade-deep-learning-and-whats-next/",
-          "author": null,
-          "description": "Twenty years ago, Google started using machine learning, and 10 years ago, it helped spur rapid progress in AI using deep learning. Jeff Dean and Marian Croak of Google Research take a look at how we’ve innovated on these techniques and applied them in helpful ways, and look ahead to a responsible and inclusive path forward.\n\n\n\n\nJeff Dean\n\n\nFrom research demos to AI that really works\n\n\nI was first introduced to neural networks — computer systems that roughly imitate how biological brains accomplish tasks — as an undergrad in 1990. I did my senior thesis on using parallel computation to train neural networks. In those early days, I thought if we could 32X more compute power (using 32 processors at the time!), we could get neural networks to do impressive things. I was way off. It turns out …",
-          "link": "https://blog.google/technology/ai/decade-deep-learning-and-whats-next/",
-          "publishedOn": "2021-11-18T18:30:00.000Z",
-          "wordCount": 2534,
-          "title": "A decade in deep learning, and what's next"
         }
       ]
     },
@@ -1052,15 +1120,6 @@
           "publishedOn": "2021-12-03T12:45:48.000Z",
           "wordCount": 1617,
           "title": "Why curl is used everywhere, even on Mars"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=17766",
-          "author": "Daniel Stenberg",
-          "description": "Imagine running a trillion dollar company that bundles various open source components into your products, making billions of dollars of profit annually. When one of your users reach out and ask for help, with the product you ship to your customers, you instead refer the user to the open source project. The project which is … Continue reading Free Apple support →",
-          "link": "https://daniel.haxx.se/blog/2021/11/18/free-apple-support/",
-          "publishedOn": "2021-11-18T14:50:03.000Z",
-          "wordCount": 729,
-          "title": "Free Apple support"
         }
       ]
     },
@@ -1234,6 +1293,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62032",
+          "author": "Pulkit Agarwal",
+          "description": "When you want to create a workflow in the Actions tab of your repository, the recommendations are now based on an analysis of repo content.",
+          "link": "https://github.blog/2021-12-17-getting-started-with-github-actions-just-got-easier/",
+          "publishedOn": "2021-12-17T17:35:29.000Z",
+          "wordCount": 506,
+          "title": "Getting started with GitHub Actions just got easier!"
+        },
         {
           "id": "https://github.blog/?p=62042",
           "author": "Ian Olsen",
@@ -1476,15 +1544,6 @@
           "publishedOn": "2021-11-19T18:41:19.000Z",
           "wordCount": 1648,
           "title": "What’s new from GitHub Changelog? October 2021 recap"
-        },
-        {
-          "id": "https://github.blog/?p=61473",
-          "author": "Brian Douglas",
-          "description": "Check out some advanced automation and CI/CD capabilities you can use today with GitHub Actions on any GitHub account.",
-          "link": "https://github.blog/2021-11-18-7-advanced-workflow-automation-features-with-github-actions/",
-          "publishedOn": "2021-11-18T17:06:45.000Z",
-          "wordCount": 917,
-          "title": "7 advanced workflow automation features with GitHub Actions"
         }
       ]
     },
@@ -1519,15 +1578,6 @@
           "publishedOn": "2021-11-22T17:42:46.000Z",
           "wordCount": 3182,
           "title": "NuLab Salvador: Nubank prepares to inaugurate technology and customer experience hub￼"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=17947",
-          "author": "Nubank Editorial",
-          "description": "In 2022, we want to be even closer to people through special events and content. The 2022 FIFA World Cup will be held in Qatar between November and December and will have Nubank as an official supporter. \nThe post Nubank is an official World Cup supporter: soon, we’ll have more surprises for our customers appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-qatar-2022/",
-          "publishedOn": "2021-11-18T13:18:39.000Z",
-          "wordCount": 3237,
-          "title": "Nubank is an official World Cup supporter: soon, we’ll have more surprises for our customers"
         }
       ]
     },
@@ -1598,15 +1648,6 @@
           "publishedOn": "2021-11-19T17:00:00.000Z",
           "wordCount": 1354,
           "title": "TikTok Celebrates One Year of Bug Bounty"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/bug-bounty-platforms-best-choices-bug-bounty-program",
-          "author": "HackerOne",
-          "description": "Are you wondering about bug bounty platforms? We explain what a bug bounty platform is and how it can help you run a successful bug bounty program.",
-          "link": "https://www.hackerone.com/vulnerability-management/bug-bounty-platforms-best-choices-bug-bounty-program",
-          "publishedOn": "2021-11-18T17:50:00.000Z",
-          "wordCount": 1323,
-          "title": "Bug Bounty Platforms [Best Choices For a Bug Bounty Program]"
         }
       ]
     }
