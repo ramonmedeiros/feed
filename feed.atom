@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-21T12:29:12.774Z</updated>
+    <updated>2021-12-22T12:28:57.677Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The curl year 2021]]></title>
+        <id>https://daniel.haxx.se/blog/?p=17924</id>
+        <link href="https://daniel.haxx.se/blog/2021/12/21/the-curl-year-2021/"/>
+        <updated>2021-12-21T22:13:28.000Z</updated>
+        <summary type="html"><![CDATA[Every year is a curl year. I’m saving my bigger summary for curl’s 24th birthday in March, but when reaching the end of a calendar year it feels natural and even fun to look back and highlight some of the things we accomplished and what happened during this particular lap around the sun. I decided … Continue reading The curl year 2021 →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How GitHub contributed to the Santa Clara Principles update]]></title>
+        <id>https://github.blog/?p=62205</id>
+        <link href="https://github.blog/2021-12-21-how-github-contributed-santa-clara-principles-update/"/>
+        <updated>2021-12-21T17:55:56.000Z</updated>
+        <summary type="html"><![CDATA[GitHub was honored to contribute to the Santa Clara Principles on Transparency and Accountability in Content Moderation 2.0.]]></summary>
+        <author>
+            <name>Rose Coogan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top 5 Takeaways from the 2021 Hacker-Powered Security Report: Industry Insights]]></title>
+        <id>https://hackerone.com/hacker-powered-security-report/top-5-takeaways-2021-hacker-powered-security-report-industry</id>
+        <link href="https://www.hackerone.com/hacker-powered-security-report/top-5-takeaways-2021-hacker-powered-security-report-industry"/>
+        <updated>2021-12-21T17:50:00.000Z</updated>
+        <summary type="html"><![CDATA[For the fifth year in a row, HackerOne published a report that provides insights from the world’s largest database of vulnerabilities and bug bounty customer programs. Here are the top five findings:]]></summary>
+        <author>
+            <name>vincent@hackerone.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Changelog 473: State of the "log" 2021]]></title>
         <id>changelog.com/1/1528</id>
@@ -1948,51 +1978,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[The much-anticipated (and admittedly much-hyped) full stack web framework for React has opened its source (MIT license) to the public. What’s interesting about Remix? Here’s some marketing copy from the homepage:
 Remix is a seamless server and browser runtime that provides snappy page loads and instant transitions by leveraging distributed systems and native browser features instead of clunky static builds. Built on the Web Fetch API (instead of Node) it can run anywhere. It already runs natively on Cloudflare Workers, and of course supports serverless and traditional Node.js environments, so you can come as you are.
 Okay that is pretty sales-y (hit up the homepage for more like that), so you might prefer jumping straight over to the docs instead and check out the example Jokes app to see what’s what.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NuLab Salvador: Nubank prepares to inaugurate technology and customer experience hub￼]]></title>
-        <id>https://building.nubank.com.br/?p=17967</id>
-        <link href="https://building.nubank.com.br/nulab-salvador/"/>
-        <updated>2021-11-22T17:42:46.000Z</updated>
-        <summary type="html"><![CDATA[Announced in 2020, NuLab Salvador will be headquartered in a building located in the Rio Vermelho neighborhood. Get to know the project.
-The post NuLab Salvador: Nubank prepares to inaugurate technology and customer experience hub￼ appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Leonardo Pierette</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accelerate security adoption in your organization]]></title>
-        <id>https://github.blog/?p=61563</id>
-        <link href="https://github.blog/2021-11-22-accelerate-security-adoption-in-your-organization/"/>
-        <updated>2021-11-22T17:27:15.000Z</updated>
-        <summary type="html"><![CDATA[The GitHub Services Engineers have released the Advanced Security Enforcer GitHub Action to enable organizations to utilize code scanning in a consistent and automated way.]]></summary>
-        <author>
-            <name>Zack Koppert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An ESLint plugin to detect and stop Trojan Source attacks]]></title>
-        <id>changelog.com/news/k2dg</id>
-        <link href="https://github.com/lirantal/eslint-plugin-anti-trojan-source"/>
-        <updated>2021-11-22T15:58:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’re unaware of what Trojan Source attacks are, or how unicode characters injected into a codebase could be used in malicious ways, refer to the README of the anti-trojan-source source code repository.
-This ESLint plugin is based on the library and command-line tool anti-trojan-source.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Liran Tal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[elfshaker is version control fine-tuned for binaries]]></title>
-        <id>changelog.com/news/294m</id>
-        <link href="https://github.com/elfshaker/elfshaker"/>
-        <updated>2021-11-22T14:42:00.000Z</updated>
-        <summary type="html"><![CDATA[elfshaker is a CLI tool written in the Rust programming language. It stores snapshots of directories into highly-compressed pack files and provides fast on-demand access to the stored files. It is particularly good for storing lots of similar files, for example object files from an incremental build.
-They’ve had phenomenal results when using this with clang builds.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
