@@ -55,6 +55,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/X6aZ",
+          "author": "Jerod Santo",
+          "description": "I’ve been an iStat Menus user for years, but I only use the network and CPU widgets today. In fact, with my new MacBook Pro Max, the CPU monitor is pretty useless at this point. It rarely ever makes a blip!\nThis looks like a fine open source alternative. I’ll give it a try and report back.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/exelban/stats",
+          "publishedOn": "2022-01-03T20:48:00.000Z",
+          "wordCount": null,
+          "title": "A macOS system monitor in your menu bar",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1551",
+          "author": null,
+          "description": "Here’s a little bonus episode before we get back to your regularly scheduled Go Time. We’re calling it the funny bits. It’s a compilation of times we cracked up making the show for y’all. If you dig it, holler at Jerod. If you don’t, email Mat Ryer.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nFeaturing\nKat Zień – Twitter, GitHub, Website\nL Körbes – Twitter, GitHub, Website\nDaniel Martí – Twitter, GitHub, LinkedIn, Website\nRoberto Clapis – Twitter, GitHub\nCarl Johnson – Twitter, GitHub, Website\nAndré Eriksson – Twitter, GitHub, Website\nCarolyn Van Slyck – Twitter, GitHub, Website\nKatie Hockman – Twitter, GitHub\nJay Conrod – Twitter, GitHub, Website\nTeiva Harsanyi – Twitter, GitHub, Website\nsam boyer – Twitter, GitHub\nCarlisia Thompson – Twitter, GitHub, LinkedIn\nIan Lopshire – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nMark Bates – Twitter, GitHub, Website\nAngelica Hill – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nNotes and Links\n#161: Go Panic!\n#166: Indecent (language) Proposals: Part 1\n#168: Indecent (language) Proposals: Part 2\n#171: go:embed\n#173: Releasing with (and without) GoReleaser\n#180: Are frameworks getting an Encore?\n#184: All about Porter\n#187: Fuzzing in the standard library\n#190: How to make mistakes in Go\n#196: Building actually maintainable software\n#200: Gophers Say What?!\n#202: Maintaining ourselves",
+          "link": "https://changelog.com/gotime/funny-bits-2021",
+          "publishedOn": "2022-01-03T18:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time The funny bits from 2021",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/funny-bits-2021/go-time-funny-bits-2021.mp3",
+            "length": "27148733",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/d3a8",
+          "author": "Jerod Santo",
+          "description": "RSS-Bridge is a PHP project capable of generating RSS and Atom feeds for websites that don’t have one. It can be used on webservers or as a stand-alone application in CLI mode.\nI made a very poor-man’s version of this as my first ever Sinatra app way back in the day. It’s cool to see that vision live on, but it sucks that tools like this have to exist. It seems that the author agrees with me on that:\nWe want to share with friends, using open protocols: RSS, Atom, XMPP, whatever. Because no one wants to have your service with your applications using your API force-feeding them. Friends must be free to choose whatever software and service they want.\nWe are rebuilding bridges you have willfully destroyed.\nDiscuss on Changelog News",
+          "link": "https://github.com/RSS-Bridge/rss-bridge",
+          "publishedOn": "2022-01-03T16:07:00.000Z",
+          "wordCount": null,
+          "title": "The RSS feed for websites missing it",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/6OAq",
+          "author": "Jerod Santo",
+          "description": "OpenDrop is a command-line tool that allows sharing files between devices directly over Wi-Fi. Its unique feature is that it is protocol-compatible with Apple AirDrop which allows to share files with Apple devices running iOS and macOS.\nSuper cool, but with a disclaimer: this is the result of reverse engineering the transfer protocol, so the odds of it being flakey (especially as Apple ships OS updates) are high. It’d be rad if Apple would publish an AirDrop-compatible specification for the community to rally around.\nYou know, like they did with FaceTime. 😉\nDiscuss on Changelog News",
+          "link": "https://github.com/seemoo-lab/opendrop",
+          "publishedOn": "2022-01-03T15:19:00.000Z",
+          "wordCount": null,
+          "title": "AirDrop files directly from your CLI with OpenDrop",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1466",
           "author": null,
           "description": "Merry Shipmas! This is our special Christmas episode which sums up two months of very early mornings and a few late nights. After many twists and turns, stuff which didn’t work out, as well as pleasant surprises, this is what we ended up with:\n🎁 PR #395 - CI/CD Lego set with Guillaume de Rouville & Joel Longtine\n🎁 PR #396 - Continuous CPU profiling with Frederic Branczyk\n🎁 PR #399 - Auto-restoring Kubernetes clusters with Dan Mangum & Muvaffak Onuş\nWhile we initially intended to have five Christmas presents in total, only three got delivered in time. We planned, worked hard and eventually shipped the best we could just in time for this special Christmas episode. Our hope is that the latest additions to our changelog.com GitHub repository will help you just as much as they will help our …",

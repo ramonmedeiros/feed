@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-03T12:29:11.517Z</updated>
+    <updated>2022-01-04T12:28:57.741Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A macOS system monitor in your menu bar]]></title>
+        <id>changelog.com/news/X6aZ</id>
+        <link href="https://github.com/exelban/stats"/>
+        <updated>2022-01-03T20:48:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been an iStat Menus user for years, but I only use the network and CPU widgets today. In fact, with my new MacBook Pro Max, the CPU monitor is pretty useless at this point. It rarely ever makes a blip!
+This looks like a fine open source alternative. I’ll give it a try and report back.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time The funny bits from 2021]]></title>
+        <id>changelog.com/2/1551</id>
+        <link href="https://changelog.com/gotime/funny-bits-2021"/>
+        <updated>2022-01-03T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Here’s a little bonus episode before we get back to your regularly scheduled Go Time. We’re calling it the funny bits. It’s a compilation of times we cracked up making the show for y’all. If you dig it, holler at Jerod. If you don’t, email Mat Ryer.
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Featuring
+Kat Zień – Twitter, GitHub, Website
+L Körbes – Twitter, GitHub, Website
+Daniel Martí – Twitter, GitHub, LinkedIn, Website
+Roberto Clapis – Twitter, GitHub
+Carl Johnson – Twitter, GitHub, Website
+André Eriksson – Twitter, GitHub, Website
+Carolyn Van Slyck – Twitter, GitHub, Website
+Katie Hockman – Twitter, GitHub
+Jay Conrod – Twitter, GitHub, Website
+Teiva Harsanyi – Twitter, GitHub, Website
+sam boyer – Twitter, GitHub
+Carlisia Thompson – Twitter, GitHub, LinkedIn
+Ian Lopshire – Twitter, GitHub
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+Johnny Boursiquot – Twitter, GitHub, Website
+Mark Bates – Twitter, GitHub, Website
+Angelica Hill – Twitter, GitHub
+Kris Brandow – Twitter, GitHub
+Natalie Pistunovich – Twitter, GitHub
+Jerod Santo – Twitter, GitHub
+Notes and Links
+#161: Go Panic!
+#166: Indecent (language) Proposals: Part 1
+#168: Indecent (language) Proposals: Part 2
+#171: go:embed
+#173: Releasing with (and without) GoReleaser
+#180: Are frameworks getting an Encore?
+#184: All about Porter
+#187: Fuzzing in the standard library
+#190: How to make mistakes in Go
+#196: Building actually maintainable software
+#200: Gophers Say What?!
+#202: Maintaining ourselves]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The RSS feed for websites missing it]]></title>
+        <id>changelog.com/news/d3a8</id>
+        <link href="https://github.com/RSS-Bridge/rss-bridge"/>
+        <updated>2022-01-03T16:07:00.000Z</updated>
+        <summary type="html"><![CDATA[RSS-Bridge is a PHP project capable of generating RSS and Atom feeds for websites that don’t have one. It can be used on webservers or as a stand-alone application in CLI mode.
+I made a very poor-man’s version of this as my first ever Sinatra app way back in the day. It’s cool to see that vision live on, but it sucks that tools like this have to exist. It seems that the author agrees with me on that:
+We want to share with friends, using open protocols: RSS, Atom, XMPP, whatever. Because no one wants to have your service with your applications using your API force-feeding them. Friends must be free to choose whatever software and service they want.
+We are rebuilding bridges you have willfully destroyed.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AirDrop files directly from your CLI with OpenDrop]]></title>
+        <id>changelog.com/news/6OAq</id>
+        <link href="https://github.com/seemoo-lab/opendrop"/>
+        <updated>2022-01-03T15:19:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenDrop is a command-line tool that allows sharing files between devices directly over Wi-Fi. Its unique feature is that it is protocol-compatible with Apple AirDrop which allows to share files with Apple devices running iOS and macOS.
+Super cool, but with a disclaimer: this is the result of reverse engineering the transfer protocol, so the odds of it being flakey (especially as Apple ships OS updates) are high. It’d be rad if Apple would publish an AirDrop-compatible specification for the community to rally around.
+You know, like they did with FaceTime. 😉
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Advancing Jupyter Notebooks at Twitter - Part 1]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d</id>
