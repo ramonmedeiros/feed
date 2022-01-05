@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-04T12:28:57.741Z</updated>
+    <updated>2022-01-05T12:29:26.242Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl 7.81.0 – more percent]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18119</id>
+        <link href="https://daniel.haxx.se/blog/2022/01/05/curl-7-81-0-more-percent/"/>
+        <updated>2022-01-05T08:03:22.000Z</updated>
+        <summary type="html"><![CDATA[There has been eight weeks since 7.80.0. Release presentation Numbers the 205th release1 change56 days (total: 8,636)121 bug-fixes (total: 7,518)189 commits (total: 28,055)0 new public libcurl function (total: 86)1 new curl_easy_setopt() option (total: 295)1 new curl command line option (total: 244)53 contributors, 25 new (total: 2,558)32 authors, 14 new (total: 990)0 security fixes (total: 111)0 … Continue reading curl 7.81.0 – more percent →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A dark/sleek Emacs setup for general purpose editing and programming]]></title>
+        <id>changelog.com/news/DzAp</id>
+        <link href="https://github.com/susam/emfy"/>
+        <updated>2022-01-04T17:26:00.000Z</updated>
+        <summary type="html"><![CDATA[This project provides a tiny .emacs file to set up Emacs quickly. This document provides a detailed description of how to set it up and get started with Emacs.
+Further this project also provides a tiny convenience command named em to start Emacs server and edit files using Emacs server. This helps in using Emacs efficiently.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compiling a Go program into a native binary for Nintendo Switch™]]></title>
+        <id>changelog.com/news/k2Ve</id>
+        <link href="https://ebiten.org/blog/native_compiling_for_nintendo_switch.html"/>
+        <updated>2022-01-04T16:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Previously, we compiled a Go program into a WebAssembly and then converted it into C++ files to make it run on Nintendo Switch. Now, I have succeeded in compiling a Go program into a native binary for Nintendo Switch, and also running a game there. I replaced system calls with C function calls using the -overlay option.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS fingerprinting]]></title>
+        <id>changelog.com/news/13A6</id>
+        <link href="https://csstracking.dev/"/>
+        <updated>2022-01-04T15:51:44.000Z</updated>
+        <summary type="html"><![CDATA[Oliver Brotchie developed this CSS fingerprinting technique that requires no Javascript or Cookies to function and avoids anti-tracking methods such as NoScript, VPNs or browser extensions.
+CSS Fingerprinting is a technique of tracking and gathering information on site visitors. This method exploits the nature of CSS to track various characteristics about the visitor’s browser and device, which can later be used to either identify or track said visitor.
+Right now, at current spec, this method doesn’t scale, but with the next upcoming draft of the CSS specification, CSS Values 4, it will become far more scalable and precise.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dura is a background process that watches your Git repos]]></title>
+        <id>changelog.com/news/gdzW</id>
+        <link href="https://github.com/tkellogg/dura"/>
+        <updated>2022-01-04T15:25:00.000Z</updated>
+        <summary type="html"><![CDATA[If you ever get into an “oh snap!” situation where you think you just lost days of work, checkout a dura branch and recover.
+Without dura, you use Ctrl-Z in your editor to get back to a good state. That’s so 2021. Computers crash and Ctrl-Z only works on files independently. Dura snapshots changes across the entire repository as-you-go, so you can revert to “4 hours ago” instead of “hit Ctrl-Z like 40 times or whatever”. Finally, some sanity.
+This sounds a lot like how Fossil works out of the box, except maybe even more paranoid because Fossil will propagate every commit whereas Dura propagates all changes even before they’re committed.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A macOS system monitor in your menu bar]]></title>
         <id>changelog.com/news/X6aZ</id>
@@ -1249,115 +1310,6 @@ The idea is simple: ask “why” 5 times, until you get to the root cause of yo
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How SQLite is tested]]></title>
-        <id>changelog.com/news/Q5zo</id>
-        <link href="https://www.sqlite.org/testing.html"/>
-        <updated>2021-12-06T22:53:11.000Z</updated>
-        <summary type="html"><![CDATA[This hit my radar a few times in the past year – this week, and then most recently a few months back when we had Richard Hipp on The Changelog (again) – but, I didn’t post it to the newsfeed.
-Here’s what’s interesting about the SQLite test suite – it’s their secret sauce…the sustaining enablement of building a support business around SQLite. Here’s a direct quote from Richard Hipp in that episode.
-Originally we thought we were gonna sell this and make money from it, and that’s how we were gonna support ongoing development. That didn’t really play out, nobody ever bought it. It does sort of become our business value, our intellectual property. I mean, you can take the SQLite code and fork it and start your own thing…but you don’t have the full test suite. You’ve got a lot of tests, but not all of them. So we’ve got a little bit of advantage over you there.
-Click here to play that episode from this quote.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write more secure code with the OWASP Top 10 Proactive Controls]]></title>
-        <id>https://github.blog/?p=61743</id>
-        <link href="https://github.blog/2021-12-06-write-more-secure-code-owasp-top-10-proactive-controls/"/>
-        <updated>2021-12-06T22:30:11.000Z</updated>
-        <summary type="html"><![CDATA[This lesser-known OWASP project aims to help developers prevent vulnerabilities from being introduced in the first place.]]></summary>
-        <author>
-            <name>Alvaro Munoz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Safeguard your containers with new container signing capability in GitHub Actions]]></title>
-        <id>https://github.blog/?p=61737</id>
-        <link href="https://github.blog/2021-12-06-safeguard-container-signing-capability-actions/"/>
-        <updated>2021-12-06T17:30:08.000Z</updated>
-        <summary type="html"><![CDATA[GitHub has partnered with the OpenSSF and Project Sigstore to add container image signing to our default “Publish Docker Container” workflow.]]></summary>
-        <author>
-            <name>Justin Hutchings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There are "no easter eggs in curl"]]></title>
-        <id>changelog.com/news/8Ozj</id>
-        <link href="https://daniel.haxx.se/blog/2021/12/06/no-easter-eggs-in-curl/"/>
-        <updated>2021-12-06T17:22:01.000Z</updated>
-        <summary type="html"><![CDATA[If you’re a fan of Easter eggs in software, you won’t find them in the curl codebase. Daniel explains, “There are no Easter eggs in curl. For the good.” The parimary reason is “trust,” but also to not waste time and effort on “useless work.”
-If we would allow an Easter egg to get merged, we would soon start getting improvements to the egg code and people would like to add more eggs and to change the existing one. We would spend time and effort on the silly parts and we would need to spend testing and energy on these jokes instead of the real thing. We already have enough work without adding irrelevant work to the pile.
-Given the massive usage of curl, I agree with the all business approach that Daniel desires and promises.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fine-grained sandboxing in Firefox 95]]></title>
-        <id>changelog.com/news/N5XO</id>
-        <link href="https://hacks.mozilla.org/2021/12/webassembly-and-back-again-fine-grained-sandboxing-in-firefox-95/"/>
-        <updated>2021-12-06T16:29:00.000Z</updated>
-        <summary type="html"><![CDATA[In Firefox 95, we’re shipping a novel sandboxing technology called RLBox that makes it easy and efficient to isolate subcomponents to make the browser more secure. This technology opens up new opportunities beyond what’s been possible with traditional process-based sandboxing…
-Turns out using WebAssembly to isolate potentially-buggy code is a pretty big win:
-Going forward, we can treat these modules as untrusted code, and — assuming we did it right — even a zero-day vulnerability in any of them should pose no threat to Firefox.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An introduction to work sample tests]]></title>
-        <id>changelog.com/news/n7ZG</id>
-        <link href="https://jacobian.org/2021/nov/9/wst-intro/"/>
-        <updated>2021-12-06T15:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Jacob Kaplan-Moss, who has been writing a lot about good interview questions and how to hire well:
-Work sample tests are an exercise, a simulation, a small slice of real day-to-day work that we ask candidates to perform. They’re practical, hands-on, and very close or even identical to actual tasks the person would perform if hired. They’re also small, constrained, and simplified enough to be fair to include in a job selection process.
-To give you a more concrete idea of what I’m talking about, here are several examples of work sample tests I’ve used…
-And just in case you think he’s prescribing whiteboarding…
-However, work sample tests are also a minefield: the space is littered with silly practices like whiteboarding, FizzBuzz, Leetcode, and “reverse a linked list”-style bullshit. The point of this series is to separate these silly practices from the good ones and to give you a framework and several examples to use in your hiring rounds.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A lightweight alternative to Elasticsearch that requires minimal resources]]></title>
-        <id>changelog.com/news/YNDL</id>
-        <link href="https://github.com/prabhatsharma/zinc"/>
-        <updated>2021-12-06T14:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Zinc is a search engine that does full text indexing. It is a lightweight alternative to elasticsearch and runs in less than 100 MB of RAM. It uses bluge as the underlying indexing library.
-It is very simple and easy to operate as opposed to elasticsearch which requires a couple dozen knobs to understand and tune.
-It is a drop-in replacement for elasticsearch if you are just ingesting data using APIs and searching using kibana (Kibana is not supported with zinc. Zinc provides its own UI).
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No easter eggs in curl]]></title>
-        <id>https://daniel.haxx.se/blog/?p=17834</id>
-        <link href="https://daniel.haxx.se/blog/2021/12/06/no-easter-eggs-in-curl/"/>
-        <updated>2021-12-06T13:47:58.000Z</updated>
-        <summary type="html"><![CDATA[Easter egg; noun: An unexpected or undocumented feature in a piece of computer software, included as a joke or a bonus. There are no Easter eggs in curl. For the good. I’ve been asked about this many times. Among the enthusiast community, people seem to generally like the concept of Easter eggs and hidden treasures, … Continue reading No easter eggs in curl →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebAssembly and Back Again: Fine-Grained Sandboxing in Firefox 95]]></title>
-        <id>https://hacks.mozilla.org/?p=47492</id>
-        <link href="https://hacks.mozilla.org/2021/12/webassembly-and-back-again-fine-grained-sandboxing-in-firefox-95/"/>
-        <updated>2021-12-06T13:05:44.000Z</updated>
-        <summary type="html"><![CDATA[In Firefox 95, we're shipping a novel sandboxing technology called RLBox — developed in collaboration with researchers at the University of California San Diego and the University of Texas — that makes it easy and efficient to isolate subcomponents to make the browser more secure. This technology opens up new opportunities beyond what's been possible with traditional process-based sandboxing, and we look forward to expanding its usage and (hopefully) seeing it adopted in other browsers and software projects.
-The post WebAssembly and Back Again: Fine-Grained Sandboxing in Firefox 95 appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Bobby Holley</name>
         </author>
     </entry>
 </feed>
