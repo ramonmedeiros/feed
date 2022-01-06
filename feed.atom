@@ -2,10 +2,112 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-05T12:29:26.242Z</updated>
+    <updated>2022-01-06T12:29:55.119Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 34: Where is the cloud native App Store?]]></title>
+        <id>changelog.com/14/1511</id>
+        <link href="https://changelog.com/shipit/34"/>
+        <updated>2022-01-05T23:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In our first 2022 episode, Alexis Richardson, co-founder and CEO of Weaveworks, is talking to Gerhard about going fully remote, what a great team looks like, and GitOps. While you may have heard of GitOps, now is a good time to check out opengitops.dev.
+The most interesting part of today’s conversation is the missing cloud native App Store. While Apple revolutionised the world with the App Store and the iPhone, we don’t yet have something similar for cloud native apps. You may be thinking “But what about OperatorHub?”, or all the Helm registries out there? The registry fragmentation, operator deprecations and lack of curation are not what people have in mind when they think App Store. But there is more to it, so let’s hear how Alexis thinks about this.
+Discuss on Changelog News
+Join Change…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: December 2021]]></title>
+        <id>https://github.blog/?p=62275</id>
+        <link href="https://github.blog/2022-01-05-github-availability-report-december-2021/"/>
+        <updated>2022-01-05T21:34:45.000Z</updated>
+        <summary type="html"><![CDATA[In December, we experienced no incidents resulting in service downtime to our core services.]]></summary>
+        <author>
+            <name>Scott Sanders</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simple, zero-fuss docker database backups]]></title>
+        <id>changelog.com/news/bNad</id>
+        <link href="https://kolaente.dev/konrad/docker-db-backup"/>
+        <updated>2022-01-05T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Back in the olden days, I would just put a mysqldump > dump.sql in a crontab and called it a day. When I started to host more and more stuff with docker, I first just migrated that approach to docker and put it all in a container. That still required me to mess around with config files. Once I started to host postgres containers it all got even more complicated. Thus, I needed a new solution.
+I built this tool to make backups easy: Simply point it to a host running docker containers and it will automatically inspect and find all mysql/mariadb and postgres containers and do backups of them on a schedule. No configuration required, it “just works”.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Konrad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hotwire in the real world]]></title>
+        <id>changelog.com/news/P5ao</id>
+        <link href="https://finnian.io/blog/hotwire-in-the-real-world/"/>
+        <updated>2022-01-05T20:43:00.000Z</updated>
+        <summary type="html"><![CDATA[There’s lots of info out there about building a simple app with Turbo, but there’s very limited content about architecting apps, scaling or building anything that’s not simply a blog.
+In this post, I go into details about building a real production app with Hotwire and what we learnt as a team, plus some of the things we don’t like and the problems we bumped into.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Finnian Anderson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the community powers GitHub Advanced Security with CodeQL queries]]></title>
+        <id>https://github.blog/?p=62222</id>
+        <link href="https://github.blog/2022-01-05-how-the-community-powers-github-advanced-security-with-codeql-queries/"/>
+        <updated>2022-01-05T18:18:04.000Z</updated>
+        <summary type="html"><![CDATA[The GitHub Security Lab’s CodeQL bounty program fuels GitHub Advanced Security with queries written by the open source community.]]></summary>
+        <author>
+            <name>Xavier René-Corail</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZenML helps data scientists work across the full stack]]></title>
+        <id>changelog.com/news/W3MO</id>
+        <link href="https://github.com/zenml-io/zenml"/>
+        <updated>2022-01-05T16:43:00.000Z</updated>
+        <summary type="html"><![CDATA[ZenML is an extensible MLOps framework to create production-ready machine learning pipelines. Built for data scientists, it has a simple, flexible syntax, is cloud and tool agnostic, and has interfaces/abstractions that are catered towards ML workflows.
+The code base was recently completely rewritten with better abstractions and to set us up for our ongoing growth and inclusion of more integrations with tools that data scientists love to use.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Alex Strick van Linschoten</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 162: 🌍 AI in Africa - Radiant Earth]]></title>
+        <id>changelog.com/7/1552</id>
+        <link href="https://changelog.com/practicalai/162"/>
+        <updated>2022-01-05T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In the second of the “AI in Africa” spotlight episodes, we welcome guests from Radiant Earth to talk about machine learning for earth observation. They give us a glimpse into their amazing data and tooling for working with satellite imagery, and they talk about use cases including crop identification and tropical storm wind speed estimation.
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+Me, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.
+
+    
+Fastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!
+
+    
+LaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.
+
+    
+Featuring
+Hamed Alemohammad – Twitter
+Abba Barde – Twitter, LinkedIn
+Joyce Nabende – Twitter
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Radiant Earth
+ML for Earth Observation online course
+“Spot the crop” challenge
+Open for Good Alliance]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[curl 7.81.0 – more percent]]></title>
         <id>https://daniel.haxx.se/blog/?p=18119</id>
@@ -1211,105 +1313,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[GitHub Enterprise Server is now generally available for all customers. This release improves performance for CI/CD and for customers with large repositories.]]></summary>
         <author>
             <name>Ian Marsh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Hackers Help Organizations Face New Attack Vectors and Build Stronger Security Programs]]></title>
-        <id>https://hackerone.com/security-event/how-hackers-help-organizations-face-new-attack-vectors-and-build-stronger-security</id>
-        <link href="https://www.hackerone.com/security-event/how-hackers-help-organizations-face-new-attack-vectors-and-build-stronger-security"/>
-        <updated>2021-12-07T17:50:00.000Z</updated>
-        <summary type="html"><![CDATA[The risk of cyberattacks grows every day. But there is an essential defensive step that organizations can take: hacker-powered security programs.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Django 4.0 released]]></title>
-        <id>changelog.com/news/W3qg</id>
-        <link href="https://www.djangoproject.com/weblog/2021/dec/07/django-40-released/"/>
-        <updated>2021-12-07T17:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Highlights include built-in support for caching with Redis, more easily customizable forms and error lists, and standardizing Django’s timezone implementation to align with the Python standard library’s implementation. for the full list of goodies, check the release notes. Congrats to the entire Django team and community on the big release!
-Side note: we haven’t done an episode on Django for many moons. Are we due? Who’d be the perfect guest you’d love to hear from on the topic?
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enrolling all npm publishers in enhanced login verification and next steps for two-factor authentication enforcement]]></title>
-        <id>https://github.blog/?p=61784</id>
-        <link href="https://github.blog/2021-12-07-enrolling-npm-publishers-enhanced-login-verification-two-factor-authentication-enforcement/"/>
-        <updated>2021-12-07T17:00:09.000Z</updated>
-        <summary type="html"><![CDATA[Today we're introducing enhanced login verification to the npm registry, and we will begin a staged rollout to maintainers beginning Dec 7.]]></summary>
-        <author>
-            <name>Myles Borins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 160:  Friendly federated learning 🌼]]></title>
-        <id>changelog.com/7/1545</id>
-        <link href="https://changelog.com/practicalai/160"/>
-        <updated>2021-12-07T16:15:00.000Z</updated>
-        <summary type="html"><![CDATA[This episode is a follow up to our recent Fully Connected show discussing federated learning. In that previous discussion, we mentioned Flower (a “friendly” federated learning framework). Well, one of the creators of Flower, Daniel Beutel, agreed to join us on the show to discuss the project (and federated learning more broadly)! The result is a really interesting and motivating discussion of ML, privacy, distributed training, and open source AI.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-RudderStack – Smart customer data pipeline made for developers. RudderStack is the smart customer data pipeline. Connect your whole customer data stack. Warehouse-first, open source Segment alternative.
-
-    
-Me, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.
-
-    
-Featuring
-Daniel Beutel – Twitter, GitHub
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-Our FC episode on federated learning
-Flower
-Flower Blog
-Flower Conference (with videos)]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A collaborative IDE for your databases, right in your browser]]></title>
-        <id>changelog.com/news/4EXQ</id>
-        <link href="https://github.com/slashbase/slashbase"/>
-        <updated>2021-12-07T15:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Slashbase is an open-source collaborative IDE for your databases in your browser. Connect to your database, browse data, run a bunch of SQL commands or share SQL queries with your team, right from your browser!
-It’s written in Golang and Nextjs React Framework (SPA) and runs as a single Linux binary with PostgreSQL. Documentation is currently WIP.
-It’s early days and security will be a major concern to get right, but this has a lot of potential to unlock some cool use cases.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solving Advent of Code puzzles with PostgreSQL]]></title>
-        <id>changelog.com/news/q04w</id>
-        <link href="https://github.com/mitchellh/advent-2021-sql"/>
-        <updated>2021-12-07T15:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Mitchell Hashimoto is partaking in Advent of Code this year and he’s added an extra facet to the challenge: implementing each solution with a single SQL statement.
-I’m not an expert at SQL (or PostgreSQL) by any means. One of the reasons I decided to use SQL was to regain some proficiency while also learning some new concepts. I expect that many of my solutions are suboptimal and there are likely much better ways (by various definitions) to reach the same answer. I’d love to hear about those (make an issue) but I won’t be merging any changes since this represents my approach.
-Sounds like a fun challenge! But how does he find the time? By timeboxing each problem to just 30 minutes.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The "5 whys" productivity technique]]></title>
-        <id>changelog.com/news/Z3b2</id>
-        <link href="https://blog.superhuman.com/five-whys-method"/>
-        <updated>2021-12-07T14:14:00.000Z</updated>
-        <summary type="html"><![CDATA[When your productivity takes a nosedive, it adds stress and anxiety, as you don’t have enough time to accomplish your goals and do what really matters to you. Understanding why your productivity is flailing will help you get back on track.
-The idea is simple: ask “why” 5 times, until you get to the root cause of your issue. It’s not dissimilar to a kid who exasperates their parents by continually repeating “why”… but the benefits can be transformative!
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>
