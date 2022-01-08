@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-07T12:29:05.643Z</updated>
+    <updated>2022-01-08T12:28:05.040Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JS Party 207: New Year's Party! 🍾]]></title>
+        <id>changelog.com/6/1525</id>
+        <link href="https://changelog.com/jsparty/207"/>
+        <updated>2022-01-07T17:45:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s our 3rd annual New Year’s party! We welcome a new panelist, review our (failed) resolutions from last year, discuss what’s trending in the web world, and even set some new (failed) resolutions for this year.
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
+
+    
+Fastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!
+
+    
+Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
+
+    
+Featuring
+Ali Spittel – Twitter, GitHub, LinkedIn, Website
+Jerod Santo – Twitter, GitHub
+Amelia Wattenberger – Twitter, GitHub, Website
+Kevin Ball – Twitter, GitHub, LinkedIn, Website
+Nick Nisi – Twitter, GitHub, Website
+Divya – Twitter, GitHub, LinkedIn, Website
+Christopher Hiller – Twitter, GitHub, Website
+Amal Hussein – Twitter, GitHub
+Notes and Links
+You Will Be Able to Draw By the End of this Book]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-time machine learning: challenges and solutions]]></title>
+        <id>changelog.com/news/9Ojl</id>
+        <link href="https://huyenchip.com//2022/01/02/real-time-machine-learning-challenges-and-solutions.html"/>
+        <updated>2022-01-07T14:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Chip Huyen:
+In the last year, I’ve talked to ~30 companies in different industries about their challenges with real-time machine learning. I’ve also worked with quite a few to find the solutions. This post outlines the solutions for (1) online prediction and (2) continual learning, with step-by-step use cases, considerations, and technologies required for each level.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Log4Shell: Attack Evolution]]></title>
+        <id>https://hackerone.com/vulnerability-management/log4shell-attack-evolution</id>
+        <link href="https://www.hackerone.com/vulnerability-management/log4shell-attack-evolution"/>
+        <updated>2022-01-06T23:52:54.000Z</updated>
+        <summary type="html"><![CDATA[HackerOne has unique visibility into the global response to Log4Shell, seeing in real time how organizations responded and remediated. Last week HackerOne’s CISO Chris Evans and Co-founder Jobert Abma shared findings from our platform.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Go Time 211: Gophers Say! GopherCon Edition]]></title>
         <id>changelog.com/2/1532</id>
@@ -1199,123 +1254,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Describe how the Observability team applied Flame graphs to a novel use case (internal usage of Twitter’s time series database) outside of their typical application]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Incident” shouldn’t be a four-letter word]]></title>
-        <id>changelog.com/posts/2509</id>
-        <link href="https://changelog.com/posts/incident-shouldnt-be-a-four-letter-word"/>
-        <updated>2021-12-09T21:17:23.000Z</updated>
-        <summary type="html"><![CDATA[The meeting was supposed to be short. The incident seemed a straightforward case of human error by the new engineer.  Surely all they had to do was tell them not to do it again and move on, right?
-But as the meeting went on, a series of perplexing questions began to be raised:
-“How did the new engineer have access to break this in the first place?”
-“What about our testing standards… How did they not catch this?”
-“Actually, the change shouldn’t have impacted this service!”
-“Luckily we were able to roll back quickly thanks to the instrumentation so-and-so wrote.”
-“Well so-and-so left last year, do other services have the same instrumentation?”
-“Wait! How are these 2 services even related?”
-“I’m not sure, so-and-so wrote this doc. It seems outdated and they’re no longer with this org.”
-A fami…]]></summary>
-        <author>
-            <name>Nora Jones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 209: Coding Go in the blind]]></title>
-        <id>changelog.com/2/1535</id>
-        <link href="https://changelog.com/gotime/209"/>
-        <updated>2021-12-09T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode Dominic speaks with Jon about his experience transitioning to using a screen reader and learning to code without his vision. They discuss how some of the tooling works, things other developers can do to make their code more accessible for blind teammates, and more.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Teleport – Securely access any computing resource anywhere. Engineers and security teams can unify access to SSH servers, Kubernetes clusters, web applications, and databases across all environments. Try Teleport today in the cloud, self-hosted, or open source at goteleport.com
-
-    
-LaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.
-
-    
-Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog
-
-    
-Linode – Get $100 in free credit to get started on Linode – Linode is our cloud of choice and the home of Changelog.com. Head to linode.com/changelog OR text CHANGELOG to 474747 to get instant access to that $100 in free credit.
-
-    
-Featuring
-Dominic St-Pierre – Twitter, Website
-Jon Calhoun – Twitter, GitHub, Website
-Notes and Links
-How A Blind Developer Uses Visual Studio
-Orca Screen Reader]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Common Vulnerability Scoring System [CVSS] | A Complete Explanation]]></title>
-        <id>https://hackerone.com/vulnerability-management/common-vulnerability-scoring-system-cvss-complete-explanation</id>
-        <link href="https://www.hackerone.com/vulnerability-management/common-vulnerability-scoring-system-cvss-complete-explanation"/>
-        <updated>2021-12-09T17:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Were you wondering about the Common Vulnerability Scoring System (CVSS)? We explain what CVSS is, why it is important, and show how to prioritize vulnerabilities based on their score.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing stack graphs]]></title>
-        <id>https://github.blog/?p=61819</id>
-        <link href="https://github.blog/2021-12-09-introducing-stack-graphs/"/>
-        <updated>2021-12-09T17:00:40.000Z</updated>
-        <summary type="html"><![CDATA[Precise code navigation is powered by stack graphs, a new open source framework that lets you define the name binding rules for a programming language.]]></summary>
-        <author>
-            <name>Douglas Creager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Precise code navigation for Python, and code navigation in pull requests]]></title>
-        <id>https://github.blog/?p=61817</id>
-        <link href="https://github.blog/2021-12-09-precise-code-navigation-python-code-navigation-pull-requests/"/>
-        <updated>2021-12-09T17:00:28.000Z</updated>
-        <summary type="html"><![CDATA[Code navigation is now available in PRs, and code navigation results for Python are now more precise.]]></summary>
-        <author>
-            <name>Douglas Creager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node standard library for the browser]]></title>
-        <id>changelog.com/news/pkqy</id>
-        <link href="https://github.com/niksy/node-stdlib-browser"/>
-        <updated>2021-12-09T16:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Webpack’s node-libs-browser was standard for bringing Node libraries to browsers (at least those which can be polyfilled), but it’s no longer maintained.
-My version updates the original package with maintained versions of packages, adds support for Rollup, esbuild and Browserify, brings support for node: protocol, and much more.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Ivan Nikolić</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 280 billion parameter language model named Gopher]]></title>
-        <id>changelog.com/news/O2ka</id>
-        <link href="https://deepmind.com/blog/article/language-modelling-at-scale"/>
-        <updated>2021-12-09T15:53:00.000Z</updated>
-        <summary type="html"><![CDATA[In the quest to explore language models and develop new ones, we trained a series of transformer language models of different sizes, ranging from 44 million parameters to 280 billion parameters.
-Our research investigated the strengths and weaknesses of those different-sized models, highlighting areas where increasing the scale of a model continues to boost performance – for example, in areas like reading comprehension, fact-checking, and the identification of toxic language. We also surface results where model scale does not significantly improve results — for instance, in logical reasoning and common-sense tasks.
-Sometimes size matters, sometimes it doesn’t as much. Fascinating analysis.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Spark Of Our Foundation: a letter from our founders]]></title>
-        <id>https://building.nubank.com.br/?p=18004</id>
-        <link href="https://building.nubank.com.br/founders-letter/"/>
-        <updated>2021-12-09T02:01:48.000Z</updated>
-        <summary type="html"><![CDATA[Our customers have always been at the core of everything we do. 
-The post The Spark Of Our Foundation: a letter from our founders appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>David Vélez - Founder &amp;#38; CEO of Nubank</name>
         </author>
     </entry>
 </feed>
