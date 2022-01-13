@@ -31,15 +31,6 @@
           "publishedOn": "2021-12-16T22:04:00.017Z",
           "wordCount": 759,
           "title": "Improving OSS-Fuzz and Jazzer to catch Log4Shell"
-        },
-        {
-          "id": "http://security.googleblog.com/2021/12/empowering-next-generation-of-android.html",
-          "author": null,
-          "description": "Posted by Jon Bottarini, Security Program Manager & Lena Katib, Strategic Partnerships Manager\n\nThe external security researcher community plays an integral role in making the Google Play ecosystem safe and secure. Through this partnership with the community, Google has been able to collaborate with third-party developers to fix thousands of security issues in Android applications before they are exploited and reward security researchers for their hard work and dedication.  \nIn order to empower the next generation of Android security researchers, Google has collaborated with industry partners including HackerOne and PayPal to host a number of Android App Hacking Workshops. These workshops are an effort designed to educate security researchers and cybersecurity students of all skill levels …",
-          "link": "http://security.googleblog.com/2021/12/empowering-next-generation-of-android.html",
-          "publishedOn": "2021-12-14T18:00:00.001Z",
-          "wordCount": 783,
-          "title": "Empowering the next generation of Android Application Security Researchers"
         }
       ]
     },
@@ -54,6 +45,106 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/8OE8",
+          "author": "Jerod Santo",
+          "description": "I love articles like this one because I was ready to disagree with it going in, but it was so well-reasoned and articulate that I ended up agreeing with most everything the author proposes.\nDiscuss on Changelog News",
+          "link": "https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing/",
+          "publishedOn": "2022-01-12T16:47:00.000Z",
+          "wordCount": null,
+          "title": "Favor real dependencies for unit testing",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Lpyn",
+          "author": "Jerod Santo",
+          "description": "Any debugging story that includes the phrase, “My Mom’s verbal JIRA ticket was right” has a lot of promise. This one by Jim Nielsen delivers the goods. Here’s the culprit:\nIn my brain, I always thought of Safari and Chrome as “modern” browsers. But even Chrome, an “evergreen” browser, failed because it wasn‘t on an “evergreen” operating system (or hardware).\nand his takeaway:\nThe real-life impact of our technical decisions really hit home to me once again: my Mom had trouble volunteering and participating in her local community because somebody shipped the optional chaining operator in their production JavaScript.\nBe thoughtful out there.\nDiscuss on Changelog News",
+          "link": "https://blog.jim-nielsen.com/2022/a-web-for-all/",
+          "publishedOn": "2022-01-12T14:52:00.000Z",
+          "wordCount": null,
+          "title": "The optional chaining operator, “modern” browsers, and my mom",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/bNM9",
+          "author": "Gavin Henderson",
+          "description": "At Ace Centre we have just launched an application that uses your webcam to detect when a user blinks. The application then triggers a switch press. This allows users who can’t access a physical switch or eye tracking to communicate using their chosen communication software.\nWe are really excited about the real world impact EyeCommander is already having and we would love to have more people contributing to the open source codebase\nEyeCommander is an Electron app with a React frontend. It uses Mediapipe, which is a collection of pretrained ML models for landmark detection in videos, provided by Google. It is cross platform so you can get up and running on whatever platform you use.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/AceCentre/eyecommander",
+          "publishedOn": "2022-01-11T19:29:00.000Z",
+          "wordCount": null,
+          "title": "EyeCommander helps you communicate by blinking",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1554",
+          "author": null,
+          "description": "We have all seen how AI models fail, sometimes in spectacular ways. Yaron Singer joins us in this episode to discuss model vulnerabilities and automatic prevention of bad outcomes. By separating concerns and creating a “firewall” around your AI models, it’s possible to secure your AI workflows and prevent model failure.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nMe, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nFeaturing\nYaron Singer – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nRobust Intelligence\nRobust Intelligence Blog",
+          "link": "https://changelog.com/practicalai/163",
+          "publishedOn": "2022-01-11T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 163: Eliminate AI failures",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/163/practical-ai-163.mp3",
+            "length": "40246713",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/VJpj",
+          "author": "Jerod Santo",
+          "description": "Your first thought when reading that headline might’ve been _WebAssembly. Mine was! But no, that is not how Browsix does its thing:\nBrowsix is a framework that bridges the considerable gap between conventional operating systems and the browser, enabling unmodified programs expecting a Unix-like environment to run directly in the browser. Browsix does this by mapping low-level Unix primitives, like processes and system calls, onto existing browser APIs, like Web Workers and postMessage.\nThey have examples of this tech enabling a terminal in the browser, a Latex editor, and even a client/server-based meme generator written in JS and Go.\nDiscuss on Changelog News",
+          "link": "https://browsix.org/",
+          "publishedOn": "2022-01-11T15:31:00.000Z",
+          "wordCount": null,
+          "title": "Browsix – Unix in a browser tab",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Q5Wk",
+          "author": "Jerod Santo",
+          "description": "Lee Robinson from Vercel/Next.js:\nRust is now replacing parts of the JavaScript web ecosystem like minification (Terser), transpilation (Babel), formatting (Prettier), bundling (webpack), linting (ESLint) and more. Let’s take a deep dive into why this trend is gaining popularity and wider adoption.\nWe just discussed this topic (and some apprehension about it) on JS Party last week. Definitely a trned worth brushing up on, if you haven’t already.\nDiscuss on Changelog News",
+          "link": "https://thenewstack.io/the-case-for-rust-as-the-future-of-javascript-infrastructure/",
+          "publishedOn": "2022-01-10T19:54:00.000Z",
+          "wordCount": null,
+          "title": "The case for Rust as the future of JavaScript infrastructure",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1526",
+          "author": null,
+          "description": "Paul Orlando joins Jerod to talk through some unintended consequences that occur when systems operate at scale. We discuss Goodhart’s Law, The Cobra Effect, how to design incentive systems, dependency management decisions, the risks of autonomous vehicles, and much more along the way.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nInfluxData – InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive volumes and countless sources of time-stamped data produced by sensors, applications, and infrastructure. Learn about the wide range of use cases of InfluxDB at influxdata.com/changelog\n\n    \nSquare – Develop on the platform that sellers trust. There is a mas…",
+          "link": "https://changelog.com/podcast/474",
+          "publishedOn": "2022-01-10T17:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 474: Complex systems & second-order effects",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/474/the-changelog-474.mp3",
+            "length": "67538320",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/8OEM",
+          "author": "Jerod Santo",
+          "description": "Fireship with a brief (3:48) rundown of the most recent instance of a popular open source library maintainer removing their code from public repositories in response to corporate (ab)use of their free labor:\nYesterday, a popular open-source package, Faker.js, was abruptly taken down from GitHub. Its readme simply said “What really happened to Aaron Swartz?”. Let’s take a look at why Open Source Software can be a bad deal for many independent developers.\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=R6S-b_k-ZKY",
+          "publishedOn": "2022-01-10T15:20:00.000Z",
+          "wordCount": null,
+          "title": "What really happened to Faker.js?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/N5Z0",
+          "author": "Jerod Santo",
+          "description": "Reshape… automatically handles complex migrations that would normally require downtime or manual multi-step changes. During a migration, Reshape ensures both the old and new schema are available at the same time, allowing you to gradually roll out your application.\nDesigned for Postgres 12+ and experimental for now. Do not use in production until it shapes up.\nDiscuss on Changelog News",
+          "link": "https://github.com/fabianlindfors/reshape",
+          "publishedOn": "2022-01-10T14:31:00.000Z",
+          "wordCount": null,
+          "title": "An easy-to-use, zero-downtime schema migration tool for Postgres",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/6/1525",
           "author": null,
@@ -458,81 +549,6 @@
           "wordCount": null,
           "title": "A native GraphQL extension for PostgreSQL",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1546",
-          "author": null,
-          "description": "The time has come! OpenAI’s API is now available with no waitlist. Chris and Daniel dig into the API and playground during this episode, and they also discuss some of the latest tool from Hugging Face (including new reinforcement learning environments). Finally, Daniel gives an update on how he is building out infrastructure for a new AI team.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRudderStack – Smart customer data pipeline made for developers. RudderStack is the smart customer data pipeline. Connect your whole customer data stack. Warehouse-first, open source Segment alternative.\n\n    \nMe, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nOpenAI’s API Now Available with No Waitlist\nHugging Face SnowballFight beta\nHugging Face Data Measurements Tool\nPandas Tutor\nClearML",
-          "link": "https://changelog.com/practicalai/161",
-          "publishedOn": "2021-12-14T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 161: OpenAI and Hugging Face tooling",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/161/practical-ai-161.mp3",
-            "length": "48791481",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/53m9",
-          "author": "Jerod Santo",
-          "description": "Austin Gil writes an excellent post on how to get more team members involved with accessibility by sharing tools they’ll actually use. He covers tools for designers, developers, editor plugins, frontend frameworks, stylesheets, and even CI/CD integrations.\n(This was also a big topic of discussion in JS party #204: JavaScript will kill you in the Apocalypse.)\nDiscuss on Changelog News",
-          "link": "https://austingil.com/making-accessibility-more-accessible/",
-          "publishedOn": "2021-12-14T15:37:00.000Z",
-          "wordCount": null,
-          "title": "Making accessibility more accessible",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W3Mg",
-          "author": "Jerod Santo",
-          "description": "We have been researching the Log4J RCE (CVE-2021-44228) since it was released, and we worked in preventing this vulnerability with our customers. We are open-sourcing an open detection and scanning tool for discovering and fuzzing for Log4J RCE CVE-2021-44228 vulnerability. This shall be used by security teams to scan their infrastructure for Log4J RCE, and also test for WAF bypasses that can result in achiving code execution on the organization’s environment.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/fullhunt/log4j-scan",
-          "publishedOn": "2021-12-14T14:13:00.000Z",
-          "wordCount": null,
-          "title": "An accurate, extensive scanner for finding vulnerable log4j hosts",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/q0nw",
-          "author": "Jerod Santo",
-          "description": "We will be working with other ECMA members and the wider JS community on the next iterations of JavaScript, in the TC39 working group. We will be pushing for features and improvements to the language that benefit everyone, but especially users of server-side JavaScript.\nSpecific features they plan to push forward are better support for non-JS assets in the ES module graph, better support for explicit resource management, and more extensive standard library functions for async iteration. Oh, and this:\nAs TypeScript is a core part of the Deno ecosystem, we are also very interested in pushing for even closer alignment of TypeScript and JavaScript in the future.\nDiscuss on Changelog News",
-          "link": "https://deno.com/blog/deno-joins-tc39",
-          "publishedOn": "2021-12-13T21:35:00.000Z",
-          "wordCount": null,
-          "title": "Deno joins TC39",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Z3M2",
-          "author": "Jerod Santo",
-          "description": "Rauno Metsa:\nI’m a developer and I love to write code. I enjoy watching my brain come up with creative solutions for complex problems.\nSo, I often find myself with a blog post that’s ready to be submitted to Hacker News, or a tweet that’s ready to be sent, but postponing it.\nSound familiar? If so, read the story to learn how he got over it and started benefiting from his new-found confidence.\nDiscuss on Changelog News",
-          "link": "https://raumet.com/marketing",
-          "publishedOn": "2021-12-13T20:49:00.000Z",
-          "wordCount": null,
-          "title": "Marketing is scary for a solo developer",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ykMk",
-          "author": "Jerod Santo",
-          "description": "A rebuttal by Kailash Nadh to the aforelinked post.\nlarge for-profit corporations started their widespread consumption of FOSS, ever since countless “unicorns” raised infinite amounts of funding on valuations built pretty much entirely on FOSS, ever since FOSS got co-opted into corporatisation and capitalisation. And yet, countless maintainers of critical and widely used FOSS struggle to make a living.\nWhose fault is this? I do not believe that this is FOSS’ fault as a conceptual framework or a system. If FOSS was broken, the internet as we know it today wouldn’t exist; the countless marvels of technology that we take for granted and techno-economies that thrive on them wouldn’t exist; millions of software developers (like me) who learnt to write code with FOSS and learnt to make a living with that knowledge wouldn’t exist.\nDiscuss on Changelog News",
-          "link": "https://nadh.in/blog/open-source-is-not-broken/",
-          "publishedOn": "2021-12-13T15:31:00.000Z",
-          "wordCount": null,
-          "title": "\"Open source\" is not broken",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/JLoq",
-          "author": "Jerod Santo",
-          "description": "The post-log4j-zero-day thinkpieces started rolling in over the weekend. I’m happy about that. We need to discuss this stuff. Here’s what Christine Dodrill’s TL;DR:\nIf you want me to make you useful software, pay me. If you use software made by others in their spare time and find it useful, pay them. This should not be a controversial opinion. This should not be a new thing. This should already be the state of the world and it is amazingly horrible for us to have the people that make the things that make our software work at all starve and beg for donations.\nThe entire article is worth considering.\nDiscuss on Changelog News",
-          "link": "https://christine.website/blog/open-source-broken-2021-12-11",
-          "publishedOn": "2021-12-13T14:36:00.000Z",
-          "wordCount": null,
-          "title": "\"Open source\" is broken",
-          "itunes": {}
         }
       ]
     },
@@ -592,6 +608,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=18104",
+          "author": "Daniel Stenberg",
+          "description": "I have had my share of adventures with URL parsers and their differences in the past. The current state of my research on the topic of (failed) URL interoperability remains available in this GitHub document. Use one and only one There is still no common or standard URL syntax format in sight. A string that … Continue reading Don’t mix URL parsers →",
+          "link": "https://daniel.haxx.se/blog/2022/01/10/dont-mix-url-parsers/",
+          "publishedOn": "2022-01-10T15:07:10.000Z",
+          "wordCount": 1511,
+          "title": "Don’t mix URL parsers"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=18119",
           "author": "Daniel Stenberg",
           "description": "There has been eight weeks since 7.80.0. Release presentation Numbers the 205th release1 change56 days (total: 8,636)121 bug-fixes (total: 7,518)189 commits (total: 28,055)0 new public libcurl function (total: 86)1 new curl_easy_setopt() option (total: 295)1 new curl command line option (total: 244)53 contributors, 25 new (total: 2,558)32 authors, 14 new (total: 990)0 security fixes (total: 111)0 … Continue reading curl 7.81.0 – more percent →",
@@ -608,15 +633,6 @@
           "publishedOn": "2021-12-21T22:13:28.000Z",
           "wordCount": 1643,
           "title": "The curl year 2021"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=17920",
-          "author": "Daniel Stenberg",
-          "description": "I’ve talked on this topic before but I realized I never did a proper blog post on the topic. So here it is: how we develop curl to keep it safe. The topic of supply chain security is one that is discussed frequently these days and every so often there’s a very well used (open … Continue reading Keeping curl safe →",
-          "link": "https://daniel.haxx.se/blog/2021/12/13/keeping-curl-safe/",
-          "publishedOn": "2021-12-13T10:00:47.000Z",
-          "wordCount": 2939,
-          "title": "Keeping curl safe"
         }
       ]
     },
@@ -625,6 +641,60 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/learnings-from-the-first-algorithmic-bias-bounty-challenge",
+          "author": null,
+          "description": "Sharing learnings from the first algorithmic bias bounty challenge",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/learnings-from-the-first-algorithmic-bias-bounty-challenge",
+          "publishedOn": "2022-01-13T12:15:15.401Z",
+          "wordCount": 1450,
+          "title": "Sharing learnings from the first algorithmic bias bounty challenge"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/logging-at-twitter-updated",
+          "author": null,
+          "description": "How Twitter moved from a home grown logging platform to the commercially available Splunk and the challenges we’ve encountered along the way.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/logging-at-twitter-updated",
+          "publishedOn": "2022-01-13T12:15:15.391Z",
+          "wordCount": 2393,
+          "title": "Logging at Twitter: Updated"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/forecasting-sql-query-resource-usage-with-machine-learning",
+          "author": null,
+          "description": "How we apply machine learning techniques at Twitter to forecast SQL query resource utilization during the development and maintenance of our large-scale SQL system.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/forecasting-sql-query-resource-usage-with-machine-learning",
+          "publishedOn": "2022-01-13T12:15:15.371Z",
+          "wordCount": 1920,
+          "title": "Forecasting SQL query resource usage with machine learning"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/applying-flame-graphs-outside-of-performance-analysis",
+          "author": null,
+          "description": "Describe how the Observability team applied Flame graphs to a novel use case (internal usage of Twitter’s time series database) outside of their typical application",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2021/applying-flame-graphs-outside-of-performance-analysis",
+          "publishedOn": "2022-01-13T12:15:15.359Z",
+          "wordCount": 1289,
+          "title": "Applying flame graphs outside of performance analysis"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-",
+          "author": null,
+          "description": "How we process large scale data in real time at Twitter while reducing latency and improving accuracy.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-",
+          "publishedOn": "2022-01-13T12:15:15.253Z",
+          "wordCount": 1899,
+          "title": "Processing billions of events in real time at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/how-we-rolled-out-security-keys-at-twitter",
+          "author": null,
+          "description": "In this blog, we share how we’ve accelerated efforts to increase the use of security keys to prevent phishing attacks at Twitter.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/how-we-rolled-out-security-keys-at-twitter",
+          "publishedOn": "2022-01-13T12:15:15.208Z",
+          "wordCount": 1616,
+          "title": "How we rolled out security keys at Twitter"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d",
           "author": null,
@@ -651,15 +721,6 @@
           "publishedOn": "2021-12-15T12:27:43.015Z",
           "wordCount": 2629,
           "title": "GNNs through the lens of differential geometry and algebraic topology"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
-          "author": null,
-          "description": "This blog post shares optimization findings to speed up Transformer-based models’ CPU inference and improve computational demand in Google Cloud.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
-          "publishedOn": "2021-12-12T12:26:25.342Z",
-          "wordCount": 2671,
-          "title": "Speeding up Transformer CPU inference in Google Cloud"
         }
       ]
     },
@@ -700,6 +761,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62411",
+          "author": "Mike Hanley",
+          "description": "My colleague Stormy Peters and I are proud to represent GitHub at the White House’s Open Source Software Security Summit to share how securing open source begins by empowering developers.",
+          "link": "https://github.blog/2022-01-13-open-source-software-security-summit-securing-the-worlds-code-together/",
+          "publishedOn": "2022-01-13T10:00:24.000Z",
+          "wordCount": 894,
+          "title": "The Open Source Software Security Summit: securing the world’s code together"
+        },
+        {
+          "id": "https://github.blog/?p=62370",
+          "author": "Taehun Kim",
+          "description": "Learn how the GitHub Mobile Team automates their release process with GitHub Actions.",
+          "link": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
+          "publishedOn": "2022-01-12T17:56:11.000Z",
+          "wordCount": 1641,
+          "title": "How we ship GitHub Mobile every week"
+        },
         {
           "id": "https://github.blog/?p=62275",
           "author": "Scott Sanders",
@@ -780,51 +859,6 @@
           "publishedOn": "2021-12-15T18:35:29.000Z",
           "wordCount": 3094,
           "title": "A brief history of code search at GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=61983",
-          "author": "Brittany O'Shea",
-          "description": "Use GitHub’s security features to assess Apache Log4j exposure and, where possible, mitigate this vulnerability within your GitHub repositories.",
-          "link": "https://github.blog/2021-12-14-using-githubs-security-features-identify-log4j-exposure-codebase/",
-          "publishedOn": "2021-12-14T19:46:00.000Z",
-          "wordCount": 736,
-          "title": "Using GitHub’s security features to help identify Log4j exposure in your codebase"
-        },
-        {
-          "id": "https://github.blog/?p=61878",
-          "author": "Alvaro Munoz",
-          "description": "Defining your security requirements is the most important proactive control you can implement for your project. Here's how.",
-          "link": "https://github.blog/2021-12-14-how-to-define-security-requirements-for-your-oss-project/",
-          "publishedOn": "2021-12-14T17:11:00.000Z",
-          "wordCount": 1781,
-          "title": "How to define security requirements for your OSS project"
-        },
-        {
-          "id": "https://github.blog/?p=61926",
-          "author": "Jill Moné-Corallo",
-          "description": "On Thursday, December 9, 2021, GitHub was made aware of a vulnerability in the Log4j logging framework, CVE-2021-44228.",
-          "link": "https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/",
-          "publishedOn": "2021-12-13T19:06:34.000Z",
-          "wordCount": 532,
-          "title": "GitHub’s response to Log4j vulnerability CVE-2021-44228"
-        },
-        {
-          "id": "https://github.blog/?p=61901",
-          "author": "Sidi Merzouk",
-          "description": "We shipped a ton of updates in November, from the push notification for PR review activities on the go, to an easy way to create Markdown links.",
-          "link": "https://github.blog/2021-12-13-whats-new-from-github-changelog-november-2021-recap/",
-          "publishedOn": "2021-12-13T17:45:31.000Z",
-          "wordCount": 1610,
-          "title": "What’s new from GitHub Changelog? November 2021 recap"
-        },
-        {
-          "id": "https://github.blog/?p=61873",
-          "author": "Peter Cihon",
-          "description": "Last week, GitHub joined the Internet Governance Forum to spread awareness of developers’ initiatives and public policy interests.",
-          "link": "https://github.blog/2021-12-13-github-at-the-un-internet-governance-forum/",
-          "publishedOn": "2021-12-13T17:01:07.000Z",
-          "wordCount": 1347,
-          "title": "GitHub at the UN Internet Governance Forum"
         }
       ]
     },
@@ -865,15 +899,22 @@
           "publishedOn": "2021-12-16T17:50:00.000Z",
           "wordCount": 1520,
           "title": "CWE [Common Weakness Enumeration] | Why It Is Important"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Netflix TechBlog - Medium",
+      "feedUrl": "https://netflixtechblog.com/feed",
+      "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
+      "articles": [
         {
-          "id": "https://hackerone.com/vulnerability-management/log4j-vulnerability-activity-hackerone-platform",
-          "author": "HackerOne",
-          "description": "This post is about the severe and widespread Log4j vulnerability. It gives a technical overview of the vulnerability, mitigations HackerOne has put in place to protect our platform and customers, and the related vulnerability submission activity HackerOne is seeing on its platform.",
-          "link": "https://www.hackerone.com/vulnerability-management/log4j-vulnerability-activity-hackerone-platform",
-          "publishedOn": "2021-12-13T19:50:00.000Z",
-          "wordCount": 1013,
-          "title": "Log4j Vulnerability Activity on the HackerOne Platform"
+          "id": "https://medium.com/p/f67923f8e985",
+          "author": "Netflix Technology Blog",
+          "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Andy Rhines, Sophia Liu, Mihir Tendulkar, Kevin…",
+          "link": "https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-01-11T16:09:13.000Z",
+          "wordCount": 4795,
+          "title": "Experimentation is a major focus of Data Science across Netflix"
         }
       ]
     }
