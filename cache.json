@@ -46,6 +46,46 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1521",
+          "author": null,
+          "description": "Today Gerhard shares the entire story behind his lost packets. He is talking with Drew Marshall, director at Trunk Networks and No One Internet, a Cloud Services Provider & ISP based in Sussex, UK.\nGerhard’s Vodafone ISP gateway was losing packets, and recording some of the previous episodes used to be challenging as his internet connection would cut out up to 10 seconds at a time, multiple times per recording session. He was convinced that his Unifi Dream Machine Pro was not the issue. Drew helped Gerhard realise that it actually was. Not only has Gerhard’s DNS latency improved by 3x, but he can now fail-over between two WAN connections. And because nothing beats a real-world experiment, you can guess what is coming in this episode 😉\nYou will find latency & packet loss graphs, speed test…",
+          "link": "https://changelog.com/shipit/35",
+          "publishedOn": "2022-01-14T12:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 35: How I found my lost network packets",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/35/ship-it-35.mp3",
+            "length": "57604289",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/VJpm",
+          "author": "Jerod Santo",
+          "description": "It’s like having Alfred all up in your browser.\nManage tabs, bookmarks, your browser history, perform all sorts of actions with a simple command interface.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/alyssaxuu/omni",
+          "publishedOn": "2022-01-13T18:17:00.000Z",
+          "wordCount": null,
+          "title": "Omni helps you use Chrome like a pro",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1530",
+          "author": null,
+          "description": "Our final installment from GopherCon 2021 is an awesome panel conversation led by Natalie & Angelica with guests Linus Lee, Daniela Patruzalek, and Sebastian Spank. All three of these gophers are using Go in cool and interesting ways outside of traditional work projects.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nGitLab – The DevOps platform that empowers organizations to maximize the overall return on s…",
+          "link": "https://changelog.com/gotime/212",
+          "publishedOn": "2022-01-13T17:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 212: Go beyond work",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/212/go-time-212.mp3",
+            "length": "42892827",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/news/8OE8",
           "author": "Jerod Santo",
           "description": "I love articles like this one because I was ready to disagree with it going in, but it was so well-reasoned and articulate that I ended up agreeing with most everything the author proposes.\nDiscuss on Changelog News",
@@ -529,26 +569,6 @@
           "wordCount": null,
           "title": "Mess with DNS",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/q0nq",
-          "author": "Jerod Santo",
-          "description": "Russ Cox, for the Go team:\nGenerics are the most significant change to Go since the release of Go 1, and certainly the largest single language change we’ve ever made. With any large, new feature, it is common for new users to discover new bugs, and we don’t expect generics to be an exception to this rule; be sure to approach them with appropriate caution.\nIt didn’t make the headline, but fuzzing (tests that automatically find inputs which cause your program to crash or return invalid answers) also made it in the build, which our Go Time team has been quite excited about as well.\nDiscuss on Changelog News",
-          "link": "https://go.dev/blog/go1.18beta1",
-          "publishedOn": "2021-12-15T15:19:00.000Z",
-          "wordCount": null,
-          "title": "Go's 1.18 Beta 1 is available, with generics",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Z3Ml",
-          "author": "Jerod Santo",
-          "description": "The Supabase folks have open sourced a work-in-progress native PostgreSQL extension adding GraphQL support. First, they surveyed the field and liked what they saw from Graphile and Hasura, but…\nwe host free-tier projects on VMs with 1 GB of memory. After tallying the resources reserved for PostgreSQL, PostgREST, Kong, GoTrue, and a handful of smaller services, we were left with a total memory budget of … 0 MB 😬. Unsurprisingly, our pathological memory target disqualified any option that required launching another process in those VMs.\nBy their estimates, this effort will reduces the platform’s memory requirements by 525 TB/hours every month. Seems worth it!\nDiscuss on Changelog News",
-          "link": "https://supabase.com/blog/2021/12/03/pg-graphql",
-          "publishedOn": "2021-12-15T14:31:00.000Z",
-          "wordCount": null,
-          "title": "A native GraphQL extension for PostgreSQL",
-          "itunes": {}
         }
       ]
     },
@@ -556,23 +576,22 @@
       "title": "comma.ai blog",
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
-      "articles": [
-        {
-          "id": "https://blog.comma.ai/0812release/",
-          "author": null,
-          "description": "Our latest release is for you, the people. You asked for better sounds, we designed a completely new set of sounds for 0.8.12. You asked for better longitudinal control in stop and go, so we put that in 0.8.12. You asked for a model that doesn’t take exits, 0.8.12 has that too. We really like 0.8.12, and we think you will too. Merry Christmas!",
-          "link": "https://blog.comma.ai/0812release/",
-          "publishedOn": "2021-12-15T12:00:00.000Z",
-          "wordCount": 1290,
-          "title": "🎄 openpilot 0.8.12 🎄"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "AI",
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/health/advancing-genomics-better-understand-and-treat-disease/",
+          "author": null,
+          "description": "Genome sequencing can help us better understand, diagnose and treat disease. For example, healthcare providers are increasingly using genome sequencing to diagnose rare genetic diseases, such as elevated risk for breast cancer or pulmonary arterial hypertension, which are estimated to affect roughly 8% of the population.\nAt Google Health, we’re applying our technology and expertise to the field of genomics. Here are recent research and industry developments we’ve made to help quickly identify genetic disease and foster the equity of genomic tests across ancestries. This includes an exciting new partnership with Pacific Biosciences to further advance genomic technologies in research and the clinic.\n\n\nHelping identify life-threatening disease when minutes matter\nGenetic diseases can cause cr…",
+          "link": "https://blog.google/technology/health/advancing-genomics-better-understand-and-treat-disease/",
+          "publishedOn": "2022-01-13T17:00:00.000Z",
+          "wordCount": 1371,
+          "title": "Advancing genomics to better understand and treat disease"
+        },
         {
           "id": "https://blog.google/around-the-globe/google-africa/how-abigail-annkah-using-ai-improve-maps-africa/",
           "author": null,
@@ -641,6 +660,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
+          "author": null,
+          "description": "This blog post shares optimization findings to speed up Transformer-based models’ CPU inference and improve computational demand in Google Cloud.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
+          "publishedOn": "2022-01-14T12:14:46.174Z",
+          "wordCount": 2672,
+          "title": "Speeding up Transformer CPU inference in Google Cloud"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/learnings-from-the-first-algorithmic-bias-bounty-challenge",
           "author": null,
@@ -712,15 +740,6 @@
           "publishedOn": "2021-12-17T12:27:32.255Z",
           "wordCount": 2822,
           "title": "How We Built Twitter’s Highly Reliable Ads Pacing Service"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/graph-neural-networks-through-the-lens-of-differential-geometry-",
-          "author": null,
-          "description": "In this post, we show how tools from the fields of differential geometry and algebraic topology can be used to reinterpret GNNs and address some of their common plights in a principled way.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/graph-neural-networks-through-the-lens-of-differential-geometry-",
-          "publishedOn": "2021-12-15T12:27:43.015Z",
-          "wordCount": 2629,
-          "title": "GNNs through the lens of differential geometry and algebraic topology"
         }
       ]
     },
@@ -728,17 +747,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#b7b7b7;border-top-width:1pt;border-right-width:1pt;border-left-color:#b7b7b7;vertical-align:top;border-right-color:#b7b7b7;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#b7b7b7;border-bottom-style:solid}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Courier New\";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:normal}.c20{padding-top:20pt;padding-bottom:…",
-          "link": "https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html",
-          "publishedOn": "2021-12-15T17:00:00.000Z",
-          "wordCount": 3515,
-          "title": "A deep dive into an NSO zero-click iMessage exploit: Remote Code Execution"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -761,6 +770,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62289",
+          "author": "Lee Reilly",
+          "description": "Here are the top games created in our annual game jam as rated and reviewed by the developers that made them. Game On! 🤘🏻",
+          "link": "https://github.blog/2022-01-13-top-entries-from-game-off-2021/",
+          "publishedOn": "2022-01-13T20:23:31.000Z",
+          "wordCount": 1948,
+          "title": "Top-rated entries from Game Off 2021"
+        },
+        {
+          "id": "https://github.blog/?p=62257",
+          "author": "Evi Liu",
+          "description": "From answering questions about a new release to fielding feature requests, here’s how five open source communities use GitHub Discussions.",
+          "link": "https://github.blog/2022-01-13-how-five-open-source-communities-are-using-github-discussions/",
+          "publishedOn": "2022-01-13T17:14:21.000Z",
+          "wordCount": 1250,
+          "title": "How five open source communities are using GitHub Discussions"
+        },
         {
           "id": "https://github.blog/?p=62411",
           "author": "Mike Hanley",
@@ -850,15 +877,6 @@
           "publishedOn": "2021-12-16T17:04:20.000Z",
           "wordCount": 1488,
           "title": "5 automations every developer should be running"
-        },
-        {
-          "id": "https://github.blog/?p=62004",
-          "author": "Pavel Avgustinov",
-          "description": "This blog post tells the story of why we built a new search engine optimized for code.",
-          "link": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
-          "publishedOn": "2021-12-15T18:35:29.000Z",
-          "wordCount": 3094,
-          "title": "A brief history of code search at GitHub"
         }
       ]
     },
@@ -907,6 +925,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/5bcc52d853d1",
+          "author": "Netflix Technology Blog",
+          "description": "By Vikram Srivastava and Marcelo Mayworm",
+          "link": "https://netflixtechblog.com/auto-diagnosis-and-remediation-in-netflix-data-platform-5bcc52d853d1?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-01-14T04:23:22.000Z",
+          "wordCount": 1352,
+          "title": "Auto-Diagnosis and Remediation in Netflix Data Platform"
+        },
         {
           "id": "https://medium.com/p/f67923f8e985",
           "author": "Netflix Technology Blog",
