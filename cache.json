@@ -4,17 +4,7 @@
       "title": "Google Online Security Blog",
       "feedUrl": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "siteUrl": "http://security.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://security.googleblog.com/2021/12/apache-log4j-vulnerability.html",
-          "author": null,
-          "description": "Like many other companies, we’re closely following the multiple CVEs regarding Apache Log4j 2. Our security teams are investigating any potential impact on Google products and services and are focused on protecting our users and customers.\nWe encourage anyone who manages environments containing Log4j 2 to update to the latest version.\nBased on findings in our ongoing investigations, here is our list of product and service updates as of December 17th (CVE-2021-44228 & CVE-2021-45046):\nAndroid is not aware of any impact to the Android Platform or Enterprise. At this time, no update is required for this specific vulnerability, but we encourage our customers to ensure that the latest security updates are applied to their devices.\nChrome OS  releases and infrastructure are not using versions of Log4j affected by the vulnerability.\nChrome Browser releases, infrastructure and admin console are not using versions of Log4j affected by the vulnerability.\nGoogle Cloud has a specific advisory dedicated to updating customers on the status of GCP and Workspace products and services. \nGoogle Marketing Platform, including Google Ads is not using versions of Log4j affected by the vulnerability. This includes Display & Video 360, Search Ads 360, Google Ads, Analytics (360 and free), Optimize 360, Surveys 360  & Tag Manager 360. \nYouTube  is not using versions of Log4j affected by the vulnerability.  \nWe will continue to update this advisory with the latest information.",
-          "link": "http://security.googleblog.com/2021/12/apache-log4j-vulnerability.html",
-          "publishedOn": "2021-12-18T02:08:00.002Z",
-          "wordCount": 586,
-          "title": "Apache Log4j Vulnerability"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Google Testing Blog",
@@ -530,6 +520,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=18034",
+          "author": "Daniel Stenberg",
+          "description": "The well-known log4j security vulnerability of December 2021 triggered a lot of renewed discussions around software supply chain security, and sometimes it has also been said to be an Open Source related issue. This was not the first software component to have a serious security flaw, and it will not be the last. What can … Continue reading Enforcing the pyramid of Open Source →",
+          "link": "https://daniel.haxx.se/blog/2022/01/17/enforcing-the-pyramid-of-open-source/",
+          "publishedOn": "2022-01-17T08:00:42.000Z",
+          "wordCount": 2478,
+          "title": "Enforcing the pyramid of Open Source"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=18104",
           "author": "Daniel Stenberg",
           "description": "I have had my share of adventures with URL parsers and their differences in the past. The current state of my research on the topic of (failed) URL interoperability remains available in this GitHub document. Use one and only one There is still no common or standard URL syntax format in sight. A string that … Continue reading Don’t mix URL parsers →",
@@ -563,6 +562,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
+          "author": null,
+          "description": "In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
+          "publishedOn": "2022-01-17T12:15:21.266Z",
+          "wordCount": 2822,
+          "title": "How we built Twitter’s highly reliable ads pacing service"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume",
           "author": null,
