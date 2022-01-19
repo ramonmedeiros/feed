@@ -18,6 +18,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1544",
+          "author": null,
+          "description": "This week Matt Ahrens joins Adam to talk about ZFS. Matt co-founded the ZFS project at Sun Microsystems in 2001. And 20 years later Adam picked up ZFS for use in his home lab and loved it. So, he reached out to Matt and invited him on the show. They cover the origins of the file system, its journey from proprietary to open source, architecture choices like copy-on-write, the ins and outs creating and managing ZFS, RAID-Z and RAID-Z expansion, and Matt even shares plans for ZFS in the cloud with ZFS object store.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s bu…",
+          "link": "https://changelog.com/podcast/475",
+          "publishedOn": "2022-01-18T20:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 475: Making the ZFS file system",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/475/the-changelog-475.mp3",
+            "length": "87137250",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/eZPO",
+          "author": "Jerod Santo",
+          "description": "This is an excellent explanation of the difference between these styles of programming and why declarative is all the rage these days.\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=E7Fbf7R3x6I",
+          "publishedOn": "2022-01-18T20:15:00.000Z",
+          "wordCount": null,
+          "title": "Imperative vs declarative programming",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/RR50",
+          "author": "Jerod Santo",
+          "description": "This post by Shayon Mukherjee is in response to the recently logged post by Mike Coutermarsh in praise of MySQL for infra folks:\nThis is not a MySQL vs PostgreSQL post. This is just a small summary of what I have come to appreciate about PostgreSQL as an Infrastructure Engineer.\nAlways good to keep in mind whenever comparing technologies: trade-offs abound and certain people in certain situations will value certain things about different technologies differently. That’s for certain. 😉\nDiscuss on Changelog News",
+          "link": "https://www.shayon.dev/post/2022/17/why-i-enjoy-postgresql-infrastructure-engineers-perspective/",
+          "publishedOn": "2022-01-18T19:19:00.000Z",
+          "wordCount": null,
+          "title": "Why I enjoy PostgreSQL (an infra engineer's perspective)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/k2P2",
+          "author": "Martin Heinz",
+          "description": "If you’re using GitHub as your version control system of choice then GitHub Apps can be incredibly useful for many tasks including building CI/CD, managing repositories, querying statistical data and much more. In this article we will walk through the process of building such an app in Go including setting up the GitHub integration, authenticating with GitHub, listening to webhooks, querying GitHub API and more.\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/65",
+          "publishedOn": "2022-01-18T16:26:00.000Z",
+          "wordCount": null,
+          "title": "Building GitHub Apps with Go",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/73dp",
+          "author": "Adam Stacoviak",
+          "description": "From Mike Coutermarsh:\nFor years I’ve been noticing this pattern of infrastructure engineers I really respect preferring MySQL and product engineers preferring Postgres. It took quite a while for me to understand it. Especially coming from my background as a product engineer. Infrastructure engineers generally…\nRead on to hear why (from Mike’s perspective).\nDiscuss on Changelog News",
+          "link": "https://mikecoutermarsh.com/why-infrastructure-engineers-prefer-mysql/",
+          "publishedOn": "2022-01-18T15:40:43.000Z",
+          "wordCount": null,
+          "title": "Why infrastructure engineers prefer MySQL",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/O2pE",
           "author": "Jerod Santo",
           "description": "Daniel Stenberg lays out how he thinks we can view the world of software and open source in light of supply chain security, maintainer sustainability, and the like:\nInside the pyramid there is a hierarchy where things using software are build on top of others, in layers. The higher up you go, the more you stand on the shoulders of open source components below you.\nAt the very bottom of the pyramid are the foundational components. Operating systems and libraries. The stuff virtually everything runs or depends upon. The components you really don’t want to have serious security vulnerabilities.\n\nDiscuss on Changelog News",
@@ -496,21 +551,6 @@
             "length": "85855392",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/1528",
-          "author": null,
-          "description": "Our 4th annual year-end wrap-up episode! We don’t naval gaze often, but when we do… we make sure you get your money’s worth. Reflections, most popular episodes, our favs, and new this year: listener voice mails. Thanks for listening! 💚\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nInfluxData – InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive volumes and countless sources of time-stamped data produced by sensors, applications, and infrastructure. Learn about the wide range of use cases of InfluxDB at influxdata.com/changelog\n\n    \nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build intern…",
-          "link": "https://changelog.com/podcast/473",
-          "publishedOn": "2021-12-20T20:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 473: State of the \"log\" 2021",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/473/the-changelog-473.mp3",
-            "length": "107390296",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -707,13 +747,32 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html",
+          "author": null,
+          "description": "ul.lst-kix_ef7dug197aaw-4{list-style-type:none}ul.lst-kix_ef7dug197aaw-3{list-style-type:none}.lst-kix_ef7dug197aaw-0>li:before{content:\"-  \"}ul.lst-kix_ef7dug197aaw-2{list-style-type:none}ul.lst-kix_ef7dug197aaw-1{list-style-type:none}.lst-kix_ef7dug197aaw-1>li:before{content:\"-  \"}ul.lst-kix_ef7dug197aaw-8{list-style-type:none}ul.lst-kix_ef7dug197aaw-7{list-style-type:none}ul.lst-kix_ef7dug197aaw-6{list-style-type:none}ul.lst-kix_ef7dug197aaw-5{list-style-type:none}ul.lst-kix_ef7dug197aaw-0{list-style-type:none}.lst-kix_ef7dug197aaw-7>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-6>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-8>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-5>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-3>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-2>li:before{content…",
+          "link": "https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html",
+          "publishedOn": "2022-01-18T17:28:00.000Z",
+          "wordCount": 4892,
+          "title": "Zooming in on Zero-click Exploits"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=47555",
+          "author": "Francesca Minelli",
+          "description": "If you’ve ever built anything with web technologies, you’re probably familiar with MDN Web Docs. With about 13,000 pages documenting how to use programming languages such as HTML, CSS and JavaScript, the site has about 8,000 people using it at any given moment. MDN relies on contributors to help maintain its ever-expanding and up to date documentation. We reached out to 4 long-time community contributors to talk about how and why they started contributing, why they kept going, and ask what advice they have for new contributors.\nThe post Contributing to MDN: Meet the Contributors appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/01/contributing-to-mdn-meet-the-contributors/",
+          "publishedOn": "2022-01-18T16:07:59.000Z",
+          "wordCount": 2488,
+          "title": "Contributing to MDN: Meet the Contributors"
+        },
         {
           "id": "https://hacks.mozilla.org/?p=47506",
           "author": "Xavier Harding",
@@ -730,6 +789,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62454",
+          "author": "Nicole Numrich",
+          "description": "With the successful liftoff of the James Webb Space Telescope, we ask our very own Arfon Smith about the history of open source and space science.",
+          "link": "https://github.blog/2022-01-18-how-open-source-is-supporting-nasas-new-eyes-in-space/",
+          "publishedOn": "2022-01-18T17:41:41.000Z",
+          "wordCount": 1727,
+          "title": "How open source is supporting NASA’s new eyes in space"
+        },
         {
           "id": "https://github.blog/?p=62289",
           "author": "Lee Reilly",
@@ -801,15 +869,6 @@
           "publishedOn": "2021-12-21T17:55:56.000Z",
           "wordCount": 1162,
           "title": "How GitHub contributed to the Santa Clara Principles update"
-        },
-        {
-          "id": "https://github.blog/?p=62090",
-          "author": "Alvaro Munoz",
-          "description": "In this post, I’ll discuss how to apply OWASP Proactive Control C2: Leverage security frameworks and libraries.",
-          "link": "https://github.blog/2021-12-20-how-to-leverage-security-frameworks-and-libraries-for-secure-code/",
-          "publishedOn": "2021-12-20T17:47:15.000Z",
-          "wordCount": 2195,
-          "title": "How to leverage security frameworks and libraries for secure code"
         }
       ]
     },
