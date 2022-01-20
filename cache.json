@@ -4,7 +4,17 @@
       "title": "Google Online Security Blog",
       "feedUrl": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "siteUrl": "http://security.googleblog.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://security.googleblog.com/2022/01/reducing-security-risks-in-open-source.html",
+          "author": null,
+          "description": "Posted by Laurent Simon and Azeem Shaikh, Google Open Source Security Team (GOSST) \n\n\n\nSince our July announcement of Scorecards V2, the Scorecards project—an automated security tool to flag risky supply chain practices in open source projects—has grown steadily to over 40 unique contributors and 18 implemented security checks. Today we are proud to announce the V4 release of Scorecards, with larger scaling, a new security check, and a new Scorecards GitHub Action for easier security automation.\nThe Scorecards Action is released in partnership with GitHub and is available from GitHub's Marketplace. The Action makes using Scorecards easier than ever: it runs automatically on repository changes to alert developers about risky supply-chain practices. Maintainers can view the alerts on GitHub's code scanning dashboard, which is available for free to public repositories on GitHub.com and via GitHub Advanced Security for private repositories. \nAdditionally, we have scaled our weekly Scorecards scans to over one million GitHub repositories, and have partnered with the Open Source Insights website for easy user access to the data. \nFor more details about the release, including the new Dangerous-Workflow security check, visit the OpenSSF's official blog post here.",
+          "link": "http://security.googleblog.com/2022/01/reducing-security-risks-in-open-source.html",
+          "publishedOn": "2022-01-19T15:00:00.014Z",
+          "wordCount": 580,
+          "title": "Reducing Security Risks in Open Source Software at Scale: Scorecards Launches V4"
+        }
+      ]
     },
     {
       "title": "Google Testing Blog",
@@ -17,6 +27,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/rlPy",
+          "author": "Jerod Santo",
+          "description": "Arnold Galovics’ follow-up to his excellent monoliths are your friend post from late last year.\nStarting a greenfield project with microservices is easy. The promises are wonderful but often they are far from reality. This time I’ll share my experience on the truth about microservices when starting a project from scratch.\nDiscuss on Changelog News",
+          "link": "https://arnoldgalovics.com/truth-about-microservices/",
+          "publishedOn": "2022-01-19T19:54:00.000Z",
+          "wordCount": null,
+          "title": "The truth about starting with microservices",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/9Oma",
+          "author": "Jerod Santo",
+          "description": "Jakob Greenfeld:\nI recently discovered a simple step-by-step process that significantly increased my personal productivity and made me happier along the way.\nIt costs $0 and no, it’s not some note-taking or to-do list system.\nThe steps are:\ndevelop meta-awareness of your state of mind.\npattern-match to identify your mind’s most common modes.\nlearn to pick activities that match each mode.\nBut that probably won’t hit home until you read through his explanation of each step.\nDiscuss on Changelog News",
+          "link": "https://jakobgreenfeld.com/personal-productivity",
+          "publishedOn": "2022-01-19T16:19:00.000Z",
+          "wordCount": null,
+          "title": "Effortless personal productivity (or how I learned to love my monkey mind)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1560",
+          "author": null,
+          "description": "You might know about MLPerf, a benchmark from MLCommons that measures how fast systems can train models to a target quality metric. However, MLCommons is working on so much more! David Kanter joins us in this episode to discuss two new speech datasets that are democratizing machine learning for speech via data scale and language/speaker diversity.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nThe Brave Browser – Browse the web up to 8x faster than Chrome and Safari, block ads and trackers by default, and reward your favorite creators with the built-in Basic Attention Token. Download Brave for free and give tipping a try right here on changelog.com.\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nDavid Kanter – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nPress Release about MLCommons datasets: MLCommons™ Association Unveils Open Datasets and Tools to Drive Democratization of Machine Learning\nNeurIPS Papers:\n\nPeople’s Speech Dataset\nMultilingual Spoken Words Corpus (MSWC)\nGradient article: New Datasets to Democratize Speech Recognition Technology\nBlog posts for more insight:\n\nPeople’s Speech\nMultilingual Spoken Words Corpus (MSWC)\nDownloads:\n\nPeople’s Speech\nMultilingual Spoken Words Corpus",
+          "link": "https://changelog.com/practicalai/164",
+          "publishedOn": "2022-01-19T15:30:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 164: Democratizing ML for speech",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/164/practical-ai-164.mp3",
+            "length": "43280267",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/1/1544",
           "author": null,
@@ -625,15 +670,6 @@
           "publishedOn": "2022-01-05T08:03:22.000Z",
           "wordCount": 1540,
           "title": "curl 7.81.0 – more percent"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=17924",
-          "author": "Daniel Stenberg",
-          "description": "Every year is a curl year. I’m saving my bigger summary for curl’s 24th birthday in March, but when reaching the end of a calendar year it feels natural and even fun to look back and highlight some of the things we accomplished and what happened during this particular lap around the sun. I decided … Continue reading The curl year 2021 →",
-          "link": "https://daniel.haxx.se/blog/2021/12/21/the-curl-year-2021/",
-          "publishedOn": "2021-12-21T22:13:28.000Z",
-          "wordCount": 1643,
-          "title": "The curl year 2021"
         }
       ]
     },
@@ -790,6 +826,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=62472",
+          "author": "Jose Palafox",
+          "description": "We’re excited to announce the V4 release of the OpenSSF’s Scorecard project in partnership with Google.",
+          "link": "https://github.blog/2022-01-19-reducing-security-risk-oss-actions-opensff-scorecards-v4/",
+          "publishedOn": "2022-01-19T15:00:02.000Z",
+          "wordCount": 644,
+          "title": "Reducing security risk in open source software with GitHub Actions and OpenSSF Scorecards V4"
+        },
+        {
           "id": "https://github.blog/?p=62454",
           "author": "Nicole Numrich",
           "description": "With the successful liftoff of the James Webb Space Telescope, we ask our very own Arfon Smith about the history of open source and space science.",
@@ -860,15 +905,6 @@
           "publishedOn": "2021-12-28T17:00:37.000Z",
           "wordCount": 544,
           "title": "GitHub’s top 10 blog posts of 2021"
-        },
-        {
-          "id": "https://github.blog/?p=62205",
-          "author": "Rose Coogan",
-          "description": "GitHub was honored to contribute to the Santa Clara Principles on Transparency and Accountability in Content Moderation 2.0.",
-          "link": "https://github.blog/2021-12-21-how-github-contributed-santa-clara-principles-update/",
-          "publishedOn": "2021-12-21T17:55:56.000Z",
-          "wordCount": 1162,
-          "title": "How GitHub contributed to the Santa Clara Principles update"
         }
       ]
     },
@@ -910,15 +946,6 @@
           "publishedOn": "2022-01-06T23:52:54.000Z",
           "wordCount": 1185,
           "title": "Log4Shell: Attack Evolution"
-        },
-        {
-          "id": "https://hackerone.com/hacker-powered-security-report/top-5-takeaways-2021-hacker-powered-security-report-industry",
-          "author": "vincent@hackerone.com",
-          "description": "For the fifth year in a row, HackerOne published a report that provides insights from the world’s largest database of vulnerabilities and bug bounty customer programs. Here are the top five findings:",
-          "link": "https://www.hackerone.com/hacker-powered-security-report/top-5-takeaways-2021-hacker-powered-security-report-industry",
-          "publishedOn": "2021-12-21T17:50:00.000Z",
-          "wordCount": 894,
-          "title": "Top 5 Takeaways from the 2021 Hacker-Powered Security Report: Industry Insights"
         }
       ]
     },
