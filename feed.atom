@@ -2,10 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-21T12:14:19.135Z</updated>
+    <updated>2022-01-22T09:28:28.660Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Release Radar · December 2021 Edition]]></title>
+        <id>https://github.blog/?p=62405</id>
+        <link href="https://github.blog/2022-01-21-release-radar-dec-2021/"/>
+        <updated>2022-01-21T23:00:29.000Z</updated>
+        <summary type="html"><![CDATA[Many of us were wrapping up projects, emails, events, and getting ready for Christmas. While we were all busy getting ready for the festive season, our community was still hard at work shipping open source]]></summary>
+        <author>
+            <name>Michelle Mannering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 209: What Cloudflare is up to]]></title>
+        <id>changelog.com/6/1506</id>
+        <link href="https://changelog.com/jsparty/209"/>
+        <updated>2022-01-21T17:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare has a lot more to offer than merely DDoS protection and CDN services. On this episode, Jon Kuperman joins Amal & Jerod to talk through many of their cool new things like Workers, KV, Durable Objects, and R2 Storage. Thanks to listener Matt Mannucci for requesting this episode!
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
+
+    
+Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
+
+    
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+    
+Featuring
+Jon Kuperman – Twitter, GitHub, Website
+Amal Hussein – Twitter, GitHub
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Workers
+Workers Chat Demo
+Argo Smart Routing
+R2 announcement
+Durable Objects
+KV]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022: False start for U.S. equities]]></title>
+        <id>https://marketradar.substack.com/p/2022-false-start-for-us-equities</id>
+        <link href="https://marketradar.substack.com/p/2022-false-start-for-us-equities"/>
+        <updated>2022-01-21T16:15:52.000Z</updated>
+        <summary type="html"><![CDATA[Lot of pain for U.S. stocks, but there are bright spots elsewhere]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minecraft as a k8s admin tool]]></title>
+        <id>changelog.com/news/Z3De</id>
+        <link href="https://github.com/erjadi/kubecraftadmin"/>
+        <updated>2022-01-21T15:54:00.000Z</updated>
+        <summary type="html"><![CDATA[If you landed here hoping this project isn’t serious… fear not. It’s just for fun, but it really works!
+Have you ever thought to yourself: Why don’t we have an immersive 3D sandbox user interface to manage workloads on my favorite container orchestrator? No? Well here it is anyway.
+Pigs are pods. Cows are ReplicaSets. Chickens are services. You get the drift.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop paying tech debts, start maintaining code]]></title>
+        <id>changelog.com/news/VJmm</id>
+        <link href="https://blog.testdouble.com/posts/2022-01-20-stop-paying-debts-start-maintaining-code/"/>
+        <updated>2022-01-21T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Jesse O’Brien from Test Double wants us to stop using the term “Tech Debt”
+There’s loads of reasons why unmaintainable code ends up running in the systems our products are built on, but none of these fit the definition of debt.
+Instead, I propose we drop the term Tech Debt and start talking about maintenance tasks. Maintenance is what we’re really talking about. When parts on our car or bicycle suffers wear from driving them around, we don’t talk to our mechanic about “mechanical debt”. (Go back and re-read that sentence, but replace things with “software” and “programmers”). We talk about maintenance.
+This post starts as mostly a semantic debate, and I’m not convinced by his arguments there. I think the debt metaphor is useful when you’re talking about trading quality for speed. That’s what you do when you take on debt: you trade higher cost at a future date (principle + interest) to gain access to the money today (speed).
+That being said, I really like where Jesse ends this piece talking about software maintenance and methods of going about it. Lots of actionable advice there and I’m 100% onboard with talking about software maintenance early and often. One of the first things I consider when somebody approaches me with a feature idea is ask myself: what will this cost to maintain?
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A hands-on approach to getting started with Go generics]]></title>
+        <id>changelog.com/news/ykPR</id>
+        <link href="https://github.com/akutz/go-generics-the-hard-way"/>
+        <updated>2022-01-21T14:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Andrew Kutz:
+After spending some time playing with them, I began to appreciate how generics in Go have been designed and implemented with the same elegance and simplicity as Go itself. I hope you will agree, and to that end, this repository is a hands-on approach to learning all about generics in Go.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Investing in privacy enhancing tech to advance transparency in ML]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML</id>
@@ -267,6 +361,16 @@ Discuss on Changelog News]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Balanced Portfolio]]></title>
+        <id>https://marketradar.substack.com/p/the-balanced-portfolio</id>
+        <link href="https://marketradar.substack.com/p/the-balanced-portfolio"/>
+        <updated>2022-01-18T16:35:51.000Z</updated>
+        <summary type="html"><![CDATA[A detailed presentation of an ETF Portfolio]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Building GitHub Apps with Go]]></title>
         <id>changelog.com/news/k2P2</id>
         <link href="https://martinheinz.dev/blog/65"/>
@@ -440,6 +544,16 @@ He goes on to list out a bunch of tweets from people finding it useful for vario
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction of two sample portfolios: Balanced and Pure Stocks]]></title>
+        <id>https://marketradar.substack.com/p/introduction-of-two-sample-portfolios</id>
+        <link href="https://marketradar.substack.com/p/introduction-of-two-sample-portfolios"/>
+        <updated>2022-01-14T17:26:45.000Z</updated>
+        <summary type="html"><![CDATA[Two portfolios to inspire your investments]]></summary>
+        <author>
+            <name>Market Radar</name>
         </author>
     </entry>
     <entry>
@@ -700,6 +814,16 @@ Be thoughtful out there.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Value rotation is here again]]></title>
+        <id>https://marketradar.substack.com/p/value-rotation-is-here-again</id>
+        <link href="https://marketradar.substack.com/p/value-rotation-is-here-again"/>
+        <updated>2022-01-11T19:34:40.000Z</updated>
+        <summary type="html"><![CDATA[Rising yields created panic among investors]]></summary>
+        <author>
+            <name>Market Radar</name>
         </author>
     </entry>
     <entry>
@@ -1251,6 +1375,16 @@ An update on hardware
 The Quantum AI team is determined to build an error-corrected quantum computer within the next decade, and to simultaneously use what we learn along the way to deliver helpful—and even trans…]]></summary>
         <author>
             <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021 is over, equity rally is not]]></title>
+        <id>https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not</id>
+        <link href="https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not"/>
+        <updated>2021-12-30T15:30:33.000Z</updated>
+        <summary type="html"><![CDATA[Hello guys, I hope you are all fine and having good time. I have been out of office for Christmas holidays, but here I am again to show you my current point of view on markets. In case you haven’t subscribed yet, you can do it now. Just use the button below.]]></summary>
+        <author>
+            <name>Market Radar</name>
         </author>
     </entry>
     <entry>

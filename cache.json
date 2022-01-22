@@ -28,6 +28,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/6/1506",
+          "author": null,
+          "description": "Cloudflare has a lot more to offer than merely DDoS protection and CDN services. On this episode, Jon Kuperman joins Amal & Jerod to talk through many of their cool new things like Workers, KV, Durable Objects, and R2 Storage. Thanks to listener Matt Mannucci for requesting this episode!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nJon Kuperman – Twitter, GitHub, Website\nAmal Hussein – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nNotes and Links\nWorkers\nWorkers Chat Demo\nArgo Smart Routing\nR2 announcement\nDurable Objects\nKV",
+          "link": "https://changelog.com/jsparty/209",
+          "publishedOn": "2022-01-21T17:45:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 209: What Cloudflare is up to",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/209/js-party-209.mp3",
+            "length": "64169717",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Z3De",
+          "author": "Jerod Santo",
+          "description": "If you landed here hoping this project isn’t serious… fear not. It’s just for fun, but it really works!\nHave you ever thought to yourself: Why don’t we have an immersive 3D sandbox user interface to manage workloads on my favorite container orchestrator? No? Well here it is anyway.\nPigs are pods. Cows are ReplicaSets. Chickens are services. You get the drift.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/erjadi/kubecraftadmin",
+          "publishedOn": "2022-01-21T15:54:00.000Z",
+          "wordCount": null,
+          "title": "Minecraft as a k8s admin tool",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/VJmm",
+          "author": "Jerod Santo",
+          "description": "Jesse O’Brien from Test Double wants us to stop using the term “Tech Debt”\nThere’s loads of reasons why unmaintainable code ends up running in the systems our products are built on, but none of these fit the definition of debt.\nInstead, I propose we drop the term Tech Debt and start talking about maintenance tasks. Maintenance is what we’re really talking about. When parts on our car or bicycle suffers wear from driving them around, we don’t talk to our mechanic about “mechanical debt”. (Go back and re-read that sentence, but replace things with “software” and “programmers”). We talk about maintenance.\nThis post starts as mostly a semantic debate, and I’m not convinced by his arguments there. I think the debt metaphor is useful when you’re talking about trading quality for speed. That’s what you do when you take on debt: you trade higher cost at a future date (principle + interest) to gain access to the money today (speed).\nThat being said, I really like where Jesse ends this piece talking about software maintenance and methods of going about it. Lots of actionable advice there and I’m 100% onboard with talking about software maintenance early and often. One of the first things I consider when somebody approaches me with a feature idea is ask myself: what will this cost to maintain?\nDiscuss on Changelog News",
+          "link": "https://blog.testdouble.com/posts/2022-01-20-stop-paying-debts-start-maintaining-code/",
+          "publishedOn": "2022-01-21T15:08:00.000Z",
+          "wordCount": null,
+          "title": "Stop paying tech debts, start maintaining code",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/ykPR",
+          "author": "Jerod Santo",
+          "description": "Andrew Kutz:\nAfter spending some time playing with them, I began to appreciate how generics in Go have been designed and implemented with the same elegance and simplicity as Go itself. I hope you will agree, and to that end, this repository is a hands-on approach to learning all about generics in Go.\nDiscuss on Changelog News",
+          "link": "https://github.com/akutz/go-generics-the-hard-way",
+          "publishedOn": "2022-01-21T14:18:00.000Z",
+          "wordCount": null,
+          "title": "A hands-on approach to getting started with Go generics",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1523",
           "author": null,
           "description": "Gerhard loves simple ideas executed well, which is why he is excited to be speaking today with Ildar Iskhakov & Matvey Kukuy about their startup Amixr, a.k.a. Grafana OnCall.\nIldar & Matvey started with a simple idea and a simple stack - Django, Celery, RabbitMQ & MySQL - all running on Kubernetes. Because they kept their main thing their main thing, and kept improving it every day for a couple of years, now your on-call can be simple too.\nThis is another Big Tent philosophy story with a Black Swan moment towards the end.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nMongoDB – An integrated suite of cloud database and services — They have a FREE forever tier, so you can prove to yourself and to your team that t…",
@@ -894,6 +939,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=62405",
+          "author": "Michelle Mannering",
+          "description": "Many of us were wrapping up projects, emails, events, and getting ready for Christmas. While we were all busy getting ready for the festive season, our community was still hard at work shipping open source",
+          "link": "https://github.blog/2022-01-21-release-radar-dec-2021/",
+          "publishedOn": "2022-01-21T23:00:29.000Z",
+          "wordCount": 1209,
+          "title": "Release Radar · December 2021 Edition"
+        },
+        {
           "id": "https://github.blog/?p=62495",
           "author": "Peter Cihon",
           "description": "When digital infrastructure is overlooked by governments, it isn't just a missed opportunity: policies may inadvertently endanger open source collaboration.",
@@ -1048,6 +1102,88 @@
           "publishedOn": "2022-01-11T16:09:13.000Z",
           "wordCount": 4795,
           "title": "Experimentation is a major focus of Data Science across Netflix"
+        }
+      ]
+    },
+    {
+      "title": "All Eyes on Markets",
+      "feedUrl": "https://marketradar.substack.com/feed.xml",
+      "siteUrl": "https://marketradar.substack.com",
+      "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/2022-false-start-for-us-equities",
+          "author": "Market Radar",
+          "description": "Lot of pain for U.S. stocks, but there are bright spots elsewhere",
+          "link": "https://marketradar.substack.com/p/2022-false-start-for-us-equities",
+          "publishedOn": "2022-01-21T16:15:52.000Z",
+          "wordCount": null,
+          "title": "2022: False start for U.S. equities",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F506491cb-7491-45f8-8b9d-f5c27d2e06f1_310x313.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://marketradar.substack.com/p/the-balanced-portfolio",
+          "author": "Market Radar",
+          "description": "A detailed presentation of an ETF Portfolio",
+          "link": "https://marketradar.substack.com/p/the-balanced-portfolio",
+          "publishedOn": "2022-01-18T16:35:51.000Z",
+          "wordCount": null,
+          "title": "The Balanced Portfolio",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4f8bf5f7-1bff-49ed-ac16-62a9a8da805f_528x400.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://marketradar.substack.com/p/introduction-of-two-sample-portfolios",
+          "author": "Market Radar",
+          "description": "Two portfolios to inspire your investments",
+          "link": "https://marketradar.substack.com/p/introduction-of-two-sample-portfolios",
+          "publishedOn": "2022-01-14T17:26:45.000Z",
+          "wordCount": null,
+          "title": "Introduction of two sample portfolios: Balanced and Pure Stocks",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2d500335-e407-48c5-a603-5a8b7cb28c75_2640x1815.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://marketradar.substack.com/p/value-rotation-is-here-again",
+          "author": "Market Radar",
+          "description": "Rising yields created panic among investors",
+          "link": "https://marketradar.substack.com/p/value-rotation-is-here-again",
+          "publishedOn": "2022-01-11T19:34:40.000Z",
+          "wordCount": null,
+          "title": "Value rotation is here again",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F46d7adf7-5b8a-48b5-b7dc-01e5b370d497_315x316.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not",
+          "author": "Market Radar",
+          "description": "Hello guys, I hope you are all fine and having good time. I have been out of office for Christmas holidays, but here I am again to show you my current point of view on markets. In case you haven’t subscribed yet, you can do it now. Just use the button below.",
+          "link": "https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not",
+          "publishedOn": "2021-12-30T15:30:33.000Z",
+          "wordCount": null,
+          "title": "2021 is over, equity rally is not",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7b38432c-a706-4af3-a811-96d84a893236_1256x830.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
         }
       ]
     }
