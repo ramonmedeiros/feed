@@ -28,6 +28,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1564",
+          "author": null,
+          "description": "From drug discovery at the Quebec AI Institute to improving capabilities with low-resourced languages at the Masakhane Research Foundation and Google AI, Bonaventure Dossou looks for opportunities to use his expertise in natural language processing to improve the world - and especially to help his homeland in the Benin Republic in Africa.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nBonaventure Dossou – Twitter, GitHub, LinkedIn, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\nNotes and Links\nBonaventure Dossou | Instagram\n2020 — ongoing: My Year of Fame and how I joined the world of Research",
+          "link": "https://changelog.com/practicalai/165",
+          "publishedOn": "2022-01-25T22:25:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 165: The world needs an AI superhero",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/165/practical-ai-165.mp3",
+            "length": "41811145",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/13Qw",
+          "author": "Jerod Santo",
+          "description": "PRQL (pronounced “Prequel”) aims to be “a simpler and more powerful SQL”\nLike SQL, it’s readable, explicit and declarative. Unlike SQL, it forms a logical pipeline of transformations, and supports abstractions such as variables and functions. It can be used with any database that uses SQL, since it transpiles to SQL.\nTo get an idea on PRQL’s design, they provide this SQL statement as an example:\nSELECT TOP 20\n    title,\n    country,\n    AVG(salary) AS average_salary,\n    SUM(salary) AS sum_salary,\n    AVG(salary + payroll_tax) AS average_gross_salary,\n    SUM(salary + payroll_tax) AS sum_gross_salary,\n    AVG(salary + payroll_tax + benefits_cost) AS average_gross_cost,\n    SUM(salary + payroll_tax + benefits_cost) AS sum_gross_cost,\n    COUNT(*) as count\nFROM employees\nWHERE salary + payroll_tax + benefits_cost > 0 AND country = 'USA'\nGROUP BY title, country\nORDER BY sum_gross_cost\nHAVING count > 200\n\nAnd then translate it to PRQL, which looks like:\nfrom employees\nfilter country = \"USA\"                           # Each line transforms the previous result.\nlet gross_salary = salary + payroll_tax          # This _adds_ a column / variable.\nlet gross_cost   = gross_salary + benefits_cost  # Variables can use other variables.\nfilter gross_cost > 0\naggregate by:[title, country] [                  # `by` are the columns to group by.\n    average salary,                              # These are the calcs to run on the groups.\n    sum     salary,\n    average gross_salary,\n    sum     gross_salary,\n    average gross_cost,\n    sum     gross_cost,\n    count,\n]\nsort sum_gross_cost                              # Uses the auto-generated column name.\nfilter count > 200\ntake 20\n\nDiscuss on Changelog News",
+          "link": "https://github.com/max-sixty/prql",
+          "publishedOn": "2022-01-25T19:35:00.000Z",
+          "wordCount": null,
+          "title": "PRQL – a modern language for transforming data",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/k2r2",
+          "author": "Jerod Santo",
+          "description": "Troy Hunt (of Have I been Pwned fame) has been a vocal proponent of cloud-first services for awhile. Last December, that strategy came back to bite him:\nIt all started with my monthly Azure bill for December which was way over what it would normally be. It only took a moment to find the problem…\nHe goes on to tell the tale in excruciating detail. Be careful out there, cloud natives.\nDiscuss on Changelog News",
+          "link": "https://www.troyhunt.com/how-i-got-pwned-by-my-cloud-costs/",
+          "publishedOn": "2022-01-25T15:49:00.000Z",
+          "wordCount": null,
+          "title": "How I got pwned by my cloud costs",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/mar1",
+          "author": "Jerod Santo",
+          "description": "Rebuilding Wordle is a fun way to show off what your frontend framework is capable of (and how). Evan You has been doing just that for Vue. It’s not a 100% reproduction of the original, but it does have one cool feature the official game does NOT:\nYou can make your own Wordle and send it to friends by base64-encoding a word and include it as the URL query\nHere’s a custom one using an acronym that many devs think about often…\nDiscuss on Changelog News",
+          "link": "https://github.com/yyx990803/vue-wordle",
+          "publishedOn": "2022-01-25T15:02:00.000Z",
+          "wordCount": null,
+          "title": "Wordle built with Vue, aka VVordle",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1550",
           "author": null,
           "description": "This week Paul Copplestone, CEO of Supabase joined us to catch us up on the next big thing happening in the world of Postgres. Supabase might be best known as “the open source Firebase alternative,” a tagline they might be reluctant to maintain. But from Adam’s perspective, he’s never been more excited about what they’re bringing to market for Postgres fans. In the last year, Supabase has gone from 0 to more than 80,000 databases on their platform — and they’re still in beta…and it’s open source. Hopefully today’s show sheds some light on why everyone is talking about Supabase.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From…",
@@ -988,6 +1033,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=62598",
+          "author": "Berk Veral",
+          "description": "GitHub continues to improve account security and developer experience with a new 2FA mechanism in GitHub Mobile on iOS and Android.",
+          "link": "https://github.blog/2022-01-25-secure-your-github-account-github-mobile-2fa/",
+          "publishedOn": "2022-01-25T16:41:56.000Z",
+          "wordCount": 738,
+          "title": "Secure your GitHub account with GitHub Mobile 2FA"
+        },
+        {
           "id": "https://github.blog/?p=62535",
           "author": "Taylor Blau",
           "description": "The open source Git project just released Git 2.35. Here's GitHub's look at some of the most interesting features and changes introduced since last time.",
@@ -1152,6 +1206,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/394bc7d0f94c",
+          "author": "Netflix Technology Blog",
+          "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Mihir Tendulkar, and Travis Brooks",
+          "link": "https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-01-25T16:23:45.000Z",
+          "wordCount": 3281,
+          "title": "Netflix: A Culture of Learning"
+        },
         {
           "id": "https://medium.com/p/eab2602b86fe",
           "author": "Netflix Technology Blog",
