@@ -28,6 +28,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/JLOA",
+          "author": "Jerod Santo",
+          "description": "I love how much hacking has been inspired by Wordle.\nThe Wordle source code contains 2,315 days of answers (all common 5-letter English words) and 10,657 other valid, less-common 5-letter English words.\nWe combine these to form a set of 12,972 possible words/answers.\nWe then simulate playing 1,000 Wordle games for each of these possible words, guessing based on the frequency of the word in the English language and the feedback received.\nThen we take three measures to evaluate the observed distribution of ⬛🟨🟩 squares on Twitter according to our valid words.\nThe resulting code is included in the article.\nDiscuss on Changelog News",
+          "link": "https://www.kaggle.com/benhamner/wordle-1-6",
+          "publishedOn": "2022-01-28T16:41:00.000Z",
+          "wordCount": null,
+          "title": "Get the daily Wordle on the first try using the tweet distribution",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Q5eM",
+          "author": "Jerod Santo",
+          "description": "Lots of people talk about Kubernets’ complexity, but it’s rare for someone to attempt to plumb the depths of why exactly that is.\nI don’t claim to have the full answer, but this post is an attempt to commit to paper two specific thoughts or paradigms I have that I reach for as I try to understand why working with Kubernetes feels so hairy sometimes.\nDiscuss on Changelog News",
+          "link": "https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/",
+          "publishedOn": "2022-01-28T15:54:00.000Z",
+          "wordCount": null,
+          "title": "Two reasons Kubernetes is so complex",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/4/1561",
           "author": null,
           "description": "This week Adam is joined by Christine Yen, co-founder and CEO of Honeycomb. Christine and Adam recorded this show late last year, just after their Series C funding round. They talk about the superpower of observability for developers, how she and Charity Majors got to the place to found Honeycomb, the state of their platform today, what exactly observability is, and their goals for the future of Honeycomb.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nWorkOS – A platform that gives developers a set of building blocks for quickly adding enterprise-ready features to their application. Add Single Sign-On (Okta, Azure, Google, Microsoft OAuth), sync users from any SCIM directory, HRIS integration, audit trails (SIE…",
@@ -902,15 +922,6 @@
           "publishedOn": "2022-01-06T12:00:00.000Z",
           "wordCount": 1625,
           "title": "How Abigail Annkah is using AI to improve maps in Africa"
-        },
-        {
-          "id": "https://blog.google/technology/research/2021-year-review-google-quantum-ai/",
-          "author": null,
-          "description": "Google’s Quantum AI team has had a productive 2021. Despite ongoing global challenges, we’ve made significant progress in our effort to build a fully error-corrected quantum computer, working towards our next hardware milestone of building an error-corrected quantum bit (qubit) prototype. At the same time, we have continued our commitment to realizing the potential of quantum computers in various applications. That's why we published results in top journals, collaborated with researchers across academia and industry, and expanded our team to bring on new talent and expertise.\n\n\n\nAn update on hardware\n\n\nThe Quantum AI team is determined to build an error-corrected quantum computer within the next decade, and to simultaneously use what we learn along the way to deliver helpful—and even trans…",
-          "link": "https://blog.google/technology/research/2021-year-review-google-quantum-ai/",
-          "publishedOn": "2021-12-30T18:00:00.000Z",
-          "wordCount": 2075,
-          "title": "2021 Year in Review: Google Quantum AI"
         }
       ]
     },
@@ -1110,15 +1121,6 @@
           "publishedOn": "2022-01-18T16:07:59.000Z",
           "wordCount": 2488,
           "title": "Contributing to MDN: Meet the Contributors"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47506",
-          "author": "Xavier Harding",
-          "description": "Sara Soueidan is an independent Web UI and design engineer, author, speaker, and trainer from Lebanon. When Sara isn’t offering keynote speeches at conferences (she’s done so a dozen times) she’s writing books like “Codrops CSS Reference” and “Smashing Book 5.” Currently, she’s working on a new course, \"Practical Accessibility,\" meant to teach devs and designers ways to make their products accessible. In 2015, Sara was voted Developer of the Year in the net awards, and shortlisted for the Outstanding Contribution of the Year award. She also won an O’Reilly Web Platform Award for “exceptional leadership, creativity, and collaboration in the development of JavaScript, HTML, CSS, and the supporting Web ecosystem.”\nWe chatted with Sara about front-end web development, the importance of design and her appreciation of birds.\nThe post Hacks Decoded: Sara Soueidan, Award-Winning UI Design Engineer and Author appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2021/12/hacks-decoded-sara-soueidan-award-winning-ui-design-engineer-and-author/",
-          "publishedOn": "2021-12-30T15:13:51.000Z",
-          "wordCount": 3597,
-          "title": "Hacks Decoded: Sara Soueidan, Award-Winning UI Design Engineer and Author"
         }
       ]
     },
@@ -1295,6 +1297,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/customer-stories/nine-months-dib-vdp-pilot-nearly-1000-valid-vulnerabilities-have-been-identified",
+          "author": "HackerOne",
+          "description": "With three months left in the 12-month pilot with the Department of Defense’s Defense Industrial Base Vulnerability Disclosure Pilot (DOD DIB-VDP Pilot), HackerOne sat down with DC3 to discuss why new DIB companies are joining the pilot and hear why hackers are a critical partner for the DOD.",
+          "link": "https://www.hackerone.com/customer-stories/nine-months-dib-vdp-pilot-nearly-1000-valid-vulnerabilities-have-been-identified",
+          "publishedOn": "2022-01-28T15:00:00.000Z",
+          "wordCount": 944,
+          "title": "Nine months into the DIB-VDP Pilot, nearly 1,000 valid vulnerabilities have been identified"
+        },
+        {
           "id": "https://hackerone.com/vulnerability-management/hackerone-global-top-10-hacker-expertise-industry-data-and-date",
           "author": "HackerOne",
           "description": "Many security teams use the OWASP Top 10 as a guideline to understand where they should focus their security strategies and cyberattack prevention efforts. The OWASP Top 10 originated in 2003 and has become a benchmark for compliance, education, and vendor tools.",
@@ -1433,21 +1444,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F46d7adf7-5b8a-48b5-b7dc-01e5b370d497_315x316.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not",
-          "author": "Market Radar",
-          "description": "Hello guys, I hope you are all fine and having good time. I have been out of office for Christmas holidays, but here I am again to show you my current point of view on markets. In case you haven’t subscribed yet, you can do it now. Just use the button below.",
-          "link": "https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not",
-          "publishedOn": "2021-12-30T15:30:33.000Z",
-          "wordCount": null,
-          "title": "2021 is over, equity rally is not",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7b38432c-a706-4af3-a811-96d84a893236_1256x830.jpeg",
             "length": "0",
             "type": "image/jpeg"
           }

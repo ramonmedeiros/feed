@@ -2,10 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-28T12:13:27.577Z</updated>
+    <updated>2022-01-29T12:13:11.903Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Get the daily Wordle on the first try using the tweet distribution]]></title>
+        <id>changelog.com/news/JLOA</id>
+        <link href="https://www.kaggle.com/benhamner/wordle-1-6"/>
+        <updated>2022-01-28T16:41:00.000Z</updated>
+        <summary type="html"><![CDATA[I love how much hacking has been inspired by Wordle.
+The Wordle source code contains 2,315 days of answers (all common 5-letter English words) and 10,657 other valid, less-common 5-letter English words.
+We combine these to form a set of 12,972 possible words/answers.
+We then simulate playing 1,000 Wordle games for each of these possible words, guessing based on the frequency of the word in the English language and the feedback received.
+Then we take three measures to evaluate the observed distribution of ⬛🟨🟩 squares on Twitter according to our valid words.
+The resulting code is included in the article.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two reasons Kubernetes is so complex]]></title>
+        <id>changelog.com/news/Q5eM</id>
+        <link href="https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/"/>
+        <updated>2022-01-28T15:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Lots of people talk about Kubernets’ complexity, but it’s rare for someone to attempt to plumb the depths of why exactly that is.
+I don’t claim to have the full answer, but this post is an attempt to commit to paper two specific thoughts or paradigms I have that I reach for as I try to understand why working with Kubernetes feels so hairy sometimes.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nine months into the DIB-VDP Pilot, nearly 1,000 valid vulnerabilities have been identified]]></title>
+        <id>https://hackerone.com/customer-stories/nine-months-dib-vdp-pilot-nearly-1000-valid-vulnerabilities-have-been-identified</id>
+        <link href="https://www.hackerone.com/customer-stories/nine-months-dib-vdp-pilot-nearly-1000-valid-vulnerabilities-have-been-identified"/>
+        <updated>2022-01-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With three months left in the 12-month pilot with the Department of Defense’s Defense Industrial Base Vulnerability Disclosure Pilot (DOD DIB-VDP Pilot), HackerOne sat down with DC3 to discuss why new DIB companies are joining the pilot and hear why hackers are a critical partner for the DOD.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Founders Talk 86: Bringing observability superpowers to all]]></title>
         <id>changelog.com/4/1561</id>
@@ -1747,45 +1785,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Twitter Notebook is Twitter’s internal notebook solution. It provides a first-class development environment to Data Scientist and Machine Learning practitioners at Twitter. This blog shares features o]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021 Year in Review: Google Quantum AI]]></title>
-        <id>https://blog.google/technology/research/2021-year-review-google-quantum-ai/</id>
-        <link href="https://blog.google/technology/research/2021-year-review-google-quantum-ai/"/>
-        <updated>2021-12-30T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Google’s Quantum AI team has had a productive 2021. Despite ongoing global challenges, we’ve made significant progress in our effort to build a fully error-corrected quantum computer, working towards our next hardware milestone of building an error-corrected quantum bit (qubit) prototype. At the same time, we have continued our commitment to realizing the potential of quantum computers in various applications. That's why we published results in top journals, collaborated with researchers across academia and industry, and expanded our team to bring on new talent and expertise.
-
-
-
-An update on hardware
-
-
-The Quantum AI team is determined to build an error-corrected quantum computer within the next decade, and to simultaneously use what we learn along the way to deliver helpful—and even trans…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021 is over, equity rally is not]]></title>
-        <id>https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not</id>
-        <link href="https://marketradar.substack.com/p/2021-is-over-equity-rally-is-not"/>
-        <updated>2021-12-30T15:30:33.000Z</updated>
-        <summary type="html"><![CDATA[Hello guys, I hope you are all fine and having good time. I have been out of office for Christmas holidays, but here I am again to show you my current point of view on markets. In case you haven’t subscribed yet, you can do it now. Just use the button below.]]></summary>
-        <author>
-            <name>Market Radar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacks Decoded: Sara Soueidan, Award-Winning UI Design Engineer and Author]]></title>
-        <id>https://hacks.mozilla.org/?p=47506</id>
-        <link href="https://hacks.mozilla.org/2021/12/hacks-decoded-sara-soueidan-award-winning-ui-design-engineer-and-author/"/>
-        <updated>2021-12-30T15:13:51.000Z</updated>
-        <summary type="html"><![CDATA[Sara Soueidan is an independent Web UI and design engineer, author, speaker, and trainer from Lebanon. When Sara isn’t offering keynote speeches at conferences (she’s done so a dozen times) she’s writing books like “Codrops CSS Reference” and “Smashing Book 5.” Currently, she’s working on a new course, "Practical Accessibility," meant to teach devs and designers ways to make their products accessible. In 2015, Sara was voted Developer of the Year in the net awards, and shortlisted for the Outstanding Contribution of the Year award. She also won an O’Reilly Web Platform Award for “exceptional leadership, creativity, and collaboration in the development of JavaScript, HTML, CSS, and the supporting Web ecosystem.”
-We chatted with Sara about front-end web development, the importance of design and her appreciation of birds.
-The post Hacks Decoded: Sara Soueidan, Award-Winning UI Design Engineer and Author appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Xavier Harding</name>
         </author>
     </entry>
 </feed>
