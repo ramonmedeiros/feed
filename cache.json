@@ -38,6 +38,46 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/j5Zq",
+          "author": "Jerod Santo",
+          "description": "A nice set of algorithms implemented with Go best practices in mind, making this a good learning resource. I wonder how much churn we’ll see on these once generics are officially added to the language… 🤔\nDiscuss on Changelog News",
+          "link": "https://github.com/TheAlgorithms/Go",
+          "publishedOn": "2022-02-02T17:54:00.000Z",
+          "wordCount": null,
+          "title": "Algorithms implemented in Go (for education)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/EQrQ",
+          "author": "Jerod Santo",
+          "description": "“Think TCPDump and Wireshark re-invented for Kubernetes.”\n\nDiscuss on Changelog News",
+          "link": "https://github.com/up9inc/mizu",
+          "publishedOn": "2022-02-02T17:01:00.000Z",
+          "wordCount": null,
+          "title": "Mizu – an API traffic viewer for Kubernetes",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/bNrW",
+          "author": "Jerod Santo",
+          "description": "If you’d prefer code over comics, see instead her little Go program that explains the same.\n\nDiscuss on Changelog News",
+          "link": "https://wizardzines.com/comics/life-of-a-dns-query/",
+          "publishedOn": "2022-02-02T15:32:00.000Z",
+          "wordCount": null,
+          "title": "Life of a DNS query",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/W3ro",
+          "author": "Jerod Santo",
+          "description": "They brand CasaOS as an operating system, but it’s really a layer on top of Linux that provides a nice UI and easy app (docker container) installation. It’s early days for the project, but we definitely need some open source options in this space, so here’s hoping they continue to progress!\n\nDiscuss on Changelog News",
+          "link": "https://www.casaos.io/",
+          "publishedOn": "2022-02-02T14:39:00.000Z",
+          "wordCount": null,
+          "title": "CasaOS – a home cloud system based on the Docker ecosystem",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/q0rL",
           "author": "Jerod Santo",
           "description": "Ben Kuhn is a big fan of one-on-one meeting between managers and their direct reports to discuss whatever the report wants. So, he suggested his partner try them with him to improver her graduate program experience.\nIn the end, they succeeded far beyond my expectations: Eve thinks our one-on-ones sped up her dissertation by about a year.\nDiscuss on Changelog News",
@@ -901,46 +941,6 @@
             "length": "42189444",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/DzAp",
-          "author": "Jerod Santo",
-          "description": "This project provides a tiny .emacs file to set up Emacs quickly. This document provides a detailed description of how to set it up and get started with Emacs.\nFurther this project also provides a tiny convenience command named em to start Emacs server and edit files using Emacs server. This helps in using Emacs efficiently.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/susam/emfy",
-          "publishedOn": "2022-01-04T17:26:00.000Z",
-          "wordCount": null,
-          "title": "A dark/sleek Emacs setup for general purpose editing and programming",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/k2Ve",
-          "author": "Jerod Santo",
-          "description": "Previously, we compiled a Go program into a WebAssembly and then converted it into C++ files to make it run on Nintendo Switch. Now, I have succeeded in compiling a Go program into a native binary for Nintendo Switch, and also running a game there. I replaced system calls with C function calls using the -overlay option.\n\nDiscuss on Changelog News",
-          "link": "https://ebiten.org/blog/native_compiling_for_nintendo_switch.html",
-          "publishedOn": "2022-01-04T16:39:00.000Z",
-          "wordCount": null,
-          "title": "Compiling a Go program into a native binary for Nintendo Switch™",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/13A6",
-          "author": "Adam Stacoviak",
-          "description": "Oliver Brotchie developed this CSS fingerprinting technique that requires no Javascript or Cookies to function and avoids anti-tracking methods such as NoScript, VPNs or browser extensions.\nCSS Fingerprinting is a technique of tracking and gathering information on site visitors. This method exploits the nature of CSS to track various characteristics about the visitor’s browser and device, which can later be used to either identify or track said visitor.\nRight now, at current spec, this method doesn’t scale, but with the next upcoming draft of the CSS specification, CSS Values 4, it will become far more scalable and precise.\nDiscuss on Changelog News",
-          "link": "https://csstracking.dev/",
-          "publishedOn": "2022-01-04T15:51:44.000Z",
-          "wordCount": null,
-          "title": "CSS fingerprinting",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/gdzW",
-          "author": "Jerod Santo",
-          "description": "If you ever get into an “oh snap!” situation where you think you just lost days of work, checkout a dura branch and recover.\nWithout dura, you use Ctrl-Z in your editor to get back to a good state. That’s so 2021. Computers crash and Ctrl-Z only works on files independently. Dura snapshots changes across the entire repository as-you-go, so you can revert to “4 hours ago” instead of “hit Ctrl-Z like 40 times or whatever”. Finally, some sanity.\nThis sounds a lot like how Fossil works out of the box, except maybe even more paranoid because Fossil will propagate every commit whereas Dura propagates all changes even before they’re committed.\nDiscuss on Changelog News",
-          "link": "https://github.com/tkellogg/dura",
-          "publishedOn": "2022-01-04T15:25:00.000Z",
-          "wordCount": null,
-          "title": "Dura is a background process that watches your Git repos",
-          "itunes": {}
         }
       ]
     },
@@ -948,7 +948,17 @@
       "title": "comma.ai blog",
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.comma.ai/openpilot-hiring/",
+          "author": null,
+          "description": "The openpilot team is one of three teams at comma. Our main goal is to provide a stable and highly reliable platform for the research team’s models to run on. This includes everything from the OS our devices run to the cars that openpilot drives. We’re looking for great engineers who want to work on all parts of that stack.",
+          "link": "https://blog.comma.ai/openpilot-hiring/",
+          "publishedOn": "2022-02-02T12:00:00.000Z",
+          "wordCount": 466,
+          "title": "Join the openpilot team!"
+        }
+      ]
     },
     {
       "title": "AI",
@@ -1224,6 +1234,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62836",
+          "author": "Scott Sanders",
+          "description": "In January, we experienced no incidents resulting in service downtime to our core services.",
+          "link": "https://github.blog/2022-02-02-github-availability-report-january-2022/",
+          "publishedOn": "2022-02-03T00:00:24.000Z",
+          "wordCount": 318,
+          "title": "GitHub Availability Report: January 2022"
+        },
+        {
+          "id": "https://github.blog/?p=62762",
+          "author": "Brian Douglas",
+          "description": "A quick guide on the advantages of using GitHub Actions as your preferred CI/CD tool—and how to build a CI/CD pipeline with it.",
+          "link": "https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/",
+          "publishedOn": "2022-02-02T19:48:18.000Z",
+          "wordCount": 2528,
+          "title": "How to build a CI/CD pipeline with GitHub Actions in four simple steps"
+        },
+        {
+          "id": "https://github.blog/?p=62801",
+          "author": "Jessica Lord",
+          "description": "Along with the release of sponsors-only repositories, here’s a look at what’s new and what’s next for Sponsors.",
+          "link": "https://github.blog/2022-02-02-new-sponsors-only-repositories-custom-amounts-and-more/",
+          "publishedOn": "2022-02-02T18:00:04.000Z",
+          "wordCount": 940,
+          "title": "New sponsors-only repositories, custom amounts, and more"
+        },
         {
           "id": "https://github.blog/?p=62743",
           "author": "Nick Rolfe",
