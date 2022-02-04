@@ -38,6 +38,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/lb4W",
+          "author": "Jerod Santo",
+          "description": "Just wow. This is an impressively hacky hack. You’re probably wondering how? As many such things do, it all starts with a new (Chrome-only) API:\nA new set of APIs affectionately known as Houdini give your browser the power to control CSS via its own Object Model in Javascript. In English, this means that you can make custom CSS styles, add custom properties, and so on…\nAnd it ends with something that looks like this:\nmain {\n  // ...\n  --sql-query: SELECT name FROM test;\n}\n\nDiscuss on Changelog News",
+          "link": "https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html",
+          "publishedOn": "2022-02-03T18:17:00.000Z",
+          "wordCount": null,
+          "title": "Yes, I can connect to a DB in CSS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1518",
+          "author": null,
+          "description": "MLOps is an increasingly popular topic that is no longer just a subset of DevOps. Go is a great choice for infrastructure. What role does Go play in MLOps?\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nMike Eastham – Twitter, LinkedIn\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nUber’s Michelangelo project\nWhat is a Feature and a Feature Store\nContribute to FEAST",
+          "link": "https://changelog.com/gotime/215",
+          "publishedOn": "2022-02-03T17:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 215: MLOps in Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/215/go-time-215.mp3",
+            "length": "43918914",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/pkEM",
+          "author": "Jerod Santo",
+          "description": "Read the comments for all the bug reports and iteration. 🔥\n\nDiscuss on Changelog News",
+          "link": "https://gist.github.com/huytd/6a1a6a7b34a0d0abcac00b47e3d01513",
+          "publishedOn": "2022-02-03T15:32:00.000Z",
+          "wordCount": null,
+          "title": "A Wordle clone in less than 50 lines of bash",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/j5Zq",
           "author": "Jerod Santo",
           "description": "A nice set of algorithms implemented with Go best practices in mind, making this a good learning resource. I wonder how much churn we’ll see on these once generics are officially added to the language… 🤔\nDiscuss on Changelog News",
@@ -881,66 +916,6 @@
           "wordCount": null,
           "title": "Reviewing the Framework laptop with Ubuntu",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1511",
-          "author": null,
-          "description": "In our first 2022 episode, Alexis Richardson, co-founder and CEO of Weaveworks, is talking to Gerhard about going fully remote, what a great team looks like, and GitOps. While you may have heard of GitOps, now is a good time to check out opengitops.dev.\nThe most interesting part of today’s conversation is the missing cloud native App Store. While Apple revolutionised the world with the App Store and the iPhone, we don’t yet have something similar for cloud native apps. You may be thinking “But what about OperatorHub?”, or all the Helm registries out there? The registry fragmentation, operator deprecations and lack of curation are not what people have in mind when they think App Store. But there is more to it, so let’s hear how Alexis thinks about this.\nDiscuss on Changelog News\nJoin Change…",
-          "link": "https://changelog.com/shipit/34",
-          "publishedOn": "2022-01-05T23:30:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 34: Where is the cloud native App Store?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/34/ship-it-34.mp3",
-            "length": "44950994",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/bNad",
-          "author": "Konrad",
-          "description": "Back in the olden days, I would just put a mysqldump > dump.sql in a crontab and called it a day. When I started to host more and more stuff with docker, I first just migrated that approach to docker and put it all in a container. That still required me to mess around with config files. Once I started to host postgres containers it all got even more complicated. Thus, I needed a new solution.\nI built this tool to make backups easy: Simply point it to a host running docker containers and it will automatically inspect and find all mysql/mariadb and postgres containers and do backups of them on a schedule. No configuration required, it “just works”.\nDiscuss on Changelog News",
-          "link": "https://kolaente.dev/konrad/docker-db-backup",
-          "publishedOn": "2022-01-05T21:30:00.000Z",
-          "wordCount": null,
-          "title": "Simple, zero-fuss docker database backups",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/P5ao",
-          "author": "Finnian Anderson",
-          "description": "There’s lots of info out there about building a simple app with Turbo, but there’s very limited content about architecting apps, scaling or building anything that’s not simply a blog.\nIn this post, I go into details about building a real production app with Hotwire and what we learnt as a team, plus some of the things we don’t like and the problems we bumped into.\nDiscuss on Changelog News",
-          "link": "https://finnian.io/blog/hotwire-in-the-real-world/",
-          "publishedOn": "2022-01-05T20:43:00.000Z",
-          "wordCount": null,
-          "title": "Hotwire in the real world",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W3MO",
-          "author": "Alex Strick van Linschoten",
-          "description": "ZenML is an extensible MLOps framework to create production-ready machine learning pipelines. Built for data scientists, it has a simple, flexible syntax, is cloud and tool agnostic, and has interfaces/abstractions that are catered towards ML workflows.\nThe code base was recently completely rewritten with better abstractions and to set us up for our ongoing growth and inclusion of more integrations with tools that data scientists love to use.\nDiscuss on Changelog News",
-          "link": "https://github.com/zenml-io/zenml",
-          "publishedOn": "2022-01-05T16:43:00.000Z",
-          "wordCount": null,
-          "title": "ZenML helps data scientists work across the full stack",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1552",
-          "author": null,
-          "description": "In the second of the “AI in Africa” spotlight episodes, we welcome guests from Radiant Earth to talk about machine learning for earth observation. They give us a glimpse into their amazing data and tooling for working with satellite imagery, and they talk about use cases including crop identification and tropical storm wind speed estimation.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nMe, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nFeaturing\nHamed Alemohammad – Twitter\nAbba Barde – Twitter, LinkedIn\nJoyce Nabende – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nRadiant Earth\nML for Earth Observation online course\n“Spot the crop” challenge\nOpen for Good Alliance",
-          "link": "https://changelog.com/practicalai/162",
-          "publishedOn": "2022-01-05T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 162: 🌍 AI in Africa - Radiant Earth",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/162/practical-ai-162.mp3",
-            "length": "42189444",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1043,15 +1018,6 @@
           "publishedOn": "2022-01-10T15:07:10.000Z",
           "wordCount": 1511,
           "title": "Don’t mix URL parsers"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18119",
-          "author": "Daniel Stenberg",
-          "description": "There has been eight weeks since 7.80.0. Release presentation Numbers the 205th release1 change56 days (total: 8,636)121 bug-fixes (total: 7,518)189 commits (total: 28,055)0 new public libcurl function (total: 86)1 new curl_easy_setopt() option (total: 295)1 new curl command line option (total: 244)53 contributors, 25 new (total: 2,558)32 authors, 14 new (total: 990)0 security fixes (total: 111)0 … Continue reading curl 7.81.0 – more percent →",
-          "link": "https://daniel.haxx.se/blog/2022/01/05/curl-7-81-0-more-percent/",
-          "publishedOn": "2022-01-05T08:03:22.000Z",
-          "wordCount": 1540,
-          "title": "curl 7.81.0 – more percent"
         }
       ]
     },
@@ -1404,24 +1370,6 @@
           "publishedOn": "2022-01-12T17:56:11.000Z",
           "wordCount": 1641,
           "title": "How we ship GitHub Mobile every week"
-        },
-        {
-          "id": "https://github.blog/?p=62275",
-          "author": "Scott Sanders",
-          "description": "In December, we experienced no incidents resulting in service downtime to our core services.",
-          "link": "https://github.blog/2022-01-05-github-availability-report-december-2021/",
-          "publishedOn": "2022-01-05T21:34:45.000Z",
-          "wordCount": 238,
-          "title": "GitHub Availability Report: December 2021"
-        },
-        {
-          "id": "https://github.blog/?p=62222",
-          "author": "Xavier René-Corail",
-          "description": "The GitHub Security Lab’s CodeQL bounty program fuels GitHub Advanced Security with queries written by the open source community.",
-          "link": "https://github.blog/2022-01-05-how-the-community-powers-github-advanced-security-with-codeql-queries/",
-          "publishedOn": "2022-01-05T18:18:04.000Z",
-          "wordCount": 1244,
-          "title": "How the community powers GitHub Advanced Security with CodeQL queries"
         }
       ]
     },
