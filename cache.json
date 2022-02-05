@@ -38,6 +38,81 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1556",
+          "author": null,
+          "description": "This week we’re joined by Nora Jones, founder and CEO at Jeli where they help teams gain insight and learnings from incidents. Back in December Nora shared here thoughts in a Changelog post titled “Incident” shouldn’t be a four-letter word - which got a lot of attention from our readers. Today we’re talking with Nora about all things incidents — the learning and growth they represent for teams, why teams should focus on learning from incidents in the first place, their Howie guide to post‑incident investigations, why the next emerging role is an Incident Analyst, and she also shares a few book recommendations which we’ve linked up in the show notes.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nInfluxData – Inf…",
+          "link": "https://changelog.com/podcast/478",
+          "publishedOn": "2022-02-04T22:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 478: Learning from incidents",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/478/the-changelog-478.mp3",
+            "length": "65871902",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/k2qy",
+          "author": "Jerod Santo",
+          "description": "Daniel Stenberg’s first step toward adding first-party JSON support to everyone’s favorite command-line URL transmitter is a flag that is basically a shortcut for the following flags:\n--data [arg]\n--header \"Content-Type: application/json\"\n--header \"Accept: application/json\"\n\nWill more come of this? Time (and the community) will tell…\nThe discussion has been ignited in the curl community about what, if anything, we should do in curl to make it a smoother and better tool when working with JSON. The offered opinions range from nothing (“curl is content agnostic”) to full-fledged JSON generator, parser and pretty-printer (or a combination in between).\nDiscuss on Changelog News",
+          "link": "https://daniel.haxx.se/blog/2022/02/02/curl-dash-dash-json/",
+          "publishedOn": "2022-02-04T19:34:00.000Z",
+          "wordCount": null,
+          "title": "Curl gets a --json flag",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1541",
+          "author": null,
+          "description": "Ryan Carniato joins Jerod, Amelia, and Nick to discuss SolidjS – a declarative, efficient, and flexible JavaScript library for building user interfaces.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nRyan Carniato – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nAmelia Wattenberger – Twitter, GitHub, Website\nNick Nisi – Twitter, GitHub, Website\nNotes and Links\nHolla! JSConf Mexico (On YouTube)\nSolidJS website\nJS Framework Benchmark\nIsomorphic UI Benchmark\nRyan Florence Tweet\nSolid Start meta-framework\nMarkoJS",
+          "link": "https://changelog.com/jsparty/211",
+          "publishedOn": "2022-02-04T17:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 211: A Solid option for building UIs",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/211/js-party-211.mp3",
+            "length": "53408946",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/wkdo",
+          "author": "Jerod Santo",
+          "description": "Ships with a file explorer, autocompletion, git integration, status line, fuzzy finding, and more.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/kabinspace/AstroVim",
+          "publishedOn": "2022-02-04T15:46:00.000Z",
+          "wordCount": null,
+          "title": "AstroVim is an aesthetic/feature-rich Neovim config",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1538",
+          "author": null,
+          "description": "Gunnar Holwerda (Engineering Manager) and Tom Pansino (DevOps Team Lead) share with us a few stories about how the teams at opensesame.com manage AWS operational complexity. The first link in the episode show notes are the slides that Tom & Gunnar prepared for this conversation. Check them out as you hear us speak about the Inverse Conway Manoeuvre, and why you should always go for the bananas.\nIf you like this episode, and have a similar story to share, please reach out to us. We all love real-world stories that we can learn from, and perhaps contribute to.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporti…",
+          "link": "https://changelog.com/shipit/38",
+          "publishedOn": "2022-02-04T15:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 38: Go for the bananas",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/38/ship-it-38.mp3",
+            "length": "67232814",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/d38l",
+          "author": "Jerod Santo",
+          "description": "Anybody who’s had to design/implement HTML emails knows how utterly painful it is. With Mailwind you get to do it the same way you’d build a site with Tailwind and then run:\nmailwind --input-html email.html --output-css style.css\n# or for inline styles\nmailwind --input-html email.html --output-html email-inlined.html\n\nAnd you’re off to the outbox! 📤\nDiscuss on Changelog News",
+          "link": "https://github.com/soheilpro/mailwind",
+          "publishedOn": "2022-02-04T14:48:00.000Z",
+          "wordCount": null,
+          "title": "Use Tailwind to design HTML emails",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/lb4W",
           "author": "Jerod Santo",
           "description": "Just wow. This is an impressively hacky hack. You’re probably wondering how? As many such things do, it all starts with a new (Chrome-only) API:\nA new set of APIs affectionately known as Houdini give your browser the power to control CSS via its own Object Model in Javascript. In English, this means that you can make custom CSS styles, add custom properties, and so on…\nAnd it ends with something that looks like this:\nmain {\n  // ...\n  --sql-query: SELECT name FROM test;\n}\n\nDiscuss on Changelog News",
@@ -871,51 +946,6 @@
           "wordCount": null,
           "title": "Real-time machine learning: challenges and solutions",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1532",
-          "author": null,
-          "description": "Our award winning ready survey game show is back, this time live from GopherCon 2021!\nGo Time panelists Natalie & Jon join forces with Go Team members Steve Francia, Katie Hockman, Julie Qui, and Rob Findley to battle it out and see who can better guess what the GopherCon gophers had to say!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFireHydrant – The reliability platform for teams of all sizes. With FireHydrant, teams achieve reliability at scale by enabling speed and consistency from a service deployment to an unexpected outage. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nGitLab – The DevOps platform that empowers organizations to maximize the overall return on software development by delivering software faster, more efficiently, while strengthening security and compliance. Identify and address blockers immediately, focus on delivering value — not maintaining integrations, automate security and compliance. Get started with their free tier (no credit card required). Learn more at about.gitlab.com/solutions/devops-platform\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nSteve Francia – Twitter, GitHub\nKatie Hockman – Twitter, GitHub\nJulie Qiu – Twitter, GitHub\nRob Findley – \nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\nJon Calhoun – Twitter, GitHub, Website\nNotes and Links\nWatch the session from GopherCon 2021",
-          "link": "https://changelog.com/gotime/211",
-          "publishedOn": "2022-01-06T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 211: Gophers Say! GopherCon Edition",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/211/go-time-211.mp3",
-            "length": "52876634",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/eZRw",
-          "author": "Jerod Santo",
-          "description": "B. Cameron Gain on The New Stack:\nDespite an ample amount of documentation and demos made available by Grafana Labs and community members, Grafana can be a challenge to set up (although those that do get its dashboards working generally sing its praises). Many manual configurations and steps are required when installing the different dashboard options. Once installed, many users can be overwhelmed with the number of logs and other data to process for monitoring and observability.\nGrafana sure does produce pretty (useful) dashboards 👇, but I do find it overwhelming at times.\n\nDiscuss on Changelog News",
-          "link": "https://thenewstack.io/will-grafana-become-easier-to-use-in-2022/",
-          "publishedOn": "2022-01-06T16:18:00.000Z",
-          "wordCount": null,
-          "title": "Will Grafana become easier to use in 2022?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/O2aG",
-          "author": "Jerod Santo",
-          "description": "Martin Heinz on the tools/techniques for finding bottlenecks in your Python code. And fixing them, fast.\nThe first rule of optimization is to not do it. If you really have to though, then optimize where appropriate. Use the above profiling tools to find bottlenecks, so you don’t waste time optimizing some inconsequential piece of code. It’s also useful to create a reproducible benchmark for the piece of code you’re trying to optimize, so that you can measure the actual improvement.\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/64",
-          "publishedOn": "2022-01-06T15:21:00.000Z",
-          "wordCount": null,
-          "title": "Profiling and analyzing performance of Python programs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RRMP",
-          "author": "Jerod Santo",
-          "description": "Luis Artola:\nI built my own laptop over the holiday break and it’s a developer’s dream come true. I took a chance and ordered a Framework Laptop DIY Edition. I’m so glad I did. The Framework is an excellent platform to customize and build a very capable and stable Linux machine for development. Here’s what I love about it and things that could be better.\n\nDiscuss on Changelog News",
-          "link": "https://luisartola.com/framework-laptop-with-ubuntu-review/",
-          "publishedOn": "2022-01-06T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Reviewing the Framework laptop with Ubuntu",
-          "itunes": {}
         }
       ]
     },
@@ -948,15 +978,6 @@
           "publishedOn": "2022-01-13T17:00:00.000Z",
           "wordCount": 1371,
           "title": "Advancing genomics to better understand and treat disease"
-        },
-        {
-          "id": "https://blog.google/around-the-globe/google-africa/how-abigail-annkah-using-ai-improve-maps-africa/",
-          "author": null,
-          "description": "As a university student, Abigail Annkah fell in love with mathematics, which soon led to her interest in artificial intelligence. After graduating from the African Institute for Mathematical Sciences, Abigail made it through the competitive process to become an AI resident at Google Research, Accra. After her residency, Google offered her a job and she’s now a research software engineer working on several high-profile projects.\nAs Google grows its presence in Accra, we spoke to Abigail about the mapping project that motivates her, starting a new job while becoming a mother and the importance of inspiring young girls to enter STEM careers.\n\nHow did your science background lead you to Google?\nI did my undergraduate degree in Bachelor of Science Statistics at the University of Ghana, finishin…",
-          "link": "https://blog.google/around-the-globe/google-africa/how-abigail-annkah-using-ai-improve-maps-africa/",
-          "publishedOn": "2022-01-06T12:00:00.000Z",
-          "wordCount": 1625,
-          "title": "How Abigail Annkah is using AI to improve maps in Africa"
         }
       ]
     },
@@ -1026,6 +1047,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "author": null,
+          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "publishedOn": "2022-02-05T12:10:17.651Z",
+          "wordCount": 995,
+          "title": "Introducing a new Swift package for Apache Thrift"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d",
           "author": null,
@@ -1200,6 +1230,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62511",
+          "author": "Michelle Mannering",
+          "description": "Here's January's top staff picks on projects that shipped major version releases.",
+          "link": "https://github.blog/2022-02-04-release-radar-jan-2022/",
+          "publishedOn": "2022-02-04T23:00:58.000Z",
+          "wordCount": 1588,
+          "title": "Release Radar · January 2022 Edition"
+        },
         {
           "id": "https://github.blog/?p=62836",
           "author": "Scott Sanders",
@@ -1379,6 +1418,15 @@
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=18070",
+          "author": "Matt Swann - Chief Technology Officer at Nubank",
+          "description": "The key role of customer-centricity in creating continuous improvement cycles and mechanisms to inspect metrics, processes, and incidents, thus engaging tech teams\nThe post People at the center of the strategy: the first step to innovation appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/matt-swann-people-at-the-center-of-the-strategy-the-first-step-to-innovation/",
+          "publishedOn": "2022-02-04T18:56:50.000Z",
+          "wordCount": 3565,
+          "title": "People at the center of the strategy: the first step to innovation"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=18048",
           "author": "Nubank Editorial",
           "description": "To reinforce Nubank's commitment to caring for the environment, the positive social impact on people's lives, and the best corporate governance practices, today we launched a manifesto video. Watch now.\nThe post Nu Impacto Manifesto: Nubank’s commitment to the adoption of ESG practices appeared first on Building Nubank.",
@@ -1429,15 +1477,6 @@
           "publishedOn": "2022-01-14T21:55:11.000Z",
           "wordCount": 1414,
           "title": "The HackerOne Global Top 10—Hacker Expertise, Industry Data, and Up-to-Date Vulnerabilities"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/log4shell-attack-evolution",
-          "author": "HackerOne",
-          "description": "HackerOne has unique visibility into the global response to Log4Shell, seeing in real time how organizations responded and remediated. Last week HackerOne’s CISO Chris Evans and Co-founder Jobert Abma shared findings from our platform.",
-          "link": "https://www.hackerone.com/vulnerability-management/log4shell-attack-evolution",
-          "publishedOn": "2022-01-06T23:52:54.000Z",
-          "wordCount": 1185,
-          "title": "Log4Shell: Attack Evolution"
         }
       ]
     },
@@ -1498,6 +1537,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/portfolio-performance-review-0204",
+          "author": "Market Radar",
+          "description": "Balanced and Pure Stock Portfolios",
+          "link": "https://marketradar.substack.com/p/portfolio-performance-review-0204",
+          "publishedOn": "2022-02-04T16:25:52.000Z",
+          "wordCount": null,
+          "title": "Portfolio Performance review: 02.04",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65fba494-db47-4249-81cd-4450023f0e69_598x387.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/a-terrible-january-can-be-a-source",
           "author": "Market Radar",
