@@ -22,6 +22,15 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2022/02/code-health-now-youre-thinking-with.html",
+          "author": null,
+          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office. \n\n\nby Cathal Weakliam\n\n\nLoops are the standard way to process collections like arrays and lists. However, some loops implement the same patterns repeatedly, leading to duplicate code. Higher-order functions—functions that use other functions as inputs or outputs—can reduce duplication by providing a simpler way to express common operations with collections.\n\n\nConsider these two loops in JavaScript that decide if every object in an array meets a condition:\n\n\n \n  \n    \nlet everyRequestValid = true;\nfor (const request of requests) {\n  if (!isValid(request)) {\n  …",
+          "link": "http://testing.googleblog.com/2022/02/code-health-now-youre-thinking-with.html",
+          "publishedOn": "2022-02-07T17:03:00.000Z",
+          "wordCount": 1937,
+          "title": "Code Health: Now You're Thinking With Functions"
+        },
+        {
           "id": "http://testing.googleblog.com/2022/02/a-tale-of-two-features.html",
           "author": null,
           "description": "By George Pirocanac\n\n\nI have often been asked, “What is the most memorable bug that you have encountered in your testing career?” For me, it is hands down a bug that happened quite a few years ago. I was leading an Engineering Productivity team that supported Google App Engine. At that time App Engine was still in its early stages, and there were many challenges associated with testing rapidly evolving features. Our testing frameworks and processes were also evolving, so it was an exciting time to be on the team. \n\n\nWhat makes this bug so memorable is that I spent so much time developing a comprehensive suite of test scenarios, yet a failure occurred during such an obvious use case that it left me shaking my head and wondering how I had missed it. Even with many years of testing experience…",
@@ -37,6 +46,26 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/zgr5",
+          "author": "Jerod Santo",
+          "description": "Andrew Stetsenko:\nRelocation to a foreign country for work can be very exciting and lead to unique opportunities that couldn’t be accessed in your home country. At the same time, it’s a real challenge - I know it firsthand… Hopefully, this handbook will give you the necessary guidance. Topics covered include resume preparation, job search, salary negotiation, relocation packages, and more.\nDiscuss on Changelog News",
+          "link": "https://github.com/AndrewStetsenko/tech-jobs-with-relocation",
+          "publishedOn": "2022-02-07T16:45:00.000Z",
+          "wordCount": null,
+          "title": "An all-in-one guide to getting a tech job abroad",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/RRrG",
+          "author": "Jerod Santo",
+          "description": "It’s still in closed beta, but this looks like a really cool environment for data scientists and other folks who code to accomplish other goals vs code as craft. One cool thing you can do is take your Jupyter notebooks and convert them to PyFlow graphs (and vice versa).\nDiscuss on Changelog News",
+          "link": "https://github.com/Bycelium/PyFlow",
+          "publishedOn": "2022-02-07T14:50:00.000Z",
+          "wordCount": null,
+          "title": "PyFlow – a tool for visual and modular block programming in Python",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/1556",
           "author": null,
@@ -1392,6 +1421,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18086",
+          "author": "Nubank Editorial",
+          "description": "Yes, She Codes is back! Applications for the program are open until February 13. See more details about the event and learn how to apply\nThe post Yes, She Codes: Nubank opens applications for the 4th edition of the software engineers hiring program appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/yes-she-codes-nubank-fourth-edition-2022/",
+          "publishedOn": "2022-02-07T16:26:01.000Z",
+          "wordCount": 3608,
+          "title": "Yes, She Codes: Nubank opens applications for the 4th edition of the software engineers hiring program"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18070",
           "author": "Matt Swann - Chief Technology Officer at Nubank",

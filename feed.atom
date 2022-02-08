@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-07T12:14:01.428Z</updated>
+    <updated>2022-02-08T12:13:34.233Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Code Health: Now You're Thinking With Functions]]></title>
+        <id>http://testing.googleblog.com/2022/02/code-health-now-youre-thinking-with.html</id>
+        <link href="http://testing.googleblog.com/2022/02/code-health-now-youre-thinking-with.html"/>
+        <updated>2022-02-07T17:03:00.000Z</updated>
+        <summary type="html"><![CDATA[This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office. 
+
+
+by Cathal Weakliam
+
+
+Loops are the standard way to process collections like arrays and lists. However, some loops implement the same patterns repeatedly, leading to duplicate code. Higher-order functions—functions that use other functions as inputs or outputs—can reduce duplication by providing a simpler way to express common operations with collections.
+
+
+Consider these two loops in JavaScript that decide if every object in an array meets a condition:
+
+
+ 
+  
+    
+let everyRequestValid = true;
+for (const request of requests) {
+  if (!isValid(request)) {
+  …]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An all-in-one guide to getting a tech job abroad]]></title>
+        <id>changelog.com/news/zgr5</id>
+        <link href="https://github.com/AndrewStetsenko/tech-jobs-with-relocation"/>
+        <updated>2022-02-07T16:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Andrew Stetsenko:
+Relocation to a foreign country for work can be very exciting and lead to unique opportunities that couldn’t be accessed in your home country. At the same time, it’s a real challenge - I know it firsthand… Hopefully, this handbook will give you the necessary guidance. Topics covered include resume preparation, job search, salary negotiation, relocation packages, and more.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yes, She Codes: Nubank opens applications for the 4th edition of the software engineers hiring program]]></title>
+        <id>https://building.nubank.com.br/?p=18086</id>
+        <link href="https://building.nubank.com.br/yes-she-codes-nubank-fourth-edition-2022/"/>
+        <updated>2022-02-07T16:26:01.000Z</updated>
+        <summary type="html"><![CDATA[Yes, She Codes is back! Applications for the program are open until February 13. See more details about the event and learn how to apply
+The post Yes, She Codes: Nubank opens applications for the 4th edition of the software engineers hiring program appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Nubank Editorial</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyFlow – a tool for visual and modular block programming in Python]]></title>
+        <id>changelog.com/news/RRrG</id>
+        <link href="https://github.com/Bycelium/PyFlow"/>
+        <updated>2022-02-07T14:50:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s still in closed beta, but this looks like a really cool environment for data scientists and other folks who code to accomplish other goals vs code as craft. One cool thing you can do is take your Jupyter notebooks and convert them to PyFlow graphs (and vice versa).
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing a new Swift package for Apache Thrift]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift</id>
