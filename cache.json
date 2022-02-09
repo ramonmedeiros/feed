@@ -47,6 +47,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/rlpr",
+          "author": "Jerod Santo",
+          "description": "This major undertaking was discussed by Matt Ahrens on our recent ZFS episode. How it works:\nThe feature reflows existing data, essentially rewriting it onto a new arrangement of disks – meaning the original group plus a newly added disk. In so doing, a new adjacent chunk of free space is created at the end of the logical RAID-Z group and thus at the end of each physical disk.\nWith a disclaimer:\nWhile all capabilities of this feature have been implemented and all tests so far have been passed, there are still a few loose ends to tie up. Specifically, there is some code cleanup to do, some verbose logging to remove, some code documentation to write, and similar relatively minor tasks. We aim for this to be integrated by Q3.\nDiscuss on Changelog News",
+          "link": "https://freebsdfoundation.org/blog/raid-z-expansion-feature-for-zfs-goes-live/",
+          "publishedOn": "2022-02-08T22:53:00.000Z",
+          "wordCount": null,
+          "title": "RAID-Z expansion feature for ZFS goes live",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/aOrD",
+          "author": "Jerod Santo",
+          "description": "Adrien Griveau makes the case for settings as a feature, not a design bug. He build the argument from a simple (and perhaps controversial) point: “users love settings”\nThere certainly are moments where I find myself on the settings page of a product because it failed to deliver the experience I really wanted. But not all settings are created equal.\nThere’s a difference between product settings that a product needs to get right by default and preferences that designers deliberately shouldn’t have a strong opinion on.\nDiscuss on Changelog News",
+          "link": "https://linear.app/blog/settings-are-not-a-design-failure",
+          "publishedOn": "2022-02-08T17:07:00.000Z",
+          "wordCount": null,
+          "title": "Settings are not a design failure",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1555",
+          "author": null,
+          "description": "This week we’re joined by Jacob Kaplan-Moss and we’re talking about his extensive writing on work sample tests. These tests are an exercise, a simulation, or a small slice of real day-to-day work that candidates will perform as part of their job. Over the years, as an engineering leader, Jacob has become a practicing expert in effectively hiring engineers — today he shares a wealth of knowledge on the subject.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at developer.squareup.com to dive into the docs, APIs, SDKs and to create your …",
+          "link": "https://changelog.com/podcast/479",
+          "publishedOn": "2022-02-08T17:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 479: Principles for hiring engineers",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/479/the-changelog-479.mp3",
+            "length": "75095015",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/P5ra",
+          "author": "Jerod Santo",
+          "description": "A (WIP) series on working with the K8s API from both the command line and from code.\n\nDiscuss on Changelog News",
+          "link": "https://iximiuz.com/en/series/working-with-kubernetes-api/",
+          "publishedOn": "2022-02-08T16:16:00.000Z",
+          "wordCount": null,
+          "title": "Working with the Kubernetes API",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/AaoP",
+          "author": "Jerod Santo",
+          "description": "Conor O’Neill:\nI blame my life-long work obsession with automation and avoiding repetitive drudgery on my first boss and mentor Danny in S3. He was horrified to see me doing the same thing over and over in a VAX code editor and introduced me to the magical world of macros.\nFrom that point onwards, I was a man on a mission to save us all as much time as possible in our working days.\nFrom Yahoo! Pipes to IFTTT to Node-RED and beyond: this is quite the journey.\nDiscuss on Changelog News",
+          "link": "https://www.tines.com/blog/my-thirty-years-of-dodging-repetitive-work-with-automation-tools",
+          "publishedOn": "2022-02-08T15:29:00.000Z",
+          "wordCount": null,
+          "title": "My thirty years of dodging repetitive work with automation tools",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/zgr5",
           "author": "Jerod Santo",
           "description": "Andrew Stetsenko:\nRelocation to a foreign country for work can be very exciting and lead to unique opportunities that couldn’t be accessed in your home country. At the same time, it’s a real challenge - I know it firsthand… Hopefully, this handbook will give you the necessary guidance. Topics covered include resume preparation, job search, salary negotiation, relocation packages, and more.\nDiscuss on Changelog News",
@@ -905,51 +960,6 @@
           "wordCount": null,
           "title": "Browsix – Unix in a browser tab",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Q5Wk",
-          "author": "Jerod Santo",
-          "description": "Lee Robinson from Vercel/Next.js:\nRust is now replacing parts of the JavaScript web ecosystem like minification (Terser), transpilation (Babel), formatting (Prettier), bundling (webpack), linting (ESLint) and more. Let’s take a deep dive into why this trend is gaining popularity and wider adoption.\nWe just discussed this topic (and some apprehension about it) on JS Party last week. Definitely a trned worth brushing up on, if you haven’t already.\nDiscuss on Changelog News",
-          "link": "https://thenewstack.io/the-case-for-rust-as-the-future-of-javascript-infrastructure/",
-          "publishedOn": "2022-01-10T19:54:00.000Z",
-          "wordCount": null,
-          "title": "The case for Rust as the future of JavaScript infrastructure",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1526",
-          "author": null,
-          "description": "Paul Orlando joins Jerod to talk through some unintended consequences that occur when systems operate at scale. We discuss Goodhart’s Law, The Cobra Effect, how to design incentive systems, dependency management decisions, the risks of autonomous vehicles, and much more along the way.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nInfluxData – InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive volumes and countless sources of time-stamped data produced by sensors, applications, and infrastructure. Learn about the wide range of use cases of InfluxDB at influxdata.com/changelog\n\n    \nSquare – Develop on the platform that sellers trust. There is a mas…",
-          "link": "https://changelog.com/podcast/474",
-          "publishedOn": "2022-01-10T17:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 474: Complex systems & second-order effects",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/474/the-changelog-474.mp3",
-            "length": "67538320",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/8OEM",
-          "author": "Jerod Santo",
-          "description": "Fireship with a brief (3:48) rundown of the most recent instance of a popular open source library maintainer removing their code from public repositories in response to corporate (ab)use of their free labor:\nYesterday, a popular open-source package, Faker.js, was abruptly taken down from GitHub. Its readme simply said “What really happened to Aaron Swartz?”. Let’s take a look at why Open Source Software can be a bad deal for many independent developers.\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=R6S-b_k-ZKY",
-          "publishedOn": "2022-01-10T15:20:00.000Z",
-          "wordCount": null,
-          "title": "What really happened to Faker.js?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/N5Z0",
-          "author": "Jerod Santo",
-          "description": "Reshape… automatically handles complex migrations that would normally require downtime or manual multi-step changes. During a migration, Reshape ensures both the old and new schema are available at the same time, allowing you to gradually roll out your application.\nDesigned for Postgres 12+ and experimental for now. Do not use in production until it shapes up.\nDiscuss on Changelog News",
-          "link": "https://github.com/fabianlindfors/reshape",
-          "publishedOn": "2022-01-10T14:31:00.000Z",
-          "wordCount": null,
-          "title": "An easy-to-use, zero-downtime schema migration tool for Postgres",
-          "itunes": {}
         }
       ]
     },
@@ -974,6 +984,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/health/ask-a-techspert-what-does-ai-do-when-it-doesnt-know/",
+          "author": null,
+          "description": "As humans, we constantly learn from the world around us. We experience inputs that shape our knowledge — including the boundaries of both what we know and what we don’t know.\nMany of today’s machines also learn by example. However, these machines are typically trained on datasets and information that doesn’t always include rare or out-of-the-ordinary examples that inevitably come up in real-life scenarios. What is an algorithm to do when faced with the unknown?\nI recently spoke with Abhijit Guha Roy, an engineer on the Health AI team, and Ian Kivlichan, an engineer on the Jigsaw team, to hear more about using AI in real-world scenarios and better understand the importance of training it to know when it doesn’t know.\nAbhijit, tell me about your recent research in the dermatology space.\nWe’r…",
+          "link": "https://blog.google/technology/health/ask-a-techspert-what-does-ai-do-when-it-doesnt-know/",
+          "publishedOn": "2022-02-08T17:00:00.000Z",
+          "wordCount": 1666,
+          "title": "Ask a Techspert: What does AI do when it doesn’t know?"
+        },
         {
           "id": "https://blog.google/technology/health/advancing-genomics-better-understand-and-treat-disease/",
           "author": null,
@@ -1034,15 +1053,6 @@
           "publishedOn": "2022-01-17T08:00:42.000Z",
           "wordCount": 2478,
           "title": "Enforcing the pyramid of Open Source"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18104",
-          "author": "Daniel Stenberg",
-          "description": "I have had my share of adventures with URL parsers and their differences in the past. The current state of my research on the topic of (failed) URL interoperability remains available in this GitHub document. Use one and only one There is still no common or standard URL syntax format in sight. A string that … Continue reading Don’t mix URL parsers →",
-          "link": "https://daniel.haxx.se/blog/2022/01/10/dont-mix-url-parsers/",
-          "publishedOn": "2022-01-10T15:07:10.000Z",
-          "wordCount": 1511,
-          "title": "Don’t mix URL parsers"
         }
       ]
     },
@@ -1201,6 +1211,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47599",
+          "author": "Benjamin VanderSloot",
+          "description": "Before we roll out State Partitioning for all Firefox users, we intend to make a few privacy and ergonomic improvements to the Storage Access API. In this blog post, we’ll detail a few of the new changes we made. \nThe post Improving the Storage Access API in Firefox appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/02/improving-the-storage-access-api-in-firefox/",
+          "publishedOn": "2022-02-08T16:59:21.000Z",
+          "wordCount": 1504,
+          "title": "Improving the Storage Access API in Firefox"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47574",
           "author": "Christian Holler",
           "description": "On January 13th 2022, Firefox became unusable for close to two hours for users worldwide. This incident interrupted many people’s workflow. This post highlights the complex series of events and circumstances that, together, triggered a bug deep in the networking code of Firefox. What Happened? Firefox has a number of servers and related infrastructure that […]\nThe post Retrospective and Technical Details on the recent Firefox Outage appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1234,6 +1253,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62828",
+          "author": "Erin Havens",
+          "description": "Today, we’re shipping improvements to Dependabot alerts that make them easier to understand and remediate.",
+          "link": "https://github.blog/2022-02-08-improving-developer-experience-dependabot-alerts/",
+          "publishedOn": "2022-02-08T19:11:24.000Z",
+          "wordCount": 859,
+          "title": "Improving the developer experience for Dependabot alerts"
+        },
         {
           "id": "https://github.blog/?p=62511",
           "author": "Michelle Mannering",
