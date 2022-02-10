@@ -47,6 +47,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1584",
+          "author": null,
+          "description": "In the third of the “AI in Africa” spotlight episodes, we welcome Kathleen Siminyu, who is building Kiswahili voice tools at Mozilla. We had a great discussion with Kathleen about creating more diverse voice and language datasets, involving local language communities in NLP work, and expanding grassroots ML/AI efforts across Africa.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nKathleen Siminyu – Twitter, LinkedIn\nJoyce Nabende – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\n“Introducing myself” from Kathleen\nMasakhane\nCommon Voice\nOpen for Good Alliance",
+          "link": "https://changelog.com/practicalai/167",
+          "publishedOn": "2022-02-09T16:15:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 167: 🌍 AI in Africa - Voice & language tools",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/167/practical-ai-167.mp3",
+            "length": "42118774",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/N5rd",
+          "author": "Jerod Santo",
+          "description": "A couple weeks back I expressed some Windows FOMO* while linking out to a very cool Swiss Army knife for developers project. Well, FOMO-be-gone! There is now a DevToys project for we Mac users.\n*I have since been informed of DevUtils.app, which is also worth a gander.\nDiscuss on Changelog News",
+          "link": "https://github.com/ObuchiYuki/DevToysMac",
+          "publishedOn": "2022-02-09T15:07:00.000Z",
+          "wordCount": null,
+          "title": "DevToys for macOS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/n7b2",
+          "author": "Jerod Santo",
+          "description": "Garage is a distributed storage solution, that automatically replicates your data on several servers. Garage takes into account the geographical location of servers, and ensures that copies of your data are located at different locations when possible for maximal redundancy, a unique feature in the landscape of distributed storage systems.\nIt has an S3-compatible API and can be used as a storage backend for things like NextCloud, Matrix, and Mastodon. It’s being built by a non-profit in France that is “working to promote self-hosting and small-scale hosting.” Why do they do this?\nself-hosting means running our own hardware at home, and providing 24/7 Internet services from there. We have many reasons for doing this. One is because this is the only way we can truly control who has access to our data. Another one is that it helps us be aware of the physical substrate of which the Internet is made: making the Internet run has an environmental cost which we want to evaluate and keep under control. The physical hardware also gives us a sense of community, calling to mind all of the people that could currently be connected and making use of our services, and reminding us of the purpose for which we are doing this.\nDiscuss on Changelog News",
+          "link": "https://garagehq.deuxfleurs.fr/blog/2022-introducing-garage/",
+          "publishedOn": "2022-02-09T14:20:00.000Z",
+          "wordCount": null,
+          "title": "Garage - a self-hosted distributed object storage solution",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/rlpr",
           "author": "Jerod Santo",
           "description": "This major undertaking was discussed by Matt Ahrens on our recent ZFS episode. How it works:\nThe feature reflows existing data, essentially rewriting it onto a new arrangement of disks – meaning the original group plus a newly added disk. In so doing, a new adjacent chunk of free space is created at the end of the logical RAID-Z group and thus at the end of each physical disk.\nWith a disclaimer:\nWhile all capabilities of this feature have been implemented and all tests so far have been passed, there are still a few loose ends to tie up. Specifically, there is some code cleanup to do, some verbose logging to remove, some code documentation to write, and similar relatively minor tasks. We aim for this to be integrated by Q3.\nDiscuss on Changelog News",
@@ -925,41 +960,6 @@
           "wordCount": null,
           "title": "The optional chaining operator, “modern” browsers, and my mom",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/bNM9",
-          "author": "Gavin Henderson",
-          "description": "At Ace Centre we have just launched an application that uses your webcam to detect when a user blinks. The application then triggers a switch press. This allows users who can’t access a physical switch or eye tracking to communicate using their chosen communication software.\nWe are really excited about the real world impact EyeCommander is already having and we would love to have more people contributing to the open source codebase\nEyeCommander is an Electron app with a React frontend. It uses Mediapipe, which is a collection of pretrained ML models for landmark detection in videos, provided by Google. It is cross platform so you can get up and running on whatever platform you use.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/AceCentre/eyecommander",
-          "publishedOn": "2022-01-11T19:29:00.000Z",
-          "wordCount": null,
-          "title": "EyeCommander helps you communicate by blinking",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1554",
-          "author": null,
-          "description": "We have all seen how AI models fail, sometimes in spectacular ways. Yaron Singer joins us in this episode to discuss model vulnerabilities and automatic prevention of bad outcomes. By separating concerns and creating a “firewall” around your AI models, it’s possible to secure your AI workflows and prevent model failure.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nMe, Myself, and AI – A podcast on artificial intelligence and business produced by MIT Sloan Management Review and Boston Consulting Group. Each episode, Sam Ransbotham and Sheervin Khodabandeh talk to AI leaders from organizations like Nasdaq, Spotify, Starbucks, and IKEA. Me, Myself, and AI is available wherever you get your podcasts. Just search Me, Myself, and AI.\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFastly – Compute@Edge free for 3 months — plus up to $100k a month in credit for an additional 6 months. Fastly’s Edge cloud network and modern approach to serverless computing allows you to deploy and run complex logic at the edge with unparalleled security and blazing fast computational speed. Head to fastly.com/podcast to take advantage of this limited time promotion!\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nFeaturing\nYaron Singer – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nRobust Intelligence\nRobust Intelligence Blog",
-          "link": "https://changelog.com/practicalai/163",
-          "publishedOn": "2022-01-11T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 163: Eliminate AI failures",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/163/practical-ai-163.mp3",
-            "length": "40246713",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/VJpj",
-          "author": "Jerod Santo",
-          "description": "Your first thought when reading that headline might’ve been _WebAssembly. Mine was! But no, that is not how Browsix does its thing:\nBrowsix is a framework that bridges the considerable gap between conventional operating systems and the browser, enabling unmodified programs expecting a Unix-like environment to run directly in the browser. Browsix does this by mapping low-level Unix primitives, like processes and system calls, onto existing browser APIs, like Web Workers and postMessage.\nThey have examples of this tech enabling a terminal in the browser, a Latex editor, and even a client/server-based meme generator written in JS and Go.\nDiscuss on Changelog News",
-          "link": "https://browsix.org/",
-          "publishedOn": "2022-01-11T15:31:00.000Z",
-          "wordCount": null,
-          "title": "Browsix – Unix in a browser tab",
-          "itunes": {}
         }
       ]
     },
@@ -1254,6 +1254,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=62926",
+          "author": "Nancy Gariché",
+          "description": "A comprehensive guide for vulnerability reporters.",
+          "link": "https://github.blog/2022-02-09-coordinated-vulnerability-disclosure-cvd-open-source-projects/",
+          "publishedOn": "2022-02-09T20:24:56.000Z",
+          "wordCount": 2526,
+          "title": "Coordinated vulnerability disclosure (CVD) for open source projects"
+        },
+        {
           "id": "https://github.blog/?p=62828",
           "author": "Erin Havens",
           "description": "Today, we’re shipping improvements to Dependabot alerts that make them easier to understand and remediate.",
@@ -1493,6 +1502,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/vulnerability-disclosure/securing-digital-transformation-vulnerability-disclosure-qa-john-deere",
+          "author": "HackerOne",
+          "description": "To help fortify security defenses for their customers, dealers, suppliers, and employees, John Deere recently launched a public Vulnerability Disclosure Program (VDP) with HackerOne.\n\nHackerOne recently met with James Johnson, CISO at John Deere, to learn why his security team works with ethical hackers to help identify security gaps and increase their product and data security.",
+          "link": "https://www.hackerone.com/vulnerability-disclosure/securing-digital-transformation-vulnerability-disclosure-qa-john-deere",
+          "publishedOn": "2022-02-09T16:00:00.000Z",
+          "wordCount": 1429,
+          "title": "Securing Digital Transformation with Vulnerability Disclosure: A Q&A with John Deere CISO, James Johnson"
+        },
+        {
           "id": "https://hackerone.com/ceo/only-solution-scales-cybersecurity-challenge",
           "author": "Mårten Mickos",
           "description": "Cybersecurity is stretched thin. We all know it, so why state it again? \n\nBecause cybersecurity is thinner today than yesterday. Because many keep repeating the same measures that don’t work. And because there actually is a solution.\n\nFacts are undeniable:",
@@ -1526,6 +1544,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/86525b3e21ca",
+          "author": "Netflix Technology Blog",
+          "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
+          "link": "https://netflixtechblog.com/data-pipeline-asset-management-with-dataflow-86525b3e21ca?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-02-09T17:33:22.000Z",
+          "wordCount": 3155,
+          "title": "Data pipeline asset management with Dataflow"
+        },
         {
           "id": "https://medium.com/p/aceb26a83495",
           "author": "Netflix Technology Blog",
@@ -1561,15 +1588,6 @@
           "publishedOn": "2022-01-14T04:23:22.000Z",
           "wordCount": 1352,
           "title": "Auto-Diagnosis and Remediation in Netflix Data Platform"
-        },
-        {
-          "id": "https://medium.com/p/f67923f8e985",
-          "author": "Netflix Technology Blog",
-          "description": "Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Andy Rhines, Sophia Liu, Mihir Tendulkar, Kevin…",
-          "link": "https://netflixtechblog.com/experimentation-is-a-major-focus-of-data-science-across-netflix-f67923f8e985?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-01-11T16:09:13.000Z",
-          "wordCount": 4795,
-          "title": "Experimentation is a major focus of Data Science across Netflix"
         }
       ]
     },
@@ -1578,6 +1596,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/charts-to-watch-1",
+          "author": "Market Radar",
+          "description": "Crypto, stocks and ETFs with an interesting graphic setup",
+          "link": "https://marketradar.substack.com/p/charts-to-watch-1",
+          "publishedOn": "2022-02-09T16:06:23.000Z",
+          "wordCount": null,
+          "title": "Charts to watch #1",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5698298-5d4d-4523-9dd6-1901f57c9dbc_953x564.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/portfolio-performance-review-0204",
           "author": "Market Radar",
@@ -1664,21 +1697,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2d500335-e407-48c5-a603-5a8b7cb28c75_2640x1815.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/value-rotation-is-here-again",
-          "author": "Market Radar",
-          "description": "Rising yields created panic among investors",
-          "link": "https://marketradar.substack.com/p/value-rotation-is-here-again",
-          "publishedOn": "2022-01-11T19:34:40.000Z",
-          "wordCount": null,
-          "title": "Value rotation is here again",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F46d7adf7-5b8a-48b5-b7dc-01e5b370d497_315x316.png",
             "length": "0",
             "type": "image/jpeg"
           }
