@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/02/vulnerability-reward-program-2021-year.html",
+          "author": null,
+          "description": "Posted by Sarah Jacobus, Vulnerability Rewards Team \n\n\nLast year was another record setter for our Vulnerability Reward Programs (VRPs). Throughout 2021, we partnered with the security researcher community to identify and fix thousands of  vulnerabilities – helping keep our users and the internet safe. \n\nThanks to these incredible researchers, Vulnerability Reward Programs across Google continued to grow, and we are excited to report that in 2021 we awarded a record breaking $8,700,000 in vulnerability rewards – with researchers donating over $300,000 of their rewards to a charity of their choice. \n\nWe also launched bughunters.google.com in 2021, a public researcher portal dedicated to keeping Google products and the internet safe and secure. This new platform brings all of our VRPs (Googl…",
+          "link": "http://security.googleblog.com/2022/02/vulnerability-reward-program-2021-year.html",
+          "publishedOn": "2022-02-10T17:00:00.001Z",
+          "wordCount": 3694,
+          "title": "Vulnerability Reward Program: 2021 Year in Review"
+        },
+        {
           "id": "http://security.googleblog.com/2022/01/reducing-security-risks-in-open-source.html",
           "author": null,
           "description": "Posted by Laurent Simon and Azeem Shaikh, Google Open Source Security Team (GOSST) \n\n\n\nSince our July announcement of Scorecards V2, the Scorecards project—an automated security tool to flag risky supply chain practices in open source projects—has grown steadily to over 40 unique contributors and 18 implemented security checks. Today we are proud to announce the V4 release of Scorecards, with larger scaling, a new security check, and a new Scorecards GitHub Action for easier security automation.\nThe Scorecards Action is released in partnership with GitHub and is available from GitHub's Marketplace. The Action makes using Scorecards easier than ever: it runs automatically on repository changes to alert developers about risky supply-chain practices. Maintainers can view the alerts on GitHub's code scanning dashboard, which is available for free to public repositories on GitHub.com and via GitHub Advanced Security for private repositories. \nAdditionally, we have scaled our weekly Scorecards scans to over one million GitHub repositories, and have partnered with the Open Source Insights website for easy user access to the data. \nFor more details about the release, including the new Dangerous-Workflow security check, visit the OpenSSF's official blog post here.",
@@ -46,6 +55,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1565",
+          "author": null,
+          "description": "Natalie and Johnny are joined by the co-founders of APIToolkit for a deep-dive on the topic. We discuss building them, maintaining them, how can we all be better users, and much more along the way.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nSmile Egbai – Twitter, GitHub\nAnthony Alaribe – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nAPIToolkit.io\nDo schools kill creativity? | Sir Ken Robinson",
+          "link": "https://changelog.com/gotime/216",
+          "publishedOn": "2022-02-10T17:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 216: Building and using APIs with Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/216/go-time-216.mp3",
+            "length": "48444596",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/W3no",
+          "author": "Jerod Santo",
+          "description": "Dave Ceddia shares his go-to list of questions that he (literally) printed and brought with him to interviews for that final 5-ish minutes at the end when you get a chance to ask your own questions. It does come with a small disclaimer, though:\nThis was years ago by the way, long before COVID, when pretty much every interview was in-person. The shock factor of pulling out 2 pages of questions wouldn’t translate so well to Zoom, haha. But still: if time runs out, you can mention that you still have a bunch of questions, and could please email them afterward.\nDiscuss on Changelog News",
+          "link": "https://daveceddia.com/interview-questions-to-ask-company/",
+          "publishedOn": "2022-02-10T15:18:00.000Z",
+          "wordCount": null,
+          "title": "Interview questions to ask your interviewer",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/4Eq3",
+          "author": "Jerod Santo",
+          "description": "PgBouncer is a popular connection pooler for Postgres. PgCat is that same functionality, only in Rust. This is alpha software and there is no worse place to run alpha software (IMHO) than in places that have direct connections to your database. Still, this is worth linking to because it’s yet another instance of open source infrastructure code getting Rusty.\nDiscuss on Changelog News",
+          "link": "https://github.com/levkk/pgcat",
+          "publishedOn": "2022-02-10T14:28:00.000Z",
+          "wordCount": null,
+          "title": "PgBouncer rewritten in Rust",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/7/1584",
           "author": null,
@@ -940,26 +984,6 @@
             "length": "42892827",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/8OE8",
-          "author": "Jerod Santo",
-          "description": "I love articles like this one because I was ready to disagree with it going in, but it was so well-reasoned and articulate that I ended up agreeing with most everything the author proposes.\nDiscuss on Changelog News",
-          "link": "https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing/",
-          "publishedOn": "2022-01-12T16:47:00.000Z",
-          "wordCount": null,
-          "title": "Favor real dependencies for unit testing",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Lpyn",
-          "author": "Jerod Santo",
-          "description": "Any debugging story that includes the phrase, “My Mom’s verbal JIRA ticket was right” has a lot of promise. This one by Jim Nielsen delivers the goods. Here’s the culprit:\nIn my brain, I always thought of Safari and Chrome as “modern” browsers. But even Chrome, an “evergreen” browser, failed because it wasn‘t on an “evergreen” operating system (or hardware).\nand his takeaway:\nThe real-life impact of our technical decisions really hit home to me once again: my Mom had trouble volunteering and participating in her local community because somebody shipped the optional chaining operator in their production JavaScript.\nBe thoughtful out there.\nDiscuss on Changelog News",
-          "link": "https://blog.jim-nielsen.com/2022/a-web-for-all/",
-          "publishedOn": "2022-01-12T14:52:00.000Z",
-          "wordCount": null,
-          "title": "The optional chaining operator, “modern” browsers, and my mom",
-          "itunes": {}
         }
       ]
     },
@@ -1009,6 +1033,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=18392",
+          "author": "Daniel Stenberg",
+          "description": "I’m the lead developer in the curl project. We make the command line tool curl and the library libcurl, for doing Internet transfers. The command line tool uses the library for all the internet transfer heavy lifting. The command line tool is somewhat of a shell binding to access libcurl. We make these things. We … Continue reading My work on tool vs library →",
+          "link": "https://daniel.haxx.se/blog/2022/02/10/my-work-on-tool-vs-library/",
+          "publishedOn": "2022-02-10T13:29:18.000Z",
+          "wordCount": 1729,
+          "title": "My work on tool vs library"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=18389",
           "author": "Daniel Stenberg",
@@ -1061,6 +1094,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
+          "author": null,
+          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
+          "publishedOn": "2022-02-11T12:13:04.332Z",
+          "wordCount": 2052,
+          "title": "Next generation data insights using natural language queries"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
           "author": null,
@@ -1195,6 +1237,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html",
+          "author": null,
+          "description": "ol.lst-kix_p008n8rtcs1c-3.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-3 0}.lst-kix_sr4t049r1bof-6>li{counter-increment:lst-ctn-kix_sr4t049r1bof-6}.lst-kix_ygk8qly5wagc-7>li:before{content:\"\\0025cb  \"}.lst-kix_p008n8rtcs1c-6>li{counter-increment:lst-ctn-kix_p008n8rtcs1c-6}.lst-kix_ygk8qly5wagc-6>li:before{content:\"\\0025cf  \"}.lst-kix_p008n8rtcs1c-7>li{counter-increment:lst-ctn-kix_p008n8rtcs1c-7}ol.lst-kix_p008n8rtcs1c-0.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-0 0}.lst-kix_ygk8qly5wagc-8>li:before{content:\"\\0025a0  \"}ol.lst-kix_sr4t049r1bof-1.start{counter-reset:lst-ctn-kix_sr4t049r1bof-1 0}.lst-kix_sr4t049r1bof-5>li{counter-increment:lst-ctn-kix_sr4t049r1bof-5}.lst-kix_7tz9dwqwiu1-5>li:before{content:\"\\0025a0  \"}.lst-kix_7tz9dwqwiu1-4>li:before{content:\"\\0025cb  \"}.lst-kix_7tz9dwqwiu…",
+          "link": "https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html",
+          "publishedOn": "2022-02-10T16:58:00.000Z",
+          "wordCount": 2910,
+          "title": "A walk through Project Zero metrics"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html",
           "author": null,
           "description": "ul.lst-kix_ef7dug197aaw-4{list-style-type:none}ul.lst-kix_ef7dug197aaw-3{list-style-type:none}.lst-kix_ef7dug197aaw-0>li:before{content:\"-  \"}ul.lst-kix_ef7dug197aaw-2{list-style-type:none}ul.lst-kix_ef7dug197aaw-1{list-style-type:none}.lst-kix_ef7dug197aaw-1>li:before{content:\"-  \"}ul.lst-kix_ef7dug197aaw-8{list-style-type:none}ul.lst-kix_ef7dug197aaw-7{list-style-type:none}ul.lst-kix_ef7dug197aaw-6{list-style-type:none}ul.lst-kix_ef7dug197aaw-5{list-style-type:none}ul.lst-kix_ef7dug197aaw-0{list-style-type:none}.lst-kix_ef7dug197aaw-7>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-6>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-8>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-5>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-3>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-2>li:before{content…",
@@ -1253,6 +1304,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62982",
+          "author": "Brian Douglas",
+          "description": "Reusable workflows offer a simple and powerful way to avoid copying and pasting workflows across your repositories.",
+          "link": "https://github.blog/2022-02-10-using-reusable-workflows-github-actions/",
+          "publishedOn": "2022-02-10T17:56:42.000Z",
+          "wordCount": 1545,
+          "title": "How to start using reusable workflows with GitHub Actions"
+        },
         {
           "id": "https://github.blog/?p=62926",
           "author": "Nancy Gariché",
@@ -1441,15 +1501,6 @@
           "publishedOn": "2022-01-13T10:00:24.000Z",
           "wordCount": 894,
           "title": "The Open Source Software Security Summit: securing the world’s code together"
-        },
-        {
-          "id": "https://github.blog/?p=62370",
-          "author": "Taehun Kim",
-          "description": "Learn how the GitHub Mobile Team automates their release process with GitHub Actions.",
-          "link": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
-          "publishedOn": "2022-01-12T17:56:11.000Z",
-          "wordCount": 1641,
-          "title": "How we ship GitHub Mobile every week"
         }
       ]
     },
