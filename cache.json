@@ -65,6 +65,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1588",
+          "author": null,
+          "description": "From MIT researchers who have an AI system that rapidly predicts how two proteins will attach, to Facebook’s first high-performance self-supervised algorithm that works for speech, vision, and text, Daniel and Chris survey the AI landscape for notable milestones in the application of AI in industry and research.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nThe first high-performance self-supervised algorithm that works for speech, vision, and text\nDeepMind says its new AI coding engine is as good as an average human programmer\nArtificial intelligence system rapidly predicts how two proteins will attach\nSeeing Theory",
+          "link": "https://changelog.com/practicalai/168",
+          "publishedOn": "2022-02-15T20:15:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 168: One algorithm to rule them all?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/168/practical-ai-168.mp3",
+            "length": "43735616",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/1578",
+          "author": null,
+          "description": "This week we’re joined by Annie Sexton, UX Engineer at Render, to talk about her blog post titled Git Organized: A Better Git Flow that made the internet explode when she suggested using reset instead of rebase for a better git flow. On this show we talk about the git flow she suggests and why, how this flow works for her when she’s hacking on the Render codebase (and when she uses it), the good and the bad of Git, and we also talked about the cognitive load of Git commits as you work.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resol…",
+          "link": "https://changelog.com/podcast/480",
+          "publishedOn": "2022-02-15T16:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 480: Git your reset on",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/480/the-changelog-480.mp3",
+            "length": "67955841",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/eZnD",
+          "author": "Jerod Santo",
+          "description": "Rands asking himself some tough questions about our “new normal” remote work environments:\nRelative to the Pandemic, the single biggest work question I’ve been asking myself for two years is: what did we lose? What is the measurable and objective loss for teams not working in close proximity? I’ve been looking for cracks. I’ve been looking for leading indicators of future doom. The Great Resignation seems like a proper crack, right? But are people quitting their jobs because they can’t work together or because their current job sucks and all this terror in the air has given them a new appreciation of what really matters?\nA sobering perspective.\nDiscuss on Changelog News",
+          "link": "https://randsinrepose.com/archives/what-we-lost/",
+          "publishedOn": "2022-02-15T15:45:01.000Z",
+          "wordCount": null,
+          "title": "What we lost (when we went remote)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/RRnG",
+          "author": "Jerod Santo",
+          "description": "Leonardo Losoviz is pretty excited that Matt Mullenweg expressed interest in having WordPress’s editor comply with the Block Protocol:\nMy excitement comes from what happened with GraphQL, where the release of servers, clients, and tools adhering to a common specification has produced a rich ecosystem; and from my own development of a plugin that could support new features through the protocol.\nDon’t fret if you’re new to this “Block Protocol” concept, like myself: Leonardo starts off this (long) article with a nice explainer before he gets into the potential outcomes of WordPress’s involvement.\nDiscuss on Changelog News",
+          "link": "https://www.smashingmagazine.com/2022/02/implications-wordpress-joining-block-protocol/",
+          "publishedOn": "2022-02-15T14:55:00.000Z",
+          "wordCount": null,
+          "title": "Implications of Wordpress joining the Block Protocol",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/73b9",
           "author": "Jerod Santo",
           "description": "Learn how sudo works by writing your own version in Python!\nOne might think that sudo is actually some binary deeply integrated into the kernel, relying on a special purpose-built system call to achieve its functionality. After all, it lets you use root without even providing the password for that account! But thanks to one bit inside file permissions, sudo can exist without any of this.\nDiscuss on Changelog News",
@@ -923,46 +973,6 @@
           "wordCount": null,
           "title": "Why infrastructure engineers prefer MySQL",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/O2pE",
-          "author": "Jerod Santo",
-          "description": "Daniel Stenberg lays out how he thinks we can view the world of software and open source in light of supply chain security, maintainer sustainability, and the like:\nInside the pyramid there is a hierarchy where things using software are build on top of others, in layers. The higher up you go, the more you stand on the shoulders of open source components below you.\nAt the very bottom of the pyramid are the foundational components. Operating systems and libraries. The stuff virtually everything runs or depends upon. The components you really don’t want to have serious security vulnerabilities.\n\nDiscuss on Changelog News",
-          "link": "https://daniel.haxx.se/blog/2022/01/17/enforcing-the-pyramid-of-open-source/",
-          "publishedOn": "2022-01-17T21:20:00.000Z",
-          "wordCount": null,
-          "title": "Enforcing the pyramid of open source",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/13jw",
-          "author": "Jerod Santo",
-          "description": "Jim Hall used grep and some fancy regular expressions to get a leg up on Wordle, the word game that keeps you guessing… but only once per day. Some people may think of Jim’s technique as cheating. I wouldn’t necessarily disagree.\nBut it’s a lot better than View Source-ing to get at the answer, which you can also do in a pinch. 😉\n(Also there’s zero point to Wordle other than having fun, so it’s really only cheating if your answer-finding-method is less fun than you’d have otherwise. Even then, you’re only cheating yourself.)\nDiscuss on Changelog News",
-          "link": "https://opensource.com/article/22/1/word-game-linux-command-line",
-          "publishedOn": "2022-01-17T18:24:00.000Z",
-          "wordCount": null,
-          "title": "Solving Wordle with help from the Linux command line",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/73X6",
-          "author": "Jerod Santo",
-          "description": "This is an excellent machine learning primer where you scroll the page and the author(s) walk you through the process of creating a model to distinguish homes in New York from homes in San Francisco.\nDiscuss on Changelog News",
-          "link": "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/",
-          "publishedOn": "2022-01-17T15:57:00.000Z",
-          "wordCount": null,
-          "title": "A visual introduction to machine learning",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/DzJ1",
-          "author": "Jerod Santo",
-          "description": "Eight people have stepped up to take over maintenance of the suddenly abandoned JS library that generates fake data. These transitions are tricky to make smoothly. Props to the new team on being very careful and thoughtful each step along the way, especially when it comes to funding the project. Here’s a nice note from the new team:\nWe’re excited to give new life to this idea and project.\nThis project can have a fresh start and it will become even cooler.\nWe felt we needed to do a public announcement because of all of the attention the project received in the media and from the community.\nWe believe that we have acted in the way that is best for the community.\nDiscuss on Changelog News",
-          "link": "https://fakerjs.dev/update.html",
-          "publishedOn": "2022-01-17T15:11:00.000Z",
-          "wordCount": null,
-          "title": "Faker.js is now a community maintained project",
-          "itunes": {}
         }
       ]
     },
@@ -1056,15 +1066,6 @@
           "publishedOn": "2022-01-24T14:45:57.000Z",
           "wordCount": 1901,
           "title": "LogJ4 Security Inquiry – Response Required"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18034",
-          "author": "Daniel Stenberg",
-          "description": "The well-known log4j security vulnerability of December 2021 triggered a lot of renewed discussions around software supply chain security, and sometimes it has also been said to be an Open Source related issue. This was not the first software component to have a serious security flaw, and it will not be the last. What can … Continue reading Enforcing the pyramid of Open Source →",
-          "link": "https://daniel.haxx.se/blog/2022/01/17/enforcing-the-pyramid-of-open-source/",
-          "publishedOn": "2022-01-17T08:00:42.000Z",
-          "wordCount": 2478,
-          "title": "Enforcing the pyramid of Open Source"
         }
       ]
     },
@@ -1153,15 +1154,6 @@
           "publishedOn": "2022-01-21T12:13:58.060Z",
           "wordCount": 806,
           "title": "Model-based candidate generation for account recommendations"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
-          "author": null,
-          "description": "In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
-          "publishedOn": "2022-01-17T12:15:21.266Z",
-          "wordCount": 2822,
-          "title": "How we built Twitter’s highly reliable ads pacing service"
         }
       ]
     },
@@ -1195,6 +1187,15 @@
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=47607",
+          "author": "Karl Dubost",
+          "description": "Chrome and Firefox will reach version 100 in a couple of months. This has the potential to cause breakage on sites that rely on identifying the browser version to perform business logic.  This post covers the timeline of events, the strategies that Chrome and Firefox are taking to mitigate the impact, and how you can help.\nThe post Version 100 in Chrome and Firefox appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/02/version-100-in-chrome-and-firefox/",
+          "publishedOn": "2022-02-15T18:05:20.000Z",
+          "wordCount": 1166,
+          "title": "Version 100 in Chrome and Firefox"
+        },
         {
           "id": "https://hacks.mozilla.org/?p=47599",
           "author": "Benjamin VanderSloot",
@@ -1238,6 +1239,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=63223",
+          "author": "Ian Marsh",
+          "description": "The GitHub Enterprise Server 3.4 release candidate delivers enhancements to make life easier and more productive, from keyboard shortcuts to auto-generated release notes!",
+          "link": "https://github.blog/2022-02-15-ghes-3-4-developer-productivity-reusable-workflows-ci-cd/",
+          "publishedOn": "2022-02-15T23:23:39.000Z",
+          "wordCount": 1010,
+          "title": "GitHub Enterprise Server 3.4 improves developer productivity and adds reusable workflows to CI/CD"
+        },
+        {
+          "id": "https://github.blog/?p=63146",
+          "author": "Anisha Pindoria",
+          "description": "Over the past year, the GitHub Stars have made a tremendous impact in the community with their influence, inspiring and building communities and creating content to help everyone.",
+          "link": "https://github.blog/2022-02-15-the-github-stars-in-our-eyes/",
+          "publishedOn": "2022-02-15T17:17:19.000Z",
+          "wordCount": 1484,
+          "title": "The GitHub Stars in our eyes ⭐️"
+        },
+        {
+          "id": "https://github.blog/?p=63095",
+          "author": "Ashley Bass",
+          "description": "The MLH Fellowship, powered by GitHub, is a 12-week internship alternative for aspiring software engineers. Meet the 2022 cohort!",
+          "link": "https://github.blog/2022-02-15-announcing-2022-mlh-fellowship-cohort-powered-by-github/",
+          "publishedOn": "2022-02-15T15:58:09.000Z",
+          "wordCount": 1071,
+          "title": "Announcing the 2022 MLH Fellowship Cohort, powered by GitHub"
+        },
         {
           "id": "https://github.blog/?p=63053",
           "author": "Martin Woodward",
@@ -1460,15 +1488,6 @@
           "publishedOn": "2022-01-24T21:24:11.000Z",
           "wordCount": 3127,
           "title": "Nu Impacto Manifesto: Nubank’s commitment to the adoption of ESG practices"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18035",
-          "author": "Nubank Editorial",
-          "description": "The largest voluntary initiative of its kind in the world brings together companies willing to make a difference to change corporate sustainability indicators. Understand Nubank's participation.\nThe post Nubank joins the UN Global Compact appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-joins-the-un-global-compact/",
-          "publishedOn": "2022-01-17T21:56:57.000Z",
-          "wordCount": 3067,
-          "title": "Nubank joins the UN Global Compact"
         }
       ]
     },
@@ -1554,6 +1573,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/the-balanced-portfolio-rebalancing",
+          "author": "Market Radar",
+          "description": "Monthly purchases and changes to the asset allocation",
+          "link": "https://marketradar.substack.com/p/the-balanced-portfolio-rebalancing",
+          "publishedOn": "2022-02-15T17:04:53.000Z",
+          "wordCount": null,
+          "title": "The Balanced Portfolio: Rebalancing",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8b00c-3eb8-4e21-96c4-d805d46557f8_598x387.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/charts-to-watch-1",
           "author": "Market Radar",
