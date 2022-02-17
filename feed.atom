@@ -2,10 +2,102 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-16T12:14:00.441Z</updated>
+    <updated>2022-02-17T12:14:09.973Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How we built Twitter’s highly reliable ads pacing service]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service"/>
+        <updated>2022-02-17T12:13:51.213Z</updated>
+        <summary type="html"><![CDATA[In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make the most out of a mentoring relationship]]></title>
+        <id>https://github.blog/?p=63296</id>
+        <link href="https://github.blog/2022-02-16-how-to-make-the-most-out-of-a-mentoring-relationship/"/>
+        <updated>2022-02-16T18:17:15.000Z</updated>
+        <summary type="html"><![CDATA[Tips from our developer advocates on how and why to find a mentor.]]></summary>
+        <author>
+            <name>Kelsey Bernius</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Encoding and escaping untrusted data to prevent injection attacks]]></title>
+        <id>https://github.blog/?p=63244</id>
+        <link href="https://github.blog/2022-02-16-encoding-escaping-untrusted-data-prevent-injection-attacks/"/>
+        <updated>2022-02-16T17:38:40.000Z</updated>
+        <summary type="html"><![CDATA[Practical tips on how to apply OWASP Top 10 Proactive Control C4.]]></summary>
+        <author>
+            <name>Jason White</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The React.ReactNode type is a black hole]]></title>
+        <id>changelog.com/posts/2511</id>
+        <link href="https://changelog.com/posts/the-react-reactnode-type-is-a-black-hole"/>
+        <updated>2022-02-16T17:30:12.000Z</updated>
+        <summary type="html"><![CDATA[As developers, we use TypeScript for a few different reasons. The self-documentation aspects are huge – being able to step into an unfamiliar function and know the shape of the objects it’s expecting is a massive boon when working on a large project. The added tooling features, with IntelliSense and its ilk, are also a big help for productivity. But to me, the most important reason to use a strongly typed system is to eliminate an entire class of runtime bugs, where a function gets passed an object it doesn’t know how to handle and fails at runtime.
+It’s that last reason that leads to the purpose for this post. I recently handled a bug where a React component was throwing an exception at runtime. The source of the issue was a recent refactor done when internationalizing this area of our ap…]]></summary>
+        <author>
+            <name>Kevin Ball</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Pure Stocks Portfolio: Rebalancing and a new stock]]></title>
+        <id>https://marketradar.substack.com/p/the-pure-stocks-portfolio-rebalancing</id>
+        <link href="https://marketradar.substack.com/p/the-pure-stocks-portfolio-rebalancing"/>
+        <updated>2022-02-16T16:54:31.000Z</updated>
+        <summary type="html"><![CDATA[Monthly purchases and a new stock ready to be bought]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 40: Kaizen! New beginnings]]></title>
+        <id>changelog.com/14/1540</id>
+        <link href="https://changelog.com/shipit/40"/>
+        <updated>2022-02-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We finally did it! All our static files are served from AWS S3. This is the most significant improvement to our app’s architecture in years, and now we have unlocked the next level: multi-cloud. We talk about that at length, and how it fits in our 2022 setup. The TL;DR is that changelog.com will fly, both literally and figuratively.
+We also address Steve’s comment that he left on our previous Kaizen episode - thanks Steve!
+Towards the end, we talk about Gerhard’s new beginnings at Dagger, where he gets to work with a world-class team and build the next-gen CI/CD. That’s right, Gerhard is now walking the Ship It talk all day, every day. If you want to watch him code live, you can do so every Thursday, in our weekly community session.
+Kaizen!
+Discuss on Changelog News
+Join Changelog++ to sup…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React - The Missing Parts]]></title>
+        <id>changelog.com/news/Mdnr</id>
+        <link href="https://acko.net/blog/react-the-missing-parts/"/>
+        <updated>2022-02-16T15:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Steven Wittens takes us on a trip to a parallel universe where the React team made different decisions (with less legacy constraints). What might this universe look like? For starters:
+No-hooks and Early Return
+Component Morphing
+useMemo vs useEffect + setState
+and some wild Yeet-Reduce results
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A suite of tools that make SSH more convenient]]></title>
+        <id>changelog.com/news/rlVr</id>
+        <link href="https://github.com/vaporup/ssh-tools"/>
+        <updated>2022-02-16T14:59:00.000Z</updated>
+        <summary type="html"><![CDATA[If you ssh a lot, you may get some serious value out of this suite of (currently 8) related tools and shortcuts. ssh-ping checks if a host is reachable using ssh_config, ssh-diff diffs a file over SSH, etc.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Enterprise Server 3.4 improves developer productivity and adds reusable workflows to CI/CD]]></title>
         <id>https://github.blog/?p=63223</id>
@@ -1953,110 +2045,6 @@ Additionally, we have scaled our weekly Scorecards scans to over one million Git
 For more details about the release, including the new Dangerous-Workflow security check, visit the OpenSSF's official blog post here.]]></summary>
         <author>
             <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 475: Making the ZFS file system]]></title>
-        <id>changelog.com/1/1544</id>
-        <link href="https://changelog.com/podcast/475"/>
-        <updated>2022-01-18T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week Matt Ahrens joins Adam to talk about ZFS. Matt co-founded the ZFS project at Sun Microsystems in 2001. And 20 years later Adam picked up ZFS for use in his home lab and loved it. So, he reached out to Matt and invited him on the show. They cover the origins of the file system, its journey from proprietary to open source, architecture choices like copy-on-write, the ins and outs creating and managing ZFS, RAID-Z and RAID-Z expansion, and Matt even shares plans for ZFS in the cloud with ZFS object store.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s bu…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Imperative vs declarative programming]]></title>
-        <id>changelog.com/news/eZPO</id>
-        <link href="https://www.youtube.com/watch?v=E7Fbf7R3x6I"/>
-        <updated>2022-01-18T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[This is an excellent explanation of the difference between these styles of programming and why declarative is all the rage these days.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why I enjoy PostgreSQL (an infra engineer's perspective)]]></title>
-        <id>changelog.com/news/RR50</id>
-        <link href="https://www.shayon.dev/post/2022/17/why-i-enjoy-postgresql-infrastructure-engineers-perspective/"/>
-        <updated>2022-01-18T19:19:00.000Z</updated>
-        <summary type="html"><![CDATA[This post by Shayon Mukherjee is in response to the recently logged post by Mike Coutermarsh in praise of MySQL for infra folks:
-This is not a MySQL vs PostgreSQL post. This is just a small summary of what I have come to appreciate about PostgreSQL as an Infrastructure Engineer.
-Always good to keep in mind whenever comparing technologies: trade-offs abound and certain people in certain situations will value certain things about different technologies differently. That’s for certain. 😉
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How open source is supporting NASA’s new eyes in space]]></title>
-        <id>https://github.blog/?p=62454</id>
-        <link href="https://github.blog/2022-01-18-how-open-source-is-supporting-nasas-new-eyes-in-space/"/>
-        <updated>2022-01-18T17:41:41.000Z</updated>
-        <summary type="html"><![CDATA[With the successful liftoff of the James Webb Space Telescope, we ask our very own Arfon Smith about the history of open source and space science.]]></summary>
-        <author>
-            <name>Nicole Numrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zooming in on Zero-click Exploits]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html"/>
-        <updated>2022-01-18T17:28:00.000Z</updated>
-        <summary type="html"><![CDATA[ul.lst-kix_ef7dug197aaw-4{list-style-type:none}ul.lst-kix_ef7dug197aaw-3{list-style-type:none}.lst-kix_ef7dug197aaw-0>li:before{content:"-  "}ul.lst-kix_ef7dug197aaw-2{list-style-type:none}ul.lst-kix_ef7dug197aaw-1{list-style-type:none}.lst-kix_ef7dug197aaw-1>li:before{content:"-  "}ul.lst-kix_ef7dug197aaw-8{list-style-type:none}ul.lst-kix_ef7dug197aaw-7{list-style-type:none}ul.lst-kix_ef7dug197aaw-6{list-style-type:none}ul.lst-kix_ef7dug197aaw-5{list-style-type:none}ul.lst-kix_ef7dug197aaw-0{list-style-type:none}.lst-kix_ef7dug197aaw-7>li:before{content:"-  "}.lst-kix_ef7dug197aaw-6>li:before{content:"-  "}.lst-kix_ef7dug197aaw-8>li:before{content:"-  "}.lst-kix_ef7dug197aaw-5>li:before{content:"-  "}.lst-kix_ef7dug197aaw-3>li:before{content:"-  "}.lst-kix_ef7dug197aaw-2>li:before{content…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Balanced Portfolio]]></title>
-        <id>https://marketradar.substack.com/p/the-balanced-portfolio</id>
-        <link href="https://marketradar.substack.com/p/the-balanced-portfolio"/>
-        <updated>2022-01-18T16:35:51.000Z</updated>
-        <summary type="html"><![CDATA[A detailed presentation of an ETF Portfolio]]></summary>
-        <author>
-            <name>Market Radar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building GitHub Apps with Go]]></title>
-        <id>changelog.com/news/k2P2</id>
-        <link href="https://martinheinz.dev/blog/65"/>
-        <updated>2022-01-18T16:26:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’re using GitHub as your version control system of choice then GitHub Apps can be incredibly useful for many tasks including building CI/CD, managing repositories, querying statistical data and much more. In this article we will walk through the process of building such an app in Go including setting up the GitHub integration, authenticating with GitHub, listening to webhooks, querying GitHub API and more.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Martin Heinz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Contributing to MDN: Meet the Contributors]]></title>
-        <id>https://hacks.mozilla.org/?p=47555</id>
-        <link href="https://hacks.mozilla.org/2022/01/contributing-to-mdn-meet-the-contributors/"/>
-        <updated>2022-01-18T16:07:59.000Z</updated>
-        <summary type="html"><![CDATA[If you’ve ever built anything with web technologies, you’re probably familiar with MDN Web Docs. With about 13,000 pages documenting how to use programming languages such as HTML, CSS and JavaScript, the site has about 8,000 people using it at any given moment. MDN relies on contributors to help maintain its ever-expanding and up to date documentation. We reached out to 4 long-time community contributors to talk about how and why they started contributing, why they kept going, and ask what advice they have for new contributors.
-The post Contributing to MDN: Meet the Contributors appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Francesca Minelli</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why infrastructure engineers prefer MySQL]]></title>
-        <id>changelog.com/news/73dp</id>
-        <link href="https://mikecoutermarsh.com/why-infrastructure-engineers-prefer-mysql/"/>
-        <updated>2022-01-18T15:40:43.000Z</updated>
-        <summary type="html"><![CDATA[From Mike Coutermarsh:
-For years I’ve been noticing this pattern of infrastructure engineers I really respect preferring MySQL and product engineers preferring Postgres. It took quite a while for me to understand it. Especially coming from my background as a product engineer. Infrastructure engineers generally…
-Read on to hear why (from Mike’s perspective).
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
         </author>
     </entry>
 </feed>

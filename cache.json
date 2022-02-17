@@ -65,6 +65,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/posts/2511",
+          "author": "Kevin Ball",
+          "description": "As developers, we use TypeScript for a few different reasons. The self-documentation aspects are huge – being able to step into an unfamiliar function and know the shape of the objects it’s expecting is a massive boon when working on a large project. The added tooling features, with IntelliSense and its ilk, are also a big help for productivity. But to me, the most important reason to use a strongly typed system is to eliminate an entire class of runtime bugs, where a function gets passed an object it doesn’t know how to handle and fails at runtime.\nIt’s that last reason that leads to the purpose for this post. I recently handled a bug where a React component was throwing an exception at runtime. The source of the issue was a recent refactor done when internationalizing this area of our ap…",
+          "link": "https://changelog.com/posts/the-react-reactnode-type-is-a-black-hole",
+          "publishedOn": "2022-02-16T17:30:12.000Z",
+          "wordCount": null,
+          "title": "The React.ReactNode type is a black hole",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1540",
+          "author": null,
+          "description": "We finally did it! All our static files are served from AWS S3. This is the most significant improvement to our app’s architecture in years, and now we have unlocked the next level: multi-cloud. We talk about that at length, and how it fits in our 2022 setup. The TL;DR is that changelog.com will fly, both literally and figuratively.\nWe also address Steve’s comment that he left on our previous Kaizen episode - thanks Steve!\nTowards the end, we talk about Gerhard’s new beginnings at Dagger, where he gets to work with a world-class team and build the next-gen CI/CD. That’s right, Gerhard is now walking the Ship It talk all day, every day. If you want to watch him code live, you can do so every Thursday, in our weekly community session.\nKaizen!\nDiscuss on Changelog News\nJoin Changelog++ to sup…",
+          "link": "https://changelog.com/shipit/40",
+          "publishedOn": "2022-02-16T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 40: Kaizen! New beginnings",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/40/ship-it-40.mp3",
+            "length": "73879060",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Mdnr",
+          "author": "Jerod Santo",
+          "description": "Steven Wittens takes us on a trip to a parallel universe where the React team made different decisions (with less legacy constraints). What might this universe look like? For starters:\nNo-hooks and Early Return\nComponent Morphing\nuseMemo vs useEffect + setState\nand some wild Yeet-Reduce results\nDiscuss on Changelog News",
+          "link": "https://acko.net/blog/react-the-missing-parts/",
+          "publishedOn": "2022-02-16T15:50:00.000Z",
+          "wordCount": null,
+          "title": "React - The Missing Parts",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/rlVr",
+          "author": "Jerod Santo",
+          "description": "If you ssh a lot, you may get some serious value out of this suite of (currently 8) related tools and shortcuts. ssh-ping checks if a host is reachable using ssh_config, ssh-diff diffs a file over SSH, etc.\nDiscuss on Changelog News",
+          "link": "https://github.com/vaporup/ssh-tools",
+          "publishedOn": "2022-02-16T14:59:00.000Z",
+          "wordCount": null,
+          "title": "A suite of tools that make SSH more convenient",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1588",
           "author": null,
           "description": "From MIT researchers who have an AI system that rapidly predicts how two proteins will attach, to Facebook’s first high-performance self-supervised algorithm that works for speech, vision, and text, Daniel and Chris survey the AI landscape for notable milestones in the application of AI in industry and research.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nThe first high-performance self-supervised algorithm that works for speech, vision, and text\nDeepMind says its new AI coding engine is as good as an average human programmer\nArtificial intelligence system rapidly predicts how two proteins will attach\nSeeing Theory",
@@ -918,61 +963,6 @@
             "length": "43280267",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/1544",
-          "author": null,
-          "description": "This week Matt Ahrens joins Adam to talk about ZFS. Matt co-founded the ZFS project at Sun Microsystems in 2001. And 20 years later Adam picked up ZFS for use in his home lab and loved it. So, he reached out to Matt and invited him on the show. They cover the origins of the file system, its journey from proprietary to open source, architecture choices like copy-on-write, the ins and outs creating and managing ZFS, RAID-Z and RAID-Z expansion, and Matt even shares plans for ZFS in the cloud with ZFS object store.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s bu…",
-          "link": "https://changelog.com/podcast/475",
-          "publishedOn": "2022-01-18T20:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 475: Making the ZFS file system",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/475/the-changelog-475.mp3",
-            "length": "87137250",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/eZPO",
-          "author": "Jerod Santo",
-          "description": "This is an excellent explanation of the difference between these styles of programming and why declarative is all the rage these days.\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=E7Fbf7R3x6I",
-          "publishedOn": "2022-01-18T20:15:00.000Z",
-          "wordCount": null,
-          "title": "Imperative vs declarative programming",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RR50",
-          "author": "Jerod Santo",
-          "description": "This post by Shayon Mukherjee is in response to the recently logged post by Mike Coutermarsh in praise of MySQL for infra folks:\nThis is not a MySQL vs PostgreSQL post. This is just a small summary of what I have come to appreciate about PostgreSQL as an Infrastructure Engineer.\nAlways good to keep in mind whenever comparing technologies: trade-offs abound and certain people in certain situations will value certain things about different technologies differently. That’s for certain. 😉\nDiscuss on Changelog News",
-          "link": "https://www.shayon.dev/post/2022/17/why-i-enjoy-postgresql-infrastructure-engineers-perspective/",
-          "publishedOn": "2022-01-18T19:19:00.000Z",
-          "wordCount": null,
-          "title": "Why I enjoy PostgreSQL (an infra engineer's perspective)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/k2P2",
-          "author": "Martin Heinz",
-          "description": "If you’re using GitHub as your version control system of choice then GitHub Apps can be incredibly useful for many tasks including building CI/CD, managing repositories, querying statistical data and much more. In this article we will walk through the process of building such an app in Go including setting up the GitHub integration, authenticating with GitHub, listening to webhooks, querying GitHub API and more.\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/65",
-          "publishedOn": "2022-01-18T16:26:00.000Z",
-          "wordCount": null,
-          "title": "Building GitHub Apps with Go",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/73dp",
-          "author": "Adam Stacoviak",
-          "description": "From Mike Coutermarsh:\nFor years I’ve been noticing this pattern of infrastructure engineers I really respect preferring MySQL and product engineers preferring Postgres. It took quite a while for me to understand it. Especially coming from my background as a product engineer. Infrastructure engineers generally…\nRead on to hear why (from Mike’s perspective).\nDiscuss on Changelog News",
-          "link": "https://mikecoutermarsh.com/why-infrastructure-engineers-prefer-mysql/",
-          "publishedOn": "2022-01-18T15:40:43.000Z",
-          "wordCount": null,
-          "title": "Why infrastructure engineers prefer MySQL",
-          "itunes": {}
         }
       ]
     },
@@ -1075,6 +1065,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
+          "author": null,
+          "description": "In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
+          "publishedOn": "2022-02-17T12:13:51.213Z",
+          "wordCount": 2822,
+          "title": "How we built Twitter’s highly reliable ads pacing service"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/graph-neural-networks-through-the-lens-of-differential-geometry-",
           "author": null,
           "description": "In this post, we show how tools from the fields of differential geometry and algebraic topology can be used to reinterpret GNNs and address some of their common plights in a principled way.",
@@ -1170,15 +1169,6 @@
           "publishedOn": "2022-02-10T16:58:00.000Z",
           "wordCount": 2910,
           "title": "A walk through Project Zero metrics"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html",
-          "author": null,
-          "description": "ul.lst-kix_ef7dug197aaw-4{list-style-type:none}ul.lst-kix_ef7dug197aaw-3{list-style-type:none}.lst-kix_ef7dug197aaw-0>li:before{content:\"-  \"}ul.lst-kix_ef7dug197aaw-2{list-style-type:none}ul.lst-kix_ef7dug197aaw-1{list-style-type:none}.lst-kix_ef7dug197aaw-1>li:before{content:\"-  \"}ul.lst-kix_ef7dug197aaw-8{list-style-type:none}ul.lst-kix_ef7dug197aaw-7{list-style-type:none}ul.lst-kix_ef7dug197aaw-6{list-style-type:none}ul.lst-kix_ef7dug197aaw-5{list-style-type:none}ul.lst-kix_ef7dug197aaw-0{list-style-type:none}.lst-kix_ef7dug197aaw-7>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-6>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-8>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-5>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-3>li:before{content:\"-  \"}.lst-kix_ef7dug197aaw-2>li:before{content…",
-          "link": "https://googleprojectzero.blogspot.com/2022/01/zooming-in-on-zero-click-exploits.html",
-          "publishedOn": "2022-01-18T17:28:00.000Z",
-          "wordCount": 4892,
-          "title": "Zooming in on Zero-click Exploits"
         }
       ]
     },
@@ -1222,15 +1212,6 @@
           "publishedOn": "2022-01-31T17:44:10.000Z",
           "wordCount": 2124,
           "title": "Hacks Decoded: Adewale Adetona"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47555",
-          "author": "Francesca Minelli",
-          "description": "If you’ve ever built anything with web technologies, you’re probably familiar with MDN Web Docs. With about 13,000 pages documenting how to use programming languages such as HTML, CSS and JavaScript, the site has about 8,000 people using it at any given moment. MDN relies on contributors to help maintain its ever-expanding and up to date documentation. We reached out to 4 long-time community contributors to talk about how and why they started contributing, why they kept going, and ask what advice they have for new contributors.\nThe post Contributing to MDN: Meet the Contributors appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/01/contributing-to-mdn-meet-the-contributors/",
-          "publishedOn": "2022-01-18T16:07:59.000Z",
-          "wordCount": 2488,
-          "title": "Contributing to MDN: Meet the Contributors"
         }
       ]
     },
@@ -1239,6 +1220,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=63296",
+          "author": "Kelsey Bernius",
+          "description": "Tips from our developer advocates on how and why to find a mentor.",
+          "link": "https://github.blog/2022-02-16-how-to-make-the-most-out-of-a-mentoring-relationship/",
+          "publishedOn": "2022-02-16T18:17:15.000Z",
+          "wordCount": 1637,
+          "title": "How to make the most out of a mentoring relationship"
+        },
+        {
+          "id": "https://github.blog/?p=63244",
+          "author": "Jason White",
+          "description": "Practical tips on how to apply OWASP Top 10 Proactive Control C4.",
+          "link": "https://github.blog/2022-02-16-encoding-escaping-untrusted-data-prevent-injection-attacks/",
+          "publishedOn": "2022-02-16T17:38:40.000Z",
+          "wordCount": 1759,
+          "title": "Encoding and escaping untrusted data to prevent injection attacks"
+        },
         {
           "id": "https://github.blog/?p=63223",
           "author": "Ian Marsh",
@@ -1445,15 +1444,6 @@
           "publishedOn": "2022-01-19T15:00:02.000Z",
           "wordCount": 644,
           "title": "Reducing security risk in open source software with GitHub Actions and OpenSSF Scorecards V4"
-        },
-        {
-          "id": "https://github.blog/?p=62454",
-          "author": "Nicole Numrich",
-          "description": "With the successful liftoff of the James Webb Space Telescope, we ask our very own Arfon Smith about the history of open source and space science.",
-          "link": "https://github.blog/2022-01-18-how-open-source-is-supporting-nasas-new-eyes-in-space/",
-          "publishedOn": "2022-01-18T17:41:41.000Z",
-          "wordCount": 1727,
-          "title": "How open source is supporting NASA’s new eyes in space"
         }
       ]
     },
@@ -1574,6 +1564,21 @@
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
         {
+          "id": "https://marketradar.substack.com/p/the-pure-stocks-portfolio-rebalancing",
+          "author": "Market Radar",
+          "description": "Monthly purchases and a new stock ready to be bought",
+          "link": "https://marketradar.substack.com/p/the-pure-stocks-portfolio-rebalancing",
+          "publishedOn": "2022-02-16T16:54:31.000Z",
+          "wordCount": null,
+          "title": "The Pure Stocks Portfolio: Rebalancing and a new stock",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4910511e-10ae-4466-9f51-360b6f94a5b3_719x387.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
           "id": "https://marketradar.substack.com/p/the-balanced-portfolio-rebalancing",
           "author": "Market Radar",
           "description": "Monthly purchases and changes to the asset allocation",
@@ -1659,21 +1664,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F506491cb-7491-45f8-8b9d-f5c27d2e06f1_310x313.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/the-balanced-portfolio",
-          "author": "Market Radar",
-          "description": "A detailed presentation of an ETF Portfolio",
-          "link": "https://marketradar.substack.com/p/the-balanced-portfolio",
-          "publishedOn": "2022-01-18T16:35:51.000Z",
-          "wordCount": null,
-          "title": "The Balanced Portfolio",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4f8bf5f7-1bff-49ed-ac16-62a9a8da805f_528x400.png",
             "length": "0",
             "type": "image/jpeg"
           }
