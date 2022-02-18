@@ -2,10 +2,103 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-17T12:14:09.973Z</updated>
+    <updated>2022-02-18T12:15:23.510Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A hairy PostgreSQL incident]]></title>
+        <id>changelog.com/news/4Ee3</id>
+        <link href="https://ardentperf.com/2022/02/10/a-hairy-postgresql-incident/"/>
+        <updated>2022-02-17T19:46:00.000Z</updated>
+        <summary type="html"><![CDATA[If learning from incidents grabbed your attention, here’s a good one we can all learn from:
+It was 5:17pm today, just as I was wrapping up work for the day, and my manager pinged me with the following chat:
+<manager>: Hi Jeremy - we have a <other team> ticket - escalated to <leader>, <leader>, etc. <principal> is on trying to advise as well. Are you available this evening if needed for diagnostics? <coworker> is on the call now
+No obligation; just checking in to see what my availability is. Quickly thinking it over – I didn’t have any plans tonight, nothing in particular on my agenda. Why not? If I can help then someone else on the team won’t have to, and I don’t have anything better to do tonight.
+The game is afoot. It might be a long night…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 217: The *other* features in Go 1.18]]></title>
+        <id>changelog.com/2/1589</id>
+        <link href="https://changelog.com/gotime/217"/>
+        <updated>2022-02-17T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On this episode, Michael Matloob and Daniel Martí pinky promise not to talk about Go 1.18’s two big features (fuzzing and generics). Instead, we’re focusing in on the other cool stuff that’s new!
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+    
+Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
+
+    
+Featuring
+Michael Matloob – Twitter, GitHub
+Daniel Martí – Twitter, GitHub, LinkedIn, Website
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+Daniel’s gofumpt library
+proposal: runtime: GC pacer redesign (#44167)
+bytes, strings: add Cut (#46336)
+net/netip: add new IP address package, use in net (#46518)
+cmd/gofmt: format files in parallel, similar to ‘go fmt’ (#43566)
+cmd/go: stamp git/vcs current HEAD hash/commit hash/dirty bit in binaries (#37475)
+cmd/go: factor version reading into debug/buildinfo (#39301)
+all: add GOAMD64 environment variable (#45453)
+text/template: add break and continue support (#20531)
+text/template: make and/or operators short-circuit evaluation (#31103)
+cmd/go: add a workspace mode (#45713)]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code scanning finds more vulnerabilities using machine learning]]></title>
+        <id>https://github.blog/?p=63340</id>
+        <link href="https://github.blog/2022-02-17-code-scanning-finds-vulnerabilities-using-machine-learning/"/>
+        <updated>2022-02-17T18:00:03.000Z</updated>
+        <summary type="html"><![CDATA[Today we launched new code scanning analysis features powered by machine learning. The experimental analysis finds more of the most common types of vulnerabilities.]]></summary>
+        <author>
+            <name>Tiferet Gazit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leveraging machine learning to find security vulnerabilities]]></title>
+        <id>https://github.blog/?p=63320</id>
+        <link href="https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/"/>
+        <updated>2022-02-17T17:59:19.000Z</updated>
+        <summary type="html"><![CDATA[A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.]]></summary>
+        <author>
+            <name>Tiferet Gazit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Googler wants to ‘add every voice’ to AI]]></title>
+        <id>https://blog.google/inside-google/googlers/laurence-moroney-every-voice-ai/</id>
+        <link href="https://blog.google/inside-google/googlers/laurence-moroney-every-voice-ai/"/>
+        <updated>2022-02-17T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Early in his career, Laurence Moroney was working on an equation — not something related to his job in tech, but to his bank account. “At one point, I calculated I was about three weeks away from being homeless,” Laurence says. “My motivation was to put a meal on the table and keep a roof over my head.”
+Today Laurence is a developer advocate at Google focusing on artificial intelligence (AI) and machine learning (ML). “It’s my goal to inform and inspire the world about what we can do with AI and ML, and help developers realize these possibilities.” Laurence applied at Google in 2013 after hearing then-CEO Larry Page talk about Google’s vision to make the world a better place. “I was hired on my third attempt — so yes, I failed twice!”
+Now he focuses on inviting and introducing more people …]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hue.tools – an open source toolbox for colors]]></title>
+        <id>changelog.com/news/Z3nj</id>
+        <link href="https://hue.tools/?format=hex"/>
+        <updated>2022-02-17T16:46:00.000Z</updated>
+        <summary type="html"><![CDATA[A Svelte app that helps you mix, blend, modify, or just get the info on every color under the rainbow. 🌈
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How we built Twitter’s highly reliable ads pacing service]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service</id>
@@ -1947,104 +2040,6 @@ If you’ve never heard of or used git reset… this article is a must-read.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The truth about starting with microservices]]></title>
-        <id>changelog.com/news/rlPy</id>
-        <link href="https://arnoldgalovics.com/truth-about-microservices/"/>
-        <updated>2022-01-19T19:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Arnold Galovics’ follow-up to his excellent monoliths are your friend post from late last year.
-Starting a greenfield project with microservices is easy. The promises are wonderful but often they are far from reality. This time I’ll share my experience on the truth about microservices when starting a project from scratch.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Effortless personal productivity (or how I learned to love my monkey mind)]]></title>
-        <id>changelog.com/news/9Oma</id>
-        <link href="https://jakobgreenfeld.com/personal-productivity"/>
-        <updated>2022-01-19T16:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Jakob Greenfeld:
-I recently discovered a simple step-by-step process that significantly increased my personal productivity and made me happier along the way.
-It costs $0 and no, it’s not some note-taking or to-do list system.
-The steps are:
-develop meta-awareness of your state of mind.
-pattern-match to identify your mind’s most common modes.
-learn to pick activities that match each mode.
-But that probably won’t hit home until you read through his explanation of each step.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 164: Democratizing ML for speech]]></title>
-        <id>changelog.com/7/1560</id>
-        <link href="https://changelog.com/practicalai/164"/>
-        <updated>2022-01-19T15:30:00.000Z</updated>
-        <summary type="html"><![CDATA[You might know about MLPerf, a benchmark from MLCommons that measures how fast systems can train models to a target quality metric. However, MLCommons is working on so much more! David Kanter joins us in this episode to discuss two new speech datasets that are democratizing machine learning for speech via data scale and language/speaker diversity.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
-
-    
-The Brave Browser – Browse the web up to 8x faster than Chrome and Safari, block ads and trackers by default, and reward your favorite creators with the built-in Basic Attention Token. Download Brave for free and give tipping a try right here on changelog.com.
-
-    
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-    
-Featuring
-David Kanter – Twitter, GitHub
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-Press Release about MLCommons datasets: MLCommons™ Association Unveils Open Datasets and Tools to Drive Democratization of Machine Learning
-NeurIPS Papers:
-
-People’s Speech Dataset
-Multilingual Spoken Words Corpus (MSWC)
-Gradient article: New Datasets to Democratize Speech Recognition Technology
-Blog posts for more insight:
-
-People’s Speech
-Multilingual Spoken Words Corpus (MSWC)
-Downloads:
-
-People’s Speech
-Multilingual Spoken Words Corpus]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reducing security risk in open source software with GitHub Actions and OpenSSF Scorecards V4]]></title>
-        <id>https://github.blog/?p=62472</id>
-        <link href="https://github.blog/2022-01-19-reducing-security-risk-oss-actions-opensff-scorecards-v4/"/>
-        <updated>2022-01-19T15:00:02.000Z</updated>
-        <summary type="html"><![CDATA[We’re excited to announce the V4 release of the OpenSSF’s Scorecard project in partnership with Google.]]></summary>
-        <author>
-            <name>Jose Palafox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reducing Security Risks in Open Source Software at Scale: Scorecards Launches V4]]></title>
-        <id>http://security.googleblog.com/2022/01/reducing-security-risks-in-open-source.html</id>
-        <link href="http://security.googleblog.com/2022/01/reducing-security-risks-in-open-source.html"/>
-        <updated>2022-01-19T15:00:00.014Z</updated>
-        <summary type="html"><![CDATA[Posted by Laurent Simon and Azeem Shaikh, Google Open Source Security Team (GOSST) 
-
-
-
-Since our July announcement of Scorecards V2, the Scorecards project—an automated security tool to flag risky supply chain practices in open source projects—has grown steadily to over 40 unique contributors and 18 implemented security checks. Today we are proud to announce the V4 release of Scorecards, with larger scaling, a new security check, and a new Scorecards GitHub Action for easier security automation.
-The Scorecards Action is released in partnership with GitHub and is available from GitHub's Marketplace. The Action makes using Scorecards easier than ever: it runs automatically on repository changes to alert developers about risky supply-chain practices. Maintainers can view the alerts on GitHub's code scanning dashboard, which is available for free to public repositories on GitHub.com and via GitHub Advanced Security for private repositories. 
-Additionally, we have scaled our weekly Scorecards scans to over one million GitHub repositories, and have partnered with the Open Source Insights website for easy user access to the data. 
-For more details about the release, including the new Dangerous-Workflow security check, visit the OpenSSF's official blog post here.]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
         </author>
     </entry>
 </feed>

@@ -22,15 +22,6 @@
           "publishedOn": "2022-02-10T17:00:00.001Z",
           "wordCount": 3694,
           "title": "Vulnerability Reward Program: 2021 Year in Review"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/01/reducing-security-risks-in-open-source.html",
-          "author": null,
-          "description": "Posted by Laurent Simon and Azeem Shaikh, Google Open Source Security Team (GOSST) \n\n\n\nSince our July announcement of Scorecards V2, the Scorecards project—an automated security tool to flag risky supply chain practices in open source projects—has grown steadily to over 40 unique contributors and 18 implemented security checks. Today we are proud to announce the V4 release of Scorecards, with larger scaling, a new security check, and a new Scorecards GitHub Action for easier security automation.\nThe Scorecards Action is released in partnership with GitHub and is available from GitHub's Marketplace. The Action makes using Scorecards easier than ever: it runs automatically on repository changes to alert developers about risky supply-chain practices. Maintainers can view the alerts on GitHub's code scanning dashboard, which is available for free to public repositories on GitHub.com and via GitHub Advanced Security for private repositories. \nAdditionally, we have scaled our weekly Scorecards scans to over one million GitHub repositories, and have partnered with the Open Source Insights website for easy user access to the data. \nFor more details about the release, including the new Dangerous-Workflow security check, visit the OpenSSF's official blog post here.",
-          "link": "http://security.googleblog.com/2022/01/reducing-security-risks-in-open-source.html",
-          "publishedOn": "2022-01-19T15:00:00.014Z",
-          "wordCount": 580,
-          "title": "Reducing Security Risks in Open Source Software at Scale: Scorecards Launches V4"
         }
       ]
     },
@@ -64,6 +55,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/4Ee3",
+          "author": "Jerod Santo",
+          "description": "If learning from incidents grabbed your attention, here’s a good one we can all learn from:\nIt was 5:17pm today, just as I was wrapping up work for the day, and my manager pinged me with the following chat:\n<manager>: Hi Jeremy - we have a <other team> ticket - escalated to <leader>, <leader>, etc. <principal> is on trying to advise as well. Are you available this evening if needed for diagnostics? <coworker> is on the call now\nNo obligation; just checking in to see what my availability is. Quickly thinking it over – I didn’t have any plans tonight, nothing in particular on my agenda. Why not? If I can help then someone else on the team won’t have to, and I don’t have anything better to do tonight.\nThe game is afoot. It might be a long night…\nDiscuss on Changelog News",
+          "link": "https://ardentperf.com/2022/02/10/a-hairy-postgresql-incident/",
+          "publishedOn": "2022-02-17T19:46:00.000Z",
+          "wordCount": null,
+          "title": "A hairy PostgreSQL incident",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1589",
+          "author": null,
+          "description": "On this episode, Michael Matloob and Daniel Martí pinky promise not to talk about Go 1.18’s two big features (fuzzing and generics). Instead, we’re focusing in on the other cool stuff that’s new!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nMichael Matloob – Twitter, GitHub\nDaniel Martí – Twitter, GitHub, LinkedIn, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nDaniel’s gofumpt library\nproposal: runtime: GC pacer redesign (#44167)\nbytes, strings: add Cut (#46336)\nnet/netip: add new IP address package, use in net (#46518)\ncmd/gofmt: format files in parallel, similar to ‘go fmt’ (#43566)\ncmd/go: stamp git/vcs current HEAD hash/commit hash/dirty bit in binaries (#37475)\ncmd/go: factor version reading into debug/buildinfo (#39301)\nall: add GOAMD64 environment variable (#45453)\ntext/template: add break and continue support (#20531)\ntext/template: make and/or operators short-circuit evaluation (#31103)\ncmd/go: add a workspace mode (#45713)",
+          "link": "https://changelog.com/gotime/217",
+          "publishedOn": "2022-02-17T19:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 217: The *other* features in Go 1.18",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/217/go-time-217.mp3",
+            "length": "57673553",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Z3nj",
+          "author": "Jerod Santo",
+          "description": "A Svelte app that helps you mix, blend, modify, or just get the info on every color under the rainbow. 🌈\nDiscuss on Changelog News",
+          "link": "https://hue.tools/?format=hex",
+          "publishedOn": "2022-02-17T16:46:00.000Z",
+          "wordCount": null,
+          "title": "hue.tools – an open source toolbox for colors",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/posts/2511",
           "author": "Kevin Ball",
@@ -928,41 +954,6 @@
           "wordCount": null,
           "title": "Git organized: a better git flow",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/rlPy",
-          "author": "Jerod Santo",
-          "description": "Arnold Galovics’ follow-up to his excellent monoliths are your friend post from late last year.\nStarting a greenfield project with microservices is easy. The promises are wonderful but often they are far from reality. This time I’ll share my experience on the truth about microservices when starting a project from scratch.\nDiscuss on Changelog News",
-          "link": "https://arnoldgalovics.com/truth-about-microservices/",
-          "publishedOn": "2022-01-19T19:54:00.000Z",
-          "wordCount": null,
-          "title": "The truth about starting with microservices",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/9Oma",
-          "author": "Jerod Santo",
-          "description": "Jakob Greenfeld:\nI recently discovered a simple step-by-step process that significantly increased my personal productivity and made me happier along the way.\nIt costs $0 and no, it’s not some note-taking or to-do list system.\nThe steps are:\ndevelop meta-awareness of your state of mind.\npattern-match to identify your mind’s most common modes.\nlearn to pick activities that match each mode.\nBut that probably won’t hit home until you read through his explanation of each step.\nDiscuss on Changelog News",
-          "link": "https://jakobgreenfeld.com/personal-productivity",
-          "publishedOn": "2022-01-19T16:19:00.000Z",
-          "wordCount": null,
-          "title": "Effortless personal productivity (or how I learned to love my monkey mind)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1560",
-          "author": null,
-          "description": "You might know about MLPerf, a benchmark from MLCommons that measures how fast systems can train models to a target quality metric. However, MLCommons is working on so much more! David Kanter joins us in this episode to discuss two new speech datasets that are democratizing machine learning for speech via data scale and language/speaker diversity.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nThe Brave Browser – Browse the web up to 8x faster than Chrome and Safari, block ads and trackers by default, and reward your favorite creators with the built-in Basic Attention Token. Download Brave for free and give tipping a try right here on changelog.com.\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nDavid Kanter – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nPress Release about MLCommons datasets: MLCommons™ Association Unveils Open Datasets and Tools to Drive Democratization of Machine Learning\nNeurIPS Papers:\n\nPeople’s Speech Dataset\nMultilingual Spoken Words Corpus (MSWC)\nGradient article: New Datasets to Democratize Speech Recognition Technology\nBlog posts for more insight:\n\nPeople’s Speech\nMultilingual Spoken Words Corpus (MSWC)\nDownloads:\n\nPeople’s Speech\nMultilingual Spoken Words Corpus",
-          "link": "https://changelog.com/practicalai/164",
-          "publishedOn": "2022-01-19T15:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 164: Democratizing ML for speech",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/164/practical-ai-164.mp3",
-            "length": "43280267",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -987,6 +978,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/inside-google/googlers/laurence-moroney-every-voice-ai/",
+          "author": null,
+          "description": "Early in his career, Laurence Moroney was working on an equation — not something related to his job in tech, but to his bank account. “At one point, I calculated I was about three weeks away from being homeless,” Laurence says. “My motivation was to put a meal on the table and keep a roof over my head.”\nToday Laurence is a developer advocate at Google focusing on artificial intelligence (AI) and machine learning (ML). “It’s my goal to inform and inspire the world about what we can do with AI and ML, and help developers realize these possibilities.” Laurence applied at Google in 2013 after hearing then-CEO Larry Page talk about Google’s vision to make the world a better place. “I was hired on my third attempt — so yes, I failed twice!”\nNow he focuses on inviting and introducing more people …",
+          "link": "https://blog.google/inside-google/googlers/laurence-moroney-every-voice-ai/",
+          "publishedOn": "2022-02-17T17:00:00.000Z",
+          "wordCount": 1543,
+          "title": "This Googler wants to ‘add every voice’ to AI"
+        },
         {
           "id": "https://blog.google/technology/health/ask-a-techspert-what-does-ai-do-when-it-doesnt-know/",
           "author": null,
@@ -1221,6 +1221,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=63340",
+          "author": "Tiferet Gazit",
+          "description": "Today we launched new code scanning analysis features powered by machine learning. The experimental analysis finds more of the most common types of vulnerabilities.",
+          "link": "https://github.blog/2022-02-17-code-scanning-finds-vulnerabilities-using-machine-learning/",
+          "publishedOn": "2022-02-17T18:00:03.000Z",
+          "wordCount": 933,
+          "title": "Code scanning finds more vulnerabilities using machine learning"
+        },
+        {
+          "id": "https://github.blog/?p=63320",
+          "author": "Tiferet Gazit",
+          "description": "A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.",
+          "link": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
+          "publishedOn": "2022-02-17T17:59:19.000Z",
+          "wordCount": 1982,
+          "title": "Leveraging machine learning to find security vulnerabilities"
+        },
+        {
           "id": "https://github.blog/?p=63296",
           "author": "Kelsey Bernius",
           "description": "Tips from our developer advocates on how and why to find a mentor.",
@@ -1435,15 +1453,6 @@
           "publishedOn": "2022-01-20T16:58:28.000Z",
           "wordCount": 1576,
           "title": "Open source creates value, but how do you measure it?"
-        },
-        {
-          "id": "https://github.blog/?p=62472",
-          "author": "Jose Palafox",
-          "description": "We’re excited to announce the V4 release of the OpenSSF’s Scorecard project in partnership with Google.",
-          "link": "https://github.blog/2022-01-19-reducing-security-risk-oss-actions-opensff-scorecards-v4/",
-          "publishedOn": "2022-01-19T15:00:02.000Z",
-          "wordCount": 644,
-          "title": "Reducing security risk in open source software with GitHub Actions and OpenSSF Scorecards V4"
         }
       ]
     },
