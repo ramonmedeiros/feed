@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-18T12:15:23.510Z</updated>
+    <updated>2022-02-19T12:13:52.765Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Internals of Go's new fuzzing system]]></title>
+        <id>changelog.com/news/JLmn</id>
+        <link href="https://jayconrod.com/posts/123/internals-of-go-s-new-fuzzing-system"/>
+        <updated>2022-02-18T19:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Not much has been written yet on how Go’s fuzzing system actually works, so I’ll talk a bit about that here. If you’d like to try it out, Getting started with fuzzing is a great tutorial.
+Jay Conrod worked on Go 1.18’s fuzzing feature, so there’s very few people who could write a post as detailed and accurate as this. He also discussed fuzzing in detail with us on Go Time #187.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 213: Playing it close to the Vest]]></title>
+        <id>changelog.com/6/1577</id>
+        <link href="https://changelog.com/jsparty/213"/>
+        <updated>2022-02-18T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Holla! This week we’re playing Story of the Week and Today I Learned before turning our focus to Vest – a very cool validations framework created by Evyatar Alush.
+Discuss on Changelog News
+Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
+Sponsors
+GatsbyConf 2022 – (March 2nd and 3rd) this conference is totally free and totally virtual so everyone can join. Day 1 is talks and day 2 is workshops —hear from Gatsby co-founders and leadership on speed improvements to the build system, incremental architecture, the latest on Gatsby Cloud, announcements and more. Chris Coyier kicks off day 1 with the Keynote. Register at gatsbyconf.com
+
+    
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to perfor…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Melody is a language that compiles to regular expressions]]></title>
+        <id>changelog.com/news/zgYD</id>
+        <link href="https://github.com/yoav-lavi/melody"/>
+        <updated>2022-02-18T16:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Regular expressions aren’t easy to write, but they’re especially hard to read. This project is yet another attempt to make them more readable and maintainable. The aim is to create a new language that compiles to regexen so we don’t have to write them directly.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IEx in a box]]></title>
+        <id>changelog.com/news/8OJO</id>
+        <link href="https://cone.codes/posts/iex-in-a-box/"/>
+        <updated>2022-02-18T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Connor Rigby shows us how easy it is to embed Elixir’s IEx console like they do with Nerves.
+As is customary around these parts, we aren’t going to write much code. Just glue it together. First up, we’ll need a handful of dependencies.
+Plug, Cowboy, and extty do all the heavy lifting.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rapid Event Notification System at Netflix]]></title>
+        <id>https://medium.com/p/6deb1d2b57d1</id>
+        <link href="https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4"/>
+        <updated>2022-02-18T15:30:24.000Z</updated>
+        <summary type="html"><![CDATA[This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A frustrating month for markets]]></title>
+        <id>https://marketradar.substack.com/p/a-frustrating-month-for-markets</id>
+        <link href="https://marketradar.substack.com/p/a-frustrating-month-for-markets"/>
+        <updated>2022-02-18T15:15:56.000Z</updated>
+        <summary type="html"><![CDATA[No signs of recovery for equities]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A hairy PostgreSQL incident]]></title>
         <id>changelog.com/news/4Ee3</id>
@@ -189,6 +262,16 @@ Discuss on Changelog News]]></summary>
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[openpilot 0.8.13]]></title>
+        <id>https://blog.comma.ai/0813release/</id>
+        <link href="https://blog.comma.ai/0813release/"/>
+        <updated>2022-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This release is a big push on the long term stability and reliability front. We looked at the data from our previous release and fixed those bugs.]]></summary>
+        <author>
+            <name>comma.ai blog</name>
         </author>
     </entry>
     <entry>
@@ -1957,89 +2040,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 36: Keep on-call simple]]></title>
-        <id>changelog.com/14/1523</id>
-        <link href="https://changelog.com/shipit/36"/>
-        <updated>2022-01-20T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Gerhard loves simple ideas executed well, which is why he is excited to be speaking today with Ildar Iskhakov & Matvey Kukuy about their startup Amixr, a.k.a. Grafana OnCall.
-Ildar & Matvey started with a simple idea and a simple stack - Django, Celery, RabbitMQ & MySQL - all running on Kubernetes. Because they kept their main thing their main thing, and kept improving it every day for a couple of years, now your on-call can be simple too.
-This is another Big Tent philosophy story with a Black Swan moment towards the end.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-MongoDB – An integrated suite of cloud database and services — They have a FREE forever tier, so you can prove to yourself and to your team that t…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eleventy v1.0.0, the stable release]]></title>
-        <id>changelog.com/news/Q5lM</id>
-        <link href="https://www.zachleat.com/web/eleventy-one-point-oh/"/>
-        <updated>2022-01-20T17:52:00.000Z</updated>
-        <summary type="html"><![CDATA[Eleventy creator, Zach Leatherman:
-This project would not be possible without our lovely community. Thank you to everyone that built something with Eleventy (×476 authors on our web site!), wrote a blog post about Eleventy, contributed code to core or plugins, documentation, asked questions, answered questions, braved The Leaderboards, participated on Discord, filed issues, attended (or organized!) a meetup, said a kind word on Twitter ❤️.
-Congrats to Zach and the entire Eleventy community on the big 1.0! 🎉
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 213: AI-driven development in Go]]></title>
-        <id>changelog.com/2/1399</id>
-        <link href="https://changelog.com/gotime/213"/>
-        <updated>2022-01-20T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Alexey Palazhchenko joins Natalie to discuss the implications of GitHub’s Copilot on code generation. Go’s design lends itself nicely to computer generated authoring: thanks to go fmt, there’s already only one Go style. This means AI-generated code will be consistent and seamless. Its focus on simplicity & readability make it tailor made for this new approach to software creation. Where might this take us?
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-GitLab – The DevOps platform that empowers organizations to maximize the overall return on software development by delivering software faster, more efficiently, while strengthening security and compliance. Identify and address blockers immediately, focus on delivering value — not maintaining integrations, automate security and compliance. Get started with their free tier (no credit card required). Learn more at about.gitlab.com/solutions/devops-platform
-
-    
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
-
-    
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-    
-Featuring
-Alexey Palazhchenko – Twitter, GitHub
-Natalie Pistunovich – Twitter, GitHub
-Notes and Links
-FerretDB
-OpenAI Codex
-GitHub Copilot]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open source creates value, but how do you measure it?]]></title>
-        <id>https://github.blog/?p=62495</id>
-        <link href="https://github.blog/2022-01-20-open-source-creates-value-but-how-do-you-measure-it/"/>
-        <updated>2022-01-20T16:58:28.000Z</updated>
-        <summary type="html"><![CDATA[When digital infrastructure is overlooked by governments, it isn't just a missed opportunity: policies may inadvertently endanger open source collaboration.]]></summary>
-        <author>
-            <name>Peter Cihon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git organized: a better git flow]]></title>
-        <id>changelog.com/news/8Ow8</id>
-        <link href="https://render.com/blog/git-organized-a-better-git-flow"/>
-        <updated>2022-01-20T14:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Imagine this: you’ve been paged to investigate a production incident, and after some digging, you identify the commit with the breaking code. You decide to revert the change:
-git revert 1a2b3c
-Unfortunately, in doing so, a new bug is introduced! As it turns out, hidden in that old “broken” commit was some code that another part of the app depended upon, and when you reverted those lines, it left the site once again in a broken state. 🙃 Oh dear.
-How can situations like this be avoided? To answer this question, we first need to examine how these types of commits come to be.
-If you’ve never heard of or used git reset… this article is a must-read.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

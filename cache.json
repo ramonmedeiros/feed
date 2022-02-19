@@ -56,6 +56,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/JLmn",
+          "author": "Jerod Santo",
+          "description": "Not much has been written yet on how Go’s fuzzing system actually works, so I’ll talk a bit about that here. If you’d like to try it out, Getting started with fuzzing is a great tutorial.\nJay Conrod worked on Go 1.18’s fuzzing feature, so there’s very few people who could write a post as detailed and accurate as this. He also discussed fuzzing in detail with us on Go Time #187.\nDiscuss on Changelog News",
+          "link": "https://jayconrod.com/posts/123/internals-of-go-s-new-fuzzing-system",
+          "publishedOn": "2022-02-18T19:03:00.000Z",
+          "wordCount": null,
+          "title": "Internals of Go's new fuzzing system",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1577",
+          "author": null,
+          "description": "Holla! This week we’re playing Story of the Week and Today I Learned before turning our focus to Vest – a very cool validations framework created by Evyatar Alush.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nGatsbyConf 2022 – (March 2nd and 3rd) this conference is totally free and totally virtual so everyone can join. Day 1 is talks and day 2 is workshops —hear from Gatsby co-founders and leadership on speed improvements to the build system, incremental architecture, the latest on Gatsby Cloud, announcements and more. Chris Coyier kicks off day 1 with the Keynote. Register at gatsbyconf.com\n\n    \nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to perfor…",
+          "link": "https://changelog.com/jsparty/213",
+          "publishedOn": "2022-02-18T18:15:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 213: Playing it close to the Vest",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/213/js-party-213.mp3",
+            "length": "65853678",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/zgYD",
+          "author": "Jerod Santo",
+          "description": "Regular expressions aren’t easy to write, but they’re especially hard to read. This project is yet another attempt to make them more readable and maintainable. The aim is to create a new language that compiles to regexen so we don’t have to write them directly.\nDiscuss on Changelog News",
+          "link": "https://github.com/yoav-lavi/melody",
+          "publishedOn": "2022-02-18T16:29:00.000Z",
+          "wordCount": null,
+          "title": "Melody is a language that compiles to regular expressions",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/8OJO",
+          "author": "Jerod Santo",
+          "description": "Connor Rigby shows us how easy it is to embed Elixir’s IEx console like they do with Nerves.\nAs is customary around these parts, we aren’t going to write much code. Just glue it together. First up, we’ll need a handful of dependencies.\nPlug, Cowboy, and extty do all the heavy lifting.\nDiscuss on Changelog News",
+          "link": "https://cone.codes/posts/iex-in-a-box/",
+          "publishedOn": "2022-02-18T15:34:00.000Z",
+          "wordCount": null,
+          "title": "IEx in a box",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/4Ee3",
           "author": "Jerod Santo",
           "description": "If learning from incidents grabbed your attention, here’s a good one we can all learn from:\nIt was 5:17pm today, just as I was wrapping up work for the day, and my manager pinged me with the following chat:\n<manager>: Hi Jeremy - we have a <other team> ticket - escalated to <leader>, <leader>, etc. <principal> is on trying to advise as well. Are you available this evening if needed for diagnostics? <coworker> is on the call now\nNo obligation; just checking in to see what my availability is. Quickly thinking it over – I didn’t have any plans tonight, nothing in particular on my agenda. Why not? If I can help then someone else on the team won’t have to, and I don’t have anything better to do tonight.\nThe game is afoot. It might be a long night…\nDiscuss on Changelog News",
@@ -904,56 +949,6 @@
           "wordCount": null,
           "title": "A hands-on approach to getting started with Go generics",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1523",
-          "author": null,
-          "description": "Gerhard loves simple ideas executed well, which is why he is excited to be speaking today with Ildar Iskhakov & Matvey Kukuy about their startup Amixr, a.k.a. Grafana OnCall.\nIldar & Matvey started with a simple idea and a simple stack - Django, Celery, RabbitMQ & MySQL - all running on Kubernetes. Because they kept their main thing their main thing, and kept improving it every day for a couple of years, now your on-call can be simple too.\nThis is another Big Tent philosophy story with a Black Swan moment towards the end.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nMongoDB – An integrated suite of cloud database and services — They have a FREE forever tier, so you can prove to yourself and to your team that t…",
-          "link": "https://changelog.com/shipit/36",
-          "publishedOn": "2022-01-20T22:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 36: Keep on-call simple",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/36/ship-it-36.mp3",
-            "length": "55905687",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Q5lM",
-          "author": "Jerod Santo",
-          "description": "Eleventy creator, Zach Leatherman:\nThis project would not be possible without our lovely community. Thank you to everyone that built something with Eleventy (×476 authors on our web site!), wrote a blog post about Eleventy, contributed code to core or plugins, documentation, asked questions, answered questions, braved The Leaderboards, participated on Discord, filed issues, attended (or organized!) a meetup, said a kind word on Twitter ❤️.\nCongrats to Zach and the entire Eleventy community on the big 1.0! 🎉\nDiscuss on Changelog News",
-          "link": "https://www.zachleat.com/web/eleventy-one-point-oh/",
-          "publishedOn": "2022-01-20T17:52:00.000Z",
-          "wordCount": null,
-          "title": "Eleventy v1.0.0, the stable release",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1399",
-          "author": null,
-          "description": "Alexey Palazhchenko joins Natalie to discuss the implications of GitHub’s Copilot on code generation. Go’s design lends itself nicely to computer generated authoring: thanks to go fmt, there’s already only one Go style. This means AI-generated code will be consistent and seamless. Its focus on simplicity & readability make it tailor made for this new approach to software creation. Where might this take us?\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nGitLab – The DevOps platform that empowers organizations to maximize the overall return on software development by delivering software faster, more efficiently, while strengthening security and compliance. Identify and address blockers immediately, focus on delivering value — not maintaining integrations, automate security and compliance. Get started with their free tier (no credit card required). Learn more at about.gitlab.com/solutions/devops-platform\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nAlexey Palazhchenko – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nNotes and Links\nFerretDB\nOpenAI Codex\nGitHub Copilot",
-          "link": "https://changelog.com/gotime/213",
-          "publishedOn": "2022-01-20T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 213: AI-driven development in Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/213/go-time-213.mp3",
-            "length": "48030812",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/8Ow8",
-          "author": "Jerod Santo",
-          "description": "Imagine this: you’ve been paged to investigate a production incident, and after some digging, you identify the commit with the breaking code. You decide to revert the change:\ngit revert 1a2b3c\nUnfortunately, in doing so, a new bug is introduced! As it turns out, hidden in that old “broken” commit was some code that another part of the app depended upon, and when you reverted those lines, it left the site once again in a broken state. 🙃 Oh dear.\nHow can situations like this be avoided? To answer this question, we first need to examine how these types of commits come to be.\nIf you’ve never heard of or used git reset… this article is a must-read.\nDiscuss on Changelog News",
-          "link": "https://render.com/blog/git-organized-a-better-git-flow",
-          "publishedOn": "2022-01-20T14:41:00.000Z",
-          "wordCount": null,
-          "title": "Git organized: a better git flow",
-          "itunes": {}
         }
       ]
     },
@@ -962,6 +957,15 @@
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
       "articles": [
+        {
+          "id": "https://blog.comma.ai/0813release/",
+          "author": null,
+          "description": "This release is a big push on the long term stability and reliability front. We looked at the data from our previous release and fixed those bugs.",
+          "link": "https://blog.comma.ai/0813release/",
+          "publishedOn": "2022-02-16T00:00:00.000Z",
+          "wordCount": 2421,
+          "title": "openpilot 0.8.13"
+        },
         {
           "id": "https://blog.comma.ai/openpilot-hiring/",
           "author": null,
@@ -1444,15 +1448,6 @@
           "publishedOn": "2022-01-21T23:00:29.000Z",
           "wordCount": 1209,
           "title": "Release Radar · December 2021 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=62495",
-          "author": "Peter Cihon",
-          "description": "When digital infrastructure is overlooked by governments, it isn't just a missed opportunity: policies may inadvertently endanger open source collaboration.",
-          "link": "https://github.blog/2022-01-20-open-source-creates-value-but-how-do-you-measure-it/",
-          "publishedOn": "2022-01-20T16:58:28.000Z",
-          "wordCount": 1576,
-          "title": "Open source creates value, but how do you measure it?"
         }
       ]
     },
@@ -1530,6 +1525,15 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/6deb1d2b57d1",
+          "author": "Netflix Technology Blog",
+          "description": "This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it",
+          "link": "https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-02-18T15:30:24.000Z",
+          "wordCount": 2012,
+          "title": "Rapid Event Notification System at Netflix"
+        },
+        {
           "id": "https://medium.com/p/86525b3e21ca",
           "author": "Netflix Technology Blog",
           "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
@@ -1572,6 +1576,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/a-frustrating-month-for-markets",
+          "author": "Market Radar",
+          "description": "No signs of recovery for equities",
+          "link": "https://marketradar.substack.com/p/a-frustrating-month-for-markets",
+          "publishedOn": "2022-02-18T15:15:56.000Z",
+          "wordCount": null,
+          "title": "A frustrating month for markets",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F795b67f9-23c9-428e-b431-ec905e3d499d_944x706.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/the-pure-stocks-portfolio-rebalancing",
           "author": "Market Radar",
