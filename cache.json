@@ -56,6 +56,46 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/d3nl",
+          "author": "Jerod Santo",
+          "description": "Why create another form library? Here’s what Fomir’s author says to that:\nI have tried many form libraries, like redux-form, formik, final-form, react-hook-form… None of them suit my taste. I would expect a forms library with these features:\nUsing schema\nEasy to update form state\nHigh Performance\nMore abstract\nFomir create form by passing a form schema which is a JSON tree. the form schema is very flexible, you can create any form by the schema.\nI could see this as especially useful for form builders and similar tools where you’re providing a graphical way to build forms because your backend would just have to emit the correct JSON and let Fomir take it from there.\nDiscuss on Changelog News",
+          "link": "https://github.com/forsigner/fomir",
+          "publishedOn": "2022-02-21T17:24:00.000Z",
+          "wordCount": null,
+          "title": "Fomir – a schema-first library for building forms",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/j5wl",
+          "author": "Jerod Santo",
+          "description": "Douglas Vaghetti:\nIt is a good time to be in tech right now: soaring salaries, daily LinkedIn recruiter spam, people bootcamping their way into career switches to tech, remote work allowing you to work for a major tech company making triple digit salaries from the beach. It really feels like every single company is trying to recruit programmers nowadays, and doing whatever they can to get them.\nI’m certainly happy with the current state of affairs, but I can’t help but wonder: How does it end?\nWill supply go up via a mass influx of people switching careers? Will demand go down via AI and newly created no-code/low-code alternatives? Time will tell. But for now, some food for thought.\nDiscuss on Changelog News",
+          "link": "https://vaghetti.dev/posts/times-are-great/",
+          "publishedOn": "2022-02-21T16:35:00.000Z",
+          "wordCount": null,
+          "title": "Times are great for programmers now. How does it end?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/EQl2",
+          "author": "Jerod Santo",
+          "description": "Jujutsu (jj at your CLI) combines features from popular distributed version controls systems (Git, Mercurial, Darcs) with features not found in any of them, such as:\nworking-copy-as-commit\nundo functionality\nautomatic rebase\nsafe replication via rsync/Dropbox/etc\nAnd since it’s Git-compatible, adoption should be a breeze.\nJujutsu has two backends. One of them is a Git backend (the other is a native one). This lets you use Jujutsu as an alternative interface to Git. The commits you create will look like regular Git commits. You can always switch back to Git.\nI’ve often wondered what will come next after Git. I’m not saying this is that thing, but it’s cool to see people working on the problem.\nDiscuss on Changelog News",
+          "link": "https://github.com/martinvonz/jj",
+          "publishedOn": "2022-02-21T15:46:00.000Z",
+          "wordCount": null,
+          "title": "A Git-compatible DVCS that is both simple and powerful",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/LpND",
+          "author": "Jerod Santo",
+          "description": "If you agree with the notion that you need to be able to tell the difference between the absence of a value and a value itself, then this has some impacts on the code you write. If you want to keep ’em separated (so they can come out and play), then it gets you looking at your API designs in certain ways.\nThese are my reactions to some of the ways a value can be returned (or not).\nBefore you head off to read Rachel’s post, allow me to close the loop on that Offspring reference for those of us who didn’t grow up in the 90’s.\nDiscuss on Changelog News",
+          "link": "https://rachelbythebay.com/w/2022/02/20/return/",
+          "publishedOn": "2022-02-21T15:00:00.000Z",
+          "wordCount": null,
+          "title": "Returning values and errors",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/JLmn",
           "author": "Jerod Santo",
           "description": "Not much has been written yet on how Go’s fuzzing system actually works, so I’ll talk a bit about that here. If you’d like to try it out, Getting started with fuzzing is a great tutorial.\nJay Conrod worked on Go 1.18’s fuzzing feature, so there’s very few people who could write a post as detailed and accurate as this. He also discussed fuzzing in detail with us on Go Time #187.\nDiscuss on Changelog News",
