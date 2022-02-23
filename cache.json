@@ -56,6 +56,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/137Q",
+          "author": "Jerod Santo",
+          "description": "Said root access is achieved on DevOops – a medium-rated, retired machine on HackTheBox. The hack begins with a web server that hosts XML file uploads and ends with… well, I won’t spoiler it for you. Follow along and try to get root for yourself!\nDiscuss on Changelog News",
+          "link": "https://kaizoku.dev/htb-devoops",
+          "publishedOn": "2022-02-22T17:52:00.000Z",
+          "wordCount": null,
+          "title": "A pentester gains root access (step-by-step)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/gd5z",
+          "author": "Jerod Santo",
+          "description": "Knut Melvær with a thoughtful attack on one of my all-time favorite tools:\nMarkdown is a signifier for the developer and text-tinkerer culture. But since its introduction, the world of digital content has also changed. While Markdown is still fine for some things, I don’t believe it’s should be the go-to for content anymore.\nThere are two main reasons for this:\nMarkdown wasn’t designed to meet today’s needs of content.\nMarkdown holds editorial experience back.\nNow, I did say it’s a thoughtful atttack and it’s also a long one (30 minute read). Knut does the work, diving deep into Markdown’s history and John Gruber’s desires for it:\nI want to build my advice against Markdown by looking back on why it was introduced in the first place, and by going through some of the major developments of content on the web. For many of us, I suspect Markdown is something we just take for granted as a “thing that exists.” But all technology has a history and is a product of human interaction. This is important to remember when you, the reader, develop technology for others to use.\nDiscuss on Changelog News",
+          "link": "https://www.smashingmagazine.com/2022/02/thoughts-on-markdown/",
+          "publishedOn": "2022-02-22T16:06:00.000Z",
+          "wordCount": null,
+          "title": "Thoughts against Markdown",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/X6QM",
+          "author": "Jerod Santo",
+          "description": "In their own words:\nGrist is a modern relational spreadsheet. It combines the flexibility of a spreadsheet with the robustness of a database to organize your data and make you more productive.\nSince so many people make the Airtable comparison that I did in the headline, the team behind Grist has written up a comparison of the two offerings.\nDiscuss on Changelog News",
+          "link": "https://github.com/gristlabs/grist-core",
+          "publishedOn": "2022-02-22T15:15:00.000Z",
+          "wordCount": null,
+          "title": "Grist is a lot like Airtable, but open source and more customizable",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/d3nl",
           "author": "Jerod Santo",
           "description": "Why create another form library? Here’s what Fomir’s author says to that:\nI have tried many form libraries, like redux-form, formik, final-form, react-hook-form… None of them suit my taste. I would expect a forms library with these features:\nUsing schema\nEasy to update form state\nHigh Performance\nMore abstract\nFomir create form by passing a form schema which is a JSON tree. the form schema is very flexible, you can create any form by the schema.\nI could see this as especially useful for form builders and similar tools where you’re providing a graphical way to build forms because your backend would just have to emit the correct JSON and let Fomir take it from there.\nDiscuss on Changelog News",
@@ -904,46 +934,6 @@
             "length": "72972200",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/6O6d",
-          "author": "Jerod Santo",
-          "description": "Wesley Aptekar-Cassels has been using NixOS on his main laptop for ~3 years and he’s ready to talk about it:\nI don’t think that NixOS is the future, but I do absolutely think that the ideas in it are, so I want to write about what I think it gets right and what it gets wrong, in the hopes that other projects can take note. As such, this post will not assume knowledge of NixOS — if you’ve used NixOS significantly, there probably isn’t anything new in here for you.\nDiscuss on Changelog News",
-          "link": "https://blog.wesleyac.com/posts/the-curse-of-nixos",
-          "publishedOn": "2022-01-24T19:15:00.000Z",
-          "wordCount": null,
-          "title": "The curse of NixOS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/03EQ",
-          "author": "Jerod Santo",
-          "description": "This is just one of Charm’s various open source CLI projects.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/charmbracelet/soft-serve",
-          "publishedOn": "2022-01-24T16:35:00.000Z",
-          "wordCount": null,
-          "title": "Soft Serve – a tasty, self-hostable git server for the command line🍦",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/lbPY",
-          "author": "Jerod Santo",
-          "description": "This repo links to dozens of courses for each of 23 categories of computing. It’s just an astounding amount of freely accessible education.\nDiscuss on Changelog News",
-          "link": "https://github.com/Developer-Y/cs-video-courses",
-          "publishedOn": "2022-01-24T15:49:00.000Z",
-          "wordCount": null,
-          "title": "A list of CS courses with video lectures 📽",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/pknV",
-          "author": "Jerod Santo",
-          "description": "It’s not very often that I get Windows FOMO, but DevToys is doing it for me. It provides a sweet GUI for 14 tools including a JSON/Yaml converter, a JWT decoder, a text comparer, and a hash generator.\n\nDiscuss on Changelog News",
-          "link": "https://devtoys.app/",
-          "publishedOn": "2022-01-24T14:27:00.000Z",
-          "wordCount": null,
-          "title": "DevToys – an offline Swiss Army knife for developers",
-          "itunes": {}
         }
       ]
     },
@@ -977,6 +967,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ai/discover-ai-in-daily-life/",
+          "author": null,
+          "description": "Adorable, operatic blobs. A global, online guessing game. Scribbles that transform into works of art. These may not sound like they’re part of a curriculum, but learning the basics of how artificial intelligence (AI) works doesn’t have to be complicated, super-technical or boring.\nTo celebrate Digital Learning Day, we’re releasing a new lesson from Applied Digital Skills, Google’s free, online, video-based curriculum (and part of the larger Grow with Google initiative). “Discover AI in Daily Life” was designed with middle and high school students in mind, and dives into how AI is built, and how it helps people every day.\n\nAI for anyone — and everyone\n“Twenty or 30 years ago, students might have learned basic typing skills in school,” says Dr. Patrick Gage Kelley, a Google Trust and Safety …",
+          "link": "https://blog.google/technology/ai/discover-ai-in-daily-life/",
+          "publishedOn": "2022-02-22T19:00:00.000Z",
+          "wordCount": 1139,
+          "title": "An intro to AI, made for students"
+        },
         {
           "id": "https://blog.google/inside-google/googlers/laurence-moroney-every-voice-ai/",
           "author": null,
@@ -1046,15 +1045,6 @@
           "publishedOn": "2022-01-30T22:24:18.000Z",
           "wordCount": 1119,
           "title": "1,000 commit authors"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18206",
-          "author": "Daniel Stenberg",
-          "description": "On Friday January 21, 2022 I received this email. I tweeted about it and it took off like crazy. The email comes from a fortune-500 multi-billion dollar company that apparently might be using a product that contains my code, or maybe they have customers who do. Who knows? My guess is that they do this … Continue reading LogJ4 Security Inquiry – Response Required →",
-          "link": "https://daniel.haxx.se/blog/2022/01/24/logj4-security-inquiry-response-required/",
-          "publishedOn": "2022-01-24T14:45:57.000Z",
-          "wordCount": 1901,
-          "title": "LogJ4 Security Inquiry – Response Required"
         }
       ]
     },
@@ -1219,6 +1209,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=63410",
+          "author": "Pulkit Agarwal",
+          "description": "In-line with the other categories, workflows in the Security category will be recommended based on a repository's content.",
+          "link": "https://github.blog/2022-02-22-get-started-using-security-workflows/",
+          "publishedOn": "2022-02-22T17:18:57.000Z",
+          "wordCount": 577,
+          "title": "Get started with ease using security workflows!"
+        },
+        {
+          "id": "https://github.blog/?p=63397",
+          "author": "Kate Catlin",
+          "description": "Anyone can now provide additional information to further the community’s understanding and awareness of security advisories.",
+          "link": "https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/",
+          "publishedOn": "2022-02-22T17:00:43.000Z",
+          "wordCount": 771,
+          "title": "GitHub Advisory Database now open to community contributions"
+        },
         {
           "id": "https://github.blog/?p=63340",
           "author": "Tiferet Gazit",
@@ -1425,15 +1433,6 @@
           "publishedOn": "2022-01-25T16:41:56.000Z",
           "wordCount": 738,
           "title": "Secure your GitHub account with GitHub Mobile 2FA"
-        },
-        {
-          "id": "https://github.blog/?p=62535",
-          "author": "Taylor Blau",
-          "description": "The open source Git project just released Git 2.35. Here's GitHub's look at some of the most interesting features and changes introduced since last time.",
-          "link": "https://github.blog/2022-01-24-highlights-from-git-2-35/",
-          "publishedOn": "2022-01-24T20:00:43.000Z",
-          "wordCount": 2563,
-          "title": "Highlights from Git 2.35"
         }
       ]
     },
@@ -1442,6 +1441,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18115",
+          "author": "Nubank Press",
+          "description": "The full earnings release has been made available on the Company’s Investor Relations website.\nThe post Nu Holdings Ltd. Reports Fourth Quarter and Full Year 2021 Financial Results appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/financial-results-2021/",
+          "publishedOn": "2022-02-22T21:58:49.000Z",
+          "wordCount": 5265,
+          "title": "Nu Holdings Ltd. Reports Fourth Quarter and Full Year 2021 Financial Results"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18086",
           "author": "Nubank Editorial",
@@ -1459,15 +1467,6 @@
           "publishedOn": "2022-02-04T18:56:50.000Z",
           "wordCount": 3565,
           "title": "People at the center of the strategy: the first step to innovation"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18048",
-          "author": "Nubank Editorial",
-          "description": "To reinforce Nubank's commitment to caring for the environment, the positive social impact on people's lives, and the best corporate governance practices, today we launched a manifesto video. Watch now.\nThe post Nu Impacto Manifesto: Nubank’s commitment to the adoption of ESG practices appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nu-impacto-manifesto/",
-          "publishedOn": "2022-01-24T21:24:11.000Z",
-          "wordCount": 3127,
-          "title": "Nu Impacto Manifesto: Nubank’s commitment to the adoption of ESG practices"
         }
       ]
     },
@@ -1545,15 +1544,6 @@
           "publishedOn": "2022-01-25T16:23:45.000Z",
           "wordCount": 3281,
           "title": "Netflix: A Culture of Learning"
-        },
-        {
-          "id": "https://medium.com/p/eab2602b86fe",
-          "author": "Netflix Technology Blog",
-          "description": "How the Netflix TVUI team implemented a robust strategy to quickly and easily detect performance anomalies before they a",
-          "link": "https://netflixtechblog.com/fixing-performance-regressions-before-they-happen-eab2602b86fe?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-01-24T21:49:43.000Z",
-          "wordCount": 2865,
-          "title": "Fixing Performance Regressions Before they Happen"
         }
       ]
     },
