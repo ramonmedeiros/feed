@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-23T12:17:05.796Z</updated>
+    <updated>2022-02-24T12:16:01.301Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Support open source that you use by paying the maintainers to talk to your team]]></title>
+        <id>changelog.com/news/Gb65</id>
+        <link href="https://simonwillison.net/2022/Feb/23/support-open-source/"/>
+        <updated>2022-02-23T22:27:00.000Z</updated>
+        <summary type="html"><![CDATA[I love this idea by Simon Willison:
+I think I’ve come up with a novel hack for the challenge of getting your company to financially support the open source projects that it uses: reach out to the maintainers and offer them generous speaking fees for remote talks to your engineering team.
+It won’t work for every person and situation, but we should add it to our arsenal of ways to return economic value back to the maintainers of our open source infrastructure.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Tumblr taught young women to code]]></title>
+        <id>changelog.com/news/eZ01</id>
+        <link href="https://mashable.com/article/tumblr-girl-learn-code"/>
+        <updated>2022-02-23T21:38:00.000Z</updated>
+        <summary type="html"><![CDATA[Last year, TikTokker Avery Steeves posted a video asking why no one talks about how there’s an entire generation of teenage girls who taught themselves to code HTML on Tumblr. “People are like, ‘Oh, there’s no girls in STEM,’” she says, imitating the faceless internet mob. “No, there were! They were just making pale blogs.”
+OK so we don’t usually link to Mashable (first time ever?), but this was cool news to me, so I thought it was worth passing along. Long live HTML!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avoiding the top NGINX configuration mistakes]]></title>
+        <id>changelog.com/news/RR7g</id>
+        <link href="https://www.nginx.com/blog/avoiding-top-10-nginx-configuration-mistakes/"/>
+        <updated>2022-02-23T20:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Straight from the NGINX team:
+When we help NGINX users who are having problems, we often see the same configuration mistakes we’ve seen over and over in other users’ configurations – sometimes even in configurations written by fellow NGINX engineers! In this blog we look at 10 of the most common errors, explaining what’s wrong and how to fix it.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A new way to understand your GitHub-hosted runner capacity]]></title>
+        <id>https://github.blog/?p=63444</id>
+        <link href="https://github.blog/2022-02-23-new-way-understand-github-hosted-runner-capacity/"/>
+        <updated>2022-02-23T19:54:16.000Z</updated>
+        <summary type="html"><![CDATA[Explore and understand your overall GitHub-hosted Actions runner capacity with the new runner view.]]></summary>
+        <author>
+            <name>Ben De St Paer-Gotch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codespaces for the largest repositories just got faster]]></title>
+        <id>https://github.blog/?p=63238</id>
+        <link href="https://github.blog/2022-02-23-codespaces-largest-repositories-faster/"/>
+        <updated>2022-02-23T18:10:01.000Z</updated>
+        <summary type="html"><![CDATA[The ability to prebuild codespaces is entering public beta. Enable fast environment creation times, regardless of the size and complexity of your repositories.]]></summary>
+        <author>
+            <name>Tanmayee Kamath</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mitigating kernel risks on 32-bit ARM]]></title>
+        <id>http://security.googleblog.com/2022/02/mitigating-kernel-risks-on-32-bit-arm.html</id>
+        <link href="http://security.googleblog.com/2022/02/mitigating-kernel-risks-on-32-bit-arm.html"/>
+        <updated>2022-02-23T17:00:00.012Z</updated>
+        <summary type="html"><![CDATA[Posted by Ard Biesheuvel, Google Open Source Security Team 
+
+Linux kernel support for the 32-bit ARM architecture was contributed in the late 90s, when there was little corporate involvement in Linux development, and most contributors were students or hobbyists, tinkering with development boards, often without much in the way of documentation.
+
+
+Now 20+ years later, 32-bit ARM's maintainer has downgraded its support level to 'odd fixes,' while remaining active as a kernel contributor. This is a common pattern for aging and obsolete architectures: corporate funding for Linux kernel development has tremendously increased the pace of development, but only for architectures with a high return on investment. As a result, the 32-bit ARM port of Linux is essentially in maintenance-only mode, and …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 41: Continuous Delivery for Kubernetes]]></title>
+        <id>changelog.com/14/1549</id>
+        <link href="https://changelog.com/shipit/41"/>
+        <updated>2022-02-23T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s episode, Gerhard is talking to Mauricio Salatino (@salaboy) about the Continuous Delivery for Kubernetes book that he is currently writing.
+Mauricio is a Staff Engineer at VMware where he spends most of his time contributing to Knative, an open source platform for running serverless workloads on Kubernetes. Gerhard & Mauricio spent a few months in 2021 working on Knative Eventing, and they both appreciate shipping great software continuously. Mauricio helped ship Knative 1.0.
+The from-monolith-to-k8s application used throughout this book has been a few years in the making. It doubles-up as a workshop-style guide for rearchitecting a Java monolith to a Cloud Native architecture running in Kubernetes.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode bec…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nu Holdings Ltd. Reports Fourth Quarter and Full Year 2021 Financial Results]]></title>
         <id>https://building.nubank.com.br/?p=18115</id>
@@ -1873,140 +1959,6 @@ Oh my. It requires local access first, which is the only good news here.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 165: The world needs an AI superhero]]></title>
-        <id>changelog.com/7/1564</id>
-        <link href="https://changelog.com/practicalai/165"/>
-        <updated>2022-01-25T22:25:00.000Z</updated>
-        <summary type="html"><![CDATA[From drug discovery at the Quebec AI Institute to improving capabilities with low-resourced languages at the Masakhane Research Foundation and Google AI, Bonaventure Dossou looks for opportunities to use his expertise in natural language processing to improve the world - and especially to help his homeland in the Benin Republic in Africa.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-    
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
-
-    
-Featuring
-Bonaventure Dossou – Twitter, GitHub, LinkedIn, Website
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Natalie Pistunovich – Twitter, GitHub
-Notes and Links
-Bonaventure Dossou | Instagram
-2020 — ongoing: My Year of Fame and how I joined the world of Research]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PRQL – a modern language for transforming data]]></title>
-        <id>changelog.com/news/13Qw</id>
-        <link href="https://github.com/max-sixty/prql"/>
-        <updated>2022-01-25T19:35:00.000Z</updated>
-        <summary type="html"><![CDATA[PRQL (pronounced “Prequel”) aims to be “a simpler and more powerful SQL”
-Like SQL, it’s readable, explicit and declarative. Unlike SQL, it forms a logical pipeline of transformations, and supports abstractions such as variables and functions. It can be used with any database that uses SQL, since it transpiles to SQL.
-To get an idea on PRQL’s design, they provide this SQL statement as an example:
-SELECT TOP 20
-    title,
-    country,
-    AVG(salary) AS average_salary,
-    SUM(salary) AS sum_salary,
-    AVG(salary + payroll_tax) AS average_gross_salary,
-    SUM(salary + payroll_tax) AS sum_gross_salary,
-    AVG(salary + payroll_tax + benefits_cost) AS average_gross_cost,
-    SUM(salary + payroll_tax + benefits_cost) AS sum_gross_cost,
-    COUNT(*) as count
-FROM employees
-WHERE salary + payroll_tax + benefits_cost > 0 AND country = 'USA'
-GROUP BY title, country
-ORDER BY sum_gross_cost
-HAVING count > 200
-
-And then translate it to PRQL, which looks like:
-from employees
-filter country = "USA"                           # Each line transforms the previous result.
-let gross_salary = salary + payroll_tax          # This _adds_ a column / variable.
-let gross_cost   = gross_salary + benefits_cost  # Variables can use other variables.
-filter gross_cost > 0
-aggregate by:[title, country] [                  # `by` are the columns to group by.
-    average salary,                              # These are the calcs to run on the groups.
-    sum     salary,
-    average gross_salary,
-    sum     gross_salary,
-    average gross_cost,
-    sum     gross_cost,
-    count,
-]
-sort sum_gross_cost                              # Uses the auto-generated column name.
-filter count > 200
-take 20
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure your GitHub account with GitHub Mobile 2FA]]></title>
-        <id>https://github.blog/?p=62598</id>
-        <link href="https://github.blog/2022-01-25-secure-your-github-account-github-mobile-2fa/"/>
-        <updated>2022-01-25T16:41:56.000Z</updated>
-        <summary type="html"><![CDATA[GitHub continues to improve account security and developer experience with a new 2FA mechanism in GitHub Mobile on iOS and Android.]]></summary>
-        <author>
-            <name>Berk Veral</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netflix: A Culture of Learning]]></title>
-        <id>https://medium.com/p/394bc7d0f94c</id>
-        <link href="https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c?source=rss----2615bd06b42e---4"/>
-        <updated>2022-01-25T16:23:45.000Z</updated>
-        <summary type="html"><![CDATA[Martin Tingley with Wenjing Zheng, Simon Ejdemyr, Stephanie Lane, Colin McFarland, Mihir Tendulkar, and Travis Brooks]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I got pwned by my cloud costs]]></title>
-        <id>changelog.com/news/k2r2</id>
-        <link href="https://www.troyhunt.com/how-i-got-pwned-by-my-cloud-costs/"/>
-        <updated>2022-01-25T15:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Troy Hunt (of Have I been Pwned fame) has been a vocal proponent of cloud-first services for awhile. Last December, that strategy came back to bite him:
-It all started with my monthly Azure bill for December which was way over what it would normally be. It only took a moment to find the problem…
-He goes on to tell the tale in excruciating detail. Be careful out there, cloud natives.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wordle built with Vue, aka VVordle]]></title>
-        <id>changelog.com/news/mar1</id>
-        <link href="https://github.com/yyx990803/vue-wordle"/>
-        <updated>2022-01-25T15:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Rebuilding Wordle is a fun way to show off what your frontend framework is capable of (and how). Evan You has been doing just that for Vue. It’s not a 100% reproduction of the original, but it does have one cool feature the official game does NOT:
-You can make your own Wordle and send it to friends by base64-encoding a word and include it as the URL query
-Here’s a custom one using an acronym that many devs think about often…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 476: Supabase is all in on Postgres]]></title>
-        <id>changelog.com/1/1550</id>
-        <link href="https://changelog.com/podcast/476"/>
-        <updated>2022-01-25T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week Paul Copplestone, CEO of Supabase joined us to catch us up on the next big thing happening in the world of Postgres. Supabase might be best known as “the open source Firebase alternative,” a tagline they might be reluctant to maintain. But from Adam’s perspective, he’s never been more excited about what they’re bringing to market for Postgres fans. In the last year, Supabase has gone from 0 to more than 80,000 databases on their platform — and they’re still in beta…and it’s open source. Hopefully today’s show sheds some light on why everyone is talking about Supabase.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From…]]></summary>
-        <author>
-            <name>Changelog</name>
         </author>
     </entry>
 </feed>
