@@ -2,10 +2,100 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-24T12:16:01.301Z</updated>
+    <updated>2022-02-25T12:15:40.978Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl on “software at scale”]]></title>
+        <id>https://daniel.haxx.se/blog/?p=17826</id>
+        <link href="https://daniel.haxx.se/blog/2022/02/25/curl-on-software-at-scale/"/>
+        <updated>2022-02-25T07:59:52.000Z</updated>
+        <summary type="html"><![CDATA[I was a guest at the software at scale podcast a while ago and the recording went up recently. We talked about a lot of things curl, including: The complexity behind HTTP. What goes on behind the scenes when I make a web request? The organizational work behind internet-wide RFCs, like HTTP/3. Rust in curl. … Continue reading curl on “software at scale” →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Things the CSS spec folks got right]]></title>
+        <id>changelog.com/news/MdkD</id>
+        <link href="https://blog.jim-nielsen.com/2022/things-the-css-spec-folks-got-right/"/>
+        <updated>2022-02-24T20:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Jim Nielsen:
+It’s easy, in hindsight, to critique things CSS got wrong or should’ve prioritized differently. But I want to take a moment to marvel at the things they got right.
+It’s incredibly difficult to build APIs that solve today’s problems while anticipating an unknown future. In some cases, I think the original CSS authors did precisely that.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A CLI & utility functions for manipulating SQLite databases from Python]]></title>
+        <id>changelog.com/news/rl29</id>
+        <link href="https://sqlite-utils.datasette.io/en/stable/index.html"/>
+        <updated>2022-02-24T18:54:00.000Z</updated>
+        <summary type="html"><![CDATA[SQLite and Python strike me as particularly complementary tools.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An awesome list of ngrok alternatives & other tunneling solutions]]></title>
+        <id>changelog.com/news/9Oyw</id>
+        <link href="https://github.com/anderspitman/awesome-tunneling"/>
+        <updated>2022-02-24T18:06:00.000Z</updated>
+        <summary type="html"><![CDATA[ngrok rocks, but it’s 2nd version is famously closed source*, so many open source alternatives have been developed over the years. So many, in fact, that they now have their own awesome list.
+The purpose of this list is to track and compare tunneling solutions. This is primarily targeted toward self-hosters and developers who want to do things like exposing a local webserver via a public domain name, with automatic HTTPS, even if behind a NAT or other restricted network.
+*We spoke with Alan Shreve about this decision back when he made it, if you’re curious about his thinking.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 218: Going with GraphQL]]></title>
+        <id>changelog.com/2/1553</id>
+        <link href="https://changelog.com/gotime/218"/>
+        <updated>2022-02-24T17:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Mark Sandstrom and Ben Kraft join Jon and Mat to talk about GraphQL. What exactly is it this query language everyone has been talking about? How does it work? What Go libraries are out there, and where should you get started?
+Discuss on Changelog News
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+    
+Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
+
+    
+Featuring
+Mark Sandstrom – Twitter
+Ben Kraft – Twitter, GitHub, Website
+Jon Calhoun – Twitter, GitHub, Website
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+Resources to learn GraphQL
+GitHub GraphQL API
+genqlient - Khan Academy’s open source GraphQL client library
+graphql - Another GraphQL client library written in Go
+gqlgen - A codegen tool for creating Go GraphQL servers
+graphql-go-tools - A toolkit for building GraphQL proxies, gateways, caches, etc
+gqlparser - A GraphQL parser, written to mirror the graphql-js reference implementation as closely while remaining idiomatic and easy to use.
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Portfolios of 10 Legendary Investors - Q4 '21]]></title>
+        <id>https://marketradar.substack.com/p/10-portfolios-of-10-legendary-investors-ce9</id>
+        <link href="https://marketradar.substack.com/p/10-portfolios-of-10-legendary-investors-ce9"/>
+        <updated>2022-02-24T16:24:41.000Z</updated>
+        <summary type="html"><![CDATA[Purchase and sales of the some of the most famous investors]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Support open source that you use by paying the maintainers to talk to your team]]></title>
         <id>changelog.com/news/Gb65</id>
@@ -1909,56 +1999,6 @@ Join Changelog++ to support our work, get closer to the metal, and make the ads 
 Sponsor…]]></summary>
         <author>
             <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Knowing when to say 'no']]></title>
-        <id>changelog.com/news/d3r2</id>
-        <link href="https://github.com/readme/guides/decision-framework"/>
-        <updated>2022-01-26T19:13:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a piece that I wrote for GitHub’s ReadME project about an important aspect of software maintenance: recognizing which contributions are a good fit for a project—and which are not.
-The thought process applies equally well to proprietary code bases and open source projects.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jon Parise</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get ready for Campus TV Season 2: 🌱 New Beginnings]]></title>
-        <id>https://github.blog/?p=62624</id>
-        <link href="https://github.blog/2022-01-26-get-ready-for-campus-tv-season-2-new-beginnings/"/>
-        <updated>2022-01-26T17:59:38.000Z</updated>
-        <summary type="html"><![CDATA[Learn new skills, build projects and meet like-minded students with the latest shows from the GitHub Education Stream Team.]]></summary>
-        <author>
-            <name>Juan Pablo Flores Cortés</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The old internet shows signs of quietly coming back]]></title>
-        <id>changelog.com/news/eZrO</id>
-        <link href="https://cheapskatesguide.org/articles/old-internet-coming-back.html"/>
-        <updated>2022-01-26T15:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Old as in old school cool not old as in passe:
-Despite the new gatekeepers’ best efforts, the old Internet never completely disappeared. Personal websites created by individuals that have always been the meat of the old Internet are still around. They are still about exploration, innovation, fun, and all the rest. Try as the new gatekeepers have, they simply have not had the power to eradicate the old Internet completely. All they can do is pretend it does not exist. And, that is exactly what they do.
-But…
-… the old Internet seems to be slowly and quietly coming back, and it is coming back even better than before. Now it has better technology and an additional well-defined purpose that it never had before.
-Some people have begun to refer to personal websites as the “indie web”, the “small Internet”, or the “smol Internet”. Some seem to reserve the last two terms exclusively for the Gemini Network, which nearly quadrupled in size last year. But, I think all three terms should also apply to some of the other networks that use alternative networking protocols–the Gopher Network, the Tor network, and the ZeroNet network, to name a few.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A bug lurking for 12 years gives attackers root on every major Linux distro]]></title>
-        <id>changelog.com/news/RRe0</id>
-        <link href="https://arstechnica.com/information-technology/2022/01/a-bug-lurking-for-12-years-gives-attackers-root-on-every-major-linux-distro/?utm_brand=arstechnica"/>
-        <updated>2022-01-26T14:51:00.000Z</updated>
-        <summary type="html"><![CDATA[Linux users on Tuesday got a major dose of bad news—a 12-year-old vulnerability in a system tool called Polkit gives attackers unfettered root privileges on machines running any major distribution of the open source operating system.
-Previously called PolicyKit, Polkit manages system-wide privileges in Unix-like OSes. It provides a mechanism for nonprivileged processes to safely interact with privileged processes. It also allows users to execute commands with high privileges by using a component called pkexec, followed by the command.
-Oh my. It requires local access first, which is the only good news here.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>
