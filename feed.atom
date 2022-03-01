@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-28T12:15:46.884Z</updated>
+    <updated>2022-03-01T12:20:45.189Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Data transfer in Manhattan using RocksDB]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb"/>
+        <updated>2022-03-01T12:20:26.016Z</updated>
+        <summary type="html"><![CDATA[In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSON improvements in SQLite 3.38.0]]></title>
+        <id>changelog.com/news/Z3NW</id>
+        <link href="https://tirkarthi.github.io/programming/2022/02/26/sqlite-json-improvements.html"/>
+        <updated>2022-02-28T16:10:00.000Z</updated>
+        <summary type="html"><![CDATA[JSON support in SQLite has been in the works for awhile now, but prior to this release you had to opt in to it. Now it’s on by default and this is a great rundown of using the query features.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The painfully shy developer's guide to networking for a better job]]></title>
+        <id>changelog.com/news/VJyX</id>
+        <link href="https://www.samjulien.com/shy-dev-networking"/>
+        <updated>2022-02-28T15:12:00.000Z</updated>
+        <summary type="html"><![CDATA[For many software folk, we prefer our networking to have TCP handshakes, not literal (or even virtual) handshakes. If that’s you, this guide might help you get over the hump:
+Here’s the truth: you can get what you need from these events without being awkward or creepy. Whether that’s job leads or important connections, there is a well-defined, time-tested way to accomplish this. It will push your limits, but it won’t leave you feeling gross inside. And the more you do it, the better you’ll get at it.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A visual map of a Kubernetes deployment]]></title>
+        <id>changelog.com/news/ykVq</id>
+        <link href="https://opensource.com/article/22/3/visual-map-kubernetes-deployment"/>
+        <updated>2022-02-28T14:12:00.000Z</updated>
+        <summary type="html"><![CDATA[This diagram by Nived Velayudhan and Seth Kenlon might help you better understand Kubernetes by looking at the 10 steps that take place when you create a pod or a deployment.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Changelog 481: Making the command line glamorous]]></title>
         <id>changelog.com/1/1571</id>
@@ -1894,16 +1939,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Twitter Notebook is Twitter’s internal notebook solution. It provides a first-class development environment to Data Scientist and Machine Learning practitioners at Twitter. This blog shares features o]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1,000 commit authors]]></title>
-        <id>https://daniel.haxx.se/blog/?p=17464</id>
-        <link href="https://daniel.haxx.se/blog/2022/01/30/1000-commit-authors/"/>
-        <updated>2022-01-30T22:24:18.000Z</updated>
-        <summary type="html"><![CDATA[In the curl project we switched to using git for source code control in March 2010. Since then we have exact tracking of every commit author to the project. In the times before git, we used CVS which doesn’t properly separate committers from authors. The number of commit authors in curl has gradually been increasing … Continue reading 1,000 commit authors →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
