@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-03T12:41:03.997Z</updated>
+    <updated>2022-03-04T12:16:04.845Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Go Time 219: Why immutable databases?]]></title>
+        <id>changelog.com/2/1594</id>
+        <link href="https://changelog.com/gotime/219"/>
+        <updated>2022-03-03T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Let’s talk about the concept of immutable databases, the problems they target, and why you’d want to build one in Go.
+Discuss on Changelog News
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+SignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.
+
+    
+FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io
+
+    
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+    
+Featuring
+Bartlomiej Święcki – Twitter, GitHub
+Jeronimo Irazabal – Twitter, GitHub
+Johnny Boursiquot – Twitter, GitHub, Website
+Jon Calhoun – Twitter, GitHub, Website
+Notes and Links
+immudb
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Interop 2022]]></title>
+        <id>https://hacks.mozilla.org/?p=47622</id>
+        <link href="https://hacks.mozilla.org/2022/03/interop-2022/"/>
+        <updated>2022-03-03T17:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Writing high quality standards is a necessary first step to an interoperable web platform, but ensuring that browsers are consistent in their behavior requires an ongoing process. Browsers must work to ensure that they have a shared understanding of web standards, and that their implementation matches that understanding.
+Interop 2022 is a cross-browser initiative to find and address the most important interoperability pain points on the web platform. The end result is a public metric that will assess progress toward fixing these interoperability issues.
+The post Announcing Interop 2022 appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Anne van Kesteren</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SPAs were a mistake]]></title>
+        <id>changelog.com/news/13zQ</id>
+        <link href="https://gomakethings.com/spas-were-a-mistake/"/>
+        <updated>2022-03-03T15:07:01.000Z</updated>
+        <summary type="html"><![CDATA[Chris Ferdinandi:
+For years, a trend in our industry has been to build single-page apps, or SPAs.
+With an SPA, the entire site or app lives in a single HTML file. After the initial load, everything about the app is handled with JavaScript. This is, in theory, supposed to result in web apps that feel as fast and snappy as native apps.
+Today, I want to explore why that’s nonsense. Let’s dig in!
+I built one of the first big SPAs (remember Grooveshark?), but I’ve shied away from them ever since. I do think there are cases when they make sense (Trello and GMail come to mind), but overall I think too many people chose the architecture too many times because it was the it thing to do vs it was actually the best decision for their circumstance.
+Heck, even Chris’s disclaimer of ‘when SPAs make sense’ section at the top is easily defeated by our Turbolinks implementation. But I digress… read this post it’s a good one for sure.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A web extension that saves a complete web page as a single HTML file]]></title>
+        <id>changelog.com/news/gdmz</id>
+        <link href="https://github.com/gildas-lormeau/SingleFile"/>
+        <updated>2022-03-03T14:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Install SingleFile on any major browser and then just:
+Wait until the page is fully loaded.
+Click on the SingleFile button in the extension toolbar to save the page.
+You can click again on the button to cancel the action when processing a page.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Advancing Jupyter Notebooks at Twitter - Part 1]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d</id>
@@ -1812,114 +1885,6 @@ Contribute to FEAST]]></summary>
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: January 2022]]></title>
-        <id>https://github.blog/?p=62836</id>
-        <link href="https://github.blog/2022-02-02-github-availability-report-january-2022/"/>
-        <updated>2022-02-03T00:00:24.000Z</updated>
-        <summary type="html"><![CDATA[In January, we experienced no incidents resulting in service downtime to our core services.]]></summary>
-        <author>
-            <name>Scott Sanders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to build a CI/CD pipeline with GitHub Actions in four simple steps]]></title>
-        <id>https://github.blog/?p=62762</id>
-        <link href="https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/"/>
-        <updated>2022-02-02T19:48:18.000Z</updated>
-        <summary type="html"><![CDATA[A quick guide on the advantages of using GitHub Actions as your preferred CI/CD tool—and how to build a CI/CD pipeline with it.]]></summary>
-        <author>
-            <name>Brian Douglas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New sponsors-only repositories, custom amounts, and more]]></title>
-        <id>https://github.blog/?p=62801</id>
-        <link href="https://github.blog/2022-02-02-new-sponsors-only-repositories-custom-amounts-and-more/"/>
-        <updated>2022-02-02T18:00:04.000Z</updated>
-        <summary type="html"><![CDATA[Along with the release of sponsors-only repositories, here’s a look at what’s new and what’s next for Sponsors.]]></summary>
-        <author>
-            <name>Jessica Lord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Algorithms implemented in Go (for education)]]></title>
-        <id>changelog.com/news/j5Zq</id>
-        <link href="https://github.com/TheAlgorithms/Go"/>
-        <updated>2022-02-02T17:54:00.000Z</updated>
-        <summary type="html"><![CDATA[A nice set of algorithms implemented with Go best practices in mind, making this a good learning resource. I wonder how much churn we’ll see on these once generics are officially added to the language… 🤔
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mizu – an API traffic viewer for Kubernetes]]></title>
-        <id>changelog.com/news/EQrQ</id>
-        <link href="https://github.com/up9inc/mizu"/>
-        <updated>2022-02-02T17:01:00.000Z</updated>
-        <summary type="html"><![CDATA[“Think TCPDump and Wireshark re-invented for Kubernetes.”
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Life of a DNS query]]></title>
-        <id>changelog.com/news/bNrW</id>
-        <link href="https://wizardzines.com/comics/life-of-a-dns-query/"/>
-        <updated>2022-02-02T15:32:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’d prefer code over comics, see instead her little Go program that explains the same.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CasaOS – a home cloud system based on the Docker ecosystem]]></title>
-        <id>changelog.com/news/W3ro</id>
-        <link href="https://www.casaos.io/"/>
-        <updated>2022-02-02T14:39:00.000Z</updated>
-        <summary type="html"><![CDATA[They brand CasaOS as an operating system, but it’s really a layer on top of Linux that provides a nice UI and easy app (docker container) installation. It’s early days for the project, but we definitely need some open source options in this space, so here’s hoping they continue to progress!
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Join the openpilot team!]]></title>
-        <id>https://blog.comma.ai/openpilot-hiring/</id>
-        <link href="https://blog.comma.ai/openpilot-hiring/"/>
-        <updated>2022-02-02T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The openpilot team is one of three teams at comma. Our main goal is to provide a stable and highly reliable platform for the research team’s models to run on. This includes everything from the OS our devices run to the cars that openpilot drives. We’re looking for great engineers who want to work on all parts of that stack.]]></summary>
-        <author>
-            <name>comma.ai blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Retrospective and Technical Details on the recent Firefox Outage]]></title>
-        <id>https://hacks.mozilla.org/?p=47574</id>
-        <link href="https://hacks.mozilla.org/2022/02/retrospective-and-technical-details-on-the-recent-firefox-outage/"/>
-        <updated>2022-02-02T09:00:50.000Z</updated>
-        <summary type="html"><![CDATA[On January 13th 2022, Firefox became unusable for close to two hours for users worldwide. This incident interrupted many people’s workflow. This post highlights the complex series of events and circumstances that, together, triggered a bug deep in the networking code of Firefox. What Happened? Firefox has a number of servers and related infrastructure that […]
-The post Retrospective and Technical Details on the recent Firefox Outage appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Christian Holler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl dash-dash-json]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18389</id>
-        <link href="https://daniel.haxx.se/blog/2022/02/02/curl-dash-dash-json/"/>
-        <updated>2022-02-02T08:12:18.000Z</updated>
-        <summary type="html"><![CDATA[The curl “cockpit” is yet again extended with a new command line option: --json. The 245th command line option. curl is a generic transfer tool for sending and receiving data across networks and it is completely agnostic as to what it transfers or even why. To allow users to craft all sorts of transfers, or … Continue reading curl dash-dash-json →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>

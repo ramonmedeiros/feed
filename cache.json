@@ -56,6 +56,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1594",
+          "author": null,
+          "description": "Let’s talk about the concept of immutable databases, the problems they target, and why you’d want to build one in Go.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nBartlomiej Święcki – Twitter, GitHub\nJeronimo Irazabal – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nJon Calhoun – Twitter, GitHub, Website\nNotes and Links\nimmudb\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/219",
+          "publishedOn": "2022-03-03T18:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 219: Why immutable databases?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/219/go-time-219.mp3",
+            "length": "55666924",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/13zQ",
+          "author": "Jerod Santo",
+          "description": "Chris Ferdinandi:\nFor years, a trend in our industry has been to build single-page apps, or SPAs.\nWith an SPA, the entire site or app lives in a single HTML file. After the initial load, everything about the app is handled with JavaScript. This is, in theory, supposed to result in web apps that feel as fast and snappy as native apps.\nToday, I want to explore why that’s nonsense. Let’s dig in!\nI built one of the first big SPAs (remember Grooveshark?), but I’ve shied away from them ever since. I do think there are cases when they make sense (Trello and GMail come to mind), but overall I think too many people chose the architecture too many times because it was the it thing to do vs it was actually the best decision for their circumstance.\nHeck, even Chris’s disclaimer of ‘when SPAs make sense’ section at the top is easily defeated by our Turbolinks implementation. But I digress… read this post it’s a good one for sure.\nDiscuss on Changelog News",
+          "link": "https://gomakethings.com/spas-were-a-mistake/",
+          "publishedOn": "2022-03-03T15:07:01.000Z",
+          "wordCount": null,
+          "title": "SPAs were a mistake",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/gdmz",
+          "author": "Jerod Santo",
+          "description": "Install SingleFile on any major browser and then just:\nWait until the page is fully loaded.\nClick on the SingleFile button in the extension toolbar to save the page.\nYou can click again on the button to cancel the action when processing a page.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/gildas-lormeau/SingleFile",
+          "publishedOn": "2022-03-03T14:14:00.000Z",
+          "wordCount": null,
+          "title": "A web extension that saves a complete web page as a single HTML file",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/wkJ0",
           "author": "Jerod Santo",
           "description": "Derek Sivers:\nI write almost everything important in my life: thoughts, plans, notes, diaries, correspondence, code, articles, and entire books.\nThey are my extended memory — my noted self — my organized thoughts. I refer to them often. I search them, update them, and learn from them. I convert them into HTML to make websites, or LaTeX to make books.\nMy written words are my most precious asset. They are also a history of my life. That’s why I only use plain text files. They are the most reliable, flexible, and long-lasting option. Here’s why.\nDiscuss on Changelog News",
@@ -904,46 +939,6 @@
           "wordCount": null,
           "title": "A Wordle clone in less than 50 lines of bash",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/j5Zq",
-          "author": "Jerod Santo",
-          "description": "A nice set of algorithms implemented with Go best practices in mind, making this a good learning resource. I wonder how much churn we’ll see on these once generics are officially added to the language… 🤔\nDiscuss on Changelog News",
-          "link": "https://github.com/TheAlgorithms/Go",
-          "publishedOn": "2022-02-02T17:54:00.000Z",
-          "wordCount": null,
-          "title": "Algorithms implemented in Go (for education)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/EQrQ",
-          "author": "Jerod Santo",
-          "description": "“Think TCPDump and Wireshark re-invented for Kubernetes.”\n\nDiscuss on Changelog News",
-          "link": "https://github.com/up9inc/mizu",
-          "publishedOn": "2022-02-02T17:01:00.000Z",
-          "wordCount": null,
-          "title": "Mizu – an API traffic viewer for Kubernetes",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/bNrW",
-          "author": "Jerod Santo",
-          "description": "If you’d prefer code over comics, see instead her little Go program that explains the same.\n\nDiscuss on Changelog News",
-          "link": "https://wizardzines.com/comics/life-of-a-dns-query/",
-          "publishedOn": "2022-02-02T15:32:00.000Z",
-          "wordCount": null,
-          "title": "Life of a DNS query",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W3ro",
-          "author": "Jerod Santo",
-          "description": "They brand CasaOS as an operating system, but it’s really a layer on top of Linux that provides a nice UI and easy app (docker container) installation. It’s early days for the project, but we definitely need some open source options in this space, so here’s hoping they continue to progress!\n\nDiscuss on Changelog News",
-          "link": "https://www.casaos.io/",
-          "publishedOn": "2022-02-02T14:39:00.000Z",
-          "wordCount": null,
-          "title": "CasaOS – a home cloud system based on the Docker ecosystem",
-          "itunes": {}
         }
       ]
     },
@@ -960,15 +955,6 @@
           "publishedOn": "2022-02-16T00:00:00.000Z",
           "wordCount": 2421,
           "title": "openpilot 0.8.13"
-        },
-        {
-          "id": "https://blog.comma.ai/openpilot-hiring/",
-          "author": null,
-          "description": "The openpilot team is one of three teams at comma. Our main goal is to provide a stable and highly reliable platform for the research team’s models to run on. This includes everything from the OS our devices run to the cars that openpilot drives. We’re looking for great engineers who want to work on all parts of that stack.",
-          "link": "https://blog.comma.ai/openpilot-hiring/",
-          "publishedOn": "2022-02-02T12:00:00.000Z",
-          "wordCount": 466,
-          "title": "Join the openpilot team!"
         }
       ]
     },
@@ -1046,15 +1032,6 @@
           "publishedOn": "2022-02-10T13:29:18.000Z",
           "wordCount": 1729,
           "title": "My work on tool vs library"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18389",
-          "author": "Daniel Stenberg",
-          "description": "The curl “cockpit” is yet again extended with a new command line option: --json. The 245th command line option. curl is a generic transfer tool for sending and receiving data across networks and it is completely agnostic as to what it transfers or even why. To allow users to craft all sorts of transfers, or … Continue reading curl dash-dash-json →",
-          "link": "https://daniel.haxx.se/blog/2022/02/02/curl-dash-dash-json/",
-          "publishedOn": "2022-02-02T08:12:18.000Z",
-          "wordCount": 1229,
-          "title": "curl dash-dash-json"
         }
       ]
     },
@@ -1186,6 +1163,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47622",
+          "author": "Anne van Kesteren",
+          "description": "Writing high quality standards is a necessary first step to an interoperable web platform, but ensuring that browsers are consistent in their behavior requires an ongoing process. Browsers must work to ensure that they have a shared understanding of web standards, and that their implementation matches that understanding.\nInterop 2022 is a cross-browser initiative to find and address the most important interoperability pain points on the web platform. The end result is a public metric that will assess progress toward fixing these interoperability issues.\nThe post Announcing Interop 2022 appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/03/interop-2022/",
+          "publishedOn": "2022-03-03T17:00:02.000Z",
+          "wordCount": 1151,
+          "title": "Announcing Interop 2022"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47643",
           "author": "Hermina",
           "description": "If you’ve accessed the MDN website today, you probably noticed that it looks quite different. We hope it’s a good different. Let us explain!\nIn mid-2021 we started to think about modernizing MDN’s design, to create a clean and inviting website that makes navigating our 44,000 articles as easy as possible. We wanted to create a more holistic experience for our users, with an emphasis on improved navigability and a universal look and feel across all our pages. \nThe post A new year, a new MDN appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1211,15 +1197,6 @@
           "publishedOn": "2022-02-08T16:59:21.000Z",
           "wordCount": 1504,
           "title": "Improving the Storage Access API in Firefox"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47574",
-          "author": "Christian Holler",
-          "description": "On January 13th 2022, Firefox became unusable for close to two hours for users worldwide. This incident interrupted many people’s workflow. This post highlights the complex series of events and circumstances that, together, triggered a bug deep in the networking code of Firefox. What Happened? Firefox has a number of servers and related infrastructure that […]\nThe post Retrospective and Technical Details on the recent Firefox Outage appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/02/retrospective-and-technical-details-on-the-recent-firefox-outage/",
-          "publishedOn": "2022-02-02T09:00:50.000Z",
-          "wordCount": 1546,
-          "title": "Retrospective and Technical Details on the recent Firefox Outage"
         }
       ]
     },
@@ -1398,33 +1375,6 @@
           "publishedOn": "2022-02-04T23:00:58.000Z",
           "wordCount": 1588,
           "title": "Release Radar · January 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=62836",
-          "author": "Scott Sanders",
-          "description": "In January, we experienced no incidents resulting in service downtime to our core services.",
-          "link": "https://github.blog/2022-02-02-github-availability-report-january-2022/",
-          "publishedOn": "2022-02-03T00:00:24.000Z",
-          "wordCount": 318,
-          "title": "GitHub Availability Report: January 2022"
-        },
-        {
-          "id": "https://github.blog/?p=62762",
-          "author": "Brian Douglas",
-          "description": "A quick guide on the advantages of using GitHub Actions as your preferred CI/CD tool—and how to build a CI/CD pipeline with it.",
-          "link": "https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/",
-          "publishedOn": "2022-02-02T19:48:18.000Z",
-          "wordCount": 2528,
-          "title": "How to build a CI/CD pipeline with GitHub Actions in four simple steps"
-        },
-        {
-          "id": "https://github.blog/?p=62801",
-          "author": "Jessica Lord",
-          "description": "Along with the release of sponsors-only repositories, here’s a look at what’s new and what’s next for Sponsors.",
-          "link": "https://github.blog/2022-02-02-new-sponsors-only-repositories-custom-amounts-and-more/",
-          "publishedOn": "2022-02-02T18:00:04.000Z",
-          "wordCount": 940,
-          "title": "New sponsors-only repositories, custom amounts, and more"
         }
       ]
     },
