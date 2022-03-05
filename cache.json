@@ -56,6 +56,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/6/1559",
+          "author": null,
+          "description": "Kent and our panelists dive deep on the hottest new React framework: Remix. What it does today, what makes it special, how it lured Kent away from a lucrative independent teaching career, and what’s coming up next.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFeaturing\nKent C. Dodds – Twitter, GitHub, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nAli Spittel – Twitter, GitHub, LinkedIn, Website\nDivya – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nRemix Vs Next\nFly.io\nJSParty #119 Redwood brings full-stack to the JAMstack\nRemix Quickstart\nRemix Deep Dive\nRemix Discord\nReact Server Components and Remix\nA better idea would be to replace / improve the fetch spec\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/215",
+          "publishedOn": "2022-03-04T19:40:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 215: Remix helps bridge the network chasm",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/215/js-party-215.mp3",
+            "length": "70477151",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/038D",
+          "author": "Jerod Santo",
+          "description": "Bhupesh Varshney:\nA lot of folks looking how to get started on open source are given very generic advice on how to approach their first contribution. In this newsletter issue I share one specific actionable item.\nHis secret tip? Solve static analyzer issues. There, I saved you a click. Unless you’re not sure what he means by that or want his advice on how to actually get that done…\nDiscuss on Changelog News",
+          "link": "https://buttondown.email/bhupesh/archive/one-secret-tip-for-first-time-oss-contributors/",
+          "publishedOn": "2022-03-04T15:50:00.000Z",
+          "wordCount": null,
+          "title": "One secret tip for first-time OSS contributors 🤫",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/3YJJ",
+          "author": "Jerod Santo",
+          "description": "So Argc is a little Rust program that your bash scripts can use to make handling command-line parameters easy. You describe the options, parameters, and subcommands in comments like this:\n# @describe A demo cli\n\n# @cmd Upload a file\n# @arg target!                      File to upload\nupload() {\n    echo \"cmd                       upload\"\n    echo \"arg:  target              $argc_target\"\n}\n\nThen you trust Argc to parse that and do the heavy lifting:\neval \"$(argc -e $0 \"$@\")\"\n\nThe only drawback (aside from potential parsing bugs) to this approach is your script now depends on having argc in the machine’s executable path. i.e. – it’s not portable.\nWhat’d be even cooler, IMHO, would be to instead use argc as a pre-processor of sorts that spits out a pure-bash implementation from your input script. Regardless, a cool idea!\nDiscuss on Changelog News",
+          "link": "https://github.com/sigoden/argc",
+          "publishedOn": "2022-03-04T15:01:00.000Z",
+          "wordCount": null,
+          "title": "A handy way to handle sh/bash CLI parameters",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/2/1594",
           "author": null,
           "description": "Let’s talk about the concept of immutable databases, the problems they target, and why you’d want to build one in Go.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nBartlomiej Święcki – Twitter, GitHub\nJeronimo Irazabal – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nJon Calhoun – Twitter, GitHub, Website\nNotes and Links\nimmudb\nSomething missing or broken? PRs welcome!",
@@ -904,41 +939,6 @@
           "wordCount": null,
           "title": "Use Tailwind to design HTML emails",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/lb4W",
-          "author": "Jerod Santo",
-          "description": "Just wow. This is an impressively hacky hack. You’re probably wondering how? As many such things do, it all starts with a new (Chrome-only) API:\nA new set of APIs affectionately known as Houdini give your browser the power to control CSS via its own Object Model in Javascript. In English, this means that you can make custom CSS styles, add custom properties, and so on…\nAnd it ends with something that looks like this:\nmain {\n  // ...\n  --sql-query: SELECT name FROM test;\n}\n\nDiscuss on Changelog News",
-          "link": "https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html",
-          "publishedOn": "2022-02-03T18:17:00.000Z",
-          "wordCount": null,
-          "title": "Yes, I can connect to a DB in CSS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1518",
-          "author": null,
-          "description": "MLOps is an increasingly popular topic that is no longer just a subset of DevOps. Go is a great choice for infrastructure. What role does Go play in MLOps?\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nMike Eastham – Twitter, LinkedIn\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nUber’s Michelangelo project\nWhat is a Feature and a Feature Store\nContribute to FEAST",
-          "link": "https://changelog.com/gotime/215",
-          "publishedOn": "2022-02-03T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 215: MLOps in Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/215/go-time-215.mp3",
-            "length": "43918914",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/pkEM",
-          "author": "Jerod Santo",
-          "description": "Read the comments for all the bug reports and iteration. 🔥\n\nDiscuss on Changelog News",
-          "link": "https://gist.github.com/huytd/6a1a6a7b34a0d0abcac00b47e3d01513",
-          "publishedOn": "2022-02-03T15:32:00.000Z",
-          "wordCount": null,
-          "title": "A Wordle clone in less than 50 lines of bash",
-          "itunes": {}
         }
       ]
     },
@@ -1006,6 +1006,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=18477",
+          "author": "Daniel Stenberg",
+          "description": "Welcome to the 206th curl release, 59 days since we shipped curl 7.81.0. The extra three days because I was away on the day the release would normally have been done. (I call it Impartial Content as a little play on the HTTP 206 response code message.) Download curl 7.82.0 from curl.se as always. Release … Continue reading curl 7.82.0 Impartial Content →",
+          "link": "https://daniel.haxx.se/blog/2022/03/05/curl-7-82-0-impartial-content/",
+          "publishedOn": "2022-03-05T08:55:12.000Z",
+          "wordCount": 1472,
+          "title": "curl 7.82.0 Impartial Content"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=17826",
           "author": "Daniel Stenberg",
@@ -1418,6 +1427,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/donating-bounties-humanitarian-efforts-ukraine",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/donating-bounties-humanitarian-efforts-ukraine",
+          "publishedOn": "2022-03-04T01:35:23.000Z",
+          "wordCount": 901,
+          "title": "Donating Bounties to Humanitarian Efforts in Ukraine"
+        },
+        {
           "id": "https://hackerone.com/vulnerability-disclosure/securing-digital-transformation-vulnerability-disclosure-qa-john-deere",
           "author": "HackerOne",
           "description": "To help fortify security defenses for their customers, dealers, suppliers, and employees, John Deere recently launched a public Vulnerability Disclosure Program (VDP) with HackerOne.\n\nHackerOne recently met with James Johnson, CISO at John Deere, to learn why his security team works with ethical hackers to help identify security gaps and increase their product and data security.",
@@ -1458,6 +1476,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/war-inflation-can-lead-to-stagflation",
+          "author": "Market Radar",
+          "description": "A real risk for the foreseeable future",
+          "link": "https://marketradar.substack.com/p/war-inflation-can-lead-to-stagflation",
+          "publishedOn": "2022-03-04T14:15:31.000Z",
+          "wordCount": null,
+          "title": "War + inflation can lead to stagflation",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26728c10-80b6-4c1d-a6b5-83c865c3dd4c_924x661.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/portfolio-review-0301",
           "author": "Market Radar",

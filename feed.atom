@@ -2,10 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-04T12:16:04.845Z</updated>
+    <updated>2022-03-05T12:14:23.148Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl 7.82.0 Impartial Content]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18477</id>
+        <link href="https://daniel.haxx.se/blog/2022/03/05/curl-7-82-0-impartial-content/"/>
+        <updated>2022-03-05T08:55:12.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the 206th curl release, 59 days since we shipped curl 7.81.0. The extra three days because I was away on the day the release would normally have been done. (I call it Impartial Content as a little play on the HTTP 206 response code message.) Download curl 7.82.0 from curl.se as always. Release … Continue reading curl 7.82.0 Impartial Content →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 215: Remix helps bridge the network chasm]]></title>
+        <id>changelog.com/6/1559</id>
+        <link href="https://changelog.com/jsparty/215"/>
+        <updated>2022-03-04T19:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Kent and our panelists dive deep on the hottest new React framework: Remix. What it does today, what makes it special, how it lured Kent away from a lucrative independent teaching career, and what’s coming up next.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
+
+    
+SignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.
+
+    
+Sourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.
+
+    
+Featuring
+Kent C. Dodds – Twitter, GitHub, Website
+Kevin Ball – Twitter, GitHub, LinkedIn, Website
+Ali Spittel – Twitter, GitHub, LinkedIn, Website
+Divya – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+Remix Vs Next
+Fly.io
+JSParty #119 Redwood brings full-stack to the JAMstack
+Remix Quickstart
+Remix Deep Dive
+Remix Discord
+React Server Components and Remix
+A better idea would be to replace / improve the fetch spec
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One secret tip for first-time OSS contributors 🤫]]></title>
+        <id>changelog.com/news/038D</id>
+        <link href="https://buttondown.email/bhupesh/archive/one-secret-tip-for-first-time-oss-contributors/"/>
+        <updated>2022-03-04T15:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Bhupesh Varshney:
+A lot of folks looking how to get started on open source are given very generic advice on how to approach their first contribution. In this newsletter issue I share one specific actionable item.
+His secret tip? Solve static analyzer issues. There, I saved you a click. Unless you’re not sure what he means by that or want his advice on how to actually get that done…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A handy way to handle sh/bash CLI parameters]]></title>
+        <id>changelog.com/news/3YJJ</id>
+        <link href="https://github.com/sigoden/argc"/>
+        <updated>2022-03-04T15:01:00.000Z</updated>
+        <summary type="html"><![CDATA[So Argc is a little Rust program that your bash scripts can use to make handling command-line parameters easy. You describe the options, parameters, and subcommands in comments like this:
+# @describe A demo cli
+
+# @cmd Upload a file
+# @arg target!                      File to upload
+upload() {
+    echo "cmd                       upload"
+    echo "arg:  target              $argc_target"
+}
+
+Then you trust Argc to parse that and do the heavy lifting:
+eval "$(argc -e $0 "$@")"
+
+The only drawback (aside from potential parsing bugs) to this approach is your script now depends on having argc in the machine’s executable path. i.e. – it’s not portable.
+What’d be even cooler, IMHO, would be to instead use argc as a pre-processor of sorts that spits out a pure-bash implementation from your input script. Regardless, a cool idea!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[War + inflation can lead to stagflation]]></title>
+        <id>https://marketradar.substack.com/p/war-inflation-can-lead-to-stagflation</id>
+        <link href="https://marketradar.substack.com/p/war-inflation-can-lead-to-stagflation"/>
+        <updated>2022-03-04T14:15:31.000Z</updated>
+        <summary type="html"><![CDATA[A real risk for the foreseeable future]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Donating Bounties to Humanitarian Efforts in Ukraine]]></title>
+        <id>https://hackerone.com/donating-bounties-humanitarian-efforts-ukraine</id>
+        <link href="https://www.hackerone.com/donating-bounties-humanitarian-efforts-ukraine"/>
+        <updated>2022-03-04T01:35:23.000Z</updated>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Go Time 219: Why immutable databases?]]></title>
         <id>changelog.com/2/1594</id>
@@ -1819,69 +1923,6 @@ mailwind --input-html email.html --output-css style.css
 mailwind --input-html email.html --output-html email-inlined.html
 
 And you’re off to the outbox! 📤
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yes, I can connect to a DB in CSS]]></title>
-        <id>changelog.com/news/lb4W</id>
-        <link href="https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html"/>
-        <updated>2022-02-03T18:17:00.000Z</updated>
-        <summary type="html"><![CDATA[Just wow. This is an impressively hacky hack. You’re probably wondering how? As many such things do, it all starts with a new (Chrome-only) API:
-A new set of APIs affectionately known as Houdini give your browser the power to control CSS via its own Object Model in Javascript. In English, this means that you can make custom CSS styles, add custom properties, and so on…
-And it ends with something that looks like this:
-main {
-  // ...
-  --sql-query: SELECT name FROM test;
-}
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 215: MLOps in Go]]></title>
-        <id>changelog.com/2/1518</id>
-        <link href="https://changelog.com/gotime/215"/>
-        <updated>2022-02-03T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[MLOps is an increasingly popular topic that is no longer just a subset of DevOps. Go is a great choice for infrastructure. What role does Go play in MLOps?
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-SignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.
-
-    
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io
-
-    
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
-
-    
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-    
-Featuring
-Mike Eastham – Twitter, LinkedIn
-Natalie Pistunovich – Twitter, GitHub
-Johnny Boursiquot – Twitter, GitHub, Website
-Notes and Links
-Uber’s Michelangelo project
-What is a Feature and a Feature Store
-Contribute to FEAST]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Wordle clone in less than 50 lines of bash]]></title>
-        <id>changelog.com/news/pkEM</id>
-        <link href="https://gist.github.com/huytd/6a1a6a7b34a0d0abcac00b47e3d01513"/>
-        <updated>2022-02-03T15:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Read the comments for all the bug reports and iteration. 🔥
-
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
