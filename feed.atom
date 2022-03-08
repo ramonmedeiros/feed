@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-07T12:16:15.231Z</updated>
+    <updated>2022-03-08T12:15:46.428Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing a new Swift package for Apache Thrift]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift"/>
+        <updated>2022-03-08T12:15:28.819Z</updated>
+        <summary type="html"><![CDATA[Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to build and develop an engineering culture?]]></title>
+        <id>https://building.nubank.com.br/?p=18136</id>
+        <link href="https://building.nubank.com.br/how-to-build-and-develop-an-engineering-culture-by-matt-swann/"/>
+        <updated>2022-03-07T18:25:50.000Z</updated>
+        <summary type="html"><![CDATA[At Nubank, our set of engineering principles guides us towards having healthier teams and demonstrates the importance of having engineering voices over the entire development cycle
+The post How to build and develop an engineering culture? appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Matt Swann - Chief Technology Officer at Nubank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pure Stock Portfolio: 2 sales, 1 buy]]></title>
+        <id>https://marketradar.substack.com/p/pure-stock-portfolio-2-sales-1-buy</id>
+        <link href="https://marketradar.substack.com/p/pure-stock-portfolio-2-sales-1-buy"/>
+        <updated>2022-03-07T17:51:34.000Z</updated>
+        <summary type="html"><![CDATA[Changes to the Pure Stock Portfolio]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pair programming antipatterns]]></title>
+        <id>changelog.com/news/zg2D</id>
+        <link href="https://tuple.app/pair-programming-guide/antipatterns"/>
+        <updated>2022-03-07T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s possible to pair well simply by avoiding pairing poorly.
+I’ve never thought about it that way, but yeah, makes sense. What follows is a list of things not to do when pairing. Things for navigators, things for drivers, and things for both.
+This is just one page from Tuple’s pair programming guide, which looks excellent all-around.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inspecting web views in macOS]]></title>
+        <id>changelog.com/news/8OeO</id>
+        <link href="https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/"/>
+        <updated>2022-03-07T15:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Thanks to Jim Nielsen, TIL that:
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+defaults write -g WebKitDeveloperExtras -bool YES
+
+Lets you trigger Safari’s Web Inspector on different system views that are built with web tech. Nifty!
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Lodash-style Go library using generics]]></title>
+        <id>changelog.com/news/N5do</id>
+        <link href="https://github.com/samber/lo"/>
+        <updated>2022-03-07T14:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Samuel Berthe:
+This project have started as an experiment to discover generics implementation. It may look like Lodash in some aspects. I used to code with the awesome go-funk package, but it uses reflection and therefore is not typesafe.
+As expected, benchmarks demonstrate that generics will be much faster than implementations based on reflect stdlib package. Benchmarks also shows similar performances to pure for loops.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ship It! 42: Kubernetes in Kubernetes]]></title>
         <id>changelog.com/14/1537</id>
