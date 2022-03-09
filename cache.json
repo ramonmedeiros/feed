@@ -38,23 +38,48 @@
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://testing.googleblog.com/2022/02/code-health-now-youre-thinking-with.html",
-          "author": null,
-          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office. \n\n\nby Cathal Weakliam\n\n\nLoops are the standard way to process collections like arrays and lists. However, some loops implement the same patterns repeatedly, leading to duplicate code. Higher-order functions—functions that use other functions as inputs or outputs—can reduce duplication by providing a simpler way to express common operations with collections.\n\n\nConsider these two loops in JavaScript that decide if every object in an array meets a condition:\n\n\n \n  \n    \nlet everyRequestValid = true;\nfor (const request of requests) {\n  if (!isValid(request)) {\n  …",
-          "link": "http://testing.googleblog.com/2022/02/code-health-now-youre-thinking-with.html",
-          "publishedOn": "2022-02-07T17:03:00.000Z",
-          "wordCount": 1937,
-          "title": "Code Health: Now You're Thinking With Functions"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Changelog",
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/1604",
+          "author": null,
+          "description": "Daniel and Chris talk with Lukas Egger, Head of Innovation Office and Strategic Projects at SAP Business Process Intelligence.  Lukas describes what it takes to bring a culture of innovation into an organization, and how to infuse product development with that innovation culture.  He also offers suggestions for how to mitigate challenges and blockers.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nLukas Egger – Twitter, LinkedIn, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nSAP BPI\nPioneers, Settlers, Town Planners\nMore with LeSS\nThe Fifth Discipline: The Art & Practice of The Learning Organization\nKaizen | Wikipedia\nStratechery\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/170",
+          "publishedOn": "2022-03-08T19:35:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 170: Creating a culture of innovation",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/170/practical-ai-170.mp3",
+            "length": "50714323",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Q5nE",
+          "author": "Jerod Santo",
+          "description": "Jean Yang:\nShould you move to serverless? Is GraphQL the answer to your API woes? Should you follow the latest DevOps playbook to increase your system reliability? In the world of tech tools, there’s a lot of buzz. But it doesn’t always reflect the daily reality of programmers.\nAs the founder of a developer tools startup, I’ve talked with hundreds, if not thousands, of software developers over the last few years in the course of routine user research. The common theme in these conversations, even bigger than the need for the product we were building, was an overarching need that is currently underserved: building for real developers, or what I like to call the 99% Developers.\nGood stuff to be reminded of. That reminds me: You are not Google/Amazon/LinkedIn.\nDiscuss on Changelog News",
+          "link": "https://future.a16z.com/software-development-building-for-99-developers/",
+          "publishedOn": "2022-03-08T17:00:00.000Z",
+          "wordCount": null,
+          "title": "Building for the 99% Developers",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/4E2M",
+          "author": "Jerod Santo",
+          "description": "Rich Burroughs:\nWhen you hear the phrase “cloud native,” is Kubernetes the first thing that comes to your mind? It is for me, and I expect I’m not alone. Kubernetes is now the second-largest open source project after Linux, and it’s the big fish in the cloud native pond. But there are many other projects in the CNCF landscape and the broader cloud native community.\nSo, I thought I’d list some cloud native tools that can be very useful for teams that aren’t using Kubernetes or aren’t using it for every workload. Here are 7 of them that I like a lot.\nIf Rich’s name rings a bell, that’s because he was just on Ship It! last week. 😉\nDiscuss on Changelog News",
+          "link": "https://loft.sh/blog/7-open-source-cloud-native-tools-that-aren-t-kubernetes/",
+          "publishedOn": "2022-03-08T16:11:00.000Z",
+          "wordCount": null,
+          "title": "7 open source cloud native tools that aren’t Kubernetes",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/zg2D",
           "author": "Jerod Santo",
@@ -889,26 +914,6 @@
           "wordCount": null,
           "title": "My thirty years of dodging repetitive work with automation tools",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zgr5",
-          "author": "Jerod Santo",
-          "description": "Andrew Stetsenko:\nRelocation to a foreign country for work can be very exciting and lead to unique opportunities that couldn’t be accessed in your home country. At the same time, it’s a real challenge - I know it firsthand… Hopefully, this handbook will give you the necessary guidance. Topics covered include resume preparation, job search, salary negotiation, relocation packages, and more.\nDiscuss on Changelog News",
-          "link": "https://github.com/AndrewStetsenko/tech-jobs-with-relocation",
-          "publishedOn": "2022-02-07T16:45:00.000Z",
-          "wordCount": null,
-          "title": "An all-in-one guide to getting a tech job abroad",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RRrG",
-          "author": "Jerod Santo",
-          "description": "It’s still in closed beta, but this looks like a really cool environment for data scientists and other folks who code to accomplish other goals vs code as craft. One cool thing you can do is take your Jupyter notebooks and convert them to PyFlow graphs (and vice versa).\nDiscuss on Changelog News",
-          "link": "https://github.com/Bycelium/PyFlow",
-          "publishedOn": "2022-02-07T14:50:00.000Z",
-          "wordCount": null,
-          "title": "PyFlow – a tool for visual and modular block programming in Python",
-          "itunes": {}
         }
       ]
     },
@@ -1370,15 +1375,6 @@
           "publishedOn": "2022-02-22T21:58:49.000Z",
           "wordCount": 5265,
           "title": "Nu Holdings Ltd. Reports Fourth Quarter and Full Year 2021 Financial Results"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18086",
-          "author": "Nubank Editorial",
-          "description": "Yes, She Codes is back! Applications for the program are open until February 13. See more details about the event and learn how to apply\nThe post Yes, She Codes: Nubank opens applications for the 4th edition of the software engineers hiring program appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/yes-she-codes-nubank-fourth-edition-2022/",
-          "publishedOn": "2022-02-07T16:26:01.000Z",
-          "wordCount": 3608,
-          "title": "Yes, She Codes: Nubank opens applications for the 4th edition of the software engineers hiring program"
         }
       ]
     },
@@ -1387,6 +1383,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/bounty/shifting-left-ethical-hackers-qa-gitlab",
+          "author": "HackerOne",
+          "description": "Secure applications start with secure code. As organizations deploy code faster than ever, implementing continuous security across the software development lifecycle (SDLC) is critical to building secure products. As a long-time HackerOne Bounty customer, GitLab knows the importance of identifying and addressing bugs as early as possible in the SDLC. We wanted to hear what they had to say about leveraging the human intelligence of ethical hackers to broadly test their attack surface and increase their ability to resist potential threats.",
+          "link": "https://www.hackerone.com/bounty/shifting-left-ethical-hackers-qa-gitlab",
+          "publishedOn": "2022-03-08T18:00:00.000Z",
+          "wordCount": 2134,
+          "title": "Shifting Left with Ethical Hackers: A Q&A with GitLab"
+        },
         {
           "id": "https://hackerone.com/donating-bounties-humanitarian-efforts-ukraine",
           "author": "HackerOne",
