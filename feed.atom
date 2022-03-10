@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-09T12:16:03.224Z</updated>
+    <updated>2022-03-10T12:16:20.382Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Deprecating things in curl]]></title>
+        <id>https://daniel.haxx.se/blog/?p=17911</id>
+        <link href="https://daniel.haxx.se/blog/2022/03/10/deprecating-things-in-curl/"/>
+        <updated>2022-03-10T08:32:23.000Z</updated>
+        <summary type="html"><![CDATA[The curl project has been alive for decades. We gradually introduce new features and options into the command line tool and library over time and we work hard never to break existing behavior and keep the ABI and API stable. Still, some features and functionalities go out of style sooner or later. Versions get deprecated, … Continue reading Deprecating things in curl →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 43: Rails Active Deployment]]></title>
+        <id>changelog.com/14/1572</id>
+        <link href="https://changelog.com/shipit/43"/>
+        <updated>2022-03-09T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In this week’s episode Cameron Dutro, a software engineer at GitHub, Ship It listener and someone with an extraordinary attention to detail, joins us to talk about Kuby, a convention-over-configuration approach to deploying Rails apps.
+The question that we will be trying to answer is what happened to Rails Active Deployment. The path to that promise land is paved with good intentions, but it’s complicated.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Shortcut – The first project management platform for software development that brings every team across the org together to build better products. More than 10,000 companies from all over the world use Shortcut to plan, collaborate, and build better softw…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The NSF announces $21 million to fund open source]]></title>
+        <id>changelog.com/news/Z3RL</id>
+        <link href="https://opensource.com/article/22/3/national-science-foundation-open-source"/>
+        <updated>2022-03-09T15:36:00.000Z</updated>
+        <summary type="html"><![CDATA[All the details of the National Science Foundation’s “big bet” are in the article, but here’s the money quote:
+If you are working on an open source project that might benefit from this kind of funding, check it out here. Phase I applications are due May 12, 2022, and Phase II applications are due October 21, 2022.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One tool to rule wrangle them all (JSON, XML, CSV, etc.)]]></title>
+        <id>changelog.com/news/VJOP</id>
+        <link href="https://github.com/TomWright/dasel"/>
+        <updated>2022-03-09T14:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Say good bye to learning new tools just to work with a different data format.
+Dasel uses a standard selector syntax no matter the data format. This means that once you learn how to use dasel you immediately have the ability to query/modify any of the supported data types without any additional tools or effort.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Practical AI 170: Creating a culture of innovation]]></title>
         <id>changelog.com/7/1604</id>
@@ -1768,108 +1818,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Garage is a distributed storage solution, that automatically replicates your data on several servers. Garage takes into account the geographical location of servers, and ensures that copies of your data are located at different locations when possible for maximal redundancy, a unique feature in the landscape of distributed storage systems.
 It has an S3-compatible API and can be used as a storage backend for things like NextCloud, Matrix, and Mastodon. It’s being built by a non-profit in France that is “working to promote self-hosting and small-scale hosting.” Why do they do this?
 self-hosting means running our own hardware at home, and providing 24/7 Internet services from there. We have many reasons for doing this. One is because this is the only way we can truly control who has access to our data. Another one is that it helps us be aware of the physical substrate of which the Internet is made: making the Internet run has an environmental cost which we want to evaluate and keep under control. The physical hardware also gives us a sense of community, calling to mind all of the people that could currently be connected and making use of our services, and reminding us of the purpose for which we are doing this.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RAID-Z expansion feature for ZFS goes live]]></title>
-        <id>changelog.com/news/rlpr</id>
-        <link href="https://freebsdfoundation.org/blog/raid-z-expansion-feature-for-zfs-goes-live/"/>
-        <updated>2022-02-08T22:53:00.000Z</updated>
-        <summary type="html"><![CDATA[This major undertaking was discussed by Matt Ahrens on our recent ZFS episode. How it works:
-The feature reflows existing data, essentially rewriting it onto a new arrangement of disks – meaning the original group plus a newly added disk. In so doing, a new adjacent chunk of free space is created at the end of the logical RAID-Z group and thus at the end of each physical disk.
-With a disclaimer:
-While all capabilities of this feature have been implemented and all tests so far have been passed, there are still a few loose ends to tie up. Specifically, there is some code cleanup to do, some verbose logging to remove, some code documentation to write, and similar relatively minor tasks. We aim for this to be integrated by Q3.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving the developer experience for Dependabot alerts]]></title>
-        <id>https://github.blog/?p=62828</id>
-        <link href="https://github.blog/2022-02-08-improving-developer-experience-dependabot-alerts/"/>
-        <updated>2022-02-08T19:11:24.000Z</updated>
-        <summary type="html"><![CDATA[Today, we’re shipping improvements to Dependabot alerts that make them easier to understand and remediate.]]></summary>
-        <author>
-            <name>Erin Havens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Settings are not a design failure]]></title>
-        <id>changelog.com/news/aOrD</id>
-        <link href="https://linear.app/blog/settings-are-not-a-design-failure"/>
-        <updated>2022-02-08T17:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Adrien Griveau makes the case for settings as a feature, not a design bug. He build the argument from a simple (and perhaps controversial) point: “users love settings”
-There certainly are moments where I find myself on the settings page of a product because it failed to deliver the experience I really wanted. But not all settings are created equal.
-There’s a difference between product settings that a product needs to get right by default and preferences that designers deliberately shouldn’t have a strong opinion on.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 479: Principles for hiring engineers]]></title>
-        <id>changelog.com/1/1555</id>
-        <link href="https://changelog.com/podcast/479"/>
-        <updated>2022-02-08T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re joined by Jacob Kaplan-Moss and we’re talking about his extensive writing on work sample tests. These tests are an exercise, a simulation, or a small slice of real day-to-day work that candidates will perform as part of their job. Over the years, as an engineering leader, Jacob has become a practicing expert in effectively hiring engineers — today he shares a wealth of knowledge on the subject.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at developer.squareup.com to dive into the docs, APIs, SDKs and to create your …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask a Techspert: What does AI do when it doesn’t know?]]></title>
-        <id>https://blog.google/technology/health/ask-a-techspert-what-does-ai-do-when-it-doesnt-know/</id>
-        <link href="https://blog.google/technology/health/ask-a-techspert-what-does-ai-do-when-it-doesnt-know/"/>
-        <updated>2022-02-08T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As humans, we constantly learn from the world around us. We experience inputs that shape our knowledge — including the boundaries of both what we know and what we don’t know.
-Many of today’s machines also learn by example. However, these machines are typically trained on datasets and information that doesn’t always include rare or out-of-the-ordinary examples that inevitably come up in real-life scenarios. What is an algorithm to do when faced with the unknown?
-I recently spoke with Abhijit Guha Roy, an engineer on the Health AI team, and Ian Kivlichan, an engineer on the Jigsaw team, to hear more about using AI in real-world scenarios and better understand the importance of training it to know when it doesn’t know.
-Abhijit, tell me about your recent research in the dermatology space.
-We’r…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving the Storage Access API in Firefox]]></title>
-        <id>https://hacks.mozilla.org/?p=47599</id>
-        <link href="https://hacks.mozilla.org/2022/02/improving-the-storage-access-api-in-firefox/"/>
-        <updated>2022-02-08T16:59:21.000Z</updated>
-        <summary type="html"><![CDATA[Before we roll out State Partitioning for all Firefox users, we intend to make a few privacy and ergonomic improvements to the Storage Access API. In this blog post, we’ll detail a few of the new changes we made. 
-The post Improving the Storage Access API in Firefox appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Benjamin VanderSloot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Working with the Kubernetes API]]></title>
-        <id>changelog.com/news/P5ra</id>
-        <link href="https://iximiuz.com/en/series/working-with-kubernetes-api/"/>
-        <updated>2022-02-08T16:16:00.000Z</updated>
-        <summary type="html"><![CDATA[A (WIP) series on working with the K8s API from both the command line and from code.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My thirty years of dodging repetitive work with automation tools]]></title>
-        <id>changelog.com/news/AaoP</id>
-        <link href="https://www.tines.com/blog/my-thirty-years-of-dodging-repetitive-work-with-automation-tools"/>
-        <updated>2022-02-08T15:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Conor O’Neill:
-I blame my life-long work obsession with automation and avoiding repetitive drudgery on my first boss and mentor Danny in S3. He was horrified to see me doing the same thing over and over in a VAX code editor and introduced me to the magical world of macros.
-From that point onwards, I was a man on a mission to save us all as much time as possible in our working days.
-From Yahoo! Pipes to IFTTT to Node-RED and beyond: this is quite the journey.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>

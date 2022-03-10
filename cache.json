@@ -46,6 +46,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1572",
+          "author": null,
+          "description": "In this week’s episode Cameron Dutro, a software engineer at GitHub, Ship It listener and someone with an extraordinary attention to detail, joins us to talk about Kuby, a convention-over-configuration approach to deploying Rails apps.\nThe question that we will be trying to answer is what happened to Rails Active Deployment. The path to that promise land is paved with good intentions, but it’s complicated.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nShortcut – The first project management platform for software development that brings every team across the org together to build better products. More than 10,000 companies from all over the world use Shortcut to plan, collaborate, and build better softw…",
+          "link": "https://changelog.com/shipit/43",
+          "publishedOn": "2022-03-09T16:30:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 43: Rails Active Deployment",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/43/ship-it-43.mp3",
+            "length": "63962486",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Z3RL",
+          "author": "Jerod Santo",
+          "description": "All the details of the National Science Foundation’s “big bet” are in the article, but here’s the money quote:\nIf you are working on an open source project that might benefit from this kind of funding, check it out here. Phase I applications are due May 12, 2022, and Phase II applications are due October 21, 2022.\nDiscuss on Changelog News",
+          "link": "https://opensource.com/article/22/3/national-science-foundation-open-source",
+          "publishedOn": "2022-03-09T15:36:00.000Z",
+          "wordCount": null,
+          "title": "The NSF announces $21 million to fund open source",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/VJOP",
+          "author": "Jerod Santo",
+          "description": "Say good bye to learning new tools just to work with a different data format.\nDasel uses a standard selector syntax no matter the data format. This means that once you learn how to use dasel you immediately have the ability to query/modify any of the supported data types without any additional tools or effort.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/TomWright/dasel",
+          "publishedOn": "2022-03-09T14:45:00.000Z",
+          "wordCount": null,
+          "title": "One tool to rule wrangle them all (JSON, XML, CSV, etc.)",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1604",
           "author": null,
           "description": "Daniel and Chris talk with Lukas Egger, Head of Innovation Office and Strategic Projects at SAP Business Process Intelligence.  Lukas describes what it takes to bring a culture of innovation into an organization, and how to infuse product development with that innovation culture.  He also offers suggestions for how to mitigate challenges and blockers.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nLukas Egger – Twitter, LinkedIn, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nSAP BPI\nPioneers, Settlers, Town Planners\nMore with LeSS\nThe Fifth Discipline: The Art & Practice of The Learning Organization\nKaizen | Wikipedia\nStratechery\nSomething missing or broken? PRs welcome!",
@@ -859,61 +894,6 @@
           "wordCount": null,
           "title": "Garage - a self-hosted distributed object storage solution",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/rlpr",
-          "author": "Jerod Santo",
-          "description": "This major undertaking was discussed by Matt Ahrens on our recent ZFS episode. How it works:\nThe feature reflows existing data, essentially rewriting it onto a new arrangement of disks – meaning the original group plus a newly added disk. In so doing, a new adjacent chunk of free space is created at the end of the logical RAID-Z group and thus at the end of each physical disk.\nWith a disclaimer:\nWhile all capabilities of this feature have been implemented and all tests so far have been passed, there are still a few loose ends to tie up. Specifically, there is some code cleanup to do, some verbose logging to remove, some code documentation to write, and similar relatively minor tasks. We aim for this to be integrated by Q3.\nDiscuss on Changelog News",
-          "link": "https://freebsdfoundation.org/blog/raid-z-expansion-feature-for-zfs-goes-live/",
-          "publishedOn": "2022-02-08T22:53:00.000Z",
-          "wordCount": null,
-          "title": "RAID-Z expansion feature for ZFS goes live",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/aOrD",
-          "author": "Jerod Santo",
-          "description": "Adrien Griveau makes the case for settings as a feature, not a design bug. He build the argument from a simple (and perhaps controversial) point: “users love settings”\nThere certainly are moments where I find myself on the settings page of a product because it failed to deliver the experience I really wanted. But not all settings are created equal.\nThere’s a difference between product settings that a product needs to get right by default and preferences that designers deliberately shouldn’t have a strong opinion on.\nDiscuss on Changelog News",
-          "link": "https://linear.app/blog/settings-are-not-a-design-failure",
-          "publishedOn": "2022-02-08T17:07:00.000Z",
-          "wordCount": null,
-          "title": "Settings are not a design failure",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1555",
-          "author": null,
-          "description": "This week we’re joined by Jacob Kaplan-Moss and we’re talking about his extensive writing on work sample tests. These tests are an exercise, a simulation, or a small slice of real day-to-day work that candidates will perform as part of their job. Over the years, as an engineering leader, Jacob has become a practicing expert in effectively hiring engineers — today he shares a wealth of knowledge on the subject.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at developer.squareup.com to dive into the docs, APIs, SDKs and to create your …",
-          "link": "https://changelog.com/podcast/479",
-          "publishedOn": "2022-02-08T17:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 479: Principles for hiring engineers",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/479/the-changelog-479.mp3",
-            "length": "75095015",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/P5ra",
-          "author": "Jerod Santo",
-          "description": "A (WIP) series on working with the K8s API from both the command line and from code.\n\nDiscuss on Changelog News",
-          "link": "https://iximiuz.com/en/series/working-with-kubernetes-api/",
-          "publishedOn": "2022-02-08T16:16:00.000Z",
-          "wordCount": null,
-          "title": "Working with the Kubernetes API",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/AaoP",
-          "author": "Jerod Santo",
-          "description": "Conor O’Neill:\nI blame my life-long work obsession with automation and avoiding repetitive drudgery on my first boss and mentor Danny in S3. He was horrified to see me doing the same thing over and over in a VAX code editor and introduced me to the magical world of macros.\nFrom that point onwards, I was a man on a mission to save us all as much time as possible in our working days.\nFrom Yahoo! Pipes to IFTTT to Node-RED and beyond: this is quite the journey.\nDiscuss on Changelog News",
-          "link": "https://www.tines.com/blog/my-thirty-years-of-dodging-repetitive-work-with-automation-tools",
-          "publishedOn": "2022-02-08T15:29:00.000Z",
-          "wordCount": null,
-          "title": "My thirty years of dodging repetitive work with automation tools",
-          "itunes": {}
         }
       ]
     },
@@ -964,15 +944,6 @@
           "publishedOn": "2022-02-17T17:00:00.000Z",
           "wordCount": 1543,
           "title": "This Googler wants to ‘add every voice’ to AI"
-        },
-        {
-          "id": "https://blog.google/technology/health/ask-a-techspert-what-does-ai-do-when-it-doesnt-know/",
-          "author": null,
-          "description": "As humans, we constantly learn from the world around us. We experience inputs that shape our knowledge — including the boundaries of both what we know and what we don’t know.\nMany of today’s machines also learn by example. However, these machines are typically trained on datasets and information that doesn’t always include rare or out-of-the-ordinary examples that inevitably come up in real-life scenarios. What is an algorithm to do when faced with the unknown?\nI recently spoke with Abhijit Guha Roy, an engineer on the Health AI team, and Ian Kivlichan, an engineer on the Jigsaw team, to hear more about using AI in real-world scenarios and better understand the importance of training it to know when it doesn’t know.\nAbhijit, tell me about your recent research in the dermatology space.\nWe’r…",
-          "link": "https://blog.google/technology/health/ask-a-techspert-what-does-ai-do-when-it-doesnt-know/",
-          "publishedOn": "2022-02-08T17:00:00.000Z",
-          "wordCount": 1666,
-          "title": "Ask a Techspert: What does AI do when it doesn’t know?"
         }
       ]
     },
@@ -981,6 +952,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=17911",
+          "author": "Daniel Stenberg",
+          "description": "The curl project has been alive for decades. We gradually introduce new features and options into the command line tool and library over time and we work hard never to break existing behavior and keep the ABI and API stable. Still, some features and functionalities go out of style sooner or later. Versions get deprecated, … Continue reading Deprecating things in curl →",
+          "link": "https://daniel.haxx.se/blog/2022/03/10/deprecating-things-in-curl/",
+          "publishedOn": "2022-03-10T08:32:23.000Z",
+          "wordCount": 1484,
+          "title": "Deprecating things in curl"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=18477",
           "author": "Daniel Stenberg",
@@ -1172,15 +1152,6 @@
           "publishedOn": "2022-02-15T18:05:20.000Z",
           "wordCount": 1166,
           "title": "Version 100 in Chrome and Firefox"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47599",
-          "author": "Benjamin VanderSloot",
-          "description": "Before we roll out State Partitioning for all Firefox users, we intend to make a few privacy and ergonomic improvements to the Storage Access API. In this blog post, we’ll detail a few of the new changes we made. \nThe post Improving the Storage Access API in Firefox appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/02/improving-the-storage-access-api-in-firefox/",
-          "publishedOn": "2022-02-08T16:59:21.000Z",
-          "wordCount": 1504,
-          "title": "Improving the Storage Access API in Firefox"
         }
       ]
     },
@@ -1341,15 +1312,6 @@
           "publishedOn": "2022-02-09T20:24:56.000Z",
           "wordCount": 2526,
           "title": "Coordinated vulnerability disclosure (CVD) for open source projects"
-        },
-        {
-          "id": "https://github.blog/?p=62828",
-          "author": "Erin Havens",
-          "description": "Today, we’re shipping improvements to Dependabot alerts that make them easier to understand and remediate.",
-          "link": "https://github.blog/2022-02-08-improving-developer-experience-dependabot-alerts/",
-          "publishedOn": "2022-02-08T19:11:24.000Z",
-          "wordCount": 859,
-          "title": "Improving the developer experience for Dependabot alerts"
         }
       ]
     },
