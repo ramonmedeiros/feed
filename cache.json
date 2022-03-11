@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/03/whats-up-with-in-wild-exploits-plus.html",
+          "author": null,
+          "description": "Posted by Adrian Taylor, Chrome Security Team\nIf you are a regular reader of our Chrome release blog, you may have noticed that phrases like 'exploit for CVE-1234-567 exists in the wild' have been appearing more often recently. In this post we'll explore why there seems to be such an increase in exploits, and clarify some misconceptions in the process. We'll then share how Chrome is continuing to make it harder for attackers to achieve their goals. \nHow things work today \nWhile the increase may initially seem concerning, it’s important to understand the reason behind this trend. If it's because there are many more exploits in the wild, it could point to a worrying trend. On the other hand, if we’re simply gaining more visibility into exploitation by attackers, it's actually a good thing! I…",
+          "link": "http://security.googleblog.com/2022/03/whats-up-with-in-wild-exploits-plus.html",
+          "publishedOn": "2022-03-10T18:33:00.002Z",
+          "wordCount": 1885,
+          "title": "What's up with in-the-wild exploits? Plus, what we're doing about it."
+        },
+        {
           "id": "http://security.googleblog.com/2022/02/mitigating-kernel-risks-on-32-bit-arm.html",
           "author": null,
           "description": "Posted by Ard Biesheuvel, Google Open Source Security Team \n\nLinux kernel support for the 32-bit ARM architecture was contributed in the late 90s, when there was little corporate involvement in Linux development, and most contributors were students or hobbyists, tinkering with development boards, often without much in the way of documentation.\n\n\nNow 20+ years later, 32-bit ARM's maintainer has downgraded its support level to 'odd fixes,' while remaining active as a kernel contributor. This is a common pattern for aging and obsolete architectures: corporate funding for Linux kernel development has tremendously increased the pace of development, but only for architectures with a high return on investment. As a result, the 32-bit ARM port of Linux is essentially in maintenance-only mode, and …",
@@ -45,6 +54,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/03ko",
+          "author": "Jerod Santo",
+          "description": "Darrien Glasser goes super deep on the gif file format: its history, its anatomy, its weirdness:\nGifs can take user input to advance to the next frame. This poor guy built a whole site around recreating this feature with pngs. A shame he didn’t read the gif spec after being stuck inside for 2 years like me.\nDiscuss on Changelog News",
+          "link": "https://blog.darrien.dev/posts/you-dont-know-gif/",
+          "publishedOn": "2022-03-10T23:06:00.000Z",
+          "wordCount": null,
+          "title": "An analysis of a gif file and some weird gif features",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1599",
+          "author": null,
+          "description": "Ed Welch joins Mat and Jon to discuss logging. They explore the different options for logging in Go, and discuss what data is worth including. Everything from log levels, formats, non-structured vs structured logs, along with common gotchas and good practices when dealing with logs at scale.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at developer.squareup.com to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFeaturing\nEd Welch – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJon Calhoun – Twitter, GitHub, Website\nNotes and Links\nThe logfmt style is a popular option for structured logging\nEd heads up the Loki open-source project\nNot to be confused with the Bob Lablaw Law Blog\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/220",
+          "publishedOn": "2022-03-10T22:20:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 220: Bob Logblaw Log Blog",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/220/go-time-220.mp3",
+            "length": "66354972",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Lp5a",
+          "author": "Jerod Santo",
+          "description": "Gary Marcus makes the case that deep learning has hit a wall:\nLet me start by saying a few things that seem obvious,” Geoffrey Hinton, “Godfather” of deep learning, and one of the most celebrated scientists of our time, told a leading AI conference in Toronto in 2016. “If you work as a radiologist you’re like the coyote that’s already over the edge of the cliff but hasn’t looked down.” Deep learning is so well-suited to reading images from MRIs and CT scans, he reasoned, that people should “stop training radiologists now” and that it’s “just completely obvious within five years deep learning is going to do better.”\nFast forward to 2022, and not a single radiologist has been replaced.\nBut he doesn’t stop there. After laying out multiple examples of deep learning failures, he change tone:\nFor the first time in 40 years, I finally feel some optimism about AI.\nRead the article to find out why that is.\nDiscuss on Changelog News",
+          "link": "https://nautil.us/deep-learning-is-hitting-a-wall-14467/",
+          "publishedOn": "2022-03-10T15:05:00.000Z",
+          "wordCount": null,
+          "title": "What would it take for artificial intelligence to make real progress?",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/14/1572",
           "author": null,
@@ -859,41 +903,6 @@
           "wordCount": null,
           "title": "PgBouncer rewritten in Rust",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1584",
-          "author": null,
-          "description": "In the third of the “AI in Africa” spotlight episodes, we welcome Kathleen Siminyu, who is building Kiswahili voice tools at Mozilla. We had a great discussion with Kathleen about creating more diverse voice and language datasets, involving local language communities in NLP work, and expanding grassroots ML/AI efforts across Africa.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nKathleen Siminyu – Twitter, LinkedIn\nJoyce Nabende – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\n“Introducing myself” from Kathleen\nMasakhane\nCommon Voice\nOpen for Good Alliance",
-          "link": "https://changelog.com/practicalai/167",
-          "publishedOn": "2022-02-09T16:15:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 167: 🌍 AI in Africa - Voice & language tools",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/practicalai/167/practical-ai-167.mp3",
-            "length": "42118774",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/N5rd",
-          "author": "Jerod Santo",
-          "description": "A couple weeks back I expressed some Windows FOMO* while linking out to a very cool Swiss Army knife for developers project. Well, FOMO-be-gone! There is now a DevToys project for we Mac users.\n*I have since been informed of DevUtils.app, which is also worth a gander.\nDiscuss on Changelog News",
-          "link": "https://github.com/ObuchiYuki/DevToysMac",
-          "publishedOn": "2022-02-09T15:07:00.000Z",
-          "wordCount": null,
-          "title": "DevToys for macOS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/n7b2",
-          "author": "Jerod Santo",
-          "description": "Garage is a distributed storage solution, that automatically replicates your data on several servers. Garage takes into account the geographical location of servers, and ensures that copies of your data are located at different locations when possible for maximal redundancy, a unique feature in the landscape of distributed storage systems.\nIt has an S3-compatible API and can be used as a storage backend for things like NextCloud, Matrix, and Mastodon. It’s being built by a non-profit in France that is “working to promote self-hosting and small-scale hosting.” Why do they do this?\nself-hosting means running our own hardware at home, and providing 24/7 Internet services from there. We have many reasons for doing this. One is because this is the only way we can truly control who has access to our data. Another one is that it helps us be aware of the physical substrate of which the Internet is made: making the Internet run has an environmental cost which we want to evaluate and keep under control. The physical hardware also gives us a sense of community, calling to mind all of the people that could currently be connected and making use of our services, and reminding us of the purpose for which we are doing this.\nDiscuss on Changelog News",
-          "link": "https://garagehq.deuxfleurs.fr/blog/2022-introducing-garage/",
-          "publishedOn": "2022-02-09T14:20:00.000Z",
-          "wordCount": null,
-          "title": "Garage - a self-hosted distributed object storage solution",
-          "itunes": {}
         }
       ]
     },
@@ -952,6 +961,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=18531",
+          "author": "Daniel Stenberg",
+          "description": "We have just merged curl’s 246th command line option: --remove-on-error (with this commit). To be included in the upcoming curl 7.83.0 release. This command line option is quite simple and does exactly what the name suggests. If you tell curl to download something into a local file and something goes wrong in that transfer – … Continue reading remove leftovers on curl error →",
+          "link": "https://daniel.haxx.se/blog/2022/03/11/remove-leftovers-on-curl-error/",
+          "publishedOn": "2022-03-11T06:53:52.000Z",
+          "wordCount": 781,
+          "title": "remove leftovers on curl error"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=17911",
           "author": "Daniel Stenberg",
@@ -1161,6 +1179,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=63558",
+          "author": "Melody Mileski",
+          "description": "We've introduced several new features to help enterprise owners more easily manage their accounts, including two features now in public beta.",
+          "link": "https://github.blog/2022-03-10-improved-management-github-enterprise-owners/",
+          "publishedOn": "2022-03-10T18:36:50.000Z",
+          "wordCount": 568,
+          "title": "Improved management for GitHub Enterprise owners"
+        },
+        {
           "id": "https://github.blog/?p=63536",
           "author": "Scott Sanders",
           "description": "In February, we experienced one incident resulting in significant impact to multiple GitHub services.",
@@ -1303,15 +1330,6 @@
           "publishedOn": "2022-02-10T17:56:42.000Z",
           "wordCount": 1545,
           "title": "How to start using reusable workflows with GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=62926",
-          "author": "Nancy Gariché",
-          "description": "A comprehensive guide for vulnerability reporters.",
-          "link": "https://github.blog/2022-02-09-coordinated-vulnerability-disclosure-cvd-open-source-projects/",
-          "publishedOn": "2022-02-09T20:24:56.000Z",
-          "wordCount": 2526,
-          "title": "Coordinated vulnerability disclosure (CVD) for open source projects"
         }
       ]
     },
@@ -1362,15 +1380,6 @@
           "publishedOn": "2022-03-04T01:35:23.000Z",
           "wordCount": 901,
           "title": "Donating Bounties to Humanitarian Efforts in Ukraine"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-disclosure/securing-digital-transformation-vulnerability-disclosure-qa-john-deere",
-          "author": "HackerOne",
-          "description": "To help fortify security defenses for their customers, dealers, suppliers, and employees, John Deere recently launched a public Vulnerability Disclosure Program (VDP) with HackerOne.\n\nHackerOne recently met with James Johnson, CISO at John Deere, to learn why his security team works with ethical hackers to help identify security gaps and increase their product and data security.",
-          "link": "https://www.hackerone.com/vulnerability-disclosure/securing-digital-transformation-vulnerability-disclosure-qa-john-deere",
-          "publishedOn": "2022-02-09T16:00:00.000Z",
-          "wordCount": 1429,
-          "title": "Securing Digital Transformation with Vulnerability Disclosure: A Q&A with John Deere CISO, James Johnson"
         }
       ]
     },
@@ -1387,15 +1396,6 @@
           "publishedOn": "2022-02-18T15:30:24.000Z",
           "wordCount": 2012,
           "title": "Rapid Event Notification System at Netflix"
-        },
-        {
-          "id": "https://medium.com/p/86525b3e21ca",
-          "author": "Netflix Technology Blog",
-          "description": "by Sam Setegne, Jai Balani, Olek Gorajek",
-          "link": "https://netflixtechblog.com/data-pipeline-asset-management-with-dataflow-86525b3e21ca?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-02-09T17:33:22.000Z",
-          "wordCount": 3155,
-          "title": "Data pipeline asset management with Dataflow"
         }
       ]
     },
@@ -1505,21 +1505,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8b00c-3eb8-4e21-96c4-d805d46557f8_598x387.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/charts-to-watch-1",
-          "author": "Market Radar",
-          "description": "Crypto, stocks and ETFs with an interesting graphic setup",
-          "link": "https://marketradar.substack.com/p/charts-to-watch-1",
-          "publishedOn": "2022-02-09T16:06:23.000Z",
-          "wordCount": null,
-          "title": "Charts to watch #1",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5698298-5d4d-4523-9dd6-1901f57c9dbc_953x564.png",
             "length": "0",
             "type": "image/jpeg"
           }
