@@ -16,8 +16,113 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2022-03-12">2022-03-12</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">curl no clobber</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2022/03/12/curl-no-clobber/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Do you remember August 26 2002? I can’t say I particularly do but the curl git log remembers for us that it was on that day we added this TODO item: Add an option that prevents cURL from overwriting existing local files. When used, and there already is an existing file with the target file … Continue reading curl no clobber →</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2022-03-11">2022-03-11</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Changelog 483: ONE MORE thing every dev should know</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/podcast/483">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>The incomparable Jessica Kerr is back with another grab-bag of amazing topics. We talk about her journey to Honeycomb, devs getting satisfaction from the code they write, why step one for her is “get that new project into production” and step two is observe it, her angst for the context switching around pull requests, some awesome book recommendations, how game theory and design can translate to how we skill up and level up our teams, and so much more.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+InfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to use undocumented web APIs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Julia Evans lays out her process for taking API responses in her browser’s dev tools and using them in her own programs/scripts:
+look in developer tools for a promising JSON response
+copy as cURL
+remove irrelevant headers
+translate it into Python
+Some of you might be wondering – can you always do this?
+The answer is sort of yes – browsers aren’t magic! All the information browsers send to your backend is just HTTP requests. So if I copy all of the HTTP headers that my browser is sending, I think there’s literally no way for the backend to tell that the request isn’t sent by my browser and is actually being sent by a random Python program.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">JS Party 216: Enabling performance-centric engineering orgs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/jsparty/216">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>This week Amal and Nick are joined by Dan Shappir, a Performance Tech Lead at Next Insurance, to learn about enabling a performance-first mindset within your engineering org.
+Dan recently left his 7+ year tenure leading performance at Wix where he and his team improved, and monitored the speed of millions of websites around the world.
+Join us to learn how he lead a cultural transformation that propelled Wix sites to be faster than most other React apps in the wild - including ones built with frameworks like Next.js.
+Discuss on Changelog News
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Retool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of buildi…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Ember Community Survey 2022</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://emberjs.com/survey/2022/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>This is a bit different from your “State of JS” or “State of Frontend” surveys because it only focuses on EmberJS but it has been running longer than any of them. If you have used Ember even just a little bit we would appreciate your opinions and we want to listen to our community to find ideas on how to improve!
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ECMAScript proposal: Types as Comments</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/giltayar/proposal-types-as-comments">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>This proposal is brand new (stage 0), but I hear that a lot of work has been put into it behind the scenes by a lot of people, so it has that going for it…
+This proposal aims to enable developers to add type annotations to their JavaScript code, allowing those annotations to be checked by a type checker that is external to JavaScript. At runtime, a JavaScript engine ignores them, treating the types as comments.
+The aim of this proposal is to enable developers to run programs written in TypeScript, Flow, and other static typing supersets of JavaScript without any need for transpilation, if they stick within a certain reasonably large subset of the language.
+The implications of this change are pretty massive, if it were to ever ship. And you better believe we’re putting together a JS Party episode to discuss it with the people involved.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
@@ -29,6 +134,40 @@
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>We have just merged curl’s 246th command line option: --remove-on-error (with this commit). To be included in the upcoming curl 7.83.0 release. This command line option is quite simple and does exactly what the name suggests. If you tell curl to download something into a local file and something goes wrong in that transfer – … Continue reading remove leftovers on curl error →</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://marketradar.substack.com">All Eyes on Markets</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Charts to watch #2</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://marketradar.substack.com/p/charts-to-watch-2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>A mix of charts on stocks and indices</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.hackerone.com/">HackerOne</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Preventing compromised password reuse on HackerOne.com</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>No content preview</span>
                   </div>
                 </a>
               </details>
@@ -2379,154 +2518,9 @@ Retool – Retool is a low-code platform built specifically for developers that
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2022-02-10">2022-02-10</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Go Time 216: Building and using APIs with Go</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/gotime/216">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Natalie and Johnny are joined by the co-founders of APIToolkit for a deep-dive on the topic. We discuss building them, maintaining them, how can we all be better users, and much more along the way.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-SignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.
-
-    
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io
-
-    
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-    
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
-
-    
-Featuring
-Smile Egbai – Twitter, GitHub
-Anthony Alaribe – Twitter, GitHub
-Natalie Pistunovich – Twitter, GitHub
-Johnny Boursiquot – Twitter, GitHub, Website
-Notes and Links
-APIToolkit.io
-Do schools kill creativity? | Sir Ken Robinson</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Interview questions to ask your interviewer</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://daveceddia.com/interview-questions-to-ask-company/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Dave Ceddia shares his go-to list of questions that he (literally) printed and brought with him to interviews for that final 5-ish minutes at the end when you get a chance to ask your own questions. It does come with a small disclaimer, though:
-This was years ago by the way, long before COVID, when pretty much every interview was in-person. The shock factor of pulling out 2 pages of questions wouldn’t translate so well to Zoom, haha. But still: if time runs out, you can mention that you still have a bunch of questions, and could please email them afterward.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">PgBouncer rewritten in Rust</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/levkk/pgcat">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>PgBouncer is a popular connection pooler for Postgres. PgCat is that same functionality, only in Rust. This is alpha software and there is no worse place to run alpha software (IMHO) than in places that have direct connections to your database. Still, this is worth linking to because it’s yet another instance of open source infrastructure code getting Rusty.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">My work on tool vs library</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2022/02/10/my-work-on-tool-vs-library/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>I’m the lead developer in the curl project. We make the command line tool curl and the library libcurl, for doing Internet transfers. The command line tool uses the library for all the internet transfer heavy lifting. The command line tool is somewhat of a shell binding to access libcurl. We make these things. We … Continue reading My work on tool vs library →</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">The GitHub Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to start using reusable workflows with GitHub Actions</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-02-10-using-reusable-workflows-github-actions/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Reusable workflows offer a simple and powerful way to avoid copying and pasting workflows across your repositories.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="http://security.googleblog.com/">Google Online Security Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vulnerability Reward Program: 2021 Year in Review</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2022/02/vulnerability-reward-program-2021-year.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Posted by Sarah Jacobus, Vulnerability Rewards Team 
-
-
-Last year was another record setter for our Vulnerability Reward Programs (VRPs). Throughout 2021, we partnered with the security researcher community to identify and fix thousands of  vulnerabilities – helping keep our users and the internet safe. 
-
-Thanks to these incredible researchers, Vulnerability Reward Programs across Google continued to grow, and we are excited to report that in 2021 we awarded a record breaking $8,700,000 in vulnerability rewards – with researchers donating over $300,000 of their rewards to a charity of their choice. 
-
-We also launched bughunters.google.com in 2021, a public researcher portal dedicated to keeping Google products and the internet safe and secure. This new platform brings all of our VRPs (Googl…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://googleprojectzero.blogspot.com/">Project Zero</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A walk through Project Zero metrics</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>ol.lst-kix_p008n8rtcs1c-3.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-3 0}.lst-kix_sr4t049r1bof-6&gt;li{counter-increment:lst-ctn-kix_sr4t049r1bof-6}.lst-kix_ygk8qly5wagc-7&gt;li:before{content:&quot;\0025cb  &quot;}.lst-kix_p008n8rtcs1c-6&gt;li{counter-increment:lst-ctn-kix_p008n8rtcs1c-6}.lst-kix_ygk8qly5wagc-6&gt;li:before{content:&quot;\0025cf  &quot;}.lst-kix_p008n8rtcs1c-7&gt;li{counter-increment:lst-ctn-kix_p008n8rtcs1c-7}ol.lst-kix_p008n8rtcs1c-0.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-0 0}.lst-kix_ygk8qly5wagc-8&gt;li:before{content:&quot;\0025a0  &quot;}ol.lst-kix_sr4t049r1bof-1.start{counter-reset:lst-ctn-kix_sr4t049r1bof-1 0}.lst-kix_sr4t049r1bof-5&gt;li{counter-increment:lst-ctn-kix_sr4t049r1bof-5}.lst-kix_7tz9dwqwiu1-5&gt;li:before{content:&quot;\0025a0  &quot;}.lst-kix_7tz9dwqwiu1-4&gt;li:before{content:&quot;\0025cb  &quot;}.lst-kix_7tz9dwqwiu…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-03-11T12:16:14.616Z">2022-03-11T12:16:14.616Z</time>
+    <time id="build-timestamp" datetime="2022-03-12T12:14:46.588Z">2022-03-12T12:14:46.588Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>

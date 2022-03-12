@@ -31,15 +31,6 @@
           "publishedOn": "2022-02-14T17:07:00.001Z",
           "wordCount": 1561,
           "title": "🌹 Roses are red, Violets are blue 💙 Giving leets 🧑‍💻 more sweets 🍭 All of 2022!"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/02/vulnerability-reward-program-2021-year.html",
-          "author": null,
-          "description": "Posted by Sarah Jacobus, Vulnerability Rewards Team \n\n\nLast year was another record setter for our Vulnerability Reward Programs (VRPs). Throughout 2021, we partnered with the security researcher community to identify and fix thousands of  vulnerabilities – helping keep our users and the internet safe. \n\nThanks to these incredible researchers, Vulnerability Reward Programs across Google continued to grow, and we are excited to report that in 2021 we awarded a record breaking $8,700,000 in vulnerability rewards – with researchers donating over $300,000 of their rewards to a charity of their choice. \n\nWe also launched bughunters.google.com in 2021, a public researcher portal dedicated to keeping Google products and the internet safe and secure. This new platform brings all of our VRPs (Googl…",
-          "link": "http://security.googleblog.com/2022/02/vulnerability-reward-program-2021-year.html",
-          "publishedOn": "2022-02-10T17:00:00.001Z",
-          "wordCount": 3694,
-          "title": "Vulnerability Reward Program: 2021 Year in Review"
         }
       ]
     },
@@ -54,6 +45,66 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1570",
+          "author": null,
+          "description": "The incomparable Jessica Kerr is back with another grab-bag of amazing topics. We talk about her journey to Honeycomb, devs getting satisfaction from the code they write, why step one for her is “get that new project into production” and step two is observe it, her angst for the context switching around pull requests, some awesome book recommendations, how game theory and design can translate to how we skill up and level up our teams, and so much more.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nInfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive …",
+          "link": "https://changelog.com/podcast/483",
+          "publishedOn": "2022-03-11T21:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 483: ONE MORE thing every dev should know",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/483/the-changelog-483.mp3",
+            "length": "71483017",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/d3ZZ",
+          "author": "Jerod Santo",
+          "description": "Julia Evans lays out her process for taking API responses in her browser’s dev tools and using them in her own programs/scripts:\nlook in developer tools for a promising JSON response\ncopy as cURL\nremove irrelevant headers\ntranslate it into Python\nSome of you might be wondering – can you always do this?\nThe answer is sort of yes – browsers aren’t magic! All the information browsers send to your backend is just HTTP requests. So if I copy all of the HTTP headers that my browser is sending, I think there’s literally no way for the backend to tell that the request isn’t sent by my browser and is actually being sent by a random Python program.\nDiscuss on Changelog News",
+          "link": "https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/",
+          "publishedOn": "2022-03-11T19:21:00.000Z",
+          "wordCount": null,
+          "title": "How to use undocumented web APIs",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1601",
+          "author": null,
+          "description": "This week Amal and Nick are joined by Dan Shappir, a Performance Tech Lead at Next Insurance, to learn about enabling a performance-first mindset within your engineering org.\nDan recently left his 7+ year tenure leading performance at Wix where he and his team improved, and monitored the speed of millions of websites around the world.\nJoin us to learn how he lead a cultural transformation that propelled Wix sites to be faster than most other React apps in the wild - including ones built with frameworks like Next.js.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of buildi…",
+          "link": "https://changelog.com/jsparty/216",
+          "publishedOn": "2022-03-11T18:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 216: Enabling performance-centric engineering orgs",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/216/js-party-216.mp3",
+            "length": "71144640",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Q5Xq",
+          "author": "Chris Manson",
+          "description": "This is a bit different from your “State of JS” or “State of Frontend” surveys because it only focuses on EmberJS but it has been running longer than any of them. If you have used Ember even just a little bit we would appreciate your opinions and we want to listen to our community to find ideas on how to improve!\nDiscuss on Changelog News",
+          "link": "https://emberjs.com/survey/2022/",
+          "publishedOn": "2022-03-11T16:30:00.000Z",
+          "wordCount": null,
+          "title": "Ember Community Survey 2022",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/5378",
+          "author": "Jerod Santo",
+          "description": "This proposal is brand new (stage 0), but I hear that a lot of work has been put into it behind the scenes by a lot of people, so it has that going for it…\nThis proposal aims to enable developers to add type annotations to their JavaScript code, allowing those annotations to be checked by a type checker that is external to JavaScript. At runtime, a JavaScript engine ignores them, treating the types as comments.\nThe aim of this proposal is to enable developers to run programs written in TypeScript, Flow, and other static typing supersets of JavaScript without any need for transpilation, if they stick within a certain reasonably large subset of the language.\nThe implications of this change are pretty massive, if it were to ever ship. And you better believe we’re putting together a JS Party episode to discuss it with the people involved.\nDiscuss on Changelog News",
+          "link": "https://github.com/giltayar/proposal-types-as-comments",
+          "publishedOn": "2022-03-11T15:40:00.000Z",
+          "wordCount": null,
+          "title": "ECMAScript proposal: Types as Comments",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/03ko",
           "author": "Jerod Santo",
@@ -868,41 +919,6 @@
             "length": "71564245",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/2/1565",
-          "author": null,
-          "description": "Natalie and Johnny are joined by the co-founders of APIToolkit for a deep-dive on the topic. We discuss building them, maintaining them, how can we all be better users, and much more along the way.\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nSmile Egbai – Twitter, GitHub\nAnthony Alaribe – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nAPIToolkit.io\nDo schools kill creativity? | Sir Ken Robinson",
-          "link": "https://changelog.com/gotime/216",
-          "publishedOn": "2022-02-10T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 216: Building and using APIs with Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/216/go-time-216.mp3",
-            "length": "48444596",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/W3no",
-          "author": "Jerod Santo",
-          "description": "Dave Ceddia shares his go-to list of questions that he (literally) printed and brought with him to interviews for that final 5-ish minutes at the end when you get a chance to ask your own questions. It does come with a small disclaimer, though:\nThis was years ago by the way, long before COVID, when pretty much every interview was in-person. The shock factor of pulling out 2 pages of questions wouldn’t translate so well to Zoom, haha. But still: if time runs out, you can mention that you still have a bunch of questions, and could please email them afterward.\nDiscuss on Changelog News",
-          "link": "https://daveceddia.com/interview-questions-to-ask-company/",
-          "publishedOn": "2022-02-10T15:18:00.000Z",
-          "wordCount": null,
-          "title": "Interview questions to ask your interviewer",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4Eq3",
-          "author": "Jerod Santo",
-          "description": "PgBouncer is a popular connection pooler for Postgres. PgCat is that same functionality, only in Rust. This is alpha software and there is no worse place to run alpha software (IMHO) than in places that have direct connections to your database. Still, this is worth linking to because it’s yet another instance of open source infrastructure code getting Rusty.\nDiscuss on Changelog News",
-          "link": "https://github.com/levkk/pgcat",
-          "publishedOn": "2022-02-10T14:28:00.000Z",
-          "wordCount": null,
-          "title": "PgBouncer rewritten in Rust",
-          "itunes": {}
         }
       ]
     },
@@ -962,6 +978,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=18605",
+          "author": "Daniel Stenberg",
+          "description": "Do you remember August 26 2002? I can’t say I particularly do but the curl git log remembers for us that it was on that day we added this TODO item: Add an option that prevents cURL from overwriting existing local files. When used, and there already is an existing file with the target file … Continue reading curl no clobber →",
+          "link": "https://daniel.haxx.se/blog/2022/03/12/curl-no-clobber/",
+          "publishedOn": "2022-03-12T09:49:03.000Z",
+          "wordCount": 830,
+          "title": "curl no clobber"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=18531",
           "author": "Daniel Stenberg",
           "description": "We have just merged curl’s 246th command line option: --remove-on-error (with this commit). To be included in the upcoming curl 7.83.0 release. This command line option is quite simple and does exactly what the name suggests. If you tell curl to download something into a local file and something goes wrong in that transfer – … Continue reading remove leftovers on curl error →",
@@ -1005,15 +1030,6 @@
           "publishedOn": "2022-02-14T17:26:39.000Z",
           "wordCount": 817,
           "title": "The great curl roadmap 2022 webinar"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18392",
-          "author": "Daniel Stenberg",
-          "description": "I’m the lead developer in the curl project. We make the command line tool curl and the library libcurl, for doing Internet transfers. The command line tool uses the library for all the internet transfer heavy lifting. The command line tool is somewhat of a shell binding to access libcurl. We make these things. We … Continue reading My work on tool vs library →",
-          "link": "https://daniel.haxx.se/blog/2022/02/10/my-work-on-tool-vs-library/",
-          "publishedOn": "2022-02-10T13:29:18.000Z",
-          "wordCount": 1729,
-          "title": "My work on tool vs library"
         }
       ]
     },
@@ -1127,17 +1143,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html",
-          "author": null,
-          "description": "ol.lst-kix_p008n8rtcs1c-3.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-3 0}.lst-kix_sr4t049r1bof-6>li{counter-increment:lst-ctn-kix_sr4t049r1bof-6}.lst-kix_ygk8qly5wagc-7>li:before{content:\"\\0025cb  \"}.lst-kix_p008n8rtcs1c-6>li{counter-increment:lst-ctn-kix_p008n8rtcs1c-6}.lst-kix_ygk8qly5wagc-6>li:before{content:\"\\0025cf  \"}.lst-kix_p008n8rtcs1c-7>li{counter-increment:lst-ctn-kix_p008n8rtcs1c-7}ol.lst-kix_p008n8rtcs1c-0.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-0 0}.lst-kix_ygk8qly5wagc-8>li:before{content:\"\\0025a0  \"}ol.lst-kix_sr4t049r1bof-1.start{counter-reset:lst-ctn-kix_sr4t049r1bof-1 0}.lst-kix_sr4t049r1bof-5>li{counter-increment:lst-ctn-kix_sr4t049r1bof-5}.lst-kix_7tz9dwqwiu1-5>li:before{content:\"\\0025a0  \"}.lst-kix_7tz9dwqwiu1-4>li:before{content:\"\\0025cb  \"}.lst-kix_7tz9dwqwiu…",
-          "link": "https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html",
-          "publishedOn": "2022-02-10T16:58:00.000Z",
-          "wordCount": 2910,
-          "title": "A walk through Project Zero metrics"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -1321,15 +1327,6 @@
           "publishedOn": "2022-02-11T17:30:43.000Z",
           "wordCount": 1347,
           "title": "Getting started with project planning on GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=62982",
-          "author": "Brian Douglas",
-          "description": "Reusable workflows offer a simple and powerful way to avoid copying and pasting workflows across your repositories.",
-          "link": "https://github.blog/2022-02-10-using-reusable-workflows-github-actions/",
-          "publishedOn": "2022-02-10T17:56:42.000Z",
-          "wordCount": 1545,
-          "title": "How to start using reusable workflows with GitHub Actions"
         }
       ]
     },
@@ -1363,6 +1360,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom",
+          "author": "vincent@hackerone.com",
+          "description": "",
+          "link": "https://www.hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom",
+          "publishedOn": "2022-03-11T22:01:15.000Z",
+          "wordCount": 1435,
+          "title": "Preventing compromised password reuse on HackerOne.com"
+        },
         {
           "id": "https://hackerone.com/bounty/shifting-left-ethical-hackers-qa-gitlab",
           "author": "HackerOne",
@@ -1404,6 +1410,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/charts-to-watch-2",
+          "author": "Market Radar",
+          "description": "A mix of charts on stocks and indices",
+          "link": "https://marketradar.substack.com/p/charts-to-watch-2",
+          "publishedOn": "2022-03-11T15:34:26.000Z",
+          "wordCount": null,
+          "title": "Charts to watch #2",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F34a427cb-006a-4adc-8c16-3fd2ec09a00d_928x595.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/pure-stock-portfolio-2-sales-1-buy",
           "author": "Market Radar",

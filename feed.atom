@@ -2,10 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-11T12:16:14.642Z</updated>
+    <updated>2022-03-12T12:14:46.610Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl no clobber]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18605</id>
+        <link href="https://daniel.haxx.se/blog/2022/03/12/curl-no-clobber/"/>
+        <updated>2022-03-12T09:49:03.000Z</updated>
+        <summary type="html"><![CDATA[Do you remember August 26 2002? I can’t say I particularly do but the curl git log remembers for us that it was on that day we added this TODO item: Add an option that prevents cURL from overwriting existing local files. When used, and there already is an existing file with the target file … Continue reading curl no clobber →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Preventing compromised password reuse on HackerOne.com]]></title>
+        <id>https://hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom</id>
+        <link href="https://www.hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom"/>
+        <updated>2022-03-11T22:01:15.000Z</updated>
+        <author>
+            <name>vincent@hackerone.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 483: ONE MORE thing every dev should know]]></title>
+        <id>changelog.com/1/1570</id>
+        <link href="https://changelog.com/podcast/483"/>
+        <updated>2022-03-11T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The incomparable Jessica Kerr is back with another grab-bag of amazing topics. We talk about her journey to Honeycomb, devs getting satisfaction from the code they write, why step one for her is “get that new project into production” and step two is observe it, her angst for the context switching around pull requests, some awesome book recommendations, how game theory and design can translate to how we skill up and level up our teams, and so much more.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+InfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive …]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use undocumented web APIs]]></title>
+        <id>changelog.com/news/d3ZZ</id>
+        <link href="https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/"/>
+        <updated>2022-03-11T19:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Julia Evans lays out her process for taking API responses in her browser’s dev tools and using them in her own programs/scripts:
+look in developer tools for a promising JSON response
+copy as cURL
+remove irrelevant headers
+translate it into Python
+Some of you might be wondering – can you always do this?
+The answer is sort of yes – browsers aren’t magic! All the information browsers send to your backend is just HTTP requests. So if I copy all of the HTTP headers that my browser is sending, I think there’s literally no way for the backend to tell that the request isn’t sent by my browser and is actually being sent by a random Python program.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 216: Enabling performance-centric engineering orgs]]></title>
+        <id>changelog.com/6/1601</id>
+        <link href="https://changelog.com/jsparty/216"/>
+        <updated>2022-03-11T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Amal and Nick are joined by Dan Shappir, a Performance Tech Lead at Next Insurance, to learn about enabling a performance-first mindset within your engineering org.
+Dan recently left his 7+ year tenure leading performance at Wix where he and his team improved, and monitored the speed of millions of websites around the world.
+Join us to learn how he lead a cultural transformation that propelled Wix sites to be faster than most other React apps in the wild - including ones built with frameworks like Next.js.
+Discuss on Changelog News
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Retool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of buildi…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ember Community Survey 2022]]></title>
+        <id>changelog.com/news/Q5Xq</id>
+        <link href="https://emberjs.com/survey/2022/"/>
+        <updated>2022-03-11T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a bit different from your “State of JS” or “State of Frontend” surveys because it only focuses on EmberJS but it has been running longer than any of them. If you have used Ember even just a little bit we would appreciate your opinions and we want to listen to our community to find ideas on how to improve!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Chris Manson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ECMAScript proposal: Types as Comments]]></title>
+        <id>changelog.com/news/5378</id>
+        <link href="https://github.com/giltayar/proposal-types-as-comments"/>
+        <updated>2022-03-11T15:40:00.000Z</updated>
+        <summary type="html"><![CDATA[This proposal is brand new (stage 0), but I hear that a lot of work has been put into it behind the scenes by a lot of people, so it has that going for it…
+This proposal aims to enable developers to add type annotations to their JavaScript code, allowing those annotations to be checked by a type checker that is external to JavaScript. At runtime, a JavaScript engine ignores them, treating the types as comments.
+The aim of this proposal is to enable developers to run programs written in TypeScript, Flow, and other static typing supersets of JavaScript without any need for transpilation, if they stick within a certain reasonably large subset of the language.
+The implications of this change are pretty massive, if it were to ever ship. And you better believe we’re putting together a JS Party episode to discuss it with the people involved.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charts to watch #2]]></title>
+        <id>https://marketradar.substack.com/p/charts-to-watch-2</id>
+        <link href="https://marketradar.substack.com/p/charts-to-watch-2"/>
+        <updated>2022-03-11T15:34:26.000Z</updated>
+        <summary type="html"><![CDATA[A mix of charts on stocks and indices]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[remove leftovers on curl error]]></title>
         <id>https://daniel.haxx.se/blog/?p=18531</id>
@@ -1714,109 +1815,6 @@ Retool – Retool is a low-code platform built specifically for developers that
         <summary type="html"><![CDATA[In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to start using reusable workflows with GitHub Actions]]></title>
-        <id>https://github.blog/?p=62982</id>
-        <link href="https://github.blog/2022-02-10-using-reusable-workflows-github-actions/"/>
-        <updated>2022-02-10T17:56:42.000Z</updated>
-        <summary type="html"><![CDATA[Reusable workflows offer a simple and powerful way to avoid copying and pasting workflows across your repositories.]]></summary>
-        <author>
-            <name>Brian Douglas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 216: Building and using APIs with Go]]></title>
-        <id>changelog.com/2/1565</id>
-        <link href="https://changelog.com/gotime/216"/>
-        <updated>2022-02-10T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Natalie and Johnny are joined by the co-founders of APIToolkit for a deep-dive on the topic. We discuss building them, maintaining them, how can we all be better users, and much more along the way.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-SignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.
-
-    
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io
-
-    
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-    
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!
-
-    
-Featuring
-Smile Egbai – Twitter, GitHub
-Anthony Alaribe – Twitter, GitHub
-Natalie Pistunovich – Twitter, GitHub
-Johnny Boursiquot – Twitter, GitHub, Website
-Notes and Links
-APIToolkit.io
-Do schools kill creativity? | Sir Ken Robinson]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vulnerability Reward Program: 2021 Year in Review]]></title>
-        <id>http://security.googleblog.com/2022/02/vulnerability-reward-program-2021-year.html</id>
-        <link href="http://security.googleblog.com/2022/02/vulnerability-reward-program-2021-year.html"/>
-        <updated>2022-02-10T17:00:00.001Z</updated>
-        <summary type="html"><![CDATA[Posted by Sarah Jacobus, Vulnerability Rewards Team 
-
-
-Last year was another record setter for our Vulnerability Reward Programs (VRPs). Throughout 2021, we partnered with the security researcher community to identify and fix thousands of  vulnerabilities – helping keep our users and the internet safe. 
-
-Thanks to these incredible researchers, Vulnerability Reward Programs across Google continued to grow, and we are excited to report that in 2021 we awarded a record breaking $8,700,000 in vulnerability rewards – with researchers donating over $300,000 of their rewards to a charity of their choice. 
-
-We also launched bughunters.google.com in 2021, a public researcher portal dedicated to keeping Google products and the internet safe and secure. This new platform brings all of our VRPs (Googl…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A walk through Project Zero metrics]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html"/>
-        <updated>2022-02-10T16:58:00.000Z</updated>
-        <summary type="html"><![CDATA[ol.lst-kix_p008n8rtcs1c-3.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-3 0}.lst-kix_sr4t049r1bof-6>li{counter-increment:lst-ctn-kix_sr4t049r1bof-6}.lst-kix_ygk8qly5wagc-7>li:before{content:"\0025cb  "}.lst-kix_p008n8rtcs1c-6>li{counter-increment:lst-ctn-kix_p008n8rtcs1c-6}.lst-kix_ygk8qly5wagc-6>li:before{content:"\0025cf  "}.lst-kix_p008n8rtcs1c-7>li{counter-increment:lst-ctn-kix_p008n8rtcs1c-7}ol.lst-kix_p008n8rtcs1c-0.start{counter-reset:lst-ctn-kix_p008n8rtcs1c-0 0}.lst-kix_ygk8qly5wagc-8>li:before{content:"\0025a0  "}ol.lst-kix_sr4t049r1bof-1.start{counter-reset:lst-ctn-kix_sr4t049r1bof-1 0}.lst-kix_sr4t049r1bof-5>li{counter-increment:lst-ctn-kix_sr4t049r1bof-5}.lst-kix_7tz9dwqwiu1-5>li:before{content:"\0025a0  "}.lst-kix_7tz9dwqwiu1-4>li:before{content:"\0025cb  "}.lst-kix_7tz9dwqwiu…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interview questions to ask your interviewer]]></title>
-        <id>changelog.com/news/W3no</id>
-        <link href="https://daveceddia.com/interview-questions-to-ask-company/"/>
-        <updated>2022-02-10T15:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Dave Ceddia shares his go-to list of questions that he (literally) printed and brought with him to interviews for that final 5-ish minutes at the end when you get a chance to ask your own questions. It does come with a small disclaimer, though:
-This was years ago by the way, long before COVID, when pretty much every interview was in-person. The shock factor of pulling out 2 pages of questions wouldn’t translate so well to Zoom, haha. But still: if time runs out, you can mention that you still have a bunch of questions, and could please email them afterward.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PgBouncer rewritten in Rust]]></title>
-        <id>changelog.com/news/4Eq3</id>
-        <link href="https://github.com/levkk/pgcat"/>
-        <updated>2022-02-10T14:28:00.000Z</updated>
-        <summary type="html"><![CDATA[PgBouncer is a popular connection pooler for Postgres. PgCat is that same functionality, only in Rust. This is alpha software and there is no worse place to run alpha software (IMHO) than in places that have direct connections to your database. Still, this is worth linking to because it’s yet another instance of open source infrastructure code getting Rusty.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My work on tool vs library]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18392</id>
-        <link href="https://daniel.haxx.se/blog/2022/02/10/my-work-on-tool-vs-library/"/>
-        <updated>2022-02-10T13:29:18.000Z</updated>
-        <summary type="html"><![CDATA[I’m the lead developer in the curl project. We make the command line tool curl and the library libcurl, for doing Internet transfers. The command line tool uses the library for all the internet transfer heavy lifting. The command line tool is somewhat of a shell binding to access libcurl. We make these things. We … Continue reading My work on tool vs library →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
