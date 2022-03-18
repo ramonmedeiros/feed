@@ -37,6 +37,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/EQ3D",
+          "author": "Jerod Santo",
+          "description": "John Ruble:\nOn any moderately-sized Node.js project you’ve likely already outgrown the package.json “scripts” section. But because the growth was gradual, with no single acute pain point, you might not have noticed. There’s a better way.\nI’ve never been able to get into Makefiles, but many people I respect love them. For me the syntax is too arcane, but I recognize the power. If the “scripts” section of your package.json is getting unwieldy, it might be time for a make over. (yes I went there)\nDiscuss on Changelog News",
+          "link": "https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/",
+          "publishedOn": "2022-03-17T17:33:00.000Z",
+          "wordCount": null,
+          "title": "Why I prefer Makefiles over package.json scripts",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1595",
+          "author": null,
+          "description": "What does it take to master a programming language like Go? Joining us is the author of Mastering Go to help us answer that very question and to discuss the third edition of the book.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at developer.squareup.com to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nMihalis Tsoukalos – Twitter\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nMastering Go: Third Edition\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/221",
+          "publishedOn": "2022-03-17T15:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 221: Mastering Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/221/go-time-221.mp3",
+            "length": "39998876",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/bNgM",
+          "author": "Jerod Santo",
+          "description": "I’ve avoided using Docker Desktop on my Mac like you avoid those 16-seeds in your March Madness bracket. Why? Because it’s dog slow. But not anymore?\nThe 4.6 release of Docker Desktop for Mac contains a number of changes that drastically improve file sharing performance for macOS users. Firstly, developers now have the option of using a new experimental file sharing implementation called virtiofs (the current default is gRPC-FUSE). Secondly, improvements have been made to the way that files are synced between the macOS host and Docker VM. During testing with our amazing macOS community of users, we have observed that these changes have reduced the time taken to complete filesystem operations by up to 98%.\nvirtiofs is an experimental feature, so you need to enable it to realize these gains.\nDiscuss on Changelog News",
+          "link": "https://www.docker.com/blog/speed-boost-achievement-unlocked-on-docker-desktop-4-6-for-mac/",
+          "publishedOn": "2022-03-17T14:49:00.000Z",
+          "wordCount": null,
+          "title": "Docker Desktop 4.6 promises big speed up for macOS users",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/W3Eq",
+          "author": "Jerod Santo",
+          "description": "This piece by Aria Beingessner is incredibly relevant to our shipping-this-week episode with Brian Kernighen:\nMy problem is that C was elevated to a role of prestige and power, its reign so absolute and eternal that it has completely distorted the way we speak to each other. Rust and Swift cannot simply speak their native and comfortable tongues – they must instead wrap themselves in a grotesque simulacra of C’s skin and make their flesh undulate in the same ways it does.\nC is the lingua franca of programming. We must all speak C, and therefore C is not just a programming language anymore – it’s a protocol that every general-purpose programming language needs to speak.\nAnd just in case these pull quotes leave you with the impression that Aria is happy about the situation… yeah, nope.\nDiscuss on Changelog News",
+          "link": "https://gankra.github.io/blah/c-isnt-a-language/",
+          "publishedOn": "2022-03-17T14:02:00.000Z",
+          "wordCount": null,
+          "title": "C isn't a programming language anymore",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/q0Q1",
           "author": "Jerod Santo",
           "description": "The New Stack has a solid rundown of all the new hotness that shipped yesterday when Go 1.18 officially rolled out. Of course, if you’re a regular Go Time listener, you’re already well aware of both the headline features as well as the other cool stuff in this release.\nDiscuss on Changelog News",
@@ -845,51 +890,6 @@
           "wordCount": null,
           "title": "hue.tools – an open source toolbox for colors",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/posts/2511",
-          "author": "Kevin Ball",
-          "description": "As developers, we use TypeScript for a few different reasons. The self-documentation aspects are huge – being able to step into an unfamiliar function and know the shape of the objects it’s expecting is a massive boon when working on a large project. The added tooling features, with IntelliSense and its ilk, are also a big help for productivity. But to me, the most important reason to use a strongly typed system is to eliminate an entire class of runtime bugs, where a function gets passed an object it doesn’t know how to handle and fails at runtime.\nIt’s that last reason that leads to the purpose for this post. I recently handled a bug where a React component was throwing an exception at runtime. The source of the issue was a recent refactor done when internationalizing this area of our ap…",
-          "link": "https://changelog.com/posts/the-react-reactnode-type-is-a-black-hole",
-          "publishedOn": "2022-02-16T17:30:12.000Z",
-          "wordCount": null,
-          "title": "The React.ReactNode type is a black hole",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1540",
-          "author": null,
-          "description": "We finally did it! All our static files are served from AWS S3. This is the most significant improvement to our app’s architecture in years, and now we have unlocked the next level: multi-cloud. We talk about that at length, and how it fits in our 2022 setup. The TL;DR is that changelog.com will fly, both literally and figuratively.\nWe also address Steve’s comment that he left on our previous Kaizen episode - thanks Steve!\nTowards the end, we talk about Gerhard’s new beginnings at Dagger, where he gets to work with a world-class team and build the next-gen CI/CD. That’s right, Gerhard is now walking the Ship It talk all day, every day. If you want to watch him code live, you can do so every Thursday, in our weekly community session.\nKaizen!\nDiscuss on Changelog News\nJoin Changelog++ to sup…",
-          "link": "https://changelog.com/shipit/40",
-          "publishedOn": "2022-02-16T16:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 40: Kaizen! New beginnings",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/40/ship-it-40.mp3",
-            "length": "73879060",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Mdnr",
-          "author": "Jerod Santo",
-          "description": "Steven Wittens takes us on a trip to a parallel universe where the React team made different decisions (with less legacy constraints). What might this universe look like? For starters:\nNo-hooks and Early Return\nComponent Morphing\nuseMemo vs useEffect + setState\nand some wild Yeet-Reduce results\nDiscuss on Changelog News",
-          "link": "https://acko.net/blog/react-the-missing-parts/",
-          "publishedOn": "2022-02-16T15:50:00.000Z",
-          "wordCount": null,
-          "title": "React - The Missing Parts",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/rlVr",
-          "author": "Jerod Santo",
-          "description": "If you ssh a lot, you may get some serious value out of this suite of (currently 8) related tools and shortcuts. ssh-ping checks if a host is reachable using ssh_config, ssh-diff diffs a file over SSH, etc.\nDiscuss on Changelog News",
-          "link": "https://github.com/vaporup/ssh-tools",
-          "publishedOn": "2022-02-16T14:59:00.000Z",
-          "wordCount": null,
-          "title": "A suite of tools that make SSH more convenient",
-          "itunes": {}
         }
       ]
     },
@@ -904,6 +904,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/inside-google/googlers/meet-3-women-who-test-google-products-fairness/",
+          "author": null,
+          "description": "One of the most interesting parts of working at Google is learning what other people do here — it’s not uncommon to come across a job title you’ve never heard of. For example: ProFair Program Manager, or ProFair Analyst.\nThese roles are part of our Responsible Innovation team, which focuses on making sure our tech supports Google’s AI Principles. One way the team does this is by conducting proactive algorithmic product fairness — or ProFair — testing. This means bringing social and cultural perspectives to the testing process, to assess how an AI or ML application, dataset or technique might avoid reinforcing unfair bias. Three women who work on ProFair testing are Anne Peckham, N’Mah Y. and Cherish M. and today we’re asking them: What’s your job?\n\nThe job: ProFair Responsible Innovation\nA…",
+          "link": "https://blog.google/inside-google/googlers/meet-3-women-who-test-google-products-fairness/",
+          "publishedOn": "2022-03-17T17:00:00.000Z",
+          "wordCount": 1781,
+          "title": "Meet 3 women who test Google products for fairness"
+        },
         {
           "id": "https://blog.google/around-the-globe/google-asia/ai-detect-bushfire-risks/",
           "author": null,
@@ -1018,6 +1027,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "author": null,
+          "description": "This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "publishedOn": "2022-03-18T12:15:55.393Z",
+          "wordCount": 1852,
+          "title": "Graph machine learning with missing node features"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
           "author": null,
           "description": "This blog post shares optimization findings to speed up Transformer-based models’ CPU inference and improve computational demand in Google Cloud.",
@@ -1121,6 +1139,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47707",
+          "author": "Hermina",
+          "description": "For both MDN and Open Web Docs (OWD), transparency is paramount to our missions. With the upcoming launch of MDN Plus, we believe it’s a good time to talk about how our two organizations work together, and if there is a financial relationship between us. Here is an overview of how our missions overlap and how they differ, and how a premium subscription service fits all this.\nThe post Mozilla and Open Web Docs working together on MDN appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/03/mozilla-and-open-web-docs-working-together-on-mdn/",
+          "publishedOn": "2022-03-17T14:07:34.000Z",
+          "wordCount": 891,
+          "title": "Mozilla and Open Web Docs working together on MDN"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47622",
           "author": "Anne van Kesteren",
           "description": "Writing high quality standards is a necessary first step to an interoperable web platform, but ensuring that browsers are consistent in their behavior requires an ongoing process. Browsers must work to ensure that they have a shared understanding of web standards, and that their implementation matches that understanding.\nInterop 2022 is a cross-browser initiative to find and address the most important interoperability pain points on the web platform. The end result is a public metric that will assess progress toward fixing these interoperability issues.\nThe post Announcing Interop 2022 appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1145,6 +1172,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=63572",
+          "author": "Michelle Mannering",
+          "description": "Our community has shipped lots of open source project updates in the last month. Here's a few of our staff picks.",
+          "link": "https://github.blog/2022-03-17-release-radar-feb-2022/",
+          "publishedOn": "2022-03-17T23:05:05.000Z",
+          "wordCount": 1484,
+          "title": "Release Radar · February 2022 Edition"
+        },
         {
           "id": "https://github.blog/?p=63632",
           "author": "Cameron Booth",
@@ -1234,24 +1270,6 @@
           "publishedOn": "2022-02-17T17:59:19.000Z",
           "wordCount": 1982,
           "title": "Leveraging machine learning to find security vulnerabilities"
-        },
-        {
-          "id": "https://github.blog/?p=63296",
-          "author": "Kelsey Bernius",
-          "description": "Tips from our developer advocates on how and why to find a mentor.",
-          "link": "https://github.blog/2022-02-16-how-to-make-the-most-out-of-a-mentoring-relationship/",
-          "publishedOn": "2022-02-16T18:17:15.000Z",
-          "wordCount": 1637,
-          "title": "How to make the most out of a mentoring relationship"
-        },
-        {
-          "id": "https://github.blog/?p=63244",
-          "author": "Jason White",
-          "description": "Practical tips on how to apply OWASP Top 10 Proactive Control C4.",
-          "link": "https://github.blog/2022-02-16-encoding-escaping-untrusted-data-prevent-injection-attacks/",
-          "publishedOn": "2022-02-16T17:38:40.000Z",
-          "wordCount": 1759,
-          "title": "Encoding and escaping untrusted data to prevent injection attacks"
         }
       ]
     },
@@ -1436,21 +1454,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F795b67f9-23c9-428e-b431-ec905e3d499d_944x706.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/the-pure-stocks-portfolio-rebalancing",
-          "author": "Market Radar",
-          "description": "Monthly purchases and a new stock ready to be bought",
-          "link": "https://marketradar.substack.com/p/the-pure-stocks-portfolio-rebalancing",
-          "publishedOn": "2022-02-16T16:54:31.000Z",
-          "wordCount": null,
-          "title": "The Pure Stocks Portfolio: Rebalancing and a new stock",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4910511e-10ae-4466-9f51-360b6f94a5b3_719x387.png",
             "length": "0",
             "type": "image/jpeg"
           }
