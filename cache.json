@@ -37,6 +37,31 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/6/1605",
+          "author": null,
+          "description": "Zach Leatherman recently announced he will now be working on Eleventy – his simpler static site generator – while continuing to work at Netlify. What makes Eleventy special? How’d he convince Netlify to let him to this? What does it mean for the project’s future? How many questions in a row can we type into this textarea? Tune in to find out!\nDiscuss on Changelog News\nChangelog++ members will hear a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nZach Leatherman – Twitter, GitHub, Website\nJerod Santo – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nNotes and Links\nEleventy\nZach on JS Party #79\nWho Pays for Web Frameworks?\n11ty on Open Collective\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/217",
+          "publishedOn": "2022-03-18T16:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 217: Going full-time on Eleventy",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/217/js-party-217.mp3",
+            "length": "56470493",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/03Wo",
+          "author": "Jerod Santo",
+          "description": "A falsehood is an idea that you initially believe was true, but in-reality it is proven to be false.\nE.g. of an idea: valid email address exactly has one @ character. So, you will use this rule to implement your email-field validation logic. Right? Wrong! The reality is: emails can have multiple @ chars. Therefore your implementation should allow this. The initial idea is a falsehood you believed in.\nI love this list with my whole heart. We need to do a show on this…\nDiscuss on Changelog News",
+          "link": "https://github.com/kdeldycke/awesome-falsehood",
+          "publishedOn": "2022-03-18T14:32:00.000Z",
+          "wordCount": null,
+          "title": "Falsehoods programmers believe in",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/EQ3D",
           "author": "Jerod Santo",
           "description": "John Ruble:\nOn any moderately-sized Node.js project you’ve likely already outgrown the package.json “scripts” section. But because the growth was gradual, with no single acute pain point, you might not have noticed. There’s a better way.\nI’ve never been able to get into Makefiles, but many people I respect love them. For me the syntax is too arcane, but I recognize the power. If the “scripts” section of your package.json is getting unwieldy, it might be time for a make over. (yes I went there)\nDiscuss on Changelog News",
@@ -855,41 +880,6 @@
           "wordCount": null,
           "title": "IEx in a box",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4Ee3",
-          "author": "Jerod Santo",
-          "description": "If learning from incidents grabbed your attention, here’s a good one we can all learn from:\nIt was 5:17pm today, just as I was wrapping up work for the day, and my manager pinged me with the following chat:\n<manager>: Hi Jeremy - we have a <other team> ticket - escalated to <leader>, <leader>, etc. <principal> is on trying to advise as well. Are you available this evening if needed for diagnostics? <coworker> is on the call now\nNo obligation; just checking in to see what my availability is. Quickly thinking it over – I didn’t have any plans tonight, nothing in particular on my agenda. Why not? If I can help then someone else on the team won’t have to, and I don’t have anything better to do tonight.\nThe game is afoot. It might be a long night…\nDiscuss on Changelog News",
-          "link": "https://ardentperf.com/2022/02/10/a-hairy-postgresql-incident/",
-          "publishedOn": "2022-02-17T19:46:00.000Z",
-          "wordCount": null,
-          "title": "A hairy PostgreSQL incident",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1589",
-          "author": null,
-          "description": "On this episode, Michael Matloob and Daniel Martí pinky promise not to talk about Go 1.18’s two big features (fuzzing and generics). Instead, we’re focusing in on the other cool stuff that’s new!\nDiscuss on Changelog News\nJoin Changelog++ to support our work, get closer to the metal, and make the ads disappear!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nMichael Matloob – Twitter, GitHub\nDaniel Martí – Twitter, GitHub, LinkedIn, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nDaniel’s gofumpt library\nproposal: runtime: GC pacer redesign (#44167)\nbytes, strings: add Cut (#46336)\nnet/netip: add new IP address package, use in net (#46518)\ncmd/gofmt: format files in parallel, similar to ‘go fmt’ (#43566)\ncmd/go: stamp git/vcs current HEAD hash/commit hash/dirty bit in binaries (#37475)\ncmd/go: factor version reading into debug/buildinfo (#39301)\nall: add GOAMD64 environment variable (#45453)\ntext/template: add break and continue support (#20531)\ntext/template: make and/or operators short-circuit evaluation (#31103)\ncmd/go: add a workspace mode (#45713)",
-          "link": "https://changelog.com/gotime/217",
-          "publishedOn": "2022-02-17T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 217: The *other* features in Go 1.18",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/gotime/217/go-time-217.mp3",
-            "length": "57673553",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Z3nj",
-          "author": "Jerod Santo",
-          "description": "A Svelte app that helps you mix, blend, modify, or just get the info on every color under the rainbow. 🌈\nDiscuss on Changelog News",
-          "link": "https://hue.tools/?format=hex",
-          "publishedOn": "2022-02-17T16:46:00.000Z",
-          "wordCount": null,
-          "title": "hue.tools – an open source toolbox for colors",
-          "itunes": {}
         }
       ]
     },
@@ -939,15 +929,6 @@
           "publishedOn": "2022-02-22T19:00:00.000Z",
           "wordCount": 1139,
           "title": "An intro to AI, made for students"
-        },
-        {
-          "id": "https://blog.google/inside-google/googlers/laurence-moroney-every-voice-ai/",
-          "author": null,
-          "description": "Early in his career, Laurence Moroney was working on an equation — not something related to his job in tech, but to his bank account. “At one point, I calculated I was about three weeks away from being homeless,” Laurence says. “My motivation was to put a meal on the table and keep a roof over my head.”\nToday Laurence is a developer advocate at Google focusing on artificial intelligence (AI) and machine learning (ML). “It’s my goal to inform and inspire the world about what we can do with AI and ML, and help developers realize these possibilities.” Laurence applied at Google in 2013 after hearing then-CEO Larry Page talk about Google’s vision to make the world a better place. “I was hired on my third attempt — so yes, I failed twice!”\nNow he focuses on inviting and introducing more people …",
-          "link": "https://blog.google/inside-google/googlers/laurence-moroney-every-voice-ai/",
-          "publishedOn": "2022-02-17T17:00:00.000Z",
-          "wordCount": 1543,
-          "title": "This Googler wants to ‘add every voice’ to AI"
         }
       ]
     },
@@ -1115,15 +1096,6 @@
           "publishedOn": "2022-02-21T12:15:44.256Z",
           "wordCount": 806,
           "title": "Model-based candidate generation for account recommendations"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
-          "author": null,
-          "description": "In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
-          "publishedOn": "2022-02-17T12:13:51.213Z",
-          "wordCount": 2822,
-          "title": "How we built Twitter’s highly reliable ads pacing service"
         }
       ]
     },
@@ -1252,24 +1224,6 @@
           "publishedOn": "2022-02-22T17:00:43.000Z",
           "wordCount": 771,
           "title": "GitHub Advisory Database now open to community contributions"
-        },
-        {
-          "id": "https://github.blog/?p=63340",
-          "author": "Tiferet Gazit",
-          "description": "Today we launched new code scanning analysis features powered by machine learning. The experimental analysis finds more of the most common types of vulnerabilities.",
-          "link": "https://github.blog/2022-02-17-code-scanning-finds-vulnerabilities-using-machine-learning/",
-          "publishedOn": "2022-02-17T18:00:03.000Z",
-          "wordCount": 933,
-          "title": "Code scanning finds more vulnerabilities using machine learning"
-        },
-        {
-          "id": "https://github.blog/?p=63320",
-          "author": "Tiferet Gazit",
-          "description": "A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.",
-          "link": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
-          "publishedOn": "2022-02-17T17:59:19.000Z",
-          "wordCount": 1982,
-          "title": "Leveraging machine learning to find security vulnerabilities"
         }
       ]
     },
