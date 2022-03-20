@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-19T12:15:46.908Z</updated>
+    <updated>2022-03-20T12:15:02.234Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How we built Twitter’s highly reliable ads pacing service]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service"/>
+        <updated>2022-03-20T12:14:42.129Z</updated>
+        <summary type="html"><![CDATA[In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[curl is now 24]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18648</id>
+        <link href="https://daniel.haxx.se/blog/2022/03/20/curl-is-now-24/"/>
+        <updated>2022-03-19T23:09:17.000Z</updated>
+        <summary type="html"><![CDATA[On March 20, 2022 curl turns 24 years old. Hooray.]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JS Party 217: Going full-time on Eleventy]]></title>
         <id>changelog.com/6/1605</id>
@@ -1640,79 +1660,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Internals of Go's new fuzzing system]]></title>
-        <id>changelog.com/news/JLmn</id>
-        <link href="https://jayconrod.com/posts/123/internals-of-go-s-new-fuzzing-system"/>
-        <updated>2022-02-18T19:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Not much has been written yet on how Go’s fuzzing system actually works, so I’ll talk a bit about that here. If you’d like to try it out, Getting started with fuzzing is a great tutorial.
-Jay Conrod worked on Go 1.18’s fuzzing feature, so there’s very few people who could write a post as detailed and accurate as this. He also discussed fuzzing in detail with us on Go Time #187.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 213: Playing it close to the Vest]]></title>
-        <id>changelog.com/6/1577</id>
-        <link href="https://changelog.com/jsparty/213"/>
-        <updated>2022-02-18T18:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Holla! This week we’re playing Story of the Week and Today I Learned before turning our focus to Vest – a very cool validations framework created by Evyatar Alush.
-Discuss on Changelog News
-Join Changelog++ to support our work, get closer to the metal, and make the ads disappear!
-Sponsors
-GatsbyConf 2022 – (March 2nd and 3rd) this conference is totally free and totally virtual so everyone can join. Day 1 is talks and day 2 is workshops —hear from Gatsby co-founders and leadership on speed improvements to the build system, incremental architecture, the latest on Gatsby Cloud, announcements and more. Chris Coyier kicks off day 1 with the Keynote. Register at gatsbyconf.com
-
-    
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to perfor…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Melody is a language that compiles to regular expressions]]></title>
-        <id>changelog.com/news/zgYD</id>
-        <link href="https://github.com/yoav-lavi/melody"/>
-        <updated>2022-02-18T16:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Regular expressions aren’t easy to write, but they’re especially hard to read. This project is yet another attempt to make them more readable and maintainable. The aim is to create a new language that compiles to regexen so we don’t have to write them directly.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IEx in a box]]></title>
-        <id>changelog.com/news/8OJO</id>
-        <link href="https://cone.codes/posts/iex-in-a-box/"/>
-        <updated>2022-02-18T15:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Connor Rigby shows us how easy it is to embed Elixir’s IEx console like they do with Nerves.
-As is customary around these parts, we aren’t going to write much code. Just glue it together. First up, we’ll need a handful of dependencies.
-Plug, Cowboy, and extty do all the heavy lifting.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rapid Event Notification System at Netflix]]></title>
-        <id>https://medium.com/p/6deb1d2b57d1</id>
-        <link href="https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1?source=rss----2615bd06b42e---4"/>
-        <updated>2022-02-18T15:30:24.000Z</updated>
-        <summary type="html"><![CDATA[This blog post gives an overview of the Rapid Event Notification System at Netflix and shares some of the learnings gained while building it]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A frustrating month for markets]]></title>
-        <id>https://marketradar.substack.com/p/a-frustrating-month-for-markets</id>
-        <link href="https://marketradar.substack.com/p/a-frustrating-month-for-markets"/>
-        <updated>2022-02-18T15:15:56.000Z</updated>
-        <summary type="html"><![CDATA[No signs of recovery for equities]]></summary>
-        <author>
-            <name>Market Radar</name>
         </author>
     </entry>
 </feed>
