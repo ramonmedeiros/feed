@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-21T12:21:26.735Z</updated>
+    <updated>2022-03-22T12:16:42.048Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A headers API for libcurl]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18644</id>
+        <link href="https://daniel.haxx.se/blog/2022/03/22/a-headers-api-for-libcurl/"/>
+        <updated>2022-03-22T08:00:22.000Z</updated>
+        <summary type="html"><![CDATA[For many years we’ve had this outstanding idea to add a new API to libcurl that would offer applications easy access to HTTP response headers. Applications could already retrieve the headers using existing methods but that requires them to write a callback and to a certain amount of parsing and “understanding” HTTP that we always … Continue reading A headers API for libcurl →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trevlig Mjukvara]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18519</id>
+        <link href="https://daniel.haxx.se/blog/2022/03/22/trevlig-mjukvara/"/>
+        <updated>2022-03-21T23:04:24.000Z</updated>
+        <summary type="html"><![CDATA[It was a while since I last spoke Swedish on a podcast. I joined the friendly hosts Sebastian and Alex of the Trevlig Mjukvara (translates to something like “Nice Software”) podcast and we talked software development, open source, curl, Mozilla and a few other topics for an hour. I had a great time. (We had … Continue reading Trevlig Mjukvara →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Start working on GitHub Issues faster]]></title>
+        <id>https://github.blog/?p=63473</id>
+        <link href="https://github.blog/2022-03-21-start-working-on-github-issues-faster/"/>
+        <updated>2022-03-21T21:20:42.000Z</updated>
+        <summary type="html"><![CDATA[You can now create a branch to work on an issue directly from the issue page so that it's easier to get started right away.]]></summary>
+        <author>
+            <name>Daniel Adams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Validate all the things: improve your security with input validation!]]></title>
+        <id>https://github.blog/?p=63602</id>
+        <link href="https://github.blog/2022-03-21-validate-all-things-input-validation/"/>
+        <updated>2022-03-21T17:41:59.000Z</updated>
+        <summary type="html"><![CDATA[If there's one habit that can make software more secure, it's probably input validation. Here's how to apply OWASP Proactive Control C5 (Validate All Inputs) to your code.]]></summary>
+        <author>
+            <name>Jaroslav Lobacevski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is progressive enhancement dead yet?]]></title>
+        <id>changelog.com/news/X6jd</id>
+        <link href="https://www.youtube.com/watch?v=mDf7OUJobJs"/>
+        <updated>2022-03-21T14:57:00.000Z</updated>
+        <summary type="html"><![CDATA[You’ll either love the humor laced throughout this YT video by Heydon Pickering… or you’ll hate it. Here’s a litmus test: does this quote tickle your funny bone at all?
+But just like that time you whacked a zombie over the head with a shovel only to discover it was really your friend Jimmy with a hangover, this would be a grave mistake. And I use the term ‘grave’ advisedly, because having sent Jimmy to an early grave, this would increase the likelihood of him becoming a zombie in the not too distant future.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Decrypting your own HTTPS traffic with Wireshark]]></title>
+        <id>changelog.com/news/wk44</id>
+        <link href="https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/"/>
+        <updated>2022-03-21T14:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Wireshark is a seriously cool piece of software for packet sniffing and analysis. Why might you want to use it on yourself?
+This opens up possibilities to not only reverse engineer web app private APIs in a deeper way, but also to do the same kind of research against desktop apps for purposes such as data scraping, automation, vulnerability research and privacy analysis.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Plaintext productivity on Windows]]></title>
+        <id>changelog.com/news/d3DZ</id>
+        <link href="https://plaintext-productivity.net/"/>
+        <updated>2022-03-21T13:20:00.000Z</updated>
+        <summary type="html"><![CDATA[This guide is meant to document the things I have done, the software I have used, and the decisions I have made to be really fast and really well-organized at work, and to help prioritize and maintain focus on my current activities. One key decision, made for speed above all else, is to capture as much of my thinking and work in plaintext as I can. Thus the name: Plaintext Productivity
+This article speaks my language, but does so to a corner of the software world that I don’t visit too often: Windows
+Windows is a critical element in this system because it is hard to find good productivity software that runs on Windows, especially if you want to run it outside of a web browser. Windows, in my opinion, is far behind Mac OS X, iOS, and Android, in having thoughtfully designed and efficient software—both in general, and in particular for writing, organization, and task management
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How we built Twitter’s highly reliable ads pacing service]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service</id>
