@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-22T12:16:42.048Z</updated>
+    <updated>2022-03-23T12:17:24.140Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Anatomy of a ghost CVE]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18653</id>
+        <link href="https://daniel.haxx.se/blog/2022/03/23/anatomy-of-a-ghost-cve/"/>
+        <updated>2022-03-23T09:44:09.000Z</updated>
+        <summary type="html"><![CDATA[“The Lord giveth and the Lord taketh away.” Job 1:21 On March 16 2022, the curl security team received an email in which the reporter highlighted an Apple web page. What can you tell us about this? I hadn’t seen it before. On this page with the title “About the security content of macOS Monterey … Continue reading Anatomy of a ghost CVE →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving your GitHub feed]]></title>
+        <id>https://github.blog/?p=63729</id>
+        <link href="https://github.blog/2022-03-22-improving-your-github-feed/"/>
+        <updated>2022-03-22T23:47:44.000Z</updated>
+        <summary type="html"><![CDATA[Today, we are rolling out a new beta version of GitHub’s home feed, making it easier to discover projects, developers and more across GitHub.]]></summary>
+        <author>
+            <name>Bruce Williams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the GHES repository cache]]></title>
+        <id>https://github.blog/?p=63715</id>
+        <link href="https://github.blog/2022-03-22-introducing-the-ghes-repository-cache/"/>
+        <updated>2022-03-22T17:48:06.000Z</updated>
+        <summary type="html"><![CDATA[If you're a GHES customer with heavy read traffic on your monorepo, check out the repository cache, especially if you have CI workloads distributed around the world.]]></summary>
+        <author>
+            <name>Matt Cooper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Margaret Hamilton recalls her life as a programming pioneer]]></title>
+        <id>changelog.com/news/gd26</id>
+        <link href="https://thenewstack.io/nasa-programming-legend-margaret-hamilton-gives-rare-interview/"/>
+        <updated>2022-03-22T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The New Stack overviews a recently published 2017 (3-hours long) interview with the living legend, who rarely speaks publicly about herself:
+Hamilton remembered being the only woman in her college physics class — “And at the time, I think the professor thought women should not be taking physics because he  … well, you have to know the times.”
+She added, “That was the only time somebody in college questioned that that might not be something I would be able to make use of.”
+But Hamilton remained undeterred: “I just said, ‘Because I want to take it,’ you know.”
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A headers API for libcurl]]></title>
         <id>https://daniel.haxx.se/blog/?p=18644</id>
@@ -1655,89 +1699,6 @@ Since so many people make the Airtable comparison that I did in the headline, th
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fomir – a schema-first library for building forms]]></title>
-        <id>changelog.com/news/d3nl</id>
-        <link href="https://github.com/forsigner/fomir"/>
-        <updated>2022-02-21T17:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Why create another form library? Here’s what Fomir’s author says to that:
-I have tried many form libraries, like redux-form, formik, final-form, react-hook-form… None of them suit my taste. I would expect a forms library with these features:
-Using schema
-Easy to update form state
-High Performance
-More abstract
-Fomir create form by passing a form schema which is a JSON tree. the form schema is very flexible, you can create any form by the schema.
-I could see this as especially useful for form builders and similar tools where you’re providing a graphical way to build forms because your backend would just have to emit the correct JSON and let Fomir take it from there.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Times are great for programmers now. How does it end?]]></title>
-        <id>changelog.com/news/j5wl</id>
-        <link href="https://vaghetti.dev/posts/times-are-great/"/>
-        <updated>2022-02-21T16:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Douglas Vaghetti:
-It is a good time to be in tech right now: soaring salaries, daily LinkedIn recruiter spam, people bootcamping their way into career switches to tech, remote work allowing you to work for a major tech company making triple digit salaries from the beach. It really feels like every single company is trying to recruit programmers nowadays, and doing whatever they can to get them.
-I’m certainly happy with the current state of affairs, but I can’t help but wonder: How does it end?
-Will supply go up via a mass influx of people switching careers? Will demand go down via AI and newly created no-code/low-code alternatives? Time will tell. But for now, some food for thought.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Git-compatible DVCS that is both simple and powerful]]></title>
-        <id>changelog.com/news/EQl2</id>
-        <link href="https://github.com/martinvonz/jj"/>
-        <updated>2022-02-21T15:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Jujutsu (jj at your CLI) combines features from popular distributed version controls systems (Git, Mercurial, Darcs) with features not found in any of them, such as:
-working-copy-as-commit
-undo functionality
-automatic rebase
-safe replication via rsync/Dropbox/etc
-And since it’s Git-compatible, adoption should be a breeze.
-Jujutsu has two backends. One of them is a Git backend (the other is a native one). This lets you use Jujutsu as an alternative interface to Git. The commits you create will look like regular Git commits. You can always switch back to Git.
-I’ve often wondered what will come next after Git. I’m not saying this is that thing, but it’s cool to see people working on the problem.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Returning values and errors]]></title>
-        <id>changelog.com/news/LpND</id>
-        <link href="https://rachelbythebay.com/w/2022/02/20/return/"/>
-        <updated>2022-02-21T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you agree with the notion that you need to be able to tell the difference between the absence of a value and a value itself, then this has some impacts on the code you write. If you want to keep ’em separated (so they can come out and play), then it gets you looking at your API designs in certain ways.
-These are my reactions to some of the ways a value can be returned (or not).
-Before you head off to read Rachel’s post, allow me to close the loop on that Offspring reference for those of us who didn’t grow up in the 90’s.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Investing in privacy enhancing tech to advance transparency in ML]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML"/>
-        <updated>2022-02-21T12:15:44.283Z</updated>
-        <summary type="html"><![CDATA[We’re investing in privacy-enhancing technologies (PET) to pioneer new methods of public accountability and access to data in a manner that respects and protects the privacy of people on Twitter.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Model-based candidate generation for account recommendations]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations"/>
-        <updated>2022-02-21T12:15:44.256Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>

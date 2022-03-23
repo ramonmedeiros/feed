@@ -37,6 +37,16 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/gd26",
+          "author": "Jerod Santo",
+          "description": "The New Stack overviews a recently published 2017 (3-hours long) interview with the living legend, who rarely speaks publicly about herself:\nHamilton remembered being the only woman in her college physics class — “And at the time, I think the professor thought women should not be taking physics because he  … well, you have to know the times.”\nShe added, “That was the only time somebody in college questioned that that might not be something I would be able to make use of.”\nBut Hamilton remained undeterred: “I just said, ‘Because I want to take it,’ you know.”\nDiscuss on Changelog News",
+          "link": "https://thenewstack.io/nasa-programming-legend-margaret-hamilton-gives-rare-interview/",
+          "publishedOn": "2022-03-22T13:30:00.000Z",
+          "wordCount": null,
+          "title": "Margaret Hamilton recalls her life as a programming pioneer",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/X6jd",
           "author": "Jerod Santo",
           "description": "You’ll either love the humor laced throughout this YT video by Heydon Pickering… or you’ll hate it. Here’s a litmus test: does this quote tickle your funny bone at all?\nBut just like that time you whacked a zombie over the head with a shovel only to discover it was really your friend Jimmy with a hangover, this would be a grave mistake. And I use the term ‘grave’ advisedly, because having sent Jimmy to an early grave, this would increase the likelihood of him becoming a zombie in the not too distant future.\n\nDiscuss on Changelog News",
@@ -825,46 +835,6 @@
           "wordCount": null,
           "title": "Grist is a lot like Airtable, but open source and more customizable",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/d3nl",
-          "author": "Jerod Santo",
-          "description": "Why create another form library? Here’s what Fomir’s author says to that:\nI have tried many form libraries, like redux-form, formik, final-form, react-hook-form… None of them suit my taste. I would expect a forms library with these features:\nUsing schema\nEasy to update form state\nHigh Performance\nMore abstract\nFomir create form by passing a form schema which is a JSON tree. the form schema is very flexible, you can create any form by the schema.\nI could see this as especially useful for form builders and similar tools where you’re providing a graphical way to build forms because your backend would just have to emit the correct JSON and let Fomir take it from there.\nDiscuss on Changelog News",
-          "link": "https://github.com/forsigner/fomir",
-          "publishedOn": "2022-02-21T17:24:00.000Z",
-          "wordCount": null,
-          "title": "Fomir – a schema-first library for building forms",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/j5wl",
-          "author": "Jerod Santo",
-          "description": "Douglas Vaghetti:\nIt is a good time to be in tech right now: soaring salaries, daily LinkedIn recruiter spam, people bootcamping their way into career switches to tech, remote work allowing you to work for a major tech company making triple digit salaries from the beach. It really feels like every single company is trying to recruit programmers nowadays, and doing whatever they can to get them.\nI’m certainly happy with the current state of affairs, but I can’t help but wonder: How does it end?\nWill supply go up via a mass influx of people switching careers? Will demand go down via AI and newly created no-code/low-code alternatives? Time will tell. But for now, some food for thought.\nDiscuss on Changelog News",
-          "link": "https://vaghetti.dev/posts/times-are-great/",
-          "publishedOn": "2022-02-21T16:35:00.000Z",
-          "wordCount": null,
-          "title": "Times are great for programmers now. How does it end?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/EQl2",
-          "author": "Jerod Santo",
-          "description": "Jujutsu (jj at your CLI) combines features from popular distributed version controls systems (Git, Mercurial, Darcs) with features not found in any of them, such as:\nworking-copy-as-commit\nundo functionality\nautomatic rebase\nsafe replication via rsync/Dropbox/etc\nAnd since it’s Git-compatible, adoption should be a breeze.\nJujutsu has two backends. One of them is a Git backend (the other is a native one). This lets you use Jujutsu as an alternative interface to Git. The commits you create will look like regular Git commits. You can always switch back to Git.\nI’ve often wondered what will come next after Git. I’m not saying this is that thing, but it’s cool to see people working on the problem.\nDiscuss on Changelog News",
-          "link": "https://github.com/martinvonz/jj",
-          "publishedOn": "2022-02-21T15:46:00.000Z",
-          "wordCount": null,
-          "title": "A Git-compatible DVCS that is both simple and powerful",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/LpND",
-          "author": "Jerod Santo",
-          "description": "If you agree with the notion that you need to be able to tell the difference between the absence of a value and a value itself, then this has some impacts on the code you write. If you want to keep ’em separated (so they can come out and play), then it gets you looking at your API designs in certain ways.\nThese are my reactions to some of the ways a value can be returned (or not).\nBefore you head off to read Rachel’s post, allow me to close the loop on that Offspring reference for those of us who didn’t grow up in the 90’s.\nDiscuss on Changelog News",
-          "link": "https://rachelbythebay.com/w/2022/02/20/return/",
-          "publishedOn": "2022-02-21T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Returning values and errors",
-          "itunes": {}
         }
       ]
     },
@@ -922,6 +892,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=18653",
+          "author": "Daniel Stenberg",
+          "description": "“The Lord giveth and the Lord taketh away.” Job 1:21 On March 16 2022, the curl security team received an email in which the reporter highlighted an Apple web page. What can you tell us about this? I hadn’t seen it before. On this page with the title “About the security content of macOS Monterey … Continue reading Anatomy of a ghost CVE →",
+          "link": "https://daniel.haxx.se/blog/2022/03/23/anatomy-of-a-ghost-cve/",
+          "publishedOn": "2022-03-23T09:44:09.000Z",
+          "wordCount": 1415,
+          "title": "Anatomy of a ghost CVE"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=18644",
           "author": "Daniel Stenberg",
@@ -1099,24 +1078,6 @@
           "publishedOn": "2022-03-01T12:20:26.016Z",
           "wordCount": 1622,
           "title": "Data transfer in Manhattan using RocksDB"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
-          "author": null,
-          "description": "We’re investing in privacy-enhancing technologies (PET) to pioneer new methods of public accountability and access to data in a manner that respects and protects the privacy of people on Twitter.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
-          "publishedOn": "2022-02-21T12:15:44.283Z",
-          "wordCount": 833,
-          "title": "Investing in privacy enhancing tech to advance transparency in ML"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
-          "author": null,
-          "description": "In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
-          "publishedOn": "2022-02-21T12:15:44.256Z",
-          "wordCount": 806,
-          "title": "Model-based candidate generation for account recommendations"
         }
       ]
     },
@@ -1165,6 +1126,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=63729",
+          "author": "Bruce Williams",
+          "description": "Today, we are rolling out a new beta version of GitHub’s home feed, making it easier to discover projects, developers and more across GitHub.",
+          "link": "https://github.blog/2022-03-22-improving-your-github-feed/",
+          "publishedOn": "2022-03-22T23:47:44.000Z",
+          "wordCount": 609,
+          "title": "Improving your GitHub feed"
+        },
+        {
+          "id": "https://github.blog/?p=63715",
+          "author": "Matt Cooper",
+          "description": "If you're a GHES customer with heavy read traffic on your monorepo, check out the repository cache, especially if you have CI workloads distributed around the world.",
+          "link": "https://github.blog/2022-03-22-introducing-the-ghes-repository-cache/",
+          "publishedOn": "2022-03-22T17:48:06.000Z",
+          "wordCount": 818,
+          "title": "Introducing the GHES repository cache"
+        },
         {
           "id": "https://github.blog/?p=63473",
           "author": "Daniel Adams",
