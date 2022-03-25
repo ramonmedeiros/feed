@@ -13,15 +13,6 @@
           "publishedOn": "2022-03-10T18:33:00.002Z",
           "wordCount": 1885,
           "title": "What's up with in-the-wild exploits? Plus, what we're doing about it."
-        },
-        {
-          "id": "http://security.googleblog.com/2022/02/mitigating-kernel-risks-on-32-bit-arm.html",
-          "author": null,
-          "description": "Posted by Ard Biesheuvel, Google Open Source Security Team \n\nLinux kernel support for the 32-bit ARM architecture was contributed in the late 90s, when there was little corporate involvement in Linux development, and most contributors were students or hobbyists, tinkering with development boards, often without much in the way of documentation.\n\n\nNow 20+ years later, 32-bit ARM's maintainer has downgraded its support level to 'odd fixes,' while remaining active as a kernel contributor. This is a common pattern for aging and obsolete architectures: corporate funding for Linux kernel development has tremendously increased the pace of development, but only for architectures with a high return on investment. As a result, the 32-bit ARM port of Linux is essentially in maintenance-only mode, and …",
-          "link": "http://security.googleblog.com/2022/02/mitigating-kernel-risks-on-32-bit-arm.html",
-          "publishedOn": "2022-02-23T17:00:00.012Z",
-          "wordCount": 1805,
-          "title": "Mitigating kernel risks on 32-bit ARM"
         }
       ]
     },
@@ -800,51 +791,6 @@
             "length": "55588341",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/Gb65",
-          "author": "Jerod Santo",
-          "description": "I love this idea by Simon Willison:\nI think I’ve come up with a novel hack for the challenge of getting your company to financially support the open source projects that it uses: reach out to the maintainers and offer them generous speaking fees for remote talks to your engineering team.\nIt won’t work for every person and situation, but we should add it to our arsenal of ways to return economic value back to the maintainers of our open source infrastructure.\nDiscuss on Changelog News",
-          "link": "https://simonwillison.net/2022/Feb/23/support-open-source/",
-          "publishedOn": "2022-02-23T22:27:00.000Z",
-          "wordCount": null,
-          "title": "Support open source that you use by paying the maintainers to talk to your team",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eZ01",
-          "author": "Jerod Santo",
-          "description": "Last year, TikTokker Avery Steeves posted a video asking why no one talks about how there’s an entire generation of teenage girls who taught themselves to code HTML on Tumblr. “People are like, ‘Oh, there’s no girls in STEM,’” she says, imitating the faceless internet mob. “No, there were! They were just making pale blogs.”\nOK so we don’t usually link to Mashable (first time ever?), but this was cool news to me, so I thought it was worth passing along. Long live HTML!\nDiscuss on Changelog News",
-          "link": "https://mashable.com/article/tumblr-girl-learn-code",
-          "publishedOn": "2022-02-23T21:38:00.000Z",
-          "wordCount": null,
-          "title": "How Tumblr taught young women to code",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RR7g",
-          "author": "Jerod Santo",
-          "description": "Straight from the NGINX team:\nWhen we help NGINX users who are having problems, we often see the same configuration mistakes we’ve seen over and over in other users’ configurations – sometimes even in configurations written by fellow NGINX engineers! In this blog we look at 10 of the most common errors, explaining what’s wrong and how to fix it.\nDiscuss on Changelog News",
-          "link": "https://www.nginx.com/blog/avoiding-top-10-nginx-configuration-mistakes/",
-          "publishedOn": "2022-02-23T20:51:00.000Z",
-          "wordCount": null,
-          "title": "Avoiding the top NGINX configuration mistakes",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1549",
-          "author": null,
-          "description": "In today’s episode, Gerhard is talking to Mauricio Salatino (@salaboy) about the Continuous Delivery for Kubernetes book that he is currently writing.\nMauricio is a Staff Engineer at VMware where he spends most of his time contributing to Knative, an open source platform for running serverless workloads on Kubernetes. Gerhard & Mauricio spent a few months in 2021 working on Knative Eventing, and they both appreciate shipping great software continuously. Mauricio helped ship Knative 1.0.\nThe from-monolith-to-k8s application used throughout this book has been a few years in the making. It doubles-up as a workshop-style guide for rearchitecting a Java monolith to a Cloud Native architecture running in Kubernetes.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode bec…",
-          "link": "https://changelog.com/shipit/41",
-          "publishedOn": "2022-02-23T12:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 41: Continuous Delivery for Kubernetes",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/41/ship-it-41.mp3",
-            "length": "63617911",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -859,6 +805,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/health/check-up-ai-developments-2022/",
+          "author": null,
+          "description": "Over the years, teams across Google have focused on how technology — specifically artificial intelligence and hardware innovations — can improve access to high-quality, equitable healthcare across the globe.\nAccessing the right healthcare can be challenging depending on where people live and whether local caregivers have specialized equipment or training for tasks like disease screening. To help, Google Health has expanded its research and applications to focus on improving the care clinicians provide and allow care to happen outside hospitals and doctor’s offices.\nToday, at our Google Health event The Check Up, we’re sharing new areas of AI-related research and development and how we’re providing clinicians with easy-to-use tools to help them better care for patients. Here’s a look at som…",
+          "link": "https://blog.google/technology/health/check-up-ai-developments-2022/",
+          "publishedOn": "2022-03-24T16:00:00.000Z",
+          "wordCount": 1498,
+          "title": "The Check Up: our latest health AI developments"
+        },
         {
           "id": "https://blog.google/inside-google/googlers/meet-3-women-who-test-google-products-fairness/",
           "author": null,
@@ -893,6 +848,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=18690",
+          "author": "Daniel Stenberg",
+          "description": "This is a recorded online presentation about curl that I did today, March 24 2022. How it started, grew, where it is today, how we make it and where it perhaps might go in the future. The slides are available.",
+          "link": "https://daniel.haxx.se/blog/2022/03/24/let-me-tell-you-about-curl/",
+          "publishedOn": "2022-03-24T21:52:39.000Z",
+          "wordCount": 288,
+          "title": "Let me tell you about curl"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=18726",
           "author": "Daniel Stenberg",
@@ -1113,13 +1077,32 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2022/03/racing-against-clock-hitting-tiny.html",
+          "author": null,
+          "description": ".lst-kix_oh8g77k3z2ge-8>li:before{content:\"\\0025a0  \"}ol.lst-kix_94mysn7p9quk-2.start{counter-reset:lst-ctn-kix_94mysn7p9quk-2 0}.lst-kix_94mysn7p9quk-5>li{counter-increment:lst-ctn-kix_94mysn7p9quk-5}.lst-kix_oh8g77k3z2ge-6>li:before{content:\"\\0025cf  \"}ol.lst-kix_94mysn7p9quk-7{list-style-type:none}ol.lst-kix_94mysn7p9quk-6{list-style-type:none}.lst-kix_oh8g77k3z2ge-7>li:before{content:\"\\0025cb  \"}ol.lst-kix_94mysn7p9quk-8{list-style-type:none}.lst-kix_oh8g77k3z2ge-4>li:before{content:\"\\0025cb  \"}ol.lst-kix_94mysn7p9quk-3{list-style-type:none}ol.lst-kix_94mysn7p9quk-2{list-style-type:none}ol.lst-kix_94mysn7p9quk-5{list-style-type:none}ol.lst-kix_94mysn7p9quk-4{list-style-type:none}.lst-kix_oh8g77k3z2ge-5>li:before{content:\"\\0025a0  \"}ol.lst-kix_94mysn7p9quk-1{list-style-type:none}ol.lst-…",
+          "link": "https://googleprojectzero.blogspot.com/2022/03/racing-against-clock-hitting-tiny.html",
+          "publishedOn": "2022-03-24T20:51:00.001Z",
+          "wordCount": 6864,
+          "title": "Racing against the clock -- hitting a tiny kernel race window"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=47744",
+          "author": "Hermina",
+          "description": "MDN is one of the most trusted resources for information about web standards, code samples, tools, and everything you need as a developer to create websites. Today, we are launching MDN Plus, our first step to providing a personalized and more powerful experience while continuing to invest in our always free and open webdocs.\nThe post Introducing MDN Plus: Make MDN your own appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/03/introducing-mdn-plus-make-mdn-your-own/",
+          "publishedOn": "2022-03-24T16:00:29.000Z",
+          "wordCount": 893,
+          "title": "Introducing MDN Plus: Make MDN your own"
+        },
         {
           "id": "https://hacks.mozilla.org/?p=47707",
           "author": "Hermina",
@@ -1252,24 +1235,6 @@
           "publishedOn": "2022-03-02T21:56:01.000Z",
           "wordCount": 918,
           "title": "Our response to the war in Ukraine"
-        },
-        {
-          "id": "https://github.blog/?p=63444",
-          "author": "Ben De St Paer-Gotch",
-          "description": "Explore and understand your overall GitHub-hosted Actions runner capacity with the new runner view.",
-          "link": "https://github.blog/2022-02-23-new-way-understand-github-hosted-runner-capacity/",
-          "publishedOn": "2022-02-23T19:54:16.000Z",
-          "wordCount": 394,
-          "title": "A new way to understand your GitHub-hosted runner capacity"
-        },
-        {
-          "id": "https://github.blog/?p=63238",
-          "author": "Tanmayee Kamath",
-          "description": "The ability to prebuild codespaces is entering public beta. Enable fast environment creation times, regardless of the size and complexity of your repositories.",
-          "link": "https://github.blog/2022-02-23-codespaces-largest-repositories-faster/",
-          "publishedOn": "2022-02-23T18:10:01.000Z",
-          "wordCount": 1014,
-          "title": "Codespaces for the largest repositories just got faster"
         }
       ]
     },
