@@ -781,41 +781,6 @@
             "length": "60960681",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/6/1559",
-          "author": null,
-          "description": "Kent and our panelists dive deep on the hottest new React framework: Remix. What it does today, what makes it special, how it lured Kent away from a lucrative independent teaching career, and what’s coming up next.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “JS Party” to receive an extra 5,000 video minutes.\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFeaturing\nKent C. Dodds – Twitter, GitHub, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nAli Spittel – Twitter, GitHub, LinkedIn, Website\nDivya – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nRemix Vs Next\nFly.io\nJSParty #119 Redwood brings full-stack to the JAMstack\nRemix Quickstart\nRemix Deep Dive\nRemix Discord\nReact Server Components and Remix\nA better idea would be to replace / improve the fetch spec\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/215",
-          "publishedOn": "2022-03-04T19:40:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 215: Remix helps bridge the network chasm",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/215/js-party-215.mp3",
-            "length": "70477151",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/038D",
-          "author": "Jerod Santo",
-          "description": "Bhupesh Varshney:\nA lot of folks looking how to get started on open source are given very generic advice on how to approach their first contribution. In this newsletter issue I share one specific actionable item.\nHis secret tip? Solve static analyzer issues. There, I saved you a click. Unless you’re not sure what he means by that or want his advice on how to actually get that done…\nDiscuss on Changelog News",
-          "link": "https://buttondown.email/bhupesh/archive/one-secret-tip-for-first-time-oss-contributors/",
-          "publishedOn": "2022-03-04T15:50:00.000Z",
-          "wordCount": null,
-          "title": "One secret tip for first-time OSS contributors 🤫",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3YJJ",
-          "author": "Jerod Santo",
-          "description": "So Argc is a little Rust program that your bash scripts can use to make handling command-line parameters easy. You describe the options, parameters, and subcommands in comments like this:\n# @describe A demo cli\n\n# @cmd Upload a file\n# @arg target!                      File to upload\nupload() {\n    echo \"cmd                       upload\"\n    echo \"arg:  target              $argc_target\"\n}\n\nThen you trust Argc to parse that and do the heavy lifting:\neval \"$(argc -e $0 \"$@\")\"\n\nThe only drawback (aside from potential parsing bugs) to this approach is your script now depends on having argc in the machine’s executable path. i.e. – it’s not portable.\nWhat’d be even cooler, IMHO, would be to instead use argc as a pre-processor of sorts that spits out a pure-bash implementation from your input script. Regardless, a cool idea!\nDiscuss on Changelog News",
-          "link": "https://github.com/sigoden/argc",
-          "publishedOn": "2022-03-04T15:01:00.000Z",
-          "wordCount": null,
-          "title": "A handy way to handle sh/bash CLI parameters",
-          "itunes": {}
         }
       ]
     },
@@ -1024,6 +989,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d",
+          "author": null,
+          "description": "Twitter Notebook is Twitter’s internal notebook solution. It provides a first-class development environment to Data Scientist and Machine Learning practitioners at Twitter. This blog shares features o",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d",
+          "publishedOn": "2022-04-03T12:15:30.230Z",
+          "wordCount": 2822,
+          "title": "Advancing Jupyter Notebooks at Twitter - Part 1"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
           "author": null,
@@ -1364,15 +1338,6 @@
           "publishedOn": "2022-03-08T18:00:00.000Z",
           "wordCount": 2134,
           "title": "Shifting Left with Ethical Hackers: A Q&A with GitLab"
-        },
-        {
-          "id": "https://hackerone.com/donating-bounties-humanitarian-efforts-ukraine",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/donating-bounties-humanitarian-efforts-ukraine",
-          "publishedOn": "2022-03-04T01:35:23.000Z",
-          "wordCount": 901,
-          "title": "Donating Bounties to Humanitarian Efforts in Ukraine"
         }
       ]
     },
@@ -1461,21 +1426,6 @@
             "length": "0",
             "type": "image/jpeg"
           }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/war-inflation-can-lead-to-stagflation",
-          "author": "Market Radar",
-          "description": "A real risk for the foreseeable future",
-          "link": "https://marketradar.substack.com/p/war-inflation-can-lead-to-stagflation",
-          "publishedOn": "2022-03-04T14:15:31.000Z",
-          "wordCount": null,
-          "title": "War + inflation can lead to stagflation",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26728c10-80b6-4c1d-a6b5-83c865c3dd4c_924x661.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
         }
       ]
     },
@@ -1490,6 +1440,906 @@
       "feedUrl": "https://simplywall.st/news/rss",
       "siteUrl": "https://simplywall.st/news",
       "articles": [
+        {
+          "id": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-imcr/immunocore-holdings/news/immunocore-holdings-nasdaqimcr-shareholders-are-up-88-this-p",
+          "author": "Simply Wall St",
+          "description": "Immunocore Holdings plc ( NASDAQ:IMCR ) shareholders will doubtless be very grateful to see the share price up 38% in...",
+          "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-imcr/immunocore-holdings/news/immunocore-holdings-nasdaqimcr-shareholders-are-up-88-this-p",
+          "publishedOn": "2022-04-03T17:14:26.000Z",
+          "wordCount": 830,
+          "title": "Immunocore Holdings (NASDAQ:IMCR) shareholders are up 8.8% this past week, but still in the red over the last year"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/telecom/nasdaq-lila/liberty-latin-america/news/trade-alert-the-senior-vp-of-liberty-latin-america-ltd-nasda",
+          "author": "Simply Wall St",
+          "description": "We'd be surprised if Liberty Latin America Ltd. ( NASDAQ:LILA ) shareholders haven't noticed that the Senior VP, John...",
+          "link": "https://simplywall.st/stocks/us/telecom/nasdaq-lila/liberty-latin-america/news/trade-alert-the-senior-vp-of-liberty-latin-america-ltd-nasda",
+          "publishedOn": "2022-04-03T17:14:13.000Z",
+          "wordCount": 855,
+          "title": "Trade Alert: The Senior VP Of Liberty Latin America Ltd. (NASDAQ:LILA), John Winter, Has Sold Some Shares Recently"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-sabs/sab-biotherapeutics/news/sab-biotherapeutics-nasdaqsabs-shareholders-are-up-77-this-p",
+          "author": "Simply Wall St",
+          "description": "SAB Biotherapeutics, Inc. ( NASDAQ:SABS ) shareholders will doubtless be very grateful to see the share price up 77% in...",
+          "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-sabs/sab-biotherapeutics/news/sab-biotherapeutics-nasdaqsabs-shareholders-are-up-77-this-p",
+          "publishedOn": "2022-04-03T17:12:12.000Z",
+          "wordCount": 875,
+          "title": "SAB Biotherapeutics (NASDAQ:SABS) shareholders are up 77% this past week, but still in the red over the last year"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/automobiles/nyse-lcii/lci-industries/news/the-independent-director-of-lci-industries-nyselcii-james-ge",
+          "author": "Simply Wall St",
+          "description": "Those following along with LCI Industries ( NYSE:LCII ) will no doubt be intrigued by the recent purchase of shares by...",
+          "link": "https://simplywall.st/stocks/us/automobiles/nyse-lcii/lci-industries/news/the-independent-director-of-lci-industries-nyselcii-james-ge",
+          "publishedOn": "2022-04-03T17:11:07.000Z",
+          "wordCount": 861,
+          "title": "The Independent Director of LCI Industries (NYSE:LCII), James Gero, Just Bought 3.3% More Shares"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/software/nasdaq-mstr/microstrategy/news/microstrategy-nasdaqmstr-shareholder-returns-have-been-splen",
+          "author": "Simply Wall St",
+          "description": "It might seem bad, but the worst that can happen when you buy a stock (without leverage) is that its share price goes...",
+          "link": "https://simplywall.st/stocks/us/software/nasdaq-mstr/microstrategy/news/microstrategy-nasdaqmstr-shareholder-returns-have-been-splen",
+          "publishedOn": "2022-04-03T17:09:58.000Z",
+          "wordCount": 873,
+          "title": "MicroStrategy (NASDAQ:MSTR) shareholder returns have been splendid, earning 235% in 3 years"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/materials/nasdaq-kalu/kaiser-aluminum/news/this-insider-has-just-sold-shares-in-kaiser-aluminum-corpora-1",
+          "author": "Simply Wall St",
+          "description": "Investors may wish to note that the Independent Director of Kaiser Aluminum Corporation , Leo Gerard, recently netted...",
+          "link": "https://simplywall.st/stocks/us/materials/nasdaq-kalu/kaiser-aluminum/news/this-insider-has-just-sold-shares-in-kaiser-aluminum-corpora-1",
+          "publishedOn": "2022-04-03T17:07:55.000Z",
+          "wordCount": 777,
+          "title": "This Insider Has Just Sold Shares In Kaiser Aluminum Corporation (NASDAQ:KALU)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/banks/nyse-hth/hilltop-holdings/news/do-insiders-own-lots-of-shares-in-hilltop-holdings-inc-nyseh",
+          "author": "Simply Wall St",
+          "description": "If you want to know who really controls Hilltop Holdings Inc. ( NYSE:HTH ), then you'll have to look at the makeup of...",
+          "link": "https://simplywall.st/stocks/us/banks/nyse-hth/hilltop-holdings/news/do-insiders-own-lots-of-shares-in-hilltop-holdings-inc-nyseh",
+          "publishedOn": "2022-04-03T17:07:40.000Z",
+          "wordCount": 1126,
+          "title": "Do Insiders Own Lots Of Shares In Hilltop Holdings Inc. (NYSE:HTH)?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/software/nasdaq-rxt/rackspace-technology/news/estimating-the-fair-value-of-rackspace-technology-inc-nasdaq",
+          "author": "Simply Wall St",
+          "description": "Does the April share price for Rackspace Technology, Inc. ( NASDAQ:RXT ) reflect what it's really worth? Today, we will...",
+          "link": "https://simplywall.st/stocks/us/software/nasdaq-rxt/rackspace-technology/news/estimating-the-fair-value-of-rackspace-technology-inc-nasdaq",
+          "publishedOn": "2022-04-03T17:05:21.000Z",
+          "wordCount": 1376,
+          "title": "Estimating The Fair Value Of Rackspace Technology, Inc. (NASDAQ:RXT)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/healthcare/nasdaq-pmd/psychemedics/news/peter-kamin-of-psychemedics-corporation-nasdaqpmd-just-spent",
+          "author": "Simply Wall St",
+          "description": "Potential Psychemedics Corporation ( NASDAQ:PMD ) shareholders may wish to note that insider Peter Kamin recently...",
+          "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-pmd/psychemedics/news/peter-kamin-of-psychemedics-corporation-nasdaqpmd-just-spent",
+          "publishedOn": "2022-04-03T17:04:45.000Z",
+          "wordCount": 855,
+          "title": "Peter Kamin of Psychemedics Corporation (NASDAQ:PMD) Just Spent US$112k On Shares"
+        },
+        {
+          "id": "https://simplywall.st/stocks/us/semiconductors/nasdaq-simo/silicon-motion-technology/news/silicon-motion-technology-corporation-nasdaqsimo-stocks-been",
+          "author": "Simply Wall St",
+          "description": "Silicon Motion Technology (NASDAQ:SIMO) has had a rough three months with its share price down 31%. However, the...",
+          "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-simo/silicon-motion-technology/news/silicon-motion-technology-corporation-nasdaqsimo-stocks-been",
+          "publishedOn": "2022-04-03T17:03:10.000Z",
+          "wordCount": 1078,
+          "title": "Silicon Motion Technology Corporation (NASDAQ:SIMO) Stock's Been Sliding But Fundamentals Look Decent: Will The Market Correct The Share Price In The Future?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/br/software/bovespa-ciel3/cielo-shares/news/cielo-sas-bvmfciel3-financials-are-too-obscure-to-link-with",
+          "author": "Simply Wall St",
+          "description": "Cielo's (BVMF:CIEL3) stock is up by a considerable 47% over the past three months. However, we decided to pay attention...",
+          "link": "https://simplywall.st/stocks/br/software/bovespa-ciel3/cielo-shares/news/cielo-sas-bvmfciel3-financials-are-too-obscure-to-link-with",
+          "publishedOn": "2022-04-03T16:33:09.000Z",
+          "wordCount": 968,
+          "title": "Cielo S.A.'s (BVMF:CIEL3) Financials Are Too Obscure To Link With Current Share Price Momentum: What's In Store For the Stock?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/br/healthcare/bovespa-onco3/oncoclinicas-do-brasil-servicos-medicos-shares/news/oncoclnicas-do-brasil-servios-mdicos-sa-bvmfonco3-just-repor",
+          "author": "Simply Wall St",
+          "description": "Oncoclínicas do Brasil Serviços Médicos S.A. ( BVMF:ONCO3 ) came out with its yearly results last week, and we wanted...",
+          "link": "https://simplywall.st/stocks/br/healthcare/bovespa-onco3/oncoclinicas-do-brasil-servicos-medicos-shares/news/oncoclnicas-do-brasil-servios-mdicos-sa-bvmfonco3-just-repor",
+          "publishedOn": "2022-04-03T16:31:11.000Z",
+          "wordCount": 990,
+          "title": "Oncoclínicas do Brasil Serviços Médicos S.A. (BVMF:ONCO3) Just Reported Earnings, And Analysts Cut Their Target Price"
+        },
+        {
+          "id": "https://simplywall.st/stocks/br/telecom/bovespa-vivt3/telefonica-brasil-shares/news/telefnica-brasil-bvmfvivt3-is-paying-out-a-larger-dividend-t-1",
+          "author": "Simply Wall St",
+          "description": "The board of Telefônica Brasil S.A. ( BVMF:VIVT3 ) has announced that it will be increasing its dividend on the 18th of...",
+          "link": "https://simplywall.st/stocks/br/telecom/bovespa-vivt3/telefonica-brasil-shares/news/telefnica-brasil-bvmfvivt3-is-paying-out-a-larger-dividend-t-1",
+          "publishedOn": "2022-04-03T16:15:34.000Z",
+          "wordCount": 812,
+          "title": "Telefônica Brasil (BVMF:VIVT3) Is Paying Out A Larger Dividend Than Last Year"
+        },
+        {
+          "id": "https://simplywall.st/stocks/br/utilities/bovespa-egie3/engie-brasil-energia-shares/news/is-engie-brasil-energia-bvmfegie3-using-too-much-debt",
+          "author": "Simply Wall St",
+          "description": "Legendary fund manager Li Lu (who Charlie Munger backed) once said, 'The biggest investment risk is not the volatility...",
+          "link": "https://simplywall.st/stocks/br/utilities/bovespa-egie3/engie-brasil-energia-shares/news/is-engie-brasil-energia-bvmfegie3-using-too-much-debt",
+          "publishedOn": "2022-04-03T16:03:09.000Z",
+          "wordCount": 1142,
+          "title": "Is Engie Brasil Energia (BVMF:EGIE3) Using Too Much Debt?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/br/commercial-services/bovespa-opct3/oceanpact-servicos-maritimos-shares/news/bullish-analysts-just-made-a-huge-upgrade-to-their-oceanpact",
+          "author": "Simply Wall St",
+          "description": "Shareholders in OceanPact Serviços Marítimos S.A. ( BVMF:OPCT3 ) may be thrilled to learn that the analysts have just...",
+          "link": "https://simplywall.st/stocks/br/commercial-services/bovespa-opct3/oceanpact-servicos-maritimos-shares/news/bullish-analysts-just-made-a-huge-upgrade-to-their-oceanpact",
+          "publishedOn": "2022-04-03T16:00:05.000Z",
+          "wordCount": 797,
+          "title": "Bullish: Analysts Just Made A Huge Upgrade To Their OceanPact Serviços Marítimos S.A. (BVMF:OPCT3) Forecasts"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ie/capital-goods/ise-krx/kingspan-group-shares/news/kingspan-group-plc-isekrx-stock-has-shown-weakness-lately-bu",
+          "author": "Simply Wall St",
+          "description": "With its stock down 15% over the past three months, it is easy to disregard Kingspan Group (ISE:KRX). However, stock...",
+          "link": "https://simplywall.st/stocks/ie/capital-goods/ise-krx/kingspan-group-shares/news/kingspan-group-plc-isekrx-stock-has-shown-weakness-lately-bu",
+          "publishedOn": "2022-04-03T14:28:40.000Z",
+          "wordCount": 986,
+          "title": "Kingspan Group plc (ISE:KRX) Stock Has Shown Weakness Lately But Financials Look Strong: Should Prospective Shareholders Make The Leap?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/dk/real-estate/cph-movinn/movinn-shares/news/estimating-the-fair-value-of-movinn-as-cphmovinn",
+          "author": "Simply Wall St",
+          "description": "Today we'll do a simple run through of a valuation method used to estimate the attractiveness of Movinn A/S...",
+          "link": "https://simplywall.st/stocks/dk/real-estate/cph-movinn/movinn-shares/news/estimating-the-fair-value-of-movinn-as-cphmovinn",
+          "publishedOn": "2022-04-03T12:59:23.000Z",
+          "wordCount": 1329,
+          "title": "Estimating The Fair Value Of Movinn A/S (CPH:MOVINN)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/it/capital-goods/bit-ip/interpump-group-shares/news/is-it-time-to-consider-buying-interpump-group-spa-bitip-1",
+          "author": "Simply Wall St",
+          "description": "Interpump Group S.p.A. ( BIT:IP ), might not be a large cap stock, but it saw a decent share price growth in the teens...",
+          "link": "https://simplywall.st/stocks/it/capital-goods/bit-ip/interpump-group-shares/news/is-it-time-to-consider-buying-interpump-group-spa-bitip-1",
+          "publishedOn": "2022-04-03T12:56:57.000Z",
+          "wordCount": 874,
+          "title": "Is It Time To Consider Buying Interpump Group S.p.A. (BIT:IP)?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/utilities/lse-mast/mast-energy-developments-shares/news/mast-energy-developments-plc-lonmast-when-will-it-breakeven",
+          "author": "Simply Wall St",
+          "description": "With the business potentially at an important milestone, we thought we'd take a closer look at MAST Energy Developments...",
+          "link": "https://simplywall.st/stocks/gb/utilities/lse-mast/mast-energy-developments-shares/news/mast-energy-developments-plc-lonmast-when-will-it-breakeven",
+          "publishedOn": "2022-04-03T12:54:21.000Z",
+          "wordCount": 816,
+          "title": "MAST Energy Developments PLC (LON:MAST): When Will It Breakeven?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ch/real-estate/vtx-alln/allreal-holding-shares/news/is-allreal-holding-vtxalln-a-risky-investment-1",
+          "author": "Simply Wall St",
+          "description": "The external fund manager backed by Berkshire Hathaway's Charlie Munger, Li Lu, makes no bones about it when he says...",
+          "link": "https://simplywall.st/stocks/ch/real-estate/vtx-alln/allreal-holding-shares/news/is-allreal-holding-vtxalln-a-risky-investment-1",
+          "publishedOn": "2022-04-03T12:51:59.000Z",
+          "wordCount": 1175,
+          "title": "Is Allreal Holding (VTX:ALLN) A Risky Investment?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/it/consumer-durables/bit-sab/sabaf-shares/news/with-eps-growth-and-more-sabaf-bitsab-is-interesting",
+          "author": "Simply Wall St",
+          "description": "For beginners, it can seem like a good idea (and an exciting prospect) to buy a company that tells a good story to...",
+          "link": "https://simplywall.st/stocks/it/consumer-durables/bit-sab/sabaf-shares/news/with-eps-growth-and-more-sabaf-bitsab-is-interesting",
+          "publishedOn": "2022-04-03T12:49:21.000Z",
+          "wordCount": 972,
+          "title": "With EPS Growth And More, Sabaf (BIT:SAB) Is Interesting"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/utilities/etr-mvv1/mvv-energie-shares/news/mvv-energie-etrmvv1-will-want-to-turn-around-its-return-tren",
+          "author": "Simply Wall St",
+          "description": "Did you know there are some financial metrics that can provide clues of a potential multi-bagger? Typically, we'll want...",
+          "link": "https://simplywall.st/stocks/de/utilities/etr-mvv1/mvv-energie-shares/news/mvv-energie-etrmvv1-will-want-to-turn-around-its-return-tren",
+          "publishedOn": "2022-04-03T12:46:53.000Z",
+          "wordCount": 859,
+          "title": "MVV Energie (ETR:MVV1) Will Want To Turn Around Its Return Trends"
+        },
+        {
+          "id": "https://simplywall.st/stocks/il/telecom/tase-bezq/bezeq-the-israel-telecommunication-shares/news/investors-in-bezeq-the-israel-telecommunication-tlvbezq-have",
+          "author": "Simply Wall St",
+          "description": "The most you can lose on any stock (assuming you don't use leverage) is 100% of your money. But in contrast you can...",
+          "link": "https://simplywall.st/stocks/il/telecom/tase-bezq/bezeq-the-israel-telecommunication-shares/news/investors-in-bezeq-the-israel-telecommunication-tlvbezq-have",
+          "publishedOn": "2022-04-03T12:44:24.000Z",
+          "wordCount": 779,
+          "title": "Investors in Bezeq The Israel Telecommunication (TLV:BEZQ) have made a impressive return of 132% over the past three years"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/consumer-services/epa-sw/sodexo-shares/news/is-there-now-an-opportunity-in-sodexo-sa-epasw",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/fr/consumer-services/epa-sw/sodexo-shares/news/is-there-now-an-opportunity-in-sodexo-sa-epasw",
+          "publishedOn": "2022-04-03T12:41:50.000Z",
+          "wordCount": null,
+          "title": "Is There Now An Opportunity In Sodexo S.A. (EPA:SW)?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/capital-goods/sto-solt/soltech-energy-sweden-shares/news/soltech-energy-sweden-ab-publ-stosolt-is-going-strong-but-fu",
+          "author": "Simply Wall St",
+          "description": "Most readers would already be aware that SolTech Energy Sweden's (STO:SOLT) stock increased significantly by 32% over...",
+          "link": "https://simplywall.st/stocks/se/capital-goods/sto-solt/soltech-energy-sweden-shares/news/soltech-energy-sweden-ab-publ-stosolt-is-going-strong-but-fu",
+          "publishedOn": "2022-04-03T12:39:19.000Z",
+          "wordCount": 1004,
+          "title": "SolTech Energy Sweden AB (publ) (STO:SOLT) Is Going Strong But Fundamentals Appear To Be Mixed : Is There A Clear Direction For The Stock?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/pharmaceuticals-biotech/epa-dim/sartorius-stedim-biotech-shares/news/heres-why-i-think-sartorius-stedim-biotech-epadim-is-an-inte-1",
+          "author": "Simply Wall St",
+          "description": "Some have more dollars than sense, they say, so even companies that have no revenue, no profit, and a record of falling...",
+          "link": "https://simplywall.st/stocks/fr/pharmaceuticals-biotech/epa-dim/sartorius-stedim-biotech-shares/news/heres-why-i-think-sartorius-stedim-biotech-epadim-is-an-inte-1",
+          "publishedOn": "2022-04-03T12:36:47.000Z",
+          "wordCount": 967,
+          "title": "Here's Why I Think Sartorius Stedim Biotech (EPA:DIM) Is An Interesting Stock"
+        },
+        {
+          "id": "https://simplywall.st/stocks/il/capital-goods/tase-plsn/plasson-industries-shares/news/plasson-industries-ltds-tlvplsn-stock-has-been-sliding-but-f-1",
+          "author": "Simply Wall St",
+          "description": "Plasson Industries (TLV:PLSN) has had a rough week with its share price down 13%. However, stock prices are usually...",
+          "link": "https://simplywall.st/stocks/il/capital-goods/tase-plsn/plasson-industries-shares/news/plasson-industries-ltds-tlvplsn-stock-has-been-sliding-but-f-1",
+          "publishedOn": "2022-04-03T12:34:22.000Z",
+          "wordCount": 984,
+          "title": "Plasson Industries Ltd's (TLV:PLSN) Stock Has Been Sliding But Fundamentals Look Strong: Is The Market Wrong?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/automobiles/epa-rno/renault-shares/news/should-you-think-about-buying-renault-sa-eparno-now",
+          "author": "Simply Wall St",
+          "description": "While Renault SA ( EPA:RNO ) might not be the most widely known stock at the moment, it saw a double-digit share price...",
+          "link": "https://simplywall.st/stocks/fr/automobiles/epa-rno/renault-shares/news/should-you-think-about-buying-renault-sa-eparno-now",
+          "publishedOn": "2022-04-03T12:32:32.000Z",
+          "wordCount": 917,
+          "title": "Should You Think About Buying Renault SA (EPA:RNO) Now?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/pharmaceuticals-biotech/lse-hik/hikma-pharmaceuticals-shares/news/is-weakness-in-hikma-pharmaceuticals-plc-lonhik-stock-a-sign-1",
+          "author": "Simply Wall St",
+          "description": "Hikma Pharmaceuticals (LON:HIK) has had a rough three months with its share price down 8.1%. However, a closer look at...",
+          "link": "https://simplywall.st/stocks/gb/pharmaceuticals-biotech/lse-hik/hikma-pharmaceuticals-shares/news/is-weakness-in-hikma-pharmaceuticals-plc-lonhik-stock-a-sign-1",
+          "publishedOn": "2022-04-03T12:29:17.000Z",
+          "wordCount": 1056,
+          "title": "Is Weakness In Hikma Pharmaceuticals PLC (LON:HIK) Stock A Sign That The Market Could be Wrong Given Its Strong Financial Prospects?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/consumer-durables/sto-newa-b/new-wave-group-shares/news/are-investors-undervaluing-new-wave-group-ab-publ-stonewa-b",
+          "author": "Simply Wall St",
+          "description": "How far off is New Wave Group AB (publ) ( STO:NEWA B ) from its intrinsic value? Using the most recent financial data...",
+          "link": "https://simplywall.st/stocks/se/consumer-durables/sto-newa-b/new-wave-group-shares/news/are-investors-undervaluing-new-wave-group-ab-publ-stonewa-b",
+          "publishedOn": "2022-04-03T12:26:44.000Z",
+          "wordCount": 1401,
+          "title": "Are Investors Undervaluing New Wave Group AB (publ) (STO:NEWA B) By 49%?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/commercial-services/lse-rto/rentokil-initial-shares/news/rentokil-initial-plc-lonrto-passed-our-checks-and-its-about",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/gb/commercial-services/lse-rto/rentokil-initial-shares/news/rentokil-initial-plc-lonrto-passed-our-checks-and-its-about",
+          "publishedOn": "2022-04-03T12:24:42.000Z",
+          "wordCount": null,
+          "title": "Rentokil Initial plc (LON:RTO) Passed Our Checks, And It's About To Pay A UK£0.043 Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/il/energy/tase-nvpt/navitas-petroleum-limited-partnership-shares/news/does-navitas-petroleum-limited-partnership-tlvnvpt-have-a-he",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/il/energy/tase-nvpt/navitas-petroleum-limited-partnership-shares/news/does-navitas-petroleum-limited-partnership-tlvnvpt-have-a-he",
+          "publishedOn": "2022-04-03T12:24:16.000Z",
+          "wordCount": null,
+          "title": "Does Navitas Petroleum Limited Partnership (TLV:NVPT) Have A Healthy Balance Sheet?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/capital-goods/lse-mro/melrose-industries-shares/news/melrose-industries-lonmro-shareholders-will-receive-a-bigger",
+          "author": "Simply Wall St",
+          "description": "Melrose Industries PLC ( LON:MRO ) will increase its dividend on the 20th of May to UK£0.01. This will take the...",
+          "link": "https://simplywall.st/stocks/gb/capital-goods/lse-mro/melrose-industries-shares/news/melrose-industries-lonmro-shareholders-will-receive-a-bigger",
+          "publishedOn": "2022-04-03T12:23:17.000Z",
+          "wordCount": 801,
+          "title": "Melrose Industries' (LON:MRO) Shareholders Will Receive A Bigger Dividend Than Last Year"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ie/food-beverage-tobacco/ise-krz/kerry-group-shares/news/kerry-group-plc-isekrz-looks-interesting-and-its-about-to-pa",
+          "author": "Simply Wall St",
+          "description": "Readers hoping to buy Kerry Group plc ( ISE:KRZ ) for its dividend will need to make their move shortly, as the stock...",
+          "link": "https://simplywall.st/stocks/ie/food-beverage-tobacco/ise-krz/kerry-group-shares/news/kerry-group-plc-isekrz-looks-interesting-and-its-about-to-pa",
+          "publishedOn": "2022-04-03T12:21:56.000Z",
+          "wordCount": 1043,
+          "title": "Kerry Group plc (ISE:KRZ) Looks Interesting, And It's About To Pay A Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/si/pharmaceuticals-biotech/ljse-krkg/krka-d-d-shares/news/declining-stock-and-solid-fundamentals-is-the-market-wrong-a-446",
+          "author": "Simply Wall St",
+          "description": "Krka d. d (LJSE:KRKG) has had a rough three months with its share price down 18%. But if you pay close attention, you...",
+          "link": "https://simplywall.st/stocks/si/pharmaceuticals-biotech/ljse-krkg/krka-d-d-shares/news/declining-stock-and-solid-fundamentals-is-the-market-wrong-a-446",
+          "publishedOn": "2022-04-03T12:21:44.000Z",
+          "wordCount": 1088,
+          "title": "Declining Stock and Solid Fundamentals: Is The Market Wrong About Krka, d. d. (LJSE:KRKG)?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/capital-goods/aim-som/somero-enterprises-shares/news/the-executive-vp-of-sales-of-somero-enterprises-inc-lonsom-h",
+          "author": "Simply Wall St",
+          "description": "We'd be surprised if Somero Enterprises, Inc. ( LON:SOM ) shareholders haven't noticed that the Executive VP of Sales...",
+          "link": "https://simplywall.st/stocks/gb/capital-goods/aim-som/somero-enterprises-shares/news/the-executive-vp-of-sales-of-somero-enterprises-inc-lonsom-h",
+          "publishedOn": "2022-04-03T12:20:36.000Z",
+          "wordCount": 843,
+          "title": "The Executive VP of Sales of Somero Enterprises, Inc. (LON:SOM), Howard Hohmann, Just Sold 41% Of Their Holding"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/consumer-durables/epa-alast/ast-groupe-shares/news/a-look-at-the-intrinsic-value-of-ast-groupe-epaalast",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/fr/consumer-durables/epa-alast/ast-groupe-shares/news/a-look-at-the-intrinsic-value-of-ast-groupe-epaalast",
+          "publishedOn": "2022-04-03T12:19:14.000Z",
+          "wordCount": null,
+          "title": "A Look At The Intrinsic Value Of AST Groupe (EPA:ALAST)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/insurance/lse-csn/chesnara-shares/news/chesnaras-loncsn-dividend-will-be-increased-to-uk015",
+          "author": "Simply Wall St",
+          "description": "Chesnara plc's ( LON:CSN ) dividend will be increasing to UK£0.15 on 24th of May. This makes the dividend yield 7.3...",
+          "link": "https://simplywall.st/stocks/gb/insurance/lse-csn/chesnara-shares/news/chesnaras-loncsn-dividend-will-be-increased-to-uk015",
+          "publishedOn": "2022-04-03T12:19:09.000Z",
+          "wordCount": 793,
+          "title": "Chesnara's (LON:CSN) Dividend Will Be Increased To UK£0.15"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/materials/lse-smds/ds-smith-shares/news/heres-why-were-wary-of-buying-ds-smiths-lonsmds-for-its-upco",
+          "author": "Simply Wall St",
+          "description": "Regular readers will know that we love our dividends at Simply Wall St, which is why it's exciting to see DS Smith Plc...",
+          "link": "https://simplywall.st/stocks/gb/materials/lse-smds/ds-smith-shares/news/heres-why-were-wary-of-buying-ds-smiths-lonsmds-for-its-upco",
+          "publishedOn": "2022-04-03T12:17:49.000Z",
+          "wordCount": 1004,
+          "title": "Here's Why We're Wary Of Buying DS Smith's (LON:SMDS) For Its Upcoming Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/it/utilities/bit-ig/italgas-shares/news/can-italgas-spa-bitig-maintain-its-strong-returns",
+          "author": "Simply Wall St",
+          "description": "One of the best investments we can make is in our own knowledge and skill set. With that in mind, this article will...",
+          "link": "https://simplywall.st/stocks/it/utilities/bit-ig/italgas-shares/news/can-italgas-spa-bitig-maintain-its-strong-returns",
+          "publishedOn": "2022-04-03T12:16:43.000Z",
+          "wordCount": 950,
+          "title": "Can Italgas S.p.A. (BIT:IG) Maintain Its Strong Returns?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/software/lse-wps/wag-payment-solutions-shares/news/there-may-be-reason-for-hope-in-wag-payment-solutions-lonwps",
+          "author": "Simply Wall St",
+          "description": "Soft earnings didn't appear to concern W.A.G payment solutions plc's ( LON:WPS ) shareholders over the last week. We...",
+          "link": "https://simplywall.st/stocks/gb/software/lse-wps/wag-payment-solutions-shares/news/there-may-be-reason-for-hope-in-wag-payment-solutions-lonwps",
+          "publishedOn": "2022-04-03T12:16:33.000Z",
+          "wordCount": 1070,
+          "title": "There May Be Reason For Hope In W.A.G payment solutions' (LON:WPS) Disappointing Earnings"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ie/food-beverage-tobacco/ise-gl9/glanbia-shares/news/have-glanbia-plc-isegl9-insiders-been-selling-their-stock",
+          "author": "Simply Wall St",
+          "description": "We'd be surprised if Glanbia plc ( ISE:GL9 ) shareholders haven't noticed that the Group MD & Executive Director...",
+          "link": "https://simplywall.st/stocks/ie/food-beverage-tobacco/ise-gl9/glanbia-shares/news/have-glanbia-plc-isegl9-insiders-been-selling-their-stock",
+          "publishedOn": "2022-04-03T12:15:16.000Z",
+          "wordCount": 870,
+          "title": "Have Glanbia plc (ISE:GL9) Insiders Been Selling Their Stock?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/it/diversified-financials/bit-mol/gruppo-mutuionline-shares/news/pulling-back-43-this-week-gruppo-mutuionlines-bitmol-five-ye",
+          "author": "Simply Wall St",
+          "description": "It hasn't been the best quarter for Gruppo MutuiOnline S.p.A ( BIT:MOL ) shareholders, since the share price has fallen...",
+          "link": "https://simplywall.st/stocks/it/diversified-financials/bit-mol/gruppo-mutuionline-shares/news/pulling-back-43-this-week-gruppo-mutuionlines-bitmol-five-ye",
+          "publishedOn": "2022-04-03T12:14:24.000Z",
+          "wordCount": 1012,
+          "title": "Pulling back 4.3% this week, Gruppo MutuiOnline's BIT:MOL) five-year decline in earnings may be coming into investors focus"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/diversified-financials/aim-cbp/curtis-banks-group-shares/news/curtis-banks-group-loncbp-is-due-to-pay-a-dividend-of-uk0065",
+          "author": "Simply Wall St",
+          "description": "Curtis Banks Group plc ( LON:CBP ) has announced that it will pay a dividend of UK£0.065 per share on the 1st of June...",
+          "link": "https://simplywall.st/stocks/gb/diversified-financials/aim-cbp/curtis-banks-group-shares/news/curtis-banks-group-loncbp-is-due-to-pay-a-dividend-of-uk0065",
+          "publishedOn": "2022-04-03T12:14:02.000Z",
+          "wordCount": 821,
+          "title": "Curtis Banks Group (LON:CBP) Is Due To Pay A Dividend Of UK£0.065"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/consumer-durables/lse-vty/vistry-group-shares/news/vistry-group-plc-lonvty-goes-ex-dividend-soon",
+          "author": "Simply Wall St",
+          "description": "Vistry Group PLC ( LON:VTY ) stock is about to trade ex-dividend in 3 days. The ex-dividend date is one business day...",
+          "link": "https://simplywall.st/stocks/gb/consumer-durables/lse-vty/vistry-group-shares/news/vistry-group-plc-lonvty-goes-ex-dividend-soon",
+          "publishedOn": "2022-04-03T12:12:46.000Z",
+          "wordCount": 996,
+          "title": "Vistry Group PLC (LON:VTY) Goes Ex-Dividend Soon"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/banks/epa-gle/societe-generale-societe-anonyme-shares/news/the-past-five-years-for-socit-gnrale-socit-anonyme-epagle-in",
+          "author": "Simply Wall St",
+          "description": "For many, the main point of investing is to generate higher returns than the overall market. But in any portfolio...",
+          "link": "https://simplywall.st/stocks/fr/banks/epa-gle/societe-generale-societe-anonyme-shares/news/the-past-five-years-for-socit-gnrale-socit-anonyme-epagle-in",
+          "publishedOn": "2022-04-03T12:11:45.000Z",
+          "wordCount": 975,
+          "title": "The past five years for Société Générale Société anonyme (EPA:GLE) investors has not been profitable"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/capital-goods/lse-imi/imi-shares/news/should-you-buy-imi-plc-lonimi-for-its-upcoming-dividend",
+          "author": "Simply Wall St",
+          "description": "IMI plc ( LON:IMI ) stock is about to trade ex-dividend in 3 days. The ex-dividend date is one business day before the...",
+          "link": "https://simplywall.st/stocks/gb/capital-goods/lse-imi/imi-shares/news/should-you-buy-imi-plc-lonimi-for-its-upcoming-dividend",
+          "publishedOn": "2022-04-03T12:11:30.000Z",
+          "wordCount": 1031,
+          "title": "Should You Buy IMI plc (LON:IMI) For Its Upcoming Dividend?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/capital-goods/lse-hwdn/howden-joinery-group-shares/news/ceo-executive-director-andrew-livingston-just-bought-13-more",
+          "author": "Simply Wall St",
+          "description": "Investors who take an interest in Howden Joinery Group Plc ( LON:HWDN ) should definitely note that the CEO & Executive...",
+          "link": "https://simplywall.st/stocks/gb/capital-goods/lse-hwdn/howden-joinery-group-shares/news/ceo-executive-director-andrew-livingston-just-bought-13-more",
+          "publishedOn": "2022-04-03T12:10:15.000Z",
+          "wordCount": 860,
+          "title": "CEO & Executive Director Andrew Livingston Just Bought 13% More Shares In Howden Joinery Group Plc (LON:HWDN)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/food-beverage-tobacco/epa-rco/remy-cointreau-shares/news/rmy-cointreau-sa-eparco-shares-could-be-30-above-their-intri",
+          "author": "Simply Wall St",
+          "description": "Does the April share price for Rémy Cointreau SA ( EPA:RCO ) reflect what it's really worth? Today, we will estimate...",
+          "link": "https://simplywall.st/stocks/fr/food-beverage-tobacco/epa-rco/remy-cointreau-shares/news/rmy-cointreau-sa-eparco-shares-could-be-30-above-their-intri",
+          "publishedOn": "2022-04-03T12:09:09.000Z",
+          "wordCount": 1351,
+          "title": "Rémy Cointreau SA (EPA:RCO) Shares Could Be 30% Above Their Intrinsic Value Estimate"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/household/lse-rkt/reckitt-benckiser-group-shares/news/reckitt-benckiser-group-lonrkt-has-announced-a-dividend-of-u",
+          "author": "Simply Wall St",
+          "description": "Reckitt Benckiser Group plc's ( LON:RKT ) investors are due to receive a payment of UK£1.02 per share on 9th of June...",
+          "link": "https://simplywall.st/stocks/gb/household/lse-rkt/reckitt-benckiser-group-shares/news/reckitt-benckiser-group-lonrkt-has-announced-a-dividend-of-u",
+          "publishedOn": "2022-04-03T12:09:00.000Z",
+          "wordCount": 828,
+          "title": "Reckitt Benckiser Group (LON:RKT) Has Announced A Dividend Of UK£1.02"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/healthcare/etr-sbs/stratec-shares/news/analysts-are-updating-their-stratec-se-etrsbs-estimates-afte",
+          "author": "Simply Wall St",
+          "description": "Investors in Stratec SE ( ETR:SBS ) had a good week, as its shares rose 9.2% to close at €123 following the release of...",
+          "link": "https://simplywall.st/stocks/de/healthcare/etr-sbs/stratec-shares/news/analysts-are-updating-their-stratec-se-etrsbs-estimates-afte",
+          "publishedOn": "2022-04-03T12:08:05.000Z",
+          "wordCount": 923,
+          "title": "Analysts Are Updating Their Stratec SE (ETR:SBS) Estimates After Its Annual Results"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/media/aim-tmg/mission-group-shares/news/mission-group-lontmg-seems-to-use-debt-quite-sensibly-1",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/gb/media/aim-tmg/mission-group-shares/news/mission-group-lontmg-seems-to-use-debt-quite-sensibly-1",
+          "publishedOn": "2022-04-03T12:06:38.000Z",
+          "wordCount": null,
+          "title": "Mission Group (LON:TMG) Seems To Use Debt Quite Sensibly"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/insurance/lse-av./aviva-shares/news/avivas-lonav-upcoming-dividend-will-be-larger-than-last-year-2",
+          "author": "Simply Wall St",
+          "description": "Aviva plc's ( LON:AV. ) dividend will be increasing to UK£0.15 on 19th of May. This takes the annual payment to 5.0% of...",
+          "link": "https://simplywall.st/stocks/gb/insurance/lse-av./aviva-shares/news/avivas-lonav-upcoming-dividend-will-be-larger-than-last-year-2",
+          "publishedOn": "2022-04-03T12:06:27.000Z",
+          "wordCount": 795,
+          "title": "Aviva's (LON:AV.) Upcoming Dividend Will Be Larger Than Last Year's"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/materials/lse-mndi/mondi-shares/news/income-investors-should-know-that-mondi-plc-lonmndi-goes-ex",
+          "author": "Simply Wall St",
+          "description": "Regular readers will know that we love our dividends at Simply Wall St, which is why it's exciting to see Mondi plc...",
+          "link": "https://simplywall.st/stocks/gb/materials/lse-mndi/mondi-shares/news/income-investors-should-know-that-mondi-plc-lonmndi-goes-ex",
+          "publishedOn": "2022-04-03T12:05:12.000Z",
+          "wordCount": 1025,
+          "title": "Income Investors Should Know That Mondi plc (LON:MNDI) Goes Ex-Dividend Soon"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/retail/lse-inch/inchcape-shares/news/inchcape-loninch-shareholders-have-endured-a-80-loss-from-in",
+          "author": "Simply Wall St",
+          "description": "For many, the main point of investing is to generate higher returns than the overall market. But every investor is...",
+          "link": "https://simplywall.st/stocks/gb/retail/lse-inch/inchcape-shares/news/inchcape-loninch-shareholders-have-endured-a-80-loss-from-in",
+          "publishedOn": "2022-04-03T12:04:14.000Z",
+          "wordCount": 968,
+          "title": "Inchcape (LON:INCH) shareholders have endured a 8.0% loss from investing in the stock five years ago"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/capital-goods/lse-ror/rotork-shares/news/dont-buy-rotork-plc-lonror-for-its-next-dividend-without-doi",
+          "author": "Simply Wall St",
+          "description": "Rotork plc ( LON:ROR ) is about to trade ex-dividend in the next three days. The ex-dividend date is usually set to be...",
+          "link": "https://simplywall.st/stocks/gb/capital-goods/lse-ror/rotork-shares/news/dont-buy-rotork-plc-lonror-for-its-next-dividend-without-doi",
+          "publishedOn": "2022-04-03T12:03:55.000Z",
+          "wordCount": 990,
+          "title": "Don't Buy Rotork plc (LON:ROR) For Its Next Dividend Without Doing These Checks"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/consumer-services/lse-dom/dominos-pizza-group-shares/news/be-sure-to-check-out-dominos-pizza-group-plc-londom-before-i",
+          "author": "Simply Wall St",
+          "description": "Domino's Pizza Group plc ( LON:DOM ) is about to trade ex-dividend in the next 3 days. The ex-dividend date is one...",
+          "link": "https://simplywall.st/stocks/gb/consumer-services/lse-dom/dominos-pizza-group-shares/news/be-sure-to-check-out-dominos-pizza-group-plc-londom-before-i",
+          "publishedOn": "2022-04-03T12:02:42.000Z",
+          "wordCount": 1029,
+          "title": "Be Sure To Check Out Domino's Pizza Group plc (LON:DOM) Before It Goes Ex-Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/capital-goods/lse-spx/spirax-sarco-engineering-shares/news/spirax-sarco-engineerings-lonspx-five-year-earnings-growth-t",
+          "author": "Simply Wall St",
+          "description": "Spirax-Sarco Engineering plc ( LON:SPX ) shareholders might be concerned after seeing the share price drop 21% in the...",
+          "link": "https://simplywall.st/stocks/gb/capital-goods/lse-spx/spirax-sarco-engineering-shares/news/spirax-sarco-engineerings-lonspx-five-year-earnings-growth-t",
+          "publishedOn": "2022-04-03T12:01:42.000Z",
+          "wordCount": 914,
+          "title": "Spirax-Sarco Engineering's (LON:SPX) five-year earnings growth trails the impressive shareholder returns"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ie/materials/ise-sk3/smurfit-kappa-group-shares/news/income-investors-should-know-that-smurfit-kappa-group-plc-is",
+          "author": "Simply Wall St",
+          "description": "Regular readers will know that we love our dividends at Simply Wall St, which is why it's exciting to see Smurfit Kappa...",
+          "link": "https://simplywall.st/stocks/ie/materials/ise-sk3/smurfit-kappa-group-shares/news/income-investors-should-know-that-smurfit-kappa-group-plc-is",
+          "publishedOn": "2022-04-03T12:01:24.000Z",
+          "wordCount": 1002,
+          "title": "Income Investors Should Know That Smurfit Kappa Group Plc (ISE:SK3) Goes Ex-Dividend Soon"
+        },
+        {
+          "id": "https://simplywall.st/stocks/gb/retail/lse-wix/wickes-group-shares/news/ceo-director-david-wood-just-bought-331-more-shares-in-wicke",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/gb/retail/lse-wix/wickes-group-shares/news/ceo-director-david-wood-just-bought-331-more-shares-in-wicke",
+          "publishedOn": "2022-04-03T12:00:10.000Z",
+          "wordCount": null,
+          "title": "CEO & Director David Wood Just Bought 331% More Shares In Wickes Group plc (LON:WIX)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/be/energy/ebr-flux/fluxys-belgium-shares/news/fluxys-belgium-ebrflux-has-announced-that-it-will-be-increas",
+          "author": "Simply Wall St",
+          "description": "Fluxys Belgium SA's ( EBR:FLUX ) dividend will be increasing to €0.97 on 18th of May. This takes the annual payment to...",
+          "link": "https://simplywall.st/stocks/be/energy/ebr-flux/fluxys-belgium-shares/news/fluxys-belgium-ebrflux-has-announced-that-it-will-be-increas",
+          "publishedOn": "2022-04-03T11:58:53.000Z",
+          "wordCount": 778,
+          "title": "Fluxys Belgium (EBR:FLUX) Has Announced That It Will Be Increasing Its Dividend To €0.97"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/consumer-durables/epa-rms/hermes-international-societe-en-commandite-par-actions-shares/news/heres-why-i-think-herms-international-socit-en-commandite-pa",
+          "author": "Simply Wall St",
+          "description": "Some have more dollars than sense, they say, so even companies that have no revenue, no profit, and a record of falling...",
+          "link": "https://simplywall.st/stocks/fr/consumer-durables/epa-rms/hermes-international-societe-en-commandite-par-actions-shares/news/heres-why-i-think-herms-international-socit-en-commandite-pa",
+          "publishedOn": "2022-04-03T11:58:40.000Z",
+          "wordCount": 984,
+          "title": "Here's Why I Think Hermès International Société en commandite par actions (EPA:RMS) Might Deserve Your Attention Today"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/diversified-financials/etr-hxck/ernst-russ-shares/news/new-forecasts-heres-what-analysts-think-the-future-holds-for-124",
+          "author": "Simply Wall St",
+          "description": "Ernst Russ AG ( ETR:HXCK ) shareholders will have a reason to smile today, with the covering analyst making substantial...",
+          "link": "https://simplywall.st/stocks/de/diversified-financials/etr-hxck/ernst-russ-shares/news/new-forecasts-heres-what-analysts-think-the-future-holds-for-124",
+          "publishedOn": "2022-04-03T11:57:19.000Z",
+          "wordCount": 820,
+          "title": "New Forecasts: Here's What Analysts Think The Future Holds For Ernst Russ AG (ETR:HXCK)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ch/capital-goods/vtx-oerl/oc-oerlikon-shares/news/three-days-left-until-oc-oerlikon-corporation-ag-vtxoerl-tra",
+          "author": "Simply Wall St",
+          "description": "Readers hoping to buy OC Oerlikon Corporation AG ( VTX:OERL ) for its dividend will need to make their move shortly, as...",
+          "link": "https://simplywall.st/stocks/ch/capital-goods/vtx-oerl/oc-oerlikon-shares/news/three-days-left-until-oc-oerlikon-corporation-ag-vtxoerl-tra",
+          "publishedOn": "2022-04-03T11:55:51.000Z",
+          "wordCount": 1034,
+          "title": "Three Days Left Until OC Oerlikon Corporation AG (VTX:OERL) Trades Ex-Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/automobiles/sto-dom/dometic-group-shares/news/as-dometic-group-stodom-rises-64-this-past-week-investors-ma",
+          "author": "Simply Wall St",
+          "description": "It's easy to match the overall market return by buying an index fund. When you buy individual stocks, you can make...",
+          "link": "https://simplywall.st/stocks/se/automobiles/sto-dom/dometic-group-shares/news/as-dometic-group-stodom-rises-64-this-past-week-investors-ma",
+          "publishedOn": "2022-04-03T11:55:34.000Z",
+          "wordCount": 933,
+          "title": "As Dometic Group (STO:DOM) rises 6.4% this past week, investors may now be noticing the company's one-year earnings growth"
+        },
+        {
+          "id": "https://simplywall.st/stocks/il/software/tase-snel/synel-mll-payway-shares/news/should-you-buy-synel-mll-payway-ltd-tlvsnel-for-its-upcoming",
+          "author": "Simply Wall St",
+          "description": "It looks like Synel M.L.L Payway Ltd ( TLV:SNEL ) is about to go ex-dividend in the next 2 days. The ex-dividend date...",
+          "link": "https://simplywall.st/stocks/il/software/tase-snel/synel-mll-payway-shares/news/should-you-buy-synel-mll-payway-ltd-tlvsnel-for-its-upcoming",
+          "publishedOn": "2022-04-03T11:54:28.000Z",
+          "wordCount": 959,
+          "title": "Should You Buy Synel M.L.L Payway Ltd (TLV:SNEL) For Its Upcoming Dividend?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/dk/software/cph-wirtek/wirtek-shares/news/is-it-worth-considering-wirtek-as-cphwirtek-for-its-upcoming",
+          "author": "Simply Wall St",
+          "description": "Wirtek A/S ( CPH:WIRTEK ) is about to trade ex-dividend in the next 3 days. The ex-dividend date is usually set to be...",
+          "link": "https://simplywall.st/stocks/dk/software/cph-wirtek/wirtek-shares/news/is-it-worth-considering-wirtek-as-cphwirtek-for-its-upcoming",
+          "publishedOn": "2022-04-03T11:53:03.000Z",
+          "wordCount": 938,
+          "title": "Is It Worth Considering Wirtek A/S (CPH:WIRTEK) For Its Upcoming Dividend?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/semiconductors/etr-elg/elmos-semiconductor-shares/news/is-elmos-semiconductor-etrelg-a-risky-investment-1",
+          "author": "Simply Wall St",
+          "description": "Warren Buffett famously said, 'Volatility is far from synonymous with risk.' So it seems the smart money knows that...",
+          "link": "https://simplywall.st/stocks/de/semiconductors/etr-elg/elmos-semiconductor-shares/news/is-elmos-semiconductor-etrelg-a-risky-investment-1",
+          "publishedOn": "2022-04-03T11:52:28.000Z",
+          "wordCount": 1086,
+          "title": "Is Elmos Semiconductor (ETR:ELG) A Risky Investment?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/nl/commercial-services/ams-wkl/wolters-kluwer-shares/news/wolters-kluwer-amswkl-has-announced-that-it-will-be-increasi-1",
+          "author": "Simply Wall St",
+          "description": "The board of Wolters Kluwer N.V. ( AMS:WKL ) has announced that it will be increasing its dividend on the 18th of May...",
+          "link": "https://simplywall.st/stocks/nl/commercial-services/ams-wkl/wolters-kluwer-shares/news/wolters-kluwer-amswkl-has-announced-that-it-will-be-increasi-1",
+          "publishedOn": "2022-04-03T11:51:39.000Z",
+          "wordCount": 794,
+          "title": "Wolters Kluwer (AMS:WKL) Has Announced That It Will Be Increasing Its Dividend To €1.03"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/capital-goods/etr-hot/hochtief-shares/news/hochtiefs-etrhot-dividend-will-be-reduced-to-191",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/de/capital-goods/etr-hot/hochtief-shares/news/hochtiefs-etrhot-dividend-will-be-reduced-to-191",
+          "publishedOn": "2022-04-03T11:50:13.000Z",
+          "wordCount": null,
+          "title": "HOCHTIEF's (ETR:HOT) Dividend Will Be Reduced To €1.91"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/capital-goods/epa-dg/vinci-shares/news/at-9366-is-it-time-to-put-vinci-sa-epadg-on-your-watch-list",
+          "author": "Simply Wall St",
+          "description": "Let's talk about the popular Vinci SA ( EPA:DG ). The company's shares saw a decent share price growth in the teens...",
+          "link": "https://simplywall.st/stocks/fr/capital-goods/epa-dg/vinci-shares/news/at-9366-is-it-time-to-put-vinci-sa-epadg-on-your-watch-list",
+          "publishedOn": "2022-04-03T11:49:26.000Z",
+          "wordCount": 897,
+          "title": "At €93.66, Is It Time To Put Vinci SA (EPA:DG) On Your Watch List?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/software/etr-csh/cenit-shares/news/cenits-etrcsh-upcoming-dividend-will-be-larger-than-last-yea",
+          "author": "Simply Wall St",
+          "description": "CENIT Aktiengesellschaft ( ETR:CSH ) has announced that it will be increasing its dividend on the 25th of May to €0.75...",
+          "link": "https://simplywall.st/stocks/de/software/etr-csh/cenit-shares/news/cenits-etrcsh-upcoming-dividend-will-be-larger-than-last-yea",
+          "publishedOn": "2022-04-03T11:48:48.000Z",
+          "wordCount": 787,
+          "title": "CENIT's (ETR:CSH) Upcoming Dividend Will Be Larger Than Last Year's"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ch/food-beverage-tobacco/vtx-oron/orior-shares/news/is-it-worth-considering-orior-ag-vtxoron-for-its-upcoming-di",
+          "author": "Simply Wall St",
+          "description": "Regular readers will know that we love our dividends at Simply Wall St, which is why it's exciting to see ORIOR AG...",
+          "link": "https://simplywall.st/stocks/ch/food-beverage-tobacco/vtx-oron/orior-shares/news/is-it-worth-considering-orior-ag-vtxoron-for-its-upcoming-di",
+          "publishedOn": "2022-04-03T11:47:23.000Z",
+          "wordCount": 933,
+          "title": "Is It Worth Considering ORIOR AG (VTX:ORON) For Its Upcoming Dividend?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/no/consumer-services/ob-gig/gaming-innovation-group-shares/news/gaming-innovation-group-incs-obgig-intrinsic-value-is-potent",
+          "author": "Simply Wall St",
+          "description": "How far off is Gaming Innovation Group Inc. ( OB:GIG ) from its intrinsic value? Using the most recent financial data...",
+          "link": "https://simplywall.st/stocks/no/consumer-services/ob-gig/gaming-innovation-group-shares/news/gaming-innovation-group-incs-obgig-intrinsic-value-is-potent",
+          "publishedOn": "2022-04-03T11:46:19.000Z",
+          "wordCount": 1364,
+          "title": "Gaming Innovation Group Inc.'s (OB:GIG) Intrinsic Value Is Potentially 84% Above Its Share Price"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/retail/sto-bmax/byggmax-group-shares/news/byggmax-group-stobmax-will-pay-a-larger-dividend-than-last-y",
+          "author": "Simply Wall St",
+          "description": "Byggmax Group AB (publ)'s ( STO:BMAX ) dividend will be increasing to kr4.00 on 12th of May. This will take the annual...",
+          "link": "https://simplywall.st/stocks/se/retail/sto-bmax/byggmax-group-shares/news/byggmax-group-stobmax-will-pay-a-larger-dividend-than-last-y",
+          "publishedOn": "2022-04-03T11:46:05.000Z",
+          "wordCount": 832,
+          "title": "Byggmax Group (STO:BMAX) Will Pay A Larger Dividend Than Last Year At kr4.00"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/retail/etr-eck/ludwig-beck-am-rathauseck-textilhaus-feldmeier-shares/news/we-think-ludwig-beck-am-rathauseck-textilhaus-feldmeier-etre",
+          "author": "Simply Wall St",
+          "description": "Howard Marks put it nicely when he said that, rather than worrying about share price volatility, 'The possibility of...",
+          "link": "https://simplywall.st/stocks/de/retail/etr-eck/ludwig-beck-am-rathauseck-textilhaus-feldmeier-shares/news/we-think-ludwig-beck-am-rathauseck-textilhaus-feldmeier-etre",
+          "publishedOn": "2022-04-03T11:43:47.000Z",
+          "wordCount": 1219,
+          "title": "We Think LUDWIG BECK am Rathauseck - Textilhaus Feldmeier (ETR:ECK) Is Taking Some Risk With Its Debt"
+        },
+        {
+          "id": "https://simplywall.st/stocks/es/utilities/bme-eng/enagas-shares/news/enags-bmeeng-upcoming-dividend-will-be-larger-than-last-year-1",
+          "author": "Simply Wall St",
+          "description": "Enagás, S.A. ( BME:ENG ) will increase its dividend on the 7th of July to €0.83. This will take the annual payment to...",
+          "link": "https://simplywall.st/stocks/es/utilities/bme-eng/enagas-shares/news/enags-bmeeng-upcoming-dividend-will-be-larger-than-last-year-1",
+          "publishedOn": "2022-04-03T11:43:45.000Z",
+          "wordCount": 820,
+          "title": "Enagás' (BME:ENG) Upcoming Dividend Will Be Larger Than Last Year's"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/insurance/etr-wuw/wustenrot-wurttembergische-shares/news/wstenrot-wrttembergische-etrwuw-is-due-to-pay-a-dividend-of",
+          "author": "Simply Wall St",
+          "description": "The board of Wüstenrot & Württembergische AG ( ETR:WUW ) has announced that it will pay a dividend on the 30th of May...",
+          "link": "https://simplywall.st/stocks/de/insurance/etr-wuw/wustenrot-wurttembergische-shares/news/wstenrot-wrttembergische-etrwuw-is-due-to-pay-a-dividend-of",
+          "publishedOn": "2022-04-03T11:42:13.000Z",
+          "wordCount": 796,
+          "title": "Wüstenrot & Württembergische (ETR:WUW) Is Due To Pay A Dividend Of €0.65"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/capital-goods/etr-ekt/energiekontor-shares/news/energiekontors-etrekt-upcoming-dividend-will-be-larger-than",
+          "author": "Simply Wall St",
+          "description": "The board of Energiekontor AG ( ETR:EKT ) has announced that it will be increasing its dividend by 13% on the 18th of...",
+          "link": "https://simplywall.st/stocks/de/capital-goods/etr-ekt/energiekontor-shares/news/energiekontors-etrekt-upcoming-dividend-will-be-larger-than",
+          "publishedOn": "2022-04-03T11:40:55.000Z",
+          "wordCount": 835,
+          "title": "Energiekontor's (ETR:EKT) Upcoming Dividend Will Be Larger Than Last Year's"
+        },
+        {
+          "id": "https://simplywall.st/stocks/ch/pharmaceuticals-biotech/vtx-rog/roche-holding-shares/news/roche-holding-vtxrog-seems-to-use-debt-quite-sensibly-1",
+          "author": "Simply Wall St",
+          "description": "Warren Buffett famously said, 'Volatility is far from synonymous with risk.' So it seems the smart money knows that...",
+          "link": "https://simplywall.st/stocks/ch/pharmaceuticals-biotech/vtx-rog/roche-holding-shares/news/roche-holding-vtxrog-seems-to-use-debt-quite-sensibly-1",
+          "publishedOn": "2022-04-03T11:40:14.000Z",
+          "wordCount": 1120,
+          "title": "Roche Holding (VTX:ROG) Seems To Use Debt Quite Sensibly"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/software/sto-liti/litium-shares/news/chairman-of-the-board-johan-rutgersson-just-bought-32-more-s",
+          "author": "Simply Wall St",
+          "description": "Whilst it may not be a huge deal, we thought it was good to see that the Litium AB (publ) ( STO:LITI ) Chairman of the...",
+          "link": "https://simplywall.st/stocks/se/software/sto-liti/litium-shares/news/chairman-of-the-board-johan-rutgersson-just-bought-32-more-s",
+          "publishedOn": "2022-04-03T11:39:37.000Z",
+          "wordCount": 895,
+          "title": "Chairman of the Board Johan Rutgersson Just Bought 32% More Shares In Litium AB (publ) (STO:LITI)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/tech/etr-c3ry/cherry-shares/news/cherry-ag-just-missed-eps-by-23-heres-what-analysts-think-wi",
+          "author": "Simply Wall St",
+          "description": "It's been a sad week for Cherry AG ( ETR:C3RY ), who've watched their investment drop 15% to €15.14 in the week since...",
+          "link": "https://simplywall.st/stocks/de/tech/etr-c3ry/cherry-shares/news/cherry-ag-just-missed-eps-by-23-heres-what-analysts-think-wi",
+          "publishedOn": "2022-04-03T11:38:23.000Z",
+          "wordCount": 940,
+          "title": "Cherry AG Just Missed EPS By 23%: Here's What Analysts Think Will Happen Next"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/capital-goods/sto-swec-b/sweco-shares/news/swecos-stoswec-b-five-year-earnings-growth-trails-the-strong",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/se/capital-goods/sto-swec-b/sweco-shares/news/swecos-stoswec-b-five-year-earnings-growth-trails-the-strong",
+          "publishedOn": "2022-04-03T11:37:17.000Z",
+          "wordCount": null,
+          "title": "Sweco's (STO:SWEC B) five-year earnings growth trails the strong shareholder returns"
+        },
+        {
+          "id": "https://simplywall.st/stocks/no/materials/ob-elk/elkem-shares/news/elkems-obelk-dividend-will-be-increased-to-kr300-1",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/no/materials/ob-elk/elkem-shares/news/elkems-obelk-dividend-will-be-increased-to-kr300-1",
+          "publishedOn": "2022-04-03T11:37:02.000Z",
+          "wordCount": null,
+          "title": "Elkem's (OB:ELK) Dividend Will Be Increased To kr3.00"
+        },
+        {
+          "id": "https://simplywall.st/stocks/es/capital-goods/bme-fdr/fluidra-shares/news/fluidra-bmefdr-is-increasing-its-dividend-to-035",
+          "author": "Simply Wall St",
+          "description": "The board of Fluidra, S.A. ( BME:FDR ) has announced that it will be increasing its dividend on the 5th of July to...",
+          "link": "https://simplywall.st/stocks/es/capital-goods/bme-fdr/fluidra-shares/news/fluidra-bmefdr-is-increasing-its-dividend-to-035",
+          "publishedOn": "2022-04-03T11:35:46.000Z",
+          "wordCount": 770,
+          "title": "Fluidra (BME:FDR) Is Increasing Its Dividend To €0.35"
+        },
+        {
+          "id": "https://simplywall.st/stocks/fr/commercial-services/epa-sdg/synergie-shares/news/synergie-epasdg-will-pay-a-dividend-of-080",
+          "author": "Simply Wall St",
+          "description": "The board of Synergie SE ( EPA:SDG ) has announced that it will pay a dividend on the 1st of July, with investors...",
+          "link": "https://simplywall.st/stocks/fr/commercial-services/epa-sdg/synergie-shares/news/synergie-epasdg-will-pay-a-dividend-of-080",
+          "publishedOn": "2022-04-03T11:34:30.000Z",
+          "wordCount": 791,
+          "title": "Synergie (EPA:SDG) Will Pay A Dividend Of €0.80"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/materials/sto-copp-b/copperstone-resources-shares/news/dont-ignore-the-fact-that-this-insider-just-sold-some-shares-1114",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/se/materials/sto-copp-b/copperstone-resources-shares/news/dont-ignore-the-fact-that-this-insider-just-sold-some-shares-1114",
+          "publishedOn": "2022-04-03T11:33:13.000Z",
+          "wordCount": null,
+          "title": "Don't Ignore The Fact That This Insider Just Sold Some Shares In Copperstone Resources AB (STO:COPP B)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/diversified-financials/sto-lund-b/l-e-lundbergforetagen-shares/news/only-three-days-left-to-cash-in-on-l-e-lundbergfretagens-sto",
+          "author": "Simply Wall St",
+          "description": "Some investors rely on dividends for growing their wealth, and if you're one of those dividend sleuths, you might be...",
+          "link": "https://simplywall.st/stocks/se/diversified-financials/sto-lund-b/l-e-lundbergforetagen-shares/news/only-three-days-left-to-cash-in-on-l-e-lundbergfretagens-sto",
+          "publishedOn": "2022-04-03T11:31:59.000Z",
+          "wordCount": 970,
+          "title": "Only Three Days Left To Cash In On L E Lundbergföretagen's (STO:LUND B) Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/za/healthcare/jse-lhc/life-healthcare-group-holdings-shares/news/life-healthcare-group-holdings-jselhc-136-yoy-earnings-expan",
+          "author": "Simply Wall St",
+          "description": "If you want to compound wealth in the stock market, you can do so by buying an index fund. But if you pick the right...",
+          "link": "https://simplywall.st/stocks/za/healthcare/jse-lhc/life-healthcare-group-holdings-shares/news/life-healthcare-group-holdings-jselhc-136-yoy-earnings-expan",
+          "publishedOn": "2022-04-03T11:31:26.000Z",
+          "wordCount": 885,
+          "title": "Life Healthcare Group Holdings' (JSE:LHC) 136% YoY earnings expansion surpassed the shareholder returns over the past year"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/materials/sto-ssab-a/ssab-shares/news/theres-a-lot-to-like-about-ssabs-stossab-a-upcoming-kr525-di",
+          "author": "Simply Wall St",
+          "description": "Regular readers will know that we love our dividends at Simply Wall St, which is why it's exciting to see SSAB AB...",
+          "link": "https://simplywall.st/stocks/se/materials/sto-ssab-a/ssab-shares/news/theres-a-lot-to-like-about-ssabs-stossab-a-upcoming-kr525-di",
+          "publishedOn": "2022-04-03T11:30:53.000Z",
+          "wordCount": 936,
+          "title": "There's A Lot To Like About SSAB's (STO:SSAB A) Upcoming kr5.25 Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/capital-goods/sto-saab-b/saab-shares/news/theres-a-lot-to-like-about-saabs-stosaab-b-upcoming-kr490-di",
+          "author": "Simply Wall St",
+          "description": "It looks like Saab AB (publ) ( STO:SAAB B ) is about to go ex-dividend in the next 3 days. The ex-dividend date is one...",
+          "link": "https://simplywall.st/stocks/se/capital-goods/sto-saab-b/saab-shares/news/theres-a-lot-to-like-about-saabs-stosaab-b-upcoming-kr490-di",
+          "publishedOn": "2022-04-03T11:29:20.000Z",
+          "wordCount": 1038,
+          "title": "There's A Lot To Like About Saab's (STO:SAAB B) Upcoming kr4.90 Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/retail/sto-foi-b/fenix-outdoor-international-shares/news/fenix-outdoor-internationals-stofoi-b-50-cagr-outpaced-the-c",
+          "author": "Simply Wall St",
+          "description": "Fenix Outdoor International AG ( STO:FOI B ) shareholders might be concerned after seeing the share price drop 14% in...",
+          "link": "https://simplywall.st/stocks/se/retail/sto-foi-b/fenix-outdoor-international-shares/news/fenix-outdoor-internationals-stofoi-b-50-cagr-outpaced-the-c",
+          "publishedOn": "2022-04-03T11:28:06.000Z",
+          "wordCount": 901,
+          "title": "Fenix Outdoor International's (STO:FOI B) 5.0% CAGR outpaced the company's earnings growth over the same five-year period"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/telecom/sto-telia/telia-shares/news/dividend-investors-dont-be-too-quick-to-buy-telia-company-ab-1",
+          "author": "Simply Wall St",
+          "description": "Regular readers will know that we love our dividends at Simply Wall St, which is why it's exciting to see Telia Company...",
+          "link": "https://simplywall.st/stocks/se/telecom/sto-telia/telia-shares/news/dividend-investors-dont-be-too-quick-to-buy-telia-company-ab-1",
+          "publishedOn": "2022-04-03T11:28:04.000Z",
+          "wordCount": 977,
+          "title": "Dividend Investors: Don't Be Too Quick To Buy Telia Company AB (publ) (STO:TELIA) For Its Upcoming Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/nl/food-beverage-tobacco/ams-jdep/jde-peets-shares/news/jde-peets-amsjdep-is-due-to-pay-a-dividend-of-035",
+          "author": "Simply Wall St",
+          "description": "JDE Peet's N.V.'s ( AMS:JDEP ) investors are due to receive a payment of €0.35 per share on 15th of July. Based on this...",
+          "link": "https://simplywall.st/stocks/nl/food-beverage-tobacco/ams-jdep/jde-peets-shares/news/jde-peets-amsjdep-is-due-to-pay-a-dividend-of-035",
+          "publishedOn": "2022-04-03T11:26:47.000Z",
+          "wordCount": 823,
+          "title": "JDE Peet's (AMS:JDEP) Is Due To Pay A Dividend Of €0.35"
+        },
+        {
+          "id": "https://simplywall.st/stocks/pl/materials/wse-mfo/mfo-shares/news/is-now-the-time-to-put-mfo-wsemfo-on-your-watchlist",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/pl/materials/wse-mfo/mfo-shares/news/is-now-the-time-to-put-mfo-wsemfo-on-your-watchlist",
+          "publishedOn": "2022-04-03T11:24:57.000Z",
+          "wordCount": null,
+          "title": "Is Now The Time To Put MFO (WSE:MFO) On Your Watchlist?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/de/real-estate/bst-dwb/dinkelacker-shares/news/dinkelacker-ag-bstdwb-goes-ex-dividend-soon",
+          "author": "Simply Wall St",
+          "description": "Dinkelacker AG ( BST:DWB ) stock is about to trade ex-dividend in 3 days. The ex-dividend date is one business day...",
+          "link": "https://simplywall.st/stocks/de/real-estate/bst-dwb/dinkelacker-shares/news/dinkelacker-ag-bstdwb-goes-ex-dividend-soon",
+          "publishedOn": "2022-04-03T11:24:12.000Z",
+          "wordCount": 963,
+          "title": "Dinkelacker AG (BST:DWB) Goes Ex-Dividend Soon"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/diversified-financials/sto-mang/mangold-fondkommission-shares/news/mangold-fondkommission-ab-stomang-passed-our-checks-and-its",
+          "author": "Simply Wall St",
+          "description": "Regular readers will know that we love our dividends at Simply Wall St, which is why it's exciting to see Mangold...",
+          "link": "https://simplywall.st/stocks/se/diversified-financials/sto-mang/mangold-fondkommission-shares/news/mangold-fondkommission-ab-stomang-passed-our-checks-and-its",
+          "publishedOn": "2022-04-03T11:22:54.000Z",
+          "wordCount": 923,
+          "title": "Mangold Fondkommission AB (STO:MANG) Passed Our Checks, And It's About To Pay A kr49.00 Dividend"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/healthcare/sto-sus/surgical-science-sweden-shares/news/surgical-science-sweden-ab-publs-stosus-stock-has-shown-weak",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/se/healthcare/sto-sus/surgical-science-sweden-shares/news/surgical-science-sweden-ab-publs-stosus-stock-has-shown-weak",
+          "publishedOn": "2022-04-03T11:22:00.000Z",
+          "wordCount": null,
+          "title": "Surgical Science Sweden AB (publ)'s (STO:SUS) Stock Has Shown Weakness Lately But Financial Prospects Look Decent: Is The Market Wrong?"
+        },
+        {
+          "id": "https://simplywall.st/stocks/se/capital-goods/sto-ctt/ctt-systems-shares/news/sales-director-ola-haggfeldt-just-bought-111-more-shares-in",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/se/capital-goods/sto-ctt/ctt-systems-shares/news/sales-director-ola-haggfeldt-just-bought-111-more-shares-in",
+          "publishedOn": "2022-04-03T11:21:41.000Z",
+          "wordCount": null,
+          "title": "Sales Director Ola Haggfeldt Just Bought 111% More Shares In CTT Systems AB (publ) (STO:CTT)"
+        },
+        {
+          "id": "https://simplywall.st/stocks/il/tech/tase-intr/inter-gamma-investment-shares/news/why-it-might-not-make-sense-to-buy-inter-gamma-investment-co",
+          "author": "Simply Wall St",
+          "description": "",
+          "link": "https://simplywall.st/stocks/il/tech/tase-intr/inter-gamma-investment-shares/news/why-it-might-not-make-sense-to-buy-inter-gamma-investment-co",
+          "publishedOn": "2022-04-03T11:20:21.000Z",
+          "wordCount": null,
+          "title": "Why It Might Not Make Sense To Buy Inter Gamma Investment Company Ltd (TLV:INTR) For Its Upcoming Dividend"
+        },
         {
           "id": "https://simplywall.st/stocks/us/software/nasdaq-prgs/progress-software/news/progress-software-nasdaqprgs-has-affirmed-its-dividend-of-us",
           "author": "Simply Wall St",
