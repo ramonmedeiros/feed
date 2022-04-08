@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/04/improving-software-supply-chain.html",
+          "author": null,
+          "description": "Posted by Asra Ali and Laurent Simon, Google Open Source Security Team (GOSST)\n\nMany of the recent high-profile software attacks that have alarmed open-source users globally were consequences of supply chain integrity vulnerabilities: attackers gained control of a build server to use malicious source files, inject malicious artifacts into a compromised build platform, and bypass trusted builders to upload malicious artifacts. \nEach of these attacks could have been prevented if there were a way to detect that the delivered artifacts diverged from the expected origin of the software. But until now, generating verifiable information that described where, when, and how software artifacts were produced (information known as provenance) was difficult. This information allows users to trace artif…",
+          "link": "http://security.googleblog.com/2022/04/improving-software-supply-chain.html",
+          "publishedOn": "2022-04-07T13:00:00.002Z",
+          "wordCount": 1602,
+          "title": "Improving software supply chain security with tamper-proof builds"
+        },
+        {
           "id": "http://security.googleblog.com/2022/04/find-and-eek-increased-rewards-for.html",
           "author": null,
           "description": "Posted by Medha Jain, Program Manager, Devices & Services Security \n\n\nAt Google, we constantly invest in security research to raise the bar for our devices, keeping our users safe and building their trust in our products. In 2021, we published Google Nest security commitments, in which we committed to engage with the research community to examine our products and services and report vulnerabilities.\nWe are now looking to deepen this relationship and accelerate the path toward building more secure devices. Starting today, we will introduce a new vulnerability rewards structure for submissions impacting smart home (Google Nest) and wearables (Fitbit) devices through our Bug Hunters platform. \nBonus!\n\nWe are paying higher rewards retroactively for eligible Google Nest and Fitbit devices repor…",
@@ -36,6 +45,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1614",
+          "author": null,
+          "description": "Has Go caught your interest, but you just haven’t had the time/opportunity to really dig into it? Are you relatively productive in your current language/ecosystem but wonder if the grass truly is greener on Go’s side of the fence? If so, this episode’s for you!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFeaturing\nIan Lopshire – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nNotes and Links\nCharm on The Changelog\nGo Proverbs\nGo Code Review Comments\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/224",
+          "publishedOn": "2022-04-07T19:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 224: Answering questions for the Go-curious",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/224/go-time-224.mp3",
+            "length": "59242161",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/YNwW",
+          "author": "Jerod Santo",
+          "description": "Solid piece on literate programming by Richard Gall for The New Stack. My foremost exposure to the practice came from Jeremy Ashkenas’ CoffeeScript and Backbone.js docs. I always found it cool and useful to read, but couldn’t imagine myself writing code/docs that way. Which brings us to this bit at the end of the article:\n“One of the things we learned is that it’s very expensive,” he said. “And so you spend time trying to figure out what sort of situations justify the expense. And one of them is where people are building relatively small, sophisticated kernels that are going to be shared widely.”\nSeems like Jeremy’s use case drilled it. If you’re mostly writing application code, literate programming probably isn’t worth the headache, but for library/framework authors…\nDiscuss on Changelog News",
+          "link": "https://thenewstack.io/why-literate-programming-might-help-you-write-better-code/",
+          "publishedOn": "2022-04-07T14:43:00.000Z",
+          "wordCount": null,
+          "title": "Literate programming might help you write better code",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/o9yN",
+          "author": "Jerod Santo",
+          "description": "After recording Ship It! #46, Nabeel Sulieman and Gerhard stuck around to pair on getting KCert (a simpler alternative to cert-manager) set up on our LKE infra. It works!\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=OcBAh9S_NRA",
+          "publishedOn": "2022-04-07T13:35:00.000Z",
+          "wordCount": null,
+          "title": "Let's install KCert on Linode Kubernetes Engine!",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/rlqN",
           "author": "Jerod Santo",
@@ -785,41 +829,6 @@
           "wordCount": null,
           "title": "What would it take for artificial intelligence to make real progress?",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1572",
-          "author": null,
-          "description": "In this week’s episode Cameron Dutro, a software engineer at GitHub, Ship It listener and someone with an extraordinary attention to detail, joins us to talk about Kuby, a convention-over-configuration approach to deploying Rails apps.\nThe question that we will be trying to answer is what happened to Rails Active Deployment. The path to that promise land is paved with good intentions, but it’s complicated.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nShortcut – The first project management platform for software development that brings every team across the org together to build better products. More than 10,000 companies from all over the world use Shortcut to plan, collaborate, and build better softw…",
-          "link": "https://changelog.com/shipit/43",
-          "publishedOn": "2022-03-09T16:30:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 43: Rails Active Deployment",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/shipit/43/ship-it-43.mp3",
-            "length": "63962486",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Z3RL",
-          "author": "Jerod Santo",
-          "description": "All the details of the National Science Foundation’s “big bet” are in the article, but here’s the money quote:\nIf you are working on an open source project that might benefit from this kind of funding, check it out here. Phase I applications are due May 12, 2022, and Phase II applications are due October 21, 2022.\nDiscuss on Changelog News",
-          "link": "https://opensource.com/article/22/3/national-science-foundation-open-source",
-          "publishedOn": "2022-03-09T15:36:00.000Z",
-          "wordCount": null,
-          "title": "The NSF announces $21 million to fund open source",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/VJOP",
-          "author": "Jerod Santo",
-          "description": "Say good bye to learning new tools just to work with a different data format.\nDasel uses a standard selector syntax no matter the data format. This means that once you learn how to use dasel you immediately have the ability to query/modify any of the supported data types without any additional tools or effort.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/TomWright/dasel",
-          "publishedOn": "2022-03-09T14:45:00.000Z",
-          "wordCount": null,
-          "title": "One tool to rule wrangle them all (JSON, XML, CSV, etc.)",
-          "itunes": {}
         }
       ]
     },
@@ -834,6 +843,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/products/maps/how-ai-and-imagery-build-self-updating-map/",
+          "author": null,
+          "description": "Building a map is complex, and keeping it up-to-date is even more challenging. Think about how often your city, town or neighborhood changes on a day-to-day basis. Businesses and shops open and close, stretches of highway are added, and roadways change. In today’s Maps 101 installment, we’ll dive into two ways Google Maps uses advancements in AI and imagery to help you see the latest information about the world around you every single day.\nAutomatically updating business hours\nOver the past few years, businesses have experienced a lot of change — including constantly updating operating hours based on changing pandemic-related restrictions. To keep up with this pace of change, we developed a machine learning model that automatically identifies if business hours are likely wrong, then instan…",
+          "link": "https://blog.google/products/maps/how-ai-and-imagery-build-self-updating-map/",
+          "publishedOn": "2022-04-07T17:00:00.000Z",
+          "wordCount": 1411,
+          "title": "How AI and imagery build a self-updating map"
+        },
         {
           "id": "https://blog.google/technology/ai/lift-as-you-lead-meet-2-women-defining-responsible-ai/",
           "author": null,
@@ -1020,6 +1038,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "author": null,
+          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "publishedOn": "2022-04-08T12:16:45.951Z",
+          "wordCount": 984,
+          "title": "Introducing a new Swift package for Apache Thrift"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d",
           "author": null,
           "description": "Twitter Notebook is Twitter’s internal notebook solution. It provides a first-class development environment to Data Scientist and Machine Learning practitioners at Twitter. This blog shares features o",
@@ -1117,6 +1144,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html",
+          "author": null,
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.c5{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.c10{color:#434343;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:14pt;font-family:\"Arial\";font-style:normal}.c2{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,\"Courier New\";font-style:normal}.c0…",
+          "link": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html",
+          "publishedOn": "2022-04-07T16:08:00.000Z",
+          "wordCount": 6442,
+          "title": "CVE-2021-30737, @xerub's 2021 iOS ASN.1 Vulnerability"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html",
           "author": null,
           "description": "ol{margin:0;padding:0}table td,table th{padding:0}.c16{padding-top:16pt;padding-bottom:4pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c11{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c7{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:italic}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Courier New\";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:16pt;font-family:\"Arial\";font-style:normal}.c4{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font…",
@@ -1175,6 +1211,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=63975",
+          "author": "Matthew John Cheetham",
+          "description": "Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.",
+          "link": "https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/",
+          "publishedOn": "2022-04-07T18:00:41.000Z",
+          "wordCount": 2241,
+          "title": "Git Credential Manager: authentication for everyone"
+        },
+        {
+          "id": "https://github.blog/?p=64043",
+          "author": "Jose Palafox",
+          "description": "Learn how to build packages with SLSA 3 provenance using GitHub Actions.",
+          "link": "https://github.blog/2022-04-07-slsa-3-compliance-with-github-actions/",
+          "publishedOn": "2022-04-07T13:18:08.000Z",
+          "wordCount": 1212,
+          "title": "Achieving SLSA 3 Compliance with GitHub Actions and Sigstore for Go modules"
+        },
         {
           "id": "https://github.blog/?p=64028",
           "author": "Jakub Oleksy",
