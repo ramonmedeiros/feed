@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-09T12:15:39.465Z</updated>
+    <updated>2022-04-10T12:15:36.427Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A cross-platform reimplementation of Notepad++]]></title>
+        <id>changelog.com/news/q0Zd</id>
+        <link href="https://github.com/dail8859/NotepadNext"/>
+        <updated>2022-04-09T14:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Though the application overall is stable and usable, it should not be considered safe for critically important work. There are numerous bugs and half working implementations. Pull requests are greatly appreciated.
+If this kind of thing is your bag, I’ve also heard Geany is worth a look.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[More steel]]></title>
         <id>https://daniel.haxx.se/blog/?p=18946</id>
@@ -1704,107 +1717,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://daniel.haxx.se/blog/2022/03/12/curl-no-clobber/"/>
         <updated>2022-03-12T09:49:03.000Z</updated>
         <summary type="html"><![CDATA[Do you remember August 26 2002? I can’t say I particularly do but the curl git log remembers for us that it was on that day we added this TODO item: Add an option that prevents cURL from overwriting existing local files. When used, and there already is an existing file with the target file … Continue reading curl no clobber →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preventing compromised password reuse on HackerOne.com]]></title>
-        <id>https://hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom</id>
-        <link href="https://www.hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom"/>
-        <updated>2022-03-11T22:01:15.000Z</updated>
-        <author>
-            <name>vincent@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 483: ONE MORE thing every dev should know]]></title>
-        <id>changelog.com/1/1570</id>
-        <link href="https://changelog.com/podcast/483"/>
-        <updated>2022-03-11T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The incomparable Jessica Kerr is back with another grab-bag of amazing topics. We talk about her journey to Honeycomb, devs getting satisfaction from the code they write, why step one for her is “get that new project into production” and step two is observe it, her angst for the context switching around pull requests, some awesome book recommendations, how game theory and design can translate to how we skill up and level up our teams, and so much more.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-InfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use undocumented web APIs]]></title>
-        <id>changelog.com/news/d3ZZ</id>
-        <link href="https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/"/>
-        <updated>2022-03-11T19:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Julia Evans lays out her process for taking API responses in her browser’s dev tools and using them in her own programs/scripts:
-look in developer tools for a promising JSON response
-copy as cURL
-remove irrelevant headers
-translate it into Python
-Some of you might be wondering – can you always do this?
-The answer is sort of yes – browsers aren’t magic! All the information browsers send to your backend is just HTTP requests. So if I copy all of the HTTP headers that my browser is sending, I think there’s literally no way for the backend to tell that the request isn’t sent by my browser and is actually being sent by a random Python program.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 216: Enabling performance-centric engineering orgs]]></title>
-        <id>changelog.com/6/1601</id>
-        <link href="https://changelog.com/jsparty/216"/>
-        <updated>2022-03-11T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week Amal and Nick are joined by Dan Shappir, a Performance Tech Lead at Next Insurance, to learn about enabling a performance-first mindset within your engineering org.
-Dan recently left his 7+ year tenure leading performance at Wix where he and his team improved, and monitored the speed of millions of websites around the world.
-Join us to learn how he lead a cultural transformation that propelled Wix sites to be faster than most other React apps in the wild - including ones built with frameworks like Next.js.
-Discuss on Changelog News
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Retool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of buildi…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ember Community Survey 2022]]></title>
-        <id>changelog.com/news/Q5Xq</id>
-        <link href="https://emberjs.com/survey/2022/"/>
-        <updated>2022-03-11T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a bit different from your “State of JS” or “State of Frontend” surveys because it only focuses on EmberJS but it has been running longer than any of them. If you have used Ember even just a little bit we would appreciate your opinions and we want to listen to our community to find ideas on how to improve!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Chris Manson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ECMAScript proposal: Types as Comments]]></title>
-        <id>changelog.com/news/5378</id>
-        <link href="https://github.com/giltayar/proposal-types-as-comments"/>
-        <updated>2022-03-11T15:40:00.000Z</updated>
-        <summary type="html"><![CDATA[This proposal is brand new (stage 0), but I hear that a lot of work has been put into it behind the scenes by a lot of people, so it has that going for it…
-This proposal aims to enable developers to add type annotations to their JavaScript code, allowing those annotations to be checked by a type checker that is external to JavaScript. At runtime, a JavaScript engine ignores them, treating the types as comments.
-The aim of this proposal is to enable developers to run programs written in TypeScript, Flow, and other static typing supersets of JavaScript without any need for transpilation, if they stick within a certain reasonably large subset of the language.
-The implications of this change are pretty massive, if it were to ever ship. And you better believe we’re putting together a JS Party episode to discuss it with the people involved.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charts to watch #2]]></title>
-        <id>https://marketradar.substack.com/p/charts-to-watch-2</id>
-        <link href="https://marketradar.substack.com/p/charts-to-watch-2"/>
-        <updated>2022-03-11T15:34:26.000Z</updated>
-        <summary type="html"><![CDATA[A mix of charts on stocks and indices]]></summary>
-        <author>
-            <name>Market Radar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[remove leftovers on curl error]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18531</id>
-        <link href="https://daniel.haxx.se/blog/2022/03/11/remove-leftovers-on-curl-error/"/>
-        <updated>2022-03-11T06:53:52.000Z</updated>
-        <summary type="html"><![CDATA[We have just merged curl’s 246th command line option: --remove-on-error (with this commit). To be included in the upcoming curl 7.83.0 release. This command line option is quite simple and does exactly what the name suggests. If you tell curl to download something into a local file and something goes wrong in that transfer – … Continue reading remove leftovers on curl error →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>

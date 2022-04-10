@@ -37,6 +37,16 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/q0Zd",
+          "author": "Jerod Santo",
+          "description": "Though the application overall is stable and usable, it should not be considered safe for critically important work. There are numerous bugs and half working implementations. Pull requests are greatly appreciated.\nIf this kind of thing is your bag, I’ve also heard Geany is worth a look.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/dail8859/NotepadNext",
+          "publishedOn": "2022-04-09T14:15:00.000Z",
+          "wordCount": null,
+          "title": "A cross-platform reimplementation of Notepad++",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/JLVr",
           "author": "Jerod Santo",
           "description": "Louis Lazaris describes/demos somewhat obscure HTML attributes you may find useful enough to personally use in one of your projects. I learned a few things, maybe you will too.\nDiscuss on Changelog News",
@@ -775,66 +785,6 @@
           "wordCount": null,
           "title": "How to design better REST APIs",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1570",
-          "author": null,
-          "description": "The incomparable Jessica Kerr is back with another grab-bag of amazing topics. We talk about her journey to Honeycomb, devs getting satisfaction from the code they write, why step one for her is “get that new project into production” and step two is observe it, her angst for the context switching around pull requests, some awesome book recommendations, how game theory and design can translate to how we skill up and level up our teams, and so much more.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nInfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive …",
-          "link": "https://changelog.com/podcast/483",
-          "publishedOn": "2022-03-11T21:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 483: ONE MORE thing every dev should know",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/podcast/483/the-changelog-483.mp3",
-            "length": "71483017",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/d3ZZ",
-          "author": "Jerod Santo",
-          "description": "Julia Evans lays out her process for taking API responses in her browser’s dev tools and using them in her own programs/scripts:\nlook in developer tools for a promising JSON response\ncopy as cURL\nremove irrelevant headers\ntranslate it into Python\nSome of you might be wondering – can you always do this?\nThe answer is sort of yes – browsers aren’t magic! All the information browsers send to your backend is just HTTP requests. So if I copy all of the HTTP headers that my browser is sending, I think there’s literally no way for the backend to tell that the request isn’t sent by my browser and is actually being sent by a random Python program.\nDiscuss on Changelog News",
-          "link": "https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/",
-          "publishedOn": "2022-03-11T19:21:00.000Z",
-          "wordCount": null,
-          "title": "How to use undocumented web APIs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/6/1601",
-          "author": null,
-          "description": "This week Amal and Nick are joined by Dan Shappir, a Performance Tech Lead at Next Insurance, to learn about enabling a performance-first mindset within your engineering org.\nDan recently left his 7+ year tenure leading performance at Wix where he and his team improved, and monitored the speed of millions of websites around the world.\nJoin us to learn how he lead a cultural transformation that propelled Wix sites to be faster than most other React apps in the wild - including ones built with frameworks like Next.js.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – Retool is a low-code platform built specifically for developers that makes it fast and easy to build internal tools. Instead of buildi…",
-          "link": "https://changelog.com/jsparty/216",
-          "publishedOn": "2022-03-11T18:30:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 216: Enabling performance-centric engineering orgs",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://chtbl.com/track/A551A9/https://cdn.changelog.com/uploads/jsparty/216/js-party-216.mp3",
-            "length": "71144640",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Q5Xq",
-          "author": "Chris Manson",
-          "description": "This is a bit different from your “State of JS” or “State of Frontend” surveys because it only focuses on EmberJS but it has been running longer than any of them. If you have used Ember even just a little bit we would appreciate your opinions and we want to listen to our community to find ideas on how to improve!\nDiscuss on Changelog News",
-          "link": "https://emberjs.com/survey/2022/",
-          "publishedOn": "2022-03-11T16:30:00.000Z",
-          "wordCount": null,
-          "title": "Ember Community Survey 2022",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/5378",
-          "author": "Jerod Santo",
-          "description": "This proposal is brand new (stage 0), but I hear that a lot of work has been put into it behind the scenes by a lot of people, so it has that going for it…\nThis proposal aims to enable developers to add type annotations to their JavaScript code, allowing those annotations to be checked by a type checker that is external to JavaScript. At runtime, a JavaScript engine ignores them, treating the types as comments.\nThe aim of this proposal is to enable developers to run programs written in TypeScript, Flow, and other static typing supersets of JavaScript without any need for transpilation, if they stick within a certain reasonably large subset of the language.\nThe implications of this change are pretty massive, if it were to ever ship. And you better believe we’re putting together a JS Party episode to discuss it with the people involved.\nDiscuss on Changelog News",
-          "link": "https://github.com/giltayar/proposal-types-as-comments",
-          "publishedOn": "2022-03-11T15:40:00.000Z",
-          "wordCount": null,
-          "title": "ECMAScript proposal: Types as Comments",
-          "itunes": {}
         }
       ]
     },
@@ -1026,15 +976,6 @@
           "publishedOn": "2022-03-12T09:49:03.000Z",
           "wordCount": 830,
           "title": "curl no clobber"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18531",
-          "author": "Daniel Stenberg",
-          "description": "We have just merged curl’s 246th command line option: --remove-on-error (with this commit). To be included in the upcoming curl 7.83.0 release. This command line option is quite simple and does exactly what the name suggests. If you tell curl to download something into a local file and something goes wrong in that transfer – … Continue reading remove leftovers on curl error →",
-          "link": "https://daniel.haxx.se/blog/2022/03/11/remove-leftovers-on-curl-error/",
-          "publishedOn": "2022-03-11T06:53:52.000Z",
-          "wordCount": 781,
-          "title": "remove leftovers on curl error"
         }
       ]
     },
@@ -1437,17 +1378,7 @@
       "title": "HackerOne",
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
-      "articles": [
-        {
-          "id": "https://hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom",
-          "author": "vincent@hackerone.com",
-          "description": "",
-          "link": "https://www.hackerone.com/best-practices/preventing-compromised-password-reuse-hackeronecom",
-          "publishedOn": "2022-03-11T22:01:15.000Z",
-          "wordCount": 1435,
-          "title": "Preventing compromised password reuse on HackerOne.com"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -1516,21 +1447,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F33947681-1752-4241-9ba6-77edeec1d2ae_895x784.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/charts-to-watch-2",
-          "author": "Market Radar",
-          "description": "A mix of charts on stocks and indices",
-          "link": "https://marketradar.substack.com/p/charts-to-watch-2",
-          "publishedOn": "2022-03-11T15:34:26.000Z",
-          "wordCount": null,
-          "title": "Charts to watch #2",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F34a427cb-006a-4adc-8c16-3fd2ec09a00d_928x595.png",
             "length": "0",
             "type": "image/jpeg"
           }
