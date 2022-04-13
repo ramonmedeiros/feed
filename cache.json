@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/04/how-to-slsa-part-1-basics.html",
+          "author": null,
+          "description": "Posted by Tom Hennen, Software Engineer, BCID & GOSST \n\nOne of the great benefits of SLSA (Supply-chain Levels for Software Artifacts) is its flexibility. As an open source framework designed to improve the integrity of software packages and infrastructure, it is as applicable to small open source projects as to enterprise organizations. But with this flexibility can come a bewildering array of options for beginners—much like salsa dancing, someone just starting out might be left on the dance floor wondering how and where to jump in.\nThough it’s tempting to try to establish a single standard for how to use SLSA, it’s not possible: SLSA is not a line dance where everyone does the same moves, at the same time, to the same song. It’s a varied system with different styles, moves, and flourishe…",
+          "link": "http://security.googleblog.com/2022/04/how-to-slsa-part-1-basics.html",
+          "publishedOn": "2022-04-12T16:00:00.001Z",
+          "wordCount": 1841,
+          "title": "How to SLSA Part 1 - The Basics"
+        },
+        {
           "id": "http://security.googleblog.com/2022/04/improving-software-supply-chain.html",
           "author": null,
           "description": "Posted by Asra Ali and Laurent Simon, Google Open Source Security Team (GOSST)\n\nMany of the recent high-profile software attacks that have alarmed open-source users globally were consequences of supply chain integrity vulnerabilities: attackers gained control of a build server to use malicious source files, inject malicious artifacts into a compromised build platform, and bypass trusted builders to upload malicious artifacts. \nEach of these attacks could have been prevented if there were a way to detect that the delivered artifacts diverged from the expected origin of the software. But until now, generating verifiable information that described where, when, and how software artifacts were produced (information known as provenance) was difficult. This information allows users to trace artif…",
@@ -36,6 +45,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1587",
+          "author": null,
+          "description": "This week we’re joined by Deepthi Sigireddi, Vitess Maintainer and engineer at PlanetScale — of course we’re talking about all things Vitess. We talk about its origin inside YouTube, how Vitess handles sharding, Deepthi’s journey to Vitess maintainer, when you should begin using it, and how it fits into cloud native infra.\nDiscuss on Changelog News\nChangelog++ members will hear a bonus 11 minutes at the end of this episode and zero ads. Join today!\nSponsors\nInfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive volumes and countless sources of time-stamped data produced by sensors, applications, and infrastructure. Learn more at influxdata…",
+          "link": "https://changelog.com/podcast/485",
+          "publishedOn": "2022-04-12T19:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 485: The story of Vitess",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/485/the-changelog-485.mp3",
+            "length": "87703996",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/makl",
+          "author": "Jerod Santo",
+          "description": "Hidde de Vries:\nWebAIM have come out with their latest report on which accessibility issues they found in the top million websites that they tested automatically. What is some low hanging fruit you could fix today?\nDiscuss on Changelog News",
+          "link": "https://hiddedevries.nl/en/blog/2022-04-12-common-accessibility-issues-that-you-can-fix-today",
+          "publishedOn": "2022-04-12T15:30:00.000Z",
+          "wordCount": null,
+          "title": "Common accessibility issues that you can fix today",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/wkAk",
+          "author": "Jerod Santo",
+          "description": "Nils Norman Haukås:\nI have been a big fan of the write libraries, not frameworks argument for a while now. Lately, I’ve come to ponder that there might be a fruitful expansion to this argument, that we should start to value principles over patterns, patterns over libraries, and libraries over frameworks.\nI don’t disagree!\nThe challenge with principles & patterns is they are more difficult to formalize (and communicate) than libraries & frameworks because they’re by nature less specific and more meta (lowercase “m” ftw).\nIn other words, libraries & frameworks are an end product. Principles & patterns are means to an end. It’s easier to ship a product than to ship the means to it.\nThe latter is the realm of documentation, education, and conversation.\nDiscuss on Changelog News",
+          "link": "https://nilsnh.no/2022/04/09/innovating-beyond-libraries-and-frameworks/",
+          "publishedOn": "2022-04-12T14:32:00.000Z",
+          "wordCount": null,
+          "title": "Innovating beyond libraries and frameworks",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/lbg2",
           "author": "Jerod Santo",
@@ -775,56 +819,6 @@
           "wordCount": null,
           "title": "IBM open sources a $300 fully-functional LEGO® microscope design",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eZ1Z",
-          "author": "Jerod Santo",
-          "description": "Safari 15.4 dropped today and it has a bunch of goodies in there for web devs including lazy-loading images, the <dialog> element, the :has(), pseudo-class, and more.\nDiscuss on Changelog News",
-          "link": "https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/",
-          "publishedOn": "2022-03-14T19:03:00.000Z",
-          "wordCount": null,
-          "title": "New WebKit features in Safari 15.4",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RRqw",
-          "author": "Jerod Santo",
-          "description": "Ars Technica takes an epic stroll down memory lane:\nIn their moment, minicomputers were used in a variety of applications. They served as communications controllers, instrument controllers, large system pre-processors, desk calculators, and real-time data acquisition handlers. But they also laid the foundation for significant hardware architecture advances and contributed greatly to modern operating systems, programming languages, and interactive computing as we know them today.\nWe were just discussing this machine on our upcoming episode with Brian Kernighan.\n\nDiscuss on Changelog News",
-          "link": "https://arstechnica.com/gadgets/2022/03/a-brief-tour-of-the-pdp-11-the-most-influential-minicomputer-of-all-time/",
-          "publishedOn": "2022-03-14T18:12:00.000Z",
-          "wordCount": null,
-          "title": "A brief tour of the PDP-11, the most influential minicomputer of all time",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3YEP",
-          "author": "Jerod Santo",
-          "description": "HUBFS is a file system for GitHub and Git. Git repositories and their contents are represented as regular directories and files and are accessible by any application, without the application having any knowledge that it is really accessing a remote Git repository. The repositories are writable and allow editing files and running build operations.\nSo if you hubfs mnt (on macOS/Linux), it will set up a file hierarchy inside /mnt that follows this pattern: / owner / repository / ref / path. Cool idea! It is affected by GitHub’s API rate limiting and I’m not sure if/how it syncs (commits) back to the remote repos…\nDiscuss on Changelog News",
-          "link": "https://github.com/winfsp/hubfs",
-          "publishedOn": "2022-03-14T15:05:00.000Z",
-          "wordCount": null,
-          "title": "HUBFS – a file system for GitHub",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/032D",
-          "author": "Shayon Mukherjee",
-          "description": "Schema changes are usually critical operations to perform on a high volume database. One thing off, and you are looking at an outage. pg-osc makes it easy and safe to run any ALTER statement on a production database table with no locking.\nDiscuss on Changelog News",
-          "link": "https://www.shayon.dev/post/2022/47/pg-osc-zero-downtime-schema-changes-in-postgresql/",
-          "publishedOn": "2022-03-14T14:14:00.000Z",
-          "wordCount": null,
-          "title": "Zero downtime schema changes in PostgreSQL",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/73l2",
-          "author": "Jerod Santo",
-          "description": "Here’s one of the 15 language-agnostic, actionable tips on REST API design:\nUse conventional HTTP status codes to indicate the success or failure of a request. Don’t use too many, and use the same status codes for the same outcomes across the API.\nSmile Egbai had a solid rant about this on Go Time recently.\nDiscuss on Changelog News",
-          "link": "https://r.bluethl.net/how-to-design-better-apis",
-          "publishedOn": "2022-03-14T13:23:00.000Z",
-          "wordCount": null,
-          "title": "How to design better REST APIs",
-          "itunes": {}
         }
       ]
     },
@@ -1122,15 +1116,6 @@
           "publishedOn": "2022-03-17T12:17:10.900Z",
           "wordCount": 1680,
           "title": "A hybrid approach to personalize notification volume"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "author": null,
-          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "publishedOn": "2022-03-14T12:16:54.196Z",
-          "wordCount": 2053,
-          "title": "Next generation data insights using natural language queries"
         }
       ]
     },
@@ -1207,6 +1192,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64076",
+          "author": "Taylor Blau",
+          "description": "Upgrade your local installation of Git, especially if you are using Git for Windows, or you use Git on a multi-user machine.",
+          "link": "https://github.blog/2022-04-12-git-security-vulnerability-announced/",
+          "publishedOn": "2022-04-12T17:51:41.000Z",
+          "wordCount": 660,
+          "title": "Git security vulnerability announced"
+        },
+        {
+          "id": "https://github.blog/?p=64119",
+          "author": "Evi Liu",
+          "description": "Today, we’re excited to bring you a few new features that will help you communicate, collaborate, and connect seamlessly with teams and communities about the software you’re building with the help of GitHub Discussions.",
+          "link": "https://github.blog/2022-04-12-whats-new-in-github-discussions-organization-discussions-polls-and-more/",
+          "publishedOn": "2022-04-12T17:00:32.000Z",
+          "wordCount": 1295,
+          "title": "What’s new in GitHub Discussions: Organization Discussions, polls, and more"
+        },
         {
           "id": "https://github.blog/?p=64109",
           "author": "blakewilliams",
@@ -1451,7 +1454,17 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/5c0c1c7d7eaf",
+          "author": "Netflix Technology Blog",
+          "description": "By Alex Hutter, Falguni Jhaveri and Senthil Sayeebaba",
+          "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-04-12T17:16:41.000Z",
+          "wordCount": 2138,
+          "title": "How Netflix Content Engineering makes a federated graph searchable"
+        }
+      ]
     },
     {
       "title": "All Eyes on Markets",
