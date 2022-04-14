@@ -2,10 +2,152 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-13T12:21:14.799Z</updated>
+    <updated>2022-04-14T12:18:48.803Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Next generation data insights using natural language queries]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries"/>
+        <updated>2022-04-14T12:18:31.019Z</updated>
+        <summary type="html"><![CDATA[In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Portfolio Rebalancing: April 2022]]></title>
+        <id>https://marketradar.substack.com/p/portfolio-rebalancing-april-2022</id>
+        <link href="https://marketradar.substack.com/p/portfolio-rebalancing-april-2022"/>
+        <updated>2022-04-14T10:11:36.000Z</updated>
+        <summary type="html"><![CDATA[Balanced and Pure Stocks Portfolios]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reinventing IT & Cyber Risk Management in the financial market]]></title>
+        <id>https://building.nubank.com.br/?p=18245</id>
+        <link href="https://building.nubank.com.br/reinventing-it-and-cyber-risk-in-the-financial-market/"/>
+        <updated>2022-04-13T21:39:44.000Z</updated>
+        <summary type="html"><![CDATA[Diversity leads Nubank's IT Risk team to challenge the traditional way to deal with technological risks through a multidisciplinary approach.
+The post Reinventing IT & Cyber Risk Management in the financial market appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Dilson Caproni, Nathalia Magagne and Larissa Fonseca - IT Risk team at Nubank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party This is JS Party!]]></title>
+        <id>changelog.com/6/1633</id>
+        <link href="https://changelog.com/jsparty/trailer-2"/>
+        <updated>2022-04-13T18:36:32.000Z</updated>
+        <summary type="html"><![CDATA[JS Party is a weekly celebration of JavaScript and the web so fun is at the heart of every episode.
+We play games like Frontend Feud… (clip from episode #192)
+Discuss and analyze the news… (clip from episode #213)
+Explain technical concepts to each other like we’re 5… (clip from episode #195)
+Debate hot topics like should websites work without JS? (clip from episode #87)
+Interiew amazing devs like Rich Harris and Una Kravets… (clip from episode #167)
+This is JS Party! Listen and subscribe today.
+We’d love to have you with us. 💚
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Jerod Santo – Twitter, GitHub
+Kevin Ball – Twitter, GitHub, LinkedIn, Website
+Amelia Wattenberger – Twitter, GitHub, Website
+Nick Nisi – Twitter, GitHub, Website
+Divya – Twitter, GitHub, LinkedIn, Website
+Amal Hussein – Twitter, GitHub
+Mikeal Rogers – Twitter, GitHub
+Feross Aboukhadijeh – Twitter, GitHub, Website
+Christopher Hiller – Twitter, GitHub, Website
+Ali Spittel – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nubank elected best bank in Brazil and one of the bests in the world best banks in Forbes’ ranking]]></title>
+        <id>https://building.nubank.com.br/?p=18229</id>
+        <link href="https://building.nubank.com.br/nubank-forbes-ranking-2022/"/>
+        <updated>2022-04-13T17:30:16.000Z</updated>
+        <summary type="html"><![CDATA[The magazine listened to over 45,000 people around the world to compile the list. This is the fourth consecutive time that Nubank appears in the ranking.
+The post Nubank elected best bank in Brazil and one of the bests in the world best banks in Forbes’ ranking appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Nubank Editorial</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The smallest Docker image to serve static websites]]></title>
+        <id>changelog.com/news/3YVD</id>
+        <link href="https://lipanski.com/posts/smallest-docker-image-static-website"/>
+        <updated>2022-04-13T16:03:01.000Z</updated>
+        <summary type="html"><![CDATA[Florin Lipan managed to squeeze a fully-functional static web server into a Docker image that has a 186KB footprint! Here I was thinking FROM alpine was a skinny starting point…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to SLSA Part 2 - The Details]]></title>
+        <id>http://security.googleblog.com/2022/04/how-to-slsa-part-2-details.html</id>
+        <link href="http://security.googleblog.com/2022/04/how-to-slsa-part-2-details.html"/>
+        <updated>2022-04-13T16:00:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Tom  Hennen, software engineer, BCID & GOSST 
+
+In our last post we introduced a fictional example of Squirrel, Oppy, and Acme learning to use SLSA and covered the basics of what their implementations might look like. Today we’ll cover the details: where to store attestations and policies, what policies should check, and how to handle key distribution and trust.
+
+Attestation storage
+Attestations play a large role in SLSA and it’s essential that consumers of artifacts know where to find the attestations for those artifacts.
+
+Co-located in repo
+
+Attestations could be colocated in the repository that hosts the artifact. This is how Squirrel plans to store attestations for packages. They even want to add support to the Squirrel CLI (e.g. acorn get-attestations foo@1.2.3).
+Acme really …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla partners with the Center for Humane Technology]]></title>
+        <id>https://hacks.mozilla.org/?p=47775</id>
+        <link href="https://hacks.mozilla.org/2022/04/mozilla-partners-with-the-center-for-humane-technology/"/>
+        <updated>2022-04-13T15:02:02.000Z</updated>
+        <summary type="html"><![CDATA[We’re pleased to announce that we have partnered with Center for Humane Tech, a nonprofit organization that radically reimagines the digital infrastructure. Its mission is to drive a comprehensive shift toward humane technology that supports the collective well-being, democracy and shared information environment.
+The post Mozilla partners with the Center for Humane Technology appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Melissa Thermidor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 48: Launching Dagger]]></title>
+        <id>changelog.com/14/1597</id>
+        <link href="https://changelog.com/shipit/48"/>
+        <updated>2022-04-13T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode we talk about launching Dagger with all four founders: Andrea, Eric, Sam & Solomon.
+While you may remember Sam & Solomon from episode 23, this time we assembled all four superheroes in this story and went deeper, covering nearly three years of refinements, the launch, as well as the world-class team & community that is coming together to solve the next problem of shipping software. Container images and Kubernetes are great steps in the right direction, but now it’s time for the next leap into the future.
+You can use Dagger to run your CI/CD pipelines locally, without needing to commit and push. You can also use Dagger as a Makefile alternative, which resonates with Gerhard, but go further and your perspective on documentation & automation may start shifting.
+Gerhard believe…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comparing Go vs C in embedded applications]]></title>
+        <id>changelog.com/news/29yM</id>
+        <link href="https://stackoverflow.blog/2022/04/04/comparing-go-vs-c-in-embedded-applications/"/>
+        <updated>2022-04-13T14:06:00.000Z</updated>
+        <summary type="html"><![CDATA[On our episode with Brian Kernighan, I asked him if there were ever a situation in which he would advise you start a new program in C today. His response:
+I think probably unless you are in one of these resource-constrained environments, clearly, right upfront, that you’re going to be resource-constrained and the improvement of hardware isn’t gonna rescue you in the next couple of years, I would not start with C. I really wouldn’t. And then it depends what is your application.
+As if on queue, StackOverflow blogger Marcin Pasinski has done a comparison between C and Go in the quintessential resource-constrained environment. Oddly enough, no mention of TinyGo in the piece, but otherwise a solid analysis.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Changelog 485: The story of Vitess]]></title>
         <id>changelog.com/1/1587</id>
@@ -1786,45 +1928,6 @@ Supporting this important work is a priority for Google.org. At today’s Southe
 The new fund builds on the support Google.org has already provided — through grants, technology and Googlers’ time — for sustainability-focused organizations and researchers across Asia-Pacific over recent years. I recently had the chance to talk to one of those existing …]]></summary>
         <author>
             <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[webinar: getting started with libcurl]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18635</id>
-        <link href="https://daniel.haxx.se/blog/2022/03/15/webinar-getting-started-with-libcurl/"/>
-        <updated>2022-03-15T21:55:08.000Z</updated>
-        <summary type="html"><![CDATA[On Thursday March 17 2022 at 09:00 PDT (16:00 UTC, 17:00 CET) I will run this free live webinar. It is an introduction to doing Internet transfers using libcurl, may 30-35 minutes presentation followed by a Q&A session where I can answer all and any questions you may have. Sign up here The presentation will … Continue reading webinar: getting started with libcurl →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS-Tricks is joining DigitalOcean]]></title>
-        <id>changelog.com/news/YNpV</id>
-        <link href="https://css-tricks.com/css-tricks-is-joining-digitalocean"/>
-        <updated>2022-03-15T15:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Chris does a great job answering what will surely be the most common question about this acquisition in his announcement post:
-What happens to CSS-Tricks?
-Will you still be running CSS-Tricks?
-Why now?
-The amount of value this team has given to the web world over the years is immeasurable.
-I sincerely hope DigitalOcean turns out to be a worthy new steward of this precious resource and the site’s best years are ahead of it. 🤞
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IBM open sources a $300 fully-functional LEGO® microscope design]]></title>
-        <id>changelog.com/news/o98d</id>
-        <link href="https://www.youtube.com/watch?v=PBSYnk9T4o4"/>
-        <updated>2022-03-15T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[With a detailed instructions video, anyone can build it at home - you just need access to a 3D printer and have to buy a Raspberry Pi computer and an 8MP Raspberry Pi camera.
-The full set of instructions are on their GitHub org.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>
