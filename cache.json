@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/04/how-to-slsa-part-3-putting-it-all.html",
+          "author": null,
+          "description": "Posted by Tom Hennen, software engineer, BCID & GOSST \n\n\nIn our last two posts (1,2) we introduced a fictional example of Squirrel, Oppy, and Acme learning to SLSA and covered the basics and details of how they’d use SLSA for their organizations. Today we’ll close out the series by exploring how each organization pulls together the various solutions into a heterogeneous supply chain. \nAs a reminder, Acme is trying to produce a container image that contains three artifacts:\n\nThe Squirrel package ‘foo’\nThe Oppy package ‘baz’\nA custom executable, ‘bar’, written by Acme employees.\nThe process starts with ‘foo’ package authors triggering a build using GitHub Actions. This results in a new version of ‘foo’ (an artifact with hash ‘abc’) being pushed to the Squirrel repo along with its SLSA proven…",
+          "link": "http://security.googleblog.com/2022/04/how-to-slsa-part-3-putting-it-all.html",
+          "publishedOn": "2022-04-14T17:28:00.008Z",
+          "wordCount": 1091,
+          "title": "How to SLSA Part 3 - Putting it all together"
+        },
+        {
           "id": "http://security.googleblog.com/2022/04/how-to-slsa-part-2-details.html",
           "author": null,
           "description": "Posted by Tom  Hennen, software engineer, BCID & GOSST \n\nIn our last post we introduced a fictional example of Squirrel, Oppy, and Acme learning to use SLSA and covered the basics of what their implementations might look like. Today we’ll cover the details: where to store attestations and policies, what policies should check, and how to handle key distribution and trust.\n\nAttestation storage\nAttestations play a large role in SLSA and it’s essential that consumers of artifacts know where to find the attestations for those artifacts.\n\nCo-located in repo\n\nAttestations could be colocated in the repository that hosts the artifact. This is how Squirrel plans to store attestations for packages. They even want to add support to the Squirrel CLI (e.g. acorn get-attestations foo@1.2.3).\nAcme really …",
@@ -54,6 +63,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1622",
+          "author": null,
+          "description": "We often have code that’s similar between projects and we find ourselves copying that code around. In this episode we discuss what to do with this common code, how to organize it, and what code qualifies as this common code.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFeaturing\nIan Lopshire – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nThoughts on how to structure Go code\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/225",
+          "publishedOn": "2022-04-14T18:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 225: Go code organization best practices",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/225/go-time-225.mp3",
+            "length": "58777387",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/posts/2512",
+          "author": "Kelsey Hightower",
+          "description": "What you’re about to read is a fancified excerpt from Ship It! #44. You should read the original transcript or listen to the entire conversation for more context. To set the stage, this is Kelsey’s response to Gerhard asking what the biggest takeaway should be from their conversation.\nThe reason we find ourselves as practitioners (as an industry as a whole) constantly migrating between different platforms, journeys, and digital transformations…\nWe do this because I don’t think we ever understood the fundamentals.\nThe fundamentals are very clear. If you’re thinking about application delivery, for example, we know what the fundamentals are.\nIdeally, we’re versioning the source code we write, and using tools that enable us to build and package applications in a reproducible way. 15 years ago …",
+          "link": "https://changelog.com/posts/automation-is-the-serialization-of-understanding",
+          "publishedOn": "2022-04-14T17:05:22.000Z",
+          "wordCount": null,
+          "title": "Automation is the serialization of understanding",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/P5AE",
+          "author": "Jerod Santo",
+          "description": "Gergely Orosz did an excellent job detailing the ins & outs of Atlassian’s epic outage:\nHundreds of companies have no access to JIRA, Confluence and OpsGenie. What can engineering teams learn from the poor handling of this outage?\nThe TL;DR on the cause of the outage is a script that was supposed to “mark for deletion” some records also had “permanently delete” functionality and was run against a wrong list of IDs, improperly deleting 400 of their customers. Oh, and their backup restore process is really good at doing all customers, but not a subset. Ruh roh!\nLots to learn here, and Gergely puts a fine point on the biggest takeaways. A must-read!\nDiscuss on Changelog News",
+          "link": "https://newsletter.pragmaticengineer.com/p/scoop-atlassian",
+          "publishedOn": "2022-04-14T15:12:00.000Z",
+          "wordCount": null,
+          "title": "Inside the longest Atlassian outage of all time",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Aade",
+          "author": "Jerod Santo",
+          "description": "Adam Chalmers:\nOver the last few weeks I built my own DNS client. Mostly because I thought dig was kinda clunky. Partly because I wanted to learn more about DNS. So here’s how I built it, and how you can build your own too. It’s a great weekend project, and I learned a lot from finishing it.\nDNS is simple enough that you can grok it quickly, but still complex enough that Adam learned a ton along the way: reading RFCs, network sockets, Bitvec, and more.\nDiscuss on Changelog News",
+          "link": "https://blog.adamchalmers.com/making-a-dns-client/",
+          "publishedOn": "2022-04-14T14:26:00.000Z",
+          "wordCount": null,
+          "title": "What I learned from making a DNS client in Rust",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/6/1633",
           "author": null,
@@ -818,46 +872,6 @@
           "wordCount": null,
           "title": "C isn't a programming language anymore",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/q0Q1",
-          "author": "Jerod Santo",
-          "description": "The New Stack has a solid rundown of all the new hotness that shipped yesterday when Go 1.18 officially rolled out. Of course, if you’re a regular Go Time listener, you’re already well aware of both the headline features as well as the other cool stuff in this release.\nDiscuss on Changelog News",
-          "link": "https://thenewstack.io/go-1-18-the-programming-languages-biggest-release-yet/",
-          "publishedOn": "2022-03-16T21:47:00.000Z",
-          "wordCount": null,
-          "title": "Go 1.18: the programming language’s biggest release yet",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1596",
-          "author": null,
-          "description": "Today’s conversation with Kelsey Hightower showed Gerhard what he was missing in his quest for automation and Kubernetes. The fundamentals that Kelsey shares will most certainly help you level up your game.\nThis is a follow-up to the last 45 seconds of the Kubernetes documentary.\nOh, and we finally cleared where we should run our changelog.com PostgreSQL database 🙂\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nMongoDB – An integrated suite of cloud database and services — They have a FREE forever tier, so you can prove to yourself and to your team that they have everything you need. Check it out today at mongodb.com/changelog\n\n    \nOpenZiti by NetFoundry – Programmable network overlay and associated e…",
-          "link": "https://changelog.com/shipit/44",
-          "publishedOn": "2022-03-16T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 44: Fundamentals",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/44/ship-it-44.mp3",
-            "length": "65479629",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/1607",
-          "author": null,
-          "description": "What happens when your data operations grow to Internet-scale?  How do thousands or millions of data producers and consumers efficiently, effectively, and productively interact with each other?  How are varying formats, protocols, security levels, performance criteria, and use-case specific characteristics meshed into one unified data fabric?  Chris and Daniel explore these questions in this illuminating and Fully-Connected discussion that brings this new data technology into the light.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nLearning Resources\nGo.Dev - a great programming language for data fabric development\nPython Data Science Handbook\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/171",
-          "publishedOn": "2022-03-16T13:40:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 171: Clothing AI in a data fabric",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/171/practical-ai-171.mp3",
-            "length": "44931738",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -925,15 +939,6 @@
           "publishedOn": "2022-03-17T17:00:00.000Z",
           "wordCount": 1781,
           "title": "Meet 3 women who test Google products for fairness"
-        },
-        {
-          "id": "https://blog.google/around-the-globe/google-asia/ai-detect-bushfire-risks/",
-          "author": null,
-          "description": "From predicting floods to improving waste management, organizations and researchers across Asia Pacific are using technology to respond to the impact of climate change.\nSupporting this important work is a priority for Google.org. At today’s Southeast Asia Development Symposium, we announced a $6 million Sustainability Seed Fund to help organizations dedicated to addressing some of the region’s most difficult sustainability challenges. We look forward to sharing more in the coming weeks, including how nonprofits can apply.\nThe new fund builds on the support Google.org has already provided — through grants, technology and Googlers’ time — for sustainability-focused organizations and researchers across Asia-Pacific over recent years. I recently had the chance to talk to one of those existing …",
-          "link": "https://blog.google/around-the-globe/google-asia/ai-detect-bushfire-risks/",
-          "publishedOn": "2022-03-16T04:00:00.000Z",
-          "wordCount": 1415,
-          "title": "The Google.org grantee using AI to detect bushfire risks"
         }
       ]
     },
@@ -1040,15 +1045,6 @@
           "publishedOn": "2022-03-19T23:09:17.000Z",
           "wordCount": 257,
           "title": "curl is now 24"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18615",
-          "author": "Daniel Stenberg",
-          "description": "(This blog post has been updated a few times after the initial publication.) In the Fedora project there is/was a proposal to introduce a curl-minimal package (and its companion libcurl-minimal) by default, as a way to provide default packages with smaller security risk areas. The full curl version packages would then be offered next to … Continue reading Fedora and curl-minimal →",
-          "link": "https://daniel.haxx.se/blog/2022/03/16/fedora-and-curl-minimal/",
-          "publishedOn": "2022-03-16T07:53:34.000Z",
-          "wordCount": 1027,
-          "title": "Fedora and curl-minimal"
         }
       ]
     },
@@ -1164,6 +1160,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html",
+          "author": null,
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.BGLtzooHlW-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.BGLtzooHlW-c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,\"Courier New\";font-style:normal}.BGLtzooHlW-c10{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-fa…",
+          "link": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html",
+          "publishedOn": "2022-04-14T15:58:00.000Z",
+          "wordCount": 8658,
+          "title": "CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html",
           "author": null,
           "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.c5{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.c10{color:#434343;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:14pt;font-family:\"Arial\";font-style:normal}.c2{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,\"Courier New\";font-style:normal}.c0…",
@@ -1240,6 +1245,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64103",
+          "author": "Erin Havens",
+          "description": "Today, we're shipping a new feature for Dependabot alerts which helps you better understand how you're affected by a vulnerability.",
+          "link": "https://github.blog/2022-04-14-dependabot-alerts-now-surface-if-code-is-calling-vulnerability/",
+          "publishedOn": "2022-04-14T16:30:11.000Z",
+          "wordCount": 775,
+          "title": "Dependabot alerts now surface if your code is calling a vulnerability"
+        },
         {
           "id": "https://github.blog/?p=64076",
           "author": "Taylor Blau",
@@ -1446,15 +1460,6 @@
           "publishedOn": "2022-03-17T23:05:05.000Z",
           "wordCount": 1484,
           "title": "Release Radar · February 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=63632",
-          "author": "Cameron Booth",
-          "description": "It is now possible to re-run only failed jobs or a single job in GitHub Actions workflows.",
-          "link": "https://github.blog/2022-03-16-save-time-partial-re-runs-github-actions/",
-          "publishedOn": "2022-03-16T14:37:06.000Z",
-          "wordCount": 738,
-          "title": "Save time with partial re-runs in GitHub Actions"
         }
       ]
     },
@@ -1593,21 +1598,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe53b108f-3c83-4b0e-826b-f8aff87b0893_1152x648.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/portfolio-rebalancing-march-2022",
-          "author": "Market Radar",
-          "description": "Balanced and Pure Stocks Portfolios",
-          "link": "https://marketradar.substack.com/p/portfolio-rebalancing-march-2022",
-          "publishedOn": "2022-03-16T14:29:46.000Z",
-          "wordCount": null,
-          "title": "Portfolio Rebalancing: March 2022",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F33947681-1752-4241-9ba6-77edeec1d2ae_895x784.png",
             "length": "0",
             "type": "image/jpeg"
           }
