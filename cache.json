@@ -64,6 +64,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/6/1619",
+          "author": null,
+          "description": "Rasmus Porsager created Postgres.js –the fastest full-featured PostgreSQL client for Node.js and Deno. Today he joins Jerod for a deep-dive on Postgres, why he created this open source library, and how you can use it to build pg-backed JavScript applications.\nDiscuss on Changelog News\nChangelog++ members will hear a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code JSPARTY and get the team plan free for three months.\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFeaturing\nRasmus Porsager – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nNotes and Links\nJSNation\nReact Summit\npostgres.js on GitHub\npostgres-shift\nHashQL\nHashQL Todos Sample\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/221",
+          "publishedOn": "2022-04-15T19:15:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 221: Postgres.js",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/221/js-party-221.mp3",
+            "length": "48473246",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/8ObE",
+          "author": "Jerod Santo",
+          "description": "Lexical is an extensible JavaScript web text-editor framework with an emphasis on reliability, accessibility and performance. Lexical aims to provide a best-in-class developer experience, so you can easily prototype and build features with confidence. Combined with a highly extensible architecture, Lexical allows developers to create unique text editing experiences that scale in size and functionality.\nIt has solid React integration because Facebook, but Lexical has no dependencies and can be used and extended independent of any library or framework.\nDiscuss on Changelog News",
+          "link": "https://lexical.dev/",
+          "publishedOn": "2022-04-15T14:15:00.000Z",
+          "wordCount": null,
+          "title": "Lexical – an extensible web text editor framework",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/N5ea",
+          "author": "Jerod Santo",
+          "description": "A tragic tale, but one worth sharing because we can all learn from their mistake:\nDue to an unfortunate sequence of events, I accidentally made the project’s repository private for a moment. And GitHub cascade-deleted our community that took 10 years to build.\nWhoops! This reminds me of the time I thought it’d be cute to set JSPartyFM’s Twitter birth date to the day our first episode shipped, which immediately resulted in the account being suspended for being too young.\nSounds like GitHub isn’t up for restoring their stars, so if you were following HTTPie before, you’ll want to head over there and give ’em a re-star.\nDiscuss on Changelog News",
+          "link": "https://httpie.io/blog/stardust",
+          "publishedOn": "2022-04-15T13:27:01.000Z",
+          "wordCount": null,
+          "title": "How HTTPie lost 54k GitHub stars",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/2/1622",
           "author": null,
           "description": "We often have code that’s similar between projects and we find ourselves copying that code around. In this episode we discuss what to do with this common code, how to organize it, and what code qualifies as this common code.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFeaturing\nIan Lopshire – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nThoughts on how to structure Go code\nSomething missing or broken? PRs welcome!",
@@ -827,51 +862,6 @@
           "wordCount": null,
           "title": "Falsehoods programmers believe in",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/EQ3D",
-          "author": "Jerod Santo",
-          "description": "John Ruble:\nOn any moderately-sized Node.js project you’ve likely already outgrown the package.json “scripts” section. But because the growth was gradual, with no single acute pain point, you might not have noticed. There’s a better way.\nI’ve never been able to get into Makefiles, but many people I respect love them. For me the syntax is too arcane, but I recognize the power. If the “scripts” section of your package.json is getting unwieldy, it might be time for a make over. (yes I went there)\nDiscuss on Changelog News",
-          "link": "https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/",
-          "publishedOn": "2022-03-17T17:33:00.000Z",
-          "wordCount": null,
-          "title": "Why I prefer Makefiles over package.json scripts",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1595",
-          "author": null,
-          "description": "What does it take to master a programming language like Go? Joining us is the author of Mastering Go to help us answer that very question and to discuss the third edition of the book.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at developer.squareup.com to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFeaturing\nMihalis Tsoukalos – Twitter\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nMastering Go: Third Edition\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/221",
-          "publishedOn": "2022-03-17T15:45:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 221: Mastering Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/221/go-time-221.mp3",
-            "length": "39998876",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/bNgM",
-          "author": "Jerod Santo",
-          "description": "I’ve avoided using Docker Desktop on my Mac like you avoid those 16-seeds in your March Madness bracket. Why? Because it’s dog slow. But not anymore?\nThe 4.6 release of Docker Desktop for Mac contains a number of changes that drastically improve file sharing performance for macOS users. Firstly, developers now have the option of using a new experimental file sharing implementation called virtiofs (the current default is gRPC-FUSE). Secondly, improvements have been made to the way that files are synced between the macOS host and Docker VM. During testing with our amazing macOS community of users, we have observed that these changes have reduced the time taken to complete filesystem operations by up to 98%.\nvirtiofs is an experimental feature, so you need to enable it to realize these gains.\nDiscuss on Changelog News",
-          "link": "https://www.docker.com/blog/speed-boost-achievement-unlocked-on-docker-desktop-4-6-for-mac/",
-          "publishedOn": "2022-03-17T14:49:00.000Z",
-          "wordCount": null,
-          "title": "Docker Desktop 4.6 promises big speed up for macOS users",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W3Eq",
-          "author": "Jerod Santo",
-          "description": "This piece by Aria Beingessner is incredibly relevant to our shipping-this-week episode with Brian Kernighen:\nMy problem is that C was elevated to a role of prestige and power, its reign so absolute and eternal that it has completely distorted the way we speak to each other. Rust and Swift cannot simply speak their native and comfortable tongues – they must instead wrap themselves in a grotesque simulacra of C’s skin and make their flesh undulate in the same ways it does.\nC is the lingua franca of programming. We must all speak C, and therefore C is not just a programming language anymore – it’s a protocol that every general-purpose programming language needs to speak.\nAnd just in case these pull quotes leave you with the impression that Aria is happy about the situation… yeah, nope.\nDiscuss on Changelog News",
-          "link": "https://gankra.github.io/blah/c-isnt-a-language/",
-          "publishedOn": "2022-03-17T14:02:00.000Z",
-          "wordCount": null,
-          "title": "C isn't a programming language anymore",
-          "itunes": {}
         }
       ]
     },
@@ -930,15 +920,6 @@
           "publishedOn": "2022-03-24T16:00:00.000Z",
           "wordCount": 1498,
           "title": "The Check Up: our latest health AI developments"
-        },
-        {
-          "id": "https://blog.google/inside-google/googlers/meet-3-women-who-test-google-products-fairness/",
-          "author": null,
-          "description": "One of the most interesting parts of working at Google is learning what other people do here — it’s not uncommon to come across a job title you’ve never heard of. For example: ProFair Program Manager, or ProFair Analyst.\nThese roles are part of our Responsible Innovation team, which focuses on making sure our tech supports Google’s AI Principles. One way the team does this is by conducting proactive algorithmic product fairness — or ProFair — testing. This means bringing social and cultural perspectives to the testing process, to assess how an AI or ML application, dataset or technique might avoid reinforcing unfair bias. Three women who work on ProFair testing are Anne Peckham, N’Mah Y. and Cherish M. and today we’re asking them: What’s your job?\n\nThe job: ProFair Responsible Innovation\nA…",
-          "link": "https://blog.google/inside-google/googlers/meet-3-women-who-test-google-products-fairness/",
-          "publishedOn": "2022-03-17T17:00:00.000Z",
-          "wordCount": 1781,
-          "title": "Meet 3 women who test Google products for fairness"
         }
       ]
     },
@@ -1124,33 +1105,6 @@
           "publishedOn": "2022-03-18T12:15:55.393Z",
           "wordCount": 1852,
           "title": "Graph machine learning with missing node features"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
-          "author": null,
-          "description": "This blog post shares optimization findings to speed up Transformer-based models’ CPU inference and improve computational demand in Google Cloud.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/speeding-up-transformer-cpu-inference-in-google-cloud",
-          "publishedOn": "2022-03-17T12:17:11.377Z",
-          "wordCount": 2660,
-          "title": "Speeding up Transformer CPU inference in Google Cloud"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/graph-neural-networks-through-the-lens-of-differential-geometry-",
-          "author": null,
-          "description": "In this post, we show how tools from the fields of differential geometry and algebraic topology can be used to reinterpret GNNs and address some of their common plights in a principled way.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2021/graph-neural-networks-through-the-lens-of-differential-geometry-",
-          "publishedOn": "2022-03-17T12:17:11.359Z",
-          "wordCount": 2607,
-          "title": "GNNs through the lens of differential geometry and algebraic topology"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume",
-          "author": null,
-          "description": "In this blog, we’ll share how we use machine learning techniques to ensure people see the right amount of relevant and timely notifications.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume",
-          "publishedOn": "2022-03-17T12:17:10.900Z",
-          "wordCount": 1680,
-          "title": "A hybrid approach to personalize notification volume"
         }
       ]
     },
@@ -1228,15 +1182,6 @@
           "publishedOn": "2022-03-24T16:00:29.000Z",
           "wordCount": 893,
           "title": "Introducing MDN Plus: Make MDN your own"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47707",
-          "author": "Hermina",
-          "description": "For both MDN and Open Web Docs (OWD), transparency is paramount to our missions. With the upcoming launch of MDN Plus, we believe it’s a good time to talk about how our two organizations work together, and if there is a financial relationship between us. Here is an overview of how our missions overlap and how they differ, and how a premium subscription service fits all this.\nThe post Mozilla and Open Web Docs working together on MDN appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/03/mozilla-and-open-web-docs-working-together-on-mdn/",
-          "publishedOn": "2022-03-17T14:07:34.000Z",
-          "wordCount": 891,
-          "title": "Mozilla and Open Web Docs working together on MDN"
         }
       ]
     },
@@ -1245,6 +1190,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64202",
+          "author": "Mike Hanley",
+          "description": "On April 12, GitHub Security began an investigation that uncovered evidence that an attacker abused stolen OAuth user tokens issued to two third-party OAuth integrators, Heroku and Travis-CI, to download data from dozens of organizations, including npm. Read on to learn more about the impact to GitHub, npm, and our users.",
+          "link": "https://github.blog/2022-04-15-security-alert-stolen-oauth-user-tokens/",
+          "publishedOn": "2022-04-15T22:35:02.000Z",
+          "wordCount": 1107,
+          "title": "Security alert: Attack campaign involving stolen OAuth user tokens issued to two third-party integrators"
+        },
         {
           "id": "https://github.blog/?p=64103",
           "author": "Erin Havens",
@@ -1451,15 +1405,6 @@
           "publishedOn": "2022-03-21T17:41:59.000Z",
           "wordCount": 1291,
           "title": "Validate all the things: improve your security with input validation!"
-        },
-        {
-          "id": "https://github.blog/?p=63572",
-          "author": "Michelle Mannering",
-          "description": "Our community has shipped lots of open source project updates in the last month. Here's a few of our staff picks.",
-          "link": "https://github.blog/2022-03-17-release-radar-feb-2022/",
-          "publishedOn": "2022-03-17T23:05:05.000Z",
-          "wordCount": 1484,
-          "title": "Release Radar · February 2022 Edition"
         }
       ]
     },
