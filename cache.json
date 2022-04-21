@@ -64,6 +64,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1591",
+          "author": null,
+          "description": "Alex Sims, a Senior Software Engineer at James & James, an eCommerce fulfilment company, reached out to us about the Kaizen story of the third-party logistics (3PL) platform that he has been involved with for several years now.\nThe system delivered 16 millions of orders in 10 years, and 4.5 million in the last year alone. All the numbers are going up, and there is only so much that a single PHP monolith deployed as VM images can handle. So how do you even start thinking about the architectural improvements, and inspire everyone involved to move towards better?\nWe encourage you to look at the architectural diagrams in the show notes, especially the 10 year roadmap, and ask Alex for a blog post follow-up. While today’s episode was a good conversation starter, there is a lot that we did not h…",
+          "link": "https://changelog.com/shipit/49",
+          "publishedOn": "2022-04-20T16:15:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 49: Improving an eCommerce fulfillment platform",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/49/ship-it-49.mp3",
+            "length": "60460430",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/W3Y1",
+          "author": "Jerod Santo",
+          "description": "Brave is rolling out a new feature called De-AMP, which allows Brave users to bypass Google-hosted AMP pages, and instead visit the content’s publisher directly. AMP harms users’ privacy, security and internet experience, and just as bad, AMP helps Google further monopolize and control the direction of the Web.\nThe Brave team is really doubling down on privacy and security. I don’t think that strategy would’ve won users a few years ago, but in 2022 and beyond…\nDiscuss on Changelog News",
+          "link": "https://brave.com/privacy-updates/18-de-amp/",
+          "publishedOn": "2022-04-20T14:51:00.000Z",
+          "wordCount": null,
+          "title": "Brave amps up privacy by cutting out AMP",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/4EpE",
+          "author": "Jerod Santo",
+          "description": "Curious how OpenAI’s new DALL-E 2 manages to generate impressive artwork from short natural language prompts? This article breaks down the steps then focuses in on how it does the image generation step.\n\nDiscuss on Changelog News",
+          "link": "https://www.assemblyai.com/blog/how-dall-e-2-actually-works/",
+          "publishedOn": "2022-04-20T13:58:00.000Z",
+          "wordCount": null,
+          "title": "How DALL-E 2 actually works",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/Q5Py",
           "author": "Jerod Santo",
           "description": "This guide by Josh Comeau is Josh doing what Josh does so well: taking complex/arcane/technical topics and making them approachable & fun for his audience.\nIt takes years of practice to become a terminal guru, but here’s the good news: we can take a shortcut. We don’t really need to know 98% of the stuff you can do with a terminal. If we focus on the most-important critical fundamentals, we should be able to become comfortable with the command line in a remarkably short amount of time. ✨\nThat’s what this blog post is all about.\nDiscuss on Changelog News",
@@ -867,16 +902,6 @@
           "wordCount": null,
           "title": "The !only reason CSS's !important rule exists",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/gd26",
-          "author": "Jerod Santo",
-          "description": "The New Stack overviews a recently published 2017 (3-hours long) interview with the living legend, who rarely speaks publicly about herself:\nHamilton remembered being the only woman in her college physics class — “And at the time, I think the professor thought women should not be taking physics because he  … well, you have to know the times.”\nShe added, “That was the only time somebody in college questioned that that might not be something I would be able to make use of.”\nBut Hamilton remained undeterred: “I just said, ‘Because I want to take it,’ you know.”\nDiscuss on Changelog News",
-          "link": "https://thenewstack.io/nasa-programming-legend-margaret-hamilton-gives-rare-interview/",
-          "publishedOn": "2022-03-22T13:30:00.000Z",
-          "wordCount": null,
-          "title": "Margaret Hamilton recalls her life as a programming pioneer",
-          "itunes": {}
         }
       ]
     },
@@ -943,6 +968,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=18954",
+          "author": "Daniel Stenberg",
+          "description": "On June 6 2022, we will gather a bunch of curl aficionados in the Firehouse at the Fort Mason Centre in San Francisco, USA. All details can be found here. We will add more info and details as we get closer to the event. curl up is the annual curl developers and users “conference” where … Continue reading curl up 2022 San Francisco →",
+          "link": "https://daniel.haxx.se/blog/2022/04/20/curl-up-2022-san-francisco/",
+          "publishedOn": "2022-04-20T21:49:21.000Z",
+          "wordCount": 615,
+          "title": "curl up 2022 San Francisco"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=18598",
           "author": "Daniel Stenberg",
@@ -1014,15 +1048,6 @@
           "publishedOn": "2022-03-23T09:44:09.000Z",
           "wordCount": 1415,
           "title": "Anatomy of a ghost CVE"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18644",
-          "author": "Daniel Stenberg",
-          "description": "For many years we’ve had this outstanding idea to add a new API to libcurl that would offer applications easy access to HTTP response headers. Applications could already retrieve the headers using existing methods but that requires them to write a callback and to a certain amount of parsing and “understanding” HTTP that we always … Continue reading A headers API for libcurl →",
-          "link": "https://daniel.haxx.se/blog/2022/03/22/a-headers-api-for-libcurl/",
-          "publishedOn": "2022-03-22T08:00:22.000Z",
-          "wordCount": 1182,
-          "title": "A headers API for libcurl"
         }
       ]
     },
@@ -1214,6 +1239,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64296",
+          "author": "Daniel Adams",
+          "description": "Organization profiles can now display custom content visible only to members of the organization. A new Member view can be tailored to show an alternative README and pinned private repositories.",
+          "link": "https://github.blog/2022-04-20-organization-profiles-leading-the-way/",
+          "publishedOn": "2022-04-20T18:38:24.000Z",
+          "wordCount": 673,
+          "title": "Organization profiles leading the way"
+        },
+        {
+          "id": "https://github.blog/?p=64268",
+          "author": "Gabe Dominguez",
+          "description": "We’re releasing exciting improvements that will streamline your Codespaces experience when working with multi-repository projects and monorepos.",
+          "link": "https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/",
+          "publishedOn": "2022-04-20T16:00:57.000Z",
+          "wordCount": 1022,
+          "title": "Codespaces for multi-repository and monorepo scenarios"
+        },
         {
           "id": "https://github.blog/?p=64193",
           "author": "Andrew Eisenberg",
@@ -1411,24 +1454,6 @@
           "publishedOn": "2022-03-23T16:30:24.000Z",
           "wordCount": 570,
           "title": "GitHub Actions: secure self-hosted runners by limiting them to specific workflows"
-        },
-        {
-          "id": "https://github.blog/?p=63729",
-          "author": "Bruce Williams",
-          "description": "Today, we are rolling out a new beta version of GitHub’s home feed, making it easier to discover projects, developers and more across GitHub.",
-          "link": "https://github.blog/2022-03-22-improving-your-github-feed/",
-          "publishedOn": "2022-03-22T23:47:44.000Z",
-          "wordCount": 609,
-          "title": "Improving your GitHub feed"
-        },
-        {
-          "id": "https://github.blog/?p=63715",
-          "author": "Matt Cooper",
-          "description": "If you're a GHES customer with heavy read traffic on your monorepo, check out the repository cache, especially if you have CI workloads distributed around the world.",
-          "link": "https://github.blog/2022-03-22-introducing-the-ghes-repository-cache/",
-          "publishedOn": "2022-03-22T17:48:06.000Z",
-          "wordCount": 818,
-          "title": "Introducing the GHES repository cache"
         }
       ]
     },
