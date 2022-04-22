@@ -64,6 +64,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1618",
+          "author": null,
+          "description": "Björn Rabenstein & Bartlomiej Płotka join Mat & Johnny to discuss observability, monitoring and instrumentation for gophers.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a demo at chronosphere.io.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nFlatfile – Data import is broken. We fixed it. Flatfile’s powerful out-of-the-box solution takes the data import burden off your shoulders, freeing you to solve bigger business problems and build products that people love.\n\n    \nFeaturing\nBjörn Rabenstein – GitHub\nBartlomiej Płotka – Twitter, GitHub, LinkedIn, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nPrometheus\nGo’s client library for Prometheus\nBjörn’s talk at Gophercon UK\nOpen Telemetry\nGrafana’s Big Tent\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/226",
+          "publishedOn": "2022-04-21T19:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 226: Instrumentation for gophers",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/226/go-time-226.mp3",
+            "length": "57972390",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/bNj7",
+          "author": "Martin Heinz",
+          "description": "With the recent events relating to Google Analytics platform, it’s becoming very clear that the time has come for many of us to migrate from Google Analytics to different platforms.\nIn this article we will go over both the “Why?”, so that you can make an informed decision whether you need to migrate of not, as well as the “How?” of migrating from Google Analytics - that is, quickly and easily taking your data and moving to different analytics platform without too much hassle.\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/71",
+          "publishedOn": "2022-04-21T14:39:00.000Z",
+          "wordCount": null,
+          "title": "Why and how you should leave Google Analytics",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/03Ng",
+          "author": "Jerod Santo",
+          "description": "From the engineering team at Bloomberg:\nIt can track memory allocations in Python code, in native extension modules, and in the Python interpreter itself. It can generate several different types of reports to help you analyze the captured memory usage data. While commonly used as a CLI tool, it can also be used as a library to perform more fine-grained profiling tasks.\nIt has a lot of nice outputs so you can grok what’s going on.\n\nDiscuss on Changelog News",
+          "link": "https://bloomberg.github.io/memray/",
+          "publishedOn": "2022-04-21T13:51:00.000Z",
+          "wordCount": null,
+          "title": "Memray is a memory profiler for Python",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1591",
           "author": null,
           "description": "Alex Sims, a Senior Software Engineer at James & James, an eCommerce fulfilment company, reached out to us about the Kaizen story of the third-party logistics (3PL) platform that he has been involved with for several years now.\nThe system delivered 16 millions of orders in 10 years, and 4.5 million in the last year alone. All the numbers are going up, and there is only so much that a single PHP monolith deployed as VM images can handle. So how do you even start thinking about the architectural improvements, and inspire everyone involved to move towards better?\nWe encourage you to look at the architectural diagrams in the show notes, especially the 10 year roadmap, and ask Alex for a blog post follow-up. While today’s episode was a good conversation starter, there is a lot that we did not h…",
@@ -862,46 +897,6 @@
           "wordCount": null,
           "title": "ZFS compatibility",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1573",
-          "author": null,
-          "description": "Pia Wiedermayer, Lead QA at Zühlke, is talking with Gerhard today about software quality. If the name sounds familiar, check out episode 28. Thank you Romano for the introduction 👋🏻\nDo you remember the last time that you used an app, whether it was in the browser or on your mobile, and everything just worked? What about that intuitive feel, snappiness and you achieving the task that you intended to without feeling that you are fighting tech? Experiences like those take a lot of effort across multiple disciplines. They are designed, built and maintained over long periods of time. It all starts with people like Pia that really care about quality. It’s so much more than just automated testing…\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the…",
-          "link": "https://changelog.com/shipit/45",
-          "publishedOn": "2022-03-23T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 45: Swiss Quality Assurance",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/45/ship-it-45.mp3",
-            "length": "58759743",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/1610",
-          "author": null,
-          "description": "The term “foundation” model has been around since about the middle of last year when a research group at Stanford published the comprehensive report On the Opportunities and Risks of Foundation Models. The naming of these models created some strong reactions, both good and bad. In this episode, Chris and Daniel dive into the ideas behind the report.\nDiscuss on Changelog News\nChangelog++ members save 0 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nReport: “On the Opportunities and Risks of Foundation Models”\nFollow up Blog post: “Reflections on Foundation Models”\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/172",
-          "publishedOn": "2022-03-23T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 172: \"Foundation\" models",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/172/practical-ai-172.mp3",
-            "length": "40390005",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/k2eY",
-          "author": "Jerod Santo",
-          "description": "CSS co-designer Steven Pemberton, on Twitter:\n!important was added for one reason only: laws in the US that require certain text to be in a given font-size. !important stops the cascade from changing it.\nAnything else is probably misuse, and a sign you may not understand the cascade properly.\nDiscuss on Changelog News",
-          "link": "https://twitter.com/stevenpemberton/status/1505839184287870981",
-          "publishedOn": "2022-03-23T12:30:00.000Z",
-          "wordCount": null,
-          "title": "The !only reason CSS's !important rule exists",
-          "itunes": {}
         }
       ]
     },
@@ -1039,15 +1034,6 @@
           "publishedOn": "2022-03-24T07:55:31.000Z",
           "wordCount": 1153,
           "title": "Easier header-picking with curl"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18653",
-          "author": "Daniel Stenberg",
-          "description": "“The Lord giveth and the Lord taketh away.” Job 1:21 On March 16 2022, the curl security team received an email in which the reporter highlighted an Apple web page. What can you tell us about this? I hadn’t seen it before. On this page with the title “About the security content of macOS Monterey … Continue reading Anatomy of a ghost CVE →",
-          "link": "https://daniel.haxx.se/blog/2022/03/23/anatomy-of-a-ghost-cve/",
-          "publishedOn": "2022-03-23T09:44:09.000Z",
-          "wordCount": 1415,
-          "title": "Anatomy of a ghost CVE"
         }
       ]
     },
@@ -1206,6 +1192,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47784",
+          "author": "Hermina",
+          "description": "On March 1st, 2022, MDN Web Docs released a new design and a new brand identity. Overall, the community responded to the redesign enthusiastically and we received many positive messages and kudos. We also received valuable feedback on some of the things we didn’t get quite right, like the browser compatibility table changes as well as some accessibility and readability issues.\nThe post Adopting users’ design feedback appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/04/adopting-users-design-feedback/",
+          "publishedOn": "2022-04-21T15:04:05.000Z",
+          "wordCount": 1178,
+          "title": "Adopting users’ design feedback"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47775",
           "author": "Melissa Thermidor",
           "description": "We’re pleased to announce that we have partnered with Center for Humane Tech, a nonprofit organization that radically reimagines the digital infrastructure. Its mission is to drive a comprehensive shift toward humane technology that supports the collective well-being, democracy and shared information environment.\nThe post Mozilla partners with the Center for Humane Technology appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1239,6 +1234,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64370",
+          "author": "Jeimy Ruiz",
+          "description": "We’re kicking off InFocus, a global virtual event focused on accelerating, securing, and improving the way software development teams work.",
+          "link": "https://github.blog/2022-04-21-guide-to-github-infocus-2022/",
+          "publishedOn": "2022-04-21T21:14:55.000Z",
+          "wordCount": 865,
+          "title": "Your guide to GitHub InFocus: Improving the way software development teams work in 2022"
+        },
+        {
+          "id": "https://github.blog/?p=63926",
+          "author": "Carlos Martín Nieto",
+          "description": "The history of pre-receive hooks, how we discovered that the performance was problematic, and how we went about safely replacing them.",
+          "link": "https://github.blog/2022-04-21-improving-git-push-times-through-faster-server-side-hooks/",
+          "publishedOn": "2022-04-21T16:30:04.000Z",
+          "wordCount": 1361,
+          "title": "Improving Git push times through faster server side hooks"
+        },
         {
           "id": "https://github.blog/?p=64296",
           "author": "Daniel Adams",
@@ -1436,24 +1449,6 @@
           "publishedOn": "2022-03-25T18:00:04.000Z",
           "wordCount": 544,
           "title": "Unlock all the GitHub secrets within .Tech Domains newest experience: Break The Code 2!"
-        },
-        {
-          "id": "https://github.blog/?p=63774",
-          "author": "Keith Ballinger",
-          "description": "Over the past few weeks, we have experienced multiple incidents due to the health of our database. We wanted to share what we know about these incidents while our team continues to address them.",
-          "link": "https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/",
-          "publishedOn": "2022-03-23T20:39:01.000Z",
-          "wordCount": 902,
-          "title": "An update on recent service disruptions"
-        },
-        {
-          "id": "https://github.blog/?p=63742",
-          "author": "Jennifer Schelkopf",
-          "description": "You can now enforce consistent usage of self-hosted runner groups across your organization and enterprise.",
-          "link": "https://github.blog/2022-03-23-github-actions-secure-self-hosted-runners-specific-workflows/",
-          "publishedOn": "2022-03-23T16:30:24.000Z",
-          "wordCount": 570,
-          "title": "GitHub Actions: secure self-hosted runners by limiting them to specific workflows"
         }
       ]
     },
@@ -1524,6 +1519,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/customer-stories/how-wix-improves-their-security-posture-ethical-hackers",
+          "author": "HackerOne",
+          "description": "Reducing risk is fundamental to Wix’s approach to cybersecurity, and as the threat landscape evolves, they turn to HackerOne Bounty to protect their security posture. Since 2018, Wix has invited tens of thousands of ethical hackers worldwide to ensure new and existing features are secure. We recently met with two Wix security team members to learn how they leverage ethical hackers to detect risks before they become threats and how vulnerability insights help strengthen their security posture.",
+          "link": "https://www.hackerone.com/customer-stories/how-wix-improves-their-security-posture-ethical-hackers",
+          "publishedOn": "2022-04-21T14:00:00.000Z",
+          "wordCount": 1958,
+          "title": "How Wix Improves Their Security Posture with Ethical Hackers"
+        },
+        {
           "id": "https://hackerone.com/company-news/announcing-hackerone-2022-attack-resistance-report-security-survey-how-close-your",
           "author": "HackerOne",
           "description": "Today, HackerOne published The 2022 Attack Resistance Report: A HackerOne Security Survey. Our research revealed an increasing gap—the attack resistance gap—between what organizations can defend and what they need to defend. The gap is the result of four components prevalent across organizations.",
@@ -1555,6 +1559,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/earnings-are-positive-surprises-over",
+          "author": "Market Radar",
+          "description": "We have entered one of the most difficult earning seasons ever",
+          "link": "https://marketradar.substack.com/p/earnings-are-positive-surprises-over",
+          "publishedOn": "2022-04-21T14:00:39.000Z",
+          "wordCount": null,
+          "title": "Earnings: are positive surprises over?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F83341bb7-1be7-4bbb-a7f2-925c69ef451b_828x335.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/portfolio-rebalancing-april-2022",
           "author": "Market Radar",
@@ -1596,21 +1615,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F14cb39cd-7135-436e-8f9e-94531b4db24f_1041x790.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/first-hike-is-gone-and-market-reacted",
-          "author": "Market Radar",
-          "description": "Hello Guys, I hope you are all fine! If you are reading this article but you have not subscribed yet, do it now! Use the button below! Do you want to have full access to two model portfolios? Please consider to become a premium subscriber! Here an introduction to the two portfolios:",
-          "link": "https://marketradar.substack.com/p/first-hike-is-gone-and-market-reacted",
-          "publishedOn": "2022-03-23T14:57:44.000Z",
-          "wordCount": null,
-          "title": "First hike is gone and market reacted well",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe53b108f-3c83-4b0e-826b-f8aff87b0893_1152x648.jpeg",
             "length": "0",
             "type": "image/jpeg"
           }
