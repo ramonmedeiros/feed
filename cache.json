@@ -64,6 +64,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1627",
+          "author": null,
+          "description": "Today we’re talking with Zach Lloyd, founder of Warp — the terminal being re-imagined for the 21st century and beyond. Warp is a blazingly fast, rust-based terminal that’s being designed from the ground up to work like a modern app. We get into all the details — why now is the right time to re-invent the terminal, where they got started, the business they aim to build around Warp, what it’s going to take to gain adoption and grow, but more importantly — what’s Warp like today to get developers excited and give it a try.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry …",
+          "link": "https://changelog.com/podcast/487",
+          "publishedOn": "2022-04-26T20:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 487: Warp wants to be the terminal of the future",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/487/the-changelog-487.mp3",
+            "length": "71844559",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/1640",
+          "author": null,
+          "description": "We all hear a lot about MLOps these days, but where does MLOps end and DevOps begin? Our friend Luis from OctoML joins us in this episode to discuss treating AI/ML models as regular software components (once they are trained and ready for deployment). We get into topics including optimization on various kinds of hardware and deployment of models at the edge.\nDiscuss on Changelog News\nChangelog++ members get a bonus 0 minutes at the end of this episode and zero ads. Join today!\nSponsors\nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nLuis Ceze – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nOctoML\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/176",
+          "publishedOn": "2022-04-26T14:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 176: MLOps is NOT Real",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/176/practical-ai-176.mp3",
+            "length": "44741317",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/RRYM",
+          "author": "Jerod Santo",
+          "description": "Eric Jang was recently on the job market (finally landing at [Halodi Robotics])(https://halodi.com/) and in this post he shares his process and view of the job market today. He also has some insights on where it’s headed. In brief:\nIn the future, every successful tech company will use their data moats to build some variant of an Artificial General Intelligence.\nDiscuss on Changelog News",
+          "link": "https://evjang.com/2022/04/25/rome.html",
+          "publishedOn": "2022-04-26T13:20:01.000Z",
+          "wordCount": null,
+          "title": "The machine learning job market in 2022",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/3Yj6",
+          "author": "Jerod Santo",
+          "description": "And if you like Alpine, there’s a companion collection of snippets that you can copy/paste into your project.\nDiscuss on Changelog News",
+          "link": "https://www.hyperui.dev/",
+          "publishedOn": "2022-04-26T12:35:00.000Z",
+          "wordCount": null,
+          "title": "A collection of free Tailwind CSS components",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/O2YN",
           "author": "Jerod Santo",
           "description": "A nice little web-based tool to help you quickly/visually grok some JSON data you’re working with. I tested it on some game data from an old JS Danger episode, and it handled it pretty well.\n\nDiscuss on Changelog News",
@@ -877,36 +927,6 @@
           "wordCount": null,
           "title": "EaseProbe – a standalone, lightweight tool for health/status checking",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/yk3A",
-          "author": "Jerod Santo",
-          "description": "A short, cogent argument why hosting your own cloud services is worth the time/effort:\nConsider this, you carefully curate your playlists on Spotify but every now and then you see a certain song missing from your playlist. Same goes for videos saved in your YouTube playlists or other music/video streaming services. Then there is also the case of OTT streaming platforms where the show you were going to watch over weekend has now disappeared.\nThe author points to r/selfhosted and this awesome self hosted list as good resources to get started.\nDiscuss on Changelog News",
-          "link": "https://rohanrd.xyz/posts/why-you-should-start-self-hosting/",
-          "publishedOn": "2022-03-28T19:06:00.000Z",
-          "wordCount": null,
-          "title": "Why you should start self hosting",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/JLwZ",
-          "author": "Jerod Santo",
-          "description": "The tree UI is ubiquitous in software applications. There are many tree component libraries for React, but none were full-featured enough to stand on their own.\nThis library provides all the common features expected in a tree. You can select one or many nodes to drag and drop into new positions, open and close folders, render an inline form for renaming, efficiently show thousands of items, and provide your own node renderer to control the style.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/brimdata/react-arborist",
-          "publishedOn": "2022-03-28T15:43:00.000Z",
-          "wordCount": null,
-          "title": "A full-featured tree component for React",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Q5Oq",
-          "author": "Jerod Santo",
-          "description": "Where by “auditing” they mean change tracking, not security testing:\nAuditing is particularly useful for historical analysis. To demonstrate, imagine you have a users table that tracks when a user is online. You might add a status column which can have one of two values: online and offline. How would you track how long a user is online for throughout an entire month? An auditing system would track every change with timestamps, and so you can measure the difference between each timestamp and sum them up for the entire month.\nWhat really impresses me about the Supabase team is how much they’re leaning in to Postgres’ rich feature set to build high-quality-yet-low-level abstractions for their users. Paul Copplestone emphasized this when we had him on the show back in January.\nDiscuss on Changelog News",
-          "link": "https://supabase.com/blog/2022/03/08/audit",
-          "publishedOn": "2022-03-28T14:55:00.000Z",
-          "wordCount": null,
-          "title": "Postgres auditing in 150 lines of SQL",
-          "itunes": {}
         }
       ]
     },
@@ -965,6 +985,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=18986",
+          "author": "Daniel Stenberg",
+          "description": "Welcome to the third curl release of the year. Release presentation Numbers the 207th release6 changes53 days (total: 8,804)125 bug-fixes (total: 7,816)185 commits (total: 28,507)2 new public libcurl function (total: 88)0 new curl_easy_setopt() option (total: 295)2 new curl command line option (total: 247)60 contributors, 29 new (total: 2,626)35 authors, 13 new (total: 1,027)4 security fixes … Continue reading curl 7.83.0 headers bonanza →",
+          "link": "https://daniel.haxx.se/blog/2022/04/27/curl-7-83-0-headers-bonanza/",
+          "publishedOn": "2022-04-27T06:28:39.000Z",
+          "wordCount": 1157,
+          "title": "curl 7.83.0 headers bonanza"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=18954",
           "author": "Daniel Stenberg",
           "description": "On June 6 2022, we will gather a bunch of curl aficionados in the Firehouse at the Fort Mason Centre in San Francisco, USA. All details can be found here. We will add more info and details as we get closer to the event. curl up is the annual curl developers and users “conference” where … Continue reading curl up 2022 San Francisco →",
@@ -999,24 +1028,6 @@
           "publishedOn": "2022-03-31T07:33:14.000Z",
           "wordCount": 423,
           "title": "Talked curl on software engineering radio"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18859",
-          "author": "Daniel Stenberg",
-          "description": "One of the toughest jobs I have, is to assess if a reported security problem is indeed an actual security vulnerability or “just” a bug. Let me take you through a recent case to give you an insight… Some background curl is 24 years old and so far in our history we have registered 111 … Continue reading This busy-loop is not a security issue →",
-          "link": "https://daniel.haxx.se/blog/2022/03/28/this-busy-loop-is-not-a-security-issue/",
-          "publishedOn": "2022-03-28T21:13:28.000Z",
-          "wordCount": 1266,
-          "title": "This busy-loop is not a security issue"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18521",
-          "author": "Daniel Stenberg",
-          "description": "curl supports a large number of third party libraries. In a build, those libraries become “dependencies”. These components offer functionality and features that we don’t implement ourselves but still have been deemed interesting or even crucial to support to do Internet transfers the way we want. A curl build done today can use one or … Continue reading What curl expects from dependencies →",
-          "link": "https://daniel.haxx.se/blog/2022/03/28/what-curl-expects-from-dependencies/",
-          "publishedOn": "2022-03-28T08:24:41.000Z",
-          "wordCount": 1386,
-          "title": "What curl expects from dependencies"
         }
       ]
     },
@@ -1199,6 +1210,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64509",
+          "author": "Sergio Padrino",
+          "description": "GitHub Desktop 3.0 brings better integration with your GitHub Pull Requests. You can now receive real time notifications and review the status of your check runs for your pull request.",
+          "link": "https://github.blog/2022-04-26-github-desktop-3-0-brings-better-integration-for-your-pull-requests/",
+          "publishedOn": "2022-04-26T16:00:26.000Z",
+          "wordCount": 1086,
+          "title": "GitHub Desktop 3.0 brings better integration for your pull requests"
+        },
+        {
+          "id": "https://github.blog/?p=64330",
+          "author": "Lessley Dennington",
+          "description": "This is the first post in a two-part series describing friendly forks and alternative strategies for managing them. Stay tuned for part two coming in May!",
+          "link": "https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/",
+          "publishedOn": "2022-04-25T17:29:10.000Z",
+          "wordCount": 1614,
+          "title": "The friend zone: friendly forks 101"
+        },
         {
           "id": "https://github.blog/?p=64307",
           "author": "Lee Reilly",
@@ -1423,15 +1452,6 @@
           "publishedOn": "2022-03-29T10:00:17.000Z",
           "wordCount": 1961,
           "title": "Career tips for beginner developers"
-        },
-        {
-          "id": "https://github.blog/?p=63785",
-          "author": "Zachary Steindler",
-          "description": "Securing your projects is no easy task, but end-to-end supply chain security is more top of mind than ever. We’ve seen bad actors expand their focus to taking over user accounts, commonly used dependencies, and also build systems. Defending against these attacks is hard, because there’s no one thing you can do to protect your […]",
-          "link": "https://github.blog/2022-03-28-how-to-secure-your-end-to-end-supply-chain-on-github/",
-          "publishedOn": "2022-03-28T17:00:12.000Z",
-          "wordCount": 716,
-          "title": "How to secure your end-to-end supply chain on GitHub"
         }
       ]
     },
@@ -1440,6 +1460,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18264",
+          "author": "Felipe Almeida - Machine Learning Engineer",
+          "description": "Nubank's take on how these two roles interact and how each plays a key part in a successful team.\nThe post Data Scientist x Machine Learning Engineer Roles: How are they different? How are they alike? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/data-scientist-x-machine-learning-engineer-roles-how-are-they-different-how-are-they-alike/",
+          "publishedOn": "2022-04-26T22:05:36.000Z",
+          "wordCount": 4965,
+          "title": "Data Scientist x Machine Learning Engineer Roles: How are they different? How are they alike?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18287",
           "author": "Matt Swann - Chief Technology Officer at Nubank",
@@ -1509,6 +1538,15 @@
           "publishedOn": "2022-04-19T23:40:49.000Z",
           "wordCount": 908,
           "title": "Announcing the HackerOne 2022 Attack Resistance Report: A Security Survey—How to Close Your Organization's Attack Resistance Gap"
+        },
+        {
+          "id": "https://hackerone.com/customer-stories/how-ethical-hackers-help-watson-address-digital-risk",
+          "author": "HackerOne",
+          "description": "We recently met with A.S. Watson’s Chief Information Security Officer (CISO), Feliks Voskoboynik, to learn how ethical hackers have helped with digital transformation and enabled his team to harden their attack surface. Read on to learn Feliks’ advice on including a bug bounty program as part of a security strategy, the lessons ethical hackers have provided, and what best practices he can share with other CISOs.",
+          "link": "https://www.hackerone.com/customer-stories/how-ethical-hackers-help-watson-address-digital-risk",
+          "publishedOn": "2022-04-19T16:00:00.000Z",
+          "wordCount": 1637,
+          "title": "How Ethical Hackers Help A.S. Watson Address Digital Risk"
         }
       ]
     },
@@ -1517,6 +1555,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/5941d3231762",
+          "author": "Netflix Technology Blog",
+          "description": "by Vivek Kaushal",
+          "link": "https://netflixtechblog.com/evolution-of-ml-fact-store-5941d3231762?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-04-26T20:44:04.000Z",
+          "wordCount": 2761,
+          "title": "Evolution of ML Fact Store"
+        },
         {
           "id": "https://medium.com/p/5c0c1c7d7eaf",
           "author": "Netflix Technology Blog",
