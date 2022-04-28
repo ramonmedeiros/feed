@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/04/how-we-fought-bad-apps-and-developers.html",
+          "author": null,
+          "description": "Posted by Steve Kafka and Khawaja Shams, Android Security and Privacy Team \nProviding a safe experience to billions of users continues to be one of the highest priorities for Google Play. Last year we introduced multiple privacy focused features, enhanced our protections against bad apps and developers, and improved SDK data safety. In addition, Google Play Protect continues to scan billions of installed apps each day across billions of devices to keep people safe from malware and unwanted software.  \n  \nWe continue to enhance our machine learning systems and review processes, and in 2021 we blocked 1.2 million policy violating apps from being published on Google Play, preventing billions of harmful installations. We also continued in our efforts to combat malicious and spammy developers, …",
+          "link": "http://security.googleblog.com/2022/04/how-we-fought-bad-apps-and-developers.html",
+          "publishedOn": "2022-04-27T16:01:00.000Z",
+          "wordCount": 1021,
+          "title": "How we fought bad apps and developers in 2021"
+        },
+        {
           "id": "http://security.googleblog.com/2022/04/how-to-slsa-part-3-putting-it-all.html",
           "author": null,
           "description": "Posted by Tom Hennen, software engineer, BCID & GOSST \n\n\nIn our last two posts (1,2) we introduced a fictional example of Squirrel, Oppy, and Acme learning to SLSA and covered the basics and details of how they’d use SLSA for their organizations. Today we’ll close out the series by exploring how each organization pulls together the various solutions into a heterogeneous supply chain. \nAs a reminder, Acme is trying to produce a container image that contains three artifacts:\n\nThe Squirrel package ‘foo’\nThe Oppy package ‘baz’\nA custom executable, ‘bar’, written by Acme employees.\nThe process starts with ‘foo’ package authors triggering a build using GitHub Actions. This results in a new version of ‘foo’ (an artifact with hash ‘abc’) being pushed to the Squirrel repo along with its SLSA proven…",
@@ -63,6 +72,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/14/1628",
+          "author": null,
+          "description": "This is our 5th Kaizen where we talk about the next improvement to changelog.com: we are now running on fly.io and our PostgreSQL is managed. This is a migration that many were curious about, including Simey de Klerk, the person that requested this episode.\nAfter migrating all our media files to AWS S3 (check episode 40), we thought that this part was going to be easy. Plan met reality. Pull request 407 has all the details.\nWe want to emphasise the type of partner relationships that we seek at Changelog & why they are important to us, as well as to our listeners. Honeycomb & Fly embody the principles that we care about, and Gerhard thinks that we are currently missing a Kubernetes partner.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ad…",
+          "link": "https://changelog.com/shipit/50",
+          "publishedOn": "2022-04-27T16:30:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 50: Kaizen! We are flying ✈️",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/50/ship-it-50.mp3",
+            "length": "65607074",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/YNYP",
+          "author": "Jerod Santo",
+          "description": "If you’ve found the (excellent) jq tool for working with JSON a bit unwieldy… check out zq and see if you like its API any better. I wouldn’t put too much weight on the faster aspect, though:\nWe will cover zq’s performance in a future article, but to cut to the chase here, zq is almost always at least a bit faster than jq when processing JSON inputs\nAlmost always at least a bit faster is not something you’re likely to notice in practice.\nDiscuss on Changelog News",
+          "link": "https://www.brimdata.io/blog/introducing-zq/",
+          "publishedOn": "2022-04-27T15:20:00.000Z",
+          "wordCount": null,
+          "title": "Introducing zq: an easier (and faster) alternative to jq",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/o9Y8",
+          "author": "Jerod Santo",
+          "description": "A solid rant by Terence Eden, who has to use macOS for work but would rather not:\nI know you’re going to be tempted to reply with “you’re using it wrong” - but I’m not. This is how I like to use my computer. And it is clear that the MacBook isn’t my computer - it is Apple’s. (OK, OK! It belongs to my employer!)\nSome of his grievances like window snapping and moving/removing UI elements can be alleviated with 3rd-party solutions, but he’s not wrong that the operating system doesn’t provide these features.\nDiscuss on Changelog News",
+          "link": "https://shkspr.mobi/blog/2020/04/things-i-cant-do-on-macos-which-i-can-do-on-ubuntu/",
+          "publishedOn": "2022-04-27T14:28:00.000Z",
+          "wordCount": null,
+          "title": "Things I can’t do on macOS which I can do on Ubuntu",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/MdM6",
+          "author": "Jerod Santo",
+          "description": "Mihai Parparita:\nIt’s a golden age of emulation. Between increasing CPU power, WebAssembly, and retrocomputing being so popular The New York Times is covering it, it’s never been easier to relive your 80s / 90s / 2000s nostalgia. Projects like v86 make it easy to run your chosen old operating system in the browser. My heritage being of the classic Mac line, I was curious what the easiest to use emulation option was in the modern era…\nHere’s a video demo of what resulted: a full-featured classic 68K Mac in your browser.\nDiscuss on Changelog News",
+          "link": "https://blog.persistent.info/2022/03/blog-post.html",
+          "publishedOn": "2022-04-27T13:41:00.000Z",
+          "wordCount": null,
+          "title": "Infinite Mac: an instant-booting Quadra in your browser",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/1627",
           "author": null,
@@ -882,51 +936,6 @@
           "wordCount": null,
           "title": "Fundamentals & deployment",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1613",
-          "author": null,
-          "description": "This last week has been a big week for AI news. BigScience is training a huge language model (while the world watches), and NVIDIA announced their latest “Hopper” GPUs. Chris and Daniel discuss these and other topics on this fully connected episode!\nDiscuss on Changelog News\nChangelog++ members save 0 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nBigScience Language Model Training\nModel Details\nLive model logs and training curves\nH100 from NVIDIA\n[White paper](https://www.nvidia.com/en-us/data-center/h100/\nOmniverse platform\nEarth-2 Supercomputer\nStanford’s AI Index 2022\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/173",
-          "publishedOn": "2022-03-29T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 173: It's been a BIG week in AI news 🗞",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/173/practical-ai-173.mp3",
-            "length": "40175674",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/wkD4",
-          "author": "Jerod Santo",
-          "description": "It’s not hard to find articles or pieces of research claiming that the sooner you find a bug, the cheaper it is to fix. But I’ve found there isn’t actually a whole lot of information out there on exactly how to prevent bugs in the early stages of a software development project. i.e. before code is written, while requirements/user stories are being written or just after the requirements/user stories have been written.\nHere I would like to share exactly how I help prevent bugs on projects and how I help others come up with ideas on how to prevent bugs as well.\nDiscuss on Changelog News",
-          "link": "https://nicolalindgren.com/2021/11/15/how-do-you-actually-prevent-bugs/",
-          "publishedOn": "2022-03-29T15:49:00.000Z",
-          "wordCount": null,
-          "title": "How do you actually prevent bugs?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W32q",
-          "author": "Abdulfatai Popoola",
-          "description": "There is a general belief that legacy systems, stale code, and archaic tooling are sleeping dogs – we avoid them fearing a collapse from interference or deprioritize them for seemingly more important projects. I think this strategy of intentional avoidance and/or deprioritization is perfect for disasters.\nThe challenge with systems that do not fail is that they have no fixes when they eventually fail. Thus, it is more urgent to fix these systems than is usually accepted.\nDiscuss on Changelog News",
-          "link": "https://abdulapopoola.com/2022/03/08/when-sleeping-dogs-bite-unmaintained-systems-breed-disasters/",
-          "publishedOn": "2022-03-29T15:02:00.000Z",
-          "wordCount": null,
-          "title": "When sleeping dogs bite: Unmaintained systems breed disasters",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/bNqM",
-          "author": "Jerod Santo",
-          "description": "EaseProbe does 3 kinds of work:\nProbes via HTTP, TCP, arbitrary shell commands, and a set of native clients.\nNotifications via email, Slack, Discord, Telegram, or log file.\nReports come in the form of daily, weekly, or monthly SLA reports.\nDiscuss on Changelog News",
-          "link": "https://github.com/megaease/easeprobe",
-          "publishedOn": "2022-03-29T14:16:01.000Z",
-          "wordCount": null,
-          "title": "EaseProbe – a standalone, lightweight tool for health/status checking",
-          "itunes": {}
         }
       ]
     },
@@ -958,24 +967,6 @@
           "publishedOn": "2022-04-07T17:00:00.000Z",
           "wordCount": 1411,
           "title": "How AI and imagery build a self-updating map"
-        },
-        {
-          "id": "https://blog.google/technology/ai/lift-as-you-lead-meet-2-women-defining-responsible-ai/",
-          "author": null,
-          "description": "At Google, Marian Croak’s technical research team, The Center for Responsible AI and Human-Centered Technology, and Jen Gennai’s operations and governance team, Responsible Innovation, collaborate often on creating a fairer future for AI systems.\nThe teams complement each other to support computer scientists, UX researchers and designers, product managers and subject matter experts in the social sciences, human rights and civil rights. Collectively, their teams include more than 200 people around the globe focused on putting our AI Principles – Google’s ethical charter – into practice.\n“The intersection of AI systems and society is a critical area of my team’s technical research,” Marian says. “Our approach includes working directly with people who use and are impacted by AI systems. Worki…",
-          "link": "https://blog.google/technology/ai/lift-as-you-lead-meet-2-women-defining-responsible-ai/",
-          "publishedOn": "2022-03-29T17:00:00.000Z",
-          "wordCount": 1664,
-          "title": "“Lift as you lead”: Meet 2 women defining responsible AI"
-        },
-        {
-          "id": "https://blog.google/technology/ai/go-flow-state-what-music-and-ai-have-common/",
-          "author": null,
-          "description": "Carrie Cai, Ben Zevenbergen and Johnny Soraker all work on developing artificial intelligence (AI) responsibly at Google, in the larger research community and across the technology industry. Carrie is a research scientist focusing on human-AI interaction, Ben is an ethicist and policy advisor and Johnny is an AI Principles ethicist. They all work within a global team of experts from a variety of fields, including the social sciences and humanities, focused on the ethical development of AI. They’re driven to make systems that are fair, inclusive and focused on people.\nBut they have more than their work in common: They’re all accomplished musicians who’ve studied music, composed and published pieces and even played at the professional level. We wanted to know more about their musical backgro…",
-          "link": "https://blog.google/technology/ai/go-flow-state-what-music-and-ai-have-common/",
-          "publishedOn": "2022-03-29T16:00:00.000Z",
-          "wordCount": 2130,
-          "title": "Go with the flow state: What music and AI have in common"
         }
       ]
     },
@@ -1176,6 +1167,15 @@
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=47805",
+          "author": "Hermina",
+          "description": "Almost a month ago, we announced MDN Plus, a new premium service on MDN that allows users to customize their experience on the website.\nWe are very glad to announce today that it is now possible for MDN users around the globe to create an MDN Plus free account, no matter where they are.\nThe post MDN Plus now available in more markets appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/04/mdn-plus-now-available-in-more-markets/",
+          "publishedOn": "2022-04-28T10:05:35.000Z",
+          "wordCount": 349,
+          "title": "MDN Plus now available in more markets"
+        },
         {
           "id": "https://hacks.mozilla.org/?p=47784",
           "author": "Hermina",
@@ -1434,24 +1434,6 @@
           "publishedOn": "2022-03-31T17:00:30.000Z",
           "wordCount": 1134,
           "title": "How GitHub does take home technical interviews"
-        },
-        {
-          "id": "https://github.blog/?p=63452",
-          "author": "Martin Woodward",
-          "description": "GitHub Copilot is now available from Visual Studio 2022 for everyone in the technical preview.",
-          "link": "https://github.blog/2022-03-29-github-copilot-now-available-for-visual-studio-2022/",
-          "publishedOn": "2022-03-29T16:30:04.000Z",
-          "wordCount": 715,
-          "title": "GitHub Copilot now available for Visual Studio 2022"
-        },
-        {
-          "id": "https://github.blog/?p=63852",
-          "author": "Kelsey Bernius",
-          "description": "Advice on fundamentals, picking languages to learn, social media presence, interviewing, and more",
-          "link": "https://github.blog/2022-03-29-career-tips-for-beginner-developers/",
-          "publishedOn": "2022-03-29T10:00:17.000Z",
-          "wordCount": 1961,
-          "title": "Career tips for beginner developers"
         }
       ]
     },
