@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/04/the-package-analysis-project-scalable.html",
+          "author": null,
+          "description": "Posted by Caleb Brown, Open Source Security Team \n\n\nDespite open source software’s essential role in all software built today, it’s far too easy for bad actors to circulate malicious packages that attack the systems and users running that software. Unlike mobile app stores that can scan for and reject malicious contributions, package repositories have limited resources to review the thousands of daily updates and must maintain an open model where anyone can freely contribute. As a result, malicious packages like ua-parser-js, and node-ipc are regularly uploaded to popular repositories despite their best efforts, with sometimes devastating consequences for users. \nGoogle, a member of the Open Source Security Foundation (OpenSSF), is proud to support the OpenSSF’s Package Analysis project, w…",
+          "link": "http://security.googleblog.com/2022/04/the-package-analysis-project-scalable.html",
+          "publishedOn": "2022-04-28T16:05:00.008Z",
+          "wordCount": 1291,
+          "title": "The Package Analysis Project: Scalable detection of malicious open source packages"
+        },
+        {
           "id": "http://security.googleblog.com/2022/04/how-we-fought-bad-apps-and-developers.html",
           "author": null,
           "description": "Posted by Steve Kafka and Khawaja Shams, Android Security and Privacy Team \nProviding a safe experience to billions of users continues to be one of the highest priorities for Google Play. Last year we introduced multiple privacy focused features, enhanced our protections against bad apps and developers, and improved SDK data safety. In addition, Google Play Protect continues to scan billions of installed apps each day across billions of devices to keep people safe from malware and unwanted software.  \n  \nWe continue to enhance our machine learning systems and review processes, and in 2021 we blocked 1.2 million policy violating apps from being published on Google Play, preventing billions of harmful installations. We also continued in our efforts to combat malicious and spammy developers, …",
@@ -72,6 +81,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1612",
+          "author": null,
+          "description": "Matan Peled from Technion University joins Natalie & Mat to discuss his PhD research on meta programming and static analyzers. How does Go’s measure up? What would Matan’s look like if he built one? All that and more!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity f…",
+          "link": "https://changelog.com/gotime/227",
+          "publishedOn": "2022-04-28T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 227: Analyzing static analysis",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/227/go-time-227.mp3",
+            "length": "56470660",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Q5Yy",
+          "author": "Jerod Santo",
+          "description": "The second jq alternative we’ve discovered this week! (first here)\njq is hard to use. There are alternatives like fq and zq, but they still make you learn a new programming language. Im tired of learning new programming languages.\ngq is not optimized for speed, flexibility or beauty. gq is optimized for minimal learning/quick usage. gq understands that you don’t use it constantly, you use it once a month and then forget about it. So when you come back to it, gq will be easy to relearn. Just use the builtin library just like you would any other go project and you’re done. No unfamiliar syntax or operations, or surprising limits. Thats it.\nI don’t know if Go is a great fit for this use-case, but if you already know it well… makes sense.\nDiscuss on Changelog News",
+          "link": "https://github.com/hherman1/gq",
+          "publishedOn": "2022-04-28T14:03:00.000Z",
+          "wordCount": null,
+          "title": "jq but using Go instead",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zgyn",
+          "author": "Jerod Santo",
+          "description": "I used scare quotes around “whole life” because those are his words and surely there’s a lot more to life than things you can quantify, but still: this is interesting\nBack in 2019, I started collecting all kinds of metrics about my life. Every single day for the last 2.5 years I tracked over 100 different data types - ranging from fitness & nutrition to social life, computer usage and weather.\nThis data produces 44 graphs that are all shared publicly on the website.\n\nDiscuss on Changelog News",
+          "link": "https://howisfelix.today/",
+          "publishedOn": "2022-04-28T13:13:00.000Z",
+          "wordCount": null,
+          "title": "Felix Krause put his \"whole life\" into a single database",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/14/1628",
           "author": null,
@@ -891,51 +935,6 @@
           "wordCount": null,
           "title": "Developers spend most of their time figuring the system out",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/q0Xd",
-          "author": "Jerod Santo",
-          "description": "This looks so freakin’ cool! Watch the demo (16:09) then head to pockit.ai to learn more.\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=b3F9OtH2Xx4",
-          "publishedOn": "2022-03-30T20:21:00.000Z",
-          "wordCount": null,
-          "title": "A demo of Pockit (a tiny, powerful, modular computer)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6O0Z",
-          "author": "Alexander Lolis",
-          "description": "Fine-grained authorization in microservices is hard. Definitely not impossible, but hard. You would expect that a more standardized, all-around, full-proof solution is out there, but I am afraid there isn’t. It’s a complex matter and depending on what you are building, implementation varies.\nYou will probably start with a boolean admin flag in your User model and then you will replace it with a role field, as we all did. However, as things progress and the business model becomes more and more complex, so do the solutions that we need to implement in order to deal with that complexity.\nBut how do you actually go from a simple flag to Role Based Access Control (RBAC) and then to Attribute Based Access Control (ABAC), especially in a microservices environment? In the following post I hope to help you get there.\nDiscuss on Changelog News",
-          "link": "https://www.alexanderlolis.com/authorization-in-a-microservices-world",
-          "publishedOn": "2022-03-30T19:35:00.000Z",
-          "wordCount": null,
-          "title": "Authorization in a microservices world",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1580",
-          "author": null,
-          "description": "Today we have a special treat. A conversation with Brian Kernighan! Brian’s been in the software game since the beginning of Unix. Yes, he was there at Bell Labs when it all began. And he is still at it today, writing books and teaching the next generation at Princeton.\nThis is an epic and wide ranging conversation. You’ll hear about the birth of Unix, Ken Thompson’s unique skillset, why Brian thinks C has stood the test of time, his thoughts on modern languages like Go and Rust, what’s changed in 50 years of software, what makes platforms like Unix and the web so powerful, his take as a professor on the trend of programmers skipping the university track, and so much more.\nSeriously, this is a must-listen.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because…",
-          "link": "https://changelog.com/podcast/484",
-          "publishedOn": "2022-03-30T17:15:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 484: Wisdom from 50+ years in software",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/484/the-changelog-484.mp3",
-            "length": "92869568",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/VJeN",
-          "author": "Jerod Santo",
-          "description": "Lars Wikman reacts to Gerhard’s excellent conversation with Kelsey Hightower on Ship It!\nSo he essentially said, I’m interpreting here, that when it comes to deploying software to servers the documented manual steps for deploying something need to be the canonical reference. Then whether you build bash scripts, Ansible playbooks, Makefiles, Dockerfiles, Terraform, Kubernetes or something else to encode that procedure into something repeatable and scalable that’s a separate step. Having documented the process required to set it up means that there is an answer to the question: How do I get this running? An answer that doesn’t require you to parse the .yml files or grok Ansible roles and groups.\nLars springs forward from there with many thoughts of his own on the matter.\nDiscuss on Changelog News",
-          "link": "https://underjord.io/fundamentals-and-deployment.html",
-          "publishedOn": "2022-03-30T14:04:00.000Z",
-          "wordCount": null,
-          "title": "Fundamentals & deployment",
-          "itunes": {}
         }
       ]
     },
@@ -1168,6 +1167,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47798",
+          "author": "Melissa Thermidor",
+          "description": "The latest Common Voice dataset, released today, has achieved a major milestone: More than 20,000 hours of open-source speech data that anyone, anywhere can use. The dataset has nearly doubled in the past year. Mozilla’s Common Voice seeks to change the language technology ecosystem by supporting communities to collect voice data for the creation of voice-enabled applications for their own languages. \nThe post Common Voice dataset tops 20,000 hours appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/04/common-voice-dataset-tops-20000-hours/",
+          "publishedOn": "2022-04-28T15:23:57.000Z",
+          "wordCount": 587,
+          "title": "Common Voice dataset tops 20,000 hours"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47805",
           "author": "Hermina",
           "description": "Almost a month ago, we announced MDN Plus, a new premium service on MDN that allows users to customize their experience on the website.\nWe are very glad to announce today that it is now possible for MDN users around the globe to create an MDN Plus free account, no matter where they are.\nThe post MDN Plus now available in more markets appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1193,15 +1201,6 @@
           "publishedOn": "2022-04-13T15:02:02.000Z",
           "wordCount": 722,
           "title": "Mozilla partners with the Center for Humane Technology"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47723",
-          "author": "Jan Honza Odvarko",
-          "description": "In Firefox 98, we’re shipping a new version of the existing Performance panel. This panel is now based on the Firefox profiler tool that can be used to capture a performance profile for a web page, inspect visualized performance data and analyze it to identify slow areas.\nThe post Performance Tool in Firefox DevTools Reloaded appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/03/performance-tool-in-firefox-devtools-reloaded/",
-          "publishedOn": "2022-03-30T14:59:00.000Z",
-          "wordCount": 842,
-          "title": "Performance Tool in Firefox DevTools Reloaded"
         }
       ]
     },
@@ -1210,6 +1209,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64550",
+          "author": "Justin Hutchings",
+          "description": "These days software is subject to an ever-changing threat landscape. Check out the many ways you can keep your projects secure on GitHub today.",
+          "link": "https://github.blog/2022-04-28-best-practices-to-keep-your-projects-secure-on-github/",
+          "publishedOn": "2022-04-28T15:55:56.000Z",
+          "wordCount": 958,
+          "title": "Best practices to keep your projects secure on GitHub"
+        },
         {
           "id": "https://github.blog/?p=64509",
           "author": "Sergio Padrino",
@@ -1486,15 +1494,6 @@
           "publishedOn": "2022-04-11T12:52:13.000Z",
           "wordCount": 3433,
           "title": "Nubank strengthens its international operations with a credit line of US$650 million to accelerate growth in Mexico and Colombia"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18195",
-          "author": "Nubank Editorial",
-          "description": "TIME Magazine's list highlights companies with \"extraordinary impact\". Nubank enters the ranking for the second consecutive time.\nThe post TIME100: Nubank named one of the most influential companies in the world for second year in a row appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/time-nubank-most-influential-companies-in-the-world-2022/",
-          "publishedOn": "2022-03-30T12:45:38.000Z",
-          "wordCount": 3127,
-          "title": "TIME100: Nubank named one of the most influential companies in the world for second year in a row"
         }
       ]
     },
@@ -1562,6 +1561,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/pure-stock-portfolio-a-stock-to-sell",
+          "author": "Market Radar",
+          "description": "A very bad earning report made me change the idea on the company",
+          "link": "https://marketradar.substack.com/p/pure-stock-portfolio-a-stock-to-sell",
+          "publishedOn": "2022-04-28T13:45:17.000Z",
+          "wordCount": null,
+          "title": "Pure Stock Portfolio: a stock to sell",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/407bfb28-506f-41f6-958b-53dbefad58b8_828x823.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/earnings-are-positive-surprises-over",
           "author": "Market Radar",
