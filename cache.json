@@ -885,51 +885,6 @@
             "length": "53131970",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/6/1576",
-          "author": null,
-          "description": "Feross has been working on something big. He joins Chris and Nick, along with guests Bret Comnes and Mik Lysenko to discuss Socket, what it is, and its focus on the security of the JavaScript supply chain.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n…",
-          "link": "https://changelog.com/jsparty/219",
-          "publishedOn": "2022-04-01T18:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 219: Making moves on supply chain security",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/jsparty/219/js-party-219.mp3",
-            "length": "61687052",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/6OgL",
-          "author": "Jerod Santo",
-          "description": "Hot off the press from our friend Ben Johnson:\nPostlite is a network proxy to allow access to remote SQLite databases over the Postgres wire protocol. This allows GUI tools to be used on remote SQLite databases which can make administration easier.\nThe proxy works by translating Postgres frontend wire messages into SQLite transactions and converting results back into Postgres response wire messages. Many Postgres clients also inspect the pg_catalog to determine system information so Postlite mirrors this catalog by using an attached in-memory database with virtual tables. The proxy also performs minor rewriting on these system queries to convert them to usable SQLite syntax.\nIt appears that Ben is taking code contributions this time around, but only for bug & documentation fixes.\nDiscuss on Changelog News",
-          "link": "https://github.com/benbjohnson/postlite",
-          "publishedOn": "2022-04-01T16:40:00.000Z",
-          "wordCount": null,
-          "title": "A Postgres wire compatible SQLite proxy",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/53XO",
-          "author": "Jerod Santo",
-          "description": "Automerge is a Conflict-Free Replicated Data Type (CRDT), which allows concurrent changes on different devices to be merged automatically without requiring any central server.\nI could see this library being super useful in many applications.\nDiscuss on Changelog News",
-          "link": "https://automerge.org/",
-          "publishedOn": "2022-04-01T14:34:00.000Z",
-          "wordCount": null,
-          "title": "A library of data structures for building collaborative applications in JS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/lbN2",
-          "author": "Jerod Santo",
-          "description": "A fun post from the Grafana blog for your Friday enjoyment:\nIt started as all good projects do … with Rick Astley.\nAfter seeing the project about how to Rickroll your friends with Grafana — in which a seemingly innocent hyperlink surprises users with the music video for Astley’s classic “Never Gonna Give You Up” rendered with Prometheus and Grafana — a question arose: Can Grafana run Doom?\nThankfully, this post breaks Betteridge’s law of headlines. The answer to the question is a resounding yes!\nDiscuss on Changelog News",
-          "link": "https://grafana.com/blog/2022/03/31/can-grafana-run-doom/",
-          "publishedOn": "2022-04-01T13:48:01.000Z",
-          "wordCount": null,
-          "title": "Can Grafana run Doom?",
-          "itunes": {}
         }
       ]
     },
@@ -1101,15 +1056,6 @@
           "publishedOn": "2022-04-03T12:15:30.230Z",
           "wordCount": 2822,
           "title": "Advancing Jupyter Notebooks at Twitter - Part 1"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "author": null,
-          "description": "In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "publishedOn": "2022-04-01T12:19:04.569Z",
-          "wordCount": 1608,
-          "title": "Data transfer in Manhattan using RocksDB"
         }
       ]
     },

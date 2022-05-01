@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-30T12:17:08.310Z</updated>
+    <updated>2022-05-01T12:17:31.369Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
@@ -1906,71 +1906,6 @@ Something missing or broken? PRs welcome!]]></summary>
         <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d"/>
         <updated>2022-04-03T12:15:30.230Z</updated>
         <summary type="html"><![CDATA[Twitter Notebook is Twitter’s internal notebook solution. It provides a first-class development environment to Data Scientist and Machine Learning practitioners at Twitter. This blog shares features o]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 219: Making moves on supply chain security]]></title>
-        <id>changelog.com/6/1576</id>
-        <link href="https://changelog.com/jsparty/219"/>
-        <updated>2022-04-01T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Feross has been working on something big. He joins Chris and Nick, along with guests Bret Comnes and Mik Lysenko to discuss Socket, what it is, and its focus on the security of the JavaScript supply chain.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
-…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Postgres wire compatible SQLite proxy]]></title>
-        <id>changelog.com/news/6OgL</id>
-        <link href="https://github.com/benbjohnson/postlite"/>
-        <updated>2022-04-01T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Hot off the press from our friend Ben Johnson:
-Postlite is a network proxy to allow access to remote SQLite databases over the Postgres wire protocol. This allows GUI tools to be used on remote SQLite databases which can make administration easier.
-The proxy works by translating Postgres frontend wire messages into SQLite transactions and converting results back into Postgres response wire messages. Many Postgres clients also inspect the pg_catalog to determine system information so Postlite mirrors this catalog by using an attached in-memory database with virtual tables. The proxy also performs minor rewriting on these system queries to convert them to usable SQLite syntax.
-It appears that Ben is taking code contributions this time around, but only for bug & documentation fixes.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A library of data structures for building collaborative applications in JS]]></title>
-        <id>changelog.com/news/53XO</id>
-        <link href="https://automerge.org/"/>
-        <updated>2022-04-01T14:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Automerge is a Conflict-Free Replicated Data Type (CRDT), which allows concurrent changes on different devices to be merged automatically without requiring any central server.
-I could see this library being super useful in many applications.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can Grafana run Doom?]]></title>
-        <id>changelog.com/news/lbN2</id>
-        <link href="https://grafana.com/blog/2022/03/31/can-grafana-run-doom/"/>
-        <updated>2022-04-01T13:48:01.000Z</updated>
-        <summary type="html"><![CDATA[A fun post from the Grafana blog for your Friday enjoyment:
-It started as all good projects do … with Rick Astley.
-After seeing the project about how to Rickroll your friends with Grafana — in which a seemingly innocent hyperlink surprises users with the music video for Astley’s classic “Never Gonna Give You Up” rendered with Prometheus and Grafana — a question arose: Can Grafana run Doom?
-Thankfully, this post breaks Betteridge’s law of headlines. The answer to the question is a resounding yes!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data transfer in Manhattan using RocksDB]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb"/>
-        <updated>2022-04-01T12:19:04.569Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.]]></summary>
         <author>
             <name>English (US)</name>
         </author>
