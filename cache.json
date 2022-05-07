@@ -49,15 +49,6 @@
           "publishedOn": "2022-04-12T16:00:00.001Z",
           "wordCount": 1841,
           "title": "How to SLSA Part 1 - The Basics"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/04/improving-software-supply-chain.html",
-          "author": null,
-          "description": "Posted by Asra Ali and Laurent Simon, Google Open Source Security Team (GOSST)\n\nMany of the recent high-profile software attacks that have alarmed open-source users globally were consequences of supply chain integrity vulnerabilities: attackers gained control of a build server to use malicious source files, inject malicious artifacts into a compromised build platform, and bypass trusted builders to upload malicious artifacts. \nEach of these attacks could have been prevented if there were a way to detect that the delivered artifacts diverged from the expected origin of the software. But until now, generating verifiable information that described where, when, and how software artifacts were produced (information known as provenance) was difficult. This information allows users to trace artif…",
-          "link": "http://security.googleblog.com/2022/04/improving-software-supply-chain.html",
-          "publishedOn": "2022-04-07T13:00:00.002Z",
-          "wordCount": 1602,
-          "title": "Improving software supply chain security with tamper-proof builds"
         }
       ]
     },
@@ -72,6 +63,56 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1615",
+          "author": null,
+          "description": "We’re talking with Woody Zuill today about all things Mob Programming. Woody leads Mob Programming workshops, he’s a speaker on agile related topics, and coaches and guides orgs interested in creating an environment where people can do their best work. We talk through it all and we even get some amazing advice from Woody’s dad. We define what Mob Programming is and why it’s so effective. Is it a rigid process or can teams flex to make it work for them? How to introduce mob programming to a team. What kind of groundwork is necessary? And of course, are mob programming’s virtues diminished by remote teams in virtual-only settings?\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the plat…",
+          "link": "https://changelog.com/podcast/488",
+          "publishedOn": "2022-05-06T20:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 488: Mob programming deep dive",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/488/the-changelog-488.mp3",
+            "length": "84161420",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/bNwO",
+          "author": "Jerod Santo",
+          "description": "Duplicates taking up tons of space on your home NAS? fclones quickly identifies duplicates, even when there’s 10s of thousands that you’re scanning over the network:\nfclones treats your data seriously. You can inspect and modify the list of duplicate files before removing them. There is also a –dry-run option that can tell you exactly what changes on the file system would be made.\nAlso check out the algorithm used to detect duplicates.\nDiscuss on Changelog News",
+          "link": "https://github.com/pkolaczk/fclones",
+          "publishedOn": "2022-05-06T18:04:00.000Z",
+          "wordCount": null,
+          "title": "fclones – an efficient duplicate file finder and remover",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1635",
+          "author": null,
+          "description": "Let the debate begin (again)! This time we’re arguing whether or not single-page apps were a big mistake. This premise was inspired by Chris Ferdinandi’s SPAs were a mistake post.\nDivya & Nick represent Team Yep and KBall goes solo on Team Nope. Jerod, as per our usual arrangement, is on Team Winner.\nDiscuss on Changelog News\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nVercel – Vercel combines the best developer experience with an obsessive focus on end-user performance.  Our platform enables frontend teams to do their best work. Unlock a better frontend workflow today.\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFeaturing\nJerod Santo – Twitter, GitHub\nDivya – Twitter, GitHub, LinkedIn, Website\nNick Nisi – Twitter, GitHub, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nSPAs were a mistake\nHolla! RemixConf May 24-25\nPrevious YepNope debates:\nShould websites work without JS?\nIs modern JS tooling too complicated?\nShould we rebrand JavaScript?\nAre web apps fundamentally different than web sites?\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/224",
+          "publishedOn": "2022-05-06T16:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 224: Were SPAs a big mistake?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/224/js-party-224.mp3",
+            "length": "54382759",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/q0ae",
+          "author": "Jerod Santo",
+          "description": "Andraž Bajt:\nBasic premise is: browsers are great at navigating pages, let’s leverage that by serving users directly with HTML. This already gives you half-decent pages but you can go further and sprinkle on some sugar. A bit of JS. Instead of reinventing the world in JS let’s try to really use what modern browsers provide natively and then push just a bit forward.\nIs the pendulum starting to swing away from SPAs/client-side rendering and back toward MPAs/server-side rendering? Will we ever find balance somewhere in the middle?\nDiscuss on Changelog News",
+          "link": "https://edofic.com/posts/2022-01-28-low-js/",
+          "publishedOn": "2022-05-06T14:10:00.000Z",
+          "wordCount": null,
+          "title": "How i fell in love with low-js",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1602",
           "author": null,
@@ -921,41 +962,6 @@
             "length": "53426075",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/2/1614",
-          "author": null,
-          "description": "Has Go caught your interest, but you just haven’t had the time/opportunity to really dig into it? Are you relatively productive in your current language/ecosystem but wonder if the grass truly is greener on Go’s side of the fence? If so, this episode’s for you!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFeaturing\nIan Lopshire – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nNotes and Links\nCharm on The Changelog\nGo Proverbs\nGo Code Review Comments\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/224",
-          "publishedOn": "2022-04-07T19:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 224: Answering questions for the Go-curious",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/224/go-time-224.mp3",
-            "length": "59242161",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/YNwW",
-          "author": "Jerod Santo",
-          "description": "Solid piece on literate programming by Richard Gall for The New Stack. My foremost exposure to the practice came from Jeremy Ashkenas’ CoffeeScript and Backbone.js docs. I always found it cool and useful to read, but couldn’t imagine myself writing code/docs that way. Which brings us to this bit at the end of the article:\n“One of the things we learned is that it’s very expensive,” he said. “And so you spend time trying to figure out what sort of situations justify the expense. And one of them is where people are building relatively small, sophisticated kernels that are going to be shared widely.”\nSeems like Jeremy’s use case drilled it. If you’re mostly writing application code, literate programming probably isn’t worth the headache, but for library/framework authors…\nDiscuss on Changelog News",
-          "link": "https://thenewstack.io/why-literate-programming-might-help-you-write-better-code/",
-          "publishedOn": "2022-04-07T14:43:00.000Z",
-          "wordCount": null,
-          "title": "Literate programming might help you write better code",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/o9yN",
-          "author": "Jerod Santo",
-          "description": "After recording Ship It! #46, Nabeel Sulieman and Gerhard stuck around to pair on getting KCert (a simpler alternative to cert-manager) set up on our LKE infra. It works!\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=OcBAh9S_NRA",
-          "publishedOn": "2022-04-07T13:35:00.000Z",
-          "wordCount": null,
-          "title": "Let's install KCert on Linode Kubernetes Engine!",
-          "itunes": {}
         }
       ]
     },
@@ -988,15 +994,6 @@
           "publishedOn": "2022-04-11T10:30:00.000Z",
           "wordCount": 1025,
           "title": "Investing in Eastern Europe’s AI future"
-        },
-        {
-          "id": "https://blog.google/products/maps/how-ai-and-imagery-build-self-updating-map/",
-          "author": null,
-          "description": "Building a map is complex, and keeping it up-to-date is even more challenging. Think about how often your city, town or neighborhood changes on a day-to-day basis. Businesses and shops open and close, stretches of highway are added, and roadways change. In today’s Maps 101 installment, we’ll dive into two ways Google Maps uses advancements in AI and imagery to help you see the latest information about the world around you every single day.\nAutomatically updating business hours\nOver the past few years, businesses have experienced a lot of change — including constantly updating operating hours based on changing pandemic-related restrictions. To keep up with this pace of change, we developed a machine learning model that automatically identifies if business hours are likely wrong, then instan…",
-          "link": "https://blog.google/products/maps/how-ai-and-imagery-build-self-updating-map/",
-          "publishedOn": "2022-04-07T17:00:00.000Z",
-          "wordCount": 1411,
-          "title": "How AI and imagery build a self-updating map"
         }
       ]
     },
@@ -1207,15 +1204,6 @@
           "publishedOn": "2022-04-14T15:58:00.000Z",
           "wordCount": 8658,
           "title": "CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.c5{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.c10{color:#434343;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:14pt;font-family:\"Arial\";font-style:normal}.c2{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,\"Courier New\";font-style:normal}.c0…",
-          "link": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html",
-          "publishedOn": "2022-04-07T16:08:00.000Z",
-          "wordCount": 6442,
-          "title": "CVE-2021-30737, @xerub's 2021 iOS ASN.1 Vulnerability"
         }
       ]
     },
@@ -1267,6 +1255,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64815",
+          "author": "Joseph Katsioloudes",
+          "description": "We're taking a look at some of the most common security vulnerabilities and detailing how developers can best protect themselves.",
+          "link": "https://github.blog/2022-05-06-todays-most-common-security-vulnerabilities-explained/",
+          "publishedOn": "2022-05-06T15:52:42.000Z",
+          "wordCount": 1405,
+          "title": "Today’s most common security vulnerabilities explained"
+        },
         {
           "id": "https://github.blog/?p=64485",
           "author": "Lee Reilly",
@@ -1482,24 +1479,6 @@
           "publishedOn": "2022-04-08T17:00:33.000Z",
           "wordCount": 1265,
           "title": "Release Radar · March 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=63975",
-          "author": "Matthew John Cheetham",
-          "description": "Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.",
-          "link": "https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/",
-          "publishedOn": "2022-04-07T18:00:41.000Z",
-          "wordCount": 2241,
-          "title": "Git Credential Manager: authentication for everyone"
-        },
-        {
-          "id": "https://github.blog/?p=64043",
-          "author": "Jose Palafox",
-          "description": "Learn how to build packages with SLSA 3 provenance using GitHub Actions.",
-          "link": "https://github.blog/2022-04-07-slsa-3-compliance-with-github-actions/",
-          "publishedOn": "2022-04-07T13:18:08.000Z",
-          "wordCount": 1212,
-          "title": "Achieving SLSA 3 Compliance with GitHub Actions and Sigstore for Go modules"
         }
       ]
     },
