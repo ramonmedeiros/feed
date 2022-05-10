@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-09T12:24:39.236Z</updated>
+    <updated>2022-05-10T12:26:44.912Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face raised $100 million for open/collaborative machine learning]]></title>
+        <id>changelog.com/news/Z3jk</id>
+        <link href="https://huggingface.co/blog/series-c"/>
+        <updated>2022-05-09T16:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Big news from our friends at Hugging Face:
+Hugging Face is now the fastest growing community & most used platform for machine learning! With 100,000 pre-trained models & 10,000 datasets hosted on the platform for NLP, computer vision, speech, time-series, biology, reinforcement learning, chemistry and more, the Hugging Face Hub has become the Home of Machine Learning to create, collaborate, and deploy state-of-the-art models.
+What will they spend the money on? Good stuff:
+Thanks to the new funding, we’ll be doubling down on research, open-source, products and responsible democratization of AI.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supercharging GitHub Actions with Job Summaries]]></title>
+        <id>https://github.blog/?p=64780</id>
+        <link href="https://github.blog/2022-05-09-supercharging-github-actions-with-job-summaries/"/>
+        <updated>2022-05-09T16:00:53.000Z</updated>
+        <summary type="html"><![CDATA[You can now output and group custom Markdown content on the Actions run summary page.]]></summary>
+        <author>
+            <name>Konrad Pabjan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VS Code's major Markdown tooling upgrade]]></title>
+        <id>changelog.com/news/VJWQ</id>
+        <link href="https://blog.dendron.so/notes/upyp4ow9fkpwvu50n8wsvnp/"/>
+        <updated>2022-05-09T15:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Lots of cool stuff for Markdown authors in April’s VS Code release. Namely:
+drag and drop files into the editor to create a Markdown link
+find all references to header|links|files|urls inside of Markdown
+rename headers|links inside Markdown (and propagate the changes)
+rename Markdown files (and propagate to all references)
+The Dendron team is excited because their primary vault hosts over 400k lines of Markdown 🤯
+VS Code, and IDEs more broadly, help developers manage large code bases by making available tools to leverage and manipulate the syntax of programming languages. By shifting some of this tooling to markdown, can we do the same for large Markdown repositories?
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chunky Bacon]]></title>
+        <id>changelog.com/news/maR3</id>
+        <link href="http://code-anth.xyz/posts/3"/>
+        <updated>2022-05-09T15:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Gui Heurich on one of the legends of the Ruby community, _why the lucky stiff.
+Through the things that he built, the way he performed, and the books that he wrote, _why makes us think about code and also about ourselves. It makes us think about ourselves as programmers. In a sense, _why was the meta-programmer, the one that generates other programmers by promoting reflexivity.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prepare for next semester with GitHub Global Campus and Codespaces]]></title>
+        <id>https://github.blog/?p=64752</id>
+        <link href="https://github.blog/2022-05-09-prepare-for-next-semester-with-github-global-campus-and-codespaces/"/>
+        <updated>2022-05-09T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Teachers, it is now your turn to join GitHub Global Campus with our student community! Get access to exclusive benefits, programs, and the Power of Codespaces at no cost in GitHub Classroom!]]></summary>
+        <author>
+            <name>Eric Rosado</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Literate programming Wordle]]></title>
+        <id>changelog.com/news/ykQo</id>
+        <link href="https://jiby.tech/project/literate_wordle/wordle.html"/>
+        <updated>2022-05-09T14:10:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve long been fascinated by literate programming (the art of writing code as if it was a novel), but it’s been awhile since I’ve seen a good example of in practice. Here’s a good one:
+I wanted to showcase the BDD-inspired low-tech solution I came up with via a toy project, demonstrating a small but significant programming task, broken down as series of design-implementation cycles.
+Wordle is a perfect target: it’s a small codebase, with a half dozen features to string together into a useable game.
+This story has five chapters and a satisfying conclusion:
+This project was my first foray into literate programming at this scale, an attempt to bring together all the good ideas of TDD, modern Python development, Gherkin usage for requirements traceability purposes (without overly zealous extremes of Cucumber automation). All these ideas were until now scattered, implemented each without the others in different places, and this project fuses them into something I hope is more valuable than the sum of its parts.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing a new Swift package for Apache Thrift]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift</id>
@@ -795,6 +873,17 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Welcome to the third curl release of the year. Release presentation Numbers the 207th release6 changes53 days (total: 8,804)125 bug-fixes (total: 7,816)185 commits (total: 28,507)2 new public libcurl function (total: 88)0 new curl_easy_setopt() option (total: 295)2 new curl command line option (total: 247)60 contributors, 29 new (total: 2,626)35 authors, 13 new (total: 1,027)4 security fixes … Continue reading curl 7.83.0 headers bonanza →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Scientist x Machine Learning Engineer Roles: How are they different? How are they alike?]]></title>
+        <id>https://building.nubank.com.br/?p=18264</id>
+        <link href="https://building.nubank.com.br/data-scientist-machine-learning-engineer-roles-how-are-they-different-how-are-they-alike/"/>
+        <updated>2022-04-26T22:05:36.000Z</updated>
+        <summary type="html"><![CDATA[Nubank's take on how these two roles interact and how each plays a key part in a successful team.
+The post Data Scientist x Machine Learning Engineer Roles: How are they different? How are they alike? appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Felipe Almeida - Machine Learning Engineer</name>
         </author>
     </entry>
     <entry>
@@ -1947,16 +2036,6 @@ It’s fantastic to see the country where I was born leading the charge in bridg
 The institute is modeled on the computer science departments of renowned institutions such as MIT, UC Berkeley and the Max-Planck Institute, and is backed by the Bulgarian government with an endowment fund of nearly $100 million. Its computer science and AI research will span topics such as machine learning, quantum computing, information security, r…]]></summary>
         <author>
             <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[msh3 as the third h3 backend]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18598</id>
-        <link href="https://daniel.haxx.se/blog/2022/04/10/msh3-as-the-third-h3-backend/"/>
-        <updated>2022-04-10T16:28:23.000Z</updated>
-        <summary type="html"><![CDATA[With the brand new merged support for the msh3 library, curl now supports no less than three different HTTP/3 backends. It was merged into curl’s git repository on April 10. When you build curl, you have the option to build it with HTTP/3 support enabled. The HTTP/3 support in curl is still considered experimental so … Continue reading msh3 as the third h3 backend →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
