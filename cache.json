@@ -6,6 +6,24 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/05/io-2022-android-13-security-and-privacy.html",
+          "author": null,
+          "description": "Posted by Eugene Liderman and Sara N-Marandi, Android Security and Privacy Team\n\nEvery year at I/O we share the latest on privacy and security features on Android. But we know some users like to go a level deeper in understanding how we’re making the latest release safer, and more private, while continuing to offer a seamless experience. So let’s dig into the tools we’re building to better secure your data, enhance your privacy and increase trust in the apps and experiences on your devices.  \nLow latency, frictionless security\nRegardless of whether a smartphone is used for consumer or enterprise purposes, attestation is a key underpinning to ensure the integrity of the device and apps running on the device. Fundamentally, key attestation lets a developer bind a secret or designate data to …",
+          "link": "http://security.googleblog.com/2022/05/io-2022-android-13-security-and-privacy.html",
+          "publishedOn": "2022-05-11T19:05:00.047Z",
+          "wordCount": 2108,
+          "title": "I/O 2022: Android 13 security and privacy (and more!)"
+        },
+        {
+          "id": "http://security.googleblog.com/2022/05/taking-on-next-generation-of-phishing.html",
+          "author": null,
+          "description": "Posted by Daniel Margolis, Software Engineer, Google Account Security Team \nEvery year, security technologies improve: browsers get better, encryption becomes ubiquitous on the Web, authentication becomes stronger. But phishing persistently remains a threat (as shown by a recent phishing attack on the U.S. Department of Labor) because users retain the ability to log into their online accounts, often with a simple password, from anywhere in the world. It’s why today at I/O we announced new ways we’re reducing the risks of phishing by: scaling phishing protections to Google Docs, Sheets and Slides, continuing to auto enroll people in 2-Step Verification and more. This blog will deep dive into the method of phishing and how it has evolved today. \nAs phishing adoption has grown, multi-factor a…",
+          "link": "http://security.googleblog.com/2022/05/taking-on-next-generation-of-phishing.html",
+          "publishedOn": "2022-05-11T18:00:00.004Z",
+          "wordCount": 1886,
+          "title": "Taking on the Next Generation of Phishing Scams"
+        },
+        {
           "id": "http://security.googleblog.com/2022/04/the-package-analysis-project-scalable.html",
           "author": null,
           "description": "Posted by Caleb Brown, Open Source Security Team \n\n\nDespite open source software’s essential role in all software built today, it’s far too easy for bad actors to circulate malicious packages that attack the systems and users running that software. Unlike mobile app stores that can scan for and reject malicious contributions, package repositories have limited resources to review the thousands of daily updates and must maintain an open model where anyone can freely contribute. As a result, malicious packages like ua-parser-js, and node-ipc are regularly uploaded to popular repositories despite their best efforts, with sometimes devastating consequences for users. \nGoogle, a member of the Open Source Security Foundation (OpenSSF), is proud to support the OpenSSF’s Package Analysis project, w…",
@@ -40,15 +58,6 @@
           "publishedOn": "2022-04-13T16:00:00.002Z",
           "wordCount": 4114,
           "title": "How to SLSA Part 2 - The Details"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/04/how-to-slsa-part-1-basics.html",
-          "author": null,
-          "description": "Posted by Tom Hennen, Software Engineer, BCID & GOSST \n\nOne of the great benefits of SLSA (Supply-chain Levels for Software Artifacts) is its flexibility. As an open source framework designed to improve the integrity of software packages and infrastructure, it is as applicable to small open source projects as to enterprise organizations. But with this flexibility can come a bewildering array of options for beginners—much like salsa dancing, someone just starting out might be left on the dance floor wondering how and where to jump in.\nThough it’s tempting to try to establish a single standard for how to use SLSA, it’s not possible: SLSA is not a line dance where everyone does the same moves, at the same time, to the same song. It’s a varied system with different styles, moves, and flourishe…",
-          "link": "http://security.googleblog.com/2022/04/how-to-slsa-part-1-basics.html",
-          "publishedOn": "2022-04-12T16:00:00.001Z",
-          "wordCount": 1841,
-          "title": "How to SLSA Part 1 - The Basics"
         }
       ]
     },
@@ -63,6 +72,61 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/X6Le",
+          "author": "Jerod Santo",
+          "description": "Check your site against this to determine your accessibility compliance with the WCAG.\nDiscuss on Changelog News",
+          "link": "https://www.a11yproject.com/checklist/",
+          "publishedOn": "2022-05-11T16:20:00.000Z",
+          "wordCount": null,
+          "title": "The a11y project checklist",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1630",
+          "author": null,
+          "description": "Today we talk to Priyanka Sharma (E.D. at the Cloud Native Computing Foundation) about all things KubeCon Europe 2022. We start with Gerhard’s favourite subject - Priyanka’s Happy Hour - and then we switch focus to the conference.\nFor many, this will be the first in-person KubeCon since 2019. As for Gerhard, he is not sure that he remember how airports work. If he succeeds, he looks forward to meeting some of you in Valencia. If not, send help.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn co…",
+          "link": "https://changelog.com/shipit/52",
+          "publishedOn": "2022-05-11T15:30:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 52: Priyanka's Happy Hour (KubeCon EU 2022)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/52/ship-it-52.mp3",
+            "length": "38526010",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/maeP",
+          "author": "Jerod Santo",
+          "description": "I love when software engineers share their career/life choices and the reasoning behind them so others can benefit from their perspective, like this one on bucket filling:\nSomebody once described balance to me as three buckets filled with water. One for career, a second for physical health, and a third for social and family life. At any point, one bucket might be running low. But as long as the overall water level is high enough, things should be fine.\nScott’s choice to join a startup seems odd given his reason for leaving Google, but:\nSo: am I happier? Undoubtedly yes.\nI work more hours. I’m more likely to be working in the evening or on the weekend now. But what I do makes a difference that I can see. Progress feels 10x faster.\nMost surprising is that I have more energy. It’s easier to find motivation to get back in the gym. I have more energy in social situations.\nWorking more hours sounds like tipping the work/life balance in the wrong direction, but excitement about your work certainly changes the calculus. He’s happier now, so that’s great!\nDiscuss on Changelog News",
+          "link": "https://www.scottkennedy.us/balance.html",
+          "publishedOn": "2022-05-11T14:54:00.000Z",
+          "wordCount": null,
+          "title": "Why I left Google: work-life balance",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/wk8R",
+          "author": "Jerod Santo",
+          "description": "Currently supports SQLite and CSV. MySQL and Postgres are on the roadmap. Built with Bubble Tea.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/mathaou/termdbms",
+          "publishedOn": "2022-05-11T14:07:00.000Z",
+          "wordCount": null,
+          "title": "A TUI for viewing and editing database files",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/d3ga",
+          "author": "Jerod Santo",
+          "description": "Good news, everyone! Jan Schaumann merged Futurama with your (least) favorite programming languages. Amy Wong is… Ruby?!\nObject-oriented, cute, really popular, and a bit naive. Had a bit of Fry grafted onto herself for a while. Also had a thing with Bender. And Zapp. Easy going, but doesn’t do well in difficult situations, falls over easily.\nBender is Shell. Fry is Perl. If you care at all for his reasoning, you’ve already clicked through!\nDiscuss on Changelog News",
+          "link": "https://www.netmeister.org/blog/futurama.html",
+          "publishedOn": "2022-05-11T13:20:00.000Z",
+          "wordCount": null,
+          "title": "If programming languages were Futurama characters",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/4/1581",
           "author": null,
@@ -902,41 +966,6 @@
           "wordCount": null,
           "title": "Comparing Go vs C in embedded applications",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1587",
-          "author": null,
-          "description": "This week we’re joined by Deepthi Sigireddi, Vitess Maintainer and engineer at PlanetScale — of course we’re talking about all things Vitess. We talk about its origin inside YouTube, how Vitess handles sharding, Deepthi’s journey to Vitess maintainer, when you should begin using it, and how it fits into cloud native infra.\nDiscuss on Changelog News\nChangelog++ members will hear a bonus 11 minutes at the end of this episode and zero ads. Join today!\nSponsors\nInfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analytics, and monitoring software. It’s purpose-built to handle massive volumes and countless sources of time-stamped data produced by sensors, applications, and infrastructure. Learn more at influxdata…",
-          "link": "https://changelog.com/podcast/485",
-          "publishedOn": "2022-04-12T19:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 485: The story of Vitess",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/485/the-changelog-485.mp3",
-            "length": "87703996",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/makl",
-          "author": "Jerod Santo",
-          "description": "Hidde de Vries:\nWebAIM have come out with their latest report on which accessibility issues they found in the top million websites that they tested automatically. What is some low hanging fruit you could fix today?\nDiscuss on Changelog News",
-          "link": "https://hiddedevries.nl/en/blog/2022-04-12-common-accessibility-issues-that-you-can-fix-today",
-          "publishedOn": "2022-04-12T15:30:00.000Z",
-          "wordCount": null,
-          "title": "Common accessibility issues that you can fix today",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/wkAk",
-          "author": "Jerod Santo",
-          "description": "Nils Norman Haukås:\nI have been a big fan of the write libraries, not frameworks argument for a while now. Lately, I’ve come to ponder that there might be a fruitful expansion to this argument, that we should start to value principles over patterns, patterns over libraries, and libraries over frameworks.\nI don’t disagree!\nThe challenge with principles & patterns is they are more difficult to formalize (and communicate) than libraries & frameworks because they’re by nature less specific and more meta (lowercase “m” ftw).\nIn other words, libraries & frameworks are an end product. Principles & patterns are means to an end. It’s easier to ship a product than to ship the means to it.\nThe latter is the realm of documentation, education, and conversation.\nDiscuss on Changelog News",
-          "link": "https://nilsnh.no/2022/04/09/innovating-beyond-libraries-and-frameworks/",
-          "publishedOn": "2022-04-12T14:32:00.000Z",
-          "wordCount": null,
-          "title": "Innovating beyond libraries and frameworks",
-          "itunes": {}
         }
       ]
     },
@@ -960,13 +989,77 @@
       "title": "AI",
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.google/products/search/monk-skin-tone-scale/",
+          "author": null,
+          "description": "Seeing yourself reflected in the world around you — in real life, media or online — is so important. And we know that challenges with image-based technologies and representation on the web have historically left people of color feeling overlooked and misrepresented. Last year, we announced Real Tone for Pixel, which is just one example of our efforts to improve representation of diverse skin tones across Google products.\nToday, we're introducing a next step in our commitment to image equity and improving representation across our products. In partnership with Harvard professor and sociologist Dr. Ellis Monk, we’re releasing a new skin tone scale designed to be more inclusive of the spectrum of skin tones we see in our society. Dr. Monk has been studying how skin tone and colorism affect pe…",
+          "link": "https://blog.google/products/search/monk-skin-tone-scale/",
+          "publishedOn": "2022-05-11T17:32:00.000Z",
+          "wordCount": 1807,
+          "title": "Improving skin tone representation across Google"
+        },
+        {
+          "id": "https://blog.google/technology/developers/io-2022-keynote/",
+          "author": null,
+          "description": "[TL;DR]\nNearly 24 years ago, Google started with two graduate students, one product, and a big mission: to organize the world’s information and make it universally accessible and useful. In the decades since, we’ve been developing our technology to deliver on that mission.\nThe progress we've made is because of our years of investment in advanced technologies, from AI to the technical infrastructure that powers it all. And once a year — on my favorite day of the year :) — we share an update on how it’s going at Google I/O.\nToday, I talked about how we’re advancing two fundamental aspects of our mission — knowledge and computing — to create products that are built to help. It’s exciting to build these products; it’s even more exciting to see what people do with them.\nThank you to everyone wh…",
+          "link": "https://blog.google/technology/developers/io-2022-keynote/",
+          "publishedOn": "2022-05-11T17:00:00.000Z",
+          "wordCount": 5272,
+          "title": "Google I/O 2022: Advancing knowledge and computing"
+        },
+        {
+          "id": "https://blog.google/technology/ai/understanding-the-world-through-language/",
+          "author": null,
+          "description": "Language is at the heart of how people communicate with each other. It’s also proving to be powerful in advancing AI and building helpful experiences for people worldwide.\n\n\nFrom the beginning, we set out to connect words in your search to words on a page so we could make the web’s information more accessible and useful. Over 20 years later, as the web changes, and the ways people consume information expand from text to images to videos and more — the one constant is that language remains a surprisingly powerful tool for understanding information.\n\n\nIn recent years, we’ve seen an incredible acceleration in the field of natural language understanding. While our systems still don’t understand language the way people do, they’re increasingly able to spot patterns in information, identify comp…",
+          "link": "https://blog.google/technology/ai/understanding-the-world-through-language/",
+          "publishedOn": "2022-05-11T16:00:00.000Z",
+          "wordCount": 1752,
+          "title": "Understanding the world through language"
+        },
+        {
+          "id": "https://blog.google/products/maps/three-maps-updates-io-2022/",
+          "author": null,
+          "description": "Google Maps helps over one billion people navigate and explore. And over the past few years, our investments in AI have supercharged the ability to bring you the most helpful information about the real world, including when a business is open and how crowded your bus is. Today at Google I/O, we announced new ways the latest advancements in AI are transforming Google Maps — helping you explore with an all-new immersive view of the world, find the most fuel-efficient route, and use the magic of Live View in your favorite third-party apps.\nA more immersive, intuitive map\nGoogle Maps first launched to help people navigate to their destinations. Since then, it’s evolved to become much more — it’s a handy companion when you need to find the perfect restaurant or get information about a local bus…",
+          "link": "https://blog.google/products/maps/three-maps-updates-io-2022/",
+          "publishedOn": "2022-05-11T15:17:00.000Z",
+          "wordCount": 1503,
+          "title": "Immersive view coming soon to Maps — plus more updates"
+        },
+        {
+          "id": "https://blog.google/products/translate/24-new-languages/",
+          "author": null,
+          "description": "For years, Google Translate has helped break down language barriers and connect communities all over the world. And we want to make this possible for even more people — especially those whose languages aren’t represented in most technology. So today we’ve added 24 languages to Translate, now supporting a total of 133 used around the globe.\nOver 300 million people speak these newly added languages — like Mizo, used by around 800,000 people in the far northeast of India, and Lingala, used by over 45 million people across Central Africa. As part of this update, Indigenous languages of the Americas (Quechua, Guarani and Aymara) and an English dialect (Sierra Leonean Krio) have also been added to Translate for the first time.\n\n\n\n\nTranslate's mission translated into some of our newly added langu…",
+          "link": "https://blog.google/products/translate/24-new-languages/",
+          "publishedOn": "2022-05-11T15:16:00.000Z",
+          "wordCount": 1234,
+          "title": "Google Translate learns 24 new languages"
+        },
+        {
+          "id": "https://blog.google/technology/research/ai-monk-scale-skin-tone-story/",
+          "author": null,
+          "description": "Today at I/O we released the Monk Skin Tone (MST) Scale in partnership with Harvard professor and sociologist Dr. Ellis Monk. The MST Scale, developed by Dr. Monk, is a 10-shade scale designed to be more inclusive of the spectrum of skin tones in our society. We’ll be incorporating the MST Scale into various Google products over the coming months, and we are openly releasing the scale so that anyone can use it for research and product development.\nThe MST Scale is an important next step in a collective effort to improve skin tone inclusivity in technology. For Google, it will help us make progress in our commitment to image equity and improving representation across our products. And in releasing the MST Scale for all to use, we hope to make it easier for others to do the same, so we can l…",
+          "link": "https://blog.google/technology/research/ai-monk-scale-skin-tone-story/",
+          "publishedOn": "2022-05-11T09:32:00.000Z",
+          "wordCount": 3067,
+          "title": "A closer look at the research to help AI see more skin tones"
+        }
+      ]
     },
     {
       "title": "daniel.haxx.se",
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=18998",
+          "author": "Daniel Stenberg",
+          "description": "Trailing dots on host names in URLs is the gift that keeps on giving. Let me take you through a dwindling story of how the dot is handled differently in different places through the stack of an Internet client. The evil trailing dot. DNS When a given host name is to be resolved to an … Continue reading A tale of a trailing dot →",
+          "link": "https://daniel.haxx.se/blog/2022/05/12/a-tale-of-a-trailing-dot/",
+          "publishedOn": "2022-05-12T06:40:59.000Z",
+          "wordCount": 2048,
+          "title": "A tale of a trailing dot"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=19090",
           "author": "Daniel Stenberg",
@@ -1221,6 +1314,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=64901",
+          "author": "Lara Croft",
+          "description": "This year, thousands of students from around the world came together and redefined the world we live in, how we learn, and how we move forward. We are honored to be part of the experience and eager to celebrate this milestone. So on June 11 we celebrate the Class of 2022 and welcome them to […]",
+          "link": "https://github.blog/2022-05-11-graduation-is-here-celebrate-the-class-of-2022-and-join-github-on-june-11/",
+          "publishedOn": "2022-05-11T18:00:20.000Z",
+          "wordCount": 596,
+          "title": "Graduation is here! Celebrate the Class of 2022, and join GitHub on June 11 🎓"
+        },
+        {
+          "id": "https://github.blog/?p=64908",
+          "author": "Rizel Scarlett",
+          "description": "Introduction Open Sauced, GitHub’s Explore page, Hacktoberfest, and First Timers Only help folks discover open source projects. This monthly series–Open Source Monthly—will add to these efforts by helping: First-time contributors find the right project to contribute to Corporations and individuals find a new project to sponsor Open source maintainers gain more consistent contributors and sponsors […]",
+          "link": "https://github.blog/2022-05-11-open-source-monthly-may-2022-edition/",
+          "publishedOn": "2022-05-11T15:00:36.000Z",
+          "wordCount": 1055,
+          "title": "Open Source Monthly – May 2022 Edition"
+        },
+        {
           "id": "https://github.blog/?p=64931",
           "author": "Myles Borins",
           "description": "Late last year, in response to an unprecedented series of account takeovers resulting from the compromise of developer accounts without 2FA enabled, we committed to a variety of enhancements to the npm registry to make two-factor authentication (2FA) adoption easier for developers. Today, we are launching a public beta for a significantly improved 2FA experience […]",
@@ -1435,24 +1546,6 @@
           "publishedOn": "2022-04-14T16:30:11.000Z",
           "wordCount": 775,
           "title": "Dependabot alerts now surface if your code is calling a vulnerability"
-        },
-        {
-          "id": "https://github.blog/?p=64076",
-          "author": "Taylor Blau",
-          "description": "Upgrade your local installation of Git, especially if you are using Git for Windows, or you use Git on a multi-user machine.",
-          "link": "https://github.blog/2022-04-12-git-security-vulnerability-announced/",
-          "publishedOn": "2022-04-12T17:51:41.000Z",
-          "wordCount": 660,
-          "title": "Git security vulnerability announced"
-        },
-        {
-          "id": "https://github.blog/?p=64119",
-          "author": "Evi Liu",
-          "description": "Today, we’re excited to bring you a few new features that will help you communicate, collaborate, and connect seamlessly with teams and communities about the software you’re building with the help of GitHub Discussions.",
-          "link": "https://github.blog/2022-04-12-whats-new-in-github-discussions-organization-discussions-polls-and-more/",
-          "publishedOn": "2022-04-12T17:00:32.000Z",
-          "wordCount": 1295,
-          "title": "What’s new in GitHub Discussions: Organization Discussions, polls, and more"
         }
       ]
     },
@@ -1582,15 +1675,6 @@
           "publishedOn": "2022-04-26T20:44:04.000Z",
           "wordCount": 2761,
           "title": "Evolution of ML Fact Store"
-        },
-        {
-          "id": "https://medium.com/p/5c0c1c7d7eaf",
-          "author": "Netflix Technology Blog",
-          "description": "By Alex Hutter, Falguni Jhaveri and Senthil Sayeebaba",
-          "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-04-12T17:16:41.000Z",
-          "wordCount": 2138,
-          "title": "How Netflix Content Engineering makes a federated graph searchable"
         }
       ]
     },
