@@ -49,15 +49,6 @@
           "publishedOn": "2022-04-14T17:28:00.008Z",
           "wordCount": 1091,
           "title": "How to SLSA Part 3 - Putting it all together"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/04/how-to-slsa-part-2-details.html",
-          "author": null,
-          "description": "Posted by Tom  Hennen, software engineer, BCID & GOSST \n\nIn our last post we introduced a fictional example of Squirrel, Oppy, and Acme learning to use SLSA and covered the basics of what their implementations might look like. Today we’ll cover the details: where to store attestations and policies, what policies should check, and how to handle key distribution and trust.\n\nAttestation storage\nAttestations play a large role in SLSA and it’s essential that consumers of artifacts know where to find the attestations for those artifacts.\n\nCo-located in repo\n\nAttestations could be colocated in the repository that hosts the artifact. This is how Squirrel plans to store attestations for packages. They even want to add support to the Squirrel CLI (e.g. acorn get-attestations foo@1.2.3).\nAcme really …",
-          "link": "http://security.googleblog.com/2022/04/how-to-slsa-part-2-details.html",
-          "publishedOn": "2022-04-13T16:00:00.002Z",
-          "wordCount": 4114,
-          "title": "How to SLSA Part 2 - The Details"
         }
       ]
     },
@@ -72,6 +63,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1643",
+          "author": null,
+          "description": "Another entry in the maintenance series! Throughout the series we’ve discussed building versus buying, building actually maintainable software, maintaining ourselves, open source maintenance, legacy code, and most recently Go project structure. In this 7th installment of the series, we continue narrowing our focus by talking about what to do when projects get big and messy.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.io\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nFlatfile – Data import is broken. We fixed it. Flatfile’s powerful out-of-the-box solution takes the data import burden off your shoulders, freeing you to solve bigger business problems and build products that people love.\n\n    \nFeaturing\nsam boyer – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/229",
+          "publishedOn": "2022-05-12T16:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 229: What to do when projects get big and messy",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/229/go-time-229.mp3",
+            "length": "64746658",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/3YNw",
+          "author": "Jerod Santo",
+          "description": "Good for them (and us)! But what does that mean in practice?\nOver the next few months, we’ll be completing the OpenJS Foundation’s incubation program checklist, including transferring the Jest domain, repo, website, and other assets to OpenJS. We’ll also be updating the code of conduct and contributor license agreement.\nAdditionally, as part of this move, we will be publishing a project charter and creating new governance policies that will document the process for gaining commit access, as well as our leadership selection process.\nNext up: React?! A guy can dream…\nDiscuss on Changelog News",
+          "link": "https://engineering.fb.com/2022/05/11/open-source/jest-openjs-foundation/",
+          "publishedOn": "2022-05-12T14:45:00.000Z",
+          "wordCount": null,
+          "title": "Meta is transferring Jest to the OpenJS Foundation",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/73wz",
+          "author": "Jerod Santo",
+          "description": "A searchable, templated catalog of popular terminal commands curated from across the internet.\nPretty sweet resource from our friends at Warp. Contribute your own commands on GitHub.\nDiscuss on Changelog News",
+          "link": "https://www.commands.dev/",
+          "publishedOn": "2022-05-12T13:49:00.000Z",
+          "wordCount": null,
+          "title": "Commands.dev - find commands at the speed of thought",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/X6Le",
           "author": "Jerod Santo",
@@ -916,56 +942,6 @@
           "wordCount": null,
           "title": "What I learned from making a DNS client in Rust",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/6/1633",
-          "author": null,
-          "description": "JS Party is a weekly celebration of JavaScript and the web so fun is at the heart of every episode.\nWe play games like Frontend Feud… (clip from episode #192)\nDiscuss and analyze the news… (clip from episode #213)\nExplain technical concepts to each other like we’re 5… (clip from episode #195)\nDebate hot topics like should websites work without JS? (clip from episode #87)\nInteriew amazing devs like Rich Harris and Una Kravets… (clip from episode #167)\nThis is JS Party! Listen and subscribe today.\nWe’d love to have you with us. 💚\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nAmelia Wattenberger – Twitter, GitHub, Website\nNick Nisi – Twitter, GitHub, Website\nDivya – Twitter, GitHub, LinkedIn, Website\nAmal Hussein – Twitter, GitHub\nMikeal Rogers – Twitter, GitHub\nFeross Aboukhadijeh – Twitter, GitHub, Website\nChristopher Hiller – Twitter, GitHub, Website\nAli Spittel – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/trailer-2",
-          "publishedOn": "2022-04-13T18:36:32.000Z",
-          "wordCount": null,
-          "title": "JS Party This is JS Party!",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/jsparty/trailer-2/js-party-trailer-2.mp3",
-            "length": "2546435",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/3YVD",
-          "author": "Jerod Santo",
-          "description": "Florin Lipan managed to squeeze a fully-functional static web server into a Docker image that has a 186KB footprint! Here I was thinking FROM alpine was a skinny starting point…\nDiscuss on Changelog News",
-          "link": "https://lipanski.com/posts/smallest-docker-image-static-website",
-          "publishedOn": "2022-04-13T16:03:01.000Z",
-          "wordCount": null,
-          "title": "The smallest Docker image to serve static websites",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1597",
-          "author": null,
-          "description": "In this episode we talk about launching Dagger with all four founders: Andrea, Eric, Sam & Solomon.\nWhile you may remember Sam & Solomon from episode 23, this time we assembled all four superheroes in this story and went deeper, covering nearly three years of refinements, the launch, as well as the world-class team & community that is coming together to solve the next problem of shipping software. Container images and Kubernetes are great steps in the right direction, but now it’s time for the next leap into the future.\nYou can use Dagger to run your CI/CD pipelines locally, without needing to commit and push. You can also use Dagger as a Makefile alternative, which resonates with Gerhard, but go further and your perspective on documentation & automation may start shifting.\nGerhard believe…",
-          "link": "https://changelog.com/shipit/48",
-          "publishedOn": "2022-04-13T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 48: Launching Dagger",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/48/ship-it-48.mp3",
-            "length": "64744151",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/29yM",
-          "author": "Jerod Santo",
-          "description": "On our episode with Brian Kernighan, I asked him if there were ever a situation in which he would advise you start a new program in C today. His response:\nI think probably unless you are in one of these resource-constrained environments, clearly, right upfront, that you’re going to be resource-constrained and the improvement of hardware isn’t gonna rescue you in the next couple of years, I would not start with C. I really wouldn’t. And then it depends what is your application.\nAs if on queue, StackOverflow blogger Marcin Pasinski has done a comparison between C and Go in the quintessential resource-constrained environment. Oddly enough, no mention of TinyGo in the piece, but otherwise a solid analysis.\nDiscuss on Changelog News",
-          "link": "https://stackoverflow.blog/2022/04/04/comparing-go-vs-c-in-embedded-applications/",
-          "publishedOn": "2022-04-13T14:06:00.000Z",
-          "wordCount": null,
-          "title": "Comparing Go vs C in embedded applications",
-          "itunes": {}
         }
       ]
     },
@@ -1271,6 +1247,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47829",
+          "author": "Gian-Carlo Pascutto",
+          "description": "Firefox uses a multi-process model for additional security and stability while browsing: Web Content (such as HTML/CSS and Javascript) is rendered in separate processes that are isolated from the rest of the operating system and managed by a privileged parent process. This way, the amount of control gained by an attacker that exploits a bug in a content process is limited. In this article, we would like to dive a bit further into the latest major milestone we have reached: Win32k Lockdown, which greatly reduces the capabilities of the content process when running on Windows.\nThe post Improved Process Isolation in Firefox 100 appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/05/improved-process-isolation-in-firefox-100/",
+          "publishedOn": "2022-05-12T15:09:10.000Z",
+          "wordCount": 2255,
+          "title": "Improved Process Isolation in Firefox 100"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47798",
           "author": "Melissa Thermidor",
           "description": "The latest Common Voice dataset, released today, has achieved a major milestone: More than 20,000 hours of open-source speech data that anyone, anywhere can use. The dataset has nearly doubled in the past year. Mozilla’s Common Voice seeks to change the language technology ecosystem by supporting communities to collect voice data for the creation of voice-enabled applications for their own languages. \nThe post Common Voice dataset tops 20,000 hours appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1296,15 +1281,6 @@
           "publishedOn": "2022-04-21T15:04:05.000Z",
           "wordCount": 1178,
           "title": "Adopting users’ design feedback"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47775",
-          "author": "Melissa Thermidor",
-          "description": "We’re pleased to announce that we have partnered with Center for Humane Tech, a nonprofit organization that radically reimagines the digital infrastructure. Its mission is to drive a comprehensive shift toward humane technology that supports the collective well-being, democracy and shared information environment.\nThe post Mozilla partners with the Center for Humane Technology appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/04/mozilla-partners-with-the-center-for-humane-technology/",
-          "publishedOn": "2022-04-13T15:02:02.000Z",
-          "wordCount": 722,
-          "title": "Mozilla partners with the Center for Humane Technology"
         }
       ]
     },
@@ -1580,24 +1556,6 @@
           "publishedOn": "2022-04-19T19:45:50.000Z",
           "wordCount": 3660,
           "title": "Artificial intelligence applied to financial services"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18245",
-          "author": "Dilson Caproni, Nathalia Magagne and Larissa Fonseca - IT Risk team at Nubank",
-          "description": "Diversity leads Nubank's IT Risk team to challenge the traditional way to deal with technological risks through a multidisciplinary approach.\nThe post Reinventing IT & Cyber Risk Management in the financial market appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/reinventing-it-and-cyber-risk-in-the-financial-market/",
-          "publishedOn": "2022-04-13T21:39:44.000Z",
-          "wordCount": 4211,
-          "title": "Reinventing IT & Cyber Risk Management in the financial market"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18229",
-          "author": "Nubank Editorial",
-          "description": "The magazine listened to over 45,000 people around the world to compile the list. This is the fourth consecutive time that Nubank appears in the ranking.\nThe post Nubank elected best bank in Brazil and one of the bests in the world best banks in Forbes’ ranking appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-forbes-ranking-2022/",
-          "publishedOn": "2022-04-13T17:30:16.000Z",
-          "wordCount": 3055,
-          "title": "Nubank elected best bank in Brazil and one of the bests in the world best banks in Forbes’ ranking"
         }
       ]
     },
