@@ -40,15 +40,6 @@
           "publishedOn": "2022-04-27T16:01:00.000Z",
           "wordCount": 1021,
           "title": "How we fought bad apps and developers in 2021"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/04/how-to-slsa-part-3-putting-it-all.html",
-          "author": null,
-          "description": "Posted by Tom Hennen, software engineer, BCID & GOSST \n\n\nIn our last two posts (1,2) we introduced a fictional example of Squirrel, Oppy, and Acme learning to SLSA and covered the basics and details of how they’d use SLSA for their organizations. Today we’ll close out the series by exploring how each organization pulls together the various solutions into a heterogeneous supply chain. \nAs a reminder, Acme is trying to produce a container image that contains three artifacts:\n\nThe Squirrel package ‘foo’\nThe Oppy package ‘baz’\nA custom executable, ‘bar’, written by Acme employees.\nThe process starts with ‘foo’ package authors triggering a build using GitHub Actions. This results in a new version of ‘foo’ (an artifact with hash ‘abc’) being pushed to the Squirrel repo along with its SLSA proven…",
-          "link": "http://security.googleblog.com/2022/04/how-to-slsa-part-3-putting-it-all.html",
-          "publishedOn": "2022-04-14T17:28:00.008Z",
-          "wordCount": 1091,
-          "title": "How to SLSA Part 3 - Putting it all together"
         }
       ]
     },
@@ -63,6 +54,46 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1585",
+          "author": null,
+          "description": "This week we’re joined by Mike Riley and we’re talking about his book Portable Python Projects (Running your home on a Raspberry Pi). We breakdown the details of the latest Raspberry Pi hardware, various automation ideas from the book, why Mike prefers Python for scripting on a Raspberry Pi, and of course why the Raspberry Pi makes sense for home labs concerned about data security.\nUse the code PYPROJECTS to get a 35% discount on the book. That code is valid for approximately 60 days after the episode’s publish date.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps …",
+          "link": "https://changelog.com/podcast/489",
+          "publishedOn": "2022-05-13T21:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 489: Run your home on a Raspberry Pi",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/489/the-changelog-489.mp3",
+            "length": "77983178",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1632",
+          "author": null,
+          "description": "KBall interviews TPW about the 1.0 release of Redwood - what it provides, why they’ve repositioned as a “JavaScript framework optimized for startups”, and what’s coming next.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nVercel – Vercel combines the best developer experience with an obsessive focus on end-user performance.  Our platform enables frontend teams to do t…",
+          "link": "https://changelog.com/jsparty/225",
+          "publishedOn": "2022-05-13T15:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 225: A JS framework for startups: Redwood goes 1.0",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/225/js-party-225.mp3",
+            "length": "70925606",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/GbaA",
+          "author": "Jerod Santo",
+          "description": "A ranty story from Kitze on a time when he didn’t ship the app he was working on and somebody else did!\nIt’s not their fault. I was just slow. I didn’t ship on time. I’m gonna go ahead and tattoo “JUST SHIP IT” on my forehead. Nah I wouldn’t be able to see it there. On my arm maybe. Nvm, let me go back to scrolling their landing page.\nDiscuss on Changelog News",
+          "link": "https://kitze.io/posts/saddest-just-ship-it-story-ever",
+          "publishedOn": "2022-05-13T13:52:00.000Z",
+          "wordCount": null,
+          "title": "The saddest \"just ship it\" story ever",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1643",
           "author": null,
@@ -897,51 +928,6 @@
           "wordCount": null,
           "title": "How HTTPie lost 54k GitHub stars",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1622",
-          "author": null,
-          "description": "We often have code that’s similar between projects and we find ourselves copying that code around. In this episode we discuss what to do with this common code, how to organize it, and what code qualifies as this common code.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Try FireHydrant free for 14 days at firehydrant.io\n\n    \nSignalWire – Build what’s next in communications with video, voice, and messaging APIs powered by elastic cloud infrastructure. Try it today at signalwire.com/video and mention “Go Time” to receive an extra 5,000 video minutes.\n\n    \nFeaturing\nIan Lopshire – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nThoughts on how to structure Go code\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/225",
-          "publishedOn": "2022-04-14T18:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 225: Go code organization best practices",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/225/go-time-225.mp3",
-            "length": "58777387",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/posts/2512",
-          "author": "Kelsey Hightower",
-          "description": "What you’re about to read is a fancified excerpt from Ship It! #44. You should read the original transcript or listen to the entire conversation for more context. To set the stage, this is Kelsey’s response to Gerhard asking what the biggest takeaway should be from their conversation.\nThe reason we find ourselves as practitioners (as an industry as a whole) constantly migrating between different platforms, journeys, and digital transformations…\nWe do this because I don’t think we ever understood the fundamentals.\nThe fundamentals are very clear. If you’re thinking about application delivery, for example, we know what the fundamentals are.\nIdeally, we’re versioning the source code we write, and using tools that enable us to build and package applications in a reproducible way. 15 years ago …",
-          "link": "https://changelog.com/posts/automation-is-the-serialization-of-understanding",
-          "publishedOn": "2022-04-14T17:05:22.000Z",
-          "wordCount": null,
-          "title": "Automation is the serialization of understanding",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/P5AE",
-          "author": "Jerod Santo",
-          "description": "Gergely Orosz did an excellent job detailing the ins & outs of Atlassian’s epic outage:\nHundreds of companies have no access to JIRA, Confluence and OpsGenie. What can engineering teams learn from the poor handling of this outage?\nThe TL;DR on the cause of the outage is a script that was supposed to “mark for deletion” some records also had “permanently delete” functionality and was run against a wrong list of IDs, improperly deleting 400 of their customers. Oh, and their backup restore process is really good at doing all customers, but not a subset. Ruh roh!\nLots to learn here, and Gergely puts a fine point on the biggest takeaways. A must-read!\nDiscuss on Changelog News",
-          "link": "https://newsletter.pragmaticengineer.com/p/scoop-atlassian",
-          "publishedOn": "2022-04-14T15:12:00.000Z",
-          "wordCount": null,
-          "title": "Inside the longest Atlassian outage of all time",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Aade",
-          "author": "Jerod Santo",
-          "description": "Adam Chalmers:\nOver the last few weeks I built my own DNS client. Mostly because I thought dig was kinda clunky. Partly because I wanted to learn more about DNS. So here’s how I built it, and how you can build your own too. It’s a great weekend project, and I learned a lot from finishing it.\nDNS is simple enough that you can grok it quickly, but still complex enough that Adam learned a ton along the way: reading RFCs, network sockets, Bitvec, and more.\nDiscuss on Changelog News",
-          "link": "https://blog.adamchalmers.com/making-a-dns-client/",
-          "publishedOn": "2022-04-14T14:26:00.000Z",
-          "wordCount": null,
-          "title": "What I learned from making a DNS client in Rust",
-          "itunes": {}
         }
       ]
     },
@@ -1107,6 +1093,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "author": null,
+          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "publishedOn": "2022-05-14T12:20:07.724Z",
+          "wordCount": 1270,
+          "title": "Powering real-time data analytics with Druid at Twitter"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
           "author": null,
           "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
@@ -1195,15 +1190,6 @@
           "publishedOn": "2022-04-17T12:15:43.376Z",
           "wordCount": 1663,
           "title": "A hybrid approach to personalize notification volume"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "author": null,
-          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "publishedOn": "2022-04-14T12:18:31.019Z",
-          "wordCount": 2038,
-          "title": "Next generation data insights using natural language queries"
         }
       ]
     },
@@ -1229,15 +1215,6 @@
           "publishedOn": "2022-04-19T16:06:00.000Z",
           "wordCount": 6268,
           "title": "The More You Know, The More You Know You Don’t Know"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol{margin:0;padding:0}table td,table th{padding:0}.BGLtzooHlW-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.BGLtzooHlW-c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:Consolas,\"Courier New\";font-style:normal}.BGLtzooHlW-c10{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-fa…",
-          "link": "https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html",
-          "publishedOn": "2022-04-14T15:58:00.000Z",
-          "wordCount": 8658,
-          "title": "CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers"
         }
       ]
     },
@@ -1513,15 +1490,6 @@
           "publishedOn": "2022-04-15T22:35:02.000Z",
           "wordCount": 1107,
           "title": "Security alert: Attack campaign involving stolen OAuth user tokens issued to two third-party integrators"
-        },
-        {
-          "id": "https://github.blog/?p=64103",
-          "author": "Erin Havens",
-          "description": "Today, we're shipping a new feature for Dependabot alerts which helps you better understand how you're affected by a vulnerability.",
-          "link": "https://github.blog/2022-04-14-dependabot-alerts-now-surface-if-code-is-calling-vulnerability/",
-          "publishedOn": "2022-04-14T16:30:11.000Z",
-          "wordCount": 775,
-          "title": "Dependabot alerts now surface if your code is calling a vulnerability"
         }
       ]
     },
@@ -1682,21 +1650,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F83341bb7-1be7-4bbb-a7f2-925c69ef451b_828x335.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/portfolio-rebalancing-april-2022",
-          "author": "Market Radar",
-          "description": "Balanced and Pure Stocks Portfolios",
-          "link": "https://marketradar.substack.com/p/portfolio-rebalancing-april-2022",
-          "publishedOn": "2022-04-14T10:11:36.000Z",
-          "wordCount": null,
-          "title": "Portfolio Rebalancing: April 2022",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff56c4bfc-6f9f-4aec-b078-4c13027bacd1_1009x677.png",
             "length": "0",
             "type": "image/jpeg"
           }
