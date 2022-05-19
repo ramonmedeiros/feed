@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/05/privileged-pod-escalations-in.html",
+          "author": null,
+          "description": "Posted by GKE and Anthos Platform Security Teams \n\n\n\nAt the KubeCon EU 2022 conference in Valencia, security researchers from Palo Alto Networks presented research findings on “trampoline pods”—pods with an elevated set of privileges required to do their job, but that could conceivably be used as a jumping off point to gain escalated privileges.\nThe research mentions GKE, including how developers should look at the privileged pod problem today, what the GKE team is doing to minimize the use of privileged pods, and actions GKE users can take to protect their clusters.\nPrivileged pods within the context of GKE security\n\nWhile privileged pods can pose a security issue, it’s important to look at them within the overall context of GKE security. To use a privileged pod as a “trampoline” in GKE, …",
+          "link": "http://security.googleblog.com/2022/05/privileged-pod-escalations-in.html",
+          "publishedOn": "2022-05-18T13:03:00.000Z",
+          "wordCount": 1227,
+          "title": "Privileged pod escalations in Kubernetes and GKE"
+        },
+        {
           "id": "http://security.googleblog.com/2022/05/io-2022-android-13-security-and-privacy.html",
           "author": null,
           "description": "Posted by Eugene Liderman and Sara N-Marandi, Android Security and Privacy Team\n\nEvery year at I/O we share the latest on privacy and security features on Android. But we know some users like to go a level deeper in understanding how we’re making the latest release safer, and more private, while continuing to offer a seamless experience. So let’s dig into the tools we’re building to better secure your data, enhance your privacy and increase trust in the apps and experiences on your devices.  \nLow latency, frictionless security\nRegardless of whether a smartphone is used for consumer or enterprise purposes, attestation is a key underpinning to ensure the integrity of the device and apps running on the device. Fundamentally, key attestation lets a developer bind a secret or designate data to …",
@@ -54,6 +63,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/4/1593",
+          "author": null,
+          "description": "Connor Sears, founder and CEO of Rewatch, joins Adam to share the journey of creating Rewatch. What began inside of GitHub to help them thrive and connect is now available to every product team on the planet. Rewatch lets teams save, manage, and search all their video content so they can collaborate async and with greater flexibility. We talk about where the tool’s inspiration came from (spoiler alert, inside GitHub it was called GitHub TV which you’ll hear during the show), how teams leverage video to reduce the constraints of communication, how Connor and his co-founder knew they had product-fit and how they grew the team and product, and of course the flip side of that — we talk about some of Connor’s failures along the way, and knowing when it’s the right time to take a big swing.\nDisc…",
+          "link": "https://changelog.com/founderstalk/90",
+          "publishedOn": "2022-05-18T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Founders Talk 90: From GitHub TV to Rewatch",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/founderstalk/90/founders-talk-90.mp3",
+            "length": "110499353",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Lpg4",
+          "author": "Jerod Santo",
+          "description": "CloudNativePG is distributed under the Apache License 2.0, and is now owned and governed by a newly formed community of contributors to the project, built on solid principles and values inspired by the Cloud Native Computing Foundation (CNCF).\nAmong these are openness, fairness, inclusivity, technical excellence, “community over product/company,” built-in quality and built-in security. I’m part of the initial group of maintainers of the project, currently made up by the top six committers of the project within EDB.\nIf you’ve been following Ship It’s Kaizen episodes, you know we had troubles running Postgres in K8s and recently moved to a managed (sorta) database. I wonder if Gerhard will be tempted to try this operator out anyhow…\nDiscuss on Changelog News",
+          "link": "https://www.enterprisedb.com/blog/introducing-cloudnativepg-new-open-source-kubernetes-operator-postgres",
+          "publishedOn": "2022-05-18T15:20:00.000Z",
+          "wordCount": null,
+          "title": "CloudNativePG – a new Kubernetes operator for Postgres",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/bNkZ",
+          "author": "Jerod Santo",
+          "description": "Curl creator/maintainer Daniel Stenberg is writing a book. It’s (aptly) named: Uncurled\nBecause of my background and life with Open Source and probably a lot because of the relative success some of my projects have had, I frequently get questions about subjects related to maintaining Open Source. How to run a project and what makes them succeed? For a long time I have been collecting lessons from my life with Open Source into a list of advice for fellow Open Source library hackers. This document is my attempt to convert those thoughts and experiences into words.\nI don’t believe it’s finished, but there’s a lot here already! Excited for this and while it’s a free to read GitBook right now, I hope it ends with some kind of physical manifestation.\nDiscuss on Changelog News",
+          "link": "https://un.curl.dev/",
+          "publishedOn": "2022-05-18T14:33:00.000Z",
+          "wordCount": null,
+          "title": "Everything I know and learned about running and maintaining open source projects for three decades",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/7/1658",
           "author": null,
@@ -918,56 +962,6 @@
           "wordCount": null,
           "title": "How DALL-E 2 actually works",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Q5Py",
-          "author": "Jerod Santo",
-          "description": "This guide by Josh Comeau is Josh doing what Josh does so well: taking complex/arcane/technical topics and making them approachable & fun for his audience.\nIt takes years of practice to become a terminal guru, but here’s the good news: we can take a shortcut. We don’t really need to know 98% of the stuff you can do with a terminal. If we focus on the most-important critical fundamentals, we should be able to become comfortable with the command line in a remarkably short amount of time. ✨\nThat’s what this blog post is all about.\nDiscuss on Changelog News",
-          "link": "https://www.joshwcomeau.com/javascript/terminal-for-js-devs/",
-          "publishedOn": "2022-04-19T20:25:00.000Z",
-          "wordCount": null,
-          "title": "The frontend developer's guide to the terminal",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1638",
-          "author": null,
-          "description": "In the fourth “AI in Africa” spotlight episode, we welcome Leonida Mutuku and Godliver Owomugisha, two experts in applying advanced technology in agriculture. We had a great discussion about ending poverty, hunger, and inequality in Africa via AI innovation. The discussion touches on open data, relevant models, ethics, and more.\nDiscuss on Changelog News\nChangelog++ members will hear a bonus 1 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with no ads, extended episodes, outtakes, bonus content, a deep discount in our merch store (soon), and more to come. Let’s do this!\n\n    \nFeaturing\nLeo Mutuku – Twitter, GitHub, LinkedIn, Website\nGodliver Owomugisha – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nJoyce Nabende – Twitter\nNotes and Links\nGodliver’s Google Scholar page\nGodliver’s academic homepage\nLocal Development Research Institute (LDRI)\nCropSpec\nOpen for Good Alliance\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/175",
-          "publishedOn": "2022-04-19T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 175: 🌍 AI in Africa - Agriculture",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/175/practical-ai-175.mp3",
-            "length": "49776049",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/12/1631",
-          "author": null,
-          "description": "We’ve been using Parker Selbert’s Oban library for years and he even helped us hold it right by improving our open source implementation!\nSo, Jerod invited him Backstage to discuss the library, how we’re using it, Parker’s plan to make it financially sustainable, his “freedom number” of Oban Pro subscribers, and a bunch of other random stuff along the way. Let’s go!\nDiscuss on Changelog News\nChangelog++ members will hear a bonus 0 minutes at the end of this episode and zero ads. Join today!\nFeaturing\nParker Selbert – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nNotes and Links\nGet Oban Web+Pro\nParker’s Oban PR on our repo\nWe discuss on Ship It! #20 (Kaizen!)\nPlausible Analytics is also open source\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/backstage/23",
-          "publishedOn": "2022-04-19T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Backstage 23: The Oban Pro",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/backstage/23/backstage-23.mp3",
-            "length": "57394711",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Lp33",
-          "author": "Jerod Santo",
-          "description": "I thought Ali and Jen had some excellent advice in this segment of our JS Party episode on web dev for beginners, so I’m re-sharing it here in hopes that you might share it with people you know who may be stuck in the early phases of their web development path.\nI also like what I had to say (imagine that!)\nOne thing that is true about software development in general… is that it’s actually really hard. And we need to just say that. Because you’re gonna hit bumps. You’re gonna hit walls. And some people will power through those walls and other people won’t, and that’s just the way life is…\nBut I think having something real that you want to exist… having a real project that you want to see into the world helps you get through those moments.\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=czO431qQY60",
-          "publishedOn": "2022-04-19T13:39:00.000Z",
-          "wordCount": null,
-          "title": "Want to learn web development? build something real!",
-          "itunes": {}
         }
       ]
     },
@@ -1142,6 +1136,24 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "author": null,
+          "description": "This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "publishedOn": "2022-05-19T12:18:55.505Z",
+          "wordCount": 1839,
+          "title": "Graph machine learning with missing node features"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume",
+          "author": null,
+          "description": "In this blog, we’ll share how we use machine learning techniques to ensure people see the right amount of relevant and timely notifications.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume",
+          "publishedOn": "2022-05-19T12:18:55.471Z",
+          "wordCount": 1663,
+          "title": "A hybrid approach to personalize notification volume"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
           "author": null,
           "description": "In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.",
@@ -1246,15 +1258,6 @@
           "publishedOn": "2022-05-10T19:00:00.000Z",
           "wordCount": 698,
           "title": "Release of Technical Report into the AMD Security Processor"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/04/the-more-you-know-more-you-know-you.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');.lst-kix_qhs0t3wlsx02-8>li{counter-increment:lst-ctn-kix_qhs0t3wlsx02-8}ol.lst-kix_h2vtkcla8l9d-2.start{counter-reset:lst-ctn-kix_h2vtkcla8l9d-2 0}ul.lst-kix_9i24fh2252ug-1{list-style-type:none}.lst-kix_h2vtkcla8l9d-3>li{counter-increment:lst-ctn-kix_h2vtkcla8l9d-3}ul.lst-kix_9i24fh2252ug-0{list-style-type:none}ul.lst-kix_9i24fh2252ug-3{list-style-type:none}ul.lst-kix_9i24fh2252ug-2{list-style-type:none}ul.lst-kix_9i24fh2252ug-5{list-style-type:none}ul.lst-kix_9i24fh2252ug-4{list-style-type:none}ul.lst-kix_9i24fh2252ug-7{list-style-type:none}.lst-kix_czzguda5pqu4-1>li{counter-increment:lst-ctn-kix_czzguda5pqu4-1}ul.lst-kix_9i24fh2252ug-6{list-style-type:none}.lst-kix_jdourvkzhmg1-7>li{counter-increment…",
-          "link": "https://googleprojectzero.blogspot.com/2022/04/the-more-you-know-more-you-know-you.html",
-          "publishedOn": "2022-04-19T16:06:00.000Z",
-          "wordCount": 6268,
-          "title": "The More You Know, The More You Know You Don’t Know"
         }
       ]
     },
@@ -1306,6 +1309,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65060",
+          "author": "Zack Koppert",
+          "description": "With innersource, it’s important to measure both the amount of innersource activity and the quality of the code being created. Here’s how.",
+          "link": "https://github.blog/2022-05-18-securing-and-delivering-high-quality-code-with-innersource-metrics/",
+          "publishedOn": "2022-05-18T21:50:03.000Z",
+          "wordCount": 791,
+          "title": "Securing and delivering high-quality code with innersource metrics"
+        },
         {
           "id": "https://github.blog/?p=64997",
           "author": "Zack Koppert",
@@ -1530,15 +1542,6 @@
           "publishedOn": "2022-04-20T16:00:57.000Z",
           "wordCount": 1022,
           "title": "Codespaces for multi-repository and monorepo scenarios"
-        },
-        {
-          "id": "https://github.blog/?p=64193",
-          "author": "Andrew Eisenberg",
-          "description": "Introducing CodeQL packs to help you codify and share your knowledge of vulnerabilities.",
-          "link": "https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/",
-          "publishedOn": "2022-04-19T17:00:02.000Z",
-          "wordCount": 2115,
-          "title": "Sharing security expertise through CodeQL packs (Part I)"
         }
       ]
     },
@@ -1573,15 +1576,6 @@
           "publishedOn": "2022-04-26T22:05:36.000Z",
           "wordCount": 4965,
           "title": "Data Scientist x Machine Learning Engineer Roles: How are they different? How are they alike?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18287",
-          "author": "Matt Swann - Chief Technology Officer at Nubank",
-          "description": "New tools will soon create more value based on transactional data intelligence, supporting innovative companies to generate insights about customer patterns and journeys for their benefit.\nThe post Artificial intelligence applied to financial services appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/matt-swann-artificial-intelligence-applied-to-finanacial-services/",
-          "publishedOn": "2022-04-19T19:45:50.000Z",
-          "wordCount": 3660,
-          "title": "Artificial intelligence applied to financial services"
         }
       ]
     },
@@ -1590,6 +1584,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/vulnerability-management/understanding-public-and-private-bug-bounties-and-vulnerability-disclosure",
+          "author": "Tim Matthews",
+          "description": "How Are Bug Bounty Programs and Vulnerability Disclosure Programs Different?\n\nLet’s start with the similarities. Both bug bounties and VDPs aim to",
+          "link": "https://www.hackerone.com/vulnerability-management/understanding-public-and-private-bug-bounties-and-vulnerability-disclosure",
+          "publishedOn": "2022-05-18T16:00:00.000Z",
+          "wordCount": 1650,
+          "title": "Understanding Public and Private Bug Bounties and Vulnerability Disclosure Programs"
+        },
         {
           "id": "https://hackerone.com/company-news/what-attack-resistance-management",
           "author": "Tim Matthews",
@@ -1625,24 +1628,6 @@
           "publishedOn": "2022-04-21T14:00:00.000Z",
           "wordCount": 1958,
           "title": "How Wix Improves Their Security Posture with Ethical Hackers"
-        },
-        {
-          "id": "https://hackerone.com/company-news/announcing-hackerone-2022-attack-resistance-report-security-survey-how-close-your",
-          "author": "HackerOne",
-          "description": "Today, HackerOne published The 2022 Attack Resistance Report: A HackerOne Security Survey. Our research revealed an increasing gap—the attack resistance gap—between what organizations can defend and what they need to defend. The gap is the result of four components prevalent across organizations.",
-          "link": "https://www.hackerone.com/company-news/announcing-hackerone-2022-attack-resistance-report-security-survey-how-close-your",
-          "publishedOn": "2022-04-19T23:40:49.000Z",
-          "wordCount": 908,
-          "title": "Announcing the HackerOne 2022 Attack Resistance Report: A Security Survey—How to Close Your Organization's Attack Resistance Gap"
-        },
-        {
-          "id": "https://hackerone.com/customer-stories/how-ethical-hackers-help-watson-address-digital-risk",
-          "author": "HackerOne",
-          "description": "We recently met with A.S. Watson’s Chief Information Security Officer (CISO), Feliks Voskoboynik, to learn how ethical hackers have helped with digital transformation and enabled his team to harden their attack surface. Read on to learn Feliks’ advice on including a bug bounty program as part of a security strategy, the lessons ethical hackers have provided, and what best practices he can share with other CISOs.",
-          "link": "https://www.hackerone.com/customer-stories/how-ethical-hackers-help-watson-address-digital-risk",
-          "publishedOn": "2022-04-19T16:00:00.000Z",
-          "wordCount": 1637,
-          "title": "How Ethical Hackers Help A.S. Watson Address Digital Risk"
         }
       ]
     },
