@@ -2,10 +2,117 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-19T12:19:12.211Z</updated>
+    <updated>2022-05-20T12:19:19.559Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Go Time 230: Revisiting Caddy]]></title>
+        <id>changelog.com/2/1620</id>
+        <link href="https://changelog.com/gotime/230"/>
+        <updated>2022-05-19T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Matt Holt & Mohammed S. Al Sahaf sit down with Natalie & Jon to discuss every gopher’s favorite open source web server with automatic HTTPS!
+In addition to laying out what Caddy is and why it’s interesting, we dive deep into how you can (and why you might want to) extend Caddy as a result of its modular architecture.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Chronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a d…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automate all the boring Kubernetes operations with Python]]></title>
+        <id>changelog.com/news/4E6D</id>
+        <link href="https://martinheinz.dev/blog/73"/>
+        <updated>2022-05-19T19:46:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article we take look at how you can use Python’s Kubernetes Client library to automate all the boring Kubernetes tasks and operations, such as creating/patching resources, watching events, accessing containers and more.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Martin Heinz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQLite and Go]]></title>
+        <id>changelog.com/news/lbzy</id>
+        <link href="https://www.youtube.com/watch?v=RqubKSF3wig"/>
+        <updated>2022-05-19T18:59:00.000Z</updated>
+        <summary type="html"><![CDATA[David Crawshaw gave an excellent talk (at Go Northwest in 2018) on using SQLite (so hot right now) together with Go and how enjoyable/productive the combo is. Quite worthy of its ~30 minutes runtime.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the potential of JavaScript-based containers]]></title>
+        <id>changelog.com/news/03bZ</id>
+        <link href="https://tinyclouds.org/javascript_containers"/>
+        <updated>2022-05-19T18:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Ryan Dahl describes the JavaScript sandbox as a higher level container for server software:
+This container isn’t meant to address the same breadth of problems that Linux containers target. Its emergence is a result of its simplicity. It minimizes the boilerplate for web service business logic. It shares concepts with the browser and reduces the concepts that the programmer needs to know.
+People like Ryan and his colleagues at Deno are exploring this future, but it’s not quite here yet.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Math support in Markdown]]></title>
+        <id>https://github.blog/?p=65023</id>
+        <link href="https://github.blog/2022-05-19-math-support-in-markdown/"/>
+        <updated>2022-05-19T17:41:03.000Z</updated>
+        <summary type="html"><![CDATA[Mathematical expressions are key to information sharing amongst engineers, scientists, data scientists, and mathematicians. Today we are pleased to announce that math expressions can be rendered in Markdown on GitHub using $$ as a delimiter for code blocks with math content or the $ delimiter for inline math expressions.]]></summary>
+        <author>
+            <name>Martin Woodward</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[case insensitive string comparisons in C]]></title>
+        <id>https://daniel.haxx.se/blog/?p=19143</id>
+        <link href="https://daniel.haxx.se/blog/2022/05/19/case-insensitive-string-comparisons-in-c/"/>
+        <updated>2022-05-19T17:29:32.000Z</updated>
+        <summary type="html"><![CDATA[Back in 2008, I had a revelation when it dawned on me that the POSIX function called strcasecmp() compares strings case insensitively, but locale dependent. Because of this, “file” and “FILE” is not actually a case insensitive match in Turkish but is a match in most other locales. curl would sometimes fail in mysterious ways … Continue reading case insensitive string comparisons in C →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we’re continuing to enable all developers to build]]></title>
+        <id>https://github.blog/?p=65049</id>
+        <link href="https://github.blog/2022-05-19-how-were-continuing-to-enable-all-developers-to-build/"/>
+        <updated>2022-05-19T16:48:04.000Z</updated>
+        <summary type="html"><![CDATA[Learn about what GitHub is doing to make their products more inclusive, and what’s next.]]></summary>
+        <author>
+            <name>Benjamin Allen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[forgit –a tool powered by fzf for using git interactively]]></title>
+        <id>changelog.com/news/pkWL</id>
+        <link href="https://github.com/wfxr/forgit"/>
+        <updated>2022-05-19T14:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Provides interactive git add, git log (👀 below), git diff, and a bunch more. Powered by fzf
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we build with and for people with disabilities]]></title>
+        <id>https://blog.google/outreach-initiatives/accessibility/building-with-the-disability-community-2022/</id>
+        <link href="https://blog.google/outreach-initiatives/accessibility/building-with-the-disability-community-2022/"/>
+        <updated>2022-05-19T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Editor’s note: Today is Global Accessibility Awareness Day. We’re also sharing how we’re making education more accessibleand launching a newAndroid accessibility feature.
+Over the past nine years, my job has focused on building accessible products and supporting Googlers with disabilities. Along the way, I’ve been constantly reminded of how vast and diverse the disability community is, and how important it is to continue working alongside this community to build technology and solutions that are truly helpful.
+Before delving into some of the accessibility features our teams have been building, I want to share how we’re working to be more inclusive of people with disabilities to create more accessible tools overall.
+Nothing about us, without us
+In the disability community, people often say …]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Graph machine learning with missing node features]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features</id>
@@ -1965,82 +2072,6 @@ It has a lot of nice outputs so you can grok what’s going on.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl up 2022 San Francisco]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18954</id>
-        <link href="https://daniel.haxx.se/blog/2022/04/20/curl-up-2022-san-francisco/"/>
-        <updated>2022-04-20T21:49:21.000Z</updated>
-        <summary type="html"><![CDATA[On June 6 2022, we will gather a bunch of curl aficionados in the Firehouse at the Fort Mason Centre in San Francisco, USA. All details can be found here. We will add more info and details as we get closer to the event. curl up is the annual curl developers and users “conference” where … Continue reading curl up 2022 San Francisco →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Organization profiles leading the way]]></title>
-        <id>https://github.blog/?p=64296</id>
-        <link href="https://github.blog/2022-04-20-organization-profiles-leading-the-way/"/>
-        <updated>2022-04-20T18:38:24.000Z</updated>
-        <summary type="html"><![CDATA[Organization profiles can now display custom content visible only to members of the organization. A new Member view can be tailored to show an alternative README and pinned private repositories.]]></summary>
-        <author>
-            <name>Daniel Adams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 49: Improving an eCommerce fulfillment platform]]></title>
-        <id>changelog.com/14/1591</id>
-        <link href="https://changelog.com/shipit/49"/>
-        <updated>2022-04-20T16:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Alex Sims, a Senior Software Engineer at James & James, an eCommerce fulfilment company, reached out to us about the Kaizen story of the third-party logistics (3PL) platform that he has been involved with for several years now.
-The system delivered 16 millions of orders in 10 years, and 4.5 million in the last year alone. All the numbers are going up, and there is only so much that a single PHP monolith deployed as VM images can handle. So how do you even start thinking about the architectural improvements, and inspire everyone involved to move towards better?
-We encourage you to look at the architectural diagrams in the show notes, especially the 10 year roadmap, and ask Alex for a blog post follow-up. While today’s episode was a good conversation starter, there is a lot that we did not h…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Codespaces for multi-repository and monorepo scenarios]]></title>
-        <id>https://github.blog/?p=64268</id>
-        <link href="https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/"/>
-        <updated>2022-04-20T16:00:57.000Z</updated>
-        <summary type="html"><![CDATA[We’re releasing exciting improvements that will streamline your Codespaces experience when working with multi-repository projects and monorepos.]]></summary>
-        <author>
-            <name>Gabe Dominguez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brave amps up privacy by cutting out AMP]]></title>
-        <id>changelog.com/news/W3Y1</id>
-        <link href="https://brave.com/privacy-updates/18-de-amp/"/>
-        <updated>2022-04-20T14:51:00.000Z</updated>
-        <summary type="html"><![CDATA[Brave is rolling out a new feature called De-AMP, which allows Brave users to bypass Google-hosted AMP pages, and instead visit the content’s publisher directly. AMP harms users’ privacy, security and internet experience, and just as bad, AMP helps Google further monopolize and control the direction of the Web.
-The Brave team is really doubling down on privacy and security. I don’t think that strategy would’ve won users a few years ago, but in 2022 and beyond…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How DALL-E 2 actually works]]></title>
-        <id>changelog.com/news/4EpE</id>
-        <link href="https://www.assemblyai.com/blog/how-dall-e-2-actually-works/"/>
-        <updated>2022-04-20T13:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Curious how OpenAI’s new DALL-E 2 manages to generate impressive artwork from short natural language prompts? This article breaks down the steps then focuses in on how it does the image generation step.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we built Twitter’s highly reliable ads pacing service]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service"/>
-        <updated>2022-04-20T12:23:27.828Z</updated>
-        <summary type="html"><![CDATA[In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>

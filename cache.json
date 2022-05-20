@@ -64,6 +64,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1620",
+          "author": null,
+          "description": "Matt Holt & Mohammed S. Al Sahaf sit down with Natalie & Jon to discuss every gopher’s favorite open source web server with automatic HTTPS!\nIn addition to laying out what Caddy is and why it’s interesting, we dive deep into how you can (and why you might want to) extend Caddy as a result of its modular architecture.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a d…",
+          "link": "https://changelog.com/gotime/230",
+          "publishedOn": "2022-05-19T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 230: Revisiting Caddy",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/230/go-time-230.mp3",
+            "length": "51038178",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/4E6D",
+          "author": "Martin Heinz",
+          "description": "In this article we take look at how you can use Python’s Kubernetes Client library to automate all the boring Kubernetes tasks and operations, such as creating/patching resources, watching events, accessing containers and more.\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/73",
+          "publishedOn": "2022-05-19T19:46:00.000Z",
+          "wordCount": null,
+          "title": "Automate all the boring Kubernetes operations with Python",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/lbzy",
+          "author": "Jerod Santo",
+          "description": "David Crawshaw gave an excellent talk (at Go Northwest in 2018) on using SQLite (so hot right now) together with Go and how enjoyable/productive the combo is. Quite worthy of its ~30 minutes runtime.\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=RqubKSF3wig",
+          "publishedOn": "2022-05-19T18:59:00.000Z",
+          "wordCount": null,
+          "title": "SQLite and Go",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/03bZ",
+          "author": "Jerod Santo",
+          "description": "Ryan Dahl describes the JavaScript sandbox as a higher level container for server software:\nThis container isn’t meant to address the same breadth of problems that Linux containers target. Its emergence is a result of its simplicity. It minimizes the boilerplate for web service business logic. It shares concepts with the browser and reduces the concepts that the programmer needs to know.\nPeople like Ryan and his colleagues at Deno are exploring this future, but it’s not quite here yet.\nDiscuss on Changelog News",
+          "link": "https://tinyclouds.org/javascript_containers",
+          "publishedOn": "2022-05-19T18:08:00.000Z",
+          "wordCount": null,
+          "title": "On the potential of JavaScript-based containers",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/pkWL",
+          "author": "Jerod Santo",
+          "description": "Provides interactive git add, git log (👀 below), git diff, and a bunch more. Powered by fzf\n\nDiscuss on Changelog News",
+          "link": "https://github.com/wfxr/forgit",
+          "publishedOn": "2022-05-19T14:07:00.000Z",
+          "wordCount": null,
+          "title": "forgit –a tool powered by fzf for using git interactively",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/4/1593",
           "author": null,
           "description": "Connor Sears, founder and CEO of Rewatch, joins Adam to share the journey of creating Rewatch. What began inside of GitHub to help them thrive and connect is now available to every product team on the planet. Rewatch lets teams save, manage, and search all their video content so they can collaborate async and with greater flexibility. We talk about where the tool’s inspiration came from (spoiler alert, inside GitHub it was called GitHub TV which you’ll hear during the show), how teams leverage video to reduce the constraints of communication, how Connor and his co-founder knew they had product-fit and how they grew the team and product, and of course the flip side of that — we talk about some of Connor’s failures along the way, and knowing when it’s the right time to take a big swing.\nDisc…",
@@ -927,41 +982,6 @@
           "wordCount": null,
           "title": "Memray is a memory profiler for Python",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1591",
-          "author": null,
-          "description": "Alex Sims, a Senior Software Engineer at James & James, an eCommerce fulfilment company, reached out to us about the Kaizen story of the third-party logistics (3PL) platform that he has been involved with for several years now.\nThe system delivered 16 millions of orders in 10 years, and 4.5 million in the last year alone. All the numbers are going up, and there is only so much that a single PHP monolith deployed as VM images can handle. So how do you even start thinking about the architectural improvements, and inspire everyone involved to move towards better?\nWe encourage you to look at the architectural diagrams in the show notes, especially the 10 year roadmap, and ask Alex for a blog post follow-up. While today’s episode was a good conversation starter, there is a lot that we did not h…",
-          "link": "https://changelog.com/shipit/49",
-          "publishedOn": "2022-04-20T16:15:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 49: Improving an eCommerce fulfillment platform",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/49/ship-it-49.mp3",
-            "length": "60460430",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/W3Y1",
-          "author": "Jerod Santo",
-          "description": "Brave is rolling out a new feature called De-AMP, which allows Brave users to bypass Google-hosted AMP pages, and instead visit the content’s publisher directly. AMP harms users’ privacy, security and internet experience, and just as bad, AMP helps Google further monopolize and control the direction of the Web.\nThe Brave team is really doubling down on privacy and security. I don’t think that strategy would’ve won users a few years ago, but in 2022 and beyond…\nDiscuss on Changelog News",
-          "link": "https://brave.com/privacy-updates/18-de-amp/",
-          "publishedOn": "2022-04-20T14:51:00.000Z",
-          "wordCount": null,
-          "title": "Brave amps up privacy by cutting out AMP",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4EpE",
-          "author": "Jerod Santo",
-          "description": "Curious how OpenAI’s new DALL-E 2 manages to generate impressive artwork from short natural language prompts? This article breaks down the steps then focuses in on how it does the image generation step.\n\nDiscuss on Changelog News",
-          "link": "https://www.assemblyai.com/blog/how-dall-e-2-actually-works/",
-          "publishedOn": "2022-04-20T13:58:00.000Z",
-          "wordCount": null,
-          "title": "How DALL-E 2 actually works",
-          "itunes": {}
         }
       ]
     },
@@ -986,6 +1006,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/accessibility/building-with-the-disability-community-2022/",
+          "author": null,
+          "description": "Editor’s note: Today is Global Accessibility Awareness Day. We’re also sharing how we’re making education more accessibleand launching a newAndroid accessibility feature.\nOver the past nine years, my job has focused on building accessible products and supporting Googlers with disabilities. Along the way, I’ve been constantly reminded of how vast and diverse the disability community is, and how important it is to continue working alongside this community to build technology and solutions that are truly helpful.\nBefore delving into some of the accessibility features our teams have been building, I want to share how we’re working to be more inclusive of people with disabilities to create more accessible tools overall.\nNothing about us, without us\nIn the disability community, people often say …",
+          "link": "https://blog.google/outreach-initiatives/accessibility/building-with-the-disability-community-2022/",
+          "publishedOn": "2022-05-19T13:00:00.000Z",
+          "wordCount": 1560,
+          "title": "How we build with and for people with disabilities"
+        },
         {
           "id": "https://blog.google/products/search/monk-skin-tone-scale/",
           "author": null,
@@ -1047,6 +1076,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19143",
+          "author": "Daniel Stenberg",
+          "description": "Back in 2008, I had a revelation when it dawned on me that the POSIX function called strcasecmp() compares strings case insensitively, but locale dependent. Because of this, “file” and “FILE” is not actually a case insensitive match in Turkish but is a match in most other locales. curl would sometimes fail in mysterious ways … Continue reading case insensitive string comparisons in C →",
+          "link": "https://daniel.haxx.se/blog/2022/05/19/case-insensitive-string-comparisons-in-c/",
+          "publishedOn": "2022-05-19T17:29:32.000Z",
+          "wordCount": 1283,
+          "title": "case insensitive string comparisons in C"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=19202",
           "author": "Daniel Stenberg",
@@ -1118,15 +1156,6 @@
           "publishedOn": "2022-04-27T06:28:39.000Z",
           "wordCount": 1157,
           "title": "curl 7.83.0 headers bonanza"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18954",
-          "author": "Daniel Stenberg",
-          "description": "On June 6 2022, we will gather a bunch of curl aficionados in the Firehouse at the Fort Mason Centre in San Francisco, USA. All details can be found here. We will add more info and details as we get closer to the event. curl up is the annual curl developers and users “conference” where … Continue reading curl up 2022 San Francisco →",
-          "link": "https://daniel.haxx.se/blog/2022/04/20/curl-up-2022-san-francisco/",
-          "publishedOn": "2022-04-20T21:49:21.000Z",
-          "wordCount": 615,
-          "title": "curl up 2022 San Francisco"
         }
       ]
     },
@@ -1233,15 +1262,6 @@
           "publishedOn": "2022-04-24T12:15:59.702Z",
           "wordCount": 791,
           "title": "Model-based candidate generation for account recommendations"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
-          "author": null,
-          "description": "In this blog, we describe how we separate Twitter’s pacing system from the serving stack to an independent service.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/how-we-built-twitter-s-highly-reliable-ads-pacing-service",
-          "publishedOn": "2022-04-20T12:23:27.828Z",
-          "wordCount": 2812,
-          "title": "How we built Twitter’s highly reliable ads pacing service"
         }
       ]
     },
@@ -1309,6 +1329,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65023",
+          "author": "Martin Woodward",
+          "description": "Mathematical expressions are key to information sharing amongst engineers, scientists, data scientists, and mathematicians. Today we are pleased to announce that math expressions can be rendered in Markdown on GitHub using $$ as a delimiter for code blocks with math content or the $ delimiter for inline math expressions.",
+          "link": "https://github.blog/2022-05-19-math-support-in-markdown/",
+          "publishedOn": "2022-05-19T17:41:03.000Z",
+          "wordCount": 588,
+          "title": "Math support in Markdown"
+        },
+        {
+          "id": "https://github.blog/?p=65049",
+          "author": "Benjamin Allen",
+          "description": "Learn about what GitHub is doing to make their products more inclusive, and what’s next.",
+          "link": "https://github.blog/2022-05-19-how-were-continuing-to-enable-all-developers-to-build/",
+          "publishedOn": "2022-05-19T16:48:04.000Z",
+          "wordCount": 1090,
+          "title": "How we’re continuing to enable all developers to build"
+        },
         {
           "id": "https://github.blog/?p=65060",
           "author": "Zack Koppert",
@@ -1524,24 +1562,6 @@
           "publishedOn": "2022-04-21T16:30:04.000Z",
           "wordCount": 1361,
           "title": "Improving Git push times through faster server side hooks"
-        },
-        {
-          "id": "https://github.blog/?p=64296",
-          "author": "Daniel Adams",
-          "description": "Organization profiles can now display custom content visible only to members of the organization. A new Member view can be tailored to show an alternative README and pinned private repositories.",
-          "link": "https://github.blog/2022-04-20-organization-profiles-leading-the-way/",
-          "publishedOn": "2022-04-20T18:38:24.000Z",
-          "wordCount": 673,
-          "title": "Organization profiles leading the way"
-        },
-        {
-          "id": "https://github.blog/?p=64268",
-          "author": "Gabe Dominguez",
-          "description": "We’re releasing exciting improvements that will streamline your Codespaces experience when working with multi-repository projects and monorepos.",
-          "link": "https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/",
-          "publishedOn": "2022-04-20T16:00:57.000Z",
-          "wordCount": 1022,
-          "title": "Codespaces for multi-repository and monorepo scenarios"
         }
       ]
     },
