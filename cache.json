@@ -64,6 +64,46 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/Z3VN",
+          "author": "Jerod Santo",
+          "description": "This package wraps the graphql-go/graphql implementation to provide a “fluent” pattern for constructing GraphQL queries in Go. This can be valuable in situations where dynamic queries are desired: when the fields of a GraphQL query (or mutation) are not known until runtime. For most other use cases, plain query strings or a helper library such as this should be sufficient.\nI wonder if this would change Mislav’s unpopular GraphQL/Go opinion…\nDiscuss on Changelog News",
+          "link": "https://github.com/mergestat/fluentgraphql",
+          "publishedOn": "2022-05-23T21:16:00.000Z",
+          "wordCount": null,
+          "title": "A fluent GraphQL library for Go",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/N5Ye",
+          "author": "Zhi Qu",
+          "description": "Testing microservice architecture locally is difficult. At Nylas, we’ve created a local development environment using Minikube and Tilt. In this article, I walk you through how we do it.\nDiscuss on Changelog News",
+          "link": "https://www.nylas.com/blog/how-we-test-microservices-locally-at-nylas/",
+          "publishedOn": "2022-05-23T20:07:00.000Z",
+          "wordCount": null,
+          "title": "How we test microservices locally at Nylas",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/EQ0R",
+          "author": "Jerod Santo",
+          "description": "Ignoring progressive enhancement could be seriously hurting your conversions. This article will show you how to build resiliency into your apps.\nDiscuss on Changelog News",
+          "link": "https://austingil.com/resilient-applications-progressive-enhancement/",
+          "publishedOn": "2022-05-23T14:22:00.000Z",
+          "wordCount": null,
+          "title": "Make resilient web apps with progressive enhancement",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/GbjA",
+          "author": "Jerod Santo",
+          "description": "Chris Kiehl hits his hammer right on the head of this common sentiment in software circles:\nDevelopers from certain languages [Java] have learned to wield this design principle with more power than many others. It’s how we end up with so much stuff in code bases that’s just… there. Existing. Superficially it appears unused, but silently and stoically, we know it protects us from the turbulent future change which lurks ever ahead.\nThe antithesis of one of my favorite design principles: YAGNI\nDiscuss on Changelog News",
+          "link": "https://chriskiehl.com/article/the-tyranny-of-what-if-it-changes",
+          "publishedOn": "2022-05-23T13:32:00.000Z",
+          "wordCount": null,
+          "title": "The mindless tyranny of 'what if it changes?' as a software design principle",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/O27w",
           "author": "Jerod Santo",
           "description": "If you’ve ever wondered how the Linux kernel does its thing:\nThe goal is simple - to share my modest knowledge about the insides of the linux kernel and help people who are interested in linux kernel insides, and other low-level subject matter. Feel free to go through the book Start here\nDiscuss on Changelog News",
@@ -1067,6 +1107,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=18925",
+          "author": "Daniel Stenberg",
+          "description": "curl --rate is your new friend. This option is for when you use curl to do many requests in a single command line, but you want curl to not do them as quickly as possible. You want curl to do them no more often than at a certain interval. This is a way to slow … Continue reading curl offers repeated transfers at slower pace →",
+          "link": "https://daniel.haxx.se/blog/2022/05/23/curl-offers-repeated-transfers-at-slower-pace/",
+          "publishedOn": "2022-05-23T16:06:58.000Z",
+          "wordCount": 858,
+          "title": "curl offers repeated transfers at slower pace"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=19143",
           "author": "Daniel Stenberg",
           "description": "Back in 2008, I had a revelation when it dawned on me that the POSIX function called strcasecmp() compares strings case insensitively, but locale dependent. Because of this, “file” and “FILE” is not actually a case insensitive match in Turkish but is a match in most other locales. curl would sometimes fail in mysterious ways … Continue reading case insensitive string comparisons in C →",
@@ -1234,24 +1283,6 @@
           "publishedOn": "2022-05-02T12:23:30.300Z",
           "wordCount": 1603,
           "title": "Data transfer in Manhattan using RocksDB"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
-          "author": null,
-          "description": "We’re investing in privacy-enhancing technologies (PET) to pioneer new methods of public accountability and access to data in a manner that respects and protects the privacy of people on Twitter.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
-          "publishedOn": "2022-04-24T12:16:00.079Z",
-          "wordCount": 808,
-          "title": "Investing in privacy enhancing tech to advance transparency in ML"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
-          "author": null,
-          "description": "In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
-          "publishedOn": "2022-04-24T12:15:59.702Z",
-          "wordCount": 791,
-          "title": "Model-based candidate generation for account recommendations"
         }
       ]
     },
@@ -1310,6 +1341,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65180",
+          "author": "Jessica Lord",
+          "description": "GitHub Sponsors is now available to all developers in India – no more waitlist, you can sign up right away!",
+          "link": "https://github.blog/2022-05-23-github-sponsors-launches-in-india/",
+          "publishedOn": "2022-05-24T03:30:37.000Z",
+          "wordCount": 613,
+          "title": "GitHub Sponsors launches in India"
+        },
+        {
+          "id": "https://github.blog/?p=65156",
+          "author": "Jill Moné-Corallo",
+          "description": "It was another record year for our Security Bug Bounty program. We're excited to highlight some achievements we’ve made together with the bounty community from 2021!",
+          "link": "https://github.blog/2022-05-23-eight-years-of-the-github-security-bug-bounty-program/",
+          "publishedOn": "2022-05-23T17:54:46.000Z",
+          "wordCount": 1463,
+          "title": "Eight years of the GitHub Security Bug Bounty program"
+        },
         {
           "id": "https://github.blog/?p=65072",
           "author": "Michelle Mannering",
