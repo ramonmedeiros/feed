@@ -64,6 +64,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/9l5N",
+          "author": "Jerod Santo",
+          "description": "Google researchers are giving DALL-E a run for its money:\nOur key discovery is that generic large language models (e.g. T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model.\n\nDiscuss on Changelog News",
+          "link": "https://gweb-research-imagen.appspot.com/",
+          "publishedOn": "2022-05-24T15:33:00.000Z",
+          "wordCount": null,
+          "title": "A text-to-image diffusion model with an unprecedented degree of photorealism",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/aQ11",
+          "author": "Jerod Santo",
+          "description": "TIL that Pong was built using hardware circuitry. Fascinating! Here’s the original schematics from Atari 👇\n\nDiscuss on Changelog News",
+          "link": "https://www.reddit.com/r/EngineeringPorn/comments/ul49zt/the_original_pong_video_game_had_no_code_and_was/",
+          "publishedOn": "2022-05-24T14:39:00.000Z",
+          "wordCount": null,
+          "title": "The original Pong video game had no code",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/Z3VN",
           "author": "Jerod Santo",
           "description": "This package wraps the graphql-go/graphql implementation to provide a “fluent” pattern for constructing GraphQL queries in Go. This can be valuable in situations where dynamic queries are desired: when the fields of a GraphQL query (or mutation) are not known until runtime. For most other use cases, plain query strings or a helper library such as this should be sufficient.\nI wonder if this would change Mislav’s unpopular GraphQL/Go opinion…\nDiscuss on Changelog News",
@@ -992,26 +1012,6 @@
           "wordCount": null,
           "title": "A collection of free Tailwind CSS components",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/O2YN",
-          "author": "Jerod Santo",
-          "description": "A nice little web-based tool to help you quickly/visually grok some JSON data you’re working with. I tested it on some game data from an old JS Danger episode, and it handled it pretty well.\n\nDiscuss on Changelog News",
-          "link": "https://jsonvisio.com/",
-          "publishedOn": "2022-04-25T15:14:00.000Z",
-          "wordCount": null,
-          "title": "Visualize your JSON with interactive graphs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/13Ln",
-          "author": "Jerod Santo",
-          "description": "Still in beta, but Fleet has a lot of promise. It boasts compile times up to 5x faster than cargo. Here’s how:\nFleet works by optimizing your builds using existing tooling available in the Rust ecosystem, including seamlessly integrating sccache, lld, zld, ramdisks (for those using WSL or HDD’s) et al.\nDiscuss on Changelog News",
-          "link": "https://github.com/dimensionhq/fleet",
-          "publishedOn": "2022-04-25T14:26:00.000Z",
-          "wordCount": null,
-          "title": "A blazing fast build tool for Rust",
-          "itunes": {}
         }
       ]
     },
@@ -1204,6 +1204,24 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
+          "author": null,
+          "description": "In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
+          "publishedOn": "2022-05-25T12:22:20.025Z",
+          "wordCount": 791,
+          "title": "Model-based candidate generation for account recommendations"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
+          "author": null,
+          "description": "We’re investing in privacy-enhancing technologies (PET) to pioneer new methods of public accountability and access to data in a manner that respects and protects the privacy of people on Twitter.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
+          "publishedOn": "2022-05-25T12:22:20.008Z",
+          "wordCount": 812,
+          "title": "Investing in privacy enhancing tech to advance transparency in ML"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
           "author": null,
           "description": "This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.",
@@ -1341,6 +1359,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65096",
+          "author": "Rachael Sewell",
+          "description": "We’re excited to announce some big improvements to our REST API documentation. We know developers rely on this documentation to integrate with GitHub, and we are committed to making it trustworthy, easy to find, and easy to use.",
+          "link": "https://github.blog/2022-05-24-improved-rest-api-documentation/",
+          "publishedOn": "2022-05-24T16:00:53.000Z",
+          "wordCount": 1161,
+          "title": "Improved REST API documentation"
+        },
         {
           "id": "https://github.blog/?p=65180",
           "author": "Jessica Lord",
@@ -1556,15 +1583,6 @@
           "publishedOn": "2022-04-26T16:00:26.000Z",
           "wordCount": 1086,
           "title": "GitHub Desktop 3.0 brings better integration for your pull requests"
-        },
-        {
-          "id": "https://github.blog/?p=64330",
-          "author": "Lessley Dennington",
-          "description": "This is the first post in a two-part series describing friendly forks and alternative strategies for managing them. Stay tuned for part two coming in May!",
-          "link": "https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/",
-          "publishedOn": "2022-04-25T17:29:10.000Z",
-          "wordCount": 1614,
-          "title": "The friend zone: friendly forks 101"
         }
       ]
     },
@@ -1573,6 +1591,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18427",
+          "author": "Nubank Editorial",
+          "description": "The international talents are coming from Parkside Technologies, a North American company that already uses the same functional programming languages\nThe post Nubank announces hires to strengthen tech team appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nubank-hires-engineers-of-parkside/",
+          "publishedOn": "2022-05-24T14:10:19.000Z",
+          "wordCount": 3030,
+          "title": "Nubank announces hires to strengthen tech team"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18415",
           "author": "Nubank Editorial",
@@ -1625,6 +1652,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/application-security/5-ways-i-provide-value-pullrequest-reviewer-when-i-start-reviewing-new-project",
+          "author": "William Barrett",
+          "description": "Important reviewer traits for providing a great code review include prior knowledge and experience, expertise, background context, attention to detail, and written communication skills. As a reviewer on PullRequest, I need to quickly gain context when I’m reviewing a project for the first time. But as is the case for any engineer new to a team, some context is gained over time.",
+          "link": "https://www.hackerone.com/application-security/5-ways-i-provide-value-pullrequest-reviewer-when-i-start-reviewing-new-project",
+          "publishedOn": "2022-05-24T16:15:00.000Z",
+          "wordCount": 1615,
+          "title": "5 Ways I Provide Value as a PullRequest Reviewer When I Start Reviewing a New Project"
+        },
         {
           "id": "https://hackerone.com/assessments/hackerone-announces-new-customer-pentest-setup-thats-more-efficient-and-speeds-time",
           "author": "Sean Ryan",
