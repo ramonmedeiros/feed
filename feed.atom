@@ -2,10 +2,119 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-26T12:19:41.394Z</updated>
+    <updated>2022-05-27T12:20:56.421Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[npm security update: Attack campaign using stolen OAuth tokens]]></title>
+        <id>https://github.blog/?p=65217</id>
+        <link href="https://github.blog/2022-05-26-npm-security-update-oauth-tokens/"/>
+        <updated>2022-05-27T04:37:28.000Z</updated>
+        <summary type="html"><![CDATA[npm's impact analysis of the attack campaign using stolen OAuth tokens and additional findings.]]></summary>
+        <author>
+            <name>Greg Ose</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run the latest SQLite beta directly in your web browser]]></title>
+        <id>changelog.com/news/Zowk</id>
+        <link href="https://sqlite.org/forum/forumpost/5cfd681451"/>
+        <updated>2022-05-26T22:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Richard Hipp, announcing SQLite version 3.39.0 in their forums:
+If you prefer, you can experiment with the latest 3.39.0 code directly in your web-browser and without having to download or install anything by visiting sqlite.org/fiddle/. (The page name is by analogy to sites like “JSFiddle” and “SQLFiddle”.)
+The page runs a WASM-compiled copy of a recent 3.39.0 build in a sandbox in your web browser. Using controls on that page, you can import database files from your local machine (assuming they aren’t too big), work with them, then export any changes back to your desktop.
+WebAssembly FTW!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nubank’s Engineering Principles: interview with Edward Wible]]></title>
+        <id>https://building.nubank.com.br/?p=18440</id>
+        <link href="https://building.nubank.com.br/nubanks-engineering-principles-interview-with-co-founder-ed-wible/"/>
+        <updated>2022-05-26T21:32:50.000Z</updated>
+        <summary type="html"><![CDATA[“I don't necessarily worry about whether people are always talking about us, as long as they wouldn’t want to live without us”, says co-founder Edward Wible.
+The post Nubank’s Engineering Principles: interview with Edward Wible appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Ezequiel Siddig - Editor and Content Creator at Nubank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two techniques for solving unreproducible (random) bugs]]></title>
+        <id>changelog.com/news/73kz</id>
+        <link href="https://hindenbug.io/two-techniques-for-solving-unreproducible-random-bugs-97e03ac02eb9"/>
+        <updated>2022-05-26T20:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Unreproducible issues, although rare, are typical for each project, sooner or later. They can affect different system parts and make us many causes for investigating and fixing them.
+In this article, I try to share some of the techniques I have used in such investigations, which gave me great help in such scenarios. I hope they are helpful to you (if you did not use them already). And, if you have techniques of your own, share them!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Marko Milojevic</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learnings from 5 years of tech startup code audits]]></title>
+        <id>changelog.com/news/V1oQ</id>
+        <link href="https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/"/>
+        <updated>2022-05-26T19:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Ken Kantzer was part of ~20 code audits of companies that had just raised their A or B rounds of funding:
+It was fascinating work – we dove deep on a great cross-section of stacks and architectures, across a wide variety of domains. We found all sorts of security issues, ranging from catastrophic to just plain interesting. And we also had a chance to chat with senior engineering leadership and CTOs more generally about the engineering and product challenges they were facing as they were just starting to scale.
+In this post he shares some of the more surprising things he’s learned from the experience. There’s a lot to digest in this post, but I’ll highlight my favorite to whet your whistle:
+Simple Outperformed Smart. As a self-admitted elitist, it pains me to say this, but it’s true: the startups we audited that are now doing the best usually had an almost brazenly ‘Keep It Simple’ approach to engineering. Cleverness for cleverness sake was abhorred. On the flip side, the companies where we were like ”woah, these folks are smart as hell” for the most part kind of faded.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Retrofitting Temporal Memory Safety on C++]]></title>
+        <id>http://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html</id>
+        <link href="http://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html"/>
+        <updated>2022-05-26T17:00:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Anton Bikineev, Michael Lippautz and Hannes Payer, Chrome security team
+
+
+
+Memory safety in Chrome is an ever-ongoing effort to protect our users. We are constantly experimenting with different technologies to stay ahead of malicious actors. In this spirit, this post is about our journey of using heap scanning technologies to improve memory safety of C++.
+
+
+
+
+Let’s start at the beginning though. Throughout the lifetime of an application its state is generally represented in memory. Temporal memory safety refers to the problem of guaranteeing that memory is always accessed with the most up to date information of its structure, its type. C++ unfortunately does not provide such guarantees. While there is appetite for different languages than C++ with stronger memory safety guarantee…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 231: Berlin's transition to Go]]></title>
+        <id>changelog.com/2/1644</id>
+        <link href="https://changelog.com/gotime/231"/>
+        <updated>2022-05-26T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Berlin tech ecosystem was all about PHP/Python for a long time. In the recent years it became a tech hub and an early adopter of Go. In this conversation we’ll see how this reflects in the 10+ years old Go meetup, with the meetup organizing team.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Chronosphere – Chronosphere is the observability platform for cloud-native teams operating at…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GTD in 15 minutes]]></title>
+        <id>changelog.com/news/JgDb</id>
+        <link href="https://hamberg.no/gtd"/>
+        <updated>2022-05-26T14:18:00.000Z</updated>
+        <summary type="html"><![CDATA[This excellent “pragmatic guide to getting things done” distills down many of the teachings in David Allen’s best-selling book that popularized the system.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How we use Dependabot to secure GitHub]]></title>
         <id>https://github.blog/?p=65226</id>
@@ -1970,82 +2079,6 @@ We are very glad to announce today that it is now possible for MDN users around 
 The post MDN Plus now available in more markets appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
         <author>
             <name>Hermina</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 50: Kaizen! We are flying ✈️]]></title>
-        <id>changelog.com/14/1628</id>
-        <link href="https://changelog.com/shipit/50"/>
-        <updated>2022-04-27T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This is our 5th Kaizen where we talk about the next improvement to changelog.com: we are now running on fly.io and our PostgreSQL is managed. This is a migration that many were curious about, including Simey de Klerk, the person that requested this episode.
-After migrating all our media files to AWS S3 (check episode 40), we thought that this part was going to be easy. Plan met reality. Pull request 407 has all the details.
-We want to emphasise the type of partner relationships that we seek at Changelog & why they are important to us, as well as to our listeners. Honeycomb & Fly embody the principles that we care about, and Gerhard thinks that we are currently missing a Kubernetes partner.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ad…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we fought bad apps and developers in 2021]]></title>
-        <id>http://security.googleblog.com/2022/04/how-we-fought-bad-apps-and-developers.html</id>
-        <link href="http://security.googleblog.com/2022/04/how-we-fought-bad-apps-and-developers.html"/>
-        <updated>2022-04-27T16:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Steve Kafka and Khawaja Shams, Android Security and Privacy Team 
-Providing a safe experience to billions of users continues to be one of the highest priorities for Google Play. Last year we introduced multiple privacy focused features, enhanced our protections against bad apps and developers, and improved SDK data safety. In addition, Google Play Protect continues to scan billions of installed apps each day across billions of devices to keep people safe from malware and unwanted software.  
-  
-We continue to enhance our machine learning systems and review processes, and in 2021 we blocked 1.2 million policy violating apps from being published on Google Play, preventing billions of harmful installations. We also continued in our efforts to combat malicious and spammy developers, …]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing zq: an easier (and faster) alternative to jq]]></title>
-        <id>changelog.com/news/YNYP</id>
-        <link href="https://www.brimdata.io/blog/introducing-zq/"/>
-        <updated>2022-04-27T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’ve found the (excellent) jq tool for working with JSON a bit unwieldy… check out zq and see if you like its API any better. I wouldn’t put too much weight on the faster aspect, though:
-We will cover zq’s performance in a future article, but to cut to the chase here, zq is almost always at least a bit faster than jq when processing JSON inputs
-Almost always at least a bit faster is not something you’re likely to notice in practice.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Things I can’t do on macOS which I can do on Ubuntu]]></title>
-        <id>changelog.com/news/o9Y8</id>
-        <link href="https://shkspr.mobi/blog/2020/04/things-i-cant-do-on-macos-which-i-can-do-on-ubuntu/"/>
-        <updated>2022-04-27T14:28:00.000Z</updated>
-        <summary type="html"><![CDATA[A solid rant by Terence Eden, who has to use macOS for work but would rather not:
-I know you’re going to be tempted to reply with “you’re using it wrong” - but I’m not. This is how I like to use my computer. And it is clear that the MacBook isn’t my computer - it is Apple’s. (OK, OK! It belongs to my employer!)
-Some of his grievances like window snapping and moving/removing UI elements can be alleviated with 3rd-party solutions, but he’s not wrong that the operating system doesn’t provide these features.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Infinite Mac: an instant-booting Quadra in your browser]]></title>
-        <id>changelog.com/news/MdM6</id>
-        <link href="https://blog.persistent.info/2022/03/blog-post.html"/>
-        <updated>2022-04-27T13:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Mihai Parparita:
-It’s a golden age of emulation. Between increasing CPU power, WebAssembly, and retrocomputing being so popular The New York Times is covering it, it’s never been easier to relive your 80s / 90s / 2000s nostalgia. Projects like v86 make it easy to run your chosen old operating system in the browser. My heritage being of the classic Mac line, I was curious what the easiest to use emulation option was in the modern era…
-Here’s a video demo of what resulted: a full-featured classic 68K Mac in your browser.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl 7.83.0 headers bonanza]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18986</id>
-        <link href="https://daniel.haxx.se/blog/2022/04/27/curl-7-83-0-headers-bonanza/"/>
-        <updated>2022-04-27T06:28:39.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the third curl release of the year. Release presentation Numbers the 207th release6 changes53 days (total: 8,804)125 bug-fixes (total: 7,816)185 commits (total: 28,507)2 new public libcurl function (total: 88)0 new curl_easy_setopt() option (total: 295)2 new curl command line option (total: 247)60 contributors, 29 new (total: 2,626)35 authors, 13 new (total: 1,027)4 security fixes … Continue reading curl 7.83.0 headers bonanza →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
