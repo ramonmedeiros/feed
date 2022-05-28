@@ -40,15 +40,6 @@
           "publishedOn": "2022-05-11T18:00:00.004Z",
           "wordCount": 1886,
           "title": "Taking on the Next Generation of Phishing Scams"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/04/the-package-analysis-project-scalable.html",
-          "author": null,
-          "description": "Posted by Caleb Brown, Open Source Security Team \n\n\nDespite open source software’s essential role in all software built today, it’s far too easy for bad actors to circulate malicious packages that attack the systems and users running that software. Unlike mobile app stores that can scan for and reject malicious contributions, package repositories have limited resources to review the thousands of daily updates and must maintain an open model where anyone can freely contribute. As a result, malicious packages like ua-parser-js, and node-ipc are regularly uploaded to popular repositories despite their best efforts, with sometimes devastating consequences for users. \nGoogle, a member of the Open Source Security Foundation (OpenSSF), is proud to support the OpenSSF’s Package Analysis project, w…",
-          "link": "http://security.googleblog.com/2022/04/the-package-analysis-project-scalable.html",
-          "publishedOn": "2022-04-28T16:05:00.008Z",
-          "wordCount": 1291,
-          "title": "The Package Analysis Project: Scalable detection of malicious open source packages"
         }
       ]
     },
@@ -63,6 +54,56 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/1653",
+          "author": null,
+          "description": "Nick and Chris welcome back Mik and Bret to discuss logging and error handling in Node and JavaScript and the subtleties and intricacies that extend far beyond console.log!\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nBret Comnes – Twitter, GitHub, Website\nMikola Lysenko – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nChristopher Hiller – Twitter, GitHub, Website\nNotes and Links\nJS Party #219 - Making moves on supply chain security\nFullStory\npino\ngrafana\nDataDog RUM\nReact Suspense: Async Rendering in React\nMatomo\nAbort Signal\nSemaphore\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/227",
+          "publishedOn": "2022-05-27T15:45:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 227: JS logging & error handling",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/227/js-party-227.mp3",
+            "length": "70969142",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/1659",
+          "author": null,
+          "description": "This week we’re peeking into the future again — this time we’re looking at the future of modern code review and workflows around pull requests. Jerod and Adam were joined by two of the co-founders of Graphite — Tomas Reimers and Greg Foster.\nGraphite is an open-source CLI and code review dashboard built for engineers who want to write and review smaller pull requests, stay unblocked, and ship faster. We cover all the details – how they got started, how this product emerged from another idea they were working on, the state of adoption, why stacking changes is the way of the future, how it’s just Git under the hood, and what they’re doing with the $20M in funding they just got from a16z.\nDiscuss on Changelog News\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero a…",
+          "link": "https://changelog.com/podcast/491",
+          "publishedOn": "2022-05-27T15:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 491: Stacked diffs for fast-moving code review",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/491/the-changelog-491.mp3",
+            "length": "76936789",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/493D",
+          "author": "Jerod Santo",
+          "description": "Last week I logged the very impressive Imagen project, which smarter people than me have said is the SOTA for text-to-image synthesis. Now a WIP implementation is just a pip install imagen-pytorch away.\nArchitecturally, it is actually much simpler than DALL-E2. It consists of a cascading DDPM conditioned on text embeddings from a large pretrained T5 model (attention network). It also contains dynamic clipping for improved classifier free guidance, noise level conditioning, and a memory efficient unet design.\nDiscuss on Changelog News",
+          "link": "https://github.com/lucidrains/imagen-pytorch",
+          "publishedOn": "2022-05-27T15:02:00.000Z",
+          "wordCount": null,
+          "title": "Imagen (Google's text-to-image neural net) implemented in Pytorch",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/qMzD",
+          "author": "Jerod Santo",
+          "description": "Kev Quirk:\nDuckDuckGo, the privacy centric search firm have been found to be allowing Microsoft trackers through their browser. It’s dishonest, and I’m really disappointed.\nNoteworthy: this is the DDG browser, which I’ve never used. Not the search engine. But still, this is concerning like Kev says:\nDuckDuckGo tout themselves as being highly transparent and privacy respecting in everything they do. So to discover that they have been keeping this tidbit of information from their users — one that goes against the very fibre of the company — is a little concerning for me.\nDiscuss on Changelog News",
+          "link": "https://kevq.uk/is-duckduckgo-duckduckdone/",
+          "publishedOn": "2022-05-27T14:01:00.000Z",
+          "wordCount": null,
+          "title": "Is DuckDuckGo, DuckDuckDone?",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/Zowk",
           "author": "Jerod Santo",
@@ -972,41 +1013,6 @@
           "wordCount": null,
           "title": "Let's talk about blockchains",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1612",
-          "author": null,
-          "description": "Matan Peled from Technion University joins Natalie & Mat to discuss his PhD research on meta programming and static analyzers. How does Go’s measure up? What would Matan’s look like if he built one? All that and more!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity f…",
-          "link": "https://changelog.com/gotime/227",
-          "publishedOn": "2022-04-28T16:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 227: Analyzing static analysis",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/227/go-time-227.mp3",
-            "length": "56470660",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Q5Yy",
-          "author": "Jerod Santo",
-          "description": "The second jq alternative we’ve discovered this week! (first here)\njq is hard to use. There are alternatives like fq and zq, but they still make you learn a new programming language. Im tired of learning new programming languages.\ngq is not optimized for speed, flexibility or beauty. gq is optimized for minimal learning/quick usage. gq understands that you don’t use it constantly, you use it once a month and then forget about it. So when you come back to it, gq will be easy to relearn. Just use the builtin library just like you would any other go project and you’re done. No unfamiliar syntax or operations, or surprising limits. Thats it.\nI don’t know if Go is a great fit for this use-case, but if you already know it well… makes sense.\nDiscuss on Changelog News",
-          "link": "https://github.com/hherman1/gq",
-          "publishedOn": "2022-04-28T14:03:00.000Z",
-          "wordCount": null,
-          "title": "jq but using Go instead",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zgyn",
-          "author": "Jerod Santo",
-          "description": "I used scare quotes around “whole life” because those are his words and surely there’s a lot more to life than things you can quantify, but still: this is interesting\nBack in 2019, I started collecting all kinds of metrics about my life. Every single day for the last 2.5 years I tracked over 100 different data types - ranging from fitness & nutrition to social life, computer usage and weather.\nThis data produces 44 graphs that are all shared publicly on the website.\n\nDiscuss on Changelog News",
-          "link": "https://howisfelix.today/",
-          "publishedOn": "2022-04-28T13:13:00.000Z",
-          "wordCount": null,
-          "title": "Felix Krause put his \"whole life\" into a single database",
-          "itunes": {}
         }
       ]
     },
@@ -1319,24 +1325,6 @@
           "publishedOn": "2022-05-12T15:09:10.000Z",
           "wordCount": 2255,
           "title": "Improved Process Isolation in Firefox 100"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47798",
-          "author": "Melissa Thermidor",
-          "description": "The latest Common Voice dataset, released today, has achieved a major milestone: More than 20,000 hours of open-source speech data that anyone, anywhere can use. The dataset has nearly doubled in the past year. Mozilla’s Common Voice seeks to change the language technology ecosystem by supporting communities to collect voice data for the creation of voice-enabled applications for their own languages. \nThe post Common Voice dataset tops 20,000 hours appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/04/common-voice-dataset-tops-20000-hours/",
-          "publishedOn": "2022-04-28T15:23:57.000Z",
-          "wordCount": 587,
-          "title": "Common Voice dataset tops 20,000 hours"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47805",
-          "author": "Hermina",
-          "description": "Almost a month ago, we announced MDN Plus, a new premium service on MDN that allows users to customize their experience on the website.\nWe are very glad to announce today that it is now possible for MDN users around the globe to create an MDN Plus free account, no matter where they are.\nThe post MDN Plus now available in more markets appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/04/mdn-plus-now-available-in-more-markets/",
-          "publishedOn": "2022-04-28T10:05:35.000Z",
-          "wordCount": 349,
-          "title": "MDN Plus now available in more markets"
         }
       ]
     },
@@ -1569,15 +1557,6 @@
           "publishedOn": "2022-04-29T15:00:02.000Z",
           "wordCount": 787,
           "title": "Bringing code navigation to communities"
-        },
-        {
-          "id": "https://github.blog/?p=64550",
-          "author": "Justin Hutchings",
-          "description": "These days software is subject to an ever-changing threat landscape. Check out the many ways you can keep your projects secure on GitHub today.",
-          "link": "https://github.blog/2022-04-28-best-practices-to-keep-your-projects-secure-on-github/",
-          "publishedOn": "2022-04-28T15:55:56.000Z",
-          "wordCount": 958,
-          "title": "Best practices to keep your projects secure on GitHub"
         }
       ]
     },
@@ -1638,6 +1617,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/security-compliance/what-securitytxt-file-and-how-can-it-help-your-program",
+          "author": "HackerOne",
+          "description": "Security.txt is a security mechanism that allows your organization to provide its vulnerability disclosure policy and contact information in a standar",
+          "link": "https://www.hackerone.com/security-compliance/what-securitytxt-file-and-how-can-it-help-your-program",
+          "publishedOn": "2022-05-27T20:00:00.000Z",
+          "wordCount": 1663,
+          "title": "What Is a Security.txt File and How Can It Help Your Program?"
+        },
         {
           "id": "https://hackerone.com/application-security/5-ways-i-provide-value-pullrequest-reviewer-when-i-start-reviewing-new-project",
           "author": "William Barrett",
@@ -1756,21 +1744,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0eceaf1-e03f-41d9-b1d5-c20632d6db44_1532x743.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/pure-stock-portfolio-a-stock-to-sell",
-          "author": "Market Radar",
-          "description": "A very bad earning report made me change the idea on the company",
-          "link": "https://marketradar.substack.com/p/pure-stock-portfolio-a-stock-to-sell",
-          "publishedOn": "2022-04-28T13:45:17.000Z",
-          "wordCount": null,
-          "title": "Pure Stock Portfolio: a stock to sell",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/407bfb28-506f-41f6-958b-53dbefad58b8_828x823.jpeg",
             "length": "0",
             "type": "image/jpeg"
           }
