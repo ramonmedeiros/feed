@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-28T12:17:30.473Z</updated>
+    <updated>2022-05-29T12:17:43.550Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
@@ -1960,110 +1960,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[– Everything I know and learned about running and maintaining Open Source projects for three decades. For several years now, I have had a blog post series in mind to describe something about what people could expect to happen in Open Source projects. I had a few already half-started blog post drafts for some sub … Continue reading Uncurled →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Factors to consider when architecting systems that uses third-party systems]]></title>
-        <id>changelog.com/news/9OEm</id>
-        <link href="https://shekhargulati.com/2022/02/16/factors-to-consider-when-architecting-systems-on-top-of-third-party-systems/"/>
-        <updated>2022-04-29T21:39:00.000Z</updated>
-        <summary type="html"><![CDATA[In this post, I will talk about important factors you should consider when architecting systems that are powered by third-party systems. The factors I detail are:
-deployment model
-technology coherence
-NFRs and SLAs
-Infrastructure and hardware needs
-API style and documentation
-Idempotent APIs
-Getting data out of the third party provider
-Community
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Shekhar Gulati</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A cross-platform file explorer powered by a virtual distributed filesystem]]></title>
-        <id>changelog.com/news/EQeG</id>
-        <link href="https://github.com/spacedriveapp/spacedrive"/>
-        <updated>2022-04-29T20:53:00.000Z</updated>
-        <summary type="html"><![CDATA[Spacedrive helps you organize your files across many devices in one place. Here’s the motivation:
-Many of us have multiple cloud accounts, drives that aren’t backed up and data at risk of loss. We depend on cloud services like Google Photos and iCloud, but are locked in with limited capacity and almost zero interoperability between services and operating systems. Photo albums shouldn’t be stuck in a device ecosystem, or harvested for advertising data. They should be OS agnostic, permanent and personally owned. Data we create is our legacy, that will long outlive us—open source technology is the only way to ensure we retain absolute control over the data that defines our lives, at unlimited scale.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wireit upgrades your npm scripts to make them smarter and more efficient]]></title>
-        <id>changelog.com/news/W3W1</id>
-        <link href="https://github.com/google/wireit"/>
-        <updated>2022-04-29T18:23:00.000Z</updated>
-        <summary type="html"><![CDATA[This is alpha software, but it seems pretty low risk to give it a try.
-Wireit works with npm run, it doesn’t replace it. To configure an NPM script for Wireit, move the command into a new wireit section of your package.json, and replace the original script with the wireit command.
-Now when you run npm run build, Wireit upgrades the script to be smarter and more efficient.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 223: Nick's big rewrite]]></title>
-        <id>changelog.com/6/1639</id>
-        <link href="https://changelog.com/jsparty/223"/>
-        <updated>2022-04-29T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nick rewrote our JS Danger game board app from Dojo to React for his talk at React Global Online Summit about componentizing application state with React and XState.
-On this episode Jerod, KBall, and Feross chat with Nick about the entire process and what he learned along the way. Oh, we also play an epic round of Pro Tip Time!
-Discuss on Changelog News
-Changelog++ members get a bonus 8 minutes at the end of this episode and zero ads. Join today!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.
-
-    
-Vercel – Vercel combines the best developer experience with an obsessive focus on end-user performance.  Our platform enables frontend teams to do their best work. Unlock a better frontend workflow today.
-
-    
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Featuring
-Jerod Santo – Twitter, GitHub
-Nick Nisi – Twitter, GitHub, Website
-Kevin Ball – Twitter, GitHub, LinkedIn, Website
-Feross Aboukhadijeh – Twitter, GitHub, Website
-Notes and Links
-Nick’s talk at React Global Online Summit
-Our Quiz Game repo on GitHub
-JS Party #191 on XState
-Don’t check in broken code
-Conventional Comments
-Everything Everywhere All at Once
-Elon Musk is buying Twitter. I’m buying JavaScript.
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bringing code navigation to communities]]></title>
-        <id>https://github.blog/?p=64639</id>
-        <link href="https://github.blog/2022-04-29-bringing-code-navigation-to-communities/"/>
-        <updated>2022-04-29T15:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to the efforts of the Elixir community, GitHub supports code navigation for Elixir repositories. Read how favorite language can add this support too!]]></summary>
-        <author>
-            <name>Patrick Thomson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let's talk about blockchains]]></title>
-        <id>changelog.com/news/q0Pe</id>
-        <link href="https://cmdli.dev/blog/blockchain/"/>
-        <updated>2022-04-29T13:59:00.000Z</updated>
-        <summary type="html"><![CDATA[This post by Chris de la Iglesia starts off very down on blockchains, but ends up not so down after all:
-We are entering a new world with a new focus on giving users control over their data, their identity, and their systems. We are building distributed filesystems, distributed identity, and yes, blockchains. I think oftentimes we end up seeing only the blockchain technology due to the headlines and the financial investment, but distributed systems as a whole are taking off in a big, big way.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>
