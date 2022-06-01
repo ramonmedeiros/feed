@@ -2,10 +2,78 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-31T12:21:16.128Z</updated>
+    <updated>2022-06-01T12:22:58.771Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Visualize contributions to any codebase that uses Git]]></title>
+        <id>changelog.com/news/4934</id>
+        <link href="https://www.preceden.com/git"/>
+        <updated>2022-05-31T20:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Simply run git log --full-history --date=short --pretty=format:"%ad,%an" > gitlog.csv and upload the resulting file. Here’s what changelog.com’s looks like (10+ commits only to keep it tight) 👇
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How a single Raspberry Pi made my home network faster]]></title>
+        <id>changelog.com/news/qMzN</id>
+        <link href="https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/"/>
+        <updated>2022-05-31T19:31:00.000Z</updated>
+        <summary type="html"><![CDATA[Spoiler alert: it’s a Pi-hole
+How does the Pi Hole work though? The Pi Hole answers your computer’s DNS queries and if it is a domain on the blacklist, it sends the request to the Pi Web server.  This Web server just serves up a blank page.  So instead of loading the ad from the real domain, the blank page from the Pi is downloaded, thus “blocking” the ad or metric.
+How effective is the setup, in practice?
+Statistically speaking our household is averaging 15% of queries blocked and a spike over a bad weather weekend of 30% blocked. It is scary and incredible to think the number of ads and metrics forced upon us, and this number continues to increase. I am delighted with the Pi Hole project and am recommending it to all.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 179: 🤗 The AI community building the future]]></title>
+        <id>changelog.com/7/1664</id>
+        <link href="https://changelog.com/practicalai/179"/>
+        <updated>2022-05-31T18:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face is increasingly becomes the “hub” of AI innovation. In this episode, Merve Noyan joins us to dive into this hub in more detail. We discuss automation around model cards, reproducibility, and the new community features. If you are wanting to engage with the wider AI community, this is the show for you!
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Merve Noyan – Twitter, GitHub
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+The Hugging Face hub
+New Hugging Face community features
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Enterprise Server 3.5 is now generally available]]></title>
+        <id>https://github.blog/?p=65243</id>
+        <link href="https://github.blog/2022-05-31-github-enterprise-server-3-5-is-now-generally-available/"/>
+        <updated>2022-05-31T16:36:05.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Enterprise Server 3.5 is available now, including access to the Container registry, the addition of Dependabot, enhanced administrator capabilities, and features for GitHub Advanced Security.]]></summary>
+        <author>
+            <name>Melody Mileski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragonfly – a cost-effective, high-performing, and easy-to-use Redis replacement]]></title>
+        <id>changelog.com/news/V1oZ</id>
+        <link href="https://github.com/dragonflydb/dragonfly"/>
+        <updated>2022-05-31T13:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Dragonfly is a modern in-memory datastore, fully compatible with Redis and Memcached APIs. Dragonfly implements novel algorithms and data structures on top of a multi-threaded, shared-nothing architecture. As a result, Dragonfly reaches x25 performance compared to Redis and supports millions of QPS on a single instance.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Top games + source code from Gamedev.js Jam 2022]]></title>
         <id>https://github.blog/?p=65250</id>
@@ -1898,90 +1966,6 @@ Stick around for the rebuttals section, too.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[now on HTTP/3]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19074</id>
-        <link href="https://daniel.haxx.se/blog/2022/05/02/now-on-http-3/"/>
-        <updated>2022-05-02T21:41:19.000Z</updated>
-        <summary type="html"><![CDATA[The first mention of QUIC on this blog was back when I posted about the HTTP workshop of July 2015. Today, this blog is readable over the protocol QUIC subsequently would turn into. (Strictly speaking, it turned into QUIC + HTTP/3 but let’s not be too literal now.) The other day Fastly announced that all … Continue reading now on HTTP/3 →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we build a fully regional cloud architecture on AWS]]></title>
-        <id>changelog.com/news/Gb5W</id>
-        <link href="https://apptrail.com/blog/2022/03/09/regional-cloud-architecture"/>
-        <updated>2022-05-02T17:21:00.000Z</updated>
-        <summary type="html"><![CDATA[As it gets easier and easier to deploy to the cloud, and with increased concern about data sovereignty, regional architectures are becoming more common. This article gives you an overview of how we easily maintain our regional services on AWS at Apptrail.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Samrose</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI's DALL-E 2 implemented in Pytorch]]></title>
-        <id>changelog.com/news/53lr</id>
-        <link href="https://github.com/lucidrains/DALLE2-pytorch"/>
-        <updated>2022-05-02T16:33:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenAI’s new SOTA text-to-image neural network is producing some “insane results”. The linked repo is an open source implementation of the same technique.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Being friendly: Strategies for friendly fork management]]></title>
-        <id>https://github.blog/?p=64670</id>
-        <link href="https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/"/>
-        <updated>2022-05-02T16:26:29.000Z</updated>
-        <summary type="html"><![CDATA[This is the second and final post in a series describing friendly forks and alternative strategies for managing them.]]></summary>
-        <author>
-            <name>Lessley Dennington</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing the Results of the 12-month DIB-VDP Pilot]]></title>
-        <id>https://hackerone.com/vulnerability-disclosure/announcing-results-12-month-dib-vdp-pilot</id>
-        <link href="https://www.hackerone.com/vulnerability-disclosure/announcing-results-12-month-dib-vdp-pilot"/>
-        <updated>2022-05-02T16:00:00.000Z</updated>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Semantic Versioning for TypeScript Types]]></title>
-        <id>changelog.com/news/pkAg</id>
-        <link href="https://www.semver-ts.org"/>
-        <updated>2022-05-02T15:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Since TypeScript doesn’t follow SemVer itself, TS libraries which do want to follow SemVer need both high-level guidance about how to do that and detailed analysis of the corner cases to watch out for as well as ways to mitigate breaking changes from TS.
-This doc is a (beta!) specification of SemVer for managing changes to TypeScript types, including when the TS compiler makes breaking changes in its type-checking and type emit across a “minor” release.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Chris Krycho</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data transfer in Manhattan using RocksDB]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb"/>
-        <updated>2022-05-02T12:23:30.300Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Considered “18+”]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19048</id>
-        <link href="https://daniel.haxx.se/blog/2022/05/02/considered-18/"/>
-        <updated>2022-05-02T09:07:39.000Z</updated>
-        <summary type="html"><![CDATA[Vodafone UK has taken it on themselves to make the world better by marking this website (daniel.haxx.se) “adult content”. I suppose in order to protect the children. It was first reported to me on May 2, with this screenshot from a Vodafone customer: And later followed up with some more details from another user in … Continue reading Considered “18+” →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>

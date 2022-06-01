@@ -55,6 +55,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/4934",
+          "author": "Jerod Santo",
+          "description": "Simply run git log --full-history --date=short --pretty=format:\"%ad,%an\" > gitlog.csv and upload the resulting file. Here’s what changelog.com’s looks like (10+ commits only to keep it tight) 👇\n\nDiscuss on Changelog News",
+          "link": "https://www.preceden.com/git",
+          "publishedOn": "2022-05-31T20:19:00.000Z",
+          "wordCount": null,
+          "title": "Visualize contributions to any codebase that uses Git",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/qMzN",
+          "author": "Jerod Santo",
+          "description": "Spoiler alert: it’s a Pi-hole\nHow does the Pi Hole work though? The Pi Hole answers your computer’s DNS queries and if it is a domain on the blacklist, it sends the request to the Pi Web server.  This Web server just serves up a blank page.  So instead of loading the ad from the real domain, the blank page from the Pi is downloaded, thus “blocking” the ad or metric.\nHow effective is the setup, in practice?\nStatistically speaking our household is averaging 15% of queries blocked and a spike over a bad weather weekend of 30% blocked. It is scary and incredible to think the number of ads and metrics forced upon us, and this number continues to increase. I am delighted with the Pi Hole project and am recommending it to all.\nDiscuss on Changelog News",
+          "link": "https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/",
+          "publishedOn": "2022-05-31T19:31:00.000Z",
+          "wordCount": null,
+          "title": "How a single Raspberry Pi made my home network faster",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1664",
+          "author": null,
+          "description": "Hugging Face is increasingly becomes the “hub” of AI innovation. In this episode, Merve Noyan joins us to dive into this hub in more detail. We discuss automation around model cards, reproducibility, and the new community features. If you are wanting to engage with the wider AI community, this is the show for you!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMerve Noyan – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nThe Hugging Face hub\nNew Hugging Face community features\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/179",
+          "publishedOn": "2022-05-31T18:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 179: 🤗 The AI community building the future",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/179/practical-ai-179.mp3",
+            "length": "45591866",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/V1oZ",
+          "author": "Jerod Santo",
+          "description": "Dragonfly is a modern in-memory datastore, fully compatible with Redis and Memcached APIs. Dragonfly implements novel algorithms and data structures on top of a multi-threaded, shared-nothing architecture. As a result, Dragonfly reaches x25 performance compared to Redis and supports millions of QPS on a single instance.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/dragonflydb/dragonfly",
+          "publishedOn": "2022-05-31T13:54:00.000Z",
+          "wordCount": null,
+          "title": "Dragonfly – a cost-effective, high-performing, and easy-to-use Redis replacement",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/QpwQ",
           "author": "Jerod Santo",
           "description": "Here we will collect information about awesome useful and awesome experimental tools that simplify working with databases for DBA, DevOps, Developers and mere mortals.\nFeel free to add information about your own db-tools or your favorite third-party db-tools.\nDiscuss on Changelog News",
@@ -938,36 +983,6 @@
           "wordCount": null,
           "title": "You don't need a UI framework",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Gb5W",
-          "author": "Samrose",
-          "description": "As it gets easier and easier to deploy to the cloud, and with increased concern about data sovereignty, regional architectures are becoming more common. This article gives you an overview of how we easily maintain our regional services on AWS at Apptrail.\nDiscuss on Changelog News",
-          "link": "https://apptrail.com/blog/2022/03/09/regional-cloud-architecture",
-          "publishedOn": "2022-05-02T17:21:00.000Z",
-          "wordCount": null,
-          "title": "How we build a fully regional cloud architecture on AWS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/53lr",
-          "author": "Jerod Santo",
-          "description": "OpenAI’s new SOTA text-to-image neural network is producing some “insane results”. The linked repo is an open source implementation of the same technique.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/lucidrains/DALLE2-pytorch",
-          "publishedOn": "2022-05-02T16:33:00.000Z",
-          "wordCount": null,
-          "title": "OpenAI's DALL-E 2 implemented in Pytorch",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/pkAg",
-          "author": "Chris Krycho",
-          "description": "Since TypeScript doesn’t follow SemVer itself, TS libraries which do want to follow SemVer need both high-level guidance about how to do that and detailed analysis of the corner cases to watch out for as well as ways to mitigate breaking changes from TS.\nThis doc is a (beta!) specification of SemVer for managing changes to TypeScript types, including when the TS compiler makes breaking changes in its type-checking and type emit across a “minor” release.\nDiscuss on Changelog News",
-          "link": "https://www.semver-ts.org",
-          "publishedOn": "2022-05-02T15:43:00.000Z",
-          "wordCount": null,
-          "title": "Semantic Versioning for TypeScript Types",
-          "itunes": {}
         }
       ]
     },
@@ -1124,24 +1139,6 @@
           "publishedOn": "2022-05-05T14:00:23.000Z",
           "wordCount": 1097,
           "title": "Meeting the Cyber Safety Review Board"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19074",
-          "author": "Daniel Stenberg",
-          "description": "The first mention of QUIC on this blog was back when I posted about the HTTP workshop of July 2015. Today, this blog is readable over the protocol QUIC subsequently would turn into. (Strictly speaking, it turned into QUIC + HTTP/3 but let’s not be too literal now.) The other day Fastly announced that all … Continue reading now on HTTP/3 →",
-          "link": "https://daniel.haxx.se/blog/2022/05/02/now-on-http-3/",
-          "publishedOn": "2022-05-02T21:41:19.000Z",
-          "wordCount": 374,
-          "title": "now on HTTP/3"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19048",
-          "author": "Daniel Stenberg",
-          "description": "Vodafone UK has taken it on themselves to make the world better by marking this website (daniel.haxx.se) “adult content”. I suppose in order to protect the children. It was first reported to me on May 2, with this screenshot from a Vodafone customer: And later followed up with some more details from another user in … Continue reading Considered “18+” →",
-          "link": "https://daniel.haxx.se/blog/2022/05/02/considered-18/",
-          "publishedOn": "2022-05-02T09:07:39.000Z",
-          "wordCount": 592,
-          "title": "Considered “18+”"
         }
       ]
     },
@@ -1239,15 +1236,6 @@
           "publishedOn": "2022-05-04T12:20:59.498Z",
           "wordCount": 1326,
           "title": "Understanding Twitter conversations: A Wordle case study"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "author": null,
-          "description": "In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "publishedOn": "2022-05-02T12:23:30.300Z",
-          "wordCount": 1603,
-          "title": "Data transfer in Manhattan using RocksDB"
         }
       ]
     },
@@ -1288,6 +1276,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65243",
+          "author": "Melody Mileski",
+          "description": "GitHub Enterprise Server 3.5 is available now, including access to the Container registry, the addition of Dependabot, enhanced administrator capabilities, and features for GitHub Advanced Security.",
+          "link": "https://github.blog/2022-05-31-github-enterprise-server-3-5-is-now-generally-available/",
+          "publishedOn": "2022-05-31T16:36:05.000Z",
+          "wordCount": 1504,
+          "title": "GitHub Enterprise Server 3.5 is now generally available"
+        },
         {
           "id": "https://github.blog/?p=65250",
           "author": "Andrzej Mazur",
@@ -1503,15 +1500,6 @@
           "publishedOn": "2022-05-04T15:04:37.000Z",
           "wordCount": 1362,
           "title": "Software security starts with the developer: Securing developer accounts with 2FA"
-        },
-        {
-          "id": "https://github.blog/?p=64670",
-          "author": "Lessley Dennington",
-          "description": "This is the second and final post in a series describing friendly forks and alternative strategies for managing them.",
-          "link": "https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/",
-          "publishedOn": "2022-05-02T16:26:29.000Z",
-          "wordCount": 2382,
-          "title": "Being friendly: Strategies for friendly fork management"
         }
       ]
     },
@@ -1625,15 +1613,6 @@
           "publishedOn": "2022-05-03T18:59:59.000Z",
           "wordCount": 1044,
           "title": "Why HackerOne Acquired Pull Request and What It Means to Our Customers"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-disclosure/announcing-results-12-month-dib-vdp-pilot",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/vulnerability-disclosure/announcing-results-12-month-dib-vdp-pilot",
-          "publishedOn": "2022-05-02T16:00:00.000Z",
-          "wordCount": 632,
-          "title": "Announcing the Results of the 12-month DIB-VDP Pilot"
         }
       ]
     },
