@@ -2,10 +2,202 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-01T12:22:58.771Z</updated>
+    <updated>2022-06-03T12:18:46.250Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Data transfer in Manhattan using RocksDB]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb"/>
+        <updated>2022-06-03T12:18:28.916Z</updated>
+        <summary type="html"><![CDATA[In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The problem with Elixir’s `with`]]></title>
+        <id>changelog.com/news/6rjg</id>
+        <link href="http://stratus3d.com/blog/2022/06/01/the-problem-with-elixirs-with/"/>
+        <updated>2022-06-02T19:13:00.000Z</updated>
+        <summary type="html"><![CDATA[A reasoned critique of the often lauded with keyword that can be summarized as:
+Return values from different expressions in a with block can only be distinguished by the shape of the data returned. This creates ambiguity in with’s else clauses that make code harder to understand and more challenging to modify correctly.
+The author describes the problem in detail and even provides two alternatives to with..else that avoid the resulting ambiguity.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 232: The myth of incremental progress]]></title>
+        <id>changelog.com/2/1661</id>
+        <link href="https://changelog.com/gotime/232"/>
+        <updated>2022-06-02T18:20:00.000Z</updated>
+        <summary type="html"><![CDATA[During a conversation in the #gotime channel of Gopher Slack, Jerod mentioned that some people paint with a blank canvas while others paint by numbers. In this 8th episode of the maintenance series, we’re talking about maintaining our knowledge. With Jerod’s analogy and a little help from a Leslie Lamport interview, our panel discusses the myth of incremental progress.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Chronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them mov…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s new in security and user management for GitHub Enterprise]]></title>
+        <id>https://github.blog/?p=65400</id>
+        <link href="https://github.blog/2022-06-02-whats-new-in-security-and-user-management-for-github-enterprise/"/>
+        <updated>2022-06-02T16:52:14.000Z</updated>
+        <summary type="html"><![CDATA[Learn how you can securely manage users with the latest ships for GitHub Enterprise.]]></summary>
+        <author>
+            <name>Rizel Scarlett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Critical Infrastructure Can be Protected from Threats]]></title>
+        <id>https://hackerone.com/vulnerability-management/how-critical-infrastructure-can-be-protected-threats</id>
+        <link href="https://www.hackerone.com/vulnerability-management/how-critical-infrastructure-can-be-protected-threats"/>
+        <updated>2022-06-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Accessing a major critical infrastructure network is very appealing to cybercriminals, as they can maximize societal impact and demand large ransom sums to fix tampered systems. With recent high-profile attacks, including that against the Colonial Pipeline in March 2021, it has become clear that the organizations handling critical infrastructure networks are now in the firing line. Critical infrastructure is vulnerable to both threat groups that are evolving their tactics and public scrutiny if they do not remain transparent when an attack occurs.]]></summary>
+        <author>
+            <name>Christopher Dickens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Who needs modern Emacs?]]></title>
+        <id>changelog.com/news/04wk</id>
+        <link href="https://batsov.com/articles/2022/06/01/who-needs-modern-emacs/"/>
+        <updated>2022-06-02T15:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Bozhidar Batsov:
+Every now and again I come across some discussion on making Emacs “modern”.1 The argument always go more or less like this - Emacs doesn’t look and behave like  and the world will end if we don’t copy something “crucial” from it…
+If you ask me - there’s pretty much nothing we can do that would suddenly make Emacs as popular as VS Code. But you know what - that’s perfectly fine. After all there are plenty of “modern” editors that are even less popular than Emacs, so clearly being “modern” doesn’t make you popular. And there’s also our “arch-nemesis” vim, that’s supposedly as “dated” as Emacs, but is extremely popular.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 55: Optimising sociotechnical systems]]></title>
+        <id>changelog.com/14/1655</id>
+        <link href="https://changelog.com/shipit/55"/>
+        <updated>2022-06-02T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are talking how to optimise sociotechnical systems with Ben Ford, founder & CEO of Mission Control. The correct order is: people, process & technology. The tools are important, and we talk about specific ones in the second half of this episode, but there are rules and principles that govern how people interact, and we need to start there.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/cod…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The only Linux command you need to know]]></title>
+        <id>changelog.com/news/pj03</id>
+        <link href="https://opensource.com/article/22/6/linux-cheat-command"/>
+        <updated>2022-06-02T14:36:01.000Z</updated>
+        <summary type="html"><![CDATA[Cheeky title, but they’re talking about cheat, which is different than man and info in that it’s entirely example based and community maintained.
+The cheat system cuts to the chase. You don’t have to piece together clues about how to use a command. You just follow the examples. Of course, for complex commands, it’s not a shortcut for a thorough study of the actual documentation, but for quick reference, it’s as fast as it gets.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ethical Hackers Help Beiersdorf Minimize Risk and Protect Their Attack Surface]]></title>
+        <id>https://hackerone.com/customer-stories/ethical-hackers-help-beiersdorf-minimize-risk-and-protect-their-attack-surface</id>
+        <link href="https://www.hackerone.com/customer-stories/ethical-hackers-help-beiersdorf-minimize-risk-and-protect-their-attack-surface"/>
+        <updated>2022-06-02T11:45:00.000Z</updated>
+        <summary type="html"><![CDATA[After a year of running a private Vulnerability Disclosure Program (VDP), Beiersdorf is announcing the launch of its public VDP. HackerOne met with Kai Widua, Chief Information Security Officer (CISO) at Beiersdorf, to learn about the challenges they face in retail security.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 questions from a CTO to a CEO]]></title>
+        <id>https://building.nubank.com.br/?p=18459</id>
+        <link href="https://building.nubank.com.br/cto-matt-swann-interviews-ceo-david-velez-engineering-principles/"/>
+        <updated>2022-06-01T22:02:04.000Z</updated>
+        <summary type="html"><![CDATA[Nubank's Chief of Technology Officer Matt Swann invited Nubank's CEO David Vélez for a conversation to share some thoughts about the importance of tech professionals roles.
+The post 6 questions from a CTO to a CEO appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Nubank Editorial</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Team or Free? How to choose the right plan]]></title>
+        <id>https://github.blog/?p=65380</id>
+        <link href="https://github.blog/2022-06-01-github-team-or-free-how-to-choose-the-right-plan/"/>
+        <updated>2022-06-01T21:09:27.000Z</updated>
+        <summary type="html"><![CDATA[Read about all the features you may not have known come on the GitHub Free plan, and how to choose the right plan for you.]]></summary>
+        <author>
+            <name>Kelsey Bernius</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Maintainer Month! 🎉]]></title>
+        <id>https://github.blog/?p=65390</id>
+        <link href="https://github.blog/2022-06-01-welcome-to-maintainer-month/"/>
+        <updated>2022-06-01T19:10:48.000Z</updated>
+        <summary type="html"><![CDATA[During the month of June, we’re holding space for open source maintainers to gather, share, and be celebrated.]]></summary>
+        <author>
+            <name>Kara Sowles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: May 2022]]></title>
+        <id>https://github.blog/?p=65340</id>
+        <link href="https://github.blog/2022-06-01-github-availability-report-may-2022/"/>
+        <updated>2022-06-01T18:55:09.000Z</updated>
+        <summary type="html"><![CDATA[In May, we experienced three distinct incidents resulting in significant impact to multiple services across GitHub.com. This report also sheds light into the billing incident that impacted Actions and Codespaces users in April.]]></summary>
+        <author>
+            <name>Jakub Oleksy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Connecting to a private network from GitHub-hosted Actions runners]]></title>
+        <id>https://github.blog/?p=65333</id>
+        <link href="https://github.blog/2022-06-01-connecting-to-a-private-network-from-github-hosted-actions-runners/"/>
+        <updated>2022-06-01T16:28:58.000Z</updated>
+        <summary type="html"><![CDATA[Several ways for GitHub-hosted Actions runners to connect to resources on your private network.]]></summary>
+        <author>
+            <name>Zachary Steindler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An open source alternative to AWS Aurora]]></title>
+        <id>changelog.com/news/bJGe</id>
+        <link href="https://github.com/neondatabase/neon"/>
+        <updated>2022-06-01T14:57:00.000Z</updated>
+        <summary type="html"><![CDATA[When we had Paul Copplestone from Supabase on The Changelog I asked him what a cloud native Postgres would look like. He replied,
+Decoupled compute and storage. So the idea is that you should be able to attach the compute part of it to a storage, hopefully like an infinite storage; you know, anything that is infinitely scalable. If you can do this, and in particular, if the compute can start up very fast, maybe in, say, a hundred milliseconds via some sort of HTTP response, then that’s cloud native, yeah.
+Enter Neon, which sells itself as:
+The multi-cloud fully managed Postgres with a generous free tier. We separated storage and compute to offer autoscaling, branching, and bottomless storage.
+Behind this new business from MemSQL co-founder Nikita Shamgunov is the linked (Apache-licensed) server written in Rust.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Sponsors launches in Brazil]]></title>
+        <id>https://github.blog/?p=65346</id>
+        <link href="https://github.blog/2022-06-01-github-sponsors-launches-in-brazil/"/>
+        <updated>2022-06-01T13:00:43.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Sponsors is now available in Brazil—an exciting expansion for one of our fastest growing developer communities.]]></summary>
+        <author>
+            <name>Jessica Lord</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[openpilot 0.8.14]]></title>
+        <id>https://blog.comma.ai/0814release/</id>
+        <link href="https://blog.comma.ai/0814release/"/>
+        <updated>2022-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Big Model]]></summary>
+        <author>
+            <name>comma.ai blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Visualize contributions to any codebase that uses Git]]></title>
         <id>changelog.com/news/4934</id>
@@ -1763,209 +1955,6 @@ WorkOS – A platform that gives developers a set of building blocks for quickl
         <summary type="html"><![CDATA[Three Open Source hackers were invited to this meeting with the CSRB and I was one of them. The board with this name is part of CISA, a US government effort that received a presidential order to work on “Improving the Nation’s Cybersecurity“. Where “the Nation” here is the US. I’m not in the US … Continue reading Meeting the Cyber Safety Review Board →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: April 2022]]></title>
-        <id>https://github.blog/?p=64750</id>
-        <link href="https://github.blog/2022-05-04-github-availability-report-april-2022/"/>
-        <updated>2022-05-04T22:01:17.000Z</updated>
-        <summary type="html"><![CDATA[In April, we experienced two distinct incidents resulting in significant impact and degraded state of availability for Codespaces and GitHub Packages.]]></summary>
-        <author>
-            <name>Jakub Oleksy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A collection of handy bash one-liners]]></title>
-        <id>changelog.com/news/P5Qr</id>
-        <link href="https://github.com/onceupon/Bash-Oneliner"/>
-        <updated>2022-05-04T17:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Bonnie I-Man Ng:
-I was working on bioinformatics a few years ago and was amazed by those single-word bash commands which are much faster than my dull scripts, time saved through learning command-line shortcuts and scripting.
-Recent years I am working on cloud computing and I keep recording those useful commands here. Not all of them is oneliner, but I put effort on making them brief and swift. I am mainly using Ubuntu, Amazon Linux, RedHat, Linux Mint, Mac and CentOS, sorry if the commands don’t work on your system.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 51: From Kubernetes to PaaS - now what?]]></title>
-        <id>changelog.com/14/1629</id>
-        <link href="https://changelog.com/shipit/51"/>
-        <updated>2022-05-04T15:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we talk to Mark Ericksen about all the things that we could be doing on the new platform - this is a follow-up to episode 50.
-Mark specialises in Elixir, he hosts the Thinking Elixir podcast, and he also helps make Fly.io the best place to run Phoenix apps, such as changelog.com. In the interest of holding our new platform right, we thought that it would be a great idea to talk to someone that does this all day, every day, for many years now.
-We touch up on how to run database migrations safely, and how to upgrade our application config to the latest Phoenix version. We also talked about some of the more advanced platform features that we may want to start leveraging, like the multi-region PostgreSQL.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode becaus…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Software security starts with the developer: Securing developer accounts with 2FA]]></title>
-        <id>https://github.blog/?p=64715</id>
-        <link href="https://github.blog/2022-05-04-software-security-starts-with-the-developer-securing-developer-accounts-with-2fa/"/>
-        <updated>2022-05-04T15:04:37.000Z</updated>
-        <summary type="html"><![CDATA[GitHub will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023.]]></summary>
-        <author>
-            <name>Mike Hanley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Party like it's 1995! Microsoft 3D Movie Maker is open source]]></title>
-        <id>changelog.com/news/3Yp6</id>
-        <link href="https://github.com/microsoft/Microsoft-3D-Movie-Maker"/>
-        <updated>2022-05-04T14:40:00.000Z</updated>
-        <summary type="html"><![CDATA[The coolest thing about this story is that the entire endeavor was apparently prompted by a random developer tweet! If you’ve ever wondered what all goes in to opening the source of historic software products like this one:
-This code was restored from the Microsoft corporate archives and cleared for release.
-Developer names and aliases were removed, with the exception of current employees who worked on the original release who consented to keeping their names in place
-The archive consisted of several CDs, some of which were for alternate builds or products, and have been excluded
-The code does not build with today’s engineering tools, and is released as-is.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A guide for your daily "professional" interactions]]></title>
-        <id>changelog.com/news/7368</id>
-        <link href="https://howtoprofessionallysay.akashrajpurohit.com/"/>
-        <updated>2022-05-04T13:53:00.000Z</updated>
-        <summary type="html"><![CDATA[An in-progress list of things you might feel like saying attached to things you should probably say instead. For instance, you’re thinking, “Do your job!” But it’s probably more beneficial to say:
-It is my understanding that you are the appropriate person to contact in regards to this. But If there’s is someone better equipped for this let me know.
-You can also flip the list to translate what you are being told by someone from what they actually mean.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charts to watch #4]]></title>
-        <id>https://marketradar.substack.com/p/charts-to-watch-4</id>
-        <link href="https://marketradar.substack.com/p/charts-to-watch-4"/>
-        <updated>2022-05-04T13:00:40.000Z</updated>
-        <summary type="html"><![CDATA[A mix of charts on stocks and indices]]></summary>
-        <author>
-            <name>Market Radar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advancing Jupyter Notebooks at Twitter - Part 1]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d"/>
-        <updated>2022-05-04T12:20:59.542Z</updated>
-        <summary type="html"><![CDATA[Twitter Notebook is Twitter’s internal notebook solution. It provides a first-class development environment to Data Scientist and Machine Learning practitioners at Twitter. This blog shares features o]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Twitter conversations: A Wordle case study]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study"/>
-        <updated>2022-05-04T12:20:59.498Z</updated>
-        <summary type="html"><![CDATA[On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launching the comma body]]></title>
-        <id>https://blog.comma.ai/commabody/</id>
-        <link href="https://blog.comma.ai/commabody/"/>
-        <updated>2022-05-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At comma, our mission is:]]></summary>
-        <author>
-            <name>comma.ai blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Ruby has symbols]]></title>
-        <id>changelog.com/news/JL2r</id>
-        <link href="https://dmitrytsepelev.dev/why-has-ruby-symbols"/>
-        <updated>2022-05-03T21:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Most Ruby engineers know the difference between symbols and strings from a usage perspective. So, in this article I look at them from a different angle.
-You’ll learn about a cool compiler optimization called “string interning”, which is used in many languages. Also, you will understand what happens when (almost any) interpreter runs your code, take a look at the AST and take a peak at the symbols interpretation at the low level.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Dmitry Tsepelev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preventing burnout: a manager's toolkit]]></title>
-        <id>changelog.com/news/DzRr</id>
-        <link href="https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/"/>
-        <updated>2022-05-03T20:43:00.000Z</updated>
-        <summary type="html"><![CDATA[GitLab’s Sid Sijbrandij shares 12 strategies managers can use to support their team and prevent burnout. One of his standout strategies that I doubt rarely gets put into use is reduce the number of hours worked by agreeing to reduce effort
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why HackerOne Acquired Pull Request and What It Means to Our Customers]]></title>
-        <id>https://hackerone.com/company-news/why-hackerone-acquired-pull-request-and-what-it-means-our-customers</id>
-        <link href="https://www.hackerone.com/company-news/why-hackerone-acquired-pull-request-and-what-it-means-our-customers"/>
-        <updated>2022-05-03T18:59:59.000Z</updated>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 177: Learning the language of life]]></title>
-        <id>changelog.com/7/1642</id>
-        <link href="https://changelog.com/practicalai/177"/>
-        <updated>2022-05-03T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[AI is discovering new drugs. Sound like science fiction? Not at Absci! Sean and Joshua join us to discuss their AI-driven pipeline for drug discovery. We discuss the tech along with how it might change how we think about healthcare at the most fundamental level.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!
-
-    
-Featuring
-Sean McClain – Twitter, LinkedIn
-Joshua Meier – Twitter, GitHub, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-View Absci’s AI Lead Scientist Joshua Meier’s presentation at NVIDIA GTC 2022
-Learn more about Absci’s machine learning breakthroughs presented at GTC
-Learn more about Absci AI Research (AAIR) Lab
-View career opportunities at Absci
-Absci AI drug discovery technology
-Watch the Truist AI Symposium Podcast to get help demystifying the use of AI in drug discovery
-Absci website
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An end-to-end machine learning solution for Postgres]]></title>
-        <id>changelog.com/news/gdDl</id>
-        <link href="https://postgresml.org/"/>
-        <updated>2022-05-03T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Train and deploy industry-standard or completely custom machine learning models, directly powered by your business data, into your production stack, with an open source Postgres extension.
-Is there anything Postgres can’t do?! 😉
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You don't need a UI framework]]></title>
-        <id>changelog.com/news/wknG</id>
-        <link href="https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/"/>
-        <updated>2022-05-03T14:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Josh Comeau writing for Smashing Mag:
-Developers often reach for UI frameworks like Bootstrap or Material UI, hoping that they’ll save a bunch of time and quickly build a professional-looking app. Unfortunately, things rarely work out this way. Let’s talk about it.
-Stick around for the rebuttals section, too.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

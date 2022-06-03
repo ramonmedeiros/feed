@@ -55,6 +55,76 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/6rjg",
+          "author": "Jerod Santo",
+          "description": "A reasoned critique of the often lauded with keyword that can be summarized as:\nReturn values from different expressions in a with block can only be distinguished by the shape of the data returned. This creates ambiguity in with’s else clauses that make code harder to understand and more challenging to modify correctly.\nThe author describes the problem in detail and even provides two alternatives to with..else that avoid the resulting ambiguity.\nDiscuss on Changelog News",
+          "link": "http://stratus3d.com/blog/2022/06/01/the-problem-with-elixirs-with/",
+          "publishedOn": "2022-06-02T19:13:00.000Z",
+          "wordCount": null,
+          "title": "The problem with Elixir’s `with`",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1661",
+          "author": null,
+          "description": "During a conversation in the #gotime channel of Gopher Slack, Jerod mentioned that some people paint with a blank canvas while others paint by numbers. In this 8th episode of the maintenance series, we’re talking about maintaining our knowledge. With Jerod’s analogy and a little help from a Leslie Lamport interview, our panel discusses the myth of incremental progress.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them mov…",
+          "link": "https://changelog.com/gotime/232",
+          "publishedOn": "2022-06-02T18:20:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 232: The myth of incremental progress",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/232/go-time-232.mp3",
+            "length": "71166254",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/04wk",
+          "author": "Jerod Santo",
+          "description": "Bozhidar Batsov:\nEvery now and again I come across some discussion on making Emacs “modern”.1 The argument always go more or less like this - Emacs doesn’t look and behave like  and the world will end if we don’t copy something “crucial” from it…\nIf you ask me - there’s pretty much nothing we can do that would suddenly make Emacs as popular as VS Code. But you know what - that’s perfectly fine. After all there are plenty of “modern” editors that are even less popular than Emacs, so clearly being “modern” doesn’t make you popular. And there’s also our “arch-nemesis” vim, that’s supposedly as “dated” as Emacs, but is extremely popular.\nDiscuss on Changelog News",
+          "link": "https://batsov.com/articles/2022/06/01/who-needs-modern-emacs/",
+          "publishedOn": "2022-06-02T15:54:00.000Z",
+          "wordCount": null,
+          "title": "Who needs modern Emacs?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1655",
+          "author": null,
+          "description": "Today we are talking how to optimise sociotechnical systems with Ben Ford, founder & CEO of Mission Control. The correct order is: people, process & technology. The tools are important, and we talk about specific ones in the second half of this episode, but there are rules and principles that govern how people interact, and we need to start there.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/cod…",
+          "link": "https://changelog.com/shipit/55",
+          "publishedOn": "2022-06-02T15:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 55: Optimising sociotechnical systems",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/55/ship-it-55.mp3",
+            "length": "100148258",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/pj03",
+          "author": "Jerod Santo",
+          "description": "Cheeky title, but they’re talking about cheat, which is different than man and info in that it’s entirely example based and community maintained.\nThe cheat system cuts to the chase. You don’t have to piece together clues about how to use a command. You just follow the examples. Of course, for complex commands, it’s not a shortcut for a thorough study of the actual documentation, but for quick reference, it’s as fast as it gets.\nDiscuss on Changelog News",
+          "link": "https://opensource.com/article/22/6/linux-cheat-command",
+          "publishedOn": "2022-06-02T14:36:01.000Z",
+          "wordCount": null,
+          "title": "The only Linux command you need to know",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/bJGe",
+          "author": "Jerod Santo",
+          "description": "When we had Paul Copplestone from Supabase on The Changelog I asked him what a cloud native Postgres would look like. He replied,\nDecoupled compute and storage. So the idea is that you should be able to attach the compute part of it to a storage, hopefully like an infinite storage; you know, anything that is infinitely scalable. If you can do this, and in particular, if the compute can start up very fast, maybe in, say, a hundred milliseconds via some sort of HTTP response, then that’s cloud native, yeah.\nEnter Neon, which sells itself as:\nThe multi-cloud fully managed Postgres with a generous free tier. We separated storage and compute to offer autoscaling, branching, and bottomless storage.\nBehind this new business from MemSQL co-founder Nikita Shamgunov is the linked (Apache-licensed) server written in Rust.\nDiscuss on Changelog News",
+          "link": "https://github.com/neondatabase/neon",
+          "publishedOn": "2022-06-01T14:57:00.000Z",
+          "wordCount": null,
+          "title": "An open source alternative to AWS Aurora",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/4934",
           "author": "Jerod Santo",
           "description": "Simply run git log --full-history --date=short --pretty=format:\"%ad,%an\" > gitlog.csv and upload the resulting file. Here’s what changelog.com’s looks like (10+ commits only to keep it tight) 👇\n\nDiscuss on Changelog News",
@@ -883,106 +953,6 @@
             "length": "83886982",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/P5Qr",
-          "author": "Jerod Santo",
-          "description": "Bonnie I-Man Ng:\nI was working on bioinformatics a few years ago and was amazed by those single-word bash commands which are much faster than my dull scripts, time saved through learning command-line shortcuts and scripting.\nRecent years I am working on cloud computing and I keep recording those useful commands here. Not all of them is oneliner, but I put effort on making them brief and swift. I am mainly using Ubuntu, Amazon Linux, RedHat, Linux Mint, Mac and CentOS, sorry if the commands don’t work on your system.\nDiscuss on Changelog News",
-          "link": "https://github.com/onceupon/Bash-Oneliner",
-          "publishedOn": "2022-05-04T17:15:00.000Z",
-          "wordCount": null,
-          "title": "A collection of handy bash one-liners",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1629",
-          "author": null,
-          "description": "Today we talk to Mark Ericksen about all the things that we could be doing on the new platform - this is a follow-up to episode 50.\nMark specialises in Elixir, he hosts the Thinking Elixir podcast, and he also helps make Fly.io the best place to run Phoenix apps, such as changelog.com. In the interest of holding our new platform right, we thought that it would be a great idea to talk to someone that does this all day, every day, for many years now.\nWe touch up on how to run database migrations safely, and how to upgrade our application config to the latest Phoenix version. We also talked about some of the more advanced platform features that we may want to start leveraging, like the multi-region PostgreSQL.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode becaus…",
-          "link": "https://changelog.com/shipit/51",
-          "publishedOn": "2022-05-04T15:45:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 51: From Kubernetes to PaaS - now what?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/51/ship-it-51.mp3",
-            "length": "56565033",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/3Yp6",
-          "author": "Jerod Santo",
-          "description": "The coolest thing about this story is that the entire endeavor was apparently prompted by a random developer tweet! If you’ve ever wondered what all goes in to opening the source of historic software products like this one:\nThis code was restored from the Microsoft corporate archives and cleared for release.\nDeveloper names and aliases were removed, with the exception of current employees who worked on the original release who consented to keeping their names in place\nThe archive consisted of several CDs, some of which were for alternate builds or products, and have been excluded\nThe code does not build with today’s engineering tools, and is released as-is.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/microsoft/Microsoft-3D-Movie-Maker",
-          "publishedOn": "2022-05-04T14:40:00.000Z",
-          "wordCount": null,
-          "title": "Party like it's 1995! Microsoft 3D Movie Maker is open source",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/7368",
-          "author": "Jerod Santo",
-          "description": "An in-progress list of things you might feel like saying attached to things you should probably say instead. For instance, you’re thinking, “Do your job!” But it’s probably more beneficial to say:\nIt is my understanding that you are the appropriate person to contact in regards to this. But If there’s is someone better equipped for this let me know.\nYou can also flip the list to translate what you are being told by someone from what they actually mean.\nDiscuss on Changelog News",
-          "link": "https://howtoprofessionallysay.akashrajpurohit.com/",
-          "publishedOn": "2022-05-04T13:53:00.000Z",
-          "wordCount": null,
-          "title": "A guide for your daily \"professional\" interactions",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/JL2r",
-          "author": "Dmitry Tsepelev",
-          "description": "Most Ruby engineers know the difference between symbols and strings from a usage perspective. So, in this article I look at them from a different angle.\nYou’ll learn about a cool compiler optimization called “string interning”, which is used in many languages. Also, you will understand what happens when (almost any) interpreter runs your code, take a look at the AST and take a peak at the symbols interpretation at the low level.\nDiscuss on Changelog News",
-          "link": "https://dmitrytsepelev.dev/why-has-ruby-symbols",
-          "publishedOn": "2022-05-03T21:32:00.000Z",
-          "wordCount": null,
-          "title": "Why Ruby has symbols",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/DzRr",
-          "author": "Jerod Santo",
-          "description": "GitLab’s Sid Sijbrandij shares 12 strategies managers can use to support their team and prevent burnout. One of his standout strategies that I doubt rarely gets put into use is reduce the number of hours worked by agreeing to reduce effort\nDiscuss on Changelog News",
-          "link": "https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/",
-          "publishedOn": "2022-05-03T20:43:00.000Z",
-          "wordCount": null,
-          "title": "Preventing burnout: a manager's toolkit",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1642",
-          "author": null,
-          "description": "AI is discovering new drugs. Sound like science fiction? Not at Absci! Sean and Joshua join us to discuss their AI-driven pipeline for drug discovery. We discuss the tech along with how it might change how we think about healthcare at the most fundamental level.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors\nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!\n\n    \nFeaturing\nSean McClain – Twitter, LinkedIn\nJoshua Meier – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nView Absci’s AI Lead Scientist Joshua Meier’s presentation at NVIDIA GTC 2022\nLearn more about Absci’s machine learning breakthroughs presented at GTC\nLearn more about Absci AI Research (AAIR) Lab\nView career opportunities at Absci\nAbsci AI drug discovery technology\nWatch the Truist AI Symposium Podcast to get help demystifying the use of AI in drug discovery\nAbsci website\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/177",
-          "publishedOn": "2022-05-03T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 177: Learning the language of life",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/177/practical-ai-177.mp3",
-            "length": "46787692",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/gdDl",
-          "author": "Jerod Santo",
-          "description": "Train and deploy industry-standard or completely custom machine learning models, directly powered by your business data, into your production stack, with an open source Postgres extension.\nIs there anything Postgres can’t do?! 😉\nDiscuss on Changelog News",
-          "link": "https://postgresml.org/",
-          "publishedOn": "2022-05-03T15:00:00.000Z",
-          "wordCount": null,
-          "title": "An end-to-end machine learning solution for Postgres",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/wknG",
-          "author": "Jerod Santo",
-          "description": "Josh Comeau writing for Smashing Mag:\nDevelopers often reach for UI frameworks like Bootstrap or Material UI, hoping that they’ll save a bunch of time and quickly build a professional-looking app. Unfortunately, things rarely work out this way. Let’s talk about it.\nStick around for the rebuttals section, too.\nDiscuss on Changelog News",
-          "link": "https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/",
-          "publishedOn": "2022-05-03T14:14:00.000Z",
-          "wordCount": null,
-          "title": "You don't need a UI framework",
-          "itunes": {}
         }
       ]
     },
@@ -992,13 +962,13 @@
       "siteUrl": "https://blog.comma.ai/",
       "articles": [
         {
-          "id": "https://blog.comma.ai/commabody/",
+          "id": "https://blog.comma.ai/0814release/",
           "author": null,
-          "description": "At comma, our mission is:",
-          "link": "https://blog.comma.ai/commabody/",
-          "publishedOn": "2022-05-04T00:00:00.000Z",
-          "wordCount": 947,
-          "title": "Launching the comma body"
+          "description": "Big Model",
+          "link": "https://blog.comma.ai/0814release/",
+          "publishedOn": "2022-06-01T00:00:00.000Z",
+          "wordCount": 1943,
+          "title": "openpilot 0.8.14"
         }
       ]
     },
@@ -1148,6 +1118,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
+          "author": null,
+          "description": "In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
+          "publishedOn": "2022-06-03T12:18:28.916Z",
+          "wordCount": 1609,
+          "title": "Data transfer in Manhattan using RocksDB"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
           "author": null,
           "description": "In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.",
@@ -1218,24 +1197,6 @@
           "publishedOn": "2022-05-09T12:24:22.807Z",
           "wordCount": 984,
           "title": "Introducing a new Swift package for Apache Thrift"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d",
-          "author": null,
-          "description": "Twitter Notebook is Twitter’s internal notebook solution. It provides a first-class development environment to Data Scientist and Machine Learning practitioners at Twitter. This blog shares features o",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/advancing-jupyter-notebooks-at-twitter---part-1--a-first-class-d",
-          "publishedOn": "2022-05-04T12:20:59.542Z",
-          "wordCount": 2822,
-          "title": "Advancing Jupyter Notebooks at Twitter - Part 1"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "author": null,
-          "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "publishedOn": "2022-05-04T12:20:59.498Z",
-          "wordCount": 1326,
-          "title": "Understanding Twitter conversations: A Wordle case study"
         }
       ]
     },
@@ -1276,6 +1237,60 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65400",
+          "author": "Rizel Scarlett",
+          "description": "Learn how you can securely manage users with the latest ships for GitHub Enterprise.",
+          "link": "https://github.blog/2022-06-02-whats-new-in-security-and-user-management-for-github-enterprise/",
+          "publishedOn": "2022-06-02T16:52:14.000Z",
+          "wordCount": 923,
+          "title": "What’s new in security and user management for GitHub Enterprise"
+        },
+        {
+          "id": "https://github.blog/?p=65380",
+          "author": "Kelsey Bernius",
+          "description": "Read about all the features you may not have known come on the GitHub Free plan, and how to choose the right plan for you.",
+          "link": "https://github.blog/2022-06-01-github-team-or-free-how-to-choose-the-right-plan/",
+          "publishedOn": "2022-06-01T21:09:27.000Z",
+          "wordCount": 1059,
+          "title": "GitHub Team or Free? How to choose the right plan"
+        },
+        {
+          "id": "https://github.blog/?p=65390",
+          "author": "Kara Sowles",
+          "description": "During the month of June, we’re holding space for open source maintainers to gather, share, and be celebrated.",
+          "link": "https://github.blog/2022-06-01-welcome-to-maintainer-month/",
+          "publishedOn": "2022-06-01T19:10:48.000Z",
+          "wordCount": 690,
+          "title": "Welcome to Maintainer Month! 🎉"
+        },
+        {
+          "id": "https://github.blog/?p=65340",
+          "author": "Jakub Oleksy",
+          "description": "In May, we experienced three distinct incidents resulting in significant impact to multiple services across GitHub.com. This report also sheds light into the billing incident that impacted Actions and Codespaces users in April.",
+          "link": "https://github.blog/2022-06-01-github-availability-report-may-2022/",
+          "publishedOn": "2022-06-01T18:55:09.000Z",
+          "wordCount": 1066,
+          "title": "GitHub Availability Report: May 2022"
+        },
+        {
+          "id": "https://github.blog/?p=65333",
+          "author": "Zachary Steindler",
+          "description": "Several ways for GitHub-hosted Actions runners to connect to resources on your private network.",
+          "link": "https://github.blog/2022-06-01-connecting-to-a-private-network-from-github-hosted-actions-runners/",
+          "publishedOn": "2022-06-01T16:28:58.000Z",
+          "wordCount": 854,
+          "title": "Connecting to a private network from GitHub-hosted Actions runners"
+        },
+        {
+          "id": "https://github.blog/?p=65346",
+          "author": "Jessica Lord",
+          "description": "GitHub Sponsors is now available in Brazil—an exciting expansion for one of our fastest growing developer communities.",
+          "link": "https://github.blog/2022-06-01-github-sponsors-launches-in-brazil/",
+          "publishedOn": "2022-06-01T13:00:43.000Z",
+          "wordCount": 923,
+          "title": "GitHub Sponsors launches in Brazil"
+        },
         {
           "id": "https://github.blog/?p=65243",
           "author": "Melody Mileski",
@@ -1482,24 +1497,6 @@
           "publishedOn": "2022-05-05T17:00:25.000Z",
           "wordCount": 1638,
           "title": "The ReadME Project Q&A: What you need to know about teaching technical skills"
-        },
-        {
-          "id": "https://github.blog/?p=64750",
-          "author": "Jakub Oleksy",
-          "description": "In April, we experienced two distinct incidents resulting in significant impact and degraded state of availability for Codespaces and GitHub Packages.",
-          "link": "https://github.blog/2022-05-04-github-availability-report-april-2022/",
-          "publishedOn": "2022-05-04T22:01:17.000Z",
-          "wordCount": 960,
-          "title": "GitHub Availability Report: April 2022"
-        },
-        {
-          "id": "https://github.blog/?p=64715",
-          "author": "Mike Hanley",
-          "description": "GitHub will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023.",
-          "link": "https://github.blog/2022-05-04-software-security-starts-with-the-developer-securing-developer-accounts-with-2fa/",
-          "publishedOn": "2022-05-04T15:04:37.000Z",
-          "wordCount": 1362,
-          "title": "Software security starts with the developer: Securing developer accounts with 2FA"
         }
       ]
     },
@@ -1508,6 +1505,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18459",
+          "author": "Nubank Editorial",
+          "description": "Nubank's Chief of Technology Officer Matt Swann invited Nubank's CEO David Vélez for a conversation to share some thoughts about the importance of tech professionals roles.\nThe post 6 questions from a CTO to a CEO appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/cto-matt-swann-interviews-ceo-david-velez-engineering-principles/",
+          "publishedOn": "2022-06-01T22:02:04.000Z",
+          "wordCount": 3816,
+          "title": "6 questions from a CTO to a CEO"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18440",
           "author": "Ezequiel Siddig - Editor and Content Creator at Nubank",
@@ -1561,6 +1567,24 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/vulnerability-management/how-critical-infrastructure-can-be-protected-threats",
+          "author": "Christopher Dickens",
+          "description": "Accessing a major critical infrastructure network is very appealing to cybercriminals, as they can maximize societal impact and demand large ransom sums to fix tampered systems. With recent high-profile attacks, including that against the Colonial Pipeline in March 2021, it has become clear that the organizations handling critical infrastructure networks are now in the firing line. Critical infrastructure is vulnerable to both threat groups that are evolving their tactics and public scrutiny if they do not remain transparent when an attack occurs.",
+          "link": "https://www.hackerone.com/vulnerability-management/how-critical-infrastructure-can-be-protected-threats",
+          "publishedOn": "2022-06-02T16:00:00.000Z",
+          "wordCount": 1895,
+          "title": "How Critical Infrastructure Can be Protected from Threats"
+        },
+        {
+          "id": "https://hackerone.com/customer-stories/ethical-hackers-help-beiersdorf-minimize-risk-and-protect-their-attack-surface",
+          "author": "HackerOne",
+          "description": "After a year of running a private Vulnerability Disclosure Program (VDP), Beiersdorf is announcing the launch of its public VDP. HackerOne met with Kai Widua, Chief Information Security Officer (CISO) at Beiersdorf, to learn about the challenges they face in retail security.",
+          "link": "https://www.hackerone.com/customer-stories/ethical-hackers-help-beiersdorf-minimize-risk-and-protect-their-attack-surface",
+          "publishedOn": "2022-06-02T11:45:00.000Z",
+          "wordCount": 1378,
+          "title": "Ethical Hackers Help Beiersdorf Minimize Risk and Protect Their Attack Surface"
+        },
+        {
           "id": "https://hackerone.com/security-compliance/what-securitytxt-file-and-how-can-it-help-your-program",
           "author": "HackerOne",
           "description": "Security.txt is a security mechanism that allows your organization to provide its vulnerability disclosure policy and contact information in a standar",
@@ -1604,15 +1628,6 @@
           "publishedOn": "2022-05-10T16:00:00.000Z",
           "wordCount": 1791,
           "title": "What is Attack Resistance Management?"
-        },
-        {
-          "id": "https://hackerone.com/company-news/why-hackerone-acquired-pull-request-and-what-it-means-our-customers",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/company-news/why-hackerone-acquired-pull-request-and-what-it-means-our-customers",
-          "publishedOn": "2022-05-03T18:59:59.000Z",
-          "wordCount": 1044,
-          "title": "Why HackerOne Acquired Pull Request and What It Means to Our Customers"
         }
       ]
     },
@@ -1663,21 +1678,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc31f2aea-9bb5-4c49-bd42-5d9595bcc4be_1242x1069.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/charts-to-watch-4",
-          "author": "Market Radar",
-          "description": "A mix of charts on stocks and indices",
-          "link": "https://marketradar.substack.com/p/charts-to-watch-4",
-          "publishedOn": "2022-05-04T13:00:40.000Z",
-          "wordCount": null,
-          "title": "Charts to watch #4",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0eceaf1-e03f-41d9-b1d5-c20632d6db44_1532x743.png",
             "length": "0",
             "type": "image/jpeg"
           }
