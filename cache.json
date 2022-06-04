@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/06/announcing-winners-of-2021-gcp-vrp-prize.html",
+          "author": null,
+          "description": "Posted by Harshvardhan Sharma, Information Security Engineer, Google \n\n2021 was another record-breaking year for our Vulnerability Rewards Program (VRP). We paid a total of $8.7 million in rewards, our highest amount yet. 2021 saw some amazing work from the security research community. It is worth noting that a significant portion of the reports we received were for findings in Google Cloud Platform (GCP) products. It is heartening to see an increasing number of talented researchers getting involved in cloud security.\nWe first announced the GCP VRP Prize in 2019 to encourage security researchers to focus on the security of GCP, in turn helping us make GCP more secure for our users, customers, and the internet at large. Even 3 years into the program, the submissions we are getting never cea…",
+          "link": "http://security.googleblog.com/2022/06/announcing-winners-of-2021-gcp-vrp-prize.html",
+          "publishedOn": "2022-06-03T19:03:00.002Z",
+          "wordCount": 1081,
+          "title": "Announcing the winners of the 2021 GCP VRP Prize"
+        },
+        {
           "id": "http://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html",
           "author": null,
           "description": "Posted by Anton Bikineev, Michael Lippautz and Hannes Payer, Chrome security team\n\n\n\nMemory safety in Chrome is an ever-ongoing effort to protect our users. We are constantly experimenting with different technologies to stay ahead of malicious actors. In this spirit, this post is about our journey of using heap scanning technologies to improve memory safety of C++.\n\n\n\n\nLet’s start at the beginning though. Throughout the lifetime of an application its state is generally represented in memory. Temporal memory safety refers to the problem of guaranteeing that memory is always accessed with the most up to date information of its structure, its type. C++ unfortunately does not provide such guarantees. While there is appetite for different languages than C++ with stronger memory safety guarantee…",
@@ -54,6 +63,66 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/4/1669",
+          "author": null,
+          "description": "Adam was invited by our friends at Square to interview Jack Dorsey as part of their annual developer conference called Square Unboxed. Jack Dorsey is one of the most prolific CEOs out there — he’s a hacker turned CEO and is often working at the very edge of what’s to come (at scale). Jack is focused on what the future has to offer, he’s considered an innovator by many. He’s also a Bitcoin maximalist and has positioned himself and Block long on Bitcoin.\nWhat you’re about to hear is the fireside chat Adam had with Jack at Square Unboxed 2022. Jack and Adam discuss the vision Square has for the developer platform and why it’s so central to the company’s strategy.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSpons…",
+          "link": "https://changelog.com/founderstalk/91",
+          "publishedOn": "2022-06-03T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Founders Talk 91: Fireside chat with Jack Dorsey",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/founderstalk/91/founders-talk-91.mp3",
+            "length": "42293729",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1662",
+          "author": null,
+          "description": "Ali & Divya recorded seven (!) awesome conversations all about Remix and the web ecosystem live on-stage at the first-ever Remix Conf after-party!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nKent C. Dodds – Twitter, GitHub, Website\nHenri Helvetica – Twitter\nArisa Fukuzaki – Twitter, GitHub\nAnthony Frehner – Twitter, GitHub\nEmily Kauffman – Twitter, GitHub\nAaron Saunders – Twitter, GitHub, LinkedIn\nMichael Jackson – Twitter, GitHub, Website\nDivya – Twitter, GitHub, LinkedIn, Website\nAli Spittel – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nKent talks Remix on JS Party #215\nStoryblok\nShopify Hydrogen\nAaron’s YouTube channel\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/228",
+          "publishedOn": "2022-06-03T16:45:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 228: Live from Remix Conf!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/228/js-party-228.mp3",
+            "length": "76428941",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/mlbR",
+          "author": "Jerod Santo",
+          "description": "Connect’s creators call it a “better gRPC”, but I am in no position to evaluate that claim so I will leave it as an exercise for you. Here’s what they have to say about it:\nConnect is production-ready — focused, simple, and debuggable — and it’s fully compatible with gRPC clients and servers. If you’re frustrated by the complexity and instability of today’s gRPC libraries, we think you’ll find Connect a breath of fresh air.\nGo library out now. Connect for TypeScript is “coming soon”\nDiscuss on Changelog News",
+          "link": "https://buf.build/blog/connect-a-better-grpc",
+          "publishedOn": "2022-06-03T14:37:00.000Z",
+          "wordCount": null,
+          "title": "A slim library for building browser and gRPC-compatible HTTP APIs",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/w9Oz",
+          "author": "Jerod Santo",
+          "description": "Did you know VS Code has a proprietary license?\nMicrosoft’s vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under this not-FLOSS license and contains telemetry/tracking.\nThe VSCodium project exists so that you don’t have to download+build from source. This project includes special build scripts that clone Microsoft’s vscode repo, run the build commands, and upload the resulting binaries for you to GitHub releases. These binaries are licensed under the MIT license. Telemetry is disabled.\nThey also have various package managers covered, so you can brew install --cask vscodium, etc.\nDiscuss on Changelog News",
+          "link": "https://vscodium.com/",
+          "publishedOn": "2022-06-03T13:48:00.000Z",
+          "wordCount": null,
+          "title": "VSCodium – open source binaries of VS Code",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/dqA0",
+          "author": "Jerod Santo",
+          "description": "I entered Rust four years ago. To this moment, I co-authored teloxide and dptree, wrote several publications and translated a number of language release announcements. I also managed to write some production code in Rust, and had a chance to speak at one online meetup dedicated to Rust. Still, from time to time I find myself disputing with Rust’s borrow checker and type system for no practical reason. Yes, I am no longer stupefied by such errors as cannot return reference to temporary value – over time, I developed multiple heuristic strategies to cope with lifetimes…\nBut one recent situation has made me to fail ignominiously.\n\nDiscuss on Changelog News",
+          "link": "https://hirrolot.github.io/posts/rust-is-hard-or-the-misery-of-mainstream-programming.html",
+          "publishedOn": "2022-06-03T12:58:00.000Z",
+          "wordCount": null,
+          "title": "Rust is hard, or: the misery of mainstream programming",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/6rjg",
           "author": "Jerod Santo",
@@ -893,66 +962,6 @@
           "wordCount": null,
           "title": "How i fell in love with low-js",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1602",
-          "author": null,
-          "description": "Can Go help you write faster PHP apps? In this episode, we explore the unusual pairing of Go and PHP that led to the RoadRunner project, a high-performance PHP application server, load-balancer, and process manager that is all written in Go.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Move fast, even in big codebases. Sourcegraph is universal code search for every developer and team. Easily search across all the code that matters to you and your organization: find example code, explore and read code, debug issues, and more. Head to info.sourcegraph.com/changelog and click the button “Try Sourcegraph now” to get started.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.io\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nFlatfile – Data import is broken. We fixed it. Flatfile’s powerful out-of-the-box solution takes the data import burden off your shoulders, freeing you to solve bigger business problems and build products that people love.\n\n    \nFeaturing\nValery Piashchynski – Twitter, GitHub\nAnton Titov – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nRoadRunner website\nRoadRunner on GitHub\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/228",
-          "publishedOn": "2022-05-05T22:10:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 228: Go and PHP sitting in a tree...",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/228/go-time-228.mp3",
-            "length": "54436352",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/ykQe",
-          "author": "Jerod Santo",
-          "description": "Mike Hanley on GitHub’s blog:\nThe software supply chain starts with the developer. Developer accounts are frequent targets for social engineering and account takeover, and protecting developers from these types of attacks is the first and most critical step toward securing the supply chain…\nToday, as part of a platform-wide effort to secure the software ecosystem through improving account security, we’re announcing that GitHub will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023.\nThis is a big step in the right direction and their new(ish) 2FA for GitHub Mobile feature helps make the burden not as cumbersome as it might be otherwise.\nDiscuss on Changelog News",
-          "link": "https://github.blog/2022-05-04-software-security-starts-with-the-developer-securing-developer-accounts-with-2fa/",
-          "publishedOn": "2022-05-05T20:03:00.000Z",
-          "wordCount": null,
-          "title": "GitHub will require 2FA by the end of 2023",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zgnn",
-          "author": "Jerod Santo",
-          "description": "Some years back I applied to join IBM’s grad scheme, there was a peculiar stage to the process I’ve not seen elsewhere. It was during the onsite day, where a batch of 20 or so applicants were put through various tests in an IBM office. They called it the “group test”; around 8 of us were led to a room and asked to solve a puzzle together.\nYou can probably see where this story is headed… (see also)\nDiscuss on Changelog News",
-          "link": "https://johnpublic.mataroa.blog/blog/the-asshole-test/",
-          "publishedOn": "2022-05-05T16:43:00.000Z",
-          "wordCount": null,
-          "title": "IBM's jerk test",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/8Od6",
-          "author": "Jerod Santo",
-          "description": "Let’s say you’re on the go and you land on a particularly impressive website. You’d love to peak underneath the covers, but getting at the developer tools on a phone is a pain.\nInstead: bookmark this site, copy/paste the URL, and voilá! 💁‍♀️\nDiscuss on Changelog News",
-          "link": "https://neatnik.net/view-source/",
-          "publishedOn": "2022-05-05T15:56:00.000Z",
-          "wordCount": null,
-          "title": "A tool to quickly \"view source\" from your mobile phone",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/4/1645",
-          "author": null,
-          "description": "This week Peer Richelsen, Co-Founder and Co-CEO of Cal.com, joins the show to talk about building the “Stripe for Time” — with a grand mission to connect a billion people by 2031 through calendar scheduling. Cal has grown from an open-source side project to one of the fastest-growing commercial open source companies. We get into all the details — what it means to be an open source Calendly alternative, how they quantify connecting a Billion people by 2031, where there’s room for innovation in the scheduling space, and why being community first is part of their secret sauce.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nWorkOS – A platform that gives developers a set of building blocks for quickly addin…",
-          "link": "https://changelog.com/founderstalk/88",
-          "publishedOn": "2022-05-05T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Founders Talk 88: Making an open source Stripe for time",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/founderstalk/88/founders-talk-88.mp3",
-            "length": "83886982",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1100,15 +1109,6 @@
           "publishedOn": "2022-05-11T06:30:26.000Z",
           "wordCount": 756,
           "title": "curl 7.83.1 it burns"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18940",
-          "author": "Daniel Stenberg",
-          "description": "Three Open Source hackers were invited to this meeting with the CSRB and I was one of them. The board with this name is part of CISA, a US government effort that received a presidential order to work on “Improving the Nation’s Cybersecurity“. Where “the Nation” here is the US. I’m not in the US … Continue reading Meeting the Cyber Safety Review Board →",
-          "link": "https://daniel.haxx.se/blog/2022/05/05/meeting-the-cyber-safety-review-board/",
-          "publishedOn": "2022-05-05T14:00:23.000Z",
-          "wordCount": 1097,
-          "title": "Meeting the Cyber Safety Review Board"
         }
       ]
     },
@@ -1117,6 +1117,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
+          "author": null,
+          "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
+          "publishedOn": "2022-06-04T12:15:18.288Z",
+          "wordCount": 1327,
+          "title": "Understanding Twitter conversations: A Wordle case study"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
           "author": null,
@@ -1238,6 +1247,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=65362",
+          "author": "Rizel Scarlett",
+          "description": "CI/CD and workflow automation are native capabilities on GitHub platform. Here’s how to start using them and speed up your workflows.",
+          "link": "https://github.blog/2022-06-03-a-beginners-guide-to-ci-cd-and-automation-on-github/",
+          "publishedOn": "2022-06-03T17:31:19.000Z",
+          "wordCount": 2452,
+          "title": "A beginner’s guide to CI/CD and automation on GitHub"
+        },
+        {
+          "id": "https://github.blog/?p=65425",
+          "author": "Klint Finley",
+          "description": "How to interview for skill, not spare time.",
+          "link": "https://github.blog/2022-06-03-making-technical-interviews-better-for-everyone/",
+          "publishedOn": "2022-06-03T09:00:13.000Z",
+          "wordCount": 2199,
+          "title": "Making technical interviews better for everyone"
+        },
+        {
           "id": "https://github.blog/?p=65400",
           "author": "Rizel Scarlett",
           "description": "Learn how you can securely manage users with the latest ships for GitHub Enterprise.",
@@ -1245,6 +1272,15 @@
           "publishedOn": "2022-06-02T16:52:14.000Z",
           "wordCount": 923,
           "title": "What’s new in security and user management for GitHub Enterprise"
+        },
+        {
+          "id": "https://github.blog/?p=65197",
+          "author": "Demetris Cheatham",
+          "description": "Join us on the GitHub All In journey.",
+          "link": "https://github.blog/2022-06-02-github-all-in-our-first-student-cohort-and-whats-next/",
+          "publishedOn": "2022-06-02T16:00:00.000Z",
+          "wordCount": 968,
+          "title": "GitHub All In: Our first student cohort and what’s next"
         },
         {
           "id": "https://github.blog/?p=65380",
@@ -1479,24 +1515,6 @@
           "publishedOn": "2022-05-06T15:52:42.000Z",
           "wordCount": 1405,
           "title": "Today’s most common security vulnerabilities explained"
-        },
-        {
-          "id": "https://github.blog/?p=64485",
-          "author": "Lee Reilly",
-          "description": "20 of our favorite games plus source code from the latest Ludum Dare competition.",
-          "link": "https://github.blog/2022-05-05-ludum-dare-50/",
-          "publishedOn": "2022-05-05T20:37:07.000Z",
-          "wordCount": 1144,
-          "title": "20 of our favorite games + source code from Ludum Dare 50"
-        },
-        {
-          "id": "https://github.blog/?p=63643",
-          "author": "Klint Finley",
-          "description": "Teaching is a great way to not only help others but to better learn a topic yourself.",
-          "link": "https://github.blog/2022-05-05-the-readme-project-qa-what-you-need-to-know-about-teaching-technical-skills/",
-          "publishedOn": "2022-05-05T17:00:25.000Z",
-          "wordCount": 1638,
-          "title": "The ReadME Project Q&A: What you need to know about teaching technical skills"
         }
       ]
     },
