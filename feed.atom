@@ -2,10 +2,133 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-06T12:20:25.282Z</updated>
+    <updated>2022-06-07T12:20:03.205Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Filibuster – automating resilience testing of microservice applications]]></title>
+        <id>changelog.com/news/LpMA</id>
+        <link href="https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/"/>
+        <updated>2022-06-06T21:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Christopher Meiklejohn has been working for two years on developing an automated resilience testing tool called Filibuster and was able to test it out at DoorDash during his research internship:
+Access to DoorDash’s real-world industrial microservice application was extremely valuable both to ensure that Filibuster’s design matches how microservice applications are developed today and to influence future features that I would not have identified in a lab setting.
+The results were pretty good! Maybe we won’t need chaos monkeys as tools like Filibuster advance?
+In short, Filibuster can identify many of the technical resilience issues that exist in applications earlier, at the time of development, without testing in production as required in more traditional chaos engineering techniques.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New HTTP core specs]]></title>
+        <id>https://daniel.haxx.se/blog/?p=18849</id>
+        <link href="https://daniel.haxx.se/blog/2022/06/06/new-http-core-specs/"/>
+        <updated>2022-06-06T21:06:52.000Z</updated>
+        <summary type="html"><![CDATA[Before this, the latest refreshed specification of HTTP/1.1 was done in the RFC 7230 series, published in June 2014. After that, HTTP/2 was done in the spring of 2015 and recently the HTTP/3 spec has been a work in progress. To better reflect this new world of multiple HTTP versions and an HTTP protocol ecosystem … Continue reading New HTTP core specs →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing interfaces for developer tools]]></title>
+        <id>changelog.com/news/Z3Yz</id>
+        <link href="https://evilmartians.com/chronicles/devs-in-mind-how-to-design-interfaces-for-developer-tools"/>
+        <updated>2022-06-06T21:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Pretty much any developer or engineer uses professional tools at work: code editors, graphic designers, word processors, and so on. But designing UIs for these kinds of tools is quite a different beast from the UI design involved with software and applications intended for “everyday” audiences.
+In this article, we undertake a high-level analysis on some of those differences, and examine some do’s and don’t’s for designing developer tool interfaces.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Travis Turner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Severe Confluence Vulnerability is an Active Threat (CVE-2022-26134)]]></title>
+        <id>https://hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134</id>
+        <link href="https://www.hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134"/>
+        <updated>2022-06-06T20:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Background
+
+The vulnerability allows unauthenticated remote code execution (RCE). Exploitation occurs by sending an HTTP request with an attack payl]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple's M2 announcement makes your M1-based laptop suddenly "feel sluggish"]]></title>
+        <id>changelog.com/news/Pp2g</id>
+        <link href="https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/"/>
+        <updated>2022-06-06T20:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Built using second-generation 5-nanometer technology, M2 takes the industry-leading performance per watt of M1 even further with an 18 percent faster CPU, a 35 percent more powerful GPU, and a 40 percent faster Neural Engine.1 It also delivers 50 percent more memory bandwidth compared to M1, and up to 24GB of fast unified memory.
+I pity the fool who upgraded last Fall and can think of zero good reasons to spend another pile of cash at the Apple Store right now no matter how hard he tries to drum up literally any valid reason why that would be a wise decision but if he could think of one he totally would do it and now maybe he’s just waiting for someone else to come up with some sort of justification for doing exactly that. I pity that fool 😉
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Appsec at Netflix (Part 2)]]></title>
+        <id>https://medium.com/p/c9e0f1488bc5</id>
+        <link href="https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5?source=rss----2615bd06b42e---4"/>
+        <updated>2022-06-06T17:38:41.000Z</updated>
+        <summary type="html"><![CDATA[By Astha Singhal, Lakshmi Sudheer, Julia Knecht]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing GitHub Skills]]></title>
+        <id>https://github.blog/?p=65475</id>
+        <link href="https://github.blog/2022-06-06-introducing-github-skills/"/>
+        <updated>2022-06-06T16:15:52.000Z</updated>
+        <summary type="html"><![CDATA[Today, we’re announcing GitHub Skills, a new learning experience to help you throughout your GitHub journey.]]></summary>
+        <author>
+            <name>Emily Gould</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Start test names with “should”]]></title>
+        <id>changelog.com/news/eE4J</id>
+        <link href="https://paperless.blog/start-test-names-with-should"/>
+        <updated>2022-06-06T14:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Victor Engmark thinks we should start test names with “should” for a handful of reasons, here’s a few:
+It removes redundancy, because the function name should already be in the call stack.
+It is falsifiable, a person reviewing the test can decide to which degree the name agrees with the actual test.
+It encourages testing one property of the function per test
+I don’t disagree, but I like to take it a step further: Let the “should” be implied by the rest of the test name.
+Instead of: should replace children when updating instance
+I prefer: replaces children when updating instances
+Instead of: should apply discount when total cost exceeds 100 dollars
+I prefer: applies discount when total cost exceeds 100 dollars
+Most of Victor’s reasons for using “should” still apply with this format, but it’s less verbose and more accurately describes the software working as expected when the tests pass.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dashy is a self-hosted dashboard for your homelab]]></title>
+        <id>changelog.com/news/Rd61</id>
+        <link href="https://dashy.to"/>
+        <updated>2022-06-06T13:33:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s packed full of useful features, to help you build your perfect dashboard. Including status checks, keyboard shortcuts, dynamic widgets, auto-fetched favicon icons and font-awesome support, built-in authentication, tons of themes, an interactive config editor, many display layouts plus loads more.
+Check out the live demo to see Dashy in action.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub brings supply chain security features to the Rust community]]></title>
+        <id>https://github.blog/?p=65493</id>
+        <link href="https://github.blog/2022-06-06-github-brings-supply-chain-security-features-to-the-rust-community/"/>
+        <updated>2022-06-06T10:15:39.000Z</updated>
+        <summary type="html"><![CDATA[The Rust community can now discover, report, and prevent security vulnerabilities.]]></summary>
+        <author>
+            <name>Courtney Claessens</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Understanding Twitter conversations: A Wordle case study]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study</id>

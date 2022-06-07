@@ -64,6 +64,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/LpMA",
+          "author": "Jerod Santo",
+          "description": "Christopher Meiklejohn has been working for two years on developing an automated resilience testing tool called Filibuster and was able to test it out at DoorDash during his research internship:\nAccess to DoorDash’s real-world industrial microservice application was extremely valuable both to ensure that Filibuster’s design matches how microservice applications are developed today and to influence future features that I would not have identified in a lab setting.\nThe results were pretty good! Maybe we won’t need chaos monkeys as tools like Filibuster advance?\nIn short, Filibuster can identify many of the technical resilience issues that exist in applications earlier, at the time of development, without testing in production as required in more traditional chaos engineering techniques.\nDiscuss on Changelog News",
+          "link": "https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/",
+          "publishedOn": "2022-06-06T21:50:00.000Z",
+          "wordCount": null,
+          "title": "Filibuster – automating resilience testing of microservice applications",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Z3Yz",
+          "author": "Travis Turner",
+          "description": "Pretty much any developer or engineer uses professional tools at work: code editors, graphic designers, word processors, and so on. But designing UIs for these kinds of tools is quite a different beast from the UI design involved with software and applications intended for “everyday” audiences.\nIn this article, we undertake a high-level analysis on some of those differences, and examine some do’s and don’t’s for designing developer tool interfaces.\nDiscuss on Changelog News",
+          "link": "https://evilmartians.com/chronicles/devs-in-mind-how-to-design-interfaces-for-developer-tools",
+          "publishedOn": "2022-06-06T21:04:00.000Z",
+          "wordCount": null,
+          "title": "Designing interfaces for developer tools",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Pp2g",
+          "author": "Jerod Santo",
+          "description": "Built using second-generation 5-nanometer technology, M2 takes the industry-leading performance per watt of M1 even further with an 18 percent faster CPU, a 35 percent more powerful GPU, and a 40 percent faster Neural Engine.1 It also delivers 50 percent more memory bandwidth compared to M1, and up to 24GB of fast unified memory.\nI pity the fool who upgraded last Fall and can think of zero good reasons to spend another pile of cash at the Apple Store right now no matter how hard he tries to drum up literally any valid reason why that would be a wise decision but if he could think of one he totally would do it and now maybe he’s just waiting for someone else to come up with some sort of justification for doing exactly that. I pity that fool 😉\nDiscuss on Changelog News",
+          "link": "https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/",
+          "publishedOn": "2022-06-06T20:18:00.000Z",
+          "wordCount": null,
+          "title": "Apple's M2 announcement makes your M1-based laptop suddenly \"feel sluggish\"",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/eE4J",
+          "author": "Jerod Santo",
+          "description": "Victor Engmark thinks we should start test names with “should” for a handful of reasons, here’s a few:\nIt removes redundancy, because the function name should already be in the call stack.\nIt is falsifiable, a person reviewing the test can decide to which degree the name agrees with the actual test.\nIt encourages testing one property of the function per test\nI don’t disagree, but I like to take it a step further: Let the “should” be implied by the rest of the test name.\nInstead of: should replace children when updating instance\nI prefer: replaces children when updating instances\nInstead of: should apply discount when total cost exceeds 100 dollars\nI prefer: applies discount when total cost exceeds 100 dollars\nMost of Victor’s reasons for using “should” still apply with this format, but it’s less verbose and more accurately describes the software working as expected when the tests pass.\nDiscuss on Changelog News",
+          "link": "https://paperless.blog/start-test-names-with-should",
+          "publishedOn": "2022-06-06T14:51:00.000Z",
+          "wordCount": null,
+          "title": "Start test names with “should”",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Rd61",
+          "author": "Jerod Santo",
+          "description": "It’s packed full of useful features, to help you build your perfect dashboard. Including status checks, keyboard shortcuts, dynamic widgets, auto-fetched favicon icons and font-awesome support, built-in authentication, tons of themes, an interactive config editor, many display layouts plus loads more.\nCheck out the live demo to see Dashy in action.\n\nDiscuss on Changelog News",
+          "link": "https://dashy.to",
+          "publishedOn": "2022-06-06T13:33:00.000Z",
+          "wordCount": null,
+          "title": "Dashy is a self-hosted dashboard for your homelab",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/4/1669",
           "author": null,
           "description": "Adam was invited by our friends at Square to interview Jack Dorsey as part of their annual developer conference called Square Unboxed. Jack Dorsey is one of the most prolific CEOs out there — he’s a hacker turned CEO and is often working at the very edge of what’s to come (at scale). Jack is focused on what the future has to offer, he’s considered an innovator by many. He’s also a Bitcoin maximalist and has positioned himself and Block long on Bitcoin.\nWhat you’re about to hear is the fireside chat Adam had with Jack at Square Unboxed 2022. Jack and Adam discuss the vision Square has for the developer platform and why it’s so central to the company’s strategy.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSpons…",
@@ -1007,6 +1057,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=18849",
+          "author": "Daniel Stenberg",
+          "description": "Before this, the latest refreshed specification of HTTP/1.1 was done in the RFC 7230 series, published in June 2014. After that, HTTP/2 was done in the spring of 2015 and recently the HTTP/3 spec has been a work in progress. To better reflect this new world of multiple HTTP versions and an HTTP protocol ecosystem … Continue reading New HTTP core specs →",
+          "link": "https://daniel.haxx.se/blog/2022/06/06/new-http-core-specs/",
+          "publishedOn": "2022-06-06T21:06:52.000Z",
+          "wordCount": 418,
+          "title": "New HTTP core specs"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=19219",
           "author": "Daniel Stenberg",
           "description": "The .netrc file is used to hold user names and passwords for specific host names and allows tools to login to those systems automatically without having to prompt the user for the credentials while avoiding having to use them in command lines. The .netrc file is typically set without group or world read permissions (0600) … Continue reading .netrc pains →",
@@ -1196,6 +1255,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65475",
+          "author": "Emily Gould",
+          "description": "Today, we’re announcing GitHub Skills, a new learning experience to help you throughout your GitHub journey.",
+          "link": "https://github.blog/2022-06-06-introducing-github-skills/",
+          "publishedOn": "2022-06-06T16:15:52.000Z",
+          "wordCount": 526,
+          "title": "Introducing GitHub Skills"
+        },
+        {
+          "id": "https://github.blog/?p=65493",
+          "author": "Courtney Claessens",
+          "description": "The Rust community can now discover, report, and prevent security vulnerabilities.",
+          "link": "https://github.blog/2022-06-06-github-brings-supply-chain-security-features-to-the-rust-community/",
+          "publishedOn": "2022-06-06T10:15:39.000Z",
+          "wordCount": 846,
+          "title": "GitHub brings supply chain security features to the Rust community"
+        },
         {
           "id": "https://github.blog/?p=65362",
           "author": "Rizel Scarlett",
@@ -1526,6 +1603,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134",
+          "author": "HackerOne",
+          "description": "Background\n\nThe vulnerability allows unauthenticated remote code execution (RCE). Exploitation occurs by sending an HTTP request with an attack payl",
+          "link": "https://www.hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134",
+          "publishedOn": "2022-06-06T20:20:00.000Z",
+          "wordCount": 1173,
+          "title": "Severe Confluence Vulnerability is an Active Threat (CVE-2022-26134)"
+        },
+        {
           "id": "https://hackerone.com/vulnerability-management/how-critical-infrastructure-can-be-protected-threats",
           "author": "Christopher Dickens",
           "description": "Accessing a major critical infrastructure network is very appealing to cybercriminals, as they can maximize societal impact and demand large ransom sums to fix tampered systems. With recent high-profile attacks, including that against the Colonial Pipeline in March 2021, it has become clear that the organizations handling critical infrastructure networks are now in the firing line. Critical infrastructure is vulnerable to both threat groups that are evolving their tactics and public scrutiny if they do not remain transparent when an attack occurs.",
@@ -1595,6 +1681,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/c9e0f1488bc5",
+          "author": "Netflix Technology Blog",
+          "description": "By Astha Singhal, Lakshmi Sudheer, Julia Knecht",
+          "link": "https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-06-06T17:38:41.000Z",
+          "wordCount": 1255,
+          "title": "Scaling Appsec at Netflix (Part 2)"
+        },
         {
           "id": "https://medium.com/p/b62d25175e6f",
           "author": "Netflix Technology Blog",
