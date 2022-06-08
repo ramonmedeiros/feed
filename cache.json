@@ -64,6 +64,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/N1Rb",
+          "author": "Jerod Santo",
+          "description": "Lars Wikman on the history of ID3 tags:\nIf you were a Winamp user back in the day, or curate an MP3 collection currently, you might recognize the humble ID3 tag. It is what the metadata in the MP3 file is made up of. First it was pretty limited in the version later dubbed ID3v1. Like any good 2.0 they added a ton more fields, features, removed character limits and it was suddenly ID3v2. The latest spec is ID3v2.4 while the most commonly adopted one seems to be ID3v2.3. I recently found myself having a reason to dig into this specification.\nI wonder what reason he might have to dig into this spec? Could it be for a soon-to-be-announced collab with his friends at Changelog? 😏\nThis post is not about the technical intricacies of the format… This is about a simpler time, where people saw the wild possibilities of music on computers and when people cared about files, damnit. This is about some of the most interesting and entertaining things I’ve run across while reading the spec.\nDiscuss on Changelog News",
+          "link": "https://underjord.io/id3-specification-and-speculation.html",
+          "publishedOn": "2022-06-07T19:36:00.000Z",
+          "wordCount": null,
+          "title": "What ID3v2 could have been",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/njn8",
+          "author": "Jerod Santo",
+          "description": "One of the smaller (but big for webdevs) announcements from yesterday’s WWDC keynote was Web Push coming to Safari. It’s built on three web standards all working together. What does it do, well it enables websites to “notify their users of time-sensitive or high-priority events, even if the user does not currently have the site open.”\nAs long as you’ve coded your web application to the standards you will be able to reach Safari 16 users on macOS Ventura. You don’t need to join the Apple Developer Program to send Web Push notifications.\nThat’s good news, but is this feature something users want? I can think of zero websites that I’ve allowed to send me notifications even when Safari is open, let alone when I’m not even browsing the web.\nJen Simmons posted a nice thread on Twitter alongside the announcement and fielded many people’s questions/concerns along the way.\nDiscuss on Changelog News",
+          "link": "https://webkit.org/blog/12945/meet-web-push/",
+          "publishedOn": "2022-06-07T17:08:00.000Z",
+          "wordCount": null,
+          "title": "Meet Web Push",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Y1Xl",
+          "author": "Jerod Santo",
+          "description": "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.\nMinto Pyramid? Abstraction laddering? A lot of these are new to me (and very well explained).\nDiscuss on Changelog News",
+          "link": "https://untools.co/",
+          "publishedOn": "2022-06-07T16:09:00.000Z",
+          "wordCount": null,
+          "title": "Tools for better thinking",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1670",
+          "author": null,
+          "description": "In this “fully connected” episode of the podcast, we catch up on some recent developments in the AI world, including a new model from DeepMind called Gato. This generalist model can play video games, caption images, respond to chat messages, control robot arms, and much more. We also discuss the use of AI in the entertainment industry (e.g., in new Top Gun movie).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nDeepMind’s Gato:\nDeepMind article\nTNW article\nIceman’s voice in Top Gun:\nVariety article\nSonantic - the company behind the synthetic voice\nResponsible AI review processes: From a developer’s point of view\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/180",
+          "publishedOn": "2022-06-07T15:15:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 180: Generalist models & Iceman's voice",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/180/practical-ai-180.mp3",
+            "length": "39998966",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/MbYG",
+          "author": "Jerod Santo",
+          "description": "It uses IPFS for file storage and the Ethereum Name Service for discovery and syndication. Planet is a Mac app that makes managing such a setup reasonable. It also acts like an RSS reader app, letting you subscribe to other decentralized sites running on the network.\nDiscuss on Changelog News",
+          "link": "https://www.planetable.xyz/",
+          "publishedOn": "2022-06-07T14:21:00.000Z",
+          "wordCount": null,
+          "title": "Planet – decentralized blogs & websites powered by IPFS & ENS",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/LpMA",
           "author": "Jerod Santo",
           "description": "Christopher Meiklejohn has been working for two years on developing an automated resilience testing tool called Filibuster and was able to test it out at DoorDash during his research internship:\nAccess to DoorDash’s real-world industrial microservice application was extremely valuable both to ensure that Filibuster’s design matches how microservice applications are developed today and to influence future features that I would not have identified in a lab setting.\nThe results were pretty good! Maybe we won’t need chaos monkeys as tools like Filibuster advance?\nIn short, Filibuster can identify many of the technical resilience issues that exist in applications earlier, at the time of development, without testing in production as required in more traditional chaos engineering techniques.\nDiscuss on Changelog News",
@@ -922,46 +977,6 @@
           "wordCount": null,
           "title": "Why video calls are bad for brainstorming",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Z3jk",
-          "author": "Jerod Santo",
-          "description": "Big news from our friends at Hugging Face:\nHugging Face is now the fastest growing community & most used platform for machine learning! With 100,000 pre-trained models & 10,000 datasets hosted on the platform for NLP, computer vision, speech, time-series, biology, reinforcement learning, chemistry and more, the Hugging Face Hub has become the Home of Machine Learning to create, collaborate, and deploy state-of-the-art models.\nWhat will they spend the money on? Good stuff:\nThanks to the new funding, we’ll be doubling down on research, open-source, products and responsible democratization of AI.\nDiscuss on Changelog News",
-          "link": "https://huggingface.co/blog/series-c",
-          "publishedOn": "2022-05-09T16:45:00.000Z",
-          "wordCount": null,
-          "title": "Hugging Face raised $100 million for open/collaborative machine learning",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/VJWQ",
-          "author": "Jerod Santo",
-          "description": "Lots of cool stuff for Markdown authors in April’s VS Code release. Namely:\ndrag and drop files into the editor to create a Markdown link\nfind all references to header|links|files|urls inside of Markdown\nrename headers|links inside Markdown (and propagate the changes)\nrename Markdown files (and propagate to all references)\nThe Dendron team is excited because their primary vault hosts over 400k lines of Markdown 🤯\nVS Code, and IDEs more broadly, help developers manage large code bases by making available tools to leverage and manipulate the syntax of programming languages. By shifting some of this tooling to markdown, can we do the same for large Markdown repositories?\nDiscuss on Changelog News",
-          "link": "https://blog.dendron.so/notes/upyp4ow9fkpwvu50n8wsvnp/",
-          "publishedOn": "2022-05-09T15:52:00.000Z",
-          "wordCount": null,
-          "title": "VS Code's major Markdown tooling upgrade",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/maR3",
-          "author": "Jerod Santo",
-          "description": "Gui Heurich on one of the legends of the Ruby community, _why the lucky stiff.\nThrough the things that he built, the way he performed, and the books that he wrote, _why makes us think about code and also about ourselves. It makes us think about ourselves as programmers. In a sense, _why was the meta-programmer, the one that generates other programmers by promoting reflexivity.\nDiscuss on Changelog News",
-          "link": "http://code-anth.xyz/posts/3",
-          "publishedOn": "2022-05-09T15:01:00.000Z",
-          "wordCount": null,
-          "title": "Chunky Bacon",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ykQo",
-          "author": "Jerod Santo",
-          "description": "I’ve long been fascinated by literate programming (the art of writing code as if it was a novel), but it’s been awhile since I’ve seen a good example of in practice. Here’s a good one:\nI wanted to showcase the BDD-inspired low-tech solution I came up with via a toy project, demonstrating a small but significant programming task, broken down as series of design-implementation cycles.\nWordle is a perfect target: it’s a small codebase, with a half dozen features to string together into a useable game.\nThis story has five chapters and a satisfying conclusion:\nThis project was my first foray into literate programming at this scale, an attempt to bring together all the good ideas of TDD, modern Python development, Gherkin usage for requirements traceability purposes (without overly zealous extremes of Cucumber automation). All these ideas were until now scattered, implemented each without the others in different places, and this project fuses them into something I hope is more valuable than the sum of its parts.\nDiscuss on Changelog News",
-          "link": "https://jiby.tech/project/literate_wordle/wordle.html",
-          "publishedOn": "2022-05-09T14:10:00.000Z",
-          "wordCount": null,
-          "title": "Literate programming Wordle",
-          "itunes": {}
         }
       ]
     },
@@ -1056,6 +1071,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19296",
+          "author": "Daniel Stenberg",
+          "description": "Twenty-one years ago, in May 2001 we introduced the global initialization function to libcurl version 7.8 called curl_global_init(). The main reason we needed this separate function to get called before anything else was used in libcurl, was that several of libcurl’s dependencies at the time (including OpenSSL and GnuTLS) had themselves thread-unsafe initialization procedures. This … Continue reading Making libcurl init more thread-safe →",
+          "link": "https://daniel.haxx.se/blog/2022/06/08/making-libcurl-init-more-thread-safe/",
+          "publishedOn": "2022-06-08T06:42:32.000Z",
+          "wordCount": 660,
+          "title": "Making libcurl init more thread-safe"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=18849",
           "author": "Daniel Stenberg",
@@ -1206,15 +1230,6 @@
           "publishedOn": "2022-05-14T12:20:07.724Z",
           "wordCount": 1270,
           "title": "Powering real-time data analytics with Druid at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
-          "author": null,
-          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
-          "publishedOn": "2022-05-09T12:24:22.807Z",
-          "wordCount": 984,
-          "title": "Introducing a new Swift package for Apache Thrift"
         }
       ]
     },
@@ -1240,6 +1255,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47809",
+          "author": "Evgeny Pavlov",
+          "description": "The Bergamot project is a collaboration between Mozilla, University of Edinburgh, Charles University in Prague, the University of Sheffield, and University of Tartu with funding from the European Union’s Horizon 2020 research and innovation programme. It brings MT to the local environment, providing small, high-quality, CPU optimized NMT models. The Firefox Translations web extension utilizes proceedings of project Bergamot and brings local translations to Firefox. In this article, we will discuss the components used to train our efficient NMT models.\nThe post Training efficient neural network models for Firefox Translations appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/06/training-efficient-neural-network-models-for-firefox-translations/",
+          "publishedOn": "2022-06-07T15:25:47.000Z",
+          "wordCount": 2291,
+          "title": "Training efficient neural network models for Firefox Translations"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47829",
           "author": "Gian-Carlo Pascutto",
           "description": "Firefox uses a multi-process model for additional security and stability while browsing: Web Content (such as HTML/CSS and Javascript) is rendered in separate processes that are isolated from the rest of the operating system and managed by a privileged parent process. This way, the amount of control gained by an attacker that exploits a bug in a content process is limited. In this article, we would like to dive a bit further into the latest major milestone we have reached: Win32k Lockdown, which greatly reduces the capabilities of the content process when running on Windows.\nThe post Improved Process Isolation in Firefox 100 appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1255,6 +1279,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65520",
+          "author": "Landon Grindheim",
+          "description": "A personal story about building the feature you want and sharing it with the world.",
+          "link": "https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/",
+          "publishedOn": "2022-06-07T19:55:45.000Z",
+          "wordCount": 1429,
+          "title": "One developer’s journey bringing Dependabot to GitHub Enterprise Server"
+        },
         {
           "id": "https://github.blog/?p=65475",
           "author": "Emily Gould",
@@ -1515,24 +1548,6 @@
           "publishedOn": "2022-05-10T16:00:41.000Z",
           "wordCount": 404,
           "title": "Enhanced 2FA experience for your npm account"
-        },
-        {
-          "id": "https://github.blog/?p=64780",
-          "author": "Konrad Pabjan",
-          "description": "You can now output and group custom Markdown content on the Actions run summary page.",
-          "link": "https://github.blog/2022-05-09-supercharging-github-actions-with-job-summaries/",
-          "publishedOn": "2022-05-09T16:00:53.000Z",
-          "wordCount": 792,
-          "title": "Supercharging GitHub Actions with Job Summaries"
-        },
-        {
-          "id": "https://github.blog/?p=64752",
-          "author": "Eric Rosado",
-          "description": "Teachers, it is now your turn to join GitHub Global Campus with our student community! Get access to exclusive benefits, programs, and the Power of Codespaces at no cost in GitHub Classroom!",
-          "link": "https://github.blog/2022-05-09-prepare-for-next-semester-with-github-global-campus-and-codespaces/",
-          "publishedOn": "2022-05-09T15:00:00.000Z",
-          "wordCount": 1309,
-          "title": "Prepare for next semester with GitHub Global Campus and Codespaces"
         }
       ]
     },
