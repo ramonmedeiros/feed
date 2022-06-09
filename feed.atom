@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-08T12:22:50.406Z</updated>
+    <updated>2022-06-09T12:21:34.604Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing a new Swift package for Apache Thrift]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift"/>
+        <updated>2022-06-09T12:21:18.778Z</updated>
+        <summary type="html"><![CDATA[Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 56: DevOps teams with shared responsibilities]]></title>
+        <id>changelog.com/14/1651</id>
+        <link href="https://changelog.com/shipit/56"/>
+        <updated>2022-06-08T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are talking with Maikel Vlasman, technical lead for a large Dutch machine construction company, and a cloud engineer by heart. We cover self-updating GitLab & ArgoCD, Maikel’s thinking behind dev environment setup and a Kubernetes workshop that he is preparing for his team. The goal is to function as a true DevOps team with shared responsibilities.
+This conversation started as a thread in our community Slack - link in the show notes. Thank you Maikel for being a long-time Changelog listener and for reaching out to us - we enjoyed telling this story.
+Discuss on Changelog News
+Changelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Akuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD an…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When WebAssembly replaces Docker]]></title>
+        <id>changelog.com/news/Qp3Q</id>
+        <link href="https://thenewstack.io/when-webassembly-replaces-docker/"/>
+        <updated>2022-06-08T15:43:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the more interesting discussions that attracted some attention during KubeCon + CloudNativeCon was how, due to its design, WebAssembly (also known as Wasm) can replace Docker in many circumstances.
+We were just discussing this with Swyx on JS Party. What an unexpected turn of events!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sunsetting Atom]]></title>
+        <id>https://github.blog/?p=65542</id>
+        <link href="https://github.blog/2022-06-08-sunsetting-atom/"/>
+        <updated>2022-06-08T15:00:23.000Z</updated>
+        <summary type="html"><![CDATA[We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.]]></summary>
+        <author>
+            <name>GitHub Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Deepfake Offensive Toolkit]]></title>
+        <id>changelog.com/news/zD4V</id>
+        <link href="https://github.com/sensity-ai/dot"/>
+        <updated>2022-06-08T14:51:00.000Z</updated>
+        <summary type="html"><![CDATA[dot (aka Deepfake Offensive Toolkit) makes real-time, controllable deepfakes ready for virtual cameras injection. dot is created for performing penetration testing against e.g. identity verification and video conferencing systems, for the use by security analysts, Red Team members, and biometrics researchers.
+What’s crazy is dot deepfakes don’t require any additional training. 🤯
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Start your open source journey with Community Exchange]]></title>
+        <id>https://github.blog/?p=65517</id>
+        <link href="https://github.blog/2022-06-08-start-your-open-source-journey-with-community-exchange/"/>
+        <updated>2022-06-08T08:00:01.000Z</updated>
+        <summary type="html"><![CDATA[Are you a student who is new to open source or just starting your maintainer journey? GitHub Global Campus’ Community Exchange can help you make that first contribution or grow your open source project.]]></summary>
+        <author>
+            <name>Matthew Dyson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Making libcurl init more thread-safe]]></title>
         <id>https://daniel.haxx.se/blog/?p=19296</id>
@@ -1970,75 +2040,6 @@ The MST Scale is an important next step in a collective effort to improve skin t
         <summary type="html"><![CDATA[Welcome to this patch release of curl, shipped only 14 days since the previous version. We decided to cut the release cycle short because of the several security vulnerabilities that were pointed out. See below for details. There are no new features added in this release. It burns. Mostly in our egos. Release video Numbers … Continue reading curl 7.83.1 it burns →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Founders Talk 89: Leading GitLab to IPO]]></title>
-        <id>changelog.com/4/1581</id>
-        <link href="https://changelog.com/founderstalk/89"/>
-        <updated>2022-05-10T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week Sid Sijbrandij Co-founder and CEO of GitLab is back talking with Adam about all the details of their massive IPO last October 2021. To set the stage, this episode was recorded on Feb 1, 2022. During the show Adam mentioned they IPO’d at a $13B market cap, but they actually ended their opening day at approximately $15B. That’s a massive win for open source, GitLab, Sid, and the rest of the team. For loyal listeners you know we’ve had Sid on this show before, so of course we had to get him back on the show post-IPO to get all the details of this new journey.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not j…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Release of Technical Report into the AMD Security Processor]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/05/release-of-technical-report-into-amd.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/05/release-of-technical-report-into-amd.html"/>
-        <updated>2022-05-10T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ol{margin:0;padding:0}table td,table th{padding:0}.RmvCPDuePa-c3{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left;height:11pt}.RmvCPDuePa-c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.RmvCPDuePa-c7{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left}.RmvCPDuePa-c2{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}.RmvCPDuePa-c6{text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#1155cc;text-decoration:underline}.RmvCPDuePa-c4{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.RmvCPDuePa-c1{color:inherit;text-decoration:inherit}.RmvCPDuePa-c5{border:1px solid black;margin:5px}.title…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enhanced 2FA experience for your npm account]]></title>
-        <id>https://github.blog/?p=64931</id>
-        <link href="https://github.blog/2022-05-10-enhanced-2fa-experience-for-your-npm-account/"/>
-        <updated>2022-05-10T16:00:41.000Z</updated>
-        <summary type="html"><![CDATA[Late last year, in response to an unprecedented series of account takeovers resulting from the compromise of developer accounts without 2FA enabled, we committed to a variety of enhancements to the npm registry to make two-factor authentication (2FA) adoption easier for developers. Today, we are launching a public beta for a significantly improved 2FA experience […]]]></summary>
-        <author>
-            <name>Myles Borins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Attack Resistance Management?]]></title>
-        <id>https://hackerone.com/company-news/what-attack-resistance-management</id>
-        <link href="https://www.hackerone.com/company-news/what-attack-resistance-management"/>
-        <updated>2022-05-10T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A Security Survey on How to Close Your Organization's Attack Resistance Gap]]></summary>
-        <author>
-            <name>Tim Matthews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A CEO's guide to Emacs]]></title>
-        <id>changelog.com/news/pkPL</id>
-        <link href="https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html"/>
-        <updated>2022-05-10T15:51:00.000Z</updated>
-        <summary type="html"><![CDATA[Josh Stella:
-For those who haven’t used Emacs, it’s something you’ll likely hate, but may love. It’s sort of a Rube Goldberg machine the size of a house that, at first glance, performs all the functions of a toaster. That hardly sounds like an endorsement, but the key phrase is “at first glance.” Once you grok Emacs, you realize that it’s a thermonuclear toaster that can also serve as the engine for… well, just about anything you want to do with text.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why video calls are bad for brainstorming]]></title>
-        <id>changelog.com/news/j57b</id>
-        <link href="https://www.youtube.com/watch?v=_SK4mcTid10"/>
-        <updated>2022-05-10T15:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Interesting findings by Melanie S. Brucks and Jonathan Levav:
-According to new research one important skill is impacted by the restrictions of video calls: creativity. But why is idea generation negatively affected? And could other skills actually benefit from virtual communication?
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

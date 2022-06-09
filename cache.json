@@ -64,6 +64,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1651",
+          "author": null,
+          "description": "Today we are talking with Maikel Vlasman, technical lead for a large Dutch machine construction company, and a cloud engineer by heart. We cover self-updating GitLab & ArgoCD, Maikel’s thinking behind dev environment setup and a Kubernetes workshop that he is preparing for his team. The goal is to function as a true DevOps team with shared responsibilities.\nThis conversation started as a thread in our community Slack - link in the show notes. Thank you Maikel for being a long-time Changelog listener and for reaching out to us - we enjoyed telling this story.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD an…",
+          "link": "https://changelog.com/shipit/56",
+          "publishedOn": "2022-06-08T17:30:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 56: DevOps teams with shared responsibilities",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/56/ship-it-56.mp3",
+            "length": "56668332",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Qp3Q",
+          "author": "Jerod Santo",
+          "description": "One of the more interesting discussions that attracted some attention during KubeCon + CloudNativeCon was how, due to its design, WebAssembly (also known as Wasm) can replace Docker in many circumstances.\nWe were just discussing this with Swyx on JS Party. What an unexpected turn of events!\nDiscuss on Changelog News",
+          "link": "https://thenewstack.io/when-webassembly-replaces-docker/",
+          "publishedOn": "2022-06-08T15:43:00.000Z",
+          "wordCount": null,
+          "title": "When WebAssembly replaces Docker",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zD4V",
+          "author": "Jerod Santo",
+          "description": "dot (aka Deepfake Offensive Toolkit) makes real-time, controllable deepfakes ready for virtual cameras injection. dot is created for performing penetration testing against e.g. identity verification and video conferencing systems, for the use by security analysts, Red Team members, and biometrics researchers.\nWhat’s crazy is dot deepfakes don’t require any additional training. 🤯\n\nDiscuss on Changelog News",
+          "link": "https://github.com/sensity-ai/dot",
+          "publishedOn": "2022-06-08T14:51:00.000Z",
+          "wordCount": null,
+          "title": "The Deepfake Offensive Toolkit",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/N1Rb",
           "author": "Jerod Santo",
           "description": "Lars Wikman on the history of ID3 tags:\nIf you were a Winamp user back in the day, or curate an MP3 collection currently, you might recognize the humble ID3 tag. It is what the metadata in the MP3 file is made up of. First it was pretty limited in the version later dubbed ID3v1. Like any good 2.0 they added a ton more fields, features, removed character limits and it was suddenly ID3v2. The latest spec is ID3v2.4 while the most commonly adopted one seems to be ID3v2.3. I recently found myself having a reason to dig into this specification.\nI wonder what reason he might have to dig into this spec? Could it be for a soon-to-be-announced collab with his friends at Changelog? 😏\nThis post is not about the technical intricacies of the format… This is about a simpler time, where people saw the wild possibilities of music on computers and when people cared about files, damnit. This is about some of the most interesting and entertaining things I’ve run across while reading the spec.\nDiscuss on Changelog News",
@@ -942,41 +977,6 @@
           "wordCount": null,
           "title": "If programming languages were Futurama characters",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/4/1581",
-          "author": null,
-          "description": "This week Sid Sijbrandij Co-founder and CEO of GitLab is back talking with Adam about all the details of their massive IPO last October 2021. To set the stage, this episode was recorded on Feb 1, 2022. During the show Adam mentioned they IPO’d at a $13B market cap, but they actually ended their opening day at approximately $15B. That’s a massive win for open source, GitLab, Sid, and the rest of the team. For loyal listeners you know we’ve had Sid on this show before, so of course we had to get him back on the show post-IPO to get all the details of this new journey.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not j…",
-          "link": "https://changelog.com/founderstalk/89",
-          "publishedOn": "2022-05-10T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Founders Talk 89: Leading GitLab to IPO",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/founderstalk/89/founders-talk-89.mp3",
-            "length": "67996611",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/pkPL",
-          "author": "Jerod Santo",
-          "description": "Josh Stella:\nFor those who haven’t used Emacs, it’s something you’ll likely hate, but may love. It’s sort of a Rube Goldberg machine the size of a house that, at first glance, performs all the functions of a toaster. That hardly sounds like an endorsement, but the key phrase is “at first glance.” Once you grok Emacs, you realize that it’s a thermonuclear toaster that can also serve as the engine for… well, just about anything you want to do with text.\nDiscuss on Changelog News",
-          "link": "https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html",
-          "publishedOn": "2022-05-10T15:51:00.000Z",
-          "wordCount": null,
-          "title": "A CEO's guide to Emacs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/j57b",
-          "author": "Jerod Santo",
-          "description": "Interesting findings by Melanie S. Brucks and Jonathan Levav:\nAccording to new research one important skill is impacted by the restrictions of video calls: creativity. But why is idea generation negatively affected? And could other skills actually benefit from virtual communication?\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=_SK4mcTid10",
-          "publishedOn": "2022-05-10T15:01:00.000Z",
-          "wordCount": null,
-          "title": "Why video calls are bad for brainstorming",
-          "itunes": {}
         }
       ]
     },
@@ -1151,6 +1151,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "author": null,
+          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "publishedOn": "2022-06-09T12:21:18.778Z",
+          "wordCount": 985,
+          "title": "Introducing a new Swift package for Apache Thrift"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
           "author": null,
           "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
@@ -1237,17 +1246,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/05/release-of-technical-report-into-amd.html",
-          "author": null,
-          "description": "ol{margin:0;padding:0}table td,table th{padding:0}.RmvCPDuePa-c3{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left;height:11pt}.RmvCPDuePa-c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:normal}.RmvCPDuePa-c7{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left}.RmvCPDuePa-c2{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}.RmvCPDuePa-c6{text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#1155cc;text-decoration:underline}.RmvCPDuePa-c4{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.RmvCPDuePa-c1{color:inherit;text-decoration:inherit}.RmvCPDuePa-c5{border:1px solid black;margin:5px}.title…",
-          "link": "https://googleprojectzero.blogspot.com/2022/05/release-of-technical-report-into-amd.html",
-          "publishedOn": "2022-05-10T19:00:00.000Z",
-          "wordCount": 698,
-          "title": "Release of Technical Report into the AMD Security Processor"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -1279,6 +1278,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65542",
+          "author": "GitHub Staff",
+          "description": "We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.",
+          "link": "https://github.blog/2022-06-08-sunsetting-atom/",
+          "publishedOn": "2022-06-08T15:00:23.000Z",
+          "wordCount": 625,
+          "title": "Sunsetting Atom"
+        },
+        {
+          "id": "https://github.blog/?p=65517",
+          "author": "Matthew Dyson",
+          "description": "Are you a student who is new to open source or just starting your maintainer journey? GitHub Global Campus’ Community Exchange can help you make that first contribution or grow your open source project.",
+          "link": "https://github.blog/2022-06-08-start-your-open-source-journey-with-community-exchange/",
+          "publishedOn": "2022-06-08T08:00:01.000Z",
+          "wordCount": 808,
+          "title": "Start your open source journey with Community Exchange"
+        },
         {
           "id": "https://github.blog/?p=65520",
           "author": "Landon Grindheim",
@@ -1539,15 +1556,6 @@
           "publishedOn": "2022-05-11T15:00:36.000Z",
           "wordCount": 1055,
           "title": "Open Source Monthly – May 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=64931",
-          "author": "Myles Borins",
-          "description": "Late last year, in response to an unprecedented series of account takeovers resulting from the compromise of developer accounts without 2FA enabled, we committed to a variety of enhancements to the npm registry to make two-factor authentication (2FA) adoption easier for developers. Today, we are launching a public beta for a significantly improved 2FA experience […]",
-          "link": "https://github.blog/2022-05-10-enhanced-2fa-experience-for-your-npm-account/",
-          "publishedOn": "2022-05-10T16:00:41.000Z",
-          "wordCount": 404,
-          "title": "Enhanced 2FA experience for your npm account"
         }
       ]
     },
@@ -1679,15 +1687,6 @@
           "publishedOn": "2022-05-18T16:00:00.000Z",
           "wordCount": 1650,
           "title": "Understanding Public and Private Bug Bounties and Vulnerability Disclosure Programs"
-        },
-        {
-          "id": "https://hackerone.com/company-news/what-attack-resistance-management",
-          "author": "Tim Matthews",
-          "description": "A Security Survey on How to Close Your Organization's Attack Resistance Gap",
-          "link": "https://www.hackerone.com/company-news/what-attack-resistance-management",
-          "publishedOn": "2022-05-10T16:00:00.000Z",
-          "wordCount": 1791,
-          "title": "What is Attack Resistance Management?"
         }
       ]
     },
