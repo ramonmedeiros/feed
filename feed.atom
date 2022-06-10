@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-09T12:21:34.604Z</updated>
+    <updated>2022-06-10T12:20:13.239Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Reconsidering Tweets]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets"/>
+        <updated>2022-06-10T12:19:56.032Z</updated>
+        <summary type="html"><![CDATA[In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 233: Going through the news]]></title>
+        <id>changelog.com/2/1663</id>
+        <link href="https://changelog.com/gotime/233"/>
+        <updated>2022-06-09T21:15:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re trying something new this week: discussing the news! Natalie, Kris & Ian weigh in on GopherCon’s move to Chicago, Google DDoSing SourceHut, reflections on Go’s success, and a new/old proposal for anonymous function syntax.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Chronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes …]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dependabot Updates hit GA in GHES]]></title>
+        <id>https://github.blog/?p=65600</id>
+        <link href="https://github.blog/2022-06-09-dependabot-updates-hit-ga-in-ghes/"/>
+        <updated>2022-06-09T20:47:19.000Z</updated>
+        <summary type="html"><![CDATA[Dependabot is generally available in GitHub Enterprise Server 3.5. Here is how to set up Dependabot on your instance.]]></summary>
+        <author>
+            <name>Victoria Fawcett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A human-in-the-loop workflow for creating HD images from text]]></title>
+        <id>changelog.com/news/W1oX</id>
+        <link href="https://github.com/jina-ai/dalle-flow"/>
+        <updated>2022-06-09T17:57:00.000Z</updated>
+        <summary type="html"><![CDATA[DALL-E can generate some amazing results, but we’re still in a phase of AI’s progress where having humans involved in the process is just better. Here’s how the authors of this workflow explain it:
+Generative art is a creative process. While recent advances of DALL·E unleash people’s creativity, having a single-prompt-single-output UX/UI locks the imagination to a single possibility, which is bad no matter how fine this single result is. DALL·E Flow is an alternative to the one-liner, by formalizing the generative art as an iterative procedure.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mirrord lets you easily mirror traffic from prod to dev]]></title>
+        <id>changelog.com/news/49W4</id>
+        <link href="https://github.com/metalbear-co/mirrord"/>
+        <updated>2022-06-09T17:08:00.000Z</updated>
+        <summary type="html"><![CDATA[mirrord works by letting you select a pod to mirror traffic from. It launches a privileged pod on the same node which enters the namespace of the selected pod and captures traffic from it.
+I was more excited before I realized this is a K8s thing, but still cool. Both a VS Code extension and a CLI.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a more helpful browser with machine learning]]></title>
+        <id>https://blog.google/products/chrome/building-a-more-helpful-browser-with-machine-learning/</id>
+        <link href="https://blog.google/products/chrome/building-a-more-helpful-browser-with-machine-learning/"/>
+        <updated>2022-06-09T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At Google we use technologies like machine learning (ML) to build more useful products — from filtering out email spam, to keeping maps up to date, to offering more relevant search results. Chrome is no exception: We use ML to make web images more accessible to people who are blind or have low vision, and we also generate real-time captions for online videos, in service of people in noisy environments, and those who are hard of hearing.
+This work in Chrome continues, so we wanted to share some recent and future ML improvements that offer a safer, more accessible and more personalized browsing experience. Importantly: these updates are powered by on-device ML models, which means your data stays private, and never leaves your device.
+More peace of mind, less annoying prompts
+Safe Browsing in…]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Catch Injection Security Vulnerabilities in Code Review]]></title>
+        <id>https://hackerone.com/vulnerability-management/how-catch-injection-security-vulnerabilities-code-review</id>
+        <link href="https://www.hackerone.com/vulnerability-management/how-catch-injection-security-vulnerabilities-code-review"/>
+        <updated>2022-06-09T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Injection vulnerabilities result from insecure handling of user inputs. They are relatively simple to fix once the underlying issues that cause them are understood, and are frequently found by experienced reviewers who know what to look for. The prevalence of injection vulnerabilities today is one of the best arguments for continuing to perform code review in many organizations—this type of vulnerability is most frequently caught through human inspection of the offending code.]]></summary>
+        <author>
+            <name>William Barrett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Entitlements: GitHub’s open source Identity and Access Management solution]]></title>
+        <id>https://github.blog/?p=65571</id>
+        <link href="https://github.blog/2022-06-09-introducing-entitlements-githubs-open-source-identity-and-access-management-solution/"/>
+        <updated>2022-06-09T15:00:55.000Z</updated>
+        <summary type="html"><![CDATA[We're excited to announce that we're open sourcing our Identity and Access Management solution: Entitlements.]]></summary>
+        <author>
+            <name>Shawna Butterworth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Achievements: recognizing the many stages of a developer’s coding journey]]></title>
+        <id>https://github.blog/?p=65583</id>
+        <link href="https://github.blog/2022-06-09-introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/"/>
+        <updated>2022-06-09T15:00:28.000Z</updated>
+        <summary type="html"><![CDATA[Available in public beta today, we're announcing Achievements as a new way to commemorate milestones on GitHub.]]></summary>
+        <author>
+            <name>Bailey Brooks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub officially says farewell to Atom]]></title>
+        <id>changelog.com/news/ZoqM</id>
+        <link href="https://github.blog/2022-06-08-sunsetting-atom/"/>
+        <updated>2022-06-09T14:49:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub will archive all projects under the Atom org on December 15, 2022. Why?
+Atom has not had significant feature development for the past several years, though we’ve conducted maintenance and security updates during this period to ensure we’re being good stewards of the project and product. As new cloud-based tools have emerged and evolved over the years, Atom community involvement has declined significantly. As a result, we’ve decided to sunset Atom so we can focus on enhancing the developer experience in the cloud with GitHub Codespaces.
+Atom was co-founder and long-time CEO Chris Wanstrath’s baby. We first heard its story from project lead Nathan Sobo on The Changelog back in 2017. Here’s what he had to say about the end of Atom’s era:
+As Atom’s sun sets, Zed’s sun is rising. We’re not done here.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing a new Swift package for Apache Thrift]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift</id>
@@ -1834,210 +1953,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://daniel.haxx.se/blog/2022/05/12/a-tale-of-a-trailing-dot/"/>
         <updated>2022-05-12T06:40:59.000Z</updated>
         <summary type="html"><![CDATA[Trailing dots on host names in URLs is the gift that keeps on giving. Let me take you through a dwindling story of how the dot is handled differently in different places through the stack of an Internet client. The evil trailing dot. DNS When a given host name is to be resolved to an … Continue reading A tale of a trailing dot →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I/O 2022: Android 13 security and privacy (and more!)]]></title>
-        <id>http://security.googleblog.com/2022/05/io-2022-android-13-security-and-privacy.html</id>
-        <link href="http://security.googleblog.com/2022/05/io-2022-android-13-security-and-privacy.html"/>
-        <updated>2022-05-11T19:05:00.047Z</updated>
-        <summary type="html"><![CDATA[Posted by Eugene Liderman and Sara N-Marandi, Android Security and Privacy Team
-
-Every year at I/O we share the latest on privacy and security features on Android. But we know some users like to go a level deeper in understanding how we’re making the latest release safer, and more private, while continuing to offer a seamless experience. So let’s dig into the tools we’re building to better secure your data, enhance your privacy and increase trust in the apps and experiences on your devices.  
-Low latency, frictionless security
-Regardless of whether a smartphone is used for consumer or enterprise purposes, attestation is a key underpinning to ensure the integrity of the device and apps running on the device. Fundamentally, key attestation lets a developer bind a secret or designate data to …]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Graduation is here! Celebrate the Class of 2022, and join GitHub on June 11 🎓]]></title>
-        <id>https://github.blog/?p=64901</id>
-        <link href="https://github.blog/2022-05-11-graduation-is-here-celebrate-the-class-of-2022-and-join-github-on-june-11/"/>
-        <updated>2022-05-11T18:00:20.000Z</updated>
-        <summary type="html"><![CDATA[This year, thousands of students from around the world came together and redefined the world we live in, how we learn, and how we move forward. We are honored to be part of the experience and eager to celebrate this milestone. So on June 11 we celebrate the Class of 2022 and welcome them to […]]]></summary>
-        <author>
-            <name>Lara Croft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taking on the Next Generation of Phishing Scams]]></title>
-        <id>http://security.googleblog.com/2022/05/taking-on-next-generation-of-phishing.html</id>
-        <link href="http://security.googleblog.com/2022/05/taking-on-next-generation-of-phishing.html"/>
-        <updated>2022-05-11T18:00:00.004Z</updated>
-        <summary type="html"><![CDATA[Posted by Daniel Margolis, Software Engineer, Google Account Security Team 
-Every year, security technologies improve: browsers get better, encryption becomes ubiquitous on the Web, authentication becomes stronger. But phishing persistently remains a threat (as shown by a recent phishing attack on the U.S. Department of Labor) because users retain the ability to log into their online accounts, often with a simple password, from anywhere in the world. It’s why today at I/O we announced new ways we’re reducing the risks of phishing by: scaling phishing protections to Google Docs, Sheets and Slides, continuing to auto enroll people in 2-Step Verification and more. This blog will deep dive into the method of phishing and how it has evolved today. 
-As phishing adoption has grown, multi-factor a…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving skin tone representation across Google]]></title>
-        <id>https://blog.google/products/search/monk-skin-tone-scale/</id>
-        <link href="https://blog.google/products/search/monk-skin-tone-scale/"/>
-        <updated>2022-05-11T17:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Seeing yourself reflected in the world around you — in real life, media or online — is so important. And we know that challenges with image-based technologies and representation on the web have historically left people of color feeling overlooked and misrepresented. Last year, we announced Real Tone for Pixel, which is just one example of our efforts to improve representation of diverse skin tones across Google products.
-Today, we're introducing a next step in our commitment to image equity and improving representation across our products. In partnership with Harvard professor and sociologist Dr. Ellis Monk, we’re releasing a new skin tone scale designed to be more inclusive of the spectrum of skin tones we see in our society. Dr. Monk has been studying how skin tone and colorism affect pe…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google I/O 2022: Advancing knowledge and computing]]></title>
-        <id>https://blog.google/technology/developers/io-2022-keynote/</id>
-        <link href="https://blog.google/technology/developers/io-2022-keynote/"/>
-        <updated>2022-05-11T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[[TL;DR]
-Nearly 24 years ago, Google started with two graduate students, one product, and a big mission: to organize the world’s information and make it universally accessible and useful. In the decades since, we’ve been developing our technology to deliver on that mission.
-The progress we've made is because of our years of investment in advanced technologies, from AI to the technical infrastructure that powers it all. And once a year — on my favorite day of the year :) — we share an update on how it’s going at Google I/O.
-Today, I talked about how we’re advancing two fundamental aspects of our mission — knowledge and computing — to create products that are built to help. It’s exciting to build these products; it’s even more exciting to see what people do with them.
-Thank you to everyone wh…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The a11y project checklist]]></title>
-        <id>changelog.com/news/X6Le</id>
-        <link href="https://www.a11yproject.com/checklist/"/>
-        <updated>2022-05-11T16:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Check your site against this to determine your accessibility compliance with the WCAG.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding the world through language]]></title>
-        <id>https://blog.google/technology/ai/understanding-the-world-through-language/</id>
-        <link href="https://blog.google/technology/ai/understanding-the-world-through-language/"/>
-        <updated>2022-05-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Language is at the heart of how people communicate with each other. It’s also proving to be powerful in advancing AI and building helpful experiences for people worldwide.
-
-
-From the beginning, we set out to connect words in your search to words on a page so we could make the web’s information more accessible and useful. Over 20 years later, as the web changes, and the ways people consume information expand from text to images to videos and more — the one constant is that language remains a surprisingly powerful tool for understanding information.
-
-
-In recent years, we’ve seen an incredible acceleration in the field of natural language understanding. While our systems still don’t understand language the way people do, they’re increasingly able to spot patterns in information, identify comp…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 52: Priyanka's Happy Hour (KubeCon EU 2022)]]></title>
-        <id>changelog.com/14/1630</id>
-        <link href="https://changelog.com/shipit/52"/>
-        <updated>2022-05-11T15:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we talk to Priyanka Sharma (E.D. at the Cloud Native Computing Foundation) about all things KubeCon Europe 2022. We start with Gerhard’s favourite subject - Priyanka’s Happy Hour - and then we switch focus to the conference.
-For many, this will be the first in-person KubeCon since 2019. As for Gerhard, he is not sure that he remember how airports work. If he succeeds, he looks forward to meeting some of you in Valencia. If not, send help.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn co…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Immersive view coming soon to Maps — plus more updates]]></title>
-        <id>https://blog.google/products/maps/three-maps-updates-io-2022/</id>
-        <link href="https://blog.google/products/maps/three-maps-updates-io-2022/"/>
-        <updated>2022-05-11T15:17:00.000Z</updated>
-        <summary type="html"><![CDATA[Google Maps helps over one billion people navigate and explore. And over the past few years, our investments in AI have supercharged the ability to bring you the most helpful information about the real world, including when a business is open and how crowded your bus is. Today at Google I/O, we announced new ways the latest advancements in AI are transforming Google Maps — helping you explore with an all-new immersive view of the world, find the most fuel-efficient route, and use the magic of Live View in your favorite third-party apps.
-A more immersive, intuitive map
-Google Maps first launched to help people navigate to their destinations. Since then, it’s evolved to become much more — it’s a handy companion when you need to find the perfect restaurant or get information about a local bus…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Translate learns 24 new languages]]></title>
-        <id>https://blog.google/products/translate/24-new-languages/</id>
-        <link href="https://blog.google/products/translate/24-new-languages/"/>
-        <updated>2022-05-11T15:16:00.000Z</updated>
-        <summary type="html"><![CDATA[For years, Google Translate has helped break down language barriers and connect communities all over the world. And we want to make this possible for even more people — especially those whose languages aren’t represented in most technology. So today we’ve added 24 languages to Translate, now supporting a total of 133 used around the globe.
-Over 300 million people speak these newly added languages — like Mizo, used by around 800,000 people in the far northeast of India, and Lingala, used by over 45 million people across Central Africa. As part of this update, Indigenous languages of the Americas (Quechua, Guarani and Aymara) and an English dialect (Sierra Leonean Krio) have also been added to Translate for the first time.
-
-
-
-
-Translate's mission translated into some of our newly added langu…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Source Monthly – May 2022 Edition]]></title>
-        <id>https://github.blog/?p=64908</id>
-        <link href="https://github.blog/2022-05-11-open-source-monthly-may-2022-edition/"/>
-        <updated>2022-05-11T15:00:36.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Open Sauced, GitHub’s Explore page, Hacktoberfest, and First Timers Only help folks discover open source projects. This monthly series–Open Source Monthly—will add to these efforts by helping: First-time contributors find the right project to contribute to Corporations and individuals find a new project to sponsor Open source maintainers gain more consistent contributors and sponsors […]]]></summary>
-        <author>
-            <name>Rizel Scarlett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why I left Google: work-life balance]]></title>
-        <id>changelog.com/news/maeP</id>
-        <link href="https://www.scottkennedy.us/balance.html"/>
-        <updated>2022-05-11T14:54:00.000Z</updated>
-        <summary type="html"><![CDATA[I love when software engineers share their career/life choices and the reasoning behind them so others can benefit from their perspective, like this one on bucket filling:
-Somebody once described balance to me as three buckets filled with water. One for career, a second for physical health, and a third for social and family life. At any point, one bucket might be running low. But as long as the overall water level is high enough, things should be fine.
-Scott’s choice to join a startup seems odd given his reason for leaving Google, but:
-So: am I happier? Undoubtedly yes.
-I work more hours. I’m more likely to be working in the evening or on the weekend now. But what I do makes a difference that I can see. Progress feels 10x faster.
-Most surprising is that I have more energy. It’s easier to find motivation to get back in the gym. I have more energy in social situations.
-Working more hours sounds like tipping the work/life balance in the wrong direction, but excitement about your work certainly changes the calculus. He’s happier now, so that’s great!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A TUI for viewing and editing database files]]></title>
-        <id>changelog.com/news/wk8R</id>
-        <link href="https://github.com/mathaou/termdbms"/>
-        <updated>2022-05-11T14:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Currently supports SQLite and CSV. MySQL and Postgres are on the roadmap. Built with Bubble Tea.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If programming languages were Futurama characters]]></title>
-        <id>changelog.com/news/d3ga</id>
-        <link href="https://www.netmeister.org/blog/futurama.html"/>
-        <updated>2022-05-11T13:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Good news, everyone! Jan Schaumann merged Futurama with your (least) favorite programming languages. Amy Wong is… Ruby?!
-Object-oriented, cute, really popular, and a bit naive. Had a bit of Fry grafted onto herself for a while. Also had a thing with Bender. And Zapp. Easy going, but doesn’t do well in difficult situations, falls over easily.
-Bender is Shell. Fry is Perl. If you care at all for his reasoning, you’ve already clicked through!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A closer look at the research to help AI see more skin tones]]></title>
-        <id>https://blog.google/technology/research/ai-monk-scale-skin-tone-story/</id>
-        <link href="https://blog.google/technology/research/ai-monk-scale-skin-tone-story/"/>
-        <updated>2022-05-11T09:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Today at I/O we released the Monk Skin Tone (MST) Scale in partnership with Harvard professor and sociologist Dr. Ellis Monk. The MST Scale, developed by Dr. Monk, is a 10-shade scale designed to be more inclusive of the spectrum of skin tones in our society. We’ll be incorporating the MST Scale into various Google products over the coming months, and we are openly releasing the scale so that anyone can use it for research and product development.
-The MST Scale is an important next step in a collective effort to improve skin tone inclusivity in technology. For Google, it will help us make progress in our commitment to image equity and improving representation across our products. And in releasing the MST Scale for all to use, we hope to make it easier for others to do the same, so we can l…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl 7.83.1 it burns]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19090</id>
-        <link href="https://daniel.haxx.se/blog/2022/05/11/curl-7-83-1-it-burns/"/>
-        <updated>2022-05-11T06:30:26.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this patch release of curl, shipped only 14 days since the previous version. We decided to cut the release cycle short because of the several security vulnerabilities that were pointed out. See below for details. There are no new features added in this release. It burns. Mostly in our egos. Release video Numbers … Continue reading curl 7.83.1 it burns →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>
