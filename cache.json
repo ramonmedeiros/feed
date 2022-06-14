@@ -46,6 +46,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/w9wz",
+          "author": "Jerod Santo",
+          "description": "Fresh is in the “SSR with client-side progressive enhancement” camp. I have to admit their list of ‘stand out’ features are quite appealing:\nNo JS is shipped to the client by default\nNo build step\nNo configuration required\nTypeScript support out of the box\nIf you’re feeling some JavaScript and/or Framework Fatigue, this won’t help. But competition pushes everyone (Next, Remix, etc) to improve. So, whether you check Fresh out or not, hopefully it’ll have a positive impact on your work.\nDiscuss on Changelog News",
+          "link": "https://fresh.deno.dev/",
+          "publishedOn": "2022-06-13T14:16:00.000Z",
+          "wordCount": null,
+          "title": "Fresh - a next-gen web framework for Deno",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/dqV0",
+          "author": "Jerod Santo",
+          "description": "dns.toys is a DNS server that takes creative liberties with the DNS protocol to offer handy utilities and services that are easily accessible via the command line.\nProvides world time, unit conversion, weather and more. All over DNS.\nDiscuss on Changelog News",
+          "link": "https://www.dns.toys/",
+          "publishedOn": "2022-06-13T13:23:00.000Z",
+          "wordCount": null,
+          "title": "Useful utilities and services over DNS",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1660",
           "author": null,
           "description": "This week Jesse Grosjean joins us to talk about his career as a solo indie Mac dev. Since 2004 Jesse has been building Mac apps under the company name Hog Bay Software producing hits such as WriteRoom, Taskpaper, and now Bike. We talk through the evolution of his apps, how he considers new features and improvements, why he chose and continues to choose the Mac platform, his business model and pricing for his apps, and what it takes to build his business around macOS and the driving force of the App Store.\nDiscuss on Changelog News\nChangelog++ members get a bonus 10 minutes at the end of this episode and zero ads. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the und…",
@@ -1035,6 +1055,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "author": null,
+          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "publishedOn": "2022-06-14T12:18:53.801Z",
+          "wordCount": 1278,
+          "title": "Powering real-time data analytics with Druid at Twitter"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
           "author": null,
           "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
@@ -1114,15 +1143,6 @@
           "publishedOn": "2022-05-18T12:20:06.762Z",
           "wordCount": 1350,
           "title": "Scaling data access by moving an exabyte of data to Google Cloud"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "author": null,
-          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "publishedOn": "2022-05-15T12:18:06.313Z",
-          "wordCount": 2037,
-          "title": "Next generation data insights using natural language queries"
         }
       ]
     },
@@ -1153,6 +1173,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65652",
+          "author": "Rizel Scarlett",
+          "description": "June's Open Source Monthly features Modos–a community-focused company building software and hardware that designs digital devices with respect for users' time, attention, and well-being.",
+          "link": "https://github.blog/2022-06-13-open-source-monthly-june-2022-edition/",
+          "publishedOn": "2022-06-13T20:47:28.000Z",
+          "wordCount": 1284,
+          "title": "Open Source Monthly: June 2022 Edition"
+        },
         {
           "id": "https://github.blog/?p=65636",
           "author": "Rahul Zhade",
@@ -1528,6 +1557,24 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/community-blog/h1-community-team-your-hacker-allies",
+          "author": "jesse@hackerone.com",
+          "description": "Jessica Sexton, Director of Community (Twitter/LinkedIn)\n\n\n\"I am excited to build a team and strategic programs that focus on human connectio",
+          "link": "https://www.hackerone.com/community-blog/h1-community-team-your-hacker-allies",
+          "publishedOn": "2022-06-13T17:41:00.000Z",
+          "wordCount": 2284,
+          "title": "H1 Community Team: Your Hacker Allies"
+        },
+        {
+          "id": "https://hackerone.com/community-blog/community-hackerone-whats-come",
+          "author": "jessica@hackerone.com",
+          "description": "From Jessica Sexton - Director of Community,\n\nThree years ago, I found my home at HackerOne. My primary focus was to revamp our Live Hacking Events",
+          "link": "https://www.hackerone.com/community-blog/community-hackerone-whats-come",
+          "publishedOn": "2022-06-13T17:40:43.000Z",
+          "wordCount": 2212,
+          "title": "Community at HackerOne: What's to Come"
+        },
+        {
           "id": "https://hackerone.com/vulnerability-management/how-catch-injection-security-vulnerabilities-code-review",
           "author": "William Barrett",
           "description": "Injection vulnerabilities result from insecure handling of user inputs. They are relatively simple to fix once the underlying issues that cause them are understood, and are frequently found by experienced reviewers who know what to look for. The prevalence of injection vulnerabilities today is one of the best arguments for continuing to perform code review in many organizations—this type of vulnerability is most frequently caught through human inspection of the offending code.",
@@ -1631,6 +1678,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/charts-to-watch-5",
+          "author": "Market Radar",
+          "description": "A mix of charts on stocks, indices and crypto",
+          "link": "https://marketradar.substack.com/p/charts-to-watch-5",
+          "publishedOn": "2022-06-13T13:00:37.000Z",
+          "wordCount": null,
+          "title": "Charts to watch #5",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc77bcb2e-eb3a-4e44-9a0f-e9cc10e3fd56_933x746.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/investors-fearful-of-a-possible-recession",
           "author": "Market Radar",
