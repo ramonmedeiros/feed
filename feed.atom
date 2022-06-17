@@ -2,10 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-16T12:19:57.554Z</updated>
+    <updated>2022-06-17T12:20:36.237Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl is REUSE compliant]]></title>
+        <id>https://daniel.haxx.se/blog/?p=19393</id>
+        <link href="https://daniel.haxx.se/blog/2022/06/17/curl-is-reuse-compliant/"/>
+        <updated>2022-06-17T09:31:04.000Z</updated>
+        <summary type="html"><![CDATA[The REUSE project is an effort to make Open Source projects provide copyright and license information (for all files) in a machine readable way. When a project is fully REUSE compliant, you can easily figure out the copyright and license situation for every single file it holds. The easiest way to accomplish this is to … Continue reading curl is REUSE compliant →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Radar · May 2022 Edition]]></title>
+        <id>https://github.blog/?p=65633</id>
+        <link href="https://github.blog/2022-06-16-release-radar-may-2022/"/>
+        <updated>2022-06-16T22:05:03.000Z</updated>
+        <summary type="html"><![CDATA[Each month, we highlight open source projects that have shipped major updates. These projects can include everything from world-changing technology to developer tooling, and weekend hobbies. We cover what the project is and some of their breaking changes. Read about the project, and browse their repositories. Without further ado, here are our top staff picks […]]]></summary>
+        <author>
+            <name>Michelle Mannering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 234: Observability in the wild: strategies that work]]></title>
+        <id>changelog.com/2/1680</id>
+        <link href="https://changelog.com/gotime/234"/>
+        <updated>2022-06-16T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re featuring an episode of Grafana’s Big Tent! LEGO Group principal engineer Nayana Shetty swaps observability survival stories (to drill or not to drill?) with hosts Mat Ryer and Matt Toback. The trio also reveals new and different observability strategies that have been successful and effective in their organizations.
+Plus: Nayana shares how she built her successful observability career brick by brick.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Chronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their custome…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding the Law of Demeter]]></title>
+        <id>changelog.com/news/Y18l</id>
+        <link href="https://blog.testdouble.com/posts/2022-06-15-law-of-demeter/"/>
+        <updated>2022-06-16T18:16:00.000Z</updated>
+        <summary type="html"><![CDATA[I almost brought up the Law of Demeter on Go Time a couple weeks back:
+That being said, sometimes you just have to follow the other person’s path until you realize when it doesn’t actually work for you. I’m totally fine with cargo-culting some sort of rule… I was gonna say the Law of Demeter, but that one’s too hard to explain. What’s a very simple – DRY, right?
+See how quickly I abandoned ship there? Ok, it’s not that hard to explain. I just didn’t feel like taking the time to explain it when it wasn’t even my point. Good thing Double Agent Caleb Hearth did a nice write-up on Test Double’s blog about it!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The many definitions of Server-Side Rendering]]></title>
+        <id>changelog.com/news/oj24</id>
+        <link href="https://www.zachleat.com/web/ssr-overloaded/"/>
+        <updated>2022-06-16T17:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Zach Leatherman breaks down what SSR means in various contexts (component frameworks, app frameworks. Here’s the gist, but the details are good to so def read Zach’s full post:
+Application frameworks most often define SSR as the alternative to SSG (static site generation). A runtime server is used to render the components on request.
+Component frameworks define SSR as generating static HTML from a component definition. They offer no preference as to whether this should or can happen at build time or at request-time.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[curl user survey 2022 analysis]]></title>
+        <id>https://daniel.haxx.se/blog/?p=19373</id>
+        <link href="https://daniel.haxx.se/blog/2022/06/16/curl-user-survey-2022-analysis/"/>
+        <updated>2022-06-16T16:24:14.000Z</updated>
+        <summary type="html"><![CDATA[Once again I’ve collected the numbers, generated graphs, scratched my head and tried to understand what users mean and how to best use this treasure trove of user feedback. The curl user survey 2022 ran for two full weeks in the end of May. Here is the document with all the numbers, graphs and analysis … Continue reading curl user survey 2022 analysis →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Android kernel mitigations obstacle race]]></title>
+        <id>https://github.blog/?p=65495</id>
+        <link href="https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/"/>
+        <updated>2022-06-16T16:00:52.000Z</updated>
+        <summary type="html"><![CDATA[In this post I’ll exploit CVE-2022-22057, a use-after-free in the Qualcomm gpu kernel driver, to gain root and disable SELinux from the untrusted app sandbox on a Samsung Z flip 3. I’ll look at various mitigations that are implemented on modern Android devices and how they affect the exploit.]]></summary>
+        <author>
+            <name>Man Yue Mo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New merch! Changelog sticker packs]]></title>
+        <id>changelog.com/news/1WPP</id>
+        <link href="https://merch.changelog.com/products/changelog-sticker-pack"/>
+        <updated>2022-06-16T15:15:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re back on the conference scene, so a fresh batch of Changelog stickers was so necessary. Then we figured, why not post these on Merch for those who we don’t see at events?!
+While we’re at it, why not give them away as another Changelog++ perk?! So we did and we are 😎
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacks Decoded: Bikes and Boomboxes with Samuel Aboagye]]></title>
+        <id>https://hacks.mozilla.org/?p=47854</id>
+        <link href="https://hacks.mozilla.org/2022/06/hacks-decoded-bikes-and-boomboxes-with-samuel-aboagye/"/>
+        <updated>2022-06-16T15:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Samuel Aboagye is a genius. Aboagye is 17 years old. In those 17 years, he’s crafted more inventions than you have, probably. Among them: a solar-powered bike and a Bluetooth speaker, both using recycled materials. We caught up with Aboagye over video chat in hopes that he’d talk with us about his creations, and ultimately how he’s way cooler than any of us at 17.
+The post Hacks Decoded: Bikes and Boomboxes with Samuel Aboagye appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Xavier Harding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chain-bench – a tool for auditing your software supply chain]]></title>
+        <id>changelog.com/news/9l7g</id>
+        <link href="https://github.com/aquasecurity/chain-bench"/>
+        <updated>2022-06-16T14:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Chain-bench is an open source tool for auditing your software supply chain stack for security compliance based on a new CIS Software Supply Chain benchmark.
+You can run the tool from a CLI, assuming your code is hosted on GitHub (more SCM hosts coming soon):
+chain-bench scan --repository-url <REPOSITORY_URL> --access-token <TOKEN> -o <OUTPUT_PATH>
+
+I couldn’t find a comprehensive list of what checks are in the benchmark, but it appears they are referring to this guide. You can see what an example run’s results like like in the README.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Bug Bounty Uncovered A 5-Year-Old Vulnerability In Hours]]></title>
+        <id>https://hackerone.com/ethical-hacker/how-bug-bounty-uncovered-5-year-old-vulnerability-hours</id>
+        <link href="https://www.hackerone.com/ethical-hacker/how-bug-bounty-uncovered-5-year-old-vulnerability-hours"/>
+        <updated>2022-06-16T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post, we will focus on a report Chris mentioned in his post—a high severity, blind Cross-Site Scripting (XSS) vulnerability that existed in]]></summary>
+        <author>
+            <name>Tyler Mann</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Git Merge 2022]]></title>
         <id>https://github.blog/?p=65724</id>
@@ -1944,93 +2074,6 @@ In the disability community, people often say …]]></summary>
         <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/a-hybrid-approach-to-personalize-notification-volume"/>
         <updated>2022-05-19T12:18:55.471Z</updated>
         <summary type="html"><![CDATA[In this blog, we’ll share how we use machine learning techniques to ensure people see the right amount of relevant and timely notifications.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Securing and delivering high-quality code with innersource metrics]]></title>
-        <id>https://github.blog/?p=65060</id>
-        <link href="https://github.blog/2022-05-18-securing-and-delivering-high-quality-code-with-innersource-metrics/"/>
-        <updated>2022-05-18T21:50:03.000Z</updated>
-        <summary type="html"><![CDATA[With innersource, it’s important to measure both the amount of innersource activity and the quality of the code being created. Here’s how.]]></summary>
-        <author>
-            <name>Zack Koppert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Founders Talk 90: From GitHub TV to Rewatch]]></title>
-        <id>changelog.com/4/1593</id>
-        <link href="https://changelog.com/founderstalk/90"/>
-        <updated>2022-05-18T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Connor Sears, founder and CEO of Rewatch, joins Adam to share the journey of creating Rewatch. What began inside of GitHub to help them thrive and connect is now available to every product team on the planet. Rewatch lets teams save, manage, and search all their video content so they can collaborate async and with greater flexibility. We talk about where the tool’s inspiration came from (spoiler alert, inside GitHub it was called GitHub TV which you’ll hear during the show), how teams leverage video to reduce the constraints of communication, how Connor and his co-founder knew they had product-fit and how they grew the team and product, and of course the flip side of that — we talk about some of Connor’s failures along the way, and knowing when it’s the right time to take a big swing.
-Disc…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Public and Private Bug Bounties and Vulnerability Disclosure Programs]]></title>
-        <id>https://hackerone.com/vulnerability-management/understanding-public-and-private-bug-bounties-and-vulnerability-disclosure</id>
-        <link href="https://www.hackerone.com/vulnerability-management/understanding-public-and-private-bug-bounties-and-vulnerability-disclosure"/>
-        <updated>2022-05-18T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How Are Bug Bounty Programs and Vulnerability Disclosure Programs Different?
-
-Let’s start with the similarities. Both bug bounties and VDPs aim to]]></summary>
-        <author>
-            <name>Tim Matthews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CloudNativePG – a new Kubernetes operator for Postgres]]></title>
-        <id>changelog.com/news/Lpg4</id>
-        <link href="https://www.enterprisedb.com/blog/introducing-cloudnativepg-new-open-source-kubernetes-operator-postgres"/>
-        <updated>2022-05-18T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[CloudNativePG is distributed under the Apache License 2.0, and is now owned and governed by a newly formed community of contributors to the project, built on solid principles and values inspired by the Cloud Native Computing Foundation (CNCF).
-Among these are openness, fairness, inclusivity, technical excellence, “community over product/company,” built-in quality and built-in security. I’m part of the initial group of maintainers of the project, currently made up by the top six committers of the project within EDB.
-If you’ve been following Ship It’s Kaizen episodes, you know we had troubles running Postgres in K8s and recently moved to a managed (sorta) database. I wonder if Gerhard will be tempted to try this operator out anyhow…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everything I know and learned about running and maintaining open source projects for three decades]]></title>
-        <id>changelog.com/news/bNkZ</id>
-        <link href="https://un.curl.dev/"/>
-        <updated>2022-05-18T14:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Curl creator/maintainer Daniel Stenberg is writing a book. It’s (aptly) named: Uncurled
-Because of my background and life with Open Source and probably a lot because of the relative success some of my projects have had, I frequently get questions about subjects related to maintaining Open Source. How to run a project and what makes them succeed? For a long time I have been collecting lessons from my life with Open Source into a list of advice for fellow Open Source library hackers. This document is my attempt to convert those thoughts and experiences into words.
-I don’t believe it’s finished, but there’s a lot here already! Excited for this and while it’s a free to read GitBook right now, I hope it ends with some kind of physical manifestation.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Privileged pod escalations in Kubernetes and GKE]]></title>
-        <id>http://security.googleblog.com/2022/05/privileged-pod-escalations-in.html</id>
-        <link href="http://security.googleblog.com/2022/05/privileged-pod-escalations-in.html"/>
-        <updated>2022-05-18T13:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by GKE and Anthos Platform Security Teams 
-
-
-
-At the KubeCon EU 2022 conference in Valencia, security researchers from Palo Alto Networks presented research findings on “trampoline pods”—pods with an elevated set of privileges required to do their job, but that could conceivably be used as a jumping off point to gain escalated privileges.
-The research mentions GKE, including how developers should look at the privileged pod problem today, what the GKE team is doing to minimize the use of privileged pods, and actions GKE users can take to protect their clusters.
-Privileged pods within the context of GKE security
-
-While privileged pods can pose a security issue, it’s important to look at them within the overall context of GKE security. To use a privileged pod as a “trampoline” in GKE, …]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaling data access by moving an exabyte of data to Google Cloud]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud"/>
-        <updated>2022-05-18T12:20:06.762Z</updated>
-        <summary type="html"><![CDATA[In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.]]></summary>
         <author>
             <name>English (US)</name>
         </author>
