@@ -35,6 +35,103 @@
             </article>
         </section>
       </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Tauri (a cross-platform app toolkit) goes 1.0</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://tauri.app/blog/tauri_1_0/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Tauri is an app framework built with Rust. You build UIs for it using virtually any frontend JavaScript framework. It has three major tenets: security, privacy, and environment. Speaking to the latter:
+The apps you make are lean and performant, which reduces electricity, storage space, and general natural resource consumption. Every byte saved is a leaf on a tree that gets to grow.
+This project has gotten a lot of early interest because, well, people have been waiting for an Electron alternative to emerge. Now that Tauri is 1.0 I’m guessing adoption will really start to take off.
+Even more good news: we have an episode on Tauri in the hopper for ya 💪
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A GDPR compliant drop-in replacement for Google Fonts</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fonts.bunny.net/about">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Bunny Fonts is an open-source, privacy-first web font platform designed to put privacy back into the internet.
+With a zero-tracking and no-logging policy, Bunny Fonts helps you stay fully GDPR compliant and puts your user’s personal data into their own hands. Additionally, you can enjoy lightning-fast load times thanks to bunny.net’s global CDN network to help improve SEO and deliver a better user experience.
+All font in the collection are fully open source, which means you can use them without fees even in commercial offerings.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Changelog 493: What even is a DevRel?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/podcast/493">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>This week Lee Robinson joins us to talk about his journey as a DevRel. We talk about what it means to be a DevRel, what orgs they fall under, how he runs his team at Vercel, Lee’s three pillars of DevRel: education, community, and product, we compare the old days of DevRel vs now, and of course what makes a DevRel a good DevRel.
+Discuss on Changelog News
+Changelog++ members get a bonus 3 minutes at the end of this episode and zero ads. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+FireHydrant – The …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Web crawl data as SQLite databases</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/Florents-Tselai/WarcDB">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Many organizations such as Commoncrawl, WebRecorder, Archive.org and libraries around the world, use the warc format to archive and store web data.
+The full datasets of these services range in the few pebibytes(PiB), making them impractical to query using non-distributed systems.
+This project aims to make subsets such data easier to access and query using SQL.
+Crawl a site with wget and import it into WarcDB:
+wget --warc-file changelog &quot;https://changelog.com&quot;
+
+warcdb import archive.warcdb changelog.warc.gz
+
+Then you can query away using SQL, such as this one to get all response headers:
+sqlite3 archive.warcdb &lt;&lt;SQL
+select  json_extract(h.value, &#x27;$.header&#x27;) as header, 
+        json_extract(h.value, &#x27;$.value&#x27;) as value
+from response,
+     json_each(http_headers) h
+SQL
+
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">The GitHub Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitHub enables the development of functional safety applications by adding support for coding standards AUTOSAR C++  and CERT C++</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-06-20-adding-support-for-coding-standards-autosar-c-and-cert-c/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>GitHub is excited to announce the release of CodeQL queries that implement the standards CERT C++ and AUTOSAR C++. These queries can aid developers looking to demonstrate ISO 26262 Part 6 process compliance.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
     </ul>
   </section>
   <section class="daily-content">
@@ -2696,7 +2793,7 @@ Discuss on Changelog News</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-06-20T12:20:30.358Z">2022-06-20T12:20:30.358Z</time>
+    <time id="build-timestamp" datetime="2022-06-21T12:22:11.379Z">2022-06-21T12:22:11.379Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>

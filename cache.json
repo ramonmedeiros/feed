@@ -46,6 +46,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/ZozM",
+          "author": "Jerod Santo",
+          "description": "Tauri is an app framework built with Rust. You build UIs for it using virtually any frontend JavaScript framework. It has three major tenets: security, privacy, and environment. Speaking to the latter:\nThe apps you make are lean and performant, which reduces electricity, storage space, and general natural resource consumption. Every byte saved is a leaf on a tree that gets to grow.\nThis project has gotten a lot of early interest because, well, people have been waiting for an Electron alternative to emerge. Now that Tauri is 1.0 I’m guessing adoption will really start to take off.\nEven more good news: we have an episode on Tauri in the hopper for ya 💪\nDiscuss on Changelog News",
+          "link": "https://tauri.app/blog/tauri_1_0/",
+          "publishedOn": "2022-06-20T16:49:00.000Z",
+          "wordCount": null,
+          "title": "Tauri (a cross-platform app toolkit) goes 1.0",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/V12Z",
+          "author": "Jerod Santo",
+          "description": "Bunny Fonts is an open-source, privacy-first web font platform designed to put privacy back into the internet.\nWith a zero-tracking and no-logging policy, Bunny Fonts helps you stay fully GDPR compliant and puts your user’s personal data into their own hands. Additionally, you can enjoy lightning-fast load times thanks to bunny.net’s global CDN network to help improve SEO and deliver a better user experience.\nAll font in the collection are fully open source, which means you can use them without fees even in commercial offerings.\nDiscuss on Changelog News",
+          "link": "https://fonts.bunny.net/about",
+          "publishedOn": "2022-06-20T16:03:00.000Z",
+          "wordCount": null,
+          "title": "A GDPR compliant drop-in replacement for Google Fonts",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1649",
+          "author": null,
+          "description": "This week Lee Robinson joins us to talk about his journey as a DevRel. We talk about what it means to be a DevRel, what orgs they fall under, how he runs his team at Vercel, Lee’s three pillars of DevRel: education, community, and product, we compare the old days of DevRel vs now, and of course what makes a DevRel a good DevRel.\nDiscuss on Changelog News\nChangelog++ members get a bonus 3 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFireHydrant – The …",
+          "link": "https://changelog.com/podcast/493",
+          "publishedOn": "2022-06-20T15:15:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 493: What even is a DevRel?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/493/the-changelog-493.mp3",
+            "length": "72962772",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/JgXe",
+          "author": "Jerod Santo",
+          "description": "Many organizations such as Commoncrawl, WebRecorder, Archive.org and libraries around the world, use the warc format to archive and store web data.\nThe full datasets of these services range in the few pebibytes(PiB), making them impractical to query using non-distributed systems.\nThis project aims to make subsets such data easier to access and query using SQL.\nCrawl a site with wget and import it into WarcDB:\nwget --warc-file changelog \"https://changelog.com\"\n\nwarcdb import archive.warcdb changelog.warc.gz\n\nThen you can query away using SQL, such as this one to get all response headers:\nsqlite3 archive.warcdb <<SQL\nselect  json_extract(h.value, '$.header') as header, \n        json_extract(h.value, '$.value') as value\nfrom response,\n     json_each(http_headers) h\nSQL\n\nDiscuss on Changelog News",
+          "link": "https://github.com/Florents-Tselai/WarcDB",
+          "publishedOn": "2022-06-20T12:56:00.000Z",
+          "wordCount": null,
+          "title": "Web crawl data as SQLite databases",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1647",
           "author": null,
           "description": "Today we are talking with Frederic Branczyk, founder of Polar Signals & Prometheus maintainer. You may remember Frederic from episode 33 when we introduced Parca.dev.\nThis time, we talk about a database built for observability: FrostDB, formerly known as ArcticDB. eBPF generates a lot of high cardinality data, which requires a new approach to writing, persisting & then reading back this state.\nTL;DR FrostDB is sub zero cool & well worthy of its name.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nMongoDB – An integrated suite of cloud database and services — They have a FREE forever tier, so you can prove to yourself and to your team that they have everything you need. Check it out today at mongodb.com/…",
@@ -1127,6 +1172,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65790",
+          "author": "Brittany O'Shea",
+          "description": "GitHub is excited to announce the release of CodeQL queries that implement the standards CERT C++ and AUTOSAR C++. These queries can aid developers looking to demonstrate ISO 26262 Part 6 process compliance.",
+          "link": "https://github.blog/2022-06-20-adding-support-for-coding-standards-autosar-c-and-cert-c/",
+          "publishedOn": "2022-06-20T17:00:12.000Z",
+          "wordCount": 1090,
+          "title": "GitHub enables the development of functional safety applications by adding support for coding standards AUTOSAR C++  and CERT C++"
+        },
         {
           "id": "https://github.blog/?p=65748",
           "author": "Courtney Claessens",

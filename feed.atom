@@ -2,10 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-20T12:20:30.381Z</updated>
+    <updated>2022-06-21T12:22:11.414Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub enables the development of functional safety applications by adding support for coding standards AUTOSAR C++  and CERT C++]]></title>
+        <id>https://github.blog/?p=65790</id>
+        <link href="https://github.blog/2022-06-20-adding-support-for-coding-standards-autosar-c-and-cert-c/"/>
+        <updated>2022-06-20T17:00:12.000Z</updated>
+        <summary type="html"><![CDATA[GitHub is excited to announce the release of CodeQL queries that implement the standards CERT C++ and AUTOSAR C++. These queries can aid developers looking to demonstrate ISO 26262 Part 6 process compliance.]]></summary>
+        <author>
+            <name>Brittany O'Shea</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tauri (a cross-platform app toolkit) goes 1.0]]></title>
+        <id>changelog.com/news/ZozM</id>
+        <link href="https://tauri.app/blog/tauri_1_0/"/>
+        <updated>2022-06-20T16:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Tauri is an app framework built with Rust. You build UIs for it using virtually any frontend JavaScript framework. It has three major tenets: security, privacy, and environment. Speaking to the latter:
+The apps you make are lean and performant, which reduces electricity, storage space, and general natural resource consumption. Every byte saved is a leaf on a tree that gets to grow.
+This project has gotten a lot of early interest because, well, people have been waiting for an Electron alternative to emerge. Now that Tauri is 1.0 I’m guessing adoption will really start to take off.
+Even more good news: we have an episode on Tauri in the hopper for ya 💪
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A GDPR compliant drop-in replacement for Google Fonts]]></title>
+        <id>changelog.com/news/V12Z</id>
+        <link href="https://fonts.bunny.net/about"/>
+        <updated>2022-06-20T16:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Bunny Fonts is an open-source, privacy-first web font platform designed to put privacy back into the internet.
+With a zero-tracking and no-logging policy, Bunny Fonts helps you stay fully GDPR compliant and puts your user’s personal data into their own hands. Additionally, you can enjoy lightning-fast load times thanks to bunny.net’s global CDN network to help improve SEO and deliver a better user experience.
+All font in the collection are fully open source, which means you can use them without fees even in commercial offerings.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 493: What even is a DevRel?]]></title>
+        <id>changelog.com/1/1649</id>
+        <link href="https://changelog.com/podcast/493"/>
+        <updated>2022-06-20T15:15:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Lee Robinson joins us to talk about his journey as a DevRel. We talk about what it means to be a DevRel, what orgs they fall under, how he runs his team at Vercel, Lee’s three pillars of DevRel: education, community, and product, we compare the old days of DevRel vs now, and of course what makes a DevRel a good DevRel.
+Discuss on Changelog News
+Changelog++ members get a bonus 3 minutes at the end of this episode and zero ads. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+FireHydrant – The …]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web crawl data as SQLite databases]]></title>
+        <id>changelog.com/news/JgXe</id>
+        <link href="https://github.com/Florents-Tselai/WarcDB"/>
+        <updated>2022-06-20T12:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Many organizations such as Commoncrawl, WebRecorder, Archive.org and libraries around the world, use the warc format to archive and store web data.
+The full datasets of these services range in the few pebibytes(PiB), making them impractical to query using non-distributed systems.
+This project aims to make subsets such data easier to access and query using SQL.
+Crawl a site with wget and import it into WarcDB:
+wget --warc-file changelog "https://changelog.com"
+
+warcdb import archive.warcdb changelog.warc.gz
+
+Then you can query away using SQL, such as this one to get all response headers:
+sqlite3 archive.warcdb <<SQL
+select  json_extract(h.value, '$.header') as header, 
+        json_extract(h.value, '$.value') as value
+from response,
+     json_each(http_headers) h
+SQL
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Graph machine learning with missing node features]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features</id>
