@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/06/game-on-2022-google-ctf-is-here.html",
+          "author": null,
+          "description": "Posted by Jan Keller, Technical Entertainment Manager, Bug Hunters \n\n\n\n\n\n\nAre you ready to put your hacking skills to the test? It’s Google CTF time!\nThe competition kicks off on July 1 2022 6:00 PM UTC and runs through July 3 2022 6:00 PM UTC. Registration is now open at http://goo.gle/ctf.\nIn true old Google CTF fashion, the top 8 teams will qualify for our Hackceler8 speedrunning meets CTFs competition. The prize pool stands similar to previous years at more than $40,000.\n\n\n\n\n\n\nWe can’t wait to see whether PPP will be able to defend their crown. For those of you looking to satisfy your late-night hacking hunger: past year's challenges, including Hackceler8 2021 matches, are open-sourced here. On top of that there are hours of Hackceler8 2020 videos to watch!\nIf you are just starting out in this space, last year’s Beginner’s Quest is a great resource to get started. For later in the year, we have something mysterious planned - stay tuned to find out more!\n\n\nWhether you’re a seasoned CTF player or just curious about cyber security and ethical hacking, we want you to join us. Sign up to expand your skill set, meet new friends in the security community, and even watch the pros in action. For the latest announcements, see g.co/ctf, subscribe to our mailing list, or follow us on @GoogleVRP. Interested in bug hunting for Google? Check out bughunters.google.com. See you there!",
+          "link": "http://security.googleblog.com/2022/06/game-on-2022-google-ctf-is-here.html",
+          "publishedOn": "2022-06-21T16:00:00.002Z",
+          "wordCount": 717,
+          "title": "Game on! The 2022 Google CTF is here."
+        },
+        {
           "id": "http://security.googleblog.com/2022/06/sbom-in-action-finding-vulnerabilities.html",
           "author": null,
           "description": "Posted by Brandon Lum and Oliver Chang, Google Open Source Security Team\n\n\n\nThe past year has seen an industry-wide effort to embrace Software Bills of Materials (SBOMs)—a list of all the components, libraries, and modules that are required to build a piece of software. In the wake of the 2021 Executive Order on Cybersecurity, these ingredient labels for software became popular as a way to understand what’s in the software we all consume. The guiding idea is that it’s impossible to judge the risks of particular software without knowing all of its components—including those produced by others. This increased interest in SBOMs saw another boost after the National Institute of Standards and Technology (NIST) released its Secure Software Development Framework, which requires SBOM information t…",
@@ -45,6 +54,46 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/zDWY",
+          "author": "Jerod Santo",
+          "description": "Simon Willison figured out how to run a SQL query directly against a CSV file using the sqlite3 CLI:\nsqlite3 :memory: -cmd '.mode csv' -cmd '.import taxi.csv taxi' \\\n  'SELECT passenger_count, COUNT(*), AVG(total_amount) FROM taxi GROUP BY passenger_count'\n\nIe TL;DR’d the one-liner for ya, but you’ll have to go to Simon’s site for the explainer.\nDiscuss on Changelog News",
+          "link": "https://til.simonwillison.net/sqlite/one-line-csv-operations",
+          "publishedOn": "2022-06-21T17:19:00.000Z",
+          "wordCount": null,
+          "title": "One-liner for running queries against CSV files with SQLite",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/LW1o",
+          "author": "Jerod Santo",
+          "description": "While still in its infancy, MLOps has attracted machine learning engineers and software engineers in general. With every new paradigm comes new challenges and opportunities to learn. In this primer, we highlight a few available resources to upskill and inform yourself on the latest in the world of MLOps.\nGood resources, regardless of whether you think MLOps is its own thing or should be rolled into DevOps.\nDiscuss on Changelog News",
+          "link": "https://github.com/dair-ai/MLOPs-Primer",
+          "publishedOn": "2022-06-21T16:25:00.000Z",
+          "wordCount": null,
+          "title": "A collection of resources to learn about MLOps",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/bJWe",
+          "author": "Jerod Santo",
+          "description": "AppleInsider explains Apple’s new Private Access Tokens (PAT) tech announced at WWDC:\nUsing a new HTTP authentication method called PrivateToken, a server uses cryptography to verify a client passed an iCloud attestation check.\nWhen the client needs a token it contacts an attester — in this case, Apple — which performs the process using certificates stored in the device’s Secure Enclave.\nI’ve been waiting for someone to kill CAPTCHAs for us, but this will be an Apple-only solution for now:\nThe company is working to help make Private Access Tokens a web standard, but there is no mention of tokens working on Android or Windows. People on those platforms may have to put up with CAPTCHAs, for now — or wait for Microsoft’s and Google’s work on the matter.\nI believe this is the draft of the standard that they’re referring to. Cloudflare also has a nice article on their work in this space.\nDiscuss on Changelog News",
+          "link": "https://appleinsider.com/articles/22/06/14/how-apple-could-kill-captchas-with-private-access-tokens",
+          "publishedOn": "2022-06-21T15:35:00.000Z",
+          "wordCount": null,
+          "title": "How Apple could kill CAPTCHAs",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/W1RX",
+          "author": "Jerod Santo",
+          "description": "Wise words from Andy Brice:\nWhen I was a child I assumed that all the adults running the world knew what they were doing. Now that I am an adult, I am under no such illusions…\nI’m going to let you in on a little secret. Most of us who are running businesses had no real idea what they were doing when they started, and still struggle with decisions now.\nI tell people this all the time when they ask me for advice. I’ll still give them my advice. But it comes with the disclaimer that I really have no idea what I’m doing. 😆\nDiscuss on Changelog News",
+          "link": "https://successfulsoftware.net/2022/06/19/no-one-knows-what-they-are-doing/",
+          "publishedOn": "2022-06-21T14:49:00.000Z",
+          "wordCount": null,
+          "title": "No-one knows what they are doing",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/ZozM",
           "author": "Jerod Santo",
@@ -879,46 +928,6 @@
           "wordCount": null,
           "title": "The original Pong video game had no code",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Z3VN",
-          "author": "Jerod Santo",
-          "description": "This package wraps the graphql-go/graphql implementation to provide a “fluent” pattern for constructing GraphQL queries in Go. This can be valuable in situations where dynamic queries are desired: when the fields of a GraphQL query (or mutation) are not known until runtime. For most other use cases, plain query strings or a helper library such as this should be sufficient.\nI wonder if this would change Mislav’s unpopular GraphQL/Go opinion…\nDiscuss on Changelog News",
-          "link": "https://github.com/mergestat/fluentgraphql",
-          "publishedOn": "2022-05-23T21:16:00.000Z",
-          "wordCount": null,
-          "title": "A fluent GraphQL library for Go",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/N5Ye",
-          "author": "Zhi Qu",
-          "description": "Testing microservice architecture locally is difficult. At Nylas, we’ve created a local development environment using Minikube and Tilt. In this article, I walk you through how we do it.\nDiscuss on Changelog News",
-          "link": "https://www.nylas.com/blog/how-we-test-microservices-locally-at-nylas/",
-          "publishedOn": "2022-05-23T20:07:00.000Z",
-          "wordCount": null,
-          "title": "How we test microservices locally at Nylas",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/EQ0R",
-          "author": "Jerod Santo",
-          "description": "Ignoring progressive enhancement could be seriously hurting your conversions. This article will show you how to build resiliency into your apps.\nDiscuss on Changelog News",
-          "link": "https://austingil.com/resilient-applications-progressive-enhancement/",
-          "publishedOn": "2022-05-23T14:22:00.000Z",
-          "wordCount": null,
-          "title": "Make resilient web apps with progressive enhancement",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/GbjA",
-          "author": "Jerod Santo",
-          "description": "Chris Kiehl hits his hammer right on the head of this common sentiment in software circles:\nDevelopers from certain languages [Java] have learned to wield this design principle with more power than many others. It’s how we end up with so much stuff in code bases that’s just… there. Existing. Superficially it appears unused, but silently and stoically, we know it protects us from the turbulent future change which lurks ever ahead.\nThe antithesis of one of my favorite design principles: YAGNI\nDiscuss on Changelog News",
-          "link": "https://chriskiehl.com/article/the-tyranny-of-what-if-it-changes",
-          "publishedOn": "2022-05-23T13:32:00.000Z",
-          "wordCount": null,
-          "title": "The mindless tyranny of 'what if it changes?' as a software design principle",
-          "itunes": {}
         }
       ]
     },
@@ -1003,15 +1012,6 @@
           "publishedOn": "2022-05-31T07:23:43.000Z",
           "wordCount": 1229,
           "title": ".netrc pains"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18925",
-          "author": "Daniel Stenberg",
-          "description": "curl --rate is your new friend. This option is for when you use curl to do many requests in a single command line, but you want curl to not do them as quickly as possible. You want curl to do them no more often than at a certain interval. This is a way to slow … Continue reading curl offers repeated transfers at slower pace →",
-          "link": "https://daniel.haxx.se/blog/2022/05/23/curl-offers-repeated-transfers-at-slower-pace/",
-          "publishedOn": "2022-05-23T16:06:58.000Z",
-          "wordCount": 858,
-          "title": "curl offers repeated transfers at slower pace"
         }
       ]
     },
@@ -1172,6 +1172,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65761",
+          "author": "Thomas Dohmke",
+          "description": "We’re making GitHub Copilot, an AI pair programmer that suggests code in your editor, generally available to all developers for $10 USD/month or $100 USD/year. It will also be free to use for verified students and maintainers of popular open source projects.",
+          "link": "https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/",
+          "publishedOn": "2022-06-21T16:04:44.000Z",
+          "wordCount": 996,
+          "title": "GitHub Copilot is generally available to all developers"
+        },
         {
           "id": "https://github.blog/?p=65790",
           "author": "Brittany O'Shea",
@@ -1486,15 +1495,6 @@
           "publishedOn": "2022-05-24T03:30:37.000Z",
           "wordCount": 613,
           "title": "GitHub Sponsors launches in India"
-        },
-        {
-          "id": "https://github.blog/?p=65156",
-          "author": "Jill Moné-Corallo",
-          "description": "It was another record year for our Security Bug Bounty program. We're excited to highlight some achievements we’ve made together with the bounty community from 2021!",
-          "link": "https://github.blog/2022-05-23-eight-years-of-the-github-security-bug-bounty-program/",
-          "publishedOn": "2022-05-23T17:54:46.000Z",
-          "wordCount": 1463,
-          "title": "Eight years of the GitHub Security Bug Bounty program"
         }
       ]
     },
@@ -1529,15 +1529,6 @@
           "publishedOn": "2022-05-24T14:10:19.000Z",
           "wordCount": 3030,
           "title": "Nubank announces hires to strengthen tech team"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18415",
-          "author": "Nubank Editorial",
-          "description": "The list, published annually and in its 19th edition, recognizes people who are making an impact in the world.\nThe post David Vélez, CEO of Nubank, joins the TIME100 list of most influential people in the world appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/david-velez-time-100-most-influential-people/",
-          "publishedOn": "2022-05-23T12:09:00.000Z",
-          "wordCount": 3188,
-          "title": "David Vélez, CEO of Nubank, joins the TIME100 list of most influential people in the world"
         }
       ]
     },

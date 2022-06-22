@@ -2,10 +2,107 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-21T12:22:11.414Z</updated>
+    <updated>2022-06-22T12:20:51.153Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[One-liner for running queries against CSV files with SQLite]]></title>
+        <id>changelog.com/news/zDWY</id>
+        <link href="https://til.simonwillison.net/sqlite/one-line-csv-operations"/>
+        <updated>2022-06-21T17:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison figured out how to run a SQL query directly against a CSV file using the sqlite3 CLI:
+sqlite3 :memory: -cmd '.mode csv' -cmd '.import taxi.csv taxi' \
+  'SELECT passenger_count, COUNT(*), AVG(total_amount) FROM taxi GROUP BY passenger_count'
+
+Ie TL;DR’d the one-liner for ya, but you’ll have to go to Simon’s site for the explainer.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A collection of resources to learn about MLOps]]></title>
+        <id>changelog.com/news/LW1o</id>
+        <link href="https://github.com/dair-ai/MLOPs-Primer"/>
+        <updated>2022-06-21T16:25:00.000Z</updated>
+        <summary type="html"><![CDATA[While still in its infancy, MLOps has attracted machine learning engineers and software engineers in general. With every new paradigm comes new challenges and opportunities to learn. In this primer, we highlight a few available resources to upskill and inform yourself on the latest in the world of MLOps.
+Good resources, regardless of whether you think MLOps is its own thing or should be rolled into DevOps.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot is generally available to all developers]]></title>
+        <id>https://github.blog/?p=65761</id>
+        <link href="https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/"/>
+        <updated>2022-06-21T16:04:44.000Z</updated>
+        <summary type="html"><![CDATA[We’re making GitHub Copilot, an AI pair programmer that suggests code in your editor, generally available to all developers for $10 USD/month or $100 USD/year. It will also be free to use for verified students and maintainers of popular open source projects.]]></summary>
+        <author>
+            <name>Thomas Dohmke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game on! The 2022 Google CTF is here.]]></title>
+        <id>http://security.googleblog.com/2022/06/game-on-2022-google-ctf-is-here.html</id>
+        <link href="http://security.googleblog.com/2022/06/game-on-2022-google-ctf-is-here.html"/>
+        <updated>2022-06-21T16:00:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Jan Keller, Technical Entertainment Manager, Bug Hunters 
+
+
+
+
+
+
+Are you ready to put your hacking skills to the test? It’s Google CTF time!
+The competition kicks off on July 1 2022 6:00 PM UTC and runs through July 3 2022 6:00 PM UTC. Registration is now open at http://goo.gle/ctf.
+In true old Google CTF fashion, the top 8 teams will qualify for our Hackceler8 speedrunning meets CTFs competition. The prize pool stands similar to previous years at more than $40,000.
+
+
+
+
+
+
+We can’t wait to see whether PPP will be able to defend their crown. For those of you looking to satisfy your late-night hacking hunger: past year's challenges, including Hackceler8 2021 matches, are open-sourced here. On top of that there are hours of Hackceler8 2020 videos to watch!
+If you are just starting out in this space, last year’s Beginner’s Quest is a great resource to get started. For later in the year, we have something mysterious planned - stay tuned to find out more!
+
+
+Whether you’re a seasoned CTF player or just curious about cyber security and ethical hacking, we want you to join us. Sign up to expand your skill set, meet new friends in the security community, and even watch the pros in action. For the latest announcements, see g.co/ctf, subscribe to our mailing list, or follow us on @GoogleVRP. Interested in bug hunting for Google? Check out bughunters.google.com. See you there!]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Apple could kill CAPTCHAs]]></title>
+        <id>changelog.com/news/bJWe</id>
+        <link href="https://appleinsider.com/articles/22/06/14/how-apple-could-kill-captchas-with-private-access-tokens"/>
+        <updated>2022-06-21T15:35:00.000Z</updated>
+        <summary type="html"><![CDATA[AppleInsider explains Apple’s new Private Access Tokens (PAT) tech announced at WWDC:
+Using a new HTTP authentication method called PrivateToken, a server uses cryptography to verify a client passed an iCloud attestation check.
+When the client needs a token it contacts an attester — in this case, Apple — which performs the process using certificates stored in the device’s Secure Enclave.
+I’ve been waiting for someone to kill CAPTCHAs for us, but this will be an Apple-only solution for now:
+The company is working to help make Private Access Tokens a web standard, but there is no mention of tokens working on Android or Windows. People on those platforms may have to put up with CAPTCHAs, for now — or wait for Microsoft’s and Google’s work on the matter.
+I believe this is the draft of the standard that they’re referring to. Cloudflare also has a nice article on their work in this space.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No-one knows what they are doing]]></title>
+        <id>changelog.com/news/W1RX</id>
+        <link href="https://successfulsoftware.net/2022/06/19/no-one-knows-what-they-are-doing/"/>
+        <updated>2022-06-21T14:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Wise words from Andy Brice:
+When I was a child I assumed that all the adults running the world knew what they were doing. Now that I am an adult, I am under no such illusions…
+I’m going to let you in on a little secret. Most of us who are running businesses had no real idea what they were doing when they started, and still struggle with decisions now.
+I tell people this all the time when they ask me for advice. I’ll still give them my advice. But it comes with the disclaimer that I really have no idea what I’m doing. 😆
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub enables the development of functional safety applications by adding support for coding standards AUTOSAR C++  and CERT C++]]></title>
         <id>https://github.blog/?p=65790</id>
@@ -1943,84 +2040,6 @@ The post Nubank announces hires to strengthen tech team appeared first on Buildi
         <summary type="html"><![CDATA[GitHub Sponsors is now available to all developers in India – no more waitlist, you can sign up right away!]]></summary>
         <author>
             <name>Jessica Lord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A fluent GraphQL library for Go]]></title>
-        <id>changelog.com/news/Z3VN</id>
-        <link href="https://github.com/mergestat/fluentgraphql"/>
-        <updated>2022-05-23T21:16:00.000Z</updated>
-        <summary type="html"><![CDATA[This package wraps the graphql-go/graphql implementation to provide a “fluent” pattern for constructing GraphQL queries in Go. This can be valuable in situations where dynamic queries are desired: when the fields of a GraphQL query (or mutation) are not known until runtime. For most other use cases, plain query strings or a helper library such as this should be sufficient.
-I wonder if this would change Mislav’s unpopular GraphQL/Go opinion…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we test microservices locally at Nylas]]></title>
-        <id>changelog.com/news/N5Ye</id>
-        <link href="https://www.nylas.com/blog/how-we-test-microservices-locally-at-nylas/"/>
-        <updated>2022-05-23T20:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Testing microservice architecture locally is difficult. At Nylas, we’ve created a local development environment using Minikube and Tilt. In this article, I walk you through how we do it.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Zhi Qu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eight years of the GitHub Security Bug Bounty program]]></title>
-        <id>https://github.blog/?p=65156</id>
-        <link href="https://github.blog/2022-05-23-eight-years-of-the-github-security-bug-bounty-program/"/>
-        <updated>2022-05-23T17:54:46.000Z</updated>
-        <summary type="html"><![CDATA[It was another record year for our Security Bug Bounty program. We're excited to highlight some achievements we’ve made together with the bounty community from 2021!]]></summary>
-        <author>
-            <name>Jill Moné-Corallo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl offers repeated transfers at slower pace]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18925</id>
-        <link href="https://daniel.haxx.se/blog/2022/05/23/curl-offers-repeated-transfers-at-slower-pace/"/>
-        <updated>2022-05-23T16:06:58.000Z</updated>
-        <summary type="html"><![CDATA[curl --rate is your new friend. This option is for when you use curl to do many requests in a single command line, but you want curl to not do them as quickly as possible. You want curl to do them no more often than at a certain interval. This is a way to slow … Continue reading curl offers repeated transfers at slower pace →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make resilient web apps with progressive enhancement]]></title>
-        <id>changelog.com/news/EQ0R</id>
-        <link href="https://austingil.com/resilient-applications-progressive-enhancement/"/>
-        <updated>2022-05-23T14:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Ignoring progressive enhancement could be seriously hurting your conversions. This article will show you how to build resiliency into your apps.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The mindless tyranny of 'what if it changes?' as a software design principle]]></title>
-        <id>changelog.com/news/GbjA</id>
-        <link href="https://chriskiehl.com/article/the-tyranny-of-what-if-it-changes"/>
-        <updated>2022-05-23T13:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Chris Kiehl hits his hammer right on the head of this common sentiment in software circles:
-Developers from certain languages [Java] have learned to wield this design principle with more power than many others. It’s how we end up with so much stuff in code bases that’s just… there. Existing. Superficially it appears unused, but silently and stoically, we know it protects us from the turbulent future change which lurks ever ahead.
-The antithesis of one of my favorite design principles: YAGNI
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[David Vélez, CEO of Nubank, joins the TIME100 list of most influential people in the world]]></title>
-        <id>https://building.nubank.com.br/?p=18415</id>
-        <link href="https://building.nubank.com.br/david-velez-time-100-most-influential-people/"/>
-        <updated>2022-05-23T12:09:00.000Z</updated>
-        <summary type="html"><![CDATA[The list, published annually and in its 19th edition, recognizes people who are making an impact in the world.
-The post David Vélez, CEO of Nubank, joins the TIME100 list of most influential people in the world appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Nubank Editorial</name>
         </author>
     </entry>
 </feed>

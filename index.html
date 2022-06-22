@@ -16,6 +16,132 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2022-06-21">2022-06-21</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">One-liner for running queries against CSV files with SQLite</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://til.simonwillison.net/sqlite/one-line-csv-operations">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Simon Willison figured out how to run a SQL query directly against a CSV file using the sqlite3 CLI:
+sqlite3 :memory: -cmd &#x27;.mode csv&#x27; -cmd &#x27;.import taxi.csv taxi&#x27; \
+  &#x27;SELECT passenger_count, COUNT(*), AVG(total_amount) FROM taxi GROUP BY passenger_count&#x27;
+
+Ie TL;DR’d the one-liner for ya, but you’ll have to go to Simon’s site for the explainer.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A collection of resources to learn about MLOps</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/dair-ai/MLOPs-Primer">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>While still in its infancy, MLOps has attracted machine learning engineers and software engineers in general. With every new paradigm comes new challenges and opportunities to learn. In this primer, we highlight a few available resources to upskill and inform yourself on the latest in the world of MLOps.
+Good resources, regardless of whether you think MLOps is its own thing or should be rolled into DevOps.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How Apple could kill CAPTCHAs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://appleinsider.com/articles/22/06/14/how-apple-could-kill-captchas-with-private-access-tokens">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>AppleInsider explains Apple’s new Private Access Tokens (PAT) tech announced at WWDC:
+Using a new HTTP authentication method called PrivateToken, a server uses cryptography to verify a client passed an iCloud attestation check.
+When the client needs a token it contacts an attester — in this case, Apple — which performs the process using certificates stored in the device’s Secure Enclave.
+I’ve been waiting for someone to kill CAPTCHAs for us, but this will be an Apple-only solution for now:
+The company is working to help make Private Access Tokens a web standard, but there is no mention of tokens working on Android or Windows. People on those platforms may have to put up with CAPTCHAs, for now — or wait for Microsoft’s and Google’s work on the matter.
+I believe this is the draft of the standard that they’re referring to. Cloudflare also has a nice article on their work in this space.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">No-one knows what they are doing</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://successfulsoftware.net/2022/06/19/no-one-knows-what-they-are-doing/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Wise words from Andy Brice:
+When I was a child I assumed that all the adults running the world knew what they were doing. Now that I am an adult, I am under no such illusions…
+I’m going to let you in on a little secret. Most of us who are running businesses had no real idea what they were doing when they started, and still struggle with decisions now.
+I tell people this all the time when they ask me for advice. I’ll still give them my advice. But it comes with the disclaimer that I really have no idea what I’m doing. 😆
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">The GitHub Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitHub Copilot is generally available to all developers</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>We’re making GitHub Copilot, an AI pair programmer that suggests code in your editor, generally available to all developers for $10 USD/month or $100 USD/year. It will also be free to use for verified students and maintainers of popular open source projects.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://security.googleblog.com/">Google Online Security Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Game on! The 2022 Google CTF is here.</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2022/06/game-on-2022-google-ctf-is-here.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Posted by Jan Keller, Technical Entertainment Manager, Bug Hunters 
+
+
+
+
+
+
+Are you ready to put your hacking skills to the test? It’s Google CTF time!
+The competition kicks off on July 1 2022 6:00 PM UTC and runs through July 3 2022 6:00 PM UTC. Registration is now open at http://goo.gle/ctf.
+In true old Google CTF fashion, the top 8 teams will qualify for our Hackceler8 speedrunning meets CTFs competition. The prize pool stands similar to previous years at more than $40,000.
+
+
+
+
+
+
+We can’t wait to see whether PPP will be able to defend their crown. For those of you looking to satisfy your late-night hacking hunger: past year&#x27;s challenges, including Hackceler8 2021 matches, are open-sourced here. On top of that there are hours of Hackceler8 2020 videos to watch!
+If you are just starting out in this space, last year’s Beginner’s Quest is a great resource to get started. For later in the year, we have something mysterious planned - stay tuned to find out more!
+
+
+Whether you’re a seasoned CTF player or just curious about cyber security and ethical hacking, we want you to join us. Sign up to expand your skill set, meet new friends in the security community, and even watch the pros in action. For the latest announcements, see g.co/ctf, subscribe to our mailing list, or follow us on @GoogleVRP. Interested in bug hunting for Google? Check out bughunters.google.com. See you there!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2022-06-20">2022-06-20</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -2677,123 +2803,9 @@ Discuss on Changelog News</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2022-05-23">2022-05-23</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://building.nubank.com.br">Building Nubank</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">David Vélez, CEO of Nubank, joins the TIME100 list of most influential people in the world</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://building.nubank.com.br/david-velez-time-100-most-influential-people/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>The list, published annually and in its 19th edition, recognizes people who are making an impact in the world.
-The post David Vélez, CEO of Nubank, joins the TIME100 list of most influential people in the world appeared first on Building Nubank.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A fluent GraphQL library for Go</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/mergestat/fluentgraphql">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>This package wraps the graphql-go/graphql implementation to provide a “fluent” pattern for constructing GraphQL queries in Go. This can be valuable in situations where dynamic queries are desired: when the fields of a GraphQL query (or mutation) are not known until runtime. For most other use cases, plain query strings or a helper library such as this should be sufficient.
-I wonder if this would change Mislav’s unpopular GraphQL/Go opinion…
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How we test microservices locally at Nylas</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.nylas.com/blog/how-we-test-microservices-locally-at-nylas/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Testing microservice architecture locally is difficult. At Nylas, we’ve created a local development environment using Minikube and Tilt. In this article, I walk you through how we do it.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Make resilient web apps with progressive enhancement</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://austingil.com/resilient-applications-progressive-enhancement/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Ignoring progressive enhancement could be seriously hurting your conversions. This article will show you how to build resiliency into your apps.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The mindless tyranny of &#x27;what if it changes?&#x27; as a software design principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://chriskiehl.com/article/the-tyranny-of-what-if-it-changes">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Chris Kiehl hits his hammer right on the head of this common sentiment in software circles:
-Developers from certain languages [Java] have learned to wield this design principle with more power than many others. It’s how we end up with so much stuff in code bases that’s just… there. Existing. Superficially it appears unused, but silently and stoically, we know it protects us from the turbulent future change which lurks ever ahead.
-The antithesis of one of my favorite design principles: YAGNI
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">curl offers repeated transfers at slower pace</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2022/05/23/curl-offers-repeated-transfers-at-slower-pace/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>curl --rate is your new friend. This option is for when you use curl to do many requests in a single command line, but you want curl to not do them as quickly as possible. You want curl to do them no more often than at a certain interval. This is a way to slow … Continue reading curl offers repeated transfers at slower pace →</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">The GitHub Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Eight years of the GitHub Security Bug Bounty program</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-05-23-eight-years-of-the-github-security-bug-bounty-program/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>It was another record year for our Security Bug Bounty program. We&#x27;re excited to highlight some achievements we’ve made together with the bounty community from 2021!</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-06-21T12:22:11.379Z">2022-06-21T12:22:11.379Z</time>
+    <time id="build-timestamp" datetime="2022-06-22T12:20:51.116Z">2022-06-22T12:20:51.116Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
