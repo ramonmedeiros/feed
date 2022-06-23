@@ -55,6 +55,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1648",
+          "author": null,
+          "description": "Rob Barnes (a.k.a. Devops Rob) and Rosemary Wang (author of Infrastructure as Code - Patterns & Practices) are joining us today to talk about infrastructure secrets.\nWhat do Rosemary and Rob think about committing encrypted secrets into a repository? How do they suggest that we improve on storing secrets in LastPass? And if we were to choose HashiCorp Vault, what do we need to know?\nThank you Thomas Eckert for the intro. Thank you Nabeel Sulieman (ep. 46) & Kelsey Hightower (ep. 44) for your gentle nudges towards improving our infra secrets management.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. Fire…",
+          "link": "https://changelog.com/shipit/58",
+          "publishedOn": "2022-06-22T20:20:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 58: How to keep a secret",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/58/ship-it-58.mp3",
+            "length": "71089055",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/LW1g",
+          "author": "Jerod Santo",
+          "description": "Building products is a difficult and time-consuming effort. Figuring out what the problems, finding a potential solution to that problem, and then building that solution all take a decent chunk of time and effort. It’s due to this process that the minimum viable product was born. The motivation for building an MVP is still valid. Build something small and easy to test, launch quickly, and pivot or trash it if it doesn’t perform as desired.\nThere is another, less selfish way.\nI read an article by Jason Cohen a few years ago which changed the way I think about product development. Instead of building MVPs, we should be building SLCs. Something Simple, Loveable, and Complete.\nI like the thinking behind SLCs. So simple, so loveable, so…\nHat tip to Henry Snopek for linking this up in the #gotimefm channel of Gophers Slack! When it comes to thinking about your projects, Henry says:\nI like to use MVP for fast projects, and SLC for “effective” projects…\nYeah, I like that framing too. So simple, so loveable, so…\nDiscuss on Changelog News",
+          "link": "https://herman.bearblog.dev/mvp-vs-slc/",
+          "publishedOn": "2022-06-22T16:29:00.000Z",
+          "wordCount": null,
+          "title": "The problem is that your users hate MVPs",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1684",
+          "author": null,
+          "description": "While scaling up machine learning at Instacart, Montana Low and Lev Kokotov discovered just how much you can do with the Postgres database. They are building on that work with PostgresML, an extension to the database that lets you train and deploy models to make online predictions using only SQL. This is super practical discussion that you don’t want to miss!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMontana Low – Twitter, GitHub, LinkedIn\nLev Kokotov – GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nPostgresML website\nPostgresML on GitHub\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/182",
+          "publishedOn": "2022-06-22T14:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 182: Machine learning in your database",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/182/practical-ai-182.mp3",
+            "length": "47764312",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/W1RW",
+          "author": "Jerod Santo",
+          "description": "There’s a long history of timeline tools for the web, but most of them had you inserting the data into an XML file, a JSON object, or worse yet: the HTML itself. Markdown-style plain text to the rescue?\n\nDiscuss on Changelog News",
+          "link": "https://markwhen.com/",
+          "publishedOn": "2022-06-22T14:12:00.000Z",
+          "wordCount": null,
+          "title": "Markwhen is like Markdown for timelines",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/zDWY",
           "author": "Jerod Santo",
           "description": "Simon Willison figured out how to run a SQL query directly against a CSV file using the sqlite3 CLI:\nsqlite3 :memory: -cmd '.mode csv' -cmd '.import taxi.csv taxi' \\\n  'SELECT passenger_count, COUNT(*), AVG(total_amount) FROM taxi GROUP BY passenger_count'\n\nIe TL;DR’d the one-liner for ya, but you’ll have to go to Simon’s site for the explainer.\nDiscuss on Changelog News",
@@ -908,26 +958,6 @@
           "wordCount": null,
           "title": "Smaller is better (the rise, fall, and rise of flat file software)",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/9l5N",
-          "author": "Jerod Santo",
-          "description": "Google researchers are giving DALL-E a run for its money:\nOur key discovery is that generic large language models (e.g. T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model.\n\nDiscuss on Changelog News",
-          "link": "https://gweb-research-imagen.appspot.com/",
-          "publishedOn": "2022-05-24T15:33:00.000Z",
-          "wordCount": null,
-          "title": "A text-to-image diffusion model with an unprecedented degree of photorealism",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/aQ11",
-          "author": "Jerod Santo",
-          "description": "TIL that Pong was built using hardware circuitry. Fascinating! Here’s the original schematics from Atari 👇\n\nDiscuss on Changelog News",
-          "link": "https://www.reddit.com/r/EngineeringPorn/comments/ul49zt/the_original_pong_video_game_had_no_code_and_was/",
-          "publishedOn": "2022-05-24T14:39:00.000Z",
-          "wordCount": null,
-          "title": "The original Pong video game had no code",
-          "itunes": {}
         }
       ]
     },
@@ -952,6 +982,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/research/how-ai-creates-photorealistic-images-from-text/",
+          "author": null,
+          "description": "Have you ever seen a puppy in a nest emerging from a cracked egg? What about a photo that’s overlooking a steampunk city with airships? Or a picture of two robots having a romantic evening at the movies? These might sound far-fetched, but a novel type of machine learning technology called text-to-image generation makes them possible. These models can generate high-quality, photorealistic images from a simple text prompt.\nWithin Google Research, our scientists and engineers have been exploring text-to-image generation using a variety of AI techniques. After a lot of testing we recently announced two new text-to-image models — Imagen and Parti. Both have the ability to generate photorealistic images but use different approaches. We want to share a little more about how these models work and …",
+          "link": "https://blog.google/technology/research/how-ai-creates-photorealistic-images-from-text/",
+          "publishedOn": "2022-06-22T17:00:00.000Z",
+          "wordCount": 1398,
+          "title": "How AI creates photorealistic images from text"
+        },
         {
           "id": "https://blog.google/products/chrome/building-a-more-helpful-browser-with-machine-learning/",
           "author": null,
@@ -1172,6 +1211,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65827",
+          "author": "Tanmayee Kamath",
+          "description": "We’re releasing exciting functionalities that will enable organizations to confidently manage and scale with Codespaces.",
+          "link": "https://github.blog/2022-06-22-whats-new-in-codespaces-for-organizations/",
+          "publishedOn": "2022-06-22T21:04:19.000Z",
+          "wordCount": 1097,
+          "title": "What’s new in Codespaces for Organizations"
+        },
         {
           "id": "https://github.blog/?p=65761",
           "author": "Thomas Dohmke",
@@ -1477,24 +1525,6 @@
           "publishedOn": "2022-05-25T22:22:22.000Z",
           "wordCount": 1992,
           "title": "How we use Dependabot to secure GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=65096",
-          "author": "Rachael Sewell",
-          "description": "We’re excited to announce some big improvements to our REST API documentation. We know developers rely on this documentation to integrate with GitHub, and we are committed to making it trustworthy, easy to find, and easy to use.",
-          "link": "https://github.blog/2022-05-24-improved-rest-api-documentation/",
-          "publishedOn": "2022-05-24T16:00:53.000Z",
-          "wordCount": 1161,
-          "title": "Improved REST API documentation"
-        },
-        {
-          "id": "https://github.blog/?p=65180",
-          "author": "Jessica Lord",
-          "description": "GitHub Sponsors is now available to all developers in India – no more waitlist, you can sign up right away!",
-          "link": "https://github.blog/2022-05-23-github-sponsors-launches-in-india/",
-          "publishedOn": "2022-05-24T03:30:37.000Z",
-          "wordCount": 613,
-          "title": "GitHub Sponsors launches in India"
         }
       ]
     },
@@ -1520,15 +1550,6 @@
           "publishedOn": "2022-05-26T21:32:50.000Z",
           "wordCount": 5489,
           "title": "Nubank’s Engineering Principles: interview with Edward Wible"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18427",
-          "author": "Nubank Editorial",
-          "description": "The international talents are coming from Parkside Technologies, a North American company that already uses the same functional programming languages\nThe post Nubank announces hires to strengthen tech team appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-hires-engineers-of-parkside/",
-          "publishedOn": "2022-05-24T14:10:19.000Z",
-          "wordCount": 3030,
-          "title": "Nubank announces hires to strengthen tech team"
         }
       ]
     },
@@ -1635,15 +1656,6 @@
           "publishedOn": "2022-05-27T20:00:00.000Z",
           "wordCount": 1663,
           "title": "What Is a Security.txt File and How Can It Help Your Program?"
-        },
-        {
-          "id": "https://hackerone.com/application-security/5-ways-i-provide-value-pullrequest-reviewer-when-i-start-reviewing-new-project",
-          "author": "William Barrett",
-          "description": "Important reviewer traits for providing a great code review include prior knowledge and experience, expertise, background context, attention to detail, and written communication skills. As a reviewer on PullRequest, I need to quickly gain context when I’m reviewing a project for the first time. But as is the case for any engineer new to a team, some context is gained over time.",
-          "link": "https://www.hackerone.com/application-security/5-ways-i-provide-value-pullrequest-reviewer-when-i-start-reviewing-new-project",
-          "publishedOn": "2022-05-24T16:15:00.000Z",
-          "wordCount": 1615,
-          "title": "5 Ways I Provide Value as a PullRequest Reviewer When I Start Reviewing a New Project"
         }
       ]
     },
