@@ -55,6 +55,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1674",
+          "author": null,
+          "description": "The year is 2053. The tabs-vs-spaces wars are long over. Ron Evans is the only Go programmer still alive on Earth. All he does is maintain old Go code. It’s terrible! He must find a way to warn his fellow gophers before it’s too late. Good thing he finally got that PDQ transmission system working…\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a demo at chronosphere.io.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.io\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nFeaturing\nRon Evans – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\nNotes and Links\nNew merch!\nGraphite on The Changelog\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/235",
+          "publishedOn": "2022-06-23T15:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 235: 2053: A Go Odyssey",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/235/go-time-235.mp3",
+            "length": "53885792",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/04OO",
+          "author": "Jerod Santo",
+          "description": "Laravel Pint is a zero-dependency PHP code style fixer for minimalists - built on top of PHP-CS-Fixer. Pint makes it simple to ensure that your code style stays clean and consistent.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/laravel/pint",
+          "publishedOn": "2022-06-23T14:45:00.000Z",
+          "wordCount": null,
+          "title": "Laravel Pint is a minimalist code style fixer for PHP",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/pjXe",
+          "author": "Jerod Santo",
+          "description": "Goggles enable anyone, be it individuals or a community, to alter the ranking of Brave search by using a set of instructions (rules and filters). Anyone can create, apply, or extend a Goggle. Essentially Goggles act as a custom re-ranking on top of Brave’s search index.\nThis could be really cool! A few examples use cases:\nNo Pinterest - Rerank results to remove pages / threads hosted on Pinterest.\nRust programming - Rerank results to boost content related to the Rust programming language.\nHacker News / 1k short – Prioritizes domains popular with the Hacker News community, minus those that would rank among the top 1000 most-viewed websites.\nDiscuss on Changelog News",
+          "link": "https://github.com/brave/goggles-quickstart",
+          "publishedOn": "2022-06-23T13:53:00.000Z",
+          "wordCount": null,
+          "title": "Brave Search Goggles",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1648",
           "author": null,
           "description": "Rob Barnes (a.k.a. Devops Rob) and Rosemary Wang (author of Infrastructure as Code - Patterns & Practices) are joining us today to talk about infrastructure secrets.\nWhat do Rosemary and Rob think about committing encrypted secrets into a repository? How do they suggest that we improve on storing secrets in LastPass? And if we were to choose HashiCorp Vault, what do we need to know?\nThank you Thomas Eckert for the intro. Thank you Nabeel Sulieman (ep. 46) & Kelsey Hightower (ep. 44) for your gentle nudges towards improving our infra secrets management.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. Fire…",
@@ -923,41 +958,6 @@
           "wordCount": null,
           "title": "GTD in 15 minutes",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1637",
-          "author": null,
-          "description": "This is the post-KubeCon CloudNativeCon EU 2022 week. Gerhard is talking to Matt Moore, founder & CTO of Chainguard about all things Knative and Sigstore.\nThe most important topic is swag, because none has better stickers than Chainguard.\nThe other topic is the equivalent of Let’s Encrypt for securing software.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our listeners to join the closed beta at akuity.io/changelog. The platform is a versatile Kubernetes operator for handling cluster deployments the GitOps way. Deploy your apps instantly…",
-          "link": "https://changelog.com/shipit/54",
-          "publishedOn": "2022-05-25T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 54: Knative, Sigstore & swag (KubeCon EU 2022)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/54/ship-it-54.mp3",
-            "length": "47213776",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/njO0",
-          "author": "Jerod Santo",
-          "description": "YouTubeDrive is a Wolfram Language (aka Mathematica) package that encodes/decodes arbitrary data to/from simple RGB videos which are automatically uploaded to/downloaded from YouTube. Since YouTube imposes no limits on the total number or length of videos users can upload, this provides an effectively infinite but extremely slow form of file storage.\nFiled under: ways-no-youtube-engineer-ever-imagined-people-would-use-their-software\nDiscuss on Changelog News",
-          "link": "https://github.com/dzhang314/YouTubeDrive",
-          "publishedOn": "2022-05-25T14:46:00.000Z",
-          "wordCount": null,
-          "title": "Store files as YouTube videos == infinite disk space",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Y161",
-          "author": "Jerod Santo",
-          "description": "Billy Wilcosky:\nFlat file web software is about having a set up which doesn’t use a “traditional” database. Instead it uses plain text files, other files, and/or maybe something like a json feed to store the data.\nIn this post, he explains why he thinks flat file web software is on the come up (again):\nFlat file software can be powerful. Depending on what you need. And I think with the right developers and brain power behind the movement it can be more scalable and secure. The sky’s the limit. When I hear a developer saying, no, flat file isn’t good because… really all I’m hearing is they don’t want to change the way web software works. Because what I’ve found is most anything is possible.\nHere’s a couple of flat file platforms which are incredible. One is a CMS/blog, the other a forum. Yes, a flat file forum.\nA somewhat-related categorical question: Does SQLite count?\nDiscuss on Changelog News",
-          "link": "https://www.wilcosky.com/d/51-smaller-is-better-the-rise-fall-and-rise-of-flat-file-software",
-          "publishedOn": "2022-05-25T13:56:00.000Z",
-          "wordCount": null,
-          "title": "Smaller is better (the rise, fall, and rise of flat file software)",
-          "itunes": {}
         }
       ]
     },
@@ -1130,24 +1130,6 @@
           "publishedOn": "2022-06-03T12:18:28.916Z",
           "wordCount": 1609,
           "title": "Data transfer in Manhattan using RocksDB"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
-          "author": null,
-          "description": "In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
-          "publishedOn": "2022-05-25T12:22:20.025Z",
-          "wordCount": 791,
-          "title": "Model-based candidate generation for account recommendations"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
-          "author": null,
-          "description": "We’re investing in privacy-enhancing technologies (PET) to pioneer new methods of public accountability and access to data in a manner that respects and protects the privacy of people on Twitter.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
-          "publishedOn": "2022-05-25T12:22:20.008Z",
-          "wordCount": 812,
-          "title": "Investing in privacy enhancing tech to advance transparency in ML"
         }
       ]
     },
@@ -1156,6 +1138,15 @@
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2022/06/curious-case-carrier-app.html",
+          "author": null,
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6Ae_NZQ7StBcqH_vXVqoPMX0');ol{margin:0;padding:0}table td,table th{padding:0}.HovzfPYjjR-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.HovzfPYjjR-c34{padding-top:0pt;padding-bottom:3pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c15{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c17{text-decoration-skip-…",
+          "link": "https://googleprojectzero.blogspot.com/2022/06/curious-case-carrier-app.html",
+          "publishedOn": "2022-06-23T16:01:00.000Z",
+          "wordCount": 4968,
+          "title": "Untitled"
+        },
         {
           "id": "https://googleprojectzero.blogspot.com/2022/06/an-autopsy-on-zombie-in-wild-0-day.html",
           "author": null,
@@ -1172,6 +1163,15 @@
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=47880",
+          "author": "Aria Beingessner",
+          "description": "For the last year, we've been working on the development of rust-minidump, a pure-Rust replacement for the minidump-processing half of google-breakpad. The final part in this series takes you through fuzzing rust-minidump.\nThe post Fuzzing rust-minidump for Embarrassment and Crashes – Part 2 appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/06/fuzzing-rust-minidump-for-embarrassment-and-crashes/",
+          "publishedOn": "2022-06-23T17:19:31.000Z",
+          "wordCount": 3735,
+          "title": "Fuzzing rust-minidump for Embarrassment and Crashes – Part 2"
+        },
         {
           "id": "https://hacks.mozilla.org/?p=47854",
           "author": "Xavier Harding",
@@ -1516,15 +1516,6 @@
           "publishedOn": "2022-05-27T04:37:28.000Z",
           "wordCount": 1814,
           "title": "npm security update: Attack campaign using stolen OAuth tokens"
-        },
-        {
-          "id": "https://github.blog/?p=65226",
-          "author": "Phil Turnbull",
-          "description": "A two-part story about how GitHub’s Product Security Engineering team rolled out Dependabot internally to track vulnerable dependencies, and how GitHub tracks and prioritizes technical debt.",
-          "link": "https://github.blog/2022-05-25-how-we-use-dependabot-to-secure-github/",
-          "publishedOn": "2022-05-25T22:22:22.000Z",
-          "wordCount": 1992,
-          "title": "How we use Dependabot to secure GitHub"
         }
       ]
     },
@@ -1558,6 +1549,24 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerones-depth-approach-vulnerability-triage-and-validation",
+          "author": "Naz Bozdemir",
+          "description": "Like triaging in a hospital emergency room, security issues must be diagnosed and handled by an expert as soon as they arrive. But it doesn’t stop t",
+          "link": "https://www.hackerone.com/hackerones-depth-approach-vulnerability-triage-and-validation",
+          "publishedOn": "2022-06-23T16:00:00.000Z",
+          "wordCount": 1270,
+          "title": "HackerOne’s In-Depth Approach to Vulnerability Triage and Validation"
+        },
+        {
+          "id": "https://hackerone.com/application-security/devsecops-vs-devops-what-difference",
+          "author": "HackerOne",
+          "description": "DevSecOps can dramatically reduce cyber risk for organizations—particularly those that rely on internal development for a competitive advantage.",
+          "link": "https://www.hackerone.com/application-security/devsecops-vs-devops-what-difference",
+          "publishedOn": "2022-06-23T16:00:00.000Z",
+          "wordCount": 1650,
+          "title": "DevSecOps vs DevOps: What is the Difference?"
+        },
         {
           "id": "https://hackerone.com/ethical-hacker/how-bug-bounty-uncovered-5-year-old-vulnerability-hours",
           "author": "Tyler Mann",
@@ -1689,6 +1698,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/portfolio-review-june-2022",
+          "author": "Market Radar",
+          "description": "Balanced and Pure Stocks Portfolios",
+          "link": "https://marketradar.substack.com/p/portfolio-review-june-2022",
+          "publishedOn": "2022-06-23T13:00:54.000Z",
+          "wordCount": null,
+          "title": "Portfolio Review: June 2022",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc601c1ae-716d-4742-b480-bdb4d4ebce78_895x761.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/charts-to-watch-5",
           "author": "Market Radar",
