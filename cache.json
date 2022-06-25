@@ -31,15 +31,6 @@
           "publishedOn": "2022-06-03T19:03:00.002Z",
           "wordCount": 1081,
           "title": "Announcing the winners of the 2021 GCP VRP Prize"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html",
-          "author": null,
-          "description": "Posted by Anton Bikineev, Michael Lippautz and Hannes Payer, Chrome security team\n\n\n\nMemory safety in Chrome is an ever-ongoing effort to protect our users. We are constantly experimenting with different technologies to stay ahead of malicious actors. In this spirit, this post is about our journey of using heap scanning technologies to improve memory safety of C++.\n\n\n\n\nLet’s start at the beginning though. Throughout the lifetime of an application its state is generally represented in memory. Temporal memory safety refers to the problem of guaranteeing that memory is always accessed with the most up to date information of its structure, its type. C++ unfortunately does not provide such guarantees. While there is appetite for different languages than C++ with stronger memory safety guarantee…",
-          "link": "http://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html",
-          "publishedOn": "2022-05-26T17:00:00.001Z",
-          "wordCount": 5358,
-          "title": "Retrofitting Temporal Memory Safety on C++"
         }
       ]
     },
@@ -54,6 +45,66 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/1675",
+          "author": null,
+          "description": "Nick went to Amsterdam for JSNation & React Summit 2022 and he joins Jerod to report on all the goodness! He also sits down with two special guests involved with the confs to talk Jest Preview and GraphQL Cache\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nHung Nguyen – Twitter, GitHub, Website\nRaman Lally – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nJerod Santo – Twitter, GitHub\nNotes and Links\nNick’s Tweet thread\nYulia Startsev on JS Party #180\nHung on Twitter\nJest Preview\nJest Preview on GitHub\nOS Awards\nRaman’s talk at React Summit\nApollo Client\nReact Query\nGraphQL Tag\nGraphQL Code Generator\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/231",
+          "publishedOn": "2022-06-24T19:15:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 231: Ahoy hoy, JSNation & React Summit!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/231/js-party-231.mp3",
+            "length": "69131242",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/1668",
+          "author": null,
+          "description": "Adam and Jerod are joined by Ken Kantzer, co-founder of PKC Security. Ken and his team performed upwards of 20 code audits on well-funded startups. Now that it’s 7 or 8 years later, he wrote up 16 surprising observations and things he learned looking back at the experience. We gotta discuss ’em all!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nIn…",
+          "link": "https://changelog.com/podcast/494",
+          "publishedOn": "2022-06-24T16:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 494: Lessons from 5 years of startup code audits",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/494/the-changelog-494.mp3",
+            "length": "95547860",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/mlLw",
+          "author": "Jerod Santo",
+          "description": "⇄  Verifies across many different databases\n🔍 Outputs diffs of rows in detail\n🚨 Simple CLI/API to create monitoring and alerts\n🔁 Bridges column types of different formats and levels of precision\n🔥 Verify 25M+ rows in <10s, and 1B+ rows in ~5min\n♾️  Works for tables with 10s of billions of rows\nDiscuss on Changelog News",
+          "link": "https://github.com/datafold/data-diff",
+          "publishedOn": "2022-06-24T14:51:00.000Z",
+          "wordCount": null,
+          "title": "Efficiently diff rows across two different databases",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/dqkN",
+          "author": "Jerod Santo",
+          "description": "Speaking this morning at The Linux Foundation’s Open-Source Summit, Linus Torvalds talked up the possibilities of Rust within the Linux kernel and that it could be landing quite soon – possibly even for the next kernel cycle…\nThe Linux 5.20 merge window will open following the release of Linux 5.19 stable around the end of July, so at that point we’ll see if the Rust PR is submitted and lands for this next kernel version. It wouldn’t be too surprising with how things have been pacing and already having the blessing of Linus.\nLots of positivity about this in the attached comment thread.\nDiscuss on Changelog News",
+          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-For-Linux-5.20-Possible",
+          "publishedOn": "2022-06-24T14:05:00.000Z",
+          "wordCount": null,
+          "title": "Linus Torvalds: Rust for the kernel could possibly be merged for Linux 5.20",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/6r1P",
+          "author": "Jerod Santo",
+          "description": "The Documentary tells the story of how Svelte came to be, what makes Svelte different, and how it changes the game as a JavaScript framework. Filmed in locations throughout Europe and the US, it features Svelte’s creator Rich Harris and members from the core community who contributed to making Svelte what it is today.\nLots of familiar faces in this one.\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=kMlkCYL9qo0",
+          "publishedOn": "2022-06-24T13:15:00.000Z",
+          "wordCount": null,
+          "title": "Svelte Origins: A JavaScript Documentary",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1674",
           "author": null,
@@ -903,61 +954,6 @@
           "wordCount": null,
           "title": "Is DuckDuckGo, DuckDuckDone?",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Zowk",
-          "author": "Jerod Santo",
-          "description": "Richard Hipp, announcing SQLite version 3.39.0 in their forums:\nIf you prefer, you can experiment with the latest 3.39.0 code directly in your web-browser and without having to download or install anything by visiting sqlite.org/fiddle/. (The page name is by analogy to sites like “JSFiddle” and “SQLFiddle”.)\nThe page runs a WASM-compiled copy of a recent 3.39.0 build in a sandbox in your web browser. Using controls on that page, you can import database files from your local machine (assuming they aren’t too big), work with them, then export any changes back to your desktop.\nWebAssembly FTW!\nDiscuss on Changelog News",
-          "link": "https://sqlite.org/forum/forumpost/5cfd681451",
-          "publishedOn": "2022-05-26T22:25:00.000Z",
-          "wordCount": null,
-          "title": "Run the latest SQLite beta directly in your web browser",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/73kz",
-          "author": "Marko Milojevic",
-          "description": "Unreproducible issues, although rare, are typical for each project, sooner or later. They can affect different system parts and make us many causes for investigating and fixing them.\nIn this article, I try to share some of the techniques I have used in such investigations, which gave me great help in such scenarios. I hope they are helpful to you (if you did not use them already). And, if you have techniques of your own, share them!\nDiscuss on Changelog News",
-          "link": "https://hindenbug.io/two-techniques-for-solving-unreproducible-random-bugs-97e03ac02eb9",
-          "publishedOn": "2022-05-26T20:23:00.000Z",
-          "wordCount": null,
-          "title": "Two techniques for solving unreproducible (random) bugs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/V1oQ",
-          "author": "Jerod Santo",
-          "description": "Ken Kantzer was part of ~20 code audits of companies that had just raised their A or B rounds of funding:\nIt was fascinating work – we dove deep on a great cross-section of stacks and architectures, across a wide variety of domains. We found all sorts of security issues, ranging from catastrophic to just plain interesting. And we also had a chance to chat with senior engineering leadership and CTOs more generally about the engineering and product challenges they were facing as they were just starting to scale.\nIn this post he shares some of the more surprising things he’s learned from the experience. There’s a lot to digest in this post, but I’ll highlight my favorite to whet your whistle:\nSimple Outperformed Smart. As a self-admitted elitist, it pains me to say this, but it’s true: the startups we audited that are now doing the best usually had an almost brazenly ‘Keep It Simple’ approach to engineering. Cleverness for cleverness sake was abhorred. On the flip side, the companies where we were like ”woah, these folks are smart as hell” for the most part kind of faded.\nDiscuss on Changelog News",
-          "link": "https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/",
-          "publishedOn": "2022-05-26T19:37:00.000Z",
-          "wordCount": null,
-          "title": "Learnings from 5 years of tech startup code audits",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1644",
-          "author": null,
-          "description": "The Berlin tech ecosystem was all about PHP/Python for a long time. In the recent years it became a tech hub and an early adopter of Go. In this conversation we’ll see how this reflects in the 10+ years old Go meetup, with the meetup organizing team.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at…",
-          "link": "https://changelog.com/gotime/231",
-          "publishedOn": "2022-05-26T16:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 231: Berlin's transition to Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/231/go-time-231.mp3",
-            "length": "60430300",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/JgDb",
-          "author": "Jerod Santo",
-          "description": "This excellent “pragmatic guide to getting things done” distills down many of the teachings in David Allen’s best-selling book that popularized the system.\n\nDiscuss on Changelog News",
-          "link": "https://hamberg.no/gtd",
-          "publishedOn": "2022-05-26T14:18:00.000Z",
-          "wordCount": null,
-          "title": "GTD in 15 minutes",
-          "itunes": {}
         }
       ]
     },
@@ -1059,6 +1055,24 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
+          "author": null,
+          "description": "We’re investing in privacy-enhancing technologies (PET) to pioneer new methods of public accountability and access to data in a manner that respects and protects the privacy of people on Twitter.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
+          "publishedOn": "2022-06-25T12:15:52.035Z",
+          "wordCount": 809,
+          "title": "Investing in privacy enhancing tech to advance transparency in ML"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
+          "author": null,
+          "description": "In this blog post, we share how we improved account recommendations with a model-based candidate generation framework.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations",
+          "publishedOn": "2022-06-25T12:15:52.021Z",
+          "wordCount": 787,
+          "title": "Model-based candidate generation for account recommendations"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
           "author": null,
@@ -1211,6 +1225,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65852",
+          "author": "Martin Woodward",
+          "description": "To celebrate Maintainer Month, GitHub has invested an additional $500,000 to help sponsor the open source projects that it depends on.",
+          "link": "https://github.blog/2022-06-24-thank-you-to-our-maintainers/",
+          "publishedOn": "2022-06-24T15:32:25.000Z",
+          "wordCount": 769,
+          "title": "Thank you to our maintainers"
+        },
         {
           "id": "https://github.blog/?p=65827",
           "author": "Tanmayee Kamath",
@@ -1525,6 +1548,15 @@
       "siteUrl": "https://building.nubank.com.br",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=18487",
+          "author": "Ezequiel Siddig - Editor and Content Creator at Nubank",
+          "description": "VP of Engineering Lindsey Bleimes talks about Nubank’s Engineering Principles as a catalyst of everyday decisions and the job opportunities in Latam for engineers from all over the world.\nThe post “At Nubank, engineers understand the power of engineering” appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/engineering-principles-interview-with-nu-vp-of-engineering-lindsey-bleimes/",
+          "publishedOn": "2022-06-24T17:43:44.000Z",
+          "wordCount": 4129,
+          "title": "“At Nubank, engineers understand the power of engineering”"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=18459",
           "author": "Nubank Editorial",
           "description": "Nubank's Chief of Technology Officer Matt Swann invited Nubank's CEO David Vélez for a conversation to share some thoughts about the importance of tech professionals roles.\nThe post 6 questions from a CTO to a CEO appeared first on Building Nubank.",
@@ -1532,15 +1564,6 @@
           "publishedOn": "2022-06-01T22:02:04.000Z",
           "wordCount": 3816,
           "title": "6 questions from a CTO to a CEO"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18440",
-          "author": "Ezequiel Siddig - Editor and Content Creator at Nubank",
-          "description": "“I don't necessarily worry about whether people are always talking about us, as long as they wouldn’t want to live without us”, says co-founder Edward Wible.\nThe post Nubank’s Engineering Principles: interview with Edward Wible appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubanks-engineering-principles-interview-with-co-founder-ed-wible/",
-          "publishedOn": "2022-05-26T21:32:50.000Z",
-          "wordCount": 5489,
-          "title": "Nubank’s Engineering Principles: interview with Edward Wible"
         }
       ]
     },
