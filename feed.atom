@@ -2,10 +2,203 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-28T12:21:23.320Z</updated>
+    <updated>2022-06-30T12:21:54.811Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale"/>
+        <updated>2022-06-30T12:21:37.298Z</updated>
+        <summary type="html"><![CDATA[In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 59: Postgres vs SQLite with Litestream]]></title>
+        <id>changelog.com/14/1654</id>
+        <link href="https://changelog.com/shipit/59"/>
+        <updated>2022-06-29T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ben Johnson, the creator of Litestream, joined Fly.io a few weeks after we migrated changelog.com - episode 50 has all the details. That was pure coincidence. What was not a coincidence, is Gerhard jumping at the opportunity to talk to Ben about Postgres vs SQLite with Litestream.
+The prospect of running a cluster of our app instances spread across all regions, with local SQLite & Litestream replication, is mind boggling. Let’s find out from Ben what will it take to get there.  Thanks Kürt for kicking off this dream.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry hel…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Chromium super (inline cache) type confusion]]></title>
+        <id>https://github.blog/?p=65766</id>
+        <link href="https://github.blog/2022-06-29-the-chromium-super-inline-cache-type-confusion/"/>
+        <updated>2022-06-29T18:39:46.000Z</updated>
+        <summary type="html"><![CDATA[In this post I'll exploit CVE-2022-1134, a type confusion in Chrome that I reported in March 2022, which allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site. I'll also look at some past vulnerabilities of this type and some implementation details of inline cache in V8, the JavaScript engine of Chrome.]]></summary>
+        <author>
+            <name>Man Yue Mo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improve Git monorepo performance with a file system monitor]]></title>
+        <id>https://github.blog/?p=65874</id>
+        <link href="https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/"/>
+        <updated>2022-06-29T17:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Monorepo performance can suffer due to the sheer number of files in your working directory. Git’s new builtin file system monitor makes it easy to speed up monorepo performance.]]></summary>
+        <author>
+            <name>Jeff Hostetler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reducing gender-based harms in AI with Sunipa Dev]]></title>
+        <id>https://blog.google/technology/ai/reducing-gender-based-harms-in-ai-with-sunipa-dev/</id>
+        <link href="https://blog.google/technology/ai/reducing-gender-based-harms-in-ai-with-sunipa-dev/"/>
+        <updated>2022-06-29T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Natural language processing (NLP) is a form of artificial intelligence that teaches computer programs how to take in, interpret, and produce language from large data sets. For example, grammar checkers use NLP to come up with grammar suggestions that help people write grammatically correct phrases. But as Google’s AI Principles note, it’s sometimes necessary to have human intervention to identify risks of unfair bias.
+
+
+Sunipa Dev is a research scientist at Google who focuses on Responsible AI. Some of her work focuses specifically on ways to evaluate unfair bias in NLP outcomes, reducing harms for people with queer and non-binary identities. Sunipa’s work was recently featured at a workshop at the ACM Fairness, Accountability, and Transparency (FAcct) conference in Seoul, Korea.
+
+
+In our …]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQLite or PostgreSQL? It's complicated!]]></title>
+        <id>changelog.com/news/Y1Rk</id>
+        <link href="https://www.twilio.com/blog/sqlite-postgresql-complicated"/>
+        <updated>2022-06-29T14:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Miguel Grinberg built a SQLite-backed web app for the blogging team at Twilio to track their effectiveness that started to respond slugishly when it grew much bigger than he expected (6.5 million individual daily traffic records, and with a user base that grew to over 200 employees).
+He thought this might be a good time to switch to Postgres, but he wasn’t sure if the wins he expected would be realized:
+Having publicly professed my dislike of performance benchmarks, I resisted the urge to look up any comparisons online, and instead embarked on a series of experiments to accurately measure the performance of these two databases for the specific use cases of this application.
+In this in-depth article on Twilio’s blog (no doubt being tracked by Miguel’s web app as we speak) he goes into the details of his efforts with lots of interesting findings along the way (even a plot twist!). I’ll leave you with this statement from the end:
+If you are going to take one thing away from this article, I hope it is that the only benchmarks that are valuable are those that run on your own platform, with your own stack, with your own data, and with your own software. And even then, you may need to add custom optimizations to get the best performance.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neural Machine Translation Engine for Firefox Translations add-on]]></title>
+        <id>https://hacks.mozilla.org/?p=47890</id>
+        <link href="https://hacks.mozilla.org/2022/06/neural-machine-translation-engine-for-firefox-translations-add-on/"/>
+        <updated>2022-06-29T14:50:41.000Z</updated>
+        <summary type="html"><![CDATA[Firefox Translations is a website translation add-on that provides an automated translation of web content. In this article, we will discuss the technical challenges around the development of the translation engine and how we solved them to build a usable Firefox Translations add-on.
+The post Neural Machine Translation Engine for Firefox Translations add-on appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Abhishek Aggarwal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Really important job interview questions engineers should ask (but don't)]]></title>
+        <id>changelog.com/news/ojkR</id>
+        <link href="https://posthog.com/blog/what-to-ask-in-interviews"/>
+        <updated>2022-06-29T14:06:00.000Z</updated>
+        <summary type="html"><![CDATA[James Hawkins, after being on a team that’s interviewed over 725 people:
+It’s normal for candidates not to ask harder questions about our company, so they usually miss out on a chance to (i) de-risk our company’s performance and (ii) to increase the chances they’ll like working here.
+Does the company have product-market fit? How much runway does the company have? Does their spending look within reason? What’s the culture like? And more tough questions that you really should be asking before accepting that offer.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Bear Market over? Probably not]]></title>
+        <id>https://marketradar.substack.com/p/is-bear-market-over-probably-not</id>
+        <link href="https://marketradar.substack.com/p/is-bear-market-over-probably-not"/>
+        <updated>2022-06-29T13:05:07.000Z</updated>
+        <summary type="html"><![CDATA[There has been a big drawdown but pain may not be over]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 183: AI's role in reprogramming immunity]]></title>
+        <id>changelog.com/7/1694</id>
+        <link href="https://changelog.com/practicalai/183"/>
+        <updated>2022-06-28T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Drausin Wulsin, Director of ML at Immunai, joins Daniel & Chris to talk about the role of AI in immunotherapy, and why it is proving to be the foremost approach in fighting cancer, autoimmune disease, and infectious diseases.
+The large amount of high dimensional biological data that is available today, combined with advanced machine learning techniques, creates unique opportunities to push the boundaries of what is possible in biology.
+To that end, Immunai has built the largest immune database called AMICA that contains tens of millions of cells. The company uses cutting-edge transfer learning techniques to transfer knowledge across different cell types, studies, and even species.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Drausin Wulsin – LinkedIn
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Immunai
+Immunai Fact Sheet
+Drausin Wulsin | LinkedIn
+Drausin Wulsin | Google Scholar
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Security Stages of the DevSecOps Pipeline]]></title>
+        <id>https://hackerone.com/application-security/5-security-stages-devsecops-pipeline</id>
+        <link href="https://www.hackerone.com/application-security/5-security-stages-devsecops-pipeline"/>
+        <updated>2022-06-28T18:59:00.000Z</updated>
+        <summary type="html"><![CDATA[DevSecOps builds on modern DevOps practices by incorporating security processes and automation into the development pipeline. This enables development teams to continue the rapid and continuous delivery trend while improving software assets' security. The DevSecOps pipeline follows the familiar DevOps “infinity loop” structure while incorporating some extra steps to ensure code security before, during, and after it’s pushed to production.]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Git protocol security on GitHub Enterprise Server]]></title>
+        <id>https://github.blog/?p=65902</id>
+        <link href="https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/"/>
+        <updated>2022-06-28T17:00:06.000Z</updated>
+        <summary type="html"><![CDATA[The recent changes to improve protocol security on GitHub.com are now coming to GitHub Enterprise Server, starting with version 3.6.]]></summary>
+        <author>
+            <name>Brian Carlson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PRQL is a modern language for transforming data]]></title>
+        <id>changelog.com/news/GWm9</id>
+        <link href="https://prql-lang.org/"/>
+        <updated>2022-06-28T15:47:00.000Z</updated>
+        <summary type="html"><![CDATA[The P in PRQL (pronounced “Prequel”) stands for Pipelined, which I’m convinced is a great way of writing and reasoning about queries:
+A PRQL query is a linear pipeline of transformations
+Each line of the query is a transformation of the previous line’s result. This makes it easy to read, and simple to write.
+It compiles to SQL, which means it’s compatible with most databases already and there are currently bindings for Python, JS & Rust, which is the compiler itself.
+Try it out in their web-based playground. (Thanks, Wasm!)
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A minimal implementation of DALL·E Mini]]></title>
+        <id>changelog.com/news/eE6N</id>
+        <link href="https://github.com/kuprel/min-dalle"/>
+        <updated>2022-06-28T14:57:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a minimal implementation of DALL·E Mini.  It has been stripped to the bare essentials necessary for doing inference, and converted to PyTorch.  The only third party dependencies are torch for the torch model and flax for the flax model.
+How much mini-er can it get from here? 🤔
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Things you should know about databases]]></title>
+        <id>changelog.com/news/Rdwp</id>
+        <link href="https://architecturenotes.co/things-you-should-know-about-databases/"/>
+        <updated>2022-06-28T14:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Excellent prose and super-useful diagrams make this post from architecture notes a 10/10 🏆
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oops, I spilled the beans]]></title>
         <id>https://daniel.haxx.se/blog/?p=19426</id>
@@ -274,6 +467,15 @@ The post Fuzzing rust-minidump for Embarrassment and Crashes – Part 2 appeared
         <summary type="html"><![CDATA[@import url('https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6Ae_NZQ7StBcqH_vXVqoPMX0');ol{margin:0;padding:0}table td,table th{padding:0}.HovzfPYjjR-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.HovzfPYjjR-c34{padding-top:0pt;padding-bottom:3pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c15{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c17{text-decoration-skip-…]]></summary>
         <author>
             <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Most Overlooked Server Permission Checks]]></title>
+        <id>https://hackerone.com/application-security/most-overlooked-server-permission-checks</id>
+        <link href="https://www.hackerone.com/application-security/most-overlooked-server-permission-checks"/>
+        <updated>2022-06-23T16:00:00.000Z</updated>
+        <author>
+            <name>Tyler Mann</name>
         </author>
     </entry>
     <entry>
@@ -2041,116 +2243,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[GitHub Sponsors is now available in Brazil—an exciting expansion for one of our fastest growing developer communities.]]></summary>
         <author>
             <name>Jessica Lord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[openpilot 0.8.14]]></title>
-        <id>https://blog.comma.ai/0814release/</id>
-        <link href="https://blog.comma.ai/0814release/"/>
-        <updated>2022-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Big Model]]></summary>
-        <author>
-            <name>comma.ai blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Visualize contributions to any codebase that uses Git]]></title>
-        <id>changelog.com/news/4934</id>
-        <link href="https://www.preceden.com/git"/>
-        <updated>2022-05-31T20:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Simply run git log --full-history --date=short --pretty=format:"%ad,%an" > gitlog.csv and upload the resulting file. Here’s what changelog.com’s looks like (10+ commits only to keep it tight) 👇
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a single Raspberry Pi made my home network faster]]></title>
-        <id>changelog.com/news/qMzN</id>
-        <link href="https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/"/>
-        <updated>2022-05-31T19:31:00.000Z</updated>
-        <summary type="html"><![CDATA[Spoiler alert: it’s a Pi-hole
-How does the Pi Hole work though? The Pi Hole answers your computer’s DNS queries and if it is a domain on the blacklist, it sends the request to the Pi Web server.  This Web server just serves up a blank page.  So instead of loading the ad from the real domain, the blank page from the Pi is downloaded, thus “blocking” the ad or metric.
-How effective is the setup, in practice?
-Statistically speaking our household is averaging 15% of queries blocked and a spike over a bad weather weekend of 30% blocked. It is scary and incredible to think the number of ads and metrics forced upon us, and this number continues to increase. I am delighted with the Pi Hole project and am recommending it to all.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 179: 🤗 The AI community building the future]]></title>
-        <id>changelog.com/7/1664</id>
-        <link href="https://changelog.com/practicalai/179"/>
-        <updated>2022-05-31T18:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Hugging Face is increasingly becomes the “hub” of AI innovation. In this episode, Merve Noyan joins us to dive into this hub in more detail. We discuss automation around model cards, reproducibility, and the new community features. If you are wanting to engage with the wider AI community, this is the show for you!
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Merve Noyan – Twitter, GitHub
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-The Hugging Face hub
-New Hugging Face community features
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Enterprise Server 3.5 is now generally available]]></title>
-        <id>https://github.blog/?p=65243</id>
-        <link href="https://github.blog/2022-05-31-github-enterprise-server-3-5-is-now-generally-available/"/>
-        <updated>2022-05-31T16:36:05.000Z</updated>
-        <summary type="html"><![CDATA[GitHub Enterprise Server 3.5 is available now, including access to the Container registry, the addition of Dependabot, enhanced administrator capabilities, and features for GitHub Advanced Security.]]></summary>
-        <author>
-            <name>Melody Mileski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragonfly – a cost-effective, high-performing, and easy-to-use Redis replacement]]></title>
-        <id>changelog.com/news/V1oZ</id>
-        <link href="https://github.com/dragonflydb/dragonfly"/>
-        <updated>2022-05-31T13:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Dragonfly is a modern in-memory datastore, fully compatible with Redis and Memcached APIs. Dragonfly implements novel algorithms and data structures on top of a multi-threaded, shared-nothing architecture. As a result, Dragonfly reaches x25 performance compared to Redis and supports millions of QPS on a single instance.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top games + source code from Gamedev.js Jam 2022]]></title>
-        <id>https://github.blog/?p=65250</id>
-        <link href="https://github.blog/2022-05-31-top-games-source-code-from-gamedev-js-jam-2022/"/>
-        <updated>2022-05-31T08:00:03.000Z</updated>
-        <summary type="html"><![CDATA[The recently-ended Gamedev.js Jam 2022 encouraged game developers to create web games and share their sources on GitHub. GitHub Star ⭐️ @end3r shares the best 13 entries and sees what experts and other participants think of them.]]></summary>
-        <author>
-            <name>Andrzej Mazur</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[.netrc pains]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19219</id>
-        <link href="https://daniel.haxx.se/blog/2022/05/31/netrc-pains/"/>
-        <updated>2022-05-31T07:23:43.000Z</updated>
-        <summary type="html"><![CDATA[The .netrc file is used to hold user names and passwords for specific host names and allows tools to login to those systems automatically without having to prompt the user for the credentials while avoiding having to use them in command lines. The .netrc file is typically set without group or world read permissions (0600) … Continue reading .netrc pains →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tools that make working with databases easier]]></title>
-        <id>changelog.com/news/QpwQ</id>
-        <link href="https://github.com/mgramin/awesome-db-tools"/>
-        <updated>2022-05-30T14:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Here we will collect information about awesome useful and awesome experimental tools that simplify working with databases for DBA, DevOps, Developers and mere mortals.
-Feel free to add information about your own db-tools or your favorite third-party db-tools.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

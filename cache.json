@@ -46,6 +46,86 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1654",
+          "author": null,
+          "description": "Ben Johnson, the creator of Litestream, joined Fly.io a few weeks after we migrated changelog.com - episode 50 has all the details. That was pure coincidence. What was not a coincidence, is Gerhard jumping at the opportunity to talk to Ben about Postgres vs SQLite with Litestream.\nThe prospect of running a cluster of our app instances spread across all regions, with local SQLite & Litestream replication, is mind boggling. Let’s find out from Ben what will it take to get there.  Thanks Kürt for kicking off this dream.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry hel…",
+          "link": "https://changelog.com/shipit/59",
+          "publishedOn": "2022-06-29T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 59: Postgres vs SQLite with Litestream",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/59/ship-it-59.mp3",
+            "length": "71260024",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Y1Rk",
+          "author": "Jerod Santo",
+          "description": "Miguel Grinberg built a SQLite-backed web app for the blogging team at Twilio to track their effectiveness that started to respond slugishly when it grew much bigger than he expected (6.5 million individual daily traffic records, and with a user base that grew to over 200 employees).\nHe thought this might be a good time to switch to Postgres, but he wasn’t sure if the wins he expected would be realized:\nHaving publicly professed my dislike of performance benchmarks, I resisted the urge to look up any comparisons online, and instead embarked on a series of experiments to accurately measure the performance of these two databases for the specific use cases of this application.\nIn this in-depth article on Twilio’s blog (no doubt being tracked by Miguel’s web app as we speak) he goes into the details of his efforts with lots of interesting findings along the way (even a plot twist!). I’ll leave you with this statement from the end:\nIf you are going to take one thing away from this article, I hope it is that the only benchmarks that are valuable are those that run on your own platform, with your own stack, with your own data, and with your own software. And even then, you may need to add custom optimizations to get the best performance.\nDiscuss on Changelog News",
+          "link": "https://www.twilio.com/blog/sqlite-postgresql-complicated",
+          "publishedOn": "2022-06-29T14:55:00.000Z",
+          "wordCount": null,
+          "title": "SQLite or PostgreSQL? It's complicated!",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/ojkR",
+          "author": "Jerod Santo",
+          "description": "James Hawkins, after being on a team that’s interviewed over 725 people:\nIt’s normal for candidates not to ask harder questions about our company, so they usually miss out on a chance to (i) de-risk our company’s performance and (ii) to increase the chances they’ll like working here.\nDoes the company have product-market fit? How much runway does the company have? Does their spending look within reason? What’s the culture like? And more tough questions that you really should be asking before accepting that offer.\nDiscuss on Changelog News",
+          "link": "https://posthog.com/blog/what-to-ask-in-interviews",
+          "publishedOn": "2022-06-29T14:06:00.000Z",
+          "wordCount": null,
+          "title": "Really important job interview questions engineers should ask (but don't)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1694",
+          "author": null,
+          "description": "Drausin Wulsin, Director of ML at Immunai, joins Daniel & Chris to talk about the role of AI in immunotherapy, and why it is proving to be the foremost approach in fighting cancer, autoimmune disease, and infectious diseases.\nThe large amount of high dimensional biological data that is available today, combined with advanced machine learning techniques, creates unique opportunities to push the boundaries of what is possible in biology.\nTo that end, Immunai has built the largest immune database called AMICA that contains tens of millions of cells. The company uses cutting-edge transfer learning techniques to transfer knowledge across different cell types, studies, and even species.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nDrausin Wulsin – LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nImmunai\nImmunai Fact Sheet\nDrausin Wulsin | LinkedIn\nDrausin Wulsin | Google Scholar\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/183",
+          "publishedOn": "2022-06-28T19:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 183: AI's role in reprogramming immunity",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/183/practical-ai-183.mp3",
+            "length": "47408495",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/GWm9",
+          "author": "Jerod Santo",
+          "description": "The P in PRQL (pronounced “Prequel”) stands for Pipelined, which I’m convinced is a great way of writing and reasoning about queries:\nA PRQL query is a linear pipeline of transformations\nEach line of the query is a transformation of the previous line’s result. This makes it easy to read, and simple to write.\nIt compiles to SQL, which means it’s compatible with most databases already and there are currently bindings for Python, JS & Rust, which is the compiler itself.\nTry it out in their web-based playground. (Thanks, Wasm!)\nDiscuss on Changelog News",
+          "link": "https://prql-lang.org/",
+          "publishedOn": "2022-06-28T15:47:00.000Z",
+          "wordCount": null,
+          "title": "PRQL is a modern language for transforming data",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/eE6N",
+          "author": "Jerod Santo",
+          "description": "This is a minimal implementation of DALL·E Mini.  It has been stripped to the bare essentials necessary for doing inference, and converted to PyTorch.  The only third party dependencies are torch for the torch model and flax for the flax model.\nHow much mini-er can it get from here? 🤔\nDiscuss on Changelog News",
+          "link": "https://github.com/kuprel/min-dalle",
+          "publishedOn": "2022-06-28T14:57:00.000Z",
+          "wordCount": null,
+          "title": "A minimal implementation of DALL·E Mini",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Rdwp",
+          "author": "Jerod Santo",
+          "description": "Excellent prose and super-useful diagrams make this post from architecture notes a 10/10 🏆\n\nDiscuss on Changelog News",
+          "link": "https://architecturenotes.co/things-you-should-know-about-databases/",
+          "publishedOn": "2022-06-28T14:05:00.000Z",
+          "wordCount": null,
+          "title": "Things you should know about databases",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1693",
           "author": null,
           "description": "We’re experimenting with something new: a super-brief Monday edition of “The Changelog” to help start your week off right and keep you up with the fast-moving software world.\nIf you like this, would listen to it, and want us to keep it going… let us know in the comments or by tweeting @changelog. If you’d rather we didn’t… also let us know!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog Weekly\nChangelog Weekly #412\nMarkwhen is like Markdown for timelines\nTauri 1.0 Release\nWhy products should be “slick”, not just viable\nI hate MVPs. So do your customers. Make it SLC instead.\nNo-one knows what they are doing\nSomething missing or broken? PRs welcome!",
@@ -884,61 +964,6 @@
           "wordCount": null,
           "title": "An open source alternative to AWS Aurora",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4934",
-          "author": "Jerod Santo",
-          "description": "Simply run git log --full-history --date=short --pretty=format:\"%ad,%an\" > gitlog.csv and upload the resulting file. Here’s what changelog.com’s looks like (10+ commits only to keep it tight) 👇\n\nDiscuss on Changelog News",
-          "link": "https://www.preceden.com/git",
-          "publishedOn": "2022-05-31T20:19:00.000Z",
-          "wordCount": null,
-          "title": "Visualize contributions to any codebase that uses Git",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/qMzN",
-          "author": "Jerod Santo",
-          "description": "Spoiler alert: it’s a Pi-hole\nHow does the Pi Hole work though? The Pi Hole answers your computer’s DNS queries and if it is a domain on the blacklist, it sends the request to the Pi Web server.  This Web server just serves up a blank page.  So instead of loading the ad from the real domain, the blank page from the Pi is downloaded, thus “blocking” the ad or metric.\nHow effective is the setup, in practice?\nStatistically speaking our household is averaging 15% of queries blocked and a spike over a bad weather weekend of 30% blocked. It is scary and incredible to think the number of ads and metrics forced upon us, and this number continues to increase. I am delighted with the Pi Hole project and am recommending it to all.\nDiscuss on Changelog News",
-          "link": "https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/",
-          "publishedOn": "2022-05-31T19:31:00.000Z",
-          "wordCount": null,
-          "title": "How a single Raspberry Pi made my home network faster",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1664",
-          "author": null,
-          "description": "Hugging Face is increasingly becomes the “hub” of AI innovation. In this episode, Merve Noyan joins us to dive into this hub in more detail. We discuss automation around model cards, reproducibility, and the new community features. If you are wanting to engage with the wider AI community, this is the show for you!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMerve Noyan – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nThe Hugging Face hub\nNew Hugging Face community features\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/179",
-          "publishedOn": "2022-05-31T18:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 179: 🤗 The AI community building the future",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/179/practical-ai-179.mp3",
-            "length": "45591866",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/V1oZ",
-          "author": "Jerod Santo",
-          "description": "Dragonfly is a modern in-memory datastore, fully compatible with Redis and Memcached APIs. Dragonfly implements novel algorithms and data structures on top of a multi-threaded, shared-nothing architecture. As a result, Dragonfly reaches x25 performance compared to Redis and supports millions of QPS on a single instance.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/dragonflydb/dragonfly",
-          "publishedOn": "2022-05-31T13:54:00.000Z",
-          "wordCount": null,
-          "title": "Dragonfly – a cost-effective, high-performing, and easy-to-use Redis replacement",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/QpwQ",
-          "author": "Jerod Santo",
-          "description": "Here we will collect information about awesome useful and awesome experimental tools that simplify working with databases for DBA, DevOps, Developers and mere mortals.\nFeel free to add information about your own db-tools or your favorite third-party db-tools.\nDiscuss on Changelog News",
-          "link": "https://github.com/mgramin/awesome-db-tools",
-          "publishedOn": "2022-05-30T14:25:00.000Z",
-          "wordCount": null,
-          "title": "Tools that make working with databases easier",
-          "itunes": {}
         }
       ]
     },
@@ -946,23 +971,22 @@
       "title": "comma.ai blog",
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
-      "articles": [
-        {
-          "id": "https://blog.comma.ai/0814release/",
-          "author": null,
-          "description": "Big Model",
-          "link": "https://blog.comma.ai/0814release/",
-          "publishedOn": "2022-06-01T00:00:00.000Z",
-          "wordCount": 1943,
-          "title": "openpilot 0.8.14"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "AI",
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ai/reducing-gender-based-harms-in-ai-with-sunipa-dev/",
+          "author": null,
+          "description": "Natural language processing (NLP) is a form of artificial intelligence that teaches computer programs how to take in, interpret, and produce language from large data sets. For example, grammar checkers use NLP to come up with grammar suggestions that help people write grammatically correct phrases. But as Google’s AI Principles note, it’s sometimes necessary to have human intervention to identify risks of unfair bias.\n\n\nSunipa Dev is a research scientist at Google who focuses on Responsible AI. Some of her work focuses specifically on ways to evaluate unfair bias in NLP outcomes, reducing harms for people with queer and non-binary identities. Sunipa’s work was recently featured at a workshop at the ACM Fairness, Accountability, and Transparency (FAcct) conference in Seoul, Korea.\n\n\nIn our …",
+          "link": "https://blog.google/technology/ai/reducing-gender-based-harms-in-ai-with-sunipa-dev/",
+          "publishedOn": "2022-06-29T16:00:00.000Z",
+          "wordCount": 1457,
+          "title": "Reducing gender-based harms in AI with Sunipa Dev"
+        },
         {
           "id": "https://blog.google/technology/research/how-ai-creates-photorealistic-images-from-text/",
           "author": null,
@@ -1041,15 +1065,6 @@
           "publishedOn": "2022-06-06T21:06:52.000Z",
           "wordCount": 418,
           "title": "New HTTP core specs"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19219",
-          "author": "Daniel Stenberg",
-          "description": "The .netrc file is used to hold user names and passwords for specific host names and allows tools to login to those systems automatically without having to prompt the user for the credentials while avoiding having to use them in command lines. The .netrc file is typically set without group or world read permissions (0600) … Continue reading .netrc pains →",
-          "link": "https://daniel.haxx.se/blog/2022/05/31/netrc-pains/",
-          "publishedOn": "2022-05-31T07:23:43.000Z",
-          "wordCount": 1229,
-          "title": ".netrc pains"
         }
       ]
     },
@@ -1058,6 +1073,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "author": null,
+          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "publishedOn": "2022-06-30T12:21:37.298Z",
+          "wordCount": 1491,
+          "title": "Twitter Sparrow tackles data storage challenges of scale"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/investing-in-privacy-enhancing-tech-to-advance-transparency-in-ML",
           "author": null,
@@ -1181,6 +1205,15 @@
       "siteUrl": "https://hacks.mozilla.org",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47890",
+          "author": "Abhishek Aggarwal",
+          "description": "Firefox Translations is a website translation add-on that provides an automated translation of web content. In this article, we will discuss the technical challenges around the development of the translation engine and how we solved them to build a usable Firefox Translations add-on.\nThe post Neural Machine Translation Engine for Firefox Translations add-on appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/06/neural-machine-translation-engine-for-firefox-translations-add-on/",
+          "publishedOn": "2022-06-29T14:50:41.000Z",
+          "wordCount": 2162,
+          "title": "Neural Machine Translation Engine for Firefox Translations add-on"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47870",
           "author": "Yulia Startsev",
           "description": "As part of our work to ensure a free and open web, we've been working together with Ecma International, and many partners to write a License inspired by the W3C Document and Software License. Our goal was that JavaScript’s status would align with other specifications of the Web. In addition, with this new license available to all TCs at Ecma International, this will provide other organizations to approach standardization with the same perspective.\nThe post The JavaScript Specification has a New License appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1237,6 +1270,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65766",
+          "author": "Man Yue Mo",
+          "description": "In this post I'll exploit CVE-2022-1134, a type confusion in Chrome that I reported in March 2022, which allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site. I'll also look at some past vulnerabilities of this type and some implementation details of inline cache in V8, the JavaScript engine of Chrome.",
+          "link": "https://github.blog/2022-06-29-the-chromium-super-inline-cache-type-confusion/",
+          "publishedOn": "2022-06-29T18:39:46.000Z",
+          "wordCount": 7537,
+          "title": "The Chromium super (inline cache) type confusion"
+        },
+        {
+          "id": "https://github.blog/?p=65874",
+          "author": "Jeff Hostetler",
+          "description": "Monorepo performance can suffer due to the sheer number of files in your working directory. Git’s new builtin file system monitor makes it easy to speed up monorepo performance.",
+          "link": "https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/",
+          "publishedOn": "2022-06-29T17:00:02.000Z",
+          "wordCount": 5363,
+          "title": "Improve Git monorepo performance with a file system monitor"
+        },
+        {
+          "id": "https://github.blog/?p=65902",
+          "author": "Brian Carlson",
+          "description": "The recent changes to improve protocol security on GitHub.com are now coming to GitHub Enterprise Server, starting with version 3.6.",
+          "link": "https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/",
+          "publishedOn": "2022-06-28T17:00:06.000Z",
+          "wordCount": 1186,
+          "title": "Improving Git protocol security on GitHub Enterprise Server"
+        },
         {
           "id": "https://github.blog/?p=65943",
           "author": "Madison Oliver",
@@ -1542,24 +1602,6 @@
           "publishedOn": "2022-06-01T13:00:43.000Z",
           "wordCount": 923,
           "title": "GitHub Sponsors launches in Brazil"
-        },
-        {
-          "id": "https://github.blog/?p=65243",
-          "author": "Melody Mileski",
-          "description": "GitHub Enterprise Server 3.5 is available now, including access to the Container registry, the addition of Dependabot, enhanced administrator capabilities, and features for GitHub Advanced Security.",
-          "link": "https://github.blog/2022-05-31-github-enterprise-server-3-5-is-now-generally-available/",
-          "publishedOn": "2022-05-31T16:36:05.000Z",
-          "wordCount": 1504,
-          "title": "GitHub Enterprise Server 3.5 is now generally available"
-        },
-        {
-          "id": "https://github.blog/?p=65250",
-          "author": "Andrzej Mazur",
-          "description": "The recently-ended Gamedev.js Jam 2022 encouraged game developers to create web games and share their sources on GitHub. GitHub Star ⭐️ @end3r shares the best 13 entries and sees what experts and other participants think of them.",
-          "link": "https://github.blog/2022-05-31-top-games-source-code-from-gamedev-js-jam-2022/",
-          "publishedOn": "2022-05-31T08:00:03.000Z",
-          "wordCount": 1457,
-          "title": "Top games + source code from Gamedev.js Jam 2022"
         }
       ]
     },
@@ -1594,6 +1636,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/application-security/5-security-stages-devsecops-pipeline",
+          "author": "HackerOne",
+          "description": "DevSecOps builds on modern DevOps practices by incorporating security processes and automation into the development pipeline. This enables development teams to continue the rapid and continuous delivery trend while improving software assets' security. The DevSecOps pipeline follows the familiar DevOps “infinity loop” structure while incorporating some extra steps to ensure code security before, during, and after it’s pushed to production.",
+          "link": "https://www.hackerone.com/application-security/5-security-stages-devsecops-pipeline",
+          "publishedOn": "2022-06-28T18:59:00.000Z",
+          "wordCount": 1620,
+          "title": "5 Security Stages of the DevSecOps Pipeline"
+        },
+        {
           "id": "https://hackerone.com/community-blog/hackers-health-adverse-effects-doomscrolling",
           "author": "Pamela Greenberg",
           "description": "Question: \"I spend the majority of my time researching and keeping up with current affairs. I don’t feel like anything is wrong, but then I find mys",
@@ -1601,6 +1652,15 @@
           "publishedOn": "2022-06-27T15:45:00.000Z",
           "wordCount": 1463,
           "title": "Hacker's Health: Adverse Effects of Doomscrolling"
+        },
+        {
+          "id": "https://hackerone.com/application-security/most-overlooked-server-permission-checks",
+          "author": "Tyler Mann",
+          "description": "",
+          "link": "https://www.hackerone.com/application-security/most-overlooked-server-permission-checks",
+          "publishedOn": "2022-06-23T16:00:00.000Z",
+          "wordCount": null,
+          "title": "The Most Overlooked Server Permission Checks"
         },
         {
           "id": "https://hackerone.com/hackerones-depth-approach-vulnerability-triage-and-validation",
@@ -1742,6 +1802,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/is-bear-market-over-probably-not",
+          "author": "Market Radar",
+          "description": "There has been a big drawdown but pain may not be over",
+          "link": "https://marketradar.substack.com/p/is-bear-market-over-probably-not",
+          "publishedOn": "2022-06-29T13:05:07.000Z",
+          "wordCount": null,
+          "title": "Is Bear Market over? Probably not",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F293675e5-9a33-4858-b8e8-5bd529538a53_679x427.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/portfolio-review-june-2022",
           "author": "Market Radar",
