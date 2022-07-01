@@ -46,6 +46,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1686",
+          "author": null,
+          "description": "A deep discussion on that tension between development speed and software quality. What is velocity? How does it differ from speed? How do we measure it? How do we optimize it?\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.io\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our listeners to join the closed beta at akuity.io/changelog. The platform is a versatile Kubernetes operator for handling cluster deployments the GitOps way. Deploy your apps instantly and monitor their state — get minimum overhead, maximum impact, and enterprise readiness from day one.\n\n    \nFeaturing\nNatalie Pistunovich – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Twitter, GitHub\nNotes and Links\nNoise: A Flaw in Human Judgment\nMindset: The New Psychology of Success\nHow to Use the Fibonacci Scale in Agile Estimation\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/236",
+          "publishedOn": "2022-06-30T16:40:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 236: Thoughts on velocity",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/236/go-time-236.mp3",
+            "length": "73684637",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/V1Re",
+          "author": "Jerod Santo",
+          "description": "I love the name “YOLO” for this because it’s single-stage, but I have to laugh that it’s now on its sixth version. You only live once… six times? 😆\n\nDiscuss on Changelog News",
+          "link": "https://github.com/meituan/YOLOv6",
+          "publishedOn": "2022-06-30T15:10:00.000Z",
+          "wordCount": null,
+          "title": "A single-stage object detection framework for industrial applications",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Jgq0",
+          "author": "Jerod Santo",
+          "description": "VirtualBuddy can virtualize macOS 12 and later on Apple Silicon, with the goal of offering features that are useful to developers who need to test their apps on multiple versions of macOS, especially betas.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/insidegui/VirtualBuddy",
+          "publishedOn": "2022-06-30T14:24:00.000Z",
+          "wordCount": null,
+          "title": "VirtualBuddy lets you virtualize macOS 12 and later on Apple Silicon",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1654",
           "author": null,
           "description": "Ben Johnson, the creator of Litestream, joined Fly.io a few weeks after we migrated changelog.com - episode 50 has all the details. That was pure coincidence. What was not a coincidence, is Gerhard jumping at the opportunity to talk to Ben about Postgres vs SQLite with Litestream.\nThe prospect of running a cluster of our app instances spread across all regions, with local SQLite & Litestream replication, is mind boggling. Let’s find out from Ben what will it take to get there.  Thanks Kürt for kicking off this dream.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry hel…",
@@ -954,16 +989,6 @@
           "wordCount": null,
           "title": "The only Linux command you need to know",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/bJGe",
-          "author": "Jerod Santo",
-          "description": "When we had Paul Copplestone from Supabase on The Changelog I asked him what a cloud native Postgres would look like. He replied,\nDecoupled compute and storage. So the idea is that you should be able to attach the compute part of it to a storage, hopefully like an infinite storage; you know, anything that is infinitely scalable. If you can do this, and in particular, if the compute can start up very fast, maybe in, say, a hundred milliseconds via some sort of HTTP response, then that’s cloud native, yeah.\nEnter Neon, which sells itself as:\nThe multi-cloud fully managed Postgres with a generous free tier. We separated storage and compute to offer autoscaling, branching, and bottomless storage.\nBehind this new business from MemSQL co-founder Nikita Shamgunov is the linked (Apache-licensed) server written in Rust.\nDiscuss on Changelog News",
-          "link": "https://github.com/neondatabase/neon",
-          "publishedOn": "2022-06-01T14:57:00.000Z",
-          "wordCount": null,
-          "title": "An open source alternative to AWS Aurora",
-          "itunes": {}
         }
       ]
     },
@@ -978,6 +1003,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/research/mahima-pushkarna-interview/",
+          "author": null,
+          "description": "Five years ago, information designer Mahima Pushkarna joined Google to make data easier to understand. As a senior interaction designer on the People + AI Research (PAIR) team, she designed Data Cards to help everyone better understand the contexts of the data they are using. The Data Cards Playbook puts Google’s AI Principles into practice by providing opportunities for feedback, relevant explanations and appeal.\nRecently, Mahima’s paper on Data Cards (co-written with Googlers Andrew Zaldivar and Oddur Kjartansson) was accepted to the ACM Conference on Fairness, Accountability and Transparency (ACM FAccT). Let’s catch up with her and find out more about what brought her to Google.\nHow did your background lead you to the work you’re doing now?\nI've always been fascinated by conjuring up so…",
+          "link": "https://blog.google/technology/research/mahima-pushkarna-interview/",
+          "publishedOn": "2022-06-30T16:00:00.000Z",
+          "wordCount": 1527,
+          "title": "Mahima Pushkarna is making data easier to understand"
+        },
         {
           "id": "https://blog.google/technology/ai/reducing-gender-based-harms-in-ai-with-sunipa-dev/",
           "author": null,
@@ -1012,6 +1046,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19351",
+          "author": "Daniel Stenberg",
+          "description": "On July 1st 2017, exactly five years ago today, the OSS-Fuzz project “adopted” curl into their program and started running fuzz tests against it. OSS-Fuzz is a project run by Google and they do fuzzing on a large amount of open source projects: OSS-Fuzz aims to make common open source software more secure and stable … Continue reading 5 years on OSS-Fuzz →",
+          "link": "https://daniel.haxx.se/blog/2022/07/01/5-years-on-oss-fuzz/",
+          "publishedOn": "2022-07-01T07:02:46.000Z",
+          "wordCount": 956,
+          "title": "5 years on OSS-Fuzz"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=19426",
           "author": "Daniel Stenberg",
@@ -1073,6 +1116,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
+          "author": null,
+          "description": "Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
+          "publishedOn": "2022-07-01T12:20:19.369Z",
+          "wordCount": 2190,
+          "title": "Over-squashing, Bottlenecks, and Graph Ricci curvature"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
           "author": null,
@@ -1180,6 +1232,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2022/06/2022-0-day-in-wild-exploitationso-far.html",
+          "author": null,
+          "description": "ul.lst-kix_68660h7uawx-0{list-style-type:none}ul.lst-kix_68660h7uawx-1{list-style-type:none}ul.lst-kix_68660h7uawx-2{list-style-type:none}ul.lst-kix_68660h7uawx-3{list-style-type:none}ul.lst-kix_68660h7uawx-4{list-style-type:none}ul.lst-kix_68660h7uawx-5{list-style-type:none}ul.lst-kix_68660h7uawx-6{list-style-type:none}.lst-kix_68660h7uawx-7>li:before{content:\"\\0025cb  \"}ul.lst-kix_68660h7uawx-7{list-style-type:none}ul.lst-kix_68660h7uawx-8{list-style-type:none}.lst-kix_68660h7uawx-0>li:before{content:\"\\0025cf  \"}.lst-kix_68660h7uawx-6>li:before{content:\"\\0025cf  \"}.lst-kix_68660h7uawx-8>li:before{content:\"\\0025a0  \"}li.li-bullet-0:before{margin-left:-18pt;white-space:nowrap;display:inline-block;min-width:18pt}.lst-kix_68660h7uawx-3>li:before{content:\"\\0025cf  \"}.lst-kix_68660h7uawx-2>li:…",
+          "link": "https://googleprojectzero.blogspot.com/2022/06/2022-0-day-in-wild-exploitationso-far.html",
+          "publishedOn": "2022-06-30T13:00:00.001Z",
+          "wordCount": 1495,
+          "title": "2022 0-day In-the-Wild Exploitation…so far"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2022/06/curious-case-carrier-app.html",
           "author": null,
           "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6Ae_NZQ7StBcqH_vXVqoPMX0');ol{margin:0;padding:0}table td,table th{padding:0}.HovzfPYjjR-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.HovzfPYjjR-c34{padding-top:0pt;padding-bottom:3pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c15{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c17{text-decoration-skip-…",
@@ -1270,6 +1331,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66035",
+          "author": "Victoria Dye",
+          "description": "High-quality Git commits are the key to a maintainable and collaborative open- or closed-source project. Learn strategies to improve and use commits to streamline your development process.",
+          "link": "https://github.blog/2022-06-30-write-better-commits-build-better-projects/",
+          "publishedOn": "2022-06-30T19:34:33.000Z",
+          "wordCount": 4354,
+          "title": "Write Better Commits, Build Better Projects"
+        },
+        {
+          "id": "https://github.blog/?p=65939",
+          "author": "Klint Finley",
+          "description": "Maintainers answer your questions about how to manage an open source project that grows into a community.",
+          "link": "https://github.blog/2022-06-30-what-to-do-when-your-open-source-project-becomes-a-community/",
+          "publishedOn": "2022-06-30T15:11:39.000Z",
+          "wordCount": 2183,
+          "title": "What to do when your open source project becomes a community?"
+        },
+        {
+          "id": "https://github.blog/?p=65991",
+          "author": "Ashley Bass",
+          "description": "Meet the 2022 MLH Fellowship cohort! This 12-week internship alternative is for aspiring software engineers, and powered by GitHub.",
+          "link": "https://github.blog/2022-06-30-announcing-the-summer-2022-mlh-fellowship-github-contributors/",
+          "publishedOn": "2022-06-30T15:00:47.000Z",
+          "wordCount": 1204,
+          "title": "Announcing the summer 2022 MLH Fellowship GitHub Contributors"
+        },
         {
           "id": "https://github.blog/?p=65766",
           "author": "Man Yue Mo",
@@ -1557,51 +1645,6 @@
           "publishedOn": "2022-06-02T16:00:00.000Z",
           "wordCount": 968,
           "title": "GitHub All In: Our first student cohort and what’s next"
-        },
-        {
-          "id": "https://github.blog/?p=65380",
-          "author": "Kelsey Bernius",
-          "description": "Read about all the features you may not have known come on the GitHub Free plan, and how to choose the right plan for you.",
-          "link": "https://github.blog/2022-06-01-github-team-or-free-how-to-choose-the-right-plan/",
-          "publishedOn": "2022-06-01T21:09:27.000Z",
-          "wordCount": 1059,
-          "title": "GitHub Team or Free? How to choose the right plan"
-        },
-        {
-          "id": "https://github.blog/?p=65390",
-          "author": "Kara Sowles",
-          "description": "During the month of June, we’re holding space for open source maintainers to gather, share, and be celebrated.",
-          "link": "https://github.blog/2022-06-01-welcome-to-maintainer-month/",
-          "publishedOn": "2022-06-01T19:10:48.000Z",
-          "wordCount": 690,
-          "title": "Welcome to Maintainer Month! 🎉"
-        },
-        {
-          "id": "https://github.blog/?p=65340",
-          "author": "Jakub Oleksy",
-          "description": "In May, we experienced three distinct incidents resulting in significant impact to multiple services across GitHub.com. This report also sheds light into the billing incident that impacted Actions and Codespaces users in April.",
-          "link": "https://github.blog/2022-06-01-github-availability-report-may-2022/",
-          "publishedOn": "2022-06-01T18:55:09.000Z",
-          "wordCount": 1066,
-          "title": "GitHub Availability Report: May 2022"
-        },
-        {
-          "id": "https://github.blog/?p=65333",
-          "author": "Zachary Steindler",
-          "description": "Several ways for GitHub-hosted Actions runners to connect to resources on your private network.",
-          "link": "https://github.blog/2022-06-01-connecting-to-a-private-network-from-github-hosted-actions-runners/",
-          "publishedOn": "2022-06-01T16:28:58.000Z",
-          "wordCount": 854,
-          "title": "Connecting to a private network from GitHub-hosted Actions runners"
-        },
-        {
-          "id": "https://github.blog/?p=65346",
-          "author": "Jessica Lord",
-          "description": "GitHub Sponsors is now available in Brazil—an exciting expansion for one of our fastest growing developer communities.",
-          "link": "https://github.blog/2022-06-01-github-sponsors-launches-in-brazil/",
-          "publishedOn": "2022-06-01T13:00:43.000Z",
-          "wordCount": 923,
-          "title": "GitHub Sponsors launches in Brazil"
         }
       ]
     },
@@ -1618,15 +1661,6 @@
           "publishedOn": "2022-06-24T17:43:44.000Z",
           "wordCount": 4129,
           "title": "“At Nubank, engineers understand the power of engineering”"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18459",
-          "author": "Nubank Editorial",
-          "description": "Nubank's Chief of Technology Officer Matt Swann invited Nubank's CEO David Vélez for a conversation to share some thoughts about the importance of tech professionals roles.\nThe post 6 questions from a CTO to a CEO appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/cto-matt-swann-interviews-ceo-david-velez-engineering-principles/",
-          "publishedOn": "2022-06-01T22:02:04.000Z",
-          "wordCount": 3816,
-          "title": "6 questions from a CTO to a CEO"
         }
       ]
     },
@@ -1635,6 +1669,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/penetration-testing/what-your-organization-gains-understanding-value-app-security-testing-averages",
+          "author": "Sean Ryan",
+          "description": "Daily and weekly agile software releases include bug fixes and security patches alongside new functionality. As a result, new vulnerabilities are intr",
+          "link": "https://www.hackerone.com/penetration-testing/what-your-organization-gains-understanding-value-app-security-testing-averages",
+          "publishedOn": "2022-06-30T16:00:00.000Z",
+          "wordCount": 1733,
+          "title": "What Your Organization Gains by Understanding the Value of App Security Testing Averages"
+        },
         {
           "id": "https://hackerone.com/application-security/5-security-stages-devsecops-pipeline",
           "author": "HackerOne",
