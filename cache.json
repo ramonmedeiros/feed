@@ -46,6 +46,76 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1646",
+          "author": null,
+          "description": "Adam and Jerod are joined once again by James Long. He was on the podcast five years ago discussing the surprise success of Prettier, an opinionated code formatter that’s still in use to this day. This time around we’re going deep on Actual, his personal finance system James built as a business for over 4 years before recently opening it up and making it 100% free.\nHas James given up on the business? Or will this move Actual(ly) breathe new life into a piece of software that’s used and beloved by many? Tune in to find out.\nDiscuss on Changelog News\nChangelog++ members get a bonus 27 minutes at the end of this episode and zero ads. Join today!\nSponsors\nInfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analy…",
+          "link": "https://changelog.com/podcast/495",
+          "publishedOn": "2022-07-01T20:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 495: Actual(ly) opening up",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/495/the-changelog-495.mp3",
+            "length": "92129355",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/kwOg",
+          "author": "Jerod Santo",
+          "description": "Brenton Cleeland starts a lot of projects. Django is his go-to framework, so he’s settled on these common steps he performs right after django-admin startproject\nMove the SECRET_KEY into an environment variable\nChange the database configuration to DATABASE_URL\nSet up a custom user model\nCreate your Django app\nMake a base.html\nGibo and Git Init\nDiscuss on Changelog News",
+          "link": "https://brntn.me/blog/six-things-i-do-every-time-i-start-a-django-project/",
+          "publishedOn": "2022-07-01T19:25:00.000Z",
+          "wordCount": null,
+          "title": "Six things I do every time I start a Django project",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/EqQd",
+          "author": "Jerod Santo",
+          "description": "A collection of ASCII data structures, state machines, logical structures, and more.\nPeople tend to be visual: we use pictures to understand problems. Mainstream programming languages, on the other hand, operate in an almost completely different kind of abstract space, leaving a big gap between programs and pictures. This piece is about pictures drawn using a text character set and then embedded in source code.\nDiscuss on Changelog News",
+          "link": "https://blog.regehr.org/archives/1653",
+          "publishedOn": "2022-07-01T18:38:00.000Z",
+          "wordCount": null,
+          "title": "Explaining code using ASCII art",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1676",
+          "author": null,
+          "description": "Jerod, Nick & Ali partake in a few rounds of Story of the Week, TIL, and I’m Excited about $X. Oh, and is TypeScript the new Java? Nick responds and emotes all over the place! 😆\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFeaturing\nJerod Santo – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nAli Spittel – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nStory of the Week\nDeno raises $21m\n\nRyan Dahl on The Changelog #443\nKitson Kelly on JS Party #127\nGitHub Copilot pricing announced\nAmazon Codewhisperer\nBrave Search Goggles\nRIP Atom\n\nhello, Zed\nToday I Learned\nSimon Willison’s CSV/SQlite one-liner\nfzf\njqq\nMikeal’s TypeScript tweet\nI’m Excited About $X\nSvelte Origins doc\nNoclip\nlofi.co\nWork from home with me 3 HRS\nKan Jam\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/232",
+          "publishedOn": "2022-07-01T16:40:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 232: Sophisticated Cornhole",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/232/js-party-232.mp3",
+            "length": "56277331",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/bJom",
+          "author": "Jerod Santo",
+          "description": "I logged upptime a couple years ago, but every time it crosses my path I’m so impressed by how stinkin’ clever the setup is that I just had to share it again.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/upptime/upptime",
+          "publishedOn": "2022-07-01T15:05:00.000Z",
+          "wordCount": null,
+          "title": "Free uptime monitor and status page powered entirely by GitHub",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/W1yW",
+          "author": "Jerod Santo",
+          "description": "After many years of gradual improvement Vim now takes a big step with a major release. Besides many small additions the spotlight is on a new incarnation of the Vim script language: Vim9 script.\nOne of Neovim’s major draws is that you can avoid Vim script altogether and use Lua instead. It looks like the Vim team is addressing the two major complaints folks have with Vim script: performance and its obscure syntax:\nThe main goal of Vim9 script is to drastically improve performance. This is accomplished by compiling commands into instructions that can be efficiently executed. An increase in execution speed of 10 to 100 times can be expected.\nA secondary goal is to avoid Vim-specific constructs and get closer to commonly used programming languages, such as JavaScript, TypeScript and Java.\nLegacy scripts will continue to work, of course. The Vim team has no plans to drop legacy support in the foreseeable future. Learn more about Vim9 script here or with :help vim9 inside Vim itself.\nDiscuss on Changelog News",
+          "link": "https://www.vim.org/vim90.php",
+          "publishedOn": "2022-07-01T14:19:00.000Z",
+          "wordCount": null,
+          "title": "Vim's big 9.0 release brings with it a new scripting language",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/2/1686",
           "author": null,
           "description": "A deep discussion on that tension between development speed and software quality. What is velocity? How does it differ from speed? How do we measure it? How do we optimize it?\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.io\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our listeners to join the closed beta at akuity.io/changelog. The platform is a versatile Kubernetes operator for handling cluster deployments the GitOps way. Deploy your apps instantly and monitor their state — get minimum overhead, maximum impact, and enterprise readiness from day one.\n\n    \nFeaturing\nNatalie Pistunovich – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Twitter, GitHub\nNotes and Links\nNoise: A Flaw in Human Judgment\nMindset: The New Psychology of Success\nHow to Use the Fibonacci Scale in Agile Estimation\nSomething missing or broken? PRs welcome!",
@@ -929,66 +999,6 @@
           "wordCount": null,
           "title": "Rust is hard, or: the misery of mainstream programming",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6rjg",
-          "author": "Jerod Santo",
-          "description": "A reasoned critique of the often lauded with keyword that can be summarized as:\nReturn values from different expressions in a with block can only be distinguished by the shape of the data returned. This creates ambiguity in with’s else clauses that make code harder to understand and more challenging to modify correctly.\nThe author describes the problem in detail and even provides two alternatives to with..else that avoid the resulting ambiguity.\nDiscuss on Changelog News",
-          "link": "http://stratus3d.com/blog/2022/06/01/the-problem-with-elixirs-with/",
-          "publishedOn": "2022-06-02T19:13:00.000Z",
-          "wordCount": null,
-          "title": "The problem with Elixir’s `with`",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1661",
-          "author": null,
-          "description": "During a conversation in the #gotime channel of Gopher Slack, Jerod mentioned that some people paint with a blank canvas while others paint by numbers. In this 8th episode of the maintenance series, we’re talking about maintaining our knowledge. With Jerod’s analogy and a little help from a Leslie Lamport interview, our panel discusses the myth of incremental progress.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them mov…",
-          "link": "https://changelog.com/gotime/232",
-          "publishedOn": "2022-06-02T18:20:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 232: The myth of incremental progress",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/232/go-time-232.mp3",
-            "length": "71166254",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/04wk",
-          "author": "Jerod Santo",
-          "description": "Bozhidar Batsov:\nEvery now and again I come across some discussion on making Emacs “modern”.1 The argument always go more or less like this - Emacs doesn’t look and behave like  and the world will end if we don’t copy something “crucial” from it…\nIf you ask me - there’s pretty much nothing we can do that would suddenly make Emacs as popular as VS Code. But you know what - that’s perfectly fine. After all there are plenty of “modern” editors that are even less popular than Emacs, so clearly being “modern” doesn’t make you popular. And there’s also our “arch-nemesis” vim, that’s supposedly as “dated” as Emacs, but is extremely popular.\nDiscuss on Changelog News",
-          "link": "https://batsov.com/articles/2022/06/01/who-needs-modern-emacs/",
-          "publishedOn": "2022-06-02T15:54:00.000Z",
-          "wordCount": null,
-          "title": "Who needs modern Emacs?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1655",
-          "author": null,
-          "description": "Today we are talking how to optimise sociotechnical systems with Ben Ford, founder & CEO of Mission Control. The correct order is: people, process & technology. The tools are important, and we talk about specific ones in the second half of this episode, but there are rules and principles that govern how people interact, and we need to start there.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/cod…",
-          "link": "https://changelog.com/shipit/55",
-          "publishedOn": "2022-06-02T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 55: Optimising sociotechnical systems",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/55/ship-it-55.mp3",
-            "length": "100148258",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/pj03",
-          "author": "Jerod Santo",
-          "description": "Cheeky title, but they’re talking about cheat, which is different than man and info in that it’s entirely example based and community maintained.\nThe cheat system cuts to the chase. You don’t have to piece together clues about how to use a command. You just follow the examples. Of course, for complex commands, it’s not a shortcut for a thorough study of the actual documentation, but for quick reference, it’s as fast as it gets.\nDiscuss on Changelog News",
-          "link": "https://opensource.com/article/22/6/linux-cheat-command",
-          "publishedOn": "2022-06-02T14:36:01.000Z",
-          "wordCount": null,
-          "title": "The only Linux command you need to know",
-          "itunes": {}
         }
       ]
     },
@@ -1332,6 +1342,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=66076",
+          "author": "Jose Palafox",
+          "description": "New Actions from Anchore, NowSecure, SBT, and Trivy are now available to create a more comprehensive GitHub Dependency Graph.",
+          "link": "https://github.blog/2022-07-01-extend-your-dependency-information-in-the-github-dependency-graph-with-new-github-actions/",
+          "publishedOn": "2022-07-01T17:00:20.000Z",
+          "wordCount": 949,
+          "title": "Extend your dependency information in the GitHub Dependency Graph with new GitHub Actions"
+        },
+        {
+          "id": "https://github.blog/?p=66063",
+          "author": "Ben Balter",
+          "description": "Can projects and GitHub Actions be used by your non-developer teams? They absolutely can. Check out how our Security Team uses GitHub to run the department effortlessly.",
+          "link": "https://github.blog/2022-07-01-how-the-github-security-team-uses-projects-and-github-actions-for-planning-tracking-and-more/",
+          "publishedOn": "2022-07-01T15:22:53.000Z",
+          "wordCount": 1376,
+          "title": "How the GitHub Security Team uses projects and GitHub Actions for planning, tracking, and more"
+        },
+        {
           "id": "https://github.blog/?p=66035",
           "author": "Victoria Dye",
           "description": "High-quality Git commits are the key to a maintainable and collaborative open- or closed-source project. Learn strategies to improve and use commits to streamline your development process.",
@@ -1627,24 +1655,6 @@
           "publishedOn": "2022-06-03T09:00:13.000Z",
           "wordCount": 2199,
           "title": "Making technical interviews better for everyone"
-        },
-        {
-          "id": "https://github.blog/?p=65400",
-          "author": "Rizel Scarlett",
-          "description": "Learn how you can securely manage users with the latest ships for GitHub Enterprise.",
-          "link": "https://github.blog/2022-06-02-whats-new-in-security-and-user-management-for-github-enterprise/",
-          "publishedOn": "2022-06-02T16:52:14.000Z",
-          "wordCount": 923,
-          "title": "What’s new in security and user management for GitHub Enterprise"
-        },
-        {
-          "id": "https://github.blog/?p=65197",
-          "author": "Demetris Cheatham",
-          "description": "Join us on the GitHub All In journey.",
-          "link": "https://github.blog/2022-06-02-github-all-in-our-first-student-cohort-and-whats-next/",
-          "publishedOn": "2022-06-02T16:00:00.000Z",
-          "wordCount": 968,
-          "title": "GitHub All In: Our first student cohort and what’s next"
         }
       ]
     },
@@ -1794,24 +1804,6 @@
           "publishedOn": "2022-06-06T20:20:00.000Z",
           "wordCount": 1173,
           "title": "Severe Confluence Vulnerability is an Active Threat (CVE-2022-26134)"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/how-critical-infrastructure-can-be-protected-threats",
-          "author": "Christopher Dickens",
-          "description": "Accessing a major critical infrastructure network is very appealing to cybercriminals, as they can maximize societal impact and demand large ransom sums to fix tampered systems. With recent high-profile attacks, including that against the Colonial Pipeline in March 2021, it has become clear that the organizations handling critical infrastructure networks are now in the firing line. Critical infrastructure is vulnerable to both threat groups that are evolving their tactics and public scrutiny if they do not remain transparent when an attack occurs.",
-          "link": "https://www.hackerone.com/vulnerability-management/how-critical-infrastructure-can-be-protected-threats",
-          "publishedOn": "2022-06-02T16:00:00.000Z",
-          "wordCount": 1895,
-          "title": "How Critical Infrastructure Can be Protected from Threats"
-        },
-        {
-          "id": "https://hackerone.com/customer-stories/ethical-hackers-help-beiersdorf-minimize-risk-and-protect-their-attack-surface",
-          "author": "HackerOne",
-          "description": "After a year of running a private Vulnerability Disclosure Program (VDP), Beiersdorf is announcing the launch of its public VDP. HackerOne met with Kai Widua, Chief Information Security Officer (CISO) at Beiersdorf, to learn about the challenges they face in retail security.",
-          "link": "https://www.hackerone.com/customer-stories/ethical-hackers-help-beiersdorf-minimize-risk-and-protect-their-attack-surface",
-          "publishedOn": "2022-06-02T11:45:00.000Z",
-          "wordCount": 1378,
-          "title": "Ethical Hackers Help Beiersdorf Minimize Risk and Protect Their Attack Surface"
         }
       ]
     },
