@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1709",
+          "author": null,
+          "description": "We’re listening! This week’s experimental, super-brief Monday edition of “The Changelog” has the following new features: It’s longer, there’s no background music during the stories, and it includes stories previously not featured in the newsletter.\nIf you like this better than the last one, would listen to it, and want us to keep it going… let us know in the comments or by tweeting @changelog!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog Weekly\nChangelog Weekly #412\nThe 4.5 Kinds of DevTool Platforms\nThings you should know about databases\nStart all of your commands with a comma\nOne Decade of Lobsters\nThe really important job interview questions engineers should ask (but don’t)\n2053: A Go Odyssey with Ron Evans\nupptime\nOxide Computer\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-07-04",
+          "publishedOn": "2022-07-05T20:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog DevTool platform types, things to know about databases, starting with commas, Lobsters turns 10 &  Upptime",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-07-04/the-changelog-news-2022-07-04.mp3",
+            "length": "7979651",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/1W3r",
+          "author": "Jerod Santo",
+          "description": "Functional programming is powerful in many ways, but it can be difficult for devs to learn because the jargon stops them in their tracks. If that’s been your experience, this glossary of terms and examples might help. Pair that with listening to Eric Normand talk about FP in simple terms with us on The Changelog and JS Party and you’ll be well on your way.\nDiscuss on Changelog News",
+          "link": "https://github.com/hemanth/functional-programming-jargon",
+          "publishedOn": "2022-07-05T14:30:00.000Z",
+          "wordCount": null,
+          "title": "FP jargon in simple terms",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/D1zb",
+          "author": "Jerod Santo",
+          "description": "Jeremy Brown:\nIt feels bizarre saying this, having spent so much of my life advocating for and selling a distribution of Kubernetes and consulting services to help folks get the most of out it, but here goes! YOU probably shouldn’t use Kubernetes and a bunch of other “cool” things for your product.\nThis post turns out to be less about Kubernetes and more about premature optimization and doing more with less. Also it’s about Kubernetes. 😉\nDiscuss on Changelog News",
+          "link": "https://www.jeremybrown.tech/8-kubernetes-is-a-red-flag-signalling-premature-optimisation/",
+          "publishedOn": "2022-07-05T13:41:00.000Z",
+          "wordCount": null,
+          "title": "Kubernetes is a red flag signalling premature optimisation",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1646",
           "author": null,
           "description": "Adam and Jerod are joined once again by James Long. He was on the podcast five years ago discussing the surprise success of Prettier, an opinionated code formatter that’s still in use to this day. This time around we’re going deep on Actual, his personal finance system James built as a business for over 4 years before recently opening it up and making it 100% free.\nHas James given up on the business? Or will this move Actual(ly) breathe new life into a piece of software that’s used and beloved by many? Tune in to find out.\nDiscuss on Changelog News\nChangelog++ members get a bonus 27 minutes at the end of this episode and zero ads. Join today!\nSponsors\nInfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analy…",
@@ -880,56 +915,6 @@
           "wordCount": null,
           "title": "Planet – decentralized blogs & websites powered by IPFS & ENS",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/LpMA",
-          "author": "Jerod Santo",
-          "description": "Christopher Meiklejohn has been working for two years on developing an automated resilience testing tool called Filibuster and was able to test it out at DoorDash during his research internship:\nAccess to DoorDash’s real-world industrial microservice application was extremely valuable both to ensure that Filibuster’s design matches how microservice applications are developed today and to influence future features that I would not have identified in a lab setting.\nThe results were pretty good! Maybe we won’t need chaos monkeys as tools like Filibuster advance?\nIn short, Filibuster can identify many of the technical resilience issues that exist in applications earlier, at the time of development, without testing in production as required in more traditional chaos engineering techniques.\nDiscuss on Changelog News",
-          "link": "https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/",
-          "publishedOn": "2022-06-06T21:50:00.000Z",
-          "wordCount": null,
-          "title": "Filibuster – automating resilience testing of microservice applications",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Z3Yz",
-          "author": "Travis Turner",
-          "description": "Pretty much any developer or engineer uses professional tools at work: code editors, graphic designers, word processors, and so on. But designing UIs for these kinds of tools is quite a different beast from the UI design involved with software and applications intended for “everyday” audiences.\nIn this article, we undertake a high-level analysis on some of those differences, and examine some do’s and don’t’s for designing developer tool interfaces.\nDiscuss on Changelog News",
-          "link": "https://evilmartians.com/chronicles/devs-in-mind-how-to-design-interfaces-for-developer-tools",
-          "publishedOn": "2022-06-06T21:04:00.000Z",
-          "wordCount": null,
-          "title": "Designing interfaces for developer tools",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Pp2g",
-          "author": "Jerod Santo",
-          "description": "Built using second-generation 5-nanometer technology, M2 takes the industry-leading performance per watt of M1 even further with an 18 percent faster CPU, a 35 percent more powerful GPU, and a 40 percent faster Neural Engine.1 It also delivers 50 percent more memory bandwidth compared to M1, and up to 24GB of fast unified memory.\nI pity the fool who upgraded last Fall and can think of zero good reasons to spend another pile of cash at the Apple Store right now no matter how hard he tries to drum up literally any valid reason why that would be a wise decision but if he could think of one he totally would do it and now maybe he’s just waiting for someone else to come up with some sort of justification for doing exactly that. I pity that fool 😉\nDiscuss on Changelog News",
-          "link": "https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/",
-          "publishedOn": "2022-06-06T20:18:00.000Z",
-          "wordCount": null,
-          "title": "Apple's M2 announcement makes your M1-based laptop suddenly \"feel sluggish\"",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eE4J",
-          "author": "Jerod Santo",
-          "description": "Victor Engmark thinks we should start test names with “should” for a handful of reasons, here’s a few:\nIt removes redundancy, because the function name should already be in the call stack.\nIt is falsifiable, a person reviewing the test can decide to which degree the name agrees with the actual test.\nIt encourages testing one property of the function per test\nI don’t disagree, but I like to take it a step further: Let the “should” be implied by the rest of the test name.\nInstead of: should replace children when updating instance\nI prefer: replaces children when updating instances\nInstead of: should apply discount when total cost exceeds 100 dollars\nI prefer: applies discount when total cost exceeds 100 dollars\nMost of Victor’s reasons for using “should” still apply with this format, but it’s less verbose and more accurately describes the software working as expected when the tests pass.\nDiscuss on Changelog News",
-          "link": "https://paperless.blog/start-test-names-with-should",
-          "publishedOn": "2022-06-06T14:51:00.000Z",
-          "wordCount": null,
-          "title": "Start test names with “should”",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Rd61",
-          "author": "Jerod Santo",
-          "description": "It’s packed full of useful features, to help you build your perfect dashboard. Including status checks, keyboard shortcuts, dynamic widgets, auto-fetched favicon icons and font-awesome support, built-in authentication, tons of themes, an interactive config editor, many display layouts plus loads more.\nCheck out the live demo to see Dashy in action.\n\nDiscuss on Changelog News",
-          "link": "https://dashy.to",
-          "publishedOn": "2022-06-06T13:33:00.000Z",
-          "wordCount": null,
-          "title": "Dashy is a self-hosted dashboard for your homelab",
-          "itunes": {}
         }
       ]
     },
@@ -1040,15 +1025,6 @@
           "publishedOn": "2022-06-08T06:42:32.000Z",
           "wordCount": 660,
           "title": "Making libcurl init more thread-safe"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=18849",
-          "author": "Daniel Stenberg",
-          "description": "Before this, the latest refreshed specification of HTTP/1.1 was done in the RFC 7230 series, published in June 2014. After that, HTTP/2 was done in the spring of 2015 and recently the HTTP/3 spec has been a work in progress. To better reflect this new world of multiple HTTP versions and an HTTP protocol ecosystem … Continue reading New HTTP core specs →",
-          "link": "https://daniel.haxx.se/blog/2022/06/06/new-http-core-specs/",
-          "publishedOn": "2022-06-06T21:06:52.000Z",
-          "wordCount": 418,
-          "title": "New HTTP core specs"
         }
       ]
     },
@@ -1272,6 +1248,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=65607",
+          "author": "Emilia Lazer-Walker",
+          "description": "A Little Game Called Mario is an open source, collectively developed hell project. Anyone and everyone is welcome to contribute their unique talents to make both the player and developer experience more enjoyable. Find out how the collective leverages GitHub Actions to manage this wonderful little community.",
+          "link": "https://github.blog/2022-07-06-managing-a-game-dev-community/",
+          "publishedOn": "2022-07-06T08:00:15.000Z",
+          "wordCount": 2932,
+          "title": "Managing a game dev community with GitHub Actions"
+        },
         {
           "id": "https://github.blog/?p=66076",
           "author": "Jose Palafox",
@@ -1550,24 +1535,6 @@
           "publishedOn": "2022-06-07T19:55:45.000Z",
           "wordCount": 1429,
           "title": "One developer’s journey bringing Dependabot to GitHub Enterprise Server"
-        },
-        {
-          "id": "https://github.blog/?p=65475",
-          "author": "Emily Gould",
-          "description": "Today, we’re announcing GitHub Skills, a new learning experience to help you throughout your GitHub journey.",
-          "link": "https://github.blog/2022-06-06-introducing-github-skills/",
-          "publishedOn": "2022-06-06T16:15:52.000Z",
-          "wordCount": 526,
-          "title": "Introducing GitHub Skills"
-        },
-        {
-          "id": "https://github.blog/?p=65493",
-          "author": "Courtney Claessens",
-          "description": "The Rust community can now discover, report, and prevent security vulnerabilities.",
-          "link": "https://github.blog/2022-06-06-github-brings-supply-chain-security-features-to-the-rust-community/",
-          "publishedOn": "2022-06-06T10:15:39.000Z",
-          "wordCount": 846,
-          "title": "GitHub brings supply chain security features to the Rust community"
         }
       ]
     },
@@ -1592,6 +1559,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/application-security/security-highlights-new-cwe-rankings-software-supply-chains-and-side-channel",
+          "author": "HackerOne",
+          "description": "MITRE Releases 2022 CWE Top 25\n\nThe popular CWE Top 25 list, which ranks the most dangerous software vulnerabilities, has been updated for 2022. The",
+          "link": "https://www.hackerone.com/application-security/security-highlights-new-cwe-rankings-software-supply-chains-and-side-channel",
+          "publishedOn": "2022-07-05T17:00:00.000Z",
+          "wordCount": 1518,
+          "title": "Security Highlights: New CWE Rankings, Software Supply Chains, and Side-Channel Attacks"
+        },
         {
           "id": "https://hackerone.com/penetration-testing/what-your-organization-gains-understanding-value-app-security-testing-averages",
           "author": "Sean Ryan",
@@ -1708,15 +1684,6 @@
           "publishedOn": "2022-06-09T16:00:00.000Z",
           "wordCount": 1662,
           "title": "How to Catch Injection Security Vulnerabilities in Code Review"
-        },
-        {
-          "id": "https://hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134",
-          "author": "HackerOne",
-          "description": "Background\n\nThe vulnerability allows unauthenticated remote code execution (RCE). Exploitation occurs by sending an HTTP request with an attack payl",
-          "link": "https://www.hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134",
-          "publishedOn": "2022-06-06T20:20:00.000Z",
-          "wordCount": 1173,
-          "title": "Severe Confluence Vulnerability is an Active Threat (CVE-2022-26134)"
         }
       ]
     },
@@ -1733,15 +1700,6 @@
           "publishedOn": "2022-06-15T16:34:20.000Z",
           "wordCount": 1720,
           "title": "How Netflix Content Engineering makes a federated graph searchable (Part 2)"
-        },
-        {
-          "id": "https://medium.com/p/c9e0f1488bc5",
-          "author": "Netflix Technology Blog",
-          "description": "By Astha Singhal, Lakshmi Sudheer, Julia Knecht",
-          "link": "https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-06-06T17:38:41.000Z",
-          "wordCount": 1255,
-          "title": "Scaling Appsec at Netflix (Part 2)"
         }
       ]
     },

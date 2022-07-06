@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-05T12:20:09.323Z</updated>
+    <updated>2022-07-06T12:21:28.678Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Managing a game dev community with GitHub Actions]]></title>
+        <id>https://github.blog/?p=65607</id>
+        <link href="https://github.blog/2022-07-06-managing-a-game-dev-community/"/>
+        <updated>2022-07-06T08:00:15.000Z</updated>
+        <summary type="html"><![CDATA[A Little Game Called Mario is an open source, collectively developed hell project. Anyone and everyone is welcome to contribute their unique talents to make both the player and developer experience more enjoyable. Find out how the collective leverages GitHub Actions to manage this wonderful little community.]]></summary>
+        <author>
+            <name>Emilia Lazer-Walker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog DevTool platform types, things to know about databases, starting with commas, Lobsters turns 10 &  Upptime]]></title>
+        <id>changelog.com/1/1709</id>
+        <link href="https://changelog.com/podcast/news-2022-07-04"/>
+        <updated>2022-07-05T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re listening! This week’s experimental, super-brief Monday edition of “The Changelog” has the following new features: It’s longer, there’s no background music during the stories, and it includes stories previously not featured in the newsletter.
+If you like this better than the last one, would listen to it, and want us to keep it going… let us know in the comments or by tweeting @changelog!
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Subscribe to Changelog Weekly
+Changelog Weekly #412
+The 4.5 Kinds of DevTool Platforms
+Things you should know about databases
+Start all of your commands with a comma
+One Decade of Lobsters
+The really important job interview questions engineers should ask (but don’t)
+2053: A Go Odyssey with Ron Evans
+upptime
+Oxide Computer
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security Highlights: New CWE Rankings, Software Supply Chains, and Side-Channel Attacks]]></title>
+        <id>https://hackerone.com/application-security/security-highlights-new-cwe-rankings-software-supply-chains-and-side-channel</id>
+        <link href="https://www.hackerone.com/application-security/security-highlights-new-cwe-rankings-software-supply-chains-and-side-channel"/>
+        <updated>2022-07-05T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[MITRE Releases 2022 CWE Top 25
+
+The popular CWE Top 25 list, which ranks the most dangerous software vulnerabilities, has been updated for 2022. The]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FP jargon in simple terms]]></title>
+        <id>changelog.com/news/1W3r</id>
+        <link href="https://github.com/hemanth/functional-programming-jargon"/>
+        <updated>2022-07-05T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Functional programming is powerful in many ways, but it can be difficult for devs to learn because the jargon stops them in their tracks. If that’s been your experience, this glossary of terms and examples might help. Pair that with listening to Eric Normand talk about FP in simple terms with us on The Changelog and JS Party and you’ll be well on your way.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes is a red flag signalling premature optimisation]]></title>
+        <id>changelog.com/news/D1zb</id>
+        <link href="https://www.jeremybrown.tech/8-kubernetes-is-a-red-flag-signalling-premature-optimisation/"/>
+        <updated>2022-07-05T13:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Jeremy Brown:
+It feels bizarre saying this, having spent so much of my life advocating for and selling a distribution of Kubernetes and consulting services to help folks get the most of out it, but here goes! YOU probably shouldn’t use Kubernetes and a bunch of other “cool” things for your product.
+This post turns out to be less about Kubernetes and more about premature optimization and doing more with less. Also it’s about Kubernetes. 😉
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Understanding Twitter conversations: A Wordle case study]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study</id>
@@ -2095,129 +2168,6 @@ Something missing or broken? PRs welcome!]]></summary>
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Filibuster – automating resilience testing of microservice applications]]></title>
-        <id>changelog.com/news/LpMA</id>
-        <link href="https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/"/>
-        <updated>2022-06-06T21:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Christopher Meiklejohn has been working for two years on developing an automated resilience testing tool called Filibuster and was able to test it out at DoorDash during his research internship:
-Access to DoorDash’s real-world industrial microservice application was extremely valuable both to ensure that Filibuster’s design matches how microservice applications are developed today and to influence future features that I would not have identified in a lab setting.
-The results were pretty good! Maybe we won’t need chaos monkeys as tools like Filibuster advance?
-In short, Filibuster can identify many of the technical resilience issues that exist in applications earlier, at the time of development, without testing in production as required in more traditional chaos engineering techniques.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New HTTP core specs]]></title>
-        <id>https://daniel.haxx.se/blog/?p=18849</id>
-        <link href="https://daniel.haxx.se/blog/2022/06/06/new-http-core-specs/"/>
-        <updated>2022-06-06T21:06:52.000Z</updated>
-        <summary type="html"><![CDATA[Before this, the latest refreshed specification of HTTP/1.1 was done in the RFC 7230 series, published in June 2014. After that, HTTP/2 was done in the spring of 2015 and recently the HTTP/3 spec has been a work in progress. To better reflect this new world of multiple HTTP versions and an HTTP protocol ecosystem … Continue reading New HTTP core specs →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing interfaces for developer tools]]></title>
-        <id>changelog.com/news/Z3Yz</id>
-        <link href="https://evilmartians.com/chronicles/devs-in-mind-how-to-design-interfaces-for-developer-tools"/>
-        <updated>2022-06-06T21:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Pretty much any developer or engineer uses professional tools at work: code editors, graphic designers, word processors, and so on. But designing UIs for these kinds of tools is quite a different beast from the UI design involved with software and applications intended for “everyday” audiences.
-In this article, we undertake a high-level analysis on some of those differences, and examine some do’s and don’t’s for designing developer tool interfaces.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Travis Turner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Severe Confluence Vulnerability is an Active Threat (CVE-2022-26134)]]></title>
-        <id>https://hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134</id>
-        <link href="https://www.hackerone.com/application-security/severe-confluence-vulnerability-active-threat-cve-2022-26134"/>
-        <updated>2022-06-06T20:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Background
-
-The vulnerability allows unauthenticated remote code execution (RCE). Exploitation occurs by sending an HTTP request with an attack payl]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple's M2 announcement makes your M1-based laptop suddenly "feel sluggish"]]></title>
-        <id>changelog.com/news/Pp2g</id>
-        <link href="https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/"/>
-        <updated>2022-06-06T20:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Built using second-generation 5-nanometer technology, M2 takes the industry-leading performance per watt of M1 even further with an 18 percent faster CPU, a 35 percent more powerful GPU, and a 40 percent faster Neural Engine.1 It also delivers 50 percent more memory bandwidth compared to M1, and up to 24GB of fast unified memory.
-I pity the fool who upgraded last Fall and can think of zero good reasons to spend another pile of cash at the Apple Store right now no matter how hard he tries to drum up literally any valid reason why that would be a wise decision but if he could think of one he totally would do it and now maybe he’s just waiting for someone else to come up with some sort of justification for doing exactly that. I pity that fool 😉
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaling Appsec at Netflix (Part 2)]]></title>
-        <id>https://medium.com/p/c9e0f1488bc5</id>
-        <link href="https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5?source=rss----2615bd06b42e---4"/>
-        <updated>2022-06-06T17:38:41.000Z</updated>
-        <summary type="html"><![CDATA[By Astha Singhal, Lakshmi Sudheer, Julia Knecht]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing GitHub Skills]]></title>
-        <id>https://github.blog/?p=65475</id>
-        <link href="https://github.blog/2022-06-06-introducing-github-skills/"/>
-        <updated>2022-06-06T16:15:52.000Z</updated>
-        <summary type="html"><![CDATA[Today, we’re announcing GitHub Skills, a new learning experience to help you throughout your GitHub journey.]]></summary>
-        <author>
-            <name>Emily Gould</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Start test names with “should”]]></title>
-        <id>changelog.com/news/eE4J</id>
-        <link href="https://paperless.blog/start-test-names-with-should"/>
-        <updated>2022-06-06T14:51:00.000Z</updated>
-        <summary type="html"><![CDATA[Victor Engmark thinks we should start test names with “should” for a handful of reasons, here’s a few:
-It removes redundancy, because the function name should already be in the call stack.
-It is falsifiable, a person reviewing the test can decide to which degree the name agrees with the actual test.
-It encourages testing one property of the function per test
-I don’t disagree, but I like to take it a step further: Let the “should” be implied by the rest of the test name.
-Instead of: should replace children when updating instance
-I prefer: replaces children when updating instances
-Instead of: should apply discount when total cost exceeds 100 dollars
-I prefer: applies discount when total cost exceeds 100 dollars
-Most of Victor’s reasons for using “should” still apply with this format, but it’s less verbose and more accurately describes the software working as expected when the tests pass.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dashy is a self-hosted dashboard for your homelab]]></title>
-        <id>changelog.com/news/Rd61</id>
-        <link href="https://dashy.to"/>
-        <updated>2022-06-06T13:33:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s packed full of useful features, to help you build your perfect dashboard. Including status checks, keyboard shortcuts, dynamic widgets, auto-fetched favicon icons and font-awesome support, built-in authentication, tons of themes, an interactive config editor, many display layouts plus loads more.
-Check out the live demo to see Dashy in action.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub brings supply chain security features to the Rust community]]></title>
-        <id>https://github.blog/?p=65493</id>
-        <link href="https://github.blog/2022-06-06-github-brings-supply-chain-security-features-to-the-rust-community/"/>
-        <updated>2022-06-06T10:15:39.000Z</updated>
-        <summary type="html"><![CDATA[The Rust community can now discover, report, and prevent security vulnerabilities.]]></summary>
-        <author>
-            <name>Courtney Claessens</name>
         </author>
     </entry>
 </feed>
