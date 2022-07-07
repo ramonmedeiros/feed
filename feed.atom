@@ -2,10 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-06T12:21:28.678Z</updated>
+    <updated>2022-07-07T12:21:06.707Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[An update on our work in responsible innovation]]></title>
+        <id>https://blog.google/technology/ai/an-update-on-our-work-in-responsible-innovation/</id>
+        <link href="https://blog.google/technology/ai/an-update-on-our-work-in-responsible-innovation/"/>
+        <updated>2022-07-06T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Over the last year, we’ve seen artificial intelligence (AI) systems advance our work in areas like inclusive product development and support for small businesses and job seekers. We’ve also seen its potential to be helpful in addressing major global needs — like forecasting and planning humanitarian responses to natural disasters, addressing global environmental challenges, and delivering groundbreaking scientific research.
+
+
+AI is exciting — both from a technical perspective and when considering its underlying social benefits. And yet, to fully realize AI’s potential, it must be developed responsibly, thoughtfully and in a way that gives deep consideration to core ethical questions. After all, the promise of great reward inherently involves risk — and we’re committed to ethically developi…]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 3.11 is up to 10-60% faster than Python 3.10]]></title>
+        <id>changelog.com/news/GWb9</id>
+        <link href="https://docs.python.org/3.11/whatsnew/3.11.html#faster-cpython"/>
+        <updated>2022-07-06T16:02:00.000Z</updated>
+        <summary type="html"><![CDATA[One beautiful thing about open source software: how hundreds of thousands (millions?) of people’s Python apps got faster while they were sound asleep. From 3.11’s release notes:
+CPython 3.11 is on average 25% faster than CPython 3.10 when measured with the pyperformance benchmark suite, and compiled with GCC on Ubuntu Linux. Depending on your workload, the speedup could be up to 10-60% faster.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: June 2022]]></title>
+        <id>https://github.blog/?p=66089</id>
+        <link href="https://github.blog/2022-07-06-github-availability-report-june-2022/"/>
+        <updated>2022-07-06T16:00:13.000Z</updated>
+        <summary type="html"><![CDATA[In June, we experienced four incidents resulting in significant impact to multiple GitHub.com services. This report also sheds light into an incident that impacted several GitHub.com services in May.]]></summary>
+        <author>
+            <name>Jakub Oleksy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bun is a fast all-in-one JavaScript runtime]]></title>
+        <id>changelog.com/news/eEZN</id>
+        <link href="https://bun.sh"/>
+        <updated>2022-07-06T14:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Bundle, transpile, install and run JavaScript & TypeScript projects — all in Bun. Bun is a new JavaScript runtime with a native bundler, transpiler, task runner and npm client built-in.
+Bun is competing with Node and Deno, with the following goals:
+Start fast (it has the edge in mind).
+New levels of performance (extending JavaScriptCore, the engine).
+Being a great and complete tool (bundler, transpiler, package manager).
+I like those goals, and it’s designed to be a drop-in replacement for your current runtime.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don't care how you web dev; I just need more better web apps]]></title>
+        <id>changelog.com/news/RdRp</id>
+        <link href="https://www.baldurbjarnason.com/2022/more-better-web-apps/"/>
+        <updated>2022-07-06T13:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Baldur Bjarnson:
+You don’t need to look far on web dev social media to find somebody lecturing everybody and nobody about how you should do web development. Hell, I’ve been guilty of that myself.
+You should use this or that framework.
+Or, you should not use this or that framework and instead use a cognitive framework like Model-View-Controller with ‘vanilla’ web components.
+No, no, no Functional Reactive is where it’s at.
+You should be writing code test-first and unit test everything.
+Or, you should go light on the unit tests and focus instead on integration tests.
+Or, end-to-end tests. Just test the shit out of the actual running app.
+Or, you should use this different kind of unit test which doesn’t look anything like that other kind of unit test.
+Those aren’t integration tests! This is an integration test! What’s wrong with you?!
+Sound familiar? Unfortunately, you don’t get to be a “famous” social media influencer by posting reasoned, nuanced takes that end with something like: “I dunno, this works for me but it may not for you. It depends…”
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Managing a game dev community with GitHub Actions]]></title>
         <id>https://github.blog/?p=65607</id>
@@ -2072,102 +2144,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Twenty-one years ago, in May 2001 we introduced the global initialization function to libcurl version 7.8 called curl_global_init(). The main reason we needed this separate function to get called before anything else was used in libcurl, was that several of libcurl’s dependencies at the time (including OpenSSL and GnuTLS) had themselves thread-unsafe initialization procedures. This … Continue reading Making libcurl init more thread-safe →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One developer’s journey bringing Dependabot to GitHub Enterprise Server]]></title>
-        <id>https://github.blog/?p=65520</id>
-        <link href="https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/"/>
-        <updated>2022-06-07T19:55:45.000Z</updated>
-        <summary type="html"><![CDATA[A personal story about building the feature you want and sharing it with the world.]]></summary>
-        <author>
-            <name>Landon Grindheim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What ID3v2 could have been]]></title>
-        <id>changelog.com/news/N1Rb</id>
-        <link href="https://underjord.io/id3-specification-and-speculation.html"/>
-        <updated>2022-06-07T19:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Lars Wikman on the history of ID3 tags:
-If you were a Winamp user back in the day, or curate an MP3 collection currently, you might recognize the humble ID3 tag. It is what the metadata in the MP3 file is made up of. First it was pretty limited in the version later dubbed ID3v1. Like any good 2.0 they added a ton more fields, features, removed character limits and it was suddenly ID3v2. The latest spec is ID3v2.4 while the most commonly adopted one seems to be ID3v2.3. I recently found myself having a reason to dig into this specification.
-I wonder what reason he might have to dig into this spec? Could it be for a soon-to-be-announced collab with his friends at Changelog? 😏
-This post is not about the technical intricacies of the format… This is about a simpler time, where people saw the wild possibilities of music on computers and when people cared about files, damnit. This is about some of the most interesting and entertaining things I’ve run across while reading the spec.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet Web Push]]></title>
-        <id>changelog.com/news/njn8</id>
-        <link href="https://webkit.org/blog/12945/meet-web-push/"/>
-        <updated>2022-06-07T17:08:00.000Z</updated>
-        <summary type="html"><![CDATA[One of the smaller (but big for webdevs) announcements from yesterday’s WWDC keynote was Web Push coming to Safari. It’s built on three web standards all working together. What does it do, well it enables websites to “notify their users of time-sensitive or high-priority events, even if the user does not currently have the site open.”
-As long as you’ve coded your web application to the standards you will be able to reach Safari 16 users on macOS Ventura. You don’t need to join the Apple Developer Program to send Web Push notifications.
-That’s good news, but is this feature something users want? I can think of zero websites that I’ve allowed to send me notifications even when Safari is open, let alone when I’m not even browsing the web.
-Jen Simmons posted a nice thread on Twitter alongside the announcement and fielded many people’s questions/concerns along the way.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tools for better thinking]]></title>
-        <id>changelog.com/news/Y1Xl</id>
-        <link href="https://untools.co/"/>
-        <updated>2022-06-07T16:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
-Minto Pyramid? Abstraction laddering? A lot of these are new to me (and very well explained).
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Training efficient neural network models for Firefox Translations]]></title>
-        <id>https://hacks.mozilla.org/?p=47809</id>
-        <link href="https://hacks.mozilla.org/2022/06/training-efficient-neural-network-models-for-firefox-translations/"/>
-        <updated>2022-06-07T15:25:47.000Z</updated>
-        <summary type="html"><![CDATA[The Bergamot project is a collaboration between Mozilla, University of Edinburgh, Charles University in Prague, the University of Sheffield, and University of Tartu with funding from the European Union’s Horizon 2020 research and innovation programme. It brings MT to the local environment, providing small, high-quality, CPU optimized NMT models. The Firefox Translations web extension utilizes proceedings of project Bergamot and brings local translations to Firefox. In this article, we will discuss the components used to train our efficient NMT models.
-The post Training efficient neural network models for Firefox Translations appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Evgeny Pavlov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 180: Generalist models & Iceman's voice]]></title>
-        <id>changelog.com/7/1670</id>
-        <link href="https://changelog.com/practicalai/180"/>
-        <updated>2022-06-07T15:15:00.000Z</updated>
-        <summary type="html"><![CDATA[In this “fully connected” episode of the podcast, we catch up on some recent developments in the AI world, including a new model from DeepMind called Gato. This generalist model can play video games, caption images, respond to chat messages, control robot arms, and much more. We also discuss the use of AI in the entertainment industry (e.g., in new Top Gun movie).
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-DeepMind’s Gato:
-DeepMind article
-TNW article
-Iceman’s voice in Top Gun:
-Variety article
-Sonantic - the company behind the synthetic voice
-Responsible AI review processes: From a developer’s point of view
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Planet – decentralized blogs & websites powered by IPFS & ENS]]></title>
-        <id>changelog.com/news/MbYG</id>
-        <link href="https://www.planetable.xyz/"/>
-        <updated>2022-06-07T14:21:00.000Z</updated>
-        <summary type="html"><![CDATA[It uses IPFS for file storage and the Ethereum Name Service for discovery and syndication. Planet is a Mac app that makes managing such a setup reasonable. It also acts like an RSS reader app, letting you subscribe to other decentralized sites running on the network.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

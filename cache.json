@@ -37,6 +37,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/GWb9",
+          "author": "Jerod Santo",
+          "description": "One beautiful thing about open source software: how hundreds of thousands (millions?) of people’s Python apps got faster while they were sound asleep. From 3.11’s release notes:\nCPython 3.11 is on average 25% faster than CPython 3.10 when measured with the pyperformance benchmark suite, and compiled with GCC on Ubuntu Linux. Depending on your workload, the speedup could be up to 10-60% faster.\nDiscuss on Changelog News",
+          "link": "https://docs.python.org/3.11/whatsnew/3.11.html#faster-cpython",
+          "publishedOn": "2022-07-06T16:02:00.000Z",
+          "wordCount": null,
+          "title": "Python 3.11 is up to 10-60% faster than Python 3.10",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/eEZN",
+          "author": "Jerod Santo",
+          "description": "Bundle, transpile, install and run JavaScript & TypeScript projects — all in Bun. Bun is a new JavaScript runtime with a native bundler, transpiler, task runner and npm client built-in.\nBun is competing with Node and Deno, with the following goals:\nStart fast (it has the edge in mind).\nNew levels of performance (extending JavaScriptCore, the engine).\nBeing a great and complete tool (bundler, transpiler, package manager).\nI like those goals, and it’s designed to be a drop-in replacement for your current runtime.\nDiscuss on Changelog News",
+          "link": "https://bun.sh",
+          "publishedOn": "2022-07-06T14:45:00.000Z",
+          "wordCount": null,
+          "title": "Bun is a fast all-in-one JavaScript runtime",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/RdRp",
+          "author": "Jerod Santo",
+          "description": "Baldur Bjarnson:\nYou don’t need to look far on web dev social media to find somebody lecturing everybody and nobody about how you should do web development. Hell, I’ve been guilty of that myself.\nYou should use this or that framework.\nOr, you should not use this or that framework and instead use a cognitive framework like Model-View-Controller with ‘vanilla’ web components.\nNo, no, no Functional Reactive is where it’s at.\nYou should be writing code test-first and unit test everything.\nOr, you should go light on the unit tests and focus instead on integration tests.\nOr, end-to-end tests. Just test the shit out of the actual running app.\nOr, you should use this different kind of unit test which doesn’t look anything like that other kind of unit test.\nThose aren’t integration tests! This is an integration test! What’s wrong with you?!\nSound familiar? Unfortunately, you don’t get to be a “famous” social media influencer by posting reasoned, nuanced takes that end with something like: “I dunno, this works for me but it may not for you. It depends…”\nDiscuss on Changelog News",
+          "link": "https://www.baldurbjarnason.com/2022/more-better-web-apps/",
+          "publishedOn": "2022-07-06T13:58:00.000Z",
+          "wordCount": null,
+          "title": "I don't care how you web dev; I just need more better web apps",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1709",
           "author": null,
           "description": "We’re listening! This week’s experimental, super-brief Monday edition of “The Changelog” has the following new features: It’s longer, there’s no background music during the stories, and it includes stories previously not featured in the newsletter.\nIf you like this better than the last one, would listen to it, and want us to keep it going… let us know in the comments or by tweeting @changelog!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog Weekly\nChangelog Weekly #412\nThe 4.5 Kinds of DevTool Platforms\nThings you should know about databases\nStart all of your commands with a comma\nOne Decade of Lobsters\nThe really important job interview questions engineers should ask (but don’t)\n2053: A Go Odyssey with Ron Evans\nupptime\nOxide Computer\nSomething missing or broken? PRs welcome!",
@@ -860,61 +890,6 @@
           "wordCount": null,
           "title": "The Deepfake Offensive Toolkit",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/N1Rb",
-          "author": "Jerod Santo",
-          "description": "Lars Wikman on the history of ID3 tags:\nIf you were a Winamp user back in the day, or curate an MP3 collection currently, you might recognize the humble ID3 tag. It is what the metadata in the MP3 file is made up of. First it was pretty limited in the version later dubbed ID3v1. Like any good 2.0 they added a ton more fields, features, removed character limits and it was suddenly ID3v2. The latest spec is ID3v2.4 while the most commonly adopted one seems to be ID3v2.3. I recently found myself having a reason to dig into this specification.\nI wonder what reason he might have to dig into this spec? Could it be for a soon-to-be-announced collab with his friends at Changelog? 😏\nThis post is not about the technical intricacies of the format… This is about a simpler time, where people saw the wild possibilities of music on computers and when people cared about files, damnit. This is about some of the most interesting and entertaining things I’ve run across while reading the spec.\nDiscuss on Changelog News",
-          "link": "https://underjord.io/id3-specification-and-speculation.html",
-          "publishedOn": "2022-06-07T19:36:00.000Z",
-          "wordCount": null,
-          "title": "What ID3v2 could have been",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/njn8",
-          "author": "Jerod Santo",
-          "description": "One of the smaller (but big for webdevs) announcements from yesterday’s WWDC keynote was Web Push coming to Safari. It’s built on three web standards all working together. What does it do, well it enables websites to “notify their users of time-sensitive or high-priority events, even if the user does not currently have the site open.”\nAs long as you’ve coded your web application to the standards you will be able to reach Safari 16 users on macOS Ventura. You don’t need to join the Apple Developer Program to send Web Push notifications.\nThat’s good news, but is this feature something users want? I can think of zero websites that I’ve allowed to send me notifications even when Safari is open, let alone when I’m not even browsing the web.\nJen Simmons posted a nice thread on Twitter alongside the announcement and fielded many people’s questions/concerns along the way.\nDiscuss on Changelog News",
-          "link": "https://webkit.org/blog/12945/meet-web-push/",
-          "publishedOn": "2022-06-07T17:08:00.000Z",
-          "wordCount": null,
-          "title": "Meet Web Push",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Y1Xl",
-          "author": "Jerod Santo",
-          "description": "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.\nMinto Pyramid? Abstraction laddering? A lot of these are new to me (and very well explained).\nDiscuss on Changelog News",
-          "link": "https://untools.co/",
-          "publishedOn": "2022-06-07T16:09:00.000Z",
-          "wordCount": null,
-          "title": "Tools for better thinking",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1670",
-          "author": null,
-          "description": "In this “fully connected” episode of the podcast, we catch up on some recent developments in the AI world, including a new model from DeepMind called Gato. This generalist model can play video games, caption images, respond to chat messages, control robot arms, and much more. We also discuss the use of AI in the entertainment industry (e.g., in new Top Gun movie).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nDeepMind’s Gato:\nDeepMind article\nTNW article\nIceman’s voice in Top Gun:\nVariety article\nSonantic - the company behind the synthetic voice\nResponsible AI review processes: From a developer’s point of view\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/180",
-          "publishedOn": "2022-06-07T15:15:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 180: Generalist models & Iceman's voice",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/180/practical-ai-180.mp3",
-            "length": "39998966",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/MbYG",
-          "author": "Jerod Santo",
-          "description": "It uses IPFS for file storage and the Ethereum Name Service for discovery and syndication. Planet is a Mac app that makes managing such a setup reasonable. It also acts like an RSS reader app, letting you subscribe to other decentralized sites running on the network.\nDiscuss on Changelog News",
-          "link": "https://www.planetable.xyz/",
-          "publishedOn": "2022-06-07T14:21:00.000Z",
-          "wordCount": null,
-          "title": "Planet – decentralized blogs & websites powered by IPFS & ENS",
-          "itunes": {}
         }
       ]
     },
@@ -929,6 +904,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ai/an-update-on-our-work-in-responsible-innovation/",
+          "author": null,
+          "description": "Over the last year, we’ve seen artificial intelligence (AI) systems advance our work in areas like inclusive product development and support for small businesses and job seekers. We’ve also seen its potential to be helpful in addressing major global needs — like forecasting and planning humanitarian responses to natural disasters, addressing global environmental challenges, and delivering groundbreaking scientific research.\n\n\nAI is exciting — both from a technical perspective and when considering its underlying social benefits. And yet, to fully realize AI’s potential, it must be developed responsibly, thoughtfully and in a way that gives deep consideration to core ethical questions. After all, the promise of great reward inherently involves risk — and we’re committed to ethically developi…",
+          "link": "https://blog.google/technology/ai/an-update-on-our-work-in-responsible-innovation/",
+          "publishedOn": "2022-07-06T18:00:00.000Z",
+          "wordCount": 2441,
+          "title": "An update on our work in responsible innovation"
+        },
         {
           "id": "https://blog.google/technology/research/mahima-pushkarna-interview/",
           "author": null,
@@ -1231,15 +1215,6 @@
           "publishedOn": "2022-06-14T15:05:06.000Z",
           "wordCount": 4580,
           "title": "Everything Is Broken: Shipping rust-minidump at Mozilla – Part 1"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47809",
-          "author": "Evgeny Pavlov",
-          "description": "The Bergamot project is a collaboration between Mozilla, University of Edinburgh, Charles University in Prague, the University of Sheffield, and University of Tartu with funding from the European Union’s Horizon 2020 research and innovation programme. It brings MT to the local environment, providing small, high-quality, CPU optimized NMT models. The Firefox Translations web extension utilizes proceedings of project Bergamot and brings local translations to Firefox. In this article, we will discuss the components used to train our efficient NMT models.\nThe post Training efficient neural network models for Firefox Translations appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/06/training-efficient-neural-network-models-for-firefox-translations/",
-          "publishedOn": "2022-06-07T15:25:47.000Z",
-          "wordCount": 2291,
-          "title": "Training efficient neural network models for Firefox Translations"
         }
       ]
     },
@@ -1248,6 +1223,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66089",
+          "author": "Jakub Oleksy",
+          "description": "In June, we experienced four incidents resulting in significant impact to multiple GitHub.com services. This report also sheds light into an incident that impacted several GitHub.com services in May.",
+          "link": "https://github.blog/2022-07-06-github-availability-report-june-2022/",
+          "publishedOn": "2022-07-06T16:00:13.000Z",
+          "wordCount": 1367,
+          "title": "GitHub Availability Report: June 2022"
+        },
         {
           "id": "https://github.blog/?p=65607",
           "author": "Emilia Lazer-Walker",
@@ -1526,15 +1510,6 @@
           "publishedOn": "2022-06-08T08:00:01.000Z",
           "wordCount": 808,
           "title": "Start your open source journey with Community Exchange"
-        },
-        {
-          "id": "https://github.blog/?p=65520",
-          "author": "Landon Grindheim",
-          "description": "A personal story about building the feature you want and sharing it with the world.",
-          "link": "https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/",
-          "publishedOn": "2022-06-07T19:55:45.000Z",
-          "wordCount": 1429,
-          "title": "One developer’s journey bringing Dependabot to GitHub Enterprise Server"
         }
       ]
     },
