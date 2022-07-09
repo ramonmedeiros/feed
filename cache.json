@@ -37,6 +37,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1679",
+          "author": null,
+          "description": "Today we have a special treat: Bryan Cantrill, co-founder and CTO of Oxide Computer! You may know Bryan from his work on DTrace. He worked at Sun for many years, then Oracle, and finally Joyent before starting Oxide.\nWe dig deep into their company’s mission/principles/values, hear how it it all started with a VC’s blank check that turned out to be anything but, and learn how Oxide’s integrated approach to hardware & software sets them up to compete with the established players by building servers as they should be.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps fo…",
+          "link": "https://changelog.com/podcast/496",
+          "publishedOn": "2022-07-08T19:40:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 496: Oxide builds servers (as they should be)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/496/the-changelog-496.mp3",
+            "length": "89693560",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/V1Je",
+          "author": "Jerod Santo",
+          "description": "Robb Owen:\nWhy let JS have all the fun? With mix-blend-mode finally gaining wide browser-support, we now have access to many of most common shading techniques in CSS. With some choice images and a bit of careful layering it’s possible to build some surprisingly high-quality effects without the need for introducing any JS dependencies.\nIf you’ve ever used Photoshop’s Blend Modes… you can basically do that in CSS now. So cool! Check out Robb’s entire article. He includes a lot of great examples.\nDiscuss on Changelog News",
+          "link": "https://robbowen.digital/wrote-about/css-blend-mode-shaders/",
+          "publishedOn": "2022-07-08T15:46:00.000Z",
+          "wordCount": null,
+          "title": "Holograms, light-leaks and how to build CSS-only shaders",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1700",
+          "author": null,
+          "description": "OSS developer Jessica Sachs joins Jerod & Kball to discuss re-launching and maintaining Faker.js after it was abandoned last January, Component Driven Development & Neopets!\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nFeaturing\nJessica Sachs – Twitter, GitHub, Website\nJerod Santo – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nOpen source developer corrupts his own files, impacting millions\n🎧 JS Party #210: What’s in your package.json?\nComponent Driven User Interfaces\nThe Neopets HTML Guide\nHistoire - A new way to write stories\nSvelte Summit 2022\n🎧 JS Party #148: Thank you, Dr. Bahmutav!\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/233",
+          "publishedOn": "2022-07-08T15:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 233: Accidentally testable",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/233/js-party-233.mp3",
+            "length": "59268711",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/y7kb",
+          "author": "Jerod Santo",
+          "description": "PocketBase is an open source Go backend, consisting of:\nembedded database (SQLite) with realtime subscriptions\nbuilt-in files and users management\nconvenient Admin dashboard UI\nand simple REST-ish API\nFor docs and examples, head to pocketbase.io/docs\nDiscuss on Changelog News",
+          "link": "https://github.com/pocketbase/pocketbase",
+          "publishedOn": "2022-07-08T14:14:00.000Z",
+          "wordCount": null,
+          "title": "PocketBase – an open source realtime backend in one file",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1641",
           "author": null,
           "description": "In our 6th Kaizen, we talk with Jerod about all the things that we cleaned up after migrating changelog.com from a managed Kubernetes to Fly.io. We deleted the K8s cluster and moved wildcard cert management to Fastly & all our vanity domain certs to Fly.io. We migrated the Docker Engine that our GitHub Actions is using - PR #416 has all the details. We did a few other things in preparation for our secrets plan. Thank you Maikel Vlasman, James Harr, Adrian Mester, Omri Gabay & Owen Valentine for kicking it off in our Slack #shipit channel.\nGerhard’s favourite improvement: the new shipit.show domain.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database…",
@@ -890,51 +940,6 @@
           "wordCount": null,
           "title": "The collapse of complex software",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1663",
-          "author": null,
-          "description": "We’re trying something new this week: discussing the news! Natalie, Kris & Ian weigh in on GopherCon’s move to Chicago, Google DDoSing SourceHut, reflections on Go’s success, and a new/old proposal for anonymous function syntax.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes …",
-          "link": "https://changelog.com/gotime/233",
-          "publishedOn": "2022-06-09T21:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 233: Going through the news",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/233/go-time-233.mp3",
-            "length": "59900500",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/W1oX",
-          "author": "Jerod Santo",
-          "description": "DALL-E can generate some amazing results, but we’re still in a phase of AI’s progress where having humans involved in the process is just better. Here’s how the authors of this workflow explain it:\nGenerative art is a creative process. While recent advances of DALL·E unleash people’s creativity, having a single-prompt-single-output UX/UI locks the imagination to a single possibility, which is bad no matter how fine this single result is. DALL·E Flow is an alternative to the one-liner, by formalizing the generative art as an iterative procedure.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/jina-ai/dalle-flow",
-          "publishedOn": "2022-06-09T17:57:00.000Z",
-          "wordCount": null,
-          "title": "A human-in-the-loop workflow for creating HD images from text",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/49W4",
-          "author": "Jerod Santo",
-          "description": "mirrord works by letting you select a pod to mirror traffic from. It launches a privileged pod on the same node which enters the namespace of the selected pod and captures traffic from it.\nI was more excited before I realized this is a K8s thing, but still cool. Both a VS Code extension and a CLI.\nDiscuss on Changelog News",
-          "link": "https://github.com/metalbear-co/mirrord",
-          "publishedOn": "2022-06-09T17:08:00.000Z",
-          "wordCount": null,
-          "title": "mirrord lets you easily mirror traffic from prod to dev",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ZoqM",
-          "author": "Jerod Santo",
-          "description": "GitHub will archive all projects under the Atom org on December 15, 2022. Why?\nAtom has not had significant feature development for the past several years, though we’ve conducted maintenance and security updates during this period to ensure we’re being good stewards of the project and product. As new cloud-based tools have emerged and evolved over the years, Atom community involvement has declined significantly. As a result, we’ve decided to sunset Atom so we can focus on enhancing the developer experience in the cloud with GitHub Codespaces.\nAtom was co-founder and long-time CEO Chris Wanstrath’s baby. We first heard its story from project lead Nathan Sobo on The Changelog back in 2017. Here’s what he had to say about the end of Atom’s era:\nAs Atom’s sun sets, Zed’s sun is rising. We’re not done here.\nDiscuss on Changelog News",
-          "link": "https://github.blog/2022-06-08-sunsetting-atom/",
-          "publishedOn": "2022-06-09T14:49:00.000Z",
-          "wordCount": null,
-          "title": "GitHub officially says farewell to Atom",
-          "itunes": {}
         }
       ]
     },
@@ -984,15 +989,6 @@
           "publishedOn": "2022-06-22T17:00:00.000Z",
           "wordCount": 1398,
           "title": "How AI creates photorealistic images from text"
-        },
-        {
-          "id": "https://blog.google/products/chrome/building-a-more-helpful-browser-with-machine-learning/",
-          "author": null,
-          "description": "At Google we use technologies like machine learning (ML) to build more useful products — from filtering out email spam, to keeping maps up to date, to offering more relevant search results. Chrome is no exception: We use ML to make web images more accessible to people who are blind or have low vision, and we also generate real-time captions for online videos, in service of people in noisy environments, and those who are hard of hearing.\nThis work in Chrome continues, so we wanted to share some recent and future ML improvements that offer a safer, more accessible and more personalized browsing experience. Importantly: these updates are powered by on-device ML models, which means your data stays private, and never leaves your device.\nMore peace of mind, less annoying prompts\nSafe Browsing in…",
-          "link": "https://blog.google/products/chrome/building-a-more-helpful-browser-with-machine-learning/",
-          "publishedOn": "2022-06-09T16:00:00.000Z",
-          "wordCount": 1338,
-          "title": "Building a more helpful browser with machine learning"
         }
       ]
     },
@@ -1151,15 +1147,6 @@
           "publishedOn": "2022-06-10T12:19:56.032Z",
           "wordCount": 828,
           "title": "Reconsidering Tweets"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
-          "author": null,
-          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
-          "publishedOn": "2022-06-09T12:21:18.778Z",
-          "wordCount": 985,
-          "title": "Introducing a new Swift package for Apache Thrift"
         }
       ]
     },
@@ -1510,33 +1497,6 @@
           "publishedOn": "2022-06-10T18:37:03.000Z",
           "wordCount": 5792,
           "title": "How we think about browsers"
-        },
-        {
-          "id": "https://github.blog/?p=65600",
-          "author": "Victoria Fawcett",
-          "description": "Dependabot is generally available in GitHub Enterprise Server 3.5. Here is how to set up Dependabot on your instance.",
-          "link": "https://github.blog/2022-06-09-dependabot-updates-hit-ga-in-ghes/",
-          "publishedOn": "2022-06-09T20:47:19.000Z",
-          "wordCount": 1440,
-          "title": "Dependabot Updates hit GA in GHES"
-        },
-        {
-          "id": "https://github.blog/?p=65571",
-          "author": "Shawna Butterworth",
-          "description": "We're excited to announce that we're open sourcing our Identity and Access Management solution: Entitlements.",
-          "link": "https://github.blog/2022-06-09-introducing-entitlements-githubs-open-source-identity-and-access-management-solution/",
-          "publishedOn": "2022-06-09T15:00:55.000Z",
-          "wordCount": 1259,
-          "title": "Introducing Entitlements: GitHub’s open source Identity and Access Management solution"
-        },
-        {
-          "id": "https://github.blog/?p=65583",
-          "author": "Bailey Brooks",
-          "description": "Available in public beta today, we're announcing Achievements as a new way to commemorate milestones on GitHub.",
-          "link": "https://github.blog/2022-06-09-introducing-achievements-recognizing-the-many-stages-of-a-developers-coding-journey/",
-          "publishedOn": "2022-06-09T15:00:28.000Z",
-          "wordCount": 792,
-          "title": "Introducing Achievements: recognizing the many stages of a developer’s coding journey"
         }
       ]
     },
@@ -1695,15 +1655,6 @@
           "publishedOn": "2022-06-10T16:00:00.000Z",
           "wordCount": 1898,
           "title": "The Top 5 Most Common Security Issues I Discover When Reviewing Code"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/how-catch-injection-security-vulnerabilities-code-review",
-          "author": "William Barrett",
-          "description": "Injection vulnerabilities result from insecure handling of user inputs. They are relatively simple to fix once the underlying issues that cause them are understood, and are frequently found by experienced reviewers who know what to look for. The prevalence of injection vulnerabilities today is one of the best arguments for continuing to perform code review in many organizations—this type of vulnerability is most frequently caught through human inspection of the offending code.",
-          "link": "https://www.hackerone.com/vulnerability-management/how-catch-injection-security-vulnerabilities-code-review",
-          "publishedOn": "2022-06-09T16:00:00.000Z",
-          "wordCount": 1662,
-          "title": "How to Catch Injection Security Vulnerabilities in Code Review"
         }
       ]
     },
