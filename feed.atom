@@ -2,10 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-11T12:21:31.254Z</updated>
+    <updated>2022-07-12T12:24:15.331Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Changelog Bun, K8s is a red flag, "critical" open source packages, Rustlings & FP jargon in simple terms]]></title>
+        <id>changelog.com/1/1711</id>
+        <link href="https://changelog.com/podcast/news-2022-07-11"/>
+        <updated>2022-07-11T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Jarred Sumner’s Bun comes out of the oven, Jeremy Brown doesn’t want you prematurely optimizing, Armin Ronacher’s not excited about his “critical” Python package, Daniel Thompson from Tauri thinks you should check out Rustlings, and we draw a straight line between Functional Programming jargon and boujee Gen Z slang.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Bun
+Kubernetes is a red flag
+Congratulations: We Now Have Opinions on Your Open Source Contributions
+Rustlings
+Functional Programming Jargon
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An interactive wrapper around `jq`]]></title>
+        <id>changelog.com/news/zDD4</id>
+        <link href="https://github.com/jcsalterego/jqq"/>
+        <updated>2022-07-11T14:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Nick Nisi shared this with me recently and it’s cool, so I thought I’d pass it along. Here’s Nick describing it:
+And it is a visual wrapper around jq, that kind of does the fzf type thing where as you’re writing out your query, it’s live showing you a preview in virtual text of exactly what would get returned by what you’re querying as you go. So you can use that as a nice tool to build out your jq syntax, or your jq query, and in real time get that feedback.
+The only bummer is that it’s written in Ruby. Don’t get me wrong, I love Ruby. But it requires you to have Ruby tooling on your machine to use jqq, which many people don’t have or want. BUT it’s a mere 241 lines of code, so porting it to something a little more portable shouldn’t be too much work…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A simple vaultless password manager in Go]]></title>
+        <id>changelog.com/news/8llj</id>
+        <link href="https://github.com/cloudflare/gokey"/>
+        <updated>2022-07-11T13:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Vaultless as in you do not need to manage a password vault.
+Instead of storing your passwords in a vault it derives your password on the fly from your master password and supplied realm string (for example, resource URL).
+How cool is that?! Here’s an example use:
+gokey -p super-secret-master-password -r example.com
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charts to Watch #6]]></title>
+        <id>https://marketradar.substack.com/p/charts-to-watch-6</id>
+        <link href="https://marketradar.substack.com/p/charts-to-watch-6"/>
+        <updated>2022-07-11T12:45:16.000Z</updated>
+        <summary type="html"><![CDATA[A mix of charts on stocks, indices and crypto]]></summary>
+        <author>
+            <name>Market Radar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reconsidering Tweets]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets</id>
