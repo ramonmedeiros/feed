@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-12T12:24:15.331Z</updated>
+    <updated>2022-07-13T12:18:39.974Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[predef is our friend]]></title>
+        <id>https://daniel.haxx.se/blog/?p=19553</id>
+        <link href="https://daniel.haxx.se/blog/2022/07/13/predef-is-our-friend/"/>
+        <updated>2022-07-12T22:12:02.000Z</updated>
+        <summary type="html"><![CDATA[For C programmers like me, who want to write portable programs that can get built and run on the widest possible array of machines and platforms, we often need to write conditional code. Code that use #ifdefs for particular conditions. Such ifdefs expressions often need to check for a particular compiler, an operating system or … Continue reading predef is our friend →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 184: Cloning voices with Coqui]]></title>
+        <id>changelog.com/7/1712</id>
+        <link href="https://changelog.com/practicalai/184"/>
+        <updated>2022-07-12T15:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Coqui is a speech technology startup that making huge waves in terms of their contributions to open source speech technology, open access models and data, and compelling voice cloning functionality. Josh Meyer from Coqui joins us in this episode to discuss cloning voices that have emotion, fostering open source, and how creators are using AI tech.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Josh Meyer – Twitter, GitHub
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Coqui
+BibleTTS - Data and models for African langauges
+Coqui TTS Hugging Face Space
+Coqui on Github
+Joshua’s previous Practical AI episode about Common Voice
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Changelog Bun, K8s is a red flag, "critical" open source packages, Rustlings & FP jargon in simple terms]]></title>
         <id>changelog.com/1/1711</id>
@@ -2068,79 +2101,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Source Monthly: June 2022 Edition]]></title>
-        <id>https://github.blog/?p=65652</id>
-        <link href="https://github.blog/2022-06-13-open-source-monthly-june-2022-edition/"/>
-        <updated>2022-06-13T20:47:28.000Z</updated>
-        <summary type="html"><![CDATA[June's Open Source Monthly features Modos–a community-focused company building software and hardware that designs digital devices with respect for users' time, attention, and well-being.]]></summary>
-        <author>
-            <name>Rizel Scarlett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[H1 Community Team: Your Hacker Allies]]></title>
-        <id>https://hackerone.com/community-blog/h1-community-team-your-hacker-allies</id>
-        <link href="https://www.hackerone.com/community-blog/h1-community-team-your-hacker-allies"/>
-        <updated>2022-06-13T17:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Jessica Sexton, Director of Community (Twitter/LinkedIn)
-
-
-"I am excited to build a team and strategic programs that focus on human connectio]]></summary>
-        <author>
-            <name>jesse@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Community at HackerOne: What's to Come]]></title>
-        <id>https://hackerone.com/community-blog/community-hackerone-whats-come</id>
-        <link href="https://www.hackerone.com/community-blog/community-hackerone-whats-come"/>
-        <updated>2022-06-13T17:40:43.000Z</updated>
-        <summary type="html"><![CDATA[From Jessica Sexton - Director of Community,
-
-Three years ago, I found my home at HackerOne. My primary focus was to revamp our Live Hacking Events]]></summary>
-        <author>
-            <name>jessica@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fresh - a next-gen web framework for Deno]]></title>
-        <id>changelog.com/news/w9wz</id>
-        <link href="https://fresh.deno.dev/"/>
-        <updated>2022-06-13T14:16:00.000Z</updated>
-        <summary type="html"><![CDATA[Fresh is in the “SSR with client-side progressive enhancement” camp. I have to admit their list of ‘stand out’ features are quite appealing:
-No JS is shipped to the client by default
-No build step
-No configuration required
-TypeScript support out of the box
-If you’re feeling some JavaScript and/or Framework Fatigue, this won’t help. But competition pushes everyone (Next, Remix, etc) to improve. So, whether you check Fresh out or not, hopefully it’ll have a positive impact on your work.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Useful utilities and services over DNS]]></title>
-        <id>changelog.com/news/dqV0</id>
-        <link href="https://www.dns.toys/"/>
-        <updated>2022-06-13T13:23:00.000Z</updated>
-        <summary type="html"><![CDATA[dns.toys is a DNS server that takes creative liberties with the DNS protocol to offer handy utilities and services that are easily accessible via the command line.
-Provides world time, unit conversion, weather and more. All over DNS.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charts to watch #5]]></title>
-        <id>https://marketradar.substack.com/p/charts-to-watch-5</id>
-        <link href="https://marketradar.substack.com/p/charts-to-watch-5"/>
-        <updated>2022-06-13T13:00:37.000Z</updated>
-        <summary type="html"><![CDATA[A mix of charts on stocks, indices and crypto]]></summary>
-        <author>
-            <name>Market Radar</name>
         </author>
     </entry>
 </feed>

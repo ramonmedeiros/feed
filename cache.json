@@ -37,6 +37,21 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1712",
+          "author": null,
+          "description": "Coqui is a speech technology startup that making huge waves in terms of their contributions to open source speech technology, open access models and data, and compelling voice cloning functionality. Josh Meyer from Coqui joins us in this episode to discuss cloning voices that have emotion, fostering open source, and how creators are using AI tech.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJosh Meyer – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nCoqui\nBibleTTS - Data and models for African langauges\nCoqui TTS Hugging Face Space\nCoqui on Github\nJoshua’s previous Practical AI episode about Common Voice\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/184",
+          "publishedOn": "2022-07-12T15:10:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 184: Cloning voices with Coqui",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/184/practical-ai-184.mp3",
+            "length": "50325885",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/1/1711",
           "author": null,
           "description": "Jarred Sumner’s Bun comes out of the oven, Jeremy Brown doesn’t want you prematurely optimizing, Armin Ronacher’s not excited about his “critical” Python package, Daniel Thompson from Tauri thinks you should check out Rustlings, and we draw a straight line between Functional Programming jargon and boujee Gen Z slang.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nBun\nKubernetes is a red flag\nCongratulations: We Now Have Opinions on Your Open Source Contributions\nRustlings\nFunctional Programming Jargon\nSomething missing or broken? PRs welcome!",
@@ -905,26 +920,6 @@
           "wordCount": null,
           "title": "Why we’re sticking with Ruby on Rails at GitLab",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/w9wz",
-          "author": "Jerod Santo",
-          "description": "Fresh is in the “SSR with client-side progressive enhancement” camp. I have to admit their list of ‘stand out’ features are quite appealing:\nNo JS is shipped to the client by default\nNo build step\nNo configuration required\nTypeScript support out of the box\nIf you’re feeling some JavaScript and/or Framework Fatigue, this won’t help. But competition pushes everyone (Next, Remix, etc) to improve. So, whether you check Fresh out or not, hopefully it’ll have a positive impact on your work.\nDiscuss on Changelog News",
-          "link": "https://fresh.deno.dev/",
-          "publishedOn": "2022-06-13T14:16:00.000Z",
-          "wordCount": null,
-          "title": "Fresh - a next-gen web framework for Deno",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/dqV0",
-          "author": "Jerod Santo",
-          "description": "dns.toys is a DNS server that takes creative liberties with the DNS protocol to offer handy utilities and services that are easily accessible via the command line.\nProvides world time, unit conversion, weather and more. All over DNS.\nDiscuss on Changelog News",
-          "link": "https://www.dns.toys/",
-          "publishedOn": "2022-06-13T13:23:00.000Z",
-          "wordCount": null,
-          "title": "Useful utilities and services over DNS",
-          "itunes": {}
         }
       ]
     },
@@ -982,6 +977,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19553",
+          "author": "Daniel Stenberg",
+          "description": "For C programmers like me, who want to write portable programs that can get built and run on the widest possible array of machines and platforms, we often need to write conditional code. Code that use #ifdefs for particular conditions. Such ifdefs expressions often need to check for a particular compiler, an operating system or … Continue reading predef is our friend →",
+          "link": "https://daniel.haxx.se/blog/2022/07/13/predef-is-our-friend/",
+          "publishedOn": "2022-07-12T22:12:02.000Z",
+          "wordCount": 526,
+          "title": "predef is our friend"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=19351",
           "author": "Daniel Stenberg",
@@ -1181,7 +1185,7 @@
     {
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
-      "siteUrl": "https://hacks.mozilla.org",
+      "siteUrl": "https://hacks.mozilla.org/",
       "articles": [
         {
           "id": "https://hacks.mozilla.org/?p=47890",
@@ -1464,22 +1468,13 @@
           "publishedOn": "2022-06-14T16:55:42.000Z",
           "wordCount": 888,
           "title": "How can the United States build its Open Source Software policy?"
-        },
-        {
-          "id": "https://github.blog/?p=65652",
-          "author": "Rizel Scarlett",
-          "description": "June's Open Source Monthly features Modos–a community-focused company building software and hardware that designs digital devices with respect for users' time, attention, and well-being.",
-          "link": "https://github.blog/2022-06-13-open-source-monthly-june-2022-edition/",
-          "publishedOn": "2022-06-13T20:47:28.000Z",
-          "wordCount": 1284,
-          "title": "Open Source Monthly: June 2022 Edition"
         }
       ]
     },
     {
       "title": "Building Nubank",
       "feedUrl": "https://building.nubank.com.br/feed/",
-      "siteUrl": "https://building.nubank.com.br",
+      "siteUrl": "https://building.nubank.com.br/",
       "articles": [
         {
           "id": "https://building.nubank.com.br/?p=18487",
@@ -1604,24 +1599,6 @@
           "publishedOn": "2022-06-14T16:00:00.000Z",
           "wordCount": 1425,
           "title": "CISOs: Do You Know the Security Risks of Your Organization's Next M&A?"
-        },
-        {
-          "id": "https://hackerone.com/community-blog/h1-community-team-your-hacker-allies",
-          "author": "jesse@hackerone.com",
-          "description": "Jessica Sexton, Director of Community (Twitter/LinkedIn)\n\n\n\"I am excited to build a team and strategic programs that focus on human connectio",
-          "link": "https://www.hackerone.com/community-blog/h1-community-team-your-hacker-allies",
-          "publishedOn": "2022-06-13T17:41:00.000Z",
-          "wordCount": 2284,
-          "title": "H1 Community Team: Your Hacker Allies"
-        },
-        {
-          "id": "https://hackerone.com/community-blog/community-hackerone-whats-come",
-          "author": "jessica@hackerone.com",
-          "description": "From Jessica Sexton - Director of Community,\n\nThree years ago, I found my home at HackerOne. My primary focus was to revamp our Live Hacking Events",
-          "link": "https://www.hackerone.com/community-blog/community-hackerone-whats-come",
-          "publishedOn": "2022-06-13T17:40:43.000Z",
-          "wordCount": 2212,
-          "title": "Community at HackerOne: What's to Come"
         }
       ]
     },
@@ -1687,21 +1664,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc601c1ae-716d-4742-b480-bdb4d4ebce78_895x761.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/charts-to-watch-5",
-          "author": "Market Radar",
-          "description": "A mix of charts on stocks, indices and crypto",
-          "link": "https://marketradar.substack.com/p/charts-to-watch-5",
-          "publishedOn": "2022-06-13T13:00:37.000Z",
-          "wordCount": null,
-          "title": "Charts to watch #5",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc77bcb2e-eb3a-4e44-9a0f-e9cc10e3fd56_933x746.png",
             "length": "0",
             "type": "image/jpeg"
           }
