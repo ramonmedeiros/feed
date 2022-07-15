@@ -28,6 +28,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1667",
+          "author": null,
+          "description": "A conversation with Ronna Steinberg, who was an OOP developer for many years, and now is a Go Google Developer Expert. Ronna has been thinking about Go and OOP for awhile, asking herself whether or not Go is an object oriented programming language. Tune in to find out her answer and hear some of the options gophers have for object oriented design.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our listeners to join the closed beta at akuity.io/changelog. The platform is a versatile Kubernetes operator for handling cluster deployments the GitOps way. Deploy your apps instantly and monitor their state — get minimum overhead, maximum impact, and enterprise readiness from day one.\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nFeaturing\nRonna Steinberg – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nNotes and Links\nRonna’s GopherCon EU workshop\nRob Pike is critical of OOP\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/238",
+          "publishedOn": "2022-07-14T20:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 238: Might Go actually be OOP?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/238/go-time-238.mp3",
+            "length": "57698983",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/lOOV",
+          "author": "Adam Stacoviak",
+          "description": "Matija Sosic (Co-founder & CEO at Wasp) shares what he thinks programming is going to look like in the near future.\nWhen thinking about how ML code generation affects the overall development process, there is one thing to consider that often doesn’t immediately spring to mind when looking at the impressive Copilot examples. The question is - what happens with the code once it is generated? Who is responsible for it and who will maintain and refactor it in the future?\nAlthough ML code generation helps with getting the initial code written, it cannot do much beyond that - if that code is to be maintained and changed in the future … the developer still needs to fully own and understand it.\nGenerated code accepted blindly is creating tech debt!\nIn other words, it means Copilot and similar solutions do not reduce the code complexity nor the amount of knowledge required to build features, they just help write the initial code faster, and bring the knowledge/examples closer to the code (which is really helpful). If a developer accepts the generated code blindly, they are just creating tech debt and pushing it forward.\nDiscuss on Changelog News",
+          "link": "https://wasp-lang.dev/blog/2022/06/24/ML-code-gen-vs-coding-by-hand-future",
+          "publishedOn": "2022-07-14T19:19:01.000Z",
+          "wordCount": null,
+          "title": "ML code generation vs coding by hand",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/044e",
+          "author": "Jerod Santo",
+          "description": "Tom Wright:\nThis year marks 15 years since FizzBuzz was popularised as an interview tool for developers. I’m a big fan and have watched over 100 candidates try their hand at my version of the task. In today’s blog post I’d like to take a moment to celebrate what makes FizzBuzz so helpful, discuss some common patterns I’ve observed in the many attempts I’ve witnessed, and finally explore some tweaks that can be deployed to keep the challenge fresh.\nTom’s version of FizzBuzz is a pair programming task that follows strict TDD:\nIn proper pair programming style, the candidate is encouraged to discuss their approach with the interviewer. Likewise, they are free to use any online reference materials if they forget a method name or some syntax.\nIn this post he shares 3 common variants of the challenge including one that requires a pair of Azure Functions?!\nDiscuss on Changelog News",
+          "link": "https://blog.tdwright.co.uk/2022/07/14/fizzbuzz-is-fizzbuzz-years-old-and-still-a-powerful-tool/",
+          "publishedOn": "2022-07-14T17:41:00.000Z",
+          "wordCount": null,
+          "title": "FizzBuzz is FizzBuzz years old",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/pjjy",
+          "author": "Jerod Santo",
+          "description": "Large data-hungry corporations dominate the digital world but with little, or no respect for your privacy. Migrating to open-source applications with a strong emphasis on security will help stop corporations, governments, and hackers from logging, storing or selling your personal data.\nDiscuss on Changelog News",
+          "link": "https://github.com/lissy93/awesome-privacy",
+          "publishedOn": "2022-07-14T16:53:00.000Z",
+          "wordCount": null,
+          "title": "A curated list of privacy & security-focused software and services",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zDgY",
+          "author": "Justin Dorfman",
+          "description": "Matt Holt (creator of Caddy) gives a deep dive into how the web server works and some of the design decisions and patterns that make it reliable, extensible, and delightful.\nOne of the interesting things about the design of Caddy is that its core is just configuration management. It pushes out all other functionality into modules so that basically the only thing left in core is accepting and reacting to configuration changes.\nDiscuss on Changelog News",
+          "link": "https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTM2Nw==",
+          "publishedOn": "2022-07-14T15:58:00.000Z",
+          "wordCount": null,
+          "title": "How Caddy 2 works, a deep dive into the source",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1657",
           "author": null,
           "description": "Today we talk with two lovely folks from Transistor.fm: Jason Pearl, Senior Software Developer & Jon Buda, co-founder. Gerhard was curious to find out about their setup & how did it change with the launch of the new podcast website builder. After all, you have been hearing us talk about our setup for years, so it was high-time to challenge some assumptions and learn how another team is solving similar problems.\nTL;DL: keeping it simple is at the root of smooth operations & stable systems.\nDiscuss on Changelog News\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our …",
@@ -881,36 +936,6 @@
           "wordCount": null,
           "title": "Chain-bench – a tool for auditing your software supply chain",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/AX0y",
-          "author": "Jerod Santo",
-          "description": "Just copy/paste these SVGs into your HTML and you’re good to go!\n\nDiscuss on Changelog News",
-          "link": "https://github.com/n3r4zzurr0/svg-spinners",
-          "publishedOn": "2022-06-15T17:25:00.000Z",
-          "wordCount": null,
-          "title": "A collection of free SVG loading spinners ♻️",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eE9J",
-          "author": "Jerod Santo",
-          "description": "Kinda like Product Hunt, but focused on side projects. Post yours to see if people think it rocks (or not). Maybe you’ll find some motivation to continue working on it or feedback on what to work on next.\nDiscuss on Changelog News",
-          "link": "https://mysideproject.rocks/",
-          "publishedOn": "2022-06-15T14:07:00.000Z",
-          "wordCount": null,
-          "title": "A site for sharing your early-stage side projects with the world 🤘",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/posts/2513",
-          "author": "Gerhard Lazu",
-          "description": "Now that everyone is back after KubeCon EU 2022, and all caught up with their notifications, it’s time for one more story of people, tech & upcoming #shipit episodes:\nKubeCon + CloudNativeCon Europe 2022 in 7by7 format \n\nThere are no words that would do justice to the amount of talented, hard-working & humble people that came together in the welcoming Valencia, Spain. The pictures above still fall short. There are 4k+ other pictures here that do a better job. This is my attempt to capture a fraction of the delight that was KubeCon CloudNativeCon EU 2022.\nI will start by focusing on the people that went above and beyond. You are the reason why the Cloud Native community thrives and goes from strength to strength. All your hard work and passion make this conference the best one in the world …",
-          "link": "https://changelog.com/posts/kubecon-cloudnativecon-europe-2022",
-          "publishedOn": "2022-06-15T13:21:47.000Z",
-          "wordCount": null,
-          "title": "The best bits from KubeCon EU 2022",
-          "itunes": {}
         }
       ]
     },
@@ -1030,6 +1055,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "author": null,
+          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "publishedOn": "2022-07-15T12:20:10.438Z",
+          "wordCount": 1273,
+          "title": "Powering real-time data analytics with Druid at Twitter"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
           "author": null,
           "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
@@ -1118,15 +1152,6 @@
           "publishedOn": "2022-06-19T12:16:28.889Z",
           "wordCount": 1353,
           "title": "Scaling data access by moving an exabyte of data to Google Cloud"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "author": null,
-          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "publishedOn": "2022-06-15T12:18:42.019Z",
-          "wordCount": 2031,
-          "title": "Next generation data insights using natural language queries"
         }
       ]
     },
@@ -1208,6 +1233,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66107",
+          "author": "Albert Ziegler",
+          "description": "We surveyed more than 2,000 developers about whether GitHub Copilot helped them be more productive and improved their coding. Then, we matched this qualitative feedback and subjective perception with quantitative data around objective usage measurements and productivity.",
+          "link": "https://github.blog/2022-07-14-research-how-github-copilot-helps-improve-developer-productivity/",
+          "publishedOn": "2022-07-14T16:05:19.000Z",
+          "wordCount": 1394,
+          "title": "Research: How GitHub Copilot helps improve developer productivity"
+        },
         {
           "id": "https://github.blog/?p=65802",
           "author": "Michelle Mannering",
@@ -1396,24 +1430,6 @@
           "publishedOn": "2022-06-16T00:29:33.000Z",
           "wordCount": 530,
           "title": "Git Merge 2022"
-        },
-        {
-          "id": "https://github.blog/?p=65687",
-          "author": "Tanmayee Kamath",
-          "description": "Teams and GHEC customers can now create blazing fast codespaces, even for your largest and most complex projects.",
-          "link": "https://github.blog/2022-06-15-prebuilding-codespaces-is-generally-available/",
-          "publishedOn": "2022-06-15T17:00:27.000Z",
-          "wordCount": 1277,
-          "title": "Prebuilding codespaces is generally available"
-        },
-        {
-          "id": "https://github.blog/?p=65709",
-          "author": "Brittany O'Shea",
-          "description": "To combat the prevalence of malware in the open source ecosystem, GitHub now publishes malware occurrences in the GitHub Advisory Database. These advisories power Dependabot alerts and remain forever free and usable by the community.",
-          "link": "https://github.blog/2022-06-15-github-now-publishes-malware-advisories-in-the-github-advisory-database/",
-          "publishedOn": "2022-06-15T15:46:26.000Z",
-          "wordCount": 674,
-          "title": "GitHub now publishes malware advisories in the GitHub Advisory Database"
         }
       ]
     },
@@ -1527,15 +1543,6 @@
           "publishedOn": "2022-06-16T11:00:00.000Z",
           "wordCount": 1681,
           "title": "How Bug Bounty Uncovered A 5-Year-Old Vulnerability In Hours"
-        },
-        {
-          "id": "https://hackerone.com/community-blog/live-hacking-event-invitations-2022-guide",
-          "author": "jessica@hackerone.com",
-          "description": "Hello Hackers,\n\nLive Hacking Events are an experience like no other: hackers collaborate and connect with security teams, each other and HackerOne.�",
-          "link": "https://www.hackerone.com/community-blog/live-hacking-event-invitations-2022-guide",
-          "publishedOn": "2022-06-15T03:17:06.000Z",
-          "wordCount": 1632,
-          "title": "Live Hacking Event Invitations - 2022 Guide"
         }
       ]
     },
@@ -1543,17 +1550,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/49348511c06c",
-          "author": "Netflix Technology Blog",
-          "description": "By Alex Hutter, Falguni Jhaveri, and Senthil Sayeebaba",
-          "link": "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-part-2-49348511c06c?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-06-15T16:34:20.000Z",
-          "wordCount": 1720,
-          "title": "How Netflix Content Engineering makes a federated graph searchable (Part 2)"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "All Eyes on Markets",
