@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-18T12:20:21.836Z</updated>
+    <updated>2022-07-19T12:20:58.114Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Thoughts on RSS]]></title>
+        <id>changelog.com/news/Pppm</id>
+        <link href="https://matt-rickard.com/thoughts-on-rss/"/>
+        <updated>2022-07-18T19:29:35.000Z</updated>
+        <summary type="html"><![CDATA[Matt Rickard, yes this Matt Rickard from episode #463 of The Changelog, shared some thoughts (an unordered list) about the forces acting on RSS.
+He sets the stage by sharing a swath of think pieces written on the subject.
+No technology other than RSS has had more think pieces written proclaiming the death of RSS (2006, 2009, 2010, 2012, 2013) and the rebirth of RSS (2009, 2010, 2011, 2018, 2018, 2019).
+Here are two points (of several shared) that stood out to me.
+Substack has revitalized the blogging movement by giving away free hosting and email lists, and a business model for supporting writers. As email newsletters grow, RSS is a decent alternative to an increasingly cluttered email inbox.
+Creator incentives work against RSS. The protocol does not benefit content creators because it doesn’t give them any insight into their audience (number of subscribers, emails, or other data).
+What are your thoughts in his thoughts? What’s next for RSS?
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A compiled-away, type-safe, readable RegExp alternative]]></title>
+        <id>changelog.com/news/GWW6</id>
+        <link href="https://github.com/danielroe/magic-regexp"/>
+        <updated>2022-07-18T18:02:00.000Z</updated>
+        <summary type="html"><![CDATA[This isn’t the first attempt at making regular expressions more approachable, but it’s the first one I’ve seen that also brings type safety to the table. Example code:
+import { createRegExp, exactly, oneOrMore, digit } from 'magic-regexp'
+
+// Quick-and-dirty semver
+createRegExp(
+  oneOrMore(digit)
+    .as('major')
+    .and('.')
+    .and(oneOrMore(digit).as('minor'))
+    .and(exactly('.').and(oneOrMore(char).as('patch')).optionally())
+)
+// /(?<major>(\d)+)\.(?<minor>(\d)+)(\.(?<patch>(.)+))?/
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog Spicy designs, more open source opinions, privacy-focused services, the real cost of context switching & jqq]]></title>
+        <id>changelog.com/1/1717</id>
+        <link href="https://changelog.com/podcast/news-2022-07-18"/>
+        <updated>2022-07-18T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthony Hobday has 37 ways to spice up your designs, James Bennett has opinions on open source and PyPi security, Alicia Sykes compiled some awesome security/privacy options, ContextKeeper layouts out the real price of context switching, and Nick Nisi tells us all about jqq. Bam! Bam! Bam!
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Subscribe to Changelog News
+37 Easy Ways to Spice Up Your UI Designs
+Yes, I have opinions on your open source contributions
+awesome-privacy
+What’s the real cost of interruption and context switching?
+jqq: an interactive wrapper around jq
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Source Monthly: July 2022 Edition]]></title>
+        <id>https://github.blog/?p=66128</id>
+        <link href="https://github.blog/2022-07-18-open-source-monthly-july-2022-edition/"/>
+        <updated>2022-07-18T16:06:57.000Z</updated>
+        <summary type="html"><![CDATA[July's Open Source Monthly features Zag.js, which leverages state machines to make framework agnostic components.]]></summary>
+        <author>
+            <name>Rizel Scarlett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comcast simulates trash network connections so you can build better systems]]></title>
+        <id>changelog.com/news/Rddr</id>
+        <link href="https://github.com/tylertreat/comcast"/>
+        <updated>2022-07-18T14:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Testing distributed systems under hard failures like network partitions and instance termination is critical, but it’s also important we test them under less catastrophic conditions because this is what they most often experience. Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets.
+It works by wrapping up some system tools in a portable(ish) way. On BSD-derived systems such as OSX, we use tools like ipfw and pfctl to inject failure. On Linux, we use iptables and tc. Comcast is merely a thin wrapper around these controls.
+TFW you come up with the perfect name for your open source project ✨
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next generation data insights using natural language queries]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries</id>
@@ -187,6 +272,16 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[We surveyed more than 2,000 developers about whether GitHub Copilot helped them be more productive and improved their coding. Then, we matched this qualitative feedback and subjective perception with quantitative data around objective usage measurements and productivity.]]></summary>
         <author>
             <name>Albert Ziegler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Benchmark Analysis: Annual Pentest and Code Review Coverage]]></title>
+        <id>https://hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage</id>
+        <link href="https://www.hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage"/>
+        <updated>2022-07-14T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Security leaders often struggle to keep pace with the evolving nature of their respective attack surfaces. Many fall behind in their ability to identi]]></summary>
+        <author>
+            <name>Sean Ryan</name>
         </author>
     </entry>
     <entry>
@@ -1864,16 +1959,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features"/>
         <updated>2022-06-20T12:20:13.302Z</updated>
         <summary type="html"><![CDATA[This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaling data access by moving an exabyte of data to Google Cloud]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud"/>
-        <updated>2022-06-19T12:16:28.889Z</updated>
-        <summary type="html"><![CDATA[In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.]]></summary>
         <author>
             <name>English (US)</name>
         </author>

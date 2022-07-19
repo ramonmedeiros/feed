@@ -28,6 +28,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/Pppm",
+          "author": "Adam Stacoviak",
+          "description": "Matt Rickard, yes this Matt Rickard from episode #463 of The Changelog, shared some thoughts (an unordered list) about the forces acting on RSS.\nHe sets the stage by sharing a swath of think pieces written on the subject.\nNo technology other than RSS has had more think pieces written proclaiming the death of RSS (2006, 2009, 2010, 2012, 2013) and the rebirth of RSS (2009, 2010, 2011, 2018, 2018, 2019).\nHere are two points (of several shared) that stood out to me.\nSubstack has revitalized the blogging movement by giving away free hosting and email lists, and a business model for supporting writers. As email newsletters grow, RSS is a decent alternative to an increasingly cluttered email inbox.\nCreator incentives work against RSS. The protocol does not benefit content creators because it doesn’t give them any insight into their audience (number of subscribers, emails, or other data).\nWhat are your thoughts in his thoughts? What’s next for RSS?\nDiscuss on Changelog News",
+          "link": "https://matt-rickard.com/thoughts-on-rss/",
+          "publishedOn": "2022-07-18T19:29:35.000Z",
+          "wordCount": null,
+          "title": "Thoughts on RSS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/GWW6",
+          "author": "Jerod Santo",
+          "description": "This isn’t the first attempt at making regular expressions more approachable, but it’s the first one I’ve seen that also brings type safety to the table. Example code:\nimport { createRegExp, exactly, oneOrMore, digit } from 'magic-regexp'\n\n// Quick-and-dirty semver\ncreateRegExp(\n  oneOrMore(digit)\n    .as('major')\n    .and('.')\n    .and(oneOrMore(digit).as('minor'))\n    .and(exactly('.').and(oneOrMore(char).as('patch')).optionally())\n)\n// /(?<major>(\\d)+)\\.(?<minor>(\\d)+)(\\.(?<patch>(.)+))?/\n\nDiscuss on Changelog News",
+          "link": "https://github.com/danielroe/magic-regexp",
+          "publishedOn": "2022-07-18T18:02:00.000Z",
+          "wordCount": null,
+          "title": "A compiled-away, type-safe, readable RegExp alternative",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1717",
+          "author": null,
+          "description": "Anthony Hobday has 37 ways to spice up your designs, James Bennett has opinions on open source and PyPi security, Alicia Sykes compiled some awesome security/privacy options, ContextKeeper layouts out the real price of context switching, and Nick Nisi tells us all about jqq. Bam! Bam! Bam!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog News\n37 Easy Ways to Spice Up Your UI Designs\nYes, I have opinions on your open source contributions\nawesome-privacy\nWhat’s the real cost of interruption and context switching?\njqq: an interactive wrapper around jq\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-07-18",
+          "publishedOn": "2022-07-18T16:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog Spicy designs, more open source opinions, privacy-focused services, the real cost of context switching & jqq",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-07-18/the-changelog-news-2022-07-18.mp3",
+            "length": "7088616",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Rddr",
+          "author": "Jerod Santo",
+          "description": "Testing distributed systems under hard failures like network partitions and instance termination is critical, but it’s also important we test them under less catastrophic conditions because this is what they most often experience. Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets.\nIt works by wrapping up some system tools in a portable(ish) way. On BSD-derived systems such as OSX, we use tools like ipfw and pfctl to inject failure. On Linux, we use iptables and tc. Comcast is merely a thin wrapper around these controls.\nTFW you come up with the perfect name for your open source project ✨\nDiscuss on Changelog News",
+          "link": "https://github.com/tylertreat/comcast",
+          "publishedOn": "2022-07-18T14:36:00.000Z",
+          "wordCount": null,
+          "title": "Comcast simulates trash network connections so you can build better systems",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1685",
           "author": null,
           "description": "This week we’re talking with Daniel Thompson about Tauri and their journey to their recent 1.0 release. Tauri is often compared to Electron - it’s a toolkit that lets you build software for all major desktop operating systems using web technologies. It was built for the security-focused, privacy-respecting, and environmentally-conscious software engineering community. The core libraries are written in Rust and the UI layer can be written using virtually any frontend framework. We get into all the details, why Rust, how the project was formed, their resistance (thus far) to venture capital, their full commitment to the freedom virtues of open source, and all the technical bits you need to know to consider it for your next multi-platform project.\nDiscuss on Changelog News\nChangelog++ members…",
@@ -1074,15 +1119,6 @@
           "publishedOn": "2022-06-20T12:20:13.302Z",
           "wordCount": 1840,
           "title": "Graph machine learning with missing node features"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
-          "author": null,
-          "description": "In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
-          "publishedOn": "2022-06-19T12:16:28.889Z",
-          "wordCount": 1353,
-          "title": "Scaling data access by moving an exabyte of data to Google Cloud"
         }
       ]
     },
@@ -1150,6 +1186,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66128",
+          "author": "Rizel Scarlett",
+          "description": "July's Open Source Monthly features Zag.js, which leverages state machines to make framework agnostic components.",
+          "link": "https://github.blog/2022-07-18-open-source-monthly-july-2022-edition/",
+          "publishedOn": "2022-07-18T16:06:57.000Z",
+          "wordCount": 1219,
+          "title": "Open Source Monthly: July 2022 Edition"
+        },
         {
           "id": "https://github.blog/?p=66107",
           "author": "Albert Ziegler",
@@ -1335,6 +1380,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage",
+          "author": "Sean Ryan",
+          "description": "Security leaders often struggle to keep pace with the evolving nature of their respective attack surfaces. Many fall behind in their ability to identi",
+          "link": "https://www.hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage",
+          "publishedOn": "2022-07-14T16:00:00.000Z",
+          "wordCount": 1732,
+          "title": "Benchmark Analysis: Annual Pentest and Code Review Coverage"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/5-articles-get-you-speed-bug-bounty-programs",
           "author": "HackerOne",
