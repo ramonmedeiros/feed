@@ -2,10 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-20T12:20:34.404Z</updated>
+    <updated>2022-07-21T12:20:37.211Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Graph machine learning with missing node features]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features"/>
+        <updated>2022-07-21T12:20:18.715Z</updated>
+        <summary type="html"><![CDATA[This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I don’t know who uses my code]]></title>
+        <id>https://daniel.haxx.se/blog/?p=19571</id>
+        <link href="https://daniel.haxx.se/blog/2022/07/21/i-dont-know-who-uses-my-code/"/>
+        <updated>2022-07-20T22:00:15.000Z</updated>
+        <summary type="html"><![CDATA[When I (in spite of knowing better) talk to ordinary people about what I do for a living and the project I work on, one of the details about it that people have the hardest time to comprehend, is the fact that I really and truly don’t know a lot about who uses my code. … Continue reading I don’t know who uses my code →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 62: Operational simplicity is a gift to you]]></title>
+        <id>changelog.com/14/1683</id>
+        <link href="https://changelog.com/shipit/62"/>
+        <updated>2022-07-20T16:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Gerhard’s transition to a senior engineer started 10 years ago, when he embraced the vim mindset, functional core & imperative shell, and was inspired to seek simplicity in his code & infrastructure. Most of it can be traced back to one person: Gary Bernhardt, the creator of Execute Program, Destroy all Software and the now famous Wat idea.
+Few stick around long enough to understand the long-term impact of their decisions on production systems. Even fewer are able to talk about them as well as Gary does.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the …]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Here’s how academic research is shaping GitHub Discussions]]></title>
+        <id>https://github.blog/?p=66194</id>
+        <link href="https://github.blog/2022-07-20-heres-how-academic-research-is-shaping-github-discussions/"/>
+        <updated>2022-07-20T15:58:14.000Z</updated>
+        <summary type="html"><![CDATA[We strive to understand how developers collaborate and work on GitHub, and we sometimes partner with academics to better understand how we can improve our products. Here's how we did that to build and evolve GitHub Discussions.]]></summary>
+        <author>
+            <name>Evi Liu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Soft deletion probably isn't worth it]]></title>
+        <id>changelog.com/news/eEQn</id>
+        <link href="https://brandur.org/soft-deletion"/>
+        <updated>2022-07-20T14:24:00.000Z</updated>
+        <summary type="html"><![CDATA[This article confirms my biases because I’ve always despised every soft delete implementation I’ve come up with. Most of them have looked something like what the author describes:
+the technique has some major downsides. The first is that soft deletion logic bleeds out into all parts of your code. All our selects look something like this:
+SELECT *
+FROM customer
+WHERE id = @id
+    AND deleted_at IS NULL;
+
+And forgetting that extra predicate on deleted_at can have dangerous consequences as it accidentally returns data that’s no longer meant to be seen.
+ORMs help with this, but not enough. You set it as a default scope and then there’s that one time where you also want the deleted records so you come up with a custom query or dig into your ORM and try to find how to bypass the rule. Yuck!
+He goes on to describe other problems as well. Maybe it’s all a big case of YAGNI?
+Once again, soft deletion is theoretically a hedge against accidental data loss. As a last argument against it, I’d ask you to consider, realistically, whether undeletion is something that’s ever actually done.
+When I worked at Heroku, we used soft deletion.
+When I worked at Stripe, we used soft deletion.
+At my job right now, we use soft deletion.
+As far as I’m aware, never once, in ten plus years, did anyone at any of these places ever actually use soft deletion to undelete something.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kern AI's refinery is a data-centric IDE for NLP]]></title>
+        <id>changelog.com/news/7YOd</id>
+        <link href="https://github.com/code-kern-ai/refinery"/>
+        <updated>2022-07-20T13:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Like the data-centric sibling of your favorite programming environment. It provides an easy-to-use interface for weak supervision as well as extensive data management, neural search and monitoring to ensure that the quality of your training data is as good as possible.
+This won’t rid you of the need to manually label, but it’ll save you time in the process!
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scaling data access by moving an exabyte of data to Google Cloud]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud</id>
@@ -1871,103 +1954,6 @@ Something missing or broken? PRs welcome!]]></summary>
         <updated>2022-06-22T14:12:00.000Z</updated>
         <summary type="html"><![CDATA[There’s a long history of timeline tools for the web, but most of them had you inserting the data into an XML file, a JSON object, or worse yet: the HTML itself. Markdown-style plain text to the rescue?
 
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One-liner for running queries against CSV files with SQLite]]></title>
-        <id>changelog.com/news/zDWY</id>
-        <link href="https://til.simonwillison.net/sqlite/one-line-csv-operations"/>
-        <updated>2022-06-21T17:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Simon Willison figured out how to run a SQL query directly against a CSV file using the sqlite3 CLI:
-sqlite3 :memory: -cmd '.mode csv' -cmd '.import taxi.csv taxi' \
-  'SELECT passenger_count, COUNT(*), AVG(total_amount) FROM taxi GROUP BY passenger_count'
-
-Ie TL;DR’d the one-liner for ya, but you’ll have to go to Simon’s site for the explainer.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A collection of resources to learn about MLOps]]></title>
-        <id>changelog.com/news/LW1o</id>
-        <link href="https://github.com/dair-ai/MLOPs-Primer"/>
-        <updated>2022-06-21T16:25:00.000Z</updated>
-        <summary type="html"><![CDATA[While still in its infancy, MLOps has attracted machine learning engineers and software engineers in general. With every new paradigm comes new challenges and opportunities to learn. In this primer, we highlight a few available resources to upskill and inform yourself on the latest in the world of MLOps.
-Good resources, regardless of whether you think MLOps is its own thing or should be rolled into DevOps.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilot is generally available to all developers]]></title>
-        <id>https://github.blog/?p=65761</id>
-        <link href="https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/"/>
-        <updated>2022-06-21T16:04:44.000Z</updated>
-        <summary type="html"><![CDATA[We’re making GitHub Copilot, an AI pair programmer that suggests code in your editor, generally available to all developers for $10 USD/month or $100 USD/year. It will also be free to use for verified students and maintainers of popular open source projects.]]></summary>
-        <author>
-            <name>Thomas Dohmke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Game on! The 2022 Google CTF is here.]]></title>
-        <id>http://security.googleblog.com/2022/06/game-on-2022-google-ctf-is-here.html</id>
-        <link href="http://security.googleblog.com/2022/06/game-on-2022-google-ctf-is-here.html"/>
-        <updated>2022-06-21T16:00:00.002Z</updated>
-        <summary type="html"><![CDATA[Posted by Jan Keller, Technical Entertainment Manager, Bug Hunters 
-
-
-
-
-
-
-Are you ready to put your hacking skills to the test? It’s Google CTF time!
-The competition kicks off on July 1 2022 6:00 PM UTC and runs through July 3 2022 6:00 PM UTC. Registration is now open at http://goo.gle/ctf.
-In true old Google CTF fashion, the top 8 teams will qualify for our Hackceler8 speedrunning meets CTFs competition. The prize pool stands similar to previous years at more than $40,000.
-
-
-
-
-
-
-We can’t wait to see whether PPP will be able to defend their crown. For those of you looking to satisfy your late-night hacking hunger: past year's challenges, including Hackceler8 2021 matches, are open-sourced here. On top of that there are hours of Hackceler8 2020 videos to watch!
-If you are just starting out in this space, last year’s Beginner’s Quest is a great resource to get started. For later in the year, we have something mysterious planned - stay tuned to find out more!
-
-
-Whether you’re a seasoned CTF player or just curious about cyber security and ethical hacking, we want you to join us. Sign up to expand your skill set, meet new friends in the security community, and even watch the pros in action. For the latest announcements, see g.co/ctf, subscribe to our mailing list, or follow us on @GoogleVRP. Interested in bug hunting for Google? Check out bughunters.google.com. See you there!]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Apple could kill CAPTCHAs]]></title>
-        <id>changelog.com/news/bJWe</id>
-        <link href="https://appleinsider.com/articles/22/06/14/how-apple-could-kill-captchas-with-private-access-tokens"/>
-        <updated>2022-06-21T15:35:00.000Z</updated>
-        <summary type="html"><![CDATA[AppleInsider explains Apple’s new Private Access Tokens (PAT) tech announced at WWDC:
-Using a new HTTP authentication method called PrivateToken, a server uses cryptography to verify a client passed an iCloud attestation check.
-When the client needs a token it contacts an attester — in this case, Apple — which performs the process using certificates stored in the device’s Secure Enclave.
-I’ve been waiting for someone to kill CAPTCHAs for us, but this will be an Apple-only solution for now:
-The company is working to help make Private Access Tokens a web standard, but there is no mention of tokens working on Android or Windows. People on those platforms may have to put up with CAPTCHAs, for now — or wait for Microsoft’s and Google’s work on the matter.
-I believe this is the draft of the standard that they’re referring to. Cloudflare also has a nice article on their work in this space.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No-one knows what they are doing]]></title>
-        <id>changelog.com/news/W1RX</id>
-        <link href="https://successfulsoftware.net/2022/06/19/no-one-knows-what-they-are-doing/"/>
-        <updated>2022-06-21T14:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Wise words from Andy Brice:
-When I was a child I assumed that all the adults running the world knew what they were doing. Now that I am an adult, I am under no such illusions…
-I’m going to let you in on a little secret. Most of us who are running businesses had no real idea what they were doing when they started, and still struggle with decisions now.
-I tell people this all the time when they ask me for advice. I’ll still give them my advice. But it comes with the disclaimer that I really have no idea what I’m doing. 😆
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
