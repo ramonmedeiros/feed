@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-22T12:20:21.495Z</updated>
+    <updated>2022-07-23T12:18:21.061Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft FOSS Fund Winner: curl]]></title>
+        <id>https://daniel.haxx.se/blog/?p=19577</id>
+        <link href="https://daniel.haxx.se/blog/2022/07/22/microsoft-foss-fund-winner-curl/"/>
+        <updated>2022-07-22T21:30:13.000Z</updated>
+        <summary type="html"><![CDATA[Hi Daniel, My name is Emma Irwin, and I am a program manager at Microsoft, specifically working in the open source program’s office (OSPO). One of the programs I lead is the FOSS fund. This may sound a bit odd, but normally I send an email notice to project winners, yet someone pointed out that … Continue reading Microsoft FOSS Fund Winner: curl →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 235: Frontend Feud: ShopTalk vs CSS Podcast]]></title>
+        <id>changelog.com/6/1677</id>
+        <link href="https://changelog.com/jsparty/235"/>
+        <updated>2022-07-22T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What’s this? A Frontend Feud! The ShopTalk guys return to defend their championship over Syntax against new contenders: Una and Adam from The CSS Podcast!
+Discuss on Changelog News
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.
+
+    
+Featuring
+Chris Coyier – Twitter, GitHub, Website
+Dave Rupert – Twitter, GitHub, Website
+Una Kravets – Twitter, GitHub, Website
+Adam Argyle – Twitter, GitHub, Website
+Jerod Santo – Twitter, GitHub
+Amelia Wattenberger – Twitter, GitHub, Website
+Nick Nisi – Twitter, GitHub, Website
+Notes and Links
+Watch the video on our YouTube channel
+Shout out to Una’s Twitter!
+Shout out to OneWheel!
+Shout out to ShopTalk Show!
+Shout out to The CSS Podcast!
+Shout out to JS Party?
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A headless, code-first CMS built with TypeScript]]></title>
+        <id>changelog.com/news/N1LO</id>
+        <link href="https://github.com/payloadcms/payload"/>
+        <updated>2022-07-22T13:45:00.000Z</updated>
+        <summary type="html"><![CDATA[This looks very opinionated with the tech it chooses (Node, Express, MongoDB, React, TypeScript). But if you like those choices, that probably means you’ll like what they’ve cooked up.
+Payload gives you everything you need, but then steps back and lets you build what you want in JavaScript or TypeScript - with no unnecessary complexity brought by GUIs. You’ll understand how your CMS works because you will have written it exactly how you want it.
+Bring your own Express server and do whatever you need on top of Payload. Payload doesn’t impose anything on you or your app.
+Completely control the Admin panel by using your own React components. Swap out fields or even entire views with ease.
+Use your data however and wherever you need thanks to auto-generated, yet fully extensible REST, GraphQL, and Local Node APIs.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A thread of cool but obscure data structures]]></title>
+        <id>changelog.com/news/nj0G</id>
+        <link href="https://news.ycombinator.com/item?id=32186203"/>
+        <updated>2022-07-22T12:57:00.000Z</updated>
+        <summary type="html"><![CDATA[User Uptrenda asked HN about their favorite data structures, sharing their own to get it started:
+I’ll start: bloom filters. Lets you test if a value is definitely NOT in a list of pre-stored values (or POSSIBLY in a list - with adjustable probability that influences storage of the values.)
+Good use-case: routing. Say you have a list of 1 million IPs that are black listed. A trivial algorithm would be to compare every element of the set with a given IP. The time complexity grows with the number of elements. Not so with a bloom filter! A bloom filter is one of the few data structures whose time complexity does not grow with the number of elements due to the ‘keys’ not needing to be stored (‘search’ and ‘insert’ is based on the number of hash functions.)
+The responses are numerous with a lot of signal, which is increasingly rare on the orange website these days. Worth a read!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Formulating ‘Out of Memory Kill’ Prediction on the Netflix App as a Machine Learning Problem]]></title>
         <id>https://medium.com/p/989599029109</id>
@@ -1784,126 +1858,6 @@ Lots of familiar faces in this one.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fuzzing rust-minidump for Embarrassment and Crashes – Part 2]]></title>
-        <id>https://hacks.mozilla.org/?p=47880</id>
-        <link href="https://hacks.mozilla.org/2022/06/fuzzing-rust-minidump-for-embarrassment-and-crashes/"/>
-        <updated>2022-06-23T17:19:31.000Z</updated>
-        <summary type="html"><![CDATA[For the last year, we've been working on the development of rust-minidump, a pure-Rust replacement for the minidump-processing half of google-breakpad. The final part in this series takes you through fuzzing rust-minidump.
-The post Fuzzing rust-minidump for Embarrassment and Crashes – Part 2 appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Aria Beingessner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/06/curious-case-carrier-app.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/06/curious-case-carrier-app.html"/>
-        <updated>2022-06-23T16:01:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url('https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6Ae_NZQ7StBcqH_vXVqoPMX0');ol{margin:0;padding:0}table td,table th{padding:0}.HovzfPYjjR-c13{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#e0e0e0;border-top-width:1pt;border-right-width:1pt;border-left-color:#e0e0e0;vertical-align:top;border-right-color:#e0e0e0;border-left-width:1pt;border-top-style:solid;background-color:#fafafa;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#e0e0e0;border-bottom-style:solid}.HovzfPYjjR-c34{padding-top:0pt;padding-bottom:3pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c15{padding-top:18pt;padding-bottom:6pt;line-height:1.5;page-break-after:avoid;text-align:left}.HovzfPYjjR-c17{text-decoration-skip-…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Most Overlooked Server Permission Checks]]></title>
-        <id>https://hackerone.com/application-security/most-overlooked-server-permission-checks</id>
-        <link href="https://www.hackerone.com/application-security/most-overlooked-server-permission-checks"/>
-        <updated>2022-06-23T16:00:00.000Z</updated>
-        <author>
-            <name>Tyler Mann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HackerOne’s In-Depth Approach to Vulnerability Triage and Validation]]></title>
-        <id>https://hackerone.com/hackerones-depth-approach-vulnerability-triage-and-validation</id>
-        <link href="https://www.hackerone.com/hackerones-depth-approach-vulnerability-triage-and-validation"/>
-        <updated>2022-06-23T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Like triaging in a hospital emergency room, security issues must be diagnosed and handled by an expert as soon as they arrive. But it doesn’t stop t]]></summary>
-        <author>
-            <name>Naz Bozdemir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DevSecOps vs DevOps: What is the Difference?]]></title>
-        <id>https://hackerone.com/application-security/devsecops-vs-devops-what-difference</id>
-        <link href="https://www.hackerone.com/application-security/devsecops-vs-devops-what-difference"/>
-        <updated>2022-06-23T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[DevSecOps can dramatically reduce cyber risk for organizations—particularly those that rely on internal development for a competitive advantage.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 235: 2053: A Go Odyssey]]></title>
-        <id>changelog.com/2/1674</id>
-        <link href="https://changelog.com/gotime/235"/>
-        <updated>2022-06-23T15:45:00.000Z</updated>
-        <summary type="html"><![CDATA[The year is 2053. The tabs-vs-spaces wars are long over. Ron Evans is the only Go programmer still alive on Earth. All he does is maintain old Go code. It’s terrible! He must find a way to warn his fellow gophers before it’s too late. Good thing he finally got that PDQ transmission system working…
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Chronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a demo at chronosphere.io.
-
-    
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.io
-
-    
-LaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.
-
-    
-Retool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog
-
-    
-Featuring
-Ron Evans – Twitter, GitHub
-Mat Ryer – Twitter, GitHub, LinkedIn, Website
-Natalie Pistunovich – Twitter, GitHub
-Notes and Links
-New merch!
-Graphite on The Changelog
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laravel Pint is a minimalist code style fixer for PHP]]></title>
-        <id>changelog.com/news/04OO</id>
-        <link href="https://github.com/laravel/pint"/>
-        <updated>2022-06-23T14:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Laravel Pint is a zero-dependency PHP code style fixer for minimalists - built on top of PHP-CS-Fixer. Pint makes it simple to ensure that your code style stays clean and consistent.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brave Search Goggles]]></title>
-        <id>changelog.com/news/pjXe</id>
-        <link href="https://github.com/brave/goggles-quickstart"/>
-        <updated>2022-06-23T13:53:00.000Z</updated>
-        <summary type="html"><![CDATA[Goggles enable anyone, be it individuals or a community, to alter the ranking of Brave search by using a set of instructions (rules and filters). Anyone can create, apply, or extend a Goggle. Essentially Goggles act as a custom re-ranking on top of Brave’s search index.
-This could be really cool! A few examples use cases:
-No Pinterest - Rerank results to remove pages / threads hosted on Pinterest.
-Rust programming - Rerank results to boost content related to the Rust programming language.
-Hacker News / 1k short – Prioritizes domains popular with the Hacker News community, minus those that would rank among the top 1000 most-viewed websites.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Portfolio Review: June 2022]]></title>
-        <id>https://marketradar.substack.com/p/portfolio-review-june-2022</id>
-        <link href="https://marketradar.substack.com/p/portfolio-review-june-2022"/>
-        <updated>2022-06-23T13:00:54.000Z</updated>
-        <summary type="html"><![CDATA[Balanced and Pure Stocks Portfolios]]></summary>
-        <author>
-            <name>Market Radar</name>
         </author>
     </entry>
 </feed>
