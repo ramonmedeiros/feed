@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-26T12:19:55.989Z</updated>
+    <updated>2022-07-27T12:24:07.135Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A distributed SQLite replication system]]></title>
+        <id>changelog.com/news/Jgnp</id>
+        <link href="https://github.com/superfly/litefs"/>
+        <updated>2022-07-26T20:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Ben Johnson is at it again.
+LiteFS is a FUSE-based file system for replicating SQLite databases across a cluster of machines. It works as a passthrough file system that intercepts writes to SQLite databases in order to detect transaction boundaries and record changes on a per-transction level in LTX files.
+I believe Ben was alluding to this (then unreleased) tool on his recent Ship It! appearance…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 186: The geopolitics of artificial intelligence]]></title>
+        <id>changelog.com/7/1753</id>
+        <link href="https://changelog.com/practicalai/186"/>
+        <updated>2022-07-26T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this Fully-Connected episode, Chris and Daniel explore the geopolitics, economics, and power-brokering of artificial intelligence.  What does control of AI mean for nations, corporations, and universities?  What does control or access to AI mean for conflict and autonomy?  The world is changing rapidly, and the rate of change is accelerating.  Daniel and Chris look behind the curtain in the halls of power.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Source articles for our conversation
+The Geopolitics Of Artificial Intelligence
+Geopolitical implications of AI and digital surveillance adoption
+Artificial intelligence is already upending geopolitics
+Huge “foundation models” are turbo-charging AI progress
+Learning Resource
+National Artificial Intelligence Initiative
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I raised my kids on the command line... and they love it]]></title>
+        <id>changelog.com/news/zDbk</id>
+        <link href="https://lifehacker.com/i-raised-my-kids-on-the-command-line-and-they-love-it-5974087"/>
+        <updated>2022-07-26T19:44:00.000Z</updated>
+        <summary type="html"><![CDATA[John Goerzen built a computer for his 3yo, installed Debian on it, and set up a GUI for it.
+The looks of shock I get from people when I explain, as if it’s perfectly natural, that my child has been able to log in by himself to a Linux shell since age 3, are amusing and astounding. Especially considering that it is really not that hard.
+It’s not that hard, but it is so foreign to people that they’re quickly impressed by such things. Still, John decided to introduce his kids to a GUI eventually:
+Jacob mastered the basics of xmonad really quickly. Alt-Shift-C to close a window. Alt-Shift-Q to quit back to the “big black screen”. Alt-Shift-Enter to get a terminal window.
+We launched thunar (the XFCE file manager) and plugged in his camera. He had a good deal of fun looking at photos and videos from it. But then I dropped the true highlight of the day for him: I offered to install Tuxpaint for him. That’s probably his favorite program of all time.
+Tux Paint!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your code doesn't have to be a mess]]></title>
+        <id>changelog.com/news/8l2M</id>
+        <link href="https://www.danielsieger.com/blog/2022/07/25/your-code-doesnt-have-to-be-a-mess.html"/>
+        <updated>2022-07-26T18:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Daniel Sieger:
+If you’ve been developing software for a while, you know that code has this natural tendency to turn into a mess. Keeping software simple over time is a challenge that keeps me thinking. My last post left you hanging without much concrete advice. This time I will outline a few high-level strategies to keep software simple.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launching GitHub Community: Powered by GitHub Discussions]]></title>
+        <id>https://github.blog/?p=66225</id>
+        <link href="https://github.blog/2022-07-26-launching-github-community-powered-by-github-discussions/"/>
+        <updated>2022-07-26T17:00:36.000Z</updated>
+        <summary type="html"><![CDATA[Today, we’re launching GitHub Community, which brings together GitHub Community Forum, GitHub Education Forum, and product feedback into a free, in-product, single space for all user-to-user interactions.]]></summary>
+        <author>
+            <name>tuves</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing even more security enhancements to npm]]></title>
+        <id>https://github.blog/?p=66264</id>
+        <link href="https://github.blog/2022-07-26-introducing-even-more-security-enhancements-to-npm/"/>
+        <updated>2022-07-26T16:00:06.000Z</updated>
+        <summary type="html"><![CDATA[New npm security enhancements include an improved login and publish experience with the npm CLI, connected GitHub and Twitter accounts, and a new CLI command to verify the integrity of packages in npm.]]></summary>
+        <author>
+            <name>Myles Borins</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Changelog Soft deletion, obscure data structures, driving away your best engineers, a blog platform for hackers & moar RSS]]></title>
         <id>changelog.com/1/1755</id>
@@ -1663,105 +1748,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://daniel.haxx.se/blog/2022/06/28/oops-i-spilled-the-beans/"/>
         <updated>2022-06-28T07:21:25.000Z</updated>
         <summary type="html"><![CDATA[Saturday June 18: I had some curl time in the afternoon and I was just about to go edit the four security advisories I had pending for the next release, to brush up the language and check that they read fine, when it dawned on me. These particular security advisories were still in draft versions … Continue reading Oops, I spilled the beans →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Advisory Database now supports Erlang and Elixir packages!]]></title>
-        <id>https://github.blog/?p=65943</id>
-        <link href="https://github.blog/2022-06-27-github-advisory-database-now-supports-erlang-and-elixir-packages/"/>
-        <updated>2022-06-27T20:24:52.000Z</updated>
-        <summary type="html"><![CDATA[We’re excited to announce that the GitHub Advisory Database now includes curated security advisories on Erlang, Elixir, and more.]]></summary>
-        <author>
-            <name>Madison Oliver</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Highlights from Git 2.37]]></title>
-        <id>https://github.blog/?p=65850</id>
-        <link href="https://github.blog/2022-06-27-highlights-from-git-2-37/"/>
-        <updated>2022-06-27T18:01:23.000Z</updated>
-        <summary type="html"><![CDATA[The open source Git project just released Git 2.37. Take a look at some of our highlights from the latest release.]]></summary>
-        <author>
-            <name>Taylor Blau</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog Markwhen, Tauri 1.0, SLCs & imposters]]></title>
-        <id>changelog.com/1/1693</id>
-        <link href="https://changelog.com/podcast/news-2022-06-27"/>
-        <updated>2022-06-27T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re experimenting with something new: a super-brief Monday edition of “The Changelog” to help start your week off right and keep you up with the fast-moving software world.
-If you like this, would listen to it, and want us to keep it going… let us know in the comments or by tweeting @changelog. If you’d rather we didn’t… also let us know!
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Jerod Santo – Twitter, GitHub
-Notes and Links
-Subscribe to Changelog Weekly
-Changelog Weekly #412
-Markwhen is like Markdown for timelines
-Tauri 1.0 Release
-Why products should be “slick”, not just viable
-I hate MVPs. So do your customers. Make it SLC instead.
-No-one knows what they are doing
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker's Health: Adverse Effects of Doomscrolling]]></title>
-        <id>https://hackerone.com/community-blog/hackers-health-adverse-effects-doomscrolling</id>
-        <link href="https://www.hackerone.com/community-blog/hackers-health-adverse-effects-doomscrolling"/>
-        <updated>2022-06-27T15:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Question: "I spend the majority of my time researching and keeping up with current affairs. I don’t feel like anything is wrong, but then I find mys]]></summary>
-        <author>
-            <name>Pamela Greenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The JavaScript Specification has a New License]]></title>
-        <id>https://hacks.mozilla.org/?p=47870</id>
-        <link href="https://hacks.mozilla.org/2022/06/the-specification-for-javascript-has-a-new-license/"/>
-        <updated>2022-06-27T15:05:35.000Z</updated>
-        <summary type="html"><![CDATA[As part of our work to ensure a free and open web, we've been working together with Ecma International, and many partners to write a License inspired by the W3C Document and Software License. Our goal was that JavaScript’s status would align with other specifications of the Web. In addition, with this new license available to all TCs at Ecma International, this will provide other organizations to approach standardization with the same perspective.
-The post The JavaScript Specification has a New License appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Yulia Startsev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Viddy – a modern watch command with time machine mode]]></title>
-        <id>changelog.com/news/O5om</id>
-        <link href="https://github.com/sachaos/viddy"/>
-        <updated>2022-06-27T14:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Rewind like video, see output in a pager, Vim-like keymaps, and more. “Viddy well, gopher. Viddy well.”
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Start all of your commands with a comma]]></title>
-        <id>changelog.com/news/1WOr</id>
-        <link href="https://rhodesmill.org/brandon/2009/commands-with-comma/"/>
-        <updated>2022-06-27T13:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Brandon Rhodes’s solution to conflicts between his ~/bin scripts and system binaries: the humble comma
-I heartily recommend this technique to anyone with their own ~/bin/ directory who wants their command names kept clean, tidy, and completely orthogonal to any commands that the future might bring to your system. The approach has worked for me for something like a decade, so you should find it immensely robust. And, finally, it’s just plain fun.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl 7.84.0 inside every box]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19400</id>
-        <link href="https://daniel.haxx.se/blog/2022/06/27/curl-7-84-0-inside-every-box/"/>
-        <updated>2022-06-27T06:21:42.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to take the next step with us in this never-ending stroll. Release presentation Numbers the 209th release8 changes47 days (total: 8,865)123 bug-fixes (total: 7,980)214 commits (total: 28,787)0 new public libcurl function (total: 88)2 new curl_easy_setopt() option (total: 297)1 new curl command line option (total: 248)51 contributors, 20 new (total: 2,652)35 authors, 13 new (total: … Continue reading curl 7.84.0 inside every box →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>

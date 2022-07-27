@@ -28,6 +28,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/Jgnp",
+          "author": "Jerod Santo",
+          "description": "Ben Johnson is at it again.\nLiteFS is a FUSE-based file system for replicating SQLite databases across a cluster of machines. It works as a passthrough file system that intercepts writes to SQLite databases in order to detect transaction boundaries and record changes on a per-transction level in LTX files.\nI believe Ben was alluding to this (then unreleased) tool on his recent Ship It! appearance…\nDiscuss on Changelog News",
+          "link": "https://github.com/superfly/litefs",
+          "publishedOn": "2022-07-26T20:56:00.000Z",
+          "wordCount": null,
+          "title": "A distributed SQLite replication system",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1753",
+          "author": null,
+          "description": "In this Fully-Connected episode, Chris and Daniel explore the geopolitics, economics, and power-brokering of artificial intelligence.  What does control of AI mean for nations, corporations, and universities?  What does control or access to AI mean for conflict and autonomy?  The world is changing rapidly, and the rate of change is accelerating.  Daniel and Chris look behind the curtain in the halls of power.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nSource articles for our conversation\nThe Geopolitics Of Artificial Intelligence\nGeopolitical implications of AI and digital surveillance adoption\nArtificial intelligence is already upending geopolitics\nHuge “foundation models” are turbo-charging AI progress\nLearning Resource\nNational Artificial Intelligence Initiative\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/186",
+          "publishedOn": "2022-07-26T20:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 186: The geopolitics of artificial intelligence",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/186/practical-ai-186.mp3",
+            "length": "44955916",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/zDbk",
+          "author": "Jerod Santo",
+          "description": "John Goerzen built a computer for his 3yo, installed Debian on it, and set up a GUI for it.\nThe looks of shock I get from people when I explain, as if it’s perfectly natural, that my child has been able to log in by himself to a Linux shell since age 3, are amusing and astounding. Especially considering that it is really not that hard.\nIt’s not that hard, but it is so foreign to people that they’re quickly impressed by such things. Still, John decided to introduce his kids to a GUI eventually:\nJacob mastered the basics of xmonad really quickly. Alt-Shift-C to close a window. Alt-Shift-Q to quit back to the “big black screen”. Alt-Shift-Enter to get a terminal window.\nWe launched thunar (the XFCE file manager) and plugged in his camera. He had a good deal of fun looking at photos and videos from it. But then I dropped the true highlight of the day for him: I offered to install Tuxpaint for him. That’s probably his favorite program of all time.\nTux Paint!\nDiscuss on Changelog News",
+          "link": "https://lifehacker.com/i-raised-my-kids-on-the-command-line-and-they-love-it-5974087",
+          "publishedOn": "2022-07-26T19:44:00.000Z",
+          "wordCount": null,
+          "title": "I raised my kids on the command line... and they love it",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/8l2M",
+          "author": "Jerod Santo",
+          "description": "Daniel Sieger:\nIf you’ve been developing software for a while, you know that code has this natural tendency to turn into a mess. Keeping software simple over time is a challenge that keeps me thinking. My last post left you hanging without much concrete advice. This time I will outline a few high-level strategies to keep software simple.\nDiscuss on Changelog News",
+          "link": "https://www.danielsieger.com/blog/2022/07/25/your-code-doesnt-have-to-be-a-mess.html",
+          "publishedOn": "2022-07-26T18:45:00.000Z",
+          "wordCount": null,
+          "title": "Your code doesn't have to be a mess",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1755",
           "author": null,
           "description": "Brandur thinks soft deletion probably isn’t worth it, the orange website delivers a high quality discussion on data structures, Podge O’Brien drops satirical management advice, team pico delivers prose.sh, Mat Ryer shares his thoughts on estimations & Matt Rickard’s thoughts on RSS have us thinking about it as well.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSoft Deletion Probably Isn’t Worth It\nAsk HN: What are some cool but obscure data structures you know about?\nHow to drive away your best engineers\nGo Time #236: Thoughts on velocity\nprose.sh\nThoughts on RSS\nSomething missing or broken? PRs welcome!",
@@ -821,41 +866,6 @@
           "wordCount": null,
           "title": "Things you should know about databases",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1693",
-          "author": null,
-          "description": "We’re experimenting with something new: a super-brief Monday edition of “The Changelog” to help start your week off right and keep you up with the fast-moving software world.\nIf you like this, would listen to it, and want us to keep it going… let us know in the comments or by tweeting @changelog. If you’d rather we didn’t… also let us know!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog Weekly\nChangelog Weekly #412\nMarkwhen is like Markdown for timelines\nTauri 1.0 Release\nWhy products should be “slick”, not just viable\nI hate MVPs. So do your customers. Make it SLC instead.\nNo-one knows what they are doing\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-06-27",
-          "publishedOn": "2022-06-27T17:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog Markwhen, Tauri 1.0, SLCs & imposters",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-06-27/the-changelog-news-2022-06-27.mp3",
-            "length": "6454854",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/O5om",
-          "author": "Jerod Santo",
-          "description": "Rewind like video, see output in a pager, Vim-like keymaps, and more. “Viddy well, gopher. Viddy well.”\n\nDiscuss on Changelog News",
-          "link": "https://github.com/sachaos/viddy",
-          "publishedOn": "2022-06-27T14:13:00.000Z",
-          "wordCount": null,
-          "title": "Viddy – a modern watch command with time machine mode",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/1WOr",
-          "author": "Jerod Santo",
-          "description": "Brandon Rhodes’s solution to conflicts between his ~/bin scripts and system binaries: the humble comma\nI heartily recommend this technique to anyone with their own ~/bin/ directory who wants their command names kept clean, tidy, and completely orthogonal to any commands that the future might bring to your system. The approach has worked for me for something like a decade, so you should find it immensely robust. And, finally, it’s just plain fun.\nDiscuss on Changelog News",
-          "link": "https://rhodesmill.org/brandon/2009/commands-with-comma/",
-          "publishedOn": "2022-06-27T13:26:00.000Z",
-          "wordCount": null,
-          "title": "Start all of your commands with a comma",
-          "itunes": {}
         }
       ]
     },
@@ -967,15 +977,6 @@
           "publishedOn": "2022-06-28T07:21:25.000Z",
           "wordCount": 1205,
           "title": "Oops, I spilled the beans"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19400",
-          "author": "Daniel Stenberg",
-          "description": "Welcome to take the next step with us in this never-ending stroll. Release presentation Numbers the 209th release8 changes47 days (total: 8,865)123 bug-fixes (total: 7,980)214 commits (total: 28,787)0 new public libcurl function (total: 88)2 new curl_easy_setopt() option (total: 297)1 new curl command line option (total: 248)51 contributors, 20 new (total: 2,652)35 authors, 13 new (total: … Continue reading curl 7.84.0 inside every box →",
-          "link": "https://daniel.haxx.se/blog/2022/06/27/curl-7-84-0-inside-every-box/",
-          "publishedOn": "2022-06-27T06:21:42.000Z",
-          "wordCount": 1314,
-          "title": "curl 7.84.0 inside every box"
         }
       ]
     },
@@ -1105,15 +1106,6 @@
           "publishedOn": "2022-06-29T14:50:41.000Z",
           "wordCount": 2162,
           "title": "Neural Machine Translation Engine for Firefox Translations add-on"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47870",
-          "author": "Yulia Startsev",
-          "description": "As part of our work to ensure a free and open web, we've been working together with Ecma International, and many partners to write a License inspired by the W3C Document and Software License. Our goal was that JavaScript’s status would align with other specifications of the Web. In addition, with this new license available to all TCs at Ecma International, this will provide other organizations to approach standardization with the same perspective.\nThe post The JavaScript Specification has a New License appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/06/the-specification-for-javascript-has-a-new-license/",
-          "publishedOn": "2022-06-27T15:05:35.000Z",
-          "wordCount": 889,
-          "title": "The JavaScript Specification has a New License"
         }
       ]
     },
@@ -1122,6 +1114,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66225",
+          "author": "tuves",
+          "description": "Today, we’re launching GitHub Community, which brings together GitHub Community Forum, GitHub Education Forum, and product feedback into a free, in-product, single space for all user-to-user interactions.",
+          "link": "https://github.blog/2022-07-26-launching-github-community-powered-by-github-discussions/",
+          "publishedOn": "2022-07-26T17:00:36.000Z",
+          "wordCount": 614,
+          "title": "Launching GitHub Community: Powered by GitHub Discussions"
+        },
+        {
+          "id": "https://github.blog/?p=66264",
+          "author": "Myles Borins",
+          "description": "New npm security enhancements include an improved login and publish experience with the npm CLI, connected GitHub and Twitter accounts, and a new CLI command to verify the integrity of packages in npm.",
+          "link": "https://github.blog/2022-07-26-introducing-even-more-security-enhancements-to-npm/",
+          "publishedOn": "2022-07-26T16:00:06.000Z",
+          "wordCount": 1366,
+          "title": "Introducing even more security enhancements to npm"
+        },
         {
           "id": "https://github.blog/?p=66203",
           "author": "lukewar",
@@ -1265,24 +1275,6 @@
           "publishedOn": "2022-06-28T17:00:06.000Z",
           "wordCount": 1186,
           "title": "Improving Git protocol security on GitHub Enterprise Server"
-        },
-        {
-          "id": "https://github.blog/?p=65943",
-          "author": "Madison Oliver",
-          "description": "We’re excited to announce that the GitHub Advisory Database now includes curated security advisories on Erlang, Elixir, and more.",
-          "link": "https://github.blog/2022-06-27-github-advisory-database-now-supports-erlang-and-elixir-packages/",
-          "publishedOn": "2022-06-27T20:24:52.000Z",
-          "wordCount": 760,
-          "title": "GitHub Advisory Database now supports Erlang and Elixir packages!"
-        },
-        {
-          "id": "https://github.blog/?p=65850",
-          "author": "Taylor Blau",
-          "description": "The open source Git project just released Git 2.37. Take a look at some of our highlights from the latest release.",
-          "link": "https://github.blog/2022-06-27-highlights-from-git-2-37/",
-          "publishedOn": "2022-06-27T18:01:23.000Z",
-          "wordCount": 2651,
-          "title": "Highlights from Git 2.37"
         }
       ]
     },
@@ -1350,15 +1342,6 @@
           "publishedOn": "2022-06-28T18:59:00.000Z",
           "wordCount": 1620,
           "title": "5 Security Stages of the DevSecOps Pipeline"
-        },
-        {
-          "id": "https://hackerone.com/community-blog/hackers-health-adverse-effects-doomscrolling",
-          "author": "Pamela Greenberg",
-          "description": "Question: \"I spend the majority of my time researching and keeping up with current affairs. I don’t feel like anything is wrong, but then I find mys",
-          "link": "https://www.hackerone.com/community-blog/hackers-health-adverse-effects-doomscrolling",
-          "publishedOn": "2022-06-27T15:45:00.000Z",
-          "wordCount": 1463,
-          "title": "Hacker's Health: Adverse Effects of Doomscrolling"
         }
       ]
     },
