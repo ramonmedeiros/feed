@@ -28,6 +28,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/49Ep",
+          "author": "Jerod Santo",
+          "description": "Reading other people’s code is a sure-fire way to improve as a developer. But what about as a database designer? The same process applies!\nThis post by Shekhar Gulati is him sharing what he learned by applying that principle to GitLab’s schema.\nI learnt a lot from the GitLab schema. They don’t blindly apply the same practices to all the table designs. Each table makes the best decision based on its purpose, the kind of data it stores, and its rate of growth.\nMore posts like this, please!\nDiscuss on Changelog News",
+          "link": "https://shekhargulati.com/2022/07/08/my-notes-on-gitlabs-postgres-schema-design/",
+          "publishedOn": "2022-07-27T15:26:00.000Z",
+          "wordCount": null,
+          "title": "My notes on GitLab’s Postgres schema design",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/y7gG",
+          "author": "Jerod Santo",
+          "description": "Sean Moriarity:\nA common argument against using Nx for a new machine learning project is its perceived lack of a library/support for some common task that is available in Python. In this post, I’ll do my best to highlight areas where this is not the case, and compare and contrast Elixir projects with their Python equivalents. Additionally, I’ll discuss areas where the Elixir ecosystem still comes up short, and using Nx for a new project might not be the best idea.\nSean is a prominent member of the Elixir community, so that’s the perspective on display here, but it’s a thorough and well-reasoned comparison. He concludes:\nWhile there are still many gaps in the Elixir ecosystem, the progress over the last year has been rapid. Almost every library I’ve mentioned in this post is less than two years old, and I suspect there will be many more projects to fill some of the gaps I’ve mentioned in the coming months.\nDiscuss on Changelog News",
+          "link": "https://dockyard.com/blog/2022/07/12/elixir-versus-python-for-data-science",
+          "publishedOn": "2022-07-27T14:18:00.000Z",
+          "wordCount": null,
+          "title": "Elixir versus Python for data science",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/Jgnp",
           "author": "Jerod Santo",
           "description": "Ben Johnson is at it again.\nLiteFS is a FUSE-based file system for replicating SQLite databases across a cluster of machines. It works as a passthrough file system that intercepts writes to SQLite databases in order to detect transaction boundaries and record changes on a per-transction level in LTX files.\nI believe Ben was alluding to this (then unreleased) tool on his recent Ship It! appearance…\nDiscuss on Changelog News",
@@ -821,51 +841,6 @@
           "wordCount": null,
           "title": "Really important job interview questions engineers should ask (but don't)",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1694",
-          "author": null,
-          "description": "Drausin Wulsin, Director of ML at Immunai, joins Daniel & Chris to talk about the role of AI in immunotherapy, and why it is proving to be the foremost approach in fighting cancer, autoimmune disease, and infectious diseases.\nThe large amount of high dimensional biological data that is available today, combined with advanced machine learning techniques, creates unique opportunities to push the boundaries of what is possible in biology.\nTo that end, Immunai has built the largest immune database called AMICA that contains tens of millions of cells. The company uses cutting-edge transfer learning techniques to transfer knowledge across different cell types, studies, and even species.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nDrausin Wulsin – LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nImmunai\nImmunai Fact Sheet\nDrausin Wulsin | LinkedIn\nDrausin Wulsin | Google Scholar\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/183",
-          "publishedOn": "2022-06-28T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 183: AI's role in reprogramming immunity",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/183/practical-ai-183.mp3",
-            "length": "47408495",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/GWm9",
-          "author": "Jerod Santo",
-          "description": "The P in PRQL (pronounced “Prequel”) stands for Pipelined, which I’m convinced is a great way of writing and reasoning about queries:\nA PRQL query is a linear pipeline of transformations\nEach line of the query is a transformation of the previous line’s result. This makes it easy to read, and simple to write.\nIt compiles to SQL, which means it’s compatible with most databases already and there are currently bindings for Python, JS & Rust, which is the compiler itself.\nTry it out in their web-based playground. (Thanks, Wasm!)\nDiscuss on Changelog News",
-          "link": "https://prql-lang.org/",
-          "publishedOn": "2022-06-28T15:47:00.000Z",
-          "wordCount": null,
-          "title": "PRQL is a modern language for transforming data",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eE6N",
-          "author": "Jerod Santo",
-          "description": "This is a minimal implementation of DALL·E Mini.  It has been stripped to the bare essentials necessary for doing inference, and converted to PyTorch.  The only third party dependencies are torch for the torch model and flax for the flax model.\nHow much mini-er can it get from here? 🤔\nDiscuss on Changelog News",
-          "link": "https://github.com/kuprel/min-dalle",
-          "publishedOn": "2022-06-28T14:57:00.000Z",
-          "wordCount": null,
-          "title": "A minimal implementation of DALL·E Mini",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Rdwp",
-          "author": "Jerod Santo",
-          "description": "Excellent prose and super-useful diagrams make this post from architecture notes a 10/10 🏆\n\nDiscuss on Changelog News",
-          "link": "https://architecturenotes.co/things-you-should-know-about-databases/",
-          "publishedOn": "2022-06-28T14:05:00.000Z",
-          "wordCount": null,
-          "title": "Things you should know about databases",
-          "itunes": {}
         }
       ]
     },
@@ -968,15 +943,6 @@
           "publishedOn": "2022-07-01T07:02:46.000Z",
           "wordCount": 956,
           "title": "5 years on OSS-Fuzz"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19426",
-          "author": "Daniel Stenberg",
-          "description": "Saturday June 18: I had some curl time in the afternoon and I was just about to go edit the four security advisories I had pending for the next release, to brush up the language and check that they read fine, when it dawned on me. These particular security advisories were still in draft versions … Continue reading Oops, I spilled the beans →",
-          "link": "https://daniel.haxx.se/blog/2022/06/28/oops-i-spilled-the-beans/",
-          "publishedOn": "2022-06-28T07:21:25.000Z",
-          "wordCount": 1205,
-          "title": "Oops, I spilled the beans"
         }
       ]
     },
@@ -1114,6 +1080,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66132",
+          "author": "Michelle Mannering",
+          "description": "It’s been a crazy couple of months with the end of financial year and lots of products shipping. Our community has been hard at work shipping projects too. These projects can include everything from world-changing technology to developer tooling, and weekend hobbies. Here are some of these open source projects that released major updates this […]",
+          "link": "https://github.blog/2022-07-27-release-radar-jun-2022/",
+          "publishedOn": "2022-07-27T17:10:05.000Z",
+          "wordCount": 1484,
+          "title": "Release Radar · June 2022 Edition"
+        },
+        {
+          "id": "https://github.blog/?p=66164",
+          "author": "Man Yue Mo",
+          "description": "In this post I’ll exploit CVE-2022-20186, a vulnerability in the Arm Mali GPU kernel driver and use it to gain arbitrary kernel memory access from an untrusted app on a Pixel 6. This then allows me to gain root and disable SELinux. This vulnerability highlights the strong primitives that an attacker may gain by exploiting errors in the memory management code of GPU drivers.",
+          "link": "https://github.blog/2022-07-27-corrupting-memory-without-memory-corruption/",
+          "publishedOn": "2022-07-27T17:00:35.000Z",
+          "wordCount": 5637,
+          "title": "Corrupting memory without memory corruption"
+        },
+        {
+          "id": "https://github.blog/?p=66298",
+          "author": "Mario Rodriguez",
+          "description": "Today, we are announcing the general availability of the new and improved Projects powered by GitHub Issues. GitHub Projects connects your planning directly to the work your teams are doing in GitHub and flexibly adapts to whatever your team needs at any point.",
+          "link": "https://github.blog/2022-07-27-planning-next-to-your-code-github-projects-is-now-generally-available/",
+          "publishedOn": "2022-07-27T16:00:10.000Z",
+          "wordCount": 1436,
+          "title": "Planning next to your code – GitHub Projects is now generally available"
+        },
         {
           "id": "https://github.blog/?p=66225",
           "author": "tuves",
@@ -1266,15 +1259,6 @@
           "publishedOn": "2022-06-29T17:00:02.000Z",
           "wordCount": 5363,
           "title": "Improve Git monorepo performance with a file system monitor"
-        },
-        {
-          "id": "https://github.blog/?p=65902",
-          "author": "Brian Carlson",
-          "description": "The recent changes to improve protocol security on GitHub.com are now coming to GitHub Enterprise Server, starting with version 3.6.",
-          "link": "https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/",
-          "publishedOn": "2022-06-28T17:00:06.000Z",
-          "wordCount": 1186,
-          "title": "Improving Git protocol security on GitHub Enterprise Server"
         }
       ]
     },
@@ -1333,15 +1317,6 @@
           "publishedOn": "2022-06-30T16:00:00.000Z",
           "wordCount": 1733,
           "title": "What Your Organization Gains by Understanding the Value of App Security Testing Averages"
-        },
-        {
-          "id": "https://hackerone.com/application-security/5-security-stages-devsecops-pipeline",
-          "author": "HackerOne",
-          "description": "DevSecOps builds on modern DevOps practices by incorporating security processes and automation into the development pipeline. This enables development teams to continue the rapid and continuous delivery trend while improving software assets' security. The DevSecOps pipeline follows the familiar DevOps “infinity loop” structure while incorporating some extra steps to ensure code security before, during, and after it’s pushed to production.",
-          "link": "https://www.hackerone.com/application-security/5-security-stages-devsecops-pipeline",
-          "publishedOn": "2022-06-28T18:59:00.000Z",
-          "wordCount": 1620,
-          "title": "5 Security Stages of the DevSecOps Pipeline"
         }
       ]
     },

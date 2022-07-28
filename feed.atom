@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-27T12:24:07.135Z</updated>
+    <updated>2022-07-28T12:24:12.880Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Release Radar · June 2022 Edition]]></title>
+        <id>https://github.blog/?p=66132</id>
+        <link href="https://github.blog/2022-07-27-release-radar-jun-2022/"/>
+        <updated>2022-07-27T17:10:05.000Z</updated>
+        <summary type="html"><![CDATA[It’s been a crazy couple of months with the end of financial year and lots of products shipping. Our community has been hard at work shipping projects too. These projects can include everything from world-changing technology to developer tooling, and weekend hobbies. Here are some of these open source projects that released major updates this […]]]></summary>
+        <author>
+            <name>Michelle Mannering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Corrupting memory without memory corruption]]></title>
+        <id>https://github.blog/?p=66164</id>
+        <link href="https://github.blog/2022-07-27-corrupting-memory-without-memory-corruption/"/>
+        <updated>2022-07-27T17:00:35.000Z</updated>
+        <summary type="html"><![CDATA[In this post I’ll exploit CVE-2022-20186, a vulnerability in the Arm Mali GPU kernel driver and use it to gain arbitrary kernel memory access from an untrusted app on a Pixel 6. This then allows me to gain root and disable SELinux. This vulnerability highlights the strong primitives that an attacker may gain by exploiting errors in the memory management code of GPU drivers.]]></summary>
+        <author>
+            <name>Man Yue Mo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Planning next to your code – GitHub Projects is now generally available]]></title>
+        <id>https://github.blog/?p=66298</id>
+        <link href="https://github.blog/2022-07-27-planning-next-to-your-code-github-projects-is-now-generally-available/"/>
+        <updated>2022-07-27T16:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Today, we are announcing the general availability of the new and improved Projects powered by GitHub Issues. GitHub Projects connects your planning directly to the work your teams are doing in GitHub and flexibly adapts to whatever your team needs at any point.]]></summary>
+        <author>
+            <name>Mario Rodriguez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My notes on GitLab’s Postgres schema design]]></title>
+        <id>changelog.com/news/49Ep</id>
+        <link href="https://shekhargulati.com/2022/07/08/my-notes-on-gitlabs-postgres-schema-design/"/>
+        <updated>2022-07-27T15:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Reading other people’s code is a sure-fire way to improve as a developer. But what about as a database designer? The same process applies!
+This post by Shekhar Gulati is him sharing what he learned by applying that principle to GitLab’s schema.
+I learnt a lot from the GitLab schema. They don’t blindly apply the same practices to all the table designs. Each table makes the best decision based on its purpose, the kind of data it stores, and its rate of growth.
+More posts like this, please!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elixir versus Python for data science]]></title>
+        <id>changelog.com/news/y7gG</id>
+        <link href="https://dockyard.com/blog/2022/07/12/elixir-versus-python-for-data-science"/>
+        <updated>2022-07-27T14:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Sean Moriarity:
+A common argument against using Nx for a new machine learning project is its perceived lack of a library/support for some common task that is available in Python. In this post, I’ll do my best to highlight areas where this is not the case, and compare and contrast Elixir projects with their Python equivalents. Additionally, I’ll discuss areas where the Elixir ecosystem still comes up short, and using Nx for a new project might not be the best idea.
+Sean is a prominent member of the Elixir community, so that’s the perspective on display here, but it’s a thorough and well-reasoned comparison. He concludes:
+While there are still many gaps in the Elixir ecosystem, the progress over the last year has been rapid. Almost every library I’ve mentioned in this post is less than two years old, and I suspect there will be many more projects to fill some of the gaps I’ve mentioned in the coming months.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A distributed SQLite replication system]]></title>
         <id>changelog.com/news/Jgnp</id>
@@ -1657,99 +1715,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[There has been a big drawdown but pain may not be over]]></summary>
         <author>
             <name>Market Radar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 183: AI's role in reprogramming immunity]]></title>
-        <id>changelog.com/7/1694</id>
-        <link href="https://changelog.com/practicalai/183"/>
-        <updated>2022-06-28T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Drausin Wulsin, Director of ML at Immunai, joins Daniel & Chris to talk about the role of AI in immunotherapy, and why it is proving to be the foremost approach in fighting cancer, autoimmune disease, and infectious diseases.
-The large amount of high dimensional biological data that is available today, combined with advanced machine learning techniques, creates unique opportunities to push the boundaries of what is possible in biology.
-To that end, Immunai has built the largest immune database called AMICA that contains tens of millions of cells. The company uses cutting-edge transfer learning techniques to transfer knowledge across different cell types, studies, and even species.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Drausin Wulsin – LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-Immunai
-Immunai Fact Sheet
-Drausin Wulsin | LinkedIn
-Drausin Wulsin | Google Scholar
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Security Stages of the DevSecOps Pipeline]]></title>
-        <id>https://hackerone.com/application-security/5-security-stages-devsecops-pipeline</id>
-        <link href="https://www.hackerone.com/application-security/5-security-stages-devsecops-pipeline"/>
-        <updated>2022-06-28T18:59:00.000Z</updated>
-        <summary type="html"><![CDATA[DevSecOps builds on modern DevOps practices by incorporating security processes and automation into the development pipeline. This enables development teams to continue the rapid and continuous delivery trend while improving software assets' security. The DevSecOps pipeline follows the familiar DevOps “infinity loop” structure while incorporating some extra steps to ensure code security before, during, and after it’s pushed to production.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving Git protocol security on GitHub Enterprise Server]]></title>
-        <id>https://github.blog/?p=65902</id>
-        <link href="https://github.blog/2022-06-28-improving-git-protocol-security-on-github-enterprise-server/"/>
-        <updated>2022-06-28T17:00:06.000Z</updated>
-        <summary type="html"><![CDATA[The recent changes to improve protocol security on GitHub.com are now coming to GitHub Enterprise Server, starting with version 3.6.]]></summary>
-        <author>
-            <name>Brian Carlson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PRQL is a modern language for transforming data]]></title>
-        <id>changelog.com/news/GWm9</id>
-        <link href="https://prql-lang.org/"/>
-        <updated>2022-06-28T15:47:00.000Z</updated>
-        <summary type="html"><![CDATA[The P in PRQL (pronounced “Prequel”) stands for Pipelined, which I’m convinced is a great way of writing and reasoning about queries:
-A PRQL query is a linear pipeline of transformations
-Each line of the query is a transformation of the previous line’s result. This makes it easy to read, and simple to write.
-It compiles to SQL, which means it’s compatible with most databases already and there are currently bindings for Python, JS & Rust, which is the compiler itself.
-Try it out in their web-based playground. (Thanks, Wasm!)
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A minimal implementation of DALL·E Mini]]></title>
-        <id>changelog.com/news/eE6N</id>
-        <link href="https://github.com/kuprel/min-dalle"/>
-        <updated>2022-06-28T14:57:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a minimal implementation of DALL·E Mini.  It has been stripped to the bare essentials necessary for doing inference, and converted to PyTorch.  The only third party dependencies are torch for the torch model and flax for the flax model.
-How much mini-er can it get from here? 🤔
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Things you should know about databases]]></title>
-        <id>changelog.com/news/Rdwp</id>
-        <link href="https://architecturenotes.co/things-you-should-know-about-databases/"/>
-        <updated>2022-06-28T14:05:00.000Z</updated>
-        <summary type="html"><![CDATA[Excellent prose and super-useful diagrams make this post from architecture notes a 10/10 🏆
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oops, I spilled the beans]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19426</id>
-        <link href="https://daniel.haxx.se/blog/2022/06/28/oops-i-spilled-the-beans/"/>
-        <updated>2022-06-28T07:21:25.000Z</updated>
-        <summary type="html"><![CDATA[Saturday June 18: I had some curl time in the afternoon and I was just about to go edit the four security advisories I had pending for the next release, to brush up the language and check that they read fine, when it dawned on me. These particular security advisories were still in draft versions … Continue reading Oops, I spilled the beans →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
