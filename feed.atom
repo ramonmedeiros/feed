@@ -2,10 +2,98 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-28T12:24:12.880Z</updated>
+    <updated>2022-07-29T12:21:37.036Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Partytown runs 3rd-party scripts from a web worker]]></title>
+        <id>changelog.com/news/njAg</id>
+        <link href="https://partytown.builder.io/"/>
+        <updated>2022-07-28T19:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Partytown is a lazy-loaded library to help relocate resource intensive scripts into a web worker, and off of the main thread. Its goal is to help speed up sites by dedicating the main thread to your code, and offloading third-party scripts to a web worker.
+Even with a fast and highly tuned website following all of today’s best practices, it’s all too common for your performance wins to be erased the moment third-party scripts are added. By third-party scripts we mean code that is embedded within your site, but not directly under your control. A few examples include: analytics, metrics, ads, A/B testing, trackers, etc.
+I learned of this library during our fascinating discussion with Miško Hevery on (next week’s) JS Party.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 240: What's new in Go 1.19]]></title>
+        <id>changelog.com/2/1713</id>
+        <link href="https://changelog.com/gotime/240"/>
+        <updated>2022-07-28T18:35:38.000Z</updated>
+        <summary type="html"><![CDATA[Go 1.18 was a major release where we saw the introduction of generics into the language as well as other notables such as fuzzing and workspaces. With Go 1.19 slated to come out next month, one has to wonder what’s next. Are we in store to be blown away by new and major features like we saw in 1.18? Not exactly but there are still lots of improvements to be on the lookout for.
+Joining Mat & Johnny to touch on some of the most interesting ones is Carl Johnson, himself a contributor to the 1.19 release.
+Discuss on Changelog News
+Changelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights —…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Marketing for maintainers: Promote your project to users and contributors]]></title>
+        <id>https://github.blog/?p=66247</id>
+        <link href="https://github.blog/2022-07-28-marketing-for-maintainers-how-to-promote-your-project-to-both-users-and-contributors/"/>
+        <updated>2022-07-28T17:00:14.000Z</updated>
+        <summary type="html"><![CDATA[Marketing your open source project can be intimidating, but three experts share their insider tips and tricks for how to get your hard work on the right people’s radars.]]></summary>
+        <author>
+            <name>Klint Finley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[`catp` prints the output of a running process]]></title>
+        <id>changelog.com/news/ojOO</id>
+        <link href="https://github.com/rapiz1/catp"/>
+        <updated>2022-07-28T16:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Do you ever send the output of a process to /dev/null and regret it, but can’t afford to stop and restart the process? catp is here for you!
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Upgrading from Debian Jessie i386 to Bullseye amd64 after ~30 years]]></title>
+        <id>changelog.com/news/Mb12</id>
+        <link href="https://diziet.dreamwidth.org/11840.html"/>
+        <updated>2022-07-28T15:17:00.000Z</updated>
+        <summary type="html"><![CDATA[chiark is my “colo” - a server I run, which lives in a data centre in London. It hosts ~200 users with shell accounts, various websites and mailing lists, moderators for a number of USENET newsgroups, and countless other services…
+chiark’s last major OS upgrade was to jessie (Debian 8, released in April 2015). That was in 2016.
+A harrowing tale of planning and peril. Surprisingly, it went quite well!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Sponsors available in 30 new regions]]></title>
+        <id>https://github.blog/?p=66323</id>
+        <link href="https://github.blog/2022-07-28-github-sponsors-available-in-30-new-regions-2/"/>
+        <updated>2022-07-28T13:00:07.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Sponsors expands globally with 30 newly supported regions, bringing the total to 68.]]></summary>
+        <author>
+            <name>Jessica Lord</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 63: KubeVelo 2022]]></title>
+        <id>changelog.com/14/1681</id>
+        <link href="https://changelog.com/shipit/63"/>
+        <updated>2022-07-27T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We know that many of you listen to this podcast while running 🏃‍♀️ or cycling 🚴‍♂️ Hey Dan!
+How many of you cycled to a conference? Gerhard knows a single person that cycled 764 miles for 8 days straight from Switzerland to Spain for this year’s KubeCon EU. His name is Johann Gyger, a CNCF ambassador & a cloud consultant at Peak Scale. Johann is a cloud engineer at heart that is all in on sustainability. He is the main reason why Gerhard is super excited to talk about electric cars & Dagger at the Swiss Cloud Native Day this September.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance m…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Radar · June 2022 Edition]]></title>
         <id>https://github.blog/?p=66132</id>
@@ -1615,106 +1703,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 59: Postgres vs SQLite with Litestream]]></title>
-        <id>changelog.com/14/1654</id>
-        <link href="https://changelog.com/shipit/59"/>
-        <updated>2022-06-29T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ben Johnson, the creator of Litestream, joined Fly.io a few weeks after we migrated changelog.com - episode 50 has all the details. That was pure coincidence. What was not a coincidence, is Gerhard jumping at the opportunity to talk to Ben about Postgres vs SQLite with Litestream.
-The prospect of running a cluster of our app instances spread across all regions, with local SQLite & Litestream replication, is mind boggling. Let’s find out from Ben what will it take to get there.  Thanks Kürt for kicking off this dream.
-Discuss on Changelog News
-Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry hel…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Chromium super (inline cache) type confusion]]></title>
-        <id>https://github.blog/?p=65766</id>
-        <link href="https://github.blog/2022-06-29-the-chromium-super-inline-cache-type-confusion/"/>
-        <updated>2022-06-29T18:39:46.000Z</updated>
-        <summary type="html"><![CDATA[In this post I'll exploit CVE-2022-1134, a type confusion in Chrome that I reported in March 2022, which allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site. I'll also look at some past vulnerabilities of this type and some implementation details of inline cache in V8, the JavaScript engine of Chrome.]]></summary>
-        <author>
-            <name>Man Yue Mo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improve Git monorepo performance with a file system monitor]]></title>
-        <id>https://github.blog/?p=65874</id>
-        <link href="https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/"/>
-        <updated>2022-06-29T17:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Monorepo performance can suffer due to the sheer number of files in your working directory. Git’s new builtin file system monitor makes it easy to speed up monorepo performance.]]></summary>
-        <author>
-            <name>Jeff Hostetler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reducing gender-based harms in AI with Sunipa Dev]]></title>
-        <id>https://blog.google/technology/ai/reducing-gender-based-harms-in-ai-with-sunipa-dev/</id>
-        <link href="https://blog.google/technology/ai/reducing-gender-based-harms-in-ai-with-sunipa-dev/"/>
-        <updated>2022-06-29T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Natural language processing (NLP) is a form of artificial intelligence that teaches computer programs how to take in, interpret, and produce language from large data sets. For example, grammar checkers use NLP to come up with grammar suggestions that help people write grammatically correct phrases. But as Google’s AI Principles note, it’s sometimes necessary to have human intervention to identify risks of unfair bias.
-
-
-Sunipa Dev is a research scientist at Google who focuses on Responsible AI. Some of her work focuses specifically on ways to evaluate unfair bias in NLP outcomes, reducing harms for people with queer and non-binary identities. Sunipa’s work was recently featured at a workshop at the ACM Fairness, Accountability, and Transparency (FAcct) conference in Seoul, Korea.
-
-
-In our …]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQLite or PostgreSQL? It's complicated!]]></title>
-        <id>changelog.com/news/Y1Rk</id>
-        <link href="https://www.twilio.com/blog/sqlite-postgresql-complicated"/>
-        <updated>2022-06-29T14:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Miguel Grinberg built a SQLite-backed web app for the blogging team at Twilio to track their effectiveness that started to respond slugishly when it grew much bigger than he expected (6.5 million individual daily traffic records, and with a user base that grew to over 200 employees).
-He thought this might be a good time to switch to Postgres, but he wasn’t sure if the wins he expected would be realized:
-Having publicly professed my dislike of performance benchmarks, I resisted the urge to look up any comparisons online, and instead embarked on a series of experiments to accurately measure the performance of these two databases for the specific use cases of this application.
-In this in-depth article on Twilio’s blog (no doubt being tracked by Miguel’s web app as we speak) he goes into the details of his efforts with lots of interesting findings along the way (even a plot twist!). I’ll leave you with this statement from the end:
-If you are going to take one thing away from this article, I hope it is that the only benchmarks that are valuable are those that run on your own platform, with your own stack, with your own data, and with your own software. And even then, you may need to add custom optimizations to get the best performance.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neural Machine Translation Engine for Firefox Translations add-on]]></title>
-        <id>https://hacks.mozilla.org/?p=47890</id>
-        <link href="https://hacks.mozilla.org/2022/06/neural-machine-translation-engine-for-firefox-translations-add-on/"/>
-        <updated>2022-06-29T14:50:41.000Z</updated>
-        <summary type="html"><![CDATA[Firefox Translations is a website translation add-on that provides an automated translation of web content. In this article, we will discuss the technical challenges around the development of the translation engine and how we solved them to build a usable Firefox Translations add-on.
-The post Neural Machine Translation Engine for Firefox Translations add-on appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Abhishek Aggarwal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Really important job interview questions engineers should ask (but don't)]]></title>
-        <id>changelog.com/news/ojkR</id>
-        <link href="https://posthog.com/blog/what-to-ask-in-interviews"/>
-        <updated>2022-06-29T14:06:00.000Z</updated>
-        <summary type="html"><![CDATA[James Hawkins, after being on a team that’s interviewed over 725 people:
-It’s normal for candidates not to ask harder questions about our company, so they usually miss out on a chance to (i) de-risk our company’s performance and (ii) to increase the chances they’ll like working here.
-Does the company have product-market fit? How much runway does the company have? Does their spending look within reason? What’s the culture like? And more tough questions that you really should be asking before accepting that offer.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Bear Market over? Probably not]]></title>
-        <id>https://marketradar.substack.com/p/is-bear-market-over-probably-not</id>
-        <link href="https://marketradar.substack.com/p/is-bear-market-over-probably-not"/>
-        <updated>2022-06-29T13:05:07.000Z</updated>
-        <summary type="html"><![CDATA[There has been a big drawdown but pain may not be over]]></summary>
-        <author>
-            <name>Market Radar</name>
         </author>
     </entry>
 </feed>
