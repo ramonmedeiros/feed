@@ -831,76 +831,6 @@
           "wordCount": null,
           "title": "Kubernetes is a red flag signalling premature optimisation",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1646",
-          "author": null,
-          "description": "Adam and Jerod are joined once again by James Long. He was on the podcast five years ago discussing the surprise success of Prettier, an opinionated code formatter that’s still in use to this day. This time around we’re going deep on Actual, his personal finance system James built as a business for over 4 years before recently opening it up and making it 100% free.\nHas James given up on the business? Or will this move Actual(ly) breathe new life into a piece of software that’s used and beloved by many? Tune in to find out.\nDiscuss on Changelog News\nChangelog++ members get a bonus 27 minutes at the end of this episode and zero ads. Join today!\nSponsors\nInfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analy…",
-          "link": "https://changelog.com/podcast/495",
-          "publishedOn": "2022-07-01T20:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 495: Actual(ly) opening up",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/495/the-changelog-495.mp3",
-            "length": "92129355",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/kwOg",
-          "author": "Jerod Santo",
-          "description": "Brenton Cleeland starts a lot of projects. Django is his go-to framework, so he’s settled on these common steps he performs right after django-admin startproject\nMove the SECRET_KEY into an environment variable\nChange the database configuration to DATABASE_URL\nSet up a custom user model\nCreate your Django app\nMake a base.html\nGibo and Git Init\nDiscuss on Changelog News",
-          "link": "https://brntn.me/blog/six-things-i-do-every-time-i-start-a-django-project/",
-          "publishedOn": "2022-07-01T19:25:00.000Z",
-          "wordCount": null,
-          "title": "Six things I do every time I start a Django project",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/EqQd",
-          "author": "Jerod Santo",
-          "description": "A collection of ASCII data structures, state machines, logical structures, and more.\nPeople tend to be visual: we use pictures to understand problems. Mainstream programming languages, on the other hand, operate in an almost completely different kind of abstract space, leaving a big gap between programs and pictures. This piece is about pictures drawn using a text character set and then embedded in source code.\nDiscuss on Changelog News",
-          "link": "https://blog.regehr.org/archives/1653",
-          "publishedOn": "2022-07-01T18:38:00.000Z",
-          "wordCount": null,
-          "title": "Explaining code using ASCII art",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/6/1676",
-          "author": null,
-          "description": "Jerod, Nick & Ali partake in a few rounds of Story of the Week, TIL, and I’m Excited about $X. Oh, and is TypeScript the new Java? Nick responds and emotes all over the place! 😆\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFeaturing\nJerod Santo – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nAli Spittel – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nStory of the Week\nDeno raises $21m\n\nRyan Dahl on The Changelog #443\nKitson Kelly on JS Party #127\nGitHub Copilot pricing announced\nAmazon Codewhisperer\nBrave Search Goggles\nRIP Atom\n\nhello, Zed\nToday I Learned\nSimon Willison’s CSV/SQlite one-liner\nfzf\njqq\nMikeal’s TypeScript tweet\nI’m Excited About $X\nSvelte Origins doc\nNoclip\nlofi.co\nWork from home with me 3 HRS\nKan Jam\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/232",
-          "publishedOn": "2022-07-01T16:40:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 232: Sophisticated Cornhole",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/jsparty/232/js-party-232.mp3",
-            "length": "56277331",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/bJom",
-          "author": "Jerod Santo",
-          "description": "I logged upptime a couple years ago, but every time it crosses my path I’m so impressed by how stinkin’ clever the setup is that I just had to share it again.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/upptime/upptime",
-          "publishedOn": "2022-07-01T15:05:00.000Z",
-          "wordCount": null,
-          "title": "Free uptime monitor and status page powered entirely by GitHub",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W1yW",
-          "author": "Jerod Santo",
-          "description": "After many years of gradual improvement Vim now takes a big step with a major release. Besides many small additions the spotlight is on a new incarnation of the Vim script language: Vim9 script.\nOne of Neovim’s major draws is that you can avoid Vim script altogether and use Lua instead. It looks like the Vim team is addressing the two major complaints folks have with Vim script: performance and its obscure syntax:\nThe main goal of Vim9 script is to drastically improve performance. This is accomplished by compiling commands into instructions that can be efficiently executed. An increase in execution speed of 10 to 100 times can be expected.\nA secondary goal is to avoid Vim-specific constructs and get closer to commonly used programming languages, such as JavaScript, TypeScript and Java.\nLegacy scripts will continue to work, of course. The Vim team has no plans to drop legacy support in the foreseeable future. Learn more about Vim9 script here or with :help vim9 inside Vim itself.\nDiscuss on Changelog News",
-          "link": "https://www.vim.org/vim90.php",
-          "publishedOn": "2022-07-01T14:19:00.000Z",
-          "wordCount": null,
-          "title": "Vim's big 9.0 release brings with it a new scripting language",
-          "itunes": {}
         }
       ]
     },
@@ -976,15 +906,6 @@
           "publishedOn": "2022-07-12T22:12:02.000Z",
           "wordCount": 526,
           "title": "predef is our friend"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19351",
-          "author": "Daniel Stenberg",
-          "description": "On July 1st 2017, exactly five years ago today, the OSS-Fuzz project “adopted” curl into their program and started running fuzz tests against it. OSS-Fuzz is a project run by Google and they do fuzzing on a large amount of open source projects: OSS-Fuzz aims to make common open source software more secure and stable … Continue reading 5 years on OSS-Fuzz →",
-          "link": "https://daniel.haxx.se/blog/2022/07/01/5-years-on-oss-fuzz/",
-          "publishedOn": "2022-07-01T07:02:46.000Z",
-          "wordCount": 956,
-          "title": "5 years on OSS-Fuzz"
         }
       ]
     },
@@ -993,6 +914,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "author": null,
+          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "publishedOn": "2022-07-31T12:18:41.798Z",
+          "wordCount": 1483,
+          "title": "Twitter Sparrow tackles data storage challenges of scale"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
           "author": null,
@@ -1064,15 +994,6 @@
           "publishedOn": "2022-07-04T12:20:28.239Z",
           "wordCount": 1604,
           "title": "Data transfer in Manhattan using RocksDB"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
-          "author": null,
-          "description": "Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
-          "publishedOn": "2022-07-01T12:20:19.369Z",
-          "wordCount": 2190,
-          "title": "Over-squashing, Bottlenecks, and Graph Ricci curvature"
         }
       ]
     },
@@ -1227,24 +1148,6 @@
           "publishedOn": "2022-07-06T08:00:15.000Z",
           "wordCount": 2932,
           "title": "Managing a game dev community with GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=66076",
-          "author": "Jose Palafox",
-          "description": "New Actions from Anchore, NowSecure, SBT, and Trivy are now available to create a more comprehensive GitHub Dependency Graph.",
-          "link": "https://github.blog/2022-07-01-extend-your-dependency-information-in-the-github-dependency-graph-with-new-github-actions/",
-          "publishedOn": "2022-07-01T17:00:20.000Z",
-          "wordCount": 949,
-          "title": "Extend your dependency information in the GitHub Dependency Graph with new GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=66063",
-          "author": "Ben Balter",
-          "description": "Can projects and GitHub Actions be used by your non-developer teams? They absolutely can. Check out how our Security Team uses GitHub to run the department effortlessly.",
-          "link": "https://github.blog/2022-07-01-how-the-github-security-team-uses-projects-and-github-actions-for-planning-tracking-and-more/",
-          "publishedOn": "2022-07-01T15:22:53.000Z",
-          "wordCount": 1376,
-          "title": "How the GitHub Security Team uses projects and GitHub Actions for planning, tracking, and more"
         }
       ]
     },

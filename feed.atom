@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-30T12:16:54.201Z</updated>
+    <updated>2022-07-31T12:19:03.911Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale"/>
+        <updated>2022-07-31T12:18:41.798Z</updated>
+        <summary type="html"><![CDATA[In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Changelog 499: Long live RSS!]]></title>
         <id>changelog.com/1/1751</id>
@@ -1511,167 +1521,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 495: Actual(ly) opening up]]></title>
-        <id>changelog.com/1/1646</id>
-        <link href="https://changelog.com/podcast/495"/>
-        <updated>2022-07-01T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Adam and Jerod are joined once again by James Long. He was on the podcast five years ago discussing the surprise success of Prettier, an opinionated code formatter that’s still in use to this day. This time around we’re going deep on Actual, his personal finance system James built as a business for over 4 years before recently opening it up and making it 100% free.
-Has James given up on the business? Or will this move Actual(ly) breathe new life into a piece of software that’s used and beloved by many? Tune in to find out.
-Discuss on Changelog News
-Changelog++ members get a bonus 27 minutes at the end of this episode and zero ads. Join today!
-Sponsors
-InfluxData – The time series platform for building and operating time series applications — InfluxDB empowers developers to build IoT, analy…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Six things I do every time I start a Django project]]></title>
-        <id>changelog.com/news/kwOg</id>
-        <link href="https://brntn.me/blog/six-things-i-do-every-time-i-start-a-django-project/"/>
-        <updated>2022-07-01T19:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Brenton Cleeland starts a lot of projects. Django is his go-to framework, so he’s settled on these common steps he performs right after django-admin startproject
-Move the SECRET_KEY into an environment variable
-Change the database configuration to DATABASE_URL
-Set up a custom user model
-Create your Django app
-Make a base.html
-Gibo and Git Init
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Explaining code using ASCII art]]></title>
-        <id>changelog.com/news/EqQd</id>
-        <link href="https://blog.regehr.org/archives/1653"/>
-        <updated>2022-07-01T18:38:00.000Z</updated>
-        <summary type="html"><![CDATA[A collection of ASCII data structures, state machines, logical structures, and more.
-People tend to be visual: we use pictures to understand problems. Mainstream programming languages, on the other hand, operate in an almost completely different kind of abstract space, leaving a big gap between programs and pictures. This piece is about pictures drawn using a text character set and then embedded in source code.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Extend your dependency information in the GitHub Dependency Graph with new GitHub Actions]]></title>
-        <id>https://github.blog/?p=66076</id>
-        <link href="https://github.blog/2022-07-01-extend-your-dependency-information-in-the-github-dependency-graph-with-new-github-actions/"/>
-        <updated>2022-07-01T17:00:20.000Z</updated>
-        <summary type="html"><![CDATA[New Actions from Anchore, NowSecure, SBT, and Trivy are now available to create a more comprehensive GitHub Dependency Graph.]]></summary>
-        <author>
-            <name>Jose Palafox</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 232: Sophisticated Cornhole]]></title>
-        <id>changelog.com/6/1676</id>
-        <link href="https://changelog.com/jsparty/232"/>
-        <updated>2022-07-01T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Jerod, Nick & Ali partake in a few rounds of Story of the Week, TIL, and I’m Excited about $X. Oh, and is TypeScript the new Java? Nick responds and emotes all over the place! 😆
-Discuss on Changelog News
-Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
-
-    
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
-
-    
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Featuring
-Jerod Santo – Twitter, GitHub
-Nick Nisi – Twitter, GitHub, Website
-Ali Spittel – Twitter, GitHub, LinkedIn, Website
-Notes and Links
-Story of the Week
-Deno raises $21m
-
-Ryan Dahl on The Changelog #443
-Kitson Kelly on JS Party #127
-GitHub Copilot pricing announced
-Amazon Codewhisperer
-Brave Search Goggles
-RIP Atom
-
-hello, Zed
-Today I Learned
-Simon Willison’s CSV/SQlite one-liner
-fzf
-jqq
-Mikeal’s TypeScript tweet
-I’m Excited About $X
-Svelte Origins doc
-Noclip
-lofi.co
-Work from home with me 3 HRS
-Kan Jam
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the GitHub Security Team uses projects and GitHub Actions for planning, tracking, and more]]></title>
-        <id>https://github.blog/?p=66063</id>
-        <link href="https://github.blog/2022-07-01-how-the-github-security-team-uses-projects-and-github-actions-for-planning-tracking-and-more/"/>
-        <updated>2022-07-01T15:22:53.000Z</updated>
-        <summary type="html"><![CDATA[Can projects and GitHub Actions be used by your non-developer teams? They absolutely can. Check out how our Security Team uses GitHub to run the department effortlessly.]]></summary>
-        <author>
-            <name>Ben Balter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free uptime monitor and status page powered entirely by GitHub]]></title>
-        <id>changelog.com/news/bJom</id>
-        <link href="https://github.com/upptime/upptime"/>
-        <updated>2022-07-01T15:05:00.000Z</updated>
-        <summary type="html"><![CDATA[I logged upptime a couple years ago, but every time it crosses my path I’m so impressed by how stinkin’ clever the setup is that I just had to share it again.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vim's big 9.0 release brings with it a new scripting language]]></title>
-        <id>changelog.com/news/W1yW</id>
-        <link href="https://www.vim.org/vim90.php"/>
-        <updated>2022-07-01T14:19:00.000Z</updated>
-        <summary type="html"><![CDATA[After many years of gradual improvement Vim now takes a big step with a major release. Besides many small additions the spotlight is on a new incarnation of the Vim script language: Vim9 script.
-One of Neovim’s major draws is that you can avoid Vim script altogether and use Lua instead. It looks like the Vim team is addressing the two major complaints folks have with Vim script: performance and its obscure syntax:
-The main goal of Vim9 script is to drastically improve performance. This is accomplished by compiling commands into instructions that can be efficiently executed. An increase in execution speed of 10 to 100 times can be expected.
-A secondary goal is to avoid Vim-specific constructs and get closer to commonly used programming languages, such as JavaScript, TypeScript and Java.
-Legacy scripts will continue to work, of course. The Vim team has no plans to drop legacy support in the foreseeable future. Learn more about Vim9 script here or with :help vim9 inside Vim itself.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Over-squashing, Bottlenecks, and Graph Ricci curvature]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature"/>
-        <updated>2022-07-01T12:20:19.369Z</updated>
-        <summary type="html"><![CDATA[Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 years on OSS-Fuzz]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19351</id>
-        <link href="https://daniel.haxx.se/blog/2022/07/01/5-years-on-oss-fuzz/"/>
-        <updated>2022-07-01T07:02:46.000Z</updated>
-        <summary type="html"><![CDATA[On July 1st 2017, exactly five years ago today, the OSS-Fuzz project “adopted” curl into their program and started running fuzz tests against it. OSS-Fuzz is a project run by Google and they do fuzzing on a large amount of open source projects: OSS-Fuzz aims to make common open source software more secure and stable … Continue reading 5 years on OSS-Fuzz →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
