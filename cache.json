@@ -28,6 +28,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/1WX6",
+          "author": "Jerod Santo",
+          "description": "I have to admit, I enjoy making fun of PHP. Mostly because the language itself is a fractal of bad design. But I (try to) do it with love, because language design is just one part of what makes a programming environment good. This post is a nice reminder of the many reasons why PHP and JavaScript are awesome.\nOver the last twenty years, I have used over a dozen languages professionally, from C to Common Lisp, from Java to Python, from C++ to Typescript.\nYet, I love janky programming languages. In particular, I really enjoy PHP and JavaScript.\nHere’s why.\nI particularly agree with the point at the end about legacy codebases, many of which are powered by PHP and JS:\nA legacy codebase means that the product is performing well. It means that I can often make immediate and impactful improvements.\nFor me, nothing comes close to the pleasure of improving a product with many users.\nDiscuss on Changelog News",
+          "link": "https://the.scapegoat.dev/why-i-love-php-and-javascript/",
+          "publishedOn": "2022-08-03T14:29:00.000Z",
+          "wordCount": null,
+          "title": "Why I still love PHP and JavaScript after 20+ years",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/D1Yp",
+          "author": "Jerod Santo",
+          "description": "A lot of ink is spent on the “monoliths vs. microservices” debate, but the real issue behind this debate is about whether distributed system architecture is worth the developer time and cost overheads. By thinking about the real operational considerations of our systems, we can get some insight into whether we actually need distributed systems for most things.\nScaling up has always been easier than scaling out. It’s amazing what one beefy server can do these days…\nDiscuss on Changelog News",
+          "link": "https://specbranch.com/posts/one-big-server/",
+          "publishedOn": "2022-08-03T13:38:00.000Z",
+          "wordCount": null,
+          "title": "Use one big server",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1792",
           "author": null,
           "description": "Every year Mozilla releases an Internet Health Report that combines research and stories exploring what it means for the internet to be healthy. This year’s report is focused on AI. In this episode, Solana and Bridget from Mozilla join us to discuss the power dynamics of AI and the current state of AI worldwide. They highlight concerning trends in the application of this transformational technology along with positive signs of change.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nSolana Larsen – Twitter, LinkedIn\nBridget Todd – Twitter\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nThe Internet Health Report 2022\nFacts of the AI Power Imbalance\nSomething missing or broken? PRs welcome!",
@@ -886,41 +906,6 @@
           "wordCount": null,
           "title": "I don't care how you web dev; I just need more better web apps",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1709",
-          "author": null,
-          "description": "We’re listening! This week’s experimental, super-brief Monday edition of “The Changelog” has the following new features: It’s longer, there’s no background music during the stories, and it includes stories previously not featured in the newsletter.\nIf you like this better than the last one, would listen to it, and want us to keep it going… let us know in the comments or by tweeting @changelog!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog Weekly\nChangelog Weekly #412\nThe 4.5 Kinds of DevTool Platforms\nThings you should know about databases\nStart all of your commands with a comma\nOne Decade of Lobsters\nThe really important job interview questions engineers should ask (but don’t)\n2053: A Go Odyssey with Ron Evans\nupptime\nOxide Computer\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-07-04",
-          "publishedOn": "2022-07-05T20:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog DevTool platform types, things to know about databases, starting with commas, Lobsters turns 10 &  Upptime",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-07-04/the-changelog-news-2022-07-04.mp3",
-            "length": "7979651",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/1W3r",
-          "author": "Jerod Santo",
-          "description": "Functional programming is powerful in many ways, but it can be difficult for devs to learn because the jargon stops them in their tracks. If that’s been your experience, this glossary of terms and examples might help. Pair that with listening to Eric Normand talk about FP in simple terms with us on The Changelog and JS Party and you’ll be well on your way.\nDiscuss on Changelog News",
-          "link": "https://github.com/hemanth/functional-programming-jargon",
-          "publishedOn": "2022-07-05T14:30:00.000Z",
-          "wordCount": null,
-          "title": "FP jargon in simple terms",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/D1zb",
-          "author": "Jerod Santo",
-          "description": "Jeremy Brown:\nIt feels bizarre saying this, having spent so much of my life advocating for and selling a distribution of Kubernetes and consulting services to help folks get the most of out it, but here goes! YOU probably shouldn’t use Kubernetes and a bunch of other “cool” things for your product.\nThis post turns out to be less about Kubernetes and more about premature optimization and doing more with less. Also it’s about Kubernetes. 😉\nDiscuss on Changelog News",
-          "link": "https://www.jeremybrown.tech/8-kubernetes-is-a-red-flag-signalling-premature-optimisation/",
-          "publishedOn": "2022-07-05T13:41:00.000Z",
-          "wordCount": null,
-          "title": "Kubernetes is a red flag signalling premature optimisation",
-          "itunes": {}
         }
       ]
     },
@@ -1014,6 +999,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
+          "author": null,
+          "description": "In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
+          "publishedOn": "2022-08-04T12:19:36.029Z",
+          "wordCount": 1606,
+          "title": "Data transfer in Manhattan using RocksDB"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
           "author": null,
           "description": "Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.",
@@ -1084,15 +1078,6 @@
           "publishedOn": "2022-07-10T12:17:02.638Z",
           "wordCount": 983,
           "title": "Introducing a new Swift package for Apache Thrift"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "author": null,
-          "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "publishedOn": "2022-07-05T12:19:49.329Z",
-          "wordCount": 1318,
-          "title": "Understanding Twitter conversations: A Wordle case study"
         }
       ]
     },
@@ -1113,6 +1098,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66395",
+          "author": "Jakub Oleksy",
+          "description": "In July, we experienced one incident that resulted in degraded performance for Codespaces. This report also acknowledges two incidents that impacted multiple GitHub.com services in June.",
+          "link": "https://github.blog/2022-08-03-github-availability-report-july-2022/",
+          "publishedOn": "2022-08-03T16:00:30.000Z",
+          "wordCount": 1041,
+          "title": "GitHub Availability Report: July 2022"
+        },
         {
           "id": "https://github.blog/?p=66368",
           "author": "Ashley Bass",
@@ -1281,6 +1275,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/community-blog/h1-702-las-vegas-day-two-hcktivity-con",
+          "author": "jesse@hackerone.com",
+          "description": "After a day of rest, we were ready to launch into our first day of H1-702! What makes today special is the return of H@cktivity Con, previousl",
+          "link": "https://www.hackerone.com/community-blog/h1-702-las-vegas-day-two-hcktivity-con",
+          "publishedOn": "2022-08-04T02:24:10.000Z",
+          "wordCount": 943,
+          "title": "H1-702 Las Vegas Day Two: H@cktivity Con!"
+        },
+        {
           "id": "https://hackerone.com/live-hacking-events/h1-702-las-vegas-day-0-setup",
           "author": "jesse@hackerone.com",
           "description": "Hackers! We have made it to Las Vegas! We are here for a live hacking event (LHE). All live hacking events are amazing, but this LHE has a special p",
@@ -1315,15 +1318,6 @@
           "publishedOn": "2022-07-06T15:45:01.000Z",
           "wordCount": 3048,
           "title": "Ten Rules to be Successful in Your Bug Bounty Career"
-        },
-        {
-          "id": "https://hackerone.com/application-security/security-highlights-new-cwe-rankings-software-supply-chains-and-side-channel",
-          "author": "HackerOne",
-          "description": "MITRE Releases 2022 CWE Top 25\n\nThe popular CWE Top 25 list, which ranks the most dangerous software vulnerabilities, has been updated for 2022. The",
-          "link": "https://www.hackerone.com/application-security/security-highlights-new-cwe-rankings-software-supply-chains-and-side-channel",
-          "publishedOn": "2022-07-05T17:00:00.000Z",
-          "wordCount": 1518,
-          "title": "Security Highlights: New CWE Rankings, Software Supply Chains, and Side-Channel Attacks"
         }
       ]
     },
@@ -1393,7 +1387,22 @@
       "title": "BetterExplained",
       "feedUrl": "https://betterexplained.com/feed/",
       "siteUrl": "https://betterexplained.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://betterexplained.com/?p=12748",
+          "author": "kalid",
+          "description": "Quick confession? I never fully learned the trig derivatives. Sure, I memorized $\\sin' = \\cos$ and $\\cos' = -\\sin $ like everyone else, but the derivative of tangent? Cosecant? Forget it, magic spells. After years of searching, there's a middle ground between tedious derivation and rote memorization. Aha moment: all trig functions change using the […]",
+          "link": "https://betterexplained.com/articles/trig-derivatives/",
+          "publishedOn": "2022-08-03T20:18:29.000Z",
+          "wordCount": 1440,
+          "title": "How to Learn Trig Derivatives",
+          "enclosure": {
+            "url": "https://betterexplained.com/wp-content/uploads/trig/derivatives/TrigDerivativeTable.mp4",
+            "length": "10296927",
+            "type": "video/mp4"
+          }
+        }
+      ]
     }
   ],
   "cliVersion": "1.11.3"
