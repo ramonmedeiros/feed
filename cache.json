@@ -28,6 +28,66 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1699",
+          "author": null,
+          "description": "Our today’s guest spent 4 days building a feature for his side project so that we could ship it together on Ship It!, while recording. The feature is called rave mode, and the context is Bass, an interpreted functional scripting language written in Go, riffing on the ideas of Kernel & Clojure. When the local build runs, you can now press r to synchronise the beats of your currently playing Spotify track with the build output. For a demo, see bass v0.9.0 release.\nPlease welcome Alex Suraci, a.k.a. vito, the creator of Concourse CI and Bass.\nThis episode is dedicated to the late John Shutt, the creator of Kernel.\nYour ideas continue in Bass.\nThank you for getting them out into the world.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads di…",
+          "link": "https://changelog.com/shipit/64",
+          "publishedOn": "2022-08-04T17:20:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 64: Bass: the beat drop after Concourse",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/64/ship-it-64.mp3",
+            "length": "88344525",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/1690",
+          "author": null,
+          "description": "Our award winning worthy survey game show is back, this time Mat Ryer hosts it live on stage at GopherCon Europe 2022!\nGo Time’s Natalie Pistunovich joins forces with Ronna Steinberg & Robert Burke to battle it out  with V Körbes, Tamir Bahar & Konrad Richie. Let’s see who can better guess what the GopherCon Europe gophers had to say!\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nFeaturing\nNatalie Pistunovich – Twitter, GitHub\nRonna Steinberg – Twitter, GitHub\nRobert Burke – Twitter, GitHub, Website\nV Körbes – Twitter, GitHub, Website\nTamir Bahar – Twitter, GitHub\nKonrad Reiche – Twitter, GitHub, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nDonate to GoBridge\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/241",
+          "publishedOn": "2022-08-04T16:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 241: Gophers Say! GopherCon EU Edition",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/241/go-time-241.mp3",
+            "length": "39514622",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/RdEP",
+          "author": "Jerod Santo",
+          "description": "This is an attempt to build a locally hosted version of GitHub Copilot. It uses the SalesForce CodeGen models inside of NVIDIA’s Triton Inference Server with the FasterTransformer backend.\nOnce you get it all set up, you can point VS Code’s Copilot plugin at it!\nDiscuss on Changelog News",
+          "link": "https://github.com/moyix/fauxpilot",
+          "publishedOn": "2022-08-04T15:19:00.000Z",
+          "wordCount": null,
+          "title": "FauxPilot – an open source GitHub Copilot server",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/W1PO",
+          "author": "Dylan Paulus",
+          "description": "Don’t stress, we all break production. These are the tips I wished I had. Not which framework to learn, or how to ace that programming interview (all useful!), but what to expect when you land your first software job.\nDiscuss on Changelog News",
+          "link": "https://www.dylanpaulus.com/tips-for-new-software-engineers/",
+          "publishedOn": "2022-08-04T14:31:00.000Z",
+          "wordCount": null,
+          "title": "Advice for new software engineers",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/3LzN",
+          "author": "Jerod Santo",
+          "description": "Suraj Pillai, singing fzf’s praises:\nI’m a CLI junkie, addicted to Vim motions, and never miss an opportunity to bring those two in to any part of my workflow. Naturally, I love to geek out about command line utilities and am always on the lookout for the next tool that can improve my productivity or just make CLI more fun to use. I can confidently say that Fzf is one of the handful of tools I’ve discovered over the years that has done both and has,thus, significantly improved the quality of my command line life.\nDiscuss on Changelog News",
+          "link": "https://medium.com/@Suraj_Pillai/fzf-the-tool-that-will-transform-your-cli-life-91148d54de6",
+          "publishedOn": "2022-08-04T13:45:00.000Z",
+          "wordCount": null,
+          "title": "Fzf: a tool that will transform your CLI life",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/1WX6",
           "author": "Jerod Santo",
           "description": "I have to admit, I enjoy making fun of PHP. Mostly because the language itself is a fractal of bad design. But I (try to) do it with love, because language design is just one part of what makes a programming environment good. This post is a nice reminder of the many reasons why PHP and JavaScript are awesome.\nOver the last twenty years, I have used over a dozen languages professionally, from C to Common Lisp, from Java to Python, from C++ to Typescript.\nYet, I love janky programming languages. In particular, I really enjoy PHP and JavaScript.\nHere’s why.\nI particularly agree with the point at the end about legacy codebases, many of which are powered by PHP and JS:\nA legacy codebase means that the product is performing well. It means that I can often make immediate and impactful improvements.\nFor me, nothing comes close to the pleasure of improving a product with many users.\nDiscuss on Changelog News",
@@ -876,36 +936,6 @@
           "wordCount": null,
           "title": "React local toast",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/GWb9",
-          "author": "Jerod Santo",
-          "description": "One beautiful thing about open source software: how hundreds of thousands (millions?) of people’s Python apps got faster while they were sound asleep. From 3.11’s release notes:\nCPython 3.11 is on average 25% faster than CPython 3.10 when measured with the pyperformance benchmark suite, and compiled with GCC on Ubuntu Linux. Depending on your workload, the speedup could be up to 10-60% faster.\nDiscuss on Changelog News",
-          "link": "https://docs.python.org/3.11/whatsnew/3.11.html#faster-cpython",
-          "publishedOn": "2022-07-06T16:02:00.000Z",
-          "wordCount": null,
-          "title": "Python 3.11 is up to 10-60% faster than Python 3.10",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eEZN",
-          "author": "Jerod Santo",
-          "description": "Bundle, transpile, install and run JavaScript & TypeScript projects — all in Bun. Bun is a new JavaScript runtime with a native bundler, transpiler, task runner and npm client built-in.\nBun is competing with Node and Deno, with the following goals:\nStart fast (it has the edge in mind).\nNew levels of performance (extending JavaScriptCore, the engine).\nBeing a great and complete tool (bundler, transpiler, package manager).\nI like those goals, and it’s designed to be a drop-in replacement for your current runtime.\nDiscuss on Changelog News",
-          "link": "https://bun.sh",
-          "publishedOn": "2022-07-06T14:45:00.000Z",
-          "wordCount": null,
-          "title": "Bun is a fast all-in-one JavaScript runtime",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RdRp",
-          "author": "Jerod Santo",
-          "description": "Baldur Bjarnson:\nYou don’t need to look far on web dev social media to find somebody lecturing everybody and nobody about how you should do web development. Hell, I’ve been guilty of that myself.\nYou should use this or that framework.\nOr, you should not use this or that framework and instead use a cognitive framework like Model-View-Controller with ‘vanilla’ web components.\nNo, no, no Functional Reactive is where it’s at.\nYou should be writing code test-first and unit test everything.\nOr, you should go light on the unit tests and focus instead on integration tests.\nOr, end-to-end tests. Just test the shit out of the actual running app.\nOr, you should use this different kind of unit test which doesn’t look anything like that other kind of unit test.\nThose aren’t integration tests! This is an integration test! What’s wrong with you?!\nSound familiar? Unfortunately, you don’t get to be a “famous” social media influencer by posting reasoned, nuanced takes that end with something like: “I dunno, this works for me but it may not for you. It depends…”\nDiscuss on Changelog News",
-          "link": "https://www.baldurbjarnason.com/2022/more-better-web-apps/",
-          "publishedOn": "2022-07-06T13:58:00.000Z",
-          "wordCount": null,
-          "title": "I don't care how you web dev; I just need more better web apps",
-          "itunes": {}
         }
       ]
     },
@@ -938,17 +968,7 @@
       "title": "AI",
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
-      "articles": [
-        {
-          "id": "https://blog.google/technology/ai/an-update-on-our-work-in-responsible-innovation/",
-          "author": null,
-          "description": "Over the last year, we’ve seen artificial intelligence (AI) systems advance our work in areas like inclusive product development and support for small businesses and job seekers. We’ve also seen its potential to be helpful in addressing major global needs — like forecasting and planning humanitarian responses to natural disasters, addressing global environmental challenges, and delivering groundbreaking scientific research.\n\n\nAI is exciting — both from a technical perspective and when considering its underlying social benefits. And yet, to fully realize AI’s potential, it must be developed responsibly, thoughtfully and in a way that gives deep consideration to core ethical questions. After all, the promise of great reward inherently involves risk — and we’re committed to ethically developi…",
-          "link": "https://blog.google/technology/ai/an-update-on-our-work-in-responsible-innovation/",
-          "publishedOn": "2022-07-06T18:00:00.000Z",
-          "wordCount": 2441,
-          "title": "An update on our work in responsible innovation"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "daniel.haxx.se",
@@ -998,6 +1018,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
+          "author": null,
+          "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
+          "publishedOn": "2022-08-05T12:20:17.291Z",
+          "wordCount": 1324,
+          "title": "Understanding Twitter conversations: A Wordle case study"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
           "author": null,
@@ -1098,6 +1127,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66373",
+          "author": "Tina Heidinger",
+          "description": "From hosting private packages in a private repository to tightening your security profile with GITHUB_TOKEN, here are five simple ways you can streamline your workflow with GitHub Packages.",
+          "link": "https://github.blog/2022-08-04-5-simple-things-you-can-do-with-github-packages-to-level-up-your-workflows/",
+          "publishedOn": "2022-08-04T16:00:08.000Z",
+          "wordCount": 1727,
+          "title": "5 simple things you can do with GitHub Packages to level up your workflows"
+        },
         {
           "id": "https://github.blog/?p=66395",
           "author": "Jakub Oleksy",
@@ -1232,24 +1270,6 @@
           "publishedOn": "2022-07-07T18:00:44.000Z",
           "wordCount": 1601,
           "title": "Top tips for creating a healthy and sustainable open source community"
-        },
-        {
-          "id": "https://github.blog/?p=66089",
-          "author": "Jakub Oleksy",
-          "description": "In June, we experienced four incidents resulting in significant impact to multiple GitHub.com services. This report also sheds light into an incident that impacted several GitHub.com services in May.",
-          "link": "https://github.blog/2022-07-06-github-availability-report-june-2022/",
-          "publishedOn": "2022-07-06T16:00:13.000Z",
-          "wordCount": 1367,
-          "title": "GitHub Availability Report: June 2022"
-        },
-        {
-          "id": "https://github.blog/?p=65607",
-          "author": "Emilia Lazer-Walker",
-          "description": "A Little Game Called Mario is an open source, collectively developed hell project. Anyone and everyone is welcome to contribute their unique talents to make both the player and developer experience more enjoyable. Find out how the collective leverages GitHub Actions to manage this wonderful little community.",
-          "link": "https://github.blog/2022-07-06-managing-a-game-dev-community/",
-          "publishedOn": "2022-07-06T08:00:15.000Z",
-          "wordCount": 2932,
-          "title": "Managing a game dev community with GitHub Actions"
         }
       ]
     },
@@ -1258,6 +1278,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18513",
+          "author": "Nubank Editorial",
+          "description": "The Nu Way of Working is our hybrid work model that was created so people could collaborate more in person and still keep the flexibility of remote work. Check out how it will work.\nThe post Nu Way of Working: Nubank’s new hybrid work model appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nu-way-of-working-nubanks-new-hybrid-work-model/",
+          "publishedOn": "2022-08-05T01:00:07.000Z",
+          "wordCount": 3666,
+          "title": "Nu Way of Working: Nubank’s new hybrid work model"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18519",
           "author": "Matt Swann - Chief Technology Officer at Nubank",
@@ -1274,6 +1303,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/live-hacking-events/h1-702-las-vegas-day-2-hacking-zoom",
+          "author": "jesse@hackerone.com",
+          "description": "Welcome back to our first day of in-person hacking! We had some lovely people greeting you today for your check-in. Again, we want all of our hacker",
+          "link": "https://www.hackerone.com/live-hacking-events/h1-702-las-vegas-day-2-hacking-zoom",
+          "publishedOn": "2022-08-05T04:37:17.000Z",
+          "wordCount": 839,
+          "title": "H1-702 Las Vegas Day 2: Hacking with Zoom!"
+        },
         {
           "id": "https://hackerone.com/community-blog/h1-702-las-vegas-day-two-hcktivity-con",
           "author": "jesse@hackerone.com",
@@ -1309,15 +1347,6 @@
           "publishedOn": "2022-07-07T19:00:00.000Z",
           "wordCount": 1111,
           "title": "5 Articles to Get You Up-to-Speed on Bug Bounty Programs"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/ten-rules-be-successful-your-bug-bounty-career",
-          "author": "Ariel Garcia",
-          "description": "Bug bounty life comes with hidden pressures and common frustrations that require soft skills to navigate - which isn't something people often talk abo",
-          "link": "https://www.hackerone.com/hackerone-community-blog/ten-rules-be-successful-your-bug-bounty-career",
-          "publishedOn": "2022-07-06T15:45:01.000Z",
-          "wordCount": 3048,
-          "title": "Ten Rules to be Successful in Your Bug Bounty Career"
         }
       ]
     },
