@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1798",
+          "author": null,
+          "description": "AlphaFold is an AI system developed by DeepMind that predicts a protein’s 3D structure from its amino acid sequence. It regularly achieves accuracy competitive with experiment, and is accelerating research in nearly every field of biology.  Daniel and Chris delve into protein folding, and explore the implications of this revolutionary and hugely impactful application of AI.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nAlphaFold\nAlphaFold reveals the structure of the protein universe\nAlphaFold: Timeline of a breakthrough\nAlphaFold Protein Structure Database\nGitHub:  deepmind / alphafold\nOxford Protein Informatics Group: AlphaFold 2 is here: what’s behind the structure prediction miracle\nNature: How AlphaFold can realize AI’s full potential in structural biology\nNature:  ‘The entire protein universe’: AI predicts shape of nearly every known protein\nNature: Highly accurate protein structure prediction with AlphaFold\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/188",
+          "publishedOn": "2022-08-09T19:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 188: AlphaFold is revolutionizing biology",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/188/practical-ai-188.mp3",
+            "length": "43968262",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/V1Xj",
+          "author": "Jerod Santo",
+          "description": "Ralf Jung has been thinking about semantics of Rust… a lot:\nThe purpose of MiniRust is to describe the semantics of an interesting fragment of Rust in a way that is both precise and understandable to as many people as possible… Specifically, MiniRust is specified by a reference interpreter that describes the step-by-step process of executing a MiniRust program, including checking at each step whether the program has Undefined Behavior.\nSource code here.\nDiscuss on Changelog News",
+          "link": "https://www.ralfj.de/blog/2022/08/08/minirust.html",
+          "publishedOn": "2022-08-09T14:36:00.000Z",
+          "wordCount": null,
+          "title": "Announcing: MiniRust",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/y7ZG",
+          "author": "Jerod Santo",
+          "description": "Daily stand-ups are a classic example of learned helplessness. We all know they’re useless, but we tell ourselves “that’s just how things are” and do nothing about it.\nLucas provides a set of five symptoms that indicate you’re doing stand-ups wrong and says if your team hits at least three of the five, your stand-ups are useless.\nBut, instead of just telling you to stop doing them (like I probably would), he provides a bunch of solid advice on how to make them useful again.\nDiscuss on Changelog News",
+          "link": "https://lucasfcosta.com/2022/08/07/how-to-improve-daily-standups.html",
+          "publishedOn": "2022-08-09T13:50:00.000Z",
+          "wordCount": null,
+          "title": "Why your daily stand-ups don't work and how to fix them",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1797",
           "author": null,
           "description": "We add episode chapters to the website, KubeSail sells a PiBox, Nima Badizadegan wants you to use one big server, Gergeloy Orosz details oncall compensation across the software industry, Greg Kogan isn’t impressed with how swamped you are at work, a dashboard template built on Bootstrap & Charm releases a CLI tool for shell scripts.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nPiBox\nUse One Big Server\nOncall Compensation for Software Engineers\n🎧 Gergeloy Orosz on The Changelog\nBeing Swamped is Normal and Not Impressive\n🎧 Woody Zuill on The Changelog\nTabler and Tabler React\nGum\n🎧 Toby Padilla on The Changelog\nSomething missing or broken? PRs welcome!",
@@ -890,41 +925,6 @@
             "length": "50325885",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/1711",
-          "author": null,
-          "description": "Jarred Sumner’s Bun comes out of the oven, Jeremy Brown doesn’t want you prematurely optimizing, Armin Ronacher’s not excited about his “critical” Python package, Daniel Thompson from Tauri thinks you should check out Rustlings, and we draw a straight line between Functional Programming jargon and boujee Gen Z slang.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nBun\nKubernetes is a red flag\nCongratulations: We Now Have Opinions on Your Open Source Contributions\nRustlings\nFunctional Programming Jargon\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-07-11",
-          "publishedOn": "2022-07-11T18:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog Bun, K8s is a red flag, \"critical\" open source packages, Rustlings & FP jargon in simple terms",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-07-11/the-changelog-news-2022-07-11.mp3",
-            "length": "6452364",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/zDD4",
-          "author": "Jerod Santo",
-          "description": "Nick Nisi shared this with me recently and it’s cool, so I thought I’d pass it along. Here’s Nick describing it:\nAnd it is a visual wrapper around jq, that kind of does the fzf type thing where as you’re writing out your query, it’s live showing you a preview in virtual text of exactly what would get returned by what you’re querying as you go. So you can use that as a nice tool to build out your jq syntax, or your jq query, and in real time get that feedback.\nThe only bummer is that it’s written in Ruby. Don’t get me wrong, I love Ruby. But it requires you to have Ruby tooling on your machine to use jqq, which many people don’t have or want. BUT it’s a mere 241 lines of code, so porting it to something a little more portable shouldn’t be too much work…\nDiscuss on Changelog News",
-          "link": "https://github.com/jcsalterego/jqq",
-          "publishedOn": "2022-07-11T14:43:00.000Z",
-          "wordCount": null,
-          "title": "An interactive wrapper around `jq`",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/8llj",
-          "author": "Jerod Santo",
-          "description": "Vaultless as in you do not need to manage a password vault.\nInstead of storing your passwords in a vault it derives your password on the fly from your master password and supplied realm string (for example, resource URL).\nHow cool is that?! Here’s an example use:\ngokey -p super-secret-master-password -r example.com\n\nDiscuss on Changelog News",
-          "link": "https://github.com/cloudflare/gokey",
-          "publishedOn": "2022-07-11T13:57:00.000Z",
-          "wordCount": null,
-          "title": "A simple vaultless password manager in Go",
-          "itunes": {}
         }
       ]
     },
@@ -964,6 +964,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19629",
+          "author": "Daniel Stenberg",
+          "description": "The InterPlanetary File System (IPFS) is according to the Wikipedia description: “a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data in a distributed file system.”. It works a little like bittorrent and you typically access content on it using a very long hash in an ipfs:// URL. Like this: ipfs://bafybeigagd5nmnn2iys2f3doro7ydrevyr2mzarwidgadawmamiteydbzi HTTP … Continue reading IPFS and their gateways →",
+          "link": "https://daniel.haxx.se/blog/2022/08/10/ipfs-and-their-gateways/",
+          "publishedOn": "2022-08-10T11:46:19.000Z",
+          "wordCount": 1274,
+          "title": "IPFS and their gateways"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=19596",
           "author": "Daniel Stenberg",
@@ -1016,6 +1025,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "author": null,
+          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "publishedOn": "2022-08-10T12:18:51.786Z",
+          "wordCount": 984,
+          "title": "Introducing a new Swift package for Apache Thrift"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
           "author": null,
@@ -1087,15 +1105,6 @@
           "publishedOn": "2022-07-15T12:20:10.438Z",
           "wordCount": 1273,
           "title": "Powering real-time data analytics with Druid at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "author": null,
-          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "publishedOn": "2022-07-11T12:21:13.345Z",
-          "wordCount": 833,
-          "title": "Reconsidering Tweets"
         }
       ]
     },
@@ -1116,6 +1125,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66406",
+          "author": "Brittany O'Shea",
+          "description": "GitHub Actions gives teams access to powerful, native CI/CD capabilities right next to their code hosted in GitHub. Starting today, GitHub will send a Dependabot alert for vulnerable GitHub Actions, making it even easier to stay up to date and fix security vulnerabilities in your actions workflows.",
+          "link": "https://github.blog/2022-08-09-dependabot-now-alerts-for-vulnerable-github-actions/",
+          "publishedOn": "2022-08-09T15:00:27.000Z",
+          "wordCount": 1140,
+          "title": "Dependabot now alerts for vulnerable GitHub Actions"
+        },
         {
           "id": "https://github.blog/?p=66435",
           "author": "Justin Hutchings",
@@ -1286,6 +1304,24 @@
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=18592",
+          "author": "Nubank Editorial",
+          "description": "Anitta will contribute even more with her marketing experience and help us move towards a brand that goes beyond financial services.\nThe post Anitta is now Nubank’s Global Brand Ambassador appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/anitta-is-now-nubanks-global-brand-ambassador/",
+          "publishedOn": "2022-08-09T21:35:43.000Z",
+          "wordCount": 3140,
+          "title": "Anitta is now Nubank’s Global Brand Ambassador"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=18611",
+          "author": "Nubank Editorial",
+          "description": "The new solution for buying and selling cryptocurrencies was launched for all Nubank clients less than a month ago.\nThe post Nubank Cripto: 1 million clients have already bought cryptocurrencies appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nubank-cripto-1-million-clients-cryptocurrencies/",
+          "publishedOn": "2022-08-09T20:57:10.000Z",
+          "wordCount": 2921,
+          "title": "Nubank Cripto: 1 million clients have already bought cryptocurrencies"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=18513",
           "author": "Nubank Editorial",
           "description": "The Nu Way of Working is our hybrid work model that was created so people could collaborate more in person and still keep the flexibility of remote work. Check out how it will work.\nThe post Nu Way of Working: Nubank’s new hybrid work model appeared first on Building Nubank.",
@@ -1452,21 +1488,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fda63529f-3134-4f61-846d-05981c50f003_700x466.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/charts-to-watch-6",
-          "author": "Market Radar",
-          "description": "A mix of charts on stocks, indices and crypto",
-          "link": "https://marketradar.substack.com/p/charts-to-watch-6",
-          "publishedOn": "2022-07-11T12:45:16.000Z",
-          "wordCount": null,
-          "title": "Charts to Watch #6",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fad82a015-6366-4139-ab9c-391859295d2b_1280x794.png",
             "length": "0",
             "type": "image/jpeg"
           }
