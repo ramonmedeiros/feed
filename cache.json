@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/08/making-linux-kernel-exploit-cooking.html",
+          "author": null,
+          "description": "Posted by Eduardo Vela, Exploit Critic\n\n\n\n\nCover of the medieval cookbook. Title in large letters kernel Exploits. Adorned. Featuring a small penguin. 15th century. Color. High quality picture. Private collection. Detailed.\n\n\n\n\n\n\n\n\nThe Linux kernel is a key component for the security of the Internet. Google uses Linux in almost everything, from the computers our employees use, to the products people around the world use daily like Chromebooks, Android on phones, cars, and TVs, and workloads on Google Cloud. Because of this, we have heavily invested in Linux’s security - and today, we’re announcing how we’re building on those investments and increasing our rewards.\n\nIn 2020, we launched an open-source Kubernetes-based Capture-the-Flag (CTF) project called, kCTF. The kCTF Vulnerability Rewar…",
+          "link": "http://security.googleblog.com/2022/08/making-linux-kernel-exploit-cooking.html",
+          "publishedOn": "2022-08-10T16:00:00.012Z",
+          "wordCount": 1837,
+          "title": "Making Linux Kernel Exploit Cooking Harder"
+        },
+        {
           "id": "http://security.googleblog.com/2022/08/how-hash-based-safe-browsing-works-in.html",
           "author": null,
           "description": "By Rohit Bhatia, Mollie Bates, Google Chrome Security\n There are various threats a user faces when browsing the web. Users may be tricked into sharing sensitive information like their passwords with a misleading or fake website, also called phishing. They may also be led into installing malicious software on their machines, called malware, which can collect personal data and also hold it for ransom. Google Chrome, henceforth called Chrome, enables its users to protect themselves from such threats on the internet. When Chrome users browse the web with Safe Browsing protections, Chrome uses the Safe Browsing service from Google to identify and ward off various threats. \nSafe Browsing works in different ways depending on the user's preferences. In the most common case, Chrome uses the privacy…",
@@ -36,6 +45,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/LWEn",
+          "author": "Jerod Santo",
+          "description": "We’re longtime users of Action Mailer and wanted something similar for our TypeScript/React apps. We didn’t find anything, so we decided to build Mailing.\nWe added some features that we would’ve liked in Action Mailer, like a mobile toggle (with hotkeys), and the ability to send a test email from the browser while developing. We went all in on MJML so that we (almost) never have to think about email clients or nested tables :)\nPlays well with the popular JS web frameworks, too. Demo video here.\nDiscuss on Changelog News",
+          "link": "https://www.mailing.run/",
+          "publishedOn": "2022-08-10T19:45:00.000Z",
+          "wordCount": null,
+          "title": "Build + test + send emails with React",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1697",
+          "author": null,
+          "description": "Tammer Saleh, founder of Super Orbital, a tiny team of exceptional Kubernetes engineers and teachers, is joining us today to talk about what is cool in the Cloud Native world. Yes, it’s the same Tammer that we had the pleasure of on shipit.show/31 - Is Kubernetes a platform?\nIn today’s episode, we also cover two great blog posts:\nZero to GitOps: Terraform and the AWS EKS Blueprints project by Sean Kane\nHunting Down an Intermittent Failure in Cilium by James McShane\nWe wrap up with ✨ The Cool Wall of Cloud Native ✨\nDiscuss on Changelog News\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, user…",
+          "link": "https://changelog.com/shipit/65",
+          "publishedOn": "2022-08-10T17:15:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 65: Two thumbs up for the Cool Wall",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/65/ship-it-65.mp3",
+            "length": "77863071",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/W1gO",
+          "author": "Jerod Santo",
+          "description": "This code is experimental (as you might imagine), but it’s full functional. It doesn’t implement all the Airplay protocols, but quite a few!\nDiscuss on Changelog News",
+          "link": "https://github.com/openairplay/airplay2-receiver",
+          "publishedOn": "2022-08-10T16:53:01.000Z",
+          "wordCount": null,
+          "title": "An Airplay 2 receiver in Python",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/49N7",
+          "author": "Jerod Santo",
+          "description": "Mike Melanson gives props to the language many of us (myself included) enjoy lampooning:\nWhile Java may have hit some hiccups earlier in its life, nowadays the language and its greater ecosystem have picked up the pace to meet the needs of the future in a variety of ways. In fact, it never really went anywhere: Companies like Amazon, Google, Netflix, Pinterest, Spotify, Square, and Zoom all employ Java across their vast codebases. Not to mention much of the high-scale data infrastructure over the past decade has been powered by Java, with the language serving as the backbone for the likes of Apache Hadoop, Kafka, and Spark.\nYou’ll have to read the article to see how he backs up statements like this one:\nAfter nearly 30 years of Java, you might expect the language to be showing some signs of wear and tear, but nothing could be further from the truth. Java in 2022 is not a language in decline, but rather a language preparing for the effervescent future of software development.\nDiscuss on Changelog News",
+          "link": "https://github.com/readme/featured/java-programming-language",
+          "publishedOn": "2022-08-10T14:15:00.000Z",
+          "wordCount": null,
+          "title": "Don’t call it a comeback: why Java is still champ",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/7/1798",
           "author": null,
@@ -910,21 +964,6 @@
           "wordCount": null,
           "title": "Working in the software industry, circa 1989",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1712",
-          "author": null,
-          "description": "Coqui is a speech technology startup that making huge waves in terms of their contributions to open source speech technology, open access models and data, and compelling voice cloning functionality. Josh Meyer from Coqui joins us in this episode to discuss cloning voices that have emotion, fostering open source, and how creators are using AI tech.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJosh Meyer – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nCoqui\nBibleTTS - Data and models for African langauges\nCoqui TTS Hugging Face Space\nCoqui on Github\nJoshua’s previous Practical AI episode about Common Voice\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/184",
-          "publishedOn": "2022-07-12T15:10:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 184: Cloning voices with Coqui",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/184/practical-ai-184.mp3",
-            "length": "50325885",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1008,15 +1047,6 @@
           "publishedOn": "2022-07-20T08:04:12.000Z",
           "wordCount": 351,
           "title": "curl is 8888 days old"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19553",
-          "author": "Daniel Stenberg",
-          "description": "For C programmers like me, who want to write portable programs that can get built and run on the widest possible array of machines and platforms, we often need to write conditional code. Code that use #ifdefs for particular conditions. Such ifdefs expressions often need to check for a particular compiler, an operating system or … Continue reading predef is our friend →",
-          "link": "https://daniel.haxx.se/blog/2022/07/13/predef-is-our-friend/",
-          "publishedOn": "2022-07-12T22:12:02.000Z",
-          "wordCount": 526,
-          "title": "predef is our friend"
         }
       ]
     },
@@ -1025,6 +1055,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "author": null,
+          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "publishedOn": "2022-08-11T12:22:13.069Z",
+          "wordCount": 832,
+          "title": "Reconsidering Tweets"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
           "author": null,
@@ -1112,7 +1151,17 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2022/08/the-quantum-state-of-linux-kernel.html",
+          "author": null,
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=wJuDEFlUsDZt7lpAAPdLm9CoNqneSjGN6FUREF5POP9krml-9Eg4KzR8naUO0aF3kuG_eoWNft1SfWZjF8JeEg');.lst-kix_wm3dnufq67dx-7>li:before{content:\"-  \"}.lst-kix_wm3dnufq67dx-8>li:before{content:\"-  \"}ol.lst-kix_iptxq54yrrnf-3.start{counter-reset:lst-ctn-kix_iptxq54yrrnf-3 0}.lst-kix_u3opzkdcnklc-1>li{counter-increment:lst-ctn-kix_u3opzkdcnklc-1}.lst-kix_wm3dnufq67dx-1>li:before{content:\"-  \"}.lst-kix_iptxq54yrrnf-4>li{counter-increment:lst-ctn-kix_iptxq54yrrnf-4}ol.lst-kix_mfudkcwv2w89-7.start{counter-reset:lst-ctn-kix_mfudkcwv2w89-7 0}.lst-kix_wm3dnufq67dx-0>li:before{content:\"-  \"}.lst-kix_hk8k8itxmlfp-4>li{counter-increment:lst-ctn-kix_hk8k8itxmlfp-4}.lst-kix_8chkxhfzc2ds-3>li:before{content:\"-  \"}.lst-kix_8chkxhfzc2ds-5>li:before{content…",
+          "link": "https://googleprojectzero.blogspot.com/2022/08/the-quantum-state-of-linux-kernel.html",
+          "publishedOn": "2022-08-10T23:00:00.003Z",
+          "wordCount": 5171,
+          "title": "The quantum state of Linux kernel garbage collection CVE-2021-0920 (Part I)"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -1125,6 +1174,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66464",
+          "author": "Chris Patterson",
+          "description": "As GitHub Pages, home to 16 million websites, approaches its 15th anniversary, we’re excited to announce that all sites now build and deploy with GitHub Actions.",
+          "link": "https://github.blog/2022-08-10-github-pages-now-uses-actions-by-default/",
+          "publishedOn": "2022-08-10T16:00:29.000Z",
+          "wordCount": 1291,
+          "title": "GitHub Pages now uses Actions by default"
+        },
         {
           "id": "https://github.blog/?p=66406",
           "author": "Brittany O'Shea",
@@ -1437,6 +1495,15 @@
           "title": "H1-702 Las Vegas Day 0: Setup!"
         },
         {
+          "id": "https://hackerone.com/community-blog/paypals-third-lhe-brings-top-global-hackers-virtual-stage",
+          "author": "jesse@hackerone.com",
+          "description": "After ten years of partnering with hackers, PayPal is a leader in cybersecurity and hacker relationship building. We were thrilled to work with PayPal once again to uncover new ways to reduce their risk and build proactive security practices.",
+          "link": "https://www.hackerone.com/community-blog/paypals-third-lhe-brings-top-global-hackers-virtual-stage",
+          "publishedOn": "2022-07-29T18:09:35.000Z",
+          "wordCount": null,
+          "title": "PayPal's Third LHE Brings Top Global Hackers to the Virtual Stage"
+        },
+        {
           "id": "https://hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage",
           "author": "Sean Ryan",
           "description": "Security leaders often struggle to keep pace with the evolving nature of their respective attack surfaces. Many fall behind in their ability to identi",
@@ -1452,6 +1519,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/aab780b2f8c8",
+          "author": "Netflix Technology Blog",
+          "description": "The use of virtual production and real time technologies in film & tv has accelerated in recent years. Game engines, such as Unreal Engine, have been a major part driving the democratization of advanced in-camera visual effects (ICVFX). But with infinite configuration and setting combinations, how can a production get it right?",
+          "link": "https://netflixtechblog.com/virtual-production-a-validation-framework-for-unreal-engine-aab780b2f8c8?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-08-10T14:03:05.000Z",
+          "wordCount": 1978,
+          "title": "Virtual Production — A Validation Framework For Unreal Engine"
+        },
         {
           "id": "https://medium.com/p/1288bcab2873",
           "author": "Netflix Technology Blog",
