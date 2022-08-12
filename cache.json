@@ -46,6 +46,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/8lN8",
+          "author": "Ciprian Dorin Craciun",
+          "description": "Not every hash algorithm is appropriate in all scenarios, and in fact, very few algorithms are usable in more than a couple of situations. Even worse, using the wrong algorithm will lead in the best case scenario to performance problems, but in the worst case scenario to security issues and even financial loss. Thus, knowing which algorithm to pick for which application is crucial.\nTherefore I’ll try to summarize how I approach the topic of hashing, including use-cases, recommended algorithms, and links to other articles.\nDiscuss on Changelog News",
+          "link": "https://notes.volution.ro/v1/2022/07/notes/1290a79c/",
+          "publishedOn": "2022-08-11T20:02:00.000Z",
+          "wordCount": null,
+          "title": "The many flavors of hashing",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/y7ZR",
+          "author": "Jerod Santo",
+          "description": "Chip Huyen:\nAs machine learning moves towards real-time, streaming technology is becoming increasingly important for data scientists. Like many people coming from a machine learning background, I used to dread streaming. In our recent survey, almost half of the data scientists we asked said they would like to move from batch prediction to online prediction but can’t because streaming is hard, both technically and operationally…\nOver the last year, working with a co-founder who’s super deep into streaming, I’ve learned that streaming can be quite intuitive. This post is an attempt to rephrase what I’ve learned.\nDiscuss on Changelog News",
+          "link": "https://huyenchip.com//2022/08/03/stream-processing-for-data-scientists.html",
+          "publishedOn": "2022-08-11T19:13:00.000Z",
+          "wordCount": null,
+          "title": "Introduction to streaming for data scientists",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zDq5",
+          "author": "Jerod Santo",
+          "description": "Mahdi Yusuf is back with another set of Architecture Notes, this time covering everyone’s favorite “data structure server”, Redis:\nRather than iterating over, sorting, and ordering rows, what if the data was in data structures you wanted from the ground up? Early on, it was used much like Memcached, but as Redis improved, it became viable for many other use cases, including publish-subscribe mechanisms, streaming, and queues.\n\nDiscuss on Changelog News",
+          "link": "https://architecturenotes.co/redis/",
+          "publishedOn": "2022-08-11T18:16:00.000Z",
+          "wordCount": null,
+          "title": "A deep technical dive into all things Redis",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1689",
+          "author": null,
+          "description": "Baruch Sadogursky (Chief Sticker Officer at JFrog) joins Natalie & Johnny to lament the current state of dependency management in Go and other languages. They discuss the problems dependency managers face, possible technical mitigations like SBOMs, people problems that will never be solved by tech, and take questions from listeners in the #gotimefm channel of Gophers Slack.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nBaruch Sadogursky – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nSam Boyer saying dependency managers being a human problem\nPyrsia.io untemperable ledger for modules\nPGP Keys\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/242",
+          "publishedOn": "2022-08-11T17:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 242: The pain of dependency management",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/242/go-time-242.mp3",
+            "length": "44426248",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/news/LWEn",
           "author": "Jerod Santo",
           "description": "We’re longtime users of Action Mailer and wanted something similar for our TypeScript/React apps. We didn’t find anything, so we decided to build Mailing.\nWe added some features that we would’ve liked in Action Mailer, like a mobile toggle (with hotkeys), and the ability to send a test email from the browser while developing. We went all in on MJML so that we (almost) never have to think about email clients or nested tables :)\nPlays well with the popular JS web frameworks, too. Demo video here.\nDiscuss on Changelog News",
@@ -929,41 +974,6 @@
           "wordCount": null,
           "title": "How Caddy 2 works, a deep dive into the source",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1657",
-          "author": null,
-          "description": "Today we talk with two lovely folks from Transistor.fm: Jason Pearl, Senior Software Developer & Jon Buda, co-founder. Gerhard was curious to find out about their setup & how did it change with the launch of the new podcast website builder. After all, you have been hearing us talk about our setup for years, so it was high-time to challenge some assumptions and learn how another team is solving similar problems.\nTL;DL: keeping it simple is at the root of smooth operations & stable systems.\nDiscuss on Changelog News\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our …",
-          "link": "https://changelog.com/shipit/61",
-          "publishedOn": "2022-07-13T22:20:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 61: The ops & infra behind Transistor.fm",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/61/ship-it-61.mp3",
-            "length": "66988265",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/W11g",
-          "author": "Jerod Santo",
-          "description": "Aaron Francis:\nThe goal is not to become famous, the goal is to increase the chances of luck finding us. For me, one of the most helpful ways to think about this has always been the concept of the “Luck Surface Area,” described in an old post by Jason Roberts. He wrote (and note, the emphasis is mine):\nThe amount of serendipity that will occur in your life, your Luck Surface Area, is directly proportional to the degree to which you do something you’re passionate about combined with the total number of people to whom this is effectively communicated.\nGoing further, he codifies it into a formula where:\nLuck = [Doing Things] * [Telling People]\nThis reminds me a bit of John Gruber’s Obsession Times Voice. Not exactly the same, but there’s a healthy overlap that I find provocative.\nDiscuss on Changelog News",
-          "link": "https://github.com/readme/guides/publishing-your-work",
-          "publishedOn": "2022-07-13T14:10:00.000Z",
-          "wordCount": null,
-          "title": "Publishing your work increases your luck",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/499Q",
-          "author": "Jerod Santo",
-          "description": "Gather round while Jim Grey tells a (long) tale.\nMy 33rd anniversary in the software industry was the Sunday that just passed, July 3. I remember the date because my second day on the job was a paid holiday!\nI want to show you just how far our industry has come and how much we’ve learned.\nThe more things change:\nLots of things we all take for granted didn’t exist. The Internet existed but not the Web. Software was delivered to customers on tapes or floppy disks. The CD burner was still a few years in the future. Java didn’t exist, JavaScript didn’t exist, .NET didn’t exist.\nThe more they stay the same:\nThere was a holy war over text editors. IDEs weren’t a thing yet, so we all coded in a text editor. I was firmly in the Emacs camp, but most of my co-workers loved vi.\nDiscuss on Changelog News",
-          "link": "https://dev.jimgrey.net/2022/07/05/working-in-the-software-industry-circa-1989/",
-          "publishedOn": "2022-07-13T13:24:00.000Z",
-          "wordCount": null,
-          "title": "Working in the software industry, circa 1989",
-          "itunes": {}
         }
       ]
     },
@@ -1003,6 +1013,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19590",
+          "author": "Daniel Stenberg",
+          "description": "curl, along with every other Internet tool with aspirations, supports proxies. A proxy is a (usually known) middle-man in a network operation; instead of going directly to the remote end server, the client goes via a proxy. curl has supported proxies since the day it was born. Which proxy? Applications that do Internet transfers often … Continue reading The dream of auto-detecting proxies →",
+          "link": "https://daniel.haxx.se/blog/2022/08/12/the-dream-of-auto-detecting-proxies/",
+          "publishedOn": "2022-08-12T11:27:31.000Z",
+          "wordCount": 1220,
+          "title": "The dream of auto-detecting proxies"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=19629",
           "author": "Daniel Stenberg",
