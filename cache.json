@@ -46,6 +46,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/6/1796",
+          "author": null,
+          "description": "Astro 1.0 just dropped so Amal got its creator, Fred K. Schott, on the pod for the full rundown. They go deep on how Astro is built to pull content from anywhere and serve it fast with their next-gen island architecture.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.\n\n    \nFly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nHasura – Create dynamic high-performance GraphQL & REST APIs from your database(s) in minutes with granular authorization and caching baked in. All without touching your underlying database. Go from data to API in minutes. Get started for free at hasura.io/jsparty\n\n    \nFeaturing\nFred K. Schott – Twitter, GitHub, Website\nAmal Hussein – Twitter, GitHub\nNotes and Links\nAstro 1.0 announcement post\nAstro’s website\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/238",
+          "publishedOn": "2022-08-12T21:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 238: Build faster websites with Astro 1.0",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/238/js-party-238.mp3",
+            "length": "59366948",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/bJAl",
+          "author": "Jerod Santo",
+          "description": "This post reacting to other people’s reaction to GitLab’s recent free tier changes starts kinda rant-y:\nLots of users expect to get things for free, forever, from for-profit companies that don’t answer to them. Those users contribute almost nothing1 to the bottom line for the for-profit companies, and actively drive up costs for them. Yet, somehow, with no skin in the game, they feel entitled to complain and badmouth the companies because they’re not getting as much value for their monthly contribution of nothing at all.\nBut it ends with a pretty strong call to build things for ourselves:\nCreate a business case, get the funding, stand up the infrastructure, and pay people to work on it rather than expecting for-profit companies to prioritize (what you see as) the public good over profit. Whether that’s how things should be or not, it is how they are and that isn’t going to change as long as the only movement in the direction of change is people hectoring for-profit companies to do better.\nDiscuss on Changelog News",
+          "link": "https://dissociatedpress.net/2022/08/10/give-nothing-expect-nothing-gitlabs-the-latest-punching-bag-for-entitled-users/",
+          "publishedOn": "2022-08-12T16:51:00.000Z",
+          "wordCount": null,
+          "title": "GitLab’s the latest punching bag for entitled users",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/49Nq",
+          "author": "Jerod Santo",
+          "description": "When Rich Harris was last on JS Party, he wondered aloud:\n“Should I learn Rust? Should we rewrite the Svelte compiler in Rust?” Maybe it’s a terrible idea, I don’t know, but I think it’s at least worth investigating.\nWell, the effort we’re linking to here isn’t by Rich, but another member of the Svelte community. Their reasoning:\nMy main reason for doing this, is to compile Svelte without Node.js and possibly use Deno instead.\nAnd the state of the project:\nThis is still a big work in progress. I’m mainly working on this for fun and learning. I came up with the name rustle by combining rust and svelte (ruslte => rustle). The project is open to naming suggestions!\nDiscuss on Changelog News",
+          "link": "https://github.com/pintariching/rustle",
+          "publishedOn": "2022-08-12T15:14:00.000Z",
+          "wordCount": null,
+          "title": "The Svelte compiler rewritten in Rust",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/qM9j",
+          "author": "Jerod Santo",
+          "description": "A 12-week, 24-course curriculum covering:\nDifferent approaches to Artificial Intelligence, including the “good old” symbolic approach with Knowledge Representation and reasoning (GOFAI).\nNeural Networks and Deep Learning, which are at the core of modern AI. We will illustrate the concepts behind these important topics using code in two of the most popular frameworks - TensorFlow and PyTorch.\nNeural Architectures for working with images and text. We will cover recent models but may lack a little bit on the state-of-the-art.\nLess popular AI approaches, such as Genetic Algorithms and Multi-Agent Systems.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/microsoft/AI-For-Beginners",
+          "publishedOn": "2022-08-12T14:25:00.000Z",
+          "wordCount": null,
+          "title": "Microsoft's new AI for Beginners course",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Zoge",
+          "author": "Jerod Santo",
+          "description": "You can think of this like fetch() or curl but entirely in SQL:\nselect request_url, response_status, response_headers \n  from http_get('http://httpbin.org/get');\n\nThe cool thing is you can save everything from the request: status code, headers, the body (of course), timestamps, and more. Great for archiving!\n-- initialize a table\ncreate table snapshots as\n  select * from http_get('https://changelog.com');\n\n-- To add more rows later on\ninsert into snapshots\n  select * from http_get('https://changelog.com');\n\nDiscuss on Changelog News",
+          "link": "https://observablehq.com/@asg017/introducing-sqlite-http",
+          "publishedOn": "2022-08-12T13:37:00.000Z",
+          "wordCount": null,
+          "title": "A SQLite extension for making HTTP requests",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/8lN8",
           "author": "Ciprian Dorin Craciun",
           "description": "Not every hash algorithm is appropriate in all scenarios, and in fact, very few algorithms are usable in more than a couple of situations. Even worse, using the wrong algorithm will lead in the best case scenario to performance problems, but in the worst case scenario to security issues and even financial loss. Thus, knowing which algorithm to pick for which application is crucial.\nTherefore I’ll try to summarize how I approach the topic of hashing, including use-cases, recommended algorithms, and links to other articles.\nDiscuss on Changelog News",
@@ -919,61 +974,6 @@
           "wordCount": null,
           "title": "Easy ways to spice up your designs",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1667",
-          "author": null,
-          "description": "A conversation with Ronna Steinberg, who was an OOP developer for many years, and now is a Go Google Developer Expert. Ronna has been thinking about Go and OOP for awhile, asking herself whether or not Go is an object oriented programming language. Tune in to find out her answer and hear some of the options gophers have for object oriented design.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nAkuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our listeners to join the closed beta at akuity.io/changelog. The platform is a versatile Kubernetes operator for handling cluster deployments the GitOps way. Deploy your apps instantly and monitor their state — get minimum overhead, maximum impact, and enterprise readiness from day one.\n\n    \nLaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.\n\n    \nFeaturing\nRonna Steinberg – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nNotes and Links\nRonna’s GopherCon EU workshop\nRob Pike is critical of OOP\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/238",
-          "publishedOn": "2022-07-14T20:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 238: Might Go actually be OOP?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/238/go-time-238.mp3",
-            "length": "57698983",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/lOOV",
-          "author": "Adam Stacoviak",
-          "description": "Matija Sosic (Co-founder & CEO at Wasp) shares what he thinks programming is going to look like in the near future.\nWhen thinking about how ML code generation affects the overall development process, there is one thing to consider that often doesn’t immediately spring to mind when looking at the impressive Copilot examples. The question is - what happens with the code once it is generated? Who is responsible for it and who will maintain and refactor it in the future?\nAlthough ML code generation helps with getting the initial code written, it cannot do much beyond that - if that code is to be maintained and changed in the future … the developer still needs to fully own and understand it.\nGenerated code accepted blindly is creating tech debt!\nIn other words, it means Copilot and similar solutions do not reduce the code complexity nor the amount of knowledge required to build features, they just help write the initial code faster, and bring the knowledge/examples closer to the code (which is really helpful). If a developer accepts the generated code blindly, they are just creating tech debt and pushing it forward.\nDiscuss on Changelog News",
-          "link": "https://wasp-lang.dev/blog/2022/06/24/ML-code-gen-vs-coding-by-hand-future",
-          "publishedOn": "2022-07-14T19:19:01.000Z",
-          "wordCount": null,
-          "title": "ML code generation vs coding by hand",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/044e",
-          "author": "Jerod Santo",
-          "description": "Tom Wright:\nThis year marks 15 years since FizzBuzz was popularised as an interview tool for developers. I’m a big fan and have watched over 100 candidates try their hand at my version of the task. In today’s blog post I’d like to take a moment to celebrate what makes FizzBuzz so helpful, discuss some common patterns I’ve observed in the many attempts I’ve witnessed, and finally explore some tweaks that can be deployed to keep the challenge fresh.\nTom’s version of FizzBuzz is a pair programming task that follows strict TDD:\nIn proper pair programming style, the candidate is encouraged to discuss their approach with the interviewer. Likewise, they are free to use any online reference materials if they forget a method name or some syntax.\nIn this post he shares 3 common variants of the challenge including one that requires a pair of Azure Functions?!\nDiscuss on Changelog News",
-          "link": "https://blog.tdwright.co.uk/2022/07/14/fizzbuzz-is-fizzbuzz-years-old-and-still-a-powerful-tool/",
-          "publishedOn": "2022-07-14T17:41:00.000Z",
-          "wordCount": null,
-          "title": "FizzBuzz is FizzBuzz years old",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/pjjy",
-          "author": "Jerod Santo",
-          "description": "Large data-hungry corporations dominate the digital world but with little, or no respect for your privacy. Migrating to open-source applications with a strong emphasis on security will help stop corporations, governments, and hackers from logging, storing or selling your personal data.\nDiscuss on Changelog News",
-          "link": "https://github.com/lissy93/awesome-privacy",
-          "publishedOn": "2022-07-14T16:53:00.000Z",
-          "wordCount": null,
-          "title": "A curated list of privacy & security-focused software and services",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zDgY",
-          "author": "Justin Dorfman",
-          "description": "Matt Holt (creator of Caddy) gives a deep dive into how the web server works and some of the design decisions and patterns that make it reliable, extensible, and delightful.\nOne of the interesting things about the design of Caddy is that its core is just configuration management. It pushes out all other functionality into modules so that basically the only thing left in core is accepting and reacting to configuration changes.\nDiscuss on Changelog News",
-          "link": "https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTM2Nw==",
-          "publishedOn": "2022-07-14T15:58:00.000Z",
-          "wordCount": null,
-          "title": "How Caddy 2 works, a deep dive into the source",
-          "itunes": {}
         }
       ]
     },
@@ -1363,15 +1363,6 @@
           "publishedOn": "2022-07-18T16:06:57.000Z",
           "wordCount": 1219,
           "title": "Open Source Monthly: July 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=66107",
-          "author": "Albert Ziegler",
-          "description": "We surveyed more than 2,000 developers about whether GitHub Copilot helped them be more productive and improved their coding. Then, we matched this qualitative feedback and subjective perception with quantitative data around objective usage measurements and productivity.",
-          "link": "https://github.blog/2022-07-14-research-how-github-copilot-helps-improve-developer-productivity/",
-          "publishedOn": "2022-07-14T16:05:19.000Z",
-          "wordCount": 1394,
-          "title": "Research: How GitHub Copilot helps improve developer productivity"
         }
       ]
     },
@@ -1521,15 +1512,6 @@
           "publishedOn": "2022-07-29T18:09:35.000Z",
           "wordCount": null,
           "title": "PayPal's Third LHE Brings Top Global Hackers to the Virtual Stage"
-        },
-        {
-          "id": "https://hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage",
-          "author": "Sean Ryan",
-          "description": "Security leaders often struggle to keep pace with the evolving nature of their respective attack surfaces. Many fall behind in their ability to identi",
-          "link": "https://www.hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage",
-          "publishedOn": "2022-07-14T16:00:00.000Z",
-          "wordCount": 1732,
-          "title": "Benchmark Analysis: Annual Pentest and Code Review Coverage"
         }
       ]
     },

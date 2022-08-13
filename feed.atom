@@ -2,10 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-08-12T12:19:54.185Z</updated>
+    <updated>2022-08-13T12:17:15.955Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JS Party 238: Build faster websites with Astro 1.0]]></title>
+        <id>changelog.com/6/1796</id>
+        <link href="https://changelog.com/jsparty/238"/>
+        <updated>2022-08-12T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Astro 1.0 just dropped so Amal got its creator, Fred K. Schott, on the pod for the full rundown. They go deep on how Astro is built to pull content from anywhere and serve it fast with their next-gen island architecture.
+Discuss on Changelog News
+Changelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Retool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog
+
+    
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.
+
+    
+Fly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+    
+Hasura – Create dynamic high-performance GraphQL & REST APIs from your database(s) in minutes with granular authorization and caching baked in. All without touching your underlying database. Go from data to API in minutes. Get started for free at hasura.io/jsparty
+
+    
+Featuring
+Fred K. Schott – Twitter, GitHub, Website
+Amal Hussein – Twitter, GitHub
+Notes and Links
+Astro 1.0 announcement post
+Astro’s website
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab’s the latest punching bag for entitled users]]></title>
+        <id>changelog.com/news/bJAl</id>
+        <link href="https://dissociatedpress.net/2022/08/10/give-nothing-expect-nothing-gitlabs-the-latest-punching-bag-for-entitled-users/"/>
+        <updated>2022-08-12T16:51:00.000Z</updated>
+        <summary type="html"><![CDATA[This post reacting to other people’s reaction to GitLab’s recent free tier changes starts kinda rant-y:
+Lots of users expect to get things for free, forever, from for-profit companies that don’t answer to them. Those users contribute almost nothing1 to the bottom line for the for-profit companies, and actively drive up costs for them. Yet, somehow, with no skin in the game, they feel entitled to complain and badmouth the companies because they’re not getting as much value for their monthly contribution of nothing at all.
+But it ends with a pretty strong call to build things for ourselves:
+Create a business case, get the funding, stand up the infrastructure, and pay people to work on it rather than expecting for-profit companies to prioritize (what you see as) the public good over profit. Whether that’s how things should be or not, it is how they are and that isn’t going to change as long as the only movement in the direction of change is people hectoring for-profit companies to do better.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Svelte compiler rewritten in Rust]]></title>
+        <id>changelog.com/news/49Nq</id>
+        <link href="https://github.com/pintariching/rustle"/>
+        <updated>2022-08-12T15:14:00.000Z</updated>
+        <summary type="html"><![CDATA[When Rich Harris was last on JS Party, he wondered aloud:
+“Should I learn Rust? Should we rewrite the Svelte compiler in Rust?” Maybe it’s a terrible idea, I don’t know, but I think it’s at least worth investigating.
+Well, the effort we’re linking to here isn’t by Rich, but another member of the Svelte community. Their reasoning:
+My main reason for doing this, is to compile Svelte without Node.js and possibly use Deno instead.
+And the state of the project:
+This is still a big work in progress. I’m mainly working on this for fun and learning. I came up with the name rustle by combining rust and svelte (ruslte => rustle). The project is open to naming suggestions!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft's new AI for Beginners course]]></title>
+        <id>changelog.com/news/qM9j</id>
+        <link href="https://github.com/microsoft/AI-For-Beginners"/>
+        <updated>2022-08-12T14:25:00.000Z</updated>
+        <summary type="html"><![CDATA[A 12-week, 24-course curriculum covering:
+Different approaches to Artificial Intelligence, including the “good old” symbolic approach with Knowledge Representation and reasoning (GOFAI).
+Neural Networks and Deep Learning, which are at the core of modern AI. We will illustrate the concepts behind these important topics using code in two of the most popular frameworks - TensorFlow and PyTorch.
+Neural Architectures for working with images and text. We will cover recent models but may lack a little bit on the state-of-the-art.
+Less popular AI approaches, such as Genetic Algorithms and Multi-Agent Systems.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A SQLite extension for making HTTP requests]]></title>
+        <id>changelog.com/news/Zoge</id>
+        <link href="https://observablehq.com/@asg017/introducing-sqlite-http"/>
+        <updated>2022-08-12T13:37:00.000Z</updated>
+        <summary type="html"><![CDATA[You can think of this like fetch() or curl but entirely in SQL:
+select request_url, response_status, response_headers 
+  from http_get('http://httpbin.org/get');
+
+The cool thing is you can save everything from the request: status code, headers, the body (of course), timestamps, and more. Great for archiving!
+-- initialize a table
+create table snapshots as
+  select * from http_get('https://changelog.com');
+
+-- To add more rows later on
+insert into snapshots
+  select * from http_get('https://changelog.com');
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The dream of auto-detecting proxies]]></title>
         <id>https://daniel.haxx.se/blog/?p=19590</id>
@@ -1816,112 +1917,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 238: Might Go actually be OOP?]]></title>
-        <id>changelog.com/2/1667</id>
-        <link href="https://changelog.com/gotime/238"/>
-        <updated>2022-07-14T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[A conversation with Ronna Steinberg, who was an OOP developer for many years, and now is a Go Google Developer Expert. Ronna has been thinking about Go and OOP for awhile, asking herself whether or not Go is an object oriented programming language. Tune in to find out her answer and hear some of the options gophers have for object oriented design.
-Discuss on Changelog News
-Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog
-
-    
-Akuity – Akuity is a new platform (founded by Argo co-creators) that brings fully-managed Argo CD and enterprise services to the cloud or on premise. They’re inviting our listeners to join the closed beta at akuity.io/changelog. The platform is a versatile Kubernetes operator for handling cluster deployments the GitOps way. Deploy your apps instantly and monitor their state — get minimum overhead, maximum impact, and enterprise readiness from day one.
-
-    
-LaunchDarkly – Fundamentally change how you deliver software. Innovate faster, deploy fearlessly, and make each release a masterpiece.
-
-    
-Featuring
-Ronna Steinberg – Twitter, GitHub
-Natalie Pistunovich – Twitter, GitHub
-Ian Lopshire – Twitter, GitHub
-Notes and Links
-Ronna’s GopherCon EU workshop
-Rob Pike is critical of OOP
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ML code generation vs coding by hand]]></title>
-        <id>changelog.com/news/lOOV</id>
-        <link href="https://wasp-lang.dev/blog/2022/06/24/ML-code-gen-vs-coding-by-hand-future"/>
-        <updated>2022-07-14T19:19:01.000Z</updated>
-        <summary type="html"><![CDATA[Matija Sosic (Co-founder & CEO at Wasp) shares what he thinks programming is going to look like in the near future.
-When thinking about how ML code generation affects the overall development process, there is one thing to consider that often doesn’t immediately spring to mind when looking at the impressive Copilot examples. The question is - what happens with the code once it is generated? Who is responsible for it and who will maintain and refactor it in the future?
-Although ML code generation helps with getting the initial code written, it cannot do much beyond that - if that code is to be maintained and changed in the future … the developer still needs to fully own and understand it.
-Generated code accepted blindly is creating tech debt!
-In other words, it means Copilot and similar solutions do not reduce the code complexity nor the amount of knowledge required to build features, they just help write the initial code faster, and bring the knowledge/examples closer to the code (which is really helpful). If a developer accepts the generated code blindly, they are just creating tech debt and pushing it forward.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FizzBuzz is FizzBuzz years old]]></title>
-        <id>changelog.com/news/044e</id>
-        <link href="https://blog.tdwright.co.uk/2022/07/14/fizzbuzz-is-fizzbuzz-years-old-and-still-a-powerful-tool/"/>
-        <updated>2022-07-14T17:41:00.000Z</updated>
-        <summary type="html"><![CDATA[Tom Wright:
-This year marks 15 years since FizzBuzz was popularised as an interview tool for developers. I’m a big fan and have watched over 100 candidates try their hand at my version of the task. In today’s blog post I’d like to take a moment to celebrate what makes FizzBuzz so helpful, discuss some common patterns I’ve observed in the many attempts I’ve witnessed, and finally explore some tweaks that can be deployed to keep the challenge fresh.
-Tom’s version of FizzBuzz is a pair programming task that follows strict TDD:
-In proper pair programming style, the candidate is encouraged to discuss their approach with the interviewer. Likewise, they are free to use any online reference materials if they forget a method name or some syntax.
-In this post he shares 3 common variants of the challenge including one that requires a pair of Azure Functions?!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A curated list of privacy & security-focused software and services]]></title>
-        <id>changelog.com/news/pjjy</id>
-        <link href="https://github.com/lissy93/awesome-privacy"/>
-        <updated>2022-07-14T16:53:00.000Z</updated>
-        <summary type="html"><![CDATA[Large data-hungry corporations dominate the digital world but with little, or no respect for your privacy. Migrating to open-source applications with a strong emphasis on security will help stop corporations, governments, and hackers from logging, storing or selling your personal data.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research: How GitHub Copilot helps improve developer productivity]]></title>
-        <id>https://github.blog/?p=66107</id>
-        <link href="https://github.blog/2022-07-14-research-how-github-copilot-helps-improve-developer-productivity/"/>
-        <updated>2022-07-14T16:05:19.000Z</updated>
-        <summary type="html"><![CDATA[We surveyed more than 2,000 developers about whether GitHub Copilot helped them be more productive and improved their coding. Then, we matched this qualitative feedback and subjective perception with quantitative data around objective usage measurements and productivity.]]></summary>
-        <author>
-            <name>Albert Ziegler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benchmark Analysis: Annual Pentest and Code Review Coverage]]></title>
-        <id>https://hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage</id>
-        <link href="https://www.hackerone.com/penetration-testing/benchmark-analysis-annual-pentest-and-code-review-coverage"/>
-        <updated>2022-07-14T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Security leaders often struggle to keep pace with the evolving nature of their respective attack surfaces. Many fall behind in their ability to identi]]></summary>
-        <author>
-            <name>Sean Ryan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Caddy 2 works, a deep dive into the source]]></title>
-        <id>changelog.com/news/zDgY</id>
-        <link href="https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTM2Nw=="/>
-        <updated>2022-07-14T15:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Matt Holt (creator of Caddy) gives a deep dive into how the web server works and some of the design decisions and patterns that make it reliable, extensible, and delightful.
-One of the interesting things about the design of Caddy is that its core is just configuration management. It pushes out all other functionality into modules so that basically the only thing left in core is accepting and reacting to configuration changes.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Justin Dorfman</name>
         </author>
     </entry>
 </feed>
