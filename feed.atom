@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-08-13T12:17:15.955Z</updated>
+    <updated>2022-08-14T12:17:57.253Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 501: The power of eBPF]]></title>
+        <id>changelog.com/1/1692</id>
+        <link href="https://changelog.com/podcast/501"/>
+        <updated>2022-08-14T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[eBPF is a revolutionary kernel technology that has lite the cloud native world on fire. If you’re going to have one person explain the excitement, that person would be Liz Rice. Liz is the COSO at Isovalent, creators of the open source Cilium project and pioneers of eBPF tech.
+On this episode Liz tells Jerod all about the power of eBPF, where it came from, what kind of new applications its enabling, and who is building the next generation of networking, security, and observability tools with it.
+Discuss on Changelog News
+Changelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+InfluxData – InfluxData’s Edge Data Replication feature allows developers to replicate data from local instances into InfluxDB Cloud, enables users to aggregate and…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What made my eyes shine towards joining Nubank in Berlin]]></title>
+        <id>https://building.nubank.com.br/?p=18719</id>
+        <link href="https://building.nubank.com.br/what-made-my-eyes-shine-towards-joining-nubank-in-berlin/"/>
+        <updated>2022-08-13T20:50:12.000Z</updated>
+        <summary type="html"><![CDATA[My goal with this blogpost is to share the factors that persuaded me to join Nubank and relocate to Berlin.
+The post <strong>What made my eyes shine towards joining Nubank in Berlin</strong> appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Nubank Editorial</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JS Party 238: Build faster websites with Astro 1.0]]></title>
         <id>changelog.com/6/1796</id>
@@ -1826,95 +1852,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries"/>
         <updated>2022-07-16T12:16:06.150Z</updated>
         <summary type="html"><![CDATA[In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 497: Build tiny multi-platform apps with Tauri and web tech]]></title>
-        <id>changelog.com/1/1685</id>
-        <link href="https://changelog.com/podcast/497"/>
-        <updated>2022-07-15T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re talking with Daniel Thompson about Tauri and their journey to their recent 1.0 release. Tauri is often compared to Electron - it’s a toolkit that lets you build software for all major desktop operating systems using web technologies. It was built for the security-focused, privacy-respecting, and environmentally-conscious software engineering community. The core libraries are written in Rust and the UI layer can be written using virtually any frontend framework. We get into all the details, why Rust, how the project was formed, their resistance (thus far) to venture capital, their full commitment to the freedom virtues of open source, and all the technical bits you need to know to consider it for your next multi-platform project.
-Discuss on Changelog News
-Changelog++ members…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A powerful open source toolkit for hackers & security automation]]></title>
-        <id>changelog.com/news/mllj</id>
-        <link href="https://github.com/We5ter/Scanners-Box"/>
-        <updated>2022-07-15T16:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Scanners Box also known as scanbox, is a powerful hacker toolkit, which has collected more than 10 categories of open source scanners from Github, including subdomain, database, middleware and other modular design scanner etc. But for other Well-known scanning tools, such as nmap, w3af, brakeman, arachni, nikto, metasploit, aircrack-ng will not be included in the scope of collection.
-Toolkit might be a bit misleading. I was imagning some kind of Docker container or Linux distro with all the tools baked in. This is more of a collection of tools (which is why we applied the Awesome topic to it) that you can pick and choose from. Nice collection, though!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 234: Deno's Fresh new web framework]]></title>
-        <id>changelog.com/6/1696</id>
-        <link href="https://changelog.com/jsparty/234"/>
-        <updated>2022-07-15T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Deno team member Luca Casonato joins Jerod & Feross to tell us about Fresh – a next generation web framework, built for speed, reliability, and simplicity.
-Discuss on Changelog News
-Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.
-
-    
-Vercel – Vercel combines the best developer experience with an obsessive focus on end-user performance.  Our platform enables frontend teams to do their best work. Unlock a better frontend workflow today.
-
-    
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Featuring
-Luca Casonato – Twitter, GitHub
-Jerod Santo – Twitter, GitHub
-Feross Aboukhadijeh – Twitter, GitHub, Website
-Notes and Links
-Fresh docs
-Islands Architecture
-Deno’s Discord
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Founders Talk 92: Enabling a world where all software is reliable]]></title>
-        <id>changelog.com/4/1715</id>
-        <link href="https://changelog.com/founderstalk/92"/>
-        <updated>2022-07-15T15:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week Adam is joined by Robert Ross founder and CEO of FireHydrant — the glue layer between your tech stack and your teams to mitigate and resolve incidents at scale.
-Robert shares his journey to become a software engineer, his time at DigitalOcean, this idea of incident management as a platform and how he shifted his focus from creating courses on incident management to recognizing the value of the software he was creating for the course to what is now known as FireHydrant. We also talk through his first experience in raising capital, what happens when the bar is raised on the reliability of the worlds software, and why their mantra is “Hire great people, who build, sell and market a great product, and you’ll have a great company.”
-Discuss on Changelog News
-Changelog++ members save 9 …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Easy ways to spice up your designs]]></title>
-        <id>changelog.com/news/bJJ9</id>
-        <link href="https://www.learnui.design/blog/spice-up-designs.html"/>
-        <updated>2022-07-15T14:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Ever been working on a design that feels too plain? Let’s look at a few dozen simple ways to spice things up. Get ready to bookmark this page, because you’ll want to reference this list in the future. It’s unbelievable how many incredible pro-level designs feature solid foundations plus a few techniques listed below.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Erik Kennedy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Powering real-time data analytics with Druid at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter"/>
-        <updated>2022-07-15T12:20:10.438Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.]]></summary>
         <author>
             <name>English (US)</name>
         </author>
