@@ -46,6 +46,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1807",
+          "author": null,
+          "description": "Daniel and Chris cover the AI news of the day in this wide-ranging discussion. They start with Truss from Baseten while addressing how to categorize AI infrastructure and tools. Then they move on to transformers (again!), and somehow arrive at an AI pilot model from CMU that can navigate crowded airspace (much to Chris’s delight).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nTruss on GitHub\nCMU: AI Pilot Can Navigate Crowded Airspace\nEmbarrassingly Parallel Training of Expert Language Models\nToucan: Learn español without even trying\n3D Vision with Transformers: A Survey\nSphere: Natural Language Processing with Transformers\nSkyJack on GitHub\nNVIDIA AI Demos\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/189",
+          "publishedOn": "2022-08-16T21:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 189: CMU's AI pilot lands in the news 🗞",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/189/practical-ai-189.mp3",
+            "length": "40314646",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/mlX1",
+          "author": "Jerod Santo",
+          "description": "As best I can tell, this provides simplified search across your infra, generates reports so you can easily audit resource usage, and lets you create/trigger jobs such as cleaning up unused resources and enforcing tag structures.\nThe search looks pretty powerful and you can pipe search results directly to jobs for quick processing:\nsearch is(resource) and tags.owner==null | tag update owner \"John Doe\"\n\nDiscuss on Changelog News",
+          "link": "https://resoto.com/",
+          "publishedOn": "2022-08-16T16:49:00.000Z",
+          "wordCount": null,
+          "title": "Resoto is a meta layer on top of your cloud infra",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/w9NO",
+          "author": "Jerod Santo",
+          "description": "Carlos Becker shares some SSH tips he’s learned over the years, including YubiKey integration. Did you know you can SSH straight into tmux?!\nDiscuss on Changelog News",
+          "link": "https://carlosbecker.dev/posts/ssh-tips-and-tricks/",
+          "publishedOn": "2022-08-16T15:58:00.000Z",
+          "wordCount": null,
+          "title": "SSH tips and tricks",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Eq13",
+          "author": "Jamie Tanna",
+          "description": "Every so often, engineers need to pick up a new language. After ~6 years of professional development using Java, with a bit of Ruby sprinkled in, coming to Deliveroo meant that I’d be starting to work on some Go codebases.\nSo when it came to accepting the offer, I ended up thinking about getting started with learning Go, so I could hit the ground running. In this post I share different ways to get practical experience of the language, as well as thoughts on what Go is like to a newbie\nDiscuss on Changelog News",
+          "link": "https://www.jvt.me/posts/2022/08/12/learning-new-language-go/",
+          "publishedOn": "2022-08-16T14:24:00.000Z",
+          "wordCount": null,
+          "title": "Learning a new language, or how I gained familiarity with Go",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/dqL2",
           "author": "Jerod Santo",
           "description": "Marta is a dual-pane file manager that’s super customizable and theme-able, too. It has an Actions Panel like Sublime Text and VS Code where you can work with files, interact with the operating system, or modify Marta itself. But for my money time, if it can remember the state of how I left things the last time… it’s far better than Finder already!\n\nDiscuss on Changelog News",
@@ -914,51 +959,6 @@
           "wordCount": null,
           "title": "How much money do Indie Hackers products make?",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Pppm",
-          "author": "Adam Stacoviak",
-          "description": "Matt Rickard, yes this Matt Rickard from episode #463 of The Changelog, shared some thoughts (an unordered list) about the forces acting on RSS.\nHe sets the stage by sharing a swath of think pieces written on the subject.\nNo technology other than RSS has had more think pieces written proclaiming the death of RSS (2006, 2009, 2010, 2012, 2013) and the rebirth of RSS (2009, 2010, 2011, 2018, 2018, 2019).\nHere are two points (of several shared) that stood out to me.\nSubstack has revitalized the blogging movement by giving away free hosting and email lists, and a business model for supporting writers. As email newsletters grow, RSS is a decent alternative to an increasingly cluttered email inbox.\nCreator incentives work against RSS. The protocol does not benefit content creators because it doesn’t give them any insight into their audience (number of subscribers, emails, or other data).\nWhat are your thoughts in his thoughts? What’s next for RSS?\nDiscuss on Changelog News",
-          "link": "https://matt-rickard.com/thoughts-on-rss/",
-          "publishedOn": "2022-07-18T19:29:35.000Z",
-          "wordCount": null,
-          "title": "Thoughts on RSS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/GWW6",
-          "author": "Jerod Santo",
-          "description": "This isn’t the first attempt at making regular expressions more approachable, but it’s the first one I’ve seen that also brings type safety to the table. Example code:\nimport { createRegExp, exactly, oneOrMore, digit } from 'magic-regexp'\n\n// Quick-and-dirty semver\ncreateRegExp(\n  oneOrMore(digit)\n    .as('major')\n    .and('.')\n    .and(oneOrMore(digit).as('minor'))\n    .and(exactly('.').and(oneOrMore(char).as('patch')).optionally())\n)\n// /(?<major>(\\d)+)\\.(?<minor>(\\d)+)(\\.(?<patch>(.)+))?/\n\nDiscuss on Changelog News",
-          "link": "https://github.com/danielroe/magic-regexp",
-          "publishedOn": "2022-07-18T18:02:00.000Z",
-          "wordCount": null,
-          "title": "A compiled-away, type-safe, readable RegExp alternative",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1717",
-          "author": null,
-          "description": "Anthony Hobday has 37 ways to spice up your designs, James Bennett has opinions on open source and PyPi security, Alicia Sykes compiled some awesome security/privacy options, ContextKeeper layouts out the real price of context switching, and Nick Nisi tells us all about jqq. Bam! Bam! Bam!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog News\n37 Easy Ways to Spice Up Your UI Designs\nYes, I have opinions on your open source contributions\nawesome-privacy\nWhat’s the real cost of interruption and context switching?\njqq: an interactive wrapper around jq\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-07-18",
-          "publishedOn": "2022-07-18T16:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog Spicy designs, more open source opinions, privacy-focused services, the real cost of context switching & jqq",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-07-18/the-changelog-news-2022-07-18.mp3",
-            "length": "7088616",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Rddr",
-          "author": "Jerod Santo",
-          "description": "Testing distributed systems under hard failures like network partitions and instance termination is critical, but it’s also important we test them under less catastrophic conditions because this is what they most often experience. Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets.\nIt works by wrapping up some system tools in a portable(ish) way. On BSD-derived systems such as OSX, we use tools like ipfw and pfctl to inject failure. On Linux, we use iptables and tc. Comcast is merely a thin wrapper around these controls.\nTFW you come up with the perfect name for your open source project ✨\nDiscuss on Changelog News",
-          "link": "https://github.com/tylertreat/comcast",
-          "publishedOn": "2022-07-18T14:36:00.000Z",
-          "wordCount": null,
-          "title": "Comcast simulates trash network connections so you can build better systems",
-          "itunes": {}
         }
       ]
     },
@@ -982,7 +982,17 @@
       "title": "AI",
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.google/technology/ai/making-robots-more-helpful-with-language/",
+          "author": null,
+          "description": "Even the simplest human tasks are unbelievably complex. The way we perceive and interact with the world requires a lifetime of accumulated experience and context. For example, if a person tells you, “I am running out of time,” you don’t immediately worry they are jogging on a street where the space-time continuum ceases to exist. You understand that they’re probably coming up against a deadline. And if they hurriedly walk toward a closed door, you don’t brace for a collision, because you trust this person can open the door, whether by turning a knob or pulling a handle.\n\n\nA robot doesn’t innately have that understanding. And that’s the inherent challenge of programming helpful robots that can interact with humans. We know it as “Moravec's paradox” — the idea that in robotics, it’s the easi…",
+          "link": "https://blog.google/technology/ai/making-robots-more-helpful-with-language/",
+          "publishedOn": "2022-08-16T14:00:00.000Z",
+          "wordCount": 1831,
+          "title": "Making robots more helpful with language"
+        }
+      ]
     },
     {
       "title": "daniel.haxx.se",
@@ -1188,6 +1198,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=66458",
+          "author": "Rose Coogan",
+          "description": "We’re reporting on a six-month period rather than annually to increase our level of transparency. For this report, we’ve continued with the more granular reporting we began in our 2021 reports.",
+          "link": "https://github.blog/2022-08-16-2022-transparency-report-january-to-june/",
+          "publishedOn": "2022-08-16T21:00:21.000Z",
+          "wordCount": 5184,
+          "title": "2022 Transparency Report: January to June"
+        },
+        {
           "id": "https://github.blog/?p=66506",
           "author": "Bas van Schaik",
           "description": "Today, GitHub code scanning has all of LGTM.com’s key features—and more! The time has therefore come to announce the plan for the gradual deprecation of LGTM.com.",
@@ -1357,15 +1376,6 @@
           "publishedOn": "2022-07-19T16:15:27.000Z",
           "wordCount": 2519,
           "title": "6 strategic ways to level up your CI/CD pipeline"
-        },
-        {
-          "id": "https://github.blog/?p=66128",
-          "author": "Rizel Scarlett",
-          "description": "July's Open Source Monthly features Zag.js, which leverages state machines to make framework agnostic components.",
-          "link": "https://github.blog/2022-07-18-open-source-monthly-july-2022-edition/",
-          "publishedOn": "2022-07-18T16:06:57.000Z",
-          "wordCount": 1219,
-          "title": "Open Source Monthly: July 2022 Edition"
         }
       ]
     },
