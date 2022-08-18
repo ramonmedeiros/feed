@@ -22,15 +22,6 @@
           "publishedOn": "2022-08-08T15:55:00.003Z",
           "wordCount": 1971,
           "title": "How Hash-Based Safe Browsing Works in Google Chrome"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/07/dns-over-http3-in-android.html",
-          "author": null,
-          "description": "Posted by Matthew Maurer and Mike Yu, Android team\n   To help keep Android users’ DNS queries private, Android supports encrypted   DNS. In addition to existing support for DNS-over-TLS, Android now supports   DNS-over-HTTP/3 which has a number of improvements over DNS-over-TLS. \n  Most network connections begin with a DNS lookup. While transport security may   be applied to the connection itself, that DNS lookup has traditionally not   been private by default: the base DNS protocol is raw UDP with no encryption.   While the internet has migrated to TLS over time, DNS has a bootstrapping   problem. Certificate verification relies on the domain of the other party,   which requires either DNS itself, or moves the problem to DHCP (which may be   maliciously controlled). This issue is mitigate…",
-          "link": "http://security.googleblog.com/2022/07/dns-over-http3-in-android.html",
-          "publishedOn": "2022-07-19T16:59:00.001Z",
-          "wordCount": 1596,
-          "title": "DNS-over-HTTP/3 in Android"
         }
       ]
     },
@@ -45,6 +36,26 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/D1N1",
+          "author": "Jerod Santo",
+          "description": "Alexander Wales:\nThis image was created by an AI, MidJourney. All I had to do was type in a prompt (“wildfire”) and aspect ratio. This AI is pretty good, but nowhere near the state of the art, and AI like it are, over the next few years, going to make art like this available within seconds at a cost of pennies. This applies not just to “art” like the above, which is going to accompany my prose and worldbuilding projects, but to almost every area of life where you see pictures of any kind. I think it’s hard to understate how big of a deal this will end up being, and this blog post is largely my attempt to collate a lot of the arguments under one roof, in part because some of the arguments aren’t actually arguments at all.\nDiscuss on Changelog News",
+          "link": "https://alexanderwales.com/the-ai-art-apocalypse/",
+          "publishedOn": "2022-08-17T14:18:00.000Z",
+          "wordCount": null,
+          "title": "The AI art apocalypse",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/kw12",
+          "author": "Jerod Santo",
+          "description": "Josh Comeau takes times to answer the question that many of us have asked ourselves, but never sought out an answer to: exactly how does React’s re-rendering process work?\nThere are a lot of misconceptions out there about this topic, and it can lead to a lot of uncertainty. If we don’t understand React’s render cycle, how can we understand how to use React.memo, or when we should wrap our functions in useCallback?\nDiscuss on Changelog News",
+          "link": "https://www.joshwcomeau.com/react/why-react-re-renders/",
+          "publishedOn": "2022-08-17T13:32:01.000Z",
+          "wordCount": null,
+          "title": "Why React re-renders",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/7/1807",
           "author": null,
@@ -919,46 +930,6 @@
           "wordCount": null,
           "title": "Kern AI's refinery is a data-centric IDE for NLP",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1716",
-          "author": null,
-          "description": "In this Fully-Connected episode, Daniel and Chris explore DALL-E 2, the amazing new model from Open AI that generates incredibly detailed novel images from text captions for a wide range of concepts expressible in natural language.  Along the way, they acknowledge that some folks in the larger AI community are suggesting that sophisticated models may be approaching sentience, but together they pour cold water on that notion.  But they can’t seem to get away from DALL-E’s images of raccoons in space, and of course, who would want to?\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nDALL·E: Creating Images from Text\nHow DALL-E 2 Actually Works\nGoogle - Raccoons in Space!\nOn the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/185",
-          "publishedOn": "2022-07-19T20:10:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 185: DALL-E is one giant leap for raccoons! 🔭",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/185/practical-ai-185.mp3",
-            "length": "39828109",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/4/1672",
-          "author": null,
-          "description": "This week Adam is taking the show off the beaten path to speak with Adam Miller, the founder and CEO of Revel Bikes. Yes that’s right, this episode features a founder of a bike brand, not a tech brand.\nAdam Miller’s journey to create Revel Bikes is paved with many ups and many downs, a failed partnership, super scrappy weeks and months traveling the world to find the best manufacturing partners, the latest innovations in suspension tech and modern geometry to hit the mountain biking scene, a strong team that’s been with him every step of the way (many of which are as close as family), and truly some of the best premium bikes available on the market today.\nBTW, Adam (host) is an owner of a Revel bike — he has a T1000 colorway Rascal that he’s ridden on downhill trails, all-day epics, and ev…",
-          "link": "https://changelog.com/founderstalk/93",
-          "publishedOn": "2022-07-19T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Founders Talk 93: Building the best mountain bikes in the world",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/founderstalk/93/founders-talk-93.mp3",
-            "length": "102564894",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/9llJ",
-          "author": "Jerod Santo",
-          "description": "Only 5% of Indie Hackers products make $100k/year…\nA sobering statistic, but with a caveat: this only accounts for the 937 products that have their revenue verified by Stripe. The 5% is low, but that’s for a high bar of $100k/year. It gets worse:\nA prevalent thinking is that making money as an indie developer is hard and most of the products end up with no revenue at all. Products on Indie Hackers seem to confirm this as more than 54% of the products are not making any revenue at all.\nThe post also breaks down the best performing product categories. ‘Wearables’ looks like a good one.\n(We love the Indie Hackers community and know how hard it is to make it on your own. This post is not intended to denigrate anyone, just provide information.)\nDiscuss on Changelog News",
-          "link": "https://scrapingfish.com/blog/indie-hackers-revenue",
-          "publishedOn": "2022-07-19T14:21:00.000Z",
-          "wordCount": null,
-          "title": "How much money do Indie Hackers products make?",
-          "itunes": {}
         }
       ]
     },
@@ -1198,6 +1169,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=66541",
+          "author": "Evi Liu",
+          "description": "As part of GitHub Enterprise Server 3.6, enterprise customers will now be able to use GitHub Discussions.",
+          "link": "https://github.blog/2022-08-17-github-discussions-is-now-available-on-github-enterprise-server/",
+          "publishedOn": "2022-08-17T16:00:28.000Z",
+          "wordCount": 967,
+          "title": "GitHub Discussions is now available on GitHub Enterprise Server"
+        },
+        {
+          "id": "https://github.blog/?p=66529",
+          "author": "Melody Mileski",
+          "description": "GitHub Discussions and Audit Log Streaming, new automation features, and security enhancements are available now in GitHub Enterprise Server 3.6.",
+          "link": "https://github.blog/2022-08-17-github-enterprise-server-3-6-is-now-generally-available/",
+          "publishedOn": "2022-08-17T13:00:01.000Z",
+          "wordCount": 1280,
+          "title": "GitHub Enterprise Server 3.6 is now generally available"
+        },
+        {
           "id": "https://github.blog/?p=66458",
           "author": "Rose Coogan",
           "description": "We’re reporting on a six-month period rather than annually to increase our level of transparency. For this report, we’ve continued with the more granular reporting we began in our 2021 reports.",
@@ -1367,15 +1356,6 @@
           "publishedOn": "2022-07-20T15:58:14.000Z",
           "wordCount": 1769,
           "title": "Here’s how academic research is shaping GitHub Discussions"
-        },
-        {
-          "id": "https://github.blog/?p=66178",
-          "author": "Damian Brady",
-          "description": "From incorporating accessibility testing to implementing blue-green deployment models, here are six practical and strategic ways to improve your CI/CD pipeline.",
-          "link": "https://github.blog/2022-07-19-6-strategic-ways-to-level-up-your-ci-cd-pipeline/",
-          "publishedOn": "2022-07-19T16:15:27.000Z",
-          "wordCount": 2519,
-          "title": "6 strategic ways to level up your CI/CD pipeline"
         }
       ]
     },
