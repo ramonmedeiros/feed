@@ -965,41 +965,6 @@
             "length": "85257002",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/6/1677",
-          "author": null,
-          "description": "What’s this? A Frontend Feud! The ShopTalk guys return to defend their championship over Syntax against new contenders: Una and Adam from The CSS Podcast!\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.\n\n    \nFeaturing\nChris Coyier – Twitter, GitHub, Website\nDave Rupert – Twitter, GitHub, Website\nUna Kravets – Twitter, GitHub, Website\nAdam Argyle – Twitter, GitHub, Website\nJerod Santo – Twitter, GitHub\nAmelia Wattenberger – Twitter, GitHub, Website\nNick Nisi – Twitter, GitHub, Website\nNotes and Links\nWatch the video on our YouTube channel\nShout out to Una’s Twitter!\nShout out to OneWheel!\nShout out to ShopTalk Show!\nShout out to The CSS Podcast!\nShout out to JS Party?\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/235",
-          "publishedOn": "2022-07-22T16:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 235: Frontend Feud: ShopTalk vs CSS Podcast",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/jsparty/235/js-party-235.mp3",
-            "length": "56685963",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/N1LO",
-          "author": "Jerod Santo",
-          "description": "This looks very opinionated with the tech it chooses (Node, Express, MongoDB, React, TypeScript). But if you like those choices, that probably means you’ll like what they’ve cooked up.\nPayload gives you everything you need, but then steps back and lets you build what you want in JavaScript or TypeScript - with no unnecessary complexity brought by GUIs. You’ll understand how your CMS works because you will have written it exactly how you want it.\nBring your own Express server and do whatever you need on top of Payload. Payload doesn’t impose anything on you or your app.\nCompletely control the Admin panel by using your own React components. Swap out fields or even entire views with ease.\nUse your data however and wherever you need thanks to auto-generated, yet fully extensible REST, GraphQL, and Local Node APIs.\nDiscuss on Changelog News",
-          "link": "https://github.com/payloadcms/payload",
-          "publishedOn": "2022-07-22T13:45:00.000Z",
-          "wordCount": null,
-          "title": "A headless, code-first CMS built with TypeScript",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/nj0G",
-          "author": "Jerod Santo",
-          "description": "User Uptrenda asked HN about their favorite data structures, sharing their own to get it started:\nI’ll start: bloom filters. Lets you test if a value is definitely NOT in a list of pre-stored values (or POSSIBLY in a list - with adjustable probability that influences storage of the values.)\nGood use-case: routing. Say you have a list of 1 million IPs that are black listed. A trivial algorithm would be to compare every element of the set with a given IP. The time complexity grows with the number of elements. Not so with a bloom filter! A bloom filter is one of the few data structures whose time complexity does not grow with the number of elements due to the ‘keys’ not needing to be stored (‘search’ and ‘insert’ is based on the number of hash functions.)\nThe responses are numerous with a lot of signal, which is increasingly rare on the orange website these days. Worth a read!\nDiscuss on Changelog News",
-          "link": "https://news.ycombinator.com/item?id=32186203",
-          "publishedOn": "2022-07-22T12:57:00.000Z",
-          "wordCount": null,
-          "title": "A thread of cool but obscure data structures",
-          "itunes": {}
         }
       ]
     },
@@ -1111,15 +1076,6 @@
           "publishedOn": "2022-08-08T09:25:12.000Z",
           "wordCount": 943,
           "title": "How I merge PRs in curl"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19577",
-          "author": "Daniel Stenberg",
-          "description": "Hi Daniel, My name is Emma Irwin, and I am a program manager at Microsoft, specifically working in the open source program’s office (OSPO). One of the programs I lead is the FOSS fund. This may sound a bit odd, but normally I send an email notice to project winners, yet someone pointed out that … Continue reading Microsoft FOSS Fund Winner: curl →",
-          "link": "https://daniel.haxx.se/blog/2022/07/22/microsoft-foss-fund-winner-curl/",
-          "publishedOn": "2022-07-22T21:30:13.000Z",
-          "wordCount": 454,
-          "title": "Microsoft FOSS Fund Winner: curl"
         }
       ]
     },
@@ -1128,6 +1084,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "author": null,
+          "description": "This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "publishedOn": "2022-08-21T12:17:05.602Z",
+          "wordCount": 1838,
+          "title": "Graph machine learning with missing node features"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
           "author": null,
