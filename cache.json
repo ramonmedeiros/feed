@@ -884,51 +884,6 @@
           "wordCount": null,
           "title": "A framework for Engineering Managers",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/njAg",
-          "author": "Jerod Santo",
-          "description": "Partytown is a lazy-loaded library to help relocate resource intensive scripts into a web worker, and off of the main thread. Its goal is to help speed up sites by dedicating the main thread to your code, and offloading third-party scripts to a web worker.\nEven with a fast and highly tuned website following all of today’s best practices, it’s all too common for your performance wins to be erased the moment third-party scripts are added. By third-party scripts we mean code that is embedded within your site, but not directly under your control. A few examples include: analytics, metrics, ads, A/B testing, trackers, etc.\nI learned of this library during our fascinating discussion with Miško Hevery on (next week’s) JS Party.\nDiscuss on Changelog News",
-          "link": "https://partytown.builder.io/",
-          "publishedOn": "2022-07-28T19:49:00.000Z",
-          "wordCount": null,
-          "title": "Partytown runs 3rd-party scripts from a web worker",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1713",
-          "author": null,
-          "description": "Go 1.18 was a major release where we saw the introduction of generics into the language as well as other notables such as fuzzing and workspaces. With Go 1.19 slated to come out next month, one has to wonder what’s next. Are we in store to be blown away by new and major features like we saw in 1.18? Not exactly but there are still lots of improvements to be on the lookout for.\nJoining Mat & Johnny to touch on some of the most interesting ones is Carl Johnson, himself a contributor to the 1.19 release.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights —…",
-          "link": "https://changelog.com/gotime/240",
-          "publishedOn": "2022-07-28T18:35:38.000Z",
-          "wordCount": null,
-          "title": "Go Time 240: What's new in Go 1.19",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/240/go-time-240.mp3",
-            "length": "71014858",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/ojOO",
-          "author": "Jerod Santo",
-          "description": "Do you ever send the output of a process to /dev/null and regret it, but can’t afford to stop and restart the process? catp is here for you!\n\nDiscuss on Changelog News",
-          "link": "https://github.com/rapiz1/catp",
-          "publishedOn": "2022-07-28T16:04:00.000Z",
-          "wordCount": null,
-          "title": "`catp` prints the output of a running process",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Mb12",
-          "author": "Jerod Santo",
-          "description": "chiark is my “colo” - a server I run, which lives in a data centre in London. It hosts ~200 users with shell accounts, various websites and mailing lists, moderators for a number of USENET newsgroups, and countless other services…\nchiark’s last major OS upgrade was to jessie (Debian 8, released in April 2015). That was in 2016.\nA harrowing tale of planning and peril. Surprisingly, it went quite well!\nDiscuss on Changelog News",
-          "link": "https://diziet.dreamwidth.org/11840.html",
-          "publishedOn": "2022-07-28T15:17:00.000Z",
-          "wordCount": null,
-          "title": "Upgrading from Debian Jessie i386 to Bullseye amd64 after ~30 years",
-          "itunes": {}
         }
       ]
     },
@@ -937,6 +892,15 @@
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
       "articles": [
+        {
+          "id": "https://blog.comma.ai/0816release/",
+          "author": null,
+          "description": "Falcon Punch model and 200+ supported cars!",
+          "link": "https://blog.comma.ai/0816release/",
+          "publishedOn": "2022-08-26T00:00:00.000Z",
+          "wordCount": 1205,
+          "title": "openpilot 0.8.16"
+        },
         {
           "id": "https://blog.comma.ai/ourfirstlawsuit/",
           "author": null,
@@ -1213,6 +1177,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=66657",
+          "author": "Ashley Wolf",
+          "description": "The future of software development does not exist without open source. However, to maintain today’s software and create the software of the future, the largest organizations and beneficiaries of open source need to expand their collaboration with the community and help it grow.",
+          "link": "https://github.blog/2022-08-26-3-ways-every-company-can-get-started-with-an-open-source-software-strategy/",
+          "publishedOn": "2022-08-26T16:00:50.000Z",
+          "wordCount": 1046,
+          "title": "3 ways every company can get started with an open-source software strategy"
+        },
+        {
           "id": "https://github.blog/?p=66604",
           "author": "Klint Finley",
           "description": "Whether you’re committing 30 minutes or 3 hours a day to learning, consistency is key. Klint Finley asks 3 tech professionals at different stages in their career for more advice.",
@@ -1355,24 +1328,6 @@
           "publishedOn": "2022-08-02T13:00:52.000Z",
           "wordCount": 688,
           "title": "Streamline virtual hackathon events with the new Hackathon in the Cloud Experience"
-        },
-        {
-          "id": "https://github.blog/?p=66247",
-          "author": "Klint Finley",
-          "description": "Marketing your open source project can be intimidating, but three experts share their insider tips and tricks for how to get your hard work on the right people’s radars.",
-          "link": "https://github.blog/2022-07-28-marketing-for-maintainers-how-to-promote-your-project-to-both-users-and-contributors/",
-          "publishedOn": "2022-07-28T17:00:14.000Z",
-          "wordCount": 3262,
-          "title": "Marketing for maintainers: Promote your project to users and contributors"
-        },
-        {
-          "id": "https://github.blog/?p=66323",
-          "author": "Jessica Lord",
-          "description": "GitHub Sponsors expands globally with 30 newly supported regions, bringing the total to 68.",
-          "link": "https://github.blog/2022-07-28-github-sponsors-available-in-30-new-regions-2/",
-          "publishedOn": "2022-07-28T13:00:07.000Z",
-          "wordCount": 1362,
-          "title": "GitHub Sponsors available in 30 new regions"
         }
       ]
     },
@@ -1381,6 +1336,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18813",
+          "author": "Nubank Editorial",
+          "description": "Do you know what an Associate Product Manager does? Our Nubankers tell us what is their scope of work and expected skills.\nThe post What is it like to be an Associate Product Manager at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/associate-product-manager-at-nubank/",
+          "publishedOn": "2022-08-26T18:13:40.000Z",
+          "wordCount": 3521,
+          "title": "What is it like to be an Associate Product Manager at Nubank?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18765",
           "author": "Nubank Editorial",
