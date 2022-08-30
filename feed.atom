@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-08-29T12:22:20.952Z</updated>
+    <updated>2022-08-30T12:23:53.811Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Announcing Google’s Open Source Software Vulnerability Rewards Program]]></title>
+        <id>http://security.googleblog.com/2023/08/Announcing-Googles-Open-Source-Software-Vulnerability-Rewards-Program .html</id>
+        <link href="http://security.googleblog.com/2023/08/Announcing-Googles-Open-Source-Software-Vulnerability-Rewards-Program .html"/>
+        <updated>2022-08-30T11:01:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Francis Perron, Open Source Security Technical Program Manager
+
+
+
+Today, we are launching Google’s Open Source Software Vulnerability Rewards Program (OSS VRP) to reward discoveries of vulnerabilities in Google’s open source projects. As the maintainer of major projects such as Golang, Angular, and Fuchsia, Google is among the largest contributors and users of open source in the world. With the addition of Google’s OSS VRP to our family of Vulnerability Reward Programs (VRPs), researchers can now be rewarded for finding bugs that could potentially impact the entire open source ecosystem.
+
+Google has been committed to supporting security researchers and bug hunters for over a decade. The original VRP program, established to compensate and thank those who help make Google’s code mo…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Qalculate is awesome, Restic adds compression, CS teachers coping with Copilot & Heroku's next non-free chapter]]></title>
+        <id>changelog.com/1/1816</id>
+        <link href="https://changelog.com/podcast/news-2022-08-29"/>
+        <updated>2022-08-29T17:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Qalculate has a command-line interface, Alexander Neumann adds compression to Restic, Emery Berger warns his fellow CS professors about Copilot, and Heroku GM Bob Wise details Heroku’s next chapter (which excludes free accounts).
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Qalculate!
+‘qalc’ is awesome!
+Restic 0.14
+Alex Neumann on The Changelog #434
+Coping with Copilot
+Heroku’s Next Chapter
+joerick’s comment
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heroicons 2.0]]></title>
+        <id>changelog.com/news/GWqM</id>
+        <link href="https://heroicons.com/"/>
+        <updated>2022-08-29T14:31:00.000Z</updated>
+        <summary type="html"><![CDATA[From Steve Schoger’s announcement tweet:
+🤩 All new look! 260 icons redrawn from scratch
+Available as first-party React and Vue libraries and official Figma components.
+The React and Vue libraries are cool, but the coolest part about SVG-based icons is how you can simply copy/paste the HTML directly into your code.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Segment found product-market fit]]></title>
+        <id>changelog.com/news/eEoO</id>
+        <link href="https://bip.so/@TIL_/How-Segment-Found-PMF-bDaLg"/>
+        <updated>2022-08-29T13:42:00.000Z</updated>
+        <summary type="html"><![CDATA[A very cool case study of Segment’s long journey to creating a product that people would actually pay money to use.
+By now they burnt $500K and were left with only $100K. They wanted to tryout something for one last time with the $100K. One of their Co-Founders suggested that they try to productise their open source library. Peter, the Co-Founder & CEO didn’t like that idea at all. This open-source library had only 580 lines of code, compared to the other 2 products which had 100x more lines of code and a very grand vision on how to define an industry.
+Side note: what is this bip.so thing that’s hosting the content?!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git’s database internals I: packed object store]]></title>
+        <id>https://github.blog/?p=66673</id>
+        <link href="https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/"/>
+        <updated>2022-08-29T13:00:06.000Z</updated>
+        <summary type="html"><![CDATA[This blog series will examine Git’s internals to help make your engineering system more efficient. Part I discusses how Git stores its data in packfiles using custom compression techniques.]]></summary>
+        <author>
+            <name>Derrick Stolee</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Merging two GitHub repositories without losing commit history]]></title>
         <id>https://hacks.mozilla.org/?p=47913</id>
@@ -1924,16 +2000,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature"/>
         <updated>2022-08-01T12:20:56.137Z</updated>
         <summary type="html"><![CDATA[Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale"/>
-        <updated>2022-07-31T12:18:41.798Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.]]></summary>
         <author>
             <name>English (US)</name>
         </author>
