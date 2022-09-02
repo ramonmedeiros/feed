@@ -2,10 +2,98 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-01T12:29:45.052Z</updated>
+    <updated>2022-09-02T12:22:16.315Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl’s TLS fingerprint]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20025</id>
+        <link href="https://daniel.haxx.se/blog/2022/09/02/curls-tls-fingerprint/"/>
+        <updated>2022-09-02T11:46:17.000Z</updated>
+        <summary type="html"><![CDATA[Every human has a unique fingerprint. With only an impression of a person’s fingertip, it is possible to follow the lead back to the single specific individual wearing that unique pattern. TLS fingerprints The phrase TLS fingerprint is of course in this spirit. A pattern in a TLS handshake that allows an involved party to … Continue reading curl’s TLS fingerprint →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Actions: introducing the new, larger GitHub-hosted runners beta]]></title>
+        <id>https://github.blog/?p=66793</id>
+        <link href="https://github.blog/2022-09-01-github-actions-introducing-the-new-larger-github-hosted-runners-beta/"/>
+        <updated>2022-09-01T16:08:20.000Z</updated>
+        <summary type="html"><![CDATA[Now your team can spend less time managing infrastructure and more time writing code.]]></summary>
+        <author>
+            <name>Ben De St Paer-Gotch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 245: Inside GopherCon]]></title>
+        <id>changelog.com/2/1671</id>
+        <link href="https://changelog.com/gotime/245"/>
+        <updated>2022-09-01T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ever wondered how GopherCon came to be, and how it’s put together every year. In this show we will be chatted with Erik St. Martin, who has been there from the start about how GopherCon came to be, how this year’s conference came together, as well as why events like GopherCon as so great!
+We are joined by Erik St. Martin, GopherCon Organizer and Co-Author Go in Action.
+Discuss on Changelog News
+Changelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at abo…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stable Diffusion is a really big deal]]></title>
+        <id>changelog.com/news/W19z</id>
+        <link href="https://simonwillison.net/2022/Aug/29/stable-diffusion/"/>
+        <updated>2022-09-01T14:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison explains what it is:
+Stable Diffusion is a new “text-to-image diffusion model” that was released to the public by Stability.ai six days ago, on August 22nd.
+It’s similar to models like Open AI’s DALL-E, but with one crucial difference: they released the whole thing.
+And why it’s a really big deal:
+In just a few days, there has been an explosion of innovation around it. The things people are building are absolutely astonishing.
+He then details some of the innovation and it is staggering, to say the least. Open FTW!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes StatefulSets are broken. Here's why]]></title>
+        <id>changelog.com/news/JgEA</id>
+        <link href="https://www.plural.sh/blog/kubernetes-statefulsets-are-broken-heres-why/"/>
+        <updated>2022-09-01T14:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Why do we think StatefulSets are broken? Well, if you run through the operational needs of a stateful workload in your head, there’s one key component that you might notice is missing:
+What do you do when you need to resize the underlying disk?
+The dataset is a common database store that typically grows at a pretty constant positive rate. Unless you support horizontal scaling and partitioning, you’ll need to add headroom in the disk as that dataset grows.
+This is where Kubernetes falls flat on its face.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Michael Guarino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why user stories belong in the garbage]]></title>
+        <id>changelog.com/news/rXGy</id>
+        <link href="https://www.browserlondon.com/blog/2022/08/30/why-user-stories-belong-in-the-garbage/"/>
+        <updated>2022-09-01T13:20:00.000Z</updated>
+        <summary type="html"><![CDATA[This article isn’t arguing against writing user stories, it’s arguing against keeping user stories:
+If you put the story in your icebox/backlog/cooler/hat, it’s time for it to go. It’s now duplicate documentation. That story was only there because you were yet to break it down into tasks. Now you have, so you delete it.
+I don’t mean tick it off as complete, I mean right-click on it and hit the ‘delete’ button.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git’s database internals IV: distributed synchronization]]></title>
+        <id>https://github.blog/?p=66776</id>
+        <link href="https://github.blog/2022-09-01-gits-database-internals-iv-distributed-synchronization/"/>
+        <updated>2022-09-01T13:00:20.000Z</updated>
+        <summary type="html"><![CDATA[We're examining Git’s internals to help make your engineering system more efficient. This post views Git as a distributed database and looks into its synchronization techniques, specifically ‘git fetch’ and ‘git push’.]]></summary>
+        <author>
+            <name>Derrick Stolee</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Over-squashing, Bottlenecks, and Graph Ricci curvature]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature</id>
@@ -1978,55 +2066,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[After a day of rest, we were ready to launch into our first day of H1-702! What makes today special is the return of H@cktivity Con, previousl]]></summary>
         <author>
             <name>jesse@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Learn Trig Derivatives]]></title>
-        <id>https://betterexplained.com/?p=12748</id>
-        <link href="https://betterexplained.com/articles/trig-derivatives/"/>
-        <updated>2022-08-03T20:18:29.000Z</updated>
-        <summary type="html"><![CDATA[Quick confession? I never fully learned the trig derivatives. Sure, I memorized $\sin' = \cos$ and $\cos' = -\sin $ like everyone else, but the derivative of tangent? Cosecant? Forget it, magic spells. After years of searching, there's a middle ground between tedious derivation and rote memorization. Aha moment: all trig functions change using the […]]]></summary>
-        <author>
-            <name>kalid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: July 2022]]></title>
-        <id>https://github.blog/?p=66395</id>
-        <link href="https://github.blog/2022-08-03-github-availability-report-july-2022/"/>
-        <updated>2022-08-03T16:00:30.000Z</updated>
-        <summary type="html"><![CDATA[In July, we experienced one incident that resulted in degraded performance for Codespaces. This report also acknowledges two incidents that impacted multiple GitHub.com services in June.]]></summary>
-        <author>
-            <name>Jakub Oleksy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why I still love PHP and JavaScript after 20+ years]]></title>
-        <id>changelog.com/news/1WX6</id>
-        <link href="https://the.scapegoat.dev/why-i-love-php-and-javascript/"/>
-        <updated>2022-08-03T14:29:00.000Z</updated>
-        <summary type="html"><![CDATA[I have to admit, I enjoy making fun of PHP. Mostly because the language itself is a fractal of bad design. But I (try to) do it with love, because language design is just one part of what makes a programming environment good. This post is a nice reminder of the many reasons why PHP and JavaScript are awesome.
-Over the last twenty years, I have used over a dozen languages professionally, from C to Common Lisp, from Java to Python, from C++ to Typescript.
-Yet, I love janky programming languages. In particular, I really enjoy PHP and JavaScript.
-Here’s why.
-I particularly agree with the point at the end about legacy codebases, many of which are powered by PHP and JS:
-A legacy codebase means that the product is performing well. It means that I can often make immediate and impactful improvements.
-For me, nothing comes close to the pleasure of improving a product with many users.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use one big server]]></title>
-        <id>changelog.com/news/D1Yp</id>
-        <link href="https://specbranch.com/posts/one-big-server/"/>
-        <updated>2022-08-03T13:38:00.000Z</updated>
-        <summary type="html"><![CDATA[A lot of ink is spent on the “monoliths vs. microservices” debate, but the real issue behind this debate is about whether distributed system architecture is worth the developer time and cost overheads. By thinking about the real operational considerations of our systems, we can get some insight into whether we actually need distributed systems for most things.
-Scaling up has always been easier than scaling out. It’s amazing what one beefy server can do these days…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

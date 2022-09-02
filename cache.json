@@ -55,6 +55,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1671",
+          "author": null,
+          "description": "Ever wondered how GopherCon came to be, and how it’s put together every year. In this show we will be chatted with Erik St. Martin, who has been there from the start about how GopherCon came to be, how this year’s conference came together, as well as why events like GopherCon as so great!\nWe are joined by Erik St. Martin, GopherCon Organizer and Co-Author Go in Action.\nDiscuss on Changelog News\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at abo…",
+          "link": "https://changelog.com/gotime/245",
+          "publishedOn": "2022-09-01T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 245: Inside GopherCon",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/245/go-time-245.mp3",
+            "length": "65013042",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/W19z",
+          "author": "Jerod Santo",
+          "description": "Simon Willison explains what it is:\nStable Diffusion is a new “text-to-image diffusion model” that was released to the public by Stability.ai six days ago, on August 22nd.\nIt’s similar to models like Open AI’s DALL-E, but with one crucial difference: they released the whole thing.\nAnd why it’s a really big deal:\nIn just a few days, there has been an explosion of innovation around it. The things people are building are absolutely astonishing.\nHe then details some of the innovation and it is staggering, to say the least. Open FTW!\nDiscuss on Changelog News",
+          "link": "https://simonwillison.net/2022/Aug/29/stable-diffusion/",
+          "publishedOn": "2022-09-01T14:58:00.000Z",
+          "wordCount": null,
+          "title": "Stable Diffusion is a really big deal",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/JgEA",
+          "author": "Michael Guarino",
+          "description": "Why do we think StatefulSets are broken? Well, if you run through the operational needs of a stateful workload in your head, there’s one key component that you might notice is missing:\nWhat do you do when you need to resize the underlying disk?\nThe dataset is a common database store that typically grows at a pretty constant positive rate. Unless you support horizontal scaling and partitioning, you’ll need to add headroom in the disk as that dataset grows.\nThis is where Kubernetes falls flat on its face.\nDiscuss on Changelog News",
+          "link": "https://www.plural.sh/blog/kubernetes-statefulsets-are-broken-heres-why/",
+          "publishedOn": "2022-09-01T14:07:00.000Z",
+          "wordCount": null,
+          "title": "Kubernetes StatefulSets are broken. Here's why",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/rXGy",
+          "author": "Jerod Santo",
+          "description": "This article isn’t arguing against writing user stories, it’s arguing against keeping user stories:\nIf you put the story in your icebox/backlog/cooler/hat, it’s time for it to go. It’s now duplicate documentation. That story was only there because you were yet to break it down into tasks. Now you have, so you delete it.\nI don’t mean tick it off as complete, I mean right-click on it and hit the ‘delete’ button.\nDiscuss on Changelog News",
+          "link": "https://www.browserlondon.com/blog/2022/08/30/why-user-stories-belong-in-the-garbage/",
+          "publishedOn": "2022-09-01T13:20:00.000Z",
+          "wordCount": null,
+          "title": "Why user stories belong in the garbage",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1704",
           "author": null,
           "description": "Most of you already know what it’s like to work in a startup or a small company. A few of you have been asking us for conversations with engineers that work for big companies, the kind that run everything from big title games to banking, and even critical national infrastructure.\nIn today’s episode, we talk to Ganeshkumar, a Software Engineer in the Azure Kubernetes Service team, who works on Node Lifecycle and Kubernetes Versioning, and Brendan, Kubernetes project co-founder and engineering Corporate Vice President of Microsoft Azure OSS and Cloud-native Compute. We talk about what it’s like to work for Microsoft, how mentoring works in practice, and what Kubernetes, Omega, & Borg have to do with it all.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nBrendan Burns – Twitter, GitHub\nGaneshkumar Ashokavardhanan – Twitter, GitHub, LinkedIn\nGerhard Lazu – Twitter, GitHub, Website\nNotes and Links\n📄 Borg, Omega, and Kubernetes - March, 2016\n🎬 How to use GitOps with Microsoft Azure - Brendan Burns - July, 2021\n🎬 Kubernetes: The Documentary - Part 1 - January, 2022\nEvent Grid on Kubernetes with Azure Arc\nSomething missing or broken? PRs welcome!",
@@ -923,26 +968,6 @@
           "wordCount": null,
           "title": "Fzf: a tool that will transform your CLI life",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/1WX6",
-          "author": "Jerod Santo",
-          "description": "I have to admit, I enjoy making fun of PHP. Mostly because the language itself is a fractal of bad design. But I (try to) do it with love, because language design is just one part of what makes a programming environment good. This post is a nice reminder of the many reasons why PHP and JavaScript are awesome.\nOver the last twenty years, I have used over a dozen languages professionally, from C to Common Lisp, from Java to Python, from C++ to Typescript.\nYet, I love janky programming languages. In particular, I really enjoy PHP and JavaScript.\nHere’s why.\nI particularly agree with the point at the end about legacy codebases, many of which are powered by PHP and JS:\nA legacy codebase means that the product is performing well. It means that I can often make immediate and impactful improvements.\nFor me, nothing comes close to the pleasure of improving a product with many users.\nDiscuss on Changelog News",
-          "link": "https://the.scapegoat.dev/why-i-love-php-and-javascript/",
-          "publishedOn": "2022-08-03T14:29:00.000Z",
-          "wordCount": null,
-          "title": "Why I still love PHP and JavaScript after 20+ years",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/D1Yp",
-          "author": "Jerod Santo",
-          "description": "A lot of ink is spent on the “monoliths vs. microservices” debate, but the real issue behind this debate is about whether distributed system architecture is worth the developer time and cost overheads. By thinking about the real operational considerations of our systems, we can get some insight into whether we actually need distributed systems for most things.\nScaling up has always been easier than scaling out. It’s amazing what one beefy server can do these days…\nDiscuss on Changelog News",
-          "link": "https://specbranch.com/posts/one-big-server/",
-          "publishedOn": "2022-08-03T13:38:00.000Z",
-          "wordCount": null,
-          "title": "Use one big server",
-          "itunes": {}
         }
       ]
     },
@@ -1010,6 +1035,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20025",
+          "author": "Daniel Stenberg",
+          "description": "Every human has a unique fingerprint. With only an impression of a person’s fingertip, it is possible to follow the lead back to the single specific individual wearing that unique pattern. TLS fingerprints The phrase TLS fingerprint is of course in this spirit. A pattern in a TLS handshake that allows an involved party to … Continue reading curl’s TLS fingerprint →",
+          "link": "https://daniel.haxx.se/blog/2022/09/02/curls-tls-fingerprint/",
+          "publishedOn": "2022-09-02T11:46:17.000Z",
+          "wordCount": 1490,
+          "title": "curl’s TLS fingerprint"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20102",
           "author": "Daniel Stenberg",
@@ -1255,6 +1289,24 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=66793",
+          "author": "Ben De St Paer-Gotch",
+          "description": "Now your team can spend less time managing infrastructure and more time writing code.",
+          "link": "https://github.blog/2022-09-01-github-actions-introducing-the-new-larger-github-hosted-runners-beta/",
+          "publishedOn": "2022-09-01T16:08:20.000Z",
+          "wordCount": 674,
+          "title": "GitHub Actions: introducing the new, larger GitHub-hosted runners beta"
+        },
+        {
+          "id": "https://github.blog/?p=66776",
+          "author": "Derrick Stolee",
+          "description": "We're examining Git’s internals to help make your engineering system more efficient. This post views Git as a distributed database and looks into its synchronization techniques, specifically ‘git fetch’ and ‘git push’.",
+          "link": "https://github.blog/2022-09-01-gits-database-internals-iv-distributed-synchronization/",
+          "publishedOn": "2022-09-01T13:00:20.000Z",
+          "wordCount": 5344,
+          "title": "Git’s database internals IV: distributed synchronization"
+        },
+        {
           "id": "https://github.blog/?p=66724",
           "author": "Jeimy Ruiz",
           "description": "Register now to attend GitHub Universe virtually or in-person at the Yerba Buena Center for the Arts in San Francisco on November 9-10.",
@@ -1424,15 +1476,6 @@
           "publishedOn": "2022-08-04T16:00:08.000Z",
           "wordCount": 1727,
           "title": "5 simple things you can do with GitHub Packages to level up your workflows"
-        },
-        {
-          "id": "https://github.blog/?p=66395",
-          "author": "Jakub Oleksy",
-          "description": "In July, we experienced one incident that resulted in degraded performance for Codespaces. This report also acknowledges two incidents that impacted multiple GitHub.com services in June.",
-          "link": "https://github.blog/2022-08-03-github-availability-report-july-2022/",
-          "publishedOn": "2022-08-03T16:00:30.000Z",
-          "wordCount": 1041,
-          "title": "GitHub Availability Report: July 2022"
         }
       ]
     },
@@ -1654,22 +1697,7 @@
       "title": "BetterExplained",
       "feedUrl": "https://betterexplained.com/feed/",
       "siteUrl": "https://betterexplained.com",
-      "articles": [
-        {
-          "id": "https://betterexplained.com/?p=12748",
-          "author": "kalid",
-          "description": "Quick confession? I never fully learned the trig derivatives. Sure, I memorized $\\sin' = \\cos$ and $\\cos' = -\\sin $ like everyone else, but the derivative of tangent? Cosecant? Forget it, magic spells. After years of searching, there's a middle ground between tedious derivation and rote memorization. Aha moment: all trig functions change using the […]",
-          "link": "https://betterexplained.com/articles/trig-derivatives/",
-          "publishedOn": "2022-08-03T20:18:29.000Z",
-          "wordCount": 1440,
-          "title": "How to Learn Trig Derivatives",
-          "enclosure": {
-            "url": "https://betterexplained.com/wp-content/uploads/trig/derivatives/TrigDerivativeTable.mp4",
-            "length": "10296927",
-            "type": "video/mp4"
-          }
-        }
-      ]
+      "articles": []
     },
     {
       "title": "busybee: Code",
