@@ -55,6 +55,66 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1826",
+          "author": null,
+          "description": "This week we’re sharing the most popular episode of Go Time from last year — Go Time #196. We believe this episode was the most popular because it’s all about building actually maintainable software and what goes into that. Kris Brandow is joined by Johnny Boursiquot, Ian Lopshire, and Sam Boyer. There’s lots of hot takes, disagreements, and unpopular opinions.\nThis is part two of a three part mini-series led by Kris on maintenance. Make sure you check out Go Time #195 and Go Time #202 to continue the series.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nInfluxData – All of the open source software InfluxData creates is either MIT-licensed or Apache2-licensed. These are very permissive licenses. But wh…",
+          "link": "https://changelog.com/podcast/504",
+          "publishedOn": "2022-09-02T20:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 504: Building actually maintainable software ♻️",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/504/the-changelog-504.mp3",
+            "length": "71870887",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1811",
+          "author": null,
+          "description": "Dr. Gleb Bahmutov returns to the party for a wide-ranging discussion on open source, end-to-end testing, Cypress, and more. Amal, Divya & Chris host.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSquare – Develop on the platform that sellers trus…",
+          "link": "https://changelog.com/jsparty/241",
+          "publishedOn": "2022-09-02T16:45:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 241: The doctor is in (again)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/241/js-party-241.mp3",
+            "length": "69056401",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Jgb2",
+          "author": "Adam Stacoviak",
+          "description": "Like many software engineers, Matt Bilyeu receives multiple emails from recruiters weekly. And, because he’s polite (and for other reasons) he tries to respond (politely) to all of them. But…\nIt would be ideal if I could automate sending these responses. Assuming I get four such emails per week and that it takes two minutes to read and respond to each one, automating this would save me about seven hours of administrative work per year.\nEnter the GPT-3 API and some code that gets run by a future cron job (now that he’s tested this on a handful of emails) and Matt auto-responds to al the emails, continues to be polite, while also saving (his) time. It’s AI Matt responding the way real Matt would.\nDiscuss on Changelog News",
+          "link": "https://matthewbilyeu.com/blog/2022-09-01/responding-to-recruiter-emails-with-gpt-3",
+          "publishedOn": "2022-09-02T16:36:08.000Z",
+          "wordCount": null,
+          "title": "Responding to recruiter emails with GPT-3",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Qp0E",
+          "author": "Jerod Santo",
+          "description": "This course from the folks at web.dev targets beginners and advanced developers alike.\nYou’ll learn PWA fundamentals like the Web App Manifest, service workers, how to design with an app in mind, what’s different from a classic web app, how to use other tools to test and debug your PWA. After these fundamentals, you’ll learn about integration with the platform and operating system, how to enhance your PWA’s installation and usage experience, and how to offer an offline experience.\nDiscuss on Changelog News",
+          "link": "https://web.dev/learn/pwa/",
+          "publishedOn": "2022-09-02T15:34:00.000Z",
+          "wordCount": null,
+          "title": "A course that breaks down every aspect of modern PWA development",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zDdR",
+          "author": "Jerod Santo",
+          "description": "It’s easy to fool ourselves into believing the world is normal, sensible, and without rare-but-undeniably-valid edge and corner cases. Maybe you’ve done this to yourself with email. I’m guilty.\nOne example, we do email-based authentication (no passwords!) because I believe(d) this particular falsehood:\nEmails will be received soon after they’re sent\nI wish it were always true! Thankfully, there’s a lot of things on the linked list that I don’t believe. Do you?\nDiscuss on Changelog News",
+          "link": "https://beesbuzz.biz/code/439-Falsehoods-programmers-believe-about-email",
+          "publishedOn": "2022-09-02T14:40:00.000Z",
+          "wordCount": null,
+          "title": "Falsehoods programmers believe about email",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/2/1671",
           "author": null,
           "description": "Ever wondered how GopherCon came to be, and how it’s put together every year. In this show we will be chatted with Erik St. Martin, who has been there from the start about how GopherCon came to be, how this year’s conference came together, as well as why events like GopherCon as so great!\nWe are joined by Erik St. Martin, GopherCon Organizer and Co-Author Go in Action.\nDiscuss on Changelog News\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at abo…",
@@ -908,66 +968,6 @@
           "wordCount": null,
           "title": "How we created an in-browser Kubernetes experience",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1699",
-          "author": null,
-          "description": "Our today’s guest spent 4 days building a feature for his side project so that we could ship it together on Ship It!, while recording. The feature is called rave mode, and the context is Bass, an interpreted functional scripting language written in Go, riffing on the ideas of Kernel & Clojure. When the local build runs, you can now press r to synchronise the beats of your currently playing Spotify track with the build output. For a demo, see bass v0.9.0 release.\nPlease welcome Alex Suraci, a.k.a. vito, the creator of Concourse CI and Bass.\nThis episode is dedicated to the late John Shutt, the creator of Kernel.\nYour ideas continue in Bass.\nThank you for getting them out into the world.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads di…",
-          "link": "https://changelog.com/shipit/64",
-          "publishedOn": "2022-08-04T17:20:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 64: Bass: the beat drop after Concourse",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/64/ship-it-64.mp3",
-            "length": "88344525",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/2/1690",
-          "author": null,
-          "description": "Our award winning worthy survey game show is back, this time Mat Ryer hosts it live on stage at GopherCon Europe 2022!\nGo Time’s Natalie Pistunovich joins forces with Ronna Steinberg & Robert Burke to battle it out  with V Körbes, Tamir Bahar & Konrad Richie. Let’s see who can better guess what the GopherCon Europe gophers had to say!\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nFeaturing\nNatalie Pistunovich – Twitter, GitHub\nRonna Steinberg – Twitter, GitHub\nRobert Burke – Twitter, GitHub, Website\nV Körbes – Twitter, GitHub, Website\nTamir Bahar – Twitter, GitHub\nKonrad Reiche – Twitter, GitHub, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nDonate to GoBridge\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/241",
-          "publishedOn": "2022-08-04T16:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 241: Gophers Say! GopherCon EU Edition",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/241/go-time-241.mp3",
-            "length": "39514622",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/RdEP",
-          "author": "Jerod Santo",
-          "description": "This is an attempt to build a locally hosted version of GitHub Copilot. It uses the SalesForce CodeGen models inside of NVIDIA’s Triton Inference Server with the FasterTransformer backend.\nOnce you get it all set up, you can point VS Code’s Copilot plugin at it!\nDiscuss on Changelog News",
-          "link": "https://github.com/moyix/fauxpilot",
-          "publishedOn": "2022-08-04T15:19:00.000Z",
-          "wordCount": null,
-          "title": "FauxPilot – an open source GitHub Copilot server",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/W1PO",
-          "author": "Dylan Paulus",
-          "description": "Don’t stress, we all break production. These are the tips I wished I had. Not which framework to learn, or how to ace that programming interview (all useful!), but what to expect when you land your first software job.\nDiscuss on Changelog News",
-          "link": "https://www.dylanpaulus.com/tips-for-new-software-engineers/",
-          "publishedOn": "2022-08-04T14:31:00.000Z",
-          "wordCount": null,
-          "title": "Advice for new software engineers",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3LzN",
-          "author": "Jerod Santo",
-          "description": "Suraj Pillai, singing fzf’s praises:\nI’m a CLI junkie, addicted to Vim motions, and never miss an opportunity to bring those two in to any part of my workflow. Naturally, I love to geek out about command line utilities and am always on the lookout for the next tool that can improve my productivity or just make CLI more fun to use. I can confidently say that Fzf is one of the handful of tools I’ve discovered over the years that has done both and has,thus, significantly improved the quality of my command line life.\nDiscuss on Changelog News",
-          "link": "https://medium.com/@Suraj_Pillai/fzf-the-tool-that-will-transform-your-cli-life-91148d54de6",
-          "publishedOn": "2022-08-04T13:45:00.000Z",
-          "wordCount": null,
-          "title": "Fzf: a tool that will transform your CLI life",
-          "itunes": {}
         }
       ]
     },
@@ -1239,15 +1239,6 @@
           "publishedOn": "2022-08-05T12:20:17.291Z",
           "wordCount": 1324,
           "title": "Understanding Twitter conversations: A Wordle case study"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "author": null,
-          "description": "In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "publishedOn": "2022-08-04T12:19:36.029Z",
-          "wordCount": 1606,
-          "title": "Data transfer in Manhattan using RocksDB"
         }
       ]
     },
@@ -1288,6 +1279,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66830",
+          "author": "Michelle Mannering",
+          "description": "We’ve been gearing up to launch GitHub Universe 2022 and our community has been launching cool projects left right and center.  These projects include everything from world-changing technology to developer tooling, and weekend hobbies. Here are some of the open source projects that released major version updates this August. Read more about these projects in […]",
+          "link": "https://github.blog/2022-09-02-release-radar-aug-2022/",
+          "publishedOn": "2022-09-02T23:13:06.000Z",
+          "wordCount": 1498,
+          "title": "Release Radar · August 2022 Edition"
+        },
+        {
+          "id": "https://github.blog/?p=66812",
+          "author": "Derrick Stolee",
+          "description": "This fifth and final part of our blog series exploring Git's internals shows several strategies for scaling your Git repositories that match related database sharding techniques.",
+          "link": "https://github.blog/2022-09-02-gits-database-internals-v-scalability/",
+          "publishedOn": "2022-09-02T13:05:05.000Z",
+          "wordCount": 3778,
+          "title": "Git’s database internals V: scalability"
+        },
         {
           "id": "https://github.blog/?p=66793",
           "author": "Ben De St Paer-Gotch",
@@ -1467,15 +1476,6 @@
           "publishedOn": "2022-08-05T17:00:38.000Z",
           "wordCount": 1473,
           "title": "Release Radar · July 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=66373",
-          "author": "Tina Heidinger",
-          "description": "From hosting private packages in a private repository to tightening your security profile with GITHUB_TOKEN, here are five simple ways you can streamline your workflow with GitHub Packages.",
-          "link": "https://github.blog/2022-08-04-5-simple-things-you-can-do-with-github-packages-to-level-up-your-workflows/",
-          "publishedOn": "2022-08-04T16:00:08.000Z",
-          "wordCount": 1727,
-          "title": "5 simple things you can do with GitHub Packages to level up your workflows"
         }
       ]
     },
@@ -1484,6 +1484,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=18897",
+          "author": "Felipe Almeida - Machine Learning Engineer at Nubank",
+          "description": "Practical tips to help you succeed in your next Data Science and/or Machine Learning interview\nThe post Acing the Data Science Interview: 8 Practical Tips with Examples appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/data-science-interview-pratical-tips/",
+          "publishedOn": "2022-09-02T18:54:28.000Z",
+          "wordCount": 4272,
+          "title": "Acing the Data Science Interview: 8 Practical Tips with Examples"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18840",
           "author": "Nubank Editorial",
@@ -1573,6 +1582,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/hackerone-community-blog/corb3nik-introduces-caido",
+          "author": "jesse@hackerone.com",
+          "description": "So, who is Corb3nik?\nMy name is Ian, also known as Corb3nik on social media. I’m a long time CTF enthusiast and bug bounty hunter. Currentl",
+          "link": "https://www.hackerone.com/hackerone-community-blog/corb3nik-introduces-caido",
+          "publishedOn": "2022-08-07T03:35:26.000Z",
+          "wordCount": 1184,
+          "title": "Corb3nik Introduces Caido!"
+        },
+        {
           "id": "https://hackerone.com/community-blog/h1-702-las-vegas-day-3-switching-scopes",
           "author": "jesse@hackerone.com",
           "description": "It is a new day with new challenges. Scope has shifted for the next part of our LHE. Today, you can feel the focus. These hackers have been heads do",
@@ -1616,33 +1634,6 @@
           "publishedOn": "2022-08-05T04:37:17.000Z",
           "wordCount": 839,
           "title": "H1-702 Las Vegas Day 2: Hacking with Zoom!"
-        },
-        {
-          "id": "https://hackerone.com/community-blog/h1-702-las-vegas-day-1-hcktivitycon",
-          "author": "jesse@hackerone.com",
-          "description": "After a day of prep, we were ready to launch into our first day of H1-702! What makes today special is the return of H@cktivitycon, previously",
-          "link": "https://www.hackerone.com/community-blog/h1-702-las-vegas-day-1-hcktivitycon",
-          "publishedOn": "2022-08-04T02:24:10.000Z",
-          "wordCount": 946,
-          "title": "H1-702 Las Vegas Day 1: H@cktivitycon"
-        },
-        {
-          "id": "https://hackerone.com/community-blog/h1-702-las-vegas-day-2-hcktivity-con",
-          "author": "jesse@hackerone.com",
-          "description": "After a day of rest, we were ready to launch into our first day of H1-702! What makes today special is the return of H@cktivity Con, previousl",
-          "link": "https://www.hackerone.com/community-blog/h1-702-las-vegas-day-2-hcktivity-con",
-          "publishedOn": "2022-08-04T02:24:10.000Z",
-          "wordCount": 950,
-          "title": "H1-702 Las Vegas Day 2: H@cktivity Con"
-        },
-        {
-          "id": "https://hackerone.com/community-blog/h1-702-las-vegas-day-two-hcktivity-con",
-          "author": "jesse@hackerone.com",
-          "description": "After a day of rest, we were ready to launch into our first day of H1-702! What makes today special is the return of H@cktivity Con, previousl",
-          "link": "https://www.hackerone.com/community-blog/h1-702-las-vegas-day-two-hcktivity-con",
-          "publishedOn": "2022-08-04T02:24:10.000Z",
-          "wordCount": 943,
-          "title": "H1-702 Las Vegas Day Two: H@cktivity Con!"
         }
       ]
     },
