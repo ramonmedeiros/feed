@@ -31,15 +31,6 @@
           "publishedOn": "2022-08-10T16:00:00.012Z",
           "wordCount": 1837,
           "title": "Making Linux Kernel Exploit Cooking Harder"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/08/how-hash-based-safe-browsing-works-in.html",
-          "author": null,
-          "description": "By Rohit Bhatia, Mollie Bates, Google Chrome Security\n There are various threats a user faces when browsing the web. Users may be tricked into sharing sensitive information like their passwords with a misleading or fake website, also called phishing. They may also be led into installing malicious software on their machines, called malware, which can collect personal data and also hold it for ransom. Google Chrome, henceforth called Chrome, enables its users to protect themselves from such threats on the internet. When Chrome users browse the web with Safe Browsing protections, Chrome uses the Safe Browsing service from Google to identify and ward off various threats. \nSafe Browsing works in different ways depending on the user's preferences. In the most common case, Chrome uses the privacy…",
-          "link": "http://security.googleblog.com/2022/08/how-hash-based-safe-browsing-works-in.html",
-          "publishedOn": "2022-08-08T15:55:00.003Z",
-          "wordCount": 1971,
-          "title": "How Hash-Based Safe Browsing Works in Google Chrome"
         }
       ]
     },
@@ -54,6 +45,66 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/1834",
+          "author": null,
+          "description": "AI is increasingly being applied in creative and artistic ways, especially with recent tools integrating models like Stable Diffusion. This is making some artists mad. How should we be thinking about these trends more generally, and how can we as practitioners release and license models anticipating human impacts? We explore this along with other topics (like AI models detecting swimming pools 😊) in this fully connected episode.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nAutomation and creativity\nGoodbye, humans: Call centers ‘could save $80b’ switching to AI\nDALL-E can now use AI to extend images as a human artist might\nAn AI-Generated Artwork Won First Place at a State Fair Fine Arts Competition, and Artists Are Pissed\nNation states and AI\nUndeclared pools in France uncovered by AI technology\nFrance reveals hidden swimming pools with AI, taxes them\nNvidia says U.S. government allows A.I. chip development in China\nForeign Affairs:  Spirals of Delusion - How AI Distorts Decision-Making and Makes Dictators More Dangerous\nResources\nOpen RAIL Licenses\nNormConf\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/192",
+          "publishedOn": "2022-09-06T21:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 192: Licensing & automating creativity",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/192/practical-ai-192.mp3",
+            "length": "43227790",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/1835",
+          "author": null,
+          "description": "Martin Heinz thinks you should be using Python’s walrus operator, you probably believe some falsehoods about email, Carlos Fenollosa threw in the towel after self-hosting his email for 23 years & Leon is an open source personal assistant that can live on your server.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog Weekly!\nPython’s Walrus Operator\nEmail falsehoods\n\nThere’s only ONE way to validate\nNo more self-hosting\nLeon.ai\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-09-05",
+          "publishedOn": "2022-09-06T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Python's :=, email falsehoods, no more self-hosting & Leon",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-09-05/the-changelog-news-2022-09-05.mp3",
+            "length": "5348246",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/AXNj",
+          "author": "Gerhard Lazu",
+          "description": "If Nix seems too daunting, this might just be a great way to reap one of its benefits without getting lost in its complexity.\nDevbox is a command-line tool that lets you easily create isolated shells and containers. You start by defining the list of packages required by your development environment, and devbox uses that definition to create an isolated environment just for your application.\nDiscuss on Changelog News",
+          "link": "https://github.com/jetpack-io/devbox",
+          "publishedOn": "2022-09-06T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Instant, easy, predictable shells and containers",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/LW05",
+          "author": "Austin Gil",
+          "description": "It’s cool to see the how far HTML has come. Every once in a while I find something that seems super powerful, wrapped up in a simple implementation. This time it was the HTML capture attribute.\nDiscuss on Changelog News",
+          "link": "https://austingil.com/html-capture-attribute/",
+          "publishedOn": "2022-09-06T15:13:00.000Z",
+          "wordCount": null,
+          "title": "TIL: You can access a user’s camera with just HTML",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/W1Ao",
+          "author": "Adam Stacoviak",
+          "description": "In the world of messaging (today), you have behemoths like WhatsApp and iMessage, and they are “backed by some of the richest companies in the world.” And then there’s Signal. It’s run by a nonprofit and pretty much operates as the exact opposite — they are committed to end-to-end encryption, does not collect or store sensitive information, or backups of user data.\nThis post from Nitasha Tiku on The Washington Post gives a detailed backstory on Meredith Whittaker, former Google manager, and her arrival to Signal as President (and board member since 2020), as well as why Signal “hopes to support itself with small donations from millions of users.”\nThe only way to escape technology that makes money off your data is by paying for products that don’t, Whittaker says. An alternative to data collection only exists if the community of people who rely on it “kick in a little bit,” she said.\nSignal is one of the few successful tech products, like the Firefox browser, led by vociferous critics of Big Tech. The app offers end-to-end encryption on group text, voice and video chat, does not collect or store sensitive information and does not store backups of your data on its servers — a viable alternative to relentless data gathering at the center of tech industry critiques.\nDiscuss on Changelog News",
+          "link": "https://www.washingtonpost.com/technology/2022/09/06/signal-meredith-whittaker/",
+          "publishedOn": "2022-09-06T14:26:29.000Z",
+          "wordCount": null,
+          "title": "Signal hired one of Big Tech’s sharpest critics and wants your donations",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/1826",
           "author": null,
@@ -858,51 +909,6 @@
           "wordCount": null,
           "title": "Why your daily stand-ups don't work and how to fix them",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1797",
-          "author": null,
-          "description": "We add episode chapters to the website, KubeSail sells a PiBox, Nima Badizadegan wants you to use one big server, Gergeloy Orosz details oncall compensation across the software industry, Greg Kogan isn’t impressed with how swamped you are at work, a dashboard template built on Bootstrap & Charm releases a CLI tool for shell scripts.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nPiBox\nUse One Big Server\nOncall Compensation for Software Engineers\n🎧 Gergeloy Orosz on The Changelog\nBeing Swamped is Normal and Not Impressive\n🎧 Woody Zuill on The Changelog\nTabler and Tabler React\nGum\n🎧 Toby Padilla on The Changelog\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-08-08",
-          "publishedOn": "2022-08-08T17:50:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Chapters, PiBox, using one big server, oncall compensation, being swamped is normal, Tabler & Gum",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-08-08/the-changelog-news-2022-08-08.mp3",
-            "length": "11860078",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/njEg",
-          "author": "Jerod Santo",
-          "description": "The story of Kells is an inspiring one, to say the least!\nI started this game back in 2020 as a fun little side-project to pass the time during the pandemic with lots of help from my son. Back then we didn’t even expect it to be playable, never mind it turning into a real game with 100+ levels and being released on Steam/PC. But even after that milestone, I never dreamed my son and I would be able to play it together around the TV on our favourite console!\n\nDiscuss on Changelog News",
-          "link": "https://kellsgame.com/how-kells-came-to-be/",
-          "publishedOn": "2022-08-08T15:00:00.000Z",
-          "wordCount": null,
-          "title": "A pandemic side project you can now play on Nintendo Switch",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Y1gg",
-          "author": "Jerod Santo",
-          "description": "Clojure is often lauded, but you don’t see too many teams actually using it to build production systems. “Why Clojure?” is what the Penpot team gets asked the most, so they lay their reasoning out in this article. The TLDR:\nThough it is not a mainstream language, Clojure was the right language for Penpot to choose because of its key features: stability, backwards compatibility, and syntactic abstraction.\nDiscuss on Changelog News",
-          "link": "https://blog.kaleidos.net/penpot-chose-clojure-as-its-language-and-here-is-why/",
-          "publishedOn": "2022-08-08T14:14:01.000Z",
-          "wordCount": null,
-          "title": "Why we chose the Clojure programming language",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6OEP",
-          "author": "Jerod Santo",
-          "description": "Pulls data from many sources. Built with Go. Demo video here.\n\nDiscuss on Changelog News",
-          "link": "https://thedevdash.com/",
-          "publishedOn": "2022-08-08T13:25:00.000Z",
-          "wordCount": null,
-          "title": "A highly configurable terminal dashboard for developers and creators",
-          "itunes": {}
         }
       ]
     },
@@ -1086,15 +1092,6 @@
           "publishedOn": "2022-08-10T11:46:19.000Z",
           "wordCount": 1274,
           "title": "IPFS and their gateways"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19596",
-          "author": "Daniel Stenberg",
-          "description": "The preferred method of providing changes to the curl project, be it source code, documentation or web site contents, is by submitting a pull-request. A “PR”. On the curl repository on GitHub. When a proposed curl change, bugfix or improvement is submitted as a PR on GitHub, it gets built, checked, tested and verified in … Continue reading How I merge PRs in curl →",
-          "link": "https://daniel.haxx.se/blog/2022/08/08/how-i-merge-prs-in-curl/",
-          "publishedOn": "2022-08-08T09:25:12.000Z",
-          "wordCount": 943,
-          "title": "How I merge PRs in curl"
         }
       ]
     },
@@ -1230,8 +1227,26 @@
     {
       "title": "The GitHub Blog",
       "feedUrl": "https://github.blog/feed/",
-      "siteUrl": "https://github.blog",
+      "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66836",
+          "author": "Andrea Griffiths",
+          "description": "Live on September 15, 2022, with talks by industry experts in Spanish, Portuguese, and English, on topics including software development, security, technical project management, community, open source, professional development and best practices.",
+          "link": "https://github.blog/2022-09-06-join-us-for-octogatosconf-2022/",
+          "publishedOn": "2022-09-06T16:00:05.000Z",
+          "wordCount": 1780,
+          "title": "Join us for OctogatosConf 2022"
+        },
+        {
+          "id": "https://github.blog/?p=66851",
+          "author": "Ariel Deitcher",
+          "description": "A software engineer’s personal journey to becoming an open source contributor.",
+          "link": "https://github.blog/2022-09-06-contributing-to-open-source-at-github/",
+          "publishedOn": "2022-09-06T13:30:26.000Z",
+          "wordCount": 1650,
+          "title": "Contributing to open source at GitHub"
+        },
         {
           "id": "https://github.blog/?p=66830",
           "author": "Michelle Mannering",
@@ -1402,24 +1417,6 @@
           "publishedOn": "2022-08-09T15:00:27.000Z",
           "wordCount": 1140,
           "title": "Dependabot now alerts for vulnerable GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=66435",
-          "author": "Justin Hutchings",
-          "description": "Supply chain attacks exploit our implicit trust of open source to hurt developers and our customers. Read our proposal for how npm will significantly reduce supply chain attacks by signing packages with Sigstore.",
-          "link": "https://github.blog/2022-08-08-new-request-for-comments-on-improving-npm-security-with-sigstore-is-now-open/",
-          "publishedOn": "2022-08-08T16:22:23.000Z",
-          "wordCount": 868,
-          "title": "New request for comments on improving npm security with Sigstore is now open"
-        },
-        {
-          "id": "https://github.blog/?p=66437",
-          "author": "Brittany O'Shea",
-          "description": "Today, we’re expanding access to the GitHub security overview! All GitHub Enterprise customers now have access to the security overview, not just those with GitHub Advanced Security. Additionally, all users within an enterprise can now access the security overview, not just admins and security managers.",
-          "link": "https://github.blog/2022-08-08-all-github-enterprise-users-now-have-access-to-the-security-overview/",
-          "publishedOn": "2022-08-08T15:00:11.000Z",
-          "wordCount": 1132,
-          "title": "All GitHub Enterprise users now have access to the security overview"
         }
       ]
     },
@@ -1547,6 +1544,21 @@
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
       "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/portfolio-review-august-2022",
+          "author": "Market Radar",
+          "description": "Balanced and Pure Stocks Portfolios",
+          "link": "https://marketradar.substack.com/p/portfolio-review-august-2022",
+          "publishedOn": "2022-09-06T16:40:09.000Z",
+          "wordCount": null,
+          "title": "Portfolio Review: August 2022",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3b2ba7b-6100-466a-8f16-0f928f540cdd_1236x793.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
         {
           "id": "https://marketradar.substack.com/p/charts-to-watch-7",
           "author": "Market Radar",
