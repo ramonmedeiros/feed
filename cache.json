@@ -46,6 +46,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/5jMY",
+          "author": "Jerod Santo",
+          "description": "I don’t know how practical this font is, but I do know how cool this font is…\n\nDiscuss on Changelog News",
+          "link": "https://github.com/IdreesInc/Monocraft",
+          "publishedOn": "2022-09-07T15:40:00.000Z",
+          "wordCount": null,
+          "title": "A programming font based on the typeface used in Minecraft",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/lOdW",
+          "author": "Jerod Santo",
+          "description": "The Preact team dropped a new state management solution on us:\nSignals are a way of expressing state that ensure apps stay fast regardless of how complex they get. Signals are based on reactive principles and provide excellent developer ergonomics, with a unique implementation optimized for Virtual DOM.\nAdding Signals to your Preact app only adds 1.6kB to your bundle size. So what’s the big idea?\nThe main idea behind signals is that instead of passing a value directly through the component tree, we pass a signal object containing the value (similar to a ref). When a signal’s value changes, the signal itself stays the same. As a result, signals can be updated without re-rendering the components they’ve been passed through, since components see the signal and not its value. This lets us skip all of the expensive work of rendering components and jump immediately to the specific components in the tree that actually access the signal’s value.\nDiscuss on Changelog News",
+          "link": "https://preactjs.com/blog/introducing-signals/",
+          "publishedOn": "2022-09-07T14:47:00.000Z",
+          "wordCount": null,
+          "title": "The Preact team introduces Signals",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/pjdM",
+          "author": "Jerod Santo",
+          "description": "Julie Qiu, announcing Go’s new support for vulnerability management:\nGo provides tooling to analyze your codebase and surface known vulnerabilities. This tooling is backed by the Go vulnerability database, which is curated by the Go security team. Go’s tooling reduces noise in your results by only surfacing vulnerabilities in functions that your code is actually calling.\nThere’s a new govulncheck command you can/should install and run against your project. It surfaces only the vulnerabilities that actually affect you, which is awesome.\nGovulncheck is a standalone tool to allow frequent updates and rapid iteration while we gather feedback from users. In the long term, we plan to integrate the govulncheck tool into the main Go distribution.\nDiscuss on Changelog News",
+          "link": "https://go.dev/blog/vuln",
+          "publishedOn": "2022-09-07T13:49:00.000Z",
+          "wordCount": null,
+          "title": "Vulnerability management for Go",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1834",
           "author": null,
           "description": "AI is increasingly being applied in creative and artistic ways, especially with recent tools integrating models like Stable Diffusion. This is making some artists mad. How should we be thinking about these trends more generally, and how can we as practitioners release and license models anticipating human impacts? We explore this along with other topics (like AI models detecting swimming pools 😊) in this fully connected episode.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nAutomation and creativity\nGoodbye, humans: Call centers ‘could save $80b’ switching to AI\nDALL-E can now use AI to extend images as a human artist might\nAn AI-Generated Artwork Won First Place at a State Fair Fine Arts Competition, and Artists Are Pissed\nNation states and AI\nUndeclared pools in France uncovered by AI technology\nFrance reveals hidden swimming pools with AI, taxes them\nNvidia says U.S. government allows A.I. chip development in China\nForeign Affairs:  Spirals of Delusion - How AI Distorts Decision-Making and Makes Dictators More Dangerous\nResources\nOpen RAIL Licenses\nNormConf\nSomething missing or broken? PRs welcome!",
@@ -874,41 +904,6 @@
           "wordCount": null,
           "title": "Don’t call it a comeback: why Java is still champ",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1798",
-          "author": null,
-          "description": "AlphaFold is an AI system developed by DeepMind that predicts a protein’s 3D structure from its amino acid sequence. It regularly achieves accuracy competitive with experiment, and is accelerating research in nearly every field of biology.  Daniel and Chris delve into protein folding, and explore the implications of this revolutionary and hugely impactful application of AI.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nAlphaFold\nAlphaFold reveals the structure of the protein universe\nAlphaFold: Timeline of a breakthrough\nAlphaFold Protein Structure Database\nGitHub:  deepmind / alphafold\nOxford Protein Informatics Group: AlphaFold 2 is here: what’s behind the structure prediction miracle\nNature: How AlphaFold can realize AI’s full potential in structural biology\nNature:  ‘The entire protein universe’: AI predicts shape of nearly every known protein\nNature: Highly accurate protein structure prediction with AlphaFold\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/188",
-          "publishedOn": "2022-08-09T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 188: AlphaFold is revolutionizing biology",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/188/practical-ai-188.mp3",
-            "length": "43968262",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/V1Xj",
-          "author": "Jerod Santo",
-          "description": "Ralf Jung has been thinking about semantics of Rust… a lot:\nThe purpose of MiniRust is to describe the semantics of an interesting fragment of Rust in a way that is both precise and understandable to as many people as possible… Specifically, MiniRust is specified by a reference interpreter that describes the step-by-step process of executing a MiniRust program, including checking at each step whether the program has Undefined Behavior.\nSource code here.\nDiscuss on Changelog News",
-          "link": "https://www.ralfj.de/blog/2022/08/08/minirust.html",
-          "publishedOn": "2022-08-09T14:36:00.000Z",
-          "wordCount": null,
-          "title": "Announcing: MiniRust",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7ZG",
-          "author": "Jerod Santo",
-          "description": "Daily stand-ups are a classic example of learned helplessness. We all know they’re useless, but we tell ourselves “that’s just how things are” and do nothing about it.\nLucas provides a set of five symptoms that indicate you’re doing stand-ups wrong and says if your team hits at least three of the five, your stand-ups are useless.\nBut, instead of just telling you to stop doing them (like I probably would), he provides a bunch of solid advice on how to make them useful again.\nDiscuss on Changelog News",
-          "link": "https://lucasfcosta.com/2022/08/07/how-to-improve-daily-standups.html",
-          "publishedOn": "2022-08-09T13:50:00.000Z",
-          "wordCount": null,
-          "title": "Why your daily stand-ups don't work and how to fix them",
-          "itunes": {}
         }
       ]
     },
@@ -976,6 +971,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20184",
+          "author": "Daniel Stenberg",
+          "description": "The other day I sent out this tweet As it took off, got an amazing attention and I received many different comments and replies, I felt a need to elaborate a little. To add some meat to this. Is this string really a legitimate URL? What is a URL? How is it parsed? http://http://http://@http://http://?http://#http:// curl … Continue reading http://http://http://@http://http://?http://#http:// →",
+          "link": "https://daniel.haxx.se/blog/2022/09/08/http-http-http-http-http-http-http/",
+          "publishedOn": "2022-09-08T11:43:08.000Z",
+          "wordCount": 1121,
+          "title": "http://http://http://@http://http://?http://#http://"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20145",
           "author": "Daniel Stenberg",
@@ -1214,6 +1218,15 @@
       "siteUrl": "https://hacks.mozilla.org/",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47919",
+          "author": "Schalk Neethling",
+          "description": "In June 2021, we decided to start converting the source code for MDN web docs from HTML into a format that would be easier for us to work with. The goal was to get 100% of our manually-written documentation converted to Markdown, and we really had a mountain of source code to climb for this particular expedition.\nIn this post, we’ll describe why we decided to migrate to Markdown, and the steps you can take that will help us on our mission.\nThe post The 100% Markdown Expedition appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/09/the-100-percent-markdown-expedition/",
+          "publishedOn": "2022-09-08T09:14:51.000Z",
+          "wordCount": 2997,
+          "title": "The 100% Markdown Expedition"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47913",
           "author": "Schalk Neethling",
           "description": "How do you merge two Git repositories without losing history? This post will take you through the step-by-step process.\nThe post Merging two GitHub repositories without losing commit history appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1229,6 +1242,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66902",
+          "author": "Mala Kumar",
+          "description": "Read the new GitHub report on OSS in India, Kenya, Egypt, and Mexico. Available now in English, and in Spanish and Arabic later this year.",
+          "link": "https://github.blog/2022-09-08-research-open-source-software-in-india-kenya-egypt-and-mexico/",
+          "publishedOn": "2022-09-08T07:00:33.000Z",
+          "wordCount": 1079,
+          "title": "Research: open source software in India, Kenya, Egypt, and Mexico"
+        },
+        {
+          "id": "https://github.blog/?p=66877",
+          "author": "Jakub Oleksy",
+          "description": "In August, we experienced one incident resulting in significant impact to Codespaces. We’re still investigating that incident and will include it in next month’s report. This report also sheds light into an incident that impacted Codespaces in July.",
+          "link": "https://github.blog/2022-09-07-github-availability-report-august-2022/",
+          "publishedOn": "2022-09-07T18:00:24.000Z",
+          "wordCount": 1044,
+          "title": "GitHub Availability Report: August 2022"
+        },
+        {
+          "id": "https://github.blog/?p=66861",
+          "author": "Eirini Kalliamvakou",
+          "description": "When the GitHub Copilot Technical Preview launched just over one year ago, we wanted to know one thing: Is this tool helping developers? The GitHub Next team conducted research using a combination of surveys and experiments, which led us to expected and unexpected answers.",
+          "link": "https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
+          "publishedOn": "2022-09-07T16:00:28.000Z",
+          "wordCount": 2016,
+          "title": "Research: quantifying GitHub Copilot’s impact on developer productivity and happiness"
+        },
         {
           "id": "https://github.blog/?p=66836",
           "author": "Andrea Griffiths",
@@ -1408,15 +1448,6 @@
           "publishedOn": "2022-08-10T16:00:29.000Z",
           "wordCount": 1291,
           "title": "GitHub Pages now uses Actions by default"
-        },
-        {
-          "id": "https://github.blog/?p=66406",
-          "author": "Brittany O'Shea",
-          "description": "GitHub Actions gives teams access to powerful, native CI/CD capabilities right next to their code hosted in GitHub. Starting today, GitHub will send a Dependabot alert for vulnerable GitHub Actions, making it even easier to stay up to date and fix security vulnerabilities in your actions workflows.",
-          "link": "https://github.blog/2022-08-09-dependabot-now-alerts-for-vulnerable-github-actions/",
-          "publishedOn": "2022-08-09T15:00:27.000Z",
-          "wordCount": 1140,
-          "title": "Dependabot now alerts for vulnerable GitHub Actions"
         }
       ]
     },
@@ -1487,24 +1518,6 @@
           "publishedOn": "2022-08-13T20:50:12.000Z",
           "wordCount": 3633,
           "title": "What made my eyes shine towards joining Nubank in Berlin"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18592",
-          "author": "Nubank Editorial",
-          "description": "Anitta will contribute even more with her marketing experience and help us move towards a brand that goes beyond financial services.\nThe post Anitta is now Nubank’s Global Brand Ambassador appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/anitta-is-now-nubanks-global-brand-ambassador/",
-          "publishedOn": "2022-08-09T21:35:43.000Z",
-          "wordCount": 3140,
-          "title": "Anitta is now Nubank’s Global Brand Ambassador"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18611",
-          "author": "Nubank Editorial",
-          "description": "The new solution for buying and selling cryptocurrencies was launched for all Nubank clients less than a month ago.\nThe post Nubank Cripto: 1 million clients have already bought cryptocurrencies appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-cripto-1-million-clients-cryptocurrencies/",
-          "publishedOn": "2022-08-09T20:57:10.000Z",
-          "wordCount": 2921,
-          "title": "Nubank Cripto: 1 million clients have already bought cryptocurrencies"
         }
       ]
     },
