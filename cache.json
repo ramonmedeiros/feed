@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/09/fuzzing-beyond-memory-corruption.html",
+          "author": null,
+          "description": "Posted by Jonathan Metzman, Dongge Liu and Oliver Chang, Google Open Source Security Team \nRecently, OSS-Fuzz—our community fuzzing service that regularly checks 700 critical open source projects for bugs—detected a serious vulnerability (CVE-2022-3008): a bug in the TinyGLTF project that could have allowed attackers to execute malicious code in projects using TinyGLTF as a dependency.   \nThe bug was soon patched, but the wider significance remains: OSS-Fuzz caught a trivially exploitable command injection vulnerability. This discovery shows that fuzzing, a type of testing once primarily known for detecting memory corruption vulnerabilities in C/C++ code, has considerable untapped potential to find broader classes of vulnerabilities. Though the TinyGLTF library is written in C++, this vuln…",
+          "link": "http://security.googleblog.com/2022/09/fuzzing-beyond-memory-corruption.html",
+          "publishedOn": "2022-09-08T16:00:00.000Z",
+          "wordCount": 1231,
+          "title": "Fuzzing beyond memory corruption: Finding broader classes of vulnerabilities automatically"
+        },
+        {
           "id": "http://security.googleblog.com/2023/08/Announcing-Googles-Open-Source-Software-Vulnerability-Rewards-Program .html",
           "author": null,
           "description": "Posted by Francis Perron, Open Source Security Technical Program Manager\n\n\n\nToday, we are launching Google’s Open Source Software Vulnerability Rewards Program (OSS VRP) to reward discoveries of vulnerabilities in Google’s open source projects. As the maintainer of major projects such as Golang, Angular, and Fuchsia, Google is among the largest contributors and users of open source in the world. With the addition of Google’s OSS VRP to our family of Vulnerability Reward Programs (VRPs), researchers can now be rewarded for finding bugs that could potentially impact the entire open source ecosystem.\n\nGoogle has been committed to supporting security researchers and bug hunters for over a decade. The original VRP program, established to compensate and thank those who help make Google’s code mo…",
@@ -22,15 +31,6 @@
           "publishedOn": "2022-08-24T17:14:00.009Z",
           "wordCount": 2650,
           "title": "Announcing the Open Sourcing of Paranoid's Library"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/08/making-linux-kernel-exploit-cooking.html",
-          "author": null,
-          "description": "Posted by Eduardo Vela, Exploit Critic\n\n\n\n\nCover of the medieval cookbook. Title in large letters kernel Exploits. Adorned. Featuring a small penguin. 15th century. Color. High quality picture. Private collection. Detailed.\n\n\n\n\n\n\n\n\nThe Linux kernel is a key component for the security of the Internet. Google uses Linux in almost everything, from the computers our employees use, to the products people around the world use daily like Chromebooks, Android on phones, cars, and TVs, and workloads on Google Cloud. Because of this, we have heavily invested in Linux’s security - and today, we’re announcing how we’re building on those investments and increasing our rewards.\n\nIn 2020, we launched an open-source Kubernetes-based Capture-the-Flag (CTF) project called, kCTF. The kCTF Vulnerability Rewar…",
-          "link": "http://security.googleblog.com/2022/08/making-linux-kernel-exploit-cooking.html",
-          "publishedOn": "2022-08-10T16:00:00.012Z",
-          "wordCount": 1837,
-          "title": "Making Linux Kernel Exploit Cooking Harder"
         }
       ]
     },
@@ -45,6 +45,76 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1802",
+          "author": null,
+          "description": "Egon Elbre and Roger Peppe join Mat for a conversation all about bloat (and how to avoid it). Expect talk of code bloat, binary bloat, feature bloat, and an even-more-bloated-than-usual unpopular opinion segment.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a demo at chronosphere.io.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nEgon Elbre – Twitter, GitHub, LinkedIn\nRoger Peppe – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nCUE lang\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/246",
+          "publishedOn": "2022-09-08T17:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 246: Avoiding bloat",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/246/go-time-246.mp3",
+            "length": "61502972",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/X19k",
+          "author": "Adam Stacoviak",
+          "description": "The ideas behind WikiHouse remind me of the conversation we had with Marcin Jakubowski from Open Source Ecology early last year (changelog.fm/428).\nSustainable should be the new normal. Think global, manufacture local. It’s all open source.\nEverything is on GitHub (from what I can tell).\nDiscuss on Changelog News",
+          "link": "https://www.wikihouse.cc/",
+          "publishedOn": "2022-09-08T15:51:02.000Z",
+          "wordCount": null,
+          "title": "Open source, modular, wood based, zero carbon housing",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/mldE",
+          "author": "Adam Stacoviak",
+          "description": "Josh Collinsworth (an unapologetic React non-fan) writes on his blog about the ubiquity of React:\nI don’t know what the future of front-end looks like. Nobody really does. But it’s a very safe bet that React will continue to be the thing for a very long time.\nIf you’re learning front-end development in the hopes of getting a job, or trying to level up your career, and React is a knowledge gap for you, it seems like the safest bet you could make. React isn’t going anywhere anytime soon. That said, however…\nBut why does React remain on top?\nBecause we don’t always value the strongest choice as much as we value consensus. (In fact, you could make an argument that consensus is the strongest choice, in many ways.)\nReact keeps getting picked…because React keeps getting picked.\nBut there’s a ton more to unpack. Josh got into the details on the best choice for the job, covering: Performance, learning curve, bundle size, scalability, community and support, financial backing, hireability, and developer experience.\nShould I spoil it for you? Nah. Read Josh’s words for the full story.\nDiscuss on Changelog News",
+          "link": "https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react",
+          "publishedOn": "2022-09-08T15:13:39.000Z",
+          "wordCount": null,
+          "title": "\"React isn't great at anything except being popular\"",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/dqGl",
+          "author": "Jerod Santo",
+          "description": "This was my favorite moment from our episode with Chris Coyier. I asked him what’s interesting in the frontend world these days and Chris went off for almost five minutes. His enthusiasm is contagious!\n\nDiscuss on Changelog News",
+          "link": "https://youtu.be/YHC8jEgpVfk",
+          "publishedOn": "2022-09-08T14:47:00.000Z",
+          "wordCount": null,
+          "title": "These new features will change how we write CSS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1678",
+          "author": null,
+          "description": "Maybe it’s the Californian sun. Or perhaps it’s the time spent at Disney Studios, the home of the best stories. One thing is for sure: Taylor Dolezal is one of the happiest cloud native people that Gerhard knows.\nAs a former Lead SRE for Disney Studios, Taylor has significant hands-on experience running cloud native technologies in a large company. After a few years as a HashiCorp Developer Advocate, Taylor is now Head of End User Ecosystem at CNCF. In his current role, he is helping enable cloud native success for end-users like Boeing, Mercedes Benz & many others.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual da…",
+          "link": "https://changelog.com/shipit/69",
+          "publishedOn": "2022-09-08T14:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 69: The cloud native ecosystem",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/69/ship-it-69.mp3",
+            "length": "73479460",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Qp8M",
+          "author": "Jerod Santo",
+          "description": "Here’s Natasha Lekh from Apify describing the project:\nThis project really is a culmination of 4 years of work trying to make the best library for web scraping in production. Web scraping is a very dynamic environment and what works today might not work tomorrow, so we at Apify had to go through a lot of trial and error to figure out the most reliable and convenient ways of crawling the web and scraping data. We hope that we finally cracked it and that now many developers will enjoy working with our new library and it will make their scrapers more reliable and time to production faster.\nI like how it starts with simple HTTP-based scraping, but can switch to browser-based automation when a site has JavaScript rendering. I don’t love the built-in proxy rotation features. Not because they’re bad, per se, but because they make spammers lives easier…\nDiscuss on Changelog News",
+          "link": "https://crawlee.dev",
+          "publishedOn": "2022-09-08T13:22:00.000Z",
+          "wordCount": null,
+          "title": "Crawlee is a web scraping & browser automation library for Node.js",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/5jMY",
           "author": "Jerod Santo",
@@ -859,51 +929,6 @@
             "length": "44426248",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/LWEn",
-          "author": "Jerod Santo",
-          "description": "We’re longtime users of Action Mailer and wanted something similar for our TypeScript/React apps. We didn’t find anything, so we decided to build Mailing.\nWe added some features that we would’ve liked in Action Mailer, like a mobile toggle (with hotkeys), and the ability to send a test email from the browser while developing. We went all in on MJML so that we (almost) never have to think about email clients or nested tables :)\nPlays well with the popular JS web frameworks, too. Demo video here.\nDiscuss on Changelog News",
-          "link": "https://www.mailing.run/",
-          "publishedOn": "2022-08-10T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Build + test + send emails with React",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1697",
-          "author": null,
-          "description": "Tammer Saleh, founder of Super Orbital, a tiny team of exceptional Kubernetes engineers and teachers, is joining us today to talk about what is cool in the Cloud Native world. Yes, it’s the same Tammer that we had the pleasure of on shipit.show/31 - Is Kubernetes a platform?\nIn today’s episode, we also cover two great blog posts:\nZero to GitOps: Terraform and the AWS EKS Blueprints project by Sean Kane\nHunting Down an Intermittent Failure in Cilium by James McShane\nWe wrap up with ✨ The Cool Wall of Cloud Native ✨\nDiscuss on Changelog News\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, user…",
-          "link": "https://changelog.com/shipit/65",
-          "publishedOn": "2022-08-10T17:15:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 65: Two thumbs up for the Cool Wall",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/65/ship-it-65.mp3",
-            "length": "77863071",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/W1gO",
-          "author": "Jerod Santo",
-          "description": "This code is experimental (as you might imagine), but it’s full functional. It doesn’t implement all the Airplay protocols, but quite a few!\nDiscuss on Changelog News",
-          "link": "https://github.com/openairplay/airplay2-receiver",
-          "publishedOn": "2022-08-10T16:53:01.000Z",
-          "wordCount": null,
-          "title": "An Airplay 2 receiver in Python",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/49N7",
-          "author": "Jerod Santo",
-          "description": "Mike Melanson gives props to the language many of us (myself included) enjoy lampooning:\nWhile Java may have hit some hiccups earlier in its life, nowadays the language and its greater ecosystem have picked up the pace to meet the needs of the future in a variety of ways. In fact, it never really went anywhere: Companies like Amazon, Google, Netflix, Pinterest, Spotify, Square, and Zoom all employ Java across their vast codebases. Not to mention much of the high-scale data infrastructure over the past decade has been powered by Java, with the language serving as the backbone for the likes of Apache Hadoop, Kafka, and Spark.\nYou’ll have to read the article to see how he backs up statements like this one:\nAfter nearly 30 years of Java, you might expect the language to be showing some signs of wear and tear, but nothing could be further from the truth. Java in 2022 is not a language in decline, but rather a language preparing for the effervescent future of software development.\nDiscuss on Changelog News",
-          "link": "https://github.com/readme/featured/java-programming-language",
-          "publishedOn": "2022-08-10T14:15:00.000Z",
-          "wordCount": null,
-          "title": "Don’t call it a comeback: why Java is still champ",
-          "itunes": {}
         }
       ]
     },
@@ -1087,15 +1112,6 @@
           "publishedOn": "2022-08-12T11:27:31.000Z",
           "wordCount": 1220,
           "title": "The dream of auto-detecting proxies"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19629",
-          "author": "Daniel Stenberg",
-          "description": "The InterPlanetary File System (IPFS) is according to the Wikipedia description: “a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data in a distributed file system.”. It works a little like bittorrent and you typically access content on it using a very long hash in an ipfs:// URL. Like this: ipfs://bafybeigagd5nmnn2iys2f3doro7ydrevyr2mzarwidgadawmamiteydbzi HTTP … Continue reading IPFS and their gateways →",
-          "link": "https://daniel.haxx.se/blog/2022/08/10/ipfs-and-their-gateways/",
-          "publishedOn": "2022-08-10T11:46:19.000Z",
-          "wordCount": 1274,
-          "title": "IPFS and their gateways"
         }
       ]
     },
@@ -1184,15 +1200,6 @@
           "publishedOn": "2022-08-11T12:22:13.069Z",
           "wordCount": 832,
           "title": "Reconsidering Tweets"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
-          "author": null,
-          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
-          "publishedOn": "2022-08-10T12:18:51.786Z",
-          "wordCount": 984,
-          "title": "Introducing a new Swift package for Apache Thrift"
         }
       ]
     },
@@ -1200,17 +1207,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/08/the-quantum-state-of-linux-kernel.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=wJuDEFlUsDZt7lpAAPdLm9CoNqneSjGN6FUREF5POP9krml-9Eg4KzR8naUO0aF3kuG_eoWNft1SfWZjF8JeEg');.lst-kix_wm3dnufq67dx-7>li:before{content:\"-  \"}.lst-kix_wm3dnufq67dx-8>li:before{content:\"-  \"}ol.lst-kix_iptxq54yrrnf-3.start{counter-reset:lst-ctn-kix_iptxq54yrrnf-3 0}.lst-kix_u3opzkdcnklc-1>li{counter-increment:lst-ctn-kix_u3opzkdcnklc-1}.lst-kix_wm3dnufq67dx-1>li:before{content:\"-  \"}.lst-kix_iptxq54yrrnf-4>li{counter-increment:lst-ctn-kix_iptxq54yrrnf-4}ol.lst-kix_mfudkcwv2w89-7.start{counter-reset:lst-ctn-kix_mfudkcwv2w89-7 0}.lst-kix_wm3dnufq67dx-0>li:before{content:\"-  \"}.lst-kix_hk8k8itxmlfp-4>li{counter-increment:lst-ctn-kix_hk8k8itxmlfp-4}.lst-kix_8chkxhfzc2ds-3>li:before{content:\"-  \"}.lst-kix_8chkxhfzc2ds-5>li:before{content…",
-          "link": "https://googleprojectzero.blogspot.com/2022/08/the-quantum-state-of-linux-kernel.html",
-          "publishedOn": "2022-08-10T23:00:00.003Z",
-          "wordCount": 5171,
-          "title": "The quantum state of Linux kernel garbage collection CVE-2021-0920 (Part I)"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -1242,6 +1239,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66919",
+          "author": "Elise Hollowed",
+          "description": "After a year in technical preview, GitHub Copilot, an AI pair programmer, is now free for all teachers verified on GitHub Global Campus.",
+          "link": "https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/",
+          "publishedOn": "2022-09-08T18:00:49.000Z",
+          "wordCount": 1156,
+          "title": "GitHub Copilot now available for teachers"
+        },
         {
           "id": "https://github.blog/?p=66902",
           "author": "Mala Kumar",
@@ -1439,15 +1445,6 @@
           "publishedOn": "2022-08-15T15:00:07.000Z",
           "wordCount": 898,
           "title": "The next step for LGTM.com: GitHub code scanning!"
-        },
-        {
-          "id": "https://github.blog/?p=66464",
-          "author": "Chris Patterson",
-          "description": "As GitHub Pages, home to 16 million websites, approaches its 15th anniversary, we’re excited to announce that all sites now build and deploy with GitHub Actions.",
-          "link": "https://github.blog/2022-08-10-github-pages-now-uses-actions-by-default/",
-          "publishedOn": "2022-08-10T16:00:29.000Z",
-          "wordCount": 1291,
-          "title": "GitHub Pages now uses Actions by default"
         }
       ]
     },
@@ -1540,15 +1537,6 @@
           "publishedOn": "2022-08-24T17:57:33.000Z",
           "wordCount": 2743,
           "title": "Reinforcement Learning for Budget Constrained Recommendations"
-        },
-        {
-          "id": "https://medium.com/p/aab780b2f8c8",
-          "author": "Netflix Technology Blog",
-          "description": "The use of virtual production and real time technologies in film & tv has accelerated in recent years. Game engines, such as Unreal Engine, have been a major part driving the democratization of advanced in-camera visual effects (ICVFX). But with infinite configuration and setting combinations, how can a production get it right?",
-          "link": "https://netflixtechblog.com/virtual-production-a-validation-framework-for-unreal-engine-aab780b2f8c8?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-08-10T14:03:05.000Z",
-          "wordCount": 1978,
-          "title": "Virtual Production — A Validation Framework For Unreal Engine"
         }
       ]
     },
