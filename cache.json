@@ -46,6 +46,66 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/eEOD",
+          "author": "Jerod Santo",
+          "description": "Jacob Kaplan-Moss with a hot take on software quality:\nSoftware quality is more the result of a system designed to produce quality, and not so much the result of individual performance. That is: a group of mediocre programmers working with a structure designed to produce quality will produce better software than a group of fantastic programmers working in a system designed with other goals.\nWhat does he mean by “a system designed for quality”? Read on to see for yourself..\nDiscuss on Changelog News",
+          "link": "https://jacobian.org/2022/sep/9/quality-is-systemic/",
+          "publishedOn": "2022-09-09T21:30:00.000Z",
+          "wordCount": null,
+          "title": "Quality is systemic",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1837",
+          "author": null,
+          "description": "This week we’re joined by Jason Bosco, co-founder and CEO of Typesense — the open source Algolia alternative and the easier to use ElasticSearch alternative. For years we’ve used Algolia as our search engine, so we come to this conversation with skin in the game and the scars to prove it. Jason shared how he and his co-founder got started on Typesense, why and how they are “all in” on open source, the options and the paths developers can take to add search to their project, how Typesense compares to ElasticSearch and Algolia, he walks us through getting started, the story of Typesense Cloud, and why they have resisted Venture Capital.\nDiscuss on Changelog News\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFly.io – Deploy your apps a…",
+          "link": "https://changelog.com/podcast/505",
+          "publishedOn": "2022-09-09T21:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 505: Typesense is truly open source search",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/505/the-changelog-505.mp3",
+            "length": "77232672",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Eq5Q",
+          "author": "Ciprian Dorin Craciun",
+          "description": "When it comes to static sites, there are a myriad of solutions for authoring and compiling, but talk about hosting these static sites, and we are still in the early 2000s. I discuss the challenges one faces when hosting, and even make a proposal to solve some of these.\nDiscuss on Changelog News",
+          "link": "https://notes.volution.ro/v1/2022/09/notes/b08118d8/",
+          "publishedOn": "2022-09-09T20:41:00.000Z",
+          "wordCount": null,
+          "title": "Static site hosting hurdles",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/RdAG",
+          "author": "Jerod Santo",
+          "description": "Based on the excellent Gradio library that we’ve featured on Practical AI.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "publishedOn": "2022-09-09T19:50:00.000Z",
+          "wordCount": null,
+          "title": "A web UI for Stable Diffusion",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/6/1823",
+          "author": null,
+          "description": "Jerod, KBall & Nick “Holla!” at React India, share what we’re excited about these days, and then take up a KBall topic that goes off the rails but manages to climb back on them, power through, and end up in a good place.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash …",
+          "link": "https://changelog.com/jsparty/242",
+          "publishedOn": "2022-09-09T19:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 242: Seth Godin is the new Mark Twain",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/242/js-party-242.mp3",
+            "length": "55725077",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/2/1802",
           "author": null,
           "description": "Egon Elbre and Roger Peppe join Mat for a conversation all about bloat (and how to avoid it). Expect talk of code bloat, binary bloat, feature bloat, and an even-more-bloated-than-usual unpopular opinion segment.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a demo at chronosphere.io.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nEgon Elbre – Twitter, GitHub, LinkedIn\nRoger Peppe – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nCUE lang\nSomething missing or broken? PRs welcome!",
@@ -884,51 +944,6 @@
           "wordCount": null,
           "title": "A SQLite extension for making HTTP requests",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/8lN8",
-          "author": "Ciprian Dorin Craciun",
-          "description": "Not every hash algorithm is appropriate in all scenarios, and in fact, very few algorithms are usable in more than a couple of situations. Even worse, using the wrong algorithm will lead in the best case scenario to performance problems, but in the worst case scenario to security issues and even financial loss. Thus, knowing which algorithm to pick for which application is crucial.\nTherefore I’ll try to summarize how I approach the topic of hashing, including use-cases, recommended algorithms, and links to other articles.\nDiscuss on Changelog News",
-          "link": "https://notes.volution.ro/v1/2022/07/notes/1290a79c/",
-          "publishedOn": "2022-08-11T20:02:00.000Z",
-          "wordCount": null,
-          "title": "The many flavors of hashing",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7ZR",
-          "author": "Jerod Santo",
-          "description": "Chip Huyen:\nAs machine learning moves towards real-time, streaming technology is becoming increasingly important for data scientists. Like many people coming from a machine learning background, I used to dread streaming. In our recent survey, almost half of the data scientists we asked said they would like to move from batch prediction to online prediction but can’t because streaming is hard, both technically and operationally…\nOver the last year, working with a co-founder who’s super deep into streaming, I’ve learned that streaming can be quite intuitive. This post is an attempt to rephrase what I’ve learned.\nDiscuss on Changelog News",
-          "link": "https://huyenchip.com//2022/08/03/stream-processing-for-data-scientists.html",
-          "publishedOn": "2022-08-11T19:13:00.000Z",
-          "wordCount": null,
-          "title": "Introduction to streaming for data scientists",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zDq5",
-          "author": "Jerod Santo",
-          "description": "Mahdi Yusuf is back with another set of Architecture Notes, this time covering everyone’s favorite “data structure server”, Redis:\nRather than iterating over, sorting, and ordering rows, what if the data was in data structures you wanted from the ground up? Early on, it was used much like Memcached, but as Redis improved, it became viable for many other use cases, including publish-subscribe mechanisms, streaming, and queues.\n\nDiscuss on Changelog News",
-          "link": "https://architecturenotes.co/redis/",
-          "publishedOn": "2022-08-11T18:16:00.000Z",
-          "wordCount": null,
-          "title": "A deep technical dive into all things Redis",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1689",
-          "author": null,
-          "description": "Baruch Sadogursky (Chief Sticker Officer at JFrog) joins Natalie & Johnny to lament the current state of dependency management in Go and other languages. They discuss the problems dependency managers face, possible technical mitigations like SBOMs, people problems that will never be solved by tech, and take questions from listeners in the #gotimefm channel of Gophers Slack.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nBaruch Sadogursky – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nSam Boyer saying dependency managers being a human problem\nPyrsia.io untemperable ledger for modules\nPGP Keys\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/242",
-          "publishedOn": "2022-08-11T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 242: The pain of dependency management",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/242/go-time-242.mp3",
-            "length": "44426248",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1121,6 +1136,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "author": null,
+          "description": "Twitter’s new Thrift library is an open-source, standalone, lightweight, data encoding library. In this blog, we share our library so iOS developers outside Twitter can start using Thrift data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
+          "publishedOn": "2022-09-10T12:19:12.238Z",
+          "wordCount": 982,
+          "title": "Introducing a new Swift package for Apache Thrift"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
           "author": null,
           "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
@@ -1191,15 +1215,6 @@
           "publishedOn": "2022-08-15T12:21:00.255Z",
           "wordCount": 1279,
           "title": "Powering real-time data analytics with Druid at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "author": null,
-          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "publishedOn": "2022-08-11T12:22:13.069Z",
-          "wordCount": 832,
-          "title": "Reconsidering Tweets"
         }
       ]
     },
@@ -1239,6 +1254,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=66930",
+          "author": "Brittany O'Shea",
+          "description": "We’re taking a look at two commonly-used security tools and detailing how they can help secure your projects.",
+          "link": "https://github.blog/2022-09-09-sca-vs-sast-what-are-they-and-which-one-is-right-for-you/",
+          "publishedOn": "2022-09-09T15:16:13.000Z",
+          "wordCount": 1540,
+          "title": "SCA vs SAST: what are they and which one is right for you?"
+        },
         {
           "id": "https://github.blog/?p=66919",
           "author": "Elise Hollowed",
@@ -1453,6 +1477,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19027",
+          "author": "Ana Carolina Tavares - Engineering Tech Manager at Nubank",
+          "description": "The greatest wish for any woman in the tech field is to have the opportunity of working with other women on the team. Check out how is this experience at Nubank:\nThe post 9 reasons for women to build their career in the field of Engineering at Nubank appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/9-reasons-for-women-to-build-their-career-in-the-field-of-engineering-at-nubank/",
+          "publishedOn": "2022-09-09T21:40:00.000Z",
+          "wordCount": 3798,
+          "title": "9 reasons for women to build their career in the field of Engineering at Nubank"
+        },
         {
           "id": "https://building.nubank.com.br/?p=18897",
           "author": "Felipe Almeida - Machine Learning Engineer at Nubank",
