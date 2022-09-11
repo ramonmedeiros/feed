@@ -889,61 +889,6 @@
             "length": "62514012",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/6/1796",
-          "author": null,
-          "description": "Astro 1.0 just dropped so Amal got its creator, Fred K. Schott, on the pod for the full rundown. They go deep on how Astro is built to pull content from anywhere and serve it fast with their next-gen island architecture.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code PARTYTIME and get the team plan free for three months.\n\n    \nFly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nHasura – Create dynamic high-performance GraphQL & REST APIs from your database(s) in minutes with granular authorization and caching baked in. All without touching your underlying database. Go from data to API in minutes. Get started for free at hasura.io/jsparty\n\n    \nFeaturing\nFred K. Schott – Twitter, GitHub, Website\nAmal Hussein – Twitter, GitHub\nNotes and Links\nAstro 1.0 announcement post\nAstro’s website\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/238",
-          "publishedOn": "2022-08-12T21:30:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 238: Build faster websites with Astro 1.0",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/jsparty/238/js-party-238.mp3",
-            "length": "59366948",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/bJAl",
-          "author": "Jerod Santo",
-          "description": "This post reacting to other people’s reaction to GitLab’s recent free tier changes starts kinda rant-y:\nLots of users expect to get things for free, forever, from for-profit companies that don’t answer to them. Those users contribute almost nothing1 to the bottom line for the for-profit companies, and actively drive up costs for them. Yet, somehow, with no skin in the game, they feel entitled to complain and badmouth the companies because they’re not getting as much value for their monthly contribution of nothing at all.\nBut it ends with a pretty strong call to build things for ourselves:\nCreate a business case, get the funding, stand up the infrastructure, and pay people to work on it rather than expecting for-profit companies to prioritize (what you see as) the public good over profit. Whether that’s how things should be or not, it is how they are and that isn’t going to change as long as the only movement in the direction of change is people hectoring for-profit companies to do better.\nDiscuss on Changelog News",
-          "link": "https://dissociatedpress.net/2022/08/10/give-nothing-expect-nothing-gitlabs-the-latest-punching-bag-for-entitled-users/",
-          "publishedOn": "2022-08-12T16:51:00.000Z",
-          "wordCount": null,
-          "title": "GitLab’s the latest punching bag for entitled users",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/49Nq",
-          "author": "Jerod Santo",
-          "description": "When Rich Harris was last on JS Party, he wondered aloud:\n“Should I learn Rust? Should we rewrite the Svelte compiler in Rust?” Maybe it’s a terrible idea, I don’t know, but I think it’s at least worth investigating.\nWell, the effort we’re linking to here isn’t by Rich, but another member of the Svelte community. Their reasoning:\nMy main reason for doing this, is to compile Svelte without Node.js and possibly use Deno instead.\nAnd the state of the project:\nThis is still a big work in progress. I’m mainly working on this for fun and learning. I came up with the name rustle by combining rust and svelte (ruslte => rustle). The project is open to naming suggestions!\nDiscuss on Changelog News",
-          "link": "https://github.com/pintariching/rustle",
-          "publishedOn": "2022-08-12T15:14:00.000Z",
-          "wordCount": null,
-          "title": "The Svelte compiler rewritten in Rust",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/qM9j",
-          "author": "Jerod Santo",
-          "description": "A 12-week, 24-course curriculum covering:\nDifferent approaches to Artificial Intelligence, including the “good old” symbolic approach with Knowledge Representation and reasoning (GOFAI).\nNeural Networks and Deep Learning, which are at the core of modern AI. We will illustrate the concepts behind these important topics using code in two of the most popular frameworks - TensorFlow and PyTorch.\nNeural Architectures for working with images and text. We will cover recent models but may lack a little bit on the state-of-the-art.\nLess popular AI approaches, such as Genetic Algorithms and Multi-Agent Systems.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/microsoft/AI-For-Beginners",
-          "publishedOn": "2022-08-12T14:25:00.000Z",
-          "wordCount": null,
-          "title": "Microsoft's new AI for Beginners course",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Zoge",
-          "author": "Jerod Santo",
-          "description": "You can think of this like fetch() or curl but entirely in SQL:\nselect request_url, response_status, response_headers \n  from http_get('http://httpbin.org/get');\n\nThe cool thing is you can save everything from the request: status code, headers, the body (of course), timestamps, and more. Great for archiving!\n-- initialize a table\ncreate table snapshots as\n  select * from http_get('https://changelog.com');\n\n-- To add more rows later on\ninsert into snapshots\n  select * from http_get('https://changelog.com');\n\nDiscuss on Changelog News",
-          "link": "https://observablehq.com/@asg017/introducing-sqlite-http",
-          "publishedOn": "2022-08-12T13:37:00.000Z",
-          "wordCount": null,
-          "title": "A SQLite extension for making HTTP requests",
-          "itunes": {}
         }
       ]
     },
@@ -1118,15 +1063,6 @@
           "publishedOn": "2022-08-15T07:13:05.000Z",
           "wordCount": 1185,
           "title": "QUIC and HTTP/3 with wolfSSL"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19590",
-          "author": "Daniel Stenberg",
-          "description": "curl, along with every other Internet tool with aspirations, supports proxies. A proxy is a (usually known) middle-man in a network operation; instead of going directly to the remote end server, the client goes via a proxy. curl has supported proxies since the day it was born. Which proxy? Applications that do Internet transfers often … Continue reading The dream of auto-detecting proxies →",
-          "link": "https://daniel.haxx.se/blog/2022/08/12/the-dream-of-auto-detecting-proxies/",
-          "publishedOn": "2022-08-12T11:27:31.000Z",
-          "wordCount": 1220,
-          "title": "The dream of auto-detecting proxies"
         }
       ]
     },
@@ -1135,6 +1071,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "author": null,
+          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "publishedOn": "2022-09-11T12:19:47.586Z",
+          "wordCount": 818,
+          "title": "Reconsidering Tweets"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2022/introducing-twitter-apache-thrift",
           "author": null,
