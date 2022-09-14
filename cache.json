@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/09/use-after-freedom-miracleptr.html",
+          "author": null,
+          "description": "Posted by Adrian Taylor, Bartek Nowierski and Kentaro Hara on behalf of the MiraclePtr team \nMemory safety bugs are the most numerous category of Chrome security issues and we’re continuing to investigate many solutions – both in C++ and in new programming languages. The most common type of memory safety bug is the “use-after-free”. We recently posted about an exciting series of technologies designed to prevent these. Those technologies (collectively, *Scan, pronounced “star scan”) are very powerful but likely require hardware support for sufficient performance. \nToday we’re going to talk about a different approach to solving the same type of bugs. \nIt’s hard, if not impossible, to avoid use-after-frees in a non-trivial codebase. It’s rarely a mistake by a single programmer. Instead, one p…",
+          "link": "http://security.googleblog.com/2022/09/use-after-freedom-miracleptr.html",
+          "publishedOn": "2022-09-13T16:59:00.000Z",
+          "wordCount": 1968,
+          "title": "Use-after-freedom: MiraclePtr"
+        },
+        {
           "id": "http://security.googleblog.com/2022/09/fuzzing-beyond-memory-corruption.html",
           "author": null,
           "description": "Posted by Jonathan Metzman, Dongge Liu and Oliver Chang, Google Open Source Security Team \nRecently, OSS-Fuzz—our community fuzzing service that regularly checks 700 critical open source projects for bugs—detected a serious vulnerability (CVE-2022-3008): a bug in the TinyGLTF project that could have allowed attackers to execute malicious code in projects using TinyGLTF as a dependency.   \nThe bug was soon patched, but the wider significance remains: OSS-Fuzz caught a trivially exploitable command injection vulnerability. This discovery shows that fuzzing, a type of testing once primarily known for detecting memory corruption vulnerabilities in C/C++ code, has considerable untapped potential to find broader classes of vulnerabilities. Though the TinyGLTF library is written in C++, this vuln…",
@@ -45,6 +54,61 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/1841",
+          "author": null,
+          "description": "The new stable diffusion model is everywhere! Of course you can use this model to quickly and easily create amazing, dream-like images to post on twitter, reddit, discord, etc., but this technology is also poised to be used in very pragmatic ways across industry. In this episode, Chris and Daniel take a deep dive into all things stable diffusion. They discuss the motivations for the work, the model architecture, and the differences between this model and other related releases (e.g., DALL·E 2).\n\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nAnnouncement blog post\nStable diffusion paper\nBlog post about the model from Marc Päpper\nStable Diffusion on Hugging Face\nHugging Face Diffusers library\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/193",
+          "publishedOn": "2022-09-13T22:20:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 193: Stable Diffusion",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/193/practical-ai-193.mp3",
+            "length": "42687303",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/49Y3",
+          "author": "Jerod Santo",
+          "description": "This is cool because portability. But also because you can embed it as a library in your Go projects. It’s not identical to jq in practice, though. Here’s a long list of differences between the two.\nDiscuss on Changelog News",
+          "link": "https://github.com/itchyny/gojq",
+          "publishedOn": "2022-09-13T21:01:00.000Z",
+          "wordCount": null,
+          "title": "A pure Go implementation of jq",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/qM7L",
+          "author": "Jerod Santo",
+          "description": "This is a nice round-up of some new(ish) HTML and JavaScript features related to forms. Now that Safari 16 is out, good stuff like requestSubmit and showPicker are looking pretty green!\nDiscuss on Changelog News",
+          "link": "https://css-tricks.com/whats-new-with-forms-in-2022/",
+          "publishedOn": "2022-09-13T20:12:00.000Z",
+          "wordCount": null,
+          "title": "What’s new with forms in 2022?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/ZoAj",
+          "author": "Jerod Santo",
+          "description": "Hillel Wayne:\nI practice “weak TDD”, which just means “writing tests before code, in short feedback cycles”. This is sometimes derogatively referred to as “test-first”. Strong TDD follows a much stricter “red-green-refactor” cycle…\nTurns out I also practice “weak TDD” most of the time, but I didn’t know there was a (derogatory) term for it. In this post, Hillel lays out why he does weak TDD and why he doesn’t do strong TDD. Oh, and stick around to the end to learn why he thinks TDD hasn’t conquered the world…\nDiscuss on Changelog News",
+          "link": "https://buttondown.email/hillelwayne/archive/i-have-complicated-feelings-about-tdd-8403/",
+          "publishedOn": "2022-09-13T18:45:00.000Z",
+          "wordCount": null,
+          "title": "I have complicated feelings about TDD",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/V1A4",
+          "author": "Jerod Santo",
+          "description": "A lot of ink has been spilt over the years trying to elucidate the divide between junior and senior. Miłosz Piechocki makes the distinction this way:\nJunior Engineers care about writing Software. They value code quality, employ best practices, try to adopt cutting-edge technologies. They invest a lot of time into learning new technologies. To them, the ultimate goal is to create elegant, performant, maintainable software.\nSenior Engineers care about building Systems. To them, creating software is just one of the steps. First of all, they question whether the software needs to be built in the first place. They ask what problems would it solve and why it’s important to solve them. They inquire who will be using the software and on what scale. They think about where the software would run and how they’re going to monitor whether it’s working properly. They also decide how to measure whether the software is actually solving the problems it was supposed to solve.\nHe goes on to describe how hard it is to build Systems and lists activities that are part of that process.\nDiscuss on Changelog News",
+          "link": "https://codewithstyle.info/software-vs-systems/",
+          "publishedOn": "2022-09-13T15:03:00.000Z",
+          "wordCount": null,
+          "title": "What makes a senior engineer? Writing software vs building systems",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/1840",
           "author": null,
@@ -864,41 +928,6 @@
           "wordCount": null,
           "title": "Learning a new language, or how I gained familiarity with Go",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/dqL2",
-          "author": "Jerod Santo",
-          "description": "Marta is a dual-pane file manager that’s super customizable and theme-able, too. It has an Actions Panel like Sublime Text and VS Code where you can work with files, interact with the operating system, or modify Marta itself. But for my money time, if it can remember the state of how I left things the last time… it’s far better than Finder already!\n\nDiscuss on Changelog News",
-          "link": "https://marta.sh/",
-          "publishedOn": "2022-08-15T18:53:00.000Z",
-          "wordCount": null,
-          "title": "A native, extensible & fast file manager for macOS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1805",
-          "author": null,
-          "description": "Lucas F. Costa on why your daily stand-ups don’t work and host to fix them, Mahdi Yusuf deeply explains Redis, the Deno team announces some big changes coming, DevDash is a highly configurable terminal dashboard for developers and creators & Brett Cannon determines what is a Minimum Viable Python (MVPy).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nSubscribe to Changelog Weekly\nSubscribe to our YouTube Channel\nWhy your daily stand-ups don’t work and host to fix them\nRedis Explained\nBig Changes Ahead for Deno\nDevDash\nMVPy: Minimum Viable Python\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-08-15",
-          "publishedOn": "2022-08-15T17:40:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Stand-up advice, Redis explained, big changes for Deno, DevDash & Minimum Viable Python",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-08-15/the-changelog-news-2022-08-15.mp3",
-            "length": "5921858",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/lOAY",
-          "author": "Jerod Santo",
-          "description": "System.css is a CSS library for building interfaces that resemble Apple’s System OS which ran from 1984-1991. Design-wise, not much really changed from System 1 to System 6; however this library is based on System 6 as it was the final monochrome version of MacOS.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/sakofchit/system.css",
-          "publishedOn": "2022-08-15T13:58:00.000Z",
-          "wordCount": null,
-          "title": "A design system for building retro Apple interfaces",
-          "itunes": {}
         }
       ]
     },
@@ -1073,15 +1102,6 @@
           "publishedOn": "2022-08-16T09:43:10.000Z",
           "wordCount": 1200,
           "title": "The curl release cycle"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19646",
-          "author": "Daniel Stenberg",
-          "description": "Disclaimer: I work for wolfSSL but I don’t speak for wolfSSL. I state my own opinions and I try to be as honest and transparent as possible. As always. QUIC API Back in the summer of 2020 I blogged about QUIC support coming in wolfSSL. That work never actually took off, primarily I believe because … Continue reading QUIC and HTTP/3 with wolfSSL →",
-          "link": "https://daniel.haxx.se/blog/2022/08/15/quic-and-http-3-with-wolfssl/",
-          "publishedOn": "2022-08-15T07:13:05.000Z",
-          "wordCount": 1185,
-          "title": "QUIC and HTTP/3 with wolfSSL"
         }
       ]
     },
@@ -1170,15 +1190,6 @@
           "publishedOn": "2022-08-16T12:18:08.696Z",
           "wordCount": 2038,
           "title": "Next generation data insights using natural language queries"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
-          "author": null,
-          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
-          "publishedOn": "2022-08-15T12:21:00.255Z",
-          "wordCount": 1279,
-          "title": "Powering real-time data analytics with Druid at Twitter"
         }
       ]
     },
@@ -1218,6 +1229,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67031",
+          "author": "Taylor Blau",
+          "description": "A tour of recent work to re-engineer Git’s garbage collection process to scale to our largest and most active repositories.",
+          "link": "https://github.blog/2022-09-13-scaling-gits-garbage-collection/",
+          "publishedOn": "2022-09-13T16:00:49.000Z",
+          "wordCount": 5413,
+          "title": "Scaling Git’s garbage collection"
+        },
+        {
+          "id": "https://github.blog/?p=66996",
+          "author": "Abby Cabunoc Mayes",
+          "description": "We’re thrilled to be back at the Grace Hopper Celebration at Open Source Day, the largest celebration of women in open source. Stop by and say hi at one of our workshops.",
+          "link": "https://github.blog/2022-09-13-join-github-at-the-grace-hopper-celebration-2022/",
+          "publishedOn": "2022-09-13T13:30:56.000Z",
+          "wordCount": 1059,
+          "title": "Join GitHub at the Grace Hopper Celebration 2022"
+        },
         {
           "id": "https://github.blog/?p=67018",
           "author": "Matthew Dyson",
@@ -1433,15 +1462,6 @@
           "publishedOn": "2022-08-16T21:00:21.000Z",
           "wordCount": 5184,
           "title": "2022 Transparency Report: January to June"
-        },
-        {
-          "id": "https://github.blog/?p=66506",
-          "author": "Bas van Schaik",
-          "description": "Today, GitHub code scanning has all of LGTM.com’s key features—and more! The time has therefore come to announce the plan for the gradual deprecation of LGTM.com.",
-          "link": "https://github.blog/2022-08-15-the-next-step-for-lgtm-com-github-code-scanning/",
-          "publishedOn": "2022-08-15T15:00:07.000Z",
-          "wordCount": 898,
-          "title": "The next step for LGTM.com: GitHub code scanning!"
         }
       ]
     },
@@ -1503,24 +1523,6 @@
           "publishedOn": "2022-08-19T21:36:51.000Z",
           "wordCount": 3538,
           "title": "What is it like to have a career at Nubank’s Design team?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18742",
-          "author": "Nubank Press",
-          "description": "The full earnings release has been made available on the Company’s Investor Relations website.\nThe post Nu Holdings Ltd. Reports Second Quarter 2022 Financial Results appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nu-holdings-ltd-reports-second-quarter-2022-financial-results/",
-          "publishedOn": "2022-08-15T21:12:56.000Z",
-          "wordCount": 4323,
-          "title": "Nu Holdings Ltd. Reports Second Quarter 2022 Financial Results"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18735",
-          "author": "Nubank Press",
-          "description": "Our full earnings report can be found on the Investor Relations website. See some of the key numbers and understand what they mean.\nThe post Nu Holdings results for Q2 2022: on our way towards becoming the largest digital platform in Latin America appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nu-results-q2-2022/",
-          "publishedOn": "2022-08-15T21:10:56.000Z",
-          "wordCount": 3611,
-          "title": "Nu Holdings results for Q2 2022: on our way towards becoming the largest digital platform in Latin America"
         }
       ]
     },

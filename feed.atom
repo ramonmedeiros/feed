@@ -2,10 +2,115 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-13T12:25:13.167Z</updated>
+    <updated>2022-09-14T12:24:33.931Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 193: Stable Diffusion]]></title>
+        <id>changelog.com/7/1841</id>
+        <link href="https://changelog.com/practicalai/193"/>
+        <updated>2022-09-13T22:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The new stable diffusion model is everywhere! Of course you can use this model to quickly and easily create amazing, dream-like images to post on twitter, reddit, discord, etc., but this technology is also poised to be used in very pragmatic ways across industry. In this episode, Chris and Daniel take a deep dive into all things stable diffusion. They discuss the motivations for the work, the model architecture, and the differences between this model and other related releases (e.g., DALL·E 2).
+
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Announcement blog post
+Stable diffusion paper
+Blog post about the model from Marc Päpper
+Stable Diffusion on Hugging Face
+Hugging Face Diffusers library
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A pure Go implementation of jq]]></title>
+        <id>changelog.com/news/49Y3</id>
+        <link href="https://github.com/itchyny/gojq"/>
+        <updated>2022-09-13T21:01:00.000Z</updated>
+        <summary type="html"><![CDATA[This is cool because portability. But also because you can embed it as a library in your Go projects. It’s not identical to jq in practice, though. Here’s a long list of differences between the two.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s new with forms in 2022?]]></title>
+        <id>changelog.com/news/qM7L</id>
+        <link href="https://css-tricks.com/whats-new-with-forms-in-2022/"/>
+        <updated>2022-09-13T20:12:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a nice round-up of some new(ish) HTML and JavaScript features related to forms. Now that Safari 16 is out, good stuff like requestSubmit and showPicker are looking pretty green!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I have complicated feelings about TDD]]></title>
+        <id>changelog.com/news/ZoAj</id>
+        <link href="https://buttondown.email/hillelwayne/archive/i-have-complicated-feelings-about-tdd-8403/"/>
+        <updated>2022-09-13T18:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Hillel Wayne:
+I practice “weak TDD”, which just means “writing tests before code, in short feedback cycles”. This is sometimes derogatively referred to as “test-first”. Strong TDD follows a much stricter “red-green-refactor” cycle…
+Turns out I also practice “weak TDD” most of the time, but I didn’t know there was a (derogatory) term for it. In this post, Hillel lays out why he does weak TDD and why he doesn’t do strong TDD. Oh, and stick around to the end to learn why he thinks TDD hasn’t conquered the world…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use-after-freedom: MiraclePtr]]></title>
+        <id>http://security.googleblog.com/2022/09/use-after-freedom-miracleptr.html</id>
+        <link href="http://security.googleblog.com/2022/09/use-after-freedom-miracleptr.html"/>
+        <updated>2022-09-13T16:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Adrian Taylor, Bartek Nowierski and Kentaro Hara on behalf of the MiraclePtr team 
+Memory safety bugs are the most numerous category of Chrome security issues and we’re continuing to investigate many solutions – both in C++ and in new programming languages. The most common type of memory safety bug is the “use-after-free”. We recently posted about an exciting series of technologies designed to prevent these. Those technologies (collectively, *Scan, pronounced “star scan”) are very powerful but likely require hardware support for sufficient performance. 
+Today we’re going to talk about a different approach to solving the same type of bugs. 
+It’s hard, if not impossible, to avoid use-after-frees in a non-trivial codebase. It’s rarely a mistake by a single programmer. Instead, one p…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Git’s garbage collection]]></title>
+        <id>https://github.blog/?p=67031</id>
+        <link href="https://github.blog/2022-09-13-scaling-gits-garbage-collection/"/>
+        <updated>2022-09-13T16:00:49.000Z</updated>
+        <summary type="html"><![CDATA[A tour of recent work to re-engineer Git’s garbage collection process to scale to our largest and most active repositories.]]></summary>
+        <author>
+            <name>Taylor Blau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What makes a senior engineer? Writing software vs building systems]]></title>
+        <id>changelog.com/news/V1A4</id>
+        <link href="https://codewithstyle.info/software-vs-systems/"/>
+        <updated>2022-09-13T15:03:00.000Z</updated>
+        <summary type="html"><![CDATA[A lot of ink has been spilt over the years trying to elucidate the divide between junior and senior. Miłosz Piechocki makes the distinction this way:
+Junior Engineers care about writing Software. They value code quality, employ best practices, try to adopt cutting-edge technologies. They invest a lot of time into learning new technologies. To them, the ultimate goal is to create elegant, performant, maintainable software.
+Senior Engineers care about building Systems. To them, creating software is just one of the steps. First of all, they question whether the software needs to be built in the first place. They ask what problems would it solve and why it’s important to solve them. They inquire who will be using the software and on what scale. They think about where the software would run and how they’re going to monitor whether it’s working properly. They also decide how to measure whether the software is actually solving the problems it was supposed to solve.
+He goes on to describe how hard it is to build Systems and lists activities that are part of that process.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Join GitHub at the Grace Hopper Celebration 2022]]></title>
+        <id>https://github.blog/?p=66996</id>
+        <link href="https://github.blog/2022-09-13-join-github-at-the-grace-hopper-celebration-2022/"/>
+        <updated>2022-09-13T13:30:56.000Z</updated>
+        <summary type="html"><![CDATA[We’re thrilled to be back at the Grace Hopper Celebration at Open Source Day, the largest celebration of women in open source. Stop by and say hi at one of our workshops.]]></summary>
+        <author>
+            <name>Abby Cabunoc Mayes</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gear-up and unlock the newest GitHub Global Campus features]]></title>
         <id>https://github.blog/?p=67018</id>
@@ -1789,105 +1894,6 @@ A robot doesn’t innately have that understanding. And that’s the inherent ch
         <link href="https://daniel.haxx.se/blog/2022/08/16/the-curl-release-cycle/"/>
         <updated>2022-08-16T09:43:10.000Z</updated>
         <summary type="html"><![CDATA[In the curl project we do timed releases and we try to do them planned and scheduled long in advance. The dates are planned. The content is not. I have been the release manager for every single curl release done. 209 releases at current count. Having this role means I make sure things are in … Continue reading The curl release cycle →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nu Holdings Ltd. Reports Second Quarter 2022 Financial Results]]></title>
-        <id>https://building.nubank.com.br/?p=18742</id>
-        <link href="https://building.nubank.com.br/nu-holdings-ltd-reports-second-quarter-2022-financial-results/"/>
-        <updated>2022-08-15T21:12:56.000Z</updated>
-        <summary type="html"><![CDATA[The full earnings release has been made available on the Company’s Investor Relations website.
-The post Nu Holdings Ltd. Reports Second Quarter 2022 Financial Results appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Nubank Press</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nu Holdings results for Q2 2022: on our way towards becoming the largest digital platform in Latin America]]></title>
-        <id>https://building.nubank.com.br/?p=18735</id>
-        <link href="https://building.nubank.com.br/nu-results-q2-2022/"/>
-        <updated>2022-08-15T21:10:56.000Z</updated>
-        <summary type="html"><![CDATA[Our full earnings report can be found on the Investor Relations website. See some of the key numbers and understand what they mean.
-The post Nu Holdings results for Q2 2022: on our way towards becoming the largest digital platform in Latin America appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Nubank Press</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A native, extensible & fast file manager for macOS]]></title>
-        <id>changelog.com/news/dqL2</id>
-        <link href="https://marta.sh/"/>
-        <updated>2022-08-15T18:53:00.000Z</updated>
-        <summary type="html"><![CDATA[Marta is a dual-pane file manager that’s super customizable and theme-able, too. It has an Actions Panel like Sublime Text and VS Code where you can work with files, interact with the operating system, or modify Marta itself. But for my money time, if it can remember the state of how I left things the last time… it’s far better than Finder already!
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: Stand-up advice, Redis explained, big changes for Deno, DevDash & Minimum Viable Python]]></title>
-        <id>changelog.com/1/1805</id>
-        <link href="https://changelog.com/podcast/news-2022-08-15"/>
-        <updated>2022-08-15T17:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Lucas F. Costa on why your daily stand-ups don’t work and host to fix them, Mahdi Yusuf deeply explains Redis, the Deno team announces some big changes coming, DevDash is a highly configurable terminal dashboard for developers and creators & Brett Cannon determines what is a Minimum Viable Python (MVPy).
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Jerod Santo – Twitter, GitHub
-Notes and Links
-Subscribe to Changelog Weekly
-Subscribe to our YouTube Channel
-Why your daily stand-ups don’t work and host to fix them
-Redis Explained
-Big Changes Ahead for Deno
-DevDash
-MVPy: Minimum Viable Python
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next step for LGTM.com: GitHub code scanning!]]></title>
-        <id>https://github.blog/?p=66506</id>
-        <link href="https://github.blog/2022-08-15-the-next-step-for-lgtm-com-github-code-scanning/"/>
-        <updated>2022-08-15T15:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Today, GitHub code scanning has all of LGTM.com’s key features—and more! The time has therefore come to announce the plan for the gradual deprecation of LGTM.com.]]></summary>
-        <author>
-            <name>Bas van Schaik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A design system for building retro Apple interfaces]]></title>
-        <id>changelog.com/news/lOAY</id>
-        <link href="https://github.com/sakofchit/system.css"/>
-        <updated>2022-08-15T13:58:00.000Z</updated>
-        <summary type="html"><![CDATA[System.css is a CSS library for building interfaces that resemble Apple’s System OS which ran from 1984-1991. Design-wise, not much really changed from System 1 to System 6; however this library is based on System 6 as it was the final monochrome version of MacOS.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Powering real-time data analytics with Druid at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter"/>
-        <updated>2022-08-15T12:21:00.255Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QUIC and HTTP/3 with wolfSSL]]></title>
-        <id>https://daniel.haxx.se/blog/?p=19646</id>
-        <link href="https://daniel.haxx.se/blog/2022/08/15/quic-and-http-3-with-wolfssl/"/>
-        <updated>2022-08-15T07:13:05.000Z</updated>
-        <summary type="html"><![CDATA[Disclaimer: I work for wolfSSL but I don’t speak for wolfSSL. I state my own opinions and I try to be as honest and transparent as possible. As always. QUIC API Back in the summer of 2020 I blogged about QUIC support coming in wolfSSL. That work never actually took off, primarily I believe because … Continue reading QUIC and HTTP/3 with wolfSSL →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>
