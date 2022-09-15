@@ -55,6 +55,31 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1695",
+          "author": null,
+          "description": "In today’s Kaizen episode, we talk about shipping Adam’s Christmas present: chapter support for all Changelog episodes that we now publish. This feature was hard because there are many subtle differences in how the ID3 spec is implemented. Of course, once the PR shipped, there were other issues to solve, including an upgrade the world kind of scenario. Since Lars Wikman did all the heavy ID3 lifting, he is here with us too.\nDiscuss on Changelog News\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of …",
+          "link": "https://changelog.com/shipit/70",
+          "publishedOn": "2022-09-14T18:20:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 70: Kaizen! Four PRs, one big feature",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/70/ship-it-70.mp3",
+            "length": "64690999",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/EqLQ",
+          "author": "Jerod Santo",
+          "description": "This nifty little web app lets you tour the history of a file on GitHub. The coolest part about it is that you don’t have to download or install anything! Just change the github.com part of the URL with github.githistory.xyz and you’re in action!\n\nDiscuss on Changelog News",
+          "link": "https://githistory.xyz/",
+          "publishedOn": "2022-09-14T13:23:01.000Z",
+          "wordCount": null,
+          "title": "Quickly browse the history of files in any git repo",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1841",
           "author": null,
           "description": "The new stable diffusion model is everywhere! Of course you can use this model to quickly and easily create amazing, dream-like images to post on twitter, reddit, discord, etc., but this technology is also poised to be used in very pragmatic ways across industry. In this episode, Chris and Daniel take a deep dive into all things stable diffusion. They discuss the motivations for the work, the model architecture, and the differences between this model and other related releases (e.g., DALL·E 2).\n\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nAnnouncement blog post\nStable diffusion paper\nBlog post about the model from Marc Päpper\nStable Diffusion on Hugging Face\nHugging Face Diffusers library\nSomething missing or broken? PRs welcome!",
@@ -883,51 +908,6 @@
           "wordCount": null,
           "title": "Why React re-renders",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1807",
-          "author": null,
-          "description": "Daniel and Chris cover the AI news of the day in this wide-ranging discussion. They start with Truss from Baseten while addressing how to categorize AI infrastructure and tools. Then they move on to transformers (again!), and somehow arrive at an AI pilot model from CMU that can navigate crowded airspace (much to Chris’s delight).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nTruss on GitHub\nCMU: AI Pilot Can Navigate Crowded Airspace\nEmbarrassingly Parallel Training of Expert Language Models\nToucan: Learn español without even trying\n3D Vision with Transformers: A Survey\nSphere: Natural Language Processing with Transformers\nSkyJack on GitHub\nNVIDIA AI Demos\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/189",
-          "publishedOn": "2022-08-16T21:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 189: CMU's AI pilot lands in the news 🗞",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/189/practical-ai-189.mp3",
-            "length": "40314646",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/mlX1",
-          "author": "Jerod Santo",
-          "description": "As best I can tell, this provides simplified search across your infra, generates reports so you can easily audit resource usage, and lets you create/trigger jobs such as cleaning up unused resources and enforcing tag structures.\nThe search looks pretty powerful and you can pipe search results directly to jobs for quick processing:\nsearch is(resource) and tags.owner==null | tag update owner \"John Doe\"\n\nDiscuss on Changelog News",
-          "link": "https://resoto.com/",
-          "publishedOn": "2022-08-16T16:49:00.000Z",
-          "wordCount": null,
-          "title": "Resoto is a meta layer on top of your cloud infra",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/w9NO",
-          "author": "Jerod Santo",
-          "description": "Carlos Becker shares some SSH tips he’s learned over the years, including YubiKey integration. Did you know you can SSH straight into tmux?!\nDiscuss on Changelog News",
-          "link": "https://carlosbecker.dev/posts/ssh-tips-and-tricks/",
-          "publishedOn": "2022-08-16T15:58:00.000Z",
-          "wordCount": null,
-          "title": "SSH tips and tricks",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Eq13",
-          "author": "Jamie Tanna",
-          "description": "Every so often, engineers need to pick up a new language. After ~6 years of professional development using Java, with a bit of Ruby sprinkled in, coming to Deliveroo meant that I’d be starting to work on some Go codebases.\nSo when it came to accepting the offer, I ended up thinking about getting started with learning Go, so I could hit the ground running. In this post I share different ways to get practical experience of the language, as well as thoughts on what Go is like to a newbie\nDiscuss on Changelog News",
-          "link": "https://www.jvt.me/posts/2022/08/12/learning-new-language-go/",
-          "publishedOn": "2022-08-16T14:24:00.000Z",
-          "wordCount": null,
-          "title": "Learning a new language, or how I gained familiarity with Go",
-          "itunes": {}
         }
       ]
     },
@@ -978,15 +958,6 @@
           "publishedOn": "2022-08-18T15:00:00.000Z",
           "wordCount": 1537,
           "title": "Helping people understand AI"
-        },
-        {
-          "id": "https://blog.google/technology/ai/making-robots-more-helpful-with-language/",
-          "author": null,
-          "description": "Even the simplest human tasks are unbelievably complex. The way we perceive and interact with the world requires a lifetime of accumulated experience and context. For example, if a person tells you, “I am running out of time,” you don’t immediately worry they are jogging on a street where the space-time continuum ceases to exist. You understand that they’re probably coming up against a deadline. And if they hurriedly walk toward a closed door, you don’t brace for a collision, because you trust this person can open the door, whether by turning a knob or pulling a handle.\n\n\nA robot doesn’t innately have that understanding. And that’s the inherent challenge of programming helpful robots that can interact with humans. We know it as “Moravec's paradox” — the idea that in robotics, it’s the easi…",
-          "link": "https://blog.google/technology/ai/making-robots-more-helpful-with-language/",
-          "publishedOn": "2022-08-16T14:00:00.000Z",
-          "wordCount": 1831,
-          "title": "Making robots more helpful with language"
         }
       ]
     },
@@ -1093,15 +1064,6 @@
           "publishedOn": "2022-08-18T12:41:09.000Z",
           "wordCount": 441,
           "title": "Uncurled – the presentation"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19601",
-          "author": "Daniel Stenberg",
-          "description": "In the curl project we do timed releases and we try to do them planned and scheduled long in advance. The dates are planned. The content is not. I have been the release manager for every single curl release done. 209 releases at current count. Having this role means I make sure things are in … Continue reading The curl release cycle →",
-          "link": "https://daniel.haxx.se/blog/2022/08/16/the-curl-release-cycle/",
-          "publishedOn": "2022-08-16T09:43:10.000Z",
-          "wordCount": 1200,
-          "title": "The curl release cycle"
         }
       ]
     },
@@ -1110,6 +1072,24 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "author": null,
+          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "publishedOn": "2022-09-15T12:25:53.281Z",
+          "wordCount": 1274,
+          "title": "Powering real-time data analytics with Druid at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "author": null,
+          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "publishedOn": "2022-09-15T12:25:53.255Z",
+          "wordCount": 884,
+          "title": "Data Quality Automation at Twitter"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
           "author": null,
@@ -1181,15 +1161,6 @@
           "publishedOn": "2022-08-20T12:17:45.780Z",
           "wordCount": 1353,
           "title": "Scaling data access by moving an exabyte of data to Google Cloud"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "author": null,
-          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "publishedOn": "2022-08-16T12:18:08.696Z",
-          "wordCount": 2038,
-          "title": "Next generation data insights using natural language queries"
         }
       ]
     },
@@ -1229,6 +1200,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67059",
+          "author": "Rizel Scarlett",
+          "description": "Developers all over the world are using GitHub Copilot to help speed up their development and increase developer productivity. With GitHub Copilot available to developers everywhere, we’ve found some fun and useful examples of how developers can use GitHub Copilot for things you may not be thinking about.",
+          "link": "https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/",
+          "publishedOn": "2022-09-14T16:00:43.000Z",
+          "wordCount": 1871,
+          "title": "8 things you didn’t know you could do with GitHub Copilot"
+        },
         {
           "id": "https://github.blog/?p=67031",
           "author": "Taylor Blau",
@@ -1453,15 +1433,6 @@
           "publishedOn": "2022-08-17T13:00:01.000Z",
           "wordCount": 1280,
           "title": "GitHub Enterprise Server 3.6 is now generally available"
-        },
-        {
-          "id": "https://github.blog/?p=66458",
-          "author": "Rose Coogan",
-          "description": "We’re reporting on a six-month period rather than annually to increase our level of transparency. For this report, we’ve continued with the more granular reporting we began in our 2021 reports.",
-          "link": "https://github.blog/2022-08-16-2022-transparency-report-january-to-june/",
-          "publishedOn": "2022-08-16T21:00:21.000Z",
-          "wordCount": 5184,
-          "title": "2022 Transparency Report: January to June"
         }
       ]
     },
