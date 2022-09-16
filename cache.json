@@ -55,6 +55,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1701",
+          "author": null,
+          "description": "Inbal Cohen, Product expert and Agile evangelist, joins Natalie & Angelica for a conversation about all things Agile. Inbal lays out some agile tips for Go devs, discusses if and how remote work changes things, describes some downsides of the methodology, and more.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nInbal Cohen – Twitter, LinkedIn\nNatalie Pistunovich – Twitter, GitHub\nAngelica Hill – Twitter, GitHub\nNotes and Links\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/247",
+          "publishedOn": "2022-09-15T16:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 247: Stay agile out there",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/247/go-time-247.mp3",
+            "length": "59906758",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/5jrY",
+          "author": "Jerod Santo",
+          "description": "Dan Hollick nerds out on the history and anatomy of a QR code. This bit at the end is super cool:\nPerhaps the coolest thing about QR codes is that Denso Wave, the company that invented them, never exercised their patent and released the technology for free!\n\nDiscuss on Changelog News",
+          "link": "https://typefully.com/DanHollick/qr-codes-T7tLlNi",
+          "publishedOn": "2022-09-15T14:48:00.000Z",
+          "wordCount": null,
+          "title": "Ever wondered how a QR code works?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zDoR",
+          "author": "Alex Ellis",
+          "description": "The title of this post is “Why I Love Go”, I saw it shared by Rob Pike (one of the founding team for Go). In the post David Yach talks about how productive interns can be with Go, writing substantial prototypes in a short period of time. That’s one of the reasons I like to use it for OSS container/networking projects and developer tools too.\nDiscuss on Changelog News",
+          "link": "https://cloud.google.com/blog/products/application-modernization/why-david-yach-loves-go",
+          "publishedOn": "2022-09-15T14:02:00.000Z",
+          "wordCount": null,
+          "title": "Why David Yach loves Go",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/lOLW",
+          "author": "Jerod Santo",
+          "description": "Jaun Diego covers some little known yet extremely useful APIs, such as the Page Visibility, Web Sharing, Broadcast ChanneI and Internationalization.\nDiscuss on Changelog News",
+          "link": "https://www.smashingmagazine.com/2022/09/javascript-api-guide/",
+          "publishedOn": "2022-09-15T13:13:00.000Z",
+          "wordCount": null,
+          "title": "JavaScript APIs you (probably) don’t know about",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1695",
           "author": null,
           "description": "In today’s Kaizen episode, we talk about shipping Adam’s Christmas present: chapter support for all Changelog episodes that we now publish. This feature was hard because there are many subtle differences in how the ID3 spec is implemented. Of course, once the PR shipped, there were other issues to solve, including an upgrade the world kind of scenario. Since Lars Wikman did all the heavy ID3 lifting, he is here with us too.\nDiscuss on Changelog News\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of …",
@@ -888,26 +933,6 @@
             "length": "66164454",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/D1N1",
-          "author": "Jerod Santo",
-          "description": "Alexander Wales:\nThis image was created by an AI, MidJourney. All I had to do was type in a prompt (“wildfire”) and aspect ratio. This AI is pretty good, but nowhere near the state of the art, and AI like it are, over the next few years, going to make art like this available within seconds at a cost of pennies. This applies not just to “art” like the above, which is going to accompany my prose and worldbuilding projects, but to almost every area of life where you see pictures of any kind. I think it’s hard to understate how big of a deal this will end up being, and this blog post is largely my attempt to collate a lot of the arguments under one roof, in part because some of the arguments aren’t actually arguments at all.\nDiscuss on Changelog News",
-          "link": "https://alexanderwales.com/the-ai-art-apocalypse/",
-          "publishedOn": "2022-08-17T14:18:00.000Z",
-          "wordCount": null,
-          "title": "The AI art apocalypse",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/kw12",
-          "author": "Jerod Santo",
-          "description": "Josh Comeau takes times to answer the question that many of us have asked ourselves, but never sought out an answer to: exactly how does React’s re-rendering process work?\nThere are a lot of misconceptions out there about this topic, and it can lead to a lot of uncertainty. If we don’t understand React’s render cycle, how can we understand how to use React.memo, or when we should wrap our functions in useCallback?\nDiscuss on Changelog News",
-          "link": "https://www.joshwcomeau.com/react/why-react-re-renders/",
-          "publishedOn": "2022-08-17T13:32:01.000Z",
-          "wordCount": null,
-          "title": "Why React re-renders",
-          "itunes": {}
         }
       ]
     },
@@ -941,6 +966,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/google-org/our-commitment-on-using-ai-to-accelerate-progress-on-global-development-goals/",
+          "author": null,
+          "description": "I joined Google earlier this year to lead a new function: Technology & Society. Our aim is to help connect research, people and ideas across Google to shape the future of our technology innovations and their impact on society for the better. A key area of focus is AI, a field I have studied and immersed myself in over the years. I recently met with a team at the Google AI Center in Ghana that is using advanced technology to address an ancient problem: detecting locust outbreaks which threaten food security and livelihoods for millions of people. And in India and Bangladesh, our Crisis Response teams are using our machine-learning-based forecasting to provide over 360 million people with alerts about upcoming floods.\n\n\nEfforts like these make me optimistic about how AI can contribute to sol…",
+          "link": "https://blog.google/outreach-initiatives/google-org/our-commitment-on-using-ai-to-accelerate-progress-on-global-development-goals/",
+          "publishedOn": "2022-09-15T15:45:00.000Z",
+          "wordCount": 1378,
+          "title": "Our commitment on using AI to accelerate progress on global development goals"
+        },
         {
           "id": "https://blog.google/technology/ai/join-us-in-the-ai-test-kitchen/",
           "author": null,
@@ -1072,6 +1106,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
+          "author": null,
+          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
+          "publishedOn": "2022-09-16T12:21:13.565Z",
+          "wordCount": 2037,
+          "title": "Next generation data insights using natural language queries"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
           "author": null,
@@ -1415,24 +1458,6 @@
           "publishedOn": "2022-08-23T13:00:23.000Z",
           "wordCount": 734,
           "title": "The full lineup for Git Merge 2022 revealed"
-        },
-        {
-          "id": "https://github.blog/?p=66541",
-          "author": "Evi Liu",
-          "description": "As part of GitHub Enterprise Server 3.6, enterprise customers will now be able to use GitHub Discussions.",
-          "link": "https://github.blog/2022-08-17-github-discussions-is-now-available-on-github-enterprise-server/",
-          "publishedOn": "2022-08-17T16:00:28.000Z",
-          "wordCount": 967,
-          "title": "GitHub Discussions is now available on GitHub Enterprise Server"
-        },
-        {
-          "id": "https://github.blog/?p=66529",
-          "author": "Melody Mileski",
-          "description": "GitHub Discussions and Audit Log Streaming, new automation features, and security enhancements are available now in GitHub Enterprise Server 3.6.",
-          "link": "https://github.blog/2022-08-17-github-enterprise-server-3-6-is-now-generally-available/",
-          "publishedOn": "2022-08-17T13:00:01.000Z",
-          "wordCount": 1280,
-          "title": "GitHub Enterprise Server 3.6 is now generally available"
         }
       ]
     },
@@ -1501,7 +1526,17 @@
       "title": "HackerOne",
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://hackerone.com/application-security/introducing-unified-hackerone-scope-management-burp-suite-support",
+          "author": "Tim Matthews",
+          "description": "This post will start with the basics of defining scope and how ethical hackers and testers use it in their testing workflow. If you’re already famil",
+          "link": "https://www.hackerone.com/application-security/introducing-unified-hackerone-scope-management-burp-suite-support",
+          "publishedOn": "2022-09-15T22:00:00.000Z",
+          "wordCount": 1668,
+          "title": "Introducing Unified HackerOne Scope Management with Burp Suite Support"
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
