@@ -55,6 +55,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/14/1600",
+          "author": null,
+          "description": "Dave Farley, co-author of Continuous Delivery, is back to talk about his latest book, Modern Software Engineering, a Top 3 Software Engineering best seller on Amazon UK this September. Shipping good software starts with you giving yourself permission to do a good job. It continues with a healthy curiosity, admitting that you don’t know, and running many experiments, safely, without blowing everything up. And then there is scope creep…\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear u…",
+          "link": "https://changelog.com/shipit/71",
+          "publishedOn": "2022-09-21T17:45:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 71: Modern Software Engineering",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/71/ship-it-71.mp3",
+            "length": "79449270",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/W1ko",
+          "author": "Jerod Santo",
+          "description": "Dave Rupert brainstorms some new CSS organization acronyms.\nI’m not anti-BEM nor anti-roboclasses, but as we enter a new era for CSS I think we have an opportunity to rethink best practices around architecting CSS. Before we get lost rethinking the wheel, let’s hold on to some good principles from the past decade or so:\nWe want to author in components\nWe generally want low-specificity to avoid collisions\nWe want a bucket of global utility classes/variables for ad-hoc composition or customizations\nWith those principles, let’s dive into some CSS architecture alternatives.\nHe goes on to describe CUBE, HECS, WILS, GPC, and other systems that haven’t even been named yet 😆\nDiscuss on Changelog News",
+          "link": "https://daverupert.com/2022/08/modern-alternatives-to-bem/",
+          "publishedOn": "2022-09-21T17:07:01.000Z",
+          "wordCount": null,
+          "title": "Modern alternatives to BEM",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/4983",
+          "author": "Jerod Santo",
+          "description": "iliana etaoin:\nThere is a lot of attention on securing “software supply chains.” The usual approach is that you want to try to avoid security issues in your underlying components from impacting customers of your product; and when they do, you want to be able to respond quickly to fix the issue. The people who care about this class of problem are often software companies. The class of components that are most concerning these companies are ones where unpaid hobbyist maintainers wrote something for themselves with no maintenance plan.\nThis is where the supply chain metaphor — and it is just that, a metaphor — breaks down…\nI think we all know this intrinsically, but it’s easy to forget. iliana goes on to describe feelings I’ve heard expressed by a few maintainers recently:\nI just want to publish software that I think is neat so that other hobbyists can use and learn from it, and I otherwise want to be left the hell alone. I should be allowed to decide if something I wrote is “done”. The focus on securing the “software supply chain” has made it even more likely that releasing software for others to use will just mean more work for me that I don’t benefit from. I reject the idea that a concept so tenuous can be secured in the first place.\nDiscuss on Changelog News",
+          "link": "https://iliana.fyi/blog/software-supply-chain/",
+          "publishedOn": "2022-09-21T14:16:00.000Z",
+          "wordCount": null,
+          "title": "There is no “software supply chain”",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/qM6L",
+          "author": "Jerod Santo",
+          "description": "The picture below explains it better than I can with words. 👇\n\nDiscuss on Changelog News",
+          "link": "https://github.com/dalibo/pg_activity",
+          "publishedOn": "2022-09-21T13:28:00.000Z",
+          "wordCount": null,
+          "title": "pg_activity is like htop for Postgres activity monitoring",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1849",
           "author": null,
           "description": "WeightWatcher, created by Charles Martin, is an open source diagnostic tool for analyzing Neural Networks without training or even test data! Charles joins us in this episode to discuss the tool and how it fills certain gaps in current model evaluation workflows. Along the way, we discuss statistical methods from physics and a variety of practical ways to modify your training runs.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nCharles Martin – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nWeightWatcher\nTalk from the Silicon Valley ACM meetup\nA deep dive into the theory behind WeightWatcher (a talk from ENS)\nSomething missing or broken? PRs welcome!",
@@ -954,15 +999,6 @@
           "publishedOn": "2022-08-26T00:00:00.000Z",
           "wordCount": 1205,
           "title": "openpilot 0.8.16"
-        },
-        {
-          "id": "https://blog.comma.ai/ourfirstlawsuit/",
-          "author": null,
-          "description": "Notorious AV patent troll Axel Nix is at it again!",
-          "link": "https://blog.comma.ai/ourfirstlawsuit/",
-          "publishedOn": "2022-08-24T00:00:00.000Z",
-          "wordCount": 667,
-          "title": "Patent Trolls Inbound: Our First Lawsuit"
         }
       ]
     },
@@ -996,6 +1032,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20284",
+          "author": "Daniel Stenberg",
+          "description": "Tldr; test and verify as much as possible also in the documentation. I’m a sloppy typist. When I write several words in a row, like for example when creating complete sentences for something like a blog post, one or two of the words end up slightly misspelled. Sure, many editors and systems have runtime spellchecks … Continue reading Taking curl documentation quality up one more notch →",
+          "link": "https://daniel.haxx.se/blog/2022/09/22/taking-curl-documentation-quality-up-one-more-notch/",
+          "publishedOn": "2022-09-22T07:27:14.000Z",
+          "wordCount": 1821,
+          "title": "Taking curl documentation quality up one more notch"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20050",
           "author": "Daniel Stenberg",
@@ -1212,6 +1257,42 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67209",
+          "author": "Alexis Wales",
+          "description": "On September 16, GitHub Security learned that threat actors were targeting GitHub users with a phishing campaign by impersonating CircleCI to harvest user credentials and two-factor codes. While GitHub itself was not affected, the campaign has impacted many victim organizations.",
+          "link": "https://github.blog/2022-09-21-security-alert-new-phishing-campaign-targets-github-users/",
+          "publishedOn": "2022-09-21T21:49:50.000Z",
+          "wordCount": 939,
+          "title": "Security alert: new phishing campaign targets GitHub users"
+        },
+        {
+          "id": "https://github.blog/?p=67194",
+          "author": "Toya East",
+          "description": "Students have the opportunity to connect with GitHub employees at GitHub Universe 2022 through Micro-Mentoring sessions hosted by GitHub Social Impact.",
+          "link": "https://github.blog/2022-09-21-applications-for-micro-mentoring-at-github-universe-2022-are-now-live/",
+          "publishedOn": "2022-09-21T16:00:36.000Z",
+          "wordCount": 950,
+          "title": "Applications for micro-mentoring at GitHub Universe 2022 are now live"
+        },
+        {
+          "id": "https://github.blog/?p=67221",
+          "author": "Robb Mapp",
+          "description": "The ReadME Project & Podcast evolve with community expert voices and topics to stoke discussion about the culture and craft of software development.",
+          "link": "https://github.blog/2022-09-21-the-readme-project-built-for-you/",
+          "publishedOn": "2022-09-21T14:00:21.000Z",
+          "wordCount": 951,
+          "title": "The ReadME Project: Built for you!"
+        },
+        {
+          "id": "https://github.blog/?p=67225",
+          "author": "Shelley McKinley",
+          "description": "As the home for developers, we understand the key role our communities play in steering digital transformation and maintaining societal infrastructure. That's why we choose to drive and support policies and initiatives like the Copenhagen Pledge on Tech for Democracy. We're committed to working with like-minded organizations, governments, and civil society to make digital technologies work for democracy and human rights, and we encourage you to join us in this pledge.",
+          "link": "https://github.blog/2022-09-21-why-we-signed-the-copenhagen-pledge-on-tech-for-democracy/",
+          "publishedOn": "2022-09-21T13:30:32.000Z",
+          "wordCount": 838,
+          "title": "Why we signed the Copenhagen Pledge on Tech for Democracy"
+        },
         {
           "id": "https://github.blog/?p=67153",
           "author": "Chris Reddington",
@@ -1472,15 +1553,6 @@
           "publishedOn": "2022-08-25T13:00:25.000Z",
           "wordCount": 1424,
           "title": "Open Source Monthly: August 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=66571",
-          "author": "Lee Reilly",
-          "description": "We are pleased to announce the full lineup of talks and workshops for this year’s Git Merge conference in Chicago. 17 talks, 3 workshops, 1 panel, and some great company!",
-          "link": "https://github.blog/2022-08-23-the-full-lineup-for-git-merge-2022-revealed/",
-          "publishedOn": "2022-08-23T13:00:23.000Z",
-          "wordCount": 734,
-          "title": "The full lineup for Git Merge 2022 revealed"
         }
       ]
     },
@@ -1602,21 +1674,6 @@
           "itunes": {},
           "enclosure": {
             "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3b2ba7b-6100-466a-8f16-0f928f540cdd_1236x793.png",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://marketradar.substack.com/p/charts-to-watch-7",
-          "author": "Market Radar",
-          "description": "A mix of charts on stocks, indices and crypto",
-          "link": "https://marketradar.substack.com/p/charts-to-watch-7",
-          "publishedOn": "2022-08-23T18:27:14.000Z",
-          "wordCount": null,
-          "title": "Charts to Watch #7",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0616b815-b9f0-471a-a06b-b9fac4f0b26a_1786x744.png",
             "length": "0",
             "type": "image/jpeg"
           }

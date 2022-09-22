@@ -2,10 +2,118 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-21T12:25:17.515Z</updated>
+    <updated>2022-09-22T12:24:26.181Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Taking curl documentation quality up one more notch]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20284</id>
+        <link href="https://daniel.haxx.se/blog/2022/09/22/taking-curl-documentation-quality-up-one-more-notch/"/>
+        <updated>2022-09-22T07:27:14.000Z</updated>
+        <summary type="html"><![CDATA[Tldr; test and verify as much as possible also in the documentation. I’m a sloppy typist. When I write several words in a row, like for example when creating complete sentences for something like a blog post, one or two of the words end up slightly misspelled. Sure, many editors and systems have runtime spellchecks … Continue reading Taking curl documentation quality up one more notch →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security alert: new phishing campaign targets GitHub users]]></title>
+        <id>https://github.blog/?p=67209</id>
+        <link href="https://github.blog/2022-09-21-security-alert-new-phishing-campaign-targets-github-users/"/>
+        <updated>2022-09-21T21:49:50.000Z</updated>
+        <summary type="html"><![CDATA[On September 16, GitHub Security learned that threat actors were targeting GitHub users with a phishing campaign by impersonating CircleCI to harvest user credentials and two-factor codes. While GitHub itself was not affected, the campaign has impacted many victim organizations.]]></summary>
+        <author>
+            <name>Alexis Wales</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 71: Modern Software Engineering]]></title>
+        <id>changelog.com/14/1600</id>
+        <link href="https://changelog.com/shipit/71"/>
+        <updated>2022-09-21T17:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Dave Farley, co-author of Continuous Delivery, is back to talk about his latest book, Modern Software Engineering, a Top 3 Software Engineering best seller on Amazon UK this September. Shipping good software starts with you giving yourself permission to do a good job. It continues with a healthy curiosity, admitting that you don’t know, and running many experiments, safely, without blowing everything up. And then there is scope creep…
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear u…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modern alternatives to BEM]]></title>
+        <id>changelog.com/news/W1ko</id>
+        <link href="https://daverupert.com/2022/08/modern-alternatives-to-bem/"/>
+        <updated>2022-09-21T17:07:01.000Z</updated>
+        <summary type="html"><![CDATA[Dave Rupert brainstorms some new CSS organization acronyms.
+I’m not anti-BEM nor anti-roboclasses, but as we enter a new era for CSS I think we have an opportunity to rethink best practices around architecting CSS. Before we get lost rethinking the wheel, let’s hold on to some good principles from the past decade or so:
+We want to author in components
+We generally want low-specificity to avoid collisions
+We want a bucket of global utility classes/variables for ad-hoc composition or customizations
+With those principles, let’s dive into some CSS architecture alternatives.
+He goes on to describe CUBE, HECS, WILS, GPC, and other systems that haven’t even been named yet 😆
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Applications for micro-mentoring at GitHub Universe 2022 are now live]]></title>
+        <id>https://github.blog/?p=67194</id>
+        <link href="https://github.blog/2022-09-21-applications-for-micro-mentoring-at-github-universe-2022-are-now-live/"/>
+        <updated>2022-09-21T16:00:36.000Z</updated>
+        <summary type="html"><![CDATA[Students have the opportunity to connect with GitHub employees at GitHub Universe 2022 through Micro-Mentoring sessions hosted by GitHub Social Impact.]]></summary>
+        <author>
+            <name>Toya East</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There is no “software supply chain”]]></title>
+        <id>changelog.com/news/4983</id>
+        <link href="https://iliana.fyi/blog/software-supply-chain/"/>
+        <updated>2022-09-21T14:16:00.000Z</updated>
+        <summary type="html"><![CDATA[iliana etaoin:
+There is a lot of attention on securing “software supply chains.” The usual approach is that you want to try to avoid security issues in your underlying components from impacting customers of your product; and when they do, you want to be able to respond quickly to fix the issue. The people who care about this class of problem are often software companies. The class of components that are most concerning these companies are ones where unpaid hobbyist maintainers wrote something for themselves with no maintenance plan.
+This is where the supply chain metaphor — and it is just that, a metaphor — breaks down…
+I think we all know this intrinsically, but it’s easy to forget. iliana goes on to describe feelings I’ve heard expressed by a few maintainers recently:
+I just want to publish software that I think is neat so that other hobbyists can use and learn from it, and I otherwise want to be left the hell alone. I should be allowed to decide if something I wrote is “done”. The focus on securing the “software supply chain” has made it even more likely that releasing software for others to use will just mean more work for me that I don’t benefit from. I reject the idea that a concept so tenuous can be secured in the first place.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The ReadME Project: Built for you!]]></title>
+        <id>https://github.blog/?p=67221</id>
+        <link href="https://github.blog/2022-09-21-the-readme-project-built-for-you/"/>
+        <updated>2022-09-21T14:00:21.000Z</updated>
+        <summary type="html"><![CDATA[The ReadME Project & Podcast evolve with community expert voices and topics to stoke discussion about the culture and craft of software development.]]></summary>
+        <author>
+            <name>Robb Mapp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why we signed the Copenhagen Pledge on Tech for Democracy]]></title>
+        <id>https://github.blog/?p=67225</id>
+        <link href="https://github.blog/2022-09-21-why-we-signed-the-copenhagen-pledge-on-tech-for-democracy/"/>
+        <updated>2022-09-21T13:30:32.000Z</updated>
+        <summary type="html"><![CDATA[As the home for developers, we understand the key role our communities play in steering digital transformation and maintaining societal infrastructure. That's why we choose to drive and support policies and initiatives like the Copenhagen Pledge on Tech for Democracy. We're committed to working with like-minded organizations, governments, and civil society to make digital technologies work for democracy and human rights, and we encourage you to join us in this pledge.]]></summary>
+        <author>
+            <name>Shelley McKinley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pg_activity is like htop for Postgres activity monitoring]]></title>
+        <id>changelog.com/news/qM6L</id>
+        <link href="https://github.com/dalibo/pg_activity"/>
+        <updated>2022-09-21T13:28:00.000Z</updated>
+        <summary type="html"><![CDATA[The picture below explains it better than I can with words. 👇
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Graph machine learning with missing node features]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features</id>
@@ -1915,36 +2023,6 @@ Something missing or broken? PRs welcome!]]></summary>
         <summary type="html"><![CDATA[I get this question fairly often. How would the projects I run manage if I took off? And really, the primary project people think of then is of course curl. How would the curl project manage if I took a forever vacation starting now? Of course I don’t know that. We can’t really know for … Continue reading What if I vanished? →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Patent Trolls Inbound: Our First Lawsuit]]></title>
-        <id>https://blog.comma.ai/ourfirstlawsuit/</id>
-        <link href="https://blog.comma.ai/ourfirstlawsuit/"/>
-        <updated>2022-08-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Notorious AV patent troll Axel Nix is at it again!]]></summary>
-        <author>
-            <name>comma.ai blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charts to Watch #7]]></title>
-        <id>https://marketradar.substack.com/p/charts-to-watch-7</id>
-        <link href="https://marketradar.substack.com/p/charts-to-watch-7"/>
-        <updated>2022-08-23T18:27:14.000Z</updated>
-        <summary type="html"><![CDATA[A mix of charts on stocks, indices and crypto]]></summary>
-        <author>
-            <name>Market Radar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The full lineup for Git Merge 2022 revealed]]></title>
-        <id>https://github.blog/?p=66571</id>
-        <link href="https://github.blog/2022-08-23-the-full-lineup-for-git-merge-2022-revealed/"/>
-        <updated>2022-08-23T13:00:23.000Z</updated>
-        <summary type="html"><![CDATA[We are pleased to announce the full lineup of talks and workshops for this year’s Git Merge conference in Chicago. 17 talks, 3 workshops, 1 panel, and some great company!]]></summary>
-        <author>
-            <name>Lee Reilly</name>
         </author>
     </entry>
 </feed>
