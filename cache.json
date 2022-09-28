@@ -46,6 +46,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/3LDJ",
+          "author": "Jerod Santo",
+          "description": "I love that people are bringing HTML back to the forefront:\nOur mission is to enable anyone to build multi-page dynamic web apps while staying as close to the platform as possible. Enhance fills in the gaps to make building for the backend, and the browser a seamless experience for web authors and consumers.\nModern JavaScript frameworks bring more problems than they solve; recreating native web platform features adding unnecessary weight and complexity, which is challenging to unravel.\nEnhance provides a dependable foundation built on standards-based web platform features, allowing developers to create web applications that are lightweight, flexible, and future-proof.\nDiscuss on Changelog News",
+          "link": "https://enhance.dev/docs/",
+          "publishedOn": "2022-09-27T20:26:00.000Z",
+          "wordCount": null,
+          "title": "Enhance is a web standards-based HTML framework",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1860",
+          "author": null,
+          "description": "It’s one thing to gather some labels for your data. It’s another thing to integrate data labeling into your workflows and infrastructure in a scalable, secure, and useful way. Mark from Xelex joins us to talk through some of what he has learned after helping companies scale their data annotation efforts. We get into workflow management, labeling instructions, team dynamics, and quality assessment. This is a super practical episode!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMark Christensen – LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nXelex.ai\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/195",
+          "publishedOn": "2022-09-27T19:40:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 195: Production data labeling workflows",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/195/practical-ai-195.mp3",
+            "length": "30685243",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/7YJQ",
+          "author": "Jerod Santo",
+          "description": "Vivian Qu states her case as to why Apple’s decision to remove outdated apps from the App Store is dumb, especially for indies like her.\nNever mind the fact that my app has a 5-star rating and was still being downloaded, with no complaints from any of my users. Also disregard the fact that I had other highly-rated apps up on the App Store, some of which had been updated much more recently than July 2019, clearly showing that I have not abandoned these apps entirely. If there had been an actual reviewer who checked my outdated app, they would have discovered that I architected the app from the beginning to dynamically scale the UI so it resizes to fit the latest iPhone devices. All these could be signals that indicate to Apple that this is not a garbage-filled scam app that is lowering the quality of their App Store.\nShe goes on to tell the entire saga that she (and others) were put through to keep their apps on the store. Sometimes an app isn’t outdated, it’s just complete. Ya know?\nDiscuss on Changelog News",
+          "link": "https://vivqu.com/blog/2022/09/25/outdated-apps/",
+          "publishedOn": "2022-09-27T19:27:00.000Z",
+          "wordCount": null,
+          "title": "In defense of apps that don’t need updates",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/2lkV",
+          "author": "Jerod Santo",
+          "description": "Michael Knyszek:\nSince our last blog post about the Go GC in 2018 the Go GC, and the Go runtime more broadly, has been steadily improving. We’ve tackled some large projects, motivated by real-world Go programs and real challenges facing Go users. Let’s catch you up on the highlights!\nLots of invisible changes/improvements, but Michael focuses in on a new knob that he’s encouraging gophers to play with: the soft memory limit\nDiscuss on Changelog News",
+          "link": "https://go.dev/blog/go119runtime",
+          "publishedOn": "2022-09-27T15:04:00.000Z",
+          "wordCount": null,
+          "title": "4 years of progress on the Go runtime",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/6rQn",
           "author": "Jerod Santo",
           "description": "This is a great starter snippet for any web page:\nmain {\n  max-width: 38rem;\n  padding: 2rem;\n  margin: auto;\n}\n\nThe linked post explains the why behind these rules and expands with a 100 byte alternative and the comments have a bunch of variants and conversation about each specific rule.\nDiscuss on Changelog News",
@@ -974,41 +1019,6 @@
           "wordCount": null,
           "title": "Turning SQLite into a distributed database",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1816",
-          "author": null,
-          "description": "Qalculate has a command-line interface, Alexander Neumann adds compression to Restic, Emery Berger warns his fellow CS professors about Copilot, and Heroku GM Bob Wise details Heroku’s next chapter (which excludes free accounts).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nQalculate!\n‘qalc’ is awesome!\nRestic 0.14\nAlex Neumann on The Changelog #434\nCoping with Copilot\nHeroku’s Next Chapter\njoerick’s comment\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-08-29",
-          "publishedOn": "2022-08-29T17:45:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Qalculate is awesome, Restic adds compression, CS teachers coping with Copilot & Heroku's next non-free chapter",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-08-29/the-changelog-news-2022-08-29.mp3",
-            "length": "8745013",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/GWqM",
-          "author": "Jerod Santo",
-          "description": "From Steve Schoger’s announcement tweet:\n🤩 All new look! 260 icons redrawn from scratch\nAvailable as first-party React and Vue libraries and official Figma components.\nThe React and Vue libraries are cool, but the coolest part about SVG-based icons is how you can simply copy/paste the HTML directly into your code.\nDiscuss on Changelog News",
-          "link": "https://heroicons.com/",
-          "publishedOn": "2022-08-29T14:31:00.000Z",
-          "wordCount": null,
-          "title": "Heroicons 2.0",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eEoO",
-          "author": "Jerod Santo",
-          "description": "A very cool case study of Segment’s long journey to creating a product that people would actually pay money to use.\nBy now they burnt $500K and were left with only $100K. They wanted to tryout something for one last time with the $100K. One of their Co-Founders suggested that they try to productise their open source library. Peter, the Co-Founder & CEO didn’t like that idea at all. This open-source library had only 580 lines of code, compared to the other 2 products which had 100x more lines of code and a very grand vision on how to define an industry.\nSide note: what is this bip.so thing that’s hosting the content?!\nDiscuss on Changelog News",
-          "link": "https://bip.so/@TIL_/How-Segment-Found-PMF-bDaLg",
-          "publishedOn": "2022-08-29T13:42:00.000Z",
-          "wordCount": null,
-          "title": "How Segment found product-market fit",
-          "itunes": {}
         }
       ]
     },
@@ -1039,6 +1049,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19536",
+          "author": "Daniel Stenberg",
+          "description": "Already when the first version of curl shipped in 1998, I had plans and ideas in the back of my head to turn it to a library at some point. I had already before worked on providing libraries with APIs for applications and I appreciated their powers. During the summer of 2000 I refactored the … Continue reading The first 300 setopts →",
+          "link": "https://daniel.haxx.se/blog/2022/09/28/the-first-300-setopts/",
+          "publishedOn": "2022-09-28T11:55:36.000Z",
+          "wordCount": 1011,
+          "title": "The first 300 setopts"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20284",
           "author": "Daniel Stenberg",
@@ -1220,15 +1239,6 @@
           "publishedOn": "2022-09-08T09:14:51.000Z",
           "wordCount": 2997,
           "title": "The 100% Markdown Expedition"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47913",
-          "author": "Schalk Neethling",
-          "description": "How do you merge two Git repositories without losing history? This post will take you through the step-by-step process.\nThe post Merging two GitHub repositories without losing commit history appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/08/merging-two-github-repositories-without-losing-commit-history/",
-          "publishedOn": "2022-08-29T07:54:58.000Z",
-          "wordCount": 3521,
-          "title": "Merging two GitHub repositories without losing commit history"
         }
       ]
     },
@@ -1506,15 +1516,6 @@
           "publishedOn": "2022-08-30T16:00:11.000Z",
           "wordCount": 5733,
           "title": "Git’s database internals II: commit history queries"
-        },
-        {
-          "id": "https://github.blog/?p=66673",
-          "author": "Derrick Stolee",
-          "description": "This blog series will examine Git’s internals to help make your engineering system more efficient. Part I discusses how Git stores its data in packfiles using custom compression techniques.",
-          "link": "https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/",
-          "publishedOn": "2022-08-29T13:00:06.000Z",
-          "wordCount": 4598,
-          "title": "Git’s database internals I: packed object store"
         }
       ]
     },
@@ -1593,6 +1594,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/pentests/use-hackerones-enhanced-pentest-service-streamline-security-testing",
+          "author": "Sean Ryan",
+          "description": "New capabilities improve pentesting to increase attack resistance\nThe enhanced features drive robust security testing practices with the ability to",
+          "link": "https://www.hackerone.com/pentests/use-hackerones-enhanced-pentest-service-streamline-security-testing",
+          "publishedOn": "2022-09-27T23:00:00.000Z",
+          "wordCount": 1084,
+          "title": "Use Hackerone’s Enhanced Pentest as a Service to Streamline Security Testing"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/rise-internet-bug-bounty",
           "author": "jesse@hackerone.com",
