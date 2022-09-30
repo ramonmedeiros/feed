@@ -37,6 +37,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/eE71",
+          "author": "AJ Kerrigan",
+          "description": "This is a neat little CLI utility from Kelly Brazil that parses the output of common Unix system commands into JSON/YAML. We’re linking to the latest version (1.22.0) which adds new magic parsers for /proc files. This handy glue-type tool gets one click neater every release!\n\nDiscuss on Changelog News",
+          "link": "https://blog.kellybrazil.com/2022/09/27/jc-version-1-22-0-released/",
+          "publishedOn": "2022-09-29T19:24:00.000Z",
+          "wordCount": null,
+          "title": "JC converts the output of popular commands to JSON for easier parsing",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Jgpn",
+          "author": "Jerod Santo",
+          "description": "Point Refurb at your Python code to see how bad good it is. Here’s the author’s motivation:\nI love doing code reviews: I like taking something and making it better, faster, more elegant, and so on. Lots of static analysis tools already exist, but none of them seem to be focused on making code more elegant, more readable, or more modern. That is where Refurb comes in.\nDiscuss on Changelog News",
+          "link": "https://github.com/dosisod/refurb",
+          "publishedOn": "2022-09-29T18:37:00.000Z",
+          "wordCount": null,
+          "title": "A tool for refurbishing and modernizing Python codebases",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/posts/2549",
+          "author": "Lars Wikman",
+          "description": "The podcast moguls of Changelog Media have been keen to introduce chapters into their podcast episodes and they reached out to me for a hand. And would you know, now they have chapters and the Elixir community has a shiny new ID3 tag library.\nChapters are neat, they let you see a Table of Contents, jump to specific parts and similar. The changelog.com site is an open source project built in Elixir. I love working with Elixir. It is a steadily growing but still somewhat niche language and it doesn’t have every library under the sun, only most of them. It hasn’t had a fully fledged ID3v2 library so far. There are a few libraries that let you parse a tag in one specific way, targeting a subset. I haven’t found any that allow writing a tag. To create podcast chapters you need to update the ID3…",
+          "link": "https://changelog.com/posts/id3vx-a-library-for-parsing-and-encoding-id3-tags",
+          "publishedOn": "2022-09-29T14:30:40.000Z",
+          "wordCount": null,
+          "title": "Id3vx – a library for parsing and encoding ID3 tags",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1790",
+          "author": null,
+          "description": "One of our listeners, Andrew Welker, suggested that we talk about Klustered, so a few hours before David Flanagan was about to do his workshop at Container Days, we recorded this episode. We talked about all the weird and wonderful Kubernetes debugging sessions on Klustered, a YouTube playlist with 43 videos and counting.\nWe then talked about Rawkode Academy, and we finished with conferences. Good thing we did, because David almost forgot about KubeHuddle, the conference that he is co-organising next week. Gerhard is looking forward to talking at it! No, seriously, check it out at kubehuddle.com.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly w…",
+          "link": "https://changelog.com/shipit/72",
+          "publishedOn": "2022-09-29T13:20:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 72: Klustered & Rawkode Academy",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/72/ship-it-72.mp3",
+            "length": "64734951",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/news/rXZ9",
           "author": "Jerod Santo",
           "description": "MNT Research… is going small for its next project. The MNT Pocket Reform has a seven-inch screen with a clamshell design that, when closed, will be less than five centimeters thick. If its perky purple facade looks a bit retro, that’s no surprise; the Pocket’s inspirations read like a ‘greatest hits’ list of pocketable computers.\nThey’re taking open source seriously:\nMNT’s open-source promise is not limited to an open source operating system or select internal components The Pocket Reform, as with MNT’s full-size Reform laptop, will provide mainboard schematics, 3D models for physical components, and open source drivers, among other things.\nComing soon to a crowd fund near you.\n\nDiscuss on Changelog News",
@@ -940,61 +985,6 @@
           "wordCount": null,
           "title": "Why user stories belong in the garbage",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1704",
-          "author": null,
-          "description": "Most of you already know what it’s like to work in a startup or a small company. A few of you have been asking us for conversations with engineers that work for big companies, the kind that run everything from big title games to banking, and even critical national infrastructure.\nIn today’s episode, we talk to Ganeshkumar, a Software Engineer in the Azure Kubernetes Service team, who works on Node Lifecycle and Kubernetes Versioning, and Brendan, Kubernetes project co-founder and engineering Corporate Vice President of Microsoft Azure OSS and Cloud-native Compute. We talk about what it’s like to work for Microsoft, how mentoring works in practice, and what Kubernetes, Omega, & Borg have to do with it all.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nBrendan Burns – Twitter, GitHub\nGaneshkumar Ashokavardhanan – Twitter, GitHub, LinkedIn\nGerhard Lazu – Twitter, GitHub, Website\nNotes and Links\n📄 Borg, Omega, and Kubernetes - March, 2016\n🎬 How to use GitOps with Microsoft Azure - Brendan Burns - July, 2021\n🎬 Kubernetes: The Documentary - Part 1 - January, 2022\nEvent Grid on Kubernetes with Azure Arc\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/68",
-          "publishedOn": "2022-08-31T21:15:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 68: Behind the scenes at Microsoft Azure",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/68/ship-it-68.mp3",
-            "length": "70672639",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/ZoGe",
-          "author": "Jerod Santo",
-          "description": "Lane Wagner:\nThe ideas behind the DevOps movements undeniably changed the software development world for the better - but by now, the term “DevOps” has lost all meaning.\nAccording to Lane, some companies believe in DevOps ideas, but are unwilling to invest in changing their ways. Others aren’t convinced that some of the “scarier” ideas are all that helpful.\nDiscuss on Changelog News",
-          "link": "https://wagslane.dev/posts/no-one-does-devops/",
-          "publishedOn": "2022-08-31T20:07:00.000Z",
-          "wordCount": null,
-          "title": "DevOps: an idea so good, no one admits they don’t do it",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/V1Gm",
-          "author": "Jerod Santo",
-          "description": "Julia Evans shares five things you can do to getting better at debugging, which is a critical skill for everyone in tech! They are:\nlearn the codebase\nlearn the system\nlearn your tools\nlearn strategies\nget experience\nEach thing comes with an explanation and she shares a great quote at the end (from a paper she extracted these things from):\nTheir findings did not show a significant difference in the strategies employed by the novices and experts. Experts simply formed more correct hypotheses and were more efficient at finding the fault. The authors suspect that this result is due to the difference in the programming experience between novices and experts.\nDiscuss on Changelog News",
-          "link": "https://jvns.ca/blog/2022/08/30/a-way-to-categorize-debugging-skills/",
-          "publishedOn": "2022-08-31T19:21:00.000Z",
-          "wordCount": null,
-          "title": "Some ways to get better at debugging",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6rpd",
-          "author": "Martin Heinz",
-          "description": "The assignment operator - or walrus operator as we all know it - is a feature that’s been in Python for a while now (since 3.8), yet it’s still somewhat controversial and many people have unfounded hate for it.\nIn this article I will try to convince you that the walrus operator really is a good addition to the language and that if you use it properly, then it can help you make your code more concise and readable.\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/79",
-          "publishedOn": "2022-08-31T14:12:00.000Z",
-          "wordCount": null,
-          "title": "Here's why you should be using Python's walrus operator",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zDd5",
-          "author": "Jerod Santo",
-          "description": "maps.earth is a planet-scale installation of Headway, but you can easily set up your own server on a smaller scale for your own personal use by running just a few commands.\nThis is the first I’ve heard of Headway, but I love their mission:\nThe Headway Project was born out of a frustration with the need to send current and future location data to a corporation in order to figure out how we’re getting from A to B. Offline-only maps apps can be frustrating to use, and sometimes suffer from performance problems, poor data coverage, or other technical limitations.\nHeadway aims to remedy these issues by bundling industry-standard software into a web app that’s easy to set up for yourself or your friends. No need to send your location data to anyone you don’t trust, not even maps.earth.\nDiscuss on Changelog News",
-          "link": "https://about.maps.earth/",
-          "publishedOn": "2022-08-31T13:24:00.000Z",
-          "wordCount": null,
-          "title": "Open source maps for everyone 🗺",
-          "itunes": {}
         }
       ]
     },
@@ -1078,15 +1068,6 @@
           "publishedOn": "2022-09-02T11:46:17.000Z",
           "wordCount": 1490,
           "title": "curl’s TLS fingerprint"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20102",
-          "author": "Daniel Stenberg",
-          "description": "Welcome to a new curl release, the result of a slightly extend release cycle this time. Release presentation Numbers the 210th release3 changes65 days (total: 8,930)165 bug-fixes (total: 8,145)230 commits (total: 29,017)0 new public libcurl function (total: 88)2 new curl_easy_setopt() option (total: 299)0 new curl command line option (total: 248)79 contributors, 38 new (total: 2,690)44 … Continue reading curl 7.85.0 for you →",
-          "link": "https://daniel.haxx.se/blog/2022/08/31/curl-7-85-0-for-you/",
-          "publishedOn": "2022-08-31T06:34:35.000Z",
-          "wordCount": 1282,
-          "title": "curl 7.85.0 for you"
         }
       ]
     },
@@ -1184,15 +1165,6 @@
           "publishedOn": "2022-09-01T12:20:12.078Z",
           "wordCount": 2189,
           "title": "Over-squashing, Bottlenecks, and Graph Ricci curvature"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
-          "author": null,
-          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
-          "publishedOn": "2022-08-31T12:22:37.738Z",
-          "wordCount": 1485,
-          "title": "Twitter Sparrow tackles data storage challenges of scale"
         }
       ]
     },
@@ -1223,6 +1195,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67361",
+          "author": "Shelley McKinley",
+          "description": "Access to the open internet is essential to defending human rights, and developers have an important role in promoting freedom of expression and transparency. GitHub is committed to keeping Iranians connected to the global developer community.",
+          "link": "https://github.blog/2022-09-29-github-supports-internet-freedom-and-global-availability-in-iran/",
+          "publishedOn": "2022-09-29T19:11:29.000Z",
+          "wordCount": 1014,
+          "title": "GitHub supports internet freedom and global availability in Iran"
+        },
+        {
+          "id": "https://github.blog/?p=67322",
+          "author": "Klint Finley",
+          "description": "Tech can be a tricky industry (to say the least). We talked with three tech professionals who share why they stay, what has helped them the most, and the power of switching things up.",
+          "link": "https://github.blog/2022-09-29-after-the-offer-staying-in-tech-long-term/",
+          "publishedOn": "2022-09-29T16:00:27.000Z",
+          "wordCount": 2821,
+          "title": "After the offer: staying in tech long-term"
+        },
         {
           "id": "https://github.blog/?p=67292",
           "author": "Kevin Alwell",
@@ -1474,24 +1464,6 @@
           "publishedOn": "2022-09-01T13:00:20.000Z",
           "wordCount": 5344,
           "title": "Git’s database internals IV: distributed synchronization"
-        },
-        {
-          "id": "https://github.blog/?p=66724",
-          "author": "Jeimy Ruiz",
-          "description": "Register now to attend GitHub Universe virtually or in-person at the Yerba Buena Center for the Arts in San Francisco on November 9-10.",
-          "link": "https://github.blog/2022-08-31-what-you-can-expect-at-github-universe-2022-cloud-security-community-and-ai/",
-          "publishedOn": "2022-08-31T16:00:42.000Z",
-          "wordCount": 1016,
-          "title": "What you can expect at GitHub Universe 2022: cloud, security, community, and AI"
-        },
-        {
-          "id": "https://github.blog/?p=66739",
-          "author": "Derrick Stolee",
-          "description": "Git’s file history queries use specialized algorithms that are tailored to common developer behavior. Level up your history spelunking skills by learning how different history modes behave and which ones to use when you need them.",
-          "link": "https://github.blog/2022-08-31-gits-database-internals-iii-file-history-queries/",
-          "publishedOn": "2022-08-31T14:00:42.000Z",
-          "wordCount": 4841,
-          "title": "Git’s database internals III: file history queries"
         }
       ]
     },
@@ -1553,15 +1525,6 @@
           "publishedOn": "2022-09-02T18:54:28.000Z",
           "wordCount": 4272,
           "title": "Acing the Data Science Interview: 8 Practical Tips with Examples"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=18840",
-          "author": "Nubank Editorial",
-          "description": "Going beyond maternity leave helps fight gender inequality, encourages family bonds, and creates a safer environment for professionals with children.\nThe post How does parental leave work at Nubank? appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/parental-leave-at-nubank/",
-          "publishedOn": "2022-08-31T20:23:52.000Z",
-          "wordCount": 3611,
-          "title": "How does parental leave work at Nubank?"
         }
       ]
     },
@@ -1570,6 +1533,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/bounty/announcing-results-hack-us",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/bounty/announcing-results-hack-us",
+          "publishedOn": "2022-09-29T13:00:00.000Z",
+          "wordCount": 609,
+          "title": "Announcing the Results of Hack U.S."
+        },
         {
           "id": "https://hackerone.com/pentests/use-hackerones-enhanced-pentest-service-streamline-security-testing",
           "author": "Sean Ryan",
