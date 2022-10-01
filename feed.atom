@@ -2,10 +2,139 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-09-30T12:27:46.585Z</updated>
+    <updated>2022-10-01T12:22:27.522Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale"/>
+        <updated>2022-10-01T12:22:12.675Z</updated>
+        <summary type="html"><![CDATA[In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[node_modules: How one character saved 50 GB of disk space]]></title>
+        <id>changelog.com/news/qMDp</id>
+        <link href="https://mainmatter.com/blog/2022/09/29/pnpm"/>
+        <updated>2022-09-30T20:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Tobias Bieniek:
+Have you ever worked with JavaScript? Have you been annoyed by the three hundred copies of left-pad in all of the node_modules folders on your disk? Would you prefer if all of your projects shared their node_modules folders instead of each getting their own copy?
+The single character that saved him all that space? The p in pnpm…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 508: A guided tour through ID3 esoterica]]></title>
+        <id>changelog.com/1/1833</id>
+        <link href="https://changelog.com/podcast/508"/>
+        <updated>2022-09-30T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we turn the mics on ourselves, kind of. Lars Wikman joins the show to give us a guided tour through ID3 esoterica and the shiny new open source Elixir library he developed for us. We talk about what ID3 is, its many versions, what it aims to be and what it could have been, how our library project got started, all the unique features and failed dreams of the ID3v2 spec, how ID3v2 and Podcast 2.0 are solving the problem differently, and how all of this maps back to us giving you (our listeners) a better experience while listening to our shows.
+Discuss on Changelog News
+Changelog++ members get a bonus 15 minutes at the end of this episode and zero ads. Join today!
+Sponsors
+InfluxData – The time series platform for building and operating time series applications — InfluxDB empowers d…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why aren't there more programming languages startups?]]></title>
+        <id>changelog.com/news/jqDl</id>
+        <link href="https://www.akitasoftware.com/blog-posts/why-arent-there-more-programming-languages-startups"/>
+        <updated>2022-09-30T19:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Jean Yang:
+There’s clearly a lot of programmer pain. But why we don’t see more tech transfer of these “deep” technologies from research into industry is something I have been thinking about since I was in college, when I decided I wanted to spend my life making programmers’ lives better. Many other fields, from robotics to databases, have clearer paths to commercialization. But when it comes to new programming languages or software analyses, the path of tech transfer is often decades-long, if it exists at all.
+She goes on to describe a few factors that are in the way of “deep tech” dev tools investing, how some of those things are changing, and how others still need to change.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 245: Launching Platformatic DB 🚀]]></title>
+        <id>changelog.com/6/1853</id>
+        <link href="https://changelog.com/jsparty/245"/>
+        <updated>2022-09-30T18:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Patformatic co-founders Matteo Collina & Luca Maraschi join Amal & Chris to discuss their just-announced (and we mean just announced) open source database tool: Platformatic DB!
+It’s a daemon that can turn any PostgreSQL, MySQL, MariaDB, or SQLite database into a REST and GraphQL endpoint. What makes it special is that it allows massive customization thanks to the flexibility of Fastify plugins.
+Discuss on Changelog News
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.
+
+    
+Fly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+    
+Featuring
+Matteo Collina – Twitter, GitHub, Website
+Luca Maraschi – Twitter, GitHub
+Amal Hussein – Twitter, GitHub
+Christopher Hiller – Twitter, GitHub, Website
+Notes and Links
+🎧 JS Party #197: Fastify served with a refreshing Pino 🍷
+Our first Open Source tool: Platformatic DB
+Platformatic on GitHub
+@databases
+Adventures in Nodeland
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 249: Functional programming with generics?]]></title>
+        <id>changelog.com/2/1808</id>
+        <link href="https://changelog.com/gotime/249"/>
+        <updated>2022-09-30T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[We did an episode on functional programming in Go with Aaron Schlesinger back in 2019… But that was before generics were a thing. Let’s revisit the topic and discuss the pros and cons now that we have generics. What’s changed? What hasn’t?
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
+
+    
+Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog
+
+    
+Ship It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.
+
+    
+Featuring
+Aaron Schlesinger – Twitter, GitHub, Website
+Johnny Boursiquot – Twitter, GitHub, Website
+Notes and Links
+Go Time #87: Functional programming?
+Dylan Meeus’s GopherCon 2020
+Aaron’s GopherCon 2017
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dracula UI is now free and open source]]></title>
+        <id>changelog.com/news/W1mJ</id>
+        <link href="https://twitter.com/zenorocha/status/1575476765228560384"/>
+        <updated>2022-09-30T16:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Dracula UI is a dark-first collection of UI patterns and components. Key features:
+Built for Dark Mode:  Most templates are built using light colors and later on adapted to dark colors. Dark themes shouldn’t be an afterthought, they should be a top priority.
+Designer Friendly: Speed up the prototyping phase by using a highly configurable Design System. Collaborate easily by taking advantage of a carefully crafted Figma file.
+Great Developer Experience: Don’t worry about class names, just use the Visual Studio Code snippets. You can take advantage of autocomplete and also access the entire documentation right from your code editor.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JC converts the output of popular commands to JSON for easier parsing]]></title>
         <id>changelog.com/news/eE71</id>
@@ -1833,94 +1962,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Every human has a unique fingerprint. With only an impression of a person’s fingertip, it is possible to follow the lead back to the single specific individual wearing that unique pattern. TLS fingerprints The phrase TLS fingerprint is of course in this spirit. A pattern in a TLS handshake that allows an involved party to … Continue reading curl’s TLS fingerprint →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Actions: introducing the new, larger GitHub-hosted runners beta]]></title>
-        <id>https://github.blog/?p=66793</id>
-        <link href="https://github.blog/2022-09-01-github-actions-introducing-the-new-larger-github-hosted-runners-beta/"/>
-        <updated>2022-09-01T16:08:20.000Z</updated>
-        <summary type="html"><![CDATA[Now your team can spend less time managing infrastructure and more time writing code.]]></summary>
-        <author>
-            <name>Ben De St Paer-Gotch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 245: Inside GopherCon]]></title>
-        <id>changelog.com/2/1671</id>
-        <link href="https://changelog.com/gotime/245"/>
-        <updated>2022-09-01T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ever wondered how GopherCon came to be, and how it’s put together every year. In this show we will be chatted with Erik St. Martin, who has been there from the start about how GopherCon came to be, how this year’s conference came together, as well as why events like GopherCon as so great!
-We are joined by Erik St. Martin, GopherCon Organizer and Co-Author Go in Action.
-Discuss on Changelog News
-Changelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at abo…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stable Diffusion is a really big deal]]></title>
-        <id>changelog.com/news/W19z</id>
-        <link href="https://simonwillison.net/2022/Aug/29/stable-diffusion/"/>
-        <updated>2022-09-01T14:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Simon Willison explains what it is:
-Stable Diffusion is a new “text-to-image diffusion model” that was released to the public by Stability.ai six days ago, on August 22nd.
-It’s similar to models like Open AI’s DALL-E, but with one crucial difference: they released the whole thing.
-And why it’s a really big deal:
-In just a few days, there has been an explosion of innovation around it. The things people are building are absolutely astonishing.
-He then details some of the innovation and it is staggering, to say the least. Open FTW!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes StatefulSets are broken. Here's why]]></title>
-        <id>changelog.com/news/JgEA</id>
-        <link href="https://www.plural.sh/blog/kubernetes-statefulsets-are-broken-heres-why/"/>
-        <updated>2022-09-01T14:07:00.000Z</updated>
-        <summary type="html"><![CDATA[Why do we think StatefulSets are broken? Well, if you run through the operational needs of a stateful workload in your head, there’s one key component that you might notice is missing:
-What do you do when you need to resize the underlying disk?
-The dataset is a common database store that typically grows at a pretty constant positive rate. Unless you support horizontal scaling and partitioning, you’ll need to add headroom in the disk as that dataset grows.
-This is where Kubernetes falls flat on its face.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Michael Guarino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why user stories belong in the garbage]]></title>
-        <id>changelog.com/news/rXGy</id>
-        <link href="https://www.browserlondon.com/blog/2022/08/30/why-user-stories-belong-in-the-garbage/"/>
-        <updated>2022-09-01T13:20:00.000Z</updated>
-        <summary type="html"><![CDATA[This article isn’t arguing against writing user stories, it’s arguing against keeping user stories:
-If you put the story in your icebox/backlog/cooler/hat, it’s time for it to go. It’s now duplicate documentation. That story was only there because you were yet to break it down into tasks. Now you have, so you delete it.
-I don’t mean tick it off as complete, I mean right-click on it and hit the ‘delete’ button.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git’s database internals IV: distributed synchronization]]></title>
-        <id>https://github.blog/?p=66776</id>
-        <link href="https://github.blog/2022-09-01-gits-database-internals-iv-distributed-synchronization/"/>
-        <updated>2022-09-01T13:00:20.000Z</updated>
-        <summary type="html"><![CDATA[We're examining Git’s internals to help make your engineering system more efficient. This post views Git as a distributed database and looks into its synchronization techniques, specifically ‘git fetch’ and ‘git push’.]]></summary>
-        <author>
-            <name>Derrick Stolee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Over-squashing, Bottlenecks, and Graph Ricci curvature]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature"/>
-        <updated>2022-09-01T12:20:12.078Z</updated>
-        <summary type="html"><![CDATA[Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>
