@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-01T12:22:27.522Z</updated>
+    <updated>2022-10-03T12:27:40.596Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Over-squashing, Bottlenecks, and Graph Ricci curvature]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature"/>
+        <updated>2022-10-03T12:27:22.391Z</updated>
+        <summary type="html"><![CDATA[Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
@@ -1850,118 +1860,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Release Radar · August 2022 Edition]]></title>
-        <id>https://github.blog/?p=66830</id>
-        <link href="https://github.blog/2022-09-02-release-radar-aug-2022/"/>
-        <updated>2022-09-02T23:13:06.000Z</updated>
-        <summary type="html"><![CDATA[We’ve been gearing up to launch GitHub Universe 2022 and our community has been launching cool projects left right and center.  These projects include everything from world-changing technology to developer tooling, and weekend hobbies. Here are some of the open source projects that released major version updates this August. Read more about these projects in […]]]></summary>
-        <author>
-            <name>Michelle Mannering</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 504: Building actually maintainable software ♻️]]></title>
-        <id>changelog.com/1/1826</id>
-        <link href="https://changelog.com/podcast/504"/>
-        <updated>2022-09-02T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re sharing the most popular episode of Go Time from last year — Go Time #196. We believe this episode was the most popular because it’s all about building actually maintainable software and what goes into that. Kris Brandow is joined by Johnny Boursiquot, Ian Lopshire, and Sam Boyer. There’s lots of hot takes, disagreements, and unpopular opinions.
-This is part two of a three part mini-series led by Kris on maintenance. Make sure you check out Go Time #195 and Go Time #202 to continue the series.
-Discuss on Changelog News
-Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-InfluxData – All of the open source software InfluxData creates is either MIT-licensed or Apache2-licensed. These are very permissive licenses. But wh…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Acing the Data Science Interview: 8 Practical Tips with Examples]]></title>
-        <id>https://building.nubank.com.br/?p=18897</id>
-        <link href="https://building.nubank.com.br/data-science-interview-pratical-tips/"/>
-        <updated>2022-09-02T18:54:28.000Z</updated>
-        <summary type="html"><![CDATA[Practical tips to help you succeed in your next Data Science and/or Machine Learning interview
-The post Acing the Data Science Interview: 8 Practical Tips with Examples appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Felipe Almeida - Machine Learning Engineer at Nubank</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 241: The doctor is in (again)]]></title>
-        <id>changelog.com/6/1811</id>
-        <link href="https://changelog.com/jsparty/241"/>
-        <updated>2022-09-02T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Dr. Gleb Bahmutov returns to the party for a wide-ranging discussion on open source, end-to-end testing, Cypress, and more. Amal, Divya & Chris host.
-Discuss on Changelog News
-Changelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
-
-    
-Square – Develop on the platform that sellers trus…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Responding to recruiter emails with GPT-3]]></title>
-        <id>changelog.com/news/Jgb2</id>
-        <link href="https://matthewbilyeu.com/blog/2022-09-01/responding-to-recruiter-emails-with-gpt-3"/>
-        <updated>2022-09-02T16:36:08.000Z</updated>
-        <summary type="html"><![CDATA[Like many software engineers, Matt Bilyeu receives multiple emails from recruiters weekly. And, because he’s polite (and for other reasons) he tries to respond (politely) to all of them. But…
-It would be ideal if I could automate sending these responses. Assuming I get four such emails per week and that it takes two minutes to read and respond to each one, automating this would save me about seven hours of administrative work per year.
-Enter the GPT-3 API and some code that gets run by a future cron job (now that he’s tested this on a handful of emails) and Matt auto-responds to al the emails, continues to be polite, while also saving (his) time. It’s AI Matt responding the way real Matt would.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A course that breaks down every aspect of modern PWA development]]></title>
-        <id>changelog.com/news/Qp0E</id>
-        <link href="https://web.dev/learn/pwa/"/>
-        <updated>2022-09-02T15:34:00.000Z</updated>
-        <summary type="html"><![CDATA[This course from the folks at web.dev targets beginners and advanced developers alike.
-You’ll learn PWA fundamentals like the Web App Manifest, service workers, how to design with an app in mind, what’s different from a classic web app, how to use other tools to test and debug your PWA. After these fundamentals, you’ll learn about integration with the platform and operating system, how to enhance your PWA’s installation and usage experience, and how to offer an offline experience.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Falsehoods programmers believe about email]]></title>
-        <id>changelog.com/news/zDdR</id>
-        <link href="https://beesbuzz.biz/code/439-Falsehoods-programmers-believe-about-email"/>
-        <updated>2022-09-02T14:40:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s easy to fool ourselves into believing the world is normal, sensible, and without rare-but-undeniably-valid edge and corner cases. Maybe you’ve done this to yourself with email. I’m guilty.
-One example, we do email-based authentication (no passwords!) because I believe(d) this particular falsehood:
-Emails will be received soon after they’re sent
-I wish it were always true! Thankfully, there’s a lot of things on the linked list that I don’t believe. Do you?
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git’s database internals V: scalability]]></title>
-        <id>https://github.blog/?p=66812</id>
-        <link href="https://github.blog/2022-09-02-gits-database-internals-v-scalability/"/>
-        <updated>2022-09-02T13:05:05.000Z</updated>
-        <summary type="html"><![CDATA[This fifth and final part of our blog series exploring Git's internals shows several strategies for scaling your Git repositories that match related database sharding techniques.]]></summary>
-        <author>
-            <name>Derrick Stolee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl’s TLS fingerprint]]></title>
-        <id>https://daniel.haxx.se/blog/?p=20025</id>
-        <link href="https://daniel.haxx.se/blog/2022/09/02/curls-tls-fingerprint/"/>
-        <updated>2022-09-02T11:46:17.000Z</updated>
-        <summary type="html"><![CDATA[Every human has a unique fingerprint. With only an impression of a person’s fingertip, it is possible to follow the lead back to the single specific individual wearing that unique pattern. TLS fingerprints The phrase TLS fingerprint is of course in this spirit. A pattern in a TLS handshake that allows an involved party to … Continue reading curl’s TLS fingerprint →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
