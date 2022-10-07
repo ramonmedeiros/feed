@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/Qpbd",
+          "author": "Adam Stacoviak",
+          "description": "This working implementation of text-to-3D (powered by Stable Diffusion) didn’t take six months, like Simon predicted it would. Although I will concede that it’s not a 3D environment that can then go into in a game engine, but I’m sure that’s just a few more weeks away this point.\nFrom the readme:\nThis project is a work-in-progress, and contains lots of differences from the paper. Also, many features are still not implemented now. The current generation quality cannot match the results from the original paper, and many prompts still fail badly!\nDiscuss on Changelog News",
+          "link": "https://github.com/ashawkey/stable-dreamfusion",
+          "publishedOn": "2022-10-06T17:10:22.000Z",
+          "wordCount": null,
+          "title": "Dreamfusion! Text-to-3D model powered by Stable Diffusion",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1795",
+          "author": null,
+          "description": "Matias Pan is a Staff Software Engineer at Lemon Cash, a crypto startup based in Argentina. Lemon infrastructure runs digital wallets & physical cards, which technically makes them a bank. How does Matias & his team think about enabling developers get code from their workstations into production? Remember, we are talking about a bank - a bad deploy is a big deal. And when a bad database migration goes out, what happens then?\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. …",
+          "link": "https://changelog.com/shipit/73",
+          "publishedOn": "2022-10-06T14:40:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 73: A modern bank infrastructure",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/shipit/73/ship-it-73.mp3",
+            "length": "77029757",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/8lrO",
+          "author": "Jerod Santo",
+          "description": "run npm install -g easy-sharing\nrun sharing /directory-or-file-to-share\nscan the QR code with your phone\n\nDiscuss on Changelog News",
+          "link": "https://github.com/parvardegr/sharing",
+          "publishedOn": "2022-10-06T13:59:00.000Z",
+          "wordCount": null,
+          "title": "A CLI to share files directly with iOS and Android devices",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/njqo",
           "author": "Jerod Santo",
           "description": "You’re cordially invited to the “Best Booth in the Building”! We’ll be giving away stickers & t-shirts, recording shows, playing video games & awarding one lucky/skilled listener with a FREE Nintendo Switch 🕹\n\nDiscuss on Changelog News",
@@ -990,36 +1025,6 @@
           "wordCount": null,
           "title": "Crawlee is a web scraping & browser automation library for Node.js",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/5jMY",
-          "author": "Jerod Santo",
-          "description": "I don’t know how practical this font is, but I do know how cool this font is…\n\nDiscuss on Changelog News",
-          "link": "https://github.com/IdreesInc/Monocraft",
-          "publishedOn": "2022-09-07T15:40:00.000Z",
-          "wordCount": null,
-          "title": "A programming font based on the typeface used in Minecraft",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/lOdW",
-          "author": "Jerod Santo",
-          "description": "The Preact team dropped a new state management solution on us:\nSignals are a way of expressing state that ensure apps stay fast regardless of how complex they get. Signals are based on reactive principles and provide excellent developer ergonomics, with a unique implementation optimized for Virtual DOM.\nAdding Signals to your Preact app only adds 1.6kB to your bundle size. So what’s the big idea?\nThe main idea behind signals is that instead of passing a value directly through the component tree, we pass a signal object containing the value (similar to a ref). When a signal’s value changes, the signal itself stays the same. As a result, signals can be updated without re-rendering the components they’ve been passed through, since components see the signal and not its value. This lets us skip all of the expensive work of rendering components and jump immediately to the specific components in the tree that actually access the signal’s value.\nDiscuss on Changelog News",
-          "link": "https://preactjs.com/blog/introducing-signals/",
-          "publishedOn": "2022-09-07T14:47:00.000Z",
-          "wordCount": null,
-          "title": "The Preact team introduces Signals",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/pjdM",
-          "author": "Jerod Santo",
-          "description": "Julie Qiu, announcing Go’s new support for vulnerability management:\nGo provides tooling to analyze your codebase and surface known vulnerabilities. This tooling is backed by the Go vulnerability database, which is curated by the Go security team. Go’s tooling reduces noise in your results by only surfacing vulnerabilities in functions that your code is actually calling.\nThere’s a new govulncheck command you can/should install and run against your project. It surfaces only the vulnerabilities that actually affect you, which is awesome.\nGovulncheck is a standalone tool to allow frequent updates and rapid iteration while we gather feedback from users. In the long term, we plan to integrate the govulncheck tool into the main Go distribution.\nDiscuss on Changelog News",
-          "link": "https://go.dev/blog/vuln",
-          "publishedOn": "2022-09-07T13:49:00.000Z",
-          "wordCount": null,
-          "title": "Vulnerability management for Go",
-          "itunes": {}
         }
       ]
     },
@@ -1221,6 +1226,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67632",
+          "author": "Peter Cihon",
+          "description": "We’re excited that the World Intellectual Property Organization (WIPO) has launched the 2022 edition of its Global Innovation Index (GII) with an indicator of developer creative outputs based on GitHub commits.",
+          "link": "https://github.blog/2022-10-06-developers-are-now-included-in-the-wipo-global-innovation-index/",
+          "publishedOn": "2022-10-06T21:00:36.000Z",
+          "wordCount": 714,
+          "title": "Developers are now included in the WIPO Global Innovation Index"
+        },
+        {
+          "id": "https://github.blog/?p=67596",
+          "author": "Eric Tooley",
+          "description": "Cross-platform apps built with the popular Flutter toolkit can now benefit from Dependabot alerts.",
+          "link": "https://github.blog/2022-10-06-githubs-supply-chain-security-features-now-support-dart/",
+          "publishedOn": "2022-10-06T18:00:44.000Z",
+          "wordCount": 970,
+          "title": "GitHub’s supply chain security features now support Dart"
+        },
         {
           "id": "https://github.blog/?p=67439",
           "author": "Lee Reilly",
@@ -1481,24 +1504,6 @@
           "publishedOn": "2022-09-08T07:00:33.000Z",
           "wordCount": 1079,
           "title": "Research: open source software in India, Kenya, Egypt, and Mexico"
-        },
-        {
-          "id": "https://github.blog/?p=66877",
-          "author": "Jakub Oleksy",
-          "description": "In August, we experienced one incident resulting in significant impact to Codespaces. We’re still investigating that incident and will include it in next month’s report. This report also sheds light into an incident that impacted Codespaces in July.",
-          "link": "https://github.blog/2022-09-07-github-availability-report-august-2022/",
-          "publishedOn": "2022-09-07T18:00:24.000Z",
-          "wordCount": 1044,
-          "title": "GitHub Availability Report: August 2022"
-        },
-        {
-          "id": "https://github.blog/?p=66861",
-          "author": "Eirini Kalliamvakou",
-          "description": "When the GitHub Copilot Technical Preview launched just over one year ago, we wanted to know one thing: Is this tool helping developers? The GitHub Next team conducted research using a combination of surveys and experiments, which led us to expected and unexpected answers.",
-          "link": "https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
-          "publishedOn": "2022-09-07T16:00:28.000Z",
-          "wordCount": 2016,
-          "title": "Research: quantifying GitHub Copilot’s impact on developer productivity and happiness"
         }
       ]
     },
