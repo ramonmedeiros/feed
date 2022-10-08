@@ -13,15 +13,6 @@
           "publishedOn": "2022-09-13T16:59:00.000Z",
           "wordCount": 1968,
           "title": "Use-after-freedom: MiraclePtr"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/09/fuzzing-beyond-memory-corruption.html",
-          "author": null,
-          "description": "Posted by Jonathan Metzman, Dongge Liu and Oliver Chang, Google Open Source Security Team \nRecently, OSS-Fuzz—our community fuzzing service that regularly checks 700 critical open source projects for bugs—detected a serious vulnerability (CVE-2022-3008): a bug in the TinyGLTF project that could have allowed attackers to execute malicious code in projects using TinyGLTF as a dependency.   \nThe bug was soon patched, but the wider significance remains: OSS-Fuzz caught a trivially exploitable command injection vulnerability. This discovery shows that fuzzing, a type of testing once primarily known for detecting memory corruption vulnerabilities in C/C++ code, has considerable untapped potential to find broader classes of vulnerabilities. Though the TinyGLTF library is written in C++, this vuln…",
-          "link": "http://security.googleblog.com/2022/09/fuzzing-beyond-memory-corruption.html",
-          "publishedOn": "2022-09-08T16:00:00.000Z",
-          "wordCount": 1231,
-          "title": "Fuzzing beyond memory corruption: Finding broader classes of vulnerabilities automatically"
         }
       ]
     },
@@ -36,6 +27,71 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1870",
+          "author": null,
+          "description": "This week we’re talking fresh, faster, and new web frameworks by way of JS Party. Yes, today’s show is a web framework sampler because a new batch of web frameworks have emerged. There’s always something new happening in the front-end world and JS Party does an amazing job of keeping us up to date. So…what’s fresh, faster, and new?\nThe first segment of the show focuses on Deno’s Fresh new web framework. Luca Casonato joins Jerod & Feross to talk about Fresh – a next generation web framework, built for speed, reliability, and simplicity.\nIn segment two, AngularJS creator Miško Hevery joins Jerod and KBall to talk about Qwik. He says Qwik is a fundamental rethinking of how a web application should work. And he’s attempting to convince Jerod & KBall that the implications of that are BIG.\nIn t…",
+          "link": "https://changelog.com/podcast/509",
+          "publishedOn": "2022-10-07T21:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 509: A new batch of web frameworks emerge!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/509/the-changelog-509.mp3",
+            "length": "91427739",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1862",
+          "author": null,
+          "description": "Hang with Jerod, Nick & KBall while we discuss what’s new & noteworthy in the web world. Cloudflare Turnstile, Linkify 4.0, TC39 updates, the Figma acquisition, Penpot, pay transparency, and more! We might even discuss TypeScript if Nick gets his way…\nDiscuss on Changelog News\nChangelog++ members get a bonus 16 minutes at the end of this episode and zero ads. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. S…",
+          "link": "https://changelog.com/jsparty/246",
+          "publishedOn": "2022-10-07T19:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 246: 7 pounds of news in a 5 pound bag",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/jsparty/246/js-party-246.mp3",
+            "length": "63867527",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/qMbp",
+          "author": "Adam Stacoviak",
+          "description": "After more than half a decade (6+ years), Mastodon.technology is shutting down. The reason? One person is responsible (Ash Furrow) and they’ve hit their limit personally and technically.\nA member of my family was very recently diagnosed with a terminal illness. I am doing everything I can to support them.\nLast week, with yet more Elon Musk and Twitter news, the fediverse generally experienced extra traffic with an influx of new users. I woke up to mastodon.technology downtime alerts. In the midst of supporting my family, I had to ssh into a server and fiddle with settings.\nI am exhausted.\nThe server has also gotten too large and too complex for me to administer. I’ve always been keen to learn the next new skill I need to be an effective admin. But I just don’t have it in me anymore. The monitoring that I have in place is insufficient to solve the current problems and I have zero bandwidth to invest in learning the skills to diagnose and fix the issue.\nAges ago (4 years) we talked with Eugen Rochko on The Changelog (the creator of Mastodon) about the “absolute freedom in how people can run their servers,”  and how the “incentives are usually ideological” when running a Mastodon server.\nYes, we talked about the costs of running a server, but from my recollection that seemed to be purely from a monetary perspective. The costs of running a server are also quite time intensive and those costs needs to be factored in as well.\nDiscuss on Changelog News",
+          "link": "https://ashfurrow.com/blog/mastodon-technology-shutdown/",
+          "publishedOn": "2022-10-07T16:22:13.000Z",
+          "wordCount": null,
+          "title": "Mastodon.technology is shutting down",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/ZodW",
+          "author": "Jerod Santo",
+          "description": "This is a solid primer on git rebase and the many ways it’s useful.\nIn Git, a rebase is a very versatile and useful tool to rework commits. Use it to achieve a workflow with high-quality changes proposed in high-quality commits and merge requests. It makes your developers and reviewers more efficient. Code reviews and debugging also become easier and more effective.\nDiscuss on Changelog News",
+          "link": "https://about.gitlab.com/blog/2022/10/06/take-advantage-of-git-rebase/",
+          "publishedOn": "2022-10-07T15:31:00.000Z",
+          "wordCount": null,
+          "title": "Take advantage of git rebase",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1863",
+          "author": null,
+          "description": "Join Mat Ryer on his journey to Berlin for GopherCon EU 2022. Along the way he chats with Egon Elbre, Ale Kennedy, Ole Bulbuk, Christian Haas, Bill Kennedy & Ron Evans. Danke!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nFeaturing\nEgon Elbre – Twitter, GitHub, LinkedIn\nAle Kennedy – Twitter\nOle Bulbuk – Twitter, GitHub, Website\nChristian Haas – Twitter, GitHub\nBill Kennedy – Twitter, GitHub, Website\nRon Evans – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nGopherCon EU\nGophers Say! GopherCon EU Edition\nTinyGo\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/250",
+          "publishedOn": "2022-10-07T14:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 250: Mat's GopherCon EU diary",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/250/go-time-250.mp3",
+            "length": "63472965",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/news/Qpbd",
           "author": "Adam Stacoviak",
@@ -955,76 +1011,6 @@
             "length": "55725077",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/2/1802",
-          "author": null,
-          "description": "Egon Elbre and Roger Peppe join Mat for a conversation all about bloat (and how to avoid it). Expect talk of code bloat, binary bloat, feature bloat, and an even-more-bloated-than-usual unpopular opinion segment.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nChronosphere – Chronosphere is the observability platform for cloud-native teams operating at scale. When it comes to observability, teams need a reliable, scalable, and efficient solution so they can know about issues well before their customers do. Teams choose Chronosphere to help them move faster than the competition. Learn more and get a demo at chronosphere.io.\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nEgon Elbre – Twitter, GitHub, LinkedIn\nRoger Peppe – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nCUE lang\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/246",
-          "publishedOn": "2022-09-08T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 246: Avoiding bloat",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/gotime/246/go-time-246.mp3",
-            "length": "61502972",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/X19k",
-          "author": "Adam Stacoviak",
-          "description": "The ideas behind WikiHouse remind me of the conversation we had with Marcin Jakubowski from Open Source Ecology early last year (changelog.fm/428).\nSustainable should be the new normal. Think global, manufacture local. It’s all open source.\nEverything is on GitHub (from what I can tell).\nDiscuss on Changelog News",
-          "link": "https://www.wikihouse.cc/",
-          "publishedOn": "2022-09-08T15:51:02.000Z",
-          "wordCount": null,
-          "title": "Open source, modular, wood based, zero carbon housing",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/mldE",
-          "author": "Adam Stacoviak",
-          "description": "Josh Collinsworth (an unapologetic React non-fan) writes on his blog about the ubiquity of React:\nI don’t know what the future of front-end looks like. Nobody really does. But it’s a very safe bet that React will continue to be the thing for a very long time.\nIf you’re learning front-end development in the hopes of getting a job, or trying to level up your career, and React is a knowledge gap for you, it seems like the safest bet you could make. React isn’t going anywhere anytime soon. That said, however…\nBut why does React remain on top?\nBecause we don’t always value the strongest choice as much as we value consensus. (In fact, you could make an argument that consensus is the strongest choice, in many ways.)\nReact keeps getting picked…because React keeps getting picked.\nBut there’s a ton more to unpack. Josh got into the details on the best choice for the job, covering: Performance, learning curve, bundle size, scalability, community and support, financial backing, hireability, and developer experience.\nShould I spoil it for you? Nah. Read Josh’s words for the full story.\nDiscuss on Changelog News",
-          "link": "https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react",
-          "publishedOn": "2022-09-08T15:13:39.000Z",
-          "wordCount": null,
-          "title": "\"React isn't great at anything except being popular\"",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/dqGl",
-          "author": "Jerod Santo",
-          "description": "This was my favorite moment from our episode with Chris Coyier. I asked him what’s interesting in the frontend world these days and Chris went off for almost five minutes. His enthusiasm is contagious!\n\nDiscuss on Changelog News",
-          "link": "https://youtu.be/YHC8jEgpVfk",
-          "publishedOn": "2022-09-08T14:47:00.000Z",
-          "wordCount": null,
-          "title": "These new features will change how we write CSS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1678",
-          "author": null,
-          "description": "Maybe it’s the Californian sun. Or perhaps it’s the time spent at Disney Studios, the home of the best stories. One thing is for sure: Taylor Dolezal is one of the happiest cloud native people that Gerhard knows.\nAs a former Lead SRE for Disney Studios, Taylor has significant hands-on experience running cloud native technologies in a large company. After a few years as a HashiCorp Developer Advocate, Taylor is now Head of End User Ecosystem at CNCF. In his current role, he is helping enable cloud native success for end-users like Boeing, Mercedes Benz & many others.\nDiscuss on Changelog News\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual da…",
-          "link": "https://changelog.com/shipit/69",
-          "publishedOn": "2022-09-08T14:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 69: The cloud native ecosystem",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/69/ship-it-69.mp3",
-            "length": "73479460",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Qp8M",
-          "author": "Jerod Santo",
-          "description": "Here’s Natasha Lekh from Apify describing the project:\nThis project really is a culmination of 4 years of work trying to make the best library for web scraping in production. Web scraping is a very dynamic environment and what works today might not work tomorrow, so we at Apify had to go through a lot of trial and error to figure out the most reliable and convenient ways of crawling the web and scraping data. We hope that we finally cracked it and that now many developers will enjoy working with our new library and it will make their scrapers more reliable and time to production faster.\nI like how it starts with simple HTTP-based scraping, but can switch to browser-based automation when a site has JavaScript rendering. I don’t love the built-in proxy rotation features. Not because they’re bad, per se, but because they make spammers lives easier…\nDiscuss on Changelog News",
-          "link": "https://crawlee.dev",
-          "publishedOn": "2022-09-08T13:22:00.000Z",
-          "wordCount": null,
-          "title": "Crawlee is a web scraping & browser automation library for Node.js",
-          "itunes": {}
         }
       ]
     },
@@ -1081,15 +1067,6 @@
           "publishedOn": "2022-09-12T06:42:48.000Z",
           "wordCount": 828,
           "title": "convert a curl cmdline to libcurl source code"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20184",
-          "author": "Daniel Stenberg",
-          "description": "The other day I sent out this tweet As it took off, got an amazing attention and I received many different comments and replies, I felt a need to elaborate a little. To add some meat to this. Is this string really a legitimate URL? What is a URL? How is it parsed? http://http://http://@http://http://?http://#http:// curl … Continue reading http://http://http://@http://http://?http://#http:// →",
-          "link": "https://daniel.haxx.se/blog/2022/09/08/http-http-http-http-http-http-http/",
-          "publishedOn": "2022-09-08T11:43:08.000Z",
-          "wordCount": 1121,
-          "title": "http://http://http://@http://http://?http://#http://"
         }
       ]
     },
@@ -1209,17 +1186,7 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": [
-        {
-          "id": "https://hacks.mozilla.org/?p=47919",
-          "author": "Schalk Neethling",
-          "description": "In June 2021, we decided to start converting the source code for MDN web docs from HTML into a format that would be easier for us to work with. The goal was to get 100% of our manually-written documentation converted to Markdown, and we really had a mountain of source code to climb for this particular expedition.\nIn this post, we’ll describe why we decided to migrate to Markdown, and the steps you can take that will help us on our mission.\nThe post The 100% Markdown Expedition appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/09/the-100-percent-markdown-expedition/",
-          "publishedOn": "2022-09-08T09:14:51.000Z",
-          "wordCount": 2997,
-          "title": "The 100% Markdown Expedition"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
@@ -1486,24 +1453,6 @@
           "publishedOn": "2022-09-09T15:16:13.000Z",
           "wordCount": 1540,
           "title": "SCA vs SAST: what are they and which one is right for you?"
-        },
-        {
-          "id": "https://github.blog/?p=66919",
-          "author": "Elise Hollowed",
-          "description": "After a year in technical preview, GitHub Copilot, an AI pair programmer, is now free for all teachers verified on GitHub Global Campus.",
-          "link": "https://github.blog/2022-09-08-github-copilot-now-available-for-teachers/",
-          "publishedOn": "2022-09-08T18:00:49.000Z",
-          "wordCount": 1156,
-          "title": "GitHub Copilot now available for teachers"
-        },
-        {
-          "id": "https://github.blog/?p=66902",
-          "author": "Mala Kumar",
-          "description": "Read the new GitHub report on OSS in India, Kenya, Egypt, and Mexico. Available now in English, and in Spanish and Arabic later this year.",
-          "link": "https://github.blog/2022-09-08-research-open-source-software-in-india-kenya-egypt-and-mexico/",
-          "publishedOn": "2022-09-08T07:00:33.000Z",
-          "wordCount": 1079,
-          "title": "Research: open source software in India, Kenya, Egypt, and Mexico"
         }
       ]
     },
@@ -1512,6 +1461,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19326",
+          "author": "Gabriel Assis - Business Analytics Manager at Nubank",
+          "description": "Business Analysts are people passionate about immersing themselves into numbers and helping define the company's next steps. Find out about the daily routine of this career in this article.\nThe post What is it like being a Business Analyst at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/business-analyst-at-nubank/",
+          "publishedOn": "2022-10-07T21:49:05.000Z",
+          "wordCount": 3207,
+          "title": "What is it like being a Business Analyst at Nubank?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19288",
           "author": "Sócrates Lopes - Engineering Manager at Nubank",
