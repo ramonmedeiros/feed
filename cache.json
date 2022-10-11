@@ -28,6 +28,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1871",
+          "author": null,
+          "description": "The libSQL community is forking SQLite, StabilityAI announces Haromai and Dance Diffusion, Robin Rendle doesn’t believe in sprints, Shubham Garg curates some awesome diagramming tools & Chris Pressey writes up some must-read facts about state machines.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nUnpopular Opinion Twitter Thread\nlibSQL is a fork of SQLite\nStabilityAI announced AI Music Generator Harmonai\nI Don’t Believe in Sprints\nAwesome Diagramming\nFacts About State Machines\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-10-10",
+          "publishedOn": "2022-10-10T18:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Forking SQLite, generative AI for music, saying no to sprints, awesome diagramming tools & state machine facts",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-10-10/the-changelog-news-2022-10-10.mp3",
+            "length": "7207994",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/V10P",
+          "author": "Jerod Santo",
+          "description": "This lets you do so many cool things, even joining across disparate services:\nselect\n  aws.name aws_user_name,\n  slack.id as slack_user_id,\n  slack.display_name as slack_name\nfrom\n  aws_iam_user as aws,\n  slack_user as slack\nwhere\n  aws.name = slack.email;\n\n+--------------------------+---------------+------------+\n|     aws_user_name        | slack_user_id | slack_name |\n+--------------------------+---------------+------------+\n| dwight@dundermifflin.com | U2EMB8HLP     | dwight     |\n| jim@dundermifflin.com    | U02HE4Z7E     | jim        |\n+--------------------------+---------------+------------+\n\nUseful for compliance, security, ops, and cost management.\nDiscuss on Changelog News",
+          "link": "https://github.com/turbot/steampipe",
+          "publishedOn": "2022-10-10T15:44:00.000Z",
+          "wordCount": null,
+          "title": "Use SQL to instantly query your cloud services",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/y7GA",
+          "author": "Jerod Santo",
+          "description": "A journey from Stripe to Paypal and back to Stripe led Zed Shaw to the conclusion in the headline. And, no, that is not a compliment (in case you weren’t sure).\nZed goes deep on why he feels this way, listing seven serious downsides to using Stripe today. What’s a dev to do? His advice at the end alone is worth the cost of admission:\nThis is why I advocate to people to be ready to switch payment processing at a moment’s notice. Right now I could flip two options and I’d be back on Paypal. If I was pressed I could probably implement any other payment processor in about a week or a day. The ability to quickly switch payments is your only defense against frozen accounts, fraud, and rogue employees.\nDiscuss on Changelog News",
+          "link": "https://learnjsthehardway.com/blog/18-stripe-is-paypal-circa-2010/",
+          "publishedOn": "2022-10-10T14:52:00.000Z",
+          "wordCount": null,
+          "title": "Stripe is Paypal circa 2010",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1870",
           "author": null,
           "description": "This week we’re talking fresh, faster, and new web frameworks by way of JS Party. Yes, today’s show is a web framework sampler because a new batch of web frameworks have emerged. There’s always something new happening in the front-end world and JS Party does an amazing job of keeping us up to date. So…what’s fresh, faster, and new?\nThe first segment of the show focuses on Deno’s Fresh new web framework. Luca Casonato joins Jerod & Feross to talk about Fresh – a next generation web framework, built for speed, reliability, and simplicity.\nIn segment two, AngularJS creator Miško Hevery joins Jerod and KBall to talk about Qwik. He says Qwik is a fundamental rethinking of how a web application should work. And he’s attempting to convince Jerod & KBall that the implications of that are BIG.\nIn t…",
@@ -966,6 +1001,24 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/",
+          "author": null,
+          "description": "In Lamwo district, in northern Uganda, providing access to electricity is a challenge. In a country where only about 24% of the population has a power supply to their home from the national grid, the rate in Lamwo is even lower. This is partly due to lack of information: The government doesn’t have precise data about where settlements are located, what types of buildings there are, and what the buildings’ electricity needs might be. And canvassing the area isn’t practical, because the roads require four-wheel-drive vehicles and are impassable in the rain.\nErnest Mwebaze leads Sunbird AI, a Ugandan nonprofit that uses data technology for social good. They’re assessing areas in Lamwo district to support planning at the Ministry of Energy in Uganda. “There are large areas to plan for,” explai…",
+          "link": "https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/",
+          "publishedOn": "2022-10-11T12:00:00.000Z",
+          "wordCount": 1494,
+          "title": "How mapping the world’s buildings makes a difference"
+        },
+        {
+          "id": "https://blog.google/outreach-initiatives/google-org/world-mental-health-day-2022/",
+          "author": null,
+          "description": "The World Health Organization (WHO) estimates that nearly 1 billion people are living with a mental disorder, worldwide. During the global pandemic, the world saw a 25% increase in the prevalence of anxiety and depression. There was even a corresponding spike in searches on Google for mental health resources — which is a trend that continues to climb each year. To help people connect with timely, life-saving information and resources and to empower them to take action on their mental health needs, teams of Googlers are working — inside and outside of the company — to make sure everyone has access to mental health support.\n\n\nConnecting people to resources on Search and YouTube\nBefore we can connect people to timely information and resources, we need to understand their intent when they turn…",
+          "link": "https://blog.google/outreach-initiatives/google-org/world-mental-health-day-2022/",
+          "publishedOn": "2022-10-10T16:00:00.000Z",
+          "wordCount": 1430,
+          "title": "Meeting global mental health needs, with technology's help"
+        },
+        {
           "id": "https://blog.google/outreach-initiatives/google-org/our-commitment-on-using-ai-to-accelerate-progress-on-global-development-goals/",
           "author": null,
           "description": "I joined Google earlier this year to lead a new function: Technology & Society. Our aim is to help connect research, people and ideas across Google to shape the future of our technology innovations and their impact on society for the better. A key area of focus is AI, a field I have studied and immersed myself in over the years. I recently met with a team at the Google AI Center in Ghana that is using advanced technology to address an ancient problem: detecting locust outbreaks which threaten food security and livelihoods for millions of people. And in India and Bangladesh, our Crisis Response teams are using our machine-learning-based forecasting to provide over 360 million people with alerts about upcoming floods.\n\n\nEfforts like these make me optimistic about how AI can contribute to sol…",
@@ -1095,15 +1148,6 @@
           "publishedOn": "2022-09-15T12:25:53.255Z",
           "wordCount": 884,
           "title": "Data Quality Automation at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "author": null,
-          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "publishedOn": "2022-09-11T12:19:47.586Z",
-          "wordCount": 818,
-          "title": "Reconsidering Tweets"
         }
       ]
     },
@@ -1117,7 +1161,17 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=47924",
+          "author": "Gabriele Svelto",
+          "description": "If you're running Firefox on macOS you might have noticed that its responsiveness has improved significantly in version 103, especially if you've got a lot of tabs, or when your machine is busy running other applications at the same time. This improvement was achieved via a small change in how locking is implemented within Firefox's memory allocator.\nThe post Improving Firefox responsiveness on macOS appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/10/improving-firefox-responsiveness-on-macos/",
+          "publishedOn": "2022-10-10T15:13:02.000Z",
+          "wordCount": 1557,
+          "title": "Improving Firefox responsiveness on macOS"
+        }
+      ]
     },
     {
       "title": "The GitHub Blog",

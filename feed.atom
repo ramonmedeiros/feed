@@ -2,10 +2,110 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-10T12:28:55.244Z</updated>
+    <updated>2022-10-11T12:27:03.621Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How mapping the world’s buildings makes a difference]]></title>
+        <id>https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/</id>
+        <link href="https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/"/>
+        <updated>2022-10-11T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Lamwo district, in northern Uganda, providing access to electricity is a challenge. In a country where only about 24% of the population has a power supply to their home from the national grid, the rate in Lamwo is even lower. This is partly due to lack of information: The government doesn’t have precise data about where settlements are located, what types of buildings there are, and what the buildings’ electricity needs might be. And canvassing the area isn’t practical, because the roads require four-wheel-drive vehicles and are impassable in the rain.
+Ernest Mwebaze leads Sunbird AI, a Ugandan nonprofit that uses data technology for social good. They’re assessing areas in Lamwo district to support planning at the Ministry of Energy in Uganda. “There are large areas to plan for,” explai…]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Forking SQLite, generative AI for music, saying no to sprints, awesome diagramming tools & state machine facts]]></title>
+        <id>changelog.com/1/1871</id>
+        <link href="https://changelog.com/podcast/news-2022-10-10"/>
+        <updated>2022-10-10T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The libSQL community is forking SQLite, StabilityAI announces Haromai and Dance Diffusion, Robin Rendle doesn’t believe in sprints, Shubham Garg curates some awesome diagramming tools & Chris Pressey writes up some must-read facts about state machines.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Unpopular Opinion Twitter Thread
+libSQL is a fork of SQLite
+StabilityAI announced AI Music Generator Harmonai
+I Don’t Believe in Sprints
+Awesome Diagramming
+Facts About State Machines
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting global mental health needs, with technology's help]]></title>
+        <id>https://blog.google/outreach-initiatives/google-org/world-mental-health-day-2022/</id>
+        <link href="https://blog.google/outreach-initiatives/google-org/world-mental-health-day-2022/"/>
+        <updated>2022-10-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The World Health Organization (WHO) estimates that nearly 1 billion people are living with a mental disorder, worldwide. During the global pandemic, the world saw a 25% increase in the prevalence of anxiety and depression. There was even a corresponding spike in searches on Google for mental health resources — which is a trend that continues to climb each year. To help people connect with timely, life-saving information and resources and to empower them to take action on their mental health needs, teams of Googlers are working — inside and outside of the company — to make sure everyone has access to mental health support.
+
+
+Connecting people to resources on Search and YouTube
+Before we can connect people to timely information and resources, we need to understand their intent when they turn…]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use SQL to instantly query your cloud services]]></title>
+        <id>changelog.com/news/V10P</id>
+        <link href="https://github.com/turbot/steampipe"/>
+        <updated>2022-10-10T15:44:00.000Z</updated>
+        <summary type="html"><![CDATA[This lets you do so many cool things, even joining across disparate services:
+select
+  aws.name aws_user_name,
+  slack.id as slack_user_id,
+  slack.display_name as slack_name
+from
+  aws_iam_user as aws,
+  slack_user as slack
+where
+  aws.name = slack.email;
+
++--------------------------+---------------+------------+
+|     aws_user_name        | slack_user_id | slack_name |
++--------------------------+---------------+------------+
+| dwight@dundermifflin.com | U2EMB8HLP     | dwight     |
+| jim@dundermifflin.com    | U02HE4Z7E     | jim        |
++--------------------------+---------------+------------+
+
+Useful for compliance, security, ops, and cost management.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Firefox responsiveness on macOS]]></title>
+        <id>https://hacks.mozilla.org/?p=47924</id>
+        <link href="https://hacks.mozilla.org/2022/10/improving-firefox-responsiveness-on-macos/"/>
+        <updated>2022-10-10T15:13:02.000Z</updated>
+        <summary type="html"><![CDATA[If you're running Firefox on macOS you might have noticed that its responsiveness has improved significantly in version 103, especially if you've got a lot of tabs, or when your machine is busy running other applications at the same time. This improvement was achieved via a small change in how locking is implemented within Firefox's memory allocator.
+The post Improving Firefox responsiveness on macOS appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Gabriele Svelto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stripe is Paypal circa 2010]]></title>
+        <id>changelog.com/news/y7GA</id>
+        <link href="https://learnjsthehardway.com/blog/18-stripe-is-paypal-circa-2010/"/>
+        <updated>2022-10-10T14:52:00.000Z</updated>
+        <summary type="html"><![CDATA[A journey from Stripe to Paypal and back to Stripe led Zed Shaw to the conclusion in the headline. And, no, that is not a compliment (in case you weren’t sure).
+Zed goes deep on why he feels this way, listing seven serious downsides to using Stripe today. What’s a dev to do? His advice at the end alone is worth the cost of admission:
+This is why I advocate to people to be ready to switch payment processing at a moment’s notice. Right now I could flip two options and I’d be back on Paypal. If I was pressed I could probably implement any other payment processor in about a week or a day. The ability to quickly switch payments is your only defense against frozen accounts, fraud, and rogue employees.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is it like being a Business Analyst at Nubank?]]></title>
         <id>https://building.nubank.com.br/?p=19326</id>
@@ -1825,16 +1925,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[The dash-dash-libcurl is the sometimes missed curl gem that you might want to know about and occasionally maybe even use. How do I convert There is a very common pattern in curl land: a user who is writing an application using language L first does something successfully with the curl command line tool and then … Continue reading convert a curl cmdline to libcurl source code →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reconsidering Tweets]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets"/>
-        <updated>2022-09-11T12:19:47.586Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>
