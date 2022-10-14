@@ -2,10 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-13T12:25:34.803Z</updated>
+    <updated>2022-10-14T12:26:41.901Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rewriting curl in three days]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20379</id>
+        <link href="https://daniel.haxx.se/blog/2022/10/14/rewriting-curl-in-three-days/"/>
+        <updated>2022-10-14T11:52:11.000Z</updated>
+        <summary type="html"><![CDATA[To celebrate the hubris-infested comment from a few years ago, I created this book cover mock up. Turned out very popular on Twitter.]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There is a tab in my cookie]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20387</id>
+        <link href="https://daniel.haxx.se/blog/2022/10/14/there-is-a-tab-in-my-cookie/"/>
+        <updated>2022-10-14T08:06:09.000Z</updated>
+        <summary type="html"><![CDATA[An HTTP cookie, is just a name + value pair sent from the server to the client. That pair is stored and is sent back to the server in subsequent requests when conditions match. Cookies were first invented and used in the 1990s. Sources seem to agree that the first browser to support them, was … Continue reading There is a tab in my cookie →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rethinking authentication UX]]></title>
+        <id>changelog.com/news/kwyY</id>
+        <link href="https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/"/>
+        <updated>2022-10-13T20:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Smashing Mag’s Vitaly Friedman puts down some of his recent thoughts on authentication flows:
+nobody wakes up in the morning hoping to finally identify crosswalks and fire hydrants that day. Yet every day, we prompt users through hoops and loops to sign up and log in, to set a complex enough password or recover one, to find a way to restore access to locked accounts and logged-out sessions.
+Of course security matters, yet too often, it gets in the way of usability. As Jared Spool said once, “If a product isn’t usable, it’s also not secure.” That’s when people start using private email accounts and put passwords on stick-it-notes because they forget them. As usual, Jared hits the nail on the head here. So what can we do to improve the authentication UX?
+Vitaly lists seven recommendations. Nothing radical here, but solid advice worth thinking through.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing GitHub Advanced Security SIEM integrations for security professionals]]></title>
+        <id>https://github.blog/?p=67795</id>
+        <link href="https://github.blog/2022-10-13-introducing-github-advanced-security-siem-integrations-for-security-professionals/"/>
+        <updated>2022-10-13T19:25:03.000Z</updated>
+        <summary type="html"><![CDATA[Learn about using GitHub Advanced Security (GHAS) alerts with Security Information and Events Management (SIEM) tools. Check out the integrations, and read more about getting started.]]></summary>
+        <author>
+            <name>Daniel Shanahan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 251: Hacking with Go: Part 2]]></title>
+        <id>changelog.com/2/1832</id>
+        <link href="https://changelog.com/gotime/251"/>
+        <updated>2022-10-13T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re once again exploring hacking in Go from the eyes of security researchers. This time, Natalie & Ian are joined by Ivan Kwiatkowski (a.k.a. Justice Rage)!
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
+
+    
+FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/
+
+    
+Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog
+
+    
+Featuring
+Ivan Kwiatkowski – Twitter, GitHub
+Natalie Pistunovich – Twitter, GitHub
+Ian Lopshire – Twitter, GitHub
+Notes and Links
+🎧 Hacking with Go: Part 1
+Reversing in action: Golang malware used in the SolarWinds attack
+Stowaway
+Brute Ratel
+Reverse Engineering for Beginners
+Practical Malware Analysis
+Turing Complete on Steam
+The Zachtronics Puzzle Pack on Steam
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing HackerOne Assets]]></title>
+        <id>https://hackerone.com/vulnerability-management/introducing-hackerone-assets</id>
+        <link href="https://www.hackerone.com/vulnerability-management/introducing-hackerone-assets"/>
+        <updated>2022-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding where the critical flaws lie within your organization's attack surface is critical—but complicated. After all, your attack surface includes your infrastructure, network, software, applications, devices, and the extended supply chain. But it doesn’t stop there. Digital transformation, cloud adoption, the shift to remote work, mergers and acquisitions (M&A), and shadow IT further muddy the waters for today’s security leaders.]]></summary>
+        <author>
+            <name>Naz Bozdemir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Corb3nik Introduces His Tool: Caido]]></title>
+        <id>https://hackerone.com/hackerone-community-blog/corb3nik-introduces-his-tool-caido</id>
+        <link href="https://www.hackerone.com/hackerone-community-blog/corb3nik-introduces-his-tool-caido"/>
+        <updated>2022-10-13T15:38:07.000Z</updated>
+        <summary type="html"><![CDATA[So, who is Corb3nik?
+My name is Ian, also known as Corb3nik on social media. I’m a long time CTF enthusiast and bug bounty hunter. Currentl]]></summary>
+        <author>
+            <name>jesse@hackerone.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Story of Scalar]]></title>
+        <id>https://github.blog/?p=67767</id>
+        <link href="https://github.blog/2022-10-13-the-story-of-scalar/"/>
+        <updated>2022-10-13T15:00:12.000Z</updated>
+        <summary type="html"><![CDATA[New to Git v2.38, Scalar is a built-in repository manager for large repos. Here, we’ll tell the story of how Scalar went from a rough VFS for Git successor to a fully-integrated Git tool, with all of the engineering lessons learned in the process.]]></summary>
+        <author>
+            <name>Derrick Stolee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The myth of mass collaboration]]></title>
+        <id>changelog.com/news/X1Rd</id>
+        <link href="https://staltz.com/the-myth-of-mass-collaboration.html"/>
+        <updated>2022-10-13T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[André Staltz:
+I used to believe there was mass collaboration on the internet. But I’ve realized that collaboration is extremely hard. It does not scale, especially not at internet scale. The examples we look up to are either not collaborative on the microscopic level, or are rare exceptions to the rule.
+The examples he’s referring to are “Wikipedia, open source projects such as Linux, hacktivism, and crowdsourced science experiments such as Rosetta@home.”
+This post is sobering, but André speaks from a lot of experience.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ship It! 74: Vorsprung durch Technik]]></title>
         <id>changelog.com/14/1838</id>
@@ -1913,42 +2038,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 70: Kaizen! Four PRs, one big feature]]></title>
-        <id>changelog.com/14/1695</id>
-        <link href="https://changelog.com/shipit/70"/>
-        <updated>2022-09-14T18:20:00.000Z</updated>
-        <summary type="html"><![CDATA[In today’s Kaizen episode, we talk about shipping Adam’s Christmas present: chapter support for all Changelog episodes that we now publish. This feature was hard because there are many subtle differences in how the ID3 spec is implemented. Of course, once the PR shipped, there were other issues to solve, including an upgrade the world kind of scenario. Since Lars Wikman did all the heavy ID3 lifting, he is here with us too.
-Discuss on Changelog News
-Changelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!
-Sponsors
-Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 things you didn’t know you could do with GitHub Copilot]]></title>
-        <id>https://github.blog/?p=67059</id>
-        <link href="https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/"/>
-        <updated>2022-09-14T16:00:43.000Z</updated>
-        <summary type="html"><![CDATA[Developers all over the world are using GitHub Copilot to help speed up their development and increase developer productivity. With GitHub Copilot available to developers everywhere, we’ve found some fun and useful examples of how developers can use GitHub Copilot for things you may not be thinking about.]]></summary>
-        <author>
-            <name>Rizel Scarlett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quickly browse the history of files in any git repo]]></title>
-        <id>changelog.com/news/EqLQ</id>
-        <link href="https://githistory.xyz/"/>
-        <updated>2022-09-14T13:23:01.000Z</updated>
-        <summary type="html"><![CDATA[This nifty little web app lets you tour the history of a file on GitHub. The coolest part about it is that you don’t have to download or install anything! Just change the github.com part of the URL with github.githistory.xyz and you’re in action!
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

@@ -18,6 +18,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/kwyY",
+          "author": "Jerod Santo",
+          "description": "Smashing Mag’s Vitaly Friedman puts down some of his recent thoughts on authentication flows:\nnobody wakes up in the morning hoping to finally identify crosswalks and fire hydrants that day. Yet every day, we prompt users through hoops and loops to sign up and log in, to set a complex enough password or recover one, to find a way to restore access to locked accounts and logged-out sessions.\nOf course security matters, yet too often, it gets in the way of usability. As Jared Spool said once, “If a product isn’t usable, it’s also not secure.” That’s when people start using private email accounts and put passwords on stick-it-notes because they forget them. As usual, Jared hits the nail on the head here. So what can we do to improve the authentication UX?\nVitaly lists seven recommendations. Nothing radical here, but solid advice worth thinking through.\nDiscuss on Changelog News",
+          "link": "https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/",
+          "publishedOn": "2022-10-13T20:57:00.000Z",
+          "wordCount": null,
+          "title": "Rethinking authentication UX",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1832",
+          "author": null,
+          "description": "We’re once again exploring hacking in Go from the eyes of security researchers. This time, Natalie & Ian are joined by Ivan Kwiatkowski (a.k.a. Justice Rage)!\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nIvan Kwiatkowski – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nNotes and Links\n🎧 Hacking with Go: Part 1\nReversing in action: Golang malware used in the SolarWinds attack\nStowaway\nBrute Ratel\nReverse Engineering for Beginners\nPractical Malware Analysis\nTuring Complete on Steam\nThe Zachtronics Puzzle Pack on Steam\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/251",
+          "publishedOn": "2022-10-13T18:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 251: Hacking with Go: Part 2",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/251/go-time-251.mp3",
+            "length": "63122622",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/X1Rd",
+          "author": "Jerod Santo",
+          "description": "André Staltz:\nI used to believe there was mass collaboration on the internet. But I’ve realized that collaboration is extremely hard. It does not scale, especially not at internet scale. The examples we look up to are either not collaborative on the microscopic level, or are rare exceptions to the rule.\nThe examples he’s referring to are “Wikipedia, open source projects such as Linux, hacktivism, and crowdsourced science experiments such as Rosetta@home.”\nThis post is sobering, but André speaks from a lot of experience.\nDiscuss on Changelog News",
+          "link": "https://staltz.com/the-myth-of-mass-collaboration.html",
+          "publishedOn": "2022-10-13T14:00:00.000Z",
+          "wordCount": null,
+          "title": "The myth of mass collaboration",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/14/1838",
           "author": null,
           "description": "I don’t think that you can imagine just how excited Gerhard was to find out that Audi, his favourite car company, has a Kubernetes competence centre. We have Sebastian Kister joining us today to tell us why people, followed by tech make the process.\nThe right thing to focus on is the genuine smiles that people give in response to something we do or say. That is an important SLI & SLO for reducing friction between silos.\nHow does this impact the flow of artefacts into production systems that design & build cars?\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make su…",
@@ -951,31 +986,6 @@
           "wordCount": null,
           "title": "JavaScript APIs you (probably) don’t know about",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1695",
-          "author": null,
-          "description": "In today’s Kaizen episode, we talk about shipping Adam’s Christmas present: chapter support for all Changelog episodes that we now publish. This feature was hard because there are many subtle differences in how the ID3 spec is implemented. Of course, once the PR shipped, there were other issues to solve, including an upgrade the world kind of scenario. Since Lars Wikman did all the heavy ID3 lifting, he is here with us too.\nDiscuss on Changelog News\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of …",
-          "link": "https://changelog.com/shipit/70",
-          "publishedOn": "2022-09-14T18:20:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 70: Kaizen! Four PRs, one big feature",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/70/ship-it-70.mp3",
-            "length": "64690999",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/EqLQ",
-          "author": "Jerod Santo",
-          "description": "This nifty little web app lets you tour the history of a file on GitHub. The coolest part about it is that you don’t have to download or install anything! Just change the github.com part of the URL with github.githistory.xyz and you’re in action!\n\nDiscuss on Changelog News",
-          "link": "https://githistory.xyz/",
-          "publishedOn": "2022-09-14T13:23:01.000Z",
-          "wordCount": null,
-          "title": "Quickly browse the history of files in any git repo",
-          "itunes": {}
         }
       ]
     },
@@ -1052,6 +1062,24 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20379",
+          "author": "Daniel Stenberg",
+          "description": "To celebrate the hubris-infested comment from a few years ago, I created this book cover mock up. Turned out very popular on Twitter.",
+          "link": "https://daniel.haxx.se/blog/2022/10/14/rewriting-curl-in-three-days/",
+          "publishedOn": "2022-10-14T11:52:11.000Z",
+          "wordCount": 268,
+          "title": "Rewriting curl in three days"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20387",
+          "author": "Daniel Stenberg",
+          "description": "An HTTP cookie, is just a name + value pair sent from the server to the client. That pair is stored and is sent back to the server in subsequent requests when conditions match. Cookies were first invented and used in the 1990s. Sources seem to agree that the first browser to support them, was … Continue reading There is a tab in my cookie →",
+          "link": "https://daniel.haxx.se/blog/2022/10/14/there-is-a-tab-in-my-cookie/",
+          "publishedOn": "2022-10-14T08:06:09.000Z",
+          "wordCount": 1475,
+          "title": "There is a tab in my cookie"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=19536",
           "author": "Daniel Stenberg",
@@ -1196,6 +1224,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67795",
+          "author": "Daniel Shanahan",
+          "description": "Learn about using GitHub Advanced Security (GHAS) alerts with Security Information and Events Management (SIEM) tools. Check out the integrations, and read more about getting started.",
+          "link": "https://github.blog/2022-10-13-introducing-github-advanced-security-siem-integrations-for-security-professionals/",
+          "publishedOn": "2022-10-13T19:25:03.000Z",
+          "wordCount": 1407,
+          "title": "Introducing GitHub Advanced Security SIEM integrations for security professionals"
+        },
+        {
+          "id": "https://github.blog/?p=67767",
+          "author": "Derrick Stolee",
+          "description": "New to Git v2.38, Scalar is a built-in repository manager for large repos. Here, we’ll tell the story of how Scalar went from a rough VFS for Git successor to a fully-integrated Git tool, with all of the engineering lessons learned in the process.",
+          "link": "https://github.blog/2022-10-13-the-story-of-scalar/",
+          "publishedOn": "2022-10-13T15:00:12.000Z",
+          "wordCount": 4629,
+          "title": "The Story of Scalar"
+        },
         {
           "id": "https://github.blog/?p=67730",
           "author": "Laura Lindeman",
@@ -1438,15 +1484,6 @@
           "publishedOn": "2022-09-16T15:31:30.000Z",
           "wordCount": 1680,
           "title": "How we tripled max concurrent jobs to boost performance of GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=67059",
-          "author": "Rizel Scarlett",
-          "description": "Developers all over the world are using GitHub Copilot to help speed up their development and increase developer productivity. With GitHub Copilot available to developers everywhere, we’ve found some fun and useful examples of how developers can use GitHub Copilot for things you may not be thinking about.",
-          "link": "https://github.blog/2022-09-14-8-things-you-didnt-know-you-could-do-with-github-copilot/",
-          "publishedOn": "2022-09-14T16:00:43.000Z",
-          "wordCount": 1871,
-          "title": "8 things you didn’t know you could do with GitHub Copilot"
         }
       ]
     },
@@ -1507,6 +1544,24 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/vulnerability-management/introducing-hackerone-assets",
+          "author": "Naz Bozdemir",
+          "description": "Understanding where the critical flaws lie within your organization's attack surface is critical—but complicated. After all, your attack surface includes your infrastructure, network, software, applications, devices, and the extended supply chain. But it doesn’t stop there. Digital transformation, cloud adoption, the shift to remote work, mergers and acquisitions (M&A), and shadow IT further muddy the waters for today’s security leaders.",
+          "link": "https://www.hackerone.com/vulnerability-management/introducing-hackerone-assets",
+          "publishedOn": "2022-10-13T16:00:00.000Z",
+          "wordCount": 1015,
+          "title": "Introducing HackerOne Assets"
+        },
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/corb3nik-introduces-his-tool-caido",
+          "author": "jesse@hackerone.com",
+          "description": "So, who is Corb3nik?\nMy name is Ian, also known as Corb3nik on social media. I’m a long time CTF enthusiast and bug bounty hunter. Currentl",
+          "link": "https://www.hackerone.com/hackerone-community-blog/corb3nik-introduces-his-tool-caido",
+          "publishedOn": "2022-10-13T15:38:07.000Z",
+          "wordCount": 1181,
+          "title": "Corb3nik Introduces His Tool: Caido"
+        },
         {
           "id": "https://hackerone.com/ethical-hacker/thank-you-hacker-community-hackerone",
           "author": "HackerOne",
