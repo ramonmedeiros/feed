@@ -4,7 +4,26 @@
       "title": "Google Online Security Blog",
       "feedUrl": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "siteUrl": "http://security.googleblog.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html",
+          "author": null,
+          "description": "Posted by Arnar Birgisson, Software Engineer\n\n\nWe are excited to announce passkey support on Android and Chrome for developers to test today, with general availability following later this year. In this post we cover details on how passkeys stored in the Google Password Manager are kept secure. See our post on the Android Developers Blog for a more general overview.\nPasskeys are a safer and more secure alternative to passwords. They also replace the need for traditional 2nd factor authentication methods such as text message, app based one-time codes or push-based approvals. Passkeys use public-key cryptography so that data breaches of service providers don't result in a compromise of passkey-protected accounts, and are based on industry standard APIs and protocols to ensure they are not su…",
+          "link": "http://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html",
+          "publishedOn": "2022-10-12T12:00:00.000Z",
+          "wordCount": 2545,
+          "title": "Security of Passkeys in the Google Password Manager"
+        },
+        {
+          "id": "http://security.googleblog.com/2022/10/google-pixel-7-and-pixel-7-pro-next.html",
+          "author": null,
+          "description": "Dave Kleidermacher, Jesse Seed, Brandon Barbello, Sherif Hanna, Eugene Liderman, Android, Pixel, and Silicon Security Teams \nEvery day, billions of people around the world trust Google products to enrich their lives and provide helpful features –  across mobile devices, smart home devices, health and fitness devices, and more. We keep more people safe online than anyone else in the world, with products that are secure by default, private by design and that put you in control. As our advancements in knowledge and computing grow to deliver more help across contexts, locations and languages, our unwavering commitment to protecting your information remains. \nThat’s why Pixel phones are designed from the ground up to help protect you and your sensitive data while keeping you in control. We’re t…",
+          "link": "http://security.googleblog.com/2022/10/google-pixel-7-and-pixel-7-pro-next.html",
+          "publishedOn": "2022-10-11T17:01:00.004Z",
+          "wordCount": 2474,
+          "title": "Google Pixel 7 and Pixel 7 Pro: The next evolution in mobile security"
+        }
+      ]
     },
     {
       "title": "Google Testing Blog",
@@ -911,66 +930,6 @@
           "wordCount": null,
           "title": "A fast terminal UI for Git",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1843",
-          "author": null,
-          "description": "This week on The Changelog we’re talking about Stable Diffusion, DALL-E, and the impact of AI generated art. We invited our good friend Simon Willison on the show today because he wrote a very thorough blog post titled, “Stable Diffusion is a really big deal.”\nYou may know Simon from his extensive contributions to open source software. Simon is a co-creator of the Django Web framework (which we don’t talk about at all on this show), he’s the creator of Datasette, a multi-tool for exploring and publishing data (which we do talk about on this show)…most of all Simon is a very insightful thinker, which he puts on display here on this episode. We talk from all the angles of this topic, the technical, the innovation, the future and possibilities, the ethical and the moral – we get into it all. …",
-          "link": "https://changelog.com/podcast/506",
-          "publishedOn": "2022-09-16T20:45:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 506: Stable Diffusion breaks the internet",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/506/the-changelog-506.mp3",
-            "length": "74282049",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/1839",
-          "author": null,
-          "description": "Austin Gil joins the show and KBall continues an old email correspondence about the JS community and growth. Then, the gang plays a round of TIL where Austin shares his learnings about the HTML capture attribute. Finally, Austin shares what it’s like to have a blog post blow up.\nDiscuss on Changelog News\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nDEX: Sort the Madness – Join our friends at Sentry for their upcoming developer experience conference called DEX: Sort the Madness. This event will be in-person in San Francisco AND virtual on September 28. This is a free conference by developers for developers where you’ll sort through the madness and look at ways to improve workflow productivity. Learn more and register\n\n    \nVercel – Vercel combines the best developer experience with an obsessive focus on end-user performance.  Our platform enables frontend teams to do their best work. Unlock a better frontend workflow today.\n\n    \nFly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nHasura – Create dynamic high-performance GraphQL & REST APIs from your database(s) in minutes with granular authorization and caching baked in. All without touching your underlying database. Go from data to API in minutes. Get started for free at hasura.io/jsparty\n\n    \nFeaturing\nAustin Gil – Twitter, GitHub, LinkedIn, Website\nNick Nisi – Twitter, GitHub, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nTIL: You can access a user’s camera with just HTML\nHN Link\nVideo Explainer\nObsidian\nObsidian Sample Plugin\nOODA Loop\nFunction Call podcast\nSubmit to Changelog News\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/243",
-          "publishedOn": "2022-09-16T17:30:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 243: Smile! HTML can access your camera",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/jsparty/243/js-party-243.mp3",
-            "length": "64395571",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/kwby",
-          "author": "Jerod Santo",
-          "description": "So you got tired of AI just suggesting code edits, and now you want it to help you run code, too. Silly human, you have come to the right place. This will take five steps.\nThis gets an A+ for creativity. Fire up your shell, then launch Neovim. Then shell out with :VimShell to get back to where you started, but with Copilot suggestions.\nMy guess is the ergonomics of this are… bad. But a cool hack, regardless!\nDiscuss on Changelog News",
-          "link": "https://github.com/maxwell-bland/copilot-in-the-terminal",
-          "publishedOn": "2022-09-16T15:26:00.000Z",
-          "wordCount": null,
-          "title": "Hacking  GitHub Copilot in to the terminal",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/gwZG",
-          "author": "Jerod Santo",
-          "description": "This tool calls itself the “best RSS search experience you can find” but really, are there other RSS search experiences out there? The results are a little underwhelming at the moment, but I’m sharing it because RSS and I’m sure it’ll get better with more eyes/feeds on it. 👀\nDiscuss on Changelog News",
-          "link": "https://github.com/dato-ai/dato.rss",
-          "publishedOn": "2022-09-16T14:38:00.000Z",
-          "wordCount": null,
-          "title": "A search engine based on RSS feeds",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/X1Nk",
-          "author": "Jerod Santo",
-          "description": "Devon Zuegel draws a comparison that I would’ve never thought of:\nPirate crews developed a surprisingly similar approach to compensation in the 17th century. Just like many startups, they also balanced equity incentives with other mechanisms that would be familiar to a startup employee today, such as bonuses.\nThese surprising similarities offer an interesting frame through which we can reflect on why startup equity and bonuses are structured the way they are. We can learn a lot about the theory of compensation in modern companies by looking at how pirates designed incentives to organize and motivate their work.\nMaybe it’s time to stop hiring “frontend wizards” and start looking for “frontend pirates” instead, matey.\nDiscuss on Changelog News",
-          "link": "https://devonzuegel.com/post/uncharted-waters-what-startups-can-learn-from-pirates-about-compensation",
-          "publishedOn": "2022-09-16T13:48:00.000Z",
-          "wordCount": null,
-          "title": "What startups can learn from pirates about compensation",
-          "itunes": {}
         }
       ]
     },
@@ -1082,6 +1041,24 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "author": null,
+          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "publishedOn": "2022-10-16T12:22:09.700Z",
+          "wordCount": 1274,
+          "title": "Powering real-time data analytics with Druid at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "author": null,
+          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "publishedOn": "2022-10-16T12:22:09.681Z",
+          "wordCount": 884,
+          "title": "Data Quality Automation at Twitter"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
           "author": null,
           "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
@@ -1152,15 +1129,6 @@
           "publishedOn": "2022-09-20T12:26:13.738Z",
           "wordCount": 1356,
           "title": "Scaling data access by moving an exabyte of data to Google Cloud"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "author": null,
-          "description": "In this blog, we share details about how we built an in-house product called Qurious, which allows our internal customers to get answers to their analytical queries through natural language questions.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries",
-          "publishedOn": "2022-09-16T12:21:13.565Z",
-          "wordCount": 2037,
-          "title": "Next generation data insights using natural language queries"
         }
       ]
     },
@@ -1451,15 +1419,6 @@
           "publishedOn": "2022-09-19T16:28:44.000Z",
           "wordCount": 1758,
           "title": "5 tips for prioritizing Dependabot alerts"
-        },
-        {
-          "id": "https://github.blog/?p=67084",
-          "author": "Aiqiao Yan",
-          "description": "The GitHub Actions team has done lots of work to improve the performance and resource consumption of Actions on GHES in the past year.",
-          "link": "https://github.blog/2022-09-16-how-we-tripled-max-concurrent-jobs-to-boost-performance-of-github-actions/",
-          "publishedOn": "2022-09-16T15:31:30.000Z",
-          "wordCount": 1680,
-          "title": "How we tripled max concurrent jobs to boost performance of GitHub Actions"
         }
       ]
     },
@@ -1512,15 +1471,6 @@
           "publishedOn": "2022-09-19T20:30:09.000Z",
           "wordCount": 3624,
           "title": "What is it to have a career at Nubank’s Information Security Team (Infosec)?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19067",
-          "author": "Nubank Editorial",
-          "description": "Product Marketing Managers (PMM) are marketing professionals who act within product teams as a bridge between business, brand, and client development.\nThe post What is it like being a Product Marketing Manager at Nubank? appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/product-marketing-manager-at-nubank/",
-          "publishedOn": "2022-09-16T17:37:43.000Z",
-          "wordCount": 3506,
-          "title": "What is it like being a Product Marketing Manager at Nubank?"
         }
       ]
     },
