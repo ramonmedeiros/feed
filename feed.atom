@@ -2,10 +2,125 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-17T12:28:25.743Z</updated>
+    <updated>2022-10-18T12:27:39.995Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Deviating from specs]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20422</id>
+        <link href="https://daniel.haxx.se/blog/2022/10/18/deviating-from-specs/"/>
+        <updated>2022-10-18T12:19:33.000Z</updated>
+        <summary type="html"><![CDATA[tldr: we do not particular keep track nor document curl’s exact spec compliance. I cannot fathom how we could. Today, in October 2022, curl and libcurl combined consist of nearly 150,000 lines of source code (not counting blank lines). 19% of those are comments. This source code pile was carefully crafted with the sole purpose … Continue reading Deviating from specs →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Harmonai revisited, lessons learned from public salary, Open Core Ventures, Stripe is Paypal in 2010 & Helix]]></title>
+        <id>changelog.com/1/1879</id>
+        <link href="https://changelog.com/podcast/news-2022-10-17"/>
+        <updated>2022-10-17T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[We revisit our Harmonai story from last week, Jamie Tanna reviews posting his salary history publicly, Sid Sijbrandij’s new (open core) venture fund, Zed Shaw thinks Stripe is like Paypal in 2010 & Helix is a new Rust-based terminal.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Jerod Santo – Twitter, GitHub
+Notes and Links
+Zach Evans on Twitter
+Lessons learned since posting my salary history publicly
+Open Core Ventures
+Stripe is Paypal circa 2010
+Helix Editor (pic)
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to build software like an SRE]]></title>
+        <id>changelog.com/news/Y1lV</id>
+        <link href="https://www.willett.io/posts/precepts/"/>
+        <updated>2022-10-17T19:02:36.000Z</updated>
+        <summary type="html"><![CDATA[This is awesome — Brandon, please write down more lessons as learned, even if they’re just something for you to reference later on.
+I’ve been doing this “reliability” stuff for a little while now (~5 years), at companies ranging from about 20 developers to over 2,000. I’ve always cared primarily about the software elements I describe as living “outside” the application – like, how does it get its configuration? What kinds of instances does it run on, and are those the best kinds to use? What steps does it take on its path from “code in a repository” to “running in production”? And I’ve always kept track of what I liked – which mechanisms allowed fast iteration and which caused frustration, which led to outages and which prevented them.
+… So! With that out of the way – this is how I’d rebuild it all from scratch if I could.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clojure 15th Anniversary: A Retrospective]]></title>
+        <id>https://building.nubank.com.br/?p=19498</id>
+        <link href="https://building.nubank.com.br/clojure-15th-anniversary-a-retrospective/"/>
+        <updated>2022-10-17T18:25:07.000Z</updated>
+        <summary type="html"><![CDATA[Clojure’s history is beautiful and simple in code. Nubank has a lot of reasons to say: happy birthday, Clojure!
+The post Clojure 15th Anniversary: A Retrospective appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Georgia Anunciação - Technical Writer at Nubank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub at the 77th United Nations General Assembly]]></title>
+        <id>https://github.blog/?p=67882</id>
+        <link href="https://github.blog/2022-10-17-github-at-the-77th-united-nations-general-assembly/"/>
+        <updated>2022-10-17T17:00:54.000Z</updated>
+        <summary type="html"><![CDATA[Read about how the GitHub Social Impact, Tech for Social Good and Policy teams participated in the 77th session of the United Nations General Assembly, including events we hosted with the World Health Organization and the UN Development Programme.]]></summary>
+        <author>
+            <name>Mala Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The UNIX Pipe Card Game]]></title>
+        <id>changelog.com/news/rX3n</id>
+        <link href="https://punkx.org/unix-pipe-game/"/>
+        <updated>2022-10-17T16:16:00.000Z</updated>
+        <summary type="html"><![CDATA[An actual card game to teach actual kids how to actually combine unix commands with pipes.
+task: print the most common line from a file, we need to first cat the file (in our case the file is card 03.txt), then sort it, uniq count it, then do numeric sort, then tail -1:
+answer: cat 03.txt | sort | uniq -c | sort -n | tail -1
+Print it yourself or… actually it’s sold out for now so you’ll have to print it yourself.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A CRUD framework for full stack TypeScript]]></title>
+        <id>changelog.com/news/AXnQ</id>
+        <link href="https://github.com/remult/remult"/>
+        <updated>2022-10-17T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Full-stack web development is (still) too complicated. Simple CRUD, a common requirement of any business application, should be simple to build, maintain, and extend when the need arises.
+Remult is a full-stack CRUD framework that uses your TypeScript entities as a single source of truth for your API, frontend type-safe API client and backend ORM.
+This isn’t just production-ready, it’s been used in production since 2018.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 tips for embedding security into your workflows]]></title>
+        <id>https://github.blog/?p=67859</id>
+        <link href="https://github.blog/2022-10-17-5-tips-for-embedding-security-into-your-workflows/"/>
+        <updated>2022-10-17T15:00:47.000Z</updated>
+        <summary type="html"><![CDATA[Having a robust security plan is key to innovation. These tips will empower you to gain the upper hand on cyberattacks, so you can ship quickly and innovate with ease.]]></summary>
+        <author>
+            <name>Laura Paine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Connect VisiData to SQL Databases with vdsql]]></title>
+        <id>changelog.com/news/RdWw</id>
+        <link href="https://www.visidata.org/blog/2022/connect-visidata-to-sql-databases-with-vdsql/"/>
+        <updated>2022-10-17T14:42:00.000Z</updated>
+        <summary type="html"><![CDATA[vdsql is a new plugin that allows VisiData to connect to databases and query them directly, using the database’s own query engine.  It uses Ibis to generate SQL for many popular backends, including Postgres, DuckDB, Clickhouse, and more.
+vdsql v0.2, released this past week, is already quite useful, and development continues to improve both vdsql and VisiData for bigger data!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Saul Pwanson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Powering real-time data analytics with Druid at Twitter]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter</id>

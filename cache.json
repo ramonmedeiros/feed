@@ -37,6 +37,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1879",
+          "author": null,
+          "description": "We revisit our Harmonai story from last week, Jamie Tanna reviews posting his salary history publicly, Sid Sijbrandij’s new (open core) venture fund, Zed Shaw thinks Stripe is like Paypal in 2010 & Helix is a new Rust-based terminal.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nZach Evans on Twitter\nLessons learned since posting my salary history publicly\nOpen Core Ventures\nStripe is Paypal circa 2010\nHelix Editor (pic)\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-10-17",
+          "publishedOn": "2022-10-17T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Harmonai revisited, lessons learned from public salary, Open Core Ventures, Stripe is Paypal in 2010 & Helix",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-10-17/the-changelog-news-2022-10-17.mp3",
+            "length": "6929476",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Y1lV",
+          "author": "Adam Stacoviak",
+          "description": "This is awesome — Brandon, please write down more lessons as learned, even if they’re just something for you to reference later on.\nI’ve been doing this “reliability” stuff for a little while now (~5 years), at companies ranging from about 20 developers to over 2,000. I’ve always cared primarily about the software elements I describe as living “outside” the application – like, how does it get its configuration? What kinds of instances does it run on, and are those the best kinds to use? What steps does it take on its path from “code in a repository” to “running in production”? And I’ve always kept track of what I liked – which mechanisms allowed fast iteration and which caused frustration, which led to outages and which prevented them.\n… So! With that out of the way – this is how I’d rebuild it all from scratch if I could.\nDiscuss on Changelog News",
+          "link": "https://www.willett.io/posts/precepts/",
+          "publishedOn": "2022-10-17T19:02:36.000Z",
+          "wordCount": null,
+          "title": "How to build software like an SRE",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/rX3n",
+          "author": "Jerod Santo",
+          "description": "An actual card game to teach actual kids how to actually combine unix commands with pipes.\ntask: print the most common line from a file, we need to first cat the file (in our case the file is card 03.txt), then sort it, uniq count it, then do numeric sort, then tail -1:\nanswer: cat 03.txt | sort | uniq -c | sort -n | tail -1\nPrint it yourself or… actually it’s sold out for now so you’ll have to print it yourself.\n\nDiscuss on Changelog News",
+          "link": "https://punkx.org/unix-pipe-game/",
+          "publishedOn": "2022-10-17T16:16:00.000Z",
+          "wordCount": null,
+          "title": "The UNIX Pipe Card Game",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/AXnQ",
+          "author": "Jerod Santo",
+          "description": "Full-stack web development is (still) too complicated. Simple CRUD, a common requirement of any business application, should be simple to build, maintain, and extend when the need arises.\nRemult is a full-stack CRUD framework that uses your TypeScript entities as a single source of truth for your API, frontend type-safe API client and backend ORM.\nThis isn’t just production-ready, it’s been used in production since 2018.\nDiscuss on Changelog News",
+          "link": "https://github.com/remult/remult",
+          "publishedOn": "2022-10-17T15:30:00.000Z",
+          "wordCount": null,
+          "title": "A CRUD framework for full stack TypeScript",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/RdWw",
+          "author": "Saul Pwanson",
+          "description": "vdsql is a new plugin that allows VisiData to connect to databases and query them directly, using the database’s own query engine.  It uses Ibis to generate SQL for many popular backends, including Postgres, DuckDB, Clickhouse, and more.\nvdsql v0.2, released this past week, is already quite useful, and development continues to improve both vdsql and VisiData for bigger data!\nDiscuss on Changelog News",
+          "link": "https://www.visidata.org/blog/2022/connect-visidata-to-sql-databases-with-vdsql/",
+          "publishedOn": "2022-10-17T14:42:00.000Z",
+          "wordCount": null,
+          "title": "Connect VisiData to SQL Databases with vdsql",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/6/1825",
           "author": null,
           "description": "Docusaurus maintainer Sébastien Lorber joins Jerod & Amal for a deep-dive on everybody’s favorite documentation generator. It’s back with a big 2.0 release, boasts some big users, and has a big set of new features such as document versioning, a plugin architecture, and more.\nDiscuss on Changelog News\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nSébastien Lorber – Twitter, GitHub\nJerod Santo – Twitter, GitHub\nAmal Hussein – Twitter, GitHub\nNotes and Links\nDocusaurus\nThe showcase\ndocusaurus.new\nThis Week in React\nSomething missing or broken? PRs welcome!",
@@ -998,6 +1053,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=20422",
+          "author": "Daniel Stenberg",
+          "description": "tldr: we do not particular keep track nor document curl’s exact spec compliance. I cannot fathom how we could. Today, in October 2022, curl and libcurl combined consist of nearly 150,000 lines of source code (not counting blank lines). 19% of those are comments. This source code pile was carefully crafted with the sole purpose … Continue reading Deviating from specs →",
+          "link": "https://daniel.haxx.se/blog/2022/10/18/deviating-from-specs/",
+          "publishedOn": "2022-10-18T12:19:33.000Z",
+          "wordCount": 1401,
+          "title": "Deviating from specs"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=20379",
           "author": "Daniel Stenberg",
           "description": "To celebrate the hubris-infested comment from a few years ago, I created this book cover mock up. Turned out very popular on Twitter.",
@@ -1159,6 +1223,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67882",
+          "author": "Mala Kumar",
+          "description": "Read about how the GitHub Social Impact, Tech for Social Good and Policy teams participated in the 77th session of the United Nations General Assembly, including events we hosted with the World Health Organization and the UN Development Programme.",
+          "link": "https://github.blog/2022-10-17-github-at-the-77th-united-nations-general-assembly/",
+          "publishedOn": "2022-10-17T17:00:54.000Z",
+          "wordCount": 1527,
+          "title": "GitHub at the 77th United Nations General Assembly"
+        },
+        {
+          "id": "https://github.blog/?p=67859",
+          "author": "Laura Paine",
+          "description": "Having a robust security plan is key to innovation. These tips will empower you to gain the upper hand on cyberattacks, so you can ship quickly and innovate with ease.",
+          "link": "https://github.blog/2022-10-17-5-tips-for-embedding-security-into-your-workflows/",
+          "publishedOn": "2022-10-17T15:00:47.000Z",
+          "wordCount": 1252,
+          "title": "5 tips for embedding security into your workflows"
+        },
         {
           "id": "https://github.blog/?p=67815",
           "author": "Mike Linksvayer",
@@ -1427,6 +1509,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19498",
+          "author": "Georgia Anunciação - Technical Writer at Nubank",
+          "description": "Clojure’s history is beautiful and simple in code. Nubank has a lot of reasons to say: happy birthday, Clojure!\nThe post Clojure 15th Anniversary: A Retrospective appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/clojure-15th-anniversary-a-retrospective/",
+          "publishedOn": "2022-10-17T18:25:07.000Z",
+          "wordCount": 3969,
+          "title": "Clojure 15th Anniversary: A Retrospective"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19483",
           "author": "Tutz Dias - Senior UX Research at Nubank",
