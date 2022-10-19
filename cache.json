@@ -37,6 +37,66 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/LWJa",
+          "author": "Adam Stacoviak",
+          "description": "Rust is quite popular, but why? Emil Ernerfeldt, CTO of rerun.io, shares his thoughts in the subject.\nI believe Rust is the most important development in system programming languages since C. What is novel is not any individual feature (“Rust is not a particularly original language”), but the fact that so many amazing features have come together in one mainstream language.\nRust is not a perfect language (scroll down for my complaints!), but it’s so much nicer than anything else I’ve used.\nI’m not alone in loving Rust - Rust has been the most loved language in the Stack Overflow Developer Survey for seven years straight. So what are the features that make me love Rust so much?\nDiscuss on Changelog News",
+          "link": "https://www.rerun.io/blog/why-rust",
+          "publishedOn": "2022-10-18T21:17:52.000Z",
+          "wordCount": null,
+          "title": "Why Rust?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/12/1880",
+          "author": null,
+          "description": "The Open Podcast Prefix Project is a free and open source podcast prefix analytics service committed to open data and listener privacy. This hits close to home for us in a couple ways, so we invited the project’s creator, John Spurlock, Backstage to learn more about it.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJohn Spurlock – Twitter, GitHub, Website\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Twitter, GitHub\nNotes and Links\nop3.dev\nLivewire.io\nThe Podcast Index\npodcastindex.social\nThe new podcast namespace\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/backstage/25",
+          "publishedOn": "2022-10-18T17:10:00.000Z",
+          "wordCount": null,
+          "title": "Backstage 25: Should we get down with OP3?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/backstage/25/backstage-25.mp3",
+            "length": "78326955",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/7Ya2",
+          "author": "Jerod Santo",
+          "description": "Zach Musgrave from Dolt reviews several case studies of performance problems they ran into while benchmarking Dolt DB to get row access to be as fast as MySQL.\nOh, and he also shares how to fix each problem, which is nice. 😉\nDiscuss on Changelog News",
+          "link": "https://www.dolthub.com/blog/2022-10-14-golang-performance-case-studies/",
+          "publishedOn": "2022-10-18T15:44:00.000Z",
+          "wordCount": null,
+          "title": "Go performance case studies",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Mby0",
+          "author": "Martin Heinz",
+          "description": "Out-of-the-box, the Python standard library ships with many great libraries, some of which provide CLIs, allowing us to do many cool things directly from terminal without needing to even open a .py file.\nThis includes things like starting a webserver, opening a browser, parsing JSON files, benchmarking programs and many more, all of which we will explore in this article.\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/83",
+          "publishedOn": "2022-10-18T14:51:00.000Z",
+          "wordCount": null,
+          "title": "Python CLI tricks that don't require any code whatsoever",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1878",
+          "author": null,
+          "description": "People are starting to wake up to the fact that they have control and ownership over their data, and governments are moving quickly to legislate these rights. John K. Thomson has written a new book on the topic that is a must read! We talk about the new book in this episode along with how practitioners should be thinking about data exchanges, privacy, trust, and synthetic data.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJohn K. Thompson – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nUse the code podpracticalAI19 for 40% off of Data for All, along with all Manning products in all formats!!!\nData for All\nJohn’s other books:\n\nAnalytics Teams: Harnessing analytics and artificial intelligence for business improvement\nAnalytics: How to win with Intelligence\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/197",
+          "publishedOn": "2022-10-18T14:05:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 197: Data for All",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/practicalai/197/practical-ai-197.mp3",
+            "length": "47705072",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/1/1879",
           "author": null,
           "description": "We revisit our Harmonai story from last week, Jamie Tanna reviews posting his salary history publicly, Sid Sijbrandij’s new (open core) venture fund, Zed Shaw thinks Stripe is like Paypal in 2010 & Helix is a new Rust-based terminal.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nZach Evans on Twitter\nLessons learned since posting my salary history publicly\nOpen Core Ventures\nStripe is Paypal circa 2010\nHelix Editor (pic)\nSomething missing or broken? PRs welcome!",
@@ -950,41 +1010,6 @@
           "wordCount": null,
           "title": "OAuth2 explained with cute shapes",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1850",
-          "author": null,
-          "description": "Andreas Kling’s new cross-platform browser project, Dan Hollick’s nerdy deep-dive on QR code tech, Stephan Dilly’s Rust-based terminal UI for Git, Miłosz Piechocki’s opinion on junior vs senior engineers & Divam Gupta’s Tensorflow port of Stable Diffusion.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\n📥 Subscribe to Changelog Weekly\nLadybird: A new cross-platform browser project\nQR Codes\nGitUI\n\nGitX-dev\nGitUp\nWhat makes a Senior Engineer?\nTensorflow port of the Stable Diffusion model\n\nDiffusion Bee\nr/stablediffusion\n🎧 Lucas Da Costa on The Changelog #340\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-09-19",
-          "publishedOn": "2022-09-19T18:45:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Ladybird, how QR codes work, GitUI, software vs systems & Stable Diffusion ported to Tensorflow",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-09-19/the-changelog-news-2022-09-19.mp3",
-            "length": "7909753",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/7Y09",
-          "author": "Jerod Santo",
-          "description": "Tan Li Hau gave this talk at Front Conference, but the videos won’t be out for a year (!), so he gave the talk again and posted it to his YouTube channel. Here’s how he described the video to us:\nWatch the <1 hour video to write a simplified Svelte compiler <300 lines of code is amazing! Easy to follow, inspiring, and gives a great overview of how to write a compiler.\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=mwvyKGw2CzU",
-          "publishedOn": "2022-09-19T15:21:00.000Z",
-          "wordCount": null,
-          "title": "Build your own Svelte",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/9lgm",
-          "author": "Jerod Santo",
-          "description": "Here’s the motivation behind this Rust-based TUI:\nI do most of my git work in a terminal but I frequently found myself using git GUIs for some use-cases like: index, commit, diff, stash, blame and log.\nUnfortunately popular git GUIs all fail on giant repositories or become unresponsive and unusable.\nGitUI provides you with the user experience and comfort of a git GUI but right in your terminal while being portable, fast, free and open source.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/extrawurst/gitui",
-          "publishedOn": "2022-09-19T14:35:00.000Z",
-          "wordCount": null,
-          "title": "A fast terminal UI for Git",
-          "itunes": {}
         }
       ]
     },
@@ -1052,6 +1077,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20153",
+          "author": "Daniel Stenberg",
+          "description": "I am happy to announce that curl receives funding from The Sovereign Tech Fund. This funding is directed towards three specific projects that we have identified as interesting and worthwhile to push forward as ways to improve curl and the life of curl users. This “investment” will fund two developers to work on curl over … Continue reading Funded curl improvements →",
+          "link": "https://daniel.haxx.se/blog/2022/10/19/funded-curl-improvements/",
+          "publishedOn": "2022-10-19T06:59:35.000Z",
+          "wordCount": 1333,
+          "title": "Funded curl improvements"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20422",
           "author": "Daniel Stenberg",
@@ -1223,6 +1257,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67904",
+          "author": "Taylor Blau",
+          "description": "Upgrade your local installation of Git, especially when cloning with --recurse-submodules from untrusted repositories, or if you use git shell interactive mode.",
+          "link": "https://github.blog/2022-10-18-git-security-vulnerabilities-announced/",
+          "publishedOn": "2022-10-18T17:11:45.000Z",
+          "wordCount": 960,
+          "title": "Git security vulnerabilities announced"
+        },
+        {
+          "id": "https://github.blog/?p=67900",
+          "author": "Hirsch Singhal",
+          "description": "Fine-grained personal access tokens offer enhanced security to developers and organization owners, to reduce the risk to your data of compromised tokens.",
+          "link": "https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/",
+          "publishedOn": "2022-10-18T15:35:02.000Z",
+          "wordCount": 1610,
+          "title": "Introducing fine-grained personal access tokens for GitHub"
+        },
         {
           "id": "https://github.blog/?p=67882",
           "author": "Mala Kumar",
@@ -1474,33 +1526,6 @@
           "publishedOn": "2022-09-20T16:00:50.000Z",
           "wordCount": 1135,
           "title": "“If you don’t make it beautiful, it’s for sure doomed”: putting the Vault in GitHub’s Arctic Code Vault"
-        },
-        {
-          "id": "https://github.blog/?p=67109",
-          "author": "Ashley Bass",
-          "description": "Three new Campus Experts are joining the fall 2022 batch of the MLH Fellowship to work with open source maintainers and get real-world experience.",
-          "link": "https://github.blog/2022-09-19-meet-the-github-campus-experts-selected-for-the-fall-2022-mlh-fellowship-cohort-powered-by-github/",
-          "publishedOn": "2022-09-19T19:15:58.000Z",
-          "wordCount": 1429,
-          "title": "Meet the GitHub Campus Experts selected for the fall 2022 MLH Fellowship Cohort, powered by GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=67147",
-          "author": "Kedasha Kerr",
-          "description": "Here are some actionable tips on how to ask your manager to send you to GitHub Universe this year—with a free template included!",
-          "link": "https://github.blog/2022-09-19-5-steps-to-convince-your-boss-to-send-you-to-github-universe/",
-          "publishedOn": "2022-09-19T18:02:39.000Z",
-          "wordCount": 1063,
-          "title": "5 steps to convince your boss to send you to GitHub Universe"
-        },
-        {
-          "id": "https://github.blog/?p=67130",
-          "author": "Erin Havens",
-          "description": "Dependabot alerts can give you the ability to secure your project by keeping dependency-based vulnerabilities out of your code. Here are some tips to more efficiently prioritize and take action on your alerts, so you can get back to building.",
-          "link": "https://github.blog/2022-09-19-5-tips-for-prioritizing-dependabot-alerts/",
-          "publishedOn": "2022-09-19T16:28:44.000Z",
-          "wordCount": 1758,
-          "title": "5 tips for prioritizing Dependabot alerts"
         }
       ]
     },
@@ -1553,15 +1578,6 @@
           "publishedOn": "2022-09-23T15:14:59.000Z",
           "wordCount": 4420,
           "title": "Real-time machine learning models in real life"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19098",
-          "author": "Beatriz Lima - Recruitment Analyst at Nubank",
-          "description": "Nubank's Information Security Business Unit has over 120 professionals and a global impact. Check out how our team is organized to protect more than 60 million Nubank's LatAm customers:\nThe post What is it to have a career at Nubank’s Information Security Team (Infosec)? appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/career-at-nubanks-information-security-team/",
-          "publishedOn": "2022-09-19T20:30:09.000Z",
-          "wordCount": 3624,
-          "title": "What is it to have a career at Nubank’s Information Security Team (Infosec)?"
         }
       ]
     },
@@ -1570,6 +1586,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/meeting-mediation-team-h1-702",
+          "author": "HackerOne",
+          "description": "Hello world, we are the Mediation Team.\nFor those who don’t know what we do - we are here to help the ethical hacking community and custome",
+          "link": "https://www.hackerone.com/hackerone-community-blog/meeting-mediation-team-h1-702",
+          "publishedOn": "2022-10-18T15:28:58.000Z",
+          "wordCount": 1031,
+          "title": "Meeting the Mediation Team at H1-702"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/introducing-hackerone-assets",
           "author": "Naz Bozdemir",
@@ -1649,6 +1674,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/aaa2b41b800c",
+          "author": "Netflix Technology Blog",
+          "description": "by Jun He, Akash Dwivedi, Natallia Dzenisenka, Snehal Chennuru, Praneeth Yenugutala, Pawan Dixit",
+          "link": "https://netflixtechblog.com/orchestrating-data-ml-workflows-at-scale-with-netflix-maestro-aaa2b41b800c?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-10-18T20:43:36.000Z",
+          "wordCount": 2953,
+          "title": "Orchestrating Data/ML Workflows at Scale With Netflix Maestro"
+        },
         {
           "id": "https://medium.com/p/6253603880a6",
           "author": "Netflix Technology Blog",
