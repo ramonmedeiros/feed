@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-19T12:28:04.192Z</updated>
+    <updated>2022-10-20T12:26:59.725Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot Investigation]]></title>
+        <id>changelog.com/news/6raZ</id>
+        <link href="https://githubcopilotinvestigation.com/"/>
+        <updated>2022-10-19T18:25:42.000Z</updated>
+        <summary type="html"><![CDATA[Is GitHub Copilot an AI parasite trained in the realms of fair use on pub­lic code any­where on the inter­net? Or, is it a much needed automation layer to all the reasons we open source in the first place?
+When I first wrote about Copi­lot, I said “I’m not wor­ried about its effects on open source.” In the short term, I’m still not wor­ried. But as I reflected on my own jour­ney through open source—nearly 25 years—I real­ized that I was miss­ing the big­ger pic­ture. After all, open source isn’t a fixed group of peo­ple. It’s an ever-grow­ing, ever-chang­ing col­lec­tive intel­li­gence, con­tin­u­ally being renewed by fresh minds. We set new stan­dards and chal­lenges for each other, and thereby raise our expec­ta­tions for what we can accom­plish.
+Amidst this grand alchemy, Copi­lot inter­lopes. Its goal is to arro­gate the energy of open-source to itself. We needn’t delve into Microsoft’s very check­ered his­tory with open source to see Copi­lot for what it is: a par­a­site.
+The legal­ity of Copi­lot must be tested before the dam­age to open source becomes irrepara­ble. That’s why I’m suit­ing up.
+What are your thoughts on this investigation and “poten­tial law­suit” against GitHub Copi­lot?
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 75: How vex.dev runs on AWS, Fly.io & GCP]]></title>
+        <id>changelog.com/14/1703</id>
+        <link href="https://changelog.com/shipit/75"/>
+        <updated>2022-10-19T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Few genuinely need a multi-cloud setup. There is plenty of advice out there which mostly boils down to don’t do it, you will be worse off. Vex.dev is a startup that provides APIs for video and audio streaming. The hard part is real-time combined with massive scale - think hundreds of thousands of concurrent connections. They achieve this by using a combination of Fly.io, AWS and GCP. Jason Carter, founder of Vex Communications, is joining us today to talk about the multi-cloud setup that vex.dev runs.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service ca…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arbitrary deadlines are actually awesome]]></title>
+        <id>changelog.com/posts/2550</id>
+        <link href="https://changelog.com/posts/arbitrary-deadlines-are-actually-awesome"/>
+        <updated>2022-10-19T18:05:30.000Z</updated>
+        <summary type="html"><![CDATA[After reading Lucas da Costa’s Why deadlines are pointless and what to do instead, I agree with almost every point he makes, especially this one:
+It’s about time we start calling deadlines by their real name: pressure
+Lucas goes on to describe how deadlines can cause harm, can’t actually make people code faster, and so on. I agree with that too. But does that make them pointless? Not necessarily!
+Sometimes a little pressure is just what the doctor ordered. Here’s what I mean by that.
+Note: Lucas’s article is written to software teams that are dedicated to a single product. This post is to a slightly different audience: those of us with many disparate things we could be working on at any given time. For that reason, I don’t believe his take on Parkinson’s Law  applies in this context. If yo…]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why three Availability Zones are better than two]]></title>
+        <id>changelog.com/news/zDG3</id>
+        <link href="https://shekhargulati.com/2022/10/06/why-an-architecture-with-three-availability-zones-is-better-than-the-one-with-two-availability-zones/"/>
+        <updated>2022-10-19T16:29:00.000Z</updated>
+        <summary type="html"><![CDATA[It is just not about redundancy. In this post I cover how having more AZs mean you need fewer nodes to achieve higher availability.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Shekhar Gulati</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When life gives you lemons, write better error messages]]></title>
+        <id>changelog.com/news/5j98</id>
+        <link href="https://scribe.rip/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f"/>
+        <updated>2022-10-19T15:29:00.000Z</updated>
+        <summary type="html"><![CDATA[This is an excellent deep-dive on error message best practices by Jenni Nadler from Wix:
+Error messages are part of our daily lives online. Every time a server is down or we don’t have internet, or we forget to add some info in a form, we get an error message. “Something went wrong” is the classic. But what went wrong? What happened? And, most importantly, how can I fix it?
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Funded curl improvements]]></title>
         <id>https://daniel.haxx.se/blog/?p=20153</id>
@@ -1994,96 +2061,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features"/>
         <updated>2022-09-21T12:25:03.166Z</updated>
         <summary type="html"><![CDATA[This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 194: Evaluating models without test data]]></title>
-        <id>changelog.com/7/1849</id>
-        <link href="https://changelog.com/practicalai/194"/>
-        <updated>2022-09-20T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[WeightWatcher, created by Charles Martin, is an open source diagnostic tool for analyzing Neural Networks without training or even test data! Charles joins us in this episode to discuss the tool and how it fills certain gaps in current model evaluation workflows. Along the way, we discuss statistical methods from physics and a variety of practical ways to modify your training runs.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Charles Martin – Twitter, GitHub, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-WeightWatcher
-Talk from the Silicon Valley ACM meetup
-A deep dive into the theory behind WeightWatcher (a talk from ENS)
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transform your software engineering practices with GitHub Enterprise]]></title>
-        <id>https://github.blog/?p=67153</id>
-        <link href="https://github.blog/2022-09-20-transform-your-software-engineering-practices-with-github-enterprise/"/>
-        <updated>2022-09-20T18:00:31.000Z</updated>
-        <summary type="html"><![CDATA[Go beyond knowing GitHub as the home of open source and explore how GitHub Enterprise can help you transform your software engineering organization and practices.]]></summary>
-        <author>
-            <name>Chris Reddington</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“If you don’t make it beautiful, it’s for sure doomed”: putting the Vault in GitHub’s Arctic Code Vault]]></title>
-        <id>https://github.blog/?p=67102</id>
-        <link href="https://github.blog/2022-09-20-if-you-dont-make-it-beautiful-its-for-sure-doomed-putting-the-vault-in-githubs-arctic-code-vault/"/>
-        <updated>2022-09-20T16:00:50.000Z</updated>
-        <summary type="html"><![CDATA[GitHub this month installed a massive steel vault, etched with striking AI-generated art, deep within an Arctic mountain, finalizing its Arctic Code Vault. This vault contains the 188 reels of hardened archival film which will preserve the 02/02/202 snapshot of every active public GitHub repository for 1,000 years. It also now includes a Tech Tree, a human-readable selection of works describing software, computers, and their foundational technologies, along with full-text copies of Wikipedia, Stack Overflow, and other data sources.]]></summary>
-        <author>
-            <name>Jon Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 signs your project needs a design system]]></title>
-        <id>changelog.com/news/QpLE</id>
-        <link href="https://evilmartians.com/chronicles/5-signs-your-project-needs-a-design-system"/>
-        <updated>2022-09-20T15:53:00.000Z</updated>
-        <summary type="html"><![CDATA[This essential guide is designed to be useful for pretty much any team member: find out why your project would benefit from a shared set of practices and patterns between designers and frontend engineers.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Travis Turner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What I've learned from users]]></title>
-        <id>changelog.com/news/N1ld</id>
-        <link href="http://paulgraham.com/users.html"/>
-        <updated>2022-09-20T15:04:27.000Z</updated>
-        <summary type="html"><![CDATA[Here’s Paul Graham with some wise advice he’s learned from YC’s users — this also tees up a large conversation on this Friday’s episode of The Changelog (talk to your users).
-I recently told applicants to Y Combinator that the best advice I could give for getting in, per word, was. Explain what you’ve learned from users.
-Here’s why that makes sense.
-That tests a lot of things: whether you’re paying attention to users, how well you understand them, and even how much they need what you’re making.
-But giving this advice made Paul consider what he has learned from YC’s users (the startups they’ve funded). This one is almost cliché at this point, but still quite true.
-Focus is doubly important for early stage startups, because not only do they have a hundred different problems, they don’t have anyone to work on them except the founders. If the founders focus on things that don’t matter, there’s no one focusing on the things that do.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OAuth2 explained with cute shapes]]></title>
-        <id>changelog.com/news/y7oJ</id>
-        <link href="https://engineering.backmarket.com/oauth2-explained-with-cute-shapes-7eae51f20d38"/>
-        <updated>2022-09-20T14:35:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re currently refurbishing 🙃 our authentication stack at Back Market, and we need to onboard our developers and teams to various OAuth2 concepts. Here’s our take on OAuth2 (with cute shapes.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Klemen Sever</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaling data access by moving an exabyte of data to Google Cloud]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud"/>
-        <updated>2022-09-20T12:26:13.738Z</updated>
-        <summary type="html"><![CDATA[In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.]]></summary>
         <author>
             <name>English (US)</name>
         </author>
