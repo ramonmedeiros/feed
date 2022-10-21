@@ -37,6 +37,31 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1809",
+          "author": null,
+          "description": "In this episode, we’re joined by tech Lawyer Luis Villa to explore the question, who owns code? The company, the engineer, the team? What about when you’re using AI, Machine learning, GitHub Copilot… is that still your code?\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nLuis Villa – Twitter, LinkedIn, Website\nAngelica Hill – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nNotes and Links\nTidelift\nLuis’s new newsletter!\nNYTimes review of Dennis Duncan’s “Index, A History of the”\nThe Berne Convention for the Protection of Literary and Artistic Works\nGoogle LLC v. Oracle America, Inc.\nWhy Andy Warhol’s ‘Prince Series,’ the Subject of a Long-Term Copyright Dispute, Should Be Considered Fair Use After All\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/252",
+          "publishedOn": "2022-10-20T16:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 252: Who owns our code?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://cdn.changelog.com/uploads/gotime/252/go-time-252.mp3",
+            "length": "63953737",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/gwj6",
+          "author": "Jerod Santo",
+          "description": "Tomasz Cichociński:\nIt’s completely fine to deepen one technology or one programming language knowledge. It’s totally fine to just have a 9-5 job that pays the bills. But if you aim to level up, I’m highly recommending trying something new to broaden your perspective.\nIf you’re writing JavaScript, try some functional language like Elixir or ReScript. If you’re already familiar with high level, garbage collected languages, try something low level like Rust or even C/C++. Play with different concurrency model like coroutines or actor model.\nYou don’t need to change your job, you don’t need to ship products with it. Try to create something fun. You’ll thank yourself later.\nDiscuss on Changelog News",
+          "link": "https://cichocinski.dev/blog/trying-new-programming-languages-helped-grow-software-engineer",
+          "publishedOn": "2022-10-20T13:29:00.000Z",
+          "wordCount": null,
+          "title": "How trying new programming languages helped me grow as a software engineer",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/6raZ",
           "author": "Adam Stacoviak",
           "description": "Is GitHub Copilot an AI parasite trained in the realms of fair use on pub­lic code any­where on the inter­net? Or, is it a much needed automation layer to all the reasons we open source in the first place?\nWhen I first wrote about Copi­lot, I said “I’m not wor­ried about its effects on open source.” In the short term, I’m still not wor­ried. But as I reflected on my own jour­ney through open source—nearly 25 years—I real­ized that I was miss­ing the big­ger pic­ture. After all, open source isn’t a fixed group of peo­ple. It’s an ever-grow­ing, ever-chang­ing col­lec­tive intel­li­gence, con­tin­u­ally being renewed by fresh minds. We set new stan­dards and chal­lenges for each other, and thereby raise our expec­ta­tions for what we can accom­plish.\nAmidst this grand alchemy, Copi­lot inter­lopes. Its goal is to arro­gate the energy of open-source to itself. We needn’t delve into Microsoft’s very check­ered his­tory with open source to see Copi­lot for what it is: a par­a­site.\nThe legal­ity of Copi­lot must be tested before the dam­age to open source becomes irrepara­ble. That’s why I’m suit­ing up.\nWhat are your thoughts on this investigation and “poten­tial law­suit” against GitHub Copi­lot?\nDiscuss on Changelog News",
@@ -975,51 +1000,6 @@
           "wordCount": null,
           "title": "A text adventure game that runs on TypeScript's type system",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1600",
-          "author": null,
-          "description": "Dave Farley, co-author of Continuous Delivery, is back to talk about his latest book, Modern Software Engineering, a Top 3 Software Engineering best seller on Amazon UK this September. Shipping good software starts with you giving yourself permission to do a good job. It continues with a healthy curiosity, admitting that you don’t know, and running many experiments, safely, without blowing everything up. And then there is scope creep…\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear u…",
-          "link": "https://changelog.com/shipit/71",
-          "publishedOn": "2022-09-21T17:45:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 71: Modern Software Engineering",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/71/ship-it-71.mp3",
-            "length": "79449270",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/W1ko",
-          "author": "Jerod Santo",
-          "description": "Dave Rupert brainstorms some new CSS organization acronyms.\nI’m not anti-BEM nor anti-roboclasses, but as we enter a new era for CSS I think we have an opportunity to rethink best practices around architecting CSS. Before we get lost rethinking the wheel, let’s hold on to some good principles from the past decade or so:\nWe want to author in components\nWe generally want low-specificity to avoid collisions\nWe want a bucket of global utility classes/variables for ad-hoc composition or customizations\nWith those principles, let’s dive into some CSS architecture alternatives.\nHe goes on to describe CUBE, HECS, WILS, GPC, and other systems that haven’t even been named yet 😆\nDiscuss on Changelog News",
-          "link": "https://daverupert.com/2022/08/modern-alternatives-to-bem/",
-          "publishedOn": "2022-09-21T17:07:01.000Z",
-          "wordCount": null,
-          "title": "Modern alternatives to BEM",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/4983",
-          "author": "Jerod Santo",
-          "description": "iliana etaoin:\nThere is a lot of attention on securing “software supply chains.” The usual approach is that you want to try to avoid security issues in your underlying components from impacting customers of your product; and when they do, you want to be able to respond quickly to fix the issue. The people who care about this class of problem are often software companies. The class of components that are most concerning these companies are ones where unpaid hobbyist maintainers wrote something for themselves with no maintenance plan.\nThis is where the supply chain metaphor — and it is just that, a metaphor — breaks down…\nI think we all know this intrinsically, but it’s easy to forget. iliana goes on to describe feelings I’ve heard expressed by a few maintainers recently:\nI just want to publish software that I think is neat so that other hobbyists can use and learn from it, and I otherwise want to be left the hell alone. I should be allowed to decide if something I wrote is “done”. The focus on securing the “software supply chain” has made it even more likely that releasing software for others to use will just mean more work for me that I don’t benefit from. I reject the idea that a concept so tenuous can be secured in the first place.\nDiscuss on Changelog News",
-          "link": "https://iliana.fyi/blog/software-supply-chain/",
-          "publishedOn": "2022-09-21T14:16:00.000Z",
-          "wordCount": null,
-          "title": "There is no “software supply chain”",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/qM6L",
-          "author": "Jerod Santo",
-          "description": "The picture below explains it better than I can with words. 👇\n\nDiscuss on Changelog News",
-          "link": "https://github.com/dalibo/pg_activity",
-          "publishedOn": "2022-09-21T13:28:00.000Z",
-          "wordCount": null,
-          "title": "pg_activity is like htop for Postgres activity monitoring",
-          "itunes": {}
         }
       ]
     },
@@ -1149,6 +1129,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
+          "author": null,
+          "description": "In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
+          "publishedOn": "2022-10-21T12:26:58.375Z",
+          "wordCount": 1353,
+          "title": "Scaling data access by moving an exabyte of data to Google Cloud"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
           "author": null,
           "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
@@ -1219,15 +1208,6 @@
           "publishedOn": "2022-10-01T12:22:12.675Z",
           "wordCount": 1488,
           "title": "Twitter Sparrow tackles data storage challenges of scale"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
-          "author": null,
-          "description": "This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
-          "publishedOn": "2022-09-21T12:25:03.166Z",
-          "wordCount": 1838,
-          "title": "Graph machine learning with missing node features"
         }
       ]
     },
@@ -1258,6 +1238,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67943",
+          "author": "Lee Reilly",
+          "description": "Save the date! Game Off returns on November 1 for it’s 10th year! 🎉",
+          "link": "https://github.blog/2022-10-21-build-a-game-this-november-with-game-off-2022/",
+          "publishedOn": "2022-10-21T07:30:25.000Z",
+          "wordCount": 653,
+          "title": "Build a game this November with Game Off 2022"
+        },
+        {
+          "id": "https://github.blog/?p=67990",
+          "author": "allthedoll",
+          "description": "We’re always trying to improve the GitHub developer experience in meaningful ways, and we love learning from our customers. In the last several months we released several new fork capabilities, and we’re publishing revised fork documentation that gives more details with clearer explanations to make fork concepts easier to understand.",
+          "link": "https://github.blog/2022-10-20-unboxing-fork-improvements-and-unwrapping-fork-docs/",
+          "publishedOn": "2022-10-20T18:00:58.000Z",
+          "wordCount": 1452,
+          "title": "Unboxing fork improvements and unwrapping fork docs"
+        },
+        {
+          "id": "https://github.blog/?p=67971",
+          "author": "Amarilis Dias",
+          "description": "GitHub Actions changed how developers automate workflows with GitHub. Today, we’re introducing a new navigation to manage your GitHub Actions experience, improving discoverability and accessibility as well as opening up future feature opportunities.",
+          "link": "https://github.blog/2022-10-20-improving-navigation-for-github-actions/",
+          "publishedOn": "2022-10-20T16:00:00.000Z",
+          "wordCount": 1022,
+          "title": "Improving navigation for GitHub Actions"
+        },
         {
           "id": "https://github.blog/?p=67904",
           "author": "Taylor Blau",
@@ -1473,42 +1480,6 @@
           "publishedOn": "2022-09-22T16:00:13.000Z",
           "wordCount": 922,
           "title": "GitHub for Startups is generally available"
-        },
-        {
-          "id": "https://github.blog/?p=67209",
-          "author": "Alexis Wales",
-          "description": "On September 16, GitHub Security learned that threat actors were targeting GitHub users with a phishing campaign by impersonating CircleCI to harvest user credentials and two-factor codes. While GitHub itself was not affected, the campaign has impacted many victim organizations.",
-          "link": "https://github.blog/2022-09-21-security-alert-new-phishing-campaign-targets-github-users/",
-          "publishedOn": "2022-09-21T21:49:50.000Z",
-          "wordCount": 939,
-          "title": "Security alert: new phishing campaign targets GitHub users"
-        },
-        {
-          "id": "https://github.blog/?p=67194",
-          "author": "Toya East",
-          "description": "Students have the opportunity to connect with GitHub employees at GitHub Universe 2022 through Micro-Mentoring sessions hosted by GitHub Social Impact.",
-          "link": "https://github.blog/2022-09-21-applications-for-micro-mentoring-at-github-universe-2022-are-now-live/",
-          "publishedOn": "2022-09-21T16:00:36.000Z",
-          "wordCount": 950,
-          "title": "Applications for micro-mentoring at GitHub Universe 2022 are now live"
-        },
-        {
-          "id": "https://github.blog/?p=67221",
-          "author": "Robb Mapp",
-          "description": "The ReadME Project & Podcast evolve with community expert voices and topics to stoke discussion about the culture and craft of software development.",
-          "link": "https://github.blog/2022-09-21-the-readme-project-built-for-you/",
-          "publishedOn": "2022-09-21T14:00:21.000Z",
-          "wordCount": 951,
-          "title": "The ReadME Project: Built for you!"
-        },
-        {
-          "id": "https://github.blog/?p=67225",
-          "author": "Shelley McKinley",
-          "description": "As the home for developers, we understand the key role our communities play in steering digital transformation and maintaining societal infrastructure. That's why we choose to drive and support policies and initiatives like the Copenhagen Pledge on Tech for Democracy. We're committed to working with like-minded organizations, governments, and civil society to make digital technologies work for democracy and human rights, and we encourage you to join us in this pledge.",
-          "link": "https://github.blog/2022-09-21-why-we-signed-the-copenhagen-pledge-on-tech-for-democracy/",
-          "publishedOn": "2022-09-21T13:30:32.000Z",
-          "wordCount": 838,
-          "title": "Why we signed the Copenhagen Pledge on Tech for Democracy"
         }
       ]
     },
