@@ -37,6 +37,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/MbJ0",
+          "author": "Jerod Santo",
+          "description": "Webpack creator Tobias Koppers announcing its (Vercel-funded) successor:\nTurbopack is built on a new incremental architecture for the fastest possible development experience. On large applications, it shows updates 10x faster than Vite and 700x faster than Webpack. On even larger applications, the difference is greater—often 20x faster than Vite.\nTurbopack is open source and still in alpha. Here’s what the future may hold:\nTo start, Turbopack will be used for the Next.js 13 development server. It will power lightning-fast HMR, and it will support React Server Components natively, as well as TypeScript, JSX, CSS, and more.\nTurbopack will eventually also power Next.js production builds, both locally and in the cloud. We’ll be able to share Turbo’s cache across your entire team, using Vercel Remote Caching.\nWebpack users can also expect an incremental migration path into the Rust-based future with Turbopack.\nDiscuss on Changelog News",
+          "link": "https://vercel.com/blog/turbopack",
+          "publishedOn": "2022-10-25T19:14:00.000Z",
+          "wordCount": null,
+          "title": "Introducing Turbopack: Rust-based successor to Webpack",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/9lYp",
+          "author": "Jerod Santo",
+          "description": "The speed record for data transmission using a single light source and optical chip has been shattered once again. Engineers have transmitted data at a blistering rate of 1.84 petabits per second (Pbit/s), almost twice the global internet traffic per second.\nFor context, if you’re fortunate enough to be living the “gig-life” (as my local carrier markets it) with a 1-gigabit connection at your house… a petabit is a million times faster than that. And that record-setting 1.84 petabit speed is just the start:\nBut the new chip is far from finished breaking records, according to the team behind it. Using a computational model to scale the data transmission potential of the system, the researchers claim that it could eventually reach eye-watering speeds of up to 100 Pbit/s.\nShut up and take my money?!\nDiscuss on Changelog News",
+          "link": "https://newatlas.com/telecommunications/optical-chip-fastest-data-transmission-record-entire-internet-traffic/",
+          "publishedOn": "2022-10-25T15:13:00.000Z",
+          "wordCount": null,
+          "title": "Record-breaking chip can transmit entire internet's traffic per second",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/aQVA",
+          "author": "Jerod Santo",
+          "description": "Long past are the days when I’d upgrade my production OS on day/week one, but I do try to read at least one or two reviews of the latest macOS to see how much of my FOMO is well-placed. And if you’re going to read just one review, it might as well be Ars Technica’s…\nI haven’t waded into the depth of this review yet, but the opener has me underwhelmed:\nThe throughline for all these features is about making the Mac more welcoming and comfortable for people who come to it through one of Apple’s mobile platforms…\nBut when was the last time that the Finder, the Dock, or the Menu Bar was given a substantial, non-cosmetic rethink? When did Apple last make major improvements to the way that windows coexist on a given screen? The Mac does get new under-the-hood features that are specific to it, but the headline features are mostly iOS and iPadOS imports, especially this year.\nI would absolutely love for Apple to rethink Finder! Having said that, the fact that this reviewer is down with Stage Manager on macOS despite how terrible I’ve heard it is on iOS is intriguing…\nStage Manager differs from standard macOS multitasking by offering a column of recently used apps on the side of your screen (it’s the left-hand side by default, but it will switch if you’ve got your Dock set to use the left-hand side of your screen instead). But unlike minimizing or maximizing an app from the Dock, each “stage” can contain multiple app windows from multiple apps; switch from one stage to another, and every window on that stage will pop back up on your screen in exactly the arrangement you were using before.\nIt’s off by default, thank goodness, but I would like to give this a try and see how it maps to my way of window/app management. Have you tried Stage Manager on macOS? What do you think? How does it compare to iOS?\nDiscuss on Changelog News",
+          "link": "https://arstechnica.com/gadgets/2022/10/macos-13-ventura-the-ars-technica-review/",
+          "publishedOn": "2022-10-25T14:27:00.000Z",
+          "wordCount": null,
+          "title": "The Ars Technica review of macOS 13 Ventura",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/PpZd",
           "author": "Jerod Santo",
           "description": "This looks a lot like the early days of Postman. Built with Vue.js.\n\nDiscuss on Changelog News",
@@ -935,51 +965,6 @@
           "wordCount": null,
           "title": "4 years of progress on the Go runtime",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6rQn",
-          "author": "Jerod Santo",
-          "description": "This is a great starter snippet for any web page:\nmain {\n  max-width: 38rem;\n  padding: 2rem;\n  margin: auto;\n}\n\nThe linked post explains the why behind these rules and expands with a 100 byte alternative and the comments have a bunch of variants and conversation about each specific rule.\nDiscuss on Changelog News",
-          "link": "https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41",
-          "publishedOn": "2022-09-26T16:45:00.000Z",
-          "wordCount": null,
-          "title": "58 bytes of CSS to look great nearly everywhere",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1859",
-          "author": null,
-          "description": "Mozilla says Firefox will continue to support current content blockers, Nabeel Suleiman thinks NATS is great and recommends you check it out, InfoQ breaks down Uber’s recent security breach, Klemen Sever explained OAuth2 by drawing cute shapes & Jorge Manrubia reflects back as an aging programmer.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nFirefox will continue to support current content blockers\nNats: You Need it Now!\n\nDwayne Bradley’s comment\nMulti-Factor Authentication Fatigue Key Factor in Uber Breach\nOAuth2 explained with cute shapes\n\n🎧 [Aaron Parecki on The Changelog #456])(https://changelog.fm/456)\nA nice Twitter review\nAging programmer\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-09-26",
-          "publishedOn": "2022-09-26T15:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Firefox supports blockers, NATS is great, Uber's MFA fatigue, OAuth2 drawn in cute shapes & an aging programmer",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-09-26/the-changelog-news-2022-09-26.mp3",
-            "length": "5456100",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/lO8m",
-          "author": "Daniele Scasciafratte",
-          "description": "This book is my condensed personal experience in the last 12 years in various projects, communities and roles in Open Source. Including my best practice, tips and a lot of examples and resources.\nAfter 2 years a new edition is here with new stuff and also available on Amazon Kindle.\nDiscuss on Changelog News",
-          "link": "https://daniele.tech/2022/09/contribute-to-open-source-the-right-way-3rd-edition/",
-          "publishedOn": "2022-09-26T13:32:00.000Z",
-          "wordCount": null,
-          "title": "Contribute to open source: the right way 3rd edition (Free 📘)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/5jz1",
-          "author": "Jerod Santo",
-          "description": "This project is a web implementation of the raining green code seen in the Matrix franchise. It’s built right on top of the upcoming graphics API WebGPU, but falls back to the functional WebGL wrapper, REGL; its previous Three.js version is maintained in a separate branch.\nI used to spend countless hours in college scouring the web for the best digital rain screen saver for my laptop. Sounds like the author is with me on that:\nThe number of implementations out there of this effect is a testament to the size of the film’s impact on popular culture. For decades, I’ve enjoyed searching for and comparing them from time to time. That’s probably how you arrived here— it’s fun to see what kinds of solutions different people come up with to a problem, when the process is purely recreational and its success is subjective.\nThis one’s really nice and even has a 3D mode. The README says it’s “made with love”, but from what I can tell it’s almost entirely JavaScript. 😜\n\nDiscuss on Changelog News",
-          "link": "https://github.com/Rezmason/matrix",
-          "publishedOn": "2022-09-26T12:42:00.000Z",
-          "wordCount": null,
-          "title": "A web-based implementation of The Matrix's digital rain",
-          "itunes": {}
         }
       ]
     },
@@ -1056,6 +1041,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20443",
+          "author": "Daniel Stenberg",
+          "description": "Welcome to another curl release. You know the drill… Numbers the 211th release2 changes56 days (total: 8,986)192 bug-fixes (total: 8,337)314 commits (total: 29,331)3 new public libcurl function (total: 91)1 new curl_easy_setopt() option (total: 300)0 new curl command line option (total: 248)74 contributors, 43 new (total: 2,733)42 authors, 17 new (total: 1,082)4 security fixes (total: 130)Bug … Continue reading 7.86.0 with WebSocket →",
+          "link": "https://daniel.haxx.se/blog/2022/10/26/7-86-0-with-websocket/",
+          "publishedOn": "2022-10-26T06:21:57.000Z",
+          "wordCount": 1657,
+          "title": "7.86.0 with WebSocket"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20153",
           "author": "Daniel Stenberg",
@@ -1236,6 +1230,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68140",
+          "author": "Zachary Steindler",
+          "description": "The Sigstore GA means you can protect your software supply chain today with GitHub Actions, and will power new npm security capabilities in the near future.",
+          "link": "https://github.blog/2022-10-25-why-were-excited-about-the-sigstore-general-availability/",
+          "publishedOn": "2022-10-25T13:02:35.000Z",
+          "wordCount": 1244,
+          "title": "Why we’re excited about the Sigstore general availability"
+        },
         {
           "id": "https://github.blog/?p=67825",
           "author": "Lee Reilly",
