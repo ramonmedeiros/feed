@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/8l7r",
+          "author": "Jerod Santo",
+          "description": "Sacha Greif gets out his crystal ball and tries to anticipate the future CSS trends (as well as some far-fetched and futuristic CSS features that might one day make their way to the browser) based on his learnings from running the State of CSS survey (go take it!)\nDiscuss on Changelog News",
+          "link": "https://www.smashingmagazine.com/2022/10/futuristic-css/",
+          "publishedOn": "2022-10-26T17:02:00.000Z",
+          "wordCount": null,
+          "title": "Futuristic CSS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/nj8Q",
+          "author": "Jerod Santo",
+          "description": "I’m here for any story that begins with an errant rm -r -f *, especially when the stakes are super-high, like you could lose an entire movie of Toy Story 2’s magnitude…\nWoody’s hat disappeared. And then his boots disappeared. And then as we kept checking, he disappeared entirely. Woody’s gone.\nCan you guess what happens next?\nWe realized that the backups we had were actually bad.\nRemember: nobody wants backups, everyone wants restore. Like Pixar’s movies, this tale ends happily, but I won’t spoil for you how the day was saved.\nDiscuss on Changelog News",
+          "link": "https://kottke.org/12/05/how-pixar-almost-deleted-toy-story-2",
+          "publishedOn": "2022-10-26T14:32:00.000Z",
+          "wordCount": null,
+          "title": "How Pixar almost deleted Toy Story 2",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1883",
+          "author": null,
+          "description": "This panel discussion was recorded at a recent event hosted by a company, Aryballe, that we previously featured on the podcast (#120). We got a chance to discuss the AI-driven technology transforming the order/fragrance industries, and we went down the rabbit hole discussing how this technology is being adopted at large, well-established companies.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMary Fischer-Mullins – LinkedIn\nYanis Caritu – LinkedIn\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nAryballe\nCox Automotive\nPrevious episode with Aryballe\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/198",
+          "publishedOn": "2022-10-26T14:30:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 198: AI adoption in large, well-established companies",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/198/practical-ai-198.mp3",
+            "length": "32154839",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/news/MbJ0",
           "author": "Jerod Santo",
           "description": "Webpack creator Tobias Koppers announcing its (Vercel-funded) successor:\nTurbopack is built on a new incremental architecture for the fastest possible development experience. On large applications, it shows updates 10x faster than Vite and 700x faster than Webpack. On even larger applications, the difference is greater—often 20x faster than Vite.\nTurbopack is open source and still in alpha. Here’s what the future may hold:\nTo start, Turbopack will be used for the Next.js 13 development server. It will power lightning-fast HMR, and it will support React Server Components natively, as well as TypeScript, JSX, CSS, and more.\nTurbopack will eventually also power Next.js production builds, both locally and in the cloud. We’ll be able to share Turbo’s cache across your entire team, using Vercel Remote Caching.\nWebpack users can also expect an incremental migration path into the Rust-based future with Turbopack.\nDiscuss on Changelog News",
@@ -920,51 +955,6 @@
           "wordCount": null,
           "title": "Hacktoberfest-hunt CLI",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3LDJ",
-          "author": "Jerod Santo",
-          "description": "I love that people are bringing HTML back to the forefront:\nOur mission is to enable anyone to build multi-page dynamic web apps while staying as close to the platform as possible. Enhance fills in the gaps to make building for the backend, and the browser a seamless experience for web authors and consumers.\nModern JavaScript frameworks bring more problems than they solve; recreating native web platform features adding unnecessary weight and complexity, which is challenging to unravel.\nEnhance provides a dependable foundation built on standards-based web platform features, allowing developers to create web applications that are lightweight, flexible, and future-proof.\nDiscuss on Changelog News",
-          "link": "https://enhance.dev/docs/",
-          "publishedOn": "2022-09-27T20:26:00.000Z",
-          "wordCount": null,
-          "title": "Enhance is a web standards-based HTML framework",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1860",
-          "author": null,
-          "description": "It’s one thing to gather some labels for your data. It’s another thing to integrate data labeling into your workflows and infrastructure in a scalable, secure, and useful way. Mark from Xelex joins us to talk through some of what he has learned after helping companies scale their data annotation efforts. We get into workflow management, labeling instructions, team dynamics, and quality assessment. This is a super practical episode!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMark Christensen – LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nXelex.ai\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/195",
-          "publishedOn": "2022-09-27T19:40:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 195: Production data labeling workflows",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/195/practical-ai-195.mp3",
-            "length": "30685243",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/7YJQ",
-          "author": "Jerod Santo",
-          "description": "Vivian Qu states her case as to why Apple’s decision to remove outdated apps from the App Store is dumb, especially for indies like her.\nNever mind the fact that my app has a 5-star rating and was still being downloaded, with no complaints from any of my users. Also disregard the fact that I had other highly-rated apps up on the App Store, some of which had been updated much more recently than July 2019, clearly showing that I have not abandoned these apps entirely. If there had been an actual reviewer who checked my outdated app, they would have discovered that I architected the app from the beginning to dynamically scale the UI so it resizes to fit the latest iPhone devices. All these could be signals that indicate to Apple that this is not a garbage-filled scam app that is lowering the quality of their App Store.\nShe goes on to tell the entire saga that she (and others) were put through to keep their apps on the store. Sometimes an app isn’t outdated, it’s just complete. Ya know?\nDiscuss on Changelog News",
-          "link": "https://vivqu.com/blog/2022/09/25/outdated-apps/",
-          "publishedOn": "2022-09-27T19:27:00.000Z",
-          "wordCount": null,
-          "title": "In defense of apps that don’t need updates",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/2lkV",
-          "author": "Jerod Santo",
-          "description": "Michael Knyszek:\nSince our last blog post about the Go GC in 2018 the Go GC, and the Go runtime more broadly, has been steadily improving. We’ve tackled some large projects, motivated by real-world Go programs and real challenges facing Go users. Let’s catch you up on the highlights!\nLots of invisible changes/improvements, but Michael focuses in on a new knob that he’s encouraging gophers to play with: the soft memory limit\nDiscuss on Changelog News",
-          "link": "https://go.dev/blog/go119runtime",
-          "publishedOn": "2022-09-27T15:04:00.000Z",
-          "wordCount": null,
-          "title": "4 years of progress on the Go runtime",
-          "itunes": {}
         }
       ]
     },
@@ -989,6 +979,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/health/a-new-genome-sequencing-tool-powered-with-our-technology/",
+          "author": null,
+          "description": "Genome sequencing provides a more complete description of cells and organisms, allowing scientists to uncover serious genetic conditions such as the elevated risk for breast cancer or pulmonary arterial hypertension. While researching genomics has the potential to save lives and preserve people’s quality of life, it's incredibly challenging work.\nBack in January, we announced a partnership with PacBio, a developer of genome sequencing instruments, to further advance genomic technologies. Today, PacBio is introducing the Revio sequencing system, an instrument that runs on our deep learning technology, DeepConsensus. With DeepConsensus built right into Revio, researchers can quickly and accurately identify genetic variants that cause diseases.\nHow Google Health’s technology works\nGenome sequ…",
+          "link": "https://blog.google/technology/health/a-new-genome-sequencing-tool-powered-with-our-technology/",
+          "publishedOn": "2022-10-26T17:00:00.000Z",
+          "wordCount": 964,
+          "title": "A new genome sequencing tool powered with our technology"
+        },
         {
           "id": "https://blog.google/technology/health/how-ai-can-help-in-the-fight-against-breast-cancer/",
           "author": null,
@@ -1230,6 +1229,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68152",
+          "author": "Chris Reddington",
+          "description": "Explore how GitHub Enterprise can help you transform your software engineering organization and practices.",
+          "link": "https://github.blog/2022-10-26-3-strategies-for-consolidating-your-toolkit-and-boosting-productivity/",
+          "publishedOn": "2022-10-26T16:00:04.000Z",
+          "wordCount": 2397,
+          "title": "3 strategies for consolidating your toolkit and boosting productivity"
+        },
+        {
+          "id": "https://github.blog/?p=68159",
+          "author": "Kylie Stradley",
+          "description": "You may know that GitHub encrypts your source code at rest, but you may not have known that we encrypt sensitive database columns as well. Read about our column encryption strategy and our decision to adopt the Rails column encryption standard.",
+          "link": "https://github.blog/2022-10-26-why-and-how-github-encrypts-sensitive-database-columns-using-activerecordencryption/",
+          "publishedOn": "2022-10-26T14:00:25.000Z",
+          "wordCount": 1459,
+          "title": "Why and how GitHub encrypts sensitive database columns using ActiveRecord::Encryption"
+        },
         {
           "id": "https://github.blog/?p=68140",
           "author": "Zachary Steindler",
@@ -1481,6 +1498,15 @@
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=19606",
+          "author": "Nubank Editorial",
+          "description": "The recognition of the employer branding in the Universum ranking comes with two other awards: Diversity in Practice (from Blend Edu) and the Respect Award (from Grupo Padrão).\nThe post Nubank is chosen as one of the most attractive companies for Brazilian students to work at in 2022 appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/one-of-the-most-attractive-companies-2022/",
+          "publishedOn": "2022-10-26T16:41:53.000Z",
+          "wordCount": 3114,
+          "title": "Nubank is chosen as one of the most attractive companies for Brazilian students to work at in 2022"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=19592",
           "author": "Jaqueline Duque - Senior Software Engineer at Nubank",
           "description": "One of the steps in Nubank's software engineering recruiting process are the algorithm exercises. Check out how they work and get a few tips on how to do well on these tests.\nThe post 8 tips to solve software engineering technical exercise for Nubank’s hiring process appeared first on Building Nubank.",
@@ -1603,15 +1629,6 @@
           "publishedOn": "2022-09-29T13:00:00.000Z",
           "wordCount": 609,
           "title": "Announcing the Results of Hack U.S."
-        },
-        {
-          "id": "https://hackerone.com/pentests/use-hackerones-enhanced-pentest-service-streamline-security-testing",
-          "author": "Sean Ryan",
-          "description": "New capabilities improve pentesting to increase attack resistance\nThe enhanced features drive robust security testing practices with the ability to",
-          "link": "https://www.hackerone.com/pentests/use-hackerones-enhanced-pentest-service-streamline-security-testing",
-          "publishedOn": "2022-09-27T23:00:00.000Z",
-          "wordCount": 1084,
-          "title": "Use Hackerone’s Enhanced Pentest as a Service to Streamline Security Testing"
         }
       ]
     },
@@ -1653,7 +1670,23 @@
       "title": "All Eyes on Markets",
       "feedUrl": "https://marketradar.substack.com/feed.xml",
       "siteUrl": "https://marketradar.substack.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://marketradar.substack.com/p/portfolio-review-october-2022",
+          "author": "Market Radar",
+          "description": "Balanced and Pure Stocks Portfolios",
+          "link": "https://marketradar.substack.com/p/portfolio-review-october-2022",
+          "publishedOn": "2022-10-26T17:27:47.000Z",
+          "wordCount": null,
+          "title": "Portfolio Review: October 2022",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6824e355-3c12-4bc4-b165-f77d91860414_800x617.png",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        }
+      ]
     },
     {
       "title": "BetterExplained",
