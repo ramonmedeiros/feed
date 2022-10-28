@@ -37,6 +37,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/ZolL",
+          "author": "Adam Stacoviak",
+          "description": "This tldr from Guilherme Rambo is enough, but read the full post for all the details.\nTL;DR: Any app with access to Bluetooth could record your conversations with Siri and audio from the iOS keyboard dictation feature when using AirPods or Beats headsets. This would happen without the app requesting microphone access permission and without the app leaving any trace that it was listening to the microphone.\nThis bug has since been handled by Apple. Also, after reaching back out to Apple (on Oct 25), Guilherme was told he’d be receiving a $7,000 (USD) bug bounty payment for reporting the issue.\nDiscuss on Changelog News",
+          "link": "https://rambo.codes/posts/2022-10-25-sirispy-ios-bug-allowed-apps-to-eavesdrop",
+          "publishedOn": "2022-10-27T20:35:00.000Z",
+          "wordCount": null,
+          "title": "iOS bug \"SiriSpy\" allowed apps to eavesdrop on your conversations with Siri",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1876",
+          "author": null,
+          "description": "Mat Ryer gathers a gang of ghouls and ghosts to tell spooky developer stories! Join us to hear tales of Mat’s $1k nightmare, Dee’s infinite loop of horror, Natalie’s haunted time as a junior dev & many, many more.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nFeaturing\nDee Kitchen – Twitter\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nKris Brandow – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nbluemonday\n“All About Regular Expressions” by Jade Allen\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/253",
+          "publishedOn": "2022-10-27T17:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 253: Spooky stories to scare devs 👻",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/253/go-time-253.mp3",
+            "length": "58167946",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/14/1855",
+          "author": null,
+          "description": "In today’s episode, we talk about distroless, ko, apko, melange, musl and glibc. The context is Wolfi OS, a community Linux OS designed for the container and cloud-native era. If you are looking for the lightest possible container base image with 0 CVEs and both glibc and musl support, Wolfi OS & the related chainguard-images are worth checking out.\nAriadne Conill is an Alpine Linux TSC member & Software Engineer at Chainguard.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about …",
+          "link": "https://changelog.com/shipit/76",
+          "publishedOn": "2022-10-27T14:30:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 76: Container base images with glibc & musl",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/76/ship-it-76.mp3",
+            "length": "60880366",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Jg8Z",
+          "author": "Jerod Santo",
+          "description": "Lars Wikman on what it takes to learn software development and how he responds when people ask him how they should go about it:\nAt the time I was learning, I didn’t have access to any kind of bigger picture. I had limited resources. Limited documentation. I had so many limitations. I ran into them constantly and eventually found the next thing I could use to do cool stuff. If you try to teach someone to use an HTML form today, you will need to decide if you are talking about the basic idea or reality. Do we need to cover CSRF, captchas and how to do it in React? How about the backend? Starting out, I didn’t hear about half of the things I didn’t know; I think that made things easier.\nWhen it comes to the software industry, this is the best of times. There are amazing learning resources available, a vast repository of free code that you don’t have to write, and lucrative job offers on the other end of the chasm.\nWhen it comes to the software industry, this is the worst of times. There are too many learning resources to choose from, a crippling repository of free code that might stumble you, and overwhelming imposter syndrome on the other end of the chasm.\nLars sums it up nicely:\nHand someone a fish and they’ll never know that the ocean is vast. Teach them how to fish and they’ll be forever lost at sea.\nDiscuss on Changelog News",
+          "link": "https://underjord.io/complex-systems-all-the-way-down.html",
+          "publishedOn": "2022-10-27T13:39:00.000Z",
+          "wordCount": null,
+          "title": "Complex systems all the way down",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/8l7r",
           "author": "Jerod Santo",
           "description": "Sacha Greif gets out his crystal ball and tries to anticipate the future CSS trends (as well as some far-fetched and futuristic CSS features that might one day make their way to the browser) based on his learnings from running the State of CSS survey (go take it!)\nDiscuss on Changelog News",
@@ -915,46 +965,6 @@
             "length": "64734951",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/rXZ9",
-          "author": "Jerod Santo",
-          "description": "MNT Research… is going small for its next project. The MNT Pocket Reform has a seven-inch screen with a clamshell design that, when closed, will be less than five centimeters thick. If its perky purple facade looks a bit retro, that’s no surprise; the Pocket’s inspirations read like a ‘greatest hits’ list of pocketable computers.\nThey’re taking open source seriously:\nMNT’s open-source promise is not limited to an open source operating system or select internal components The Pocket Reform, as with MNT’s full-size Reform laptop, will provide mainboard schematics, 3D models for physical components, and open source drivers, among other things.\nComing soon to a crowd fund near you.\n\nDiscuss on Changelog News",
-          "link": "https://spectrum.ieee.org/meet-an-open-source-pc-that-can-fit-in-your-pocket",
-          "publishedOn": "2022-09-28T18:27:00.000Z",
-          "wordCount": null,
-          "title": "MNT's Reform is an open source PC that fits in your pocket",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/9lVw",
-          "author": "Jerod Santo",
-          "description": "Zsot Varga explains how Prerender saved $800k annually by removing their reliance on AWS and building in-house infrastructure to handle traffic and cached data. This was no minor migration, and it took months to pull off, but it’s a solid lesson in testing your assumptions.\nThe cloud (which is AWS in most cases) is the default for most businesses today. That’s a good starting place for many reasons, but once you get up and going you may find it’s not the best choice for your business, like the folks at Prerender learned.\nDiscuss on Changelog News",
-          "link": "https://scribe.rip/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46",
-          "publishedOn": "2022-09-28T17:07:00.000Z",
-          "wordCount": null,
-          "title": "We reduced our server costs 80% by moving away from AWS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/9lVw",
-          "author": "Jerod Santo",
-          "description": "Zsot Varga explains how Prerender saved $800k annually by removing their reliance on AWS and building in-house infrastructure to handle traffic and cached data. This was no minor migration, and it took months to pull off, but it’s a solid lesson in testing your assumptions.\nThe cloud (which is AWS in most cases) is the default for most businesses today. That’s a good starting place for many reasons, but once you get up and going you may find it’s not the best choice for your business, like the folks at Prerender learned.\nDiscuss on Changelog News",
-          "link": "https://levelup.gitconnected.com/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46",
-          "publishedOn": "2022-09-28T17:07:00.000Z",
-          "wordCount": null,
-          "title": "We reduced our server costs 80% by moving away from AWS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/kwoR",
-          "author": "Stefan",
-          "description": "It’s Hacktoberfest again, but you don’t know where to find interesting projects? This CLI will help you find participating projects based on your starred repositories. Simply run:\nnpx hacktoberfest-hunt\n\nDiscuss on Changelog News",
-          "link": "https://github.com/stefanbuck/hacktoberfest-hunt",
-          "publishedOn": "2022-09-28T16:21:00.000Z",
-          "wordCount": null,
-          "title": "Hacktoberfest-hunt CLI",
-          "itunes": {}
         }
       ]
     },
@@ -1084,15 +1094,6 @@
           "publishedOn": "2022-10-14T08:06:09.000Z",
           "wordCount": 1475,
           "title": "There is a tab in my cookie"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19536",
-          "author": "Daniel Stenberg",
-          "description": "Already when the first version of curl shipped in 1998, I had plans and ideas in the back of my head to turn it to a library at some point. I had already before worked on providing libraries with APIs for applications and I appreciated their powers. During the summer of 2000 I refactored the … Continue reading The first 300 setopts →",
-          "link": "https://daniel.haxx.se/blog/2022/09/28/the-first-300-setopts/",
-          "publishedOn": "2022-09-28T11:55:36.000Z",
-          "wordCount": 1011,
-          "title": "The first 300 setopts"
         }
       ]
     },
@@ -1206,7 +1207,17 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html",
+          "author": null,
+          "description": "By James Forshaw, Project Zero\n\nI've been spending a lot of time researching Windows authentication implementations, specifically Kerberos. In June 2022 I found an interesting issue number 2310 with the handling of RC4 encryption that allowed you to authenticate as another user if you could either interpose on the Kerberos network traffic to and from the KDC or directly if the user was configured to disable typical pre-authentication requirements.\n\nThis blog post goes into more detail on how this vulnerability works and how I was able to exploit it with only a bare minimum of brute forcing required. Note, I'm not going to spend time fully explaining how Kerberos authentication works, there's plenty of resources online. For example this blog post by Steve Syfuhs who works at Microsoft is a …",
+          "link": "https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html",
+          "publishedOn": "2022-10-27T19:48:00.000Z",
+          "wordCount": 4291,
+          "title": "RC4 Is Still Considered Harmful"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -1229,6 +1240,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68178",
+          "author": "Laura Lindeman",
+          "description": "You can now build your agenda on GitHubUniverse.com! Whether you’re just getting started or you’re a seasoned industry professional, there’s a session for you.",
+          "link": "https://github.blog/2022-10-27-choose-your-own-github-universe-2022-adventure/",
+          "publishedOn": "2022-10-27T18:54:54.000Z",
+          "wordCount": 2257,
+          "title": "Choose your own GitHub Universe 2022 adventure"
+        },
+        {
+          "id": "https://github.blog/?p=68189",
+          "author": "Joseph Katsioloudes",
+          "description": "The GitHub Security Lab provided office hours for open source projects looking to improve their security posture and reduce the risk of breach. Here’s what we learned and how you can also participate.",
+          "link": "https://github.blog/2022-10-27-what-we-learned-from-the-security-labs-community-office-hours/",
+          "publishedOn": "2022-10-27T15:00:42.000Z",
+          "wordCount": 1539,
+          "title": "What we learned from the Security Lab’s Community Office Hours"
+        },
+        {
+          "id": "https://github.blog/?p=68183",
+          "author": "Dawn Beatty",
+          "description": "As GitHub continues to grow, our vision of being the home for all developers continues to materialize, expanding our progress, perspectives, and responsibility to the world.",
+          "link": "https://github.blog/2022-10-27-diversity-inclusion-and-belonging-at-github-in-2022/",
+          "publishedOn": "2022-10-27T13:13:22.000Z",
+          "wordCount": 1114,
+          "title": "Diversity, inclusion, and belonging at GitHub in 2022"
+        },
         {
           "id": "https://github.blog/?p=68152",
           "author": "Chris Reddington",
@@ -1480,15 +1518,6 @@
           "publishedOn": "2022-09-29T16:00:27.000Z",
           "wordCount": 2821,
           "title": "After the offer: staying in tech long-term"
-        },
-        {
-          "id": "https://github.blog/?p=67292",
-          "author": "Kevin Alwell",
-          "description": "Learn best practices on how to roll out centrally managed, developer-centric application security with a third party CI/CD system like Jenkins or ADO.",
-          "link": "https://github.blog/2022-09-28-best-practices-on-rolling-out-code-scanning-at-enterprise-scale/",
-          "publishedOn": "2022-09-28T16:00:38.000Z",
-          "wordCount": 1891,
-          "title": "Best practices on rolling out code scanning at enterprise scale"
         }
       ]
     },
@@ -1558,6 +1587,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/hacker-success-managers",
+          "author": "jesse@hackerone.com",
+          "description": "Intro to Hacker Success Managers \nEarlier this year, we released a blog that shared foundational changes on our Community Team. One of our goals",
+          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-success-managers",
+          "publishedOn": "2022-10-27T16:30:54.000Z",
+          "wordCount": 1377,
+          "title": "Hacker Success Managers"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/making-things-right",
           "author": "HackerOne",
@@ -1654,15 +1692,6 @@
           "publishedOn": "2022-10-12T20:56:33.000Z",
           "wordCount": 1858,
           "title": "How Product Teams Can Build Empathy Through Experimentation"
-        },
-        {
-          "id": "https://medium.com/p/1abf249ba95f",
-          "author": "Netflix Technology Blog",
-          "description": "by Kostas Christidis",
-          "link": "https://netflixtechblog.com/timestone-netflixs-high-throughput-low-latency-priority-queueing-system-with-built-in-support-1abf249ba95f?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-09-28T15:40:35.000Z",
-          "wordCount": 2309,
-          "title": "Timestone: Netflix’s High-Throughput, Low-Latency Priority Queueing System with Built-in Support…"
         }
       ]
     },
