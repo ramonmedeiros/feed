@@ -46,6 +46,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/PpEE",
+          "author": "Adam Stacoviak",
+          "description": "Simon Willison describes the Perfect Commit as a single commit that contains all of the following:\nThe implementation: a single, focused change\nTests that demonstrate the implementation works\nUpdated documentation reflecting the change\nA link to an issue thread providing further context\nHere’s four paragraphs on how he got to here:\nI went through a several year phase of writing essays in my commit messages, trying to capture as much of the background context and thinking as possible.\nMy commit messages grew a lot shorter when I started bundling the updated documentation in the commit—since often much of the material I’d previously included in the commit message was now in that documentation instead.\nAs I extended my practice of writing issue threads, I found that they were a better place for most of this context than the commit messages themselves. They supported embedded media, were more discoverable and I could continue to extend them even after the commit had landed.\nToday many of my commit messages are a single line summary and a link to an issue!\nDiscuss on Changelog News",
+          "link": "https://simonwillison.net/2022/Oct/29/the-perfect-commit/",
+          "publishedOn": "2022-10-31T14:00:00.000Z",
+          "wordCount": null,
+          "title": "The Perfect Commit",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Y1QW",
+          "author": "Jerod Santo",
+          "description": "I, for one, welcome our new Rust overlords.\nDiscuss on Changelog News",
+          "link": "https://github.com/dudykr/stc",
+          "publishedOn": "2022-10-31T13:53:00.000Z",
+          "wordCount": null,
+          "title": "A TypeScript type checker written in Rust",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/AXle",
+          "author": "Adam Stacoviak",
+          "description": "If you’re feeling the FOMO of JavaScript or you’re writing “spaghetti code” just to do something a NextJS component would do out of the box, then read this post from Bill Prin on why he moved from Django to NextJS.\nThe summary is that using a language like Python or Ruby for a significant web project has increasingly gotten less reasonable over time to the point where now, in 2022, it’s getting hard to justify. By not keeping your web stack in pure Javascript, you are making your life unnecessarily difficult (as usual, we’ll include languages like TypeScript as part of the JavaScript ecosystem). You will almost certainly invest a bunch of time-solving problems that would be automatically solved for you if you just stuck with JavaScript.\nI will provide specific examples of solving problems using Django that would have been trivially solved in NextJS.\nHe goes on to share two reasons why you should use Python or Ruby for web projects in 2022.\nYou’re working on an existing project that hasn’t been migrated yet or is not worth migrating.\nDiscuss on Changelog News",
+          "link": "https://billprin.com/2022/10/30/ditched-django-nextjs.html",
+          "publishedOn": "2022-10-31T13:00:00.000Z",
+          "wordCount": null,
+          "title": "Why I ditched Django for NextJS",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1885",
           "author": null,
           "description": "This week we’re doing some Linux mythbusting and talking retro gaming with Jay LaCroix from Learn Linux TV. This is a preview of what’s to come from our trip to All Things Open next week. By the way, make sure you come and check us out at booth 60. We’ll be recording podcasts, shaking hands, giving out t-shirts and stickers…and speaking of gaming, you can go head-to-head with us on Mario Kart or Rocket League on the Nintendo Switch. We’re giving that Switch away to a lucky winner at the conference, but you have to play to win. If you’re there, make sure you come see us because we want to see you.\nDiscuss on Changelog News\nChangelog++ members get a bonus 10 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why t…",
@@ -1052,6 +1082,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "author": null,
+          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "publishedOn": "2022-11-01T12:26:26.900Z",
+          "wordCount": 1488,
+          "title": "Twitter Sparrow tackles data storage challenges of scale"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
           "author": null,
           "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
@@ -1165,6 +1204,15 @@
       "siteUrl": "https://hacks.mozilla.org/",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47930",
+          "author": "Dipika Bhattacharya",
+          "description": "The MDN Web Docs team recently undertook a project to revamp and reorganize the “Contribution Docs”. These are all the pages on MDN that describe what’s what – the templates and page structures, how to perform a task on MDN, how to contribute to MDN, and the community guidelines to follow while contributing to this […]\nThe post Revamp of MDN Web Docs Contribution Docs appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/10/revamp-of-mdn-web-docs-contribution-docs/",
+          "publishedOn": "2022-10-31T17:47:12.000Z",
+          "wordCount": 939,
+          "title": "Revamp of MDN Web Docs Contribution Docs"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47924",
           "author": "Gabriele Svelto",
           "description": "If you're running Firefox on macOS you might have noticed that its responsiveness has improved significantly in version 103, especially if you've got a lot of tabs, or when your machine is busy running other applications at the same time. This improvement was achieved via a small change in how locking is implemented within Firefox's memory allocator.\nThe post Improving Firefox responsiveness on macOS appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1180,6 +1228,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68344",
+          "author": "Hauwa Otori",
+          "description": "A glimpse into the backgrounds and day-to-day work of several GitHub employees in cybersecurity roles.",
+          "link": "https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/",
+          "publishedOn": "2022-10-31T17:09:47.000Z",
+          "wordCount": 1613,
+          "title": "Creating a more inclusive security research field"
+        },
         {
           "id": "https://github.blog/?p=67492",
           "author": "Lee Reilly",

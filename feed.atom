@@ -2,10 +2,87 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-10-31T12:26:16.491Z</updated>
+    <updated>2022-11-01T12:26:46.149Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale"/>
+        <updated>2022-11-01T12:26:26.900Z</updated>
+        <summary type="html"><![CDATA[In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Revamp of MDN Web Docs Contribution Docs]]></title>
+        <id>https://hacks.mozilla.org/?p=47930</id>
+        <link href="https://hacks.mozilla.org/2022/10/revamp-of-mdn-web-docs-contribution-docs/"/>
+        <updated>2022-10-31T17:47:12.000Z</updated>
+        <summary type="html"><![CDATA[The MDN Web Docs team recently undertook a project to revamp and reorganize the “Contribution Docs”. These are all the pages on MDN that describe what’s what – the templates and page structures, how to perform a task on MDN, how to contribute to MDN, and the community guidelines to follow while contributing to this […]
+The post Revamp of MDN Web Docs Contribution Docs appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Dipika Bhattacharya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating a more inclusive security research field]]></title>
+        <id>https://github.blog/?p=68344</id>
+        <link href="https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/"/>
+        <updated>2022-10-31T17:09:47.000Z</updated>
+        <summary type="html"><![CDATA[A glimpse into the backgrounds and day-to-day work of several GitHub employees in cybersecurity roles.]]></summary>
+        <author>
+            <name>Hauwa Otori</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Perfect Commit]]></title>
+        <id>changelog.com/news/PpEE</id>
+        <link href="https://simonwillison.net/2022/Oct/29/the-perfect-commit/"/>
+        <updated>2022-10-31T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison describes the Perfect Commit as a single commit that contains all of the following:
+The implementation: a single, focused change
+Tests that demonstrate the implementation works
+Updated documentation reflecting the change
+A link to an issue thread providing further context
+Here’s four paragraphs on how he got to here:
+I went through a several year phase of writing essays in my commit messages, trying to capture as much of the background context and thinking as possible.
+My commit messages grew a lot shorter when I started bundling the updated documentation in the commit—since often much of the material I’d previously included in the commit message was now in that documentation instead.
+As I extended my practice of writing issue threads, I found that they were a better place for most of this context than the commit messages themselves. They supported embedded media, were more discoverable and I could continue to extend them even after the commit had landed.
+Today many of my commit messages are a single line summary and a link to an issue!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A TypeScript type checker written in Rust]]></title>
+        <id>changelog.com/news/Y1QW</id>
+        <link href="https://github.com/dudykr/stc"/>
+        <updated>2022-10-31T13:53:00.000Z</updated>
+        <summary type="html"><![CDATA[I, for one, welcome our new Rust overlords.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why I ditched Django for NextJS]]></title>
+        <id>changelog.com/news/AXle</id>
+        <link href="https://billprin.com/2022/10/30/ditched-django-nextjs.html"/>
+        <updated>2022-10-31T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you’re feeling the FOMO of JavaScript or you’re writing “spaghetti code” just to do something a NextJS component would do out of the box, then read this post from Bill Prin on why he moved from Django to NextJS.
+The summary is that using a language like Python or Ruby for a significant web project has increasingly gotten less reasonable over time to the point where now, in 2022, it’s getting hard to justify. By not keeping your web stack in pure Javascript, you are making your life unnecessarily difficult (as usual, we’ll include languages like TypeScript as part of the JavaScript ecosystem). You will almost certainly invest a bunch of time-solving problems that would be automatically solved for you if you just stuck with JavaScript.
+I will provide specific examples of solving problems using Django that would have been trivially solved in NextJS.
+He goes on to share two reasons why you should use Python or Ruby for web projects in 2022.
+You’re working on an existing project that hasn’t been migrated yet or is not worth migrating.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[13 tiny, terrific, and terrifying games to hack, slay, and play this Halloween 🧛🏻‍♀️]]></title>
         <id>https://github.blog/?p=67492</id>
