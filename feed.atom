@@ -2,10 +2,121 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-01T12:26:46.149Z</updated>
+    <updated>2022-11-02T12:25:03.996Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gregor Samsa: Exploiting Java's XML Signature Verification]]></title>
+        <id>https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html"/>
+        <updated>2022-11-02T11:41:00.008Z</updated>
+        <summary type="html"><![CDATA[By Felix Wilhelm, Project Zero
+
+Earlier this year, I discovered a surprising attack surface hidden deep inside Java’s standard library: A custom JIT compiler processing untrusted XSLT programs, exposed to remote attackers during XML signature verification. This post discusses CVE-2022-34169, an integer truncation bug in this JIT compiler resulting in arbitrary code execution in many Java-based web applications and identity providers that support the SAML single-sign-on standard. 
+OpenJDK fixed the discussed issue in July 2022. The Apache BCEL project used by Xalan-J, the origin of the vulnerable code, released a patch in September 2022. 
+
+While the vulnerability discussed in this post has been patched , vendors and users should expect further vulnerabilities in SAML.
+
+From a security resea…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTTP Workshop 2022 – day 1]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20538</id>
+        <link href="https://daniel.haxx.se/blog/2022/11/02/http-workshop-2022-day-1/"/>
+        <updated>2022-11-01T23:33:57.000Z</updated>
+        <summary type="html"><![CDATA[The HTTP Workshop is an occasional gathering of HTTP experts and other interested parties to discuss the Web’s foundational protocol. The fifth HTTP Workshop is a three day event that takes place in Oxford, UK. I’m happy to say that I am attending this one as well, as I have all the previous occasions. This … Continue reading HTTP Workshop 2022 – day 1 →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An open source app built using everything new in Next.js 13]]></title>
+        <id>changelog.com/news/ZoJN</id>
+        <link href="https://github.com/shadcn/taxonomy"/>
+        <updated>2022-11-01T23:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Vercel dropped Next.js 13 last week and there’s a lot of new stuff (router, server components, streaming & more) in this release. If you learn best by example (and subsequent tinkering with existing things), this (WIP) repo might be a good starting place for you.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 199: The practicalities of releasing models]]></title>
+        <id>changelog.com/7/1925</id>
+        <link href="https://changelog.com/practicalai/199"/>
+        <updated>2022-11-01T22:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently Chris and Daniel briefly discussed the Open RAIL-M licensing and model releases on Hugging Face. In this episode, Daniel follows up on this topic based on some recent practical experience. Also included is a discussion about graph neural networks, message passing, and tweaking synthesized voices!
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Daniel’s team license from recent work
+Graph Neural Network courses from Zak Jost
+Coqui voice studio
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Off 2022 theme announcement]]></title>
+        <id>https://github.blog/?p=68363</id>
+        <link href="https://github.blog/2022-11-01-game-off-2022-theme-announcement/"/>
+        <updated>2022-11-01T20:37:41.000Z</updated>
+        <summary type="html"><![CDATA[It’s the moment you’ve all been waiting for. Are you ready?]]></summary>
+        <author>
+            <name>Lee Reilly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Preview: referencing public code in GitHub Copilot]]></title>
+        <id>https://github.blog/?p=68373</id>
+        <link href="https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/"/>
+        <updated>2022-11-01T19:00:20.000Z</updated>
+        <summary type="html"><![CDATA[We will begin to introduce several new capabilities to GitHub Copilot in 2023 to continue delivering responsible innovation and true happiness at the keyboard.]]></summary>
+        <author>
+            <name>Ryan J. Salva</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All In for Students: expanding the next generation of open source leaders]]></title>
+        <id>https://github.blog/?p=68358</id>
+        <link href="https://github.blog/2022-11-01-all-in-for-students-expanding-the-next-generation-of-open-source-leaders/"/>
+        <updated>2022-11-01T15:15:11.000Z</updated>
+        <summary type="html"><![CDATA[We are pleased to announce the expansion of All In for Students! All In for Students introduces college students to open source and provides them with the education, technical training and career development to prepare them for a summer internship in tech.]]></summary>
+        <author>
+            <name>Demetris Cheatham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OKLCH in CSS: why we moved from RGB and HSL]]></title>
+        <id>changelog.com/news/ojzd</id>
+        <link href="https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl"/>
+        <updated>2022-11-01T13:50:00.000Z</updated>
+        <summary type="html"><![CDATA[In CSS, we’ve been encoding colors with rgb() or hex (mostly for historical reasons). However, the new CSS Color 4 specification adds many better ways of declaring colors in CSS. Of these, oklch() is the most interesting one—this article explains why.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[50 useful Vim commands]]></title>
+        <id>changelog.com/news/aQbm</id>
+        <link href="https://vimtricks.com/p/50-useful-vim-commands/"/>
+        <updated>2022-11-01T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From VimTricks:
+Here are 50 useful Vim commands that work in normal mode. Many of these can be combined and modified to produce dozens more. Use these as inspiration for your own repeatable workflows.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
@@ -2068,82 +2179,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Give back to open source projects during the month of October! This year, we’re encouraging more than code contributions: writing, design, advocacy, and financial donations.]]></summary>
         <author>
             <name>Abby Cabunoc Mayes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seer – a GUI frontend to gdb]]></title>
-        <id>changelog.com/news/mlDy</id>
-        <link href="https://github.com/epasveer/seer"/>
-        <updated>2022-10-03T18:36:00.000Z</updated>
-        <summary type="html"><![CDATA[The GNU Debugger is powerful, but it can also be inscrutable at times. Maybe this GUI will help?
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Highlights from Git 2.38]]></title>
-        <id>https://github.blog/?p=67386</id>
-        <link href="https://github.blog/2022-10-03-highlights-from-git-2-38/"/>
-        <updated>2022-10-03T18:01:04.000Z</updated>
-        <summary type="html"><![CDATA[Another new release of Git is here! Take a look at some of our highlights on what's new in Git 2.38.]]></summary>
-        <author>
-            <name>Taylor Blau</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: Hacktoberfest is ON, DiffusionBee is 1.0, Dracula UI is out, GitX is undead, Prerender is off AWS & we'll be at ATO!]]></title>
-        <id>changelog.com/1/1864</id>
-        <link href="https://changelog.com/podcast/news-2022-10-03"/>
-        <updated>2022-10-03T17:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Digital Ocean kicks off Hacktoberfest 2022, Divam Gupta releases DiffusionBee 1.0 with “Image To Image” support, Zeno Rocha open sources Dracula UI for React, GitX gets brought back from the brink & Prerender.io engineers save a bundle by moving off AWS.
-Oh, and join us at All Things Open in early November!
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Jerod Santo – Twitter, GitHub
-Notes and Links
-Hacktoberfest 2022
-
-github.com/thechangelog/transcripts
-github.com/thechangelog/show-notes
-DiffusionBee
-
-🎧 Mentioned on The Changelog #506
-Source on GitHub
-Dracula UI
-
-🎧 Zeno on The Changelog #405
-🎧 Zeno on The Changelog #4248
-github.com/gitx/gitx
-Prerender moving away from AWS
-💚 Join us at All Things Open 2022!
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Facts about state machines]]></title>
-        <id>changelog.com/news/dq5E</id>
-        <link href="https://github.com/cpressey/Facts-about-State-Machines"/>
-        <updated>2022-10-03T13:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Johannes Schuck holds the opinion that state machines are underrated. So he wrote this:
-The goal of this list of facts is not to teach you what state machines are or how to use them; there are plenty of other resources for that. Rather, the goal here is to motivate their usage and to highlight things about them that are frequently overlooked, but nonetheless relevant.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Over-squashing, Bottlenecks, and Graph Ricci curvature]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature"/>
-        <updated>2022-10-03T12:27:22.391Z</updated>
-        <summary type="html"><![CDATA[Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>

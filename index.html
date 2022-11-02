@@ -16,6 +16,35 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2022-11-02">2022-11-02</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://googleprojectzero.blogspot.com/">Project Zero</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Gregor Samsa: Exploiting Java&#x27;s XML Signature Verification</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(16 min)</span>
+                    <span>By Felix Wilhelm, Project Zero
+
+Earlier this year, I discovered a surprising attack surface hidden deep inside Java’s standard library: A custom JIT compiler processing untrusted XSLT programs, exposed to remote attackers during XML signature verification. This post discusses CVE-2022-34169, an integer truncation bug in this JIT compiler resulting in arbitrary code execution in many Java-based web applications and identity providers that support the SAML single-sign-on standard. 
+OpenJDK fixed the discussed issue in July 2022. The Apache BCEL project used by Xalan-J, the origin of the vulnerable code, released a patch in September 2022. 
+
+While the vulnerability discussed in this post has been patched , vendors and users should expect further vulnerabilities in SAML.
+
+From a security resea…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2022-11-01">2022-11-01</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -29,6 +58,126 @@
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(5 min)</span>
                     <span>In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">An open source app built using everything new in Next.js 13</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/shadcn/taxonomy">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Vercel dropped Next.js 13 last week and there’s a lot of new stuff (router, server components, streaming &amp; more) in this release. If you learn best by example (and subsequent tinkering with existing things), this (WIP) repo might be a good starting place for you.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Practical AI 199: The practicalities of releasing models</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/practicalai/199">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Recently Chris and Daniel briefly discussed the Open RAIL-M licensing and model releases on Hugging Face. In this episode, Daniel follows up on this topic based on some recent practical experience. Also included is a discussion about graph neural networks, message passing, and tweaking synthesized voices!
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Daniel’s team license from recent work
+Graph Neural Network courses from Zak Jost
+Coqui voice studio
+Something missing or broken? PRs welcome!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">OKLCH in CSS: why we moved from RGB and HSL</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>In CSS, we’ve been encoding colors with rgb() or hex (mostly for historical reasons). However, the new CSS Color 4 specification adds many better ways of declaring colors in CSS. Of these, oklch() is the most interesting one—this article explains why.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">50 useful Vim commands</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://vimtricks.com/p/50-useful-vim-commands/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>From VimTricks:
+Here are 50 useful Vim commands that work in normal mode. Many of these can be combined and modified to produce dozens more. Use these as inspiration for your own repeatable workflows.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">HTTP Workshop 2022 – day 1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2022/11/02/http-workshop-2022-day-1/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The HTTP Workshop is an occasional gathering of HTTP experts and other interested parties to discuss the Web’s foundational protocol. The fifth HTTP Workshop is a three day event that takes place in Oxford, UK. I’m happy to say that I am attending this one as well, as I have all the previous occasions. This … Continue reading HTTP Workshop 2022 – day 1 →</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog/">The GitHub Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Game Off 2022 theme announcement</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-11-01-game-off-2022-theme-announcement/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>It’s the moment you’ve all been waiting for. Are you ready?</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Preview: referencing public code in GitHub Copilot</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>We will begin to introduce several new capabilities to GitHub Copilot in 2023 to continue delivering responsible innovation and true happiness at the keyboard.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">All In for Students: expanding the next generation of open source leaders</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-11-01-all-in-for-students-expanding-the-next-generation-of-open-source-leaders/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>We are pleased to announce the expansion of All In for Students! All In for Students introduces college students to open source and provides them with the education, technical training and career development to prepare them for a summer internship in tech.</span>
                   </div>
                 </a>
               </details>
@@ -2813,113 +2962,9 @@ Discuss on Changelog News</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2022-10-03">2022-10-03</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://blog.twitter.com/engineering/en_us">English (US)</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Over-squashing, Bottlenecks, and Graph Ricci curvature</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Seer – a GUI frontend to gdb</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/epasveer/seer">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>The GNU Debugger is powerful, but it can also be inscrutable at times. Maybe this GUI will help?
-
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Changelog News: Hacktoberfest is ON, DiffusionBee is 1.0, Dracula UI is out, GitX is undead, Prerender is off AWS &amp; we&#x27;ll be at ATO!</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/podcast/news-2022-10-03">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Digital Ocean kicks off Hacktoberfest 2022, Divam Gupta releases DiffusionBee 1.0 with “Image To Image” support, Zeno Rocha open sources Dracula UI for React, GitX gets brought back from the brink &amp; Prerender.io engineers save a bundle by moving off AWS.
-Oh, and join us at All Things Open in early November!
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Jerod Santo – Twitter, GitHub
-Notes and Links
-Hacktoberfest 2022
-
-github.com/thechangelog/transcripts
-github.com/thechangelog/show-notes
-DiffusionBee
-
-🎧 Mentioned on The Changelog #506
-Source on GitHub
-Dracula UI
-
-🎧 Zeno on The Changelog #405
-🎧 Zeno on The Changelog #4248
-github.com/gitx/gitx
-Prerender moving away from AWS
-💚 Join us at All Things Open 2022!
-Something missing or broken? PRs welcome!</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Facts about state machines</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/cpressey/Facts-about-State-Machines">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Johannes Schuck holds the opinion that state machines are underrated. So he wrote this:
-The goal of this list of facts is not to teach you what state machines are or how to use them; there are plenty of other resources for that. Rather, the goal here is to motivate their usage and to highlight things about them that are frequently overlooked, but nonetheless relevant.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://github.blog/">The GitHub Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Highlights from Git 2.38</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-10-03-highlights-from-git-2-38/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Another new release of Git is here! Take a look at some of our highlights on what&#x27;s new in Git 2.38.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-11-01T12:26:46.128Z">2022-11-01T12:26:46.128Z</time>
+    <time id="build-timestamp" datetime="2022-11-02T12:25:03.973Z">2022-11-02T12:25:03.973Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
