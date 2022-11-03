@@ -46,6 +46,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/49Jj",
+          "author": "Jerod Santo",
+          "description": "History is proof that removing a dangerous feature can greatly improve the quality of code. Today, we have a slew of dangerous practices that compromise the robustness and maintainability of software. Nearly all modern programming languages have some form of null references, shared global state, and functions with side effects—things that are far worse than the GOTO ever was.\nHow can those flaws be eliminated? It turns out that the answer has been around for decades: purely functional programming languages.\nDiscuss on Changelog News",
+          "link": "https://spectrum.ieee.org/functional-programming",
+          "publishedOn": "2022-11-02T13:47:00.000Z",
+          "wordCount": null,
+          "title": "Why functional programming should be the future of software development",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/qMqd",
+          "author": "Jerod Santo",
+          "description": "This is for people who need to administer a handful of machines, all fairly different from each other and all Very Important. Those systems are not Cattle! They’re actually a bit more than Pets. They’re almost Family. For example: a laptop, workstation, and that personal tiny server in Sweden. They are all named after something dear.\nLiz Rice and I spoke about pets & cattle recently on The Changelog. I asked her, “from your perspective, are the people still doing it the old-school pets way?”\nThis tool is a great example of Pets-style administration being alive and well.\nDiscuss on Changelog News",
+          "link": "https://github.com/ema/pets",
+          "publishedOn": "2022-11-02T12:32:00.000Z",
+          "wordCount": null,
+          "title": "A configuration management system for Pets, not Cattle",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/ZoJN",
           "author": "Jerod Santo",
           "description": "Vercel dropped Next.js 13 last week and there’s a lot of new stuff (router, server components, streaming & more) in this release. If you learn best by example (and subsequent tinkering with existing things), this (WIP) repo might be a good starting place for you.\nDiscuss on Changelog News",
@@ -924,36 +944,6 @@
           "wordCount": null,
           "title": "A collection of diagramming tools used by software engineering teams",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3LeJ",
-          "author": "Jerod Santo",
-          "description": "When we had Mike Riley on the show back in May, one major deterrent to his pitch that we can/should “run our homes on a Raspberry Pi” is that, well, you couldn’t buy one anywhere.\nIt’s six months later and you still can’t buy one! In this post, Jeff Geerling dives into the why behind that unfortunate fact, gets an official response from RPi, and lays out a few alternatives. One alternative even pleasantly surprised him…\nDiscuss on Changelog News",
-          "link": "https://www.jeffgeerling.com/blog/2022/you-cant-buy-raspberry-pi-right-now",
-          "publishedOn": "2022-10-04T16:10:00.000Z",
-          "wordCount": null,
-          "title": "You can't buy a Raspberry Pi right now. Why?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7DR",
-          "author": "Oleksii Trekhleb",
-          "description": "Minimalistic data structure sketches with links to the code examples on JavaScript\n\nDiscuss on Changelog News",
-          "link": "https://okso.app/showcase/data-structures",
-          "publishedOn": "2022-10-04T15:22:00.000Z",
-          "wordCount": null,
-          "title": "Data Structure Sketches",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/2leV",
-          "author": "Jerod Santo",
-          "description": "No, not that Matrix, although I’m sure you could pull this off there as well…\n\nDiscuss on Changelog News",
-          "link": "https://github.com/joschuck/matrix-webcam",
-          "publishedOn": "2022-10-04T14:28:00.000Z",
-          "wordCount": null,
-          "title": "Take your next video conference from within the Matrix",
-          "itunes": {}
         }
       ]
     },
@@ -978,6 +968,24 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/sustainability/cop27-adaptation-efforts/",
+          "author": null,
+          "description": "Communities around the world are facing the effects of climate change — from devastating floods and wildfires to challenges around food security. As global leaders meet in Egypt for COP27, a key area of focus will be on how we can work together to address the climate change crisis and implement sustainable solutions. At Google, we’re investing in technologies that can help communities prepare for and respond to climate-related disasters and threats.\nTools to alert people and governments about immediate risks\nNatural disasters are increasing in frequency and intensity due to climate change. As part of our Crisis Response efforts, we're working to bring trusted information to people in critical moments to keep them safe and informed. To do so, we rely on the research and development of our A…",
+          "link": "https://blog.google/outreach-initiatives/sustainability/cop27-adaptation-efforts/",
+          "publishedOn": "2022-11-02T14:05:00.000Z",
+          "wordCount": 1731,
+          "title": "How we're using AI to help address the climate crisis"
+        },
+        {
+          "id": "https://blog.google/technology/ai/ways-ai-is-scaling-helpful/",
+          "author": null,
+          "description": "I was first introduced to neural networks as an undergraduate in 1990. Back then, many people in the AI community were excited about the potential of neural networks, which were impressive, but couldn’t yet accomplish important, real-world tasks. I was excited, too! I did my senior thesis on using parallel computation to train neural networks, thinking we only needed 32X more compute power to get there. I was way off. At that time, we needed 1 million times as much computational power.\n\n\nA short 21 years later, with exponentially more computational power, it was time to take another crack at neural networks. In 2011, I and a few others at Google started training very large neural networks using millions of randomly selected frames from videos online. The results were remarkable. Without ex…",
+          "link": "https://blog.google/technology/ai/ways-ai-is-scaling-helpful/",
+          "publishedOn": "2022-11-02T14:00:00.000Z",
+          "wordCount": 2299,
+          "title": "3 ways AI is scaling helpful technologies worldwide"
+        },
         {
           "id": "https://blog.google/technology/health/a-new-genome-sequencing-tool-powered-with-our-technology/",
           "author": null,
@@ -1040,6 +1048,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=20495",
+          "author": "Daniel Stenberg",
+          "description": "Day one was awesome. Now we take the next step. The missing people During the discussions today it was again noticeable that apart from some specific individuals we also lack people in the room from prominent “players” in this area such as Chrome developers or humans with closer knowledge of how larger content deliverer work … Continue reading Workshop season 5 episode 2 →",
+          "link": "https://daniel.haxx.se/blog/2022/11/03/workshop-season-5-episode-2/",
+          "publishedOn": "2022-11-02T23:14:15.000Z",
+          "wordCount": 900,
+          "title": "Workshop season 5 episode 2"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=20538",
           "author": "Daniel Stenberg",
           "description": "The HTTP Workshop is an occasional gathering of HTTP experts and other interested parties to discuss the Web’s foundational protocol. The fifth HTTP Workshop is a three day event that takes place in Oxford, UK. I’m happy to say that I am attending this one as well, as I have all the previous occasions. This … Continue reading HTTP Workshop 2022 – day 1 →",
@@ -1100,6 +1117,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
+          "author": null,
+          "description": "Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
+          "publishedOn": "2022-11-03T12:21:33.407Z",
+          "wordCount": 2177,
+          "title": "Over-squashing, Bottlenecks, and Graph Ricci curvature"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
           "author": null,
@@ -1247,6 +1273,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68350",
+          "author": "Laura Paine",
+          "description": "Developers creating Internet of Things software use a complex stack of software that needs to be custom built into their CI/CD platform. Arm is leveraging the simplicity and scalability of GitHub Actions with a native integration that will revolutionize IoT software development.",
+          "link": "https://github.blog/2022-11-02-github-partners-with-arm-to-revolutionize-internet-of-things-software-development-with-github-actions/",
+          "publishedOn": "2022-11-02T18:39:04.000Z",
+          "wordCount": 2042,
+          "title": "GitHub partners with Arm to revolutionize Internet of Things software development with GitHub Actions"
+        },
+        {
+          "id": "https://github.blog/?p=68396",
+          "author": "Jakub Oleksy",
+          "description": "In October, we experienced four incidents that resulted in degraded performance across GitHub services. This report also sheds light into an incident that impacted Codespaces in September.",
+          "link": "https://github.blog/2022-11-02-github-availability-report-october-2022/",
+          "publishedOn": "2022-11-02T16:00:33.000Z",
+          "wordCount": 1836,
+          "title": "GitHub Availability Report: October 2022"
+        },
         {
           "id": "https://github.blog/?p=68363",
           "author": "Lee Reilly",
@@ -1552,15 +1596,6 @@
           "publishedOn": "2022-10-05T13:01:44.000Z",
           "wordCount": 1440,
           "title": "Two ways you can experience GitHub Universe"
-        },
-        {
-          "id": "https://github.blog/?p=67479",
-          "author": "Abby Cabunoc Mayes",
-          "description": "Give back to open source projects during the month of October! This year, we’re encouraging more than code contributions: writing, design, advocacy, and financial donations.",
-          "link": "https://github.blog/2022-10-04-expand-your-open-source-contributions-during-hacktoberfest-2022/",
-          "publishedOn": "2022-10-04T12:00:20.000Z",
-          "wordCount": 726,
-          "title": "Expand your open source contributions during Hacktoberfest 2022"
         }
       ]
     },
@@ -1640,6 +1675,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/hackerone-community-blog/hacker-afk-thearchangel",
+          "author": "HackerOne",
+          "description": "Today's hacker the_arch_angel \nJXoaT: What was your first experience with hacking growing up? \nthe_arch_angel: I actually didn't do any",
+          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-afk-thearchangel",
+          "publishedOn": "2022-11-02T15:03:34.000Z",
+          "wordCount": 1262,
+          "title": "Hacker AFK: the_arch_angel"
+        },
+        {
           "id": "https://hackerone.com/hackerone-community-blog/hacker-success-managers",
           "author": "jesse@hackerone.com",
           "description": "Intro to Hacker Success Managers \nEarlier this year, we released a blog that shared foundational changes on our Community Team. One of our goals",
@@ -1701,15 +1745,6 @@
           "publishedOn": "2022-10-11T14:00:00.000Z",
           "wordCount": 1242,
           "title": "TikTok Celebrates Two Years of Bug Bounty"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/lets-celebrate-hacker-community",
-          "author": "HackerOne",
-          "description": "October is Cybersecurity Awareness Month, but at HackerOne, we’ve decided it should be Hacker Awareness Month. We want to spend October celebratin",
-          "link": "https://www.hackerone.com/hackerone-community-blog/lets-celebrate-hacker-community",
-          "publishedOn": "2022-10-04T13:00:00.000Z",
-          "wordCount": 685,
-          "title": "Let’s Celebrate the Hacker Community"
         }
       ]
     },
