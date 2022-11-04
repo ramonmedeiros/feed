@@ -46,6 +46,31 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/LW43",
+          "author": "Jerod Santo",
+          "description": "Most internet speed testing tools focus on bandwidth, but latency and packet loss are major factors in the experience as well.\nBandwidth means, once things get going, how fast you can download. But “once things get going” can take a really long time. In fact, it can take longer than the whole download! This is especially true for simple web pages, or web pages made up of a bunch of tiny pieces, which is very common on today’s web… That’s where latency comes in.\nTry blip for yourself: gfblip.appspot.com\nDiscuss on Changelog News",
+          "link": "https://github.com/apenwarr/blip",
+          "publishedOn": "2022-11-03T14:27:00.000Z",
+          "wordCount": null,
+          "title": "blip –a tool for seeing your internet latency",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1707",
+          "author": null,
+          "description": "15 years ago, Gerhard discovered magic in the form of Ruby on Rails. It was intuitive and it just worked. That is the context in which Gerhard fell in love with infrastructure and operations.\nToday, for special episode 77, we start at Seven Shipping Principles, and, in the true spirit of Ship It, we’ll see what happens next.\nOur guest is David Heinemeier Hansson, creator of Ruby on Rails, co-founder of Basecamp & HEY, and a lot more - check out dhh.dk.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and …",
+          "link": "https://changelog.com/shipit/77",
+          "publishedOn": "2022-11-03T13:30:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 77: Seven Shipping Principles",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/77/ship-it-77.mp3",
+            "length": "56747496",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/news/49Jj",
           "author": "Jerod Santo",
           "description": "History is proof that removing a dangerous feature can greatly improve the quality of code. Today, we have a slew of dangerous practices that compromise the robustness and maintainability of software. Nearly all modern programming languages have some form of null references, shared global state, and functions with side effects—things that are far worse than the GOTO ever was.\nHow can those flaws be eliminated? It turns out that the answer has been around for decades: purely functional programming languages.\nDiscuss on Changelog News",
@@ -894,56 +919,6 @@
           "wordCount": null,
           "title": "A CLI to share files directly with iOS and Android devices",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/njqo",
-          "author": "Jerod Santo",
-          "description": "You’re cordially invited to the “Best Booth in the Building”! We’ll be giving away stickers & t-shirts, recording shows, playing video games & awarding one lucky/skilled listener with a FREE Nintendo Switch 🕹\n\nDiscuss on Changelog News",
-          "link": "https://youtu.be/Z8DEo4DSoHY",
-          "publishedOn": "2022-10-05T20:38:00.000Z",
-          "wordCount": null,
-          "title": "Come see us at All Things Open!",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/oj4l",
-          "author": "Jerod Santo",
-          "description": "Tapajyoti Bose draws our attention to some obscure-but-useful elements: meter & progress, sup & sub, datalist, map & area, details & summary, object, and abbr\nDiscuss on Changelog News",
-          "link": "https://scribe.rip/7-cool-html-elements-nobody-uses-436598d85668",
-          "publishedOn": "2022-10-05T17:28:00.000Z",
-          "wordCount": null,
-          "title": "Cool HTML elements nobody uses",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/MbGD",
-          "author": "Jerod Santo",
-          "description": "If Stable Diffusion has you using metaphors like wizardry, spell casting, and the like, maybe this excellent, illustrated explainer by Jay Alammar will help you distinguish it from magic. 🪄\nDiscuss on Changelog News",
-          "link": "https://jalammar.github.io/illustrated-stable-diffusion/",
-          "publishedOn": "2022-10-05T16:40:00.000Z",
-          "wordCount": null,
-          "title": "A gentle introduction to how Stable Diffusion works",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/rXD9",
-          "author": "Jerod Santo",
-          "description": "Podinfo is a tiny web application made with Go that showcases best practices of running microservices in Kubernetes.\nThis is used by CNCF projects like Flux and Flagger for end-to-end testing as well as workshops.\nDiscuss on Changelog News",
-          "link": "https://github.com/stefanprodan/podinfo",
-          "publishedOn": "2022-10-05T15:44:00.000Z",
-          "wordCount": null,
-          "title": "Podinfo – A Go microservice template for Kubernetes",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/9lew",
-          "author": "Jerod Santo",
-          "description": "Diagrams are faster and compact way for knowledge transfer. It’s much easier to convey system architecture with a diagram compared to writing an essay on it.\nDiagrams are especially useful in providing high level overview of software design. Following are the most-widely used diagrams by engineering teams…\nDiscuss on Changelog News",
-          "link": "https://github.com/shubhamgrg04/awesome-diagramming",
-          "publishedOn": "2022-10-05T14:42:00.000Z",
-          "wordCount": null,
-          "title": "A collection of diagramming tools used by software engineering teams",
-          "itunes": {}
         }
       ]
     },
@@ -1047,6 +1022,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20565",
+          "author": "Daniel Stenberg",
+          "description": "The last day of this edition of the HTTP workshop. Thursday November 3, 2022. A half day only. Many participants at the Workshop are going to continue their UK adventure and attend the IETF 115 in London next week. We started off the day with a deep dive into connection details. How to make connections … Continue reading thehttpworkshop2022-day3.txt →",
+          "link": "https://daniel.haxx.se/blog/2022/11/03/thehttpworkshop2022-day3-txt/",
+          "publishedOn": "2022-11-03T17:36:14.000Z",
+          "wordCount": 653,
+          "title": "thehttpworkshop2022-day3.txt"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20495",
           "author": "Daniel Stenberg",
@@ -1206,15 +1190,6 @@
           "publishedOn": "2022-10-06T12:25:35.675Z",
           "wordCount": 1326,
           "title": "Understanding Twitter conversations: A Wordle case study"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "author": null,
-          "description": "In this blog post, we talk about a performance and stability problem we encountered while migrating Manhattan's storage engine to RocksDB and how we solved it.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-transfer-in-manhattan-using-rocksdb",
-          "publishedOn": "2022-10-05T12:23:35.422Z",
-          "wordCount": 1606,
-          "title": "Data transfer in Manhattan using RocksDB"
         }
       ]
     },
@@ -1273,6 +1248,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=67968",
+          "author": "Margaret Tucker",
+          "description": "How GitHub advocated for developer interests at the US Copyright Office technical measures consultations",
+          "link": "https://github.blog/2022-11-03-advocating-for-developers-to-the-us-copyright-office/",
+          "publishedOn": "2022-11-03T16:00:28.000Z",
+          "wordCount": 1235,
+          "title": "Advocating for developers to the US Copyright Office"
+        },
+        {
+          "id": "https://github.blog/?p=68413",
+          "author": "Kylie Stradley",
+          "description": "This post is the second part in a series about ActiveRecord::Encryption that shows how GitHub upgrades previously encrypted and unencrypted columns to ActiveRecord::Encryption.",
+          "link": "https://github.blog/2022-11-03-how-github-converts-previously-encrypted-and-unencrypted-columns-to-activerecord-encrypted-columns/",
+          "publishedOn": "2022-11-03T12:53:42.000Z",
+          "wordCount": 2011,
+          "title": "How GitHub converts previously encrypted and unencrypted columns to ActiveRecord encrypted columns"
+        },
         {
           "id": "https://github.blog/?p=68350",
           "author": "Laura Paine",
@@ -1560,42 +1553,6 @@
           "publishedOn": "2022-10-06T07:01:42.000Z",
           "wordCount": 1231,
           "title": "js13kGames 2022 winners 🏆"
-        },
-        {
-          "id": "https://github.blog/?p=67546",
-          "author": "Brittany O'Shea",
-          "description": "Learn how you can seamlessly define trusted custom secret patterns to detect secrets unique to your organization with GitHub Advanced Security.",
-          "link": "https://github.blog/2022-10-05-detect-secrets-in-your-code-more-accurately-with-dry-runs-for-custom-patterns/",
-          "publishedOn": "2022-10-05T18:00:51.000Z",
-          "wordCount": 1104,
-          "title": "Detect secrets in your code more accurately with dry runs for custom patterns now available in GitHub Advanced Security"
-        },
-        {
-          "id": "https://github.blog/?p=67485",
-          "author": "Jakub Oleksy",
-          "description": "In September, we experienced one incident that resulted in degraded performance across GitHub services. We also experienced one incident resulting in significant impact to Codespaces. We are still investigating that incident and will include it in next month’s report. This report also sheds light into an incident that impacted Codespaces in August and an incident that impacted Actions in August.",
-          "link": "https://github.blog/2022-10-05-github-availability-report-september-2022/",
-          "publishedOn": "2022-10-05T16:00:34.000Z",
-          "wordCount": 1387,
-          "title": "GitHub Availability Report: September 2022"
-        },
-        {
-          "id": "https://github.blog/?p=67540",
-          "author": "Ashley Bass",
-          "description": "Develop your design and collaboration skills to get your clever intentions off the ground.",
-          "link": "https://github.blog/2022-10-05-working-on-a-creative-project-unleash-your-originality-and-start-to-tinker-with-the-aspiring-creatives-experience/",
-          "publishedOn": "2022-10-05T15:00:22.000Z",
-          "wordCount": 697,
-          "title": "Working on a creative project? Unleash your originality and start to tinker with the Aspiring Creatives Experience"
-        },
-        {
-          "id": "https://github.blog/?p=67515",
-          "author": "Laura Lindeman",
-          "description": "GitHub Universe is back and more robust than ever, with two great ways to engage with everything this global developer event has to offer.",
-          "link": "https://github.blog/2022-10-05-two-ways-you-can-experience-github-universe/",
-          "publishedOn": "2022-10-05T13:01:44.000Z",
-          "wordCount": 1440,
-          "title": "Two ways you can experience GitHub Universe"
         }
       ]
     },
@@ -1604,6 +1561,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19661",
+          "author": "BU Team",
+          "description": "Behind the scenes of how we revolutionized the way people save money\nThe post How Nubank launched ‘Caixinhas’ appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/how-nubank-launched-caixinhas/",
+          "publishedOn": "2022-11-03T22:01:42.000Z",
+          "wordCount": 4226,
+          "title": "How Nubank launched ‘Caixinhas’"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19626",
           "author": "Isabela Piccinini - Senior Data Scientist at Nubank",
@@ -1657,15 +1623,6 @@
           "publishedOn": "2022-10-07T21:49:05.000Z",
           "wordCount": 3207,
           "title": "What is it like being a Business Analyst at Nubank?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19288",
-          "author": "Sócrates Lopes - Engineering Manager at Nubank",
-          "description": "Nubank has joined Open Finance, a Central Bank system that allows customers to share their data from one institution to another in a secure and efficient way, among other applications.\nThe post Building Open Finance at Nubank: a view behind the scenes  appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/building-open-finance-at-nubank/",
-          "publishedOn": "2022-10-05T19:08:17.000Z",
-          "wordCount": 3868,
-          "title": "Building Open Finance at Nubank: a view behind the scenes"
         }
       ]
     },
@@ -1753,6 +1710,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/6cb89b9ce296",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/consistent-caching-mechanism-in-titus-gateway-6cb89b9ce296?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-11-03T19:19:31.000Z",
+          "wordCount": null,
+          "title": "Consistent caching mechanism in Titus Gateway"
+        },
         {
           "id": "https://medium.com/p/aaa2b41b800c",
           "author": "Netflix Technology Blog",
