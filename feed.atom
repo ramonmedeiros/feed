@@ -2,10 +2,179 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-04T12:23:04.064Z</updated>
+    <updated>2022-11-05T12:18:46.371Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 513: The story of Heroku]]></title>
+        <id>changelog.com/1/1873</id>
+        <link href="https://changelog.com/podcast/513"/>
+        <updated>2022-11-04T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week on The Changelog we’re joined by Adam Wiggins, co-founder and former CTO of Heroku, for an exclusive trip down Heroku memory lane. Adam and Jerod are both tremendous fans of Heroku and believe (to this day) they represent the apex in developer experience for delivering code to production.
+We talk through the beginnings of Heroku, the v1 most people have forgotten about, the era of web hosting back in 2008-2010, the serendipity of Silicon Vally in those days, pitching to Y Combinator, the makings of git push heroku, the Heroku style and name, the sale of Heroku to Salesforce, potential regrets — and we tee up part 2 coming next week with Adam going beyond Heroku and the story of Muse.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made th…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nubank opens another office in Brazil, the third one in São Paulo]]></title>
+        <id>https://building.nubank.com.br/?p=19685</id>
+        <link href="https://building.nubank.com.br/nubank-office-vila-leopoldina/"/>
+        <updated>2022-11-04T20:59:14.000Z</updated>
+        <summary type="html"><![CDATA[The new building is now Nu’s largest space! The place is located at Vila Leopoldina neighborhood and can be used for events and trainings with large teams.
+The post Nubank opens another office in Brazil, the third one in São Paulo appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Nubank Editorial</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open source game console/engine built by teenagers]]></title>
+        <id>changelog.com/news/5jPO</id>
+        <link href="https://github.com/hackclub/sprig"/>
+        <updated>2022-11-04T20:57:32.000Z</updated>
+        <summary type="html"><![CDATA[This is so cool! Shout out to Zach Latta (Founder of Hack Club) for giving me a call today to tell me about Sprig — this awesome new Hack Club project is built by teenagers for teenagers.
+Sprig is a game console where every user is a creator. It can only be obtained by building a tile-based game in the web-based game editor and shipping it in the community gallery. It’s made by Hack Club.
+… Fall of 2022, we are giving a Sprig (valued at over $100 in components alone) to every teenage hacker that successfully shares a game they create in our community gallery.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 250: Making sense of production]]></title>
+        <id>changelog.com/6/1923</id>
+        <link href="https://changelog.com/jsparty/250"/>
+        <updated>2022-11-04T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Maggie Johnson-Pint from Stanza sits down with Amal & Divya for a deep-dive in to the production side of the development world. If you’re at all curious (and/or intimidated) by terms like Site Reliability Engineering (SRE), Service Level Objective (SLO), OpenTelemetry, distributed tracing, and the like… this episode’s for you!
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
+
+    
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
+
+    
+Featuring
+Maggie Johnson-Pint – Twitter, GitHub, LinkedIn, Website
+Amal Hussein – Twitter, GitHub
+Divya – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+Stanza
+OpenTelemetry
+📘 Site Reliability Engineering
+📘 The Site Reliability Workbook
+web components has egg on its face because the zeitgeist
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Very Powerful Clipboard: Analysis of a Samsung in-the-wild exploit chain]]></title>
+        <id>https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"/>
+        <updated>2022-11-04T15:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Maddie Stone, Project Zero
+
+Note: The three vulnerabilities discussed in this blog were all fixed in Samsung’s March 2021 release. They were fixed as CVE-2021-25337, CVE-2021-25369, CVE-2021-25370. To ensure your Samsung device is up-to-date under settings you can check that your device is running SMR Mar-2021 or later.
+
+As defenders, in-the-wild exploit samples give us important insight into what attackers are really doing. We get the “ground truth” data about the vulnerabilities and exploit techniques they’re using, which then informs our further research and guidance to security teams on what could have the biggest impact or return on investment. To do this, we need to know that the vulnerabilities and exploit samples were found in-the-wild. Over the past few years there’s been tremendo…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is there too much CSS now?]]></title>
+        <id>changelog.com/news/pjZP</id>
+        <link href="https://css-tricks.com/is-there-too-much-css-now/"/>
+        <updated>2022-11-04T15:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Now that we’re out of the ‘dark times’ where CSS was so limited that we spent countless hours developing hacks, tricks, and workarounds… Sacha Greif wonders if the pendulum has swung the other way:
+we are now faced with an embarrassment of CSS riches, and it can be hard to catch up. CSS Grid started being supported in major browsers almost five years ago, yet I still check a reference every time I use it. And as cool as subgrid seems, I’ve yet to even try it out.
+Perhaps CSS is even starting to reach over into areas best handled by HTML or JavaScript?
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacker Appreciation Month: Badge Awards]]></title>
+        <id>https://hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards</id>
+        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards"/>
+        <updated>2022-11-04T15:30:21.000Z</updated>
+        <summary type="html"><![CDATA[Celebrating the accomplishments of hackers is something we want to do year-round. However, we decided we wanted to root Cyber Security Awareness mon]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to mitigate OWASP vulnerabilities while staying in the flow]]></title>
+        <id>https://github.blog/?p=68491</id>
+        <link href="https://github.blog/2022-11-04-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/"/>
+        <updated>2022-11-04T15:30:16.000Z</updated>
+        <summary type="html"><![CDATA[Explore how GitHub Advanced Security can help address several of the OWASP Top 10 vulnerabilities]]></summary>
+        <author>
+            <name>Mark Paulsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 254: Go in medicine & biology]]></title>
+        <id>changelog.com/2/1847</id>
+        <link href="https://changelog.com/gotime/254"/>
+        <updated>2022-11-04T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we’re talking about uses for Go in the medical industry. Tim Stiles develops and maintains a Go package for synthetic biology and molecular biology called Poly. It has broad applications for biotech R&D, but also has very direct applications to medicine.
+Discuss on Changelog News
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
+
+    
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Retool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog
+
+    
+Featuring
+Tim Stiles – Twitter, GitHub
+Natalie Pistunovich – Twitter, GitHub
+Ian Lopshire – Twitter, GitHub
+Notes and Links
+Poly on GitHub
+The algorithm of the professor used by 23and me and others
+Central Dogma of DNA of biology
+The Three-Body Problem
+AlphaFold
+Gitpod
+Foldit
+Go library for Huggingface
+SurrealDB
+Booth’s Least Rotation Go Implementation and wiki
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We've filed a lawsuit challenging GitHub Copilot]]></title>
+        <id>changelog.com/news/EqzR</id>
+        <link href="https://githubcopilotlitigation.com/"/>
+        <updated>2022-11-04T13:12:00.000Z</updated>
+        <summary type="html"><![CDATA[A couple weeks back, Adam logged some news that linked to githubcopilotinvestigation.com. Well, There’s a new website now: githubcopilotlitigation.com
+Matthew Butterick:
+By train­ing their AI sys­tems on pub­lic GitHub repos­i­to­ries (though based on their pub­lic state­ments, pos­si­bly much more) we con­tend that the defen­dants have vio­lated the legal rights of a vast num­ber of cre­ators who posted code or other work under cer­tain open-source licenses on GitHub. Which licenses? A set of 11 pop­u­lar open-source licenses that all require attri­bu­tion of the author’s name and copy­right, includ­ing the MIT license, the GPL, and the Apache license.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Nubank launched ‘Caixinhas’]]></title>
         <id>https://building.nubank.com.br/?p=19661</id>
@@ -2104,87 +2273,6 @@ TinyGo
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Developers are now included in the WIPO Global Innovation Index]]></title>
-        <id>https://github.blog/?p=67632</id>
-        <link href="https://github.blog/2022-10-06-developers-are-now-included-in-the-wipo-global-innovation-index/"/>
-        <updated>2022-10-06T21:00:36.000Z</updated>
-        <summary type="html"><![CDATA[We’re excited that the World Intellectual Property Organization (WIPO) has launched the 2022 edition of its Global Innovation Index (GII) with an indicator of developer creative outputs based on GitHub commits.]]></summary>
-        <author>
-            <name>Peter Cihon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub’s supply chain security features now support Dart]]></title>
-        <id>https://github.blog/?p=67596</id>
-        <link href="https://github.blog/2022-10-06-githubs-supply-chain-security-features-now-support-dart/"/>
-        <updated>2022-10-06T18:00:44.000Z</updated>
-        <summary type="html"><![CDATA[Cross-platform apps built with the popular Flutter toolkit can now benefit from Dependabot alerts.]]></summary>
-        <author>
-            <name>Eric Tooley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dreamfusion! Text-to-3D model powered by Stable Diffusion]]></title>
-        <id>changelog.com/news/Qpbd</id>
-        <link href="https://github.com/ashawkey/stable-dreamfusion"/>
-        <updated>2022-10-06T17:10:22.000Z</updated>
-        <summary type="html"><![CDATA[This working implementation of text-to-3D (powered by Stable Diffusion) didn’t take six months, like Simon predicted it would. Although I will concede that it’s not a 3D environment that can then go into in a game engine, but I’m sure that’s just a few more weeks away this point.
-From the readme:
-This project is a work-in-progress, and contains lots of differences from the paper. Also, many features are still not implemented now. The current generation quality cannot match the results from the original paper, and many prompts still fail badly!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 73: A modern bank infrastructure]]></title>
-        <id>changelog.com/14/1795</id>
-        <link href="https://changelog.com/shipit/73"/>
-        <updated>2022-10-06T14:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Matias Pan is a Staff Software Engineer at Lemon Cash, a crypto startup based in Argentina. Lemon infrastructure runs digital wallets & physical cards, which technically makes them a bank. How does Matias & his team think about enabling developers get code from their workstations into production? Remember, we are talking about a bank - a bad deploy is a big deal. And when a bad database migration goes out, what happens then?
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A CLI to share files directly with iOS and Android devices]]></title>
-        <id>changelog.com/news/8lrO</id>
-        <link href="https://github.com/parvardegr/sharing"/>
-        <updated>2022-10-06T13:59:00.000Z</updated>
-        <summary type="html"><![CDATA[run npm install -g easy-sharing
-run sharing /directory-or-file-to-share
-scan the QR code with your phone
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Twitter conversations: A Wordle case study]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study"/>
-        <updated>2022-10-06T12:25:35.675Z</updated>
-        <summary type="html"><![CDATA[On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[js13kGames 2022 winners 🏆]]></title>
-        <id>https://github.blog/?p=67439</id>
-        <link href="https://github.blog/2022-10-06-js13k-2022-winners/"/>
-        <updated>2022-10-06T07:01:42.000Z</updated>
-        <summary type="html"><![CDATA[The eleventh annual js13kGames coding competition, challenging participants to create games in 13kB or less of JavaScript in a month, just wrapped up. This post highlights the top thirteen entries.]]></summary>
-        <author>
-            <name>Lee Reilly</name>
         </author>
     </entry>
 </feed>
