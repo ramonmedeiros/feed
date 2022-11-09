@@ -46,6 +46,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/1930",
+          "author": null,
+          "description": "It’s been a while since we’ve touched on quantum computing. It’s time for an update! This week we talk with Yonatan from Quantum Machines about real progress being made in the practical construction of hybrid computing centers with a mix of classical processors, GPUs, and quantum processors. Quantum Machines is building both hardware and software to help control, program, and integrate quantum processors within a hybrid computing environment.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nYonatan Cohen – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nQuantum Machines\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/200",
+          "publishedOn": "2022-11-08T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 200: Hybrid computing with quantum processors",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/200/practical-ai-200.mp3",
+            "length": "42109814",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/X1E2",
+          "author": "Jerod Santo",
+          "description": "Katana can run in standard mode, which is like curl/wget, or it can run in headless mode, which is like a real web browser with JavaScript parsing and all that jazz. And since it’s written in Go, you get that silky universal binary experience. Just drop it in your $PATH and you’re off to the races!\nDiscuss on Changelog News",
+          "link": "https://github.com/projectdiscovery/katana",
+          "publishedOn": "2022-11-08T19:43:00.000Z",
+          "wordCount": null,
+          "title": "A next-gen crawling and spidering framework",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/mlGl",
+          "author": "Jerod Santo",
+          "description": "According to this, 757 companies have laid off 104,791 employees thus far in 2022. Absolutely brutal.\nDiscuss on Changelog News",
+          "link": "https://layoffs.fyi/",
+          "publishedOn": "2022-11-08T16:55:00.000Z",
+          "wordCount": null,
+          "title": "Tech layoffs tracker",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1931",
           "author": null,
           "description": "Colin Bartlett’s 50 useful Vim commands, Jeremey Utley on why your first ideas aren’t always the best, Emanuele Rocca’s pets configuration management project, our Kaizen shirts are now on sale & Arun Venkatesen makes a microsite for infinite canvas tools.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\n📥 Subscribe to Changelog Weekly\n50 Useful Vim Commands\npets configuration management system\nKeep ’Em Coming: Why Your First Ideas Aren’t Always the Best\n\nIdeaflow\n👕 Kaizen - Continuous Improvement\nInfinite Canvas\nSomething missing or broken? PRs welcome!",
@@ -894,41 +929,6 @@
           "wordCount": null,
           "title": "A React library for building dashboards fast",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1871",
-          "author": null,
-          "description": "The libSQL community is forking SQLite, StabilityAI announces Haromai and Dance Diffusion, Robin Rendle doesn’t believe in sprints, Shubham Garg curates some awesome diagramming tools & Chris Pressey writes up some must-read facts about state machines.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nUnpopular Opinion Twitter Thread\nlibSQL is a fork of SQLite\nStabilityAI announced AI Music Generator Harmonai\nI Don’t Believe in Sprints\nAwesome Diagramming\nFacts About State Machines\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-10-10",
-          "publishedOn": "2022-10-10T18:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Forking SQLite, generative AI for music, saying no to sprints, awesome diagramming tools & state machine facts",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-10-10/the-changelog-news-2022-10-10.mp3",
-            "length": "7207994",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/V10P",
-          "author": "Jerod Santo",
-          "description": "This lets you do so many cool things, even joining across disparate services:\nselect\n  aws.name aws_user_name,\n  slack.id as slack_user_id,\n  slack.display_name as slack_name\nfrom\n  aws_iam_user as aws,\n  slack_user as slack\nwhere\n  aws.name = slack.email;\n\n+--------------------------+---------------+------------+\n|     aws_user_name        | slack_user_id | slack_name |\n+--------------------------+---------------+------------+\n| dwight@dundermifflin.com | U2EMB8HLP     | dwight     |\n| jim@dundermifflin.com    | U02HE4Z7E     | jim        |\n+--------------------------+---------------+------------+\n\nUseful for compliance, security, ops, and cost management.\nDiscuss on Changelog News",
-          "link": "https://github.com/turbot/steampipe",
-          "publishedOn": "2022-10-10T15:44:00.000Z",
-          "wordCount": null,
-          "title": "Use SQL to instantly query your cloud services",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7GA",
-          "author": "Jerod Santo",
-          "description": "A journey from Stripe to Paypal and back to Stripe led Zed Shaw to the conclusion in the headline. And, no, that is not a compliment (in case you weren’t sure).\nZed goes deep on why he feels this way, listing seven serious downsides to using Stripe today. What’s a dev to do? His advice at the end alone is worth the cost of admission:\nThis is why I advocate to people to be ready to switch payment processing at a moment’s notice. Right now I could flip two options and I’d be back on Paypal. If I was pressed I could probably implement any other payment processor in about a week or a day. The ability to quickly switch payments is your only defense against frozen accounts, fraud, and rogue employees.\nDiscuss on Changelog News",
-          "link": "https://learnjsthehardway.com/blog/18-stripe-is-paypal-circa-2010/",
-          "publishedOn": "2022-10-10T14:52:00.000Z",
-          "wordCount": null,
-          "title": "Stripe is Paypal circa 2010",
-          "itunes": {}
         }
       ]
     },
@@ -936,17 +936,7 @@
       "title": "comma.ai blog",
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
-      "articles": [
-        {
-          "id": "https://blog.comma.ai/dev-speed/",
-          "author": null,
-          "description": "Lest we stagnate",
-          "link": "https://blog.comma.ai/dev-speed/",
-          "publishedOn": "2022-10-11T00:00:00.000Z",
-          "wordCount": 1341,
-          "title": "Development speed over everything"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "AI",
@@ -1015,15 +1005,6 @@
           "publishedOn": "2022-10-11T12:00:00.000Z",
           "wordCount": 1494,
           "title": "How mapping the world’s buildings makes a difference"
-        },
-        {
-          "id": "https://blog.google/outreach-initiatives/google-org/world-mental-health-day-2022/",
-          "author": null,
-          "description": "The World Health Organization (WHO) estimates that nearly 1 billion people are living with a mental disorder, worldwide. During the global pandemic, the world saw a 25% increase in the prevalence of anxiety and depression. There was even a corresponding spike in searches on Google for mental health resources — which is a trend that continues to climb each year. To help people connect with timely, life-saving information and resources and to empower them to take action on their mental health needs, teams of Googlers are working — inside and outside of the company — to make sure everyone has access to mental health support.\n\n\nConnecting people to resources on Search and YouTube\nBefore we can connect people to timely information and resources, we need to understand their intent when they turn…",
-          "link": "https://blog.google/outreach-initiatives/google-org/world-mental-health-day-2022/",
-          "publishedOn": "2022-10-10T16:00:00.000Z",
-          "wordCount": 1430,
-          "title": "Meeting global mental health needs, with technology's help"
         }
       ]
     },
@@ -1250,15 +1231,6 @@
           "publishedOn": "2022-10-31T17:47:12.000Z",
           "wordCount": 939,
           "title": "Revamp of MDN Web Docs Contribution Docs"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47924",
-          "author": "Gabriele Svelto",
-          "description": "If you're running Firefox on macOS you might have noticed that its responsiveness has improved significantly in version 103, especially if you've got a lot of tabs, or when your machine is busy running other applications at the same time. This improvement was achieved via a small change in how locking is implemented within Firefox's memory allocator.\nThe post Improving Firefox responsiveness on macOS appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/10/improving-firefox-responsiveness-on-macos/",
-          "publishedOn": "2022-10-10T15:13:02.000Z",
-          "wordCount": 1557,
-          "title": "Improving Firefox responsiveness on macOS"
         }
       ]
     },
@@ -1267,6 +1239,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68534",
+          "author": "Melody Mileski",
+          "description": "GitHub Enterprise Server 3.7 is available now, including a single view of code risk, new forking and repository policies, and security enhancements to the management console.",
+          "link": "https://github.blog/2022-11-08-github-enterprise-server-3-7-is-now-generally-available/",
+          "publishedOn": "2022-11-08T17:37:58.000Z",
+          "wordCount": 1561,
+          "title": "GitHub Enterprise Server 3.7 is now generally available"
+        },
         {
           "id": "https://github.blog/?p=68491",
           "author": "Mark Paulsen",
