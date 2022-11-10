@@ -22,15 +22,6 @@
           "publishedOn": "2022-10-12T12:00:00.000Z",
           "wordCount": 2545,
           "title": "Security of Passkeys in the Google Password Manager"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/10/google-pixel-7-and-pixel-7-pro-next.html",
-          "author": null,
-          "description": "Dave Kleidermacher, Jesse Seed, Brandon Barbello, Sherif Hanna, Eugene Liderman, Android, Pixel, and Silicon Security Teams \nEvery day, billions of people around the world trust Google products to enrich their lives and provide helpful features –  across mobile devices, smart home devices, health and fitness devices, and more. We keep more people safe online than anyone else in the world, with products that are secure by default, private by design and that put you in control. As our advancements in knowledge and computing grow to deliver more help across contexts, locations and languages, our unwavering commitment to protecting your information remains. \nThat’s why Pixel phones are designed from the ground up to help protect you and your sensitive data while keeping you in control. We’re t…",
-          "link": "http://security.googleblog.com/2022/10/google-pixel-7-and-pixel-7-pro-next.html",
-          "publishedOn": "2022-10-11T17:01:00.004Z",
-          "wordCount": 2474,
-          "title": "Google Pixel 7 and Pixel 7 Pro: The next evolution in mobile security"
         }
       ]
     },
@@ -45,6 +36,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/14/1817",
+          "author": null,
+          "description": "In today’s episode we have the pleasure of Audun Fauchald Strand, Principal Software Engineer at NAV.no, Norway’s Labour & Welfare Administration. We will be talking about NAIS.io, the application platform that runs on-prem, as well as on the public cloud.\nImagine hundreds of developers shipping on an average day 300 changes into a system which processes $100,000,000 worth of transactions on a quiet week. If you think this is hard, consider the context: a government institution which must comply with all laws & regulations.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently l…",
+          "link": "https://changelog.com/shipit/78",
+          "publishedOn": "2022-11-09T22:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 78: The system that runs Norway's welfare payments 🇳🇴",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/78/ship-it-78.mp3",
+            "length": "59693824",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/2l7M",
+          "author": "Jerod Santo",
+          "description": "Adam Gordon Bell:\nThere are many ways to understand how containers work, but most useful explanations are actually simplifications….\nBut for me, containers are just chrooted processes. Sure, they are more than that: Containers have a nice developer experience, an open-source foundation, and a whole ecosystem of cloud-native companies pushing them forward. But, let me show you why I think chroot is the key.\nI like this framing. It makes a lot of sense to me. More than ‘lightweight VM’, which is how I’ve thought about them previously. The rest of this article is Adam stepping through the process of building a container runtime using only the chroot system call.\nDiscuss on Changelog News",
+          "link": "https://earthly.dev/blog/chroot/",
+          "publishedOn": "2022-11-09T17:59:00.000Z",
+          "wordCount": null,
+          "title": "Containers are chroot with a marketing budget",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/1WG4",
+          "author": "Jerod Santo",
+          "description": "Compared to other programming languages such as Python and Go, Rust’s standard library is very small, including only core data structures in the standard library with all other functionality farmed out to 3rd party ecosystem crates, and a common complaint from new Rust developers is that they don’t know where to start: which crates they ought to use and which crates they ought to trust. This list attempts to answer those questions.\nDiscuss on Changelog News",
+          "link": "https://blessed.rs/crates",
+          "publishedOn": "2022-11-09T16:30:00.000Z",
+          "wordCount": null,
+          "title": "An unofficial guide to the Rust ecosystem",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/D125",
+          "author": "Jerod Santo",
+          "description": "Rachel Stephens, trying to reconcile the claims that the tech industry is vastly overstaffed with other claims of vast resource scarcity:\nBoth things can be true: it’s not a clear over- or under-staffing problem. It’s a problem of proportionality. There can definitely be organizational bloat… At the same time, there are also areas in tech that remain chronically understaffed and under-resourced: OSS project maintainers, people working on-call support, and people writing documentation to name a few.\nAn interesting analysis with a much-needed call for kindness to our fellow nerds as they face these tumultuous times.\nAnd (I can’t believe I’m writing this, but the jokes about Twitter layoffs in particular keep coming at a surprising rate) be kind to people facing layoffs. Losing your job is awful in the best of circumstances; going through it in such a public and charged situation must be emotionally grueling. Be kind.\nDiscuss on Changelog News",
+          "link": "https://redmonk.com/rstephens/2022/11/01/kindness-and-staffing/",
+          "publishedOn": "2022-11-09T15:43:00.000Z",
+          "wordCount": null,
+          "title": "Kindness, tech staffing and resource allocation",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/7/1930",
           "author": null,
@@ -899,36 +935,6 @@
           "wordCount": null,
           "title": "Brave plans to start blocking cookie consent banners",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ZoZj",
-          "author": "Jamie Tanna",
-          "description": "Just over a year ago, I did something quite “out there”, even for me, and I posted my salary history publicly. This was accompanied by a blog post to explain why I was doing it, and it’s certainly been popular.\nWhen I first posted it, I made a note to myself to come back in a year, and see whether anything had changed, as well as to look back on some of the events that happened immediately after my posting, as it certainly made life interesting in the month or so following the post.\nDiscuss on Changelog News",
-          "link": "https://www.jvt.me/posts/2022/09/21/year-later-salary-history/",
-          "publishedOn": "2022-10-11T19:37:00.000Z",
-          "wordCount": null,
-          "title": "Lessons learned since posting my salary history publicly",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/04dD",
-          "author": "Lucas Shen",
-          "description": "R has many such packages. In Python, not so much. This one is designed to be easy to use while being customizable (some examples in the README).\n\nDiscuss on Changelog News",
-          "link": "https://github.com/lsys/forestplot",
-          "publishedOn": "2022-10-11T18:51:00.000Z",
-          "wordCount": null,
-          "title": "A Python package to make publication-ready but customizable forest plots",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/LWVa",
-          "author": "Jerod Santo",
-          "description": "This looks like top notch work:\nGet more than 20 components with beautiful defaults and simple props. From charts to input and layout elements, we covered all the essential components to lift the tedious front-end work from your shoulders. Get ahead with our simple API approach in no time.\nCheck out their demo dashboard right here.\nDiscuss on Changelog News",
-          "link": "https://www.tremor.so/",
-          "publishedOn": "2022-10-11T18:03:00.000Z",
-          "wordCount": null,
-          "title": "A React library for building dashboards fast",
-          "itunes": {}
         }
       ]
     },
@@ -987,24 +993,6 @@
           "publishedOn": "2022-10-12T16:00:00.000Z",
           "wordCount": 1537,
           "title": "How  AI is helping African communities and businesses"
-        },
-        {
-          "id": "https://blog.google/technology/health/machine-learning-to-understand-proteins/",
-          "author": null,
-          "description": "When most people think of proteins, their mind typically goes to protein-rich foods such as steak or tofu. But proteins are so much more. They’re essential to how living things operate and thrive, and studying them can help improve lives. For example, insulin treatments are life-changing for people with diabetes that are based on years of studying proteins.\nThere is a world of information yet to discover when it comes to proteins — from helping people get the healthcare they need to finding ways to protect plant species. Teams at Google are focused on studying proteins so we can realize Google Health’s mission to help billions of people live healthier lives.\nBack in March, we published apost about a model we developed at Google that predicts protein function and a tool that allows scientis…",
-          "link": "https://blog.google/technology/health/machine-learning-to-understand-proteins/",
-          "publishedOn": "2022-10-11T18:15:00.000Z",
-          "wordCount": 1545,
-          "title": "How we’re using machine learning to understand proteins"
-        },
-        {
-          "id": "https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/",
-          "author": null,
-          "description": "In Lamwo district, in northern Uganda, providing access to electricity is a challenge. In a country where only about 24% of the population has a power supply to their home from the national grid, the rate in Lamwo is even lower. This is partly due to lack of information: The government doesn’t have precise data about where settlements are located, what types of buildings there are, and what the buildings’ electricity needs might be. And canvassing the area isn’t practical, because the roads require four-wheel-drive vehicles and are impassable in the rain.\nErnest Mwebaze leads Sunbird AI, a Ugandan nonprofit that uses data technology for social good. They’re assessing areas in Lamwo district to support planning at the Ministry of Energy in Uganda. “There are large areas to plan for,” explai…",
-          "link": "https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/",
-          "publishedOn": "2022-10-11T12:00:00.000Z",
-          "wordCount": 1494,
-          "title": "How mapping the world’s buildings makes a difference"
         }
       ]
     },
@@ -1013,6 +1001,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20533",
+          "author": "Daniel Stenberg",
+          "description": "A new curl option was born: --url-query. How it started curl offered the -d / --data option already in its first release back in 1998. curl 4.0. A trusted old friend. curl also has some companion versions of this option that work slightly differently, but they all have the common feature that they append data … Continue reading Append data to the URL query →",
+          "link": "https://daniel.haxx.se/blog/2022/11/10/append-data-to-the-url-query/",
+          "publishedOn": "2022-11-10T09:13:15.000Z",
+          "wordCount": 1014,
+          "title": "Append data to the URL query"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20565",
           "author": "Daniel Stenberg",
@@ -1239,6 +1236,78 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68641",
+          "author": "Thomas Dohmke",
+          "description": "Veja o que estamos construindo para aprimorar a plataforma de desenvolvimento mais integrada e que permite que pessoas desenvolvedoras e empresas impulsionem a inovação com mais facilidade. Quinze anos atrás, estava sendo escrita a primeira linha de código para a construção do GitHub. Desde então, o objetivo tem sido equipar as pessoas desenvolvedoras com tudo […]",
+          "link": "https://github.blog/2022-11-09-todas-as-novidades-do-github-universe-2022/",
+          "publishedOn": "2022-11-09T17:49:49.000Z",
+          "wordCount": 4436,
+          "title": "Todas as novidades do GitHub Universe 2022"
+        },
+        {
+          "id": "https://github.blog/?p=68631",
+          "author": "Naytri Sramek",
+          "description": "Investing in our open source future by supporting the maintainers of today.",
+          "link": "https://github.blog/2022-11-09-an-open-source-economy-built-by-developers-for-developers/",
+          "publishedOn": "2022-11-09T17:35:39.000Z",
+          "wordCount": 1017,
+          "title": "An open source economy–built by developers, for developers"
+        },
+        {
+          "id": "https://github.blog/?p=68289",
+          "author": "Thomas Dohmke",
+          "description": "See what we're building to enhance the most integrated developer platform that allows developers and enterprises to drive innovation with ease.",
+          "link": "https://github.blog/2022-11-09-everything-new-from-github-universe-2022/",
+          "publishedOn": "2022-11-09T17:35:22.000Z",
+          "wordCount": 4069,
+          "title": "Everything new from GitHub Universe 2022"
+        },
+        {
+          "id": "https://github.blog/?p=68464",
+          "author": "Mala Kumar",
+          "description": "Here's how nonprofits and the social sector are using open source to drive social good.",
+          "link": "https://github.blog/2022-11-09-the-social-impact-of-open-source/",
+          "publishedOn": "2022-11-09T16:29:48.000Z",
+          "wordCount": 860,
+          "title": "Understanding the social impact of open source technologies"
+        },
+        {
+          "id": "https://github.blog/?p=68458",
+          "author": "Mike Linksvayer",
+          "description": "In 2022, governments and the policy community spent a lot of time thinking about open source. Here's what that means and why it matters.",
+          "link": "https://github.blog/2022-11-09-open-source-government-policies/",
+          "publishedOn": "2022-11-09T16:29:45.000Z",
+          "wordCount": 888,
+          "title": "The changing nature of governmental policies around open source"
+        },
+        {
+          "id": "https://github.blog/?p=68442",
+          "author": "Ashley Wolf",
+          "description": "By our estimation at GitHub, over 30% of Fortune 100 companies have now implemented OSPOs. Here's what that means for open source.",
+          "link": "https://github.blog/2022-11-09-why-companies-are-starting-ospos/",
+          "publishedOn": "2022-11-09T16:29:27.000Z",
+          "wordCount": 861,
+          "title": "Why more companies are investing in open source program offices"
+        },
+        {
+          "id": "https://github.blog/?p=68469",
+          "author": "Justin Hutchings",
+          "description": "We think a lot about a high-profile supply chain attack that might cause developers, teams, and organizations to lose trust in open source. That’s why we’re investing in new ways to protect the open source ecosystem.",
+          "link": "https://github.blog/2022-11-09-improving-open-source-supply-chain-security/",
+          "publishedOn": "2022-11-09T16:29:25.000Z",
+          "wordCount": 973,
+          "title": "The importance of improving supply chain security in open source"
+        },
+        {
+          "id": "https://github.blog/?p=68474",
+          "author": "Jessica Lord",
+          "description": "We know that companies benefit from open source. That's why we’re making it easier for companies to financially support projects.",
+          "link": "https://github.blog/2022-11-09-financial-sustainability-in-open-source/",
+          "publishedOn": "2022-11-09T16:29:06.000Z",
+          "wordCount": 1057,
+          "title": "Bringing greater financial sustainability to open source communities"
+        },
         {
           "id": "https://github.blog/?p=68534",
           "author": "Melody Mileski",
@@ -1508,33 +1577,6 @@
           "publishedOn": "2022-10-13T15:00:12.000Z",
           "wordCount": 4629,
           "title": "The Story of Scalar"
-        },
-        {
-          "id": "https://github.blog/?p=67730",
-          "author": "Laura Lindeman",
-          "description": "Explore 80+ content sessions delivered by over 120 different speakers, across two days and four content tracks, all designed to level up your skills.",
-          "link": "https://github.blog/2022-10-11-the-github-universe-2022-agenda-is-live/",
-          "publishedOn": "2022-10-11T19:39:36.000Z",
-          "wordCount": 1446,
-          "title": "The GitHub Universe 2022 agenda is live"
-        },
-        {
-          "id": "https://github.blog/?p=67648",
-          "author": "Brittany O'Shea",
-          "description": "Developers can now view GitHub code scanning findings directly in VS Code and GitHub Codespaces. The new Microsoft SARIF Viewer extension gives developers direct access to their code scanning results, making remediating vulnerabilities easier than ever.",
-          "link": "https://github.blog/2022-10-11-view-github-code-scanning-findings-directly-in-vs-code-and-github-codespaces/",
-          "publishedOn": "2022-10-11T19:10:12.000Z",
-          "wordCount": 972,
-          "title": "View GitHub code scanning findings directly in VS Code and GitHub Codespaces"
-        },
-        {
-          "id": "https://github.blog/?p=67715",
-          "author": "Candy Ho",
-          "description": "Stay connected and up to date on your work with GitHub Projects on GitHub Mobile, now in public beta.",
-          "link": "https://github.blog/2022-10-11-on-the-go-with-github-projects-on-github-mobile-public-beta/",
-          "publishedOn": "2022-10-11T16:00:52.000Z",
-          "wordCount": 905,
-          "title": "On the go with GitHub Projects on GitHub Mobile (public beta)"
         }
       ]
     },
@@ -1684,24 +1726,6 @@
           "publishedOn": "2022-10-13T15:38:07.000Z",
           "wordCount": 1181,
           "title": "Corb3nik Introduces His Tool: Caido"
-        },
-        {
-          "id": "https://hackerone.com/ethical-hacker/thank-you-hacker-community-hackerone",
-          "author": "HackerOne",
-          "description": "When I joined HackerOne last year, the vitality of the hacker community drew me to this organization. And as Chief Hacking Officer, I see the impact t",
-          "link": "https://www.hackerone.com/ethical-hacker/thank-you-hacker-community-hackerone",
-          "publishedOn": "2022-10-11T15:00:00.000Z",
-          "wordCount": 1271,
-          "title": "A Thank You to the Hacker Community, From HackerOne"
-        },
-        {
-          "id": "https://hackerone.com/bounty/tiktok-celebrates-two-years-bug-bounty",
-          "author": "HackerOne",
-          "description": "TikTok, a social media giant with more than 1 billion active monthly users, understands the importance of a global community, be that community TikTokers or ethical hackers!  In 2020, TikTok launched its public bug bounty program on HackerOne. In the two years since, they’ve taken many steps to maintain a partnership with the global hacker community that’s rewarding and inviting.",
-          "link": "https://www.hackerone.com/bounty/tiktok-celebrates-two-years-bug-bounty",
-          "publishedOn": "2022-10-11T14:00:00.000Z",
-          "wordCount": 1242,
-          "title": "TikTok Celebrates Two Years of Bug Bounty"
         }
       ]
     },
@@ -1710,6 +1734,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/2721924a2822",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-11-09T23:47:03.000Z",
+          "wordCount": null,
+          "title": "Seeing through hardware counters: a journey to threefold performance increase"
+        },
         {
           "id": "https://medium.com/p/6cb89b9ce296",
           "author": "Netflix Technology Blog",

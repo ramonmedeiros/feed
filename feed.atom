@@ -2,10 +2,163 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-09T12:25:44.375Z</updated>
+    <updated>2022-11-10T12:25:24.390Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Append data to the URL query]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20533</id>
+        <link href="https://daniel.haxx.se/blog/2022/11/10/append-data-to-the-url-query/"/>
+        <updated>2022-11-10T09:13:15.000Z</updated>
+        <summary type="html"><![CDATA[A new curl option was born: --url-query. How it started curl offered the -d / --data option already in its first release back in 1998. curl 4.0. A trusted old friend. curl also has some companion versions of this option that work slightly differently, but they all have the common feature that they append data … Continue reading Append data to the URL query →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seeing through hardware counters: a journey to threefold performance increase]]></title>
+        <id>https://medium.com/p/2721924a2822</id>
+        <link href="https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822?source=rss----2615bd06b42e---4"/>
+        <updated>2022-11-09T23:47:03.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 78: The system that runs Norway's welfare payments 🇳🇴]]></title>
+        <id>changelog.com/14/1817</id>
+        <link href="https://changelog.com/shipit/78"/>
+        <updated>2022-11-09T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s episode we have the pleasure of Audun Fauchald Strand, Principal Software Engineer at NAV.no, Norway’s Labour & Welfare Administration. We will be talking about NAIS.io, the application platform that runs on-prem, as well as on the public cloud.
+Imagine hundreds of developers shipping on an average day 300 changes into a system which processes $100,000,000 worth of transactions on a quiet week. If you think this is hard, consider the context: a government institution which must comply with all laws & regulations.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently l…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Containers are chroot with a marketing budget]]></title>
+        <id>changelog.com/news/2l7M</id>
+        <link href="https://earthly.dev/blog/chroot/"/>
+        <updated>2022-11-09T17:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Adam Gordon Bell:
+There are many ways to understand how containers work, but most useful explanations are actually simplifications….
+But for me, containers are just chrooted processes. Sure, they are more than that: Containers have a nice developer experience, an open-source foundation, and a whole ecosystem of cloud-native companies pushing them forward. But, let me show you why I think chroot is the key.
+I like this framing. It makes a lot of sense to me. More than ‘lightweight VM’, which is how I’ve thought about them previously. The rest of this article is Adam stepping through the process of building a container runtime using only the chroot system call.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Todas as novidades do GitHub Universe 2022]]></title>
+        <id>https://github.blog/?p=68641</id>
+        <link href="https://github.blog/2022-11-09-todas-as-novidades-do-github-universe-2022/"/>
+        <updated>2022-11-09T17:49:49.000Z</updated>
+        <summary type="html"><![CDATA[Veja o que estamos construindo para aprimorar a plataforma de desenvolvimento mais integrada e que permite que pessoas desenvolvedoras e empresas impulsionem a inovação com mais facilidade. Quinze anos atrás, estava sendo escrita a primeira linha de código para a construção do GitHub. Desde então, o objetivo tem sido equipar as pessoas desenvolvedoras com tudo […]]]></summary>
+        <author>
+            <name>Thomas Dohmke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An open source economy–built by developers, for developers]]></title>
+        <id>https://github.blog/?p=68631</id>
+        <link href="https://github.blog/2022-11-09-an-open-source-economy-built-by-developers-for-developers/"/>
+        <updated>2022-11-09T17:35:39.000Z</updated>
+        <summary type="html"><![CDATA[Investing in our open source future by supporting the maintainers of today.]]></summary>
+        <author>
+            <name>Naytri Sramek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything new from GitHub Universe 2022]]></title>
+        <id>https://github.blog/?p=68289</id>
+        <link href="https://github.blog/2022-11-09-everything-new-from-github-universe-2022/"/>
+        <updated>2022-11-09T17:35:22.000Z</updated>
+        <summary type="html"><![CDATA[See what we're building to enhance the most integrated developer platform that allows developers and enterprises to drive innovation with ease.]]></summary>
+        <author>
+            <name>Thomas Dohmke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An unofficial guide to the Rust ecosystem]]></title>
+        <id>changelog.com/news/1WG4</id>
+        <link href="https://blessed.rs/crates"/>
+        <updated>2022-11-09T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Compared to other programming languages such as Python and Go, Rust’s standard library is very small, including only core data structures in the standard library with all other functionality farmed out to 3rd party ecosystem crates, and a common complaint from new Rust developers is that they don’t know where to start: which crates they ought to use and which crates they ought to trust. This list attempts to answer those questions.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding the social impact of open source technologies]]></title>
+        <id>https://github.blog/?p=68464</id>
+        <link href="https://github.blog/2022-11-09-the-social-impact-of-open-source/"/>
+        <updated>2022-11-09T16:29:48.000Z</updated>
+        <summary type="html"><![CDATA[Here's how nonprofits and the social sector are using open source to drive social good.]]></summary>
+        <author>
+            <name>Mala Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The changing nature of governmental policies around open source]]></title>
+        <id>https://github.blog/?p=68458</id>
+        <link href="https://github.blog/2022-11-09-open-source-government-policies/"/>
+        <updated>2022-11-09T16:29:45.000Z</updated>
+        <summary type="html"><![CDATA[In 2022, governments and the policy community spent a lot of time thinking about open source. Here's what that means and why it matters.]]></summary>
+        <author>
+            <name>Mike Linksvayer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why more companies are investing in open source program offices]]></title>
+        <id>https://github.blog/?p=68442</id>
+        <link href="https://github.blog/2022-11-09-why-companies-are-starting-ospos/"/>
+        <updated>2022-11-09T16:29:27.000Z</updated>
+        <summary type="html"><![CDATA[By our estimation at GitHub, over 30% of Fortune 100 companies have now implemented OSPOs. Here's what that means for open source.]]></summary>
+        <author>
+            <name>Ashley Wolf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The importance of improving supply chain security in open source]]></title>
+        <id>https://github.blog/?p=68469</id>
+        <link href="https://github.blog/2022-11-09-improving-open-source-supply-chain-security/"/>
+        <updated>2022-11-09T16:29:25.000Z</updated>
+        <summary type="html"><![CDATA[We think a lot about a high-profile supply chain attack that might cause developers, teams, and organizations to lose trust in open source. That’s why we’re investing in new ways to protect the open source ecosystem.]]></summary>
+        <author>
+            <name>Justin Hutchings</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing greater financial sustainability to open source communities]]></title>
+        <id>https://github.blog/?p=68474</id>
+        <link href="https://github.blog/2022-11-09-financial-sustainability-in-open-source/"/>
+        <updated>2022-11-09T16:29:06.000Z</updated>
+        <summary type="html"><![CDATA[We know that companies benefit from open source. That's why we’re making it easier for companies to financially support projects.]]></summary>
+        <author>
+            <name>Jessica Lord</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kindness, tech staffing and resource allocation]]></title>
+        <id>changelog.com/news/D125</id>
+        <link href="https://redmonk.com/rstephens/2022/11/01/kindness-and-staffing/"/>
+        <updated>2022-11-09T15:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Rachel Stephens, trying to reconcile the claims that the tech industry is vastly overstaffed with other claims of vast resource scarcity:
+Both things can be true: it’s not a clear over- or under-staffing problem. It’s a problem of proportionality. There can definitely be organizational bloat… At the same time, there are also areas in tech that remain chronically understaffed and under-resourced: OSS project maintainers, people working on-call support, and people writing documentation to name a few.
+An interesting analysis with a much-needed call for kindness to our fellow nerds as they face these tumultuous times.
+And (I can’t believe I’m writing this, but the jokes about Twitter layoffs in particular keep coming at a surprising rate) be kind to people facing layoffs. Losing your job is awful in the best of circumstances; going through it in such a public and charged situation must be emotionally grueling. Be kind.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Practical AI 200: Hybrid computing with quantum processors]]></title>
         <id>changelog.com/7/1930</id>
@@ -2072,128 +2225,6 @@ We are excited to announce passkey support on Android and Chrome for developers 
 Passkeys are a safer and more secure alternative to passwords. They also replace the need for traditional 2nd factor authentication methods such as text message, app based one-time codes or push-based approvals. Passkeys use public-key cryptography so that data breaches of service providers don't result in a compromise of passkey-protected accounts, and are based on industry standard APIs and protocols to ensure they are not su…]]></summary>
         <author>
             <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The GitHub Universe 2022 agenda is live]]></title>
-        <id>https://github.blog/?p=67730</id>
-        <link href="https://github.blog/2022-10-11-the-github-universe-2022-agenda-is-live/"/>
-        <updated>2022-10-11T19:39:36.000Z</updated>
-        <summary type="html"><![CDATA[Explore 80+ content sessions delivered by over 120 different speakers, across two days and four content tracks, all designed to level up your skills.]]></summary>
-        <author>
-            <name>Laura Lindeman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lessons learned since posting my salary history publicly]]></title>
-        <id>changelog.com/news/ZoZj</id>
-        <link href="https://www.jvt.me/posts/2022/09/21/year-later-salary-history/"/>
-        <updated>2022-10-11T19:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Just over a year ago, I did something quite “out there”, even for me, and I posted my salary history publicly. This was accompanied by a blog post to explain why I was doing it, and it’s certainly been popular.
-When I first posted it, I made a note to myself to come back in a year, and see whether anything had changed, as well as to look back on some of the events that happened immediately after my posting, as it certainly made life interesting in the month or so following the post.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jamie Tanna</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[View GitHub code scanning findings directly in VS Code and GitHub Codespaces]]></title>
-        <id>https://github.blog/?p=67648</id>
-        <link href="https://github.blog/2022-10-11-view-github-code-scanning-findings-directly-in-vs-code-and-github-codespaces/"/>
-        <updated>2022-10-11T19:10:12.000Z</updated>
-        <summary type="html"><![CDATA[Developers can now view GitHub code scanning findings directly in VS Code and GitHub Codespaces. The new Microsoft SARIF Viewer extension gives developers direct access to their code scanning results, making remediating vulnerabilities easier than ever.]]></summary>
-        <author>
-            <name>Brittany O'Shea</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Python package to make publication-ready but customizable forest plots]]></title>
-        <id>changelog.com/news/04dD</id>
-        <link href="https://github.com/lsys/forestplot"/>
-        <updated>2022-10-11T18:51:00.000Z</updated>
-        <summary type="html"><![CDATA[R has many such packages. In Python, not so much. This one is designed to be easy to use while being customizable (some examples in the README).
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Lucas Shen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we’re using machine learning to understand proteins]]></title>
-        <id>https://blog.google/technology/health/machine-learning-to-understand-proteins/</id>
-        <link href="https://blog.google/technology/health/machine-learning-to-understand-proteins/"/>
-        <updated>2022-10-11T18:15:00.000Z</updated>
-        <summary type="html"><![CDATA[When most people think of proteins, their mind typically goes to protein-rich foods such as steak or tofu. But proteins are so much more. They’re essential to how living things operate and thrive, and studying them can help improve lives. For example, insulin treatments are life-changing for people with diabetes that are based on years of studying proteins.
-There is a world of information yet to discover when it comes to proteins — from helping people get the healthcare they need to finding ways to protect plant species. Teams at Google are focused on studying proteins so we can realize Google Health’s mission to help billions of people live healthier lives.
-Back in March, we published apost about a model we developed at Google that predicts protein function and a tool that allows scientis…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A React library for building dashboards fast]]></title>
-        <id>changelog.com/news/LWVa</id>
-        <link href="https://www.tremor.so/"/>
-        <updated>2022-10-11T18:03:00.000Z</updated>
-        <summary type="html"><![CDATA[This looks like top notch work:
-Get more than 20 components with beautiful defaults and simple props. From charts to input and layout elements, we covered all the essential components to lift the tedious front-end work from your shoulders. Get ahead with our simple API approach in no time.
-Check out their demo dashboard right here.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Pixel 7 and Pixel 7 Pro: The next evolution in mobile security]]></title>
-        <id>http://security.googleblog.com/2022/10/google-pixel-7-and-pixel-7-pro-next.html</id>
-        <link href="http://security.googleblog.com/2022/10/google-pixel-7-and-pixel-7-pro-next.html"/>
-        <updated>2022-10-11T17:01:00.004Z</updated>
-        <summary type="html"><![CDATA[Dave Kleidermacher, Jesse Seed, Brandon Barbello, Sherif Hanna, Eugene Liderman, Android, Pixel, and Silicon Security Teams 
-Every day, billions of people around the world trust Google products to enrich their lives and provide helpful features –  across mobile devices, smart home devices, health and fitness devices, and more. We keep more people safe online than anyone else in the world, with products that are secure by default, private by design and that put you in control. As our advancements in knowledge and computing grow to deliver more help across contexts, locations and languages, our unwavering commitment to protecting your information remains. 
-That’s why Pixel phones are designed from the ground up to help protect you and your sensitive data while keeping you in control. We’re t…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On the go with GitHub Projects on GitHub Mobile (public beta)]]></title>
-        <id>https://github.blog/?p=67715</id>
-        <link href="https://github.blog/2022-10-11-on-the-go-with-github-projects-on-github-mobile-public-beta/"/>
-        <updated>2022-10-11T16:00:52.000Z</updated>
-        <summary type="html"><![CDATA[Stay connected and up to date on your work with GitHub Projects on GitHub Mobile, now in public beta.]]></summary>
-        <author>
-            <name>Candy Ho</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Thank You to the Hacker Community, From HackerOne]]></title>
-        <id>https://hackerone.com/ethical-hacker/thank-you-hacker-community-hackerone</id>
-        <link href="https://www.hackerone.com/ethical-hacker/thank-you-hacker-community-hackerone"/>
-        <updated>2022-10-11T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When I joined HackerOne last year, the vitality of the hacker community drew me to this organization. And as Chief Hacking Officer, I see the impact t]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TikTok Celebrates Two Years of Bug Bounty]]></title>
-        <id>https://hackerone.com/bounty/tiktok-celebrates-two-years-bug-bounty</id>
-        <link href="https://www.hackerone.com/bounty/tiktok-celebrates-two-years-bug-bounty"/>
-        <updated>2022-10-11T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TikTok, a social media giant with more than 1 billion active monthly users, understands the importance of a global community, be that community TikTokers or ethical hackers!  In 2020, TikTok launched its public bug bounty program on HackerOne. In the two years since, they’ve taken many steps to maintain a partnership with the global hacker community that’s rewarding and inviting.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How mapping the world’s buildings makes a difference]]></title>
-        <id>https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/</id>
-        <link href="https://blog.google/around-the-globe/google-africa/how-mapping-the-worlds-buildings-makes-a-difference/"/>
-        <updated>2022-10-11T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In Lamwo district, in northern Uganda, providing access to electricity is a challenge. In a country where only about 24% of the population has a power supply to their home from the national grid, the rate in Lamwo is even lower. This is partly due to lack of information: The government doesn’t have precise data about where settlements are located, what types of buildings there are, and what the buildings’ electricity needs might be. And canvassing the area isn’t practical, because the roads require four-wheel-drive vehicles and are impassable in the rain.
-Ernest Mwebaze leads Sunbird AI, a Ugandan nonprofit that uses data technology for social good. They’re assessing areas in Lamwo district to support planning at the Ministry of Energy in Uganda. “There are large areas to plan for,” explai…]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
