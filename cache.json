@@ -13,15 +13,6 @@
           "publishedOn": "2022-10-20T17:01:00.000Z",
           "wordCount": 1577,
           "title": "Announcing GUAC, a great pairing with SLSA (and SBOM)!"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html",
-          "author": null,
-          "description": "Posted by Arnar Birgisson, Software Engineer\n\n\nWe are excited to announce passkey support on Android and Chrome for developers to test today, with general availability following later this year. In this post we cover details on how passkeys stored in the Google Password Manager are kept secure. See our post on the Android Developers Blog for a more general overview.\nPasskeys are a safer and more secure alternative to passwords. They also replace the need for traditional 2nd factor authentication methods such as text message, app based one-time codes or push-based approvals. Passkeys use public-key cryptography so that data breaches of service providers don't result in a compromise of passkey-protected accounts, and are based on industry standard APIs and protocols to ensure they are not su…",
-          "link": "http://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html",
-          "publishedOn": "2022-10-12T12:00:00.000Z",
-          "wordCount": 2545,
-          "title": "Security of Passkeys in the Google Password Manager"
         }
       ]
     },
@@ -36,6 +27,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1691",
+          "author": null,
+          "description": "Natalie & Ian welcome Liran Haimovitch & Tiago Queiroz to the show for a discussion focused on debugging Go programs. They cover good & bad debugging practices, the difficulty of debugging in the cloud, the value of errors logs & metrics, the practice of debugging in production (or not) & much more!\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nLiran Haimovitch – Twitter, GitHub\nTiago Queiroz – Twitter, GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nNotes and Links\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/255",
+          "publishedOn": "2022-11-10T17:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 255: Debugging Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/255/go-time-255.mp3",
+            "length": "51471907",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/RdZm",
+          "author": "Jerod Santo",
+          "description": "Google search quality has been deteriorating for awhile. In this manifesto (of sorts), Kagi CEO Vladimir Prelovac describes what he thinks needs to replace it:\nIn the future, instead of everyone sharing the same search engine, you’ll have your completely individual, personalized Mike or Julia or Jarvis - the AI. Instead of being scared to share information with it, you will volunteer your data, knowing its incentives align with yours. The more you tell your assistant, the better it can help you, so when you ask it to recommend a good restaurant nearby, it’ll provide options based on what you like to eat and how far you want to drive. Ask it for a good coffee maker, and it’ll recommend choices within your budget from your favorite brands with only your best interests in mind. The search will be personal and contextual and excitingly so!\nDiscuss on Changelog News",
+          "link": "https://blog.kagi.com/age-pagerank-over",
+          "publishedOn": "2022-11-10T15:30:00.000Z",
+          "wordCount": null,
+          "title": "The age of PageRank is over",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/3L7D",
+          "author": "Jerod Santo",
+          "description": "For web automation/testing, Selenium has been the de facto “standard” since forever. It’s simple to get started with and supports almost every programming language.\nI know a lot of people who use Selenium, but I don’t know a lot of people who enjoy using Selenium. (That’s no knock on the Selenium team. They solved a hard problem for lots of devs over the course of many years. Huge impact!) Playwright on the other hand…\nDiscuss on Changelog News",
+          "link": "https://new.pythonforengineers.com/blog/web-automation-dont-use-selenium-use-playwright/",
+          "publishedOn": "2022-11-10T14:39:00.000Z",
+          "wordCount": null,
+          "title": "Web automation: don't use Selenium, use Playwright",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/14/1817",
           "author": null,
@@ -885,56 +911,6 @@
           "wordCount": null,
           "title": "The myth of mass collaboration",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1838",
-          "author": null,
-          "description": "I don’t think that you can imagine just how excited Gerhard was to find out that Audi, his favourite car company, has a Kubernetes competence centre. We have Sebastian Kister joining us today to tell us why people, followed by tech make the process.\nThe right thing to focus on is the genuine smiles that people give in response to something we do or say. That is an important SLI & SLO for reducing friction between silos.\nHow does this impact the flow of artefacts into production systems that design & build cars?\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make su…",
-          "link": "https://changelog.com/shipit/74",
-          "publishedOn": "2022-10-12T21:20:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 74: Vorsprung durch Technik",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/74/ship-it-74.mp3",
-            "length": "69822961",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/lOVn",
-          "author": "Jerod Santo",
-          "description": "ffmpeg is one of the foremost pillars of achievement in free software. It has touched the lives of every reader, whether they know it or not. If you’ve ever watched TV, or gone to a movie, or watched videos online, or listened to a podcast, odds are that ffmpeg was involved in making it possible. It is one of the most well-executed and important software projects of all time.\nYep. It also has one of the most epic man pages in the ’Verse.\nDiscuss on Changelog News",
-          "link": "https://drewdevault.com/2022/10/12/In-praise-of-ffmpeg.html",
-          "publishedOn": "2022-10-12T15:04:00.000Z",
-          "wordCount": null,
-          "title": "In praise of ffmpeg",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1872",
-          "author": null,
-          "description": "Chris sits down with Ankur Goyal to talk about DocQuery, Impira’s new open source ML model.  DocQuery lets you ask questions about semi-structured data (like invoices) and unstructured documents (like contracts) using Large Language Models (LLMs).  Ankur illustrates many of the ways DocQuery can help people tame documents, and references Chris’s real life tasks as a non-profit director to demonstrate that DocQuery is indeed practical AI.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nAnkur Goyal – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nDocQuery\nDocQuery Announcement\nDocQuery Blog Announcement\nDocQuery | GitHub\nImpira\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/196",
-          "publishedOn": "2022-10-12T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 196: What's up, DocQuery?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/practicalai/196/practical-ai-196.mp3",
-            "length": "40831406",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/04ro",
-          "author": "Jerod Santo",
-          "description": "New versions of Brave will hide—and, where possible, completely block—cookie consent notifications. Brave’s approach is distinct and more privacy-preserving than similar systems used in other browsers (such as the “auto-consent” systems used in other browsers), and helps keep the Web user-first.\nUnlike other approaches, this won’t simply automate the process of clicking “no” in cookie-banners, Brave will block the cookie-banners themselves.\nDiscuss on Changelog News",
-          "link": "https://brave.com/privacy-updates/21-blocking-cookie-notices/",
-          "publishedOn": "2022-10-12T14:18:00.000Z",
-          "wordCount": null,
-          "title": "Brave plans to start blocking cookie consent banners",
-          "itunes": {}
         }
       ]
     },
@@ -984,15 +960,6 @@
           "publishedOn": "2022-10-21T17:00:00.000Z",
           "wordCount": 1465,
           "title": "How AI can help in the fight against breast cancer"
-        },
-        {
-          "id": "https://blog.google/around-the-globe/google-africa/how-ai-is-helping-african-communities-and-businesses/",
-          "author": null,
-          "description": "Editor’s note: Last week Google hosted the annual Google For Africa eventas part of our commitment to make the internet more useful in Africa, and to support the communities and businesses that will power Africa’s economic growth. This commitment includes our investment in research. Since announcing the Google AI Research Center in Accra, Ghanain 2018, we have made great strides in our mission to use AI for societal impact. In May we made several exciting announcements aimed at expanding these commitments.\nYossi Matias, VP of Engineering and Research, who oversees research in Africa, spoke with Jeff Dean, SVP of Google Research, who championed the opening of the AI Research Center, about the potential of AI in Africa.\nJeff: It's remarkable how far we've come since we opened the center in A…",
-          "link": "https://blog.google/around-the-globe/google-africa/how-ai-is-helping-african-communities-and-businesses/",
-          "publishedOn": "2022-10-12T16:00:00.000Z",
-          "wordCount": 1537,
-          "title": "How  AI is helping African communities and businesses"
         }
       ]
     },
@@ -1001,6 +968,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20655",
+          "author": "Daniel Stenberg",
+          "description": "When setting up a TLS or QUIC connection, a client like curl needs a CA store in order to verify the certificate(s) the server provides in the TLS handshake. CA store A CA store is a fancy name for a number of certificates. Certificates for the Certificate Authorities (CAs) that a TLS client trusts. On … Continue reading curl’s new CA store cache →",
+          "link": "https://daniel.haxx.se/blog/2022/11/11/curls-new-ca-store-cache/",
+          "publishedOn": "2022-11-11T12:20:52.000Z",
+          "wordCount": 826,
+          "title": "curl’s new CA store cache"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20533",
           "author": "Daniel Stenberg",
@@ -1169,15 +1145,6 @@
           "publishedOn": "2022-10-15T12:22:17.516Z",
           "wordCount": 1708,
           "title": "Stability and scalability for search"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "author": null,
-          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "publishedOn": "2022-10-12T12:25:35.704Z",
-          "wordCount": 825,
-          "title": "Reconsidering Tweets"
         }
       ]
     },
@@ -1236,6 +1203,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68590",
+          "author": "Ethan Dennis",
+          "description": "GitHub Actions Importer helps you forecast, plan, and facilitate migrations from your current CI/CD tool to GitHub Actions.",
+          "link": "https://github.blog/2022-11-10-introducing-github-actions-importer/",
+          "publishedOn": "2022-11-10T17:00:19.000Z",
+          "wordCount": 2486,
+          "title": "Introducing GitHub Actions Importer"
+        },
+        {
+          "id": "https://github.blog/?p=68650",
+          "author": "Nik Molnar",
+          "description": "We’re giving GitHub users 60 free hours each month on Codespaces. Learn what else we shipped for Codespaces at Universe this year.",
+          "link": "https://github.blog/2022-11-10-whats-new-with-codespaces-from-github-universe-2022/",
+          "publishedOn": "2022-11-10T16:00:16.000Z",
+          "wordCount": 1604,
+          "title": "What’s new with Codespaces from GitHub Universe 2022"
+        },
         {
           "id": "https://github.blog/?p=68641",
           "author": "Thomas Dohmke",
@@ -1586,6 +1571,15 @@
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=19855",
+          "author": "Nubank Editorial",
+          "description": "Ellen Kiss, the Director of our Center of Excellence in Design, hosted a prolific discussion about important topics in the design market.\nThe post Women Leaders Who Design appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/women-leaders-who-design/",
+          "publishedOn": "2022-11-10T20:35:51.000Z",
+          "wordCount": 4042,
+          "title": "Women Leaders Who Design"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=19717",
           "author": "Céu Balzano - Security Awareness Engineer Leader at Nubank",
           "description": "A look into the career of an Information Security Awareness Engineer at Nubank, the scope and importance of this role for any organization.\nThe post What is it like being an Information Security Awareness Engineer at Nubank? appeared first on Building Nubank.",
@@ -1760,15 +1754,6 @@
           "publishedOn": "2022-10-18T20:43:36.000Z",
           "wordCount": 2953,
           "title": "Orchestrating Data/ML Workflows at Scale With Netflix Maestro"
-        },
-        {
-          "id": "https://medium.com/p/6253603880a6",
-          "author": "Netflix Technology Blog",
-          "description": "A conversation between Travis Brooks, Netflix Product Manager for Experimentation Platform, and George Khachatryan, OfferFit CEO",
-          "link": "https://netflixtechblog.com/how-product-teams-can-build-empathy-through-experimentation-6253603880a6?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-10-12T20:56:33.000Z",
-          "wordCount": 1858,
-          "title": "How Product Teams Can Build Empathy Through Experimentation"
         }
       ]
     },

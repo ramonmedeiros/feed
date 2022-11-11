@@ -2,10 +2,101 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-10T12:25:24.390Z</updated>
+    <updated>2022-11-11T12:24:22.282Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl’s new CA store cache]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20655</id>
+        <link href="https://daniel.haxx.se/blog/2022/11/11/curls-new-ca-store-cache/"/>
+        <updated>2022-11-11T12:20:52.000Z</updated>
+        <summary type="html"><![CDATA[When setting up a TLS or QUIC connection, a client like curl needs a CA store in order to verify the certificate(s) the server provides in the TLS handshake. CA store A CA store is a fancy name for a number of certificates. Certificates for the Certificate Authorities (CAs) that a TLS client trusts. On … Continue reading curl’s new CA store cache →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Women Leaders Who Design]]></title>
+        <id>https://building.nubank.com.br/?p=19855</id>
+        <link href="https://building.nubank.com.br/women-leaders-who-design/"/>
+        <updated>2022-11-10T20:35:51.000Z</updated>
+        <summary type="html"><![CDATA[Ellen Kiss, the Director of our Center of Excellence in Design, hosted a prolific discussion about important topics in the design market.
+The post Women Leaders Who Design appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Nubank Editorial</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing GitHub Actions Importer]]></title>
+        <id>https://github.blog/?p=68590</id>
+        <link href="https://github.blog/2022-11-10-introducing-github-actions-importer/"/>
+        <updated>2022-11-10T17:00:19.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Actions Importer helps you forecast, plan, and facilitate migrations from your current CI/CD tool to GitHub Actions.]]></summary>
+        <author>
+            <name>Ethan Dennis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 255: Debugging Go]]></title>
+        <id>changelog.com/2/1691</id>
+        <link href="https://changelog.com/gotime/255"/>
+        <updated>2022-11-10T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Natalie & Ian welcome Liran Haimovitch & Tiago Queiroz to the show for a discussion focused on debugging Go programs. They cover good & bad debugging practices, the difficulty of debugging in the cloud, the value of errors logs & metrics, the practice of debugging in production (or not) & much more!
+Discuss on Changelog News
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
+
+    
+Honeycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog
+
+    
+Featuring
+Liran Haimovitch – Twitter, GitHub
+Tiago Queiroz – Twitter, GitHub, LinkedIn, Website
+Natalie Pistunovich – Twitter, GitHub
+Ian Lopshire – Twitter, GitHub
+Notes and Links
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s new with Codespaces from GitHub Universe 2022]]></title>
+        <id>https://github.blog/?p=68650</id>
+        <link href="https://github.blog/2022-11-10-whats-new-with-codespaces-from-github-universe-2022/"/>
+        <updated>2022-11-10T16:00:16.000Z</updated>
+        <summary type="html"><![CDATA[We’re giving GitHub users 60 free hours each month on Codespaces. Learn what else we shipped for Codespaces at Universe this year.]]></summary>
+        <author>
+            <name>Nik Molnar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The age of PageRank is over]]></title>
+        <id>changelog.com/news/RdZm</id>
+        <link href="https://blog.kagi.com/age-pagerank-over"/>
+        <updated>2022-11-10T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Google search quality has been deteriorating for awhile. In this manifesto (of sorts), Kagi CEO Vladimir Prelovac describes what he thinks needs to replace it:
+In the future, instead of everyone sharing the same search engine, you’ll have your completely individual, personalized Mike or Julia or Jarvis - the AI. Instead of being scared to share information with it, you will volunteer your data, knowing its incentives align with yours. The more you tell your assistant, the better it can help you, so when you ask it to recommend a good restaurant nearby, it’ll provide options based on what you like to eat and how far you want to drive. Ask it for a good coffee maker, and it’ll recommend choices within your budget from your favorite brands with only your best interests in mind. The search will be personal and contextual and excitingly so!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web automation: don't use Selenium, use Playwright]]></title>
+        <id>changelog.com/news/3L7D</id>
+        <link href="https://new.pythonforengineers.com/blog/web-automation-dont-use-selenium-use-playwright/"/>
+        <updated>2022-11-10T14:39:00.000Z</updated>
+        <summary type="html"><![CDATA[For web automation/testing, Selenium has been the de facto “standard” since forever. It’s simple to get started with and supports almost every programming language.
+I know a lot of people who use Selenium, but I don’t know a lot of people who enjoy using Selenium. (That’s no knock on the Selenium team. They solved a hard problem for lots of devs over the course of many years. Huge impact!) Playwright on the other hand…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Append data to the URL query]]></title>
         <id>https://daniel.haxx.se/blog/?p=20533</id>
@@ -2117,114 +2208,6 @@ This post is sobering, but André speaks from a lot of experience.
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 74: Vorsprung durch Technik]]></title>
-        <id>changelog.com/14/1838</id>
-        <link href="https://changelog.com/shipit/74"/>
-        <updated>2022-10-12T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[I don’t think that you can imagine just how excited Gerhard was to find out that Audi, his favourite car company, has a Kubernetes competence centre. We have Sebastian Kister joining us today to tell us why people, followed by tech make the process.
-The right thing to focus on is the genuine smiles that people give in response to something we do or say. That is an important SLI & SLO for reducing friction between silos.
-How does this impact the flow of artefacts into production systems that design & build cars?
-Discuss on Changelog News
-Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make su…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Product Teams Can Build Empathy Through Experimentation]]></title>
-        <id>https://medium.com/p/6253603880a6</id>
-        <link href="https://netflixtechblog.com/how-product-teams-can-build-empathy-through-experimentation-6253603880a6?source=rss----2615bd06b42e---4"/>
-        <updated>2022-10-12T20:56:33.000Z</updated>
-        <summary type="html"><![CDATA[A conversation between Travis Brooks, Netflix Product Manager for Experimentation Platform, and George Khachatryan, OfferFit CEO]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How  AI is helping African communities and businesses]]></title>
-        <id>https://blog.google/around-the-globe/google-africa/how-ai-is-helping-african-communities-and-businesses/</id>
-        <link href="https://blog.google/around-the-globe/google-africa/how-ai-is-helping-african-communities-and-businesses/"/>
-        <updated>2022-10-12T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Editor’s note: Last week Google hosted the annual Google For Africa eventas part of our commitment to make the internet more useful in Africa, and to support the communities and businesses that will power Africa’s economic growth. This commitment includes our investment in research. Since announcing the Google AI Research Center in Accra, Ghanain 2018, we have made great strides in our mission to use AI for societal impact. In May we made several exciting announcements aimed at expanding these commitments.
-Yossi Matias, VP of Engineering and Research, who oversees research in Africa, spoke with Jeff Dean, SVP of Google Research, who championed the opening of the AI Research Center, about the potential of AI in Africa.
-Jeff: It's remarkable how far we've come since we opened the center in A…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In praise of ffmpeg]]></title>
-        <id>changelog.com/news/lOVn</id>
-        <link href="https://drewdevault.com/2022/10/12/In-praise-of-ffmpeg.html"/>
-        <updated>2022-10-12T15:04:00.000Z</updated>
-        <summary type="html"><![CDATA[ffmpeg is one of the foremost pillars of achievement in free software. It has touched the lives of every reader, whether they know it or not. If you’ve ever watched TV, or gone to a movie, or watched videos online, or listened to a podcast, odds are that ffmpeg was involved in making it possible. It is one of the most well-executed and important software projects of all time.
-Yep. It also has one of the most epic man pages in the ’Verse.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 196: What's up, DocQuery?]]></title>
-        <id>changelog.com/7/1872</id>
-        <link href="https://changelog.com/practicalai/196"/>
-        <updated>2022-10-12T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Chris sits down with Ankur Goyal to talk about DocQuery, Impira’s new open source ML model.  DocQuery lets you ask questions about semi-structured data (like invoices) and unstructured documents (like contracts) using Large Language Models (LLMs).  Ankur illustrates many of the ways DocQuery can help people tame documents, and references Chris’s real life tasks as a non-profit director to demonstrate that DocQuery is indeed practical AI.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Ankur Goyal – Twitter, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Notes and Links
-DocQuery
-DocQuery Announcement
-DocQuery Blog Announcement
-DocQuery | GitHub
-Impira
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brave plans to start blocking cookie consent banners]]></title>
-        <id>changelog.com/news/04ro</id>
-        <link href="https://brave.com/privacy-updates/21-blocking-cookie-notices/"/>
-        <updated>2022-10-12T14:18:00.000Z</updated>
-        <summary type="html"><![CDATA[New versions of Brave will hide—and, where possible, completely block—cookie consent notifications. Brave’s approach is distinct and more privacy-preserving than similar systems used in other browsers (such as the “auto-consent” systems used in other browsers), and helps keep the Web user-first.
-Unlike other approaches, this won’t simply automate the process of clicking “no” in cookie-banners, Brave will block the cookie-banners themselves.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reconsidering Tweets]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets"/>
-        <updated>2022-10-12T12:25:35.704Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security of Passkeys in the Google Password Manager]]></title>
-        <id>http://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html</id>
-        <link href="http://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html"/>
-        <updated>2022-10-12T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Arnar Birgisson, Software Engineer
-
-
-We are excited to announce passkey support on Android and Chrome for developers to test today, with general availability following later this year. In this post we cover details on how passkeys stored in the Google Password Manager are kept secure. See our post on the Android Developers Blog for a more general overview.
-Passkeys are a safer and more secure alternative to passwords. They also replace the need for traditional 2nd factor authentication methods such as text message, app based one-time codes or push-based approvals. Passkeys use public-key cryptography so that data breaches of service providers don't result in a compromise of passkey-protected accounts, and are based on industry standard APIs and protocols to ensure they are not su…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
         </author>
     </entry>
 </feed>
