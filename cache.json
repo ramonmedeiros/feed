@@ -37,6 +37,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/y7AE",
+          "author": "Jerod Santo",
+          "description": "Might a “modular monolith” be the happy middle ground in the endless monolith or microservices decision? You may have to answer that question for yourself, but this post shares some good thoughts around designing a modular monolith:\nWhen designing a modular monolith, it is all about breaking up the system into modules, and then combining those modules into a monolith for deployment.\nIt might be worth noting that finding what modules you will need, might not be as easy as you would think. They have to be as independent as possible. High-cohesion and low coupling is very important here, as all communication between the modules might end up being a cross network call, if you decide to break it into services in the future.\nThis means that all communication between modules need to well abstracted, and be either asynchronous, so that they can handle the call going across the network in the future, or use some form of messaging.\nDiscuss on Changelog News",
+          "link": "https://www.fearofoblivion.com/build-a-modular-monolith-first",
+          "publishedOn": "2022-11-15T21:09:00.000Z",
+          "wordCount": null,
+          "title": "Build the modular monolith first",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Jgkr",
+          "author": "Jerod Santo",
+          "description": "Fathy Boundjadj new html2svg project is pretty cool. We’ve seen a lot of efforts to convert HTML to raster images like PNG and JPG, but SVG is a different (pixel-independent) story.\nThis end product took some engineering, and the linked post goes deep into all the steps Fathy had to take along the way. From taking the picture to rendering to SVG to supporting shadows and more.\nDiscuss on Changelog News",
+          "link": "https://fathy.fr/html2svg",
+          "publishedOn": "2022-11-15T20:19:00.000Z",
+          "wordCount": null,
+          "title": "Forking Chrome to turn HTML into SVG",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/8lkE",
+          "author": "Adam Stacoviak",
+          "description": "Let’s see if this ages well, but I do agree that Armin shares some good points. Scale comes with mainstream, and mainstream Mastodon isn’t quite possible if we can’t all agree (and we can’t). This is probably Mastodon’s most obvious achilles heel — agreement in a decentralized, federated, you can “do what you want” world.\n…before we even hit the issue of the technology, we hit the issue of there being absolutely no agreement of what the thing should look like or what the issue actually is and that’s I think much more interesting.\nSome people claim the solution to the technical scalability issue is huge instances, some other people have the belief that the actual intended design and solution were micro-instances of in extreme cases a user each.\nThen there’s moderation, which if you’ve ever run any community forums, Slacks, etc you’ll know that you’re going to have to moderate and deal with people problems.\nOn the topic of moderation the very same issue is even more absurd. Some instances want uncontrolled free speech where some instances effectively are pure shit-posting instances which are completely de-federated from the most of the fediverse as a result. Other instances really like to control their content, where some popular ones such as fosstodon ban all languages than English as a result to allow moderation. There also is no real agreement on if larger or smaller instance are going to make the problem of moderation better or worse.\nDiscuss on Changelog News",
+          "link": "https://lucumr.pocoo.org/2022/11/14/scaling-mastodon/",
+          "publishedOn": "2022-11-15T14:00:00.000Z",
+          "wordCount": null,
+          "title": "Scaling Mastodon is impossible",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/N1Qa",
           "author": "Adam Stacoviak",
           "description": "I didn’t want to click through to this. I was like, “No. A Kindle?” But, the opening image got me. That’s why all I’m sharing is this note and that image.\n\nDiscuss on Changelog News",
@@ -905,61 +935,6 @@
             "length": "47705072",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/1879",
-          "author": null,
-          "description": "We revisit our Harmonai story from last week, Jamie Tanna reviews posting his salary history publicly, Sid Sijbrandij’s new (open core) venture fund, Zed Shaw thinks Stripe is like Paypal in 2010 & Helix is a new Rust-based terminal.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\nZach Evans on Twitter\nLessons learned since posting my salary history publicly\nOpen Core Ventures\nStripe is Paypal circa 2010\nHelix Editor (pic)\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-10-17",
-          "publishedOn": "2022-10-17T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Harmonai revisited, lessons learned from public salary, Open Core Ventures, Stripe is Paypal in 2010 & Helix",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/podcast/news-2022-10-17/the-changelog-news-2022-10-17.mp3",
-            "length": "6929476",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Y1lV",
-          "author": "Adam Stacoviak",
-          "description": "This is awesome — Brandon, please write down more lessons as learned, even if they’re just something for you to reference later on.\nI’ve been doing this “reliability” stuff for a little while now (~5 years), at companies ranging from about 20 developers to over 2,000. I’ve always cared primarily about the software elements I describe as living “outside” the application – like, how does it get its configuration? What kinds of instances does it run on, and are those the best kinds to use? What steps does it take on its path from “code in a repository” to “running in production”? And I’ve always kept track of what I liked – which mechanisms allowed fast iteration and which caused frustration, which led to outages and which prevented them.\n… So! With that out of the way – this is how I’d rebuild it all from scratch if I could.\nDiscuss on Changelog News",
-          "link": "https://www.willett.io/posts/precepts/",
-          "publishedOn": "2022-10-17T19:02:36.000Z",
-          "wordCount": null,
-          "title": "How to build software like an SRE",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/rX3n",
-          "author": "Jerod Santo",
-          "description": "An actual card game to teach actual kids how to actually combine unix commands with pipes.\ntask: print the most common line from a file, we need to first cat the file (in our case the file is card 03.txt), then sort it, uniq count it, then do numeric sort, then tail -1:\nanswer: cat 03.txt | sort | uniq -c | sort -n | tail -1\nPrint it yourself or… actually it’s sold out for now so you’ll have to print it yourself.\n\nDiscuss on Changelog News",
-          "link": "https://punkx.org/unix-pipe-game/",
-          "publishedOn": "2022-10-17T16:16:00.000Z",
-          "wordCount": null,
-          "title": "The UNIX Pipe Card Game",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/AXnQ",
-          "author": "Jerod Santo",
-          "description": "Full-stack web development is (still) too complicated. Simple CRUD, a common requirement of any business application, should be simple to build, maintain, and extend when the need arises.\nRemult is a full-stack CRUD framework that uses your TypeScript entities as a single source of truth for your API, frontend type-safe API client and backend ORM.\nThis isn’t just production-ready, it’s been used in production since 2018.\nDiscuss on Changelog News",
-          "link": "https://github.com/remult/remult",
-          "publishedOn": "2022-10-17T15:30:00.000Z",
-          "wordCount": null,
-          "title": "A CRUD framework for full stack TypeScript",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RdWw",
-          "author": "Saul Pwanson",
-          "description": "vdsql is a new plugin that allows VisiData to connect to databases and query them directly, using the database’s own query engine.  It uses Ibis to generate SQL for many popular backends, including Postgres, DuckDB, Clickhouse, and more.\nvdsql v0.2, released this past week, is already quite useful, and development continues to improve both vdsql and VisiData for bigger data!\nDiscuss on Changelog News",
-          "link": "https://www.visidata.org/blog/2022/connect-visidata-to-sql-databases-with-vdsql/",
-          "publishedOn": "2022-10-17T14:42:00.000Z",
-          "wordCount": null,
-          "title": "Connect VisiData to SQL Databases with vdsql",
-          "itunes": {}
         }
       ]
     },
@@ -974,6 +949,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ai/a-conversation-with-thomas-friedman-about-ai/",
+          "author": null,
+          "description": "Technology has an unmistakable impact on society — the way we work, learn and play have all changed significantly over the past decade. As SVP of Technology and Society, part of my work at Google is connecting people and ideas to help shape the future of our most ambitious technology and its impact on society, and to do it responsibly.\n\n\nAn important part of that is talking to and learning from experts in a variety of fields and disciplines. Recently I sat down with a brilliant friend, New York Times columnist and author Thomas L. Friedman, to compare notes and discuss some big questions on our minds.\n\n\n\n\nThomas Friedman and James Manyika in conversation at Google’s Bay View campus.\n\n\n\nWe had a lot to cover, as it had been a couple of years since our last such in-person conversation due to the pandemic. Much of our discussion focused on AI and how it affects society, but we also discussed what Tom has been observing, how we as a society shape technology, and why we think this moment in time is an inflection point akin to the printing press or the industrial revolution.\n\n\nTo close our conversation, I asked Tom what keeps him optimistic about the future. His answer reinforces my belief that getting technology right is a collective responsibility involving the whole of society — from open, honest conversations like this to better understand the opportunities and challenges, to defining policy, and responsibly creating new and societally-beneficial applications.\n\n\nI always learn something new when I have these conversations with Tom, and I’m excited to share more insights and dialogues on YouTube soon.\n\n\nVisit YouTubeto see more of James’ conversation with Thomas Friedman.",
+          "link": "https://blog.google/technology/ai/a-conversation-with-thomas-friedman-about-ai/",
+          "publishedOn": "2022-11-15T17:00:00.000Z",
+          "wordCount": 961,
+          "title": "A conversation with Thomas Friedman about AI"
+        },
         {
           "id": "https://blog.google/inside-google/googlers/hear-what-googles-first-responsible-innovation-intern-learned/",
           "author": null,
@@ -1026,6 +1010,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20624",
+          "author": "Daniel Stenberg",
+          "description": "In the curl project, one of the holiest and most sacred rules is: we do not break the API or ABI Everything else is a matter of discussion. More features all the time We keep adding features and we do improvements at a rather high pace. So much that we actually rarely do a release … Continue reading connection filters in curl →",
+          "link": "https://daniel.haxx.se/blog/2022/11/15/connection-filters-in-curl/",
+          "publishedOn": "2022-11-15T22:35:06.000Z",
+          "wordCount": 838,
+          "title": "connection filters in curl"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20655",
           "author": "Daniel Stenberg",
@@ -1105,6 +1098,24 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "author": null,
+          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "publishedOn": "2022-11-16T12:19:32.984Z",
+          "wordCount": 1272,
+          "title": "Powering real-time data analytics with Druid at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "author": null,
+          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "publishedOn": "2022-11-16T12:19:32.084Z",
+          "wordCount": 887,
+          "title": "Data Quality Automation at Twitter"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
           "author": null,
@@ -1234,6 +1245,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68721",
+          "author": "Candy Ho",
+          "description": "GitHub Mobile helps keep work going while you're going. Untether yourself from your office.",
+          "link": "https://github.blog/2022-11-15-the-power-of-github-in-the-palm-of-your-hand/",
+          "publishedOn": "2022-11-15T20:51:23.000Z",
+          "wordCount": 868,
+          "title": "The power of GitHub in the palm of your hand"
+        },
+        {
+          "id": "https://github.blog/?p=68712",
+          "author": "Ryan J. Salva",
+          "description": "Reading code is a hugely important task for developers. That’s why we built GitHub’s new code search—to help developers search, navigate, and understand code written by them, their team, and the world.",
+          "link": "https://github.blog/2022-11-15-a-better-way-to-search-navigate-and-understand-code-on-github/",
+          "publishedOn": "2022-11-15T19:51:04.000Z",
+          "wordCount": 829,
+          "title": "A better way to search, navigate, and understand code on GitHub"
+        },
+        {
+          "id": "https://github.blog/?p=68732",
+          "author": "Mario Rodriguez",
+          "description": "In July, we launched the general availability of GitHub Projects, and now we are excited to bring you even more features designed to make it easier to plan and track in the same place you build!",
+          "link": "https://github.blog/2022-11-15-the-journey-of-your-work-has-never-been-clearer/",
+          "publishedOn": "2022-11-15T18:50:57.000Z",
+          "wordCount": 928,
+          "title": "The journey of your work has never been clearer"
+        },
         {
           "id": "https://github.blog/?p=68590",
           "author": "Ethan Dennis",
@@ -1548,24 +1586,6 @@
           "publishedOn": "2022-10-18T15:35:02.000Z",
           "wordCount": 1610,
           "title": "Introducing fine-grained personal access tokens for GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=67882",
-          "author": "Mala Kumar",
-          "description": "Read about how the GitHub Social Impact, Tech for Social Good and Policy teams participated in the 77th session of the United Nations General Assembly, including events we hosted with the World Health Organization and the UN Development Programme.",
-          "link": "https://github.blog/2022-10-17-github-at-the-77th-united-nations-general-assembly/",
-          "publishedOn": "2022-10-17T17:00:54.000Z",
-          "wordCount": 1527,
-          "title": "GitHub at the 77th United Nations General Assembly"
-        },
-        {
-          "id": "https://github.blog/?p=67859",
-          "author": "Laura Paine",
-          "description": "Having a robust security plan is key to innovation. These tips will empower you to gain the upper hand on cyberattacks, so you can ship quickly and innovate with ease.",
-          "link": "https://github.blog/2022-10-17-5-tips-for-embedding-security-into-your-workflows/",
-          "publishedOn": "2022-10-17T15:00:47.000Z",
-          "wordCount": 1252,
-          "title": "5 tips for embedding security into your workflows"
         }
       ]
     },
@@ -1645,15 +1665,6 @@
           "publishedOn": "2022-10-21T20:11:57.000Z",
           "wordCount": 3525,
           "title": "8 tips to solve software engineering technical exercise for Nubank’s hiring process"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19498",
-          "author": "Georgia Anunciação - Technical Writer at Nubank",
-          "description": "Clojure’s history is beautiful and simple in code. Nubank has a lot of reasons to say: happy birthday, Clojure!\nThe post Clojure 15th Anniversary: A Retrospective appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/clojure-15th-anniversary-a-retrospective/",
-          "publishedOn": "2022-10-17T18:25:07.000Z",
-          "wordCount": 3969,
-          "title": "Clojure 15th Anniversary: A Retrospective"
         }
       ]
     },
@@ -1662,6 +1673,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community",
+          "author": "Elizabeth Raffa",
+          "description": "HackerOne sat down with Wendy Ng, Principal Cloud Security Architect at OneWeb, to talk about their experience with their private HackerOne bug bounty program.",
+          "link": "https://www.hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community",
+          "publishedOn": "2022-11-15T16:00:00.000Z",
+          "wordCount": 2007,
+          "title": "How OneWeb is Safeguarding its Assets with the Hacker Community"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards",
           "author": "HackerOne",
@@ -1714,6 +1734,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/d308ee43c079",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-11-15T17:03:55.000Z",
+          "wordCount": null,
+          "title": "Helping VFX studios pave a path to the cloud"
+        },
         {
           "id": "https://medium.com/p/5067ac110bcd",
           "author": "Netflix Technology Blog",

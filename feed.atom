@@ -2,10 +2,161 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-15T12:20:03.459Z</updated>
+    <updated>2022-11-16T12:19:58.714Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Powering real-time data analytics with Druid at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter"/>
+        <updated>2022-11-16T12:19:32.984Z</updated>
+        <summary type="html"><![CDATA[In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Quality Automation at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter"/>
+        <updated>2022-11-16T12:19:32.084Z</updated>
+        <summary type="html"><![CDATA[In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[connection filters in curl]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20624</id>
+        <link href="https://daniel.haxx.se/blog/2022/11/15/connection-filters-in-curl/"/>
+        <updated>2022-11-15T22:35:06.000Z</updated>
+        <summary type="html"><![CDATA[In the curl project, one of the holiest and most sacred rules is: we do not break the API or ABI Everything else is a matter of discussion. More features all the time We keep adding features and we do improvements at a rather high pace. So much that we actually rarely do a release … Continue reading connection filters in curl →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build the modular monolith first]]></title>
+        <id>changelog.com/news/y7AE</id>
+        <link href="https://www.fearofoblivion.com/build-a-modular-monolith-first"/>
+        <updated>2022-11-15T21:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Might a “modular monolith” be the happy middle ground in the endless monolith or microservices decision? You may have to answer that question for yourself, but this post shares some good thoughts around designing a modular monolith:
+When designing a modular monolith, it is all about breaking up the system into modules, and then combining those modules into a monolith for deployment.
+It might be worth noting that finding what modules you will need, might not be as easy as you would think. They have to be as independent as possible. High-cohesion and low coupling is very important here, as all communication between the modules might end up being a cross network call, if you decide to break it into services in the future.
+This means that all communication between modules need to well abstracted, and be either asynchronous, so that they can handle the call going across the network in the future, or use some form of messaging.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The power of GitHub in the palm of your hand]]></title>
+        <id>https://github.blog/?p=68721</id>
+        <link href="https://github.blog/2022-11-15-the-power-of-github-in-the-palm-of-your-hand/"/>
+        <updated>2022-11-15T20:51:23.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Mobile helps keep work going while you're going. Untether yourself from your office.]]></summary>
+        <author>
+            <name>Candy Ho</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Forking Chrome to turn HTML into SVG]]></title>
+        <id>changelog.com/news/Jgkr</id>
+        <link href="https://fathy.fr/html2svg"/>
+        <updated>2022-11-15T20:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Fathy Boundjadj new html2svg project is pretty cool. We’ve seen a lot of efforts to convert HTML to raster images like PNG and JPG, but SVG is a different (pixel-independent) story.
+This end product took some engineering, and the linked post goes deep into all the steps Fathy had to take along the way. From taking the picture to rendering to SVG to supporting shadows and more.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A better way to search, navigate, and understand code on GitHub]]></title>
+        <id>https://github.blog/?p=68712</id>
+        <link href="https://github.blog/2022-11-15-a-better-way-to-search-navigate-and-understand-code-on-github/"/>
+        <updated>2022-11-15T19:51:04.000Z</updated>
+        <summary type="html"><![CDATA[Reading code is a hugely important task for developers. That’s why we built GitHub’s new code search—to help developers search, navigate, and understand code written by them, their team, and the world.]]></summary>
+        <author>
+            <name>Ryan J. Salva</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The journey of your work has never been clearer]]></title>
+        <id>https://github.blog/?p=68732</id>
+        <link href="https://github.blog/2022-11-15-the-journey-of-your-work-has-never-been-clearer/"/>
+        <updated>2022-11-15T18:50:57.000Z</updated>
+        <summary type="html"><![CDATA[In July, we launched the general availability of GitHub Projects, and now we are excited to bring you even more features designed to make it easier to plan and track in the same place you build!]]></summary>
+        <author>
+            <name>Mario Rodriguez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Helping VFX studios pave a path to the cloud]]></title>
+        <id>https://medium.com/p/d308ee43c079</id>
+        <link href="https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4"/>
+        <updated>2022-11-15T17:03:55.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A conversation with Thomas Friedman about AI]]></title>
+        <id>https://blog.google/technology/ai/a-conversation-with-thomas-friedman-about-ai/</id>
+        <link href="https://blog.google/technology/ai/a-conversation-with-thomas-friedman-about-ai/"/>
+        <updated>2022-11-15T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Technology has an unmistakable impact on society — the way we work, learn and play have all changed significantly over the past decade. As SVP of Technology and Society, part of my work at Google is connecting people and ideas to help shape the future of our most ambitious technology and its impact on society, and to do it responsibly.
+
+
+An important part of that is talking to and learning from experts in a variety of fields and disciplines. Recently I sat down with a brilliant friend, New York Times columnist and author Thomas L. Friedman, to compare notes and discuss some big questions on our minds.
+
+
+
+
+Thomas Friedman and James Manyika in conversation at Google’s Bay View campus.
+
+
+
+We had a lot to cover, as it had been a couple of years since our last such in-person conversation due to the pandemic. Much of our discussion focused on AI and how it affects society, but we also discussed what Tom has been observing, how we as a society shape technology, and why we think this moment in time is an inflection point akin to the printing press or the industrial revolution.
+
+
+To close our conversation, I asked Tom what keeps him optimistic about the future. His answer reinforces my belief that getting technology right is a collective responsibility involving the whole of society — from open, honest conversations like this to better understand the opportunities and challenges, to defining policy, and responsibly creating new and societally-beneficial applications.
+
+
+I always learn something new when I have these conversations with Tom, and I’m excited to share more insights and dialogues on YouTube soon.
+
+
+Visit YouTubeto see more of James’ conversation with Thomas Friedman.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How OneWeb is Safeguarding its Assets with the Hacker Community]]></title>
+        <id>https://hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community</id>
+        <link href="https://www.hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community"/>
+        <updated>2022-11-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HackerOne sat down with Wendy Ng, Principal Cloud Security Architect at OneWeb, to talk about their experience with their private HackerOne bug bounty program.]]></summary>
+        <author>
+            <name>Elizabeth Raffa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Mastodon is impossible]]></title>
+        <id>changelog.com/news/8lkE</id>
+        <link href="https://lucumr.pocoo.org/2022/11/14/scaling-mastodon/"/>
+        <updated>2022-11-15T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Let’s see if this ages well, but I do agree that Armin shares some good points. Scale comes with mainstream, and mainstream Mastodon isn’t quite possible if we can’t all agree (and we can’t). This is probably Mastodon’s most obvious achilles heel — agreement in a decentralized, federated, you can “do what you want” world.
+…before we even hit the issue of the technology, we hit the issue of there being absolutely no agreement of what the thing should look like or what the issue actually is and that’s I think much more interesting.
+Some people claim the solution to the technical scalability issue is huge instances, some other people have the belief that the actual intended design and solution were micro-instances of in extreme cases a user each.
+Then there’s moderation, which if you’ve ever run any community forums, Slacks, etc you’ll know that you’re going to have to moderate and deal with people problems.
+On the topic of moderation the very same issue is even more absurd. Some instances want uncontrolled free speech where some instances effectively are pure shit-posting instances which are completely de-federated from the most of the fediverse as a result. Other instances really like to control their content, where some popular ones such as fosstodon ban all languages than English as a result to allow moderation. There also is no real agreement on if larger or smaller instance are going to make the problem of moderation better or worse.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Adam Stacoviak</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Stability and scalability for search]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
@@ -2111,111 +2262,6 @@ Something missing or broken? PRs welcome!]]></summary>
         <summary type="html"><![CDATA[tldr: we do not particular keep track nor document curl’s exact spec compliance. I cannot fathom how we could. Today, in October 2022, curl and libcurl combined consist of nearly 150,000 lines of source code (not counting blank lines). 19% of those are comments. This source code pile was carefully crafted with the sole purpose … Continue reading Deviating from specs →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: Harmonai revisited, lessons learned from public salary, Open Core Ventures, Stripe is Paypal in 2010 & Helix]]></title>
-        <id>changelog.com/1/1879</id>
-        <link href="https://changelog.com/podcast/news-2022-10-17"/>
-        <updated>2022-10-17T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[We revisit our Harmonai story from last week, Jamie Tanna reviews posting his salary history publicly, Sid Sijbrandij’s new (open core) venture fund, Zed Shaw thinks Stripe is like Paypal in 2010 & Helix is a new Rust-based terminal.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Jerod Santo – Twitter, GitHub
-Notes and Links
-Zach Evans on Twitter
-Lessons learned since posting my salary history publicly
-Open Core Ventures
-Stripe is Paypal circa 2010
-Helix Editor (pic)
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to build software like an SRE]]></title>
-        <id>changelog.com/news/Y1lV</id>
-        <link href="https://www.willett.io/posts/precepts/"/>
-        <updated>2022-10-17T19:02:36.000Z</updated>
-        <summary type="html"><![CDATA[This is awesome — Brandon, please write down more lessons as learned, even if they’re just something for you to reference later on.
-I’ve been doing this “reliability” stuff for a little while now (~5 years), at companies ranging from about 20 developers to over 2,000. I’ve always cared primarily about the software elements I describe as living “outside” the application – like, how does it get its configuration? What kinds of instances does it run on, and are those the best kinds to use? What steps does it take on its path from “code in a repository” to “running in production”? And I’ve always kept track of what I liked – which mechanisms allowed fast iteration and which caused frustration, which led to outages and which prevented them.
-… So! With that out of the way – this is how I’d rebuild it all from scratch if I could.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clojure 15th Anniversary: A Retrospective]]></title>
-        <id>https://building.nubank.com.br/?p=19498</id>
-        <link href="https://building.nubank.com.br/clojure-15th-anniversary-a-retrospective/"/>
-        <updated>2022-10-17T18:25:07.000Z</updated>
-        <summary type="html"><![CDATA[Clojure’s history is beautiful and simple in code. Nubank has a lot of reasons to say: happy birthday, Clojure!
-The post Clojure 15th Anniversary: A Retrospective appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Georgia Anunciação - Technical Writer at Nubank</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub at the 77th United Nations General Assembly]]></title>
-        <id>https://github.blog/?p=67882</id>
-        <link href="https://github.blog/2022-10-17-github-at-the-77th-united-nations-general-assembly/"/>
-        <updated>2022-10-17T17:00:54.000Z</updated>
-        <summary type="html"><![CDATA[Read about how the GitHub Social Impact, Tech for Social Good and Policy teams participated in the 77th session of the United Nations General Assembly, including events we hosted with the World Health Organization and the UN Development Programme.]]></summary>
-        <author>
-            <name>Mala Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The UNIX Pipe Card Game]]></title>
-        <id>changelog.com/news/rX3n</id>
-        <link href="https://punkx.org/unix-pipe-game/"/>
-        <updated>2022-10-17T16:16:00.000Z</updated>
-        <summary type="html"><![CDATA[An actual card game to teach actual kids how to actually combine unix commands with pipes.
-task: print the most common line from a file, we need to first cat the file (in our case the file is card 03.txt), then sort it, uniq count it, then do numeric sort, then tail -1:
-answer: cat 03.txt | sort | uniq -c | sort -n | tail -1
-Print it yourself or… actually it’s sold out for now so you’ll have to print it yourself.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A CRUD framework for full stack TypeScript]]></title>
-        <id>changelog.com/news/AXnQ</id>
-        <link href="https://github.com/remult/remult"/>
-        <updated>2022-10-17T15:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Full-stack web development is (still) too complicated. Simple CRUD, a common requirement of any business application, should be simple to build, maintain, and extend when the need arises.
-Remult is a full-stack CRUD framework that uses your TypeScript entities as a single source of truth for your API, frontend type-safe API client and backend ORM.
-This isn’t just production-ready, it’s been used in production since 2018.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 tips for embedding security into your workflows]]></title>
-        <id>https://github.blog/?p=67859</id>
-        <link href="https://github.blog/2022-10-17-5-tips-for-embedding-security-into-your-workflows/"/>
-        <updated>2022-10-17T15:00:47.000Z</updated>
-        <summary type="html"><![CDATA[Having a robust security plan is key to innovation. These tips will empower you to gain the upper hand on cyberattacks, so you can ship quickly and innovate with ease.]]></summary>
-        <author>
-            <name>Laura Paine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connect VisiData to SQL Databases with vdsql]]></title>
-        <id>changelog.com/news/RdWw</id>
-        <link href="https://www.visidata.org/blog/2022/connect-visidata-to-sql-databases-with-vdsql/"/>
-        <updated>2022-10-17T14:42:00.000Z</updated>
-        <summary type="html"><![CDATA[vdsql is a new plugin that allows VisiData to connect to databases and query them directly, using the database’s own query engine.  It uses Ibis to generate SQL for many popular backends, including Postgres, DuckDB, Clickhouse, and more.
-vdsql v0.2, released this past week, is already quite useful, and development continues to improve both vdsql and VisiData for bigger data!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Saul Pwanson</name>
         </author>
     </entry>
 </feed>
