@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/zDAn",
+          "author": "Jerod Santo",
+          "description": "Kirill Rogovoy:\nIt took me several years to learn how to write code that scales to 10s of team members and a million lines of code. It took even more time to learn to write stupid code again.\n\nDiscuss on Changelog News",
+          "link": "https://rogovoy.me/blog/no-architecture",
+          "publishedOn": "2022-11-17T22:41:00.000Z",
+          "wordCount": null,
+          "title": "No architecture is better than bad architecture",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1865",
+          "author": null,
+          "description": "On a previous episode of Go Time we discussed binary bloat, and how the Go protocol buffer implementation is a big offender. In this episode we dive into the history of protocol buffers and gRPC, then we discuss how the protocol and the implementation can vary and lead to things like binary bloat.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nCalhoun Black Friday – Go Time co-host Jon Calhoun is having a Black Friday sale on November 21st-29th. All paid courses will be 50% OFF. Learn more about Jon’s courses at calhoun.io/courses\n\n    \nFeaturing\nAkshay Shah – Twitter, GitHub, LinkedIn, Website\nJon Calhoun – Twitter, GitHub, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nWhere Akshay works\nBuf’s gRPC implementation\nbufbuild/connect-go\nbufbuild/connect-web\nGoogle’s Protocol Buffers overview\ngRPC docs\nGoogle’s grpc-go\ngRPC benchmarks\ngRPC spec\nhand-write a gRPC handler in 7m\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/256",
+          "publishedOn": "2022-11-17T18:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 256: gRPC & protocol buffers",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/256/go-time-256.mp3",
+            "length": "72831339",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/zDAP",
+          "author": "Martin Heinz",
+          "description": "Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them.\nThis feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of.\nSo, let’s take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/85",
+          "publishedOn": "2022-11-17T14:16:00.000Z",
+          "wordCount": null,
+          "title": "Kubernetes' brand new Checkpointing API lets you backup-and-restore containers without every stopping them",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/1937",
           "author": null,
           "description": "Online platforms and their users are susceptible to a barrage of threats – from disinformation to extremism to terror. Daniel and Chris chat with Matar Haller, VP of Data at ActiveFence, a leader in identifying online harm – is using a combination of AI technology and leading subject matter experts to provide Trust & Safety teams with precise, real-time data, in-depth intelligence, and automated tools to protect users and ensure safe online experiences.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMatar Haller – GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nActiveFence\nSomething missing or broken? PRs welcome!",
@@ -855,61 +890,6 @@
           "wordCount": null,
           "title": "How trying new programming languages helped me grow as a software engineer",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6raZ",
-          "author": "Adam Stacoviak",
-          "description": "Is GitHub Copilot an AI parasite trained in the realms of fair use on pub­lic code any­where on the inter­net? Or, is it a much needed automation layer to all the reasons we open source in the first place?\nWhen I first wrote about Copi­lot, I said “I’m not wor­ried about its effects on open source.” In the short term, I’m still not wor­ried. But as I reflected on my own jour­ney through open source—nearly 25 years—I real­ized that I was miss­ing the big­ger pic­ture. After all, open source isn’t a fixed group of peo­ple. It’s an ever-grow­ing, ever-chang­ing col­lec­tive intel­li­gence, con­tin­u­ally being renewed by fresh minds. We set new stan­dards and chal­lenges for each other, and thereby raise our expec­ta­tions for what we can accom­plish.\nAmidst this grand alchemy, Copi­lot inter­lopes. Its goal is to arro­gate the energy of open-source to itself. We needn’t delve into Microsoft’s very check­ered his­tory with open source to see Copi­lot for what it is: a par­a­site.\nThe legal­ity of Copi­lot must be tested before the dam­age to open source becomes irrepara­ble. That’s why I’m suit­ing up.\nWhat are your thoughts on this investigation and “poten­tial law­suit” against GitHub Copi­lot?\nDiscuss on Changelog News",
-          "link": "https://githubcopilotinvestigation.com/",
-          "publishedOn": "2022-10-19T18:25:42.000Z",
-          "wordCount": null,
-          "title": "GitHub Copilot Investigation",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1703",
-          "author": null,
-          "description": "Few genuinely need a multi-cloud setup. There is plenty of advice out there which mostly boils down to don’t do it, you will be worse off. Vex.dev is a startup that provides APIs for video and audio streaming. The hard part is real-time combined with massive scale - think hundreds of thousands of concurrent connections. They achieve this by using a combination of Fly.io, AWS and GCP. Jason Carter, founder of Vex Communications, is joining us today to talk about the multi-cloud setup that vex.dev runs.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service ca…",
-          "link": "https://changelog.com/shipit/75",
-          "publishedOn": "2022-10-19T18:15:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 75: How vex.dev runs on AWS, Fly.io & GCP",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://cdn.changelog.com/uploads/shipit/75/ship-it-75.mp3",
-            "length": "68754286",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/posts/2550",
-          "author": "Jerod Santo",
-          "description": "After reading Lucas da Costa’s Why deadlines are pointless and what to do instead, I agree with almost every point he makes, especially this one:\nIt’s about time we start calling deadlines by their real name: pressure\nLucas goes on to describe how deadlines can cause harm, can’t actually make people code faster, and so on. I agree with that too. But does that make them pointless? Not necessarily!\nSometimes a little pressure is just what the doctor ordered. Here’s what I mean by that.\nNote: Lucas’s article is written to software teams that are dedicated to a single product. This post is to a slightly different audience: those of us with many disparate things we could be working on at any given time. For that reason, I don’t believe his take on Parkinson’s Law  applies in this context. If yo…",
-          "link": "https://changelog.com/posts/arbitrary-deadlines-are-actually-awesome",
-          "publishedOn": "2022-10-19T18:05:30.000Z",
-          "wordCount": null,
-          "title": "Arbitrary deadlines are actually awesome",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zDG3",
-          "author": "Shekhar Gulati",
-          "description": "It is just not about redundancy. In this post I cover how having more AZs mean you need fewer nodes to achieve higher availability.\nDiscuss on Changelog News",
-          "link": "https://shekhargulati.com/2022/10/06/why-an-architecture-with-three-availability-zones-is-better-than-the-one-with-two-availability-zones/",
-          "publishedOn": "2022-10-19T16:29:00.000Z",
-          "wordCount": null,
-          "title": "Why three Availability Zones are better than two",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/5j98",
-          "author": "Jerod Santo",
-          "description": "This is an excellent deep-dive on error message best practices by Jenni Nadler from Wix:\nError messages are part of our daily lives online. Every time a server is down or we don’t have internet, or we forget to add some info in a form, we get an error message. “Something went wrong” is the classic. But what went wrong? What happened? And, most importantly, how can I fix it?\n\nDiscuss on Changelog News",
-          "link": "https://scribe.rip/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f",
-          "publishedOn": "2022-10-19T15:29:00.000Z",
-          "wordCount": null,
-          "title": "When life gives you lemons, write better error messages",
-          "itunes": {}
         }
       ]
     },
@@ -1056,15 +1036,6 @@
           "publishedOn": "2022-10-26T06:21:57.000Z",
           "wordCount": 1657,
           "title": "7.86.0 with WebSocket"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20153",
-          "author": "Daniel Stenberg",
-          "description": "I am happy to announce that curl receives funding from The Sovereign Tech Fund. This funding is directed towards three specific projects that we have identified as interesting and worthwhile to push forward as ways to improve curl and the life of curl users. This “investment” will fund two developers to work on curl over … Continue reading Funded curl improvements →",
-          "link": "https://daniel.haxx.se/blog/2022/10/19/funded-curl-improvements/",
-          "publishedOn": "2022-10-19T06:59:35.000Z",
-          "wordCount": 1333,
-          "title": "Funded curl improvements"
         }
       ]
     },
@@ -1220,6 +1191,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=68760",
+          "author": "Martin Woodward",
+          "description": "How is open source changing the world and impacting businesses? In this year's Octoverse report, we identified three big trends to watch.",
+          "link": "https://github.blog/2022-11-17-octoverse-2022-10-years-of-tracking-open-source/",
+          "publishedOn": "2022-11-17T19:56:26.000Z",
+          "wordCount": 1306,
+          "title": "Octoverse 2022: 10 years of tracking open source"
+        },
         {
           "id": "https://github.blog/?p=68721",
           "author": "Candy Ho",
@@ -1691,6 +1671,24 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/5b8d032da09c",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-11-17T21:08:00.000Z",
+          "wordCount": null,
+          "title": "For your eyes only: improving Netflix video quality with neural networks"
+        },
+        {
+          "id": "https://medium.com/p/31c3fc14ae59",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/match-cutting-at-netflix-finding-cuts-with-smooth-visual-transitions-31c3fc14ae59?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-11-17T16:37:01.000Z",
+          "wordCount": null,
+          "title": "Match Cutting at Netflix: Finding Cuts with Smooth Visual Transitions"
+        },
         {
           "id": "https://medium.com/p/d308ee43c079",
           "author": "Netflix Technology Blog",

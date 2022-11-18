@@ -2,10 +2,102 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-17T12:21:10.380Z</updated>
+    <updated>2022-11-18T12:19:53.268Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[No architecture is better than bad architecture]]></title>
+        <id>changelog.com/news/zDAn</id>
+        <link href="https://rogovoy.me/blog/no-architecture"/>
+        <updated>2022-11-17T22:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Kirill Rogovoy:
+It took me several years to learn how to write code that scales to 10s of team members and a million lines of code. It took even more time to learn to write stupid code again.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[For your eyes only: improving Netflix video quality with neural networks]]></title>
+        <id>https://medium.com/p/5b8d032da09c</id>
+        <link href="https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c?source=rss----2615bd06b42e---4"/>
+        <updated>2022-11-17T21:08:00.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Octoverse 2022: 10 years of tracking open source]]></title>
+        <id>https://github.blog/?p=68760</id>
+        <link href="https://github.blog/2022-11-17-octoverse-2022-10-years-of-tracking-open-source/"/>
+        <updated>2022-11-17T19:56:26.000Z</updated>
+        <summary type="html"><![CDATA[How is open source changing the world and impacting businesses? In this year's Octoverse report, we identified three big trends to watch.]]></summary>
+        <author>
+            <name>Martin Woodward</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 256: gRPC & protocol buffers]]></title>
+        <id>changelog.com/2/1865</id>
+        <link href="https://changelog.com/gotime/256"/>
+        <updated>2022-11-17T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[On a previous episode of Go Time we discussed binary bloat, and how the Go protocol buffer implementation is a big offender. In this episode we dive into the history of protocol buffers and gRPC, then we discuss how the protocol and the implementation can vary and lead to things like binary bloat.
+Discuss on Changelog News
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/
+
+    
+Calhoun Black Friday – Go Time co-host Jon Calhoun is having a Black Friday sale on November 21st-29th. All paid courses will be 50% OFF. Learn more about Jon’s courses at calhoun.io/courses
+
+    
+Featuring
+Akshay Shah – Twitter, GitHub, LinkedIn, Website
+Jon Calhoun – Twitter, GitHub, Website
+Johnny Boursiquot – Twitter, GitHub, Website
+Notes and Links
+Where Akshay works
+Buf’s gRPC implementation
+bufbuild/connect-go
+bufbuild/connect-web
+Google’s Protocol Buffers overview
+gRPC docs
+Google’s grpc-go
+gRPC benchmarks
+gRPC spec
+hand-write a gRPC handler in 7m
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Match Cutting at Netflix: Finding Cuts with Smooth Visual Transitions]]></title>
+        <id>https://medium.com/p/31c3fc14ae59</id>
+        <link href="https://netflixtechblog.com/match-cutting-at-netflix-finding-cuts-with-smooth-visual-transitions-31c3fc14ae59?source=rss----2615bd06b42e---4"/>
+        <updated>2022-11-17T16:37:01.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes' brand new Checkpointing API lets you backup-and-restore containers without every stopping them]]></title>
+        <id>changelog.com/news/zDAP</id>
+        <link href="https://martinheinz.dev/blog/85"/>
+        <updated>2022-11-17T14:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them.
+This feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of.
+So, let’s take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Martin Heinz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Considering C99 for curl]]></title>
         <id>https://daniel.haxx.se/blog/?p=20238</id>
@@ -2120,83 +2212,6 @@ You don’t need to change your job, you don’t need to ship products with it. 
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilot Investigation]]></title>
-        <id>changelog.com/news/6raZ</id>
-        <link href="https://githubcopilotinvestigation.com/"/>
-        <updated>2022-10-19T18:25:42.000Z</updated>
-        <summary type="html"><![CDATA[Is GitHub Copilot an AI parasite trained in the realms of fair use on pub­lic code any­where on the inter­net? Or, is it a much needed automation layer to all the reasons we open source in the first place?
-When I first wrote about Copi­lot, I said “I’m not wor­ried about its effects on open source.” In the short term, I’m still not wor­ried. But as I reflected on my own jour­ney through open source—nearly 25 years—I real­ized that I was miss­ing the big­ger pic­ture. After all, open source isn’t a fixed group of peo­ple. It’s an ever-grow­ing, ever-chang­ing col­lec­tive intel­li­gence, con­tin­u­ally being renewed by fresh minds. We set new stan­dards and chal­lenges for each other, and thereby raise our expec­ta­tions for what we can accom­plish.
-Amidst this grand alchemy, Copi­lot inter­lopes. Its goal is to arro­gate the energy of open-source to itself. We needn’t delve into Microsoft’s very check­ered his­tory with open source to see Copi­lot for what it is: a par­a­site.
-The legal­ity of Copi­lot must be tested before the dam­age to open source becomes irrepara­ble. That’s why I’m suit­ing up.
-What are your thoughts on this investigation and “poten­tial law­suit” against GitHub Copi­lot?
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 75: How vex.dev runs on AWS, Fly.io & GCP]]></title>
-        <id>changelog.com/14/1703</id>
-        <link href="https://changelog.com/shipit/75"/>
-        <updated>2022-10-19T18:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Few genuinely need a multi-cloud setup. There is plenty of advice out there which mostly boils down to don’t do it, you will be worse off. Vex.dev is a startup that provides APIs for video and audio streaming. The hard part is real-time combined with massive scale - think hundreds of thousands of concurrent connections. They achieve this by using a combination of Fly.io, AWS and GCP. Jason Carter, founder of Vex Communications, is joining us today to talk about the multi-cloud setup that vex.dev runs.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service ca…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arbitrary deadlines are actually awesome]]></title>
-        <id>changelog.com/posts/2550</id>
-        <link href="https://changelog.com/posts/arbitrary-deadlines-are-actually-awesome"/>
-        <updated>2022-10-19T18:05:30.000Z</updated>
-        <summary type="html"><![CDATA[After reading Lucas da Costa’s Why deadlines are pointless and what to do instead, I agree with almost every point he makes, especially this one:
-It’s about time we start calling deadlines by their real name: pressure
-Lucas goes on to describe how deadlines can cause harm, can’t actually make people code faster, and so on. I agree with that too. But does that make them pointless? Not necessarily!
-Sometimes a little pressure is just what the doctor ordered. Here’s what I mean by that.
-Note: Lucas’s article is written to software teams that are dedicated to a single product. This post is to a slightly different audience: those of us with many disparate things we could be working on at any given time. For that reason, I don’t believe his take on Parkinson’s Law  applies in this context. If yo…]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why three Availability Zones are better than two]]></title>
-        <id>changelog.com/news/zDG3</id>
-        <link href="https://shekhargulati.com/2022/10/06/why-an-architecture-with-three-availability-zones-is-better-than-the-one-with-two-availability-zones/"/>
-        <updated>2022-10-19T16:29:00.000Z</updated>
-        <summary type="html"><![CDATA[It is just not about redundancy. In this post I cover how having more AZs mean you need fewer nodes to achieve higher availability.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Shekhar Gulati</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When life gives you lemons, write better error messages]]></title>
-        <id>changelog.com/news/5j98</id>
-        <link href="https://scribe.rip/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f"/>
-        <updated>2022-10-19T15:29:00.000Z</updated>
-        <summary type="html"><![CDATA[This is an excellent deep-dive on error message best practices by Jenni Nadler from Wix:
-Error messages are part of our daily lives online. Every time a server is down or we don’t have internet, or we forget to add some info in a form, we get an error message. “Something went wrong” is the classic. But what went wrong? What happened? And, most importantly, how can I fix it?
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Funded curl improvements]]></title>
-        <id>https://daniel.haxx.se/blog/?p=20153</id>
-        <link href="https://daniel.haxx.se/blog/2022/10/19/funded-curl-improvements/"/>
-        <updated>2022-10-19T06:59:35.000Z</updated>
-        <summary type="html"><![CDATA[I am happy to announce that curl receives funding from The Sovereign Tech Fund. This funding is directed towards three specific projects that we have identified as interesting and worthwhile to push forward as ways to improve curl and the life of curl users. This “investment” will fund two developers to work on curl over … Continue reading Funded curl improvements →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
