@@ -28,6 +28,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/gwql",
+          "author": "Jerod Santo",
+          "description": "Why another file manager? I wanted something simple and minimalistic. Something to help me with faster navigation in the filesystem; a cd and ls replacement. So I build “llama”. It allows for quick navigation with fuzzy searching. cd integration is quite simple. And you can open vim right from the llama. That’s it. As simple and dumb as a llama.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/antonmedv/llama",
+          "publishedOn": "2022-11-23T18:42:00.000Z",
+          "wordCount": null,
+          "title": "Llama — a terminal file manager",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1857",
+          "author": null,
+          "description": "For our  last 2022 Kaizen episode, we went all out:\n💪 @jerod outdid himself in the number of improvements shipped between Kaizens\n🕺 A few of our listeners contributed → prompted us to create a new contributing guide\n🗺 We now have a new infrastructure diagram\nAll of this, and a whole lot more, is captured as GitHub discussion 🐙 changelog.com#433. If you want to see everything that we improved, that is a great companion to this episode.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Twitter, GitHub\nGerhard Lazu – Twitter, GitHub, Website\nNotes and Links\nAll episode notes are in GitHub discussion changelog.com#433. Feel free to add your thoughts / questions!\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/80",
+          "publishedOn": "2022-11-23T16:45:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 80: Kaizen! 24 improvements & a lot more",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/80/ship-it-80.mp3",
+            "length": "66344399",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/mlj3",
+          "author": "Jerod Santo",
+          "description": "An interesting idea from Gustav Westling…\nOne of the things that I like to do in my projects, is to make the git history as linear as possible.\nUsually this means to rebase commits onto the main branch, but it can also mean to only allow merges in one direction, from feature branches into main, never the other way around. It kind of depends on the project.\nToday I’m taking this one step further, and I’m introducing a new concept: extremely linear git history.\nWith our extremely linear history, the first commit in a repo hash a hash that starts with 0000000, the second commit is 0000001, the third is 0000002, and so on!\nHow he accomplishes this is perhaps even more interesting (and hacky!)\n\nDiscuss on Changelog News",
+          "link": "https://westling.dev/b/extremely-linear-git",
+          "publishedOn": "2022-11-23T14:36:00.000Z",
+          "wordCount": null,
+          "title": "Introducing the extremely linear git history",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/jqbg",
           "author": "Austin Gil",
           "description": "I recently discovered an awesome tool called Coolify that calls itself an open-source Netlify or Heroku alternative that can be self-hosted. Gave it a whirl for my own personal projects and loved it, so I thought I’d share.\nDiscuss on Changelog News",
@@ -861,36 +896,6 @@
             "length": "32154839",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/MbJ0",
-          "author": "Jerod Santo",
-          "description": "Webpack creator Tobias Koppers announcing its (Vercel-funded) successor:\nTurbopack is built on a new incremental architecture for the fastest possible development experience. On large applications, it shows updates 10x faster than Vite and 700x faster than Webpack. On even larger applications, the difference is greater—often 20x faster than Vite.\nTurbopack is open source and still in alpha. Here’s what the future may hold:\nTo start, Turbopack will be used for the Next.js 13 development server. It will power lightning-fast HMR, and it will support React Server Components natively, as well as TypeScript, JSX, CSS, and more.\nTurbopack will eventually also power Next.js production builds, both locally and in the cloud. We’ll be able to share Turbo’s cache across your entire team, using Vercel Remote Caching.\nWebpack users can also expect an incremental migration path into the Rust-based future with Turbopack.\nDiscuss on Changelog News",
-          "link": "https://vercel.com/blog/turbopack",
-          "publishedOn": "2022-10-25T19:14:00.000Z",
-          "wordCount": null,
-          "title": "Introducing Turbopack: Rust-based successor to Webpack",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/9lYp",
-          "author": "Jerod Santo",
-          "description": "The speed record for data transmission using a single light source and optical chip has been shattered once again. Engineers have transmitted data at a blistering rate of 1.84 petabits per second (Pbit/s), almost twice the global internet traffic per second.\nFor context, if you’re fortunate enough to be living the “gig-life” (as my local carrier markets it) with a 1-gigabit connection at your house… a petabit is a million times faster than that. And that record-setting 1.84 petabit speed is just the start:\nBut the new chip is far from finished breaking records, according to the team behind it. Using a computational model to scale the data transmission potential of the system, the researchers claim that it could eventually reach eye-watering speeds of up to 100 Pbit/s.\nShut up and take my money?!\nDiscuss on Changelog News",
-          "link": "https://newatlas.com/telecommunications/optical-chip-fastest-data-transmission-record-entire-internet-traffic/",
-          "publishedOn": "2022-10-25T15:13:00.000Z",
-          "wordCount": null,
-          "title": "Record-breaking chip can transmit entire internet's traffic per second",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/aQVA",
-          "author": "Jerod Santo",
-          "description": "Long past are the days when I’d upgrade my production OS on day/week one, but I do try to read at least one or two reviews of the latest macOS to see how much of my FOMO is well-placed. And if you’re going to read just one review, it might as well be Ars Technica’s…\nI haven’t waded into the depth of this review yet, but the opener has me underwhelmed:\nThe throughline for all these features is about making the Mac more welcoming and comfortable for people who come to it through one of Apple’s mobile platforms…\nBut when was the last time that the Finder, the Dock, or the Menu Bar was given a substantial, non-cosmetic rethink? When did Apple last make major improvements to the way that windows coexist on a given screen? The Mac does get new under-the-hood features that are specific to it, but the headline features are mostly iOS and iPadOS imports, especially this year.\nI would absolutely love for Apple to rethink Finder! Having said that, the fact that this reviewer is down with Stage Manager on macOS despite how terrible I’ve heard it is on iOS is intriguing…\nStage Manager differs from standard macOS multitasking by offering a column of recently used apps on the side of your screen (it’s the left-hand side by default, but it will switch if you’ve got your Dock set to use the left-hand side of your screen instead). But unlike minimizing or maximizing an app from the Dock, each “stage” can contain multiple app windows from multiple apps; switch from one stage to another, and every window on that stage will pop back up on your screen in exactly the arrangement you were using before.\nIt’s off by default, thank goodness, but I would like to give this a try and see how it maps to my way of window/app management. Have you tried Stage Manager on macOS? What do you think? How does it compare to iOS?\nDiscuss on Changelog News",
-          "link": "https://arstechnica.com/gadgets/2022/10/macos-13-ventura-the-ars-technica-review/",
-          "publishedOn": "2022-10-25T14:27:00.000Z",
-          "wordCount": null,
-          "title": "The Ars Technica review of macOS 13 Ventura",
-          "itunes": {}
         }
       ]
     },
@@ -1516,15 +1521,6 @@
           "publishedOn": "2022-10-26T14:00:25.000Z",
           "wordCount": 1459,
           "title": "Why and how GitHub encrypts sensitive database columns using ActiveRecord::Encryption"
-        },
-        {
-          "id": "https://github.blog/?p=68140",
-          "author": "Zachary Steindler",
-          "description": "The Sigstore GA means you can protect your software supply chain today with GitHub Actions, and will power new npm security capabilities in the near future.",
-          "link": "https://github.blog/2022-10-25-why-were-excited-about-the-sigstore-general-availability/",
-          "publishedOn": "2022-10-25T13:02:35.000Z",
-          "wordCount": 1244,
-          "title": "Why we’re excited about the Sigstore general availability"
         }
       ]
     },

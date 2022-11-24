@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-23T12:19:37.789Z</updated>
+    <updated>2022-11-24T12:20:13.927Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Llama — a terminal file manager]]></title>
+        <id>changelog.com/news/gwql</id>
+        <link href="https://github.com/antonmedv/llama"/>
+        <updated>2022-11-23T18:42:00.000Z</updated>
+        <summary type="html"><![CDATA[Why another file manager? I wanted something simple and minimalistic. Something to help me with faster navigation in the filesystem; a cd and ls replacement. So I build “llama”. It allows for quick navigation with fuzzy searching. cd integration is quite simple. And you can open vim right from the llama. That’s it. As simple and dumb as a llama.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 80: Kaizen! 24 improvements & a lot more]]></title>
+        <id>changelog.com/14/1857</id>
+        <link href="https://changelog.com/shipit/80"/>
+        <updated>2022-11-23T16:45:00.000Z</updated>
+        <summary type="html"><![CDATA[For our  last 2022 Kaizen episode, we went all out:
+💪 @jerod outdid himself in the number of improvements shipped between Kaizens
+🕺 A few of our listeners contributed → prompted us to create a new contributing guide
+🗺 We now have a new infrastructure diagram
+All of this, and a whole lot more, is captured as GitHub discussion 🐙 changelog.com#433. If you want to see everything that we improved, that is a great companion to this episode.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.
+
+    
+FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/
+
+    
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
+
+    
+Featuring
+Adam Stacoviak – Twitter, GitHub, LinkedIn, Website
+Jerod Santo – Twitter, GitHub
+Gerhard Lazu – Twitter, GitHub, Website
+Notes and Links
+All episode notes are in GitHub discussion changelog.com#433. Feel free to add your thoughts / questions!
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the extremely linear git history]]></title>
+        <id>changelog.com/news/mlj3</id>
+        <link href="https://westling.dev/b/extremely-linear-git"/>
+        <updated>2022-11-23T14:36:00.000Z</updated>
+        <summary type="html"><![CDATA[An interesting idea from Gustav Westling…
+One of the things that I like to do in my projects, is to make the git history as linear as possible.
+Usually this means to rebase commits onto the main branch, but it can also mean to only allow merges in one direction, from feature branches into main, never the other way around. It kind of depends on the project.
+Today I’m taking this one step further, and I’m introducing a new concept: extremely linear git history.
+With our extremely linear history, the first commit in a repo hash a hash that starts with 0000000, the second commit is 0000001, the third is 0000002, and so on!
+How he accomplishes this is perhaps even more interesting (and hacky!)
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Automatically deploy apps to a VPS with Git triggers & Coolify]]></title>
         <id>changelog.com/news/jqbg</id>
@@ -2138,63 +2200,6 @@ Something missing or broken? PRs welcome!]]></summary>
         <summary type="html"><![CDATA[Welcome to another curl release. You know the drill… Numbers the 211th release2 changes56 days (total: 8,986)192 bug-fixes (total: 8,337)314 commits (total: 29,331)3 new public libcurl function (total: 91)1 new curl_easy_setopt() option (total: 300)0 new curl command line option (total: 248)74 contributors, 43 new (total: 2,733)42 authors, 17 new (total: 1,082)4 security fixes (total: 130)Bug … Continue reading 7.86.0 with WebSocket →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Turbopack: Rust-based successor to Webpack]]></title>
-        <id>changelog.com/news/MbJ0</id>
-        <link href="https://vercel.com/blog/turbopack"/>
-        <updated>2022-10-25T19:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Webpack creator Tobias Koppers announcing its (Vercel-funded) successor:
-Turbopack is built on a new incremental architecture for the fastest possible development experience. On large applications, it shows updates 10x faster than Vite and 700x faster than Webpack. On even larger applications, the difference is greater—often 20x faster than Vite.
-Turbopack is open source and still in alpha. Here’s what the future may hold:
-To start, Turbopack will be used for the Next.js 13 development server. It will power lightning-fast HMR, and it will support React Server Components natively, as well as TypeScript, JSX, CSS, and more.
-Turbopack will eventually also power Next.js production builds, both locally and in the cloud. We’ll be able to share Turbo’s cache across your entire team, using Vercel Remote Caching.
-Webpack users can also expect an incremental migration path into the Rust-based future with Turbopack.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Record-breaking chip can transmit entire internet's traffic per second]]></title>
-        <id>changelog.com/news/9lYp</id>
-        <link href="https://newatlas.com/telecommunications/optical-chip-fastest-data-transmission-record-entire-internet-traffic/"/>
-        <updated>2022-10-25T15:13:00.000Z</updated>
-        <summary type="html"><![CDATA[The speed record for data transmission using a single light source and optical chip has been shattered once again. Engineers have transmitted data at a blistering rate of 1.84 petabits per second (Pbit/s), almost twice the global internet traffic per second.
-For context, if you’re fortunate enough to be living the “gig-life” (as my local carrier markets it) with a 1-gigabit connection at your house… a petabit is a million times faster than that. And that record-setting 1.84 petabit speed is just the start:
-But the new chip is far from finished breaking records, according to the team behind it. Using a computational model to scale the data transmission potential of the system, the researchers claim that it could eventually reach eye-watering speeds of up to 100 Pbit/s.
-Shut up and take my money?!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ars Technica review of macOS 13 Ventura]]></title>
-        <id>changelog.com/news/aQVA</id>
-        <link href="https://arstechnica.com/gadgets/2022/10/macos-13-ventura-the-ars-technica-review/"/>
-        <updated>2022-10-25T14:27:00.000Z</updated>
-        <summary type="html"><![CDATA[Long past are the days when I’d upgrade my production OS on day/week one, but I do try to read at least one or two reviews of the latest macOS to see how much of my FOMO is well-placed. And if you’re going to read just one review, it might as well be Ars Technica’s…
-I haven’t waded into the depth of this review yet, but the opener has me underwhelmed:
-The throughline for all these features is about making the Mac more welcoming and comfortable for people who come to it through one of Apple’s mobile platforms…
-But when was the last time that the Finder, the Dock, or the Menu Bar was given a substantial, non-cosmetic rethink? When did Apple last make major improvements to the way that windows coexist on a given screen? The Mac does get new under-the-hood features that are specific to it, but the headline features are mostly iOS and iPadOS imports, especially this year.
-I would absolutely love for Apple to rethink Finder! Having said that, the fact that this reviewer is down with Stage Manager on macOS despite how terrible I’ve heard it is on iOS is intriguing…
-Stage Manager differs from standard macOS multitasking by offering a column of recently used apps on the side of your screen (it’s the left-hand side by default, but it will switch if you’ve got your Dock set to use the left-hand side of your screen instead). But unlike minimizing or maximizing an app from the Dock, each “stage” can contain multiple app windows from multiple apps; switch from one stage to another, and every window on that stage will pop back up on your screen in exactly the arrangement you were using before.
-It’s off by default, thank goodness, but I would like to give this a try and see how it maps to my way of window/app management. Have you tried Stage Manager on macOS? What do you think? How does it compare to iOS?
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we’re excited about the Sigstore general availability]]></title>
-        <id>https://github.blog/?p=68140</id>
-        <link href="https://github.blog/2022-10-25-why-were-excited-about-the-sigstore-general-availability/"/>
-        <updated>2022-10-25T13:02:35.000Z</updated>
-        <summary type="html"><![CDATA[The Sigstore GA means you can protect your software supply chain today with GitHub Actions, and will power new npm security capabilities in the near future.]]></summary>
-        <author>
-            <name>Zachary Steindler</name>
         </author>
     </entry>
 </feed>
