@@ -2,10 +2,734 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-11-25T12:19:56.429Z</updated>
+    <updated>2022-12-08T12:17:41.252Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Whisper model ported to C/C++]]></title>
+        <id>changelog.com/news/kwZG</id>
+        <link href="https://github.com/ggerganov/whisper.cpp"/>
+        <updated>2022-12-07T21:49:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI recently released a model for automatic speech recognition called Whisper. I decided to reimplement the inference of the model from scratch using C/C++. To achieve this I implemented a minimalistic tensor library in C and ported the high-level architecture of the model in C++. The entire code is less than 8000 lines of code and is contained in just 2 source files without any third-party dependencies.
+State of the art voice recognition without any PyTorch baggage and it’s optimized to run on Apple Silicon!
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 203: AI competitions & cloud resources]]></title>
+        <id>changelog.com/7/1946</id>
+        <link href="https://changelog.com/practicalai/203"/>
+        <updated>2022-12-07T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this special episode, we interview some of the sponsors and teams from a recent case competition organized by Purdue University, Microsoft, INFORMS, and SIL International. 170+ teams from across the US and Canada participated in the competition, which challenged students to create AI-driven systems to caption images in three languages (Thai, Kyrgyz, and Hausa).
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Matthew Lanham – Twitter, Website
+Mark Tabladillo – Twitter, LinkedIn
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Purdue University’s Krannert School of Business
+Master the basics of Azure: AI Fundamentals
+Azure Architecture Center
+SIL International
+The bloom-captioning dataset
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the Mozilla Community helps shape our products]]></title>
+        <id>https://hacks.mozilla.org/?p=47943</id>
+        <link href="https://hacks.mozilla.org/2022/12/how-the-mozilla-community-helps-to-shape-our-products/"/>
+        <updated>2022-12-07T18:48:54.000Z</updated>
+        <summary type="html"><![CDATA[A product is first an idea, then a project, and then a prototype. Here, at Mozilla, our awesome community is there every step of the way to support and contribute to our products. None of what we do would be possible without this multicultural, multilingual community of like-minded people working together to be a better internet. 
+The post How the Mozilla Community helps shape our products appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Francesca Minelli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot is generally available for businesses]]></title>
+        <id>https://github.blog/?p=68972</id>
+        <link href="https://github.blog/2022-12-07-github-copilot-is-generally-available-for-businesses/"/>
+        <updated>2022-12-07T17:34:23.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Copilot for Business is officially here with simple license management, organization-wide policy controls, and industry-leading privacy—all for $19 USD per user per month.]]></summary>
+        <author>
+            <name>Shuyin Zhao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: November 2022]]></title>
+        <id>https://github.blog/?p=68986</id>
+        <link href="https://github.blog/2022-12-07-github-availability-report-november-2022/"/>
+        <updated>2022-12-07T17:00:37.000Z</updated>
+        <summary type="html"><![CDATA[In November, we experienced two incidents that resulted in degraded performance across GitHub services. This report also sheds light into an incident that impacted Codespaces in October.]]></summary>
+        <author>
+            <name>Jakub Oleksy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get rid of your old database migrations]]></title>
+        <id>changelog.com/news/X1Wp</id>
+        <link href="https://andrealeopardi.com/posts/get-rid-of-your-old-database-migrations/"/>
+        <updated>2022-12-07T16:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Andrea Leopardi likens database migrations to git commits and wonders why we don’t leave them in the past and load an up-to-date SQL file instead. He also shares his approach to this in Elixir.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A way to publish from GitHub Actions using multi-factor authentication]]></title>
+        <id>changelog.com/news/ml43</id>
+        <link href="https://github.com/step-security/wait-for-secrets"/>
+        <updated>2022-12-07T16:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Wait-for-secrets GitHub Action waits for the developer to enter secrets during a workflow run. Developers can enter secrets using a web browser and use them in the workflow.
+This seems like a good enough solution to yet another battle between security and usability.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How startups can help build a sustainable future]]></title>
+        <id>https://blog.google/outreach-initiatives/sustainability/startups-for-sustainable-development/</id>
+        <link href="https://blog.google/outreach-initiatives/sustainability/startups-for-sustainable-development/"/>
+        <updated>2022-12-06T21:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Google's Startups for Sustainable Development program supports impact-driven startups who are building a more sustainable future.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New npm features for secure publishing and safe consumption]]></title>
+        <id>https://github.blog/?p=68998</id>
+        <link href="https://github.blog/2022-12-06-new-npm-features-for-secure-publishing-and-safe-consumption/"/>
+        <updated>2022-12-06T17:42:23.000Z</updated>
+        <summary type="html"><![CDATA[Now you can create tokens with fine-grained permissions for automating your publishing and organization management workflows. And a new code explorer allows you to view content of a package directly in the npm portal.]]></summary>
+        <author>
+            <name>Monish Mohan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Podcasting on Elixir for the better half of a decade]]></title>
+        <id>changelog.com/news/6rnQ</id>
+        <link href="https://www.youtube.com/watch?v=qech2rRMQR8"/>
+        <updated>2022-12-06T17:26:00.000Z</updated>
+        <summary type="html"><![CDATA[I had the honor of joining the fine folks at Elixir SF awhile back to talk all about how we’ve been podcasting on Elixir for a long time now. Tune in if you’re curious about such things and/or if you’d like to take a stroll down memory lane as I show old versions of our album art and play our intro music along the way.
+The preso is average, but the Q&A near the end is above average, if you ask me. OH! And also we got Zoom bombed twice, which was a first for me. Thankfully, it was also a last. So far, at least…
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning Rust with ChatGPT, Copilot and Advent of Code]]></title>
+        <id>changelog.com/news/5jnr</id>
+        <link href="https://simonwillison.net/2022/Dec/5/rust-chatgpt-copilot/"/>
+        <updated>2022-12-06T16:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison is using this year’s Advent of Code as an opportunity to learn Rust.
+He’s using Copilot to help him with syntax/snippets via comment-driven prompting. He’s using ChatGPT as a study partner by asking it questions about how to do things in Rust. Is it working?
+So far I think this is working really well.
+I feel like I’m beginning to get a good mental model of how Rust works, and a lot of the basic syntax is beginning to embed itself into my muscle memory.
+The real test is going to be if I can first make it to day 25 (with no prior Advent of Code experience I don’t know how much the increasing difficulty level will interfere with my learning) and then if I can actually write a useful Rust program after that without any assistance from these AI models.
+And honestly, the other big benefit here is that this is simply a lot of fun. I’m finding interacting with AIs in this way—as an actual exercise, not just to try them out—is deeply satisfying and intellectually stimulating.
+This might be an early glimpse into the future of AI-assisted learning…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflect on your year with GitHub Wrapped]]></title>
+        <id>changelog.com/news/lOqd</id>
+        <link href="https://www.githubtrends.io/wrapped"/>
+        <updated>2022-12-06T15:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Spotify’s annual “Wrapped” campaign is so successful we’re starting to see it copy/pasted to various other social networks. This GitHub version is by a 3rd-party, though, so they have a lot of API limitations to work around. It’s a cool service, but be prepared to see “Incomplete Data. Please refresh later to finish loading.”
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Faster base64 in curl]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20828</id>
+        <link href="https://daniel.haxx.se/blog/2022/12/06/faster-base64-in-curl/"/>
+        <updated>2022-12-06T07:58:05.000Z</updated>
+        <summary type="html"><![CDATA[This adventure started with an issue where a user pointed out that the libcurl function for base64 encoding actually would allocate a few bytes too many at times. That turned out to be true and we fixed it fairly quickly. As I glanced at that base64 encoder function that was still loaded and showing in … Continue reading Faster base64 in curl →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Building a VM inside ChatGPT, Advent of Code 2022, webdev Liam Neeson, Fedifinder & BDougie]]></title>
+        <id>changelog.com/1/1945</id>
+        <link href="https://changelog.com/podcast/news-2022-12-05"/>
+        <updated>2022-12-05T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jonas Degrave builds a virtual machine inside ChatGPT, Advent of Code 2022 is in full swing, Mat Ryer impersonates Liam Neeson as web developer, Luca Hammer’s Fedifinder project helps you join the Fediverse & we chat with Brian (BDougie) Douglas about Open Sauced at All Things Open 2022.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Brian Douglas – Twitter, GitHub, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+Adam Stacoviak – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+Send us a message for state of the “log” 2022!
+Building A Virtual Machine inside ChatGPT
+Advent of Code 2022
+Liam Neeson Impression - Web developer (from Taken)
+Fedifinder
+Open Sauced
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ICYMI: A look back at GitHub Universe 2022]]></title>
+        <id>https://github.blog/?p=68893</id>
+        <link href="https://github.blog/2022-12-05-icymi-a-look-back-at-github-universe-2022/"/>
+        <updated>2022-12-05T19:11:50.000Z</updated>
+        <summary type="html"><![CDATA[Catch up on everything we announced and see what else happened during this year’s GitHub Universe conference that took place November 9-10.]]></summary>
+        <author>
+            <name>Laura Lindeman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Practices for Real-time Machine Learning: Alerting]]></title>
+        <id>https://building.nubank.com.br/?p=19842</id>
+        <link href="https://building.nubank.com.br/best-practices-for-real-time-machine-learning-alerting/"/>
+        <updated>2022-12-05T18:13:09.000Z</updated>
+        <summary type="html"><![CDATA[In this article we analyze lessons learned and best practices assembled from years of applying Machine Learning to real-life problems at Nubank.
+The post Best Practices for Real-time Machine Learning: Alerting appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Felipe Almeida - Machine Learning Engineer at Nubank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A bug tracker that is fully embedded in git]]></title>
+        <id>changelog.com/news/EqEG</id>
+        <link href="https://github.com/MichaelMure/git-bug"/>
+        <updated>2022-12-05T18:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Distributed, offline-first bug tracker embedded in git, with bridges
+I love the idea of having your bug repo right there inside your code repo. The terminal UI is a nice touch!
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enhanced Protection - The strongest level of Safe Browsing protection Google Chrome has to offer]]></title>
+        <id>http://security.googleblog.com/2022/12/enhanced-protection-strongest-level-of.html</id>
+        <link href="http://security.googleblog.com/2022/12/enhanced-protection-strongest-level-of.html"/>
+        <updated>2022-12-05T18:03:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Benjamin Ackerman, Chrome Security and Jonathan Li, Safe Browsing  
+As a follow-up to a previous blog post about How Hash-Based Safe Browsing Works in Google Chrome, we wanted to provide more details about Safe Browsing’s Enhanced Protection mode in Chrome. Specifically, how it came about, the protections that are offered and what it means for your data. 
+Security and privacy have always been top of mind for Chrome. Our goal is to make security effortless for you while browsing the web, so that you can go about your day without having to worry about the links that you click on or the files that you download. This is why Safe Browsing’s phishing and malware protections have been a core part of Chrome since 2007. You may have seen these in action if you have ever come across one of…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When to use gRPC vs GraphQL]]></title>
+        <id>changelog.com/news/njpJ</id>
+        <link href="https://stackoverflow.blog/2022/11/28/when-to-use-grpc-vs-graphql/"/>
+        <updated>2022-12-05T16:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Loren describes the differences between gRPC and GraphQL and summarizes the strengths and weaknesses of each. They give a rule of thumb (GraphQL for client-server and gRPC for server-to-server) and note cases in which you might want to make exceptions to the rule.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PX or REM in CSS? Just use REM]]></title>
+        <id>changelog.com/news/N1Ne</id>
+        <link href="https://austingil.com/px-or-rem-in-css/"/>
+        <updated>2022-12-05T15:29:00.000Z</updated>
+        <summary type="html"><![CDATA[When choosing between pixels and rems in CSS, you should almost always use rems. It’s a simple rule to follow. This article explains why.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Austin Gil</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ready-to-go sample data pipelines with Dataflow]]></title>
+        <id>https://medium.com/p/17440a9e141d</id>
+        <link href="https://netflixtechblog.com/ready-to-go-sample-data-pipelines-with-dataflow-17440a9e141d?source=rss----2615bd06b42e---4"/>
+        <updated>2022-12-04T00:10:21.000Z</updated>
+        <summary type="html"><![CDATA[by Jasmine Omeke, Obi-Ike Nwoke, Olek Gorajek]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 517: ANTHOLOGY - Wasm, efficient code review & the industrial metaverse]]></title>
+        <id>changelog.com/1/1941</id>
+        <link href="https://changelog.com/podcast/517"/>
+        <updated>2022-12-02T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re back at All Things Open 2022 covering the hallway track. Up first is Shivay Lamba and he’s schooling us on all things server-side WASM. It’s the new hotness. After that, we talk with Yishai Beeri, CTO of LinearB about the world of code review, PR queues, AI developers, and making human developers more efficient, and happier. And last, we talk with Guy Martin from NVIDIA about what’s going on in the Industrial Metaverse. He shares details about an open source project developed by Pixar called Universal Scene Description (USD) and what they’re doing with NVIDIA Omniverse.
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Fly.io – The home of Changelog.com — Deploy your apps and databases clos…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is the hiring process like for Product Managers at Nubank?]]></title>
+        <id>https://building.nubank.com.br/?p=19831</id>
+        <link href="https://building.nubank.com.br/hiring-process-product-managers-at-nubank/"/>
+        <updated>2022-12-02T20:00:20.000Z</updated>
+        <summary type="html"><![CDATA[A step-by-step on how we select the best talents for our Product Team and how to be prepared for it. 
+The post What is the hiring process like for Product Managers at Nubank? appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Daniela Grecco - Recruitment Analyst at Nubank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub, accessibility, and the disability divide]]></title>
+        <id>https://github.blog/?p=68912</id>
+        <link href="https://github.blog/2022-12-02-github-accessibility-and-the-disability-divide/"/>
+        <updated>2022-12-02T17:44:01.000Z</updated>
+        <summary type="html"><![CDATA[We just published our vision for GitHub accessibility at accessibility.github.com. Here’s the TL;DR: the prime directive of the GitHub accessibility program is to empower people with disabilities to build cool technology.]]></summary>
+        <author>
+            <name>Ed Summers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 254: Project Fugu 🐡]]></title>
+        <id>changelog.com/6/1856</id>
+        <link href="https://changelog.com/jsparty/254"/>
+        <updated>2022-12-02T17:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Thomas Steiner (Web Developer Advocate at Google) joins Amal & Nick to talk about Project Fugu – an effort to close gaps in the web’s capabilities enabling new classes of applications to run on the web.
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Vercel – Vercel combines the best developer experience with an obsessive focus on end-user performance.  Our platform enables frontend teams …]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Liam Neeson Impression - Web developer (from Taken)]]></title>
+        <id>changelog.com/news/qMEe</id>
+        <link href="https://www.youtube.com/watch?v=BXPYUQtoEKw"/>
+        <updated>2022-12-02T17:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Mat Ryer has a very particular set of skills… 🤣
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Mona Sans and Hubot Sans]]></title>
+        <id>https://github.blog/?p=68865</id>
+        <link href="https://github.blog/2022-12-02-introducing-mona-sans-and-hubot-sans/"/>
+        <updated>2022-12-02T16:16:15.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to use and express yourself with GitHub’s open source variable fonts, Mona Sans and Hubot Sans.]]></summary>
+        <author>
+            <name>Tobias Ahlin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A library for handling JS errors in a simple, stable, consistent way]]></title>
+        <id>changelog.com/news/zDVn</id>
+        <link href="https://github.com/ehmicky/modern-errors"/>
+        <updated>2022-12-02T15:35:00.000Z</updated>
+        <summary type="html"><![CDATA[This looks like an interesting framework for everything error-related. The core handles the usual tasks (wrapping errors, creating classes, etc.) and plugins offer more advanced use cases (serialization, CLI errors, logging, etc.).
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A collection of resources related to engineering management & leadership]]></title>
+        <id>changelog.com/news/ZoLz</id>
+        <link href="https://github.com/charlax/engineering-management"/>
+        <updated>2022-12-02T14:49:00.000Z</updated>
+        <summary type="html"><![CDATA[This awesome list clocs in at ~1500 lines and has been maintained for six years now. It could use some help in the podcasts section, though…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How empowering developers helps teams ship secure software faster]]></title>
+        <id>https://github.blog/?p=68849</id>
+        <link href="https://github.blog/2022-12-01-how-empowering-developers-helps-teams-ship-secure-software-faster/"/>
+        <updated>2022-12-01T20:07:23.000Z</updated>
+        <summary type="html"><![CDATA[AppSec expert Niroshan Rajadurai says putting developers at the center of everything will enable you to meet your security goals.]]></summary>
+        <author>
+            <name>Gwen Davis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 258: To TDD or not to TDD]]></title>
+        <id>changelog.com/2/1866</id>
+        <link href="https://changelog.com/gotime/258"/>
+        <updated>2022-12-01T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[That is the question. Whether ’tis nobler in the mind to suffer the slings and arrows of outrageous test coverage, or to take arms against a sea of bugs…
+Discuss on Changelog News
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
+
+    
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/
+
+    
+Featuring
+Bill Kennedy – Twitter, GitHub, Website
+Chris James – Twitter, GitHub
+Natalie Pistunovich – Twitter, GitHub
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+The tweet that started it all
+📘 Learn Go with Tests
+The Test Pyramid
+Internet Protocol Suite
+🐘 techhub.social
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 81: Let's deploy straight to production!]]></title>
+        <id>changelog.com/14/1819</id>
+        <link href="https://changelog.com/shipit/81"/>
+        <updated>2022-12-01T17:15:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s episode, we have the pleasure of two guests: Whitney Lee, Staff Technical Advocate at VMware, the one behind the ⚡️ Enlightning episodes, and Mauricio Salatino, which you already know from 🎧 shipit.show/41 on Continuous Delivery for Kubernetes.
+The two of them gave the most amazing KubeCon NA Keynote last month: What a RUSH! Let’s Deploy Straight to Production!
+So how do we create an Internal Development Platform that enables anyone on the team to deploy straight to production with the confidence that everything will just work?
+Discuss on Changelog News
+Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Source…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An enterprise account is coming to all Enterprise customers]]></title>
+        <id>https://github.blog/?p=68433</id>
+        <link href="https://github.blog/2022-12-01-an-enterprise-account-is-coming-to-all-enterprise-customers/"/>
+        <updated>2022-12-01T17:00:07.000Z</updated>
+        <summary type="html"><![CDATA[Administrators, or enterprise owners, have the increased responsibility of managing their account and keeping it secure. We are excited to introduce what is new with enterprise accounts and what is coming soon.]]></summary>
+        <author>
+            <name>Melody Mileski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Memory Safe Languages in Android 13]]></title>
+        <id>http://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html</id>
+        <link href="http://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html"/>
+        <updated>2022-12-01T16:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Jeffrey Vander Stoep 
+For more than a decade, memory safety vulnerabilities have consistently represented more than 65% of vulnerabilities across products, and across the industry. On Android, we’re now seeing something different - a significant drop in memory safety vulnerabilities and an associated drop in the severity of our vulnerabilities. 
+  
+Looking at vulnerabilities reported in the Android security bulletin, which includes critical/high severity vulnerabilities reported through our vulnerability rewards program (VRP) and vulnerabilities reported internally, we see that the number of memory safety vulnerabilities have dropped considerably over the past few years/releases. From 2019 to 2022 the annual number of memory safety vulnerabilities dropped from 223 down to 85. 
+  …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Go framework: no framework?]]></title>
+        <id>changelog.com/news/Qp9y</id>
+        <link href="https://threedots.tech/post/best-go-framework/"/>
+        <updated>2022-12-01T15:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Robert Laszczak does a good job defending/explaining many gophers’ position on frameworks:
+Go frameworks exist, but none provides a feature set like frameworks from other languages. This won’t change soon.
+You may think that it’s because the Go ecosystem is younger. But there is a more important factor. Go is built around the Unix Philosophy…
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ambassador Spotlight: Emperor]]></title>
+        <id>https://hackerone.com/hackerone-community-blog/ambassador-spotlight-emperor</id>
+        <link href="https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-emperor"/>
+        <updated>2022-12-01T15:23:25.000Z</updated>
+        <summary type="html"><![CDATA[Who are you?
+My name is Raviraj; I'm from Gujarat, India. I go by the handle, Emperor. My handle came from an anime called "Kuruko no Basuke." It r]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[83% of developers suffer from burnout]]></title>
+        <id>changelog.com/news/Y1OP</id>
+        <link href="https://vocal.media/01/83-of-developers-suffer-from-burnout"/>
+        <updated>2022-11-30T19:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Burnout has reportedly reached a critical point in the software developer circle since the onset of the Covid-19 health crisis. A recent study by Haystack Analytics, a company specializing in productivity of engineers, found that 83% of software developers suffer from burnout. The main reasons given by the latter to explain this exhaustion are high workload (47%), process inefficiency (31%) and lack of clarity of objectives and targets (29%).
+That few?! 😏
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tailwind is a leaky abstraction]]></title>
+        <id>changelog.com/news/oj08</id>
+        <link href="https://jakelazaroff.com/words/tailwind-is-a-leaky-abstraction/"/>
+        <updated>2022-11-30T14:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Jake Lazaroff spent the last few months learning Tailwind with an open mind and he’s ready to share his opinion of the popular CSS framework:
+Tailwind is commonly described as “utility classes”, but that’s a bit of an understatement. It’s essentially a small language you write in the class attributes of your HTML that compiles to a combination of CSS rules and selectors — an abstraction over CSS. But all abstractions leak, and Tailwind is very leaky.
+When an abstraction leaks, it means you still have to be aware of (and sometimes deeply so) the underlying layer that’s being abstracted. In this case, Jake is saying that you still need to know CSS to use Tailwind and lays out a few scenarios in which this is the case.
+This might be unfair to Tailwind. To my knowledge, the team has never promoted it as a CSS replacement. At its core, it really is just a set of class names that apply styles. But even after working with it for months, there’s still a mental translation layer between “Tailwind CSS” and “real CSS”.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is it like being an Analytics Engineer at Nubank?]]></title>
+        <id>https://building.nubank.com.br/?p=19754</id>
+        <link href="https://building.nubank.com.br/analytics-engineer-at-nubank/"/>
+        <updated>2022-11-30T13:32:13.000Z</updated>
+        <summary type="html"><![CDATA[A look into the career of an Analytics Engineer at Nubank, the scope of work and the main expected skills in this field.
+The post What is it like being an Analytics Engineer at Nubank? appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Maria Rodrigues - Analytics Engineer at Nubank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating a CTF: The Success of Flag Hunt Bangladesh]]></title>
+        <id>https://hackerone.com/hackerone-community-blog/creating-ctf-success-flag-hunt-bangladesh</id>
+        <link href="https://www.hackerone.com/hackerone-community-blog/creating-ctf-success-flag-hunt-bangladesh"/>
+        <updated>2022-11-30T02:15:59.000Z</updated>
+        <summary type="html"><![CDATA[About the CTF 
+Flag Hunt 2022 CTF was the first ever two-stage event in Bangladesh, where the qualification round took place online among 159 te]]></summary>
+        <author>
+            <name>HackerOne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 202: Copilot lawsuits & Galactica "science"]]></title>
+        <id>changelog.com/7/1943</id>
+        <link href="https://changelog.com/practicalai/202"/>
+        <updated>2022-11-29T20:45:00.000Z</updated>
+        <summary type="html"><![CDATA[There are some big AI-related controversies swirling, and it’s time we talk about them. A lawsuit has been filed against GitHub, Microsoft, and OpenAI related to Copilot code suggestions, and many people have been disturbed by the output of Meta AI’s Galactica model. Does Copilot violate open source licenses? Does Galactica output dangerous science-related content? In this episode, we dive into the controversies and risks, and we discuss the benefits of these technologies.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+Notes and Links
+Related to Copilot:
+Article - “GitHub Copilot Isn’t Worth the Risk”
+Tabnine
+Big Code Project
+Related to Galactica:
+Model website
+Article: “Galactica: the AI knowledge base that makes stuff up”
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ruby adds a new core Data class to represent immutable value objects]]></title>
+        <id>changelog.com/news/9l9y</id>
+        <link href="https://blog.saeloun.com/2022/11/22/data-immutable-object"/>
+        <updated>2022-11-29T17:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Ruby 3.1 adds a new core class called Data to represent simple immutable value objects. The Data class helps define simple classes for value-alike objects that can be extended with custom methods.
+While the Data class is not meant to be used directly, it can be used as a base class for creating custom value objects. The Data class is similar to Struct, but the key difference being that it is immutable.
+In its heyday, most Rubyists wouldn’t touch immutability with a ten-foot pole. Times, they are a changin’…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything I wish I knew when learning C]]></title>
+        <id>changelog.com/news/aQzn</id>
+        <link href="https://tmewett.com/c-tips/"/>
+        <updated>2022-11-29T16:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Learning C was quite difficult for Tom M. Thankfully for us, along the way he collected summaries, signposts, and advice for these broader points that made his journey with C and other compiled languages easier. So, if you’re on a similar journey, this page will serve you well on your way.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Free Heroku EOL, Stable Diffusion 2.0, Twitter SRE explains why it stays up, Git Notes & Joel Lord]]></title>
+        <id>changelog.com/1/1942</id>
+        <link href="https://changelog.com/podcast/news-2022-11-28"/>
+        <updated>2022-11-28T20:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Heroku’s free plans officially reach EOL, Swyx explains the mixed reaction to Stable Diffusion 2.0, a real Twitter SRE explains how it continues to stay up even with ~80% gone, Tyler Cipriani tells us about one of Git’s coolest, most unloved features & we chat with Joel Lord about brewing beer with IoT & JavaSCript at All Things Open 2022.
+Oh, and help make this year’s state of the “log” episode awesome by lending your voice!
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Joel Lord – Twitter, GitHub
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+Adam Stacoviak – Twitter, GitHub, LinkedIn, Website
+Notes and Links
+Send us a message for state of the “log” 2022!
+Heroku will delete all free dbs and shut down all free dynos Monday
+Why “Prompt Engineering” and “Generative AI” are overhyped
+Why Twitter Didn’t Go Down: From a Real Twitter SRE
+Git Notes: Git’s Coolest, Most Unloved Feature
+Joel Lord’s Brain Brew
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[To infinity and beyond: enabling the future of GitHub’s REST API with API versioning]]></title>
+        <id>https://github.blog/?p=68839</id>
+        <link href="https://github.blog/2022-11-28-to-infinity-and-beyond-enabling-the-future-of-githubs-rest-api-with-api-versioning/"/>
+        <updated>2022-11-28T20:17:10.000Z</updated>
+        <summary type="html"><![CDATA[We’re introducing calendar-based versioning for our REST API, so we can keep evolving our API, whilst still giving integrators a smooth migration path and plenty of time to update their integrations.]]></summary>
+        <author>
+            <name>Tim Rogers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sniffnet is a cross-platform application to monitor your network traffic with ease]]></title>
+        <id>changelog.com/news/GW9Z</id>
+        <link href="https://github.com/GyulyVGC/sniffnet"/>
+        <updated>2022-11-28T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Multithreaded, cross-platform, reliable & written in Rust.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Split JS strings into sentences, words or graphemes with `Intl.Segmenter`]]></title>
+        <id>changelog.com/news/eEVR</id>
+        <link href="https://www.stefanjudis.com/today-i-learned/how-to-split-javascript-strings-with-intl-segmenter/"/>
+        <updated>2022-11-28T14:58:00.000Z</updated>
+        <summary type="html"><![CDATA[If you’ve ever had to split a string into sentences, you may have reached for a naive regular expression:
+'Hello! How are you?'.split(/[.!?]/);
+
+Instead of giving yourself two problems, Stefan Judis says maybe reach for Intl.Segmenter, which he shows is quite sophisticated and supported everywhere but Firefox.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Partnering with iCAD to improve breast cancer screening]]></title>
+        <id>https://blog.google/technology/ai/icad-partnership-breast-cancer-screening/</id>
+        <link href="https://blog.google/technology/ai/icad-partnership-breast-cancer-screening/"/>
+        <updated>2022-11-28T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our partnership with iCAD Inc. marks the first time we are licensing our mammography AI model in clinical practice.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 516: This !insane tech hiring market]]></title>
+        <id>changelog.com/1/1887</id>
+        <link href="https://changelog.com/podcast/516"/>
+        <updated>2022-11-25T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re back talking to Gergely Orosz — this time not quite about the insane tech hiring market, but more so the flip side, the 180, the not so good tech hiring market, the layoff market and what you can expect. There’s a lot of FUD out there, so hopefully this show gives you a lens into what’s really going on, and what to really expect. Maybe more so, how to keep your job or find a new job. We come to this topic with great compassion and great understanding, so please…there is a community here for you. There’s a lot of people in our Slack. Call it your home, it’s free to join and everyone is welcome.
+Discuss on Changelog News
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers tr…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 253: All about Playwright]]></title>
+        <id>changelog.com/6/1921</id>
+        <link href="https://changelog.com/jsparty/253"/>
+        <updated>2022-11-25T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Debbie O’Brien –Senior Program Manager at Microsoft– joins Amal & Nick for a deep-dive on Playwright, an automation library for cross-browser end-to-end testing. Along the way, we learn why Microsoft decided to fork Puppeteer, Playwright’s unique value proposition, cool features like auto-waiting & the trace viewer, how it compares to Cypress & a lot more.
+Discuss on Changelog News
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors
+Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
+
+    
+Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.
+
+    
+Ship It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.
+
+    
+Featuring
+Debbie O'Brien – Twitter, GitHub, Website
+Amal Hussein – Twitter, GitHub
+Nick Nisi – Twitter, GitHub, Website
+Notes and Links
+Shout out to Caio Amaral for requesting this episode. You, too, can request an episode!
+Mallorca
+playwright.dev
+Playwright on GitHub
+Nuxt
+puppeteer
+Selenium
+Playwright test for VSCode
+Getting started - VS Code
+Testing Library
+Playwright on YouTube
+What’s new in Playwright 1.27
+Test Generator
+CI GitHub Actions
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Take the "State of JS 2022" survey!]]></title>
+        <id>changelog.com/news/2lP6</id>
+        <link href="https://survey.devographics.com/survey/state-of-js/2022"/>
+        <updated>2022-11-25T17:12:00.000Z</updated>
+        <summary type="html"><![CDATA[If you don’t have time to fill out the entire survey… at least skip down to the “Resources” ~> “Podcasts” section and help someone dethrone those rascals over at Syntax. I think it might be JS Party’s time, y’all…
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Rust at a startup: a cautionary tale]]></title>
+        <id>changelog.com/news/O5ON</id>
+        <link href="https://scribe.rip/using-rust-at-a-startup-a-cautionary-tale-42ab823d9454"/>
+        <updated>2022-11-25T16:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Matt Welsh:
+I hesitated writing this post, because I don’t want to start, or get into, a holy war over programming languages. (Just to get the flame bait out of the way, Visual Basic is the best language ever!) But I’ve had a number of people ask me about my experience with Rust and whether they should pick up Rust for their projects. So, I’d like to share some of the pros and cons that I see of using Rust in a startup setting, where moving fast and scaling teams is really important.
+The learning curve and hiring difficulties seem to be the major culprits, in Matt’s experience.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[89 operating systems]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20657</id>
+        <link href="https://daniel.haxx.se/blog/2022/11/25/89-operating-systems/"/>
+        <updated>2022-11-25T14:23:44.000Z</updated>
+        <summary type="html"><![CDATA[I occasionally do talks about curl. In these talks I often include a few slides that say something abut curl’s coverage and presence on different platforms. Mostly to boast of course, but also to help explain to the audience how curl has manged to reach its ten billion installations. This is current incarnation of those … Continue reading 89 operating systems →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Go Time 257: How Pinterest delivers software at scale]]></title>
         <id>changelog.com/2/1861</id>
@@ -1180,954 +1904,6 @@ And (I can’t believe I’m writing this, but the jokes about Twitter layoffs i
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 200: Hybrid computing with quantum processors]]></title>
-        <id>changelog.com/7/1930</id>
-        <link href="https://changelog.com/practicalai/200"/>
-        <updated>2022-11-08T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s been a while since we’ve touched on quantum computing. It’s time for an update! This week we talk with Yonatan from Quantum Machines about real progress being made in the practical construction of hybrid computing centers with a mix of classical processors, GPUs, and quantum processors. Quantum Machines is building both hardware and software to help control, program, and integrate quantum processors within a hybrid computing environment.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Yonatan Cohen – Twitter, GitHub, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-Quantum Machines
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A next-gen crawling and spidering framework]]></title>
-        <id>changelog.com/news/X1E2</id>
-        <link href="https://github.com/projectdiscovery/katana"/>
-        <updated>2022-11-08T19:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Katana can run in standard mode, which is like curl/wget, or it can run in headless mode, which is like a real web browser with JavaScript parsing and all that jazz. And since it’s written in Go, you get that silky universal binary experience. Just drop it in your $PATH and you’re off to the races!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Enterprise Server 3.7 is now generally available]]></title>
-        <id>https://github.blog/?p=68534</id>
-        <link href="https://github.blog/2022-11-08-github-enterprise-server-3-7-is-now-generally-available/"/>
-        <updated>2022-11-08T17:37:58.000Z</updated>
-        <summary type="html"><![CDATA[GitHub Enterprise Server 3.7 is available now, including a single view of code risk, new forking and repository policies, and security enhancements to the management console.]]></summary>
-        <author>
-            <name>Melody Mileski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tech layoffs tracker]]></title>
-        <id>changelog.com/news/mlGl</id>
-        <link href="https://layoffs.fyi/"/>
-        <updated>2022-11-08T16:55:00.000Z</updated>
-        <summary type="html"><![CDATA[According to this, 757 companies have laid off 104,791 employees thus far in 2022. Absolutely brutal.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: Useful Vim commands, bad first ideas, PETS config manager, Kaizen shirts for sale & infinite canvas tools]]></title>
-        <id>changelog.com/1/1931</id>
-        <link href="https://changelog.com/podcast/news-2022-11-07"/>
-        <updated>2022-11-07T21:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Colin Bartlett’s 50 useful Vim commands, Jeremey Utley on why your first ideas aren’t always the best, Emanuele Rocca’s pets configuration management project, our Kaizen shirts are now on sale & Arun Venkatesen makes a microsite for infinite canvas tools.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Jerod Santo – Twitter, GitHub
-Notes and Links
-📥 Subscribe to Changelog Weekly
-50 Useful Vim Commands
-pets configuration management system
-Keep ’Em Coming: Why Your First Ideas Aren’t Always the Best
-
-Ideaflow
-👕 Kaizen - Continuous Improvement
-Infinite Canvas
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A timely TIME interview with Mastodon founder Eugen Rochko]]></title>
-        <id>changelog.com/news/dqok</id>
-        <link href="https://time.com/6229230/mastodon-eugen-rochko-interview/"/>
-        <updated>2022-11-07T15:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Apropos of nothing 😉
-Mastodon, a decentralized microblogging site named after an extinct type of mammoth, recorded 120,000 new users in the four days following billionaire Elon Musk’s acquisition of Twitter, its German-born founder Eugen Rochko tells TIME. Many of them were Twitter users seeking a new place to call their online home.
-Those users, whether they knew it or not, were following in the footsteps of Rochko, 29, who began coding Mastodon in 2016 after becoming disillusioned with Twitter. “I was thinking that being able to express myself online to my friends through short messages was very important to me, important also to the world, and that maybe it should not be in the hands of a single corporation,” Rochko says. “It was generally related to a feeling of distrust of the top down control that Twitter exercised.”
-Adam and I first spoke with Eugen in 2018 (before it was cool) and even signed up on his instance, but haven’t started posting there… yet. I’m a bit skeptical of its ability to scale beyond technologist circles. But maybe that’s okay?
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we migrated our webhook service to Kafka]]></title>
-        <id>changelog.com/news/rXyn</id>
-        <link href="https://ololabs.github.io/olo.engineering/posts/migrating-webhooks-to-kafka/"/>
-        <updated>2022-11-07T14:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Olo provides online ordering & delivery services to restaurants, a big part of which is notifying their customers when important events take place in their ordering platform. For this need, they built a webhook service, which was working great… until it wasn’t.
-In this article, they share how they evaluated, chose, and eventually migrated to Apache Kafka for this service. It looks like a lot of work that paid off in the end, woo hoo!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is it like being an Information Security Awareness Engineer at Nubank?]]></title>
-        <id>https://building.nubank.com.br/?p=19717</id>
-        <link href="https://building.nubank.com.br/information-security-awareness-engineer-at-nubank/"/>
-        <updated>2022-11-07T12:48:24.000Z</updated>
-        <summary type="html"><![CDATA[A look into the career of an Information Security Awareness Engineer at Nubank, the scope and importance of this role for any organization.
-The post What is it like being an Information Security Awareness Engineer at Nubank? appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Céu Balzano - Security Awareness Engineer Leader at Nubank</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Twitter conversations: A Wordle case study]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study"/>
-        <updated>2022-11-06T12:19:25.111Z</updated>
-        <summary type="html"><![CDATA[On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 513: The story of Heroku]]></title>
-        <id>changelog.com/1/1873</id>
-        <link href="https://changelog.com/podcast/513"/>
-        <updated>2022-11-04T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week on The Changelog we’re joined by Adam Wiggins, co-founder and former CTO of Heroku, for an exclusive trip down Heroku memory lane. Adam and Jerod are both tremendous fans of Heroku and believe (to this day) they represent the apex in developer experience for delivering code to production.
-We talk through the beginnings of Heroku, the v1 most people have forgotten about, the era of web hosting back in 2008-2010, the serendipity of Silicon Vally in those days, pitching to Y Combinator, the makings of git push heroku, the Heroku style and name, the sale of Heroku to Salesforce, potential regrets — and we tee up part 2 coming next week with Adam going beyond Heroku and the story of Muse.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made th…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nubank opens another office in Brazil, the third one in São Paulo]]></title>
-        <id>https://building.nubank.com.br/?p=19685</id>
-        <link href="https://building.nubank.com.br/nubank-office-vila-leopoldina/"/>
-        <updated>2022-11-04T20:59:14.000Z</updated>
-        <summary type="html"><![CDATA[The new building is now Nu’s largest space! The place is located at Vila Leopoldina neighborhood and can be used for events and trainings with large teams.
-The post Nubank opens another office in Brazil, the third one in São Paulo appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Nubank Editorial</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open source game console/engine built by teenagers]]></title>
-        <id>changelog.com/news/5jPO</id>
-        <link href="https://github.com/hackclub/sprig"/>
-        <updated>2022-11-04T20:57:32.000Z</updated>
-        <summary type="html"><![CDATA[This is so cool! Shout out to Zach Latta (Founder of Hack Club) for giving me a call today to tell me about Sprig — this awesome new Hack Club project is built by teenagers for teenagers.
-Sprig is a game console where every user is a creator. It can only be obtained by building a tile-based game in the web-based game editor and shipping it in the community gallery. It’s made by Hack Club.
-… Fall of 2022, we are giving a Sprig (valued at over $100 in components alone) to every teenage hacker that successfully shares a game they create in our community gallery.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 250: Making sense of production]]></title>
-        <id>changelog.com/6/1923</id>
-        <link href="https://changelog.com/jsparty/250"/>
-        <updated>2022-11-04T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Maggie Johnson-Pint from Stanza sits down with Amal & Divya for a deep-dive in to the production side of the development world. If you’re at all curious (and/or intimidated) by terms like Site Reliability Engineering (SRE), Service Level Objective (SLO), OpenTelemetry, distributed tracing, and the like… this episode’s for you!
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Raygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com
-
-    
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
-
-    
-Featuring
-Maggie Johnson-Pint – Twitter, GitHub, LinkedIn, Website
-Amal Hussein – Twitter, GitHub
-Divya – Twitter, GitHub, LinkedIn, Website
-Notes and Links
-Stanza
-OpenTelemetry
-📘 Site Reliability Engineering
-📘 The Site Reliability Workbook
-web components has egg on its face because the zeitgeist
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Very Powerful Clipboard: Analysis of a Samsung in-the-wild exploit chain]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html"/>
-        <updated>2022-11-04T15:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Maddie Stone, Project Zero
-
-Note: The three vulnerabilities discussed in this blog were all fixed in Samsung’s March 2021 release. They were fixed as CVE-2021-25337, CVE-2021-25369, CVE-2021-25370. To ensure your Samsung device is up-to-date under settings you can check that your device is running SMR Mar-2021 or later.
-
-As defenders, in-the-wild exploit samples give us important insight into what attackers are really doing. We get the “ground truth” data about the vulnerabilities and exploit techniques they’re using, which then informs our further research and guidance to security teams on what could have the biggest impact or return on investment. To do this, we need to know that the vulnerabilities and exploit samples were found in-the-wild. Over the past few years there’s been tremendo…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is there too much CSS now?]]></title>
-        <id>changelog.com/news/pjZP</id>
-        <link href="https://css-tricks.com/is-there-too-much-css-now/"/>
-        <updated>2022-11-04T15:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Now that we’re out of the ‘dark times’ where CSS was so limited that we spent countless hours developing hacks, tricks, and workarounds… Sacha Greif wonders if the pendulum has swung the other way:
-we are now faced with an embarrassment of CSS riches, and it can be hard to catch up. CSS Grid started being supported in major browsers almost five years ago, yet I still check a reference every time I use it. And as cool as subgrid seems, I’ve yet to even try it out.
-Perhaps CSS is even starting to reach over into areas best handled by HTML or JavaScript?
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker Appreciation Month: Badge Awards]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards"/>
-        <updated>2022-11-04T15:30:21.000Z</updated>
-        <summary type="html"><![CDATA[Celebrating the accomplishments of hackers is something we want to do year-round. However, we decided we wanted to root Cyber Security Awareness mon]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to mitigate OWASP vulnerabilities while staying in the flow]]></title>
-        <id>https://github.blog/?p=68491</id>
-        <link href="https://github.blog/2022-11-04-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/"/>
-        <updated>2022-11-04T15:30:16.000Z</updated>
-        <summary type="html"><![CDATA[Explore how GitHub Advanced Security can help address several of the OWASP Top 10 vulnerabilities]]></summary>
-        <author>
-            <name>Mark Paulsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 254: Go in medicine & biology]]></title>
-        <id>changelog.com/2/1847</id>
-        <link href="https://changelog.com/gotime/254"/>
-        <updated>2022-11-04T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we’re talking about uses for Go in the medical industry. Tim Stiles develops and maintains a Go package for synthetic biology and molecular biology called Poly. It has broad applications for biotech R&D, but also has very direct applications to medicine.
-Discuss on Changelog News
-Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
-
-    
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Retool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog
-
-    
-Featuring
-Tim Stiles – Twitter, GitHub
-Natalie Pistunovich – Twitter, GitHub
-Ian Lopshire – Twitter, GitHub
-Notes and Links
-Poly on GitHub
-The algorithm of the professor used by 23and me and others
-Central Dogma of DNA of biology
-The Three-Body Problem
-AlphaFold
-Gitpod
-Foldit
-Go library for Huggingface
-SurrealDB
-Booth’s Least Rotation Go Implementation and wiki
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We've filed a lawsuit challenging GitHub Copilot]]></title>
-        <id>changelog.com/news/EqzR</id>
-        <link href="https://githubcopilotlitigation.com/"/>
-        <updated>2022-11-04T13:12:00.000Z</updated>
-        <summary type="html"><![CDATA[A couple weeks back, Adam logged some news that linked to githubcopilotinvestigation.com. Well, There’s a new website now: githubcopilotlitigation.com
-Matthew Butterick:
-By train­ing their AI sys­tems on pub­lic GitHub repos­i­to­ries (though based on their pub­lic state­ments, pos­si­bly much more) we con­tend that the defen­dants have vio­lated the legal rights of a vast num­ber of cre­ators who posted code or other work under cer­tain open-source licenses on GitHub. Which licenses? A set of 11 pop­u­lar open-source licenses that all require attri­bu­tion of the author’s name and copy­right, includ­ing the MIT license, the GPL, and the Apache license.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Nubank launched ‘Caixinhas’]]></title>
-        <id>https://building.nubank.com.br/?p=19661</id>
-        <link href="https://building.nubank.com.br/how-nubank-launched-caixinhas/"/>
-        <updated>2022-11-03T22:01:42.000Z</updated>
-        <summary type="html"><![CDATA[Behind the scenes of how we revolutionized the way people save money
-The post How Nubank launched ‘Caixinhas’ appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>BU Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consistent caching mechanism in Titus Gateway]]></title>
-        <id>https://medium.com/p/6cb89b9ce296</id>
-        <link href="https://netflixtechblog.com/consistent-caching-mechanism-in-titus-gateway-6cb89b9ce296?source=rss----2615bd06b42e---4"/>
-        <updated>2022-11-03T19:19:31.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[thehttpworkshop2022-day3.txt]]></title>
-        <id>https://daniel.haxx.se/blog/?p=20565</id>
-        <link href="https://daniel.haxx.se/blog/2022/11/03/thehttpworkshop2022-day3-txt/"/>
-        <updated>2022-11-03T17:36:14.000Z</updated>
-        <summary type="html"><![CDATA[The last day of this edition of the HTTP workshop. Thursday November 3, 2022. A half day only. Many participants at the Workshop are going to continue their UK adventure and attend the IETF 115 in London next week. We started off the day with a deep dive into connection details. How to make connections … Continue reading thehttpworkshop2022-day3.txt →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advocating for developers to the US Copyright Office]]></title>
-        <id>https://github.blog/?p=67968</id>
-        <link href="https://github.blog/2022-11-03-advocating-for-developers-to-the-us-copyright-office/"/>
-        <updated>2022-11-03T16:00:28.000Z</updated>
-        <summary type="html"><![CDATA[How GitHub advocated for developer interests at the US Copyright Office technical measures consultations]]></summary>
-        <author>
-            <name>Margaret Tucker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[blip –a tool for seeing your internet latency]]></title>
-        <id>changelog.com/news/LW43</id>
-        <link href="https://github.com/apenwarr/blip"/>
-        <updated>2022-11-03T14:27:00.000Z</updated>
-        <summary type="html"><![CDATA[Most internet speed testing tools focus on bandwidth, but latency and packet loss are major factors in the experience as well.
-Bandwidth means, once things get going, how fast you can download. But “once things get going” can take a really long time. In fact, it can take longer than the whole download! This is especially true for simple web pages, or web pages made up of a bunch of tiny pieces, which is very common on today’s web… That’s where latency comes in.
-Try blip for yourself: gfblip.appspot.com
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 77: Seven Shipping Principles]]></title>
-        <id>changelog.com/14/1707</id>
-        <link href="https://changelog.com/shipit/77"/>
-        <updated>2022-11-03T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[15 years ago, Gerhard discovered magic in the form of Ruby on Rails. It was intuitive and it just worked. That is the context in which Gerhard fell in love with infrastructure and operations.
-Today, for special episode 77, we start at Seven Shipping Principles, and, in the true spirit of Ship It, we’ll see what happens next.
-Our guest is David Heinemeier Hansson, creator of Ruby on Rails, co-founder of Basecamp & HEY, and a lot more - check out dhh.dk.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How GitHub converts previously encrypted and unencrypted columns to ActiveRecord encrypted columns]]></title>
-        <id>https://github.blog/?p=68413</id>
-        <link href="https://github.blog/2022-11-03-how-github-converts-previously-encrypted-and-unencrypted-columns-to-activerecord-encrypted-columns/"/>
-        <updated>2022-11-03T12:53:42.000Z</updated>
-        <summary type="html"><![CDATA[This post is the second part in a series about ActiveRecord::Encryption that shows how GitHub upgrades previously encrypted and unencrypted columns to ActiveRecord::Encryption.]]></summary>
-        <author>
-            <name>Kylie Stradley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Over-squashing, Bottlenecks, and Graph Ricci curvature]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature"/>
-        <updated>2022-11-03T12:21:33.407Z</updated>
-        <summary type="html"><![CDATA[Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Workshop season 5 episode 2]]></title>
-        <id>https://daniel.haxx.se/blog/?p=20495</id>
-        <link href="https://daniel.haxx.se/blog/2022/11/03/workshop-season-5-episode-2/"/>
-        <updated>2022-11-02T23:14:15.000Z</updated>
-        <summary type="html"><![CDATA[Day one was awesome. Now we take the next step. The missing people During the discussions today it was again noticeable that apart from some specific individuals we also lack people in the room from prominent “players” in this area such as Chrome developers or humans with closer knowledge of how larger content deliverer work … Continue reading Workshop season 5 episode 2 →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub partners with Arm to revolutionize Internet of Things software development with GitHub Actions]]></title>
-        <id>https://github.blog/?p=68350</id>
-        <link href="https://github.blog/2022-11-02-github-partners-with-arm-to-revolutionize-internet-of-things-software-development-with-github-actions/"/>
-        <updated>2022-11-02T18:39:04.000Z</updated>
-        <summary type="html"><![CDATA[Developers creating Internet of Things software use a complex stack of software that needs to be custom built into their CI/CD platform. Arm is leveraging the simplicity and scalability of GitHub Actions with a native integration that will revolutionize IoT software development.]]></summary>
-        <author>
-            <name>Laura Paine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our Principles for IoT Security Labeling]]></title>
-        <id>http://security.googleblog.com/2022/11/our-principles-for-iot-security-labeling.html</id>
-        <link href="http://security.googleblog.com/2022/11/our-principles-for-iot-security-labeling.html"/>
-        <updated>2022-11-02T17:00:00.002Z</updated>
-        <summary type="html"><![CDATA[Posted by Dave Kleidermacher, Eugene Liderman, and Android and Made by Google security teams 
-We believe that security and transparency are paramount pillars for electronic products connected to the Internet.  Over the past year, we’ve been excited to see more focused activity across policymakers, industry partners, developers, and public interest advocates around raising the security and transparency bar for IoT products.  
-That said, the details of IoT product labeling - the definition of labeling, what labeling needs to convey in terms of security and privacy, where the label should reside, and how to achieve consumer acceptance, are still open for debate.  Google has also been considering these core questions for a long time.  As an operating system, IoT product provider, and the maint…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: October 2022]]></title>
-        <id>https://github.blog/?p=68396</id>
-        <link href="https://github.blog/2022-11-02-github-availability-report-october-2022/"/>
-        <updated>2022-11-02T16:00:33.000Z</updated>
-        <summary type="html"><![CDATA[In October, we experienced four incidents that resulted in degraded performance across GitHub services. This report also sheds light into an incident that impacted Codespaces in September.]]></summary>
-        <author>
-            <name>Jakub Oleksy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker AFK: the_arch_angel]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/hacker-afk-thearchangel</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-afk-thearchangel"/>
-        <updated>2022-11-02T15:03:34.000Z</updated>
-        <summary type="html"><![CDATA[Today's hacker the_arch_angel 
-JXoaT: What was your first experience with hacking growing up? 
-the_arch_angel: I actually didn't do any]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we're using AI to help address the climate crisis]]></title>
-        <id>https://blog.google/outreach-initiatives/sustainability/cop27-adaptation-efforts/</id>
-        <link href="https://blog.google/outreach-initiatives/sustainability/cop27-adaptation-efforts/"/>
-        <updated>2022-11-02T14:05:00.000Z</updated>
-        <summary type="html"><![CDATA[Communities around the world are facing the effects of climate change — from devastating floods and wildfires to challenges around food security. As global leaders meet in Egypt for COP27, a key area of focus will be on how we can work together to address the climate change crisis and implement sustainable solutions. At Google, we’re investing in technologies that can help communities prepare for and respond to climate-related disasters and threats.
-Tools to alert people and governments about immediate risks
-Natural disasters are increasing in frequency and intensity due to climate change. As part of our Crisis Response efforts, we're working to bring trusted information to people in critical moments to keep them safe and informed. To do so, we rely on the research and development of our A…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 ways AI is scaling helpful technologies worldwide]]></title>
-        <id>https://blog.google/technology/ai/ways-ai-is-scaling-helpful/</id>
-        <link href="https://blog.google/technology/ai/ways-ai-is-scaling-helpful/"/>
-        <updated>2022-11-02T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I was first introduced to neural networks as an undergraduate in 1990. Back then, many people in the AI community were excited about the potential of neural networks, which were impressive, but couldn’t yet accomplish important, real-world tasks. I was excited, too! I did my senior thesis on using parallel computation to train neural networks, thinking we only needed 32X more compute power to get there. I was way off. At that time, we needed 1 million times as much computational power.
-
-
-A short 21 years later, with exponentially more computational power, it was time to take another crack at neural networks. In 2011, I and a few others at Google started training very large neural networks using millions of randomly selected frames from videos online. The results were remarkable. Without ex…]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why functional programming should be the future of software development]]></title>
-        <id>changelog.com/news/49Jj</id>
-        <link href="https://spectrum.ieee.org/functional-programming"/>
-        <updated>2022-11-02T13:47:00.000Z</updated>
-        <summary type="html"><![CDATA[History is proof that removing a dangerous feature can greatly improve the quality of code. Today, we have a slew of dangerous practices that compromise the robustness and maintainability of software. Nearly all modern programming languages have some form of null references, shared global state, and functions with side effects—things that are far worse than the GOTO ever was.
-How can those flaws be eliminated? It turns out that the answer has been around for decades: purely functional programming languages.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A configuration management system for Pets, not Cattle]]></title>
-        <id>changelog.com/news/qMqd</id>
-        <link href="https://github.com/ema/pets"/>
-        <updated>2022-11-02T12:32:00.000Z</updated>
-        <summary type="html"><![CDATA[This is for people who need to administer a handful of machines, all fairly different from each other and all Very Important. Those systems are not Cattle! They’re actually a bit more than Pets. They’re almost Family. For example: a laptop, workstation, and that personal tiny server in Sweden. They are all named after something dear.
-Liz Rice and I spoke about pets & cattle recently on The Changelog. I asked her, “from your perspective, are the people still doing it the old-school pets way?”
-This tool is a great example of Pets-style administration being alive and well.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gregor Samsa: Exploiting Java's XML Signature Verification]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html"/>
-        <updated>2022-11-02T11:41:00.008Z</updated>
-        <summary type="html"><![CDATA[By Felix Wilhelm, Project Zero
-
-Earlier this year, I discovered a surprising attack surface hidden deep inside Java’s standard library: A custom JIT compiler processing untrusted XSLT programs, exposed to remote attackers during XML signature verification. This post discusses CVE-2022-34169, an integer truncation bug in this JIT compiler resulting in arbitrary code execution in many Java-based web applications and identity providers that support the SAML single-sign-on standard. 
-OpenJDK fixed the discussed issue in July 2022. The Apache BCEL project used by Xalan-J, the origin of the vulnerable code, released a patch in September 2022. 
-
-While the vulnerability discussed in this post has been patched , vendors and users should expect further vulnerabilities in SAML.
-
-From a security resea…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTP Workshop 2022 – day 1]]></title>
-        <id>https://daniel.haxx.se/blog/?p=20538</id>
-        <link href="https://daniel.haxx.se/blog/2022/11/02/http-workshop-2022-day-1/"/>
-        <updated>2022-11-01T23:33:57.000Z</updated>
-        <summary type="html"><![CDATA[The HTTP Workshop is an occasional gathering of HTTP experts and other interested parties to discuss the Web’s foundational protocol. The fifth HTTP Workshop is a three day event that takes place in Oxford, UK. I’m happy to say that I am attending this one as well, as I have all the previous occasions. This … Continue reading HTTP Workshop 2022 – day 1 →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An open source app built using everything new in Next.js 13]]></title>
-        <id>changelog.com/news/ZoJN</id>
-        <link href="https://github.com/shadcn/taxonomy"/>
-        <updated>2022-11-01T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Vercel dropped Next.js 13 last week and there’s a lot of new stuff (router, server components, streaming & more) in this release. If you learn best by example (and subsequent tinkering with existing things), this (WIP) repo might be a good starting place for you.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 199: The practicalities of releasing models]]></title>
-        <id>changelog.com/7/1925</id>
-        <link href="https://changelog.com/practicalai/199"/>
-        <updated>2022-11-01T22:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Recently Chris and Daniel briefly discussed the Open RAIL-M licensing and model releases on Hugging Face. In this episode, Daniel follows up on this topic based on some recent practical experience. Also included is a discussion about graph neural networks, message passing, and tweaking synthesized voices!
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-Daniel’s team license from recent work
-Graph Neural Network courses from Zak Jost
-Coqui voice studio
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Game Off 2022 theme announcement]]></title>
-        <id>https://github.blog/?p=68363</id>
-        <link href="https://github.blog/2022-11-01-game-off-2022-theme-announcement/"/>
-        <updated>2022-11-01T20:37:41.000Z</updated>
-        <summary type="html"><![CDATA[It’s the moment you’ve all been waiting for. Are you ready?]]></summary>
-        <author>
-            <name>Lee Reilly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preview: referencing public code in GitHub Copilot]]></title>
-        <id>https://github.blog/?p=68373</id>
-        <link href="https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/"/>
-        <updated>2022-11-01T19:00:20.000Z</updated>
-        <summary type="html"><![CDATA[We will begin to introduce several new capabilities to GitHub Copilot in 2023 to continue delivering responsible innovation and true happiness at the keyboard.]]></summary>
-        <author>
-            <name>Ryan J. Salva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All In for Students: expanding the next generation of open source leaders]]></title>
-        <id>https://github.blog/?p=68358</id>
-        <link href="https://github.blog/2022-11-01-all-in-for-students-expanding-the-next-generation-of-open-source-leaders/"/>
-        <updated>2022-11-01T15:15:11.000Z</updated>
-        <summary type="html"><![CDATA[We are pleased to announce the expansion of All In for Students! All In for Students introduces college students to open source and provides them with the education, technical training and career development to prepare them for a summer internship in tech.]]></summary>
-        <author>
-            <name>Demetris Cheatham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OKLCH in CSS: why we moved from RGB and HSL]]></title>
-        <id>changelog.com/news/ojzd</id>
-        <link href="https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl"/>
-        <updated>2022-11-01T13:50:00.000Z</updated>
-        <summary type="html"><![CDATA[In CSS, we’ve been encoding colors with rgb() or hex (mostly for historical reasons). However, the new CSS Color 4 specification adds many better ways of declaring colors in CSS. Of these, oklch() is the most interesting one—this article explains why.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[50 useful Vim commands]]></title>
-        <id>changelog.com/news/aQbm</id>
-        <link href="https://vimtricks.com/p/50-useful-vim-commands/"/>
-        <updated>2022-11-01T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[From VimTricks:
-Here are 50 useful Vim commands that work in normal mode. Many of these can be combined and modified to produce dozens more. Use these as inspiration for your own repeatable workflows.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter Sparrow tackles data storage challenges of scale]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale"/>
-        <updated>2022-11-01T12:26:26.900Z</updated>
-        <summary type="html"><![CDATA[In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Revamp of MDN Web Docs Contribution Docs]]></title>
-        <id>https://hacks.mozilla.org/?p=47930</id>
-        <link href="https://hacks.mozilla.org/2022/10/revamp-of-mdn-web-docs-contribution-docs/"/>
-        <updated>2022-10-31T17:47:12.000Z</updated>
-        <summary type="html"><![CDATA[The MDN Web Docs team recently undertook a project to revamp and reorganize the “Contribution Docs”. These are all the pages on MDN that describe what’s what – the templates and page structures, how to perform a task on MDN, how to contribute to MDN, and the community guidelines to follow while contributing to this […]
-The post Revamp of MDN Web Docs Contribution Docs appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Dipika Bhattacharya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating a more inclusive security research field]]></title>
-        <id>https://github.blog/?p=68344</id>
-        <link href="https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/"/>
-        <updated>2022-10-31T17:09:47.000Z</updated>
-        <summary type="html"><![CDATA[A glimpse into the backgrounds and day-to-day work of several GitHub employees in cybersecurity roles.]]></summary>
-        <author>
-            <name>Hauwa Otori</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Perfect Commit]]></title>
-        <id>changelog.com/news/PpEE</id>
-        <link href="https://simonwillison.net/2022/Oct/29/the-perfect-commit/"/>
-        <updated>2022-10-31T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Simon Willison describes the Perfect Commit as a single commit that contains all of the following:
-The implementation: a single, focused change
-Tests that demonstrate the implementation works
-Updated documentation reflecting the change
-A link to an issue thread providing further context
-Here’s four paragraphs on how he got to here:
-I went through a several year phase of writing essays in my commit messages, trying to capture as much of the background context and thinking as possible.
-My commit messages grew a lot shorter when I started bundling the updated documentation in the commit—since often much of the material I’d previously included in the commit message was now in that documentation instead.
-As I extended my practice of writing issue threads, I found that they were a better place for most of this context than the commit messages themselves. They supported embedded media, were more discoverable and I could continue to extend them even after the commit had landed.
-Today many of my commit messages are a single line summary and a link to an issue!
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A TypeScript type checker written in Rust]]></title>
-        <id>changelog.com/news/Y1QW</id>
-        <link href="https://github.com/dudykr/stc"/>
-        <updated>2022-10-31T13:53:00.000Z</updated>
-        <summary type="html"><![CDATA[I, for one, welcome our new Rust overlords.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why I ditched Django for NextJS]]></title>
-        <id>changelog.com/news/AXle</id>
-        <link href="https://billprin.com/2022/10/30/ditched-django-nextjs.html"/>
-        <updated>2022-10-31T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’re feeling the FOMO of JavaScript or you’re writing “spaghetti code” just to do something a NextJS component would do out of the box, then read this post from Bill Prin on why he moved from Django to NextJS.
-The summary is that using a language like Python or Ruby for a significant web project has increasingly gotten less reasonable over time to the point where now, in 2022, it’s getting hard to justify. By not keeping your web stack in pure Javascript, you are making your life unnecessarily difficult (as usual, we’ll include languages like TypeScript as part of the JavaScript ecosystem). You will almost certainly invest a bunch of time-solving problems that would be automatically solved for you if you just stuck with JavaScript.
-I will provide specific examples of solving problems using Django that would have been trivially solved in NextJS.
-He goes on to share two reasons why you should use Python or Ruby for web projects in 2022.
-You’re working on an existing project that hasn’t been migrated yet or is not worth migrating.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[13 tiny, terrific, and terrifying games to hack, slay, and play this Halloween 🧛🏻‍♀️]]></title>
-        <id>https://github.blog/?p=67492</id>
-        <link href="https://github.blog/2022-10-29-thirteen-tiny-terrific-and-terrifying-games-to-hack-slay-and-play-this-halloween/"/>
-        <updated>2022-10-29T07:01:32.000Z</updated>
-        <summary type="html"><![CDATA[Some seriously spooktacular open source games for the web, Windows, macOS, and Linux with all sorts of fun hacks for infinite lives, invulnerability, and playing with time.]]></summary>
-        <author>
-            <name>Lee Reilly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 512: Linux mythbusting & retro gaming]]></title>
-        <id>changelog.com/1/1885</id>
-        <link href="https://changelog.com/podcast/512"/>
-        <updated>2022-10-28T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re doing some Linux mythbusting and talking retro gaming with Jay LaCroix from Learn Linux TV. This is a preview of what’s to come from our trip to All Things Open next week. By the way, make sure you come and check us out at booth 60. We’ll be recording podcasts, shaking hands, giving out t-shirts and stickers…and speaking of gaming, you can go head-to-head with us on Mario Kart or Rocket League on the Nintendo Switch. We’re giving that Switch away to a lucky winner at the conference, but you have to play to win. If you’re there, make sure you come see us because we want to see you.
-Discuss on Changelog News
-Changelog++ members get a bonus 10 minutes at the end of this episode and zero ads. Join today!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why t…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 249: Tiny CSS Projects]]></title>
-        <id>changelog.com/6/1845</id>
-        <link href="https://changelog.com/jsparty/249"/>
-        <updated>2022-10-28T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nick & Amelia welcome the co-authors of Tiny CSS Projects to discuss their awesome new (and still in-progress) Manning book all about CSS!
-Use code podjsparty20 when checking out to save 40% (good for all products in all formats!) and join the JS Party community chat for a chance to win a free ebook copy!
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.
-
-    
-Fly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-    
-Featuring
-Martine Dowden – Twitter, GitHub, Website
-Michael Gearon – Twitter, GitHub
-Nick Nisi – Twitter, GitHub, Website
-Amelia Wattenberger – Twitter, GitHub, Website
-Notes and Links
-Tiny CSS Projects (use code podjsparty20 to save 40%!)
-Join the JS Party community to win a free ebook!
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cybersecurity spotlight on bug bounty researcher @ahacker1]]></title>
-        <id>https://github.blog/?p=68269</id>
-        <link href="https://github.blog/2022-10-28-cybersecurity-spotlight-on-bug-bounty-researcher-ahacker1/"/>
-        <updated>2022-10-28T18:34:58.000Z</updated>
-        <summary type="html"><![CDATA[As we wrap up Cybersecurity Awareness Month, the GitHub bug bounty team is excited to spotlight one of the security researchers who participates in the GitHub Security Bug Bounty Program.]]></summary>
-        <author>
-            <name>Logan MacLaren</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Release Radar · September 2022 Edition]]></title>
-        <id>https://github.blog/?p=68231</id>
-        <link href="https://github.blog/2022-10-28-release-radar-sept-2022/"/>
-        <updated>2022-10-28T18:00:17.000Z</updated>
-        <summary type="html"><![CDATA[Hackatoberfest, hackathons, and open source contributions. It’s been a hectic month with so many community pull requests to all kinds of projects. So many in fact that we had to spend hours going through all the submissions for this blog post. We almost didn’t get it out before the end of October. Nevertheless, we are […]]]></summary>
-        <author>
-            <name>Michelle Mannering</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A gentle and practical introduction to A/B tests]]></title>
-        <id>https://building.nubank.com.br/?p=19626</id>
-        <link href="https://building.nubank.com.br/introduction-to-a-b-tests/"/>
-        <updated>2022-10-28T17:48:44.000Z</updated>
-        <summary type="html"><![CDATA[A mini guide on what are, why to use and how to perform reliable A/B testing experiments
-The post A gentle and practical introduction to A/B tests appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Isabela Piccinini - Senior Data Scientist at Nubank</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Answer - Build Q&A community]]></title>
-        <id>changelog.com/news/7YZ0</id>
-        <link href="https://github.com/answerdev/answer"/>
-        <updated>2022-10-28T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.
-Install with Docker, a Go binary, or from source.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What if the team hates my functional code?]]></title>
-        <id>changelog.com/news/Qp4q</id>
-        <link href="https://jrsinclair.com/articles/2022/what-if-the-team-hates-my-functional-code/"/>
-        <updated>2022-10-28T14:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Suppose you learn some functional JavaScript, and it’s wonderful. But, for some reason, your team doesn’t get it? What do you do? To understand what’s going on, we need to step back and get a little perspective…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>James Sinclair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shell script best practices]]></title>
-        <id>changelog.com/news/2lzM</id>
-        <link href="https://sharats.me/posts/shell-script-best-practices/"/>
-        <updated>2022-10-28T13:27:00.000Z</updated>
-        <summary type="html"><![CDATA[An opinionated set of thumb rules that Shrikant Sharat Kandula follows after a decade of writing shell scripts. His starter template looks nice as well:
-#!/usr/bin/env bash
-
-set -o errexit
-set -o nounset
-set -o pipefail
-if [[ "${TRACE-0}" == "1" ]]; then
-    set -o xtrace
-fi
-
-if [[ "${1-}" =~ ^-*h(elp)?$ ]]; then
-    echo 'Usage: ./script.sh arg-one arg-two
-
-This is an awesome bash script to make your life better.
-
-'
-    exit
-fi
-
-cd "$(dirname "$0")"
-
-main() {
-    echo do awesome stuff
-}
-
-main "$@"
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS bug "SiriSpy" allowed apps to eavesdrop on your conversations with Siri]]></title>
-        <id>changelog.com/news/ZolL</id>
-        <link href="https://rambo.codes/posts/2022-10-25-sirispy-ios-bug-allowed-apps-to-eavesdrop"/>
-        <updated>2022-10-27T20:35:00.000Z</updated>
-        <summary type="html"><![CDATA[This tldr from Guilherme Rambo is enough, but read the full post for all the details.
-TL;DR: Any app with access to Bluetooth could record your conversations with Siri and audio from the iOS keyboard dictation feature when using AirPods or Beats headsets. This would happen without the app requesting microphone access permission and without the app leaving any trace that it was listening to the microphone.
-This bug has since been handled by Apple. Also, after reaching back out to Apple (on Oct 25), Guilherme was told he’d be receiving a $7,000 (USD) bug bounty payment for reporting the issue.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RC4 Is Still Considered Harmful]]></title>
-        <id>https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html"/>
-        <updated>2022-10-27T19:48:00.000Z</updated>
-        <summary type="html"><![CDATA[By James Forshaw, Project Zero
-
-I've been spending a lot of time researching Windows authentication implementations, specifically Kerberos. In June 2022 I found an interesting issue number 2310 with the handling of RC4 encryption that allowed you to authenticate as another user if you could either interpose on the Kerberos network traffic to and from the KDC or directly if the user was configured to disable typical pre-authentication requirements.
-
-This blog post goes into more detail on how this vulnerability works and how I was able to exploit it with only a bare minimum of brute forcing required. Note, I'm not going to spend time fully explaining how Kerberos authentication works, there's plenty of resources online. For example this blog post by Steve Syfuhs who works at Microsoft is a …]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Choose your own GitHub Universe 2022 adventure]]></title>
-        <id>https://github.blog/?p=68178</id>
-        <link href="https://github.blog/2022-10-27-choose-your-own-github-universe-2022-adventure/"/>
-        <updated>2022-10-27T18:54:54.000Z</updated>
-        <summary type="html"><![CDATA[You can now build your agenda on GitHubUniverse.com! Whether you’re just getting started or you’re a seasoned industry professional, there’s a session for you.]]></summary>
-        <author>
-            <name>Laura Lindeman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 253: Spooky stories to scare devs 👻]]></title>
-        <id>changelog.com/2/1876</id>
-        <link href="https://changelog.com/gotime/253"/>
-        <updated>2022-10-27T17:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Mat Ryer gathers a gang of ghouls and ghosts to tell spooky developer stories! Join us to hear tales of Mat’s $1k nightmare, Dee’s infinite loop of horror, Natalie’s haunted time as a junior dev & many, many more.
-Discuss on Changelog News
-Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
-
-    
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/
-
-    
-Featuring
-Dee Kitchen – Twitter
-Mat Ryer – Twitter, GitHub, LinkedIn, Website
-Kris Brandow – Twitter, GitHub
-Natalie Pistunovich – Twitter, GitHub
-Johnny Boursiquot – Twitter, GitHub, Website
-Notes and Links
-bluemonday
-“All About Regular Expressions” by Jade Allen
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker Success Managers]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/hacker-success-managers</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/hacker-success-managers"/>
-        <updated>2022-10-27T16:30:54.000Z</updated>
-        <summary type="html"><![CDATA[Intro to Hacker Success Managers 
-Earlier this year, we released a blog that shared foundational changes on our Community Team. One of our goals]]></summary>
-        <author>
-            <name>jesse@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What we learned from the Security Lab’s Community Office Hours]]></title>
-        <id>https://github.blog/?p=68189</id>
-        <link href="https://github.blog/2022-10-27-what-we-learned-from-the-security-labs-community-office-hours/"/>
-        <updated>2022-10-27T15:00:42.000Z</updated>
-        <summary type="html"><![CDATA[The GitHub Security Lab provided office hours for open source projects looking to improve their security posture and reduce the risk of breach. Here’s what we learned and how you can also participate.]]></summary>
-        <author>
-            <name>Joseph Katsioloudes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 76: Container base images with glibc & musl]]></title>
-        <id>changelog.com/14/1855</id>
-        <link href="https://changelog.com/shipit/76"/>
-        <updated>2022-10-27T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In today’s episode, we talk about distroless, ko, apko, melange, musl and glibc. The context is Wolfi OS, a community Linux OS designed for the container and cloud-native era. If you are looking for the lightest possible container base image with 0 CVEs and both glibc and musl support, Wolfi OS & the related chainguard-images are worth checking out.
-Ariadne Conill is an Alpine Linux TSC member & Software Engineer at Chainguard.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Complex systems all the way down]]></title>
-        <id>changelog.com/news/Jg8Z</id>
-        <link href="https://underjord.io/complex-systems-all-the-way-down.html"/>
-        <updated>2022-10-27T13:39:00.000Z</updated>
-        <summary type="html"><![CDATA[Lars Wikman on what it takes to learn software development and how he responds when people ask him how they should go about it:
-At the time I was learning, I didn’t have access to any kind of bigger picture. I had limited resources. Limited documentation. I had so many limitations. I ran into them constantly and eventually found the next thing I could use to do cool stuff. If you try to teach someone to use an HTML form today, you will need to decide if you are talking about the basic idea or reality. Do we need to cover CSRF, captchas and how to do it in React? How about the backend? Starting out, I didn’t hear about half of the things I didn’t know; I think that made things easier.
-When it comes to the software industry, this is the best of times. There are amazing learning resources available, a vast repository of free code that you don’t have to write, and lucrative job offers on the other end of the chasm.
-When it comes to the software industry, this is the worst of times. There are too many learning resources to choose from, a crippling repository of free code that might stumble you, and overwhelming imposter syndrome on the other end of the chasm.
-Lars sums it up nicely:
-Hand someone a fish and they’ll never know that the ocean is vast. Teach them how to fish and they’ll be forever lost at sea.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Diversity, inclusion, and belonging at GitHub in 2022]]></title>
-        <id>https://github.blog/?p=68183</id>
-        <link href="https://github.blog/2022-10-27-diversity-inclusion-and-belonging-at-github-in-2022/"/>
-        <updated>2022-10-27T13:13:22.000Z</updated>
-        <summary type="html"><![CDATA[As GitHub continues to grow, our vision of being the home for all developers continues to materialize, expanding our progress, perspectives, and responsibility to the world.]]></summary>
-        <author>
-            <name>Dawn Beatty</name>
         </author>
     </entry>
 </feed>

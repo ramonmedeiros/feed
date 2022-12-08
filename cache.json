@@ -6,13 +6,22 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
-          "id": "http://security.googleblog.com/2022/11/our-principles-for-iot-security-labeling.html",
+          "id": "http://security.googleblog.com/2022/12/enhanced-protection-strongest-level-of.html",
           "author": null,
-          "description": "Posted by Dave Kleidermacher, Eugene Liderman, and Android and Made by Google security teams \nWe believe that security and transparency are paramount pillars for electronic products connected to the Internet.  Over the past year, we’ve been excited to see more focused activity across policymakers, industry partners, developers, and public interest advocates around raising the security and transparency bar for IoT products.  \nThat said, the details of IoT product labeling - the definition of labeling, what labeling needs to convey in terms of security and privacy, where the label should reside, and how to achieve consumer acceptance, are still open for debate.  Google has also been considering these core questions for a long time.  As an operating system, IoT product provider, and the maint…",
-          "link": "http://security.googleblog.com/2022/11/our-principles-for-iot-security-labeling.html",
-          "publishedOn": "2022-11-02T17:00:00.002Z",
-          "wordCount": 3144,
-          "title": "Our Principles for IoT Security Labeling"
+          "description": "Posted by Benjamin Ackerman, Chrome Security and Jonathan Li, Safe Browsing  \nAs a follow-up to a previous blog post about How Hash-Based Safe Browsing Works in Google Chrome, we wanted to provide more details about Safe Browsing’s Enhanced Protection mode in Chrome. Specifically, how it came about, the protections that are offered and what it means for your data. \nSecurity and privacy have always been top of mind for Chrome. Our goal is to make security effortless for you while browsing the web, so that you can go about your day without having to worry about the links that you click on or the files that you download. This is why Safe Browsing’s phishing and malware protections have been a core part of Chrome since 2007. You may have seen these in action if you have ever come across one of…",
+          "link": "http://security.googleblog.com/2022/12/enhanced-protection-strongest-level-of.html",
+          "publishedOn": "2022-12-05T18:03:00.001Z",
+          "wordCount": 1240,
+          "title": "Enhanced Protection - The strongest level of Safe Browsing protection Google Chrome has to offer"
+        },
+        {
+          "id": "http://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html",
+          "author": null,
+          "description": "Posted by Jeffrey Vander Stoep \nFor more than a decade, memory safety vulnerabilities have consistently represented more than 65% of vulnerabilities across products, and across the industry. On Android, we’re now seeing something different - a significant drop in memory safety vulnerabilities and an associated drop in the severity of our vulnerabilities. \n  \nLooking at vulnerabilities reported in the Android security bulletin, which includes critical/high severity vulnerabilities reported through our vulnerability rewards program (VRP) and vulnerabilities reported internally, we see that the number of memory safety vulnerabilities have dropped considerably over the past few years/releases. From 2019 to 2022 the annual number of memory safety vulnerabilities dropped from 223 down to 85. \n  …",
+          "link": "http://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html",
+          "publishedOn": "2022-12-01T16:58:00.000Z",
+          "wordCount": 2324,
+          "title": "Memory Safe Languages in Android 13"
         }
       ]
     },
@@ -27,6 +36,366 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/kwZG",
+          "author": "Jerod Santo",
+          "description": "OpenAI recently released a model for automatic speech recognition called Whisper. I decided to reimplement the inference of the model from scratch using C/C++. To achieve this I implemented a minimalistic tensor library in C and ported the high-level architecture of the model in C++. The entire code is less than 8000 lines of code and is contained in just 2 source files without any third-party dependencies.\nState of the art voice recognition without any PyTorch baggage and it’s optimized to run on Apple Silicon!\nDiscuss on Changelog News",
+          "link": "https://github.com/ggerganov/whisper.cpp",
+          "publishedOn": "2022-12-07T21:49:00.000Z",
+          "wordCount": null,
+          "title": "OpenAI's Whisper model ported to C/C++",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1946",
+          "author": null,
+          "description": "In this special episode, we interview some of the sponsors and teams from a recent case competition organized by Purdue University, Microsoft, INFORMS, and SIL International. 170+ teams from across the US and Canada participated in the competition, which challenged students to create AI-driven systems to caption images in three languages (Thai, Kyrgyz, and Hausa).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMatthew Lanham – Twitter, Website\nMark Tabladillo – Twitter, LinkedIn\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nPurdue University’s Krannert School of Business\nMaster the basics of Azure: AI Fundamentals\nAzure Architecture Center\nSIL International\nThe bloom-captioning dataset\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/203",
+          "publishedOn": "2022-12-07T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 203: AI competitions & cloud resources",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/203/practical-ai-203.mp3",
+            "length": "32788404",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/X1Wp",
+          "author": "Jerod Santo",
+          "description": "Andrea Leopardi likens database migrations to git commits and wonders why we don’t leave them in the past and load an up-to-date SQL file instead. He also shares his approach to this in Elixir.\nDiscuss on Changelog News",
+          "link": "https://andrealeopardi.com/posts/get-rid-of-your-old-database-migrations/",
+          "publishedOn": "2022-12-07T16:50:00.000Z",
+          "wordCount": null,
+          "title": "Get rid of your old database migrations",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/ml43",
+          "author": "Jerod Santo",
+          "description": "Wait-for-secrets GitHub Action waits for the developer to enter secrets during a workflow run. Developers can enter secrets using a web browser and use them in the workflow.\nThis seems like a good enough solution to yet another battle between security and usability.\nDiscuss on Changelog News",
+          "link": "https://github.com/step-security/wait-for-secrets",
+          "publishedOn": "2022-12-07T16:03:00.000Z",
+          "wordCount": null,
+          "title": "A way to publish from GitHub Actions using multi-factor authentication",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/6rnQ",
+          "author": "Jerod Santo",
+          "description": "I had the honor of joining the fine folks at Elixir SF awhile back to talk all about how we’ve been podcasting on Elixir for a long time now. Tune in if you’re curious about such things and/or if you’d like to take a stroll down memory lane as I show old versions of our album art and play our intro music along the way.\nThe preso is average, but the Q&A near the end is above average, if you ask me. OH! And also we got Zoom bombed twice, which was a first for me. Thankfully, it was also a last. So far, at least…\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=qech2rRMQR8",
+          "publishedOn": "2022-12-06T17:26:00.000Z",
+          "wordCount": null,
+          "title": "Podcasting on Elixir for the better half of a decade",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/5jnr",
+          "author": "Jerod Santo",
+          "description": "Simon Willison is using this year’s Advent of Code as an opportunity to learn Rust.\nHe’s using Copilot to help him with syntax/snippets via comment-driven prompting. He’s using ChatGPT as a study partner by asking it questions about how to do things in Rust. Is it working?\nSo far I think this is working really well.\nI feel like I’m beginning to get a good mental model of how Rust works, and a lot of the basic syntax is beginning to embed itself into my muscle memory.\nThe real test is going to be if I can first make it to day 25 (with no prior Advent of Code experience I don’t know how much the increasing difficulty level will interfere with my learning) and then if I can actually write a useful Rust program after that without any assistance from these AI models.\nAnd honestly, the other big benefit here is that this is simply a lot of fun. I’m finding interacting with AIs in this way—as an actual exercise, not just to try them out—is deeply satisfying and intellectually stimulating.\nThis might be an early glimpse into the future of AI-assisted learning…\nDiscuss on Changelog News",
+          "link": "https://simonwillison.net/2022/Dec/5/rust-chatgpt-copilot/",
+          "publishedOn": "2022-12-06T16:04:00.000Z",
+          "wordCount": null,
+          "title": "Learning Rust with ChatGPT, Copilot and Advent of Code",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/lOqd",
+          "author": "Jerod Santo",
+          "description": "Spotify’s annual “Wrapped” campaign is so successful we’re starting to see it copy/pasted to various other social networks. This GitHub version is by a 3rd-party, though, so they have a lot of API limitations to work around. It’s a cool service, but be prepared to see “Incomplete Data. Please refresh later to finish loading.”\nDiscuss on Changelog News",
+          "link": "https://www.githubtrends.io/wrapped",
+          "publishedOn": "2022-12-06T15:18:00.000Z",
+          "wordCount": null,
+          "title": "Reflect on your year with GitHub Wrapped",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1945",
+          "author": null,
+          "description": "Jonas Degrave builds a virtual machine inside ChatGPT, Advent of Code 2022 is in full swing, Mat Ryer impersonates Liam Neeson as web developer, Luca Hammer’s Fedifinder project helps you join the Fediverse & we chat with Brian (BDougie) Douglas about Open Sauced at All Things Open 2022.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nBrian Douglas – Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nSend us a message for state of the “log” 2022!\nBuilding A Virtual Machine inside ChatGPT\nAdvent of Code 2022\nLiam Neeson Impression - Web developer (from Taken)\nFedifinder\nOpen Sauced\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-12-05",
+          "publishedOn": "2022-12-05T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Building a VM inside ChatGPT, Advent of Code 2022, webdev Liam Neeson, Fedifinder & BDougie",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2022-12-05/the-changelog-news-2022-12-05.mp3",
+            "length": "27978192",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/EqEG",
+          "author": "Jerod Santo",
+          "description": "Distributed, offline-first bug tracker embedded in git, with bridges\nI love the idea of having your bug repo right there inside your code repo. The terminal UI is a nice touch!\n\nDiscuss on Changelog News",
+          "link": "https://github.com/MichaelMure/git-bug",
+          "publishedOn": "2022-12-05T18:09:00.000Z",
+          "wordCount": null,
+          "title": "A bug tracker that is fully embedded in git",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/njpJ",
+          "author": "Jerod Santo",
+          "description": "Loren describes the differences between gRPC and GraphQL and summarizes the strengths and weaknesses of each. They give a rule of thumb (GraphQL for client-server and gRPC for server-to-server) and note cases in which you might want to make exceptions to the rule.\nDiscuss on Changelog News",
+          "link": "https://stackoverflow.blog/2022/11/28/when-to-use-grpc-vs-graphql/",
+          "publishedOn": "2022-12-05T16:18:00.000Z",
+          "wordCount": null,
+          "title": "When to use gRPC vs GraphQL",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/N1Ne",
+          "author": "Austin Gil",
+          "description": "When choosing between pixels and rems in CSS, you should almost always use rems. It’s a simple rule to follow. This article explains why.\nDiscuss on Changelog News",
+          "link": "https://austingil.com/px-or-rem-in-css/",
+          "publishedOn": "2022-12-05T15:29:00.000Z",
+          "wordCount": null,
+          "title": "PX or REM in CSS? Just use REM",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1941",
+          "author": null,
+          "description": "This week we’re back at All Things Open 2022 covering the hallway track. Up first is Shivay Lamba and he’s schooling us on all things server-side WASM. It’s the new hotness. After that, we talk with Yishai Beeri, CTO of LinearB about the world of code review, PR queues, AI developers, and making human developers more efficient, and happier. And last, we talk with Guy Martin from NVIDIA about what’s going on in the Industrial Metaverse. He shares details about an open source project developed by Pixar called Universal Scene Description (USD) and what they’re doing with NVIDIA Omniverse.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nFly.io – The home of Changelog.com — Deploy your apps and databases clos…",
+          "link": "https://changelog.com/podcast/517",
+          "publishedOn": "2022-12-02T23:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 517: ANTHOLOGY - Wasm, efficient code review & the industrial metaverse",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/517/the-changelog-517.mp3",
+            "length": "54752410",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1856",
+          "author": null,
+          "description": "Thomas Steiner (Web Developer Advocate at Google) joins Amal & Nick to talk about Project Fugu – an effort to close gaps in the web’s capabilities enabling new classes of applications to run on the web.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nVercel – Vercel combines the best developer experience with an obsessive focus on end-user performance.  Our platform enables frontend teams …",
+          "link": "https://changelog.com/jsparty/254",
+          "publishedOn": "2022-12-02T17:40:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 254: Project Fugu 🐡",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/254/js-party-254.mp3",
+            "length": "54735466",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/qMEe",
+          "author": "Jerod Santo",
+          "description": "Mat Ryer has a very particular set of skills… 🤣\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=BXPYUQtoEKw",
+          "publishedOn": "2022-12-02T17:33:00.000Z",
+          "wordCount": null,
+          "title": "Liam Neeson Impression - Web developer (from Taken)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zDVn",
+          "author": "Jerod Santo",
+          "description": "This looks like an interesting framework for everything error-related. The core handles the usual tasks (wrapping errors, creating classes, etc.) and plugins offer more advanced use cases (serialization, CLI errors, logging, etc.).\nDiscuss on Changelog News",
+          "link": "https://github.com/ehmicky/modern-errors",
+          "publishedOn": "2022-12-02T15:35:00.000Z",
+          "wordCount": null,
+          "title": "A library for handling JS errors in a simple, stable, consistent way",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/ZoLz",
+          "author": "Jerod Santo",
+          "description": "This awesome list clocs in at ~1500 lines and has been maintained for six years now. It could use some help in the podcasts section, though…\nDiscuss on Changelog News",
+          "link": "https://github.com/charlax/engineering-management",
+          "publishedOn": "2022-12-02T14:49:00.000Z",
+          "wordCount": null,
+          "title": "A collection of resources related to engineering management & leadership",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1866",
+          "author": null,
+          "description": "That is the question. Whether ’tis nobler in the mind to suffer the slings and arrows of outrageous test coverage, or to take arms against a sea of bugs…\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nFeaturing\nBill Kennedy – Twitter, GitHub, Website\nChris James – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nThe tweet that started it all\n📘 Learn Go with Tests\nThe Test Pyramid\nInternet Protocol Suite\n🐘 techhub.social\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/258",
+          "publishedOn": "2022-12-01T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 258: To TDD or not to TDD",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/258/go-time-258.mp3",
+            "length": "70279358",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/14/1819",
+          "author": null,
+          "description": "In today’s episode, we have the pleasure of two guests: Whitney Lee, Staff Technical Advocate at VMware, the one behind the ⚡️ Enlightning episodes, and Mauricio Salatino, which you already know from 🎧 shipit.show/41 on Continuous Delivery for Kubernetes.\nThe two of them gave the most amazing KubeCon NA Keynote last month: What a RUSH! Let’s Deploy Straight to Production!\nSo how do we create an Internal Development Platform that enables anyone on the team to deploy straight to production with the confidence that everything will just work?\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Source…",
+          "link": "https://changelog.com/shipit/81",
+          "publishedOn": "2022-12-01T17:15:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 81: Let's deploy straight to production!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/81/ship-it-81.mp3",
+            "length": "64945167",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Qp9y",
+          "author": "Jerod Santo",
+          "description": "Robert Laszczak does a good job defending/explaining many gophers’ position on frameworks:\nGo frameworks exist, but none provides a feature set like frameworks from other languages. This won’t change soon.\nYou may think that it’s because the Go ecosystem is younger. But there is a more important factor. Go is built around the Unix Philosophy…\n\nDiscuss on Changelog News",
+          "link": "https://threedots.tech/post/best-go-framework/",
+          "publishedOn": "2022-12-01T15:41:00.000Z",
+          "wordCount": null,
+          "title": "The best Go framework: no framework?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Y1OP",
+          "author": "Jerod Santo",
+          "description": "Burnout has reportedly reached a critical point in the software developer circle since the onset of the Covid-19 health crisis. A recent study by Haystack Analytics, a company specializing in productivity of engineers, found that 83% of software developers suffer from burnout. The main reasons given by the latter to explain this exhaustion are high workload (47%), process inefficiency (31%) and lack of clarity of objectives and targets (29%).\nThat few?! 😏\nDiscuss on Changelog News",
+          "link": "https://vocal.media/01/83-of-developers-suffer-from-burnout",
+          "publishedOn": "2022-11-30T19:57:00.000Z",
+          "wordCount": null,
+          "title": "83% of developers suffer from burnout",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/oj08",
+          "author": "Jerod Santo",
+          "description": "Jake Lazaroff spent the last few months learning Tailwind with an open mind and he’s ready to share his opinion of the popular CSS framework:\nTailwind is commonly described as “utility classes”, but that’s a bit of an understatement. It’s essentially a small language you write in the class attributes of your HTML that compiles to a combination of CSS rules and selectors — an abstraction over CSS. But all abstractions leak, and Tailwind is very leaky.\nWhen an abstraction leaks, it means you still have to be aware of (and sometimes deeply so) the underlying layer that’s being abstracted. In this case, Jake is saying that you still need to know CSS to use Tailwind and lays out a few scenarios in which this is the case.\nThis might be unfair to Tailwind. To my knowledge, the team has never promoted it as a CSS replacement. At its core, it really is just a set of class names that apply styles. But even after working with it for months, there’s still a mental translation layer between “Tailwind CSS” and “real CSS”.\nDiscuss on Changelog News",
+          "link": "https://jakelazaroff.com/words/tailwind-is-a-leaky-abstraction/",
+          "publishedOn": "2022-11-30T14:55:00.000Z",
+          "wordCount": null,
+          "title": "Tailwind is a leaky abstraction",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/7/1943",
+          "author": null,
+          "description": "There are some big AI-related controversies swirling, and it’s time we talk about them. A lawsuit has been filed against GitHub, Microsoft, and OpenAI related to Copilot code suggestions, and many people have been disturbed by the output of Meta AI’s Galactica model. Does Copilot violate open source licenses? Does Galactica output dangerous science-related content? In this episode, we dive into the controversies and risks, and we discuss the benefits of these technologies.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nRelated to Copilot:\nArticle - “GitHub Copilot Isn’t Worth the Risk”\nTabnine\nBig Code Project\nRelated to Galactica:\nModel website\nArticle: “Galactica: the AI knowledge base that makes stuff up”\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/202",
+          "publishedOn": "2022-11-29T20:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 202: Copilot lawsuits & Galactica \"science\"",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/202/practical-ai-202.mp3",
+            "length": "42635728",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/9l9y",
+          "author": "Jerod Santo",
+          "description": "Ruby 3.1 adds a new core class called Data to represent simple immutable value objects. The Data class helps define simple classes for value-alike objects that can be extended with custom methods.\nWhile the Data class is not meant to be used directly, it can be used as a base class for creating custom value objects. The Data class is similar to Struct, but the key difference being that it is immutable.\nIn its heyday, most Rubyists wouldn’t touch immutability with a ten-foot pole. Times, they are a changin’…\nDiscuss on Changelog News",
+          "link": "https://blog.saeloun.com/2022/11/22/data-immutable-object",
+          "publishedOn": "2022-11-29T17:08:00.000Z",
+          "wordCount": null,
+          "title": "Ruby adds a new core Data class to represent immutable value objects",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/aQzn",
+          "author": "Jerod Santo",
+          "description": "Learning C was quite difficult for Tom M. Thankfully for us, along the way he collected summaries, signposts, and advice for these broader points that made his journey with C and other compiled languages easier. So, if you’re on a similar journey, this page will serve you well on your way.\nDiscuss on Changelog News",
+          "link": "https://tmewett.com/c-tips/",
+          "publishedOn": "2022-11-29T16:21:00.000Z",
+          "wordCount": null,
+          "title": "Everything I wish I knew when learning C",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1942",
+          "author": null,
+          "description": "Heroku’s free plans officially reach EOL, Swyx explains the mixed reaction to Stable Diffusion 2.0, a real Twitter SRE explains how it continues to stay up even with ~80% gone, Tyler Cipriani tells us about one of Git’s coolest, most unloved features & we chat with Joel Lord about brewing beer with IoT & JavaSCript at All Things Open 2022.\nOh, and help make this year’s state of the “log” episode awesome by lending your voice!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJoel Lord – Twitter, GitHub\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nSend us a message for state of the “log” 2022!\nHeroku will delete all free dbs and shut down all free dynos Monday\nWhy “Prompt Engineering” and “Generative AI” are overhyped\nWhy Twitter Didn’t Go Down: From a Real Twitter SRE\nGit Notes: Git’s Coolest, Most Unloved Feature\nJoel Lord’s Brain Brew\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-11-28",
+          "publishedOn": "2022-11-28T20:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Free Heroku EOL, Stable Diffusion 2.0, Twitter SRE explains why it stays up, Git Notes & Joel Lord",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2022-11-28/the-changelog-news-2022-11-28.mp3",
+            "length": "24415513",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/GW9Z",
+          "author": "Jerod Santo",
+          "description": "Multithreaded, cross-platform, reliable & written in Rust.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/GyulyVGC/sniffnet",
+          "publishedOn": "2022-11-28T15:45:00.000Z",
+          "wordCount": null,
+          "title": "Sniffnet is a cross-platform application to monitor your network traffic with ease",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/eEVR",
+          "author": "Jerod Santo",
+          "description": "If you’ve ever had to split a string into sentences, you may have reached for a naive regular expression:\n'Hello! How are you?'.split(/[.!?]/);\n\nInstead of giving yourself two problems, Stefan Judis says maybe reach for Intl.Segmenter, which he shows is quite sophisticated and supported everywhere but Firefox.\nDiscuss on Changelog News",
+          "link": "https://www.stefanjudis.com/today-i-learned/how-to-split-javascript-strings-with-intl-segmenter/",
+          "publishedOn": "2022-11-28T14:58:00.000Z",
+          "wordCount": null,
+          "title": "Split JS strings into sentences, words or graphemes with `Intl.Segmenter`",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/1887",
+          "author": null,
+          "description": "This week we’re back talking to Gergely Orosz — this time not quite about the insane tech hiring market, but more so the flip side, the 180, the not so good tech hiring market, the layoff market and what you can expect. There’s a lot of FUD out there, so hopefully this show gives you a lens into what’s really going on, and what to really expect. Maybe more so, how to keep your job or find a new job. We come to this topic with great compassion and great understanding, so please…there is a community here for you. There’s a lot of people in our Slack. Call it your home, it’s free to join and everyone is welcome.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers tr…",
+          "link": "https://changelog.com/podcast/516",
+          "publishedOn": "2022-11-25T19:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 516: This !insane tech hiring market",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/516/the-changelog-516.mp3",
+            "length": "79427771",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1921",
+          "author": null,
+          "description": "Debbie O’Brien –Senior Program Manager at Microsoft– joins Amal & Nick for a deep-dive on Playwright, an automation library for cross-browser end-to-end testing. Along the way, we learn why Microsoft decided to fork Puppeteer, Playwright’s unique value proposition, cool features like auto-waiting & the trace viewer, how it compares to Cypress & a lot more.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nDebbie O'Brien – Twitter, GitHub, Website\nAmal Hussein – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nNotes and Links\nShout out to Caio Amaral for requesting this episode. You, too, can request an episode!\nMallorca\nplaywright.dev\nPlaywright on GitHub\nNuxt\npuppeteer\nSelenium\nPlaywright test for VSCode\nGetting started - VS Code\nTesting Library\nPlaywright on YouTube\nWhat’s new in Playwright 1.27\nTest Generator\nCI GitHub Actions\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/253",
+          "publishedOn": "2022-11-25T18:15:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 253: All about Playwright",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/253/js-party-253.mp3",
+            "length": "60891469",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/2lP6",
+          "author": "Jerod Santo",
+          "description": "If you don’t have time to fill out the entire survey… at least skip down to the “Resources” ~> “Podcasts” section and help someone dethrone those rascals over at Syntax. I think it might be JS Party’s time, y’all…\nDiscuss on Changelog News",
+          "link": "https://survey.devographics.com/survey/state-of-js/2022",
+          "publishedOn": "2022-11-25T17:12:00.000Z",
+          "wordCount": null,
+          "title": "Take the \"State of JS 2022\" survey!",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/O5ON",
+          "author": "Jerod Santo",
+          "description": "Matt Welsh:\nI hesitated writing this post, because I don’t want to start, or get into, a holy war over programming languages. (Just to get the flame bait out of the way, Visual Basic is the best language ever!) But I’ve had a number of people ask me about my experience with Rust and whether they should pick up Rust for their projects. So, I’d like to share some of the pros and cons that I see of using Rust in a startup setting, where moving fast and scaling teams is really important.\nThe learning curve and hiring difficulties seem to be the major culprits, in Matt’s experience.\nDiscuss on Changelog News",
+          "link": "https://scribe.rip/using-rust-at-a-startup-a-cautionary-tale-42ab823d9454",
+          "publishedOn": "2022-11-25T16:22:00.000Z",
+          "wordCount": null,
+          "title": "Using Rust at a startup: a cautionary tale",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1861",
           "author": null,
@@ -511,381 +880,6 @@
           "wordCount": null,
           "title": "Kindness, tech staffing and resource allocation",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1930",
-          "author": null,
-          "description": "It’s been a while since we’ve touched on quantum computing. It’s time for an update! This week we talk with Yonatan from Quantum Machines about real progress being made in the practical construction of hybrid computing centers with a mix of classical processors, GPUs, and quantum processors. Quantum Machines is building both hardware and software to help control, program, and integrate quantum processors within a hybrid computing environment.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nYonatan Cohen – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nQuantum Machines\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/200",
-          "publishedOn": "2022-11-08T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 200: Hybrid computing with quantum processors",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/200/practical-ai-200.mp3",
-            "length": "42109814",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/X1E2",
-          "author": "Jerod Santo",
-          "description": "Katana can run in standard mode, which is like curl/wget, or it can run in headless mode, which is like a real web browser with JavaScript parsing and all that jazz. And since it’s written in Go, you get that silky universal binary experience. Just drop it in your $PATH and you’re off to the races!\nDiscuss on Changelog News",
-          "link": "https://github.com/projectdiscovery/katana",
-          "publishedOn": "2022-11-08T19:43:00.000Z",
-          "wordCount": null,
-          "title": "A next-gen crawling and spidering framework",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/mlGl",
-          "author": "Jerod Santo",
-          "description": "According to this, 757 companies have laid off 104,791 employees thus far in 2022. Absolutely brutal.\nDiscuss on Changelog News",
-          "link": "https://layoffs.fyi/",
-          "publishedOn": "2022-11-08T16:55:00.000Z",
-          "wordCount": null,
-          "title": "Tech layoffs tracker",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1931",
-          "author": null,
-          "description": "Colin Bartlett’s 50 useful Vim commands, Jeremey Utley on why your first ideas aren’t always the best, Emanuele Rocca’s pets configuration management project, our Kaizen shirts are now on sale & Arun Venkatesen makes a microsite for infinite canvas tools.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Twitter, GitHub\nNotes and Links\n📥 Subscribe to Changelog Weekly\n50 Useful Vim Commands\npets configuration management system\nKeep ’Em Coming: Why Your First Ideas Aren’t Always the Best\n\nIdeaflow\n👕 Kaizen - Continuous Improvement\nInfinite Canvas\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-11-07",
-          "publishedOn": "2022-11-07T21:45:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Useful Vim commands, bad first ideas, PETS config manager, Kaizen shirts for sale & infinite canvas tools",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2022-11-07/the-changelog-news-2022-11-07.mp3",
-            "length": "6843898",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/dqok",
-          "author": "Jerod Santo",
-          "description": "Apropos of nothing 😉\nMastodon, a decentralized microblogging site named after an extinct type of mammoth, recorded 120,000 new users in the four days following billionaire Elon Musk’s acquisition of Twitter, its German-born founder Eugen Rochko tells TIME. Many of them were Twitter users seeking a new place to call their online home.\nThose users, whether they knew it or not, were following in the footsteps of Rochko, 29, who began coding Mastodon in 2016 after becoming disillusioned with Twitter. “I was thinking that being able to express myself online to my friends through short messages was very important to me, important also to the world, and that maybe it should not be in the hands of a single corporation,” Rochko says. “It was generally related to a feeling of distrust of the top down control that Twitter exercised.”\nAdam and I first spoke with Eugen in 2018 (before it was cool) and even signed up on his instance, but haven’t started posting there… yet. I’m a bit skeptical of its ability to scale beyond technologist circles. But maybe that’s okay?\nDiscuss on Changelog News",
-          "link": "https://time.com/6229230/mastodon-eugen-rochko-interview/",
-          "publishedOn": "2022-11-07T15:48:00.000Z",
-          "wordCount": null,
-          "title": "A timely TIME interview with Mastodon founder Eugen Rochko",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/rXyn",
-          "author": "Jerod Santo",
-          "description": "Olo provides online ordering & delivery services to restaurants, a big part of which is notifying their customers when important events take place in their ordering platform. For this need, they built a webhook service, which was working great… until it wasn’t.\nIn this article, they share how they evaluated, chose, and eventually migrated to Apache Kafka for this service. It looks like a lot of work that paid off in the end, woo hoo!\nDiscuss on Changelog News",
-          "link": "https://ololabs.github.io/olo.engineering/posts/migrating-webhooks-to-kafka/",
-          "publishedOn": "2022-11-07T14:58:00.000Z",
-          "wordCount": null,
-          "title": "How we migrated our webhook service to Kafka",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1873",
-          "author": null,
-          "description": "This week on The Changelog we’re joined by Adam Wiggins, co-founder and former CTO of Heroku, for an exclusive trip down Heroku memory lane. Adam and Jerod are both tremendous fans of Heroku and believe (to this day) they represent the apex in developer experience for delivering code to production.\nWe talk through the beginnings of Heroku, the v1 most people have forgotten about, the era of web hosting back in 2008-2010, the serendipity of Silicon Vally in those days, pitching to Y Combinator, the makings of git push heroku, the Heroku style and name, the sale of Heroku to Salesforce, potential regrets — and we tee up part 2 coming next week with Adam going beyond Heroku and the story of Muse.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made th…",
-          "link": "https://changelog.com/podcast/513",
-          "publishedOn": "2022-11-04T21:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 513: The story of Heroku",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/513/the-changelog-513.mp3",
-            "length": "146328480",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/5jPO",
-          "author": "Adam Stacoviak",
-          "description": "This is so cool! Shout out to Zach Latta (Founder of Hack Club) for giving me a call today to tell me about Sprig — this awesome new Hack Club project is built by teenagers for teenagers.\nSprig is a game console where every user is a creator. It can only be obtained by building a tile-based game in the web-based game editor and shipping it in the community gallery. It’s made by Hack Club.\n… Fall of 2022, we are giving a Sprig (valued at over $100 in components alone) to every teenage hacker that successfully shares a game they create in our community gallery.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/hackclub/sprig",
-          "publishedOn": "2022-11-04T20:57:32.000Z",
-          "wordCount": null,
-          "title": "Open source game console/engine built by teenagers",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/6/1923",
-          "author": null,
-          "description": "Maggie Johnson-Pint from Stanza sits down with Amal & Divya for a deep-dive in to the production side of the development world. If you’re at all curious (and/or intimidated) by terms like Site Reliability Engineering (SRE), Service Level Objective (SLO), OpenTelemetry, distributed tracing, and the like… this episode’s for you!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nMaggie Johnson-Pint – Twitter, GitHub, LinkedIn, Website\nAmal Hussein – Twitter, GitHub\nDivya – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nStanza\nOpenTelemetry\n📘 Site Reliability Engineering\n📘 The Site Reliability Workbook\nweb components has egg on its face because the zeitgeist\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/250",
-          "publishedOn": "2022-11-04T19:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 250: Making sense of production",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/250/js-party-250.mp3",
-            "length": "61889748",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/pjZP",
-          "author": "Jerod Santo",
-          "description": "Now that we’re out of the ‘dark times’ where CSS was so limited that we spent countless hours developing hacks, tricks, and workarounds… Sacha Greif wonders if the pendulum has swung the other way:\nwe are now faced with an embarrassment of CSS riches, and it can be hard to catch up. CSS Grid started being supported in major browsers almost five years ago, yet I still check a reference every time I use it. And as cool as subgrid seems, I’ve yet to even try it out.\nPerhaps CSS is even starting to reach over into areas best handled by HTML or JavaScript?\nDiscuss on Changelog News",
-          "link": "https://css-tricks.com/is-there-too-much-css-now/",
-          "publishedOn": "2022-11-04T15:46:00.000Z",
-          "wordCount": null,
-          "title": "Is there too much CSS now?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1847",
-          "author": null,
-          "description": "Today we’re talking about uses for Go in the medical industry. Tim Stiles develops and maintains a Go package for synthetic biology and molecular biology called Poly. It has broad applications for biotech R&D, but also has very direct applications to medicine.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nFeaturing\nTim Stiles – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nNotes and Links\nPoly on GitHub\nThe algorithm of the professor used by 23and me and others\nCentral Dogma of DNA of biology\nThe Three-Body Problem\nAlphaFold\nGitpod\nFoldit\nGo library for Huggingface\nSurrealDB\nBooth’s Least Rotation Go Implementation and wiki\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/254",
-          "publishedOn": "2022-11-04T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 254: Go in medicine & biology",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/254/go-time-254.mp3",
-            "length": "64905443",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/EqzR",
-          "author": "Jerod Santo",
-          "description": "A couple weeks back, Adam logged some news that linked to githubcopilotinvestigation.com. Well, There’s a new website now: githubcopilotlitigation.com\nMatthew Butterick:\nBy train­ing their AI sys­tems on pub­lic GitHub repos­i­to­ries (though based on their pub­lic state­ments, pos­si­bly much more) we con­tend that the defen­dants have vio­lated the legal rights of a vast num­ber of cre­ators who posted code or other work under cer­tain open-source licenses on GitHub. Which licenses? A set of 11 pop­u­lar open-source licenses that all require attri­bu­tion of the author’s name and copy­right, includ­ing the MIT license, the GPL, and the Apache license.\nDiscuss on Changelog News",
-          "link": "https://githubcopilotlitigation.com/",
-          "publishedOn": "2022-11-04T13:12:00.000Z",
-          "wordCount": null,
-          "title": "We've filed a lawsuit challenging GitHub Copilot",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/LW43",
-          "author": "Jerod Santo",
-          "description": "Most internet speed testing tools focus on bandwidth, but latency and packet loss are major factors in the experience as well.\nBandwidth means, once things get going, how fast you can download. But “once things get going” can take a really long time. In fact, it can take longer than the whole download! This is especially true for simple web pages, or web pages made up of a bunch of tiny pieces, which is very common on today’s web… That’s where latency comes in.\nTry blip for yourself: gfblip.appspot.com\nDiscuss on Changelog News",
-          "link": "https://github.com/apenwarr/blip",
-          "publishedOn": "2022-11-03T14:27:00.000Z",
-          "wordCount": null,
-          "title": "blip –a tool for seeing your internet latency",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1707",
-          "author": null,
-          "description": "15 years ago, Gerhard discovered magic in the form of Ruby on Rails. It was intuitive and it just worked. That is the context in which Gerhard fell in love with infrastructure and operations.\nToday, for special episode 77, we start at Seven Shipping Principles, and, in the true spirit of Ship It, we’ll see what happens next.\nOur guest is David Heinemeier Hansson, creator of Ruby on Rails, co-founder of Basecamp & HEY, and a lot more - check out dhh.dk.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and …",
-          "link": "https://changelog.com/shipit/77",
-          "publishedOn": "2022-11-03T13:30:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 77: Seven Shipping Principles",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/77/ship-it-77.mp3",
-            "length": "56747496",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/49Jj",
-          "author": "Jerod Santo",
-          "description": "History is proof that removing a dangerous feature can greatly improve the quality of code. Today, we have a slew of dangerous practices that compromise the robustness and maintainability of software. Nearly all modern programming languages have some form of null references, shared global state, and functions with side effects—things that are far worse than the GOTO ever was.\nHow can those flaws be eliminated? It turns out that the answer has been around for decades: purely functional programming languages.\nDiscuss on Changelog News",
-          "link": "https://spectrum.ieee.org/functional-programming",
-          "publishedOn": "2022-11-02T13:47:00.000Z",
-          "wordCount": null,
-          "title": "Why functional programming should be the future of software development",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/qMqd",
-          "author": "Jerod Santo",
-          "description": "This is for people who need to administer a handful of machines, all fairly different from each other and all Very Important. Those systems are not Cattle! They’re actually a bit more than Pets. They’re almost Family. For example: a laptop, workstation, and that personal tiny server in Sweden. They are all named after something dear.\nLiz Rice and I spoke about pets & cattle recently on The Changelog. I asked her, “from your perspective, are the people still doing it the old-school pets way?”\nThis tool is a great example of Pets-style administration being alive and well.\nDiscuss on Changelog News",
-          "link": "https://github.com/ema/pets",
-          "publishedOn": "2022-11-02T12:32:00.000Z",
-          "wordCount": null,
-          "title": "A configuration management system for Pets, not Cattle",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ZoJN",
-          "author": "Jerod Santo",
-          "description": "Vercel dropped Next.js 13 last week and there’s a lot of new stuff (router, server components, streaming & more) in this release. If you learn best by example (and subsequent tinkering with existing things), this (WIP) repo might be a good starting place for you.\nDiscuss on Changelog News",
-          "link": "https://github.com/shadcn/taxonomy",
-          "publishedOn": "2022-11-01T23:30:00.000Z",
-          "wordCount": null,
-          "title": "An open source app built using everything new in Next.js 13",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1925",
-          "author": null,
-          "description": "Recently Chris and Daniel briefly discussed the Open RAIL-M licensing and model releases on Hugging Face. In this episode, Daniel follows up on this topic based on some recent practical experience. Also included is a discussion about graph neural networks, message passing, and tweaking synthesized voices!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nDaniel’s team license from recent work\nGraph Neural Network courses from Zak Jost\nCoqui voice studio\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/199",
-          "publishedOn": "2022-11-01T22:35:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 199: The practicalities of releasing models",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/199/practical-ai-199.mp3",
-            "length": "36050375",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/ojzd",
-          "author": "Jerod Santo",
-          "description": "In CSS, we’ve been encoding colors with rgb() or hex (mostly for historical reasons). However, the new CSS Color 4 specification adds many better ways of declaring colors in CSS. Of these, oklch() is the most interesting one—this article explains why.\nDiscuss on Changelog News",
-          "link": "https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl",
-          "publishedOn": "2022-11-01T13:50:00.000Z",
-          "wordCount": null,
-          "title": "OKLCH in CSS: why we moved from RGB and HSL",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/aQbm",
-          "author": "Adam Stacoviak",
-          "description": "From VimTricks:\nHere are 50 useful Vim commands that work in normal mode. Many of these can be combined and modified to produce dozens more. Use these as inspiration for your own repeatable workflows.\nDiscuss on Changelog News",
-          "link": "https://vimtricks.com/p/50-useful-vim-commands/",
-          "publishedOn": "2022-11-01T13:00:00.000Z",
-          "wordCount": null,
-          "title": "50 useful Vim commands",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/PpEE",
-          "author": "Adam Stacoviak",
-          "description": "Simon Willison describes the Perfect Commit as a single commit that contains all of the following:\nThe implementation: a single, focused change\nTests that demonstrate the implementation works\nUpdated documentation reflecting the change\nA link to an issue thread providing further context\nHere’s four paragraphs on how he got to here:\nI went through a several year phase of writing essays in my commit messages, trying to capture as much of the background context and thinking as possible.\nMy commit messages grew a lot shorter when I started bundling the updated documentation in the commit—since often much of the material I’d previously included in the commit message was now in that documentation instead.\nAs I extended my practice of writing issue threads, I found that they were a better place for most of this context than the commit messages themselves. They supported embedded media, were more discoverable and I could continue to extend them even after the commit had landed.\nToday many of my commit messages are a single line summary and a link to an issue!\nDiscuss on Changelog News",
-          "link": "https://simonwillison.net/2022/Oct/29/the-perfect-commit/",
-          "publishedOn": "2022-10-31T14:00:00.000Z",
-          "wordCount": null,
-          "title": "The Perfect Commit",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Y1QW",
-          "author": "Jerod Santo",
-          "description": "I, for one, welcome our new Rust overlords.\nDiscuss on Changelog News",
-          "link": "https://github.com/dudykr/stc",
-          "publishedOn": "2022-10-31T13:53:00.000Z",
-          "wordCount": null,
-          "title": "A TypeScript type checker written in Rust",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/AXle",
-          "author": "Adam Stacoviak",
-          "description": "If you’re feeling the FOMO of JavaScript or you’re writing “spaghetti code” just to do something a NextJS component would do out of the box, then read this post from Bill Prin on why he moved from Django to NextJS.\nThe summary is that using a language like Python or Ruby for a significant web project has increasingly gotten less reasonable over time to the point where now, in 2022, it’s getting hard to justify. By not keeping your web stack in pure Javascript, you are making your life unnecessarily difficult (as usual, we’ll include languages like TypeScript as part of the JavaScript ecosystem). You will almost certainly invest a bunch of time-solving problems that would be automatically solved for you if you just stuck with JavaScript.\nI will provide specific examples of solving problems using Django that would have been trivially solved in NextJS.\nHe goes on to share two reasons why you should use Python or Ruby for web projects in 2022.\nYou’re working on an existing project that hasn’t been migrated yet or is not worth migrating.\nDiscuss on Changelog News",
-          "link": "https://billprin.com/2022/10/30/ditched-django-nextjs.html",
-          "publishedOn": "2022-10-31T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Why I ditched Django for NextJS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1885",
-          "author": null,
-          "description": "This week we’re doing some Linux mythbusting and talking retro gaming with Jay LaCroix from Learn Linux TV. This is a preview of what’s to come from our trip to All Things Open next week. By the way, make sure you come and check us out at booth 60. We’ll be recording podcasts, shaking hands, giving out t-shirts and stickers…and speaking of gaming, you can go head-to-head with us on Mario Kart or Rocket League on the Nintendo Switch. We’re giving that Switch away to a lucky winner at the conference, but you have to play to win. If you’re there, make sure you come see us because we want to see you.\nDiscuss on Changelog News\nChangelog++ members get a bonus 10 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why t…",
-          "link": "https://changelog.com/podcast/512",
-          "publishedOn": "2022-10-28T21:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 512: Linux mythbusting & retro gaming",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/512/the-changelog-512.mp3",
-            "length": "95596538",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/1845",
-          "author": null,
-          "description": "Nick & Amelia welcome the co-authors of Tiny CSS Projects to discuss their awesome new (and still in-progress) Manning book all about CSS!\nUse code podjsparty20 when checking out to save 40% (good for all products in all formats!) and join the JS Party community chat for a chance to win a free ebook copy!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nFly.io – Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nFeaturing\nMartine Dowden – Twitter, GitHub, Website\nMichael Gearon – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nAmelia Wattenberger – Twitter, GitHub, Website\nNotes and Links\nTiny CSS Projects (use code podjsparty20 to save 40%!)\nJoin the JS Party community to win a free ebook!\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/249",
-          "publishedOn": "2022-10-28T20:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 249: Tiny CSS Projects",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/249/js-party-249.mp3",
-            "length": "51103769",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/7YZ0",
-          "author": "Jerod Santo",
-          "description": "An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.\nInstall with Docker, a Go binary, or from source.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/answerdev/answer",
-          "publishedOn": "2022-10-28T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Answer - Build Q&A community",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Qp4q",
-          "author": "James Sinclair",
-          "description": "Suppose you learn some functional JavaScript, and it’s wonderful. But, for some reason, your team doesn’t get it? What do you do? To understand what’s going on, we need to step back and get a little perspective…\nDiscuss on Changelog News",
-          "link": "https://jrsinclair.com/articles/2022/what-if-the-team-hates-my-functional-code/",
-          "publishedOn": "2022-10-28T14:13:00.000Z",
-          "wordCount": null,
-          "title": "What if the team hates my functional code?",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/2lzM",
-          "author": "Jerod Santo",
-          "description": "An opinionated set of thumb rules that Shrikant Sharat Kandula follows after a decade of writing shell scripts. His starter template looks nice as well:\n#!/usr/bin/env bash\n\nset -o errexit\nset -o nounset\nset -o pipefail\nif [[ \"${TRACE-0}\" == \"1\" ]]; then\n    set -o xtrace\nfi\n\nif [[ \"${1-}\" =~ ^-*h(elp)?$ ]]; then\n    echo 'Usage: ./script.sh arg-one arg-two\n\nThis is an awesome bash script to make your life better.\n\n'\n    exit\nfi\n\ncd \"$(dirname \"$0\")\"\n\nmain() {\n    echo do awesome stuff\n}\n\nmain \"$@\"\n\nDiscuss on Changelog News",
-          "link": "https://sharats.me/posts/shell-script-best-practices/",
-          "publishedOn": "2022-10-28T13:27:00.000Z",
-          "wordCount": null,
-          "title": "Shell script best practices",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ZolL",
-          "author": "Adam Stacoviak",
-          "description": "This tldr from Guilherme Rambo is enough, but read the full post for all the details.\nTL;DR: Any app with access to Bluetooth could record your conversations with Siri and audio from the iOS keyboard dictation feature when using AirPods or Beats headsets. This would happen without the app requesting microphone access permission and without the app leaving any trace that it was listening to the microphone.\nThis bug has since been handled by Apple. Also, after reaching back out to Apple (on Oct 25), Guilherme was told he’d be receiving a $7,000 (USD) bug bounty payment for reporting the issue.\nDiscuss on Changelog News",
-          "link": "https://rambo.codes/posts/2022-10-25-sirispy-ios-bug-allowed-apps-to-eavesdrop",
-          "publishedOn": "2022-10-27T20:35:00.000Z",
-          "wordCount": null,
-          "title": "iOS bug \"SiriSpy\" allowed apps to eavesdrop on your conversations with Siri",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1876",
-          "author": null,
-          "description": "Mat Ryer gathers a gang of ghouls and ghosts to tell spooky developer stories! Join us to hear tales of Mat’s $1k nightmare, Dee’s infinite loop of horror, Natalie’s haunted time as a junior dev & many, many more.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nFeaturing\nDee Kitchen – Twitter\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nKris Brandow – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nbluemonday\n“All About Regular Expressions” by Jade Allen\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/253",
-          "publishedOn": "2022-10-27T17:45:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 253: Spooky stories to scare devs 👻",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/253/go-time-253.mp3",
-            "length": "58167946",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/14/1855",
-          "author": null,
-          "description": "In today’s episode, we talk about distroless, ko, apko, melange, musl and glibc. The context is Wolfi OS, a community Linux OS designed for the container and cloud-native era. If you are looking for the lightest possible container base image with 0 CVEs and both glibc and musl support, Wolfi OS & the related chainguard-images are worth checking out.\nAriadne Conill is an Alpine Linux TSC member & Software Engineer at Chainguard.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about …",
-          "link": "https://changelog.com/shipit/76",
-          "publishedOn": "2022-10-27T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 76: Container base images with glibc & musl",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/76/ship-it-76.mp3",
-            "length": "60880366",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Jg8Z",
-          "author": "Jerod Santo",
-          "description": "Lars Wikman on what it takes to learn software development and how he responds when people ask him how they should go about it:\nAt the time I was learning, I didn’t have access to any kind of bigger picture. I had limited resources. Limited documentation. I had so many limitations. I ran into them constantly and eventually found the next thing I could use to do cool stuff. If you try to teach someone to use an HTML form today, you will need to decide if you are talking about the basic idea or reality. Do we need to cover CSRF, captchas and how to do it in React? How about the backend? Starting out, I didn’t hear about half of the things I didn’t know; I think that made things easier.\nWhen it comes to the software industry, this is the best of times. There are amazing learning resources available, a vast repository of free code that you don’t have to write, and lucrative job offers on the other end of the chasm.\nWhen it comes to the software industry, this is the worst of times. There are too many learning resources to choose from, a crippling repository of free code that might stumble you, and overwhelming imposter syndrome on the other end of the chasm.\nLars sums it up nicely:\nHand someone a fish and they’ll never know that the ocean is vast. Teach them how to fish and they’ll be forever lost at sea.\nDiscuss on Changelog News",
-          "link": "https://underjord.io/complex-systems-all-the-way-down.html",
-          "publishedOn": "2022-10-27T13:39:00.000Z",
-          "wordCount": null,
-          "title": "Complex systems all the way down",
-          "itunes": {}
         }
       ]
     },
@@ -910,6 +904,24 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/sustainability/startups-for-sustainable-development/",
+          "author": null,
+          "description": "Google's Startups for Sustainable Development program supports impact-driven startups who are building a more sustainable future.",
+          "link": "https://blog.google/outreach-initiatives/sustainability/startups-for-sustainable-development/",
+          "publishedOn": "2022-12-06T21:56:00.000Z",
+          "wordCount": 1421,
+          "title": "How startups can help build a sustainable future"
+        },
+        {
+          "id": "https://blog.google/technology/ai/icad-partnership-breast-cancer-screening/",
+          "author": null,
+          "description": "Our partnership with iCAD Inc. marks the first time we are licensing our mammography AI model in clinical practice.",
+          "link": "https://blog.google/technology/ai/icad-partnership-breast-cancer-screening/",
+          "publishedOn": "2022-11-28T13:00:00.000Z",
+          "wordCount": 1254,
+          "title": "Partnering with iCAD to improve breast cancer screening"
+        },
         {
           "id": "https://blog.google/technology/ai/using-ai-to-study-12-years-of-representation-in-tv/",
           "author": null,
@@ -936,24 +948,6 @@
           "publishedOn": "2022-11-14T16:00:00.000Z",
           "wordCount": 1512,
           "title": "Hear what Google’s first Responsible Innovation intern learned"
-        },
-        {
-          "id": "https://blog.google/outreach-initiatives/sustainability/cop27-adaptation-efforts/",
-          "author": null,
-          "description": "Communities around the world are facing the effects of climate change — from devastating floods and wildfires to challenges around food security. As global leaders meet in Egypt for COP27, a key area of focus will be on how we can work together to address the climate change crisis and implement sustainable solutions. At Google, we’re investing in technologies that can help communities prepare for and respond to climate-related disasters and threats.\nTools to alert people and governments about immediate risks\nNatural disasters are increasing in frequency and intensity due to climate change. As part of our Crisis Response efforts, we're working to bring trusted information to people in critical moments to keep them safe and informed. To do so, we rely on the research and development of our A…",
-          "link": "https://blog.google/outreach-initiatives/sustainability/cop27-adaptation-efforts/",
-          "publishedOn": "2022-11-02T14:05:00.000Z",
-          "wordCount": 1731,
-          "title": "How we're using AI to help address the climate crisis"
-        },
-        {
-          "id": "https://blog.google/technology/ai/ways-ai-is-scaling-helpful/",
-          "author": null,
-          "description": "I was first introduced to neural networks as an undergraduate in 1990. Back then, many people in the AI community were excited about the potential of neural networks, which were impressive, but couldn’t yet accomplish important, real-world tasks. I was excited, too! I did my senior thesis on using parallel computation to train neural networks, thinking we only needed 32X more compute power to get there. I was way off. At that time, we needed 1 million times as much computational power.\n\n\nA short 21 years later, with exponentially more computational power, it was time to take another crack at neural networks. In 2011, I and a few others at Google started training very large neural networks using millions of randomly selected frames from videos online. The results were remarkable. Without ex…",
-          "link": "https://blog.google/technology/ai/ways-ai-is-scaling-helpful/",
-          "publishedOn": "2022-11-02T14:00:00.000Z",
-          "wordCount": 2299,
-          "title": "3 ways AI is scaling helpful technologies worldwide"
         }
       ]
     },
@@ -962,6 +956,24 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20828",
+          "author": "Daniel Stenberg",
+          "description": "This adventure started with an issue where a user pointed out that the libcurl function for base64 encoding actually would allocate a few bytes too many at times. That turned out to be true and we fixed it fairly quickly. As I glanced at that base64 encoder function that was still loaded and showing in … Continue reading Faster base64 in curl →",
+          "link": "https://daniel.haxx.se/blog/2022/12/06/faster-base64-in-curl/",
+          "publishedOn": "2022-12-06T07:58:05.000Z",
+          "wordCount": 2160,
+          "title": "Faster base64 in curl"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=20657",
+          "author": "Daniel Stenberg",
+          "description": "I occasionally do talks about curl. In these talks I often include a few slides that say something abut curl’s coverage and presence on different platforms. Mostly to boast of course, but also to help explain to the audience how curl has manged to reach its ten billion installations. This is current incarnation of those … Continue reading 89 operating systems →",
+          "link": "https://daniel.haxx.se/blog/2022/11/25/89-operating-systems/",
+          "publishedOn": "2022-11-25T14:23:44.000Z",
+          "wordCount": 1306,
+          "title": "89 operating systems"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20238",
           "author": "Daniel Stenberg",
@@ -997,33 +1009,6 @@
           "publishedOn": "2022-11-10T09:13:15.000Z",
           "wordCount": 1014,
           "title": "Append data to the URL query"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20565",
-          "author": "Daniel Stenberg",
-          "description": "The last day of this edition of the HTTP workshop. Thursday November 3, 2022. A half day only. Many participants at the Workshop are going to continue their UK adventure and attend the IETF 115 in London next week. We started off the day with a deep dive into connection details. How to make connections … Continue reading thehttpworkshop2022-day3.txt →",
-          "link": "https://daniel.haxx.se/blog/2022/11/03/thehttpworkshop2022-day3-txt/",
-          "publishedOn": "2022-11-03T17:36:14.000Z",
-          "wordCount": 653,
-          "title": "thehttpworkshop2022-day3.txt"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20495",
-          "author": "Daniel Stenberg",
-          "description": "Day one was awesome. Now we take the next step. The missing people During the discussions today it was again noticeable that apart from some specific individuals we also lack people in the room from prominent “players” in this area such as Chrome developers or humans with closer knowledge of how larger content deliverer work … Continue reading Workshop season 5 episode 2 →",
-          "link": "https://daniel.haxx.se/blog/2022/11/03/workshop-season-5-episode-2/",
-          "publishedOn": "2022-11-02T23:14:15.000Z",
-          "wordCount": 900,
-          "title": "Workshop season 5 episode 2"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20538",
-          "author": "Daniel Stenberg",
-          "description": "The HTTP Workshop is an occasional gathering of HTTP experts and other interested parties to discuss the Web’s foundational protocol. The fifth HTTP Workshop is a three day event that takes place in Oxford, UK. I’m happy to say that I am attending this one as well, as I have all the previous occasions. This … Continue reading HTTP Workshop 2022 – day 1 →",
-          "link": "https://daniel.haxx.se/blog/2022/11/02/http-workshop-2022-day-1/",
-          "publishedOn": "2022-11-01T23:33:57.000Z",
-          "wordCount": 853,
-          "title": "HTTP Workshop 2022 – day 1"
         }
       ]
     },
@@ -1094,33 +1079,6 @@
           "publishedOn": "2022-11-12T12:18:20.065Z",
           "wordCount": 832,
           "title": "Reconsidering Tweets"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "author": null,
-          "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "publishedOn": "2022-11-06T12:19:25.111Z",
-          "wordCount": 1327,
-          "title": "Understanding Twitter conversations: A Wordle case study"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
-          "author": null,
-          "description": "Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
-          "publishedOn": "2022-11-03T12:21:33.407Z",
-          "wordCount": 2177,
-          "title": "Over-squashing, Bottlenecks, and Graph Ricci curvature"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
-          "author": null,
-          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
-          "publishedOn": "2022-11-01T12:26:26.900Z",
-          "wordCount": 1488,
-          "title": "Twitter Sparrow tackles data storage challenges of scale"
         }
       ]
     },
@@ -1137,33 +1095,6 @@
           "publishedOn": "2022-11-22T21:05:00.000Z",
           "wordCount": 1076,
           "title": "Mind the Gap"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html",
-          "author": null,
-          "description": "Maddie Stone, Project Zero\n\nNote: The three vulnerabilities discussed in this blog were all fixed in Samsung’s March 2021 release. They were fixed as CVE-2021-25337, CVE-2021-25369, CVE-2021-25370. To ensure your Samsung device is up-to-date under settings you can check that your device is running SMR Mar-2021 or later.\n\nAs defenders, in-the-wild exploit samples give us important insight into what attackers are really doing. We get the “ground truth” data about the vulnerabilities and exploit techniques they’re using, which then informs our further research and guidance to security teams on what could have the biggest impact or return on investment. To do this, we need to know that the vulnerabilities and exploit samples were found in-the-wild. Over the past few years there’s been tremendo…",
-          "link": "https://googleprojectzero.blogspot.com/2022/11/a-very-powerful-clipboard-samsung-in-the-wild-exploit-chain.html",
-          "publishedOn": "2022-11-04T15:50:00.000Z",
-          "wordCount": 7556,
-          "title": "A Very Powerful Clipboard: Analysis of a Samsung in-the-wild exploit chain"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html",
-          "author": null,
-          "description": "By Felix Wilhelm, Project Zero\n\nEarlier this year, I discovered a surprising attack surface hidden deep inside Java’s standard library: A custom JIT compiler processing untrusted XSLT programs, exposed to remote attackers during XML signature verification. This post discusses CVE-2022-34169, an integer truncation bug in this JIT compiler resulting in arbitrary code execution in many Java-based web applications and identity providers that support the SAML single-sign-on standard. \nOpenJDK fixed the discussed issue in July 2022. The Apache BCEL project used by Xalan-J, the origin of the vulnerable code, released a patch in September 2022. \n\nWhile the vulnerability discussed in this post has been patched , vendors and users should expect further vulnerabilities in SAML.\n\nFrom a security resea…",
-          "link": "https://googleprojectzero.blogspot.com/2022/11/gregor-samsa-exploiting-java-xml.html",
-          "publishedOn": "2022-11-02T11:41:00.008Z",
-          "wordCount": 4851,
-          "title": "Gregor Samsa: Exploiting Java's XML Signature Verification"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html",
-          "author": null,
-          "description": "By James Forshaw, Project Zero\n\nI've been spending a lot of time researching Windows authentication implementations, specifically Kerberos. In June 2022 I found an interesting issue number 2310 with the handling of RC4 encryption that allowed you to authenticate as another user if you could either interpose on the Kerberos network traffic to and from the KDC or directly if the user was configured to disable typical pre-authentication requirements.\n\nThis blog post goes into more detail on how this vulnerability works and how I was able to exploit it with only a bare minimum of brute forcing required. Note, I'm not going to spend time fully explaining how Kerberos authentication works, there's plenty of resources online. For example this blog post by Steve Syfuhs who works at Microsoft is a …",
-          "link": "https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html",
-          "publishedOn": "2022-10-27T19:48:00.000Z",
-          "wordCount": 4291,
-          "title": "RC4 Is Still Considered Harmful"
         }
       ]
     },
@@ -1173,6 +1104,15 @@
       "siteUrl": "https://hacks.mozilla.org/",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47943",
+          "author": "Francesca Minelli",
+          "description": "A product is first an idea, then a project, and then a prototype. Here, at Mozilla, our awesome community is there every step of the way to support and contribute to our products. None of what we do would be possible without this multicultural, multilingual community of like-minded people working together to be a better internet. \nThe post How the Mozilla Community helps shape our products appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2022/12/how-the-mozilla-community-helps-to-shape-our-products/",
+          "publishedOn": "2022-12-07T18:48:54.000Z",
+          "wordCount": 1314,
+          "title": "How the Mozilla Community helps shape our products"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47935",
           "author": "Gabriele Svelto",
           "description": "We break down how we reduced Firefox out-of-memory crashes on Windows with a simple trick. Poorly behaving web pages and apps are no longer capable of crashing the browser by exhausting memory.\nThe post Improving Firefox stability with this one weird trick appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1180,23 +1120,95 @@
           "publishedOn": "2022-11-22T14:16:56.000Z",
           "wordCount": 1210,
           "title": "Improving Firefox stability with this one weird trick"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47930",
-          "author": "Dipika Bhattacharya",
-          "description": "The MDN Web Docs team recently undertook a project to revamp and reorganize the “Contribution Docs”. These are all the pages on MDN that describe what’s what – the templates and page structures, how to perform a task on MDN, how to contribute to MDN, and the community guidelines to follow while contributing to this […]\nThe post Revamp of MDN Web Docs Contribution Docs appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/10/revamp-of-mdn-web-docs-contribution-docs/",
-          "publishedOn": "2022-10-31T17:47:12.000Z",
-          "wordCount": 939,
-          "title": "Revamp of MDN Web Docs Contribution Docs"
         }
       ]
     },
     {
       "title": "The GitHub Blog",
       "feedUrl": "https://github.blog/feed/",
-      "siteUrl": "https://github.blog/",
+      "siteUrl": null,
       "articles": [
+        {
+          "id": "https://github.blog/?p=68972",
+          "author": "Shuyin Zhao",
+          "description": "GitHub Copilot for Business is officially here with simple license management, organization-wide policy controls, and industry-leading privacy—all for $19 USD per user per month.",
+          "link": "https://github.blog/2022-12-07-github-copilot-is-generally-available-for-businesses/",
+          "publishedOn": "2022-12-07T17:34:23.000Z",
+          "wordCount": 1139,
+          "title": "GitHub Copilot is generally available for businesses"
+        },
+        {
+          "id": "https://github.blog/?p=68986",
+          "author": "Jakub Oleksy",
+          "description": "In November, we experienced two incidents that resulted in degraded performance across GitHub services. This report also sheds light into an incident that impacted Codespaces in October.",
+          "link": "https://github.blog/2022-12-07-github-availability-report-november-2022/",
+          "publishedOn": "2022-12-07T17:00:37.000Z",
+          "wordCount": 1190,
+          "title": "GitHub Availability Report: November 2022"
+        },
+        {
+          "id": "https://github.blog/?p=68998",
+          "author": "Monish Mohan",
+          "description": "Now you can create tokens with fine-grained permissions for automating your publishing and organization management workflows. And a new code explorer allows you to view content of a package directly in the npm portal.",
+          "link": "https://github.blog/2022-12-06-new-npm-features-for-secure-publishing-and-safe-consumption/",
+          "publishedOn": "2022-12-06T17:42:23.000Z",
+          "wordCount": 1360,
+          "title": "New npm features for secure publishing and safe consumption"
+        },
+        {
+          "id": "https://github.blog/?p=68893",
+          "author": "Laura Lindeman",
+          "description": "Catch up on everything we announced and see what else happened during this year’s GitHub Universe conference that took place November 9-10.",
+          "link": "https://github.blog/2022-12-05-icymi-a-look-back-at-github-universe-2022/",
+          "publishedOn": "2022-12-05T19:11:50.000Z",
+          "wordCount": 1101,
+          "title": "ICYMI: A look back at GitHub Universe 2022"
+        },
+        {
+          "id": "https://github.blog/?p=68912",
+          "author": "Ed Summers",
+          "description": "We just published our vision for GitHub accessibility at accessibility.github.com. Here’s the TL;DR: the prime directive of the GitHub accessibility program is to empower people with disabilities to build cool technology.",
+          "link": "https://github.blog/2022-12-02-github-accessibility-and-the-disability-divide/",
+          "publishedOn": "2022-12-02T17:44:01.000Z",
+          "wordCount": 872,
+          "title": "GitHub, accessibility, and the disability divide"
+        },
+        {
+          "id": "https://github.blog/?p=68865",
+          "author": "Tobias Ahlin",
+          "description": "Learn how to use and express yourself with GitHub’s open source variable fonts, Mona Sans and Hubot Sans.",
+          "link": "https://github.blog/2022-12-02-introducing-mona-sans-and-hubot-sans/",
+          "publishedOn": "2022-12-02T16:16:15.000Z",
+          "wordCount": 1338,
+          "title": "Introducing Mona Sans and Hubot Sans"
+        },
+        {
+          "id": "https://github.blog/?p=68849",
+          "author": "Gwen Davis",
+          "description": "AppSec expert Niroshan Rajadurai says putting developers at the center of everything will enable you to meet your security goals.",
+          "link": "https://github.blog/2022-12-01-how-empowering-developers-helps-teams-ship-secure-software-faster/",
+          "publishedOn": "2022-12-01T20:07:23.000Z",
+          "wordCount": 1372,
+          "title": "How empowering developers helps teams ship secure software faster"
+        },
+        {
+          "id": "https://github.blog/?p=68433",
+          "author": "Melody Mileski",
+          "description": "Administrators, or enterprise owners, have the increased responsibility of managing their account and keeping it secure. We are excited to introduce what is new with enterprise accounts and what is coming soon.",
+          "link": "https://github.blog/2022-12-01-an-enterprise-account-is-coming-to-all-enterprise-customers/",
+          "publishedOn": "2022-12-01T17:00:07.000Z",
+          "wordCount": 942,
+          "title": "An enterprise account is coming to all Enterprise customers"
+        },
+        {
+          "id": "https://github.blog/?p=68839",
+          "author": "Tim Rogers",
+          "description": "We’re introducing calendar-based versioning for our REST API, so we can keep evolving our API, whilst still giving integrators a smooth migration path and plenty of time to update their integrations.",
+          "link": "https://github.blog/2022-11-28-to-infinity-and-beyond-enabling-the-future-of-githubs-rest-api-with-api-versioning/",
+          "publishedOn": "2022-11-28T20:17:10.000Z",
+          "wordCount": 1137,
+          "title": "To infinity and beyond: enabling the future of GitHub’s REST API with API versioning"
+        },
         {
           "id": "https://github.blog/?p=68806",
           "author": "Seth Juarez",
@@ -1331,150 +1343,6 @@
           "publishedOn": "2022-11-09T16:29:06.000Z",
           "wordCount": 1057,
           "title": "Bringing greater financial sustainability to open source communities"
-        },
-        {
-          "id": "https://github.blog/?p=68534",
-          "author": "Melody Mileski",
-          "description": "GitHub Enterprise Server 3.7 is available now, including a single view of code risk, new forking and repository policies, and security enhancements to the management console.",
-          "link": "https://github.blog/2022-11-08-github-enterprise-server-3-7-is-now-generally-available/",
-          "publishedOn": "2022-11-08T17:37:58.000Z",
-          "wordCount": 1561,
-          "title": "GitHub Enterprise Server 3.7 is now generally available"
-        },
-        {
-          "id": "https://github.blog/?p=68491",
-          "author": "Mark Paulsen",
-          "description": "Explore how GitHub Advanced Security can help address several of the OWASP Top 10 vulnerabilities",
-          "link": "https://github.blog/2022-11-04-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/",
-          "publishedOn": "2022-11-04T15:30:16.000Z",
-          "wordCount": 1248,
-          "title": "How to mitigate OWASP vulnerabilities while staying in the flow"
-        },
-        {
-          "id": "https://github.blog/?p=67968",
-          "author": "Margaret Tucker",
-          "description": "How GitHub advocated for developer interests at the US Copyright Office technical measures consultations",
-          "link": "https://github.blog/2022-11-03-advocating-for-developers-to-the-us-copyright-office/",
-          "publishedOn": "2022-11-03T16:00:28.000Z",
-          "wordCount": 1235,
-          "title": "Advocating for developers to the US Copyright Office"
-        },
-        {
-          "id": "https://github.blog/?p=68413",
-          "author": "Kylie Stradley",
-          "description": "This post is the second part in a series about ActiveRecord::Encryption that shows how GitHub upgrades previously encrypted and unencrypted columns to ActiveRecord::Encryption.",
-          "link": "https://github.blog/2022-11-03-how-github-converts-previously-encrypted-and-unencrypted-columns-to-activerecord-encrypted-columns/",
-          "publishedOn": "2022-11-03T12:53:42.000Z",
-          "wordCount": 2011,
-          "title": "How GitHub converts previously encrypted and unencrypted columns to ActiveRecord encrypted columns"
-        },
-        {
-          "id": "https://github.blog/?p=68350",
-          "author": "Laura Paine",
-          "description": "Developers creating Internet of Things software use a complex stack of software that needs to be custom built into their CI/CD platform. Arm is leveraging the simplicity and scalability of GitHub Actions with a native integration that will revolutionize IoT software development.",
-          "link": "https://github.blog/2022-11-02-github-partners-with-arm-to-revolutionize-internet-of-things-software-development-with-github-actions/",
-          "publishedOn": "2022-11-02T18:39:04.000Z",
-          "wordCount": 2042,
-          "title": "GitHub partners with Arm to revolutionize Internet of Things software development with GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=68396",
-          "author": "Jakub Oleksy",
-          "description": "In October, we experienced four incidents that resulted in degraded performance across GitHub services. This report also sheds light into an incident that impacted Codespaces in September.",
-          "link": "https://github.blog/2022-11-02-github-availability-report-october-2022/",
-          "publishedOn": "2022-11-02T16:00:33.000Z",
-          "wordCount": 1836,
-          "title": "GitHub Availability Report: October 2022"
-        },
-        {
-          "id": "https://github.blog/?p=68363",
-          "author": "Lee Reilly",
-          "description": "It’s the moment you’ve all been waiting for. Are you ready?",
-          "link": "https://github.blog/2022-11-01-game-off-2022-theme-announcement/",
-          "publishedOn": "2022-11-01T20:37:41.000Z",
-          "wordCount": 1126,
-          "title": "Game Off 2022 theme announcement"
-        },
-        {
-          "id": "https://github.blog/?p=68373",
-          "author": "Ryan J. Salva",
-          "description": "We will begin to introduce several new capabilities to GitHub Copilot in 2023 to continue delivering responsible innovation and true happiness at the keyboard.",
-          "link": "https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/",
-          "publishedOn": "2022-11-01T19:00:20.000Z",
-          "wordCount": 721,
-          "title": "Preview: referencing public code in GitHub Copilot"
-        },
-        {
-          "id": "https://github.blog/?p=68358",
-          "author": "Demetris Cheatham",
-          "description": "We are pleased to announce the expansion of All In for Students! All In for Students introduces college students to open source and provides them with the education, technical training and career development to prepare them for a summer internship in tech.",
-          "link": "https://github.blog/2022-11-01-all-in-for-students-expanding-the-next-generation-of-open-source-leaders/",
-          "publishedOn": "2022-11-01T15:15:11.000Z",
-          "wordCount": 923,
-          "title": "All In for Students: expanding the next generation of open source leaders"
-        },
-        {
-          "id": "https://github.blog/?p=68344",
-          "author": "Hauwa Otori",
-          "description": "A glimpse into the backgrounds and day-to-day work of several GitHub employees in cybersecurity roles.",
-          "link": "https://github.blog/2022-10-31-creating-a-more-inclusive-security-research-field/",
-          "publishedOn": "2022-10-31T17:09:47.000Z",
-          "wordCount": 1613,
-          "title": "Creating a more inclusive security research field"
-        },
-        {
-          "id": "https://github.blog/?p=67492",
-          "author": "Lee Reilly",
-          "description": "Some seriously spooktacular open source games for the web, Windows, macOS, and Linux with all sorts of fun hacks for infinite lives, invulnerability, and playing with time.",
-          "link": "https://github.blog/2022-10-29-thirteen-tiny-terrific-and-terrifying-games-to-hack-slay-and-play-this-halloween/",
-          "publishedOn": "2022-10-29T07:01:32.000Z",
-          "wordCount": 2110,
-          "title": "13 tiny, terrific, and terrifying games to hack, slay, and play this Halloween 🧛🏻‍♀️"
-        },
-        {
-          "id": "https://github.blog/?p=68269",
-          "author": "Logan MacLaren",
-          "description": "As we wrap up Cybersecurity Awareness Month, the GitHub bug bounty team is excited to spotlight one of the security researchers who participates in the GitHub Security Bug Bounty Program.",
-          "link": "https://github.blog/2022-10-28-cybersecurity-spotlight-on-bug-bounty-researcher-ahacker1/",
-          "publishedOn": "2022-10-28T18:34:58.000Z",
-          "wordCount": 1100,
-          "title": "Cybersecurity spotlight on bug bounty researcher @ahacker1"
-        },
-        {
-          "id": "https://github.blog/?p=68231",
-          "author": "Michelle Mannering",
-          "description": "Hackatoberfest, hackathons, and open source contributions. It’s been a hectic month with so many community pull requests to all kinds of projects. So many in fact that we had to spend hours going through all the submissions for this blog post. We almost didn’t get it out before the end of October. Nevertheless, we are […]",
-          "link": "https://github.blog/2022-10-28-release-radar-sept-2022/",
-          "publishedOn": "2022-10-28T18:00:17.000Z",
-          "wordCount": 1540,
-          "title": "Release Radar · September 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=68178",
-          "author": "Laura Lindeman",
-          "description": "You can now build your agenda on GitHubUniverse.com! Whether you’re just getting started or you’re a seasoned industry professional, there’s a session for you.",
-          "link": "https://github.blog/2022-10-27-choose-your-own-github-universe-2022-adventure/",
-          "publishedOn": "2022-10-27T18:54:54.000Z",
-          "wordCount": 2257,
-          "title": "Choose your own GitHub Universe 2022 adventure"
-        },
-        {
-          "id": "https://github.blog/?p=68189",
-          "author": "Joseph Katsioloudes",
-          "description": "The GitHub Security Lab provided office hours for open source projects looking to improve their security posture and reduce the risk of breach. Here’s what we learned and how you can also participate.",
-          "link": "https://github.blog/2022-10-27-what-we-learned-from-the-security-labs-community-office-hours/",
-          "publishedOn": "2022-10-27T15:00:42.000Z",
-          "wordCount": 1539,
-          "title": "What we learned from the Security Lab’s Community Office Hours"
-        },
-        {
-          "id": "https://github.blog/?p=68183",
-          "author": "Dawn Beatty",
-          "description": "As GitHub continues to grow, our vision of being the home for all developers continues to materialize, expanding our progress, perspectives, and responsibility to the world.",
-          "link": "https://github.blog/2022-10-27-diversity-inclusion-and-belonging-at-github-in-2022/",
-          "publishedOn": "2022-10-27T13:13:22.000Z",
-          "wordCount": 1114,
-          "title": "Diversity, inclusion, and belonging at GitHub in 2022"
         }
       ]
     },
@@ -1483,6 +1351,33 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19842",
+          "author": "Felipe Almeida - Machine Learning Engineer at Nubank",
+          "description": "In this article we analyze lessons learned and best practices assembled from years of applying Machine Learning to real-life problems at Nubank.\nThe post Best Practices for Real-time Machine Learning: Alerting appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/best-practices-for-real-time-machine-learning-alerting/",
+          "publishedOn": "2022-12-05T18:13:09.000Z",
+          "wordCount": 4607,
+          "title": "Best Practices for Real-time Machine Learning: Alerting"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=19831",
+          "author": "Daniela Grecco - Recruitment Analyst at Nubank",
+          "description": "A step-by-step on how we select the best talents for our Product Team and how to be prepared for it. \nThe post What is the hiring process like for Product Managers at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/hiring-process-product-managers-at-nubank/",
+          "publishedOn": "2022-12-02T20:00:20.000Z",
+          "wordCount": 3976,
+          "title": "What is the hiring process like for Product Managers at Nubank?"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=19754",
+          "author": "Maria Rodrigues - Analytics Engineer at Nubank",
+          "description": "A look into the career of an Analytics Engineer at Nubank, the scope of work and the main expected skills in this field.\nThe post What is it like being an Analytics Engineer at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/analytics-engineer-at-nubank/",
+          "publishedOn": "2022-11-30T13:32:13.000Z",
+          "wordCount": 3512,
+          "title": "What is it like being an Analytics Engineer at Nubank?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19729",
           "author": "Carla Garcia - Content Designer at Nubank",
@@ -1518,42 +1413,6 @@
           "publishedOn": "2022-11-10T20:35:51.000Z",
           "wordCount": 4042,
           "title": "Women Leaders Who Design"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19717",
-          "author": "Céu Balzano - Security Awareness Engineer Leader at Nubank",
-          "description": "A look into the career of an Information Security Awareness Engineer at Nubank, the scope and importance of this role for any organization.\nThe post What is it like being an Information Security Awareness Engineer at Nubank? appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/information-security-awareness-engineer-at-nubank/",
-          "publishedOn": "2022-11-07T12:48:24.000Z",
-          "wordCount": 3489,
-          "title": "What is it like being an Information Security Awareness Engineer at Nubank?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19685",
-          "author": "Nubank Editorial",
-          "description": "The new building is now Nu’s largest space! The place is located at Vila Leopoldina neighborhood and can be used for events and trainings with large teams.\nThe post Nubank opens another office in Brazil, the third one in São Paulo appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-office-vila-leopoldina/",
-          "publishedOn": "2022-11-04T20:59:14.000Z",
-          "wordCount": 3012,
-          "title": "Nubank opens another office in Brazil, the third one in São Paulo"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19661",
-          "author": "BU Team",
-          "description": "Behind the scenes of how we revolutionized the way people save money\nThe post How Nubank launched ‘Caixinhas’ appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/how-nubank-launched-caixinhas/",
-          "publishedOn": "2022-11-03T22:01:42.000Z",
-          "wordCount": 4226,
-          "title": "How Nubank launched ‘Caixinhas’"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19626",
-          "author": "Isabela Piccinini - Senior Data Scientist at Nubank",
-          "description": "A mini guide on what are, why to use and how to perform reliable A/B testing experiments\nThe post A gentle and practical introduction to A/B tests appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/introduction-to-a-b-tests/",
-          "publishedOn": "2022-10-28T17:48:44.000Z",
-          "wordCount": 4684,
-          "title": "A gentle and practical introduction to A/B tests"
         }
       ]
     },
@@ -1562,6 +1421,24 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-emperor",
+          "author": "HackerOne",
+          "description": "Who are you?\nMy name is Raviraj; I'm from Gujarat, India. I go by the handle, Emperor. My handle came from an anime called \"Kuruko no Basuke.\" It r",
+          "link": "https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-emperor",
+          "publishedOn": "2022-12-01T15:23:25.000Z",
+          "wordCount": 1477,
+          "title": "Ambassador Spotlight: Emperor"
+        },
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/creating-ctf-success-flag-hunt-bangladesh",
+          "author": "HackerOne",
+          "description": "About the CTF \nFlag Hunt 2022 CTF was the first ever two-stage event in Bangladesh, where the qualification round took place online among 159 te",
+          "link": "https://www.hackerone.com/hackerone-community-blog/creating-ctf-success-flag-hunt-bangladesh",
+          "publishedOn": "2022-11-30T02:15:59.000Z",
+          "wordCount": 1034,
+          "title": "Creating a CTF: The Success of Flag Hunt Bangladesh"
+        },
         {
           "id": "https://hackerone.com/company-news/introducing-program-levels-hacker-friendly-practices-improve-program-results",
           "author": "Chris Evans",
@@ -1579,33 +1456,6 @@
           "publishedOn": "2022-11-15T16:00:00.000Z",
           "wordCount": 2007,
           "title": "How OneWeb is Safeguarding its Assets with the Hacker Community"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards",
-          "author": "HackerOne",
-          "description": "Celebrating the accomplishments of hackers is something we want to do year-round. However, we decided we wanted to root Cyber Security Awareness mon",
-          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-appreciation-month-badge-awards",
-          "publishedOn": "2022-11-04T15:30:21.000Z",
-          "wordCount": 1579,
-          "title": "Hacker Appreciation Month: Badge Awards"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/hacker-afk-thearchangel",
-          "author": "HackerOne",
-          "description": "Today's hacker the_arch_angel \nJXoaT: What was your first experience with hacking growing up? \nthe_arch_angel: I actually didn't do any",
-          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-afk-thearchangel",
-          "publishedOn": "2022-11-02T15:03:34.000Z",
-          "wordCount": 1262,
-          "title": "Hacker AFK: the_arch_angel"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/hacker-success-managers",
-          "author": "jesse@hackerone.com",
-          "description": "Intro to Hacker Success Managers \nEarlier this year, we released a blog that shared foundational changes on our Community Team. One of our goals",
-          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-success-managers",
-          "publishedOn": "2022-10-27T16:30:54.000Z",
-          "wordCount": 1377,
-          "title": "Hacker Success Managers"
         }
       ]
     },
@@ -1614,6 +1464,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/17440a9e141d",
+          "author": "Netflix Technology Blog",
+          "description": "by Jasmine Omeke, Obi-Ike Nwoke, Olek Gorajek",
+          "link": "https://netflixtechblog.com/ready-to-go-sample-data-pipelines-with-dataflow-17440a9e141d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2022-12-04T00:10:21.000Z",
+          "wordCount": 3301,
+          "title": "Ready-to-go sample data pipelines with Dataflow"
+        },
         {
           "id": "https://medium.com/p/5b8d032da09c",
           "author": "Netflix Technology Blog",
@@ -1667,15 +1526,6 @@
           "publishedOn": "2022-11-09T23:47:03.000Z",
           "wordCount": null,
           "title": "Seeing through hardware counters: a journey to threefold performance increase"
-        },
-        {
-          "id": "https://medium.com/p/6cb89b9ce296",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/consistent-caching-mechanism-in-titus-gateway-6cb89b9ce296?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-11-03T19:19:31.000Z",
-          "wordCount": null,
-          "title": "Consistent caching mechanism in Titus Gateway"
         }
       ]
     },
