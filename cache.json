@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2022/12/trust-in-transparency-private-compute.html",
+          "author": null,
+          "description": "Posted by Dave Kleidermacher, Dianne Hackborn, and Eugenio Marchiori  \nWe care deeply about privacy. We also know that trust is built by transparency. This blog, and the technical paper reference within, is an example of that commitment: we describe an important new Android privacy infrastructure called Private Compute Core (PCC). \nSome of our most exciting machine learning features use continuous sensing data — information from the microphone, camera, and screen. These features keep you safe, help you communicate, and facilitate stronger connections with people you care about. To unlock this new generation of innovative concepts, we built a specialized sandbox to privately process and protect this data.  \nAndroid Private Compute Core\n  \nPCC is a secure, isolated data processing environmen…",
+          "link": "http://security.googleblog.com/2022/12/trust-in-transparency-private-compute.html",
+          "publishedOn": "2022-12-08T16:59:00.001Z",
+          "wordCount": 1027,
+          "title": "Trust in transparency: Private Compute Core"
+        },
+        {
           "id": "http://security.googleblog.com/2022/12/enhanced-protection-strongest-level-of.html",
           "author": null,
           "description": "Posted by Benjamin Ackerman, Chrome Security and Jonathan Li, Safe Browsing  \nAs a follow-up to a previous blog post about How Hash-Based Safe Browsing Works in Google Chrome, we wanted to provide more details about Safe Browsing’s Enhanced Protection mode in Chrome. Specifically, how it came about, the protections that are offered and what it means for your data. \nSecurity and privacy have always been top of mind for Chrome. Our goal is to make security effortless for you while browsing the web, so that you can go about your day without having to worry about the links that you click on or the files that you download. This is why Safe Browsing’s phishing and malware protections have been a core part of Chrome since 2007. You may have seen these in action if you have ever come across one of…",
@@ -36,6 +45,66 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/RdJM",
+          "author": "Jerod Santo",
+          "description": "José Valim announces Bumblebee and walks you through how to run ML modules in Livebook with just three clicks. Finally, he shows you how to embed a model into a Phoenix app. So cool!\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=g3oyh3g1AtQ",
+          "publishedOn": "2022-12-08T23:29:00.000Z",
+          "wordCount": null,
+          "title": "Bumblebee: GPT2, Stable Diffusion, and more in Elixir",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1867",
+          "author": null,
+          "description": "Ivan Kwiatkowski joins Natalie once again for a follow-up episode to Hacking with Go: Part 2. This time we’ll get Ivan’s perspective on the way Go’s security features are designed and used, from the user/hacker perspective. And of course we will also talk about how AI fits into all this…\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nFeaturing\nIvan Kwiatkowski – Mastodon, Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nNotes and Links\nHacking with Go: Part 1\nHacking with Go: Part 2\nPascal (programming language)\nHacking tool: IDA Pro\nHacking tool: Ghidra\nStowaway – Multi-hop Proxy Tool for pentesters\nIvan’s video on reversing a Go malware\n“Stylometry” - recognizing author by code style, talk from the CCC 2014\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/259",
+          "publishedOn": "2022-12-08T22:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 259: Hacking with Go: Part 3",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/259/go-time-259.mp3",
+            "length": "56055586",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/14/1939",
+          "author": null,
+          "description": "Narayanan Raghavan leads the global SRE organization that runs Red Hat managed cloud services including OpenShift Dedicated, Azure Red Hat Openshift, Red Hat OpenShift Service on AWS, and Red Hat OpenShift Data Science among others across the three major cloud providers: AWS, GCP & Azure. We start with a high-level discussion about DevOps, SRE & platform engineering, and then we dig into SRE specifics, including what it takes to safely roll out updates across many tens of thousands of OpenShift clusters.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insight…",
+          "link": "https://changelog.com/shipit/82",
+          "publishedOn": "2022-12-08T19:15:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 82: Red Hat's approach to SRE",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/82/ship-it-82.mp3",
+            "length": "65292874",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/O58N",
+          "author": "Jerod Santo",
+          "description": "Julia Evans is working on a new zine about debugging, so she took to Mastodon to ask for tips and compiled a list of the best ones (with explainers). Here’s a short list of some tips covered:\nsearch for the request’s ID\ncorrelate between different systems\ncheck that a “suspicious” error is actually new\nDiscuss on Changelog News",
+          "link": "https://jvns.ca/blog/2022/12/07/tips-for-analyzing-logs/",
+          "publishedOn": "2022-12-08T15:49:00.000Z",
+          "wordCount": null,
+          "title": "Tips for analyzing logs",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/1Wnn",
+          "author": "Jerod Santo",
+          "description": "A series of 8 free data puzzles to be released daily starting on December 18th. Created by Saul Pwanson (author of VisiData) as an analogue to the popular Advent of Code, but for data nerds who want to find answers in a dataset, rather than hack on algorithms.\nDiscuss on Changelog News",
+          "link": "https://hanukkah.bluebird.sh/",
+          "publishedOn": "2022-12-08T15:00:00.000Z",
+          "wordCount": null,
+          "title": "Hanukkah of Data",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/kwZG",
           "author": "Jerod Santo",
@@ -835,51 +904,6 @@
           "wordCount": null,
           "title": "Web automation: don't use Selenium, use Playwright",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1817",
-          "author": null,
-          "description": "In today’s episode we have the pleasure of Audun Fauchald Strand, Principal Software Engineer at NAV.no, Norway’s Labour & Welfare Administration. We will be talking about NAIS.io, the application platform that runs on-prem, as well as on the public cloud.\nImagine hundreds of developers shipping on an average day 300 changes into a system which processes $100,000,000 worth of transactions on a quiet week. If you think this is hard, consider the context: a government institution which must comply with all laws & regulations.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently l…",
-          "link": "https://changelog.com/shipit/78",
-          "publishedOn": "2022-11-09T22:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 78: The system that runs Norway's welfare payments 🇳🇴",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/78/ship-it-78.mp3",
-            "length": "59693824",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/2l7M",
-          "author": "Jerod Santo",
-          "description": "Adam Gordon Bell:\nThere are many ways to understand how containers work, but most useful explanations are actually simplifications….\nBut for me, containers are just chrooted processes. Sure, they are more than that: Containers have a nice developer experience, an open-source foundation, and a whole ecosystem of cloud-native companies pushing them forward. But, let me show you why I think chroot is the key.\nI like this framing. It makes a lot of sense to me. More than ‘lightweight VM’, which is how I’ve thought about them previously. The rest of this article is Adam stepping through the process of building a container runtime using only the chroot system call.\nDiscuss on Changelog News",
-          "link": "https://earthly.dev/blog/chroot/",
-          "publishedOn": "2022-11-09T17:59:00.000Z",
-          "wordCount": null,
-          "title": "Containers are chroot with a marketing budget",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/1WG4",
-          "author": "Jerod Santo",
-          "description": "Compared to other programming languages such as Python and Go, Rust’s standard library is very small, including only core data structures in the standard library with all other functionality farmed out to 3rd party ecosystem crates, and a common complaint from new Rust developers is that they don’t know where to start: which crates they ought to use and which crates they ought to trust. This list attempts to answer those questions.\nDiscuss on Changelog News",
-          "link": "https://blessed.rs/crates",
-          "publishedOn": "2022-11-09T16:30:00.000Z",
-          "wordCount": null,
-          "title": "An unofficial guide to the Rust ecosystem",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/D125",
-          "author": "Jerod Santo",
-          "description": "Rachel Stephens, trying to reconcile the claims that the tech industry is vastly overstaffed with other claims of vast resource scarcity:\nBoth things can be true: it’s not a clear over- or under-staffing problem. It’s a problem of proportionality. There can definitely be organizational bloat… At the same time, there are also areas in tech that remain chronically understaffed and under-resourced: OSS project maintainers, people working on-call support, and people writing documentation to name a few.\nAn interesting analysis with a much-needed call for kindness to our fellow nerds as they face these tumultuous times.\nAnd (I can’t believe I’m writing this, but the jokes about Twitter layoffs in particular keep coming at a surprising rate) be kind to people facing layoffs. Losing your job is awful in the best of circumstances; going through it in such a public and charged situation must be emotionally grueling. Be kind.\nDiscuss on Changelog News",
-          "link": "https://redmonk.com/rstephens/2022/11/01/kindness-and-staffing/",
-          "publishedOn": "2022-11-09T15:43:00.000Z",
-          "wordCount": null,
-          "title": "Kindness, tech staffing and resource allocation",
-          "itunes": {}
         }
       ]
     },
@@ -1018,6 +1042,33 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
+          "author": null,
+          "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
+          "publishedOn": "2022-12-09T12:16:41.549Z",
+          "wordCount": 1327,
+          "title": "Understanding Twitter conversations: A Wordle case study"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
+          "author": null,
+          "description": "Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
+          "publishedOn": "2022-12-09T12:16:40.103Z",
+          "wordCount": 2189,
+          "title": "Over-squashing, Bottlenecks, and Graph Ricci curvature"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "author": null,
+          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "publishedOn": "2022-12-09T12:16:39.933Z",
+          "wordCount": 1494,
+          "title": "Twitter Sparrow tackles data storage challenges of scale"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
           "author": null,
           "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
@@ -1088,6 +1139,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
+          "author": null,
+          "description": "Seth Jenkins, Project Zero\n\nThis blog post details an exploit for CVE-2022-42703 (P0 issue 2351 - Fixed 5 September 2022), a bug Jann Horn found in the Linux kernel's memory management (MM) subsystem that leads to a use-after-free on struct anon_vma. As the bug is very complex (I certainly struggle to understand it!), a future blog post will describe the bug in full. For the time being, the issue tracker entry, this LWN article explaining what an anon_vma is and the commit that introduced the bug are great resources in order to gain additional context.\nSetting the scene\nSuccessfully triggering the underlying vulnerability causes folio->mapping to point to a freed anon_vma object. Calling madvise(..., MADV_PAGEOUT)can then be used to repeatedly trigger accesses to the freed anon_vma in foli…",
+          "link": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
+          "publishedOn": "2022-12-08T19:04:00.000Z",
+          "wordCount": 2498,
+          "title": "Exploiting CVE-2022-42703 - Bringing back the stack attack"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2022/11/mind-the-gap.html",
           "author": null,
           "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=OPeqXG-QxW3ZD8BtmPikfA');.lst-kix_9apzkelodq30-0>li:before{content:\"\\0025cf  \"}ul.lst-kix_9apzkelodq30-6{list-style-type:none}ul.lst-kix_9apzkelodq30-7{list-style-type:none}ul.lst-kix_9apzkelodq30-4{list-style-type:none}ul.lst-kix_9apzkelodq30-5{list-style-type:none}ul.lst-kix_9apzkelodq30-2{list-style-type:none}ul.lst-kix_9apzkelodq30-3{list-style-type:none}ul.lst-kix_9apzkelodq30-0{list-style-type:none}.lst-kix_9apzkelodq30-6>li:before{content:\"\\0025cf  \"}ul.lst-kix_9apzkelodq30-1{list-style-type:none}.lst-kix_9apzkelodq30-5>li:before{content:\"\\0025a0  \"}.lst-kix_9apzkelodq30-3>li:before{content:\"\\0025cf  \"}.lst-kix_9apzkelodq30-7>li:before{content:\"\\0025cb  \"}.lst-kix_9apzkelodq30-4>li:before{content:\"\\0025cb  \"}.lst-kix_9a…",
@@ -1128,6 +1188,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://github.blog/?p=69029",
+          "author": "Natalie Somersall",
+          "description": "How much does it really cost to buy more powerful cloud compute resources for development work? A lot less than you think.",
+          "link": "https://github.blog/2022-12-08-experiment-the-hidden-costs-of-waiting-on-slow-build-times/",
+          "publishedOn": "2022-12-08T18:00:02.000Z",
+          "wordCount": 1984,
+          "title": "Experiment: The hidden costs of waiting on slow build times"
+        },
+        {
+          "id": "https://github.blog/?p=69019",
+          "author": "Karen Bella",
+          "description": "We delivered two different courses specifically designed to help students in the lowest-income neighborhood of Montevideo, Uruguay learn how to use GitHub and understand the value of open source.",
+          "link": "https://github.blog/2022-12-08-git-commit-uruguay-lowering-barriers-to-make-software-development-more-inclusive-and-diverse/",
+          "publishedOn": "2022-12-08T17:00:06.000Z",
+          "wordCount": 859,
+          "title": "Git Commit Uruguay: Lowering barriers to make software development more inclusive and diverse"
+        },
+        {
+          "id": "https://github.blog/?p=68995",
+          "author": "Inbal Shani",
+          "description": "GitHub is in an exciting phase of our journey as the developer community grows significantly every day, and the needs of the community grow and change with it. Today we’re introducing our new Chief Product officer.",
+          "link": "https://github.blog/2022-12-08-hello-from-githubs-new-chief-product-officer/",
+          "publishedOn": "2022-12-08T16:59:59.000Z",
+          "wordCount": 646,
+          "title": "Hello from GitHub’s new Chief Product Officer"
+        },
         {
           "id": "https://github.blog/?p=68972",
           "author": "Shuyin Zhao",
@@ -1271,78 +1358,6 @@
           "publishedOn": "2022-11-10T16:00:16.000Z",
           "wordCount": 1604,
           "title": "What’s new with Codespaces from GitHub Universe 2022"
-        },
-        {
-          "id": "https://github.blog/?p=68641",
-          "author": "Thomas Dohmke",
-          "description": "Veja o que estamos construindo para aprimorar a plataforma de desenvolvimento mais integrada e que permite que pessoas desenvolvedoras e empresas impulsionem a inovação com mais facilidade. Quinze anos atrás, estava sendo escrita a primeira linha de código para a construção do GitHub. Desde então, o objetivo tem sido equipar as pessoas desenvolvedoras com tudo […]",
-          "link": "https://github.blog/2022-11-09-todas-as-novidades-do-github-universe-2022/",
-          "publishedOn": "2022-11-09T17:49:49.000Z",
-          "wordCount": 4436,
-          "title": "Todas as novidades do GitHub Universe 2022"
-        },
-        {
-          "id": "https://github.blog/?p=68631",
-          "author": "Naytri Sramek",
-          "description": "Investing in our open source future by supporting the maintainers of today.",
-          "link": "https://github.blog/2022-11-09-an-open-source-economy-built-by-developers-for-developers/",
-          "publishedOn": "2022-11-09T17:35:39.000Z",
-          "wordCount": 1017,
-          "title": "An open source economy–built by developers, for developers"
-        },
-        {
-          "id": "https://github.blog/?p=68289",
-          "author": "Thomas Dohmke",
-          "description": "See what we're building to enhance the most integrated developer platform that allows developers and enterprises to drive innovation with ease.",
-          "link": "https://github.blog/2022-11-09-everything-new-from-github-universe-2022/",
-          "publishedOn": "2022-11-09T17:35:22.000Z",
-          "wordCount": 4069,
-          "title": "Everything new from GitHub Universe 2022"
-        },
-        {
-          "id": "https://github.blog/?p=68464",
-          "author": "Mala Kumar",
-          "description": "Here's how nonprofits and the social sector are using open source to drive social good.",
-          "link": "https://github.blog/2022-11-09-the-social-impact-of-open-source/",
-          "publishedOn": "2022-11-09T16:29:48.000Z",
-          "wordCount": 860,
-          "title": "Understanding the social impact of open source technologies"
-        },
-        {
-          "id": "https://github.blog/?p=68458",
-          "author": "Mike Linksvayer",
-          "description": "In 2022, governments and the policy community spent a lot of time thinking about open source. Here's what that means and why it matters.",
-          "link": "https://github.blog/2022-11-09-open-source-government-policies/",
-          "publishedOn": "2022-11-09T16:29:45.000Z",
-          "wordCount": 888,
-          "title": "The changing nature of governmental policies around open source"
-        },
-        {
-          "id": "https://github.blog/?p=68442",
-          "author": "Ashley Wolf",
-          "description": "By our estimation at GitHub, over 30% of Fortune 100 companies have now implemented OSPOs. Here's what that means for open source.",
-          "link": "https://github.blog/2022-11-09-why-companies-are-starting-ospos/",
-          "publishedOn": "2022-11-09T16:29:27.000Z",
-          "wordCount": 861,
-          "title": "Why more companies are investing in open source program offices"
-        },
-        {
-          "id": "https://github.blog/?p=68469",
-          "author": "Justin Hutchings",
-          "description": "We think a lot about a high-profile supply chain attack that might cause developers, teams, and organizations to lose trust in open source. That’s why we’re investing in new ways to protect the open source ecosystem.",
-          "link": "https://github.blog/2022-11-09-improving-open-source-supply-chain-security/",
-          "publishedOn": "2022-11-09T16:29:25.000Z",
-          "wordCount": 973,
-          "title": "The importance of improving supply chain security in open source"
-        },
-        {
-          "id": "https://github.blog/?p=68474",
-          "author": "Jessica Lord",
-          "description": "We know that companies benefit from open source. That's why we’re making it easier for companies to financially support projects.",
-          "link": "https://github.blog/2022-11-09-financial-sustainability-in-open-source/",
-          "publishedOn": "2022-11-09T16:29:06.000Z",
-          "wordCount": 1057,
-          "title": "Bringing greater financial sustainability to open source communities"
         }
       ]
     },
@@ -1517,15 +1532,6 @@
           "publishedOn": "2022-11-11T17:26:15.000Z",
           "wordCount": null,
           "title": "Machine Learning for Fraud Detection in Streaming Services"
-        },
-        {
-          "id": "https://medium.com/p/2721924a2822",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-11-09T23:47:03.000Z",
-          "wordCount": null,
-          "title": "Seeing through hardware counters: a journey to threefold performance increase"
         }
       ]
     },
