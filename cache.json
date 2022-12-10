@@ -46,6 +46,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1869",
+          "author": null,
+          "description": "This week we’re joined by Christina Warren, Senior Developer Advocate at GitHub, and a true tech and pop culture connoisseur. From her days at Mashable covering the intersections of entertainment and technology, to Gizmodo, to Microsoft, and now her current role at GitHub we talk with Christina about her journey from journalist to developer, and the latest happenings coming out of GitHub Universe.\nBTW, we’re planning to get Christina on Backstage in the new year to talk about Plex, MakeMKV, and all things that go into hosting your own media server. Drop a commment on this episode with a +1 if you want to see that happen.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nInfluxData – With its data collector…",
+          "link": "https://changelog.com/podcast/518",
+          "publishedOn": "2022-12-09T22:30:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 518: Coming home to GitHub",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/518/the-changelog-518.mp3",
+            "length": "74930931",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1824",
+          "author": null,
+          "description": "KBall interviews CSS instructor & YouTuber extraordinaire Kevin Powell in a wide ranging discussion about CSS and how to learn it - what to start with, what to ignore, and various topics in between.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers…",
+          "link": "https://changelog.com/jsparty/255",
+          "publishedOn": "2022-12-09T17:15:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 255: Learning CSS in 2023",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/255/js-party-255.mp3",
+            "length": "50880328",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/AX46",
+          "author": "Jerod Santo",
+          "description": "Phlex views are “plain old Ruby objects” — templates are methods and HTML tags are method calls. If you know how to define a class with a method that calls another method, you know how to use Phlex.\nWhen it comes to API usability, Ruby is so tough to beat. This looks actually fun to use!\nclass Nav < Phlex::HTML\n  def template\n    nav(class: \"main-nav\") {\n      ul {\n        li { a(href: \"/\") { \"Home\" } }\n        li { a(href: \"/about\") { \"About\" } }\n        li { a(href: \"/contact\") { \"Contact\" } }\n      }\n    }\n  end\nend\n\nDiscuss on Changelog News",
+          "link": "https://www.phlex.fun/",
+          "publishedOn": "2022-12-09T16:14:00.000Z",
+          "wordCount": null,
+          "title": "A framework for building fast, reusable, testable views in pure Ruby",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/GWpZ",
+          "author": "Jerod Santo",
+          "description": "How will large language models (LLMs) change the world?\nNo one knows. With such uncertainty, a good exercise is to look for historical analogies—to think about other technologies and ask what would happen if LLMs played out the same way.\nI like to keep things concrete, so I’ll discuss the impact of LLMs on writing. But most of this would also apply to the impact of LLMs on other fields, as well as other AI technologies like AI art/music/video/code.\nWhat follows are 13 examples of technological innovations that changed the world and description of how they affected they way people work. Here’s an example analogy of Feet and Segways:\nFirst, there was walking. Then the Segway came to CHANGE THE NATURE OF HUMAN TRANSPORT. Twenty years later, there is still walking, plus occasionally low-key alternatives like electric scooters.\nIn this analogy, LLMs work fine but just aren’t worth the trouble in most cases and society doesn’t evolve to integrate them. Domain-specific LLMs are used for some applications, but we start to associate “general” LLMs with tourists and mall cops. George W. Bush falls off an LLM on vacation and everyone loses their minds.\nDiscuss on Changelog News",
+          "link": "https://dynomight.net/llms/",
+          "publishedOn": "2022-12-09T15:26:00.000Z",
+          "wordCount": null,
+          "title": "Historical analogies for large language models",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/RdJM",
           "author": "Jerod Santo",
           "description": "José Valim announces Bumblebee and walks you through how to run ML modules in Livebook with just three clicks. Finally, he shows you how to embed a model into a Phoenix app. So cool!\n\nDiscuss on Changelog News",
@@ -869,41 +919,6 @@
           "wordCount": null,
           "title": "A graphical tool for developing on containers and Kubernetes",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1691",
-          "author": null,
-          "description": "Natalie & Ian welcome Liran Haimovitch & Tiago Queiroz to the show for a discussion focused on debugging Go programs. They cover good & bad debugging practices, the difficulty of debugging in the cloud, the value of errors logs & metrics, the practice of debugging in production (or not) & much more!\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nHoneycomb – Guess less, know more. When production is running slow, it’s hard to know where problems originate: is it your application code, users, or the underlying systems? With Honeycomb you get a fast, unified, and clear understanding of the one thing driving your business: production. Join the swarm and try Honeycomb free today at honeycomb.io/changelog\n\n    \nFeaturing\nLiran Haimovitch – Twitter, GitHub\nTiago Queiroz – Twitter, GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nNotes and Links\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/255",
-          "publishedOn": "2022-11-10T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 255: Debugging Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/255/go-time-255.mp3",
-            "length": "51471907",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/RdZm",
-          "author": "Jerod Santo",
-          "description": "Google search quality has been deteriorating for awhile. In this manifesto (of sorts), Kagi CEO Vladimir Prelovac describes what he thinks needs to replace it:\nIn the future, instead of everyone sharing the same search engine, you’ll have your completely individual, personalized Mike or Julia or Jarvis - the AI. Instead of being scared to share information with it, you will volunteer your data, knowing its incentives align with yours. The more you tell your assistant, the better it can help you, so when you ask it to recommend a good restaurant nearby, it’ll provide options based on what you like to eat and how far you want to drive. Ask it for a good coffee maker, and it’ll recommend choices within your budget from your favorite brands with only your best interests in mind. The search will be personal and contextual and excitingly so!\nDiscuss on Changelog News",
-          "link": "https://blog.kagi.com/age-pagerank-over",
-          "publishedOn": "2022-11-10T15:30:00.000Z",
-          "wordCount": null,
-          "title": "The age of PageRank is over",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3L7D",
-          "author": "Jerod Santo",
-          "description": "For web automation/testing, Selenium has been the de facto “standard” since forever. It’s simple to get started with and supports almost every programming language.\nI know a lot of people who use Selenium, but I don’t know a lot of people who enjoy using Selenium. (That’s no knock on the Selenium team. They solved a hard problem for lots of devs over the course of many years. Huge impact!) Playwright on the other hand…\nDiscuss on Changelog News",
-          "link": "https://new.pythonforengineers.com/blog/web-automation-dont-use-selenium-use-playwright/",
-          "publishedOn": "2022-11-10T14:39:00.000Z",
-          "wordCount": null,
-          "title": "Web automation: don't use Selenium, use Playwright",
-          "itunes": {}
         }
       ]
     },
@@ -1024,15 +1039,6 @@
           "publishedOn": "2022-11-11T12:20:52.000Z",
           "wordCount": 826,
           "title": "curl’s new CA store cache"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20533",
-          "author": "Daniel Stenberg",
-          "description": "A new curl option was born: --url-query. How it started curl offered the -d / --data option already in its first release back in 1998. curl 4.0. A trusted old friend. curl also has some companion versions of this option that work slightly differently, but they all have the common feature that they append data … Continue reading Append data to the URL query →",
-          "link": "https://daniel.haxx.se/blog/2022/11/10/append-data-to-the-url-query/",
-          "publishedOn": "2022-11-10T09:13:15.000Z",
-          "wordCount": 1014,
-          "title": "Append data to the URL query"
         }
       ]
     },
@@ -1189,6 +1195,15 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://github.blog/?p=68917",
+          "author": "Michelle Mannering",
+          "description": "Before you say it, yes, the October Release Radar was supposed to be shared in November. But with Hackatoberfest, GitHub Universe, Turkey Day, and in real life (IRL) conferences returning to their pre-COVID frequency, we’ve all been so busy. And our community has been hustling to ship all kinds of open source projects. We wanted […]",
+          "link": "https://github.blog/2022-12-09-release-radar-october-2022/",
+          "publishedOn": "2022-12-09T19:00:32.000Z",
+          "wordCount": 1260,
+          "title": "Release Radar · October 2022 Edition"
+        },
+        {
           "id": "https://github.blog/?p=69029",
           "author": "Natalie Somersall",
           "description": "How much does it really cost to buy more powerful cloud compute resources for development work? A lot less than you think.",
@@ -1340,24 +1355,6 @@
           "publishedOn": "2022-11-15T18:50:57.000Z",
           "wordCount": 928,
           "title": "The journey of your work has never been clearer"
-        },
-        {
-          "id": "https://github.blog/?p=68590",
-          "author": "Ethan Dennis",
-          "description": "GitHub Actions Importer helps you forecast, plan, and facilitate migrations from your current CI/CD tool to GitHub Actions.",
-          "link": "https://github.blog/2022-11-10-introducing-github-actions-importer/",
-          "publishedOn": "2022-11-10T17:00:19.000Z",
-          "wordCount": 2486,
-          "title": "Introducing GitHub Actions Importer"
-        },
-        {
-          "id": "https://github.blog/?p=68650",
-          "author": "Nik Molnar",
-          "description": "We’re giving GitHub users 60 free hours each month on Codespaces. Learn what else we shipped for Codespaces at Universe this year.",
-          "link": "https://github.blog/2022-11-10-whats-new-with-codespaces-from-github-universe-2022/",
-          "publishedOn": "2022-11-10T16:00:16.000Z",
-          "wordCount": 1604,
-          "title": "What’s new with Codespaces from GitHub Universe 2022"
         }
       ]
     },
@@ -1419,15 +1416,6 @@
           "publishedOn": "2022-11-14T21:16:00.000Z",
           "wordCount": 3168,
           "title": "Nu Holdings results for Q3 2022: growing strong and profitable"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19855",
-          "author": "Nubank Editorial",
-          "description": "Ellen Kiss, the Director of our Center of Excellence in Design, hosted a prolific discussion about important topics in the design market.\nThe post Women Leaders Who Design appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/women-leaders-who-design/",
-          "publishedOn": "2022-11-10T20:35:51.000Z",
-          "wordCount": 4042,
-          "title": "Women Leaders Who Design"
         }
       ]
     },
@@ -1436,6 +1424,24 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-drsniper",
+          "author": "HackerOne",
+          "description": "What made you want to become an ambassador?  \nI love meeting and getting to know new people. Regarding cybersecurity, it is fun talking to peop",
+          "link": "https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-drsniper",
+          "publishedOn": "2022-12-10T03:05:02.000Z",
+          "wordCount": 1612,
+          "title": "Ambassador Spotlight: DrSniper"
+        },
+        {
+          "id": "https://hackerone.com/application-security/how-human-testers-improve-application-security",
+          "author": "HackerOne",
+          "description": "A suite of DevSecOps tools is available to automate reviews, audits, tests, and scans throughout the development pipeline, which have become standard",
+          "link": "https://www.hackerone.com/application-security/how-human-testers-improve-application-security",
+          "publishedOn": "2022-12-10T01:00:00.000Z",
+          "wordCount": 859,
+          "title": "How Human Testers Improve Application Security"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-emperor",
           "author": "HackerOne",
