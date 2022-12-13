@@ -46,6 +46,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1948",
+          "author": null,
+          "description": "tRPC helps you move fast and break nothing, Michael Muré embeds a bug tracker in git, Fatih Kadir Akın curates some awesome ChatGPT prompts, Mike Nikles thinks dev environments in the cloud are a half-baked solution & Georgi Gerganov ports OpenAI’s Whisper model to a lightweight, portable C/C++ program.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNotes and Links\n📥 Subscribe to Changelog’s Weekly newsletter\ntRPC.io\nMichaelMure/git-bug\nAwesome ChatGPT Prompts\nDev environments in the cloud are a half-baked solution\nggerganov/whisper.cpp\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/news-2022-12-12",
+          "publishedOn": "2022-12-12T20:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: tRPC, a bug tracker embedded in git, awesome ChatGPT prompts, half-baked cloud dev envs & Whisper.cpp",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2022-12-12/the-changelog-news-2022-12-12.mp3",
+            "length": "7259779",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Mbw6",
+          "author": "Adam Stacoviak",
+          "description": "I thouroughly enjoyed reading this. It’s interesting to think about the evolution of transport storage. To this day, the USB thumb drive has proved to be the long-term winner and something I personally use very often. Wanna install Debian or do a clean install of macOS? You’ll likely do it by creating a bootable USB thumb drive.\nBefore the invention of the thumb drive, computer users stored and transported their files using floppy disks. Developed by IBM in the 1960s, first 8-inch and later 5 ¼-inch and 3 ½-inch floppy disks replaced cassette tapes as the most practical portable storage media. Floppy disks were limited by their relatively small storage capacity—even double-sided, double-density disks could store only 1.44 MB of data. During the 1990s, as the size of files and software increased…\nWould you be surprised to learn that the supposed inventor of the thumb drive is in jail right now in Singapore? But why?\nDiscuss on Changelog News",
+          "link": "https://spectrum.ieee.org/thumb-drive",
+          "publishedOn": "2022-12-12T18:25:34.000Z",
+          "wordCount": null,
+          "title": "Who really invented the thumb drive?",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/rXNe",
+          "author": "Jerod Santo",
+          "description": "SQLite has few functions compared to other database management systems. SQLite authors see this as a feature rather than a problem, because SQLite has an extension mechanism in place.\nThere are a lot of SQLite extensions out there, but they are incomplete, inconsistent and scattered across the internet. sqlean brings them together, neatly packaged into domain modules, documented, tested, and built for Linux, Windows and macOS.\nThink of it like an extended standard library for SQLite.\nDiscuss on Changelog News",
+          "link": "https://github.com/nalgeon/sqlean",
+          "publishedOn": "2022-12-12T15:36:00.000Z",
+          "wordCount": null,
+          "title": "The ultimate set of SQLlite extensions",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/9l8y",
+          "author": "Jerod Santo",
+          "description": "Stephan Schmidt warns: “We have invited complexity through the door. But it will not leave as easily.”\nOne way to simplify your stack and reduce the moving parts, speed up development, lower the risk and deliver more features in your startup is “Use Postgres for everything”. Postgres can replace - up to millions of users - many backend technologies, Kafka, RabbitMQ, Mongo and Redis among them.\nHe then goes on to list nine things you can use Postgres for that replace more specific solutions: fulltext search, geospatial queries, etc.\nDiscuss on Changelog News",
+          "link": "https://www.amazingcto.com/postgres-for-everything/",
+          "publishedOn": "2022-12-12T14:48:00.000Z",
+          "wordCount": null,
+          "title": "Just use Postgres for everything",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1869",
           "author": null,
           "description": "This week we’re joined by Christina Warren, Senior Developer Advocate at GitHub, and a true tech and pop culture connoisseur. From her days at Mashable covering the intersections of entertainment and technology, to Gizmodo, to Microsoft, and now her current role at GitHub we talk with Christina about her journey from journalist to developer, and the latest happenings coming out of GitHub Universe.\nBTW, we’re planning to get Christina on Backstage in the new year to talk about Plex, MakeMKV, and all things that go into hosting your own media server. Drop a commment on this episode with a +1 if you want to see that happen.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nInfluxData – With its data collector…",
@@ -978,6 +1023,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "author": null,
+          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "publishedOn": "2022-12-13T12:17:39.710Z",
+          "wordCount": 832,
+          "title": "Reconsidering Tweets"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
           "author": null,
           "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
@@ -1115,6 +1169,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://github.blog/?p=69083",
+          "author": "Taylor Blau",
+          "description": "Another new release of Git is here to end the year! Take a look at some of our highlights on what's new in Git 2.39.",
+          "link": "https://github.blog/2022-12-12-highlights-from-git-2-39/",
+          "publishedOn": "2022-12-12T15:50:38.000Z",
+          "wordCount": 1941,
+          "title": "Highlights from Git 2.39"
+        },
         {
           "id": "https://github.blog/?p=68917",
           "author": "Michelle Mannering",
