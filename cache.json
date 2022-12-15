@@ -46,6 +46,46 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/qM1e",
+          "author": "Jerod Santo",
+          "description": "Congrats to the entire Svelte team (and contributors) for this release, which culminates two years of effort:\nWe’re so excited to share this release with you. It’s the culmination of thousands of hours of work, both from the Svelte core team and the wider community, and we think it’s the most enjoyable way to build production-grade websites, whether you’re a solo developer working on a small project or part of a large team.\nDiscuss on Changelog News",
+          "link": "https://svelte.dev/blog/announcing-sveltekit-1.0",
+          "publishedOn": "2022-12-14T18:42:00.000Z",
+          "wordCount": null,
+          "title": "Announcing SvelteKit 1.0",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/V173",
+          "author": "Jerod Santo",
+          "description": "Tony Parker writing on Swift’s blog:\nWhen Swift began life as an open source project, we wanted to open not just the language itself, but the ecosystem around it. Foundation has been instrumental in the success of decades of software and has been an integral part of the Swift developer experience from the beginning, and we knew it had to be included in the open source offering.\nHistorically, Apple’s open source efforts have varied in just how open they are when it comes to community. On that topic, this is an uplifting bit of prose:\nOpen source projects are at their best when the community of users can participate and become a community of developers. A new, open contribution process will be available to enable all developers to contribute new API to Foundation.\nThis new Foundation project is slated to launch on GitHub in 2023.\nDiscuss on Changelog News",
+          "link": "https://www.swift.org/blog/future-of-foundation/",
+          "publishedOn": "2022-12-14T16:41:00.000Z",
+          "wordCount": null,
+          "title": "Apple's Swift rewrite of its Foundation framework will be open source",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/y71e",
+          "author": "Jerod Santo",
+          "description": "Jacob O’Bryant’s “Grand Vision For How Social Media Ought To Be”:\nthere should be a bunch of different:\npublishing services, like Substack and Ghost\nreading apps, like Gmail and Matter\ncommunity platforms, like Slack and Discord\nand we should look for ways to make these reading, publishing, and community services all play nicely together. I’m calling this model “the unbundled web,” and I think RSS should be the primary method of interop.\nWhere do I sign up? 😉\nDiscuss on Changelog News",
+          "link": "https://tfos.co/p/rebuild-social-media/",
+          "publishedOn": "2022-12-14T15:00:01.000Z",
+          "wordCount": null,
+          "title": "How to rebuild social media on top of RSS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Jg5d",
+          "author": "Jerod Santo",
+          "description": "Setting up Rails for the first time with all the dependencies necessary can be daunting for beginners. Docked Rails attempts to flatten the onboarding curve by only requiring a working Docker installation in order to get started making a new Rails application, working with that application during development, and running a basic server. All based on pre-configured commands and dependencies living in a Docker image.\nGetting started is as easy as:\ndocker volume create ruby-bundle-cache\nalias rails='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle dhh37/rails'\nalias rails-server='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 dhh37/rails server -b 0.0.0.0'\n\nDiscuss on Changelog News",
+          "link": "https://github.com/rails/docked",
+          "publishedOn": "2022-12-14T13:57:00.000Z",
+          "wordCount": null,
+          "title": "Running Rails from Docker for easy start to development",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/8ln6",
           "author": "Jerod Santo",
           "description": "After 5+ years working for GitLab, Brendan O’Leary is moving on to his next adventure.\nI’m so proud of what we built—and I’m still proud and awed by the remarkable people there. GitLab’s values are the gold standard for what it means to be a wonderful company—for the team-members, for the community, and for the shareholders.\nHe took a moment to write down a few things he learned while there. The bullet points follow, but you’ll have to visit his blog for all the details:\nWrite down everything\nGive and accept: ownership, agency, and responsibility\nBe transparent with a low level of shame\nDiscuss on Changelog News",
@@ -864,36 +904,6 @@
           "wordCount": null,
           "title": "Openblocks is an open source alternative to Retool",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7AE",
-          "author": "Jerod Santo",
-          "description": "Might a “modular monolith” be the happy middle ground in the endless monolith or microservices decision? You may have to answer that question for yourself, but this post shares some good thoughts around designing a modular monolith:\nWhen designing a modular monolith, it is all about breaking up the system into modules, and then combining those modules into a monolith for deployment.\nIt might be worth noting that finding what modules you will need, might not be as easy as you would think. They have to be as independent as possible. High-cohesion and low coupling is very important here, as all communication between the modules might end up being a cross network call, if you decide to break it into services in the future.\nThis means that all communication between modules need to well abstracted, and be either asynchronous, so that they can handle the call going across the network in the future, or use some form of messaging.\nDiscuss on Changelog News",
-          "link": "https://www.fearofoblivion.com/build-a-modular-monolith-first",
-          "publishedOn": "2022-11-15T21:09:00.000Z",
-          "wordCount": null,
-          "title": "Build the modular monolith first",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Jgkr",
-          "author": "Jerod Santo",
-          "description": "Fathy Boundjadj new html2svg project is pretty cool. We’ve seen a lot of efforts to convert HTML to raster images like PNG and JPG, but SVG is a different (pixel-independent) story.\nThis end product took some engineering, and the linked post goes deep into all the steps Fathy had to take along the way. From taking the picture to rendering to SVG to supporting shadows and more.\nDiscuss on Changelog News",
-          "link": "https://fathy.fr/html2svg",
-          "publishedOn": "2022-11-15T20:19:00.000Z",
-          "wordCount": null,
-          "title": "Forking Chrome to turn HTML into SVG",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/8lkE",
-          "author": "Adam Stacoviak",
-          "description": "Let’s see if this ages well, but I do agree that Armin shares some good points. Scale comes with mainstream, and mainstream Mastodon isn’t quite possible if we can’t all agree (and we can’t). This is probably Mastodon’s most obvious achilles heel — agreement in a decentralized, federated, you can “do what you want” world.\n…before we even hit the issue of the technology, we hit the issue of there being absolutely no agreement of what the thing should look like or what the issue actually is and that’s I think much more interesting.\nSome people claim the solution to the technical scalability issue is huge instances, some other people have the belief that the actual intended design and solution were micro-instances of in extreme cases a user each.\nThen there’s moderation, which if you’ve ever run any community forums, Slacks, etc you’ll know that you’re going to have to moderate and deal with people problems.\nOn the topic of moderation the very same issue is even more absurd. Some instances want uncontrolled free speech where some instances effectively are pure shit-posting instances which are completely de-federated from the most of the fediverse as a result. Other instances really like to control their content, where some popular ones such as fosstodon ban all languages than English as a result to allow moderation. There also is no real agreement on if larger or smaller instance are going to make the problem of moderation better or worse.\nDiscuss on Changelog News",
-          "link": "https://lucumr.pocoo.org/2022/11/14/scaling-mastodon/",
-          "publishedOn": "2022-11-15T14:00:00.000Z",
-          "wordCount": null,
-          "title": "Scaling Mastodon is impossible",
-          "itunes": {}
         }
       ]
     },
@@ -953,15 +963,6 @@
           "publishedOn": "2022-11-18T20:00:00.000Z",
           "wordCount": 1836,
           "title": "Using AI to study 12 years of representation in TV"
-        },
-        {
-          "id": "https://blog.google/technology/ai/a-conversation-with-thomas-friedman-about-ai/",
-          "author": null,
-          "description": "Technology has an unmistakable impact on society — the way we work, learn and play have all changed significantly over the past decade. As SVP of Technology and Society, part of my work at Google is connecting people and ideas to help shape the future of our most ambitious technology and its impact on society, and to do it responsibly.\n\n\nAn important part of that is talking to and learning from experts in a variety of fields and disciplines. Recently I sat down with a brilliant friend, New York Times columnist and author Thomas L. Friedman, to compare notes and discuss some big questions on our minds.\n\n\n\n\nThomas Friedman and James Manyika in conversation at Google’s Bay View campus.\n\n\n\nWe had a lot to cover, as it had been a couple of years since our last such in-person conversation due to the pandemic. Much of our discussion focused on AI and how it affects society, but we also discussed what Tom has been observing, how we as a society shape technology, and why we think this moment in time is an inflection point akin to the printing press or the industrial revolution.\n\n\nTo close our conversation, I asked Tom what keeps him optimistic about the future. His answer reinforces my belief that getting technology right is a collective responsibility involving the whole of society — from open, honest conversations like this to better understand the opportunities and challenges, to defining policy, and responsibly creating new and societally-beneficial applications.\n\n\nI always learn something new when I have these conversations with Tom, and I’m excited to share more insights and dialogues on YouTube soon.\n\n\nVisit YouTubeto see more of James’ conversation with Thomas Friedman.",
-          "link": "https://blog.google/technology/ai/a-conversation-with-thomas-friedman-about-ai/",
-          "publishedOn": "2022-11-15T17:00:00.000Z",
-          "wordCount": 961,
-          "title": "A conversation with Thomas Friedman about AI"
         }
       ]
     },
@@ -1014,15 +1015,6 @@
           "publishedOn": "2022-11-17T09:34:25.000Z",
           "wordCount": 1280,
           "title": "Considering C99 for curl"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20624",
-          "author": "Daniel Stenberg",
-          "description": "In the curl project, one of the holiest and most sacred rules is: we do not break the API or ABI Everything else is a matter of discussion. More features all the time We keep adding features and we do improvements at a rather high pace. So much that we actually rarely do a release … Continue reading connection filters in curl →",
-          "link": "https://daniel.haxx.se/blog/2022/11/15/connection-filters-in-curl/",
-          "publishedOn": "2022-11-15T22:35:06.000Z",
-          "wordCount": 838,
-          "title": "connection filters in curl"
         }
       ]
     },
@@ -1111,15 +1103,6 @@
           "publishedOn": "2022-11-16T12:19:32.084Z",
           "wordCount": 887,
           "title": "Data Quality Automation at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "author": null,
-          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "publishedOn": "2022-11-15T12:19:55.911Z",
-          "wordCount": 1710,
-          "title": "Stability and scalability for search"
         }
       ]
     },
@@ -1178,6 +1161,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://github.blog/?p=69113",
+          "author": "John Swanson",
+          "description": "GitHub will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023. Learn more about our approach, when we’ll begin our rollout, and what you can expect as we begin requiring 2FA.",
+          "link": "https://github.blog/2022-12-14-raising-the-bar-for-software-security-next-steps-for-github-com-2fa/",
+          "publishedOn": "2022-12-14T17:00:15.000Z",
+          "wordCount": 1149,
+          "title": "Raising the bar for software security: next steps for GitHub.com 2FA"
+        },
         {
           "id": "https://github.blog/?p=69101",
           "author": "Lindsey Wild",
@@ -1330,33 +1322,6 @@
           "publishedOn": "2022-11-17T19:56:26.000Z",
           "wordCount": 1306,
           "title": "Octoverse 2022: 10 years of tracking open source"
-        },
-        {
-          "id": "https://github.blog/?p=68721",
-          "author": "Candy Ho",
-          "description": "GitHub Mobile helps keep work going while you're going. Untether yourself from your office.",
-          "link": "https://github.blog/2022-11-15-the-power-of-github-in-the-palm-of-your-hand/",
-          "publishedOn": "2022-11-15T20:51:23.000Z",
-          "wordCount": 868,
-          "title": "The power of GitHub in the palm of your hand"
-        },
-        {
-          "id": "https://github.blog/?p=68712",
-          "author": "Ryan J. Salva",
-          "description": "Reading code is a hugely important task for developers. That’s why we built GitHub’s new code search—to help developers search, navigate, and understand code written by them, their team, and the world.",
-          "link": "https://github.blog/2022-11-15-a-better-way-to-search-navigate-and-understand-code-on-github/",
-          "publishedOn": "2022-11-15T19:51:04.000Z",
-          "wordCount": 829,
-          "title": "A better way to search, navigate, and understand code on GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=68732",
-          "author": "Mario Rodriguez",
-          "description": "In July, we launched the general availability of GitHub Projects, and now we are excited to bring you even more features designed to make it easier to plan and track in the same place you build!",
-          "link": "https://github.blog/2022-11-15-the-journey-of-your-work-has-never-been-clearer/",
-          "publishedOn": "2022-11-15T18:50:57.000Z",
-          "wordCount": 928,
-          "title": "The journey of your work has never been clearer"
         }
       ]
     },
@@ -1365,6 +1330,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19782",
+          "author": "Victor Campanha",
+          "description": "Product Designers are responsible for designing solutions that leave a positive impact using thorough understanding of the clients' and the business's needs. Check out more about this career:\nThe post What is It like being a Product Designer at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/product-designer-at-nubank/",
+          "publishedOn": "2022-12-14T15:59:20.000Z",
+          "wordCount": 3452,
+          "title": "What is It like being a Product Designer at Nubank?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19842",
           "author": "Felipe Almeida - Machine Learning Engineer at Nubank",
@@ -1461,15 +1435,6 @@
           "publishedOn": "2022-11-16T17:00:00.000Z",
           "wordCount": 1527,
           "title": "Introducing Program Levels: Hacker-friendly Practices that Improve Program Results"
-        },
-        {
-          "id": "https://hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community",
-          "author": "Elizabeth Raffa",
-          "description": "HackerOne sat down with Wendy Ng, Principal Cloud Security Architect at OneWeb, to talk about their experience with their private HackerOne bug bounty program.",
-          "link": "https://www.hackerone.com/customer-stories/how-oneweb-safeguarding-its-assets-hacker-community",
-          "publishedOn": "2022-11-15T16:00:00.000Z",
-          "wordCount": 2007,
-          "title": "How OneWeb is Safeguarding its Assets with the Hacker Community"
         }
       ]
     },
@@ -1504,15 +1469,6 @@
           "publishedOn": "2022-11-17T16:37:01.000Z",
           "wordCount": null,
           "title": "Match Cutting at Netflix: Finding Cuts with Smooth Visual Transitions"
-        },
-        {
-          "id": "https://medium.com/p/d308ee43c079",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/helping-vfx-studios-pave-a-path-to-the-cloud-d308ee43c079?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-11-15T17:03:55.000Z",
-          "wordCount": null,
-          "title": "Helping VFX studios pave a path to the cloud"
         }
       ]
     },
