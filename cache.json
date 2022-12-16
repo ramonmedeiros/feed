@@ -46,6 +46,66 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1944",
+          "author": null,
+          "description": "Mat invites Bartłomiej Płotka, Kemal Akkoyun & Christian Simon to discuss how to make Go code more efficient through modern observability practices.\nDiscuss on Changelog News\nChangelog++ members get a bonus 12 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nBartlomiej Płotka – Mastodon, Twitter, GitHub, LinkedIn, Website\nKemal Akkoyun – Mastodon, Twitter, GitHub, LinkedIn\nChristian Simon – Twitter\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nBartek’s “Efficient Go” Book\nVitess Benchmark\nTools for Monitoring Applications Logs\nPrometheus library for Go\nProfiling Go Programs\npprof tool (also available in go tool pprof)\npkg.go.dev/net/http/pprof\npkg.go.dev/runtime/pprof\nBuilding a Go Profiler using Go\nLiz Rice on eBPF\nArena proposal\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/260",
+          "publishedOn": "2022-12-15T22:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 260: Making Go more efficient",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/260/go-time-260.mp3",
+            "length": "60069470",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/zDmn",
+          "author": "Martin Heinz",
+          "description": "Python’s magic methods - also known as dunder (double underscore) methods - can be used to implement a lot of cool things. Most of the time we use them for simple stuff, such as constructors (__init__), string representation (__str__, __repr__) or arithmetic operators (__add__/__mul__). There are however many more magic methods which you probably haven’t heard about and in this article we will explore all of them (even the hidden and undocumented).\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/87",
+          "publishedOn": "2022-12-15T17:07:00.000Z",
+          "wordCount": null,
+          "title": "Python magic methods you haven’t heard about",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Jgeb",
+          "author": "Jerod Santo",
+          "description": "If you operate an SSH server that receives connections from the public, you owe it to yourself to read this list of things you can do to lock that sucker down.\nDiscuss on Changelog News",
+          "link": "https://ittavern.com/ssh-server-hardening/",
+          "publishedOn": "2022-12-15T16:19:00.000Z",
+          "wordCount": null,
+          "title": "SSH server hardening",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Qp78",
+          "author": "Jerod Santo",
+          "description": "sqlite-loadable-rs is a new framework for writing fast, performant, and mostly-safe SQLite extensions in Rust. These extensions are nearly as fast those written in C, with the added benefit of Rust’s memory safety features, easy access to thousands of 3rd party crates and packages on crates.io, all while maintaining a splendid developer experience.\nDiscuss on Changelog News",
+          "link": "https://observablehq.com/@asg017/introducing-sqlite-loadable-rs",
+          "publishedOn": "2022-12-15T15:27:00.000Z",
+          "wordCount": null,
+          "title": "A framework for building SQLite extensions in Rust",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1934",
+          "author": null,
+          "description": "Eight months ago, in 🎧 episode 49, Alex Sims (Solutions Architect & Senior Software Engineer at James & James) shared with us his ambition to help migrate a monolithic PHP app running on AWS EC2 to a more modern architecture. The idea was some serverless, some EKS, and many incremental improvements.\nSo how did all of this work out in practice? How did the improved system cope with the Black Friday peak, as well as all the following Christmas orders? Thank you Alex for sharing with us your Ship It! inspired Kaizen story. It’s a wonderful Christmas present! 🎄🎁\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nRaygun – Never miss another mission-critical issue again — Raygun Alerting is now available for Crash Reporting and Real User Monitoring, to make sure you are quickly notified of the errors, crashes, and front-end performance issues that matter most to you and your business. Set thresholds for your alert based on an increase in error count, a spike in load time, or new issues introduced in the latest deployment. Start your free 14-day trial at Raygun.com\n\n    \nFeaturing\nAlex Sims – Twitter, LinkedIn\nGerhard Lazu – Twitter, GitHub, Website\nNotes and Links\n\n\n\n  \n\n\n  \n\n\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/83",
+          "publishedOn": "2022-12-15T14:30:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 83: 🎄 Planning for failure to ship faster 🎁",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/83/ship-it-83.mp3",
+            "length": "62821957",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/news/qM1e",
           "author": "Jerod Santo",
           "description": "Congrats to the entire Svelte team (and contributors) for this release, which culminates two years of effort:\nWe’re so excited to share this release with you. It’s the culmination of thousands of hours of work, both from the Svelte core team and the wider community, and we think it’s the most enjoyable way to build production-grade websites, whether you’re a solo developer working on a small project or part of a large team.\nDiscuss on Changelog News",
@@ -869,41 +929,6 @@
           "wordCount": null,
           "title": "Kubernetes' brand new Checkpointing API lets you backup-and-restore containers without every stopping them",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1937",
-          "author": null,
-          "description": "Online platforms and their users are susceptible to a barrage of threats – from disinformation to extremism to terror. Daniel and Chris chat with Matar Haller, VP of Data at ActiveFence, a leader in identifying online harm – is using a combination of AI technology and leading subject matter experts to provide Trust & Safety teams with precise, real-time data, in-depth intelligence, and automated tools to protect users and ensure safe online experiences.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMatar Haller – GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nActiveFence\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/201",
-          "publishedOn": "2022-11-16T17:20:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 201: Protecting us with the Database of Evil",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/201/practical-ai-201.mp3",
-            "length": "46711802",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/QpVe",
-          "author": "Andrew Ste",
-          "description": "While obtaining a job internationally may seem daunting, this guide will walk you through all the steps you need to find and secure a developer job abroad.\nIn this article, I share how how to prepare your resume for getting a developer job abroad, how to search for international opportunities, application strategies, important considerations to make when applying, the do’s and don’ts of successful interviews, and more!\nDiscuss on Changelog News",
-          "link": "https://www.smashingmagazine.com/2022/11/search-developer-job-abroad/",
-          "publishedOn": "2022-11-16T16:39:00.000Z",
-          "wordCount": null,
-          "title": "How to search for a developer job abroad",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ZopN",
-          "author": "Jerod Santo",
-          "description": "As the old saying goes, imitation is the sincerest form of flattery. In the software world, an open source alternative is the sincerest form of imitation. Well, Retool (a Changelog sponsor) can consider themselves flattered, because Openblocks sets out to do openly what they’ve been doing proprietarily. Here’s why:\nIt’s cumbersome to create a single app. You had to design user interfaces, write code in multiple languages and frameworks, and understand how all of that code works together.\nLow-code/No-code platforms are fast to get started with but quickly become unmaintainable and inflexible. This creates more problems than it solves.\nRetool-like solutions are great for their simplicity and flexibility, but they can also be limited in different ways compared to frameworks like React/Vue.\nOpenblocks wants to take a step forward. More specifically, Openblocks is\nAn all-in-one IDE to create internal or customer-facing apps.\nA place to create, build and share building blocks of web applications.\nA domain-specific language that UI-configurable block is the first-class citizen.\nDiscuss on Changelog News",
-          "link": "https://github.com/openblocks-dev/openblocks",
-          "publishedOn": "2022-11-16T15:52:01.000Z",
-          "wordCount": null,
-          "title": "Openblocks is an open source alternative to Retool",
-          "itunes": {}
         }
       ]
     },
@@ -1024,6 +1049,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "author": null,
+          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "publishedOn": "2022-12-16T12:15:55.027Z",
+          "wordCount": 1708,
+          "title": "Stability and scalability for search"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
           "author": null,
           "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
@@ -1085,24 +1119,6 @@
           "publishedOn": "2022-11-21T12:20:08.980Z",
           "wordCount": 1352,
           "title": "Scaling data access by moving an exabyte of data to Google Cloud"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
-          "author": null,
-          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
-          "publishedOn": "2022-11-16T12:19:32.984Z",
-          "wordCount": 1272,
-          "title": "Powering real-time data analytics with Druid at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "author": null,
-          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "publishedOn": "2022-11-16T12:19:32.084Z",
-          "wordCount": 887,
-          "title": "Data Quality Automation at Twitter"
         }
       ]
     },
@@ -1161,6 +1177,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://github.blog/?p=69128",
+          "author": "Mariam Sulakian",
+          "description": "GitHub now allows you to track any leaked secrets in your public repository, for free. With secret scanning alerts, you can track and action on leaked secrets directly within GitHub.",
+          "link": "https://github.blog/2022-12-15-leaked-a-secret-check-your-github-alerts-for-free/",
+          "publishedOn": "2022-12-15T17:00:52.000Z",
+          "wordCount": 978,
+          "title": "Leaked a secret? Check your GitHub alerts…for free"
+        },
+        {
+          "id": "https://github.blog/?p=69126",
+          "author": "Mariam Sulakian",
+          "description": "With just one click, admins in GitHub Advanced Security organizations can protect their custom patterns on push.",
+          "link": "https://github.blog/2022-12-15-github-advanced-security-customers-can-now-push-protect-their-custom-patterns/",
+          "publishedOn": "2022-12-15T17:00:38.000Z",
+          "wordCount": 1031,
+          "title": "GitHub Advanced Security customers can now push protect their custom patterns"
+        },
         {
           "id": "https://github.blog/?p=69113",
           "author": "John Swanson",
@@ -1426,15 +1460,6 @@
           "publishedOn": "2022-11-30T02:15:59.000Z",
           "wordCount": 1034,
           "title": "Creating a CTF: The Success of Flag Hunt Bangladesh"
-        },
-        {
-          "id": "https://hackerone.com/company-news/introducing-program-levels-hacker-friendly-practices-improve-program-results",
-          "author": "Chris Evans",
-          "description": "The ethical hacker community is one of the most powerful security resources available to any organization. We’ve worked with this community firsthand for the last decade and have witnessed their effectiveness and ingenuity. We’ve also learned a lot while helping organizations engage the world’s largest community of ethical hackers. \n\nToday, we’re pleased to announce a new tool to align your program with the state-of-the-art and signal your program maturity: Program Levels, a structured framework that lets programs level up by publicly committing to certain best practices.",
-          "link": "https://www.hackerone.com/company-news/introducing-program-levels-hacker-friendly-practices-improve-program-results",
-          "publishedOn": "2022-11-16T17:00:00.000Z",
-          "wordCount": 1527,
-          "title": "Introducing Program Levels: Hacker-friendly Practices that Improve Program Results"
         }
       ]
     },
