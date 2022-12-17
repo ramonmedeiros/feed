@@ -46,6 +46,46 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/1947",
+          "author": null,
+          "description": "To wrap up the year we’re talking about what’s breaking the internet, again. Yes, we’re talking about ChatGPT and we’re joined by our good friend Shawn “swyx” Wang. Between his writings on L-Space Diaries and his AI notes repo on GitHub, we had a lot to cover around the world of AI and what might be coming in 2023.\nAlso, we have one more show coming out before the end of the year — our 5th annual “State of the log” episode where Adam and Jerod look back at the year and talk through their favorite episodes of the year and feature voices from the community. So, stay tuned for that next week.\nDiscuss on Changelog News\nChangelog++ members get a bonus 16 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFly.io – The home of Changelog.com — Deploy your apps and databases clos…",
+          "link": "https://changelog.com/podcast/519",
+          "publishedOn": "2022-12-16T20:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 519: GPT has entered the chat",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/519/the-changelog-519.mp3",
+            "length": "72274465",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1922",
+          "author": null,
+          "description": "Deno creator Ryan Dahl goes one-on-one with Jerod to discuss their new npm support, why he’s so excited about JavaScript containers, Deno Deploy’s present & future, what he thinks about alternative runtimes like Bun, WinterCG, how Wasm fits into the story & more!\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nLolo Code – If you’re familiar with building severless apps, think of Lolo Code as your backend with a visual editor that lets you think and build at the same time. All this without having to provision or manage servers. Use the visual editor to build your app, connect nodes, and add any npm libraries you need. You can even write your own integrations. This makes Lolo Code very Zapier-ish, but for devs. Try it free today with no credit card required at lolo.co/jsparty\n\n    \nFeaturing\nRyan Dahl – GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNotes and Links\nRyan on The Changelog #443\nDeno 1.28 announcement\nJavaScript ShadowRealms\nJavaScript Containers\nWinterCG\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/256",
+          "publishedOn": "2022-12-16T18:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 256: Big news in Deno Land",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/256/js-party-256.mp3",
+            "length": "52915663",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/ZoQk",
+          "author": "Jerod Santo",
+          "description": "On Wednesday, Stability AI announced it would allow artists to remove their work from the training dataset for an upcoming Stable Diffusion 3.0 release. The move comes as an artist advocacy group called Spawning tweeted that Stability AI would honor opt-out requests collected on its Have I Been Trained website. The details of how the plan will be implemented remain incomplete and unclear, however.\nThis seems like a step in the right direction, but it appears that artists will have to proactively register and manually flag matched images in the database. Ain’t nobody got time for that!\nDiscuss on Changelog News",
+          "link": "https://arstechnica.com/information-technology/2022/12/stability-ai-plans-to-let-artists-opt-out-of-stable-diffusion-3-image-training/",
+          "publishedOn": "2022-12-16T15:18:00.000Z",
+          "wordCount": null,
+          "title": "Stability AI plans to let artists opt out of Stable Diffusion 3 image training",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/2/1944",
           "author": null,
           "description": "Mat invites Bartłomiej Płotka, Kemal Akkoyun & Christian Simon to discuss how to make Go code more efficient through modern observability practices.\nDiscuss on Changelog News\nChangelog++ members get a bonus 12 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nBartlomiej Płotka – Mastodon, Twitter, GitHub, LinkedIn, Website\nKemal Akkoyun – Mastodon, Twitter, GitHub, LinkedIn\nChristian Simon – Twitter\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nBartek’s “Efficient Go” Book\nVitess Benchmark\nTools for Monitoring Applications Logs\nPrometheus library for Go\nProfiling Go Programs\npprof tool (also available in go tool pprof)\npkg.go.dev/net/http/pprof\npkg.go.dev/runtime/pprof\nBuilding a Go Profiler using Go\nLiz Rice on eBPF\nArena proposal\nSomething missing or broken? PRs welcome!",
@@ -894,41 +934,6 @@
           "wordCount": null,
           "title": "GitHub Copilot isn't worth the risk",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zDAn",
-          "author": "Jerod Santo",
-          "description": "Kirill Rogovoy:\nIt took me several years to learn how to write code that scales to 10s of team members and a million lines of code. It took even more time to learn to write stupid code again.\n\nDiscuss on Changelog News",
-          "link": "https://rogovoy.me/blog/no-architecture",
-          "publishedOn": "2022-11-17T22:41:00.000Z",
-          "wordCount": null,
-          "title": "No architecture is better than bad architecture",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1865",
-          "author": null,
-          "description": "On a previous episode of Go Time we discussed binary bloat, and how the Go protocol buffer implementation is a big offender. In this episode we dive into the history of protocol buffers and gRPC, then we discuss how the protocol and the implementation can vary and lead to things like binary bloat.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nCalhoun Black Friday – Go Time co-host Jon Calhoun is having a Black Friday sale on November 21st-29th. All paid courses will be 50% OFF. Learn more about Jon’s courses at calhoun.io/courses\n\n    \nFeaturing\nAkshay Shah – Twitter, GitHub, LinkedIn, Website\nJon Calhoun – Twitter, GitHub, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nNotes and Links\nWhere Akshay works\nBuf’s gRPC implementation\nbufbuild/connect-go\nbufbuild/connect-web\nGoogle’s Protocol Buffers overview\ngRPC docs\nGoogle’s grpc-go\ngRPC benchmarks\ngRPC spec\nhand-write a gRPC handler in 7m\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/256",
-          "publishedOn": "2022-11-17T18:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 256: gRPC & protocol buffers",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/256/go-time-256.mp3",
-            "length": "72831339",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/zDAP",
-          "author": "Martin Heinz",
-          "description": "Kubernetes v1.25 introduced Container Checkpointing API as an alpha feature. This provides a way to backup-and-restore containers running in Pods, without ever stopping them.\nThis feature is primarily aimed at forensic analysis, but general backup-and-restore is something any Kubernetes user can take advantage of.\nSo, let’s take a look at this brand-new feature and see how we can enable it in our clusters and leverage it for backup-and-restore or forensic analysis.\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/85",
-          "publishedOn": "2022-11-17T14:16:00.000Z",
-          "wordCount": null,
-          "title": "Kubernetes' brand new Checkpointing API lets you backup-and-restore containers without every stopping them",
-          "itunes": {}
         }
       ]
     },
@@ -1031,15 +1036,6 @@
           "publishedOn": "2022-11-25T14:23:44.000Z",
           "wordCount": 1306,
           "title": "89 operating systems"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20238",
-          "author": "Daniel Stenberg",
-          "description": "tldr: we stick to C89 for now. The curl project builds on foundations that started in late 1996 with the tool named httpget. ANSI C became known as C89 In 1996 there were not too many good alternatives for making a small and efficient command line tool for doing Internet transfers. I am not saying … Continue reading Considering C99 for curl →",
-          "link": "https://daniel.haxx.se/blog/2022/11/17/considering-c99-for-curl/",
-          "publishedOn": "2022-11-17T09:34:25.000Z",
-          "wordCount": 1280,
-          "title": "Considering C99 for curl"
         }
       ]
     },
@@ -1048,6 +1044,24 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "author": null,
+          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "publishedOn": "2022-12-17T12:14:40.752Z",
+          "wordCount": 890,
+          "title": "Data Quality Automation at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "author": null,
+          "description": "In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter",
+          "publishedOn": "2022-12-17T12:14:40.738Z",
+          "wordCount": 1277,
+          "title": "Powering real-time data analytics with Druid at Twitter"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
           "author": null,
@@ -1177,6 +1191,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://github.blog/?p=68919",
+          "author": "Michelle Mannering",
+          "description": "We promised we’d be back soon and here we are! There has been an incredible amount of open source projects shipping major version releases before the year wraps up. I can’t believe we are all saying that now. “When the year wraps up!” or “See you next year!” What happened to 2022? Well, we know […]",
+          "link": "https://github.blog/2022-12-16-release-radar-nov-2022/",
+          "publishedOn": "2022-12-16T19:00:22.000Z",
+          "wordCount": 1698,
+          "title": "Release Radar · November 2022 Edition"
+        },
         {
           "id": "https://github.blog/?p=69128",
           "author": "Mariam Sulakian",
@@ -1347,15 +1370,6 @@
           "publishedOn": "2022-11-22T19:00:35.000Z",
           "wordCount": 1363,
           "title": "Exciting New GitHub Features Powering Machine Learning"
-        },
-        {
-          "id": "https://github.blog/?p=68760",
-          "author": "Martin Woodward",
-          "description": "How is open source changing the world and impacting businesses? In this year's Octoverse report, we identified three big trends to watch.",
-          "link": "https://github.blog/2022-11-17-octoverse-2022-10-years-of-tracking-open-source/",
-          "publishedOn": "2022-11-17T19:56:26.000Z",
-          "wordCount": 1306,
-          "title": "Octoverse 2022: 10 years of tracking open source"
         }
       ]
     },
@@ -1364,6 +1378,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19819",
+          "author": "Bruno Rodrigues - Senior Engineering Manager at Nubank",
+          "description": "Find out what is a functional paradigm, how it differs from other paradigms and how we use that technology at Nubank.\nThe post What is functional programming and how do we use that technology at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/functional-programming-technology-at-nubank/",
+          "publishedOn": "2022-12-16T18:30:55.000Z",
+          "wordCount": 3716,
+          "title": "What is functional programming and how do we use that technology at Nubank?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19782",
           "author": "Victor Campanha",
@@ -1426,6 +1449,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix",
+          "author": "HackerOne",
+          "description": "Today's hacker Jason Haddix \nJXoaT: So, what was your first experience with the word hacker? \nJason: My first exposure was similar to ot",
+          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix",
+          "publishedOn": "2022-12-15T16:34:28.000Z",
+          "wordCount": 2014,
+          "title": "Hacker AFK: Jason Haddix"
+        },
+        {
           "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-drsniper",
           "author": "HackerOne",
           "description": "What made you want to become an ambassador?  \nI love meeting and getting to know new people. Regarding cybersecurity, it is fun talking to peop",
@@ -1476,24 +1508,6 @@
           "publishedOn": "2022-12-04T00:10:21.000Z",
           "wordCount": 3301,
           "title": "Ready-to-go sample data pipelines with Dataflow"
-        },
-        {
-          "id": "https://medium.com/p/5b8d032da09c",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-11-17T21:08:00.000Z",
-          "wordCount": null,
-          "title": "For your eyes only: improving Netflix video quality with neural networks"
-        },
-        {
-          "id": "https://medium.com/p/31c3fc14ae59",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/match-cutting-at-netflix-finding-cuts-with-smooth-visual-transitions-31c3fc14ae59?source=rss----2615bd06b42e---4",
-          "publishedOn": "2022-11-17T16:37:01.000Z",
-          "wordCount": null,
-          "title": "Match Cutting at Netflix: Finding Cuts with Smooth Visual Transitions"
         }
       ]
     },
