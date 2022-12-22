@@ -809,46 +809,6 @@
           "wordCount": null,
           "title": "Introducing the extremely linear git history",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/jqbg",
-          "author": "Austin Gil",
-          "description": "I recently discovered an awesome tool called Coolify that calls itself an open-source Netlify or Heroku alternative that can be self-hosted. Gave it a whirl for my own personal projects and loved it, so I thought I’d share.\nDiscuss on Changelog News",
-          "link": "https://austingil.com/automatically-deploy-from-git/",
-          "publishedOn": "2022-11-22T22:32:00.000Z",
-          "wordCount": null,
-          "title": "Automatically deploy apps to a VPS with Git triggers & Coolify",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/dqy5",
-          "author": "Jerod Santo",
-          "description": "Kate Monica and the team at Tremendous have been doing this high-documentation, low-meeting work culture for awhile now, so she wrote up five discrete benefits that they’ve seen as a result of it.\nDiscuss on Changelog News",
-          "link": "https://www.tremendous.com/blog/the-perks-of-a-high-documentation-low-meeting-work-culture",
-          "publishedOn": "2022-11-22T21:46:00.000Z",
-          "wordCount": null,
-          "title": "The perks of a high-documentation, low-meeting work culture",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6r9Q",
-          "author": "Jerod Santo",
-          "description": "In a tweet, of all places:\nCome to @tumblr. We’ll add activitypub for interconnect. Don’t stress.\nThis is exactly the kind of adoption necessary for the Fediverse to really take off. its_happening.gif?\nDiscuss on Changelog News",
-          "link": "https://twitter.com/photomatt/status/1594587024245260289",
-          "publishedOn": "2022-11-22T20:59:00.000Z",
-          "wordCount": null,
-          "title": "Matt Mullenweg says Tumblr will support ActivityPub",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/5j1r",
-          "author": "Jerod Santo",
-          "description": "Matthew Tejo:\nTwitter supposedly lost around 80% of its work force. What ever the real number is, there are whole teams with out engineers on it now. Yet, the website goes on and the tweets keep coming. This left a lot wondering what exactly was going on with all those engineers and made it seem like it was all just bloat. I’d like to explain my little corner of Twitter (though it wasn’t so little) and some of the work that went on that kept this thing running.\nThis is a detailed post about Twitter’s caching system that Matthew and others built while working there, and it’s brilliantly summed up by commenter Johnny Manu40:\nWhen everything works fine, they wonder why they hired you. When everything stops working, they wonder why they hired you. I.T. in a nutshell.\nDiscuss on Changelog News",
-          "link": "https://matthewtejo.substack.com/p/why-twitter-didnt-go-down-from-a",
-          "publishedOn": "2022-11-22T20:13:00.000Z",
-          "wordCount": null,
-          "title": "Why Twitter didn’t go down (from a real Twitter SRE)",
-          "itunes": {}
         }
       ]
     },
@@ -907,6 +867,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=19480",
+          "author": "Daniel Stenberg",
+          "description": "tldr: several hundred hours of dedicated scrutinizing of curl by a team of security experts resulted in two CVEs and a set of less serious remarks. The link to the reports is at the bottom of this article. Thanks to an OpenSSF grant, OSTIF helped us set up a curl security audit, which the excellent … Continue reading The 2022 curl security audit →",
+          "link": "https://daniel.haxx.se/blog/2022/12/21/the-2022-curl-security-audit/",
+          "publishedOn": "2022-12-21T21:57:56.000Z",
+          "wordCount": 1410,
+          "title": "The 2022 curl security audit"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=20937",
           "author": "Daniel Stenberg",
@@ -969,6 +938,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
+          "author": null,
+          "description": "In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
+          "publishedOn": "2022-12-22T12:16:47.278Z",
+          "wordCount": 1353,
+          "title": "Scaling data access by moving an exabyte of data to Google Cloud"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
           "author": null,
           "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
@@ -1030,24 +1008,6 @@
           "publishedOn": "2022-12-09T12:16:39.933Z",
           "wordCount": 1494,
           "title": "Twitter Sparrow tackles data storage challenges of scale"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "author": null,
-          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "publishedOn": "2022-11-22T12:20:52.722Z",
-          "wordCount": 2277,
-          "title": "Measuring the impact of Twitter network latency with CausalImpact"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
-          "author": null,
-          "description": "This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
-          "publishedOn": "2022-11-22T12:20:52.680Z",
-          "wordCount": 1838,
-          "title": "Graph machine learning with missing node features"
         }
       ]
     },
@@ -1064,15 +1024,6 @@
           "publishedOn": "2022-12-08T19:04:00.000Z",
           "wordCount": 2498,
           "title": "Exploiting CVE-2022-42703 - Bringing back the stack attack"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/11/mind-the-gap.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=OPeqXG-QxW3ZD8BtmPikfA');.lst-kix_9apzkelodq30-0>li:before{content:\"\\0025cf  \"}ul.lst-kix_9apzkelodq30-6{list-style-type:none}ul.lst-kix_9apzkelodq30-7{list-style-type:none}ul.lst-kix_9apzkelodq30-4{list-style-type:none}ul.lst-kix_9apzkelodq30-5{list-style-type:none}ul.lst-kix_9apzkelodq30-2{list-style-type:none}ul.lst-kix_9apzkelodq30-3{list-style-type:none}ul.lst-kix_9apzkelodq30-0{list-style-type:none}.lst-kix_9apzkelodq30-6>li:before{content:\"\\0025cf  \"}ul.lst-kix_9apzkelodq30-1{list-style-type:none}.lst-kix_9apzkelodq30-5>li:before{content:\"\\0025a0  \"}.lst-kix_9apzkelodq30-3>li:before{content:\"\\0025cf  \"}.lst-kix_9apzkelodq30-7>li:before{content:\"\\0025cb  \"}.lst-kix_9apzkelodq30-4>li:before{content:\"\\0025cb  \"}.lst-kix_9a…",
-          "link": "https://googleprojectzero.blogspot.com/2022/11/mind-the-gap.html",
-          "publishedOn": "2022-11-22T21:05:00.000Z",
-          "wordCount": 1076,
-          "title": "Mind the Gap"
         }
       ]
     },
@@ -1089,15 +1040,6 @@
           "publishedOn": "2022-12-07T18:48:54.000Z",
           "wordCount": 1314,
           "title": "How the Mozilla Community helps shape our products"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47935",
-          "author": "Gabriele Svelto",
-          "description": "We break down how we reduced Firefox out-of-memory crashes on Windows with a simple trick. Poorly behaving web pages and apps are no longer capable of crashing the browser by exhausting memory.\nThe post Improving Firefox stability with this one weird trick appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/11/improving-firefox-stability-with-this-one-weird-trick/",
-          "publishedOn": "2022-11-22T14:16:56.000Z",
-          "wordCount": 1210,
-          "title": "Improving Firefox stability with this one weird trick"
         }
       ]
     },
@@ -1106,6 +1048,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=69259",
+          "author": "Toya East",
+          "description": "This year, we took GitHub Gives, our company-wide giving campaign, to new heights and wanted to share our learnings to provide best practices in programming a successful hybrid giving campaign for employees.",
+          "link": "https://github.blog/2022-12-21-github-gives-2022-creating-positive-lasting-contributions-in-our-communities/",
+          "publishedOn": "2022-12-21T16:06:49.000Z",
+          "wordCount": 1394,
+          "title": "GitHub Gives 2022: Creating positive, lasting contributions in our communities"
+        },
         {
           "id": "https://github.blog/?p=69237",
           "author": "Jeimy Ruiz",
@@ -1312,15 +1263,6 @@
           "publishedOn": "2022-11-28T20:17:10.000Z",
           "wordCount": 1137,
           "title": "To infinity and beyond: enabling the future of GitHub’s REST API with API versioning"
-        },
-        {
-          "id": "https://github.blog/?p=68806",
-          "author": "Seth Juarez",
-          "description": "Discover the exciting enhancements in GitHub that empower Machine Learning practitioners to do more.",
-          "link": "https://github.blog/2022-11-22-exciting-new-github-features-powering-machine-learning/",
-          "publishedOn": "2022-11-22T19:00:35.000Z",
-          "wordCount": 1363,
-          "title": "Exciting New GitHub Features Powering Machine Learning"
         }
       ]
     },
@@ -1329,6 +1271,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19803",
+          "author": "BU Team",
+          "description": "In less than six months, a small team of 6 Software Engineers, 2 Designers, 1 Business Analyst, 1 PM, 1 PMM and 1 Tech Manager built Nubank’s first social feature.\nThe post NuBolão: How we built Nubank’s first social feature in less than six months appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/how-nubank-built-nubolao/",
+          "publishedOn": "2022-12-21T22:35:14.000Z",
+          "wordCount": 3617,
+          "title": "NuBolão: How we built Nubank’s first social feature in less than six months"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19930",
           "author": "Felipe Almeida - Machine Learning Engineer at Nubank",
@@ -1390,6 +1341,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702",
+          "author": "HackerOne",
+          "description": "Checkout this infographic for a more detailed look at stats, hacker perspectives, and highlights of our event. Be sure to checkout all of our H@ckti",
+          "link": "https://www.hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702",
+          "publishedOn": "2022-12-21T22:02:33.000Z",
+          "wordCount": 590,
+          "title": "Visualizing Live Hacking Events: Hackers Break Records at H1-702"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix",
           "author": "HackerOne",
