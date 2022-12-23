@@ -774,41 +774,6 @@
           "wordCount": null,
           "title": "Why most monitoring strategies fail",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/gwql",
-          "author": "Jerod Santo",
-          "description": "Why another file manager? I wanted something simple and minimalistic. Something to help me with faster navigation in the filesystem; a cd and ls replacement. So I build “llama”. It allows for quick navigation with fuzzy searching. cd integration is quite simple. And you can open vim right from the llama. That’s it. As simple and dumb as a llama.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/antonmedv/llama",
-          "publishedOn": "2022-11-23T18:42:00.000Z",
-          "wordCount": null,
-          "title": "Llama — a terminal file manager",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1857",
-          "author": null,
-          "description": "For our  last 2022 Kaizen episode, we went all out:\n💪 @jerod outdid himself in the number of improvements shipped between Kaizens\n🕺 A few of our listeners contributed → prompted us to create a new contributing guide\n🗺 We now have a new infrastructure diagram\nAll of this, and a whole lot more, is captured as GitHub discussion 🐙 changelog.com#433. If you want to see everything that we improved, that is a great companion to this episode.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFeaturing\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Twitter, GitHub\nGerhard Lazu – Twitter, GitHub, Website\nNotes and Links\nAll episode notes are in GitHub discussion changelog.com#433. Feel free to add your thoughts / questions!\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/80",
-          "publishedOn": "2022-11-23T16:45:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 80: Kaizen! 24 improvements & a lot more",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/80/ship-it-80.mp3",
-            "length": "66344399",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/mlj3",
-          "author": "Jerod Santo",
-          "description": "An interesting idea from Gustav Westling…\nOne of the things that I like to do in my projects, is to make the git history as linear as possible.\nUsually this means to rebase commits onto the main branch, but it can also mean to only allow merges in one direction, from feature branches into main, never the other way around. It kind of depends on the project.\nToday I’m taking this one step further, and I’m introducing a new concept: extremely linear git history.\nWith our extremely linear history, the first commit in a repo hash a hash that starts with 0000000, the second commit is 0000001, the third is 0000002, and so on!\nHow he accomplishes this is perhaps even more interesting (and hacky!)\n\nDiscuss on Changelog News",
-          "link": "https://westling.dev/b/extremely-linear-git",
-          "publishedOn": "2022-11-23T14:36:00.000Z",
-          "wordCount": null,
-          "title": "Introducing the extremely linear git history",
-          "itunes": {}
         }
       ]
     },
@@ -937,6 +902,24 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "author": null,
+          "description": "This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features",
+          "publishedOn": "2022-12-23T12:15:57.586Z",
+          "wordCount": 1839,
+          "title": "Graph machine learning with missing node features"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "author": null,
+          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "publishedOn": "2022-12-23T12:15:57.570Z",
+          "wordCount": 2270,
+          "title": "Measuring the impact of Twitter network latency with CausalImpact"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
           "author": null,

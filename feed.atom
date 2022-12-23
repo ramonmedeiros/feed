@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-22T12:17:16.117Z</updated>
+    <updated>2022-12-23T12:16:38.135Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Graph machine learning with missing node features]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features"/>
+        <updated>2022-12-23T12:15:57.586Z</updated>
+        <summary type="html"><![CDATA[This blog post discusses how feature propagation can be an efficient and scalable approach for handling missing features in graph machine learning applications.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
+        <updated>2022-12-23T12:15:57.570Z</updated>
+        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scaling data access by moving an exabyte of data to Google Cloud]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud</id>
@@ -1695,68 +1715,6 @@ Something missing or broken? PRs welcome!]]></summary>
 Discuss on Changelog News]]></summary>
         <author>
             <name>Abdulfatai Popoola</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Llama — a terminal file manager]]></title>
-        <id>changelog.com/news/gwql</id>
-        <link href="https://github.com/antonmedv/llama"/>
-        <updated>2022-11-23T18:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Why another file manager? I wanted something simple and minimalistic. Something to help me with faster navigation in the filesystem; a cd and ls replacement. So I build “llama”. It allows for quick navigation with fuzzy searching. cd integration is quite simple. And you can open vim right from the llama. That’s it. As simple and dumb as a llama.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ship It! 80: Kaizen! 24 improvements & a lot more]]></title>
-        <id>changelog.com/14/1857</id>
-        <link href="https://changelog.com/shipit/80"/>
-        <updated>2022-11-23T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[For our  last 2022 Kaizen episode, we went all out:
-💪 @jerod outdid himself in the number of improvements shipped between Kaizens
-🕺 A few of our listeners contributed → prompted us to create a new contributing guide
-🗺 We now have a new infrastructure diagram
-All of this, and a whole lot more, is captured as GitHub discussion 🐙 changelog.com#433. If you want to see everything that we improved, that is a great companion to this episode.
-Discuss on Changelog News
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.
-
-    
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/
-
-    
-Sourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights
-
-    
-Featuring
-Adam Stacoviak – Twitter, GitHub, LinkedIn, Website
-Jerod Santo – Twitter, GitHub
-Gerhard Lazu – Twitter, GitHub, Website
-Notes and Links
-All episode notes are in GitHub discussion changelog.com#433. Feel free to add your thoughts / questions!
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing the extremely linear git history]]></title>
-        <id>changelog.com/news/mlj3</id>
-        <link href="https://westling.dev/b/extremely-linear-git"/>
-        <updated>2022-11-23T14:36:00.000Z</updated>
-        <summary type="html"><![CDATA[An interesting idea from Gustav Westling…
-One of the things that I like to do in my projects, is to make the git history as linear as possible.
-Usually this means to rebase commits onto the main branch, but it can also mean to only allow merges in one direction, from feature branches into main, never the other way around. It kind of depends on the project.
-Today I’m taking this one step further, and I’m introducing a new concept: extremely linear git history.
-With our extremely linear history, the first commit in a repo hash a hash that starts with 0000000, the second commit is 0000001, the third is 0000002, and so on!
-How he accomplishes this is perhaps even more interesting (and hacky!)
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>
