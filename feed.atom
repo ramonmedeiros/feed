@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-23T12:16:38.135Z</updated>
+    <updated>2022-12-24T12:15:16.628Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What’s with all the ducks?]]></title>
+        <id>https://github.blog/?p=69198</id>
+        <link href="https://github.blog/2022-12-23-whats-with-all-the-ducks/"/>
+        <updated>2022-12-23T17:00:11.000Z</updated>
+        <summary type="html"><![CDATA[What in the world do rubber ducks have to do with programming? And why were they everywhere at GitHub Universe? A lot of you asked, so I’m here to help explain.]]></summary>
+        <author>
+            <name>Michelle Mannering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 520: State of the "log" 2022]]></title>
+        <id>changelog.com/1/1884</id>
+        <link href="https://changelog.com/podcast/520"/>
+        <updated>2022-12-23T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Our 5th annual year-end wrap-up episode! Sit back, relax, pour a glass of your favorite beverage and join us for listener voice mails, our favorite episodes, some must-listens, and of course the top 5 most listened to episodes of the year. Thanks for listening! 💚
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring
+Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+Notes and Links
+Listener favs:
+Go Time #250: Mat’s GopherCon EU diary
+Ship It! #44: Fundamentals with Kelsey Hightower
+The Changelog #454: The return of Richard Hipp
+Backstage #18: Tenet with heavy spoilers
+Backstage #23: The Oban Pro with Parker Selbert
+The Changelog #464: This insa…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The curl fragment trick]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20985</id>
+        <link href="https://daniel.haxx.se/blog/2022/12/23/the-curl-fragment-trick/"/>
+        <updated>2022-12-23T13:44:33.000Z</updated>
+        <summary type="html"><![CDATA[curl supports globbing in the sense that you can provide ranges or lists in the URL that will make curl iterate, loop, over all the different variations and do a separate transfer for each. For example, get ten images in a numeric range: curl "https://example.com/image[1-10].jpg" -O Or get them when named after some weekdays: curl … Continue reading The curl fragment trick →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Graph machine learning with missing node features]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/graph-machine-learning-with-missing-node-features</id>
@@ -1676,45 +1719,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[I occasionally do talks about curl. In these talks I often include a few slides that say something abut curl’s coverage and presence on different platforms. Mostly to boast of course, but also to help explain to the audience how curl has manged to reach its ten billion installations. This is current incarnation of those … Continue reading 89 operating systems →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 257: How Pinterest delivers software at scale]]></title>
-        <id>changelog.com/2/1861</id>
-        <link href="https://changelog.com/gotime/257"/>
-        <updated>2022-11-24T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nishant Roy, Engineering Manager at Pinterest Ads, joins Johnny & Jon to detail how they’ve managed to continue shipping quality software from startup through hypergrowth all the way to IPO. Prepare to learn a lot about Pinterest’s integration and deployment pipeline, observability stack, Go-based services and more.
-Discuss on Changelog News
-Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-FireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/
-
-    
-Calhoun Black Friday – Go Time co-host Jon Calhoun is having a Black Friday sale on November 21st-29th. All paid courses will be 50% OFF. Learn more about Jon’s courses at calhoun.io/courses
-
-    
-Featuring
-Nishant Roy – Twitter, GitHub, LinkedIn
-Johnny Boursiquot – Twitter, GitHub, Website
-Jon Calhoun – Twitter, GitHub, Website
-Notes and Links
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why most monitoring strategies fail]]></title>
-        <id>changelog.com/news/bJ37</id>
-        <link href="https://abdulapopoola.com/2022/11/16/why-most-monitoring-strategies-fail/"/>
-        <updated>2022-11-24T14:50:00.000Z</updated>
-        <summary type="html"><![CDATA[A team without a proven observability strategy will invariably suffer from reactive disruptions; mitigating outages will be painful, like finding a needle in a haystack while blindfolded. This post describes a battle-proven strategy for ensuring full observability coverage.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Abdulfatai Popoola</name>
         </author>
     </entry>
 </feed>
