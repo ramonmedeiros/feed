@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-24T12:15:16.628Z</updated>
+    <updated>2022-12-25T12:15:19.003Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
@@ -403,6 +403,17 @@ Discuss on Changelog News]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Expanding the App Defense Alliance]]></title>
+        <id>http://security.googleblog.com/2022/12/app-defense-alliance-expansion.html</id>
+        <link href="http://security.googleblog.com/2022/12/app-defense-alliance-expansion.html"/>
+        <updated>2022-12-15T16:59:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Brooke Davis, Android Security and Privacy Team 
+The App Defense Alliance launched in 2019 with a mission to protect Android users from bad apps through shared intelligence and coordinated detection between alliance partners.  Earlier this year, the App Defense Alliance expanded to include new initiatives outside of malware detection and is now the home for several industry-led collaborations including Malware Mitigation, MASA (Mobile App Security Assessment) & CASA (Cloud App Security Assessment). With a new dedicated landing page at appdefensealliance.dev, the ADA has an expanded mission to protect Android users by removing threats while improving app quality across the ecosystem. Let’s walk through some of the latest program updates from the past year, including the addition o…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hacker AFK: Jason Haddix]]></title>
         <id>https://hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix</id>
         <link href="https://www.hackerone.com/hackerone-community-blog/hacker-afk-jason-haddix"/>
@@ -597,6 +608,19 @@ EMNLP
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing OSV-Scanner: Vulnerability Scanner for Open Source]]></title>
+        <id>http://security.googleblog.com/2022/12/announcing-osv-scanner-vulnerability.html</id>
+        <link href="http://security.googleblog.com/2022/12/announcing-osv-scanner-vulnerability.html"/>
+        <updated>2022-12-13T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Rex Pan, software engineer, Google Open Source Security Team
+Today, we’re launching the OSV-Scanner, a free tool that gives open source developers easy access to vulnerability information relevant to their project. 
+Last year, we undertook an effort to improve vulnerability triage for developers and consumers of open source software. This involved publishing the Open Source Vulnerability (OSV) schema and launching the OSV.dev service, the first distributed open source vulnerability database. OSV allows all the different open source ecosystems and vulnerability databases to publish and consume information  in one simple, precise, and machine readable format. 
+The OSV-Scanner is the next step in this effort, providing an officially supported frontend to the OSV database that connec…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
         </author>
     </entry>
     <entry>
@@ -1629,96 +1653,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Our partnership with iCAD Inc. marks the first time we are licensing our mammography AI model in clinical practice.]]></summary>
         <author>
             <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 516: This !insane tech hiring market]]></title>
-        <id>changelog.com/1/1887</id>
-        <link href="https://changelog.com/podcast/516"/>
-        <updated>2022-11-25T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re back talking to Gergely Orosz — this time not quite about the insane tech hiring market, but more so the flip side, the 180, the not so good tech hiring market, the layoff market and what you can expect. There’s a lot of FUD out there, so hopefully this show gives you a lens into what’s really going on, and what to really expect. Maybe more so, how to keep your job or find a new job. We come to this topic with great compassion and great understanding, so please…there is a community here for you. There’s a lot of people in our Slack. Call it your home, it’s free to join and everyone is welcome.
-Discuss on Changelog News
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Square – Develop on the platform that sellers tr…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 253: All about Playwright]]></title>
-        <id>changelog.com/6/1921</id>
-        <link href="https://changelog.com/jsparty/253"/>
-        <updated>2022-11-25T18:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Debbie O’Brien –Senior Program Manager at Microsoft– joins Amal & Nick for a deep-dive on Playwright, an automation library for cross-browser end-to-end testing. Along the way, we learn why Microsoft decided to fork Puppeteer, Playwright’s unique value proposition, cool features like auto-waiting & the trace viewer, how it compares to Cypress & a lot more.
-Discuss on Changelog News
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-Square – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.
-
-    
-Sentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.
-
-    
-Ship It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.
-
-    
-Featuring
-Debbie O'Brien – Twitter, GitHub, Website
-Amal Hussein – Twitter, GitHub
-Nick Nisi – Twitter, GitHub, Website
-Notes and Links
-Shout out to Caio Amaral for requesting this episode. You, too, can request an episode!
-Mallorca
-playwright.dev
-Playwright on GitHub
-Nuxt
-puppeteer
-Selenium
-Playwright test for VSCode
-Getting started - VS Code
-Testing Library
-Playwright on YouTube
-What’s new in Playwright 1.27
-Test Generator
-CI GitHub Actions
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Take the "State of JS 2022" survey!]]></title>
-        <id>changelog.com/news/2lP6</id>
-        <link href="https://survey.devographics.com/survey/state-of-js/2022"/>
-        <updated>2022-11-25T17:12:00.000Z</updated>
-        <summary type="html"><![CDATA[If you don’t have time to fill out the entire survey… at least skip down to the “Resources” ~> “Podcasts” section and help someone dethrone those rascals over at Syntax. I think it might be JS Party’s time, y’all…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using Rust at a startup: a cautionary tale]]></title>
-        <id>changelog.com/news/O5ON</id>
-        <link href="https://scribe.rip/using-rust-at-a-startup-a-cautionary-tale-42ab823d9454"/>
-        <updated>2022-11-25T16:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Matt Welsh:
-I hesitated writing this post, because I don’t want to start, or get into, a holy war over programming languages. (Just to get the flame bait out of the way, Visual Basic is the best language ever!) But I’ve had a number of people ask me about my experience with Rust and whether they should pick up Rust for their projects. So, I’d like to share some of the pros and cons that I see of using Rust in a startup setting, where moving fast and scaling teams is really important.
-The learning curve and hiring difficulties seem to be the major culprits, in Matt’s experience.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[89 operating systems]]></title>
-        <id>https://daniel.haxx.se/blog/?p=20657</id>
-        <link href="https://daniel.haxx.se/blog/2022/11/25/89-operating-systems/"/>
-        <updated>2022-11-25T14:23:44.000Z</updated>
-        <summary type="html"><![CDATA[I occasionally do talks about curl. In these talks I often include a few slides that say something abut curl’s coverage and presence on different platforms. Mostly to boast of course, but also to help explain to the audience how curl has manged to reach its ten billion installations. This is current incarnation of those … Continue reading 89 operating systems →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
