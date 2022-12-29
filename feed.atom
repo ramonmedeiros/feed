@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-26T12:16:32.758Z</updated>
+    <updated>2022-12-29T12:16:24.142Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[curl -w certs]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20805</id>
+        <link href="https://daniel.haxx.se/blog/2022/12/28/curl-w-certs/"/>
+        <updated>2022-12-28T08:15:50.000Z</updated>
+        <summary type="html"><![CDATA[When a client connects to a TLS server it gets sent one or more certificates during the handshake. Those certificates are verified by the client, to make sure that the server is indeed the right one: the server the client expects it to be; no impostor and no man in the middle etc. When such … Continue reading curl -w certs →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[At 17000 curl commits]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20286</id>
+        <link href="https://daniel.haxx.se/blog/2022/12/27/at-17000-curl-commits/"/>
+        <updated>2022-12-27T21:44:54.000Z</updated>
+        <summary type="html"><![CDATA[Today, another 1,000 commits have been recorded as done by me in the curl source code git repository since November 2021. Out of a total of 29,608 commits to the curl source code repository, I have made 17,001. 57.42%. The most recent one was PR #10019. In 2022, I have done 56% of all the … Continue reading At 17000 curl commits →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What’s with all the ducks?]]></title>
         <id>https://github.blog/?p=69198</id>
@@ -1534,125 +1554,6 @@ The post What is it like being an Analytics Engineer at Nubank? appeared first o
 Flag Hunt 2022 CTF was the first ever two-stage event in Bangladesh, where the qualification round took place online among 159 te]]></summary>
         <author>
             <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 202: Copilot lawsuits & Galactica "science"]]></title>
-        <id>changelog.com/7/1943</id>
-        <link href="https://changelog.com/practicalai/202"/>
-        <updated>2022-11-29T20:45:00.000Z</updated>
-        <summary type="html"><![CDATA[There are some big AI-related controversies swirling, and it’s time we talk about them. A lawsuit has been filed against GitHub, Microsoft, and OpenAI related to Copilot code suggestions, and many people have been disturbed by the output of Meta AI’s Galactica model. Does Copilot violate open source licenses? Does Galactica output dangerous science-related content? In this episode, we dive into the controversies and risks, and we discuss the benefits of these technologies.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-Notes and Links
-Related to Copilot:
-Article - “GitHub Copilot Isn’t Worth the Risk”
-Tabnine
-Big Code Project
-Related to Galactica:
-Model website
-Article: “Galactica: the AI knowledge base that makes stuff up”
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ruby adds a new core Data class to represent immutable value objects]]></title>
-        <id>changelog.com/news/9l9y</id>
-        <link href="https://blog.saeloun.com/2022/11/22/data-immutable-object"/>
-        <updated>2022-11-29T17:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Ruby 3.1 adds a new core class called Data to represent simple immutable value objects. The Data class helps define simple classes for value-alike objects that can be extended with custom methods.
-While the Data class is not meant to be used directly, it can be used as a base class for creating custom value objects. The Data class is similar to Struct, but the key difference being that it is immutable.
-In its heyday, most Rubyists wouldn’t touch immutability with a ten-foot pole. Times, they are a changin’…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everything I wish I knew when learning C]]></title>
-        <id>changelog.com/news/aQzn</id>
-        <link href="https://tmewett.com/c-tips/"/>
-        <updated>2022-11-29T16:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Learning C was quite difficult for Tom M. Thankfully for us, along the way he collected summaries, signposts, and advice for these broader points that made his journey with C and other compiled languages easier. So, if you’re on a similar journey, this page will serve you well on your way.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: Free Heroku EOL, Stable Diffusion 2.0, Twitter SRE explains why it stays up, Git Notes & Joel Lord]]></title>
-        <id>changelog.com/1/1942</id>
-        <link href="https://changelog.com/podcast/news-2022-11-28"/>
-        <updated>2022-11-28T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Heroku’s free plans officially reach EOL, Swyx explains the mixed reaction to Stable Diffusion 2.0, a real Twitter SRE explains how it continues to stay up even with ~80% gone, Tyler Cipriani tells us about one of Git’s coolest, most unloved features & we chat with Joel Lord about brewing beer with IoT & JavaSCript at All Things Open 2022.
-Oh, and help make this year’s state of the “log” episode awesome by lending your voice!
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring
-Joel Lord – Twitter, GitHub
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-Adam Stacoviak – Twitter, GitHub, LinkedIn, Website
-Notes and Links
-Send us a message for state of the “log” 2022!
-Heroku will delete all free dbs and shut down all free dynos Monday
-Why “Prompt Engineering” and “Generative AI” are overhyped
-Why Twitter Didn’t Go Down: From a Real Twitter SRE
-Git Notes: Git’s Coolest, Most Unloved Feature
-Joel Lord’s Brain Brew
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[To infinity and beyond: enabling the future of GitHub’s REST API with API versioning]]></title>
-        <id>https://github.blog/?p=68839</id>
-        <link href="https://github.blog/2022-11-28-to-infinity-and-beyond-enabling-the-future-of-githubs-rest-api-with-api-versioning/"/>
-        <updated>2022-11-28T20:17:10.000Z</updated>
-        <summary type="html"><![CDATA[We’re introducing calendar-based versioning for our REST API, so we can keep evolving our API, whilst still giving integrators a smooth migration path and plenty of time to update their integrations.]]></summary>
-        <author>
-            <name>Tim Rogers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sniffnet is a cross-platform application to monitor your network traffic with ease]]></title>
-        <id>changelog.com/news/GW9Z</id>
-        <link href="https://github.com/GyulyVGC/sniffnet"/>
-        <updated>2022-11-28T15:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Multithreaded, cross-platform, reliable & written in Rust.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Split JS strings into sentences, words or graphemes with `Intl.Segmenter`]]></title>
-        <id>changelog.com/news/eEVR</id>
-        <link href="https://www.stefanjudis.com/today-i-learned/how-to-split-javascript-strings-with-intl-segmenter/"/>
-        <updated>2022-11-28T14:58:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’ve ever had to split a string into sentences, you may have reached for a naive regular expression:
-'Hello! How are you?'.split(/[.!?]/);
-
-Instead of giving yourself two problems, Stefan Judis says maybe reach for Intl.Segmenter, which he shows is quite sophisticated and supported everywhere but Firefox.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Partnering with iCAD to improve breast cancer screening]]></title>
-        <id>https://blog.google/technology/ai/icad-partnership-breast-cancer-screening/</id>
-        <link href="https://blog.google/technology/ai/icad-partnership-breast-cancer-screening/"/>
-        <updated>2022-11-28T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Our partnership with iCAD Inc. marks the first time we are licensing our mammography AI model in clinical practice.]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
