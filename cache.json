@@ -31,15 +31,6 @@
           "publishedOn": "2022-12-08T16:59:00.001Z",
           "wordCount": 1027,
           "title": "Trust in transparency: Private Compute Core"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/12/enhanced-protection-strongest-level-of.html",
-          "author": null,
-          "description": "Posted by Benjamin Ackerman, Chrome Security and Jonathan Li, Safe Browsing  \nAs a follow-up to a previous blog post about How Hash-Based Safe Browsing Works in Google Chrome, we wanted to provide more details about Safe Browsing’s Enhanced Protection mode in Chrome. Specifically, how it came about, the protections that are offered and what it means for your data. \nSecurity and privacy have always been top of mind for Chrome. Our goal is to make security effortless for you while browsing the web, so that you can go about your day without having to worry about the links that you click on or the files that you download. This is why Safe Browsing’s phishing and malware protections have been a core part of Chrome since 2007. You may have seen these in action if you have ever come across one of…",
-          "link": "http://security.googleblog.com/2022/12/enhanced-protection-strongest-level-of.html",
-          "publishedOn": "2022-12-05T18:03:00.001Z",
-          "wordCount": 1240,
-          "title": "Enhanced Protection - The strongest level of Safe Browsing protection Google Chrome has to offer"
         }
       ]
     },
@@ -54,6 +45,41 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/1959",
+          "author": null,
+          "description": "While at EMNLP 2022, Daniel got a chance to sit down with an amazing group of researchers creating NLP technology that actually works for their local language communities. Just Zwennicker (Universiteit van Amsterdam) discusses his work on a machine translation system for Sranan Tongo, a creole language that is spoken in Suriname. Andiswa Bukula (SADiLaR), Rooweither Mabuya (SADiLaR), and Bonaventure Dossou (Lanfrica, Mila) discuss their work with Masakhane to strengthen and spur NLP research in African languages, for Africans, by Africans.\nThe group emphasized the need for more linguistically diverse NLP systems that work in scenarios of data scarcity, non-Latin scripts, rich morphology, etc. You don’t want to miss this one!\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nJust Zwennicker – LinkedIn\nAndiswa Bukula – Twitter\nRooweither Mabuya – Twitter\nBonaventure Dossou – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nEMNLP 2022 papers from the guests:\nTowards a general purpose machine translation system for Sranantongo\nMasakhaNER 2.0: Africa-centric Transfer Learning for Named Entity Recognition\nAfroLM: A Self-Active Learning-based Multilingual Pretrained Language Model for 23 African Languages\nOther links relevant to the discussion:\nMasakhane\nLanfrica\nThe South African Centre for Digital Language Resources (SADiLaR)\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/205",
+          "publishedOn": "2023-01-03T20:15:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 205: NLP research by & for local communities",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/205/practical-ai-205.mp3",
+            "length": "35493286",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/1Wqz",
+          "author": "Jerod Santo",
+          "description": "We don’t normally include how-tos in Changelog News, but I’m making an exception for this post because a) it goes deep on how Docker works on macOS, and b) this is a problem that plagues so many of us that I thought it worth pointing to a solution.\nThere’s also a nice bit about Development Containers at the end, which are quite promising, indeed.\nDiscuss on Changelog News",
+          "link": "https://www.paolomainardi.com/posts/docker-performance-macos/",
+          "publishedOn": "2023-01-03T16:35:00.000Z",
+          "wordCount": null,
+          "title": "Docker on macOS is slow and how to fix it",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/D1a0",
+          "author": "Jerod Santo",
+          "description": "Very cool! Here’s the code for plotting a simple sin curve:\nimport { Mafs, CartesianCoordinates, FunctionGraph } from \"mafs\"\n\nfunction HelloFx() {\n  return (\n    <Mafs>\n      <CartesianCoordinates subdivisions={4} />\n      <FunctionGraph.OfX y={(x) => Math.sin(x)} />\n    </Mafs>\n  )\n}\n\n\nDiscuss on Changelog News",
+          "link": "https://mafs.dev/",
+          "publishedOn": "2023-01-03T15:46:00.000Z",
+          "wordCount": null,
+          "title": "React components for interactive math",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/1958",
           "author": null,
@@ -533,51 +559,6 @@
           "wordCount": null,
           "title": "Reflect on your year with GitHub Wrapped",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1945",
-          "author": null,
-          "description": "Jonas Degrave builds a virtual machine inside ChatGPT, Advent of Code 2022 is in full swing, Mat Ryer impersonates Liam Neeson as web developer, Luca Hammer’s Fedifinder project helps you join the Fediverse & we chat with Brian (BDougie) Douglas about Open Sauced at All Things Open 2022.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nBrian Douglas – Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Twitter, GitHub, LinkedIn, Website\nNotes and Links\nSend us a message for state of the “log” 2022!\nBuilding A Virtual Machine inside ChatGPT\nAdvent of Code 2022\nLiam Neeson Impression - Web developer (from Taken)\nFedifinder\nOpen Sauced\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/news-2022-12-05",
-          "publishedOn": "2022-12-05T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Building a VM inside ChatGPT, Advent of Code 2022, webdev Liam Neeson, Fedifinder & BDougie",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2022-12-05/the-changelog-news-2022-12-05.mp3",
-            "length": "27978192",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/EqEG",
-          "author": "Jerod Santo",
-          "description": "Distributed, offline-first bug tracker embedded in git, with bridges\nI love the idea of having your bug repo right there inside your code repo. The terminal UI is a nice touch!\n\nDiscuss on Changelog News",
-          "link": "https://github.com/MichaelMure/git-bug",
-          "publishedOn": "2022-12-05T18:09:00.000Z",
-          "wordCount": null,
-          "title": "A bug tracker that is fully embedded in git",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/njpJ",
-          "author": "Jerod Santo",
-          "description": "Loren describes the differences between gRPC and GraphQL and summarizes the strengths and weaknesses of each. They give a rule of thumb (GraphQL for client-server and gRPC for server-to-server) and note cases in which you might want to make exceptions to the rule.\nDiscuss on Changelog News",
-          "link": "https://stackoverflow.blog/2022/11/28/when-to-use-grpc-vs-graphql/",
-          "publishedOn": "2022-12-05T16:18:00.000Z",
-          "wordCount": null,
-          "title": "When to use gRPC vs GraphQL",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/N1Ne",
-          "author": "Austin Gil",
-          "description": "When choosing between pixels and rems in CSS, you should almost always use rems. It’s a simple rule to follow. This article explains why.\nDiscuss on Changelog News",
-          "link": "https://austingil.com/px-or-rem-in-css/",
-          "publishedOn": "2022-12-05T15:29:00.000Z",
-          "wordCount": null,
-          "title": "PX or REM in CSS? Just use REM",
-          "itunes": {}
         }
       ]
     },
@@ -1050,15 +1031,6 @@
           "publishedOn": "2022-12-06T17:42:23.000Z",
           "wordCount": 1360,
           "title": "New npm features for secure publishing and safe consumption"
-        },
-        {
-          "id": "https://github.blog/?p=68893",
-          "author": "Laura Lindeman",
-          "description": "Catch up on everything we announced and see what else happened during this year’s GitHub Universe conference that took place November 9-10.",
-          "link": "https://github.blog/2022-12-05-icymi-a-look-back-at-github-universe-2022/",
-          "publishedOn": "2022-12-05T19:11:50.000Z",
-          "wordCount": 1101,
-          "title": "ICYMI: A look back at GitHub Universe 2022"
         }
       ]
     },
@@ -1102,15 +1074,6 @@
           "publishedOn": "2022-12-14T15:59:20.000Z",
           "wordCount": 3452,
           "title": "What is It like being a Product Designer at Nubank?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19842",
-          "author": "Felipe Almeida - Machine Learning Engineer at Nubank",
-          "description": "In this article we analyze lessons learned and best practices assembled from years of applying Machine Learning to real-life problems at Nubank.\nThe post Best Practices for Real-time Machine Learning: Alerting appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/best-practices-for-real-time-machine-learning-alerting/",
-          "publishedOn": "2022-12-05T18:13:09.000Z",
-          "wordCount": 4607,
-          "title": "Best Practices for Real-time Machine Learning: Alerting"
         }
       ]
     },
