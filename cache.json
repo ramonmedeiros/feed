@@ -46,6 +46,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1949",
+          "author": null,
+          "description": "Mat and the gang ring in the new year by gathering around a make believe fireplace and discussing what they’re excited about in 2023, their new years resolutions & a little bit of Go talk, too. But only a little.\nDiscuss on Changelog News\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nPractical AI – Making artificial intelligence practical, productive & accessible to everyone!\n\n    \nFeaturing\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJon Calhoun – Twitter, GitHub, Website\nKris Brandow – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nNotes and Links\nuser-defined iteration using range over func values\n📼 City of Hilliard Leaf Collection\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/261",
+          "publishedOn": "2023-01-05T23:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 261: A special New Year's fireside chat",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/261/go-time-261.mp3",
+            "length": "56883110",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/9lzN",
+          "author": "Jerod Santo",
+          "description": "Kate Rose Morley:\nA tree view (collapsible list) can be created using only html and css, without the need for JavaScript. Accessibility software will see the tree view as lists nested inside disclosure widgets, and the standard keyboard interaction is supported automatically.\nTIL!\nDiscuss on Changelog News",
+          "link": "https://iamkate.com/code/tree-views/",
+          "publishedOn": "2023-01-05T17:27:00.000Z",
+          "wordCount": null,
+          "title": "Tree views in CSS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/14/1951",
+          "author": null,
+          "description": "Welcome to 2023! A new year is the perfect time to start with a fresh perspective. Given a few bare metal hosts with fast, local storage, how would you run your workloads on them? Would you cluster them for redundancy? What operating system would you choose?\nSteve Francis, CEO at Sidero Labs and Andrew Rynhard, CTO at Sidero Labs join us today to talk about running Talos Linux on bare metal.\nDiscuss on Changelog News\nChangelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nPractical AI – Making artificial intelligence practical, productive & accessible to everyone!\n\n    \nFeaturing\nAndrew Rynhard – Twitter, GitHub, LinkedIn\nSteve Francis – GitHub, LinkedIn\nGerhard Lazu – Twitter, GitHub, Website\nNotes and Links\n🎬 Hack Sesh: K8s@Home Edition - April, 2022\n🎬 DevOps Toolkit - Talos: Linux Designed For Kubernetes - March, 2022\n🎬 Sidero Metal Webinar - January, 2022\n🎬 I am Installing Talos OS (Sidero) at Home - October, 2021\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/84",
+          "publishedOn": "2023-01-05T16:40:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 84: Bare metal meets Talos Linux (the K8s OS)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/84/ship-it-84.mp3",
+            "length": "61665886",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Pp7R",
+          "author": "Jerod Santo",
+          "description": "The headline is the nut of this story, but here’s CircleCI CTO Rob Zuber with the announcement:\nWe wanted to make you aware that we are currently investigating a security incident, and that our investigation is ongoing. We will provide you updates about this incident, and our response, as they become available. At this point, we are confident that there are no unauthorized actors active in our systems; however, out of an abundance of caution, we want to ensure that all customers take certain preventative measures to protect your data as well.\nDiscuss on Changelog News",
+          "link": "https://circleci.com/blog/january-4-2023-security-alert/",
+          "publishedOn": "2023-01-05T14:16:00.000Z",
+          "wordCount": null,
+          "title": "Time to rotate any secrets you have stored in CircleCI",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/AX73",
           "author": "Jerod Santo",
           "description": "150+ open source Tailwind components.\n\nDiscuss on Changelog News",
@@ -514,51 +564,6 @@
           "wordCount": null,
           "title": "Hanukkah of Data",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/kwZG",
-          "author": "Jerod Santo",
-          "description": "OpenAI recently released a model for automatic speech recognition called Whisper. I decided to reimplement the inference of the model from scratch using C/C++. To achieve this I implemented a minimalistic tensor library in C and ported the high-level architecture of the model in C++. The entire code is less than 8000 lines of code and is contained in just 2 source files without any third-party dependencies.\nState of the art voice recognition without any PyTorch baggage and it’s optimized to run on Apple Silicon!\nDiscuss on Changelog News",
-          "link": "https://github.com/ggerganov/whisper.cpp",
-          "publishedOn": "2022-12-07T21:49:00.000Z",
-          "wordCount": null,
-          "title": "OpenAI's Whisper model ported to C/C++",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1946",
-          "author": null,
-          "description": "In this special episode, we interview some of the sponsors and teams from a recent case competition organized by Purdue University, Microsoft, INFORMS, and SIL International. 170+ teams from across the US and Canada participated in the competition, which challenged students to create AI-driven systems to caption images in three languages (Thai, Kyrgyz, and Hausa).\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nMatthew Lanham – Twitter, Website\nMark Tabladillo – Twitter, LinkedIn\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nPurdue University’s Krannert School of Business\nMaster the basics of Azure: AI Fundamentals\nAzure Architecture Center\nSIL International\nThe bloom-captioning dataset\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/203",
-          "publishedOn": "2022-12-07T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 203: AI competitions & cloud resources",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/203/practical-ai-203.mp3",
-            "length": "32788404",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/X1Wp",
-          "author": "Jerod Santo",
-          "description": "Andrea Leopardi likens database migrations to git commits and wonders why we don’t leave them in the past and load an up-to-date SQL file instead. He also shares his approach to this in Elixir.\nDiscuss on Changelog News",
-          "link": "https://andrealeopardi.com/posts/get-rid-of-your-old-database-migrations/",
-          "publishedOn": "2022-12-07T16:50:00.000Z",
-          "wordCount": null,
-          "title": "Get rid of your old database migrations",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ml43",
-          "author": "Jerod Santo",
-          "description": "Wait-for-secrets GitHub Action waits for the developer to enter secrets during a workflow run. Developers can enter secrets using a web browser and use them in the workflow.\nThis seems like a good enough solution to yet another battle between security and usability.\nDiscuss on Changelog News",
-          "link": "https://github.com/step-security/wait-for-secrets",
-          "publishedOn": "2022-12-07T16:03:00.000Z",
-          "wordCount": null,
-          "title": "A way to publish from GitHub Actions using multi-factor authentication",
-          "itunes": {}
         }
       ]
     },
@@ -567,6 +572,15 @@
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
       "articles": [
+        {
+          "id": "https://blog.comma.ai/ready-for-growth/",
+          "author": null,
+          "description": "Hello from CES 2023. We don’t have a new product this year, because the comma three is already everything you want. Did you see the taco drive?",
+          "link": "https://blog.comma.ai/ready-for-growth/",
+          "publishedOn": "2023-01-05T13:00:00.000Z",
+          "wordCount": 538,
+          "title": "Ready for Growth"
+        },
         {
           "id": "https://blog.comma.ai/taco-bell/",
           "author": null,
@@ -808,17 +822,7 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": [
-        {
-          "id": "https://hacks.mozilla.org/?p=47943",
-          "author": "Francesca Minelli",
-          "description": "A product is first an idea, then a project, and then a prototype. Here, at Mozilla, our awesome community is there every step of the way to support and contribute to our products. None of what we do would be possible without this multicultural, multilingual community of like-minded people working together to be a better internet. \nThe post How the Mozilla Community helps shape our products appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2022/12/how-the-mozilla-community-helps-to-shape-our-products/",
-          "publishedOn": "2022-12-07T18:48:54.000Z",
-          "wordCount": 1314,
-          "title": "How the Mozilla Community helps shape our products"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
@@ -995,24 +999,6 @@
           "publishedOn": "2022-12-08T16:59:59.000Z",
           "wordCount": 646,
           "title": "Hello from GitHub’s new Chief Product Officer"
-        },
-        {
-          "id": "https://github.blog/?p=68972",
-          "author": "Shuyin Zhao",
-          "description": "GitHub Copilot for Business is officially here with simple license management, organization-wide policy controls, and industry-leading privacy—all for $19 USD per user per month.",
-          "link": "https://github.blog/2022-12-07-github-copilot-is-generally-available-for-businesses/",
-          "publishedOn": "2022-12-07T17:34:23.000Z",
-          "wordCount": 1139,
-          "title": "GitHub Copilot is generally available for businesses"
-        },
-        {
-          "id": "https://github.blog/?p=68986",
-          "author": "Jakub Oleksy",
-          "description": "In November, we experienced two incidents that resulted in degraded performance across GitHub services. This report also sheds light into an incident that impacted Codespaces in October.",
-          "link": "https://github.blog/2022-12-07-github-availability-report-november-2022/",
-          "publishedOn": "2022-12-07T17:00:37.000Z",
-          "wordCount": 1190,
-          "title": "GitHub Availability Report: November 2022"
         }
       ]
     },
@@ -1073,6 +1059,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/changes-disclosure-assistance",
+          "author": "HackerOne",
+          "description": "HackerOne is excited to announce the revamp of our Disclosure Assistance program! Our goal is to reset expectations and realign with the hacker comm",
+          "link": "https://www.hackerone.com/hackerone-community-blog/changes-disclosure-assistance",
+          "publishedOn": "2023-01-05T16:00:50.000Z",
+          "wordCount": 722,
+          "title": "Changes to Disclosure Assistance"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702",
           "author": "HackerOne",
