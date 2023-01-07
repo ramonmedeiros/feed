@@ -22,15 +22,6 @@
           "publishedOn": "2022-12-13T18:00:00.000Z",
           "wordCount": 1278,
           "title": "Announcing OSV-Scanner: Vulnerability Scanner for Open Source"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/12/trust-in-transparency-private-compute.html",
-          "author": null,
-          "description": "Posted by Dave Kleidermacher, Dianne Hackborn, and Eugenio Marchiori  \nWe care deeply about privacy. We also know that trust is built by transparency. This blog, and the technical paper reference within, is an example of that commitment: we describe an important new Android privacy infrastructure called Private Compute Core (PCC). \nSome of our most exciting machine learning features use continuous sensing data — information from the microphone, camera, and screen. These features keep you safe, help you communicate, and facilitate stronger connections with people you care about. To unlock this new generation of innovative concepts, we built a specialized sandbox to privately process and protect this data.  \nAndroid Private Compute Core\n  \nPCC is a secure, isolated data processing environmen…",
-          "link": "http://security.googleblog.com/2022/12/trust-in-transparency-private-compute.html",
-          "publishedOn": "2022-12-08T16:59:00.001Z",
-          "wordCount": 1027,
-          "title": "Trust in transparency: Private Compute Core"
         }
       ]
     },
@@ -45,6 +36,56 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/1932",
+          "author": null,
+          "description": "Welcome to 2023 — we’re kicking off the year talking to Justin Searls about the state of web development and why he just might write a “You Might Not Need React” post. He’s been so productive using Turbo and Stimulus (and tailwind) in Rails 7 that we had to talk about the state of Rails development today and a bunch of other fun topics around building for the web in 2023.\nDiscuss on Changelog News\nChangelog++ members get a bonus 16 minutes at the end of this episode and zero ads. Join today!\nSponsors\nSentry – Working code means happy customers. That’s exactly why teams choose Sentry. From error tracking to performance monitoring, Sentry helps teams see what actually matters, resolve problems quicker, and learn continuously about their applications - from the frontend to the backend. Use the code CHANGELOG and get the team plan free for three months.\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at changelog.com/square to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\n    \nFeaturing\nJustin Searls – Twitter, GitHub, Website\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNotes and Links\nSO PRODUCTIVE in Rails 7\nShaking my head big time at The Changelog #509\nWhat excites you about Ruby on Rails in 2022?\nThe Changelog #509\nShip It #44\nSearls says:\nFor liner notes purposes, @hsbt and @ko1 have indeed both contributed to ruby.debug but it was clearly Koichi’s baby.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/521",
+          "publishedOn": "2023-01-06T22:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 521: Don't sleep on Ruby & Rails",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/521/the-changelog-521.mp3",
+            "length": "78601675",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1935",
+          "author": null,
+          "description": "It’s our 4th annual New Year’s party! Jerod & the gang review our (failed) resolutions from last year, discuss what’s trending in the web world, make a few predictions of our own & even set some new (probably failed) resolutions for this year.\nDiscuss on Changelog News\nChangelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nShip It! – A podcast about getting your best ideas into the world and seeing what happens. Listen to an episode that interests you and subscribe today.\n\n    \nFeaturing\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nDivya – Twitter, GitHub, LinkedIn, Website\nNick Nisi – Twitter, GitHub, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nFeross Aboukhadijeh – Twitter, GitHub, Website\nNotes and Links\nTake our latest Frontend Feud survey!\nNUC (Next Unit Computing)\nConstitutionDAO\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/257",
+          "publishedOn": "2023-01-06T17:40:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 257: New Year's Party 🪩",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/257/js-party-257.mp3",
+            "length": "75175581",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Mbm5",
+          "author": "Jerod Santo",
+          "description": "Shahed Nasser shares how she and the technical writing team at Medusa went about improving their docs:\nThe most essential change that helped us implement all improvements is how we manage the documentation. In most software companies, documentation has less of a priority compared to the software, and it is handled as an afterthought.\nAt Medusa, we early on came to realize that documentation is what can actually drive further adoption of Medusa.\nThere’s a lot to learn from their process that you can apply to your own, but I think the biggest winner Shahed shares is the mindset change of thinking about documentation itself as a product, not as something that augments or attaches to the product.\nDiscuss on Changelog News",
+          "link": "https://medusajs.com/blog/how-we-improved-our-documentation/",
+          "publishedOn": "2023-01-06T15:29:01.000Z",
+          "wordCount": null,
+          "title": "How we improved our documentation",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/3LWw",
+          "author": "Tim",
+          "description": "Sometimes all a project needs is the ability to read/write small amounts of JSON data and have it saved in some persistent storage. Imagine a simple data-model which receives infrequent updates and could be represented as JSON object. It doesn’t demand a full-blown database, but it would be neat to have a way to interact with this data and have it persist across sessions.\nThis is where gist-database comes in handy, by leveraging the power of the gist api you can easily create a key/value data-store for your project.\nThis is a perfect solution for low write / high read scenarios when serving static site content with Next.js and using Incremental Static Regeneration to keep your cached content fresh.\nDiscuss on Changelog News",
+          "link": "https://github.com/TimMikeladze/gist-database",
+          "publishedOn": "2023-01-06T14:41:00.000Z",
+          "wordCount": null,
+          "title": "Transform Gist into your personal key/value data store",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1949",
           "author": null,
@@ -504,66 +545,6 @@
           "wordCount": null,
           "title": "Historical analogies for large language models",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/RdJM",
-          "author": "Jerod Santo",
-          "description": "José Valim announces Bumblebee and walks you through how to run ML modules in Livebook with just three clicks. Finally, he shows you how to embed a model into a Phoenix app. So cool!\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=g3oyh3g1AtQ",
-          "publishedOn": "2022-12-08T23:29:00.000Z",
-          "wordCount": null,
-          "title": "Bumblebee: GPT2, Stable Diffusion, and more in Elixir",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1867",
-          "author": null,
-          "description": "Ivan Kwiatkowski joins Natalie once again for a follow-up episode to Hacking with Go: Part 2. This time we’ll get Ivan’s perspective on the way Go’s security features are designed and used, from the user/hacker perspective. And of course we will also talk about how AI fits into all this…\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insights — now you can track what really matters to you and your team in your codebase. See how other teams are using this awesome feature at about.sourcegraph.com/code-insights\n\n    \nFireHydrant – The reliability platform for every developer. Incidents impact everyone, not just SREs. FireHydrant gives teams the tools to maintain service catalogs, respond to incidents, communicate through status pages, and learn with retrospectives. Small teams up to 10 people can get started for free with all FireHydrant features included. No credit card required to sign up. Learn more at firehydrant.com/\n\n    \nFeaturing\nIvan Kwiatkowski – Mastodon, Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nNotes and Links\nHacking with Go: Part 1\nHacking with Go: Part 2\nPascal (programming language)\nHacking tool: IDA Pro\nHacking tool: Ghidra\nStowaway – Multi-hop Proxy Tool for pentesters\nIvan’s video on reversing a Go malware\n“Stylometry” - recognizing author by code style, talk from the CCC 2014\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/259",
-          "publishedOn": "2022-12-08T22:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 259: Hacking with Go: Part 3",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/259/go-time-259.mp3",
-            "length": "56055586",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/14/1939",
-          "author": null,
-          "description": "Narayanan Raghavan leads the global SRE organization that runs Red Hat managed cloud services including OpenShift Dedicated, Azure Red Hat Openshift, Red Hat OpenShift Service on AWS, and Red Hat OpenShift Data Science among others across the three major cloud providers: AWS, GCP & Azure. We start with a high-level discussion about DevOps, SRE & platform engineering, and then we dig into SRE specifics, including what it takes to safely roll out updates across many tens of thousands of OpenShift clusters.\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nSourcegraph – Transform your code into a queryable database to create customizable visual dashboards in seconds. Sourcegraph recently launched Code Insight…",
-          "link": "https://changelog.com/shipit/82",
-          "publishedOn": "2022-12-08T19:15:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 82: Red Hat's approach to SRE",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/82/ship-it-82.mp3",
-            "length": "65292874",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/O58N",
-          "author": "Jerod Santo",
-          "description": "Julia Evans is working on a new zine about debugging, so she took to Mastodon to ask for tips and compiled a list of the best ones (with explainers). Here’s a short list of some tips covered:\nsearch for the request’s ID\ncorrelate between different systems\ncheck that a “suspicious” error is actually new\nDiscuss on Changelog News",
-          "link": "https://jvns.ca/blog/2022/12/07/tips-for-analyzing-logs/",
-          "publishedOn": "2022-12-08T15:49:00.000Z",
-          "wordCount": null,
-          "title": "Tips for analyzing logs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/1Wnn",
-          "author": "Jerod Santo",
-          "description": "A series of 8 free data puzzles to be released daily starting on December 18th. Created by Saul Pwanson (author of VisiData) as an analogue to the popular Advent of Code, but for data nerds who want to find answers in a dataset, rather than hack on algorithms.\nDiscuss on Changelog News",
-          "link": "https://hanukkah.bluebird.sh/",
-          "publishedOn": "2022-12-08T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Hanukkah of Data",
-          "itunes": {}
         }
       ]
     },
@@ -806,17 +787,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
-          "author": null,
-          "description": "Seth Jenkins, Project Zero\n\nThis blog post details an exploit for CVE-2022-42703 (P0 issue 2351 - Fixed 5 September 2022), a bug Jann Horn found in the Linux kernel's memory management (MM) subsystem that leads to a use-after-free on struct anon_vma. As the bug is very complex (I certainly struggle to understand it!), a future blog post will describe the bug in full. For the time being, the issue tracker entry, this LWN article explaining what an anon_vma is and the commit that introduced the bug are great resources in order to gain additional context.\nSetting the scene\nSuccessfully triggering the underlying vulnerability causes folio->mapping to point to a freed anon_vma object. Calling madvise(..., MADV_PAGEOUT)can then be used to repeatedly trigger accesses to the freed anon_vma in foli…",
-          "link": "https://googleprojectzero.blogspot.com/2022/12/exploiting-CVE-2022-42703-bringing-back-the-stack-attack.html",
-          "publishedOn": "2022-12-08T19:04:00.000Z",
-          "wordCount": 2498,
-          "title": "Exploiting CVE-2022-42703 - Bringing back the stack attack"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -972,33 +943,6 @@
           "publishedOn": "2022-12-09T19:00:32.000Z",
           "wordCount": 1260,
           "title": "Release Radar · October 2022 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=69029",
-          "author": "Natalie Somersall",
-          "description": "How much does it really cost to buy more powerful cloud compute resources for development work? A lot less than you think.",
-          "link": "https://github.blog/2022-12-08-experiment-the-hidden-costs-of-waiting-on-slow-build-times/",
-          "publishedOn": "2022-12-08T18:00:02.000Z",
-          "wordCount": 1984,
-          "title": "Experiment: The hidden costs of waiting on slow build times"
-        },
-        {
-          "id": "https://github.blog/?p=69019",
-          "author": "Karen Bella",
-          "description": "We delivered two different courses specifically designed to help students in the lowest-income neighborhood of Montevideo, Uruguay learn how to use GitHub and understand the value of open source.",
-          "link": "https://github.blog/2022-12-08-git-commit-uruguay-lowering-barriers-to-make-software-development-more-inclusive-and-diverse/",
-          "publishedOn": "2022-12-08T17:00:06.000Z",
-          "wordCount": 859,
-          "title": "Git Commit Uruguay: Lowering barriers to make software development more inclusive and diverse"
-        },
-        {
-          "id": "https://github.blog/?p=68995",
-          "author": "Inbal Shani",
-          "description": "GitHub is in an exciting phase of our journey as the developer community grows significantly every day, and the needs of the community grow and change with it. Today we’re introducing our new Chief Product officer.",
-          "link": "https://github.blog/2022-12-08-hello-from-githubs-new-chief-product-officer/",
-          "publishedOn": "2022-12-08T16:59:59.000Z",
-          "wordCount": 646,
-          "title": "Hello from GitHub’s new Chief Product Officer"
         }
       ]
     },
@@ -1007,6 +951,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=19774",
+          "author": "Jacqueline Yumi Asano - Senior Product Manager - Credit Card Financing",
+          "description": "A look into the career of a Product Manager at Nubank, the scope of work and the main differences with other Product positions.\nThe post What is it like being a Product Manager at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/product-manager-at-nubank/",
+          "publishedOn": "2023-01-06T16:14:47.000Z",
+          "wordCount": 3497,
+          "title": "What is it like being a Product Manager at Nubank?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=20001",
           "author": "Georgia Anunciação - Technical Writer at Nubank",
