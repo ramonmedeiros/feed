@@ -495,56 +495,6 @@
           "wordCount": null,
           "title": "Just use Postgres for everything",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1869",
-          "author": null,
-          "description": "This week we’re joined by Christina Warren, Senior Developer Advocate at GitHub, and a true tech and pop culture connoisseur. From her days at Mashable covering the intersections of entertainment and technology, to Gizmodo, to Microsoft, and now her current role at GitHub we talk with Christina about her journey from journalist to developer, and the latest happenings coming out of GitHub Universe.\nBTW, we’re planning to get Christina on Backstage in the new year to talk about Plex, MakeMKV, and all things that go into hosting your own media server. Drop a commment on this episode with a +1 if you want to see that happen.\nDiscuss on Changelog News\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nInfluxData – With its data collector…",
-          "link": "https://changelog.com/podcast/518",
-          "publishedOn": "2022-12-09T22:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 518: Coming home to GitHub",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/518/the-changelog-518.mp3",
-            "length": "74930931",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/1824",
-          "author": null,
-          "description": "KBall interviews CSS instructor & YouTuber extraordinaire Kevin Powell in a wide ranging discussion about CSS and how to learn it - what to start with, what to ignore, and various topics in between.\nDiscuss on Changelog News\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n    \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers…",
-          "link": "https://changelog.com/jsparty/255",
-          "publishedOn": "2022-12-09T17:15:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 255: Learning CSS in 2023",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/255/js-party-255.mp3",
-            "length": "50880328",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/AX46",
-          "author": "Jerod Santo",
-          "description": "Phlex views are “plain old Ruby objects” — templates are methods and HTML tags are method calls. If you know how to define a class with a method that calls another method, you know how to use Phlex.\nWhen it comes to API usability, Ruby is so tough to beat. This looks actually fun to use!\nclass Nav < Phlex::HTML\n  def template\n    nav(class: \"main-nav\") {\n      ul {\n        li { a(href: \"/\") { \"Home\" } }\n        li { a(href: \"/about\") { \"About\" } }\n        li { a(href: \"/contact\") { \"Contact\" } }\n      }\n    }\n  end\nend\n\nDiscuss on Changelog News",
-          "link": "https://www.phlex.fun/",
-          "publishedOn": "2022-12-09T16:14:00.000Z",
-          "wordCount": null,
-          "title": "A framework for building fast, reusable, testable views in pure Ruby",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/GWpZ",
-          "author": "Jerod Santo",
-          "description": "How will large language models (LLMs) change the world?\nNo one knows. With such uncertainty, a good exercise is to look for historical analogies—to think about other technologies and ask what would happen if LLMs played out the same way.\nI like to keep things concrete, so I’ll discuss the impact of LLMs on writing. But most of this would also apply to the impact of LLMs on other fields, as well as other AI technologies like AI art/music/video/code.\nWhat follows are 13 examples of technological innovations that changed the world and description of how they affected they way people work. Here’s an example analogy of Feet and Segways:\nFirst, there was walking. Then the Segway came to CHANGE THE NATURE OF HUMAN TRANSPORT. Twenty years later, there is still walking, plus occasionally low-key alternatives like electric scooters.\nIn this analogy, LLMs work fine but just aren’t worth the trouble in most cases and society doesn’t evolve to integrate them. Domain-specific LLMs are used for some applications, but we start to associate “general” LLMs with tourists and mall cops. George W. Bush falls off an LLM on vacation and everyone loses their minds.\nDiscuss on Changelog News",
-          "link": "https://dynomight.net/llms/",
-          "publishedOn": "2022-12-09T15:26:00.000Z",
-          "wordCount": null,
-          "title": "Historical analogies for large language models",
-          "itunes": {}
         }
       ]
     },
@@ -753,33 +703,6 @@
           "publishedOn": "2022-12-13T12:17:39.710Z",
           "wordCount": 832,
           "title": "Reconsidering Tweets"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "author": null,
-          "description": "On the Data Science team, a piece of our job is understanding how conversations are happening on Twitter. In this blog, we use Wordle as a case study to showcase how we think about similar analyses.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/understanding-twitter-conversations--a-wordle-case-study",
-          "publishedOn": "2022-12-09T12:16:41.549Z",
-          "wordCount": 1327,
-          "title": "Understanding Twitter conversations: A Wordle case study"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
-          "author": null,
-          "description": "Over-squashing is a common plight of Graph Neural Networks. In this post, we discuss how this phenomenon can be understood and remedied through the concept of Ricci curvature.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/over-squashing--bottlenecks--and-graph-ricci-curvature",
-          "publishedOn": "2022-12-09T12:16:40.103Z",
-          "wordCount": 2189,
-          "title": "Over-squashing, Bottlenecks, and Graph Ricci curvature"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
-          "author": null,
-          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
-          "publishedOn": "2022-12-09T12:16:39.933Z",
-          "wordCount": 1494,
-          "title": "Twitter Sparrow tackles data storage challenges of scale"
         }
       ]
     },
@@ -934,15 +857,6 @@
           "publishedOn": "2022-12-12T15:50:38.000Z",
           "wordCount": 1941,
           "title": "Highlights from Git 2.39"
-        },
-        {
-          "id": "https://github.blog/?p=68917",
-          "author": "Michelle Mannering",
-          "description": "Before you say it, yes, the October Release Radar was supposed to be shared in November. But with Hackatoberfest, GitHub Universe, Turkey Day, and in real life (IRL) conferences returning to their pre-COVID frequency, we’ve all been so busy. And our community has been hustling to ship all kinds of open source projects. We wanted […]",
-          "link": "https://github.blog/2022-12-09-release-radar-october-2022/",
-          "publishedOn": "2022-12-09T19:00:32.000Z",
-          "wordCount": 1260,
-          "title": "Release Radar · October 2022 Edition"
         }
       ]
     },
