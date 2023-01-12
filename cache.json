@@ -13,15 +13,6 @@
           "publishedOn": "2022-12-15T16:59:00.001Z",
           "wordCount": 1246,
           "title": "Expanding the App Defense Alliance"
-        },
-        {
-          "id": "http://security.googleblog.com/2022/12/announcing-osv-scanner-vulnerability.html",
-          "author": null,
-          "description": "Posted by Rex Pan, software engineer, Google Open Source Security Team\nToday, we’re launching the OSV-Scanner, a free tool that gives open source developers easy access to vulnerability information relevant to their project. \nLast year, we undertook an effort to improve vulnerability triage for developers and consumers of open source software. This involved publishing the Open Source Vulnerability (OSV) schema and launching the OSV.dev service, the first distributed open source vulnerability database. OSV allows all the different open source ecosystems and vulnerability databases to publish and consume information  in one simple, precise, and machine readable format. \nThe OSV-Scanner is the next step in this effort, providing an officially supported frontend to the OSV database that connec…",
-          "link": "http://security.googleblog.com/2022/12/announcing-osv-scanner-vulnerability.html",
-          "publishedOn": "2022-12-13T18:00:00.000Z",
-          "wordCount": 1278,
-          "title": "Announcing OSV-Scanner: Vulnerability Scanner for Open Source"
         }
       ]
     },
@@ -36,6 +27,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/14/1952",
+          "author": null,
+          "description": "Marcos Nils has been into platform engineering for the best part of the last decade. He helped architect & build developer platforms using VMs & OpenStack, containers with Docker, and even Kubernetes. He did this at startups with 10 people, as well as large, publicly traded companies with 1000+ software engineers.\nToday we talk with Marcos about the hard parts of platform engineering.\nDiscuss on Changelog News\nChangelog++ members get a bonus 17 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nFeaturing\nMarcos Nils – Mastodon, Twitter, GitHub, LinkedIn\nGerhard Lazu – Mastodon, Twitter, GitHub, Website\nNotes and Links\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/85",
+          "publishedOn": "2023-01-11T18:45:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 85: The hard parts of platform engineering",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/85/ship-it-85.mp3",
+            "length": "74225145",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/mlVP",
+          "author": "Jerod Santo",
+          "description": "This is an incredibly detailed and fun story producing a system architecture that includes Postgres, Elasticsearch & an OCR service running on a cluster of iPhones.\nHow much effort will one man put in to help himself and others find that meme!\n\nDiscuss on Changelog News",
+          "link": "https://findthatmeme.com/blog/2023/01/08/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine-Qzrz7V6T.html",
+          "publishedOn": "2023-01-11T17:31:00.000Z",
+          "wordCount": null,
+          "title": "Building an internet scale meme search engine",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/dqOa",
+          "author": "Jerod Santo",
+          "description": "A long-standing debate between me and a peer at work has been how we should name services. His position was always that services should be named something descriptive, so that you can infer from the name what it does. My position is that the name should definitely not be descriptive, but should be something cute and wholly disconnected from the purpose. And I think this applies more broadly to projects and companies, too.\nNicholas’ reason for cute names winning comes down to the inevitably of change in a service/project’s function and the difficulty in renaming things. I hadn’t thought of that argument, but I already agreed with the premise.\nWe also apply this thinking to podcast episode names, which can be a mixed bag because descriptive titles certainly help when it comes to discovery. As Adam and I discussed on our recent State of the “log” episode, if you see use a descriptive title, it’s most likely because we couldn’t think of a good cute/interesting one.\nBut that’s just our opinion about episode naming. What do you prefer?\nDiscuss on Changelog News",
+          "link": "https://ntietz.com/blog/name-your-projects-cutesy-things/",
+          "publishedOn": "2023-01-11T16:06:00.000Z",
+          "wordCount": null,
+          "title": "Names should be cute, not descriptive",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/5jmg",
+          "author": "Jerod Santo",
+          "description": "Apropos of nothing, you may be considering starting a new AI-related project. The OpenAI folks inferred this fact and created a repo full of example code and prompts to get started with their API.\nDiscuss on Changelog News",
+          "link": "https://github.com/openai/openai-cookbook",
+          "publishedOn": "2023-01-11T15:19:00.000Z",
+          "wordCount": null,
+          "title": "Examples and guides for using the OpenAI API",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/7/1964",
           "author": null,
@@ -485,41 +521,6 @@
           "wordCount": null,
           "title": "Running Rails from Docker for easy start to development",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/8ln6",
-          "author": "Jerod Santo",
-          "description": "After 5+ years working for GitLab, Brendan O’Leary is moving on to his next adventure.\nI’m so proud of what we built—and I’m still proud and awed by the remarkable people there. GitLab’s values are the gold standard for what it means to be a wonderful company—for the team-members, for the community, and for the shareholders.\nHe took a moment to write down a few things he learned while there. The bullet points follow, but you’ll have to visit his blog for all the details:\nWrite down everything\nGive and accept: ownership, agency, and responsibility\nBe transparent with a low level of shame\nDiscuss on Changelog News",
-          "link": "https://blog.boleary.dev/what-i-learned-at-gitlab-that-i-dont-want-to-forget/",
-          "publishedOn": "2022-12-13T20:51:00.000Z",
-          "wordCount": null,
-          "title": "What I learned at GitLab that I don't want to forget",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/1950",
-          "author": null,
-          "description": "José and Ricardo joined Daniel at EMNLP 2022 to discuss state-of-the-art machine translation, the WMT shared tasks, and quality estimation. Among other things, they talk about Unbabel’s innovations in quality estimation including COMET, a neural framework for training multilingual machine translation (MT) evaluation models.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing\nRicardo Rei – Twitter\nJosé Souza – Twitter\nDaniel Whitenack – Twitter, GitHub, Website\nNotes and Links\nUnbabel\nCOMET\nThe WMT workshop/ conference\nEMNLP\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/204",
-          "publishedOn": "2022-12-13T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 204: SOTA machine translation at Unbabel",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/204/practical-ai-204.mp3",
-            "length": "29454127",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Y1bP",
-          "author": "Adam Stacoviak",
-          "description": "Nick Cameron works on Rust at Microsoft. He shared these desires for Rust in 2023.\nThe core team used to call for blog posts to help plan the next year. The core team has pretty much disappeared and certainly hasn’t called for blog posts, but I’m going to write one anyway because I have opinions and I want you to hear them. Sorry. I think you should write such a post too!\nDiscuss on Changelog News",
-          "link": "https://www.ncameron.org/blog/rust-in-2023/",
-          "publishedOn": "2022-12-13T13:45:00.000Z",
-          "wordCount": null,
-          "title": "Rust in 2023",
-          "itunes": {}
         }
       ]
     },
@@ -554,6 +555,15 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/technology/ai/responsible-ai-looking-back-at-2022-and-to-the-future/",
+          "author": null,
+          "description": "Looking back at Google’s 2022 progress in principled AI innovation and ahead to 2023 and beyond.",
+          "link": "https://blog.google/technology/ai/responsible-ai-looking-back-at-2022-and-to-the-future/",
+          "publishedOn": "2023-01-11T18:00:00.000Z",
+          "wordCount": 1401,
+          "title": "Responsible AI: Looking back at 2022, and to the future"
+        },
+        {
           "id": "https://blog.google/inside-google/2022-at-google/",
           "author": null,
           "description": "A recap of Google’s top announcements and initiatives in 2022.",
@@ -561,15 +571,6 @@
           "publishedOn": "2022-12-29T17:00:00.000Z",
           "wordCount": 1768,
           "title": "Google's 2022 year in review"
-        },
-        {
-          "id": "https://blog.google/technology/ai/helping-robots-learn-from-each-other/",
-          "author": null,
-          "description": "A look at how Transformers are helping robots become more useful.",
-          "link": "https://blog.google/technology/ai/helping-robots-learn-from-each-other/",
-          "publishedOn": "2022-12-13T15:00:00.000Z",
-          "wordCount": 1505,
-          "title": "Helping robots learn from each other"
         }
       ]
     },
@@ -578,6 +579,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=21282",
+          "author": "Daniel Stenberg",
+          "description": "The latest HTTP version is called HTTP/3 and is being transferred over QUIC instead of the old classic TCP+TLS duo. An attempt of an architectural drawing could look like this: Remember: experimental HTTP/3 support in curl is still experimental so we do reserve the right to change names, behavior and functionality during development. We aim … Continue reading Selecting HTTP version (three) →",
+          "link": "https://daniel.haxx.se/blog/2023/01/12/selecting-http-version-three/",
+          "publishedOn": "2023-01-12T07:38:35.000Z",
+          "wordCount": 1521,
+          "title": "Selecting HTTP version (three)"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=21298",
           "author": "Daniel Stenberg",
@@ -764,15 +774,6 @@
           "publishedOn": "2022-12-16T12:15:55.027Z",
           "wordCount": 1708,
           "title": "Stability and scalability for search"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "author": null,
-          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
-          "publishedOn": "2022-12-13T12:17:39.710Z",
-          "wordCount": 832,
-          "title": "Reconsidering Tweets"
         }
       ]
     },
@@ -793,6 +794,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=69409",
+          "author": "Chris Reddington",
+          "description": "Discovering passwords in our codebase is probably one of our worst fears. But what if you didn’t need passwords at all, and could deploy to your cloud provider another way? In this post, we explore how you can use OpenID Connect to trust your cloud provider, enabling you to deploy easily, securely and safely, while minimizing the operational overhead associated with secrets (for example, key rotations).",
+          "link": "https://github.blog/2023-01-11-passwordless-deployments-to-the-cloud/",
+          "publishedOn": "2023-01-11T16:00:11.000Z",
+          "wordCount": 2159,
+          "title": "Passwordless deployments to the cloud"
+        },
         {
           "id": "https://github.blog/?p=69396",
           "author": "Ashok Kirla",
@@ -936,15 +946,6 @@
           "publishedOn": "2022-12-14T17:00:15.000Z",
           "wordCount": 1149,
           "title": "Raising the bar for software security: next steps for GitHub.com 2FA"
-        },
-        {
-          "id": "https://github.blog/?p=69101",
-          "author": "Lindsey Wild",
-          "description": "GitHub’s search inputs have several complex accessibility considerations. Let’s dive into what those are, how we addressed them, and talk about the standalone, reusable component that was ultimately built.",
-          "link": "https://github.blog/2022-12-13-creating-an-accessible-search-experience-with-the-querybuilder-component/",
-          "publishedOn": "2022-12-13T16:08:24.000Z",
-          "wordCount": 2177,
-          "title": "Creating an accessible search experience with the QueryBuilder component"
         }
       ]
     },
@@ -953,6 +954,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=20053",
+          "author": "Nubank Editorial",
+          "description": "How we created a workplace that reflects our values\nThe post Meet Nubank’s main headquarters in Pinheiros, Sao Paulo/Brazil appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nubank-office-pinheiros/",
+          "publishedOn": "2023-01-11T17:40:04.000Z",
+          "wordCount": 3323,
+          "title": "Meet Nubank’s main headquarters in Pinheiros, Sao Paulo/Brazil"
+        },
         {
           "id": "https://building.nubank.com.br/?p=19774",
           "author": "Jacqueline Yumi Asano - Senior Product Manager - Credit Card Financing",
