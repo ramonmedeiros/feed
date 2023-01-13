@@ -16,8 +16,123 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2023-01-13">2023-01-13</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.twitter.com/engineering/en_us">English (US)</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reconsidering Tweets</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2023-01-12">2023-01-12</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Go Time 262: How Go helped save HealthCare.gov ♻️</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/gotime/262">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Paul Smith (from “Obama’s Trauma Team”) tells us the tale of how Go played a big role in the rescuing and rebuilding of the HealthCare.gov website. Along the way we learn what the original team did wrong, how the rescue team kept it afloat during huge traffic spikes, and what they’ve done since to rebuild it to serve the people’s needs.
+Discuss on Changelog News
+Changelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!
+Sponsors
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+    
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+    
+Featuring
+Paul Smith – Twitter, Website
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+Johnny Boursiquot – Twitter, GitHub, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+Notes and Links
+HealthCare.gov
+Paul’s company Ad Hoc is hiring
+Obama’s Trauma Team
+Paul on MSNBC talking about the rescue
+Something missing or broken? PRs welcome!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to store your app&#x27;s entire state in the URL</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.scottantipa.com/store-app-state-in-urls">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Scott Antipa:
+I’m working on a flowchart editor that runs in the browser, and I wanted a way for people to use it without having to sign in, or store any data on our server. I wanted to give them control over their data and to be able to store it locally to open and edit later. And also easily share it with other people. It’s easy to do this by supporting file upload/download, but I wanted something simpler, like the ability to share by sending a url. I also didn’t want to store anything on the backend (at least for the free tier).
+What he decided on was to base64 encode the entire application state and store it in the fragment section of the URL. I love all the upsides of this approach and it’s pretty trivial to accomplish. Here’s the pseudocode that Scott provides in his post:
+const stateString &#x3D; JSON.stringify(appState); // appState is a json object
+const compressed &#x3D; compress(stateString);
+const encoded &#x3D; Base64.encode(compressed);
+// Push that &#x60;encoded&#x60; string to the url
+// ... Later, on page load or on undo/redo we read the url and
+// do the following
+const decoded &#x3D; Base64.decode(encoded); // same encoded as above, but read from url
+const uncompressed &#x3D; uncompress(decoded);
+const newState &#x3D; JSON.parse(uncompressed);
+// Now load your application with the newState
+
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Am I an effective manager? Five heuristics to measure</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://abdulapopoola.com/2023/01/09/evaluating-managers-5-heuristics-to-measure-managerial-impact/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Measuring a manager’s impact is hard since outcomes take time. The manager takes full responsibility for the team - be it stagnation, execution woes, poor collaboration, churn, or a lack of focus. This post provides early evaluation metrics as well as tips for course correction.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Goodhart&#x27;s Law isn&#x27;t as useful as you might think</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://commoncog.com/goodharts-law-not-useful/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Cedric Chin, writing about the famous adage that says “when a measure becomes a target, it ceases to be a good measure.”
+At some level, this is self-evident. Goodhart’s Law is about as pithy and about as practicable as “the only certainty in life is death and taxes” and “hell is other people.” It is descriptive; it tells you of the existence of a phenomenon, but it doesn’t tell you what to do about it or how to solve it.
+There are more useful formulations of the law that help solve it. Some organizations use this narrower, more actionable form:
+When people are pressured to meet a target value there are three ways they can proceed:
+They can work to improve the system
+They can distort the system
+Or they can distort the data
+With that framing in hand, Cedric goes on to describe how you can solve for these three ways and design incentive/measurement systems that work.
+Discuss on Changelog News</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
@@ -29,6 +144,61 @@
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(5 min)</span>
                     <span>The latest HTTP version is called HTTP/3 and is being transferred over QUIC instead of the old classic TCP+TLS duo. An attempt of an architectural drawing could look like this: Remember: experimental HTTP/3 support in curl is still experimental so we do reserve the right to change names, behavior and functionality during development. We aim … Continue reading Selecting HTTP version (three) →</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog/">The GitHub Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A smarter, quieter Dependabot</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2023-01-12-a-smarter-quieter-dependabot/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Dependabot is getting a little smarter—and, a little quieter—by reducing bot-based noise from repositories based on your interaction with Dependabot.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://security.googleblog.com/">Google Online Security Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Supporting the Use of Rust in the Chromium Project</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2023/01/supporting-use-of-rust-in-chromium.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Posted by Dana Jansens (she/her), Chrome Security Team  
+We are pleased to announce that moving forward, the Chromium project is going to support the use of third-party Rust libraries from C++ in Chromium. To do so, we are now actively pursuing adding a production Rust toolchain to our build system. This will enable us to include Rust code in the Chrome binary within the next year. We’re starting slow and setting clear expectations on what libraries we will consider once we’re ready. 
+In this blog post, we will discuss how we arrived at the decision to support third-party Rust libraries at this time, and not broader usage of Rust in Chromium. 
+Why We Chose to Bring Rust into Chromium
+Our goal in bringing Rust into Chromium is to provide a simpler (no IPC) and safer (less complex C++ overal…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://googleprojectzero.blogspot.com/">Project Zero</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">DER Entitlements: The (Brief) Return of the Psychic Paper</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(16 min)</span>
+                    <span>@import url(&#x27;https://themes.googleusercontent.com/fonts/css?kit&#x3D;pYEwJuzr3ZMDX2Y1syVbvx06if6osnyAslCuLPPf50A&#x27;);ul.lst-kix_h97ui6n3g8c8-4{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-5{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-2{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-3{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-8{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-6{list-style-type:none}.lst-kix_o4b5kflpgafe-7&gt;li:before{content:&quot;-  &quot;}ul.lst-kix_h97ui6n3g8c8-7{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-1{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-4{list-style-type:none}.lst-kix_o4b5kflpgafe-8&gt;li:before{content:&quot;-  &quot;}ul.lst-kix_h97ui6n3g8c8-1{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-5{list…</span>
                   </div>
                 </a>
               </details>
@@ -1784,136 +1954,9 @@ Jason: My first exposure was similar to ot</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2022-12-14">2022-12-14</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://building.nubank.com.br/">Building Nubank</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">What is It like being a Product Designer at Nubank?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://building.nubank.com.br/product-designer-at-nubank/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Product Designers are responsible for designing solutions that leave a positive impact using thorough understanding of the clients&#x27; and the business&#x27;s needs. Check out more about this career:
-The post What is It like being a Product Designer at Nubank? appeared first on Building Nubank.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Announcing SvelteKit 1.0</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://svelte.dev/blog/announcing-sveltekit-1.0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Congrats to the entire Svelte team (and contributors) for this release, which culminates two years of effort:
-We’re so excited to share this release with you. It’s the culmination of thousands of hours of work, both from the Svelte core team and the wider community, and we think it’s the most enjoyable way to build production-grade websites, whether you’re a solo developer working on a small project or part of a large team.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Apple&#x27;s Swift rewrite of its Foundation framework will be open source</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.swift.org/blog/future-of-foundation/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Tony Parker writing on Swift’s blog:
-When Swift began life as an open source project, we wanted to open not just the language itself, but the ecosystem around it. Foundation has been instrumental in the success of decades of software and has been an integral part of the Swift developer experience from the beginning, and we knew it had to be included in the open source offering.
-Historically, Apple’s open source efforts have varied in just how open they are when it comes to community. On that topic, this is an uplifting bit of prose:
-Open source projects are at their best when the community of users can participate and become a community of developers. A new, open contribution process will be available to enable all developers to contribute new API to Foundation.
-This new Foundation project is slated to launch on GitHub in 2023.
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to rebuild social media on top of RSS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://tfos.co/p/rebuild-social-media/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Jacob O’Bryant’s “Grand Vision For How Social Media Ought To Be”:
-there should be a bunch of different:
-publishing services, like Substack and Ghost
-reading apps, like Gmail and Matter
-community platforms, like Slack and Discord
-and we should look for ways to make these reading, publishing, and community services all play nicely together. I’m calling this model “the unbundled web,” and I think RSS should be the primary method of interop.
-Where do I sign up? 😉
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Running Rails from Docker for easy start to development</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/rails/docked">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Setting up Rails for the first time with all the dependencies necessary can be daunting for beginners. Docked Rails attempts to flatten the onboarding curve by only requiring a working Docker installation in order to get started making a new Rails application, working with that application during development, and running a basic server. All based on pre-configured commands and dependencies living in a Docker image.
-Getting started is as easy as:
-docker volume create ruby-bundle-cache
-alias rails&#x3D;&#x27;docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle dhh37/rails&#x27;
-alias rails-server&#x3D;&#x27;docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 dhh37/rails server -b 0.0.0.0&#x27;
-
-Discuss on Changelog News</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">IDN is crazy</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2022/12/14/idn-is-crazy/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>IDN, International Domain Names, is the concept that lets us register and use international characters in domain names, and by international we of course mean characters outside of the ASCII range. Recently I have fought some battles against IDN and IDN decoding so I felt this urge to write a lot of words about it … Continue reading IDN is crazy →</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://github.blog/">The GitHub Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Raising the bar for software security: next steps for GitHub.com 2FA</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2022-12-14-raising-the-bar-for-software-security-next-steps-for-github-com-2fa/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>GitHub will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023. Learn more about our approach, when we’ll begin our rollout, and what you can expect as we begin requiring 2FA.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2023-01-12T12:19:27.627Z">2023-01-12T12:19:27.627Z</time>
+    <time id="build-timestamp" datetime="2023-01-13T12:17:42.015Z">2023-01-13T12:17:42.015Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>

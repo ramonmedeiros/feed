@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/01/supporting-use-of-rust-in-chromium.html",
+          "author": null,
+          "description": "Posted by Dana Jansens (she/her), Chrome Security Team  \nWe are pleased to announce that moving forward, the Chromium project is going to support the use of third-party Rust libraries from C++ in Chromium. To do so, we are now actively pursuing adding a production Rust toolchain to our build system. This will enable us to include Rust code in the Chrome binary within the next year. We’re starting slow and setting clear expectations on what libraries we will consider once we’re ready. \nIn this blog post, we will discuss how we arrived at the decision to support third-party Rust libraries at this time, and not broader usage of Rust in Chromium. \nWhy We Chose to Bring Rust into Chromium\nOur goal in bringing Rust into Chromium is to provide a simpler (no IPC) and safer (less complex C++ overal…",
+          "link": "http://security.googleblog.com/2023/01/supporting-use-of-rust-in-chromium.html",
+          "publishedOn": "2023-01-12T17:26:00.003Z",
+          "wordCount": 1793,
+          "title": "Supporting the Use of Rust in the Chromium Project"
+        },
+        {
           "id": "http://security.googleblog.com/2022/12/app-defense-alliance-expansion.html",
           "author": null,
           "description": "Posted by Brooke Davis, Android Security and Privacy Team \nThe App Defense Alliance launched in 2019 with a mission to protect Android users from bad apps through shared intelligence and coordinated detection between alliance partners.  Earlier this year, the App Defense Alliance expanded to include new initiatives outside of malware detection and is now the home for several industry-led collaborations including Malware Mitigation, MASA (Mobile App Security Assessment) & CASA (Cloud App Security Assessment). With a new dedicated landing page at appdefensealliance.dev, the ADA has an expanded mission to protect Android users by removing threats while improving app quality across the ecosystem. Let’s walk through some of the latest program updates from the past year, including the addition o…",
@@ -27,6 +36,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/1962",
+          "author": null,
+          "description": "Paul Smith (from “Obama’s Trauma Team”) tells us the tale of how Go played a big role in the rescuing and rebuilding of the HealthCare.gov website. Along the way we learn what the original team did wrong, how the rescue team kept it afloat during huge traffic spikes, and what they’ve done since to rebuild it to serve the people’s needs.\nDiscuss on Changelog News\nChangelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nFeaturing\nPaul Smith – Twitter, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNotes and Links\nHealthCare.gov\nPaul’s company Ad Hoc is hiring\nObama’s Trauma Team\nPaul on MSNBC talking about the rescue\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/262",
+          "publishedOn": "2023-01-12T22:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 262: How Go helped save HealthCare.gov ♻️",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/262/go-time-262.mp3",
+            "length": "57582805",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/O5gw",
+          "author": "Jerod Santo",
+          "description": "Scott Antipa:\nI’m working on a flowchart editor that runs in the browser, and I wanted a way for people to use it without having to sign in, or store any data on our server. I wanted to give them control over their data and to be able to store it locally to open and edit later. And also easily share it with other people. It’s easy to do this by supporting file upload/download, but I wanted something simpler, like the ability to share by sending a url. I also didn’t want to store anything on the backend (at least for the free tier).\nWhat he decided on was to base64 encode the entire application state and store it in the fragment section of the URL. I love all the upsides of this approach and it’s pretty trivial to accomplish. Here’s the pseudocode that Scott provides in his post:\nconst stateString = JSON.stringify(appState); // appState is a json object\nconst compressed = compress(stateString);\nconst encoded = Base64.encode(compressed);\n// Push that `encoded` string to the url\n// ... Later, on page load or on undo/redo we read the url and\n// do the following\nconst decoded = Base64.decode(encoded); // same encoded as above, but read from url\nconst uncompressed = uncompress(decoded);\nconst newState = JSON.parse(uncompressed);\n// Now load your application with the newState\n\nDiscuss on Changelog News",
+          "link": "https://www.scottantipa.com/store-app-state-in-urls",
+          "publishedOn": "2023-01-12T21:51:00.000Z",
+          "wordCount": null,
+          "title": "How to store your app's entire state in the URL",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Zo7k",
+          "author": "Abdulfatai Popoola",
+          "description": "Measuring a manager’s impact is hard since outcomes take time. The manager takes full responsibility for the team - be it stagnation, execution woes, poor collaboration, churn, or a lack of focus. This post provides early evaluation metrics as well as tips for course correction.\nDiscuss on Changelog News",
+          "link": "https://abdulapopoola.com/2023/01/09/evaluating-managers-5-heuristics-to-measure-managerial-impact/",
+          "publishedOn": "2023-01-12T21:04:00.000Z",
+          "wordCount": null,
+          "title": "Am I an effective manager? Five heuristics to measure",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/1W5z",
+          "author": "Jerod Santo",
+          "description": "Cedric Chin, writing about the famous adage that says “when a measure becomes a target, it ceases to be a good measure.”\nAt some level, this is self-evident. Goodhart’s Law is about as pithy and about as practicable as “the only certainty in life is death and taxes” and “hell is other people.” It is descriptive; it tells you of the existence of a phenomenon, but it doesn’t tell you what to do about it or how to solve it.\nThere are more useful formulations of the law that help solve it. Some organizations use this narrower, more actionable form:\nWhen people are pressured to meet a target value there are three ways they can proceed:\nThey can work to improve the system\nThey can distort the system\nOr they can distort the data\nWith that framing in hand, Cedric goes on to describe how you can solve for these three ways and design incentive/measurement systems that work.\nDiscuss on Changelog News",
+          "link": "https://commoncog.com/goodharts-law-not-useful/",
+          "publishedOn": "2023-01-12T20:17:00.000Z",
+          "wordCount": null,
+          "title": "Goodhart's Law isn't as useful as you might think",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/14/1952",
           "author": null,
@@ -481,46 +535,6 @@
             "length": "62821957",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/qM1e",
-          "author": "Jerod Santo",
-          "description": "Congrats to the entire Svelte team (and contributors) for this release, which culminates two years of effort:\nWe’re so excited to share this release with you. It’s the culmination of thousands of hours of work, both from the Svelte core team and the wider community, and we think it’s the most enjoyable way to build production-grade websites, whether you’re a solo developer working on a small project or part of a large team.\nDiscuss on Changelog News",
-          "link": "https://svelte.dev/blog/announcing-sveltekit-1.0",
-          "publishedOn": "2022-12-14T18:42:00.000Z",
-          "wordCount": null,
-          "title": "Announcing SvelteKit 1.0",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/V173",
-          "author": "Jerod Santo",
-          "description": "Tony Parker writing on Swift’s blog:\nWhen Swift began life as an open source project, we wanted to open not just the language itself, but the ecosystem around it. Foundation has been instrumental in the success of decades of software and has been an integral part of the Swift developer experience from the beginning, and we knew it had to be included in the open source offering.\nHistorically, Apple’s open source efforts have varied in just how open they are when it comes to community. On that topic, this is an uplifting bit of prose:\nOpen source projects are at their best when the community of users can participate and become a community of developers. A new, open contribution process will be available to enable all developers to contribute new API to Foundation.\nThis new Foundation project is slated to launch on GitHub in 2023.\nDiscuss on Changelog News",
-          "link": "https://www.swift.org/blog/future-of-foundation/",
-          "publishedOn": "2022-12-14T16:41:00.000Z",
-          "wordCount": null,
-          "title": "Apple's Swift rewrite of its Foundation framework will be open source",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y71e",
-          "author": "Jerod Santo",
-          "description": "Jacob O’Bryant’s “Grand Vision For How Social Media Ought To Be”:\nthere should be a bunch of different:\npublishing services, like Substack and Ghost\nreading apps, like Gmail and Matter\ncommunity platforms, like Slack and Discord\nand we should look for ways to make these reading, publishing, and community services all play nicely together. I’m calling this model “the unbundled web,” and I think RSS should be the primary method of interop.\nWhere do I sign up? 😉\nDiscuss on Changelog News",
-          "link": "https://tfos.co/p/rebuild-social-media/",
-          "publishedOn": "2022-12-14T15:00:01.000Z",
-          "wordCount": null,
-          "title": "How to rebuild social media on top of RSS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Jg5d",
-          "author": "Jerod Santo",
-          "description": "Setting up Rails for the first time with all the dependencies necessary can be daunting for beginners. Docked Rails attempts to flatten the onboarding curve by only requiring a working Docker installation in order to get started making a new Rails application, working with that application during development, and running a basic server. All based on pre-configured commands and dependencies living in a Docker image.\nGetting started is as easy as:\ndocker volume create ruby-bundle-cache\nalias rails='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle dhh37/rails'\nalias rails-server='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 dhh37/rails server -b 0.0.0.0'\n\nDiscuss on Changelog News",
-          "link": "https://github.com/rails/docked",
-          "publishedOn": "2022-12-14T13:57:00.000Z",
-          "wordCount": null,
-          "title": "Running Rails from Docker for easy start to development",
-          "itunes": {}
         }
       ]
     },
@@ -668,15 +682,6 @@
           "publishedOn": "2022-12-19T07:22:12.000Z",
           "wordCount": 400,
           "title": "curl sighting: Tschugger"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20978",
-          "author": "Daniel Stenberg",
-          "description": "IDN, International Domain Names, is the concept that lets us register and use international characters in domain names, and by international we of course mean characters outside of the ASCII range. Recently I have fought some battles against IDN and IDN decoding so I felt this urge to write a lot of words about it … Continue reading IDN is crazy →",
-          "link": "https://daniel.haxx.se/blog/2022/12/14/idn-is-crazy/",
-          "publishedOn": "2022-12-14T07:59:28.000Z",
-          "wordCount": 1932,
-          "title": "IDN is crazy"
         }
       ]
     },
@@ -685,6 +690,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "author": null,
+          "description": "In this blog, we share findings from a follow-up analysis in which we seek to understand how prompts cause people to reconsider potentially harmful or offensive content before they hit send.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/reconsidering-tweets",
+          "publishedOn": "2023-01-13T12:17:05.857Z",
+          "wordCount": 818,
+          "title": "Reconsidering Tweets"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
           "author": null,
@@ -781,7 +795,17 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html",
+          "author": null,
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=pYEwJuzr3ZMDX2Y1syVbvx06if6osnyAslCuLPPf50A');ul.lst-kix_h97ui6n3g8c8-4{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-5{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-2{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-3{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-8{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-6{list-style-type:none}.lst-kix_o4b5kflpgafe-7>li:before{content:\"-  \"}ul.lst-kix_h97ui6n3g8c8-7{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-1{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-4{list-style-type:none}.lst-kix_o4b5kflpgafe-8>li:before{content:\"-  \"}ul.lst-kix_h97ui6n3g8c8-1{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-5{list…",
+          "link": "https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html",
+          "publishedOn": "2023-01-12T16:59:00.000Z",
+          "wordCount": 4864,
+          "title": "DER Entitlements: The (Brief) Return of the Psychic Paper"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -794,6 +818,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=69366",
+          "author": "Eric Tooley",
+          "description": "Dependabot is getting a little smarter—and, a little quieter—by reducing bot-based noise from repositories based on your interaction with Dependabot.",
+          "link": "https://github.blog/2023-01-12-a-smarter-quieter-dependabot/",
+          "publishedOn": "2023-01-12T17:56:25.000Z",
+          "wordCount": 1028,
+          "title": "A smarter, quieter Dependabot"
+        },
         {
           "id": "https://github.blog/?p=69409",
           "author": "Chris Reddington",
@@ -937,15 +970,6 @@
           "publishedOn": "2022-12-15T17:00:38.000Z",
           "wordCount": 1031,
           "title": "GitHub Advanced Security customers can now push protect their custom patterns"
-        },
-        {
-          "id": "https://github.blog/?p=69113",
-          "author": "John Swanson",
-          "description": "GitHub will require all users who contribute code on GitHub.com to enable one or more forms of two-factor authentication (2FA) by the end of 2023. Learn more about our approach, when we’ll begin our rollout, and what you can expect as we begin requiring 2FA.",
-          "link": "https://github.blog/2022-12-14-raising-the-bar-for-software-security-next-steps-for-github-com-2fa/",
-          "publishedOn": "2022-12-14T17:00:15.000Z",
-          "wordCount": 1149,
-          "title": "Raising the bar for software security: next steps for GitHub.com 2FA"
         }
       ]
     },
@@ -1007,15 +1031,6 @@
           "publishedOn": "2022-12-16T18:30:55.000Z",
           "wordCount": 3716,
           "title": "What is functional programming and how do we use that technology at Nubank?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19782",
-          "author": "Victor Campanha",
-          "description": "Product Designers are responsible for designing solutions that leave a positive impact using thorough understanding of the clients' and the business's needs. Check out more about this career:\nThe post What is It like being a Product Designer at Nubank? appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/product-designer-at-nubank/",
-          "publishedOn": "2022-12-14T15:59:20.000Z",
-          "wordCount": 3452,
-          "title": "What is It like being a Product Designer at Nubank?"
         }
       ]
     },
