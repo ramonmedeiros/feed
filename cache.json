@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/1874",
+          "author": null,
+          "description": "Tech lawyer Luis Villa returns to Go Time to school us once again on the intellectual property concerns of software creators in this crazy day we live in. This time around, we’re focusing on the implications of Large Language Models, code generation, and crazy stuff like that.\nDiscuss on Changelog News\nChangelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over…",
+          "link": "https://changelog.com/gotime/263",
+          "publishedOn": "2023-01-19T22:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 263: Who owns our code? Part 2",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/263/go-time-263.mp3",
+            "length": "63472475",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/y7lo",
+          "author": "Jerod Santo",
+          "description": "This project is from the SQLite team themselves. Their reasoning for it:\nSQLite is sometimes used as the core of a client/server database system. While it works reliably well in such cases, the database backend module that it uses to store b-tree structures in its database file was not designed with this case in mind and can be improved upon in several ways. The HC-tree (hctree) project is an attempt to develop a new database backend that improves upon regular SQLite as follows…\nIt improves concurrency, adds support for replication & removes database size limitations.\nDiscuss on Changelog News",
+          "link": "https://sqlite.org/hctree/doc/hctree/doc/hctree/index.html",
+          "publishedOn": "2023-01-19T20:17:00.000Z",
+          "wordCount": null,
+          "title": "An experimental high-concurrency backend for SQLite",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/JgNb",
+          "author": "Jerod Santo",
+          "description": "Jeremia Kimelman:\nDatasette is an open source tool that takes an SQLite database and gives you an out-of-the-box, web-based UI built specifically for exploring data. Need an example? Here’s a database of all of Motley Fool’s earning transcripts that I used to look for talk of their California campaign activity. And here’s a bunch of other examples of Datasette from the official site.\nAnd the thing is: I love Datasette. It recently turned 5 years old and I wanted to write down the thing that makes it an absolutely delightful data hammer.\nDiscuss on Changelog News",
+          "link": "https://www.jeremiak.com/blog/datasette-the-data-hammer/",
+          "publishedOn": "2023-01-19T15:36:00.000Z",
+          "wordCount": null,
+          "title": "Datasette is my data hammer",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/AXW3",
           "author": "Liran Tal",
           "description": "In this post, I will show you some advanced usage patterns for working with Playwright in order to take a screenshot of a specific element and modify the contents of the image, either before taking the screenshot or after, using image preprocessing tools.\nDiscuss on Changelog News",
@@ -586,15 +621,6 @@
           "publishedOn": "2023-01-05T13:00:00.000Z",
           "wordCount": 538,
           "title": "Ready for Growth"
-        },
-        {
-          "id": "https://blog.comma.ai/taco-bell/",
-          "author": null,
-          "description": "Delivering on our first Twitter promise!",
-          "link": "https://blog.comma.ai/taco-bell/",
-          "publishedOn": "2022-12-21T10:00:00.000Z",
-          "wordCount": 1205,
-          "title": "A drive to Taco Bell"
         }
       ]
     },
@@ -603,6 +629,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ai/9-ways-we-use-ai-in-our-products/",
+          "author": null,
+          "description": "Here are nine ways we use AI today to make our products even more helpful.",
+          "link": "https://blog.google/technology/ai/9-ways-we-use-ai-in-our-products/",
+          "publishedOn": "2023-01-19T17:00:00.000Z",
+          "wordCount": 1553,
+          "title": "9 ways we use AI in our products"
+        },
         {
           "id": "https://blog.google/technology/ai/7-ways-google-is-using-ai-to-help-solve-societys-challenges/",
           "author": null,
@@ -708,24 +743,6 @@
           "publishedOn": "2022-12-23T13:44:33.000Z",
           "wordCount": 947,
           "title": "The curl fragment trick"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=19480",
-          "author": "Daniel Stenberg",
-          "description": "tldr: several hundred hours of dedicated scrutinizing of curl by a team of security experts resulted in two CVEs and a set of less serious remarks. The link to the reports is at the bottom of this article. Thanks to an OpenSSF grant, OSTIF helped us set up a curl security audit, which the excellent … Continue reading The 2022 curl security audit →",
-          "link": "https://daniel.haxx.se/blog/2022/12/21/the-2022-curl-security-audit/",
-          "publishedOn": "2022-12-21T21:57:56.000Z",
-          "wordCount": 1410,
-          "title": "The 2022 curl security audit"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=20937",
-          "author": "Daniel Stenberg",
-          "description": "Numbers the 212th release5 changes56 days (total: 9,042)155 bug-fixes (total: 8,492)238 commits (total: 29,571)0 new public libcurl function (total: 91)2 new curl_easy_setopt() option (total: 302)1 new curl command line option (total: 249)83 contributors, 40 new (total: 2,771)42 authors, 20 new (total: 1,101)2 security fixes (total: 132)Bug Bounties total: 48,580 USD Release presentation At 10:00 CET … Continue reading curl 7.87.0 →",
-          "link": "https://daniel.haxx.se/blog/2022/12/21/curl-7-87-0/",
-          "publishedOn": "2022-12-21T07:12:49.000Z",
-          "wordCount": 1491,
-          "title": "curl 7.87.0"
         }
       ]
     },
@@ -734,6 +751,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "author": null,
+          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "publishedOn": "2023-01-20T12:17:55.284Z",
+          "wordCount": 1991,
+          "title": "Constraint Management for cluster operation safety and reliability at Twitter"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
           "author": null,
@@ -841,6 +867,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2023/01/exploiting-null-dereferences-in-linux.html",
+          "author": null,
+          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw');ol.lst-kix_3558t16xb2i9-3.start{counter-reset:lst-ctn-kix_3558t16xb2i9-3 0}.lst-kix_dt3x5t4funnl-8>li:before{content:\"\" counter(lst-ctn-kix_dt3x5t4funnl-8,lower-roman) \". \"}ol.lst-kix_ehkygwr8rii2-3.start{counter-reset:lst-ctn-kix_ehkygwr8rii2-3 0}ol.lst-kix_dt3x5t4funnl-6.start{counter-reset:lst-ctn-kix_dt3x5t4funnl-6 0}.lst-kix_3558t16xb2i9-5>li{counter-increment:lst-ctn-kix_3558t16xb2i9-5}.lst-kix_dt3x5t4funnl-7>li:before{content:\"\" counter(lst-ctn-kix_dt3x5t4funnl-7,lower-latin) \". \"}.lst-kix_dt3x5t4funnl-1>li{counter-increment:lst-ctn-kix_dt3x5t4funnl-1}.lst-kix_dt3x5t4funnl-2>li:before{content:\"\" counter(lst-ctn-kix_dt3x5t4funnl-2,lower-roman) \". \"}.lst-kix_ehkygwr8rii2-5>li{counter-increment:lst…",
+          "link": "https://googleprojectzero.blogspot.com/2023/01/exploiting-null-dereferences-in-linux.html",
+          "publishedOn": "2023-01-19T17:33:00.000Z",
+          "wordCount": 2557,
+          "title": "Exploiting null-dereferences in the Linux kernel"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html",
           "author": null,
           "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=pYEwJuzr3ZMDX2Y1syVbvx06if6osnyAslCuLPPf50A');ul.lst-kix_h97ui6n3g8c8-4{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-5{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-2{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-3{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-8{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-6{list-style-type:none}.lst-kix_o4b5kflpgafe-7>li:before{content:\"-  \"}ul.lst-kix_h97ui6n3g8c8-7{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-1{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-4{list-style-type:none}.lst-kix_o4b5kflpgafe-8>li:before{content:\"-  \"}ul.lst-kix_h97ui6n3g8c8-1{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-5{list…",
@@ -862,6 +897,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=69619",
+          "author": "Bryan Dragon",
+          "description": "How Dependabot integrated with npm to address security vulnerabilities on transitive dependencies and increase the likelihood of success for JavaScript security updates by 40%.",
+          "link": "https://github.blog/2023-01-19-unlocking-security-updates-for-transitive-dependencies-with-npm/",
+          "publishedOn": "2023-01-19T20:24:01.000Z",
+          "wordCount": 2240,
+          "title": "Unlocking security updates for transitive dependencies with npm"
+        },
+        {
+          "id": "https://github.blog/?p=69606",
+          "author": "Kevin Duck",
+          "description": "When teams work cross-functionally, good things happen. See how our teams use GitHub Projects to coordinate and ship new products and features.",
+          "link": "https://github.blog/2023-01-19-how-github-coordinates-product-releases-with-github-projects-and-github-actions/",
+          "publishedOn": "2023-01-19T19:30:16.000Z",
+          "wordCount": 1147,
+          "title": "How GitHub coordinates product releases with GitHub Projects and GitHub Actions"
+        },
+        {
+          "id": "https://github.blog/?p=69599",
+          "author": "Mariam Sulakian",
+          "description": "GitHub now tells you whether GitHub tokens found by secret scanning are active so you can prioritize and escalate remediation efforts.",
+          "link": "https://github.blog/2023-01-19-remediation-made-simple-introducing-new-validity-checks-for-github-tokens/",
+          "publishedOn": "2023-01-19T17:00:43.000Z",
+          "wordCount": 716,
+          "title": "Remediation made simple: Introducing new validity checks for GitHub tokens"
+        },
         {
           "id": "https://github.blog/?p=69385",
           "author": "Eric Tooley",
@@ -987,15 +1049,6 @@
           "publishedOn": "2022-12-23T17:00:11.000Z",
           "wordCount": 811,
           "title": "What’s with all the ducks?"
-        },
-        {
-          "id": "https://github.blog/?p=69259",
-          "author": "Toya East",
-          "description": "This year, we took GitHub Gives, our company-wide giving campaign, to new heights and wanted to share our learnings to provide best practices in programming a successful hybrid giving campaign for employees.",
-          "link": "https://github.blog/2022-12-21-github-gives-2022-creating-positive-lasting-contributions-in-our-communities/",
-          "publishedOn": "2022-12-21T16:06:49.000Z",
-          "wordCount": 1394,
-          "title": "GitHub Gives 2022: Creating positive, lasting contributions in our communities"
         }
       ]
     },
@@ -1039,15 +1092,6 @@
           "publishedOn": "2023-01-04T18:54:32.000Z",
           "wordCount": 3746,
           "title": "From Customer Service to Software Engineer: how Nubank enabled me to make a career transition in 2 years"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=19803",
-          "author": "BU Team",
-          "description": "In less than six months, a small team of 6 Software Engineers, 2 Designers, 1 Business Analyst, 1 PM, 1 PMM and 1 Tech Manager built Nubank’s first social feature.\nThe post NuBolão: How we built Nubank’s first social feature in less than six months appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/how-nubank-built-nubolao/",
-          "publishedOn": "2022-12-21T22:35:14.000Z",
-          "wordCount": 3617,
-          "title": "NuBolão: How we built Nubank’s first social feature in less than six months"
         }
       ]
     },
@@ -1056,6 +1100,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/hacker-afk-insiderphd",
+          "author": "HackerOne",
+          "description": "Today's hacker InsiderPhD\nJXoaT: My first question is always, \"What was your first experience with hacking?\" What really opened the door to y",
+          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-afk-insiderphd",
+          "publishedOn": "2023-01-19T17:19:33.000Z",
+          "wordCount": 2379,
+          "title": "Hacker AFK: InsiderPhD"
+        },
         {
           "id": "https://hackerone.com/penetration-testing/hackerone-named-leader-penetration-testing-service-ptaas-gigaom-radar-report",
           "author": "Sean Ryan",
@@ -1100,15 +1153,6 @@
           "publishedOn": "2023-01-05T16:00:50.000Z",
           "wordCount": 722,
           "title": "Changes to Disclosure Assistance"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702",
-          "author": "HackerOne",
-          "description": "Checkout this infographic for a more detailed look at stats, hacker perspectives, and highlights of our event. Be sure to checkout all of our H@ckti",
-          "link": "https://www.hackerone.com/hackerone-community-blog/visualizing-live-hacking-events-hackers-break-records-h1-702",
-          "publishedOn": "2022-12-21T22:02:33.000Z",
-          "wordCount": 590,
-          "title": "Visualizing Live Hacking Events: Hackers Break Records at H1-702"
         }
       ]
     },
