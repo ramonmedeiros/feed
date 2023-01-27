@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-26T12:19:02.721Z</updated>
+    <updated>2023-01-27T12:17:03.972Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Setting the foundations for compliance]]></title>
+        <id>https://github.blog/?p=69711</id>
+        <link href="https://github.blog/2023-01-26-setting-the-foundations-for-compliance/"/>
+        <updated>2023-01-26T17:00:18.000Z</updated>
+        <summary type="html"><![CDATA[Laying the groundwork for developer-enabled compliance.]]></summary>
+        <author>
+            <name>Mark Paulsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What we look for in a resume]]></title>
+        <id>changelog.com/news/gwgA</id>
+        <link href="https://huyenchip.com//2023/01/24/what-we-look-for-in-a-candidate.html"/>
+        <updated>2023-01-26T15:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Chip Huyen:
+When we actively hire, our startup gets 150 - 200 applications each month. I read every single one of them. Sometimes, I’d talk to a candidate and see that what we perceived as their strongest aspects actually weren’t included in their resume. Occasionally, a candidate would tell me that they didn’t expect their resume to still be screened by humans – had they known, they would have written their resume differently.
+The resume evaluation process is pretty much a black box for most candidates. And it is so because few hiring managers have publicly discussed this. I thought I should start the conversation.
+Chip’s team mostly hires for infra and ML roles, so some of the advice here will be catered towards those positions. Still, if you’re on the job market you’d be well-served by spending 15-20 minutes reading this post and tweaking your resume where applicable.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 87: Why we switched to serverless containers]]></title>
+        <id>changelog.com/14/1956</id>
+        <link href="https://changelog.com/shipit/87"/>
+        <updated>2023-01-26T14:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Last September, at the 🇨🇭 Swiss Cloud Native Day, Florian Forster, co-founder & CEO of ZITADEL, talked about why they switched to serverless containers. ZITADEL has a really interesting workload that is both CPU intensive and latency sensitive. On top of this, their users are global, and traffic is bursty. Florian talks about how they evaluated AWS, GCP & Azure before they settled on the platform that met their requirements.
+Discuss on Changelog News
+Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changel…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building reliable distributed systems in Node]]></title>
+        <id>changelog.com/news/6rkg</id>
+        <link href="https://temporal.io/blog/building-reliable-distributed-systems-in-node"/>
+        <updated>2023-01-26T14:20:00.000Z</updated>
+        <summary type="html"><![CDATA[This post introduces the concept of durable execution, which is used by Stripe, Netflix, Coinbase, Snap, and many others to solve a wide range of problems in distributed systems. Then it shows how simple it is to write durable code in Node.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scalable Annotation Service — Marken]]></title>
         <id>https://medium.com/p/f5ba9266d428</id>
@@ -1799,16 +1852,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[A recap of Google’s top announcements and initiatives in 2022.]]></summary>
         <author>
             <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl -w certs]]></title>
-        <id>https://daniel.haxx.se/blog/?p=20805</id>
-        <link href="https://daniel.haxx.se/blog/2022/12/28/curl-w-certs/"/>
-        <updated>2022-12-28T08:15:50.000Z</updated>
-        <summary type="html"><![CDATA[When a client connects to a TLS server it gets sent one or more certificates during the handshake. Those certificates are verified by the client, to make sure that the server is indeed the right one: the server the client expects it to be; no impostor and no man in the middle etc. When such … Continue reading curl -w certs →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
