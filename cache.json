@@ -46,6 +46,56 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/ZoMM",
+          "author": "Jerod Santo",
+          "description": "GraphGPT converts unstructured natural language into a knowledge graph. Pass in the synopsis of your favorite movie, a passage from a confusing Wikipedia page, or transcript from a video to generate a graph visualization of entities and their relationships.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/varunshenoy/GraphGPT",
+          "publishedOn": "2023-02-02T20:15:00.000Z",
+          "wordCount": null,
+          "title": "Extrapolate knowledge graphs from unstructured text using GPT-3 🕵️‍♂️",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/1983",
+          "author": null,
+          "description": "It’s “Call For Papers” (CFP) season in Go land, so we gathered some seriously experienced conference organizers to help YOUR submission be the best ever.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog++ – Yo…",
+          "link": "https://changelog.com/gotime/265",
+          "publishedOn": "2023-02-02T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 265: How to ace that CFP",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/265/go-time-265.mp3",
+            "length": "65046529",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/14/1955",
+          "author": null,
+          "description": "In our ops & infra world, we learn to optimise for redundancy, for mean time to recovery and for graceful degradation. We instinctively recognise single points of failure, and try to mitigate the risks associated with them.\nFor some years now, Daniel Vassallo has been doing the same, but in the context of life & work. Daniel talks about the role of randomness, about learning from small wins & about optimising for a lifestyle that matches your true preferences,. Apparently, ideas too should be treated like cattle, not pets.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery net…",
+          "link": "https://changelog.com/shipit/88",
+          "publishedOn": "2023-02-02T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 88: Treat ideas like cattle, not pets",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/88/ship-it-88.mp3",
+            "length": "66637555",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/oja4",
+          "author": "Bruno Calza",
+          "description": "While playing with the SQLite vs Filesystem benchmark, I became intrigued by how the cache between the two approaches behaved.  That led me to discover a super exciting tool called vmtouch, which allows you to interact with the Operating System page cache and do some performance debugging.\nDiscuss on Changelog News",
+          "link": "https://brunocalza.me/the-day-i-discoverd-vmtouch/",
+          "publishedOn": "2023-02-02T15:17:00.000Z",
+          "wordCount": null,
+          "title": "The day I discovered vmtouch",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/QpMQ",
           "author": "Jerod Santo",
           "description": "Richard MacManus from The New Stack spoke with Netlify CEO Matt Biilmann about the deal and their new catchphrase: “composable architectures”\nBiilmann described it as a “change away from monolithic solutions,” citing a couple of examples: Adobe Experience Manager “as the DXP [digital experience platform] system for all your web productions” and Drupal “as the core engine that both powers the backend and the frontend of your site, the business logic and the UI layer, and so on.” He argues that these types of “monolithic” solutions can “start to feel very legacy and very dated.”\nI’m not sure if “composable architectures” will stick, but they sure did a good job of making “jamstack” a thing, so time will tell on that.\nDiscuss on Changelog News",
@@ -854,36 +904,6 @@
           "wordCount": null,
           "title": "Time to rotate any secrets you have stored in CircleCI",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/AX73",
-          "author": "Jerod Santo",
-          "description": "150+ open source Tailwind components.\n\nDiscuss on Changelog News",
-          "link": "https://sailboatui.com/",
-          "publishedOn": "2023-01-04T21:21:00.000Z",
-          "wordCount": null,
-          "title": "Sailboat UI – a framework for Tailwind",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/GW7A",
-          "author": "Jerod Santo",
-          "description": "A solid rundown of the discrepency between what we hope from microservices and what we often get instead. TLDR:\nArchitecture is hard sometimes–people keep offering up some new idea that quickly becomes the mainstream “way to do it” without any context or nuance, and the industry, desperate to find ways to improve their architecture, snaps it up without hesitation. Microservices was the latest in the trend, and it’s time we dissected the idea and got to the real root of what’s going on.\nDiscuss on Changelog News",
-          "link": "http://blogs.newardassociates.com/blog/2023/you-want-modules-not-microservices.html",
-          "publishedOn": "2023-01-04T19:15:00.000Z",
-          "wordCount": null,
-          "title": "You want modules, not microservices",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/eEjY",
-          "author": "Jerod Santo",
-          "description": "This thing scans all 65k ports in 3 seconds, is scriptable with Python, Lua & Shell, “learns” based on your usage, and automatically pipes ports into Nmap.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/RustScan/RustScan",
-          "publishedOn": "2023-01-04T14:48:00.000Z",
-          "wordCount": null,
-          "title": "RustScan is a modern take on the port scanner",
-          "itunes": {}
         }
       ]
     },
@@ -1160,6 +1180,24 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=69886",
+          "author": "Steve Guntrip",
+          "description": "Explore how the GitHub Docs team uses GitHub Projects for content coordination, reviews, and publishing.",
+          "link": "https://github.blog/2023-02-02-how-the-github-docs-team-uses-github-projects/",
+          "publishedOn": "2023-02-02T19:00:54.000Z",
+          "wordCount": 1294,
+          "title": "How the GitHub Docs team uses GitHub Projects"
+        },
+        {
+          "id": "https://github.blog/?p=69851",
+          "author": "Grant Birkinbine",
+          "description": "What if developers want to leverage branch deployments but don't have a full ChatOps stack integrated with their repositories? We wanted to set out to find a way for all developers to be able to take advantage of branch deployments with ease, right from their GitHub repository, and so the branch-deploy Action was born!",
+          "link": "https://github.blog/2023-02-02-enabling-branch-deployments-through-issueops-with-github-actions/",
+          "publishedOn": "2023-02-02T18:03:36.000Z",
+          "wordCount": 1743,
+          "title": "Enabling branch deployments through IssueOps with GitHub Actions"
+        },
+        {
           "id": "https://github.blog/?p=69804",
           "author": "Sarah Oyetubo",
           "description": "The DEI Resource Hub is a vetted collection of resources, tools, and best practices designed to help open source maintainers create and maintain inclusive and diverse open source communities.",
@@ -1392,15 +1430,6 @@
           "publishedOn": "2023-01-09T18:00:55.000Z",
           "wordCount": 982,
           "title": "Default setup: A new way to enable GitHub code scanning"
-        },
-        {
-          "id": "https://github.blog/?p=69291",
-          "author": "Jakub Oleksy",
-          "description": "In December, we did not experience any incidents that resulted in degraded performance across GitHub services. This report sheds light into an incident that impacted customers using GitHub Packages and GitHub Pages in November.",
-          "link": "https://github.blog/2023-01-04-github-availability-report-december-2022/",
-          "publishedOn": "2023-01-04T17:20:40.000Z",
-          "wordCount": 739,
-          "title": "GitHub Availability Report: December 2022"
         }
       ]
     },
@@ -1453,15 +1482,6 @@
           "publishedOn": "2023-01-06T16:14:47.000Z",
           "wordCount": 3497,
           "title": "What is it like being a Product Manager at Nubank?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20001",
-          "author": "Georgia Anunciação - Technical Writer at Nubank",
-          "description": "In 2019, I joined Nubank as a Customer Service Analyst. In two years, I entered the Technical Writing team. Discover how!\nThe post From Customer Service to Software Engineer: how Nubank enabled me to make a career transition in 2 years appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/from-customer-service-to-software-engineer/",
-          "publishedOn": "2023-01-04T18:54:32.000Z",
-          "wordCount": 3746,
-          "title": "From Customer Service to Software Engineer: how Nubank enabled me to make a career transition in 2 years"
         }
       ]
     },
