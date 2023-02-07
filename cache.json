@@ -46,6 +46,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/2000",
+          "author": null,
+          "description": "OpenAI’s working on an AI classifier trained to distinguish between AI-written and human-written text, Oz Nova and Myles Byrne created a guide to teach yourself computer science, Charles Genschwap recently realized that all the various programming philosophies can be boiled down into a simple statement about how to work with state, you probably don’t need Lodash or Underscore anymore & Waseem Daher thinks scalability is overrated.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nNew AI classifier for indicating AI-written text\nTeach Yourself Computer Science\n\nOz on The Changelog #260\nAll Programming Philosophies Are About State\nYou might not need Lodash/Underscore\nScalability is overrated\nSomething missing or broken? PRs welcome!\nTimestamps:\n(01:16) - OpenAI's classifier for AI-written text\n(02:33) - Teach Yourself Computer Science\n(03:56) - All philosophies are about state\n(04:52) - You might not need Lodash or Underscore\n(06:02) - Scalability is overrated\n(07:08) - Outro",
+          "link": "https://changelog.com/podcast/news-2023-02-06",
+          "publishedOn": "2023-02-06T21:40:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: OpenAI's new text classifier, teach yourself CS, programming philosophies are about state, you might not need Lodash & overrated scalability",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-02-06/the-changelog-news-2023-02-06.mp3",
+            "length": "7881589",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/8l8Z",
+          "author": "Jacob Zelko",
+          "description": "For many hackers, programmers, and computer scientists, having an understanding of graph theory is immensely helpful. But what about those who do not have this background?\nThis blog posts adapts Scott Young’s Ultralearning approach and applies it to learning graph theory for those who many not have a formal training in maths!\nDiscuss on Changelog News",
+          "link": "https://jacobzelko.com/01012023000122-graph-theory-learning/#roadmap",
+          "publishedOn": "2023-02-06T16:25:00.000Z",
+          "wordCount": null,
+          "title": "Achieving an undergrad level understanding of graph theory",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/jqMw",
+          "author": "Jerod Santo",
+          "description": "Creator Tyler Deitz says:\nStreetPass is a browser extension that helps you find your people on Mastodon. It piggybacks off the way Mastodon handles decentralized identity verification and turns it into a simple discovery tool that recommends users based on the websites you visit! Available for Chrome and Firefox (soon Safari).\nDiscovery is one of the more challenging facets of federated social networking. It gets even more challenging now that Twitter’s API is getting paywall’d, so most of the free tools to port your Twitter social graph over to Mastodon will quit working. I expect more tools like StreetPass to pop up in the coming days as the Fediverse seems to be capturing that hacker spirit Twitter once embraced.\nDiscuss on Changelog News",
+          "link": "https://streetpass.social",
+          "publishedOn": "2023-02-06T15:33:00.000Z",
+          "wordCount": null,
+          "title": "StreetPass: Find your people on Mastodon",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/bJMe",
           "author": "Jerod Santo",
           "description": "What’s old is new cool again. Here’s Andy Jiang, writing on Deno’s blog:\nIn the past 10 years, the median size for a desktop webpage has gone from 468 KB to 2284 KB, a 388.3% increase. For mobile, this jump is even more staggering — 145 KB to 2010 KB — a whopping 1288.1% increase.\nThat’s a lot of weight to ship over a network, especially for mobile. As a result, users experience terrible UX, slow loading times, and a lack of interactivity until everything is rendered. But all that code is necessary to make our sites work the way we want.\nThis is the problem with being a frontend dev today. What started out fun for frontend developers, building shit-hot sites with all the bells and whistles, has kinda turned into not fun. We’re now fighting different browsers to support, slow networks to ship code over, and intermittent, mobile connections. Supporting all these permutations is a giant headache.\nHow do we square this circle? By heading back to the server (Swiss basement not required).\nHe goes on to talk about isomorphic JavaScript frameworks and Deno’s offerings in this space. But hey, you don’t need all that fancy stuff to do SSR. All you need is a programming language that can render HTML (this is almost all languages) and a server…\nDiscuss on Changelog News",
@@ -864,6 +899,15 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
+          "author": null,
+          "description": "Introducing Bard, Google's experimental conversational AI service powered by LaMDA — plus, new AI features in Search coming soon.",
+          "link": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
+          "publishedOn": "2023-02-06T19:00:00.000Z",
+          "wordCount": 1858,
+          "title": "An important next step on our AI journey"
+        },
+        {
           "id": "https://blog.google/technology/ai/how-ai-is-improving-agriculture-sustainability-in-india/",
           "author": null,
           "description": "A look at how AI can help agriculture and sustainable farming in India.",
@@ -916,6 +960,24 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=21420",
+          "author": "Daniel Stenberg",
+          "description": "curl is actually something which is critical, especially to our data management system. It is being used very widely across NASA. Dr Steve Crawford 2020 Back in 2020 I started getting emails from NASA asking for details and specifics about curl’s origins and in particular about where contributors to the project works, and I first … Continue reading Closing the NASA loop →",
+          "link": "https://daniel.haxx.se/blog/2023/02/07/closing-the-nasa-loop/",
+          "publishedOn": "2023-02-07T08:49:01.000Z",
+          "wordCount": 589,
+          "title": "Closing the NASA loop"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=21367",
+          "author": "Daniel Stenberg",
+          "description": "At FOSDEM 2023, fossasia sold a fun badge with bright red 44×11 leds on them. Looking like this: Lots of people walked around the conference this year with sarcastic or otherwise amusing messages scrolling or blinking on them. GitHub Social When a few people at the GitHub Social event on the Saturday evening showed up … Continue reading A badger badge for bagder →",
+          "link": "https://daniel.haxx.se/blog/2023/02/06/a-badger-bagde-for-bagder/",
+          "publishedOn": "2023-02-06T15:38:45.000Z",
+          "wordCount": 1145,
+          "title": "A badger badge for bagder"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=21362",
           "author": "Daniel Stenberg",
           "description": "In the beginning and for many years, the curl project used no CI services at all. It instead used a distributed build and test systems where volunteers ran machines that pulled the latest code repeatedly, built curl, ran the tests and reported back the results to a central server. One In 2013, the year curl … Continue reading curl’s use of many CI services →",
@@ -941,15 +1003,6 @@
           "publishedOn": "2023-01-10T14:44:56.000Z",
           "wordCount": 466,
           "title": "My weekly report on email"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=21201",
-          "author": "Daniel Stenberg",
-          "description": "Like so many other software projects the curl project has copyright mentions at the top of almost every file in the source code repository. Like Copyright (C) 1998 - 2022, Daniel Stenberg ... Over the years we have used a combination of scripts and manual edits to update the ending year in that copyright line … Continue reading Copyright without years →",
-          "link": "https://daniel.haxx.se/blog/2023/01/08/copyright-without-years/",
-          "publishedOn": "2023-01-08T22:56:13.000Z",
-          "wordCount": 735,
-          "title": "Copyright without years"
         }
       ]
     },
@@ -1114,6 +1167,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=69904",
+          "author": "Timothy Clem",
+          "description": "A look at what went into building the world's largest public code search index.",
+          "link": "https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search/",
+          "publishedOn": "2023-02-06T17:00:46.000Z",
+          "wordCount": 3552,
+          "title": "The technology behind GitHub’s new code search"
+        },
+        {
+          "id": "https://github.blog/?p=68491",
+          "author": "Mark Paulsen",
+          "description": "Explore how GitHub Advanced Security can help address several of the OWASP Top 10 vulnerabilities",
+          "link": "https://github.blog/2023-02-06-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/",
+          "publishedOn": "2023-02-06T15:02:16.000Z",
+          "wordCount": 1291,
+          "title": "How to mitigate OWASP vulnerabilities while staying in the flow"
+        },
         {
           "id": "https://github.blog/?p=70011",
           "author": "Lee Reilly",
@@ -1443,6 +1514,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/hacker-afk-rhynorater",
+          "author": "HackerOne",
+          "description": "Today's hacker Rhynorater\nJXoaT: Where did you first hear about hacking? What was your first exposure to it?\nRhynorater: So, my first exp",
+          "link": "https://www.hackerone.com/hackerone-community-blog/hacker-afk-rhynorater",
+          "publishedOn": "2023-02-06T18:14:20.000Z",
+          "wordCount": 2776,
+          "title": "Hacker AFK: Rhynorater"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-encryptsaan123",
           "author": "HackerOne",
