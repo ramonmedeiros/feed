@@ -22,15 +22,6 @@
           "publishedOn": "2023-01-13T17:29:00.000Z",
           "wordCount": 904,
           "title": "Sustaining Digital Certificate Security - TrustCor Certificate Distrust"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/01/supporting-use-of-rust-in-chromium.html",
-          "author": null,
-          "description": "Posted by Dana Jansens (she/her), Chrome Security Team  \nWe are pleased to announce that moving forward, the Chromium project is going to support the use of third-party Rust libraries from C++ in Chromium. To do so, we are now actively pursuing adding a production Rust toolchain to our build system. This will enable us to include Rust code in the Chrome binary within the next year. We’re starting slow and setting clear expectations on what libraries we will consider once we’re ready. \nIn this blog post, we will discuss how we arrived at the decision to support third-party Rust libraries at this time, and not broader usage of Rust in Chromium. \nWhy We Chose to Bring Rust into Chromium\nOur goal in bringing Rust into Chromium is to provide a simpler (no IPC) and safer (less complex C++ overal…",
-          "link": "http://security.googleblog.com/2023/01/supporting-use-of-rust-in-chromium.html",
-          "publishedOn": "2023-01-12T17:26:00.003Z",
-          "wordCount": 1793,
-          "title": "Supporting the Use of Rust in the Chromium Project"
         }
       ]
     },
@@ -45,6 +36,66 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2005",
+          "author": null,
+          "description": "This week we invited our friend Mat Ryer to join us for some good conversation about some Git tooling that’s been on our radar. You may know Mat from Go Time and also Grafana’s Big Tent, which we help to produce. We speculate, we discuss, we laugh, and Mat even breaks into song a few times. It’s good fun.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nPostman – Build APIs together — More than 20 million developers …",
+          "link": "https://changelog.com/podcast/526",
+          "publishedOn": "2023-02-10T21:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 526: Git with your friends",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/526/the-changelog-526.mp3",
+            "length": "97028737",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/1967",
+          "author": null,
+          "description": "The panel dives into the current hot topic that is Generative AI. They start by defining it (a surprisingly difficult topic), then go into experiences they’ve had, how to get started working with it as a developer, and where they think it will and will not be useful in the near future.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nLolo Code – If you’re familiar with building severless apps, think of Lolo Code as your backend with a visual editor that lets you think and build at the same time. All this without having to provision or manage servers. Use the visual editor to build your app, connect nodes, and add any npm libraries you need. You can even write your own integrations. This makes Lolo Co…",
+          "link": "https://changelog.com/jsparty/262",
+          "publishedOn": "2023-02-10T20:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 262: Generative AI for devs",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/262/js-party-262.mp3",
+            "length": "57646219",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/O5ao",
+          "author": "Jerod Santo",
+          "description": "Lucas F. Costa:\nIn this blog post, I’ll elucidate why backlogs exist and why they never shrink. Then, I’ll expound on why they’re useless and harmful. Finally, I’ll demonstrate how one can work without a backlog and explain why it’s much more productive to do so.\nI agree whole heartedly with his “why they never shrink” logic, but I’m not willing to say that makes them “useless and harmful.” I’m not sure Lucas even believes that, since his advice of what to do instead at the end of the post boils down to “keep a short backlog.”\nStill, I enjoy Lucas’s thought process and you might too. Recommended reading.\nDiscuss on Changelog News",
+          "link": "https://lucasfcosta.com/2023/02/07/backlogs-are-useless.html",
+          "publishedOn": "2023-02-10T16:40:00.000Z",
+          "wordCount": null,
+          "title": "Why backlogs are useless, why they never shrink, and what to do instead",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/7YAY",
+          "author": "Browser London",
+          "description": "Aiming for one ‘big bang’ release is asking for trouble. Continuous improvement is a better route to creating great digital products. In this post, we take you on a thought experiment to prove this out.\nDiscuss on Changelog News",
+          "link": "https://www.browserlondon.com/blog/2023/02/10/continuous-improvement-beats-big-tada-releases/",
+          "publishedOn": "2023-02-10T15:54:00.000Z",
+          "wordCount": null,
+          "title": "Continuous improvement beats big ‘tada’ releases",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/3L92",
+          "author": "Jerod Santo",
+          "description": "Jay Mody:\nMy goal with this post is to provide a simple and hackable yet complete technical introduction to the GPT as an educational tool. As such, we ONLY implement the forward pass code, using already trained model weights.\nDiscuss on Changelog News",
+          "link": "https://jaykmody.com/blog/gpt-from-scratch/",
+          "publishedOn": "2023-02-10T14:27:00.000Z",
+          "wordCount": null,
+          "title": "GPT in 60 lines of NumPy",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/2/1973",
           "author": null,
@@ -804,51 +855,6 @@
             "length": "50436515",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/2/1962",
-          "author": null,
-          "description": "Paul Smith (from “Obama’s Trauma Team”) tells us the tale of how Go played a big role in the rescuing and rebuilding of the HealthCare.gov website. Along the way we learn what the original team did wrong, how the rescue team kept it afloat during huge traffic spikes, and what they’ve done since to rebuild it to serve the people’s needs.\nDiscuss on Changelog News\nChangelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!\nSponsors\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n    \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n    \nFeaturing\nPaul Smith – Twitter, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNotes and Links\nHealthCare.gov\nPaul’s company Ad Hoc is hiring\nObama’s Trauma Team\nPaul on MSNBC talking about the rescue\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/262",
-          "publishedOn": "2023-01-12T22:45:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 262: How Go helped save HealthCare.gov ♻️",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/262/go-time-262.mp3",
-            "length": "57582805",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/O5gw",
-          "author": "Jerod Santo",
-          "description": "Scott Antipa:\nI’m working on a flowchart editor that runs in the browser, and I wanted a way for people to use it without having to sign in, or store any data on our server. I wanted to give them control over their data and to be able to store it locally to open and edit later. And also easily share it with other people. It’s easy to do this by supporting file upload/download, but I wanted something simpler, like the ability to share by sending a url. I also didn’t want to store anything on the backend (at least for the free tier).\nWhat he decided on was to base64 encode the entire application state and store it in the fragment section of the URL. I love all the upsides of this approach and it’s pretty trivial to accomplish. Here’s the pseudocode that Scott provides in his post:\nconst stateString = JSON.stringify(appState); // appState is a json object\nconst compressed = compress(stateString);\nconst encoded = Base64.encode(compressed);\n// Push that `encoded` string to the url\n// ... Later, on page load or on undo/redo we read the url and\n// do the following\nconst decoded = Base64.decode(encoded); // same encoded as above, but read from url\nconst uncompressed = uncompress(decoded);\nconst newState = JSON.parse(uncompressed);\n// Now load your application with the newState\n\nDiscuss on Changelog News",
-          "link": "https://www.scottantipa.com/store-app-state-in-urls",
-          "publishedOn": "2023-01-12T21:51:00.000Z",
-          "wordCount": null,
-          "title": "How to store your app's entire state in the URL",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Zo7k",
-          "author": "Abdulfatai Popoola",
-          "description": "Measuring a manager’s impact is hard since outcomes take time. The manager takes full responsibility for the team - be it stagnation, execution woes, poor collaboration, churn, or a lack of focus. This post provides early evaluation metrics as well as tips for course correction.\nDiscuss on Changelog News",
-          "link": "https://abdulapopoola.com/2023/01/09/evaluating-managers-5-heuristics-to-measure-managerial-impact/",
-          "publishedOn": "2023-01-12T21:04:00.000Z",
-          "wordCount": null,
-          "title": "Am I an effective manager? Five heuristics to measure",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/1W5z",
-          "author": "Jerod Santo",
-          "description": "Cedric Chin, writing about the famous adage that says “when a measure becomes a target, it ceases to be a good measure.”\nAt some level, this is self-evident. Goodhart’s Law is about as pithy and about as practicable as “the only certainty in life is death and taxes” and “hell is other people.” It is descriptive; it tells you of the existence of a phenomenon, but it doesn’t tell you what to do about it or how to solve it.\nThere are more useful formulations of the law that help solve it. Some organizations use this narrower, more actionable form:\nWhen people are pressured to meet a target value there are three ways they can proceed:\nThey can work to improve the system\nThey can distort the system\nOr they can distort the data\nWith that framing in hand, Cedric goes on to describe how you can solve for these three ways and design incentive/measurement systems that work.\nDiscuss on Changelog News",
-          "link": "https://commoncog.com/goodharts-law-not-useful/",
-          "publishedOn": "2023-01-12T20:17:00.000Z",
-          "wordCount": null,
-          "title": "Goodhart's Law isn't as useful as you might think",
-          "itunes": {}
         }
       ]
     },
@@ -968,15 +974,6 @@
           "publishedOn": "2023-02-01T10:19:38.000Z",
           "wordCount": 1372,
           "title": "curl’s use of many CI services"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=21282",
-          "author": "Daniel Stenberg",
-          "description": "The latest HTTP version is called HTTP/3 and is being transferred over QUIC instead of the old classic TCP+TLS duo. An attempt of an architectural drawing could look like this: Remember: experimental HTTP/3 support in curl is still experimental so we do reserve the right to change names, behavior and functionality during development. We aim … Continue reading Selecting HTTP version (three) →",
-          "link": "https://daniel.haxx.se/blog/2023/01/12/selecting-http-version-three/",
-          "publishedOn": "2023-01-12T07:38:35.000Z",
-          "wordCount": 1521,
-          "title": "Selecting HTTP version (three)"
         }
       ]
     },
@@ -1099,15 +1096,6 @@
           "publishedOn": "2023-01-19T17:33:00.000Z",
           "wordCount": 2557,
           "title": "Exploiting null-dereferences in the Linux kernel"
-        },
-        {
-          "id": "https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html",
-          "author": null,
-          "description": "@import url('https://themes.googleusercontent.com/fonts/css?kit=pYEwJuzr3ZMDX2Y1syVbvx06if6osnyAslCuLPPf50A');ul.lst-kix_h97ui6n3g8c8-4{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-5{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-2{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-3{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-8{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-6{list-style-type:none}.lst-kix_o4b5kflpgafe-7>li:before{content:\"-  \"}ul.lst-kix_h97ui6n3g8c8-7{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-1{list-style-type:none}ul.lst-kix_h97ui6n3g8c8-0{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-4{list-style-type:none}.lst-kix_o4b5kflpgafe-8>li:before{content:\"-  \"}ul.lst-kix_h97ui6n3g8c8-1{list-style-type:none}ul.lst-kix_5nbkgo2blvl3-5{list…",
-          "link": "https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html",
-          "publishedOn": "2023-01-12T16:59:00.000Z",
-          "wordCount": 4864,
-          "title": "DER Entitlements: The (Brief) Return of the Psychic Paper"
         }
       ]
     },
@@ -1392,15 +1380,6 @@
           "publishedOn": "2023-01-13T17:00:04.000Z",
           "wordCount": 3200,
           "title": "New GitHub CLI extension tools"
-        },
-        {
-          "id": "https://github.blog/?p=69366",
-          "author": "Eric Tooley",
-          "description": "Dependabot is getting a little smarter—and, a little quieter—by reducing bot-based noise from repositories based on your interaction with Dependabot.",
-          "link": "https://github.blog/2023-01-12-a-smarter-quieter-dependabot/",
-          "publishedOn": "2023-01-12T17:56:25.000Z",
-          "wordCount": 1028,
-          "title": "A smarter, quieter Dependabot"
         }
       ]
     },
@@ -1409,6 +1388,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=20288",
+          "author": "BU Team",
+          "description": "A look into the career of a Product Operations at Nubank, the scope of work, and the main differences with other Product positions.\nThe post What is it like being a Product Operations at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/product-operations-at-nubank/",
+          "publishedOn": "2023-02-10T19:22:56.000Z",
+          "wordCount": 3298,
+          "title": "What is it like being a Product Operations at Nubank?"
+        },
         {
           "id": "https://building.nubank.com.br/?p=20176",
           "author": "Keith Harper - Staff Software Engineer at Nubank",
