@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-15T12:19:09.200Z</updated>
+    <updated>2023-02-16T12:18:49.556Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stability and scalability for search]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search"/>
+        <updated>2023-02-16T12:17:56.315Z</updated>
+        <summary type="html"><![CDATA[In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 Transparency Report]]></title>
+        <id>https://github.blog/?p=70133</id>
+        <link href="https://github.blog/2023-02-15-2022-transparency-report/"/>
+        <updated>2023-02-15T20:50:30.000Z</updated>
+        <summary type="html"><![CDATA[Looking back over a year’s worth of developer-first content moderation and, new in this report, making our data more accessible to researchers.]]></summary>
+        <author>
+            <name>Kevin Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust vs. Haskell]]></title>
+        <id>changelog.com/news/8lAk</id>
+        <link href="https://serokell.io/blog/rust-vs-haskell"/>
+        <updated>2023-02-15T16:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Rust and Haskell don’t shy away from powerful features. As a result, both languages have steep learning curves when compared with other languages. Trying to learn Rust or Haskell can be frustrating, especially in the first couple of months.
+But if you already know Rust, you have a head start with Haskell; and vice versa.
+In this article, we want to show how knowledge of one of these languages can help you get up to speed with another.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A tool for running your GitLab CI/CD pipelines locally]]></title>
+        <id>changelog.com/news/MbaG</id>
+        <link href="https://github.com/firecow/gitlab-ci-local"/>
+        <updated>2023-02-15T15:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Tired of pushing to test your .gitlab-ci.yml? With this tool, you can run those pipelines locally in your shell or Docker to make sure everything’s working right before sending it off to GitLab to be processed.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[curl 7.88.0 seven stops here]]></title>
         <id>https://daniel.haxx.se/blog/?p=21466</id>
@@ -1851,139 +1895,6 @@ LangChain is designed to help with prompts, chains (sequences of calls), data au
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The libraries we use to build Rails apps]]></title>
-        <id>changelog.com/news/rXWz</id>
-        <link href="https://evilmartians.com/chronicles/gemfile-of-dreams-libraries-we-use-to-build-rails-apps"/>
-        <updated>2023-01-17T21:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Evil Martians work on dozens of Ruby on Rails projects every year. Naturally, this involves a lot of Ruby gems. So what would it look like if they were somehow able to converge into one Gemfile—the ideal Martian Gemfile? Our development philosophies, programming habits, and soul are within this universe of Martian gems.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Travis Turner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dependabot alerts are now visible to more developers]]></title>
-        <id>https://github.blog/?p=69385</id>
-        <link href="https://github.blog/2023-01-17-dependabot-alerts-are-now-visible-to-more-developers/"/>
-        <updated>2023-01-17T20:19:26.000Z</updated>
-        <summary type="html"><![CDATA[Default settings will allow developers with write and maintain access to see and resolve Dependabot alerts.]]></summary>
-        <author>
-            <name>Eric Tooley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 207: Machine learning at small organizations]]></title>
-        <id>changelog.com/7/1975</id>
-        <link href="https://changelog.com/practicalai/207"/>
-        <updated>2023-01-17T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Why is ML is so poorly adopted in small organizations (hint: it’s not because they don’t have enough data)? In this episode, Kirsten Lum from Storytellers shares the patterns she has seen in small orgs that lead to a successful ML practice. We discuss how the job of a ML Engineer/Data Scientist is different in that environment and how end-to-end project management is key to adoption.
-Discuss on Changelog News
-Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
-Sponsors
-
-  
-The Changelog – Conversations with the hackers, leaders, and innovators of the software world
-
-
-Featuring
-
-Kirsten Lum – Twitter, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-
-Notes and Links
-
-storytellers.ai
-Trello
-Something missing or broken? PRs welcome!
-Timestamps
-
-(00:00) - Opener
-(00:37) - Welcome to Practical AI
-(01:12) - Kirsten Lum
-(05:44) - Selling short in data science
-(08:02) - FUD from a management POV
-(13:44) - Data science is like cooking
-(17:32) - Sponsor: The Changelog
-(19:16) - What to focus on when you're new
-(22:33) - Managing flexibility in a small company
-(26:26) - Navigating people in a small business
-(29:17) - Putting the practical in PracticalAI
-(35:54) - How to approach non data-centric people
-(39:26) - Advantages of small ML orgs over big orgs
-(42:37) - Mentoring people the right way
-(46:00) - Looking into the future
-(49:04) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Toxicity in open source discussions]]></title>
-        <id>changelog.com/news/Y1W1</id>
-        <link href="https://tylercipriani.com/blog/2023/01/15/entitlement-burnout-and-toxicity/"/>
-        <updated>2023-01-17T19:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Tyler Cipriani read “‘Did you miss my comments or what?’ Understanding Toxicity in Open Source Discussions,” and learned about entitlement:
-The term is new (to me), but the paper renders a familiar scene, “The author is usually visibly upset about not being able to use the tool, often complaining about wasted time.”
-The situation is all-too-common and exhausting. And when it happens over-and-over, maintainers give up.
-It made me wonder: why have I never seen “entitlement” in a code of conduct?
-Good question…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git security vulnerabilities announced]]></title>
-        <id>https://github.blog/?p=69534</id>
-        <link href="https://github.blog/2023-01-17-git-security-vulnerabilities-announced-2/"/>
-        <updated>2023-01-17T18:31:50.000Z</updated>
-        <summary type="html"><![CDATA[Git users are encouraged to upgrade to the latest version, especially if they use `git archive`, work in untrusted repositories, or use Git GUI on Windows.]]></summary>
-        <author>
-            <name>Taylor Blau</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 common DevOps antipatterns and cloud native strategies that can help]]></title>
-        <id>https://github.blog/?p=69523</id>
-        <link href="https://github.blog/2023-01-17-3-common-devops-antipatterns-and-cloud-native-strategies-that-can-help/"/>
-        <updated>2023-01-17T17:00:05.000Z</updated>
-        <summary type="html"><![CDATA[Explore how GitHub and cloud native strategies can help you address common DevOps pipeline and team antipatterns.]]></summary>
-        <author>
-            <name>Mark Paulsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data Quality Automation at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter"/>
-        <updated>2023-01-17T12:18:03.067Z</updated>
-        <summary type="html"><![CDATA[In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Powering real-time data analytics with Druid at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/powering-real-time-data-analytics-with-druid-at-twitter"/>
-        <updated>2023-01-17T12:18:03.059Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share an overview of Twitter’s Druid ecosystem and discuss our work towards a unified ingestion experience.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 ways Google is using AI to help solve society's challenges]]></title>
-        <id>https://blog.google/technology/ai/7-ways-google-is-using-ai-to-help-solve-societys-challenges/</id>
-        <link href="https://blog.google/technology/ai/7-ways-google-is-using-ai-to-help-solve-societys-challenges/"/>
-        <updated>2023-01-17T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Google is using AI to help people facing disease and natural disasters, and to provide new opportunities for underserved communities.]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
