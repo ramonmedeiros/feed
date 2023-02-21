@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-20T12:18:21.152Z</updated>
+    <updated>2023-02-21T12:18:17.225Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My 2023 dev machine]]></title>
+        <id>https://daniel.haxx.se/blog/?p=20835</id>
+        <link href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/"/>
+        <updated>2023-02-20T21:57:50.000Z</updated>
+        <summary type="html"><![CDATA[My desktop computer is my trusted work machine that I do the majority of all my (curl) development on. When the 15th computer I’ve owned through the times was ten years old the time was ripe to bump things up a notch. Requirements I don’t do games (as in: never) and I don’t do any … Continue reading My 2023 dev machine →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Sidney Bing, Elk for Mastodon, writing an engineering strategy, what's next for core-js & cool tool lightning round]]></title>
+        <id>changelog.com/1/2014</id>
+        <link href="https://changelog.com/podcast/news-2023-02-20"/>
+        <updated>2023-02-20T20:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison rounds up the goings on around Microsoft’s new GPT-powered Bing search, The Vue/Vite team build a nimble web client for Mastodon, Will Larson writes about writing an engineering strategy, Denis Pushkarev seeks support to maintain core-js & I share a lightning round of cool tools I’ve found and used recently. ⚡️
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+Bing: “I will not harm you unless you harm me first”
+A nimble Mastodon web client
+Writing an engineering strategy
+So, what’s next for core-js?
+Lightning round ⚡️
+
+Obsidian
+MLML
+Sloth
+AI Commits
+Something missing or broken? PRs welcome!
+Timestamps:
+(01:01) - Sidney Bing
+(03:07) - Elk for Mastodon
+(04:43) - Writing an engineering strategy
+(06:04) - What's next for core-js
+(06:50) - Lightning round!
+(07:00) - Obsidian
+(07:17) - MJML
+(07:30) - Sloth
+(07:46) - AI Commits
+(08:05) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My favourite 3 lines of CSS]]></title>
+        <id>changelog.com/news/JgA0</id>
+        <link href="https://andy-bell.co.uk/my-favourite-3-lines-of-css/"/>
+        <updated>2023-02-20T16:17:00.000Z</updated>
+        <summary type="html"><![CDATA[Andy Bell has been obsessed with one particular CSS snippet for years now. In this post, he shares it with us and shows us how he’s recently improved it further by using Custom Properties.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The new headless Chrome makes fingerprint-based bot detection harder]]></title>
+        <id>changelog.com/news/QpaN</id>
+        <link href="https://antoinevastel.com/bot detection/2023/02/19/new-headless-chrome.html"/>
+        <updated>2023-02-20T15:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Antoine Vastel:
+The new headless Chrome has been released in November 2022. For the moment, it hasn’t become the standard headless mode. It’s still hidden behind a –headless=new flag. However, it will soon become the standard headless mode, and this is going to change a lot of things when it comes to bot detection, particularly detection based on browser fingerprint.
+Antoine is the head of research at DataDome, a bot detection company, so he knows what he’s talking about here. The good news is you can still detect the new headless Chrome, but it will be more tricky. The other good news is that fingerprinting is just one of many tools in the bot detector’s belt. Others include request behavior, reputation scores, proxy detection & TLS fingerprinting.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Constraint Management for cluster operation safety and reliability at Twitter]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter</id>
@@ -1791,16 +1865,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
         <updated>2023-01-23T12:17:02.747Z</updated>
         <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaling data access by moving an exabyte of data to Google Cloud]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud"/>
-        <updated>2023-01-22T12:15:17.609Z</updated>
-        <summary type="html"><![CDATA[In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.]]></summary>
         <author>
             <name>English (US)</name>
         </author>

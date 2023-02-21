@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/2014",
+          "author": null,
+          "description": "Simon Willison rounds up the goings on around Microsoft’s new GPT-powered Bing search, The Vue/Vite team build a nimble web client for Mastodon, Will Larson writes about writing an engineering strategy, Denis Pushkarev seeks support to maintain core-js & I share a lightning round of cool tools I’ve found and used recently. ⚡️\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nBing: “I will not harm you unless you harm me first”\nA nimble Mastodon web client\nWriting an engineering strategy\nSo, what’s next for core-js?\nLightning round ⚡️\n\nObsidian\nMLML\nSloth\nAI Commits\nSomething missing or broken? PRs welcome!\nTimestamps:\n(01:01) - Sidney Bing\n(03:07) - Elk for Mastodon\n(04:43) - Writing an engineering strategy\n(06:04) - What's next for core-js\n(06:50) - Lightning round!\n(07:00) - Obsidian\n(07:17) - MJML\n(07:30) - Sloth\n(07:46) - AI Commits\n(08:05) - Outro",
+          "link": "https://changelog.com/podcast/news-2023-02-20",
+          "publishedOn": "2023-02-20T20:50:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Sidney Bing, Elk for Mastodon, writing an engineering strategy, what's next for core-js & cool tool lightning round",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-02-20/the-changelog-news-2023-02-20.mp3",
+            "length": "8655936",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/JgA0",
+          "author": "Jerod Santo",
+          "description": "Andy Bell has been obsessed with one particular CSS snippet for years now. In this post, he shares it with us and shows us how he’s recently improved it further by using Custom Properties.\nDiscuss on Changelog News",
+          "link": "https://andy-bell.co.uk/my-favourite-3-lines-of-css/",
+          "publishedOn": "2023-02-20T16:17:00.000Z",
+          "wordCount": null,
+          "title": "My favourite 3 lines of CSS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/QpaN",
+          "author": "Jerod Santo",
+          "description": "Antoine Vastel:\nThe new headless Chrome has been released in November 2022. For the moment, it hasn’t become the standard headless mode. It’s still hidden behind a –headless=new flag. However, it will soon become the standard headless mode, and this is going to change a lot of things when it comes to bot detection, particularly detection based on browser fingerprint.\nAntoine is the head of research at DataDome, a bot detection company, so he knows what he’s talking about here. The good news is you can still detect the new headless Chrome, but it will be more tricky. The other good news is that fingerprinting is just one of many tools in the bot detector’s belt. Others include request behavior, reputation scores, proxy detection & TLS fingerprinting.\nDiscuss on Changelog News",
+          "link": "https://antoinevastel.com/bot detection/2023/02/19/new-headless-chrome.html",
+          "publishedOn": "2023-02-20T15:22:00.000Z",
+          "wordCount": null,
+          "title": "The new headless Chrome makes fingerprint-based bot detection harder",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1978",
           "author": null,
           "description": "This week we’re talking to Rachel Potvin, former VP of Engineering at GitHub about what it takes to scale engineering. Rachel says it’s a game-changer when engineering scales beyond 100 people. So we asked to her to share everything she has learned in her career of leading and scaling engineering.\nDiscuss on Changelog News\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Session Replay! Rewind and replay every step of the user’s journey before and after they encountered an issue. Eliminate the guesswork and get to the root cause of an issue, faster. Use the code CHANGELOG and get the team plan free for three months.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you ca…",
@@ -872,6 +907,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=20835",
+          "author": "Daniel Stenberg",
+          "description": "My desktop computer is my trusted work machine that I do the majority of all my (curl) development on. When the 15th computer I’ve owned through the times was ten years old the time was ripe to bump things up a notch. Requirements I don’t do games (as in: never) and I don’t do any … Continue reading My 2023 dev machine →",
+          "link": "https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/",
+          "publishedOn": "2023-02-20T21:57:50.000Z",
+          "wordCount": 1100,
+          "title": "My 2023 dev machine"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=21768",
           "author": "Daniel Stenberg",
           "description": "Things did not work out the way we had planned. The 7.88.0 release that was supposed to be the last curl version 7 release contained a nasty bug that made us decide that we better ship an update once that is fixed. This is the update. The second final version 7 release. Release presentation Numbers … Continue reading 7.88.1 the second final one →",
@@ -1003,15 +1047,6 @@
           "publishedOn": "2023-01-23T12:17:02.747Z",
           "wordCount": 2277,
           "title": "Measuring the impact of Twitter network latency with CausalImpact"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
-          "author": null,
-          "description": "In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
-          "publishedOn": "2023-01-22T12:15:17.609Z",
-          "wordCount": 1352,
-          "title": "Scaling data access by moving an exabyte of data to Google Cloud"
         }
       ]
     },
