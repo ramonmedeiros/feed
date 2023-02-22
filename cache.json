@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/02/hardening-firmware-across-android.html",
+          "author": null,
+          "description": "Posted by Roger Piqueras Jover, Ivan Lozano, Sudhi Herle, and Stephan Somogyi, Android Team \nA modern Android powered smartphone is a complex hardware device: Android OS runs on a multi-core CPU - also called an Application Processor (AP). And the AP is one of many such processors of a System On Chip (SoC). Other processors on the SoC perform various specialized tasks — such as security functions, image & video processing, and most importantly cellular communications. The processor performing cellular communications is often referred to as the baseband. For the purposes of this blog, we refer to the software that runs on all these other processors as “Firmware”.  \nSecuring the Android Platform requires going beyond the confines of the Application Processor (AP). Android’s defense-in-depth …",
+          "link": "http://security.googleblog.com/2023/02/hardening-firmware-across-android.html",
+          "publishedOn": "2023-02-21T17:29:00.000Z",
+          "wordCount": 1564,
+          "title": "Hardening Firmware Across the Android Ecosystem"
+        },
+        {
           "id": "http://security.googleblog.com/2023/02/the-us-government-says-companies-should.html",
           "author": null,
           "description": "Posted by Kent Walker, President, Global Affairs & Chief Legal Officer, Google & Alphabet and Royal Hansen, Vice President of Engineering for Privacy, Safety, and Security \nShould companies be responsible for cyberattacks? The U.S. government thinks so – and frankly, we agree. \nJen Easterly and Eric Goldstein of the Cybersecurity and Infrastructure Security Agency at the Department of Homeland Security planted a flag in the sand:  \n     “The incentives for developing and selling technology have eclipsed customer safety in importance. […] Americans…have unwittingly come to accept that it is normal for new software and devices to be indefensible by design. They accept products that are released to market with dozens, hundreds, or even thousands of defects. They accept that the cybersecurity …",
@@ -36,6 +45,16 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/qMN2",
+          "author": "Jerod Santo",
+          "description": "My opinionated list of four approaches to building websites and web applications. Publicly hosted on the internet, serving HTML, CSS, JavaScript, images, etc over HTTP.\nThere are more than four ways to build a web app, but the ones Tom covers in-depth in this post are:\nHugo Static Sites + Progressive Web Apps\nCloudflare Workers\nLinux Server Singleton\nContainers on Platform as a Service (PaaS)\nDiscuss on Changelog News",
+          "link": "https://tomhummel.com/posts/four-web-apps/",
+          "publishedOn": "2023-02-21T15:22:00.000Z",
+          "wordCount": null,
+          "title": "Four ways to build web apps",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/2014",
           "author": null,
@@ -805,41 +824,6 @@
           "wordCount": null,
           "title": "PSone.css — Playstation 1 style CSS framework",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1990",
-          "author": null,
-          "description": "Max Countryman wrote up a framework for prioritizing tech debt, shadcn builds a copy/paste-able UI component library in public, Justin Etheredge shares 20 things he’s learned in his 20 years as a software engineer, Jacob Stopak’s git-sim lets you easily visualize git operations without affecting your repo & Mattias Wadman implemented jq in jq.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nA framework for prioritizing tech debt\n\nGood tech debt featuring Jon Thornton from Squarespace\nUI components to copy/paste into your apps\n\nkelseyhightower/nocode\nRadix UI\nThings I’ve Learned in my 20 Years as a Software Engineer\nVisually simulate git operations with git-sim\njq implementation of jq\n\nfq is jq for binary formats\nSomething missing or broken? PRs welcome!\nTimestamps:\n(01:07) - A framework for prioritizing tech debt\n(04:01) - UI components to copy/paste into your apps\n(05:40) - Learnings from 20 years in software\n(06:28) - Visually simulate git operations with git-sim\n(07:10) - jq implementation of jq\n(08:28) - Outro",
-          "link": "https://changelog.com/podcast/news-2023-01-23",
-          "publishedOn": "2023-01-23T19:50:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Prioritizing tech debt, UI components to copy/paste, learnings from 20 years in software, git-sim & jqjq",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-01-23/the-changelog-news-2023-01-23.mp3",
-            "length": "9033538",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/JgNe",
-          "author": "Jerod Santo",
-          "description": "Ruby on Jets allows you to create and deploy serverless services with ease, and to seamlessly glue AWS services together with the most beautiful dynamic language: Ruby. It includes everything you need to build an API and deploy it to AWS Lambda. Jets leverages the power of Ruby to make serverless joyful for everyone.\nI’m not (yet) big on serverless things, but if I were, I’d love to run some Ruby code there.\nDiscuss on Changelog News",
-          "link": "https://rubyonjets.com",
-          "publishedOn": "2023-01-23T16:20:00.000Z",
-          "wordCount": null,
-          "title": "Ruby and Lambda had a baby and that child's name is Jets",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/QpzQ",
-          "author": "Jerod Santo",
-          "description": "This is a Pythonic wrapper around stable diffusion with image editing by InstructPix2Pix. The four images featured below (top) are generated by the following command:\nimagine \"a scenic landscape\" \"a photo of a dog\" \"photo of a fruit bowl\" \"portrait photo of a freckled woman\"\n\nThen they are edited (bottom) with the following commands:\n>> aimg edit scenic_landscape.jpg \"make it winter\" --prompt-strength 20\n>> aimg edit dog.jpg \"make the dog red\" --prompt-strength 5\n>> aimg edit bowl_of_fruit.jpg \"replace the fruit with strawberries\"\n>> aimg edit freckled_woman.jpg \"make her a cyborg\" --prompt-strength 13\n\n\nDiscuss on Changelog News",
-          "link": "https://github.com/brycedrennan/imaginAIry",
-          "publishedOn": "2023-01-23T15:33:00.000Z",
-          "wordCount": null,
-          "title": "ImaginAIry imagines & edits images from text inputs",
-          "itunes": {}
         }
       ]
     },
@@ -968,6 +952,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
+          "author": null,
+          "description": "In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud",
+          "publishedOn": "2023-02-22T12:18:22.538Z",
+          "wordCount": 1352,
+          "title": "Scaling data access by moving an exabyte of data to Google Cloud"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
           "author": null,
           "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
@@ -1038,15 +1031,6 @@
           "publishedOn": "2023-02-09T12:18:15.442Z",
           "wordCount": 1108,
           "title": "The data platform cluster operator service for Hadoop cluster management"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "author": null,
-          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "publishedOn": "2023-01-23T12:17:02.747Z",
-          "wordCount": 2277,
-          "title": "Measuring the impact of Twitter network latency with CausalImpact"
         }
       ]
     },
@@ -1086,6 +1070,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=70195",
+          "author": "Matt Cooper",
+          "description": "A look at what happened on January 30, what measures we’re putting in place to prevent surprises, and how we’ll handle future changes.",
+          "link": "https://github.blog/2023-02-21-update-on-the-future-stability-of-source-code-archives-and-hashes/",
+          "publishedOn": "2023-02-21T17:00:45.000Z",
+          "wordCount": 1223,
+          "title": "Update on the future stability of source code archives and hashes"
+        },
         {
           "id": "https://github.blog/?p=70169",
           "author": "Walker Chabbott",
@@ -1274,24 +1267,6 @@
           "publishedOn": "2023-01-25T17:52:46.000Z",
           "wordCount": 746,
           "title": "100 million developers and counting"
-        },
-        {
-          "id": "https://github.blog/?p=69672",
-          "author": "Jill Moné-Corallo",
-          "description": "We're excited to share the newest addition to our GitHub Bug Bounty Program!",
-          "link": "https://github.blog/2023-01-23-introducing-the-github-bug-bounty-swag-store/",
-          "publishedOn": "2023-01-23T17:00:58.000Z",
-          "wordCount": 680,
-          "title": "Introducing the GitHub Bug Bounty swag store"
-        },
-        {
-          "id": "https://github.blog/?p=69576",
-          "author": "Man Yue Mo",
-          "description": "It turns out that the first “all Google” phone includes a non-Google bug. Learn about the details of CVE-2022-38181, a vulnerability in the Arm Mali GPU. Join me on my journey through reporting the vulnerability to the Android security team, and the exploit that used this vulnerability to gain arbitrary kernel code execution and root on a Pixel 6 from an Android app.",
-          "link": "https://github.blog/2023-01-23-pwning-the-all-google-phone-with-a-non-google-bug/",
-          "publishedOn": "2023-01-23T15:05:19.000Z",
-          "wordCount": 5659,
-          "title": "Pwning the all Google phone with a non-Google bug"
         }
       ]
     },

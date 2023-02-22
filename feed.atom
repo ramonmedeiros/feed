@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T12:18:17.225Z</updated>
+    <updated>2023-02-22T12:18:53.355Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Scaling data access by moving an exabyte of data to Google Cloud]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/scaling-data-access-by-moving-an-exabyte-of-data-to-google-cloud"/>
+        <updated>2023-02-22T12:18:22.538Z</updated>
+        <summary type="html"><![CDATA[In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hardening Firmware Across the Android Ecosystem]]></title>
+        <id>http://security.googleblog.com/2023/02/hardening-firmware-across-android.html</id>
+        <link href="http://security.googleblog.com/2023/02/hardening-firmware-across-android.html"/>
+        <updated>2023-02-21T17:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Roger Piqueras Jover, Ivan Lozano, Sudhi Herle, and Stephan Somogyi, Android Team 
+A modern Android powered smartphone is a complex hardware device: Android OS runs on a multi-core CPU - also called an Application Processor (AP). And the AP is one of many such processors of a System On Chip (SoC). Other processors on the SoC perform various specialized tasks — such as security functions, image & video processing, and most importantly cellular communications. The processor performing cellular communications is often referred to as the baseband. For the purposes of this blog, we refer to the software that runs on all these other processors as “Firmware”.  
+Securing the Android Platform requires going beyond the confines of the Application Processor (AP). Android’s defense-in-depth …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update on the future stability of source code archives and hashes]]></title>
+        <id>https://github.blog/?p=70195</id>
+        <link href="https://github.blog/2023-02-21-update-on-the-future-stability-of-source-code-archives-and-hashes/"/>
+        <updated>2023-02-21T17:00:45.000Z</updated>
+        <summary type="html"><![CDATA[A look at what happened on January 30, what measures we’re putting in place to prevent surprises, and how we’ll handle future changes.]]></summary>
+        <author>
+            <name>Matt Cooper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Four ways to build web apps]]></title>
+        <id>changelog.com/news/qMN2</id>
+        <link href="https://tomhummel.com/posts/four-web-apps/"/>
+        <updated>2023-02-21T15:22:00.000Z</updated>
+        <summary type="html"><![CDATA[My opinionated list of four approaches to building websites and web applications. Publicly hosted on the internet, serving HTML, CSS, JavaScript, images, etc over HTTP.
+There are more than four ways to build a web app, but the ones Tom covers in-depth in this post are:
+Hugo Static Sites + Progressive Web Apps
+Cloudflare Workers
+Linux Server Singleton
+Containers on Platform as a Service (PaaS)
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My 2023 dev machine]]></title>
         <id>https://daniel.haxx.se/blog/?p=20835</id>
@@ -1767,106 +1815,6 @@ Fly.io – The home of Changelog.com — Deploy your apps and databases close t
 Discuss on Changelog News]]></summary>
         <author>
             <name>Adam Stacoviak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: Prioritizing tech debt, UI components to copy/paste, learnings from 20 years in software, git-sim & jqjq]]></title>
-        <id>changelog.com/1/1990</id>
-        <link href="https://changelog.com/podcast/news-2023-01-23"/>
-        <updated>2023-01-23T19:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Max Countryman wrote up a framework for prioritizing tech debt, shadcn builds a copy/paste-able UI component library in public, Justin Etheredge shares 20 things he’s learned in his 20 years as a software engineer, Jacob Stopak’s git-sim lets you easily visualize git operations without affecting your repo & Mattias Wadman implemented jq in jq.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-
-A framework for prioritizing tech debt
-
-Good tech debt featuring Jon Thornton from Squarespace
-UI components to copy/paste into your apps
-
-kelseyhightower/nocode
-Radix UI
-Things I’ve Learned in my 20 Years as a Software Engineer
-Visually simulate git operations with git-sim
-jq implementation of jq
-
-fq is jq for binary formats
-Something missing or broken? PRs welcome!
-Timestamps:
-(01:07) - A framework for prioritizing tech debt
-(04:01) - UI components to copy/paste into your apps
-(05:40) - Learnings from 20 years in software
-(06:28) - Visually simulate git operations with git-sim
-(07:10) - jq implementation of jq
-(08:28) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing the GitHub Bug Bounty swag store]]></title>
-        <id>https://github.blog/?p=69672</id>
-        <link href="https://github.blog/2023-01-23-introducing-the-github-bug-bounty-swag-store/"/>
-        <updated>2023-01-23T17:00:58.000Z</updated>
-        <summary type="html"><![CDATA[We're excited to share the newest addition to our GitHub Bug Bounty Program!]]></summary>
-        <author>
-            <name>Jill Moné-Corallo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ruby and Lambda had a baby and that child's name is Jets]]></title>
-        <id>changelog.com/news/JgNe</id>
-        <link href="https://rubyonjets.com"/>
-        <updated>2023-01-23T16:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Ruby on Jets allows you to create and deploy serverless services with ease, and to seamlessly glue AWS services together with the most beautiful dynamic language: Ruby. It includes everything you need to build an API and deploy it to AWS Lambda. Jets leverages the power of Ruby to make serverless joyful for everyone.
-I’m not (yet) big on serverless things, but if I were, I’d love to run some Ruby code there.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ImaginAIry imagines & edits images from text inputs]]></title>
-        <id>changelog.com/news/QpzQ</id>
-        <link href="https://github.com/brycedrennan/imaginAIry"/>
-        <updated>2023-01-23T15:33:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a Pythonic wrapper around stable diffusion with image editing by InstructPix2Pix. The four images featured below (top) are generated by the following command:
-imagine "a scenic landscape" "a photo of a dog" "photo of a fruit bowl" "portrait photo of a freckled woman"
-
-Then they are edited (bottom) with the following commands:
->> aimg edit scenic_landscape.jpg "make it winter" --prompt-strength 20
->> aimg edit dog.jpg "make the dog red" --prompt-strength 5
->> aimg edit bowl_of_fruit.jpg "replace the fruit with strawberries"
->> aimg edit freckled_woman.jpg "make her a cyborg" --prompt-strength 13
-
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pwning the all Google phone with a non-Google bug]]></title>
-        <id>https://github.blog/?p=69576</id>
-        <link href="https://github.blog/2023-01-23-pwning-the-all-google-phone-with-a-non-google-bug/"/>
-        <updated>2023-01-23T15:05:19.000Z</updated>
-        <summary type="html"><![CDATA[It turns out that the first “all Google” phone includes a non-Google bug. Learn about the details of CVE-2022-38181, a vulnerability in the Arm Mali GPU. Join me on my journey through reporting the vulnerability to the Android security team, and the exploit that used this vulnerability to gain arbitrary kernel code execution and root on a Pixel 6 from an Android app.]]></summary>
-        <author>
-            <name>Man Yue Mo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
-        <updated>2023-01-23T12:17:02.747Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>
