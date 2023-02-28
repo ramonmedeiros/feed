@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-27T12:20:07.619Z</updated>
+    <updated>2023-02-28T12:18:58.722Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Stack Overflow's architecture, Lobsters' killer libraries, Linux is ready for modern Macs, what to expect from your framework & GoatCounter web analytics]]></title>
+        <id>changelog.com/1/2016</id>
+        <link href="https://changelog.com/podcast/news-2023-02-27"/>
+        <updated>2023-02-27T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Sahn Lam details Stack Overflow’s monolith/on-prem architecture, Hillel Wayne asks the Lobsters community for killer libraries, Linux 6.2 is ready to run on M1 Macs thanks to Asahi Linux, Johan Halse writes up what to expect from your web framework & Eli Bendersky on using GoatCounter for blog analytics.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+Stack Overflow’s monolith
+Lobsters’ killer libraries
+Linux is ready to run on modern Macs
+What to expect from your framework
+
+Don’t sleep on Ruby on Rails
+History of React criticism
+The Market for Lemons
+The case for frameworks
+Using GoatCounter for blog analytics
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:16) - Stack Overflow's architecture
+(01:16) - Lobsters' killer libraries
+(02:46) - Linux is ready for M1 Macs
+(03:58) - What to expect from your framework
+(05:34) - GoatCounter web analytics
+(06:49) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How 4 Black Founders Fund recipients are building with AI]]></title>
+        <id>https://blog.google/outreach-initiatives/entrepreneurs/how-4-black-founders-fund-recipients-are-building-with-ai/</id>
+        <link href="https://blog.google/outreach-initiatives/entrepreneurs/how-4-black-founders-fund-recipients-are-building-with-ai/"/>
+        <updated>2023-02-27T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet Google for Startups Black Founders Fund recipients from Africa, Brazil, Europe and the United States using Google AI technology to help people and society.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Go on EC2 to Fly.io: +fun, −$9/mo]]></title>
+        <id>changelog.com/news/X1lq</id>
+        <link href="https://benhoyt.com/writings/flyio/"/>
+        <updated>2023-02-27T15:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Ben Hoyt shares his experience switching two of his side projects from on an EC2 instance to Fly.io:
+It took me about an hour to figure out the basics of Fly.io and move the simpler project, and a couple of evenings to move the more complex one. Fly.io handles the annoying reverse proxy and SSL stuff, deployment is as simple as fly deploy, and there’s a nice dashboard on Fly.io to show me what’s going on…
+I’m only a few weeks into using Fly.io to host my side projects, but I’m very happy with their product so far. I was quite happy to delete the 500 lines of Ansible scripts, systemd unit files, and Caddy config files.
+It also made me smile to finally stop the EC2 instance and bump my AWS bill down from $9 per month to about 10 cents per month (I still use S3 for user-uploaded images and for backups). I have nothing against EC2 and would use it again for certain things, but for small web applications, Fly.io seems like a great fit.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You don't need Rails to start using Hotwire]]></title>
+        <id>changelog.com/news/mlow</id>
+        <link href="https://www.akshaykhot.com/using-hotwire-without-rails/"/>
+        <updated>2023-02-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Akshay Khot:
+Although Hotwire (an approach to building web apps without much JS by sending HTML instead of JSON over the wire.) is closely tied to Ruby on Rails, you might be surprised to know that you don’t really need Rails to learn, play, and experiment with Hotwire. In this article, I will show you how a simple static website can use Turbo Drive and Frames to make it more dynamic and responsive.
+We’ve been using the predecessor to Hotwire’s Turbo Drive on this very website (an Elixir app) for 7 (!) years now, so I’m convinced there are valid uses of Hotwire outside of its usual Rails context.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A new look at personas: how UX combined with Data can help in the product funnel]]></title>
         <id>https://building.nubank.com.br/?p=20372</id>

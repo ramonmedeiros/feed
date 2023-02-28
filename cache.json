@@ -64,6 +64,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/2016",
+          "author": null,
+          "description": "Sahn Lam details Stack Overflow’s monolith/on-prem architecture, Hillel Wayne asks the Lobsters community for killer libraries, Linux 6.2 is ready to run on M1 Macs thanks to Asahi Linux, Johan Halse writes up what to expect from your web framework & Eli Bendersky on using GoatCounter for blog analytics.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nStack Overflow’s monolith\nLobsters’ killer libraries\nLinux is ready to run on modern Macs\nWhat to expect from your framework\n\nDon’t sleep on Ruby on Rails\nHistory of React criticism\nThe Market for Lemons\nThe case for frameworks\nUsing GoatCounter for blog analytics\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:16) - Stack Overflow's architecture\n(01:16) - Lobsters' killer libraries\n(02:46) - Linux is ready for M1 Macs\n(03:58) - What to expect from your framework\n(05:34) - GoatCounter web analytics\n(06:49) - Outro",
+          "link": "https://changelog.com/podcast/news-2023-02-27",
+          "publishedOn": "2023-02-27T22:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Stack Overflow's architecture, Lobsters' killer libraries, Linux is ready for modern Macs, what to expect from your framework & GoatCounter web analytics",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-02-27/the-changelog-news-2023-02-27.mp3",
+            "length": "7311553",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/X1lq",
+          "author": "Jerod Santo",
+          "description": "Ben Hoyt shares his experience switching two of his side projects from on an EC2 instance to Fly.io:\nIt took me about an hour to figure out the basics of Fly.io and move the simpler project, and a couple of evenings to move the more complex one. Fly.io handles the annoying reverse proxy and SSL stuff, deployment is as simple as fly deploy, and there’s a nice dashboard on Fly.io to show me what’s going on…\nI’m only a few weeks into using Fly.io to host my side projects, but I’m very happy with their product so far. I was quite happy to delete the 500 lines of Ansible scripts, systemd unit files, and Caddy config files.\nIt also made me smile to finally stop the EC2 instance and bump my AWS bill down from $9 per month to about 10 cents per month (I still use S3 for user-uploaded images and for backups). I have nothing against EC2 and would use it again for certain things, but for small web applications, Fly.io seems like a great fit.\nDiscuss on Changelog News",
+          "link": "https://benhoyt.com/writings/flyio/",
+          "publishedOn": "2023-02-27T15:51:00.000Z",
+          "wordCount": null,
+          "title": "From Go on EC2 to Fly.io: +fun, −$9/mo",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/mlow",
+          "author": "Jerod Santo",
+          "description": "Akshay Khot:\nAlthough Hotwire (an approach to building web apps without much JS by sending HTML instead of JSON over the wire.) is closely tied to Ruby on Rails, you might be surprised to know that you don’t really need Rails to learn, play, and experiment with Hotwire. In this article, I will show you how a simple static website can use Turbo Drive and Frames to make it more dynamic and responsive.\nWe’ve been using the predecessor to Hotwire’s Turbo Drive on this very website (an Elixir app) for 7 (!) years now, so I’m convinced there are valid uses of Hotwire outside of its usual Rails context.\nDiscuss on Changelog News",
+          "link": "https://www.akshaykhot.com/using-hotwire-without-rails/",
+          "publishedOn": "2023-02-27T15:00:00.000Z",
+          "wordCount": null,
+          "title": "You don't need Rails to start using Hotwire",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/1996",
           "author": null,
           "description": "This week Evan Prodromou is back to take us deeper into the Fediverse. As many of us reconsider our relationship with Twitter, Mastodon has been by-and-large the target of migration. They helped to popularize the idea of a federated universe of community-owned, decentralized, social networks. And, at the heart of it all is ActivityPub. ActivityPub is a decentralized social networking protocol published by the W3C. It is co-authored by Evan as well as; Christine Lemmer-Webber, Jessica Tallon, Erin Shepherd, and Amy Guy. Today, Evan shares the details behind this protocol and where the Fediverse might be heading.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nPostman – Build APIs together — More than…",
@@ -786,6 +821,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/entrepreneurs/how-4-black-founders-fund-recipients-are-building-with-ai/",
+          "author": null,
+          "description": "Meet Google for Startups Black Founders Fund recipients from Africa, Brazil, Europe and the United States using Google AI technology to help people and society.",
+          "link": "https://blog.google/outreach-initiatives/entrepreneurs/how-4-black-founders-fund-recipients-are-building-with-ai/",
+          "publishedOn": "2023-02-27T16:00:00.000Z",
+          "wordCount": 1452,
+          "title": "How 4 Black Founders Fund recipients are building with AI"
+        },
         {
           "id": "https://blog.google/inside-google/message-ceo/our-progress-toward-quantum-error-correction/",
           "author": null,
