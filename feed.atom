@@ -2,10 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-02T12:18:07.272Z</updated>
+    <updated>2023-03-03T12:18:06.064Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[MRSK – deploy web apps anywhere]]></title>
+        <id>changelog.com/news/GWO9</id>
+        <link href="https://mrsk.dev"/>
+        <updated>2023-03-02T22:24:00.000Z</updated>
+        <summary type="html"><![CDATA[MRSK deploys web apps anywhere from bare metal to cloud VMs using Docker with zero downtime. It uses the dynamic reverse-proxy Traefik to hold requests while the new application container is started and the old one is stopped. It works seamlessly across multiple hosts, using SSHKit to execute commands. It was built for Rails applications, but works with any type of web app that can be containerized with Docker.
+Watch the screencast or check out the code & docs.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Python keeps growing, explained]]></title>
+        <id>https://github.blog/?p=70321</id>
+        <link href="https://github.blog/2023-03-02-why-python-keeps-growing-explained/"/>
+        <updated>2023-03-02T19:11:10.000Z</updated>
+        <summary type="html"><![CDATA[A deep dive into why more people are using Python than ever, its key use cases, and why it’s still so popular 30-plus years after it was first released.]]></summary>
+        <author>
+            <name>Rizel Scarlett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Trust Services now offers TLS certificates for Google Domains customers]]></title>
+        <id>http://security.googleblog.com/2023/03/google-trust-services-now-offers-tls.html</id>
+        <link href="http://security.googleblog.com/2023/03/google-trust-services-now-offers-tls.html"/>
+        <updated>2023-03-02T17:26:00.006Z</updated>
+        <summary type="html"><![CDATA[Andy Warner, Google Trust Services, and Carl Krauss, Product Manager, Google Domains
+
+
+
+We’re excited to announce changes that make getting Google Trust Services TLS certificates easier for Google Domains customers. With this integration, all Google Domains customers will be able to acquire public certificates for their websites at no additional cost, whether the site runs on a Google service or uses another provider. Additionally, Google Domains is now making an API available to allow for DNS-01 challenges with Google Domains DNS servers to issue and renew certificates automatically.
+
+
+
+
+
+Like the existing Google Cloud integration, Automatic Certificate Management Environment (ACME) protocol is used to enable seamless automatic lifecycle management of TLS certificates. 
+
+
+
+
+
+These certifi…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All you may need is HTML]]></title>
+        <id>changelog.com/news/eERN</id>
+        <link href="https://fabiensanglard.net/html/index.html"/>
+        <updated>2023-03-02T17:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Fabien Sanglard’s advice to writers:
+By starting with a markup based generator, you rob yourselves of the opportunity to learn the core technology running the whole internet. Instead you will learn to use a layer built on top of it with little to no re-usable knowledge. Inevitably, you will want to do something the framework did not forecast and will come up with convoluted ways to do it anyway.
+Additionally, depending on how long you will write and how often you do it, setting up a generator may be counterproductive.
+The best way to avoid the YAGNI trap is to start as simple as possible and only add tech when you’re absolutely sure the ROI is higher than the TCO.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 90: Kaizen! Embracing change 🌟]]></title>
+        <id>changelog.com/14/1957</id>
+        <link href="https://changelog.com/shipit/90"/>
+        <updated>2023-03-02T16:15:00.000Z</updated>
+        <summary type="html"><![CDATA[This is our 9th Kaizen with Adam & Jerod. We start today’s conversation with the most important thing: embracing change. For Gerhard, this means putting Ship It on hold after this episode. It also means making more time to experiment, maybe try a few of those small bets that we recently talked about with Daniel. Kaizen will continue, we are thinking on the Changelog. Stick around to hear the rest.
+Discuss on Changelog News
+Changelog++ members save 1 minute on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and d…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The curl nuget story]]></title>
         <id>https://daniel.haxx.se/blog/?p=21844</id>
@@ -1925,111 +2005,6 @@ Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digi
 Discuss on Changelog News]]></summary>
         <author>
             <name>Bruno Calza</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing the launch of the All In for Maintainers DEI Resource Hub]]></title>
-        <id>https://github.blog/?p=69804</id>
-        <link href="https://github.blog/2023-02-01-announcing-the-launch-of-the-all-in-for-maintainers-dei-resource-hub/"/>
-        <updated>2023-02-01T23:00:15.000Z</updated>
-        <summary type="html"><![CDATA[The DEI Resource Hub is a vetted collection of resources, tools, and best practices designed to help open source maintainers create and maintain inclusive and diverse open source communities.]]></summary>
-        <author>
-            <name>Sarah Oyetubo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open source’s impact on the world’s 100 million developers]]></title>
-        <id>https://github.blog/?p=69793</id>
-        <link href="https://github.blog/2023-02-01-open-sources-impact-on-the-worlds-100-million-developers/"/>
-        <updated>2023-02-01T18:01:36.000Z</updated>
-        <summary type="html"><![CDATA[We’re taking a look at how open source software has evolved on GitHub, and how the role of a maintainer and contributor has changed alongside the massive growth in open source software.]]></summary>
-        <author>
-            <name>Abby Cabunoc Mayes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taking the next step: OSS-Fuzz in 2023]]></title>
-        <id>http://security.googleblog.com/2023/02/taking-next-step-oss-fuzz-in-2023.html</id>
-        <link href="http://security.googleblog.com/2023/02/taking-next-step-oss-fuzz-in-2023.html"/>
-        <updated>2023-02-01T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Oliver Chang, OSS-Fuzz team 
-Since launching in 2016, Google's free OSS-Fuzz code testing service has helped get over 8800 vulnerabilities and 28,000 bugs fixed across 850 projects. Today, we’re happy to announce an expansion of our OSS-Fuzz Rewards Program, plus new features in OSS-Fuzz and our involvement in supporting academic fuzzing research. 
-Refreshed OSS-Fuzz rewards 
-  
-The OSS-Fuzz project's purpose is to support the open source community in adopting fuzz testing, or fuzzing — an automated code testing technique for uncovering bugs in software. In addition to the OSS-Fuzz service, which provides a free platform for continuous fuzzing to critical open source projects, we established an OSS-Fuzz Reward Program in 2017 as part of our wider Patch Rewards Program. 
-We’ve ope…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Interop 2023]]></title>
-        <id>https://hacks.mozilla.org/?p=47958</id>
-        <link href="https://hacks.mozilla.org/2023/02/announcing-interop-2023/"/>
-        <updated>2023-02-01T17:02:13.000Z</updated>
-        <summary type="html"><![CDATA[Interop 2022 showed significant improvements in the interoperability of multiple platform features, along with several cross-browser investigations that looked into complex, under-specified, areas of the platform where interoperability has been difficult to achieve. Building on this, we're pleased to announce Interop 2023, the next iteration of the Interop project.
-The post Announcing Interop 2023 appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>James Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netlify acquires Gatsby]]></title>
-        <id>changelog.com/news/QpMQ</id>
-        <link href="https://thenewstack.io/netlify-acquires-gatsby-its-struggling-jamstack-competitor/"/>
-        <updated>2023-02-01T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Richard MacManus from The New Stack spoke with Netlify CEO Matt Biilmann about the deal and their new catchphrase: “composable architectures”
-Biilmann described it as a “change away from monolithic solutions,” citing a couple of examples: Adobe Experience Manager “as the DXP [digital experience platform] system for all your web productions” and Drupal “as the core engine that both powers the backend and the frontend of your site, the business logic and the UI layer, and so on.” He argues that these types of “monolithic” solutions can “start to feel very legacy and very dated.”
-I’m not sure if “composable architectures” will stick, but they sure did a good job of making “jamstack” a thing, so time will tell on that.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: January 2023]]></title>
-        <id>https://github.blog/?p=69788</id>
-        <link href="https://github.blog/2023-02-01-github-availability-report-january-2023/"/>
-        <updated>2023-02-01T16:00:30.000Z</updated>
-        <summary type="html"><![CDATA[In January, we experienced two incidents, one that resulted in degraded performance for Packages and Pages and another that impacted Git users.]]></summary>
-        <author>
-            <name>Jakub Oleksy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A heat map for your git repo 🔥]]></title>
-        <id>changelog.com/news/zDaV</id>
-        <link href="https://github.com/jmforsythe/Git-Heat-Map"/>
-        <updated>2023-02-01T15:24:00.000Z</updated>
-        <summary type="html"><![CDATA[This Python-based tool scans through your git log and generates a heat map like the one below from the cpython repo, which highlights the files that Guido van Rossum changed the most.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we ship the most code on Friday]]></title>
-        <id>changelog.com/news/8lgk</id>
-        <link href="https://blog.railway.app/p/ship-on-friday"/>
-        <updated>2023-02-01T14:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Greg Schier from Railway:
-The theory goes that if you ship code on Friday you’ll inevitably be working Saturday to fix what you broke. This makes logical sense; software is messy and mistakes are unavoidable.
-But no, shipping code on Friday isn’t bad. At least, it doesn’t have to be.
-The key to their success is confidence, which comes from having a solid deployment pipeline and shipping through it often. Gerhard Lazu hit that nail on the head in this short clip as well.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl’s use of many CI services]]></title>
-        <id>https://daniel.haxx.se/blog/?p=21362</id>
-        <link href="https://daniel.haxx.se/blog/2023/02/01/curls-use-of-many-ci-services/"/>
-        <updated>2023-02-01T10:19:38.000Z</updated>
-        <summary type="html"><![CDATA[In the beginning and for many years, the curl project used no CI services at all. It instead used a distributed build and test systems where volunteers ran machines that pulled the latest code repeatedly, built curl, ran the tests and reported back the results to a central server. One In 2013, the year curl … Continue reading curl’s use of many CI services →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
