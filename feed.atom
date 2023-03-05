@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-04T12:16:40.495Z</updated>
+    <updated>2023-03-05T12:17:08.323Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
@@ -1927,136 +1927,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[We’ve got ten top games from the latest Ludum Dare game jam plus source code for you to check out. Pun intended.]]></summary>
         <author>
             <name>Lee Reilly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leveraging Datomic query-stats to Optimize Clause Ordering]]></title>
-        <id>https://building.nubank.com.br/?p=20176</id>
-        <link href="https://building.nubank.com.br/optimizing-datomic-queries/"/>
-        <updated>2023-02-03T21:58:12.000Z</updated>
-        <summary type="html"><![CDATA[Query-stats is a new feature that gives users visibility into the decisions made by the query engine while it's processing your query.
-The post Leveraging Datomic query-stats to Optimize Clause Ordering appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Keith Harper - Staff Software Engineer at Nubank</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The future (and the past) of the web is server-side rendering]]></title>
-        <id>changelog.com/news/bJMe</id>
-        <link href="https://deno.com/blog/the-future-and-past-is-server-side-rendering"/>
-        <updated>2023-02-03T20:06:00.000Z</updated>
-        <summary type="html"><![CDATA[What’s old is new cool again. Here’s Andy Jiang, writing on Deno’s blog:
-In the past 10 years, the median size for a desktop webpage has gone from 468 KB to 2284 KB, a 388.3% increase. For mobile, this jump is even more staggering — 145 KB to 2010 KB — a whopping 1288.1% increase.
-That’s a lot of weight to ship over a network, especially for mobile. As a result, users experience terrible UX, slow loading times, and a lack of interactivity until everything is rendered. But all that code is necessary to make our sites work the way we want.
-This is the problem with being a frontend dev today. What started out fun for frontend developers, building shit-hot sites with all the bells and whistles, has kinda turned into not fun. We’re now fighting different browsers to support, slow networks to ship code over, and intermittent, mobile connections. Supporting all these permutations is a giant headache.
-How do we square this circle? By heading back to the server (Swiss basement not required).
-He goes on to talk about isomorphic JavaScript frameworks and Deno’s offerings in this space. But hey, you don’t need all that fancy stuff to do SSR. All you need is a programming language that can render HTML (this is almost all languages) and a server…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 261: Qwik has just the right amount of magic]]></title>
-        <id>changelog.com/6/1965</id>
-        <link href="https://changelog.com/jsparty/261"/>
-        <updated>2023-02-03T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A deep dive into Qwik, how it makes your apps fast by default, and the carefully calibrated amount of “magic” that makes it uniquely powerful.
-Discuss on Changelog News
-Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!
-
-
-Featuring:
-
-Miško Hevery – Twitter, GitHub
-Kevin Ball – Twitter, GitHub, LinkedIn, Website
-
-Show Notes:
-
-Qwik is a new kind of web framework
-Qwik
-Qwik Discord
-Stackblitz Qwik Trial
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:55) - Welcoming Misko back to the pod
-(01:47) - A quick recap on Qwik
-(04:09) - App framework vs content framework
-(06:45) - The problem with React
-(10:01) - Qwik Listeners
-(13:15) - What makes Qwik City unique
-(17:40) - Sponsor: Changelog++
-(18:35) - Qwik is black magic
-(25:40) - $ function magic
-(26:41) - Optimizer magic
-(28:33) - Loader magic
-(29:53) - Qwik City vs Remix
-(32:38) - Not too much magic tho
-(34:22) - Serializing framework state vs app state
-(40:04) - Implications of serialization
-(42:44) - Challenges when adopting Qwik
-(46:35) - Qwik's solution to memory leaks
-(48:03) - How to get started
-(48:57) - The real value of Qwik
-(51:41) - Wrapping Up
-(52:31) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ambassador Spotlight: Encryptsaan123]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/ambassador-spotlight-encryptsaan123</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-encryptsaan123"/>
-        <updated>2023-02-03T16:40:41.000Z</updated>
-        <summary type="html"><![CDATA[What made you want to become an ambassador? 
-There are several reasons why I decided to become an ambassador at HackerOne. Firstly, I am passion]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I’m now a full-time professional open source maintainer]]></title>
-        <id>changelog.com/news/49d4</id>
-        <link href="https://words.filippo.io/full-time-maintainer/"/>
-        <updated>2023-02-03T15:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Filippo Valsorda:
-Last May I left my job on the Go team at Google to experiment with more sustainable paths for open-source maintainers. I held on to my various maintainer hats (Go cryptography, transparency tooling, age, mkcert, yubikey-agent…), iterated on the model since September, and I’m happy to report that I am now a full-time independent open-source maintainer.
-People like Filippo are still (unfortunately) the exception, not the rule. BUT! I’ll celebrate every time an open source maintainer makes it to the promised land, hopefully paving the way for others to follow after.
-I’m sharing details about my progress to hopefully popularize the model, and eventually help other maintainers adopt it, although I’m not quite ready to recommend anyone else drop everything to try this just yet.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A roadmap to learn Kubernetes from scratch]]></title>
-        <id>changelog.com/news/qMnN</id>
-        <link href="https://github.com/techiescamp/kubernetes-learning-path"/>
-        <updated>2023-02-03T15:03:01.000Z</updated>
-        <summary type="html"><![CDATA[Learning Kubernetes can seem overwhelming. It’s a complex container orchestration system, that has a steep learning curve. But with the right roadmap and understanding of the foundational concepts, it’s something that any developer or ops person can learn.
-In this Kubernetes learning roadmap, I have added prerequisites and complete Kubernetes learning path covering basic to advanced Kubernetes concepts.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe’s chance to be a leader in the age of AI]]></title>
-        <id>https://github.blog/?p=69898</id>
-        <link href="https://github.blog/2023-02-03-europes-chance-to-be-a-leader-in-the-age-of-ai/"/>
-        <updated>2023-02-03T13:00:58.000Z</updated>
-        <summary type="html"><![CDATA[Below are my prepared remarks delivered at the EU Open Source Policy Summit in Brussels on Feb 3rd.]]></summary>
-        <author>
-            <name>Thomas Dohmke</name>
         </author>
     </entry>
 </feed>
