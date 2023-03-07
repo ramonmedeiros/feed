@@ -82,6 +82,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/zDwY",
+          "author": "Martin Heinz",
+          "description": "There’s a lot of “magic” that happens behind the scenes to make whole Kubernetes work. One of those is resource management and resource allocation done by Linux cgroups.\nIn this article we will take a deep dive into what cgroups are, how Kubernetes uses them to manage Node resources, and how we can take advantage of them beyond setting resource requests and limits on Pods.\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/91",
+          "publishedOn": "2023-03-06T22:27:00.000Z",
+          "wordCount": null,
+          "title": "A deep dive into resource management in Kubernetes",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/njRr",
+          "author": "Jerod Santo",
+          "description": "Thomas Ricouard:\nThis is the first article in what I hope will be a long series of stories about the making of the Ice Cubes app. This article will focus on what the app is, the general story behind it, and an overview of the codebase.\nI’ve been using Ice Cubes (source code, App Store) for all Mastodon stuff on my phone since it was first released, and I really like it. I didn’t know it was open source at the time, but even better: its author is writing all about the making of it. Looking forward to this series!\nDiscuss on Changelog News",
+          "link": "https://scribe.rip/the-making-of-ice-cubes-an-open-source-swiftui-mastodon-client-45ebea5cf6b6",
+          "publishedOn": "2023-03-06T21:37:00.000Z",
+          "wordCount": null,
+          "title": "The making of Ice Cubes, an open source, SwiftUI Mastodon client",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/2022",
+          "author": null,
+          "description": "Reorx lists awesome apps & tools using the new ChatGPT API, Ernie Smith ranks self-hosted app alternatives, Very Good Ventures brings Dart to the server, Daniel Stenberg tells curl’s NuGet story & Hacker Stations showcases tech workspace setups from all over the world.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nChatGPT’s new API\n\nOpenAI announcement post\nWhisper.cpp\nSelf-Host All the Things?\nDart Frog: A Frontend Language Moves to the Backend\n\nDart Frog website\nThe curl nuget story\nHacker Stations\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:56) - New OpenAI APIs\n(03:00) - Self-hosted alts ranked\n(03:53) - Dart Frog\n(04:50) - Curl's NuGet story\n(06:08) - Hacker Stations\n(06:29) - Outro (Joshua Bloch quote)",
+          "link": "https://changelog.com/podcast/news-2023-03-06",
+          "publishedOn": "2023-03-06T20:45:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: New OpenAI APIs, self-hosting all the things, the Dart Frog project, curl's NuGet story & Hacker Stations",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-03-06/the-changelog-news-2023-03-06.mp3",
+            "length": "7069810",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/MbVa",
+          "author": "Jerod Santo",
+          "description": "Bryan Braun:\nDo you longingly reminisce about the days when flying toasters graced your screen? Do words like “Confetti Factory” and “Daredevil Dan” make your heart skip a beat?\nIf so, then never fear—CSS is here! Using modern CSS techniques like animations and transforms, we can imitate several of your favorite After Dark™ screensavers.\nThe animations were made with CSS alone. No animated gifs or JavaScript.\n\nDiscuss on Changelog News",
+          "link": "https://www.bryanbraun.com/after-dark-css/",
+          "publishedOn": "2023-03-06T13:48:00.000Z",
+          "wordCount": null,
+          "title": "Flying toasters (and other old screensavers) in CSS",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/6/1976",
           "author": null,
           "description": "KBall and Nick interview one of the leaders of the Tauri project about this next generation app bundling toolkit: the security, size, and performance features that make it special (and dare we say, better than Electron?), and what’s coming next.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Session Replay! Rewind and replay every step of the user’s journey before and after they encountered an issue. Eliminate the guesswork and get to the root cause of an issue, faster. Use the code CHANGELOG and get the team plan free for three months.\n\nKBall Coaching – Free exploratory coaching sessions from JS Party co-host KBall! Click here to get started\n\n\nFeaturing:\n\nDaniel Thompson – GitHub, LinkedIn\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nNick Nisi – Twitter, GitHub, Website\n\nShow Notes:\n\nTauri\nTauri isolation\nTauri Discord\nAwesome Tauri\nPadloc\nGalata.app\nRecut\ncurses\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:21) - Sponsor: Sentry\n(02:17) - It's party time, y'all\n(03:12) - Welcoming Daniel\n(07:57) - Bringing Rust to a JS Party\n(10:34) - If you've never worked in Rust before\n(13:13) - Rust + TypeScript\n(19:57) - Sponsor: KBall Coaching\n(21:13) - What makes Tauri special\n(28:02) - Tauri security\n(33:43) - Tauri performance\n(38:26) - Tauri power\n(41:56) - Getting started\n(46:43) - Getting involved\n(49:47) - Cool Tauri apps\n(52:13) - What's coming next\n(53:55) - Wrapping up\n(55:10) - Outro",
@@ -1107,6 +1152,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=70452",
+          "author": "Arkodyuti Saha",
+          "description": "Empowering the next generation of students in tech with real-world industry experience.",
+          "link": "https://github.blog/2023-03-06-unleash-your-potential-with-github-octernships-a-path-to-a-thriving-tech-career/",
+          "publishedOn": "2023-03-07T04:30:31.000Z",
+          "wordCount": 841,
+          "title": "Unleash your potential with GitHub Octernships: a path to a thriving tech career"
+        },
+        {
+          "id": "https://github.blog/?p=70517",
+          "author": "Kedasha Kerr",
+          "description": "GitHub Codespaces enables you to start coding faster when coupled with dev containers. Learn how to automate a portion of your development environment by adding a dev container to an open source project using GitHub Codespaces.",
+          "link": "https://github.blog/2023-03-06-how-to-automate-your-dev-environment-with-dev-containers-and-github-codespaces/",
+          "publishedOn": "2023-03-06T17:27:47.000Z",
+          "wordCount": 1799,
+          "title": "How to automate your dev environment with dev containers and GitHub Codespaces"
+        },
         {
           "id": "https://github.blog/?p=70478",
           "author": "Michelle Mannering",
