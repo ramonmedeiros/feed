@@ -2,10 +2,98 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-08T12:18:57.308Z</updated>
+    <updated>2023-03-09T12:19:48.111Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Application security orchestration with GitHub Advanced Security]]></title>
+        <id>https://github.blog/?p=70612</id>
+        <link href="https://github.blog/2023-03-08-application-security-orchestration-with-github-advanced-security/"/>
+        <updated>2023-03-08T20:36:34.000Z</updated>
+        <summary type="html"><![CDATA[Learn how teams can leverage the power of GitHub Advanced Security’s code scanning and GitHub Actions to integrate the right security testing tools at the right time.]]></summary>
+        <author>
+            <name>Jose Palafox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OSV and the Vulnerability Life Cycle]]></title>
+        <id>http://security.googleblog.com/2023/03/osv-and-vulnerability-life-cycle.html</id>
+        <link href="http://security.googleblog.com/2023/03/osv-and-vulnerability-life-cycle.html"/>
+        <updated>2023-03-08T17:04:00.004Z</updated>
+        <summary type="html"><![CDATA[Posted by Oliver Chang and Andrew Pollock, Google Open Source Security Team 
+It is an interesting time for everyone concerned with open source vulnerabilities. The U.S. Executive Order on Improving the Nation's Cybersecurity requirements for vulnerability disclosure programs and assurances for software used by the US government will go into effect later this year. Finding and fixing security vulnerabilities has never been more important, yet with increasing interest in the area, the vulnerability management space has become fragmented—there are a lot of new tools and competing standards. 
+In 2021, we announced the launch of OSV, a database of open source vulnerabilities built partially from vulnerabilities found through Google’s OSS-Fuzz program. OSV has grown since then and now includes a…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thank you and goodbye to the Chrome Cleanup Tool]]></title>
+        <id>http://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html</id>
+        <link href="http://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html"/>
+        <updated>2023-03-08T16:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Jasika Bawa, Chrome Security Team  
+Starting in Chrome 111 we will begin to turn down the Chrome Cleanup Tool, an application distributed to Chrome users on Windows to help find and remove unwanted software (UwS). 
+Origin story
+  
+The Chrome Cleanup Tool was introduced in 2015 to help users recover from unexpected settings changes, and to detect and remove unwanted software. To date, it has performed more than 80 million cleanups, helping to pave the way for a cleaner, safer web. 
+A changing landscape
+  
+In recent years, several factors have led us to reevaluate the need for this application to keep Chrome users on Windows safe.  
+First, the user perspective – Chrome user complaints about UwS have continued to fall over the years, averaging out to around 3% of total complaints in…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing lazyasdf: an Elixir-based TUI for the asdf version manager]]></title>
+        <id>changelog.com/news/Zo6m</id>
+        <link href="https://www.mitchellhanberg.com/introducing-lazyasdf-a-tui-for-the-asdf-version-manager/"/>
+        <updated>2023-03-08T16:50:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m a big fan of Elixir, asdf & TUIs so this one’s a no-brainer share for me. The linked blog post by Mitchell Hanberg goes into the details:
+While I find lazyasdf to be an amazing achievement for myself, it isn’t super interesting on its own. Let’s dive into the specifics of how I was able to build and distribute a TUI application with Elixir.
+Source code here.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Galaxy 2023: your guide to building a more flexible and productive software development cycle]]></title>
+        <id>https://github.blog/?p=70587</id>
+        <link href="https://github.blog/2023-03-08-github-galaxy-2023-your-guide-to-building-a-more-flexible-and-productive-software-development-cycle/"/>
+        <updated>2023-03-08T16:36:21.000Z</updated>
+        <summary type="html"><![CDATA[Join us virtually on March 28-31 for GitHub Galaxy, a global enterprise event focused on improving efficiency, security, and developer productivity.]]></summary>
+        <author>
+            <name>Jeimy Ruiz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running WordPress in the browser]]></title>
+        <id>changelog.com/news/V1pe</id>
+        <link href="https://wasmlabs.dev/articles/wordpress-in-the-browser/"/>
+        <updated>2023-03-08T16:01:00.000Z</updated>
+        <summary type="html"><![CDATA[No, not running the rendered assets of a WordPress install in the browser. That wouldn’t be noteworthy. This is running the entire WordPress kit and caboodle inside your browser, thanks to WebAssembly.
+Try it for yourself right here. Feel free to play with it: log in with admin / admin, add a comment, etc.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demoing an open source Stable Diffusion plugin for Photoshop]]></title>
+        <id>changelog.com/news/y7Rb</id>
+        <link href="https://www.youtube.com/watch?v=VL_gbQai79E"/>
+        <updated>2023-03-08T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA[The plugin is open source on GitHub. Photoshop is not 😉
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Enterprise Server 3.8 is now generally available]]></title>
         <id>https://github.blog/?p=70573</id>
@@ -1967,88 +2055,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[We’re sharing a few new ways we’re applying our advancements in AI to make exploring information even more natural and intuitive.]]></summary>
         <author>
             <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 210: MLOps is alive and well]]></title>
-        <id>changelog.com/7/2001</id>
-        <link href="https://changelog.com/practicalai/210"/>
-        <updated>2023-02-07T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Worlds are colliding! This week we join forces with the hosts of the MLOps.Community podcast to discuss all things machine learning operations. We talk about how the recent explosion of foundation models and generative models is influencing the world of MLOps, and we discuss related tooling, workflows, perceptions, etc.
-Discuss on Changelog News
-Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!
-
-
-Featuring:
-
-Demetrios Brinkmann – Twitter
-Mihail Eric – Twitter, GitHub, Website
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-
-Show Notes:
-MLOps.Community
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:43) - Demetrios and Mihail
-(01:54) - What is the MLOps Community?
-(05:14) - Chris throws a hand grenade into the convo
-(09:44) - MLOps vs DevOps when deploying
-(15:30) - Ops vs experiment tracking
-(16:43) - Where is MLOps going?
-(25:57) - Is this even legal??
-(32:22) - Sponsor: Changelog++
-(33:21) - Is generative model bloat an issue?
-(36:35) - MLOps' diverse uses
-(42:52) - You are not Google
-(54:07) - Wrap up
-(56:07) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Outsmart Cybercriminals with Proactive Attack Surface Management (ASM)]]></title>
-        <id>https://hackerone.com/vulnerability-management/outsmart-cybercriminals-proactive-attack-surface-management-asm</id>
-        <link href="https://www.hackerone.com/vulnerability-management/outsmart-cybercriminals-proactive-attack-surface-management-asm"/>
-        <updated>2023-02-07T19:34:24.000Z</updated>
-        <summary type="html"><![CDATA[Why is ASM Important?
-Your attack surface is the sum of all entry points an attacker could use to access your systems, applications, devices, or ne]]></summary>
-        <author>
-            <name>Naz Bozdemir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The art of knowing when to quit]]></title>
-        <id>changelog.com/news/3L62</id>
-        <link href="https://blog.jim-nielsen.com/2023/art-of-knowing-when-to-quit/"/>
-        <updated>2023-02-07T16:34:00.000Z</updated>
-        <summary type="html"><![CDATA[This short piece by Jim Nielsen resonated with me (much like Manu’s post resonated with Jim). He says:
-I like this idea of beginning to notice and bring attention to people or creative works that intentionally bring closure, even when you’re left wanting a little more.
-When it comes to open source software, people often see a lack of activity and proclaim that a project is unmaintained. Sometimes that’s true, but sometimes the project is merely finished, and that’s okay. In fact, it’s better than okay. It’s downright successful.
-There’s a big difference between quitting and finishing. Quitting is in the realm of failure, but finishing is in the realm of success. The key is to define what finished means before you get there, lest you feel like you’re merely quitting.
-The art of knowing when to quit? Sure. But how about the art of knowing how to finish?
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Closing the NASA loop]]></title>
-        <id>https://daniel.haxx.se/blog/?p=21420</id>
-        <link href="https://daniel.haxx.se/blog/2023/02/07/closing-the-nasa-loop/"/>
-        <updated>2023-02-07T08:49:01.000Z</updated>
-        <summary type="html"><![CDATA[curl is actually something which is critical, especially to our data management system. It is being used very widely across NASA. Dr Steve Crawford 2020 Back in 2020 I started getting emails from NASA asking for details and specifics about curl’s origins and in particular about where contributors to the project works, and I first … Continue reading Closing the NASA loop →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>

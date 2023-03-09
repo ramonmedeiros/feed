@@ -6,6 +6,24 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/03/osv-and-vulnerability-life-cycle.html",
+          "author": null,
+          "description": "Posted by Oliver Chang and Andrew Pollock, Google Open Source Security Team \nIt is an interesting time for everyone concerned with open source vulnerabilities. The U.S. Executive Order on Improving the Nation's Cybersecurity requirements for vulnerability disclosure programs and assurances for software used by the US government will go into effect later this year. Finding and fixing security vulnerabilities has never been more important, yet with increasing interest in the area, the vulnerability management space has become fragmented—there are a lot of new tools and competing standards. \nIn 2021, we announced the launch of OSV, a database of open source vulnerabilities built partially from vulnerabilities found through Google’s OSS-Fuzz program. OSV has grown since then and now includes a…",
+          "link": "http://security.googleblog.com/2023/03/osv-and-vulnerability-life-cycle.html",
+          "publishedOn": "2023-03-08T17:04:00.004Z",
+          "wordCount": 1670,
+          "title": "OSV and the Vulnerability Life Cycle"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html",
+          "author": null,
+          "description": "Posted by Jasika Bawa, Chrome Security Team  \nStarting in Chrome 111 we will begin to turn down the Chrome Cleanup Tool, an application distributed to Chrome users on Windows to help find and remove unwanted software (UwS). \nOrigin story\n  \nThe Chrome Cleanup Tool was introduced in 2015 to help users recover from unexpected settings changes, and to detect and remove unwanted software. To date, it has performed more than 80 million cleanups, helping to pave the way for a cleaner, safer web. \nA changing landscape\n  \nIn recent years, several factors have led us to reevaluate the need for this application to keep Chrome users on Windows safe.  \nFirst, the user perspective – Chrome user complaints about UwS have continued to fall over the years, averaging out to around 3% of total complaints in…",
+          "link": "http://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html",
+          "publishedOn": "2023-03-08T16:59:00.000Z",
+          "wordCount": 884,
+          "title": "Thank you and goodbye to the Chrome Cleanup Tool"
+        },
+        {
           "id": "http://security.googleblog.com/2023/03/google-trust-services-now-offers-tls.html",
           "author": null,
           "description": "Andy Warner, Google Trust Services, and Carl Krauss, Product Manager, Google Domains\n\n\n\nWe’re excited to announce changes that make getting Google Trust Services TLS certificates easier for Google Domains customers. With this integration, all Google Domains customers will be able to acquire public certificates for their websites at no additional cost, whether the site runs on a Google service or uses another provider. Additionally, Google Domains is now making an API available to allow for DNS-01 challenges with Google Domains DNS servers to issue and renew certificates automatically.\n\n\n\n\n\nLike the existing Google Cloud integration, Automatic Certificate Management Environment (ACME) protocol is used to enable seamless automatic lifecycle management of TLS certificates. \n\n\n\n\n\nThese certifi…",
@@ -81,6 +99,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/Zo6m",
+          "author": "Jerod Santo",
+          "description": "I’m a big fan of Elixir, asdf & TUIs so this one’s a no-brainer share for me. The linked blog post by Mitchell Hanberg goes into the details:\nWhile I find lazyasdf to be an amazing achievement for myself, it isn’t super interesting on its own. Let’s dive into the specifics of how I was able to build and distribute a TUI application with Elixir.\nSource code here.\n\nDiscuss on Changelog News",
+          "link": "https://www.mitchellhanberg.com/introducing-lazyasdf-a-tui-for-the-asdf-version-manager/",
+          "publishedOn": "2023-03-08T16:50:00.000Z",
+          "wordCount": null,
+          "title": "Introducing lazyasdf: an Elixir-based TUI for the asdf version manager",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/V1pe",
+          "author": "Jerod Santo",
+          "description": "No, not running the rendered assets of a WordPress install in the browser. That wouldn’t be noteworthy. This is running the entire WordPress kit and caboodle inside your browser, thanks to WebAssembly.\nTry it for yourself right here. Feel free to play with it: log in with admin / admin, add a comment, etc.\nDiscuss on Changelog News",
+          "link": "https://wasmlabs.dev/articles/wordpress-in-the-browser/",
+          "publishedOn": "2023-03-08T16:01:00.000Z",
+          "wordCount": null,
+          "title": "Running WordPress in the browser",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/y7Rb",
+          "author": "Jerod Santo",
+          "description": "The plugin is open source on GitHub. Photoshop is not 😉\n\nDiscuss on Changelog News",
+          "link": "https://www.youtube.com/watch?v=VL_gbQai79E",
+          "publishedOn": "2023-03-08T15:08:00.000Z",
+          "wordCount": null,
+          "title": "Demoing an open source Stable Diffusion plugin for Photoshop",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/7/2024",
           "author": null,
@@ -810,31 +858,6 @@
           "wordCount": null,
           "title": "How designers should ask for (and receive) high-quality feedback",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/2001",
-          "author": null,
-          "description": "Worlds are colliding! This week we join forces with the hosts of the MLOps.Community podcast to discuss all things machine learning operations. We talk about how the recent explosion of foundation models and generative models is influencing the world of MLOps, and we discuss related tooling, workflows, perceptions, etc.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!\n\n\nFeaturing:\n\nDemetrios Brinkmann – Twitter\nMihail Eric – Twitter, GitHub, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\nMLOps.Community\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Demetrios and Mihail\n(01:54) - What is the MLOps Community?\n(05:14) - Chris throws a hand grenade into the convo\n(09:44) - MLOps vs DevOps when deploying\n(15:30) - Ops vs experiment tracking\n(16:43) - Where is MLOps going?\n(25:57) - Is this even legal??\n(32:22) - Sponsor: Changelog++\n(33:21) - Is generative model bloat an issue?\n(36:35) - MLOps' diverse uses\n(42:52) - You are not Google\n(54:07) - Wrap up\n(56:07) - Outro",
-          "link": "https://changelog.com/practicalai/210",
-          "publishedOn": "2023-02-07T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 210: MLOps is alive and well",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/210/practical-ai-210.mp3",
-            "length": "54829494",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/3L62",
-          "author": "Jerod Santo",
-          "description": "This short piece by Jim Nielsen resonated with me (much like Manu’s post resonated with Jim). He says:\nI like this idea of beginning to notice and bring attention to people or creative works that intentionally bring closure, even when you’re left wanting a little more.\nWhen it comes to open source software, people often see a lack of activity and proclaim that a project is unmaintained. Sometimes that’s true, but sometimes the project is merely finished, and that’s okay. In fact, it’s better than okay. It’s downright successful.\nThere’s a big difference between quitting and finishing. Quitting is in the realm of failure, but finishing is in the realm of success. The key is to define what finished means before you get there, lest you feel like you’re merely quitting.\nThe art of knowing when to quit? Sure. But how about the art of knowing how to finish?\nDiscuss on Changelog News",
-          "link": "https://blog.jim-nielsen.com/2023/art-of-knowing-when-to-quit/",
-          "publishedOn": "2023-02-07T16:34:00.000Z",
-          "wordCount": null,
-          "title": "The art of knowing when to quit",
-          "itunes": {}
         }
       ]
     },
@@ -991,15 +1014,6 @@
           "publishedOn": "2023-02-15T07:29:18.000Z",
           "wordCount": 1065,
           "title": "curl 7.88.0 seven stops here"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=21420",
-          "author": "Daniel Stenberg",
-          "description": "curl is actually something which is critical, especially to our data management system. It is being used very widely across NASA. Dr Steve Crawford 2020 Back in 2020 I started getting emails from NASA asking for details and specifics about curl’s origins and in particular about where contributors to the project works, and I first … Continue reading Closing the NASA loop →",
-          "link": "https://daniel.haxx.se/blog/2023/02/07/closing-the-nasa-loop/",
-          "publishedOn": "2023-02-07T08:49:01.000Z",
-          "wordCount": 589,
-          "title": "Closing the NASA loop"
         }
       ]
     },
@@ -1144,6 +1158,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=70612",
+          "author": "Jose Palafox",
+          "description": "Learn how teams can leverage the power of GitHub Advanced Security’s code scanning and GitHub Actions to integrate the right security testing tools at the right time.",
+          "link": "https://github.blog/2023-03-08-application-security-orchestration-with-github-advanced-security/",
+          "publishedOn": "2023-03-08T20:36:34.000Z",
+          "wordCount": 2203,
+          "title": "Application security orchestration with GitHub Advanced Security"
+        },
+        {
+          "id": "https://github.blog/?p=70587",
+          "author": "Jeimy Ruiz",
+          "description": "Join us virtually on March 28-31 for GitHub Galaxy, a global enterprise event focused on improving efficiency, security, and developer productivity.",
+          "link": "https://github.blog/2023-03-08-github-galaxy-2023-your-guide-to-building-a-more-flexible-and-productive-software-development-cycle/",
+          "publishedOn": "2023-03-08T16:36:21.000Z",
+          "wordCount": 1203,
+          "title": "GitHub Galaxy 2023: your guide to building a more flexible and productive software development cycle"
+        },
         {
           "id": "https://github.blog/?p=70573",
           "author": "David Jarzebowski",
@@ -1517,15 +1549,6 @@
           "publishedOn": "2023-02-18T02:55:39.000Z",
           "wordCount": 2875,
           "title": "The View from the Other Side: A Security Analyst's Perspective on Bug Bounty Triage"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/outsmart-cybercriminals-proactive-attack-surface-management-asm",
-          "author": "Naz Bozdemir",
-          "description": "Why is ASM Important?\nYour attack surface is the sum of all entry points an attacker could use to access your systems, applications, devices, or ne",
-          "link": "https://www.hackerone.com/vulnerability-management/outsmart-cybercriminals-proactive-attack-surface-management-asm",
-          "publishedOn": "2023-02-07T19:34:24.000Z",
-          "wordCount": 1445,
-          "title": "Outsmart Cybercriminals with Proactive Attack Surface Management (ASM)"
         }
       ]
     },
