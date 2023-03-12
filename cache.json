@@ -843,66 +843,6 @@
           "wordCount": null,
           "title": "Call GPT-3 from your terminal",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/2005",
-          "author": null,
-          "description": "This week we invited our friend Mat Ryer to join us for some good conversation about some Git tooling that’s been on our radar. You may know Mat from Go Time and also Grafana’s Big Tent, which we help to produce. We speculate, we discuss, we laugh, and Mat even breaks into song a few times. It’s good fun.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nPostman – Build APIs together — More than 20 million developers …",
-          "link": "https://changelog.com/podcast/526",
-          "publishedOn": "2023-02-10T21:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 526: Git with your friends",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/526/the-changelog-526.mp3",
-            "length": "97028737",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/1967",
-          "author": null,
-          "description": "The panel dives into the current hot topic that is Generative AI. They start by defining it (a surprisingly difficult topic), then go into experiences they’ve had, how to get started working with it as a developer, and where they think it will and will not be useful in the near future.\nDiscuss on Changelog News\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nLolo Code – If you’re familiar with building severless apps, think of Lolo Code as your backend with a visual editor that lets you think and build at the same time. All this without having to provision or manage servers. Use the visual editor to build your app, connect nodes, and add any npm libraries you need. You can even write your own integrations. This makes Lolo Co…",
-          "link": "https://changelog.com/jsparty/262",
-          "publishedOn": "2023-02-10T20:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 262: Generative AI for devs",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/262/js-party-262.mp3",
-            "length": "57646219",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/O5ao",
-          "author": "Jerod Santo",
-          "description": "Lucas F. Costa:\nIn this blog post, I’ll elucidate why backlogs exist and why they never shrink. Then, I’ll expound on why they’re useless and harmful. Finally, I’ll demonstrate how one can work without a backlog and explain why it’s much more productive to do so.\nI agree whole heartedly with his “why they never shrink” logic, but I’m not willing to say that makes them “useless and harmful.” I’m not sure Lucas even believes that, since his advice of what to do instead at the end of the post boils down to “keep a short backlog.”\nStill, I enjoy Lucas’s thought process and you might too. Recommended reading.\nDiscuss on Changelog News",
-          "link": "https://lucasfcosta.com/2023/02/07/backlogs-are-useless.html",
-          "publishedOn": "2023-02-10T16:40:00.000Z",
-          "wordCount": null,
-          "title": "Why backlogs are useless, why they never shrink, and what to do instead",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/7YAY",
-          "author": "Browser London",
-          "description": "Aiming for one ‘big bang’ release is asking for trouble. Continuous improvement is a better route to creating great digital products. In this post, we take you on a thought experiment to prove this out.\nDiscuss on Changelog News",
-          "link": "https://www.browserlondon.com/blog/2023/02/10/continuous-improvement-beats-big-tada-releases/",
-          "publishedOn": "2023-02-10T15:54:00.000Z",
-          "wordCount": null,
-          "title": "Continuous improvement beats big ‘tada’ releases",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3L92",
-          "author": "Jerod Santo",
-          "description": "Jay Mody:\nMy goal with this post is to provide a simple and hackable yet complete technical introduction to the GPT as an educational tool. As such, we ONLY implement the forward pass code, using already trained model weights.\nDiscuss on Changelog News",
-          "link": "https://jaykmody.com/blog/gpt-from-scratch/",
-          "publishedOn": "2023-02-10T14:27:00.000Z",
-          "wordCount": null,
-          "title": "GPT in 60 lines of NumPy",
-          "itunes": {}
         }
       ]
     },
@@ -1050,6 +990,24 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "author": null,
+          "description": "In this blog post, we discuss the scale at which Twitter operates through Project Sparrow, an initiative that shifted the architecture of our data pipelines from a batch event approach to streaming.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/twitter-sparrow-tackles-data-storage-challenges-of-scale",
+          "publishedOn": "2023-03-12T12:15:44.764Z",
+          "wordCount": 1488,
+          "title": "Twitter Sparrow tackles data storage challenges of scale"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
+          "author": null,
+          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
+          "publishedOn": "2023-03-12T12:15:43.671Z",
+          "wordCount": 1108,
+          "title": "The data platform cluster operator service for Hadoop cluster management"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
           "author": null,
           "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
@@ -1129,15 +1087,6 @@
           "publishedOn": "2023-02-14T12:18:22.123Z",
           "wordCount": 832,
           "title": "Reconsidering Tweets"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "publishedOn": "2023-02-10T12:17:10.223Z",
-          "wordCount": 991,
-          "title": "How Twitter uses rasdaemon for hardware reliability"
         }
       ]
     },
@@ -1533,15 +1482,6 @@
           "publishedOn": "2023-02-15T14:39:14.000Z",
           "wordCount": 3414,
           "title": "About fathers and daughters: my experience with Nubank’s parental leave"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20288",
-          "author": "BU Team",
-          "description": "A look into the career of a Product Operations at Nubank, the scope of work, and the main differences with other Product positions.\nThe post What is it like being a Product Operations at Nubank? appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/product-operations-at-nubank/",
-          "publishedOn": "2023-02-10T19:22:56.000Z",
-          "wordCount": 3298,
-          "title": "What is it like being a Product Operations at Nubank?"
         }
       ]
     },
