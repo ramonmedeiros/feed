@@ -2,10 +2,116 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-13T12:19:13.784Z</updated>
+    <updated>2023-03-14T12:23:24.357Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Single file Elixir scripts]]></title>
+        <id>changelog.com/news/D1Jb</id>
+        <link href="https://fly.io/phoenix-files/single-file-elixir-scripts/"/>
+        <updated>2023-03-13T20:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Jason Stiebs runs down all that you can accomplish in Elixir without a compilation step by running elixir my_script.exs, including the use of any hex package thanks to Mix.install/2.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: Dalai, InputOutput.dev, Wik, Rspack, Doodle, Marqo & iLLA]]></title>
+        <id>changelog.com/1/2028</id>
+        <link href="https://changelog.com/podcast/news-2023-03-13"/>
+        <updated>2023-03-13T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dalai is the simplest way to run LLaMA on your local machine, simple web tools that just work without annoying you, Wik is a tool to view wikipedia pages from your terminal, Rspack is a fast, Rust-based web bundler, Doodle is a pure Kotlin UI framework, Marqo is tensor search for humans & iLLA is an open source alternative to Retool.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+Dalai
+
+facebookresearch/llama
+ggerganov/llama.cpp
+inputoutput.dev
+Wikipedia + terminal
+Rspack
+Doodle
+Marqo
+iLLA
+Something missing or broken? PRs welcome!
+Timestamps:
+(01:02) - Dalai LLaMA
+(02:50) - InputOutput.dev
+(03:31) - Wik
+(04:16) - Rspack
+(05:21) - Doodle
+(05:46) - Marqo
+(06:02) - iLLA
+(06:27) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Highlights from Git 2.40]]></title>
+        <id>https://github.blog/?p=70710</id>
+        <link href="https://github.blog/2023-03-13-highlights-from-git-2-40/"/>
+        <updated>2023-03-13T17:57:15.000Z</updated>
+        <summary type="html"><![CDATA[The first Git release of the year is here! Take a look at some of our highlights on what's new in Git 2.40.]]></summary>
+        <author>
+            <name>Taylor Blau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An open source project to empower OSPOs everywhere]]></title>
+        <id>https://github.blog/?p=70679</id>
+        <link href="https://github.blog/2023-03-13-an-open-source-project-to-empower-ospos-everywhere/"/>
+        <updated>2023-03-13T17:00:34.000Z</updated>
+        <summary type="html"><![CDATA[We are open sourcing our own OSPO policies, tools, and guides to help other OSPOs get started.]]></summary>
+        <author>
+            <name>Zack Koppert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Activating Developers and the new Digital Public Goods Open Source Community Manager Program]]></title>
+        <id>https://github.blog/?p=70686</id>
+        <link href="https://github.blog/2023-03-13-introducing-activating-developers-and-the-new-digital-public-goods-open-source-community-manager-program/"/>
+        <updated>2023-03-13T16:00:49.000Z</updated>
+        <summary type="html"><![CDATA[The Social Impact, Tech for Social Good team is launching a new Open Source Community Manager Program to support digital public goods. This is part of their new Activating Developers initiative.]]></summary>
+        <author>
+            <name>Mala Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pgrok is a poor man's ngrok]]></title>
+        <id>changelog.com/news/mlPw</id>
+        <link href="https://github.com/pgrok/pgrok"/>
+        <updated>2023-03-13T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA[A multi-tenant HTTP reverse tunnel solution through remote port forwarding from the SSH protocol.
+This is intended for small teams that need to expose the local development environment to the public internet, and you need to bring your own domain name and SSO provider.
+It gives stable subdomain for every user, and gated by your SSO through OIDC protocol.
+Think this as a bare-bone alternative to the ngrok’s $65/user/month enterprise tier. Try to put this behind a production system will blow up your SLA.
+For individuals and production systems, just buy ngrok, it is still my favorite.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scripts depicting the strange quirks of programming languages]]></title>
+        <id>changelog.com/news/w9PV</id>
+        <link href="https://github.com/neemspees/tragic-methods"/>
+        <updated>2023-03-13T14:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Quirks: every language has ’em, and the more you learn a language the more of ‘em you run across. Here’s a collection of quirks across a bunch of languages. I’m positive there’s many more that could be added…
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
