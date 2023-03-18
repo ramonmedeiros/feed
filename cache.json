@@ -91,6 +91,51 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/6/2021",
+          "author": null,
+          "description": "Dan Abramov & Joe Savona from the React Team join Jerod & Nick for a wide-ranging discussion about React’s place in the frontend ecosystem. We cover everything from React competing with React, their responses to SPA fatigue and recent criticisms, to Server Components and the future of the framework.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir a…",
+          "link": "https://changelog.com/jsparty/267",
+          "publishedOn": "2023-03-17T16:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 267: The future of React",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/267/js-party-267.mp3",
+            "length": "61832179",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/N1jr",
+          "author": "Jerod Santo",
+          "description": "Docker CMO, Tim Anglade:\nFor those of you catching up, we recently emailed accounts that are members of Free Team organizations, to let them know that they will lose features unless they move to one of our supported free or paid offerings. This impacted less than 2% of our users…\nThe Docker Free Team subscription was deprecated in part because it was poorly targeted. In particular, it didn’t serve the open source audience as well as our recently updated Docker-Sponsored Open Source program, the latter offering benefits that exceed those of the deprecated Free Team plan.\nWe’d also like to clarify that public images will only be removed from Docker Hub if their maintainer decides to delete them. We’re sorry that our initial communications failed to make this clear.\nJust to be clear: their apology is not about the change, it’s about how they communicated the change. There’s more details in the post about deleting public images, squatting names, etc, but that’s the gist.\nDiscuss on Changelog News",
+          "link": "https://www.docker.com/blog/we-apologize-we-did-a-terrible-job-announcing-the-end-of-docker-free-teams/",
+          "publishedOn": "2023-03-17T15:44:00.000Z",
+          "wordCount": null,
+          "title": "Docker apologizes for their Docker Free Teams announcement",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/njar",
+          "author": "Jerod Santo",
+          "description": "TypeScript PM, Daniel Rosenwasser:\nThis release brings many new features, while aiming to make TypeScript smaller, simpler, and faster. We’ve implemented the new decorators standard, added functionality to better support ESM projects in Node and bundlers, provided new ways for library authors to control generic inference, expanded our JSDoc functionality, simplified configuration, and made many other improvements.\nDiscuss on Changelog News",
+          "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/",
+          "publishedOn": "2023-03-17T14:52:01.000Z",
+          "wordCount": null,
+          "title": "Announcing TypeScript 5.0",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/Y1kk",
+          "author": "Jerod Santo",
+          "description": "Congrats to Dan, Rachel and the entire React team for shipping a new docs site! Here’s their TLDR:\nThe new React site (react.dev) teaches modern React with function components and Hooks.\nWe’ve included diagrams, illustrations, challenges, and over 600 new interactive examples.\nThe previous React documentation site has now moved to legacy.reactjs.org.\nDiscuss on Changelog News",
+          "link": "https://react.dev/blog/2023/03/16/introducing-react-dev",
+          "publishedOn": "2023-03-17T14:02:00.000Z",
+          "wordCount": null,
+          "title": "Introducing react.dev",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/2/2025",
           "author": null,
           "description": "The panel discuss the parts of Go they never use. Do they avoid them because of pain in the past? Were they overused? Did they always end up getting refactoring out? Is there a preferred alternative?\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJon Calhoun – Twitter, GitHub, Website\nCarl Johnson – Mastodon, Twitter, GitHub, Website\n\nShow Notes:\n\n🎥 GothamGo 2018 - Things in Go I Never Use by Mat Ryer\nCarl’s ‘remove naked return’\nThe Merovius - Dynamic variables\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:58) - ICE BREAKERS\n(12:00) - Mat avoids new()\n(17:20) - Jon avoids full slice expressions\n(20:53) - Carl avoids bare returns\n(24:22) - A linter up in your kitchen\n(26:59) - Mat tries not to panic\n(30:52) - Jon avoids labels\n(35:13) - Templates, globals, init\n(38:40) - Prank Time (+ more bad ideas)\n(42:57) - Jon tells a story\n(44:20) - Useless uses of generics\n(47:41) - Jon doesn't use internal packages\n(51:17) - It's time for Unpopular Opinions!\n(51:43) - Mat's unpop\n(57:56) - Gotta Go!\n(59:04) - Next time on Go Time",
@@ -874,56 +919,6 @@
           "wordCount": null,
           "title": "Sneaking custom HTML & CSS in to your GitHub README",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/1995",
-          "author": null,
-          "description": "Our “what’s new in Go” correspondent Carl Johnson joins Mat & Johnny to discuss… what’s new in Go 1.20, of course! What’d you expect, an episode about Rust?! That’s preposterous…\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in thei…",
-          "link": "https://changelog.com/gotime/267",
-          "publishedOn": "2023-02-16T23:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 267: What's new in Go 1.20",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/267/go-time-267.mp3",
-            "length": "70084181",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/qMNN",
-          "author": "Jerod Santo",
-          "description": "Homebrew project lead, Mike McQuaid:\nToday, I’d like to announce Homebrew 4.0.0. The most significant change since 3.6.0 enables significantly faster Homebrew-maintained tap updates by migrating from Git-cloned taps to JSON downloads.\nDiscuss on Changelog News",
-          "link": "https://brew.sh/2023/02/16/homebrew-4.0.0/",
-          "publishedOn": "2023-02-16T19:56:00.000Z",
-          "wordCount": null,
-          "title": "Homebrew 4.0.0 is ready for consumption 🍻",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7d5",
-          "author": "Jerod Santo",
-          "description": "Anybody following our news and/or podcast feeds for a bit already know of SQLite and have likely used it and continue to use it, but for those just joining us, here’s yet another dev with effusive praise for the little database engine that could:\nSQLite is one of those projects that I wish I had known about long before I did. I had heard about it, but for many years I never thought about taking a serious look at it because I was under the false impression that is was a tiny database only useful for personal address books and small embedded devices.\nI highly recommend you take a look at SQLite!\nDiscuss on Changelog News",
-          "link": "https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html",
-          "publishedOn": "2023-02-16T15:39:00.000Z",
-          "wordCount": null,
-          "title": "SQLite the only database you will ever need in most cases",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/14/1954",
-          "author": null,
-          "description": "Tim McNamara is known as New Zealand’s Rust guy. He is the author of Rust in Action, and also a Senior Software Engineer at AWS, where he helps other builders with all things Rust.\nThe main reason why Gerhard is intrigued by Rust is the incredible resource frugality. Fewer CPUs means less energy used, which is good for the planet, and good for the monthly bill. This becomes most noticeable at Amazon’s scale, when S3, Lambda, CloudFront and other services start adding Rust components.\nDiscuss on Changelog News\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platfor…",
-          "link": "https://changelog.com/shipit/89",
-          "publishedOn": "2023-02-16T14:50:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 89: Rust efficiencies at AWS scale",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/89/ship-it-89.mp3",
-            "length": "61205933",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1177,15 +1172,6 @@
           "publishedOn": "2023-02-17T12:17:31.603Z",
           "wordCount": 888,
           "title": "Data Quality Automation at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "author": null,
-          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "publishedOn": "2023-02-16T12:17:56.315Z",
-          "wordCount": 1706,
-          "title": "Stability and scalability for search"
         }
       ]
     },
@@ -1226,6 +1212,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=70805",
+          "author": "Mike Linksvayer",
+          "description": "We’re looking forward to working with policymakers to improve cybersecurity and support developers.",
+          "link": "https://github.blog/2023-03-17-partnering-with-eu-policymakers-to-ensure-the-cyber-resilience-act-works-for-developers/",
+          "publishedOn": "2023-03-17T15:35:42.000Z",
+          "wordCount": 1134,
+          "title": "Partnering with EU policymakers to ensure the Cyber Resilience Act works for developers"
+        },
         {
           "id": "https://github.blog/?p=70777",
           "author": "Lee Reilly",
@@ -1540,15 +1535,6 @@
           "publishedOn": "2023-02-21T17:00:45.000Z",
           "wordCount": 1223,
           "title": "Update on the future stability of source code archives and hashes"
-        },
-        {
-          "id": "https://github.blog/?p=70169",
-          "author": "Walker Chabbott",
-          "description": "Learn about CodeQL's improved user experience and enhancements that let you scan new languages, detect new types of CWEs, and perform deeper analyses of your applications.",
-          "link": "https://github.blog/2023-02-16-icymi-codeql-enhancements/",
-          "publishedOn": "2023-02-16T16:54:25.000Z",
-          "wordCount": 1413,
-          "title": "ICYMI: CodeQL enhancements"
         }
       ]
     },
@@ -1557,6 +1543,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=20508",
+          "author": "BU Team",
+          "description": "A look into the Nu's BrandBook Tool—the interactive platform of Nubank global brand guidelines, built for a new moment of brand maturity.\nThe post A Nu way of guidance: Meet the Nu Brand System appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nu-brand-system/",
+          "publishedOn": "2023-03-17T15:11:51.000Z",
+          "wordCount": 4155,
+          "title": "A Nu way of guidance: Meet the Nu Brand System"
+        },
         {
           "id": "https://building.nubank.com.br/?p=20486",
           "author": "BU Team",
@@ -1618,6 +1613,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/hackers-secure-wildly-popular-video-game-h1-407",
+          "author": "jesse@hackerone.com",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/hackers-secure-wildly-popular-video-game-h1-407",
+          "publishedOn": "2023-03-17T15:06:04.000Z",
+          "wordCount": 622,
+          "title": "Hackers Secure Wildly Popular Video Game at H1-407"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/level-your-bug-bounty-effectiveness-part-ii-operational-areas-continuously",
           "author": "Will Kapcio",
