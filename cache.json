@@ -869,56 +869,6 @@
           "wordCount": null,
           "title": "The new headless Chrome makes fingerprint-based bot detection harder",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1978",
-          "author": null,
-          "description": "This week we’re talking to Rachel Potvin, former VP of Engineering at GitHub about what it takes to scale engineering. Rachel says it’s a game-changer when engineering scales beyond 100 people. So we asked to her to share everything she has learned in her career of leading and scaling engineering.\nDiscuss on Changelog News\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Session Replay! Rewind and replay every step of the user’s journey before and after they encountered an issue. Eliminate the guesswork and get to the root cause of an issue, faster. Use the code CHANGELOG and get the team plan free for three months.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you ca…",
-          "link": "https://changelog.com/podcast/527",
-          "publishedOn": "2023-02-17T21:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 527: What it takes to scale engineering",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/527/the-changelog-527.mp3",
-            "length": "83835706",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/2004",
-          "author": null,
-          "description": "Amal sits down for a one-on-one with Alex Russell, Microsoft Partner on the Edge team, and former Web Standards Tech Lead for Chrome, whose recent post, The Market for Lemons, stirred up a BIG conversation in the web development community.\nHave we really lost a decade in potential progress? What happened? Where do we go from here?\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Session Replay! Rewind and replay every step of the user’s journey before and after they encountered an issue. Eliminate the guesswork and get to the root cause of an issue, faster. Use the code PARTYTIME and get the team plan free for three months.\n\nLolo Code – If you’re familiar with building severless apps, think …",
-          "link": "https://changelog.com/jsparty/263",
-          "publishedOn": "2023-02-17T21:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 263: Web development's lost decade",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/263/js-party-263.mp3",
-            "length": "75720860",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/bJae",
-          "author": "Jerod Santo",
-          "description": "Sloth is a native Mac app that shows all open files, directories, sockets, pipes, and devices in use by all running processes on your system. This makes it easy to inspect which apps are using which files, etc.\nlsof is powerful, but I use it infrequently and its CLI is inscrutable. That’s a perfect setup for a GUI like this.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/sveinbjornt/Sloth",
-          "publishedOn": "2023-02-17T15:59:00.000Z",
-          "wordCount": null,
-          "title": "A nice Mac GUI for `lsof`",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/ZoQz",
-          "author": "Jerod Santo",
-          "description": "Nikola Đuza lays out a way you can customize your README to stand out from the crowd:\nGitHub supports adding HTML in Markdown, but it is pretty aggressive when removing HTML that can be potentially dangerous to users. Things like scripts, iframes, and similar will get removed or “silenced” to avoid malicious content from being served to users.\nLuckily, there’s one way to sneak in some HTML (or a web page) inside the README. You can do it via SVG and foreignObject SVG element.\n\nDiscuss on Changelog News",
-          "link": "https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/",
-          "publishedOn": "2023-02-17T15:13:00.000Z",
-          "wordCount": null,
-          "title": "Sneaking custom HTML & CSS in to your GitHub README",
-          "itunes": {}
         }
       ]
     },
@@ -1084,6 +1034,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "author": null,
+          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "publishedOn": "2023-03-19T12:16:07.378Z",
+          "wordCount": 1710,
+          "title": "Stability and scalability for search"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
           "author": null,
           "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
@@ -1163,15 +1122,6 @@
           "publishedOn": "2023-02-20T12:18:01.615Z",
           "wordCount": 1985,
           "title": "Constraint Management for cluster operation safety and reliability at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "author": null,
-          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "publishedOn": "2023-02-17T12:17:31.603Z",
-          "wordCount": 888,
-          "title": "Data Quality Automation at Twitter"
         }
       ]
     },
@@ -1596,15 +1546,6 @@
           "publishedOn": "2023-02-24T22:52:04.000Z",
           "wordCount": 4349,
           "title": "A new look at personas: how UX combined with Data can help in the product funnel"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20351",
-          "author": "BU Team",
-          "description": "Most of the time, financial apps are not built for the customer. But, when it comes to Nubank, we're different from everything.\nThe post How we created Tabs: a new UI for a new financial experience appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/how-we-created-tabs/",
-          "publishedOn": "2023-02-17T21:17:47.000Z",
-          "wordCount": 3757,
-          "title": "How we created Tabs: a new UI for a new financial experience"
         }
       ]
     },
