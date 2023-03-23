@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-22T12:17:03.376Z</updated>
+    <updated>2023-03-23T12:17:52.346Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Constraint Management for cluster operation safety and reliability at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter"/>
+        <updated>2023-03-23T12:17:25.965Z</updated>
+        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Changelog 532: Bringing Whisper and LLaMA to the masses]]></title>
+        <id>changelog.com/1/2006</id>
+        <link href="https://changelog.com/podcast/532"/>
+        <updated>2023-03-22T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re talking with Georgi Gerganov about his work on Whisper.cpp and llama.cpp. Georgi first crossed our radar with whisper.cpp, his port of OpenAI’s Whisper model in C and C++. Whisper is a speech recognition model enabling audio transcription and translation. Something we’re paying close attention to here at Changelog, for obvious reasons. Between the invite and the show’s recording, he had a new hit project on his hands: llama.cpp. This is a port of Facebook’s LLaMA model in C and C++. Whisper.cpp made a splash, but llama.cpp is growing in GitHub stars faster than Stable Diffusion did, which was a rocket ship itself.
+Discuss on Changelog News
+Changelog++ members get a bonus 12 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Postman – Build APIs toget…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How decision-making works at Nubank]]></title>
+        <id>https://building.nubank.com.br/?p=20544</id>
+        <link href="https://building.nubank.com.br/how-decision-making-works-nubank/"/>
+        <updated>2023-03-22T14:13:00.000Z</updated>
+        <summary type="html"><![CDATA[First, align the vision and where you want to get. Then, just try to make things happen!
+The post How decision-making works at Nubank appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Mateus Queiroz - Engineering Manager</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot X: The AI-powered developer experience]]></title>
+        <id>https://github.blog/?p=70813</id>
+        <link href="https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/"/>
+        <updated>2023-03-22T13:58:21.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Copilot is evolving to bring chat and voice interfaces, support pull requests, answer questions on docs, and adopt OpenAI’s GPT-4 for a more personalized developer experience.]]></summary>
+        <author>
+            <name>Thomas Dohmke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So you've installed `fzf`. Now what?]]></title>
+        <id>changelog.com/news/8lWj</id>
+        <link href="https://andrew-quinn.me/fzf/"/>
+        <updated>2023-03-22T13:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Andrew Quinn:
+fzf is a bit of a weird program because installing it actually overwrites a whole bunch of keyboard shortcuts, in the interest of making them better. Normally I would hate this. But…
+Lots of good stuff in this post 👍
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bringing stable diffusion models to web browsers]]></title>
         <id>changelog.com/news/bJPm</id>
@@ -2243,44 +2303,6 @@ Timestamps:
         <summary type="html"><![CDATA[In this blog, we discuss how we approached migrating an exabyte of data to Google Cloud to make it easier for our Tweeps to analyze and visualize data.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardening Firmware Across the Android Ecosystem]]></title>
-        <id>http://security.googleblog.com/2023/02/hardening-firmware-across-android.html</id>
-        <link href="http://security.googleblog.com/2023/02/hardening-firmware-across-android.html"/>
-        <updated>2023-02-21T17:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Roger Piqueras Jover, Ivan Lozano, Sudhi Herle, and Stephan Somogyi, Android Team 
-A modern Android powered smartphone is a complex hardware device: Android OS runs on a multi-core CPU - also called an Application Processor (AP). And the AP is one of many such processors of a System On Chip (SoC). Other processors on the SoC perform various specialized tasks — such as security functions, image & video processing, and most importantly cellular communications. The processor performing cellular communications is often referred to as the baseband. For the purposes of this blog, we refer to the software that runs on all these other processors as “Firmware”.  
-Securing the Android Platform requires going beyond the confines of the Application Processor (AP). Android’s defense-in-depth …]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update on the future stability of source code archives and hashes]]></title>
-        <id>https://github.blog/?p=70195</id>
-        <link href="https://github.blog/2023-02-21-update-on-the-future-stability-of-source-code-archives-and-hashes/"/>
-        <updated>2023-02-21T17:00:45.000Z</updated>
-        <summary type="html"><![CDATA[A look at what happened on January 30, what measures we’re putting in place to prevent surprises, and how we’ll handle future changes.]]></summary>
-        <author>
-            <name>Matt Cooper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four ways to build web apps]]></title>
-        <id>changelog.com/news/qMN2</id>
-        <link href="https://tomhummel.com/posts/four-web-apps/"/>
-        <updated>2023-02-21T15:22:00.000Z</updated>
-        <summary type="html"><![CDATA[My opinionated list of four approaches to building websites and web applications. Publicly hosted on the internet, serving HTML, CSS, JavaScript, images, etc over HTTP.
-There are more than four ways to build a web app, but the ones Tom covers in-depth in this post are:
-Hugo Static Sites + Progressive Web Apps
-Cloudflare Workers
-Linux Server Singleton
-Containers on Platform as a Service (PaaS)
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>

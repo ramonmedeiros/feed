@@ -67,15 +67,6 @@
           "publishedOn": "2023-02-22T16:59:00.001Z",
           "wordCount": 1806,
           "title": "Vulnerability Reward Program: 2022 Year in Review"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/02/hardening-firmware-across-android.html",
-          "author": null,
-          "description": "Posted by Roger Piqueras Jover, Ivan Lozano, Sudhi Herle, and Stephan Somogyi, Android Team \nA modern Android powered smartphone is a complex hardware device: Android OS runs on a multi-core CPU - also called an Application Processor (AP). And the AP is one of many such processors of a System On Chip (SoC). Other processors on the SoC perform various specialized tasks — such as security functions, image & video processing, and most importantly cellular communications. The processor performing cellular communications is often referred to as the baseband. For the purposes of this blog, we refer to the software that runs on all these other processors as “Firmware”.  \nSecuring the Android Platform requires going beyond the confines of the Application Processor (AP). Android’s defense-in-depth …",
-          "link": "http://security.googleblog.com/2023/02/hardening-firmware-across-android.html",
-          "publishedOn": "2023-02-21T17:29:00.000Z",
-          "wordCount": 1564,
-          "title": "Hardening Firmware Across the Android Ecosystem"
         }
       ]
     },
@@ -90,6 +81,31 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2006",
+          "author": null,
+          "description": "This week we’re talking with Georgi Gerganov about his work on Whisper.cpp and llama.cpp. Georgi first crossed our radar with whisper.cpp, his port of OpenAI’s Whisper model in C and C++. Whisper is a speech recognition model enabling audio transcription and translation. Something we’re paying close attention to here at Changelog, for obvious reasons. Between the invite and the show’s recording, he had a new hit project on his hands: llama.cpp. This is a port of Facebook’s LLaMA model in C and C++. Whisper.cpp made a splash, but llama.cpp is growing in GitHub stars faster than Stable Diffusion did, which was a rocket ship itself.\nDiscuss on Changelog News\nChangelog++ members get a bonus 12 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nPostman – Build APIs toget…",
+          "link": "https://changelog.com/podcast/532",
+          "publishedOn": "2023-03-22T21:00:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 532: Bringing Whisper and LLaMA to the masses",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/532/the-changelog-532.mp3",
+            "length": "69315304",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/8lWj",
+          "author": "Jerod Santo",
+          "description": "Andrew Quinn:\nfzf is a bit of a weird program because installing it actually overwrites a whole bunch of keyboard shortcuts, in the interest of making them better. Normally I would hate this. But…\nLots of good stuff in this post 👍\nDiscuss on Changelog News",
+          "link": "https://andrew-quinn.me/fzf/",
+          "publishedOn": "2023-03-22T13:52:00.000Z",
+          "wordCount": null,
+          "title": "So you've installed `fzf`. Now what?",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/bJPm",
           "author": "Jerod Santo",
@@ -879,16 +895,6 @@
             "length": "37153313",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/qMN2",
-          "author": "Jerod Santo",
-          "description": "My opinionated list of four approaches to building websites and web applications. Publicly hosted on the internet, serving HTML, CSS, JavaScript, images, etc over HTTP.\nThere are more than four ways to build a web app, but the ones Tom covers in-depth in this post are:\nHugo Static Sites + Progressive Web Apps\nCloudflare Workers\nLinux Server Singleton\nContainers on Platform as a Service (PaaS)\nDiscuss on Changelog News",
-          "link": "https://tomhummel.com/posts/four-web-apps/",
-          "publishedOn": "2023-02-21T15:22:00.000Z",
-          "wordCount": null,
-          "title": "Four ways to build web apps",
-          "itunes": {}
         }
       ]
     },
@@ -1072,6 +1078,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "author": null,
+          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "publishedOn": "2023-03-23T12:17:25.965Z",
+          "wordCount": 1985,
+          "title": "Constraint Management for cluster operation safety and reliability at Twitter"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
           "author": null,
           "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
@@ -1200,6 +1215,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=70813",
+          "author": "Thomas Dohmke",
+          "description": "GitHub Copilot is evolving to bring chat and voice interfaces, support pull requests, answer questions on docs, and adopt OpenAI’s GPT-4 for a more personalized developer experience.",
+          "link": "https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/",
+          "publishedOn": "2023-03-22T13:58:21.000Z",
+          "wordCount": 1724,
+          "title": "GitHub Copilot X: The AI-powered developer experience"
+        },
         {
           "id": "https://github.blog/?p=70805",
           "author": "Mike Linksvayer",
@@ -1514,15 +1538,6 @@
           "publishedOn": "2023-02-22T16:24:13.000Z",
           "wordCount": 1813,
           "title": "Responsible AI pair programming with GitHub Copilot"
-        },
-        {
-          "id": "https://github.blog/?p=70195",
-          "author": "Matt Cooper",
-          "description": "A look at what happened on January 30, what measures we’re putting in place to prevent surprises, and how we’ll handle future changes.",
-          "link": "https://github.blog/2023-02-21-update-on-the-future-stability-of-source-code-archives-and-hashes/",
-          "publishedOn": "2023-02-21T17:00:45.000Z",
-          "wordCount": 1223,
-          "title": "Update on the future stability of source code archives and hashes"
         }
       ]
     },
@@ -1531,6 +1546,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=20544",
+          "author": "Mateus Queiroz - Engineering Manager",
+          "description": "First, align the vision and where you want to get. Then, just try to make things happen!\nThe post How decision-making works at Nubank appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/how-decision-making-works-nubank/",
+          "publishedOn": "2023-03-22T14:13:00.000Z",
+          "wordCount": 3990,
+          "title": "How decision-making works at Nubank"
+        },
         {
           "id": "https://building.nubank.com.br/?p=20508",
           "author": "BU Team",
