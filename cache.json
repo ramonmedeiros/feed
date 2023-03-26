@@ -857,56 +857,6 @@
           "wordCount": null,
           "title": "You don't need Rails to start using Hotwire",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/1996",
-          "author": null,
-          "description": "This week Evan Prodromou is back to take us deeper into the Fediverse. As many of us reconsider our relationship with Twitter, Mastodon has been by-and-large the target of migration. They helped to popularize the idea of a federated universe of community-owned, decentralized, social networks. And, at the heart of it all is ActivityPub. ActivityPub is a decentralized social networking protocol published by the W3C. It is co-authored by Evan as well as; Christine Lemmer-Webber, Jessica Tallon, Erin Shepherd, and Amy Guy. Today, Evan shares the details behind this protocol and where the Fediverse might be heading.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nPostman – Build APIs together — More than…",
-          "link": "https://changelog.com/podcast/528",
-          "publishedOn": "2023-02-24T22:00:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 528: Into the Fediverse",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/528/the-changelog-528.mp3",
-            "length": "75214671",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/D1Ad",
-          "author": "Jerod Santo",
-          "description": "Take any plaintext, encrypt it & generate a PDF with a QR code that’s easy to scan back in.\nUses the Age format.\nDiscuss on Changelog News",
-          "link": "https://github.com/matiaskorhonen/paper-age",
-          "publishedOn": "2023-02-24T20:34:00.000Z",
-          "wordCount": null,
-          "title": "PaperAge – easy and secure paper backups of (smallish) secrets",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/6rbP",
-          "author": "Jerod Santo",
-          "description": "The rough math goes like this: We spent $3.2m on cloud in 2022. Just under a million of that was on storing 8 petabytes of files in S3, fully replicated across several regions. So that leaves ~$2.3m on everything else: app servers, cache servers, database servers, search servers, the works. That’s the part of the budget we intend to bring to zero in 2023. Then we’ll worry about exiting the 8PB from S3 in 2024.\nDavid spoke at length on this decision when he was on Ship It! late last year.\nDiscuss on Changelog News",
-          "link": "https://world.hey.com/dhh/we-stand-to-save-7m-over-five-years-from-our-cloud-exit-53996caa",
-          "publishedOn": "2023-02-24T19:46:00.000Z",
-          "wordCount": null,
-          "title": "We stand to save $7m over five years from our cloud exit",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/6/1971",
-          "author": null,
-          "description": "Una & Adam from The CSS Podcast defend their Frontend Feud title against challengers David & Shaw from the keyframers. Let’s get it on!\nDiscuss on Changelog News\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Session Replay! Rewind and replay every step of the user’s journey before and after they encountered an issue. Eliminate the guesswork and get to the root cause of an issue, faster. Use the code CHANGELOG and get the team plan free for three months.\n\nLolo Code – If you’re familiar with building severless apps, think of Lolo Code as your backend with a visual editor that lets you think and build at the same time. All this without having to provision or manage servers. Use the visual editor to build your app, connect nodes, and add any npm libraries you need. You can even write your own integrations. This makes Lolo Code very Zapier-ish, but for devs. Try it free today with no credit card required at lolo.co/jsparty\n\nKBall Coaching – Free exploratory coaching sessions from JS Party co-host KBall! Click here to get started\n\n\nFeaturing:\n\nUna Kravets – Twitter, GitHub, Website\nAdam Argyle – Twitter, GitHub, Website\nDavid Khourshid – Twitter, GitHub, Website\nShaw – Mastodon, Twitter, GitHub\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nThe CSS Podcast\nthe keyframers\nMore dev game shows!\nSomething missing or broken? PRs welcome!\nTimestamps:\n(01:55) - It's feud time, y'all!\n(02:42) - Welcoming our contestants\n(03:42) - Larry the intern's interview questions\n(04:38) - How the game works\n(06:07) - Round 1: Future JS runtime\n(13:07) - Round 2: Big tech job\n(19:35) - Sponsor: Lolo Code\n(21:31) - Round 3: Coding monitors\n(25:01) - Round 4: Can't code without\n(33:58) - Round 5: Primary web browser\n(37:28) - Sponsor: KBall Coaching\n(38:45) - Round 6: Why write software\n(45:15) - End Game\n(46:54) - Interviewing the champs\n(48:40) - Wrapping up (merch!)\n(49:47) - Outro (more dev game shows!)",
-          "link": "https://changelog.com/jsparty/264",
-          "publishedOn": "2023-02-24T19:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 264: Frontend Feud: CSS Podcast vs @keyframers",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/264/js-party-264.mp3",
-            "length": "49584239",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -1072,6 +1022,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "author": null,
+          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "publishedOn": "2023-03-26T12:15:07.552Z",
+          "wordCount": 2263,
+          "title": "Measuring the impact of Twitter network latency with CausalImpact"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
           "author": null,
           "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
@@ -1124,33 +1083,6 @@
           "publishedOn": "2023-03-12T12:15:43.671Z",
           "wordCount": 1108,
           "title": "The data platform cluster operator service for Hadoop cluster management"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "publishedOn": "2023-02-24T12:18:01.699Z",
-          "wordCount": 1723,
-          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "publishedOn": "2023-02-24T12:18:01.672Z",
-          "wordCount": 3407,
-          "title": "Kerberizing Hadoop Clusters at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "publishedOn": "2023-02-24T12:18:01.657Z",
-          "wordCount": 907,
-          "title": "How we scaled Reads On the Twitter Users Database"
         }
       ]
     },
@@ -1487,15 +1419,6 @@
           "publishedOn": "2023-02-28T17:00:16.000Z",
           "wordCount": 921,
           "title": "Secret scanning alerts are now available (and free) for all public repositories"
-        },
-        {
-          "id": "https://github.blog/?p=70311",
-          "author": "Mark Paulsen",
-          "description": "Learn how to enable developer productivity and collaboration while staying secure and compliant. Stay compliant without slowing down your business. From security to CI/CD, automate every step of your software workflow—so your developers can stay focused on what matters most: building.",
-          "link": "https://github.blog/2023-02-24-3-ways-to-meet-compliance-needs-without-slowing-down-agility/",
-          "publishedOn": "2023-02-24T19:00:37.000Z",
-          "wordCount": 3060,
-          "title": "3 ways to meet compliance needs without slowing down agility"
         }
       ]
     },
@@ -1557,15 +1480,6 @@
           "publishedOn": "2023-03-03T19:59:34.000Z",
           "wordCount": 3634,
           "title": "Building products customers love at Nubank"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20372",
-          "author": "Nanda Lopes",
-          "description": "How we brought our product team closer to our customers to start the relationship we want to have with them.\nThe post A new look at personas: how UX combined with Data can help in the product funnel appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/a-new-look-at-personas/",
-          "publishedOn": "2023-02-24T22:52:04.000Z",
-          "wordCount": 4349,
-          "title": "A new look at personas: how UX combined with Data can help in the product funnel"
         }
       ]
     },
@@ -1627,15 +1541,6 @@
           "publishedOn": "2023-02-28T17:48:35.000Z",
           "wordCount": 1870,
           "title": "Get Invited: How Live Hacking Event Invites Have Changed"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/hackerone-was-proud-sponsor-bug-hunt",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/hackerone-was-proud-sponsor-bug-hunt",
-          "publishedOn": "2023-02-24T20:55:20.000Z",
-          "wordCount": 1054,
-          "title": "HackerOne was Proud to Sponsor Bug Hunt!"
         }
       ]
     },
