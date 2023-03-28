@@ -64,6 +64,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/2036",
+          "author": null,
+          "description": "GitHub announces Copilot X, Mckay Wrigley created an open source ChatGPT UI buit with Next.js, TypeScripe & Tailwind CSS, OpenAI is also launching a ChatGPT plugin initiative, Brad Woods writes about juice in software development, Logto is an open source alternative to Auth0, Basaran is an open source alternative to the OpenAI text completion API & llama-cli is a straightforward Go CLI interface for llama.cpp.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nBrain Science\nGitHub Copilot X\nChatbot UI\nChatGPT Plugins\nNotes about Juice\nLogto\nBasaran\nllama-cli\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:14) - Brain Science\n(00:56) - GitHub Copilot X\n(01:36) - Chatbot UI\n(02:55) - ChatGPT Plugins\n(03:38) - Juice in software\n(05:16) - Lightning Round!\n(05:30) - Logto\n(05:41) - Basaran\n(06:00) - llama-cli\n(06:15) - Outro",
+          "link": "https://changelog.com/podcast/news-2023-03-27",
+          "publishedOn": "2023-03-27T18:45:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: GitHub Copilot X, Chatbot UI, ChatGPT plugins, defining juice for software dev, Logto, Basaran & llama-cli",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-03-27/the-changelog-news-2023-03-27.mp3",
+            "length": "7486485",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/zDPY",
+          "author": "Jerod Santo",
+          "description": "Dave Runje:\nWe were searching for something like FastAPI for Kafka-based service we were developing, but couldn’t find anything similar. So we shamelessly made one by reusing beloved paradigms from FastAPI and we shamelessly named it FastKafka.\nThe point was to set the expectations right - you get pretty much what you would expect: function decorators for consumers and producers with type hints specifying Pydantic classes for JSON encoding/decoding, automatic message routing to Kafka brokers and documentation generation.\nDiscuss on Changelog News",
+          "link": "https://github.com/airtai/fastkafka",
+          "publishedOn": "2023-03-27T15:52:00.000Z",
+          "wordCount": null,
+          "title": "FastKafka is a Python library for building Kafka-based services",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/LW70",
+          "author": "Jerod Santo",
+          "description": "Alexander Lotvall:\nIt’s a typing app specifically for software developers. You type code snippets from real open source projects. It supports inviting your friends to a room and competing in real time against your friends, and you can get your result on the global leaderboard.\nI like how it uses code snippets from popular projects. I don’t like how slow I am at writing Rust code! 🤣\nDiscuss on Changelog News",
+          "link": "https://speedtyper.dev",
+          "publishedOn": "2023-03-27T15:03:00.000Z",
+          "wordCount": null,
+          "title": "SpeedTyper – type racing for programmers",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/6/2011",
           "author": null,
           "description": "Node core committer Erick Wendel joins Jerod & KBall to talk us through how he created his own JS runtime using V8, Libuv & more. Along the way we learn from his learnings, wrap our heads around the differences between Node, Bun & Deno, and talk about creating awesome content for developers… whether they like it or not!\nDiscuss on Changelog News\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Pyt…",
@@ -934,6 +969,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=21961",
+          "author": "Daniel Stenberg",
+          "description": "Every once in a while someone brings up the topic of code coverage in relation to curl. What portion of the code is actually exercised when running the tests? Honestly, we don’t know. We can’t figure it out. We are not trying to figure it out. We have to live with this. We used to … Continue reading curl code coverage →",
+          "link": "https://daniel.haxx.se/blog/2023/03/28/curl-code-coverage/",
+          "publishedOn": "2023-03-28T07:40:51.000Z",
+          "wordCount": 867,
+          "title": "curl code coverage"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=22142",
           "author": "Daniel Stenberg",
           "description": "Right. I said in the 8.0.0 blog post that it might be a good release. It was. Apart form the little bug that caused it to crash in several test cases. So now we shipped curl 8.0.1, which is almost identical apart from a single commit that was reverted. Exactly why this was not discovered … Continue reading curl 8.0.1 because I jinxed it →",
@@ -1021,6 +1065,33 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+          "publishedOn": "2023-03-28T12:18:03.144Z",
+          "wordCount": 3415,
+          "title": "Kerberizing Hadoop Clusters at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+          "publishedOn": "2023-03-28T12:18:02.301Z",
+          "wordCount": 909,
+          "title": "How we scaled Reads On the Twitter Users Database"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
+          "publishedOn": "2023-03-28T12:18:02.274Z",
+          "wordCount": 1725,
+          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
           "author": null,

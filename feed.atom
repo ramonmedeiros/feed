@@ -2,10 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-26T12:15:36.755Z</updated>
+    <updated>2023-03-28T12:18:15.399Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Kerberizing Hadoop Clusters at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter"/>
+        <updated>2023-03-28T12:18:03.144Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we scaled Reads On the Twitter Users Database]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database"/>
+        <updated>2023-03-28T12:18:02.301Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service"/>
+        <updated>2023-03-28T12:18:02.274Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[curl code coverage]]></title>
+        <id>https://daniel.haxx.se/blog/?p=21961</id>
+        <link href="https://daniel.haxx.se/blog/2023/03/28/curl-code-coverage/"/>
+        <updated>2023-03-28T07:40:51.000Z</updated>
+        <summary type="html"><![CDATA[Every once in a while someone brings up the topic of code coverage in relation to curl. What portion of the code is actually exercised when running the tests? Honestly, we don’t know. We can’t figure it out. We are not trying to figure it out. We have to live with this. We used to … Continue reading curl code coverage →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News: GitHub Copilot X, Chatbot UI, ChatGPT plugins, defining juice for software dev, Logto, Basaran & llama-cli]]></title>
+        <id>changelog.com/1/2036</id>
+        <link href="https://changelog.com/podcast/news-2023-03-27"/>
+        <updated>2023-03-27T18:45:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub announces Copilot X, Mckay Wrigley created an open source ChatGPT UI buit with Next.js, TypeScripe & Tailwind CSS, OpenAI is also launching a ChatGPT plugin initiative, Brad Woods writes about juice in software development, Logto is an open source alternative to Auth0, Basaran is an open source alternative to the OpenAI text completion API & llama-cli is a straightforward Go CLI interface for llama.cpp.
+Discuss on Changelog News
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+Brain Science
+GitHub Copilot X
+Chatbot UI
+ChatGPT Plugins
+Notes about Juice
+Logto
+Basaran
+llama-cli
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:14) - Brain Science
+(00:56) - GitHub Copilot X
+(01:36) - Chatbot UI
+(02:55) - ChatGPT Plugins
+(03:38) - Juice in software
+(05:16) - Lightning Round!
+(05:30) - Logto
+(05:41) - Basaran
+(06:00) - llama-cli
+(06:15) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastKafka is a Python library for building Kafka-based services]]></title>
+        <id>changelog.com/news/zDPY</id>
+        <link href="https://github.com/airtai/fastkafka"/>
+        <updated>2023-03-27T15:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Dave Runje:
+We were searching for something like FastAPI for Kafka-based service we were developing, but couldn’t find anything similar. So we shamelessly made one by reusing beloved paradigms from FastAPI and we shamelessly named it FastKafka.
+The point was to set the expectations right - you get pretty much what you would expect: function decorators for consumers and producers with type hints specifying Pydantic classes for JSON encoding/decoding, automatic message routing to Kafka brokers and documentation generation.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SpeedTyper – type racing for programmers]]></title>
+        <id>changelog.com/news/LW70</id>
+        <link href="https://speedtyper.dev"/>
+        <updated>2023-03-27T15:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Alexander Lotvall:
+It’s a typing app specifically for software developers. You type code snippets from real open source projects. It supports inviting your friends to a room and competing in real time against your friends, and you can get your result on the global leaderboard.
+I like how it uses code snippets from popular projects. I don’t like how slow I am at writing Rust code! 🤣
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
