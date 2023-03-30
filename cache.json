@@ -40,15 +40,6 @@
           "publishedOn": "2023-03-01T16:59:00.001Z",
           "wordCount": 1805,
           "title": "8 ways to secure Chrome browser for Google Workspace users"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/02/our-commitment-to-fighting-invalid.html",
-          "author": null,
-          "description": "Posted by Michael Spaulding, Senior Product Manager, Ad Traffic Quality\n\n\n\nConnected TV (CTV) has not only transformed the entertainment world, it has also created a vibrant new platform for digital advertising. However, as with any innovative space, there are challenges that arise, including the emergence of bad actors aiming to siphon money away from advertisers and publishers through fraudulent or invalid ad traffic. Invalid traffic is an evolving challenge that has the potential to affect the integrity and health of digital advertising on CTV. However, there are steps the industry can take to combat invalid traffic and foster a clean, trustworthy, and sustainable ecosystem.\n\n\n\n\n\n\nInformation sharing and following best practices\nEvery player across the digital advertising ecosystem has …",
-          "link": "http://security.googleblog.com/2023/02/our-commitment-to-fighting-invalid.html",
-          "publishedOn": "2023-02-28T14:00:00.001Z",
-          "wordCount": 1207,
-          "title": "Our commitment to fighting invalid traffic on Connected TV"
         }
       ]
     },
@@ -63,6 +54,31 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/mlrj",
+          "author": "Jerod Santo",
+          "description": "k8sgpt is a tool for scanning your Kubernetes clusters, diagnosing and triaging issues in simple english. It has SRE experience codified into it’s analyzers and helps to pull out the most relevant information to enrich it with AI.\nDiscuss on Changelog News",
+          "link": "https://github.com/k8sgpt-ai/k8sgpt",
+          "publishedOn": "2023-03-29T14:59:00.000Z",
+          "wordCount": null,
+          "title": "Giving Kubernetes SRE superpowers to everyone",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/2003",
+          "author": null,
+          "description": "After years of working for Google on the Go Team, Filippo Valsorda quit last year to experiment with more sustainable paths for open source maintainers. Good news, it worked! Filippo is now a full-time open source maintainer and he joins Jerod on this episode to tell everyone exactly how he’s making the equivalent to his total compensation package at Google in open source.\nDiscuss on Changelog News\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.\n\nSentry – Session Replay! Rewind and replay every step of the user…",
+          "link": "https://changelog.com/podcast/533",
+          "publishedOn": "2023-03-29T13:45:00.000Z",
+          "wordCount": null,
+          "title": "The Changelog 533: A new path to full-time open source",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/533/the-changelog-533.mp3",
+            "length": "62048117",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/news/6rqR",
           "author": "Jerod Santo",
@@ -847,51 +863,6 @@
           "wordCount": null,
           "title": "OK, OKLCH: a color picker made to help think perceptively",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/mlMR",
-          "author": "Abdulfatai Popoola",
-          "description": "The common trope that feedback is a gift is a misnomer: we love giving and receiving gifts but recoil from delivering and accepting feedback. Some truths are hard to hear and discuss, so the gift-giving metaphor falls short.\nWhat if I told you there was a way to overcome that sinking feeling associated with delivering feedback? Yes, delivering great actionable feedback is a learnable skill that improves with deliberate practice. Read my post to learn some useful techniques.\nDiscuss on Changelog News",
-          "link": "https://abdulapopoola.com/2023/02/06/10x-your-feedback-game-choose-kindness-over-niceness/",
-          "publishedOn": "2023-02-28T22:44:00.000Z",
-          "wordCount": null,
-          "title": "10x your feedback game by choosing kindness over niceness",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/2018",
-          "author": null,
-          "description": "With the recent proliferation of generative AI models (from OpenAI, co:here, Anthropic, etc.), practitioners are racing to come up with best practices around prompting, grounding, and control of outputs.\nChris and Daniel take a deep dive into the kinds of behavior we are seeing with this latest wave of models (both good and bad) and what leads to that behavior. They also dig into some prompting and integration tips.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — De…",
-          "link": "https://changelog.com/practicalai/213",
-          "publishedOn": "2023-02-28T21:15:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 213: Success (and failure) in prompting",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/213/practical-ai-213.mp3",
-            "length": "42319011",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/gwMA",
-          "author": "Petros Amoiridis",
-          "description": "I was a programmer for 12 years. I then switched to support and people management for 12 years. I now want to go back to programming for the rest of my career. I started working at Zed Industries on January the 17th, helping build the Zed editor and be a Rust programmer wannabe. End of June is going to be the judgment day. Will I remain part of Zed?\nThat’s right. I have a six month contract with the company my ex-GitHub colleague founded. They are trusting me to become productive in Rust within 6 months. With no prior experience in Rust, this feels like a Herculean feat. The interesting part is that I abandoned a high-paying job to do this. And by the end of the six month contract, Zed Industries and I may decide to part ways and still be friends.\nAnd I am blogging about my experience so far. It’s a mix of personal learnings and small technical bits and pieces sprinkled here and there. But it’s mostly about my personal experience.\nDiscuss on Changelog News",
-          "link": "https://petros.blog/series-being-a-programmer-again/",
-          "publishedOn": "2023-02-28T16:55:00.000Z",
-          "wordCount": null,
-          "title": "Being a programmer again",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/kwRg",
-          "author": "Jerod Santo",
-          "description": "On first glance, making a first person game without an engine or a graphics API seems like an almost impossible task. In this post I’ll show you how to do that using an algorithm called ray casting.\nMy goal here is to show how something that looks complicated can be broken down into simple pieces, and if I’ve done my job right, it should feel like you’ve discovered how the game works.\n\nDiscuss on Changelog News",
-          "link": "https://grantshandy.github.io/posts/raycasting/",
-          "publishedOn": "2023-02-28T16:05:00.000Z",
-          "wordCount": null,
-          "title": "Write a first person game in 2kb with Rust",
-          "itunes": {}
         }
       ]
     },
@@ -1498,33 +1469,6 @@
           "publishedOn": "2023-03-01T16:00:04.000Z",
           "wordCount": 839,
           "title": "GitHub Actions: Introducing faster GitHub-hosted x64 macOS runners"
-        },
-        {
-          "id": "https://github.blog/?p=70349",
-          "author": "Mark Paulsen",
-          "description": "Explore how using GitHub and HashiCorp together enables enterprises to develop and ship to their customers faster and more secure with consistent workflows and actions.",
-          "link": "https://github.blog/2023-02-28-how-to-build-a-consistent-workflow-for-development-and-operations-teams/",
-          "publishedOn": "2023-02-28T19:00:19.000Z",
-          "wordCount": 2628,
-          "title": "How to build a consistent workflow for development and operations teams"
-        },
-        {
-          "id": "https://github.blog/?p=70332",
-          "author": "Rizel Scarlett",
-          "description": "Unlock the full potential of GitHub Codespaces with these 10 tips and tricks! From generating AI images to running self-guided coding workshops, discover how to optimize your software development workflow with this powerful tool.",
-          "link": "https://github.blog/2023-02-28-10-things-you-didnt-know-you-could-do-with-github-codespaces/",
-          "publishedOn": "2023-02-28T18:00:50.000Z",
-          "wordCount": 2403,
-          "title": "10 things you didn’t know you could do with GitHub Codespaces"
-        },
-        {
-          "id": "https://github.blog/?p=70324",
-          "author": "Zain Malik",
-          "description": "Secret scanning alerts are now generally available for all public repositories. Admins can now turn on the alert experience with one click.",
-          "link": "https://github.blog/2023-02-28-secret-scanning-alerts-are-now-available-and-free-for-all-public-repositories/",
-          "publishedOn": "2023-02-28T17:00:16.000Z",
-          "wordCount": 921,
-          "title": "Secret scanning alerts are now available (and free) for all public repositories"
         }
       ]
     },
@@ -1604,6 +1548,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/security-compliance/cyber-regulations-can-make-our-nation-safer",
+          "author": "Ilona Cohen",
+          "description": "",
+          "link": "https://www.hackerone.com/security-compliance/cyber-regulations-can-make-our-nation-safer",
+          "publishedOn": "2023-03-29T21:00:00.000Z",
+          "wordCount": 1112,
+          "title": "Cyber Regulations Can Make Our Nation Safer"
+        },
+        {
           "id": "https://hackerone.com/vulnerability-management/hackerone-assets-deep-dive-asset-inventory",
           "author": "Naz Bozdemir",
           "description": "",
@@ -1656,15 +1609,6 @@
           "publishedOn": "2023-03-09T05:44:21.000Z",
           "wordCount": 1430,
           "title": "Ambassador Spotlight: samux"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/get-invited-how-live-hacking-event-invites-have-changed",
-          "author": "jesse@hackerone.com",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/get-invited-how-live-hacking-event-invites-have-changed",
-          "publishedOn": "2023-02-28T17:48:35.000Z",
-          "wordCount": 1870,
-          "title": "Get Invited: How Live Hacking Event Invites Have Changed"
         }
       ]
     },
