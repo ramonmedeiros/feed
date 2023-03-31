@@ -2,10 +2,138 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-30T12:18:02.445Z</updated>
+    <updated>2023-03-31T12:16:36.620Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ban 1+N in Django]]></title>
+        <id>changelog.com/news/3Lyy</id>
+        <link href="https://suor.github.io/blog/2023/03/26/ban-1-plus-n-in-django/"/>
+        <updated>2023-03-30T22:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Alex Schepanovski:
+I always thought of 1+N as a thing that you just keep in your head, catch on code reviews or via performance regressions. This worked well for a long time, however, the less control we have over our SQL queries the more likely it will sneak through those guards…
+I tumbled on a couple of 1+Ns while reading a project code for an unrelated reason and it got me thinking – do I ever want Django to do that lazy loading stuff? And the answer was never.
+Turns out the implementation of this is quite easy. ~15 loc for the naive version and ~35 for a more robust version. Give it a try if you, like Alex, never want to allow a 1+N in your Django app again.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Letting users block injected third-party DLLs in Firefox]]></title>
+        <id>https://hacks.mozilla.org/?p=47993</id>
+        <link href="https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/"/>
+        <updated>2023-03-30T18:41:16.000Z</updated>
+        <summary type="html"><![CDATA[In Firefox 110, users now have the ability to control which third-party DLLs are allowed to load into Firefox processes. Let’s talk about what this means and when it might be useful.
+The post Letting users block injected third-party DLLs in Firefox appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
+        <author>
+            <name>Greg Stoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 271: Cross-platform graphical user interfaces]]></title>
+        <id>changelog.com/2/2017</id>
+        <link href="https://changelog.com/gotime/271"/>
+        <updated>2023-03-30T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re joined by the creators of Wails and Fyne to dig into writing Go code for different architectures and operating systems.
+Discuss on Changelog News
+Changelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!
+
+
+Featuring:
+
+Lea Anthony – Twitter, GitHub
+Andy Williams – Twitter, GitHub, LinkedIn, Website
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+Natalie Pistunovich – Twitter, GitHub
+
+Show Notes:
+
+Wails
+Fyne
+Xbar
+Taskfile
+Go GUI developer survey
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:57) - Welcoming our guests
+(02:53) - Gooey Team
+(07:28) - Intro to Wails
+(10:12) - Intro to Fyne
+(15:43) - Lea's repo bands
+(16:51) - Frontend code in Fyne
+(19:05) - Frontend code in Wails
+(20:30) - Building cross-platform tools
+(28:36) - Will generics make things easier?
+(32:42) - Sponsor: Changelog++
+(33:37) - Things they'd do differently
+(44:09) - Accounting for taste
+(49:19) - The smallest possible API
+(52:45) - It's time for Unpopular Opinions!
+(53:28) - Anthony's unpop
+(56:41) - Andy's unpop
+(1:00:48) - Natalie's unpop
+(1:02:44) - Mat's unpop
+(1:05:16) - Gotta Go!
+(1:07:01) - Outro (Changelog++ bonus)]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improvements to CodeQL’s data flow library for C++]]></title>
+        <id>https://github.blog/?p=70902</id>
+        <link href="https://github.blog/2023-03-30-improvements-to-codeqls-data-flow-library-for-c/"/>
+        <updated>2023-03-30T16:00:23.000Z</updated>
+        <summary type="html"><![CDATA[These changes will improve the experience for custom query authors and enable better precision in some of our standard queries. Learn how to enable them for your custom queries.]]></summary>
+        <author>
+            <name>Robert Marsh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A petition to pause all AI experiments for at least 6 months]]></title>
+        <id>changelog.com/news/kwrJ</id>
+        <link href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/"/>
+        <updated>2023-03-30T14:12:00.000Z</updated>
+        <summary type="html"><![CDATA[This open letter by the Future of Life institute has been signed by 1380 people (so far) including notable technologists such as Steve Wozniak, Stuart Russell, Emad Mostaque (Stability AI) & Elon Musk.
+Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable. This confidence must be well justified and increase with the magnitude of a system’s potential effects. OpenAI’s recent statement regarding artificial general intelligence, states that “At some point, it may be important to get independent review before starting to train future systems, and for the most advanced efforts to agree to limit the rate of growth of compute used for creating new models.” We agree. That point is now.
+Therefore, we call on all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than GPT-4. This pause should be public and verifiable, and include all key actors. If such a pause cannot be enacted quickly, governments should step in and institute a moratorium.
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Watch Katie Couric and Think with Google’s new interview series]]></title>
+        <id>https://blog.google/technology/ads/katie-couric-future-ready-youtube-google/</id>
+        <link href="https://blog.google/technology/ads/katie-couric-future-ready-youtube-google/"/>
+        <updated>2023-03-30T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Katie Couric hosts Future Ready by Think with Google, a new interview series featuring experts in AI, cybersecurity and psychology.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT4ALL takes LLaMA to the next level]]></title>
+        <id>changelog.com/news/gwe0</id>
+        <link href="https://github.com/nomic-ai/gpt4all"/>
+        <updated>2023-03-30T13:24:00.000Z</updated>
+        <summary type="html"><![CDATA[The team behind this took LLaMA and trained it on ~800k GPT-3.5-Turbo responses. The result is a sophisticated assistant you can easily run on your laptop by downloading a 4GB file and cloning the repo.
+
+Discuss on Changelog News]]></summary>
+        <author>
+            <name>Jerod Santo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cyber Regulations Can Make Our Nation Safer]]></title>
         <id>https://hackerone.com/security-compliance/cyber-regulations-can-make-our-nation-safer</id>
@@ -2108,103 +2236,6 @@ Fly.io – The home of Changelog.com — Deploy your apps and d…]]></summary>
         <link href="https://daniel.haxx.se/blog/2023/03/02/the-curl-nuget-story/"/>
         <updated>2023-03-02T07:52:43.000Z</updated>
         <summary type="html"><![CDATA[Recently there has been an interesting debate in the Open Source world where people have objected to being called “Suppliers” as in Supply Chain Security when you are but an Open Source developer offering your code to the world for free and at no cost but also without any warranties. That is not a supplier, … Continue reading The curl nuget story →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 529: You’re just a devcontainer.json away]]></title>
-        <id>changelog.com/1/1997</id>
-        <link href="https://changelog.com/podcast/529"/>
-        <updated>2023-03-01T22:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re joined by Brigit Murtaugh, Product Manager on the Visual Studio Code team at Microsoft, and we’re talking about Development Containers and the Dev Container spec. Ever since we talked with Cory Wilkerson about Coding in the cloud with Codespaces we’ve wanted to get the Changelog.com codebase setup with a dev environment in the cloud to more easily support contributions. After getting a drive-by contribution from Chris Eggert to add a Dev Container spec to our codebase, we got curious and reached out to Brigit and asked her to come on the show to give us all the details.
-Discuss on Changelog News
-Changelog++ members get a bonus 9 minutes at the end of this episode and zero ads. Join today!
-Sponsors:
-
-  
-Postman – Build APIs together — More than 20 million developers use Post…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: February 2023]]></title>
-        <id>https://github.blog/?p=70391</id>
-        <link href="https://github.blog/2023-03-01-github-availability-report-february-2023/"/>
-        <updated>2023-03-01T21:35:48.000Z</updated>
-        <summary type="html"><![CDATA[In February, we experienced three incidents that resulted in degraded performance across GitHub services. This report also sheds light into a January incident that resulted in degraded performance for GitHub Packages and GitHub Pages and another January incident that impacted Git users.]]></summary>
-        <author>
-            <name>Jakub Oleksy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The lone developer problem]]></title>
-        <id>changelog.com/news/7YLa</id>
-        <link href="https://evanhahn.com/the-lone-developer-problem/"/>
-        <updated>2023-03-01T20:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Evan Hahn, describing what he calls the “lone developer problem”:
-A lot of software is built by one person. It might be an entire product built by a lone developer or a significant piece of a system.
-When this happens, I’ve observed that code written by a single developer is usually hard for others to work with. This code must’ve made sense to the author, who I think is very smart, but it doesn’t make any sense to me!
-All this time, I just thought it was my code that was hard for others to work with! Turns out I’m not alone…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OK, OKLCH: a color picker made to help think perceptively]]></title>
-        <id>changelog.com/news/X1ML</id>
-        <link href="https://evilmartians.com/chronicles/oklch-a-color-picker-made-to-help-think-perceptively"/>
-        <updated>2023-03-01T19:09:00.000Z</updated>
-        <summary type="html"><![CDATA[The UI of the open source OKLCH Color Picker & Converter was created with community education in mind as the driving design principle. Beyond being a handy tool, there was a secondary goal: speeding up familiarity and adoption of OKLCH and perceptual color spaces.
-To that end, this article explains how the underlying reality of the color space itself guided the UI design.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Travis Turner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Actions Importer is now generally available]]></title>
-        <id>https://github.blog/?p=70330</id>
-        <link href="https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/"/>
-        <updated>2023-03-01T17:00:18.000Z</updated>
-        <summary type="html"><![CDATA[We’re excited to announce the general availability of GitHub Actions Importer. GitHub Actions Importer helps you plan, forecast, and automate migrations from Azure DevOps, CircleCI, GitLab, Jenkins, and Travis CI to GitHub Actions. This product is an extension of the official GitHub CLI and is available for free to any GitHub user starting today. Migrating […]]]></summary>
-        <author>
-            <name>Dawit Gebregziabher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 ways to secure Chrome browser for Google Workspace users]]></title>
-        <id>http://security.googleblog.com/2023/03/8-ways-to-secure-chrome-browser-for.html</id>
-        <link href="http://security.googleblog.com/2023/03/8-ways-to-secure-chrome-browser-for.html"/>
-        <updated>2023-03-01T16:59:00.001Z</updated>
-        <summary type="html"><![CDATA[Posted by Kiran Nair, Product Manager, Chrome Browser 
-   
-1. Bring Chrome under Cloud Management
- Your journey towards keeping your Google Workspace users and data safe, starts with bringing your Chrome browsers under Cloud Management at no additional cost. Chrome Browser Cloud Management is a single destination for applying Chrome Browser policies and security controls across Windows, Mac, Linux, iOS and Android. You also get deep visibility into your browser fleet including which browsers are out of date, which extensions your users are using and bringing insight to potential security blindspots in your enterprise. 
-Managing Chrome from the cloud allows Google Workspace admins to enforce enterprise protections and policies to the whole browser on fully managed devices, which  no longer …]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Actions: Introducing faster GitHub-hosted x64 macOS runners]]></title>
-        <id>https://github.blog/?p=70364</id>
-        <link href="https://github.blog/2023-03-01-github-actions-introducing-faster-github-hosted-x64-macos-runners/"/>
-        <updated>2023-03-01T16:00:04.000Z</updated>
-        <summary type="html"><![CDATA[Speed up your GitHub Actions jobs on macOS with all new, faster GitHub-hosted macOS runners for x64.]]></summary>
-        <author>
-            <name>Stephen Glass</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fossified pilot episode]]></title>
-        <id>https://daniel.haxx.se/blog/?p=21845</id>
-        <link href="https://daniel.haxx.se/blog/2023/03/01/fossified-pilot-episode/"/>
-        <updated>2023-03-01T15:50:41.000Z</updated>
-        <summary type="html"><![CDATA[Henrik, Johan, Magnus and I are all Swedish “FOSS people” and friends since many years back. We like open source. We work with Open Source. We have contributed to Open Source since a long time back. We also have slightly different backgrounds and areas of expertise so we don’t all just totally overlap. We decided … Continue reading Fossified pilot episode →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>

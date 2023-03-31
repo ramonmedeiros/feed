@@ -31,15 +31,6 @@
           "publishedOn": "2023-03-02T17:26:00.006Z",
           "wordCount": 1262,
           "title": "Google Trust Services now offers TLS certificates for Google Domains customers"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/03/8-ways-to-secure-chrome-browser-for.html",
-          "author": null,
-          "description": "Posted by Kiran Nair, Product Manager, Chrome Browser \n   \n1. Bring Chrome under Cloud Management\n Your journey towards keeping your Google Workspace users and data safe, starts with bringing your Chrome browsers under Cloud Management at no additional cost. Chrome Browser Cloud Management is a single destination for applying Chrome Browser policies and security controls across Windows, Mac, Linux, iOS and Android. You also get deep visibility into your browser fleet including which browsers are out of date, which extensions your users are using and bringing insight to potential security blindspots in your enterprise. \nManaging Chrome from the cloud allows Google Workspace admins to enforce enterprise protections and policies to the whole browser on fully managed devices, which  no longer …",
-          "link": "http://security.googleblog.com/2023/03/8-ways-to-secure-chrome-browser-for.html",
-          "publishedOn": "2023-03-01T16:59:00.001Z",
-          "wordCount": 1805,
-          "title": "8 ways to secure Chrome browser for Google Workspace users"
         }
       ]
     },
@@ -54,6 +45,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/3Lyy",
+          "author": "Jerod Santo",
+          "description": "Alex Schepanovski:\nI always thought of 1+N as a thing that you just keep in your head, catch on code reviews or via performance regressions. This worked well for a long time, however, the less control we have over our SQL queries the more likely it will sneak through those guards…\nI tumbled on a couple of 1+Ns while reading a project code for an unrelated reason and it got me thinking – do I ever want Django to do that lazy loading stuff? And the answer was never.\nTurns out the implementation of this is quite easy. ~15 loc for the naive version and ~35 for a more robust version. Give it a try if you, like Alex, never want to allow a 1+N in your Django app again.\nDiscuss on Changelog News",
+          "link": "https://suor.github.io/blog/2023/03/26/ban-1-plus-n-in-django/",
+          "publishedOn": "2023-03-30T22:46:00.000Z",
+          "wordCount": null,
+          "title": "Ban 1+N in Django",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/2017",
+          "author": null,
+          "description": "We’re joined by the creators of Wails and Fyne to dig into writing Go code for different architectures and operating systems.\nDiscuss on Changelog News\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!\n\n\nFeaturing:\n\nLea Anthony – Twitter, GitHub\nAndy Williams – Twitter, GitHub, LinkedIn, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\n\nShow Notes:\n\nWails\nFyne\nXbar\nTaskfile\nGo GUI developer survey\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:57) - Welcoming our guests\n(02:53) - Gooey Team\n(07:28) - Intro to Wails\n(10:12) - Intro to Fyne\n(15:43) - Lea's repo bands\n(16:51) - Frontend code in Fyne\n(19:05) - Frontend code in Wails\n(20:30) - Building cross-platform tools\n(28:36) - Will generics make things easier?\n(32:42) - Sponsor: Changelog++\n(33:37) - Things they'd do differently\n(44:09) - Accounting for taste\n(49:19) - The smallest possible API\n(52:45) - It's time for Unpopular Opinions!\n(53:28) - Anthony's unpop\n(56:41) - Andy's unpop\n(1:00:48) - Natalie's unpop\n(1:02:44) - Mat's unpop\n(1:05:16) - Gotta Go!\n(1:07:01) - Outro (Changelog++ bonus)",
+          "link": "https://changelog.com/gotime/271",
+          "publishedOn": "2023-03-30T17:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 271: Cross-platform graphical user interfaces",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/271/go-time-271.mp3",
+            "length": "66424549",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/kwrJ",
+          "author": "Jerod Santo",
+          "description": "This open letter by the Future of Life institute has been signed by 1380 people (so far) including notable technologists such as Steve Wozniak, Stuart Russell, Emad Mostaque (Stability AI) & Elon Musk.\nPowerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable. This confidence must be well justified and increase with the magnitude of a system’s potential effects. OpenAI’s recent statement regarding artificial general intelligence, states that “At some point, it may be important to get independent review before starting to train future systems, and for the most advanced efforts to agree to limit the rate of growth of compute used for creating new models.” We agree. That point is now.\nTherefore, we call on all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than GPT-4. This pause should be public and verifiable, and include all key actors. If such a pause cannot be enacted quickly, governments should step in and institute a moratorium.\nDiscuss on Changelog News",
+          "link": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+          "publishedOn": "2023-03-30T14:12:00.000Z",
+          "wordCount": null,
+          "title": "A petition to pause all AI experiments for at least 6 months",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/gwe0",
+          "author": "Jerod Santo",
+          "description": "The team behind this took LLaMA and trained it on ~800k GPT-3.5-Turbo responses. The result is a sophisticated assistant you can easily run on your laptop by downloading a 4GB file and cloning the repo.\n\nDiscuss on Changelog News",
+          "link": "https://github.com/nomic-ai/gpt4all",
+          "publishedOn": "2023-03-30T13:24:00.000Z",
+          "wordCount": null,
+          "title": "GPT4ALL takes LLaMA to the next level",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/mlrj",
           "author": "Jerod Santo",
@@ -828,41 +864,6 @@
             "length": "73771674",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/1997",
-          "author": null,
-          "description": "This week we’re joined by Brigit Murtaugh, Product Manager on the Visual Studio Code team at Microsoft, and we’re talking about Development Containers and the Dev Container spec. Ever since we talked with Cory Wilkerson about Coding in the cloud with Codespaces we’ve wanted to get the Changelog.com codebase setup with a dev environment in the cloud to more easily support contributions. After getting a drive-by contribution from Chris Eggert to add a Dev Container spec to our codebase, we got curious and reached out to Brigit and asked her to come on the show to give us all the details.\nDiscuss on Changelog News\nChangelog++ members get a bonus 9 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nPostman – Build APIs together — More than 20 million developers use Post…",
-          "link": "https://changelog.com/podcast/529",
-          "publishedOn": "2023-03-01T22:30:00.000Z",
-          "wordCount": null,
-          "title": "The Changelog 529: You’re just a devcontainer.json away",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/529/the-changelog-529.mp3",
-            "length": "67828411",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/7YLa",
-          "author": "Jerod Santo",
-          "description": "Evan Hahn, describing what he calls the “lone developer problem”:\nA lot of software is built by one person. It might be an entire product built by a lone developer or a significant piece of a system.\nWhen this happens, I’ve observed that code written by a single developer is usually hard for others to work with. This code must’ve made sense to the author, who I think is very smart, but it doesn’t make any sense to me!\nAll this time, I just thought it was my code that was hard for others to work with! Turns out I’m not alone…\nDiscuss on Changelog News",
-          "link": "https://evanhahn.com/the-lone-developer-problem/",
-          "publishedOn": "2023-03-01T20:01:00.000Z",
-          "wordCount": null,
-          "title": "The lone developer problem",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/X1ML",
-          "author": "Travis Turner",
-          "description": "The UI of the open source OKLCH Color Picker & Converter was created with community education in mind as the driving design principle. Beyond being a handy tool, there was a secondary goal: speeding up familiarity and adoption of OKLCH and perceptual color spaces.\nTo that end, this article explains how the underlying reality of the color space itself guided the UI design.\n\nDiscuss on Changelog News",
-          "link": "https://evilmartians.com/chronicles/oklch-a-color-picker-made-to-help-think-perceptively",
-          "publishedOn": "2023-03-01T19:09:00.000Z",
-          "wordCount": null,
-          "title": "OK, OKLCH: a color picker made to help think perceptively",
-          "itunes": {}
         }
       ]
     },
@@ -877,6 +878,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ads/katie-couric-future-ready-youtube-google/",
+          "author": null,
+          "description": "Katie Couric hosts Future Ready by Think with Google, a new interview series featuring experts in AI, cybersecurity and psychology.",
+          "link": "https://blog.google/technology/ads/katie-couric-future-ready-youtube-google/",
+          "publishedOn": "2023-03-30T14:00:00.000Z",
+          "wordCount": 1085,
+          "title": "Watch Katie Couric and Think with Google’s new interview series"
+        },
         {
           "id": "https://blog.google/technology/ai/a-shared-agenda-for-responsible-ai-progress/",
           "author": null,
@@ -1027,15 +1037,6 @@
           "publishedOn": "2023-03-02T07:52:43.000Z",
           "wordCount": 2208,
           "title": "The curl nuget story"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=21845",
-          "author": "Daniel Stenberg",
-          "description": "Henrik, Johan, Magnus and I are all Swedish “FOSS people” and friends since many years back. We like open source. We work with Open Source. We have contributed to Open Source since a long time back. We also have slightly different backgrounds and areas of expertise so we don’t all just totally overlap. We decided … Continue reading Fossified pilot episode →",
-          "link": "https://daniel.haxx.se/blog/2023/03/01/fossified-pilot-episode/",
-          "publishedOn": "2023-03-01T15:50:41.000Z",
-          "wordCount": 410,
-          "title": "Fossified pilot episode"
         }
       ]
     },
@@ -1158,6 +1159,15 @@
       "siteUrl": "https://hacks.mozilla.org/",
       "articles": [
         {
+          "id": "https://hacks.mozilla.org/?p=47993",
+          "author": "Greg Stoll",
+          "description": "In Firefox 110, users now have the ability to control which third-party DLLs are allowed to load into Firefox processes. Let’s talk about what this means and when it might be useful.\nThe post Letting users block injected third-party DLLs in Firefox appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/",
+          "publishedOn": "2023-03-30T18:41:16.000Z",
+          "wordCount": 2799,
+          "title": "Letting users block injected third-party DLLs in Firefox"
+        },
+        {
           "id": "https://hacks.mozilla.org/?p=47990",
           "author": "Melissa Thermidor",
           "description": "We want entrepreneurs and builders to join us in creating a future where AI is developed through this responsible lens. That’s why we are relaunching our Mozilla Builders program with the Responsible AI Challenge.\nThe post Mozilla Launches Responsible AI Challenge appeared first on Mozilla Hacks - the Web developer blog.",
@@ -1173,6 +1183,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=70902",
+          "author": "Robert Marsh",
+          "description": "These changes will improve the experience for custom query authors and enable better precision in some of our standard queries. Learn how to enable them for your custom queries.",
+          "link": "https://github.blog/2023-03-30-improvements-to-codeqls-data-flow-library-for-c/",
+          "publishedOn": "2023-03-30T16:00:23.000Z",
+          "wordCount": 1430,
+          "title": "Improvements to CodeQL’s data flow library for C++"
+        },
         {
           "id": "https://github.blog/?p=70954",
           "author": "Eric Tooley",
@@ -1442,33 +1461,6 @@
           "publishedOn": "2023-03-02T19:11:10.000Z",
           "wordCount": 2245,
           "title": "Why Python keeps growing, explained"
-        },
-        {
-          "id": "https://github.blog/?p=70391",
-          "author": "Jakub Oleksy",
-          "description": "In February, we experienced three incidents that resulted in degraded performance across GitHub services. This report also sheds light into a January incident that resulted in degraded performance for GitHub Packages and GitHub Pages and another January incident that impacted Git users.",
-          "link": "https://github.blog/2023-03-01-github-availability-report-february-2023/",
-          "publishedOn": "2023-03-01T21:35:48.000Z",
-          "wordCount": 1163,
-          "title": "GitHub Availability Report: February 2023"
-        },
-        {
-          "id": "https://github.blog/?p=70330",
-          "author": "Dawit Gebregziabher",
-          "description": "We’re excited to announce the general availability of GitHub Actions Importer. GitHub Actions Importer helps you plan, forecast, and automate migrations from Azure DevOps, CircleCI, GitLab, Jenkins, and Travis CI to GitHub Actions. This product is an extension of the official GitHub CLI and is available for free to any GitHub user starting today. Migrating […]",
-          "link": "https://github.blog/2023-03-01-github-actions-importer-is-now-generally-available/",
-          "publishedOn": "2023-03-01T17:00:18.000Z",
-          "wordCount": 905,
-          "title": "GitHub Actions Importer is now generally available"
-        },
-        {
-          "id": "https://github.blog/?p=70364",
-          "author": "Stephen Glass",
-          "description": "Speed up your GitHub Actions jobs on macOS with all new, faster GitHub-hosted macOS runners for x64.",
-          "link": "https://github.blog/2023-03-01-github-actions-introducing-faster-github-hosted-x64-macos-runners/",
-          "publishedOn": "2023-03-01T16:00:04.000Z",
-          "wordCount": 839,
-          "title": "GitHub Actions: Introducing faster GitHub-hosted x64 macOS runners"
         }
       ]
     },
