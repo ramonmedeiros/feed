@@ -37,6 +37,61 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/2047",
+          "author": null,
+          "description": "Twitter publishes (some of) its recommendation algorithm, Toran Bruce Richards puts GPT-4 on autopilot, Simon Willison shares a good way for us to think about LLMs, Eric Elliot creates a powerful pseudocode programming language for LLMs & I define and demystify the term “stochastic parrot”.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nTwitter’s algorithm\n\nRowan Cheung\nAuto-GPT\nThink of an LLM as a “calculator for words”\nA Powerful Pseudocode Programming Language for LLMs\nWhat is a stochastic parrot?\n\nOn the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:16) - Twitter algorithm\n(02:29) - Yo LLM so fat\n(03:14) - Auto-GPT\n(03:45) - LLMs are \"calculators for words\"\n(04:33) - SudoLang\n(05:16) - Stochastic parrots\n(07:13) - Outro",
+          "link": "https://changelog.com/podcast/news-2023-04-03",
+          "publishedOn": "2023-04-03T20:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News: Twitter's open algorithm, Auto-GPT, LLMs as \"calculators for words\", SudoLang & stochastic parrots",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-04-03/the-changelog-news-2023-04-03.mp3",
+            "length": "7649386",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/9lbJ",
+          "author": "Jerod Santo",
+          "description": "This app uses Apple’s Core ML Stable Diffusion implementation to achieve maximum performance and speed on Apple Silicon based Macs while reducing memory requirements. (Also runs on Intel based Macs.)\n\nDiscuss on Changelog News",
+          "link": "https://github.com/godly-devotion/MochiDiffusion",
+          "publishedOn": "2023-04-03T17:05:00.000Z",
+          "wordCount": null,
+          "title": "Run Stable Diffusion on Mac natively",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/GWk6",
+          "author": "Dan McClain",
+          "description": "Emilio Cobos Álvarez:\nfew  patches that completely removed XUL layout from the Firefox codebase.\n\n\n This means that (modulo a few exceptions documented below) all the Firefox UI is using regular web technology to render (mostly CSS flexbox).\n\n\n This was a rather big effort (first filed 9 years ago in bug 1033225), and I wanted to document some of the things that I learned during the process, some of the things and decisions that made it possible, and some of the things that I would’ve maybe done differently.\n\n\n\n\n\nDiscuss on Changelog News",
+          "link": "https://crisal.io/words/2023/03/30/xul-layout-is-gone.html",
+          "publishedOn": "2023-04-03T16:08:00.000Z",
+          "wordCount": null,
+          "title": "XUL layout is gone (in Firefox)",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/aQeN",
+          "author": "Jerod Santo",
+          "description": "Daniel Stenberg’s new tool for parsing & manipulating URLs might fit nicely into HTTP your utility belt.\nURLs are tricky to parse and there are numerous security problems in software because of this. trurl wants to help soften this problem by taking away the need for script and command line authors everywhere to re-invent the wheel over and over.\nDiscuss on Changelog News",
+          "link": "https://daniel.haxx.se/blog/2023/04/03/introducing-trurl/",
+          "publishedOn": "2023-04-03T15:22:00.000Z",
+          "wordCount": null,
+          "title": "trurl manipulates URLs",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/PpMm",
+          "author": "Jerod Santo",
+          "description": "Tyler Cipriani:\nGitHub private repos lull us into lazy thinking.\nWe cram our secrets into git, then shove it off to the most expansive code forge in the history of humanity, and most of the time: everything’s fine.\nBut GitHub’s ssh host key leak last week demonstrates that private repos are, at best, private-ish.\nDiscuss on Changelog News",
+          "link": "https://tylercipriani.com/blog/2023/03/31/private-ish-github-repos/",
+          "publishedOn": "2023-04-03T14:34:00.000Z",
+          "wordCount": null,
+          "title": "GitHub private repos considered private-­ish",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/news/1WQl",
           "author": "Jerod Santo",
           "description": "A solid pre-flight checklist by PG aficionado Craig Kerstiens. It covers all the essentials: backups, high-availability, logging, statement timeouts & connection pooling.\nDiscuss on Changelog News",
@@ -906,6 +961,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=22157",
+          "author": "Daniel Stenberg",
+          "description": "trurl is a tool in a similar spirit of tr but for URLs. Here, tr stands for translate or transpose. trurl is a small command line tool that parses and manipulates URLs, designed to help shell script authors everywhere. URLs are tricky to parse and there are numerous security problems in software because of this. … Continue reading trurl manipulates URLs →",
+          "link": "https://daniel.haxx.se/blog/2023/04/03/introducing-trurl/",
+          "publishedOn": "2023-04-03T06:59:14.000Z",
+          "wordCount": 790,
+          "title": "trurl manipulates URLs"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=22065",
           "author": "Daniel Stenberg",
           "description": "In 2011 I started to send “pre-notifications” about pending curl security vulnerabilities to the distros mailing list (back then it was still called linux-distros). For several years we also asked them for CVE IDs for the new vulnerabilities that we were about to publish to the world. By notifying the distros ahead of time, the … Continue reading Pre-notification dilemmas →",
@@ -1140,6 +1204,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71053",
+          "author": "Jim Boyle",
+          "description": "A high-quality audit log is an essential tool for enterprises to ensure compliance, maintain security, investigate issues, and promote accountability.",
+          "link": "https://github.blog/2023-04-03-level-up-monitoring-and-reporting-for-your-enterprise/",
+          "publishedOn": "2023-04-03T19:00:21.000Z",
+          "wordCount": 1790,
+          "title": "Level up monitoring and reporting for your enterprise"
+        },
+        {
+          "id": "https://github.blog/?p=71030",
+          "author": "Abby Cabunoc Mayes",
+          "description": "We are building a private space for maintainers to connect with peers, preview features, and learn from each other!",
+          "link": "https://github.blog/2023-04-03-calling-all-open-source-maintainers/",
+          "publishedOn": "2023-04-03T16:00:18.000Z",
+          "wordCount": 555,
+          "title": "Calling all open source maintainers"
+        },
         {
           "id": "https://github.blog/?p=71012",
           "author": "Sylwia Budzynska",
@@ -1382,15 +1464,6 @@
           "publishedOn": "2023-03-06T17:27:47.000Z",
           "wordCount": 1799,
           "title": "How to automate your dev environment with dev containers and GitHub Codespaces"
-        },
-        {
-          "id": "https://github.blog/?p=70478",
-          "author": "Michelle Mannering",
-          "description": "Our community—along with ourselves—took a much needed break over the festive season. Now everyone is back into the full swing of work, and the open source community is showing us it’s all hands on deck. We had dozens of submissions for the February Release Radar—a testament to the amount of code being shipped by the […]",
-          "link": "https://github.blog/2023-03-05-release-radar-feb-2023/",
-          "publishedOn": "2023-03-05T23:50:43.000Z",
-          "wordCount": 1711,
-          "title": "Release Radar · February 2023 Edition"
         }
       ]
     },
@@ -1496,6 +1569,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/hackerones-next-million-dollar-hacker-chad-jahpeety",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/hackerones-next-million-dollar-hacker-chad-jahpeety",
+          "publishedOn": "2023-04-01T14:25:40.000Z",
+          "wordCount": 978,
+          "title": "HackerOne's Next Million Dollar Hacker Chad Jahpeety"
+        },
         {
           "id": "https://hackerone.com/security-compliance/cyber-regulations-can-make-our-nation-safer",
           "author": "Ilona Cohen",
