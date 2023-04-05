@@ -37,6 +37,41 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/2048",
+          "author": null,
+          "description": "Daniel and Chris explore the intersection of Kaggle and real-world data science in this illuminating conversation with Christof Henkel, Senior Deep Learning Data Scientist at NVIDIA and Kaggle Grandmaster.  Christof offers a very lucid explanation into how participation in Kaggle can positively impact a data scientist’s skill and career aspirations.  He also shared some of his insights and approach to maximizing AI productivity uses GPU-accelerated tools like RAPIDS and DALI.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Lear…",
+          "link": "https://changelog.com/practicalai/217",
+          "publishedOn": "2023-04-04T20:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 217: Accelerated data science with a Kaggle grandmaster",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/217/practical-ai-217.mp3",
+            "length": "42345189",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/MbeR",
+          "author": "Jerod Santo",
+          "description": "Running live demos can be stressful. You know what you want to say and show. You prepare the CLI commands you want to run to best showcase what you’ve built, but then you waste time typing long commands; you make typos; the commands fail or take way too long to complete. Maybe they depend on external system (network, APIs, cloud, …) and of course it’s not cooperating while you’re running your live demo.\nHere’s how you can avoid all of the above by scripting, automating and recording your demos, so that you never have to stress about showcasing ever again…\nDiscuss on Changelog News",
+          "link": "https://martinheinz.dev/blog/94",
+          "publishedOn": "2023-04-04T14:41:00.000Z",
+          "wordCount": null,
+          "title": "Make your CLI demos a breeze with zero stress and zero mistakes",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/dqPN",
+          "author": "Tom Burns",
+          "description": "By modifying a classical neural network, we introduced a new model inspired by biology which shows improved memory performance. It helps modeling brain processes and may eventually improve AI-based language tools such as ChatGPT.\nDiscuss on Changelog News",
+          "link": "https://www.oist.jp/news-center/news/2023/3/7/what-makes-neural-network-remember",
+          "publishedOn": "2023-04-04T13:55:00.000Z",
+          "wordCount": null,
+          "title": "What makes a neural network remember?",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/1/2047",
           "author": null,
           "description": "Twitter publishes (some of) its recommendation algorithm, Toran Bruce Richards puts GPT-4 on autopilot, Simon Willison shares a good way for us to think about LLMs, Eric Elliot creates a powerful pseudocode programming language for LLMs & I define and demystify the term “stochastic parrot”.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nTwitter’s algorithm\n\nRowan Cheung\nAuto-GPT\nThink of an LLM as a “calculator for words”\nA Powerful Pseudocode Programming Language for LLMs\nWhat is a stochastic parrot?\n\nOn the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:16) - Twitter algorithm\n(02:29) - Yo LLM so fat\n(03:14) - Auto-GPT\n(03:45) - LLMs are \"calculators for words\"\n(04:33) - SudoLang\n(05:16) - Stochastic parrots\n(07:13) - Outro",
@@ -840,51 +875,6 @@
           "wordCount": null,
           "title": "Hired’s 2023 State of Software Engineers report",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zDwY",
-          "author": "Martin Heinz",
-          "description": "There’s a lot of “magic” that happens behind the scenes to make whole Kubernetes work. One of those is resource management and resource allocation done by Linux cgroups.\nIn this article we will take a deep dive into what cgroups are, how Kubernetes uses them to manage Node resources, and how we can take advantage of them beyond setting resource requests and limits on Pods.\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/91",
-          "publishedOn": "2023-03-06T22:27:00.000Z",
-          "wordCount": null,
-          "title": "A deep dive into resource management in Kubernetes",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/njRr",
-          "author": "Jerod Santo",
-          "description": "Thomas Ricouard:\nThis is the first article in what I hope will be a long series of stories about the making of the Ice Cubes app. This article will focus on what the app is, the general story behind it, and an overview of the codebase.\nI’ve been using Ice Cubes (source code, App Store) for all Mastodon stuff on my phone since it was first released, and I really like it. I didn’t know it was open source at the time, but even better: its author is writing all about the making of it. Looking forward to this series!\nDiscuss on Changelog News",
-          "link": "https://scribe.rip/the-making-of-ice-cubes-an-open-source-swiftui-mastodon-client-45ebea5cf6b6",
-          "publishedOn": "2023-03-06T21:37:00.000Z",
-          "wordCount": null,
-          "title": "The making of Ice Cubes, an open source, SwiftUI Mastodon client",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/2022",
-          "author": null,
-          "description": "Reorx lists awesome apps & tools using the new ChatGPT API, Ernie Smith ranks self-hosted app alternatives, Very Good Ventures brings Dart to the server, Daniel Stenberg tells curl’s NuGet story & Hacker Stations showcases tech workspace setups from all over the world.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nChatGPT’s new API\n\nOpenAI announcement post\nWhisper.cpp\nSelf-Host All the Things?\nDart Frog: A Frontend Language Moves to the Backend\n\nDart Frog website\nThe curl nuget story\nHacker Stations\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:56) - New OpenAI APIs\n(03:00) - Self-hosted alts ranked\n(03:53) - Dart Frog\n(04:50) - Curl's NuGet story\n(06:08) - Hacker Stations\n(06:29) - Outro (Joshua Bloch quote)",
-          "link": "https://changelog.com/podcast/news-2023-03-06",
-          "publishedOn": "2023-03-06T20:45:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: New OpenAI APIs, self-hosting all the things, the Dart Frog project, curl's NuGet story & Hacker Stations",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-03-06/the-changelog-news-2023-03-06.mp3",
-            "length": "7069810",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/MbVa",
-          "author": "Jerod Santo",
-          "description": "Bryan Braun:\nDo you longingly reminisce about the days when flying toasters graced your screen? Do words like “Confetti Factory” and “Daredevil Dan” make your heart skip a beat?\nIf so, then never fear—CSS is here! Using modern CSS techniques like animations and transforms, we can imitate several of your favorite After Dark™ screensavers.\nThe animations were made with CSS alone. No animated gifs or JavaScript.\n\nDiscuss on Changelog News",
-          "link": "https://www.bryanbraun.com/after-dark-css/",
-          "publishedOn": "2023-03-06T13:48:00.000Z",
-          "wordCount": null,
-          "title": "Flying toasters (and other old screensavers) in CSS",
-          "itunes": {}
         }
       ]
     },
@@ -1040,15 +1030,6 @@
           "publishedOn": "2023-03-10T09:15:16.000Z",
           "wordCount": 429,
           "title": "curl 25 years online celebration"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=21858",
-          "author": "Daniel Stenberg",
-          "description": "When a security vulnerability has been found and confirmed in curl, we request a CVE Id for the issue. This is a global unique identifier for this specific problem. We request the ID from our CVE Numbering Authority (CNA), Hackerone, which once we make the issue public will publish all details about it to MITRE, … Continue reading NVD makes up vulnerability severity levels →",
-          "link": "https://daniel.haxx.se/blog/2023/03/06/nvd-makes-up-vulnerability-severity-levels/",
-          "publishedOn": "2023-03-06T08:37:52.000Z",
-          "wordCount": 1330,
-          "title": "NVD makes up vulnerability severity levels"
         }
       ]
     },
@@ -1204,6 +1185,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71068",
+          "author": "Jessica Lord",
+          "description": "GitHub Sponsors is now generally available for organizations. Also, new tooling for bulk sponsorships and an update on how we’re ensuring sustainability for GitHub Sponsors.",
+          "link": "https://github.blog/2023-04-04-whats-new-with-github-sponsors/",
+          "publishedOn": "2023-04-04T16:07:30.000Z",
+          "wordCount": 1308,
+          "title": "What’s new with GitHub Sponsors"
+        },
         {
           "id": "https://github.blog/?p=71053",
           "author": "Jim Boyle",
@@ -1455,15 +1445,6 @@
           "publishedOn": "2023-03-07T04:30:31.000Z",
           "wordCount": 841,
           "title": "Unleash your potential with GitHub Octernships: a path to a thriving tech career"
-        },
-        {
-          "id": "https://github.blog/?p=70517",
-          "author": "Kedasha Kerr",
-          "description": "GitHub Codespaces enables you to start coding faster when coupled with dev containers. Learn how to automate a portion of your development environment by adding a dev container to an open source project using GitHub Codespaces.",
-          "link": "https://github.blog/2023-03-06-how-to-automate-your-dev-environment-with-dev-containers-and-github-codespaces/",
-          "publishedOn": "2023-03-06T17:27:47.000Z",
-          "wordCount": 1799,
-          "title": "How to automate your dev environment with dev containers and GitHub Codespaces"
         }
       ]
     },
@@ -1472,6 +1453,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=20630",
+          "author": "Nubank Editorial",
+          "description": "Find out what happened on the first episode of The Hammock by Building Nu here!\nThe post A stylish debut: Nubank’s new tech podcast invites Vitor Olivier, the company CTO appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/the-hammock-nubank-new-podcast-about-technology/",
+          "publishedOn": "2023-04-04T17:20:45.000Z",
+          "wordCount": 3698,
+          "title": "A stylish debut: Nubank’s new tech podcast invites Vitor Olivier, the company CTO"
+        },
         {
           "id": "https://building.nubank.com.br/?p=20618",
           "author": "Nubank Editorial",
