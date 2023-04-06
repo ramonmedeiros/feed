@@ -37,6 +37,26 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/news/8loj",
+          "author": "Jerod Santo",
+          "description": "I’ve quit Elixir’s REPL by hitting Ctrl-C twice a zillion times, but I’ve never stopped to play with the BREAK menu provided between the Ctrl-C’s.\nBREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo\n       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution\n\nThis article is a nice explainer of all the options and what you can do with each.\nDiscuss on Changelog News",
+          "link": "https://blog.sequin.io/between-the-ctrl-cs/",
+          "publishedOn": "2023-04-05T19:30:01.000Z",
+          "wordCount": null,
+          "title": "Exploring Elixir's BREAK menu",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/N1MO",
+          "author": "Jerod Santo",
+          "description": "Use any model from OpenAI, Anthropic, Cohere, Forefront, HuggingFace, Aleph Alpha, and llama.cpp.\nFull playground UI, including history, parameter tuning, keyboard shortcuts, and logprops.\nCompare models side-by-side with the same prompt, individually tune model parameters, and retry with different paramaters.\nTry the hosted version if you prefer…\nDiscuss on Changelog News",
+          "link": "https://github.com/nat/openplayground",
+          "publishedOn": "2023-04-05T18:44:00.000Z",
+          "wordCount": null,
+          "title": "An LLM playground you can run on your laptop",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/2048",
           "author": null,
           "description": "Daniel and Chris explore the intersection of Kaggle and real-world data science in this illuminating conversation with Christof Henkel, Senior Deep Learning Data Scientist at NVIDIA and Kaggle Grandmaster.  Christof offers a very lucid explanation into how participation in Kaggle can positively impact a data scientist’s skill and career aspirations.  He also shared some of his insights and approach to maximizing AI productivity uses GPU-accelerated tools like RAPIDS and DALI.\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Lear…",
@@ -830,51 +850,6 @@
           "wordCount": null,
           "title": "Demoing an open source Stable Diffusion plugin for Photoshop",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/2024",
-          "author": null,
-          "description": "We’ve all experienced pain moving from local development, to testing, and then on to production. This cycle can be long and tedious, especially as AI models and datasets are integrated. Modal is trying to make this loop of development as seamless as possible for AI practitioners, and their platform is pretty incredible!\nErik from Modal joins us in this episode to help us understand how we can run or deploy machine learning models, massively parallel compute jobs, task queues, web apps, and much more, without our own infrastructure.\nDiscuss on Changelog News\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nErik Bernhardsson – Twitter, GitHub, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nModal\nEpisode 142 discussing Erik’s “building a data team” article\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:42) - Erik Bernhardsson\n(02:29) - What got Modal started\n(08:55) - What makes Modal different?\n(12:13) - Pros and cons of this workflow\n(15:36) - What it's like in my experience\n(21:37) - Most unexpected uses for Modal\n(23:57) - The classic Modal workflow\n(31:04) - Tips for migrating into Modal\n(34:35) - How will Modal grow?\n(37:56) - Will you take Modal to the edge?\n(40:03) - Wrap up\n(43:24) - Outro",
-          "link": "https://changelog.com/practicalai/214",
-          "publishedOn": "2023-03-07T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 214: End-to-end cloud compute for AI/ML",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/214/practical-ai-214.mp3",
-            "length": "42775353",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/QpWN",
-          "author": "Jerod Santo",
-          "description": "A cool microsite by Henri Parviainen that helps you design some scrollbars by pointing-and-clicking then copy/paste the requisite CSS code to recreate in your app.\nDiscuss on Changelog News",
-          "link": "https://scrollbar.app/",
-          "publishedOn": "2023-03-07T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Scrollbar.app – a simple online tool for designing scrollbars",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/8lEL",
-          "author": "Jerod Santo",
-          "description": "Service Weaver is a programming framework for writing, deploying, and managing distributed applications in Go. With Service Weaver, you write your application like it is a traditional, single-process Go executable that runs on your local machine. Then, you deploy it to the Cloud, and the framework breaks it down into a set of connected microservices and integrates it with the cloud provider (e.g., monitoring, tracing, logging).\nDiscuss on Changelog News",
-          "link": "https://serviceweaver.dev/",
-          "publishedOn": "2023-03-07T15:49:00.000Z",
-          "wordCount": null,
-          "title": "Service Weaver is a programming framework for writing & deploying cloud apps",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/N1Zr",
-          "author": "Jerod Santo",
-          "description": "Hired CEO, Josh Brenner:\nWe create this report every year to help talent professionals and software engineers understand the hiring climate, as well as what’s top of mind for employers and engineers.\nHere’s some of their key findings:\nAttracted to the field by new challenges and continuous learning, software engineers remain optimistic about the future.\nLayoffs (from May to December 2022) had the greatest impact on salaries and interview interest for junior and non-traditional engineers.\nDespite high-profile calls for return-to-office (RTO), demand for remote engineering talent remains high. Remote roles command higher salaries than local roles, especially in smaller markets.\nThe most in-demand coding skills and software engineering roles shifted this year.\nThere’s a lot to digest here. Worth a read, especially if you’re on the market.\nDiscuss on Changelog News",
-          "link": "https://pages.hired.email/rs/289-SIY-439/images/Hired_2023 State of Software Engineers.pdf",
-          "publishedOn": "2023-03-07T14:59:00.000Z",
-          "wordCount": null,
-          "title": "Hired’s 2023 State of Software Engineers report",
-          "itunes": {}
         }
       ]
     },
@@ -1186,6 +1161,33 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=71142",
+          "author": "Melody Mileski",
+          "description": "With enterprise accounts for all, your organization can take advantage of all that GitHub Enterprise has to offer, from GitHub Actions and GitHub Advanced Security, to Copilot.",
+          "link": "https://github.blog/2023-04-05-bring-your-enterprise-together-with-enterprise-accounts-for-all/",
+          "publishedOn": "2023-04-05T17:00:48.000Z",
+          "wordCount": 699,
+          "title": "Bring your enterprise together with enterprise accounts for all"
+        },
+        {
+          "id": "https://github.blog/?p=71107",
+          "author": "Jakub Oleksy",
+          "description": "In March, we experienced six incidents that resulted in degraded performance across GitHub services. This report also sheds light into a February incident that resulted in degraded performance for GitHub Codespaces.",
+          "link": "https://github.blog/2023-04-05-github-availability-report-march-2023/",
+          "publishedOn": "2023-04-05T16:00:48.000Z",
+          "wordCount": 1264,
+          "title": "GitHub Availability Report: March 2023"
+        },
+        {
+          "id": "https://github.blog/?p=71110",
+          "author": "Chris Reddington",
+          "description": "Many of us are aware of the benefits that a strong focus on automation can bring, particularly in our development workflow and DevOps lifecycle. But silos across businesses can lead to duplication of effort, and potential to lose out on best practices. In this post, we’ll explore how CI/CD can be shared across your entire organization alongside policies, for a well-governed experience with GitHub Actions.",
+          "link": "https://github.blog/2023-04-05-building-organization-wide-governance-and-re-use-for-ci-cd-and-automation-with-github-actions/",
+          "publishedOn": "2023-04-05T15:00:36.000Z",
+          "wordCount": 2774,
+          "title": "Building organization-wide governance and re-use for CI/CD and automation with GitHub Actions"
+        },
+        {
           "id": "https://github.blog/?p=71068",
           "author": "Jessica Lord",
           "description": "GitHub Sponsors is now generally available for organizations. Also, new tooling for bulk sponsorships and an update on how we’re ensuring sustainability for GitHub Sponsors.",
@@ -1418,33 +1420,6 @@
           "publishedOn": "2023-03-08T16:36:21.000Z",
           "wordCount": 1203,
           "title": "GitHub Galaxy 2023: your guide to building a more flexible and productive software development cycle"
-        },
-        {
-          "id": "https://github.blog/?p=70573",
-          "author": "David Jarzebowski",
-          "description": "With updates to GitHub Actions, repositories, and GitHub Advanced Security, this new version of GitHub Enterprise Server is focused on bringing the best developer experience to companies.",
-          "link": "https://github.blog/2023-03-07-github-enterprise-server-3-8-is-now-generally-available/",
-          "publishedOn": "2023-03-07T22:51:24.000Z",
-          "wordCount": 1428,
-          "title": "GitHub Enterprise Server 3.8 is now generally available"
-        },
-        {
-          "id": "https://github.blog/?p=70552",
-          "author": "Alfredo Cerezo Luna",
-          "description": "Commit an update to a pull request, or start a new branch to squash a bug at any time, wherever you are using the GitHub Mobile apps.",
-          "link": "https://github.blog/2023-03-07-file-editing-on-github-mobile-keeps-leveling-up/",
-          "publishedOn": "2023-03-07T16:00:38.000Z",
-          "wordCount": 956,
-          "title": "File editing on GitHub Mobile keeps leveling up"
-        },
-        {
-          "id": "https://github.blog/?p=70452",
-          "author": "Arkodyuti Saha",
-          "description": "Empowering the next generation of students in tech with real-world industry experience.",
-          "link": "https://github.blog/2023-03-06-unleash-your-potential-with-github-octernships-a-path-to-a-thriving-tech-career/",
-          "publishedOn": "2023-03-07T04:30:31.000Z",
-          "wordCount": 841,
-          "title": "Unleash your potential with GitHub Octernships: a path to a thriving tech career"
         }
       ]
     },
@@ -1542,15 +1517,6 @@
           "publishedOn": "2023-03-08T17:48:50.000Z",
           "wordCount": 2890,
           "title": "Nubank is ranked the best company to work with Data in Latin America"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20417",
-          "author": "Nubank Editorial",
-          "description": "Clojure is the core programming language of Nubank's digital solutions, and we celebrate its anniversary with an exclusive webseries interviewing its creators. Check it out. \nThe post Clojure turns 15: Nubank’s webseries explores the origins and future of this programming language appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/clojure-15-nubanks-special-webseries/",
-          "publishedOn": "2023-03-07T13:48:44.000Z",
-          "wordCount": 2932,
-          "title": "Clojure turns 15: Nubank’s webseries explores the origins and future of this programming language"
         }
       ]
     },
@@ -1673,15 +1639,6 @@
           "publishedOn": "2023-03-09T17:38:02.000Z",
           "wordCount": 7277,
           "title": "NTS: Reliable Device Testing at Scale"
-        },
-        {
-          "id": "https://medium.com/p/3c5c638740a8",
-          "author": "Netflix Technology Blog",
-          "description": "by Varun Sekhri, Meenakshi Jindal, Burak Bacioglu",
-          "link": "https://netflixtechblog.com/data-ingestion-pipeline-with-operation-management-3c5c638740a8?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-03-07T20:39:08.000Z",
-          "wordCount": 1453,
-          "title": "Data ingestion pipeline with Operation Management"
         }
       ]
     },
