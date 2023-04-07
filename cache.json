@@ -4,26 +4,7 @@
       "title": "Google Online Security Blog",
       "feedUrl": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "siteUrl": "http://security.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://security.googleblog.com/2023/03/osv-and-vulnerability-life-cycle.html",
-          "author": null,
-          "description": "Posted by Oliver Chang and Andrew Pollock, Google Open Source Security Team \nIt is an interesting time for everyone concerned with open source vulnerabilities. The U.S. Executive Order on Improving the Nation's Cybersecurity requirements for vulnerability disclosure programs and assurances for software used by the US government will go into effect later this year. Finding and fixing security vulnerabilities has never been more important, yet with increasing interest in the area, the vulnerability management space has become fragmented—there are a lot of new tools and competing standards. \nIn 2021, we announced the launch of OSV, a database of open source vulnerabilities built partially from vulnerabilities found through Google’s OSS-Fuzz program. OSV has grown since then and now includes a…",
-          "link": "http://security.googleblog.com/2023/03/osv-and-vulnerability-life-cycle.html",
-          "publishedOn": "2023-03-08T17:04:00.004Z",
-          "wordCount": 1670,
-          "title": "OSV and the Vulnerability Life Cycle"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html",
-          "author": null,
-          "description": "Posted by Jasika Bawa, Chrome Security Team  \nStarting in Chrome 111 we will begin to turn down the Chrome Cleanup Tool, an application distributed to Chrome users on Windows to help find and remove unwanted software (UwS). \nOrigin story\n  \nThe Chrome Cleanup Tool was introduced in 2015 to help users recover from unexpected settings changes, and to detect and remove unwanted software. To date, it has performed more than 80 million cleanups, helping to pave the way for a cleaner, safer web. \nA changing landscape\n  \nIn recent years, several factors have led us to reevaluate the need for this application to keep Chrome users on Windows safe.  \nFirst, the user perspective – Chrome user complaints about UwS have continued to fall over the years, averaging out to around 3% of total complaints in…",
-          "link": "http://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html",
-          "publishedOn": "2023-03-08T16:59:00.000Z",
-          "wordCount": 884,
-          "title": "Thank you and goodbye to the Chrome Cleanup Tool"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Google Testing Blog",
@@ -36,6 +17,61 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/news/V1r1",
+          "author": "Jerod Santo",
+          "description": "Andy Baio with the eagle eyes 🦅\nWhile trying to fix my printer today, I discovered that a PDF copy of Satoshi Nakamoto’s Bitcoin whitepaper apparently shipped with every copy of macOS since Mojave in 2018.\nI’ve asked over a dozen Mac-using friends to confirm, and it was there for every one of them. The file is found in every version of macOS from Mojave (10.14.0) to the current version, Ventura (13.3), but isn’t in High Sierra (10.13) or earlier.\nWell that’s a fun bit of trivia! But why?\nIs there a secret Bitcoin maxi working at Apple? The filename is “simpledoc.pdf” and it’s only 184 KB. Maybe it was just a convenient, lightweight multipage PDF for testing purposes, never meant to be seen by end users.\nDiscuss on Changelog News",
+          "link": "https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/",
+          "publishedOn": "2023-04-06T21:14:00.000Z",
+          "wordCount": null,
+          "title": "The Bitcoin whitepaper is hidden in every modern copy of macOS",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/y7mk",
+          "author": "Jerod Santo",
+          "description": "There’s always at least one new thing I’ve never come across in every one of these kind of lists.\nDiscuss on Changelog News",
+          "link": "https://opensource.com/article/23/4/linux-terminal-fonts",
+          "publishedOn": "2023-04-06T20:24:00.000Z",
+          "wordCount": null,
+          "title": "An entirely subjective list of some fun fonts for your Linux console",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/2041",
+          "author": null,
+          "description": "Mat & Johnny interview everyone’s favorite LLM (Natalie with a special hat on) to see if it’d make a good hire as a Go dev. Also, Mat tries to turn it into his very own creepy robot by asking personal questions about his co-hosts. Things get weird. In a good way?\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the worl…",
+          "link": "https://changelog.com/gotime/272",
+          "publishedOn": "2023-04-06T19:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 272: The biggest job interview of GPT-4's life",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/272/go-time-272.mp3",
+            "length": "65295919",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/news/Qpro",
+          "author": "Jerod Santo",
+          "description": "Courtland Allen:\nExactly six years ago (to the day!), Stripe acquired Indie Hackers to help us grow and inspire millions of people building online businesses.\nToday, I’m happy to announce that @channingallen and I are indie hackers again!\nSo what now?\nWell, if we want to survive and thrive, we’re going to have to generate revenue just like any other business! I’m an entrepreneur at heart and always have been. In fact, working at Stripe was my first and only salaried job.\nRight now we’re sitting at exactly $0 in MRR, so the journey is just now (re)starting.\nWelcome back to the club, guys! Exciting times 💯\nDiscuss on Changelog News",
+          "link": "https://www.indiehackers.com/product/indie-hackers/indie-hackers-is-indie-again--NSIAlb7LggSjzTavQZb",
+          "publishedOn": "2023-04-06T14:30:00.000Z",
+          "wordCount": null,
+          "title": "Indie Hackers is indie again!",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/news/zDX4",
+          "author": "Jerod Santo",
+          "description": "+10x engineers may be mythical, but -10x engineers exist. To become a -10x engineer, simply waste 400 engineering hours per week. Combine the following strategies:\nI know the 10x developer is a myth and all, but one thing we don’t talk about very often is that it is sometimes easy to out-pace other devs simply by moving forward at a decent clip.\nThis is because there are easy (yet non-obvious) ways to make negative progress as a developer. It’s not hard to move orders of magnitude faster than someone who’s headed in the wrong direction.\nDiscuss on Changelog News",
+          "link": "https://taylor.town/-10x",
+          "publishedOn": "2023-04-06T13:36:00.000Z",
+          "wordCount": null,
+          "title": "How to be a -10x Engineer",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/news/8loj",
           "author": "Jerod Santo",
@@ -820,36 +856,6 @@
           "wordCount": null,
           "title": "Mathesar slaps a web-based spreadsheet UI on your Postgres database",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/Zo6m",
-          "author": "Jerod Santo",
-          "description": "I’m a big fan of Elixir, asdf & TUIs so this one’s a no-brainer share for me. The linked blog post by Mitchell Hanberg goes into the details:\nWhile I find lazyasdf to be an amazing achievement for myself, it isn’t super interesting on its own. Let’s dive into the specifics of how I was able to build and distribute a TUI application with Elixir.\nSource code here.\n\nDiscuss on Changelog News",
-          "link": "https://www.mitchellhanberg.com/introducing-lazyasdf-a-tui-for-the-asdf-version-manager/",
-          "publishedOn": "2023-03-08T16:50:00.000Z",
-          "wordCount": null,
-          "title": "Introducing lazyasdf: an Elixir-based TUI for the asdf version manager",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/V1pe",
-          "author": "Jerod Santo",
-          "description": "No, not running the rendered assets of a WordPress install in the browser. That wouldn’t be noteworthy. This is running the entire WordPress kit and caboodle inside your browser, thanks to WebAssembly.\nTry it for yourself right here. Feel free to play with it: log in with admin / admin, add a comment, etc.\nDiscuss on Changelog News",
-          "link": "https://wasmlabs.dev/articles/wordpress-in-the-browser/",
-          "publishedOn": "2023-03-08T16:01:00.000Z",
-          "wordCount": null,
-          "title": "Running WordPress in the browser",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7Rb",
-          "author": "Jerod Santo",
-          "description": "The plugin is open source on GitHub. Photoshop is not 😉\n\nDiscuss on Changelog News",
-          "link": "https://www.youtube.com/watch?v=VL_gbQai79E",
-          "publishedOn": "2023-03-08T15:08:00.000Z",
-          "wordCount": null,
-          "title": "Demoing an open source Stable Diffusion plugin for Photoshop",
-          "itunes": {}
         }
       ]
     },
@@ -1161,6 +1167,24 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=71204",
+          "author": "Adam Hess",
+          "description": "Since the beginning, GitHub.com has been a Ruby on Rails monolith. Today, the application is nearly two million lines of code and more than 1,000 engineers collaborate on it daily. We deploy as often as 20 times a day, and nearly every week one of those deploys is a Rails upgrade. Upgrading Rails weekly Every […]",
+          "link": "https://github.blog/2023-04-06-building-github-with-ruby-and-rails/",
+          "publishedOn": "2023-04-06T18:05:43.000Z",
+          "wordCount": 1620,
+          "title": "Building GitHub with Ruby and Rails"
+        },
+        {
+          "id": "https://github.blog/?p=71167",
+          "author": "Man Yue Mo",
+          "description": "In this post, I’ll look at a security-related change in version r40p0 of the Arm Mali driver that was AWOL in the January update of the Pixel bulletin, where other patches from r40p0 was applied, and how these two lines of changes can be exploited to gain arbitrary kernel code execution and root from a malicious app. This highlights how treacherous it can be when backporting security changes.",
+          "link": "https://github.blog/2023-04-06-pwning-pixel-6-with-a-leftover-patch/",
+          "publishedOn": "2023-04-06T16:00:48.000Z",
+          "wordCount": 6228,
+          "title": "Pwning Pixel 6 with a leftover patch"
+        },
+        {
           "id": "https://github.blog/?p=71142",
           "author": "Melody Mileski",
           "description": "With enterprise accounts for all, your organization can take advantage of all that GitHub Enterprise has to offer, from GitHub Actions and GitHub Advanced Security, to Copilot.",
@@ -1402,24 +1426,6 @@
           "publishedOn": "2023-03-09T15:00:27.000Z",
           "wordCount": 1475,
           "title": "Multi-repository variant analysis: a powerful new way to perform security research across GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=70612",
-          "author": "Jose Palafox",
-          "description": "Learn how teams can leverage the power of GitHub Advanced Security’s code scanning and GitHub Actions to integrate the right security testing tools at the right time.",
-          "link": "https://github.blog/2023-03-08-application-security-orchestration-with-github-advanced-security/",
-          "publishedOn": "2023-03-08T20:36:34.000Z",
-          "wordCount": 2203,
-          "title": "Application security orchestration with GitHub Advanced Security"
-        },
-        {
-          "id": "https://github.blog/?p=70587",
-          "author": "Jeimy Ruiz",
-          "description": "Join us virtually on March 28-31 for GitHub Galaxy, a global enterprise event focused on improving efficiency, security, and developer productivity.",
-          "link": "https://github.blog/2023-03-08-github-galaxy-2023-your-guide-to-building-a-more-flexible-and-productive-software-development-cycle/",
-          "publishedOn": "2023-03-08T16:36:21.000Z",
-          "wordCount": 1203,
-          "title": "GitHub Galaxy 2023: your guide to building a more flexible and productive software development cycle"
         }
       ]
     },
@@ -1508,15 +1514,6 @@
           "publishedOn": "2023-03-16T22:51:56.000Z",
           "wordCount": 4887,
           "title": "How we have been running a Data Science Journal Club at Nubank since 2019"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20442",
-          "author": "Nubank Editorial",
-          "description": "This information is from a survey conducted by the Data Hackers community, in partnership with the American consulting firm Bain & Company.\nThe post Nubank is ranked the best company to work with Data in Latin America appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/best-company-to-work-with-data/",
-          "publishedOn": "2023-03-08T17:48:50.000Z",
-          "wordCount": 2890,
-          "title": "Nubank is ranked the best company to work with Data in Latin America"
         }
       ]
     },
@@ -1525,6 +1522,24 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/ceo/why-economic-downturns-put-innovation-risk-and-threaten-cybersafety",
+          "author": "Mårten Mickos",
+          "description": "",
+          "link": "https://www.hackerone.com/ceo/why-economic-downturns-put-innovation-risk-and-threaten-cybersafety",
+          "publishedOn": "2023-04-07T00:01:00.000Z",
+          "wordCount": 1297,
+          "title": "Why Economic Downturns Put Innovation at Risk And Threaten Cybersafety"
+        },
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
+          "publishedOn": "2023-04-06T14:12:05.000Z",
+          "wordCount": 2069,
+          "title": "How Hackers Are Finding Advocacy: Top Hacker cdl Speaks on His Experience in the Hacker Success Program"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/hackerones-next-million-dollar-hacker-chad-jahpeety",
           "author": "HackerOne",
