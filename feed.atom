@@ -2,10 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-12T12:17:13.172Z</updated>
+    <updated>2023-04-13T12:16:58.363Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability"/>
+        <updated>2023-04-13T12:16:08.507Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Optimistic Can Security Professionals Afford to Be in 2023?]]></title>
+        <id>https://hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023</id>
+        <link href="https://www.hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023"/>
+        <updated>2023-04-12T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyber attackers are increasingly well-resourced and elusive. Yet, CyberEdge's 2023 Cyberthreat Defense Report found IT and security professionals are feeling optimistic about their ability to handle cybersecurity risk.]]></summary>
+        <author>
+            <name>Mahesh Chukkapali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Accelerator: our first cohort and what’s next]]></title>
+        <id>https://github.blog/?p=71292</id>
+        <link href="https://github.blog/2023-04-12-github-accelerator-our-first-cohort-and-whats-next/"/>
+        <updated>2023-04-12T16:00:46.000Z</updated>
+        <summary type="html"><![CDATA[Meet the projects that make up the first GitHub Accelerator cohort and learn about how GitHub is helping bring their visions to reality.]]></summary>
+        <author>
+            <name>Kara Sowles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 218: Computer scientists as rogue art historians]]></title>
+        <id>changelog.com/7/2054</id>
+        <link href="https://changelog.com/practicalai/218"/>
+        <updated>2023-04-12T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[What can art historians and computer scientists learn from one another? Actually, a lot! Amanda Wasielewski joins us to talk about how she discovered that computer scientists working on computer vision were actually acting like rogue art historians and how art historians have found machine learning to be a valuable tool for research, fraud detection, and cataloguing. We also discuss the rise of generative AI and how we this technology might cause us to ask new questions like: “What makes a photograph a photograph?”
+Leave us a comment
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+Typesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!
+
+
+Featuring:
+
+Amanda Wasielewski – Twitter, Website
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+
+Show Notes:
+
+Computational Formalism Art History and Machine Learning
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:42) - Amanda Wasielewski
+(04:28) - What is art history?
+(10:00) - Integrating artworks for ML?
+(13:47) - How are art historians adaption to ML?
+(19:16) - Art models and the Tank Classifier
+(24:27) - What ML devs can learn from art history
+(32:06) - Deep learning paradoxes
+(38:12) - Where is the field going?
+(42:21) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The data platform cluster operator service for Hadoop cluster management]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management</id>
@@ -14,6 +86,15 @@
         <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
         <author>
             <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ambassador Spotlight AWC Edition: remonsec]]></title>
+        <id>https://hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-remonsec</id>
+        <link href="https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-remonsec"/>
+        <updated>2023-04-12T03:44:22.000Z</updated>
+        <author>
+            <name>HackerOne</name>
         </author>
     </entry>
     <entry>
@@ -1949,143 +2030,6 @@ Here it’s converting a Python dict of member functions to esoteric but correct
 Discuss on Changelog News]]></summary>
         <author>
             <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A high-throughput file client for mounting Amazon S3 buckets]]></title>
-        <id>changelog.com/news/3L0G</id>
-        <link href="https://github.com/awslabs/mountpoint-s3"/>
-        <updated>2023-03-14T20:46:00.000Z</updated>
-        <summary type="html"><![CDATA[With Mountpoint for Amazon S3, your applications can access objects stored in Amazon S3 through file operations like open and read. Mountpoint for Amazon S3 automatically translates these operations into S3 object API calls, giving your applications access to the elastic storage and throughput of Amazon S3 through a file interface.
-Early alpha. Written in Rust by the AWS team.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mozilla Launches Responsible AI Challenge]]></title>
-        <id>https://hacks.mozilla.org/?p=47990</id>
-        <link href="https://hacks.mozilla.org/2023/03/mozilla-launches-responsible-ai-challenge/"/>
-        <updated>2023-03-14T20:42:38.000Z</updated>
-        <summary type="html"><![CDATA[We want entrepreneurs and builders to join us in creating a future where AI is developed through this responsible lens. That’s why we are relaunching our Mozilla Builders program with the Responsible AI Challenge.
-The post Mozilla Launches Responsible AI Challenge appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Melissa Thermidor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to tell if AI threatens YOUR job (and 3 simple rules to keep it)]]></title>
-        <id>changelog.com/news/1Wjr</id>
-        <link href="https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/"/>
-        <updated>2023-03-14T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Justin Searls dives deep into whether AI tools like ChatGPT actually threaten knowledge worker jobs and provides helpful ideas around what to do about it.
-Having spent months programming with GitHub Copilot, weeks talking to ChatGPT, and days searching via Bing Chat as an alternative to Google, the best description I’ve heard of AI’s capabilities is “fluent bullshit.” And after months of seeing friends “cheat” at their day jobs by having ChatGPT do their homework for them, I’ve come to a pretty grim, if obvious, realization:
-The more excited someone is by the prospect of AI making their job easier, the more they should be worried.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watchga watches GitHub Action runs]]></title>
-        <id>changelog.com/news/7Yda</id>
-        <link href="https://github.com/nedbat/watchgha"/>
-        <updated>2023-03-14T19:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Ned Batchelder:
-This package provides one command, watch_gha_runs. It takes a GitHub repo URL and a branch name, and displays the status of the latest GitHub Action runs on that branch. If any of the runs are in progress, it will refresh the display each second with the current status.
-If you like, the name can be pronounced, “Watching? Ha!”
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub celebrates the ingenuity of developers with disabilities in new video series]]></title>
-        <id>https://github.blog/?p=70731</id>
-        <link href="https://github.blog/2023-03-14-github-celebrates-the-ingenuity-of-developers-with-disabilities-in-new-video-series/"/>
-        <updated>2023-03-14T18:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how developers with disabilities are pushing the boundaries of accessibility with ingenuity, open source, and generative AI on The ReadME Project.]]></summary>
-        <author>
-            <name>Ed Summers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 things I learned after getting users]]></title>
-        <id>changelog.com/news/2lNm</id>
-        <link href="https://basementcommunity.bearblog.dev/things-i-learned/"/>
-        <updated>2023-03-14T18:26:00.000Z</updated>
-        <summary type="html"><![CDATA[You can think, plan, design & toil away on your project/product all you want, but until you have real people using it… you’re only guessing. Here are 4 things the creator of basement community learned after picking up their first batch of real users:
-someone is going to abuse your site
-you need a performance monitoring system
-your SQL queries need to be optimized
-your users might have genius ideas
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Level Up Your Bug Bounty Effectiveness, Part II: Operational Areas to Continuously Improve]]></title>
-        <id>https://hackerone.com/vulnerability-management/level-your-bug-bounty-effectiveness-part-ii-operational-areas-continuously</id>
-        <link href="https://www.hackerone.com/vulnerability-management/level-your-bug-bounty-effectiveness-part-ii-operational-areas-continuously"/>
-        <updated>2023-03-14T16:00:00.000Z</updated>
-        <author>
-            <name>Will Kapcio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Media Understanding Platform for ML Innovations]]></title>
-        <id>https://medium.com/p/9bef9962dcb7</id>
-        <link href="https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7?source=rss----2615bd06b42e---4"/>
-        <updated>2023-03-14T15:48:28.000Z</updated>
-        <summary type="html"><![CDATA[The media understanding platform serves as an abstraction layer between Machine Learning (ML) algos and various applications.]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome to the HackerOne Ambassador World Cup 2023!]]></title>
-        <id>https://hackerone.com/hackerone-community-blog/welcome-hackerone-ambassador-world-cup-2023</id>
-        <link href="https://www.hackerone.com/hackerone-community-blog/welcome-hackerone-ambassador-world-cup-2023"/>
-        <updated>2023-03-14T15:31:51.000Z</updated>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our latest health AI research updates]]></title>
-        <id>https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/</id>
-        <link href="https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/"/>
-        <updated>2023-03-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At The Check Up, we shared updates on our medical LLM research, partnerships and new ways AI can help with disease detection.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automattic acquires ActivityPub plugin for WordPress]]></title>
-        <id>changelog.com/news/O5pm</id>
-        <link href="https://wptavern.com/automattic-acquires-activitypub-plugin-for-wordpress"/>
-        <updated>2023-03-14T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Another win for the fediverse. Plugin developer Matthias Pfefferle (who is joining WordPress with the acquisition):
-When Matt announced that Tumblr wants to implement ActivityPub on Twitter, I asked why not WordPress, so I came in contact with Automattic and they offered me the opportunity to work full time on the plugin and other Open Web projects.
-The plugin lets people follow your WordPress site on ActivityPub-supporting social networks. Today it has over 2k active installs, but what would that number look like if this plugin came bundled with new installs/upgrades?
-There’s very little downside for WordPress site owners to one-click install that sucker…
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The next generation of AI for developers and Google Workspace]]></title>
-        <id>https://blog.google/technology/ai/ai-developers-google-cloud-workspace/</id>
-        <link href="https://blog.google/technology/ai/ai-developers-google-cloud-workspace/"/>
-        <updated>2023-03-14T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introducing new generative AI capabilities in Google Cloud and Google Workspace, plus PaLM API and MakerSuite for developers.]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>

@@ -28,6 +28,21 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/2054",
+          "author": null,
+          "description": "What can art historians and computer scientists learn from one another? Actually, a lot! Amanda Wasielewski joins us to talk about how she discovered that computer scientists working on computer vision were actually acting like rogue art historians and how art historians have found machine learning to be a valuable tool for research, fraud detection, and cataloguing. We also discuss the rise of generative AI and how we this technology might cause us to ask new questions like: “What makes a photograph a photograph?”\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nAmanda Wasielewski – Twitter, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nComputational Formalism Art History and Machine Learning\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:42) - Amanda Wasielewski\n(04:28) - What is art history?\n(10:00) - Integrating artworks for ML?\n(13:47) - How are art historians adaption to ML?\n(19:16) - Art models and the Tank Classifier\n(24:27) - What ML devs can learn from art history\n(32:06) - Deep learning paradoxes\n(38:12) - Where is the field going?\n(42:21) - Outro",
+          "link": "https://changelog.com/practicalai/218",
+          "publishedOn": "2023-04-12T13:30:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 218: Computer scientists as rogue art historians",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/218/practical-ai-218.mp3",
+            "length": "41759533",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/16/2053",
           "author": null,
           "description": "Ken Thompson’s 75-year-project is a jukebox for the ages, Tabby is a self-hosted AI coding assistant, Codeberg is a collaboration platform and Git hosting for open source software, content and projects, TheSequence explains The LLama Effect & Paul Orlando writes about Ghosts, Guilds and Generative AI.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nLinks for all episodes of Changelog News are in the companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(02:23) - Ken Thompson\n(03:53) - Tabby\n(04:47) - Codeberg\n(05:15) - The LLama Effect\n(06:13) - Facing the inevitable\n(07:23) - Outro",
@@ -771,56 +786,6 @@
           "wordCount": null,
           "title": "GPT-4 is phenomenal at code",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3L0G",
-          "author": "Jerod Santo",
-          "description": "With Mountpoint for Amazon S3, your applications can access objects stored in Amazon S3 through file operations like open and read. Mountpoint for Amazon S3 automatically translates these operations into S3 object API calls, giving your applications access to the elastic storage and throughput of Amazon S3 through a file interface.\nEarly alpha. Written in Rust by the AWS team.\nDiscuss on Changelog News",
-          "link": "https://github.com/awslabs/mountpoint-s3",
-          "publishedOn": "2023-03-14T20:46:00.000Z",
-          "wordCount": null,
-          "title": "A high-throughput file client for mounting Amazon S3 buckets",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/1Wjr",
-          "author": "Jerod Santo",
-          "description": "Justin Searls dives deep into whether AI tools like ChatGPT actually threaten knowledge worker jobs and provides helpful ideas around what to do about it.\nHaving spent months programming with GitHub Copilot, weeks talking to ChatGPT, and days searching via Bing Chat as an alternative to Google, the best description I’ve heard of AI’s capabilities is “fluent bullshit.” And after months of seeing friends “cheat” at their day jobs by having ChatGPT do their homework for them, I’ve come to a pretty grim, if obvious, realization:\nThe more excited someone is by the prospect of AI making their job easier, the more they should be worried.\nDiscuss on Changelog News",
-          "link": "https://blog.testdouble.com/posts/2023-03-14-how-to-tell-if-ai-threatens-your-job/",
-          "publishedOn": "2023-03-14T20:00:00.000Z",
-          "wordCount": null,
-          "title": "How to tell if AI threatens YOUR job (and 3 simple rules to keep it)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/7Yda",
-          "author": "Jerod Santo",
-          "description": "Ned Batchelder:\nThis package provides one command, watch_gha_runs. It takes a GitHub repo URL and a branch name, and displays the status of the latest GitHub Action runs on that branch. If any of the runs are in progress, it will refresh the display each second with the current status.\nIf you like, the name can be pronounced, “Watching? Ha!”\n\nDiscuss on Changelog News",
-          "link": "https://github.com/nedbat/watchgha",
-          "publishedOn": "2023-03-14T19:14:00.000Z",
-          "wordCount": null,
-          "title": "Watchga watches GitHub Action runs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/2lNm",
-          "author": "Jerod Santo",
-          "description": "You can think, plan, design & toil away on your project/product all you want, but until you have real people using it… you’re only guessing. Here are 4 things the creator of basement community learned after picking up their first batch of real users:\nsomeone is going to abuse your site\nyou need a performance monitoring system\nyour SQL queries need to be optimized\nyour users might have genius ideas\nDiscuss on Changelog News",
-          "link": "https://basementcommunity.bearblog.dev/things-i-learned/",
-          "publishedOn": "2023-03-14T18:26:00.000Z",
-          "wordCount": null,
-          "title": "4 things I learned after getting users",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/O5pm",
-          "author": "Jerod Santo",
-          "description": "Another win for the fediverse. Plugin developer Matthias Pfefferle (who is joining WordPress with the acquisition):\nWhen Matt announced that Tumblr wants to implement ActivityPub on Twitter, I asked why not WordPress, so I came in contact with Automattic and they offered me the opportunity to work full time on the plugin and other Open Web projects.\nThe plugin lets people follow your WordPress site on ActivityPub-supporting social networks. Today it has over 2k active installs, but what would that number look like if this plugin came bundled with new installs/upgrades?\nThere’s very little downside for WordPress site owners to one-click install that sucker…\nDiscuss on Changelog News",
-          "link": "https://wptavern.com/automattic-acquires-activitypub-plugin-for-wordpress",
-          "publishedOn": "2023-03-14T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Automattic acquires ActivityPub plugin for WordPress",
-          "itunes": {}
         }
       ]
     },
@@ -879,24 +844,6 @@
           "publishedOn": "2023-03-15T16:00:00.000Z",
           "wordCount": 1883,
           "title": "6 ways Google AI is helping you sleep better"
-        },
-        {
-          "id": "https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/",
-          "author": null,
-          "description": "At The Check Up, we shared updates on our medical LLM research, partnerships and new ways AI can help with disease detection.",
-          "link": "https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/",
-          "publishedOn": "2023-03-14T15:00:00.000Z",
-          "wordCount": 1604,
-          "title": "Our latest health AI research updates"
-        },
-        {
-          "id": "https://blog.google/technology/ai/ai-developers-google-cloud-workspace/",
-          "author": null,
-          "description": "Introducing new generative AI capabilities in Google Cloud and Google Workspace, plus PaLM API and MakerSuite for developers.",
-          "link": "https://blog.google/technology/ai/ai-developers-google-cloud-workspace/",
-          "publishedOn": "2023-03-14T13:00:00.000Z",
-          "wordCount": 1624,
-          "title": "The next generation of AI for developers and Google Workspace"
         }
       ]
     },
@@ -984,6 +931,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
+          "publishedOn": "2023-04-13T12:16:08.507Z",
+          "wordCount": 991,
+          "title": "How Twitter uses rasdaemon for hardware reliability"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
           "author": null,
@@ -1096,15 +1052,6 @@
           "publishedOn": "2023-03-30T18:41:16.000Z",
           "wordCount": 2799,
           "title": "Letting users block injected third-party DLLs in Firefox"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=47990",
-          "author": "Melissa Thermidor",
-          "description": "We want entrepreneurs and builders to join us in creating a future where AI is developed through this responsible lens. That’s why we are relaunching our Mozilla Builders program with the Responsible AI Challenge.\nThe post Mozilla Launches Responsible AI Challenge appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2023/03/mozilla-launches-responsible-ai-challenge/",
-          "publishedOn": "2023-03-14T20:42:38.000Z",
-          "wordCount": 464,
-          "title": "Mozilla Launches Responsible AI Challenge"
         }
       ]
     },
@@ -1113,6 +1060,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71292",
+          "author": "Kara Sowles",
+          "description": "Meet the projects that make up the first GitHub Accelerator cohort and learn about how GitHub is helping bring their visions to reality.",
+          "link": "https://github.blog/2023-04-12-github-accelerator-our-first-cohort-and-whats-next/",
+          "publishedOn": "2023-04-12T16:00:46.000Z",
+          "wordCount": 1233,
+          "title": "GitHub Accelerator: our first cohort and what’s next"
+        },
         {
           "id": "https://github.blog/?p=71281",
           "author": "Chrissy Nasi",
@@ -1328,15 +1284,6 @@
           "publishedOn": "2023-03-15T21:18:11.000Z",
           "wordCount": 2015,
           "title": "How the Grafana Alerting team scales their issue management with GitHub Projects"
-        },
-        {
-          "id": "https://github.blog/?p=70731",
-          "author": "Ed Summers",
-          "description": "Learn how developers with disabilities are pushing the boundaries of accessibility with ingenuity, open source, and generative AI on The ReadME Project.",
-          "link": "https://github.blog/2023-03-14-github-celebrates-the-ingenuity-of-developers-with-disabilities-in-new-video-series/",
-          "publishedOn": "2023-03-14T18:32:00.000Z",
-          "wordCount": 880,
-          "title": "GitHub celebrates the ingenuity of developers with disabilities in new video series"
         }
       ]
     },
@@ -1434,6 +1381,24 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023",
+          "author": "Mahesh Chukkapali",
+          "description": "Cyber attackers are increasingly well-resourced and elusive. Yet, CyberEdge's 2023 Cyberthreat Defense Report found IT and security professionals are feeling optimistic about their ability to handle cybersecurity risk.",
+          "link": "https://www.hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023",
+          "publishedOn": "2023-04-12T18:00:00.000Z",
+          "wordCount": 1615,
+          "title": "How Optimistic Can Security Professionals Afford to Be in 2023?"
+        },
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-remonsec",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-remonsec",
+          "publishedOn": "2023-04-12T03:44:22.000Z",
+          "wordCount": 1425,
+          "title": "Ambassador Spotlight AWC Edition: remonsec"
+        },
+        {
           "id": "https://hackerone.com/application-security/100-conversations-start-security-leaders",
           "author": "Chris Campbell",
           "description": "",
@@ -1504,24 +1469,6 @@
           "publishedOn": "2023-03-17T15:06:04.000Z",
           "wordCount": 622,
           "title": "Hackers Secure Wildly Popular Video Game at H1-407"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/level-your-bug-bounty-effectiveness-part-ii-operational-areas-continuously",
-          "author": "Will Kapcio",
-          "description": "",
-          "link": "https://www.hackerone.com/vulnerability-management/level-your-bug-bounty-effectiveness-part-ii-operational-areas-continuously",
-          "publishedOn": "2023-03-14T16:00:00.000Z",
-          "wordCount": 1623,
-          "title": "Level Up Your Bug Bounty Effectiveness, Part II: Operational Areas to Continuously Improve"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/welcome-hackerone-ambassador-world-cup-2023",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/welcome-hackerone-ambassador-world-cup-2023",
-          "publishedOn": "2023-03-14T15:31:51.000Z",
-          "wordCount": 1026,
-          "title": "Welcome to the HackerOne Ambassador World Cup 2023!"
         }
       ]
     },
@@ -1529,17 +1476,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/9bef9962dcb7",
-          "author": "Netflix Technology Blog",
-          "description": "The media understanding platform serves as an abstraction layer between Machine Learning (ML) algos and various applications.",
-          "link": "https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-03-14T15:48:28.000Z",
-          "wordCount": 2808,
-          "title": "Building a Media Understanding Platform for ML Innovations"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "All Eyes on Markets",
