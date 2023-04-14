@@ -2,10 +2,100 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-13T12:16:58.363Z</updated>
+    <updated>2023-04-14T12:16:20.300Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Go Time 273: Domain-driven design with Go]]></title>
+        <id>changelog.com/2/2020</id>
+        <link href="https://changelog.com/gotime/273"/>
+        <updated>2023-04-13T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Matthew Boyle, the author of Domain-Driven Design with Golang, sits down with Jon & Mat to talk about (you guessed it!) DDD with Go.
+Leave us a comment
+Changelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+Changelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!
+
+
+Featuring:
+
+Matthew Boyle – Twitter, GitHub, Website
+Jon Calhoun – Twitter, GitHub, Website
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+
+Show Notes:
+
+Matt’s book on DDD w/ Go
+Jon on DDD
+The big blue book; the famous DDD book that started it all.
+The big red book
+Martin Fowler on CQRS
+Snactiv
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:44) - Welcoming Matt to the show
+(02:34) - What is domain-driven design?
+(09:57) - DDD? FML!
+(13:39) - Little DDD wins
+(17:57) - DDD scorecards
+(22:17) - Identifying DDD code
+(25:13) - Sponsor: Changelog++
+(26:09) - DDD for monoliths?
+(32:56) - DDD overhead
+(34:43) - DDD and gRPC
+(39:43) - A thought experiment
+(47:47) - What about databases?
+(57:56) - It's time for Unpopular Opinions!
+(58:21) - Matt's unpop
+(1:06:55) - Mat's unpop
+(1:09:54) - Gotta Go!
+(1:10:16) - Outro (Changelog++ bonus!)]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ensuring compliance in developer workflows]]></title>
+        <id>https://github.blog/?p=71321</id>
+        <link href="https://github.blog/2023-04-13-ensuring-compliance-in-developer-workflows/"/>
+        <updated>2023-04-13T16:04:37.000Z</updated>
+        <summary type="html"><![CDATA[How GitHub Enterprise ensures secure and compliant developer workflows for highly regulated industries.]]></summary>
+        <author>
+            <name>Shaker Gilbert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supply chain security for Go, Part 1: Vulnerability management]]></title>
+        <id>http://security.googleblog.com/2023/04/supply-chain-security-for-go-part-1.html</id>
+        <link href="http://security.googleblog.com/2023/04/supply-chain-security-for-go-part-1.html"/>
+        <updated>2023-04-13T16:00:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Julie Qiu, Go Security & Reliability and Oliver Chang, Google Open Source Security Team
+
+
+High profile open source vulnerabilities have made it clear that securing the supply chains underpinning modern software is an urgent, yet enormous, undertaking. As supply chains get more complicated, enterprise developers need to manage the tidal wave of vulnerabilities that propagate up through dependency trees. Open source maintainers need streamlined ways to vet proposed dependencies and protect their projects. A rise in attacks coupled with increasingly complex supply chains means that supply chain security problems need solutions on the ecosystem level. 
+
+
+One way developers can manage this enormous risk is by choosing a more secure language. As part of Google’s commitment to advancing…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ten Practical Tips For High-Value Pentest Engagements]]></title>
+        <id>https://hackerone.com/penetration-testing/ten-practical-tips-high-value-pentest-engagements</id>
+        <link href="https://www.hackerone.com/penetration-testing/ten-practical-tips-high-value-pentest-engagements"/>
+        <updated>2023-04-13T16:00:00.000Z</updated>
+        <author>
+            <name>Spencer Chin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
@@ -1917,115 +2007,6 @@ Discuss on Changelog News]]></summary>
         <link href="https://github.com/AykutSarac/jsoncrack.com"/>
         <updated>2023-03-16T13:51:00.000Z</updated>
         <summary type="html"><![CDATA[This web-based tool has a lot of cool features: node search, embeddable widgets, downloadable images, dark mode & more. Jump straight to the online editor to try it out.
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the Grafana Alerting team scales their issue management with GitHub Projects]]></title>
-        <id>https://github.blog/?p=70744</id>
-        <link href="https://github.blog/2023-03-15-how-the-grafana-alerting-team-scales-their-issue-management-with-github-projects/"/>
-        <updated>2023-03-15T21:18:11.000Z</updated>
-        <summary type="html"><![CDATA[Hear from Grafana’s Armand Grillet about how his team uses GitHub Projects.]]></summary>
-        <author>
-            <name>Mario Rodriguez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 215: AI search at You.com]]></title>
-        <id>changelog.com/7/2029</id>
-        <link href="https://changelog.com/practicalai/215"/>
-        <updated>2023-03-15T19:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Neural search and chat-based search are all the rage right now. However, You.com has been innovating in these topics long before ChatGPT. In this episode, Bryan McCann from You.com shares insights related to our mental model of Large Language Model (LLM) interactions and practical tips related to integrating LLMs into production systems.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Bryan McCann – Twitter, GitHub, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-
-Show Notes:
-
-You.com
-Open Platform for developers
-Join the You.com Discord server
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:42) - Bryan Mccann
-(01:47) - What is You.com?
-(06:21) - What's different in these new algorithms
-(09:28) - How has the public view changed You.com?
-(11:53) - Will this change search engines?
-(15:19) - How will You.com enhance tooling?
-(17:41) - You and mutli-modality
-(21:17) - AI tools for the next generation
-(26:28) - Any wisdom worth sharing?
-(29:49) - Our future relationship with models
-(34:11) - Practical tips for practitioners
-(38:24) - How to get started on You.com
-(41:06) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 ways Google AI is helping you sleep better]]></title>
-        <id>https://blog.google/products/pixel/health-ai-better-sleep/</id>
-        <link href="https://blog.google/products/pixel/health-ai-better-sleep/"/>
-        <updated>2023-03-15T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how features like Sleep Profiles, Smart Wake and cough and snore detection are powered by AI to help you get better sleep.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog 531: Goodbye Atom. Hello Zed.]]></title>
-        <id>changelog.com/1/1989</id>
-        <link href="https://changelog.com/podcast/531"/>
-        <updated>2023-03-15T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re talking with Nathan Sobo about his next big thing. Nathan is known for his work on the Atom editor while at GitHub. But his work wasn’t finished when he left, so…he started Zed, a high-performance multiplayer editor that’s engineered for performance. And today, Nathan talks us through all the details.
-Discuss on Changelog News
-Changelog++ members get a bonus 14 minutes at the end of this episode and zero ads. Join today!
-Sponsors:
-
-  
-Postman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content de…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modern Font Stacks]]></title>
-        <id>changelog.com/news/GWZ9</id>
-        <link href="https://modernfontstacks.com/"/>
-        <updated>2023-03-15T13:27:01.000Z</updated>
-        <summary type="html"><![CDATA[This site categorizes, displays & provides CSS font-family declarations for the system fonts on every modern OS. Why are system fonts cool? Because they’re the fastest fonts your website can use. No downloading, no layout shifts, no flashes — just instant renders.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPT-4 is phenomenal at code]]></title>
-        <id>changelog.com/news/eEPN</id>
-        <link href="https://twitter.com/sualehasif996/status/1635755267739598848"/>
-        <updated>2023-03-15T12:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Sualeh Asif from Control (an AI code editor):
-We’ve been using GPT-4 for a few months internally, and we thought we’d highlight a few examples](https://github.com/anysphere/gpt-4-for-code) that have been both particularly impressive and really useful to us.
-Here it’s converting a Python dict of member functions to esoteric but correct-on-first-try C++ code 👇
 
 Discuss on Changelog News]]></summary>
         <author>
