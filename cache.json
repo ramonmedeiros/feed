@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/04/securely-hosting-user-data-in-modern.html",
+          "author": null,
+          "description": "Posted by David Dworken, Information Security Engineer, Google Security Team\n\n\nMany web applications need to display user-controlled content. This can be as simple as serving user-uploaded images (e.g. profile photos), or as complex as rendering user-controlled HTML (e.g. a web development tutorial). This has always been difficult to do securely, so we’ve worked to find easy, but secure solutions that can be applied to most types of web applications. \n\nClassical Solutions for Isolating Untrusted Content\n“sandbox domains”. The basic idea is that if your application's main domain is example.com, you could serve all untrusted content on exampleusercontent.com. Since these two domains are cross-site, any malicious content on exampleusercontent.com can’t impact example.com. \n\n\nThis approach can…",
+          "link": "http://security.googleblog.com/2023/04/securely-hosting-user-data-in-modern.html",
+          "publishedOn": "2023-04-18T16:00:00.001Z",
+          "wordCount": 2225,
+          "title": "Securely Hosting User Data in Modern Web Applications"
+        },
+        {
           "id": "http://security.googleblog.com/2023/04/supply-chain-security-for-go-part-1.html",
           "author": null,
           "description": "Posted by Julie Qiu, Go Security & Reliability and Oliver Chang, Google Open Source Security Team\n\n\nHigh profile open source vulnerabilities have made it clear that securing the supply chains underpinning modern software is an urgent, yet enormous, undertaking. As supply chains get more complicated, enterprise developers need to manage the tidal wave of vulnerabilities that propagate up through dependency trees. Open source maintainers need streamlined ways to vet proposed dependencies and protect their projects. A rise in attacks coupled with increasingly complex supply chains means that supply chain security problems need solutions on the ecosystem level. \n\n\nOne way developers can manage this enormous risk is by choosing a more secure language. As part of Google’s commitment to advancing…",
@@ -675,56 +684,6 @@
           "wordCount": null,
           "title": "The end of front-end development",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/2030",
-          "author": null,
-          "description": "Michal Warda on self-hosting in 2023, Martin Heinz will never use Alpine Linux again, Oliver Rice at Supabase creates type constraints in Postgres with just 65 lines of SQL, Aaron Patterson converted a BMW shifter into a Bluetooth keyboard that can control Vim, Piet Terheyden has been curating beautiful & functional websites daily since 2013, Ryan Lucas put together a history of Visual Basic, turns out it’s easy for an open source project to buy fake GitHub stars & Mastodon hit 10 million accounts.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nSelf hosting in 2023\nWhy I Will Never Use Alpine Linux Ever Again\nType Constraints in 65 lines of SQL\nInitial V\nMinimal Gallery\nThe history and legacy of Visual Basic\nTracking the Fake GitHub Star Black Market\n\nChangelog Nightly\nMastodon hits 10M accounts\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:28) - Self-hosting in 2023\n(00:49) - No more Alpine Linux\n(01:12) - Types in 65 lines of SQL\n(02:01) - Initial V\n(02:21) - Minimal Gallery\n(02:38) - The history of Visual Basic\n(03:02) - Tracking fake GitHub stars\n(03:34) - Mastodon hits 10M accounts\n(03:51) - Outro",
-          "link": "https://changelog.com/news/36",
-          "publishedOn": "2023-03-20T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 36: Self-hosting in 2023, no more Alpine Linux, type constraints in 65 lines of SQL, Initial V, Minimal Gallery, the legacy of Visual Basic, tracking fake GitHub stars & Mastodon's 10M",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/36/changelog-news-36.mp3",
-            "length": "4649452",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/1/2030",
-          "author": null,
-          "description": "Michal Warda on self-hosting in 2023, Martin Heinz will never use Alpine Linux again, Oliver Rice at Supabase creates type constraints in Postgres with just 65 lines of SQL, Aaron Patterson converted a BMW shifter into a Bluetooth keyboard that can control Vim, Piet Terheyden has been curating beautiful & functional websites daily since 2013, Ryan Lucas put together a history of Visual Basic, turns out it’s easy for an open source project to buy fake GitHub stars & Mastodon hit 10 million accounts.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nSelf hosting in 2023\nWhy I Will Never Use Alpine Linux Ever Again\nType Constraints in 65 lines of SQL\nInitial V\nMinimal Gallery\nThe history and legacy of Visual Basic\nTracking the Fake GitHub Star Black Market\n\nChangelog Nightly\nMastodon hits 10M accounts\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:28) - Self-hosting in 2023\n(00:49) - No more Alpine Linux\n(01:12) - Types in 65 lines of SQL\n(02:01) - Initial V\n(02:21) - Minimal Gallery\n(02:38) - The history of Visual Basic\n(03:02) - Tracking fake GitHub stars\n(03:34) - Mastodon hits 10M accounts\n(03:51) - Outro",
-          "link": "https://changelog.com/podcast/news-2023-03-20",
-          "publishedOn": "2023-03-20T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Self-hosting in 2023, no more Alpine Linux, type constraints in 65 lines of SQL, Initial V, Minimal Gallery, the legacy of Visual Basic, tracking fake GitHub stars & Mastodon's 10M",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-03-20/the-changelog-news-2023-03-20.mp3",
-            "length": "4649452",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/ojRR",
-          "author": "Jerod Santo",
-          "description": "Nowadays, Alpine Linux is one of the most popular options for container base images. Many people (maybe including you) use it for anything and everything. Some people use it because of its small size, some because of habit and some, just because they copy-pasted a Dockerfile from some tutorial. Yet, there are plenty of reasons why you should not use Alpine for your container images, some of which can cause you great amount of grief…\nDiscuss on Changelog News",
-          "link": "https://martinheinz.dev/blog/92",
-          "publishedOn": "2023-03-20T15:04:00.000Z",
-          "wordCount": null,
-          "title": "Why I will never use Alpine Linux ever again",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/JgW0",
-          "author": "Jerod Santo",
-          "description": "This is an awesome HN thread on all the ways blogging have improved the lives of developers around the world. It’s brimming with statements like:\nI’ve been blogging since 1998 and can trace every major step forward in my career to my blog.\nThe best time to start your developer blog was 1998. The second best time is right now.\nDiscuss on Changelog News",
-          "link": "https://news.ycombinator.com/item?id=35164819",
-          "publishedOn": "2023-03-20T14:18:00.000Z",
-          "wordCount": null,
-          "title": "The power of having a personal website/blog",
-          "itunes": {}
         }
       ]
     },
@@ -826,24 +785,6 @@
           "publishedOn": "2023-03-28T07:40:51.000Z",
           "wordCount": 867,
           "title": "curl code coverage"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22142",
-          "author": "Daniel Stenberg",
-          "description": "Right. I said in the 8.0.0 blog post that it might be a good release. It was. Apart form the little bug that caused it to crash in several test cases. So now we shipped curl 8.0.1, which is almost identical apart from a single commit that was reverted. Exactly why this was not discovered … Continue reading curl 8.0.1 because I jinxed it →",
-          "link": "https://daniel.haxx.se/blog/2023/03/20/curl-8-0-1-because-i-jinxed-it/",
-          "publishedOn": "2023-03-20T14:00:31.000Z",
-          "wordCount": 382,
-          "title": "curl 8.0.1 because I jinxed it"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22030",
-          "author": "Daniel Stenberg",
-          "description": "Exactly one month since the previous release, we are happy to give you curl 8.0.0 released on curl’s official 25th birthday. This a major version number bump but without any ground-breaking changes or fireworks. We decided it was about time to reset the minor number down to more a manageable level and doing it exactly … Continue reading curl 8.0.0 is here →",
-          "link": "https://daniel.haxx.se/blog/2023/03/20/curl-8-0-0-is-here/",
-          "publishedOn": "2023-03-20T07:15:13.000Z",
-          "wordCount": 1444,
-          "title": "curl 8.0.0 is here"
         }
       ]
     },
@@ -852,6 +793,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "author": null,
+          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "publishedOn": "2023-04-19T12:16:20.146Z",
+          "wordCount": 1708,
+          "title": "Stability and scalability for search"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
           "author": null,
@@ -923,15 +873,6 @@
           "publishedOn": "2023-03-23T12:17:25.965Z",
           "wordCount": 1985,
           "title": "Constraint Management for cluster operation safety and reliability at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "author": null,
-          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "publishedOn": "2023-03-20T12:18:07.496Z",
-          "wordCount": 890,
-          "title": "Data Quality Automation at Twitter"
         }
       ]
     },
@@ -962,6 +903,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71390",
+          "author": "Mike Linksvayer",
+          "description": "GitHub is proud to join 40 companies endorsing the Cybersecurity Tech Accord principles limiting offensive operations in cyberspace.",
+          "link": "https://github.blog/2023-04-18-github-joins-industry-commitment-to-curb-cyber-mercenaries/",
+          "publishedOn": "2023-04-18T16:26:11.000Z",
+          "wordCount": 610,
+          "title": "GitHub joins industry commitment to curb cyber mercenaries"
+        },
         {
           "id": "https://github.blog/?p=71365",
           "author": "Walker Chabbott",
@@ -1273,6 +1223,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/ceo/make-your-cybersecurity-dollars-last-longer",
+          "author": "Mårten Mickos",
+          "description": "",
+          "link": "https://www.hackerone.com/ceo/make-your-cybersecurity-dollars-last-longer",
+          "publishedOn": "2023-04-18T22:00:00.000Z",
+          "wordCount": 1713,
+          "title": "Make Your Cybersecurity Dollars Last Longer"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/bench-time-results-ambassador-world-cups-first-round",
           "author": "HackerOne",
