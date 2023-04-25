@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/04/google-authenticator-now-supports.html",
+          "author": null,
+          "description": "Christiaan Brand, Group Product Manager\n\n\n\n\n\n\n\n\n\n\nWe are excited to announce an update to Google Authenticator, across both iOS and Android, which adds the ability to safely backup your one-time codes (also known as one-time passwords or OTPs) to your Google Account.\n\n\n\nAcross all of your online accounts, signing in is the front door to your personal information. It’s also the primary entry point for risks, making it important to protect.\n\n\n\nWe make signing into Google, and all the apps and services you love, simple and secure with built-in authentication tools like Google Password Manager and Sign in with Google, as well as automatic protections like alerts when your Google Account is being accessed from a new device. \n\n\n\nWe released Google Authenticator in 2010 as a free and easy way for…",
+          "link": "http://security.googleblog.com/2023/04/google-authenticator-now-supports.html",
+          "publishedOn": "2023-04-24T16:00:00.001Z",
+          "wordCount": 1168,
+          "title": "Google Authenticator now supports Google Account synchronization"
+        },
+        {
           "id": "http://security.googleblog.com/2023/04/securely-hosting-user-data-in-modern.html",
           "author": null,
           "description": "Posted by David Dworken, Information Security Engineer, Google Security Team\n\n\nMany web applications need to display user-controlled content. This can be as simple as serving user-uploaded images (e.g. profile photos), or as complex as rendering user-controlled HTML (e.g. a web development tutorial). This has always been difficult to do securely, so we’ve worked to find easy, but secure solutions that can be applied to most types of web applications. \n\nClassical Solutions for Isolating Untrusted Content\n“sandbox domains”. The basic idea is that if your application's main domain is example.com, you could serve all untrusted content on exampleusercontent.com. Since these two domains are cross-site, any malicious content on exampleusercontent.com can’t impact example.com. \n\n\nThis approach can…",
@@ -45,6 +54,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/16/2060",
+          "author": null,
+          "description": "The dataset wars are heating up, Bark is a transformer-based text-to-audio model that can generate highly realistic, multilingual speech as well as other audio, Kent Beck needs to recalibrate after using ChatGPT, the team behind Stable Diffusion release a new open source language model & Mitchel Hashimoto weighs in on prompt engineering.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Session Replay! Rewind and replay every step of the user’s journey before and after they encountered an issue. Eliminate the guesswork and get to the root cause of an issue, faster. Use the code CHANGELOG and get the team plan free for three months.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:47) - Dataset wars\n(02:05) - Bark\n(03:07) - Kent Beck\n(04:12) - StableLM\n(05:05) - Sponsor: Sentry\n(06:10) - Blind prompting\n(07:12) - Outro",
+          "link": "https://changelog.com/news/41",
+          "publishedOn": "2023-04-24T19:25:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 41: Dataset wars, Bark, Kent Beck needs to recalibrate, StableLM & blind prompting is not prompt engineering",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/41/changelog-news-41.mp3",
+            "length": "7998519",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/6/2051",
           "author": null,
@@ -830,15 +854,6 @@
           "publishedOn": "2023-03-28T12:18:02.274Z",
           "wordCount": 1725,
           "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "author": null,
-          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "publishedOn": "2023-03-26T12:15:07.552Z",
-          "wordCount": 2263,
-          "title": "Measuring the impact of Twitter network latency with CausalImpact"
         }
       ]
     },
@@ -846,7 +861,17 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2023/04/technical-report-into-intel-tdx.html",
+          "author": null,
+          "description": "ol{margin:0;padding:0}table td,table th{padding:0}.RqhFbizZKN-c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:normal}.RqhFbizZKN-c2{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left}.RqhFbizZKN-c4{text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#1155cc;text-decoration:underline}.RqhFbizZKN-c1{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}.RqhFbizZKN-c7{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.RqhFbizZKN-c5{color:inherit;text-decoration:inherit}.RqhFbizZKN-c3{border:1px solid black;margin:5px}.RqhFbizZKN-c6{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:\"Arial\";l…",
+          "link": "https://googleprojectzero.blogspot.com/2023/04/technical-report-into-intel-tdx.html",
+          "publishedOn": "2023-04-24T16:27:00.000Z",
+          "wordCount": 611,
+          "title": "Release of a Technical Report into Intel Trust Domain Extensions"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -1180,6 +1205,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/best-practice-makes-perfect",
+          "author": "Chris Evans",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/best-practice-makes-perfect",
+          "publishedOn": "2023-04-24T19:09:35.000Z",
+          "wordCount": 2444,
+          "title": "(Best) Practice Makes Perfect"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/getting-started-high-school-bug-hunter-cubeds-hacker-afk",
           "author": "HackerOne",
