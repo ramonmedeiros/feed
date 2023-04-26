@@ -2,10 +2,78 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-25T12:16:32.902Z</updated>
+    <updated>2023-04-26T12:16:18.933Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
+        <updated>2023-04-26T12:15:52.080Z</updated>
+        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dumb Questions]]></title>
+        <id>https://blog.comma.ai/dumb-questions/</id>
+        <link href="https://blog.comma.ai/dumb-questions/"/>
+        <updated>2023-04-25T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We get these questions over and over, and I figured it was worth writing a blog post to address them. Then, instead of reanswering them, we can just link to this blog post.]]></summary>
+        <author>
+            <name>comma.ai blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git security vulnerabilities announced]]></title>
+        <id>https://github.blog/?p=71479</id>
+        <link href="https://github.blog/2023-04-25-git-security-vulnerabilities-announced-4/"/>
+        <updated>2023-04-25T17:13:36.000Z</updated>
+        <summary type="html"><![CDATA[A new set of Git releases were published to address a variety of security vulnerabilities. All users are encouraged to upgrade. Take a look at GitHub’s view of the latest round of releases.]]></summary>
+        <author>
+            <name>Taylor Blau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 220: Causal inference]]></title>
+        <id>changelog.com/7/2061</id>
+        <link href="https://changelog.com/practicalai/220"/>
+        <updated>2023-04-25T16:35:00.000Z</updated>
+        <summary type="html"><![CDATA[With all the LLM hype, it’s worth remembering that enterprise stakeholders want answers to “why” questions. Enter causal inference. Paul Hünermund has been doing research and writing on this topic for some time and joins us to introduce the topic. He also shares some relevant trends and some tips for getting started with methods including double machine learning, experimentation, difference-in-difference, and more.
+Leave us a comment
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy you…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gearing up for Maintainer Month this May!]]></title>
+        <id>https://github.blog/?p=71475</id>
+        <link href="https://github.blog/2023-04-25-gearing-up-for-maintainer-month-this-may/"/>
+        <updated>2023-04-25T16:00:30.000Z</updated>
+        <summary type="html"><![CDATA[Are you looking for ways to support open source maintainers? Maintainer Month is the perfect opportunity!]]></summary>
+        <author>
+            <name>Abby Cabunoc Mayes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shaping the GitHub of the future as COO]]></title>
+        <id>https://github.blog/?p=71471</id>
+        <link href="https://github.blog/2023-04-25-shaping-the-github-of-the-future-as-coo/"/>
+        <updated>2023-04-25T14:00:50.000Z</updated>
+        <summary type="html"><![CDATA[GitHub is driving the future of software development and, after 10 years as a Hubber, I’m more energized than ever as I take on the role of COO to help bring our vision to life.]]></summary>
+        <author>
+            <name>Kyle Daigle</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog News 41: Dataset wars, Bark, Kent Beck needs to recalibrate, StableLM & blind prompting is not prompt engineering]]></title>
         <id>changelog.com/16/2060</id>
@@ -1678,108 +1746,6 @@ Discuss on Changelog News]]></summary>
         <summary type="html"><![CDATA[Every once in a while someone brings up the topic of code coverage in relation to curl. What portion of the code is actually exercised when running the tests? Honestly, we don’t know. We can’t figure it out. We are not trying to figure it out. We have to live with this. We used to … Continue reading curl code coverage →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 37: GitHub Copilot X, Chatbot UI, ChatGPT plugins, defining juice for software dev, Logto, Basaran & llama-cli]]></title>
-        <id>changelog.com/1/2036</id>
-        <link href="https://changelog.com/news/37"/>
-        <updated>2023-03-27T18:45:00.000Z</updated>
-        <summary type="html"><![CDATA[GitHub announces Copilot X, Mckay Wrigley created an open source ChatGPT UI buit with Next.js, TypeScripe & Tailwind CSS, OpenAI is also launching a ChatGPT plugin initiative, Brad Woods writes about juice in software development, Logto is an open source alternative to Auth0, Basaran is an open source alternative to the OpenAI text completion API & llama-cli is a straightforward Go CLI interface for llama.cpp.
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-
-Brain Science
-GitHub Copilot X
-Chatbot UI
-ChatGPT Plugins
-Notes about Juice
-Logto
-Basaran
-llama-cli
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:14) - Brain Science
-(00:56) - GitHub Copilot X
-(01:36) - Chatbot UI
-(02:55) - ChatGPT Plugins
-(03:38) - Juice in software
-(05:16) - Lightning Round!
-(05:30) - Logto
-(05:41) - Basaran
-(06:00) - llama-cli
-(06:15) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: GitHub Copilot X, Chatbot UI, ChatGPT plugins, defining juice for software dev, Logto, Basaran & llama-cli]]></title>
-        <id>changelog.com/1/2036</id>
-        <link href="https://changelog.com/podcast/news-2023-03-27"/>
-        <updated>2023-03-27T18:45:00.000Z</updated>
-        <summary type="html"><![CDATA[GitHub announces Copilot X, Mckay Wrigley created an open source ChatGPT UI buit with Next.js, TypeScripe & Tailwind CSS, OpenAI is also launching a ChatGPT plugin initiative, Brad Woods writes about juice in software development, Logto is an open source alternative to Auth0, Basaran is an open source alternative to the OpenAI text completion API & llama-cli is a straightforward Go CLI interface for llama.cpp.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-
-Brain Science
-GitHub Copilot X
-Chatbot UI
-ChatGPT Plugins
-Notes about Juice
-Logto
-Basaran
-llama-cli
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:14) - Brain Science
-(00:56) - GitHub Copilot X
-(01:36) - Chatbot UI
-(02:55) - ChatGPT Plugins
-(03:38) - Juice in software
-(05:16) - Lightning Round!
-(05:30) - Logto
-(05:41) - Basaran
-(06:00) - llama-cli
-(06:15) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FastKafka is a Python library for building Kafka-based services]]></title>
-        <id>changelog.com/news/zDPY</id>
-        <link href="https://github.com/airtai/fastkafka"/>
-        <updated>2023-03-27T15:52:00.000Z</updated>
-        <summary type="html"><![CDATA[Dave Runje:
-We were searching for something like FastAPI for Kafka-based service we were developing, but couldn’t find anything similar. So we shamelessly made one by reusing beloved paradigms from FastAPI and we shamelessly named it FastKafka.
-The point was to set the expectations right - you get pretty much what you would expect: function decorators for consumers and producers with type hints specifying Pydantic classes for JSON encoding/decoding, automatic message routing to Kafka brokers and documentation generation.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpeedTyper – type racing for programmers]]></title>
-        <id>changelog.com/news/LW70</id>
-        <link href="https://speedtyper.dev"/>
-        <updated>2023-03-27T15:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Alexander Lotvall:
-It’s a typing app specifically for software developers. You type code snippets from real open source projects. It supports inviting your friends to a room and competing in real time against your friends, and you can get your result on the global leaderboard.
-I like how it uses code snippets from popular projects. I don’t like how slow I am at writing Rust code! 🤣
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
         </author>
     </entry>
 </feed>
