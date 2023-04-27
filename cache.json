@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/04/celebrating-slsa-v10-securing-software.html",
+          "author": null,
+          "description": "Bob Callaway, Staff Security Engineer, Google Open Source Security team\n\n\nLast week the Open Source Security Foundation (OpenSSF) announced the release of SLSA v1.0, a framework that helps secure the software supply chain. Ten years of using an internal version of SLSA at Google has shown that it’s crucial to warding off tampering and keeping software secure. It’s especially gratifying to see SLSA reaching v1.0 as an open source project—contributors have come together to produce solutions that will benefit everyone. \n\nSLSA for safer supply chains \nU.S. Executive Order on Cybersecurity and the associated NIST Secure Software Development Framework (SSDF) to guide national standards for software used by the U.S. government, as well as the Network and Information Security (NIS2) Directive in t…",
+          "link": "http://security.googleblog.com/2023/04/celebrating-slsa-v10-securing-software.html",
+          "publishedOn": "2023-04-26T15:00:00.003Z",
+          "wordCount": 1114,
+          "title": "Celebrating SLSA v1.0: securing the software supply chain for everyone"
+        },
+        {
           "id": "http://security.googleblog.com/2023/04/google-authenticator-now-supports.html",
           "author": null,
           "description": "Christiaan Brand, Group Product Manager\n\n\n\n\n\n\n\n\n\n\nWe are excited to announce an update to Google Authenticator, across both iOS and Android, which adds the ability to safely backup your one-time codes (also known as one-time passwords or OTPs) to your Google Account.\n\n\n\nAcross all of your online accounts, signing in is the front door to your personal information. It’s also the primary entry point for risks, making it important to protect.\n\n\n\nWe make signing into Google, and all the apps and services you love, simple and secure with built-in authentication tools like Google Password Manager and Sign in with Google, as well as automatic protections like alerts when your Google Account is being accessed from a new device. \n\n\n\nWe released Google Authenticator in 2010 as a free and easy way for…",
@@ -54,6 +63,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2026",
+          "author": null,
+          "description": "This week Adam talks with Andy Klein from Backblaze about hard drive reliability at scale.\nLeave us a comment\nChangelog++ members get a bonus 15 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nDevCycle – Build better software with DevCycle. Feature flags, without the tech debt. DevCycle is a Feature Flag Management platform designed to help you build maintainable code at scale.\n\nSentry – See the untested code causing errors - or whether it’s partially or fully covered - directly in your stack trace, so you can avoid similar errors from happening in the future. Use the code CHANGELOG and get the team plan free for three months.\n\nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of …",
+          "link": "https://changelog.com/podcast/537",
+          "publishedOn": "2023-04-26T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 537: Hard drive reliability at scale",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/537/the-changelog-537.mp3",
+            "length": "97115701",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/7/2061",
           "author": null,
@@ -568,41 +592,6 @@
             "length": "62048117",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/news/6rqR",
-          "author": "Jerod Santo",
-          "description": "Design handoffs are inefficient and painful. They cause frustration, friction and a lot of back and forth. Can we avoid them altogether? Of course we can! Let’s see how to do just that.\nDiscuss on Changelog News",
-          "link": "https://www.smashingmagazine.com/2023/03/best-handoff-is-no-handoff/",
-          "publishedOn": "2023-03-28T16:16:00.000Z",
-          "wordCount": null,
-          "title": "The best handoff is no handoff",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/2037",
-          "author": null,
-          "description": "We are seeing an explosion of AI apps that are (at their core) a thin UI on top of calls to OpenAI generative models. What risks are associated with this sort of approach to AI integration, and is explainability and accountability something that can be achieved in chat-based assistants?\nBeth Rudden of Bast.ai has been thinking about this topic for some time and has developed an ontological approach to creating conversational AI. We hear more about that approach and related work in this episode.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nBeth Rudden – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nBast.ai\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:42) - Beth Rudden\n(07:30) - Bringing in ontology\n(16:27) - Don't infer consciousness\n(22:18) - Dealing with bias\n(25:59) - How to create access\n(31:35) - Using AI responsibly\n(38:31) - Implementing NLG to more modalities\n(42:14) - Will AI make you learn better?\n(44:19) - Wrap up\n(44:50) - Outro",
-          "link": "https://changelog.com/practicalai/216",
-          "publishedOn": "2023-03-28T15:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 216: Explainable AI that is accessible for all humans",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/216/practical-ai-216.mp3",
-            "length": "43999725",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/lOrV",
-          "author": "Jerod Santo",
-          "description": "ALOHA stands for “A Low-cost Open-source Hardware System for Bimanual Teleoperation”, which is certainly a stretch in terms of acronym, but the project itself is so cool that I don’t think it really matters… Here’s the pitch:\nFine manipulation tasks, such as threading cable ties or slotting a battery, are notoriously difficult for robots because they require precision, careful coordination of contact forces, and closed-loop visual feedback. Performing these tasks typically requires high-end robots, accurate sensors, or careful calibration, which can be expensive and difficult to set up. Can learning enable low-cost and imprecise hardware to perform these fine manipulation tasks? We present a low-cost system that performs end-to-end imitation learning directly from real demonstrations, collected with a custom teleoperation interface.\n\nDiscuss on Changelog News",
-          "link": "https://twitter.com/tonyzzhao/status/1640393026341322754",
-          "publishedOn": "2023-03-28T14:00:00.000Z",
-          "wordCount": null,
-          "title": "Introducing ALOHA 🏖",
-          "itunes": {}
         }
       ]
     },
@@ -662,15 +651,6 @@
           "publishedOn": "2023-03-30T14:00:00.000Z",
           "wordCount": 1085,
           "title": "Watch Katie Couric and Think with Google’s new interview series"
-        },
-        {
-          "id": "https://blog.google/technology/ai/a-shared-agenda-for-responsible-ai-progress/",
-          "author": null,
-          "description": "AI can be hugely beneficial to society if citizens, educators, academics, civil society and governments unite to shape it responsibly.",
-          "link": "https://blog.google/technology/ai/a-shared-agenda-for-responsible-ai-progress/",
-          "publishedOn": "2023-03-28T16:00:00.000Z",
-          "wordCount": 2378,
-          "title": "A shared agenda for responsible AI progress"
         }
       ]
     },
@@ -723,24 +703,6 @@
           "publishedOn": "2023-03-29T12:17:56.000Z",
           "wordCount": 1207,
           "title": "Pre-notification dilemmas"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22176",
-          "author": "Daniel Stenberg",
-          "description": "Hi curl admins, Alyssa here from the Bloomberg Open Source Program Office. I wanted to let you know that curl was selected as a winner in our inaugural FOSS Contributor Fund! We wanted to let you know of the results before we transferred funds via Open Source Collective. Can you confirm you’ve received this message? … Continue reading a Bloomberg donation →",
-          "link": "https://daniel.haxx.se/blog/2023/03/28/a-bloomberg-donation/",
-          "publishedOn": "2023-03-28T21:19:01.000Z",
-          "wordCount": 487,
-          "title": "a Bloomberg donation"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=21961",
-          "author": "Daniel Stenberg",
-          "description": "Every once in a while someone brings up the topic of code coverage in relation to curl. What portion of the code is actually exercised when running the tests? Honestly, we don’t know. We can’t figure it out. We are not trying to figure it out. We have to live with this. We used to … Continue reading curl code coverage →",
-          "link": "https://daniel.haxx.se/blog/2023/03/28/curl-code-coverage/",
-          "publishedOn": "2023-03-28T07:40:51.000Z",
-          "wordCount": 867,
-          "title": "curl code coverage"
         }
       ]
     },
@@ -811,33 +773,6 @@
           "publishedOn": "2023-04-01T12:14:09.444Z",
           "wordCount": 1757,
           "title": "Twitter's Recommendation Algorithm"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "publishedOn": "2023-03-28T12:18:03.144Z",
-          "wordCount": 3415,
-          "title": "Kerberizing Hadoop Clusters at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "publishedOn": "2023-03-28T12:18:02.301Z",
-          "wordCount": 909,
-          "title": "How we scaled Reads On the Twitter Users Database"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "publishedOn": "2023-03-28T12:18:02.274Z",
-          "wordCount": 1725,
-          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
         }
       ]
     },
@@ -878,6 +813,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71491",
+          "author": "Kedasha Kerr",
+          "description": "Learn some tips, tricks, and tools for mastering the command line from GitHub’s own developers.",
+          "link": "https://github.blog/2023-04-26-cli-tricks-every-developer-should-know/",
+          "publishedOn": "2023-04-26T16:00:18.000Z",
+          "wordCount": 1891,
+          "title": "CLI tricks every developer should know"
+        },
         {
           "id": "https://github.blog/?p=71479",
           "author": "Taylor Blau",
@@ -1120,33 +1064,6 @@
           "publishedOn": "2023-03-30T16:00:23.000Z",
           "wordCount": 1430,
           "title": "Improvements to CodeQL’s data flow library for C++"
-        },
-        {
-          "id": "https://github.blog/?p=70954",
-          "author": "Eric Tooley",
-          "description": "Developers and compliance teams get a new SBOM generation tool for cloud repositories.",
-          "link": "https://github.blog/2023-03-28-introducing-self-service-sboms/",
-          "publishedOn": "2023-03-28T17:25:20.000Z",
-          "wordCount": 743,
-          "title": "Introducing self-service SBOMs"
-        },
-        {
-          "id": "https://github.blog/?p=70974",
-          "author": "Inbal Shani",
-          "description": "Learn how GitHub’s one, integrated platform–powered by AI and secure at every step—helps developer teams be more productive, collaborative, and efficient.",
-          "link": "https://github.blog/2023-03-28-github-galaxy-2023-empower-developer-teams-with-a-new-developer-experience/",
-          "publishedOn": "2023-03-28T17:23:01.000Z",
-          "wordCount": 2276,
-          "title": "GitHub Galaxy 2023: Empower developer teams with a new developer experience"
-        },
-        {
-          "id": "https://github.blog/?p=70940",
-          "author": "Christopher Schleiden",
-          "description": "Today, we’re excited to announce the release of the public beta of the official GitHub Actions VS Code extension, which provides support for authoring and editing workflows and helps you manage workflow runs without leaving your IDE.",
-          "link": "https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/",
-          "publishedOn": "2023-03-28T15:09:56.000Z",
-          "wordCount": 1129,
-          "title": "Announcing the GitHub Actions extension for VS Code"
         }
       ]
     },
@@ -1199,15 +1116,6 @@
           "publishedOn": "2023-03-31T20:27:39.000Z",
           "wordCount": 3262,
           "title": "Nubank joins the list of 25 most valuable brands in Brazil"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20573",
-          "author": "Heloisa Carbone - Senior Software Engineer at Nubank",
-          "description": "What are the benefits and advantages that made us choose such a different programming language?  \nThe post Functional programming with Clojure: why and how does Nubank use it and scale so well? appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/functional-programming-with-clojure/",
-          "publishedOn": "2023-03-28T21:25:56.000Z",
-          "wordCount": 3732,
-          "title": "Functional programming with Clojure: why and how does Nubank use it and scale so well?"
         }
       ]
     },
@@ -1216,6 +1124,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/evolution-hackerones-live-hacking-events",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/evolution-hackerones-live-hacking-events",
+          "publishedOn": "2023-04-27T00:47:32.000Z",
+          "wordCount": 651,
+          "title": "The Evolution of HackerOne's Live Hacking Events"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/best-practice-makes-perfect",
           "author": "Chris Evans",
@@ -1332,15 +1249,6 @@
           "publishedOn": "2023-03-29T21:00:00.000Z",
           "wordCount": 1112,
           "title": "Cyber Regulations Can Make Our Nation Safer"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/hackerone-assets-deep-dive-asset-inventory",
-          "author": "Naz Bozdemir",
-          "description": "",
-          "link": "https://www.hackerone.com/vulnerability-management/hackerone-assets-deep-dive-asset-inventory",
-          "publishedOn": "2023-03-28T16:00:00.000Z",
-          "wordCount": 1426,
-          "title": "HackerOne Assets Deep Dive: Asset Inventory"
         }
       ]
     },
