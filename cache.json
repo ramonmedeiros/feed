@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/04/secure-mobile-payment-transactions.html",
+          "author": null,
+          "description": "Posted by Rae Wang, Director of Product Management (Android Security and Privacy Team) \n\n\nUnlike other mobile OSes, Android is built with a transparent, open-source architecture. We firmly believe that our users and the mobile ecosystem at-large should be able to verify Android’s security and safety and not just take our word for it. \nThe Assurance of Android Protected Confirmation\nannounced they’re working with Google on a pilot project to establish Protected Confirmation as a common application programmable interface standard. In a pilot planned for 2023, UBS online banking customers with Pixel 6 or 7 devices can use Android Protected Confirmation backed by StrongBox, a certified hardware vault with physical attack protections, to confirm payments and verify online purchases through a hardware-based confirmation in their UBS Access App. \n\n\nDemonstrating Real-World Use for Android Protection Confirmation\n\n\nWe’ve been working closely with UBS to bring this pilot to life and ensure they’re able to test it on Google Pixel devices. Demonstrating real-world use cases that are enabled by Android Protected Confirmation unlocks the promise of this technology by delivering improved and innovative experiences for our users. We’re seeing interest in Android Protected Confirmation across the industry and OEMs are increasingly looking at how to build even more hardware-based confirmation into critical security user moments. We look forward to forming an industry alliance that will work together to strengthen mobile security and home in on protecting confirmation support.",
+          "link": "http://security.googleblog.com/2023/04/secure-mobile-payment-transactions.html",
+          "publishedOn": "2023-04-28T15:59:00.002Z",
+          "wordCount": 784,
+          "title": "Secure mobile payment transactions enabled by Android Protected Confirmation"
+        },
+        {
           "id": "http://security.googleblog.com/2023/04/how-we-fought-bad-apps-and-bad-actors.html",
           "author": null,
           "description": "Posted by Anu Yamunan and Khawaja Shams (Android Security and Privacy Team), and Mohet Saxena (Compute Trust and Safety)\n\n\nKeeping Google Play safe for users and developers remains a top priority for Google. Google Play Protect continues to scan billions of installed apps each day across billions of Android devices to keep users safe from threats like malware and unwanted software. \n\n\nIn 2022, we prevented 1.43 million policy-violating apps from being published on Google Play in part due to new and improved security features and policy enhancements — in combination with our continuous investments in machine learning systems and app review processes. We also continued to combat malicious developers and fraud rings, banning 173K bad accounts, and preventing over $2 billion in fraudulent and …",
@@ -65,13 +74,38 @@
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://testing.googleblog.com/2023/04/sensenmann-code-deletion-at-scale.html",
+          "author": null,
+          "description": "By Phil Norman\nCode at Scale\nAt Google, tens of thousands of software engineers contribute to a multi-billion-line mono-repository. This repository, stored in a system called Piper, contains the source code of shared libraries, production services, experimental programs, diagnostic and debugging tools: basically anything that's code-related.\n\nThis open approach can be very powerful. For example, if an engineer is unsure how to use a library, they can find examples just by searching. It also allows kind-hearted individuals to perform important updates across the whole repository, be that migrating to newer APIs, or following language developments such as Python 3, or Go generics.\n\nCode, however, doesn't come for free: it's expensive to produce, but also costs real engineering time to mainta…",
+          "link": "http://testing.googleblog.com/2023/04/sensenmann-code-deletion-at-scale.html",
+          "publishedOn": "2023-04-28T12:24:00.000Z",
+          "wordCount": 4030,
+          "title": "Sensenmann: Code Deletion at Scale"
+        }
+      ]
     },
     {
       "title": "Changelog",
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/2038",
+          "author": null,
+          "description": "Adam Argyle joins Amelia and Nick to catch them up on all the goings on within the world of CSS colors. There are a lot more options than you’d expect if you haven’t been keeping up, and Adam’s here to help you avoid the “gray dead zone”!\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more a…",
+          "link": "https://changelog.com/jsparty/273",
+          "publishedOn": "2023-04-28T16:40:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 273: CSS Color Party 🎉",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/273/js-party-273.mp3",
+            "length": "71700723",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/2/2044",
           "author": null,
@@ -546,51 +580,6 @@
           "wordCount": null,
           "title": "Automate your browser with GPT-4",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/3Lyy",
-          "author": "Jerod Santo",
-          "description": "Alex Schepanovski:\nI always thought of 1+N as a thing that you just keep in your head, catch on code reviews or via performance regressions. This worked well for a long time, however, the less control we have over our SQL queries the more likely it will sneak through those guards…\nI tumbled on a couple of 1+Ns while reading a project code for an unrelated reason and it got me thinking – do I ever want Django to do that lazy loading stuff? And the answer was never.\nTurns out the implementation of this is quite easy. ~15 loc for the naive version and ~35 for a more robust version. Give it a try if you, like Alex, never want to allow a 1+N in your Django app again.\nDiscuss on Changelog News",
-          "link": "https://suor.github.io/blog/2023/03/26/ban-1-plus-n-in-django/",
-          "publishedOn": "2023-03-30T22:46:00.000Z",
-          "wordCount": null,
-          "title": "Ban 1+N in Django",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/2017",
-          "author": null,
-          "description": "We’re joined by the creators of Wails and Fyne to dig into writing Go code for different architectures and operating systems.\nDiscuss on Changelog News\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear, and increment your audio quality with higher bitrate mp3s. Let’s do this!\n\n\nFeaturing:\n\nLea Anthony – Twitter, GitHub\nAndy Williams – Twitter, GitHub, LinkedIn, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\n\nShow Notes:\n\nWails\nFyne\nXbar\nTaskfile\nGo GUI developer survey\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:57) - Welcoming our guests\n(02:53) - Gooey Team\n(07:28) - Intro to Wails\n(10:12) - Intro to Fyne\n(15:43) - Lea's repo bands\n(16:51) - Frontend code in Fyne\n(19:05) - Frontend code in Wails\n(20:30) - Building cross-platform tools\n(28:36) - Will generics make things easier?\n(32:42) - Sponsor: Changelog++\n(33:37) - Things they'd do differently\n(44:09) - Accounting for taste\n(49:19) - The smallest possible API\n(52:45) - It's time for Unpopular Opinions!\n(53:28) - Anthony's unpop\n(56:41) - Andy's unpop\n(1:00:48) - Natalie's unpop\n(1:02:44) - Mat's unpop\n(1:05:16) - Gotta Go!\n(1:07:01) - Outro (Changelog++ bonus)",
-          "link": "https://changelog.com/gotime/271",
-          "publishedOn": "2023-03-30T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 271: Cross-platform graphical user interfaces",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/271/go-time-271.mp3",
-            "length": "66424549",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/kwrJ",
-          "author": "Jerod Santo",
-          "description": "This open letter by the Future of Life institute has been signed by 1380 people (so far) including notable technologists such as Steve Wozniak, Stuart Russell, Emad Mostaque (Stability AI) & Elon Musk.\nPowerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable. This confidence must be well justified and increase with the magnitude of a system’s potential effects. OpenAI’s recent statement regarding artificial general intelligence, states that “At some point, it may be important to get independent review before starting to train future systems, and for the most advanced efforts to agree to limit the rate of growth of compute used for creating new models.” We agree. That point is now.\nTherefore, we call on all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than GPT-4. This pause should be public and verifiable, and include all key actors. If such a pause cannot be enacted quickly, governments should step in and institute a moratorium.\nDiscuss on Changelog News",
-          "link": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
-          "publishedOn": "2023-03-30T14:12:00.000Z",
-          "wordCount": null,
-          "title": "A petition to pause all AI experiments for at least 6 months",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/gwe0",
-          "author": "Jerod Santo",
-          "description": "The team behind this took LLaMA and trained it on ~800k GPT-3.5-Turbo responses. The result is a sophisticated assistant you can easily run on your laptop by downloading a 4GB file and cloning the repo.\n\nDiscuss on Changelog News",
-          "link": "https://github.com/nomic-ai/gpt4all",
-          "publishedOn": "2023-03-30T13:24:00.000Z",
-          "wordCount": null,
-          "title": "GPT4ALL takes LLaMA to the next level",
-          "itunes": {}
         }
       ]
     },
@@ -641,15 +630,6 @@
           "publishedOn": "2023-04-11T13:00:00.000Z",
           "wordCount": 1748,
           "title": "Ask a Techspert: What is generative AI?"
-        },
-        {
-          "id": "https://blog.google/technology/ads/katie-couric-future-ready-youtube-google/",
-          "author": null,
-          "description": "Katie Couric hosts Future Ready by Think with Google, a new interview series featuring experts in AI, cybersecurity and psychology.",
-          "link": "https://blog.google/technology/ads/katie-couric-future-ready-youtube-google/",
-          "publishedOn": "2023-03-30T14:00:00.000Z",
-          "wordCount": 1085,
-          "title": "Watch Katie Couric and Think with Google’s new interview series"
         }
       ]
     },
@@ -822,23 +802,22 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": [
-        {
-          "id": "https://hacks.mozilla.org/?p=47993",
-          "author": "Greg Stoll",
-          "description": "In Firefox 110, users now have the ability to control which third-party DLLs are allowed to load into Firefox processes. Let’s talk about what this means and when it might be useful.\nThe post Letting users block injected third-party DLLs in Firefox appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/",
-          "publishedOn": "2023-03-30T18:41:16.000Z",
-          "wordCount": 2799,
-          "title": "Letting users block injected third-party DLLs in Firefox"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71529",
+          "author": "Martin Woodward",
+          "description": "Open source’s impact on nuclear fusion research, adapting to technological change, and mastering GitHub essentials.",
+          "link": "https://github.blog/2023-04-28-this-month-on-the-readme-podcast-exploring-the-fusion-of-technology-and-progress/",
+          "publishedOn": "2023-04-28T16:00:45.000Z",
+          "wordCount": 1005,
+          "title": "This month on The ReadME Podcast: exploring the fusion of technology and progress"
+        },
         {
           "id": "https://github.blog/?p=71491",
           "author": "Kedasha Kerr",
@@ -1081,15 +1060,6 @@
           "publishedOn": "2023-03-31T17:19:39.000Z",
           "wordCount": 5025,
           "title": "CodeQL zero to hero part 1: the fundamentals of static analysis for vulnerability research"
-        },
-        {
-          "id": "https://github.blog/?p=70902",
-          "author": "Robert Marsh",
-          "description": "These changes will improve the experience for custom query authors and enable better precision in some of our standard queries. Learn how to enable them for your custom queries.",
-          "link": "https://github.blog/2023-03-30-improvements-to-codeqls-data-flow-library-for-c/",
-          "publishedOn": "2023-03-30T16:00:23.000Z",
-          "wordCount": 1430,
-          "title": "Improvements to CodeQL’s data flow library for C++"
         }
       ]
     },
@@ -1159,6 +1129,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-blaklis",
+          "author": "HackerOne",
+          "description": "",
+          "link": "https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-blaklis",
+          "publishedOn": "2023-04-28T15:06:03.000Z",
+          "wordCount": 1252,
+          "title": "Ambassador Spotlight AWC Edition: Blaklis"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/evolution-hackerones-live-hacking-events",
           "author": "HackerOne",
