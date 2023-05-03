@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-02T12:16:52.301Z</updated>
+    <updated>2023-05-03T12:17:17.955Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Try 4 new Arts and AI experiments]]></title>
+        <id>https://blog.google/outreach-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/</id>
+        <link href="https://blog.google/outreach-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/"/>
+        <updated>2023-05-03T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Four new online interactive artworks from Google Arts & Culture Lab artists in residence]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dependabot relieves alert fatigue from npm devDependencies]]></title>
+        <id>https://github.blog/?p=71558</id>
+        <link href="https://github.blog/2023-05-02-dependabot-relieves-alert-fatigue-from-npm-devdependencies/"/>
+        <updated>2023-05-02T20:36:16.000Z</updated>
+        <summary type="html"><![CDATA[A new alert rules engine for Dependabot leverages alert metadata to identify and auto-dismiss up to 15% of alerts as false positives.]]></summary>
+        <author>
+            <name>Eric Tooley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 221: Large models on CPUs]]></title>
+        <id>changelog.com/7/2066</id>
+        <link href="https://changelog.com/practicalai/221"/>
+        <updated>2023-05-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Model sizes are crazy these days with billions and billions of parameters. As Mark Kurtz explains in this episode, this makes inference slow and expensive despite the fact that up to 90%+ of the parameters don’t influence the outputs at all.
+Mark helps us understand all of the practicalities and progress that is being made in model optimization and CPU inference, including the increasing opportunities to run LLMs and other Generative AI models on commodity hardware.
+Leave us a comment
+Changelog++ members save 1 minute on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Mark Kurtz – Twitter, LinkedIn
+Daniel Whitenack – Twitter, GitHub, Website
+
+Show Notes:
+
+Neural Magic
+SparseML
+SparseZoo
+Neural Magic Scales up MLPerf™ Inference v3.0 Performance With Demonstrated Power Efficiency; No GPUs Needed
+Deploy Optimized Hugging Face Models With DeepSparse and SparseZoo
+SparseGPT: Remove 100 Billion Parameters for Free
+Something missing or broken? PRs welcome!
+Timestamps:
+(03:24) - Why does LLM size matter?
+(06:15) - GPUs vs. CPUs
+(08:45) - Overcoming perception
+(10:54) - Most parameters dont affect results
+(16:01) - Balancing space & sparsity
+(17:47) - Tackling performance hits
+(20:38) - Aware optimization vs not?
+(23:52) - Community tools
+(26:11) - Neural Magic tools
+(29:56) - Supporting new architecture
+(31:40) - Exciting research trends
+(34:52) - Looking forward in this space
+(37:05) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google and Apple lead initiative for an industry specification to address unwanted tracking]]></title>
+        <id>http://security.googleblog.com/2023/05/google-and-apple-lead-initiative-for.html</id>
+        <link href="http://security.googleblog.com/2023/05/google-and-apple-lead-initiative-for.html"/>
+        <updated>2023-05-02T13:01:00.002Z</updated>
+        <summary type="html"><![CDATA[Companies welcome input from industry participants and advocacy groups on a draft specification to alert users in the event of suspected unwanted tracking
+
+
+“Bluetooth trackers have created tremendous user benefits but also bring the potential of unwanted tracking, which requires industry-wide action to solve,” said Dave Burke, Google’s vice president of Engineering for Android. “Android has an unwavering commitment to protecting users and will continue to develop strong safeguards and collaborate with the industry to help combat the misuse of Bluetooth tracking devices.”
+
+
+“Apple launched AirTag to give users the peace of mind knowing where to find their most important items,” said Ron Huang, Apple’s vice president of Sensing and Connectivity. “We built AirTag and the Find My network with…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Twitter's Recommendation Algorithm]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</id>
@@ -1402,171 +1487,6 @@ Discuss on Changelog News]]></summary>
 Discuss on Changelog News]]></summary>
         <author>
             <name>Tom Burns</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 38: Twitter's open algorithm, Auto-GPT, LLMs as "calculators for words", SudoLang & stochastic parrots]]></title>
-        <id>changelog.com/1/2047</id>
-        <link href="https://changelog.com/news/38"/>
-        <updated>2023-04-03T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Twitter publishes (some of) its recommendation algorithm, Toran Bruce Richards puts GPT-4 on autopilot, Simon Willison shares a good way for us to think about LLMs, Eric Elliot creates a powerful pseudocode programming language for LLMs & I define and demystify the term “stochastic parrot”.
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-
-Twitter’s algorithm
-
-Rowan Cheung
-Auto-GPT
-Think of an LLM as a “calculator for words”
-A Powerful Pseudocode Programming Language for LLMs
-
-Spec
-What is a stochastic parrot?
-
-On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:16) - Twitter algorithm
-(02:29) - Yo LLM so fat
-(03:14) - Auto-GPT
-(03:45) - LLMs are "calculators for words"
-(04:33) - SudoLang
-(05:16) - Stochastic parrots
-(07:13) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News: Twitter's open algorithm, Auto-GPT, LLMs as "calculators for words", SudoLang & stochastic parrots]]></title>
-        <id>changelog.com/1/2047</id>
-        <link href="https://changelog.com/podcast/news-2023-04-03"/>
-        <updated>2023-04-03T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Twitter publishes (some of) its recommendation algorithm, Toran Bruce Richards puts GPT-4 on autopilot, Simon Willison shares a good way for us to think about LLMs, Eric Elliot creates a powerful pseudocode programming language for LLMs & I define and demystify the term “stochastic parrot”.
-Discuss on Changelog News
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-
-Twitter’s algorithm
-
-Rowan Cheung
-Auto-GPT
-Think of an LLM as a “calculator for words”
-A Powerful Pseudocode Programming Language for LLMs
-What is a stochastic parrot?
-
-On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:16) - Twitter algorithm
-(02:29) - Yo LLM so fat
-(03:14) - Auto-GPT
-(03:45) - LLMs are "calculators for words"
-(04:33) - SudoLang
-(05:16) - Stochastic parrots
-(07:13) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Level up monitoring and reporting for your enterprise]]></title>
-        <id>https://github.blog/?p=71053</id>
-        <link href="https://github.blog/2023-04-03-level-up-monitoring-and-reporting-for-your-enterprise/"/>
-        <updated>2023-04-03T19:00:21.000Z</updated>
-        <summary type="html"><![CDATA[A high-quality audit log is an essential tool for enterprises to ensure compliance, maintain security, investigate issues, and promote accountability.]]></summary>
-        <author>
-            <name>Jim Boyle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Run Stable Diffusion on Mac natively]]></title>
-        <id>changelog.com/news/9lbJ</id>
-        <link href="https://github.com/godly-devotion/MochiDiffusion"/>
-        <updated>2023-04-03T17:05:00.000Z</updated>
-        <summary type="html"><![CDATA[This app uses Apple’s Core ML Stable Diffusion implementation to achieve maximum performance and speed on Apple Silicon based Macs while reducing memory requirements. (Also runs on Intel based Macs.)
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[XUL layout is gone (in Firefox)]]></title>
-        <id>changelog.com/news/GWk6</id>
-        <link href="https://crisal.io/words/2023/03/30/xul-layout-is-gone.html"/>
-        <updated>2023-04-03T16:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Emilio Cobos Álvarez:
-few  patches that completely removed XUL layout from the Firefox codebase.
-
-
- This means that (modulo a few exceptions documented below) all the Firefox UI is using regular web technology to render (mostly CSS flexbox).
-
-
- This was a rather big effort (first filed 9 years ago in bug 1033225), and I wanted to document some of the things that I learned during the process, some of the things and decisions that made it possible, and some of the things that I would’ve maybe done differently.
-
-
-
-
-
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Dan McClain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Calling all open source maintainers]]></title>
-        <id>https://github.blog/?p=71030</id>
-        <link href="https://github.blog/2023-04-03-calling-all-open-source-maintainers/"/>
-        <updated>2023-04-03T16:00:18.000Z</updated>
-        <summary type="html"><![CDATA[We are building a private space for maintainers to connect with peers, preview features, and learn from each other!]]></summary>
-        <author>
-            <name>Abby Cabunoc Mayes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[trurl manipulates URLs]]></title>
-        <id>changelog.com/news/aQeN</id>
-        <link href="https://daniel.haxx.se/blog/2023/04/03/introducing-trurl/"/>
-        <updated>2023-04-03T15:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Daniel Stenberg’s new tool for parsing & manipulating URLs might fit nicely into HTTP your utility belt.
-URLs are tricky to parse and there are numerous security problems in software because of this. trurl wants to help soften this problem by taking away the need for script and command line authors everywhere to re-invent the wheel over and over.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub private repos considered private-­ish]]></title>
-        <id>changelog.com/news/PpMm</id>
-        <link href="https://tylercipriani.com/blog/2023/03/31/private-ish-github-repos/"/>
-        <updated>2023-04-03T14:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Tyler Cipriani:
-GitHub private repos lull us into lazy thinking.
-We cram our secrets into git, then shove it off to the most expansive code forge in the history of humanity, and most of the time: everything’s fine.
-But GitHub’s ssh host key leak last week demonstrates that private repos are, at best, private-ish.
-Discuss on Changelog News]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[trurl manipulates URLs]]></title>
-        <id>https://daniel.haxx.se/blog/?p=22157</id>
-        <link href="https://daniel.haxx.se/blog/2023/04/03/introducing-trurl/"/>
-        <updated>2023-04-03T06:59:14.000Z</updated>
-        <summary type="html"><![CDATA[trurl is a tool in a similar spirit of tr but for URLs. Here, tr stands for translate or transpose. trurl is a small command line tool that parses and manipulates URLs, designed to help shell script authors everywhere. URLs are tricky to parse and there are numerous security problems in software because of this. … Continue reading trurl manipulates URLs →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>

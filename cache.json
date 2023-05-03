@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/05/google-and-apple-lead-initiative-for.html",
+          "author": null,
+          "description": "Companies welcome input from industry participants and advocacy groups on a draft specification to alert users in the event of suspected unwanted tracking\n\n\n“Bluetooth trackers have created tremendous user benefits but also bring the potential of unwanted tracking, which requires industry-wide action to solve,” said Dave Burke, Google’s vice president of Engineering for Android. “Android has an unwavering commitment to protecting users and will continue to develop strong safeguards and collaborate with the industry to help combat the misuse of Bluetooth tracking devices.”\n\n\n“Apple launched AirTag to give users the peace of mind knowing where to find their most important items,” said Ron Huang, Apple’s vice president of Sensing and Connectivity. “We built AirTag and the Find My network with…",
+          "link": "http://security.googleblog.com/2023/05/google-and-apple-lead-initiative-for.html",
+          "publishedOn": "2023-05-02T13:01:00.002Z",
+          "wordCount": 1061,
+          "title": "Google and Apple lead initiative for an industry specification to address unwanted tracking"
+        },
+        {
           "id": "http://security.googleblog.com/2023/04/secure-mobile-payment-transactions.html",
           "author": null,
           "description": "Posted by Rae Wang, Director of Product Management (Android Security and Privacy Team) \n\n\nUnlike other mobile OSes, Android is built with a transparent, open-source architecture. We firmly believe that our users and the mobile ecosystem at-large should be able to verify Android’s security and safety and not just take our word for it. \nThe Assurance of Android Protected Confirmation\nannounced they’re working with Google on a pilot project to establish Protected Confirmation as a common application programmable interface standard. In a pilot planned for 2023, UBS online banking customers with Pixel 6 or 7 devices can use Android Protected Confirmation backed by StrongBox, a certified hardware vault with physical attack protections, to confirm payments and verify online purchases through a hardware-based confirmation in their UBS Access App. \n\n\nDemonstrating Real-World Use for Android Protection Confirmation\n\n\nWe’ve been working closely with UBS to bring this pilot to life and ensure they’re able to test it on Google Pixel devices. Demonstrating real-world use cases that are enabled by Android Protected Confirmation unlocks the promise of this technology by delivering improved and innovative experiences for our users. We’re seeing interest in Android Protected Confirmation across the industry and OEMs are increasingly looking at how to build even more hardware-based confirmation into critical security user moments. We look forward to forming an industry alliance that will work together to strengthen mobile security and home in on protecting confirmation support.",
@@ -91,6 +100,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2066",
+          "author": null,
+          "description": "Model sizes are crazy these days with billions and billions of parameters. As Mark Kurtz explains in this episode, this makes inference slow and expensive despite the fact that up to 90%+ of the parameters don’t influence the outputs at all.\nMark helps us understand all of the practicalities and progress that is being made in model optimization and CPU inference, including the increasing opportunities to run LLMs and other Generative AI models on commodity hardware.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nMark Kurtz – Twitter, LinkedIn\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nNeural Magic\nSparseML\nSparseZoo\nNeural Magic Scales up MLPerf™ Inference v3.0 Performance With Demonstrated Power Efficiency; No GPUs Needed\nDeploy Optimized Hugging Face Models With DeepSparse and SparseZoo\nSparseGPT: Remove 100 Billion Parameters for Free\nSomething missing or broken? PRs welcome!\nTimestamps:\n(03:24) - Why does LLM size matter?\n(06:15) - GPUs vs. CPUs\n(08:45) - Overcoming perception\n(10:54) - Most parameters dont affect results\n(16:01) - Balancing space & sparsity\n(17:47) - Tackling performance hits\n(20:38) - Aware optimization vs not?\n(23:52) - Community tools\n(26:11) - Neural Magic tools\n(29:56) - Supporting new architecture\n(31:40) - Exciting research trends\n(34:52) - Looking forward in this space\n(37:05) - Outro",
+          "link": "https://changelog.com/practicalai/221",
+          "publishedOn": "2023-05-02T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 221: Large models on CPUs",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/221/practical-ai-221.mp3",
+            "length": "37164744",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/16/2065",
           "author": null,
@@ -480,76 +504,6 @@
           "wordCount": null,
           "title": "What makes a neural network remember?",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/1/2047",
-          "author": null,
-          "description": "Twitter publishes (some of) its recommendation algorithm, Toran Bruce Richards puts GPT-4 on autopilot, Simon Willison shares a good way for us to think about LLMs, Eric Elliot creates a powerful pseudocode programming language for LLMs & I define and demystify the term “stochastic parrot”.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nTwitter’s algorithm\n\nRowan Cheung\nAuto-GPT\nThink of an LLM as a “calculator for words”\nA Powerful Pseudocode Programming Language for LLMs\n\nSpec\nWhat is a stochastic parrot?\n\nOn the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:16) - Twitter algorithm\n(02:29) - Yo LLM so fat\n(03:14) - Auto-GPT\n(03:45) - LLMs are \"calculators for words\"\n(04:33) - SudoLang\n(05:16) - Stochastic parrots\n(07:13) - Outro",
-          "link": "https://changelog.com/news/38",
-          "publishedOn": "2023-04-03T20:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 38: Twitter's open algorithm, Auto-GPT, LLMs as \"calculators for words\", SudoLang & stochastic parrots",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/38/changelog-news-38.mp3",
-            "length": "7649386",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/1/2047",
-          "author": null,
-          "description": "Twitter publishes (some of) its recommendation algorithm, Toran Bruce Richards puts GPT-4 on autopilot, Simon Willison shares a good way for us to think about LLMs, Eric Elliot creates a powerful pseudocode programming language for LLMs & I define and demystify the term “stochastic parrot”.\nDiscuss on Changelog News\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nTwitter’s algorithm\n\nRowan Cheung\nAuto-GPT\nThink of an LLM as a “calculator for words”\nA Powerful Pseudocode Programming Language for LLMs\nWhat is a stochastic parrot?\n\nOn the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:16) - Twitter algorithm\n(02:29) - Yo LLM so fat\n(03:14) - Auto-GPT\n(03:45) - LLMs are \"calculators for words\"\n(04:33) - SudoLang\n(05:16) - Stochastic parrots\n(07:13) - Outro",
-          "link": "https://changelog.com/podcast/news-2023-04-03",
-          "publishedOn": "2023-04-03T20:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News: Twitter's open algorithm, Auto-GPT, LLMs as \"calculators for words\", SudoLang & stochastic parrots",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/news-2023-04-03/the-changelog-news-2023-04-03.mp3",
-            "length": "7649386",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/9lbJ",
-          "author": "Jerod Santo",
-          "description": "This app uses Apple’s Core ML Stable Diffusion implementation to achieve maximum performance and speed on Apple Silicon based Macs while reducing memory requirements. (Also runs on Intel based Macs.)\n\nDiscuss on Changelog News",
-          "link": "https://github.com/godly-devotion/MochiDiffusion",
-          "publishedOn": "2023-04-03T17:05:00.000Z",
-          "wordCount": null,
-          "title": "Run Stable Diffusion on Mac natively",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/GWk6",
-          "author": "Dan McClain",
-          "description": "Emilio Cobos Álvarez:\nfew  patches that completely removed XUL layout from the Firefox codebase.\n\n\n This means that (modulo a few exceptions documented below) all the Firefox UI is using regular web technology to render (mostly CSS flexbox).\n\n\n This was a rather big effort (first filed 9 years ago in bug 1033225), and I wanted to document some of the things that I learned during the process, some of the things and decisions that made it possible, and some of the things that I would’ve maybe done differently.\n\n\n\n\n\nDiscuss on Changelog News",
-          "link": "https://crisal.io/words/2023/03/30/xul-layout-is-gone.html",
-          "publishedOn": "2023-04-03T16:08:00.000Z",
-          "wordCount": null,
-          "title": "XUL layout is gone (in Firefox)",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/aQeN",
-          "author": "Jerod Santo",
-          "description": "Daniel Stenberg’s new tool for parsing & manipulating URLs might fit nicely into HTTP your utility belt.\nURLs are tricky to parse and there are numerous security problems in software because of this. trurl wants to help soften this problem by taking away the need for script and command line authors everywhere to re-invent the wheel over and over.\nDiscuss on Changelog News",
-          "link": "https://daniel.haxx.se/blog/2023/04/03/introducing-trurl/",
-          "publishedOn": "2023-04-03T15:22:00.000Z",
-          "wordCount": null,
-          "title": "trurl manipulates URLs",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/PpMm",
-          "author": "Jerod Santo",
-          "description": "Tyler Cipriani:\nGitHub private repos lull us into lazy thinking.\nWe cram our secrets into git, then shove it off to the most expansive code forge in the history of humanity, and most of the time: everything’s fine.\nBut GitHub’s ssh host key leak last week demonstrates that private repos are, at best, private-ish.\nDiscuss on Changelog News",
-          "link": "https://tylercipriani.com/blog/2023/03/31/private-ish-github-repos/",
-          "publishedOn": "2023-04-03T14:34:00.000Z",
-          "wordCount": null,
-          "title": "GitHub private repos considered private-­ish",
-          "itunes": {}
         }
       ]
     },
@@ -574,6 +528,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/",
+          "author": null,
+          "description": "Four new online interactive artworks from Google Arts & Culture Lab artists in residence",
+          "link": "https://blog.google/outreach-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/",
+          "publishedOn": "2023-05-03T09:00:00.000Z",
+          "wordCount": 969,
+          "title": "Try 4 new Arts and AI experiments"
+        },
         {
           "id": "https://blog.google/technology/ai/code-with-bard/",
           "author": null,
@@ -643,15 +606,6 @@
           "publishedOn": "2023-04-14T14:00:45.000Z",
           "wordCount": 746,
           "title": "curl speaks HTTP/2 with proxy"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22157",
-          "author": "Daniel Stenberg",
-          "description": "trurl is a tool in a similar spirit of tr but for URLs. Here, tr stands for translate or transpose. trurl is a small command line tool that parses and manipulates URLs, designed to help shell script authors everywhere. URLs are tricky to parse and there are numerous security problems in software because of this. … Continue reading trurl manipulates URLs →",
-          "link": "https://daniel.haxx.se/blog/2023/04/03/introducing-trurl/",
-          "publishedOn": "2023-04-03T06:59:14.000Z",
-          "wordCount": 790,
-          "title": "trurl manipulates URLs"
         }
       ]
     },
@@ -779,6 +733,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71558",
+          "author": "Eric Tooley",
+          "description": "A new alert rules engine for Dependabot leverages alert metadata to identify and auto-dismiss up to 15% of alerts as false positives.",
+          "link": "https://github.blog/2023-05-02-dependabot-relieves-alert-fatigue-from-npm-devdependencies/",
+          "publishedOn": "2023-05-02T20:36:16.000Z",
+          "wordCount": 939,
+          "title": "Dependabot relieves alert fatigue from npm devDependencies"
+        },
         {
           "id": "https://github.blog/?p=71529",
           "author": "Martin Woodward",
@@ -1003,24 +966,6 @@
           "publishedOn": "2023-04-04T16:07:30.000Z",
           "wordCount": 1308,
           "title": "What’s new with GitHub Sponsors"
-        },
-        {
-          "id": "https://github.blog/?p=71053",
-          "author": "Jim Boyle",
-          "description": "A high-quality audit log is an essential tool for enterprises to ensure compliance, maintain security, investigate issues, and promote accountability.",
-          "link": "https://github.blog/2023-04-03-level-up-monitoring-and-reporting-for-your-enterprise/",
-          "publishedOn": "2023-04-03T19:00:21.000Z",
-          "wordCount": 1790,
-          "title": "Level up monitoring and reporting for your enterprise"
-        },
-        {
-          "id": "https://github.blog/?p=71030",
-          "author": "Abby Cabunoc Mayes",
-          "description": "We are building a private space for maintainers to connect with peers, preview features, and learn from each other!",
-          "link": "https://github.blog/2023-04-03-calling-all-open-source-maintainers/",
-          "publishedOn": "2023-04-03T16:00:18.000Z",
-          "wordCount": 555,
-          "title": "Calling all open source maintainers"
         }
       ]
     },
