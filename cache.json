@@ -6,6 +6,24 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/05/making-authentication-faster-than-ever.html",
+          "author": null,
+          "description": "Silvia Convento, Senior UX Researcher, Court Jacinic, Senior UX Content Designer, Becca Shareff, User Experience Researcher\n\n\n\n\n\n\nIn recognition of World Password Day 2023, Google announced its next step toward a passwordless future: passkeys. \n\n\n\nPasskeys are a new, passwordless authentication method that offer a convenient authentication experience for sites and apps, using just a fingerprint, face scan or other screen lock. They are designed to enhance online security for users. Because they are based on the public key cryptographic protocols that underpin security keys, they are resistant to phishing and other online attacks, making them more secure than SMS, app based one-time passwords and other forms of multi-factor authentication (MFA). And since passkeys are standardized, a single…",
+          "link": "http://security.googleblog.com/2023/05/making-authentication-faster-than-ever.html",
+          "publishedOn": "2023-05-05T16:00:00.005Z",
+          "wordCount": 1803,
+          "title": "Making authentication faster than ever: passkeys vs. passwords"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/05/introducing-rulesoci.html",
+          "author": null,
+          "description": "Appu Goundan, Google Open Source Security Team\n\n\nToday, we are announcing the General Availability 1.0 version of rules_oci, an open-sourced Bazel plugin (“ruleset”) that makes it simpler and more secure to build container images with Bazel. This effort was a collaboration we had with Aspect and the Rules Authors Special Interest Group. In this post, we’ll explain how rules_oci differs from its predecessor, rules_docker, and describe the benefits it offers for both container image security and the container community. \n\n\n\nBazel and Distroless for supply chain security\n\n\nGoogle’s popular build and test tool, known as Bazel, is gaining fast adoption within enterprises thanks to its ability to scale to the largest codebases and handle builds in almost any language. Because Bazel manages and c…",
+          "link": "http://security.googleblog.com/2023/05/introducing-rulesoci.html",
+          "publishedOn": "2023-05-05T15:02:00.001Z",
+          "wordCount": 2903,
+          "title": "Introducing rules_oci"
+        },
+        {
           "id": "http://security.googleblog.com/2023/05/so-long-passwords-thanks-for-all-phish.html",
           "author": null,
           "description": "By: Arnar Birgisson and Diana K Smetters, Identity Ecosystems and Google Account Security and Safety teams\n\n\n\n\nStarting today, you can create and use passkeys on your personal Google Account. When you do, Google will not ask for your password or 2-Step Verification (2SV) when you sign in.\n\n\n\n\n\nPasskeys are a more convenient and safer alternative to passwords. They work on all major platforms and browsers, and allow users to sign in by unlocking their computer or mobile device with their fingerprint, face recognition or a local PIN.\n\n\n\n\n\nUsing passwords puts a lot of responsibility on users. Choosing strong passwords and remembering them across various accounts can be hard. In addition, even the most savvy users are often misled into giving them up during phishing attempts. 2SV (2FA/MFA) he…",
@@ -109,6 +127,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/4/2049",
+          "author": null,
+          "description": "This week Adam is joined by Michael Grinich, Founder & CEO at WorkOS. Michael shares his journey to build WorkOS, what it takes to cross the Enterprise Chasm, and how he’s building his sales organization for growth.\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Get to the root cause of an error or latency issue faster by seeing all the technical details related to that issue in one visual replay on your web application. Use the code CHANGELOG and get the team plan free for three months.\n\nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—f…",
+          "link": "https://changelog.com/founderstalk/96",
+          "publishedOn": "2023-05-05T20:00:00.000Z",
+          "wordCount": null,
+          "title": "Founders Talk 96: Selling to Enterprise",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/founderstalk/96/founders-talk-96.mp3",
+            "length": "118273255",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/2058",
+          "author": null,
+          "description": "Dax Raad joins KBall and Nick to chat about SST, a framework that makes it easier to build full-stack applications on AWS. We chat about how the project got started and its goals. Then we discuss OpenNext, an open source, framework-agnostic server less adapter for Next.js.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the w…",
+          "link": "https://changelog.com/jsparty/274",
+          "publishedOn": "2023-05-05T19:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 274: SST and OpenNext",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/274/js-party-274.mp3",
+            "length": "55661879",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/2/2031",
           "author": null,
@@ -433,61 +481,6 @@
           "wordCount": null,
           "title": "If we lose the Internet Archive, we're screwed",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/V1r1",
-          "author": "Jerod Santo",
-          "description": "Andy Baio with the eagle eyes 🦅\nWhile trying to fix my printer today, I discovered that a PDF copy of Satoshi Nakamoto’s Bitcoin whitepaper apparently shipped with every copy of macOS since Mojave in 2018.\nI’ve asked over a dozen Mac-using friends to confirm, and it was there for every one of them. The file is found in every version of macOS from Mojave (10.14.0) to the current version, Ventura (13.3), but isn’t in High Sierra (10.13) or earlier.\nWell that’s a fun bit of trivia! But why?\nIs there a secret Bitcoin maxi working at Apple? The filename is “simpledoc.pdf” and it’s only 184 KB. Maybe it was just a convenient, lightweight multipage PDF for testing purposes, never meant to be seen by end users.\nDiscuss on Changelog News",
-          "link": "https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/",
-          "publishedOn": "2023-04-06T21:14:00.000Z",
-          "wordCount": null,
-          "title": "The Bitcoin whitepaper is hidden in every modern copy of macOS",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/y7mk",
-          "author": "Jerod Santo",
-          "description": "There’s always at least one new thing I’ve never come across in every one of these kind of lists.\nDiscuss on Changelog News",
-          "link": "https://opensource.com/article/23/4/linux-terminal-fonts",
-          "publishedOn": "2023-04-06T20:24:00.000Z",
-          "wordCount": null,
-          "title": "An entirely subjective list of some fun fonts for your Linux console",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/2041",
-          "author": null,
-          "description": "Mat & Johnny interview everyone’s favorite LLM (Natalie with a special hat on) to see if it’d make a good hire as a Go dev. Also, Mat tries to turn it into his very own creepy robot by asking personal questions about his co-hosts. Things get weird. In a good way?\nDiscuss on Changelog News\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the worl…",
-          "link": "https://changelog.com/gotime/272",
-          "publishedOn": "2023-04-06T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 272: The biggest job interview of GPT-4's life",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/272/go-time-272.mp3",
-            "length": "65295919",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/news/Qpro",
-          "author": "Jerod Santo",
-          "description": "Courtland Allen:\nExactly six years ago (to the day!), Stripe acquired Indie Hackers to help us grow and inspire millions of people building online businesses.\nToday, I’m happy to announce that @channingallen and I are indie hackers again!\nSo what now?\nWell, if we want to survive and thrive, we’re going to have to generate revenue just like any other business! I’m an entrepreneur at heart and always have been. In fact, working at Stripe was my first and only salaried job.\nRight now we’re sitting at exactly $0 in MRR, so the journey is just now (re)starting.\nWelcome back to the club, guys! Exciting times 💯\nDiscuss on Changelog News",
-          "link": "https://www.indiehackers.com/product/indie-hackers/indie-hackers-is-indie-again--NSIAlb7LggSjzTavQZb",
-          "publishedOn": "2023-04-06T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Indie Hackers is indie again!",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/news/zDX4",
-          "author": "Jerod Santo",
-          "description": "+10x engineers may be mythical, but -10x engineers exist. To become a -10x engineer, simply waste 400 engineering hours per week. Combine the following strategies:\nI know the 10x developer is a myth and all, but one thing we don’t talk about very often is that it is sometimes easy to out-pace other devs simply by moving forward at a decent clip.\nThis is because there are easy (yet non-obvious) ways to make negative progress as a developer. It’s not hard to move orders of magnitude faster than someone who’s headed in the wrong direction.\nDiscuss on Changelog News",
-          "link": "https://taylor.town/-10x",
-          "publishedOn": "2023-04-06T13:36:00.000Z",
-          "wordCount": null,
-          "title": "How to be a -10x Engineer",
-          "itunes": {}
         }
       ]
     },
@@ -736,6 +729,24 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=71644",
+          "author": "Arelia Jones",
+          "description": "Every student and teacher deserves the same access to GitHub Education offerings. We’ve enlisted GitHub’s Accessibility team to help identify areas for improving inclusivity.",
+          "link": "https://github.blog/2023-05-05-building-a-more-inclusive-github-global-campus/",
+          "publishedOn": "2023-05-05T16:49:40.000Z",
+          "wordCount": 989,
+          "title": "Building a more inclusive GitHub Global Campus"
+        },
+        {
+          "id": "https://github.blog/?p=71626",
+          "author": "Thomas Dohmke",
+          "description": "GitHub CEO Thomas Dohmke demonstrated the power of GitHub Copilot X live on stage.",
+          "link": "https://github.blog/2023-05-05-web-summit-rio-2023-building-an-app-in-18-minutes-with-github-copilot-x/",
+          "publishedOn": "2023-05-05T14:07:04.000Z",
+          "wordCount": 1189,
+          "title": "Web Summit Rio 2023: Building an app in 18 minutes with GitHub Copilot X"
+        },
+        {
           "id": "https://github.blog/?p=71609",
           "author": "Walker Chabbott",
           "description": "Code scanning’s tool status gives you a bird's eye view of your application security stack, allowing you to quickly confirm everything is working, or troubleshoot any tool in your application security arsenal.",
@@ -950,24 +961,6 @@
           "publishedOn": "2023-04-07T14:32:11.000Z",
           "wordCount": 1669,
           "title": "Game Bytes · April 2023"
-        },
-        {
-          "id": "https://github.blog/?p=71204",
-          "author": "Adam Hess",
-          "description": "Since the beginning, GitHub.com has been a Ruby on Rails monolith. Today, the application is nearly two million lines of code and more than 1,000 engineers collaborate on it daily. We deploy as often as 20 times a day, and nearly every week one of those deploys is a Rails upgrade. Upgrading Rails weekly Every […]",
-          "link": "https://github.blog/2023-04-06-building-github-with-ruby-and-rails/",
-          "publishedOn": "2023-04-06T18:05:43.000Z",
-          "wordCount": 1620,
-          "title": "Building GitHub with Ruby and Rails"
-        },
-        {
-          "id": "https://github.blog/?p=71167",
-          "author": "Man Yue Mo",
-          "description": "In this post, I’ll look at a security-related change in version r40p0 of the Arm Mali driver that was AWOL in the January update of the Pixel bulletin, where other patches from r40p0 was applied, and how these two lines of changes can be exploited to gain arbitrary kernel code execution and root from a malicious app. This highlights how treacherous it can be when backporting security changes.",
-          "link": "https://github.blog/2023-04-06-pwning-pixel-6-with-a-leftover-patch/",
-          "publishedOn": "2023-04-06T16:00:48.000Z",
-          "wordCount": 6228,
-          "title": "Pwning Pixel 6 with a leftover patch"
         }
       ]
     },
@@ -1126,24 +1119,6 @@
           "publishedOn": "2023-04-11T18:00:00.000Z",
           "wordCount": 1546,
           "title": "100 Conversations with Start-up Security Leaders"
-        },
-        {
-          "id": "https://hackerone.com/ceo/why-economic-downturns-put-innovation-risk-and-threaten-cybersafety",
-          "author": "Mårten Mickos",
-          "description": "",
-          "link": "https://www.hackerone.com/ceo/why-economic-downturns-put-innovation-risk-and-threaten-cybersafety",
-          "publishedOn": "2023-04-07T00:01:00.000Z",
-          "wordCount": 1297,
-          "title": "Why Economic Downturns Put Innovation at Risk And Threaten Cybersafety"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/how-hackers-are-finding-advocacy-top-hacker-cdl-speaks-his-experience",
-          "publishedOn": "2023-04-06T14:12:05.000Z",
-          "wordCount": 2069,
-          "title": "How Hackers Are Finding Advocacy: Top Hacker cdl Speaks on His Experience in the Hacker Success Program"
         }
       ]
     },
