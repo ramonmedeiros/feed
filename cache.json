@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/05/introducing-new-way-to-buzz-for-ebpf.html",
+          "author": null,
+          "description": "Juan José López Jaimez, Security Researcher and Meador Inge, Security Engineer\n\n\n\n\n\n\nToday, we are announcing Buzzer, a new eBPF Fuzzing framework that aims to help hardening the Linux Kernel.\nWhat is eBPF and how does it verify safety?\n\neBPF is a technology that allows developers and sysadmins to easily run programs in a privileged context, like an operating system kernel. Recently, its popularity has increased, with more products adopting it as, for example, a network filtering solution. At the same time, it has maintained its relevance in the security research community, since it provides a powerful attack surface into the operating system.\n\n\n\n\n\nWhile there are many solutions for fuzzing vulnerabilities in the Linux Kernel, they are not necessarily tailored to the unique features of eBP…",
+          "link": "http://security.googleblog.com/2023/05/introducing-new-way-to-buzz-for-ebpf.html",
+          "publishedOn": "2023-05-11T16:44:00.001Z",
+          "wordCount": 1655,
+          "title": "Introducing a new way to buzz for eBPF vulnerabilities"
+        },
+        {
           "id": "http://security.googleblog.com/2023/05/io-2023-android-security-and-privacy.html.html",
           "author": null,
           "description": "Posted by Ronnie Falcon, Product Manager \nSafe Browsing: faster more intelligent protection\n\n\nAndroid uses Safe Browsing to protect billions of users from web-based threats, like deceptive phishing sites. This happens in the Chrome default browser and also in Android WebView, when you open web content from apps. \n\n\nSafe Browsing is getting a big upgrade with a new real-time API that helps ensure you’re warned about fast-emerging malicious sites. With the newest version of Safe Browsing, devices will do real-time blocklist checks for low reputation sites. Our internal analysis has found that a significant number of phishing sites only exist for less than ten minutes to try and stay ahead of block-lists. With this real-time detection, we expect we’ll be able to block an additional 25 percent…",
@@ -127,6 +136,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2074",
+          "author": null,
+          "description": "There are a ton of problems around building LLM apps in production and the last mile of that problem. Travis Fischer, builder of open AI projects like @ChatGPTBot, joins us to talk through these problems (and how to overcome them). He helps us understand the hierarchy of complexity from simple prompting to augmentation, agents, and fine-tuning. Along the way we discuss the frontend developer community that is rapidly adopting AI technology via Typescript (not Python).\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nTravis Fischer – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nChatGPT Hacker Community\nChatGPTBot\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Travis Fischer & Stealth.ai\n(07:01) - Surprising uses for models\n(10:10) - Things to keep in mind\n(14:13) - How to use these tools\n(19:45) - Tips for evaluation\n(23:48) - ABCs to riding the wave\n(26:45) - The 2 AI communities\n(31:16) - Multi-faceted AI?\n(35:56) - Travis' controversial take\n(37:26) - Outro",
+          "link": "https://changelog.com/practicalai/222",
+          "publishedOn": "2023-05-11T13:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 222: The last mile of AI app development",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/222/practical-ai-222.mp3",
+            "length": "37623808",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/1/2067",
           "author": null,
@@ -441,21 +465,6 @@
             "length": "69542040",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2054",
-          "author": null,
-          "description": "What can art historians and computer scientists learn from one another? Actually, a lot! Amanda Wasielewski joins us to talk about how she discovered that computer scientists working on computer vision were actually acting like rogue art historians and how art historians have found machine learning to be a valuable tool for research, fraud detection, and cataloguing. We also discuss the rise of generative AI and how we this technology might cause us to ask new questions like: “What makes a photograph a photograph?”\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nAmanda Wasielewski – Twitter, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nComputational Formalism Art History and Machine Learning\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:42) - Amanda Wasielewski\n(04:28) - What is art history?\n(10:00) - Integrating artworks for ML?\n(13:47) - How are art historians adaption to ML?\n(19:16) - Art models and the Tank Classifier\n(24:27) - What ML devs can learn from art history\n(32:06) - Deep learning paradoxes\n(38:12) - Where is the field going?\n(42:21) - Outro",
-          "link": "https://changelog.com/practicalai/218",
-          "publishedOn": "2023-04-12T13:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 218: Computer scientists as rogue art historians",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/218/practical-ai-218.mp3",
-            "length": "41759533",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -480,6 +489,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/developers/google-io-2023-100-announcements/",
+          "author": null,
+          "description": "Google I/O 2023 was filled with news and launches — here are 100 things announced at I/O.",
+          "link": "https://blog.google/technology/developers/google-io-2023-100-announcements/",
+          "publishedOn": "2023-05-11T14:00:00.000Z",
+          "wordCount": 3521,
+          "title": "100 things we announced at I/O 2023"
+        },
         {
           "id": "https://blog.google/technology/ai/google-project-gameface/",
           "author": null,
@@ -524,6 +542,15 @@
           "publishedOn": "2023-05-10T18:02:00.000Z",
           "wordCount": 1635,
           "title": "Introducing PaLM 2"
+        },
+        {
+          "id": "https://blog.google/products/search/generative-ai-search/",
+          "author": null,
+          "description": "We’re starting with an experiment in Search Labs called SGE, Search Generative Experience, which uses generative AI.",
+          "link": "https://blog.google/products/search/generative-ai-search/",
+          "publishedOn": "2023-05-10T17:45:00.000Z",
+          "wordCount": 1548,
+          "title": "Supercharging Search with generative AI"
         },
         {
           "id": "https://blog.google/technology/ai/google-bard-updates-io-2023/",
@@ -754,15 +781,6 @@
           "publishedOn": "2023-04-13T12:16:08.507Z",
           "wordCount": 991,
           "title": "How Twitter uses rasdaemon for hardware reliability"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
-          "author": null,
-          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
-          "publishedOn": "2023-04-12T12:16:25.204Z",
-          "wordCount": 1103,
-          "title": "The data platform cluster operator service for Hadoop cluster management"
         }
       ]
     },
@@ -793,6 +811,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71876",
+          "author": "Benjamin Allen",
+          "description": "Discover the accessibility features within our new navigation and code search which make it easier to use for many more people.",
+          "link": "https://github.blog/2023-05-11-navigation-and-search-improvements-for-accessibility/",
+          "publishedOn": "2023-05-11T20:20:05.000Z",
+          "wordCount": 893,
+          "title": "Navigation and search improvements for accessibility"
+        },
+        {
+          "id": "https://github.blog/?p=71883",
+          "author": "Lukas Oppermann",
+          "description": "How Primer’s updated light and dark theme color contrast strategy resolved hundreds of color-contrast-related accessibility issues over one thousand use cases.",
+          "link": "https://github.blog/2023-05-11-unlocking-inclusive-design-how-primers-color-system-is-making-github-com-more-inclusive/",
+          "publishedOn": "2023-05-11T17:56:27.000Z",
+          "wordCount": 1687,
+          "title": "Unlocking inclusive design: how Primer’s color system is making GitHub.com more inclusive"
+        },
         {
           "id": "https://github.blog/?p=71844",
           "author": "Andrea Griffiths",
@@ -1044,15 +1080,6 @@
           "publishedOn": "2023-04-13T16:04:37.000Z",
           "wordCount": 1613,
           "title": "Ensuring compliance in developer workflows"
-        },
-        {
-          "id": "https://github.blog/?p=71292",
-          "author": "Kara Sowles",
-          "description": "Meet the projects that make up the first GitHub Accelerator cohort and learn about how GitHub is helping bring their visions to reality.",
-          "link": "https://github.blog/2023-04-12-github-accelerator-our-first-cohort-and-whats-next/",
-          "publishedOn": "2023-04-12T16:00:46.000Z",
-          "wordCount": 1233,
-          "title": "GitHub Accelerator: our first cohort and what’s next"
         }
       ]
     },
@@ -1220,24 +1247,6 @@
           "publishedOn": "2023-04-13T16:00:00.000Z",
           "wordCount": 2093,
           "title": "Ten Practical Tips For High-Value Pentest Engagements"
-        },
-        {
-          "id": "https://hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023",
-          "author": "Mahesh Chukkapali",
-          "description": "Cyber attackers are increasingly well-resourced and elusive. Yet, CyberEdge's 2023 Cyberthreat Defense Report found IT and security professionals are feeling optimistic about their ability to handle cybersecurity risk.",
-          "link": "https://www.hackerone.com/application-security/how-optimistic-can-security-professionals-afford-be-2023",
-          "publishedOn": "2023-04-12T18:00:00.000Z",
-          "wordCount": 1615,
-          "title": "How Optimistic Can Security Professionals Afford to Be in 2023?"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-remonsec",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-remonsec",
-          "publishedOn": "2023-04-12T03:44:22.000Z",
-          "wordCount": 1425,
-          "title": "Ambassador Spotlight AWC Edition: remonsec"
         }
       ]
     },
