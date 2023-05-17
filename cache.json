@@ -137,6 +137,21 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/2081",
+          "author": null,
+          "description": "At the recent ODSC East conference, Daniel got a chance to sit down with Erin Mikail Staples to discuss the process of gathering human feedback and creating an instruction tuned Large Language Models (LLM). They also chatted about the importance of open data and practical tooling for data annotation and fine-tuning. Do you want to create your own custom generative AI models? This is the episode for you!\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nErin Mikail Staples – Mastodon, Twitter\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nLabel Studio\nSlides from Erin’s recent PyData talk on RLHF\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Erin Mikail Staples\n(02:09) - Open source attendees\n(03:54) - The key to RLHF \n(05:35) - Tooling for RLHF\n(07:33) - Humanities in data science\n(11:22) - Label Studio's workflow\n(15:41) - The open data ecosystem\n(21:04) - Do data labeling\n(22:33) - Exciting changes coming\n(24:15) - DevRel(ish) and other resources\n(25:13) - Goodbyes\n(25:45) - Outro",
+          "link": "https://changelog.com/practicalai/223",
+          "publishedOn": "2023-05-16T18:20:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 223: Creating instruction tuned models",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/223/practical-ai-223.mp3",
+            "length": "25688736",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/16/2080",
           "author": null,
           "description": "Thunderbird is thriving on small donations, Syncthing is a super-cool continuous file sync program, LLMs are so hot right now and they’re making vectors hot by proxy & MDN defines a Baseline for stable web features.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:37) - Thunderbird is thriving\n(01:24) - Syncthing\n(02:10) - Vector databases\n(03:09) - Sponsor: Postman\n(03:43) - MDN's Baseline\n(04:28) - Outro (shout outs++)",
@@ -450,21 +465,6 @@
             "length": "89601347",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2055",
-          "author": null,
-          "description": "Kara Deloss announces GitHub Accelerator’s 2023 cohort, Databricks releases the first open source, instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for research and commercial use, Mihai Parparita writes how he improved Tailscale thanks to Apple’s open source & Neal Fennimore asks and answers the question: Passkeys: what the heck and why?!\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:32) - GitHub's first Accelerator\n(01:29) - Databricks frees Dolly!\n(03:11) - Improving Tailscale via OSS\n(04:20) - Sponsor: Postman\n(05:56) - What the heck are passkeys?\n(07:28) - Outro",
-          "link": "https://changelog.com/news/40",
-          "publishedOn": "2023-04-17T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 40: Free Dolly, GitHub Accelerator's cohort, improving Tailscale via Apple’s open source & what the heck are passkeys?!",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/40/changelog-news-40.mp3",
-            "length": "8349517",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -641,6 +641,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=22325",
+          "author": "Daniel Stenberg",
+          "description": "We are back with the first release since that crazy March day when we did two releases on the same day. First 8.0.0 shipped that bumped the major version for the first time in decades. Then curl 8.0.1 followed just hours after, due to a serious mess-up in the factory lines. Release video presentation Numbers … Continue reading curl 8.1.0 – http2 over proxy →",
+          "link": "https://daniel.haxx.se/blog/2023/05/17/curl-8-1-0-http2-over-proxy/",
+          "publishedOn": "2023-05-17T06:24:56.000Z",
+          "wordCount": 1205,
+          "title": "curl 8.1.0 – http2 over proxy"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=22379",
           "author": "Daniel Stenberg",
           "description": "Keeping up with the tradition. A little over two years since the curl reaching 20,000 GitHub stars celebrations I am here to post a new photo as we just surpassed 30,000 stars on curl/curl. This post is slightly delayed just because I happened to be traveling when I realized we had climbed above this mark, … Continue reading 30,000 GitHub stars →",
@@ -811,6 +820,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=71945",
+          "author": "Mike Hanley",
+          "description": "GitHub recently experienced several availability incidents, both long running and shorter duration. We have since mitigated these incidents and all systems are now operating normally. Read on for more details about what caused these incidents and what we’re doing to mitigate in the future.",
+          "link": "https://github.blog/2023-05-16-addressing-githubs-recent-availability-issues/",
+          "publishedOn": "2023-05-16T18:33:22.000Z",
+          "wordCount": 1659,
+          "title": "Addressing GitHub’s recent availability issues"
+        },
         {
           "id": "https://github.blog/?p=71925",
           "author": "Martin Woodward",
@@ -1062,15 +1080,6 @@
           "publishedOn": "2023-04-18T16:26:11.000Z",
           "wordCount": 610,
           "title": "GitHub joins industry commitment to curb cyber mercenaries"
-        },
-        {
-          "id": "https://github.blog/?p=71365",
-          "author": "Walker Chabbott",
-          "description": "We’ve gotten great feedback on default setup, a simple way to set up code scanning on your repository. Now, you have the ability to use default setup across your organization's repositories, in just one click.",
-          "link": "https://github.blog/2023-04-17-multi-repository-enablement-effortlessly-scale-code-scanning-across-your-repositories/",
-          "publishedOn": "2023-04-17T18:13:41.000Z",
-          "wordCount": 1475,
-          "title": "Multi-repository enablement: effortlessly scale code scanning across your repositories"
         }
       ]
     },
@@ -1154,6 +1163,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/hackerone-community-blog/decoding-hackerone-code-conduct",
+          "author": "HackerOne",
+          "description": "As the industry continues to rapidly evolve, it is on HackerOne to try to ensure that we align with the industry norms of Code of Conduct management.",
+          "link": "https://www.hackerone.com/hackerone-community-blog/decoding-hackerone-code-conduct",
+          "publishedOn": "2023-05-16T16:00:00.000Z",
+          "wordCount": 919,
+          "title": "Decoding the HackerOne Code of Conduct"
+        },
         {
           "id": "https://hackerone.com/fdas-new-cybersecurity-requirements-are-you-prepared-medical-device-manufacturer",
           "author": "Kayla Underkoffler",
@@ -1261,15 +1279,6 @@
           "publishedOn": "2023-04-18T22:00:00.000Z",
           "wordCount": 1713,
           "title": "Make Your Cybersecurity Dollars Last Longer"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/bench-time-results-ambassador-world-cups-first-round",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/bench-time-results-ambassador-world-cups-first-round",
-          "publishedOn": "2023-04-17T22:10:58.000Z",
-          "wordCount": 1293,
-          "title": "Bench Time: Results from the Ambassador World Cup’s First Round"
         }
       ]
     },
