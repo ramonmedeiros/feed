@@ -6,6 +6,60 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/06/announcing-chrome-browser-full-chain.html",
+          "author": null,
+          "description": "Amy Ressler, Chrome Security Team on behalf of the Chrome VRP\n\n\n\nFor 13 years, a key pillar of the Chrome Security ecosystem has included encouraging security researchers to find security vulnerabilities in Chrome browser and report them to us, through the Chrome Vulnerability Rewards Program.\n\n\nStarting today and until 1 December 2023, the first security bug report we receive with a functional full chain exploit, resulting in a Chrome sandbox escape, is eligible for triple the full reward amount. Your full chain exploit could result in a reward up to $180,000 (potentially more with other bonuses).\n\n\n \n\n\nAny subsequent full chains submitted during this time are eligible for double the full reward amount! \n\n\nWe have historically put a premium on reports with exploits –  “high quality report…",
+          "link": "http://security.googleblog.com/2023/06/announcing-chrome-browser-full-chain.html",
+          "publishedOn": "2023-06-01T15:59:00.000Z",
+          "wordCount": 971,
+          "title": "Announcing the Chrome Browser Full Chain Exploit Bonus"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/05/adding-chrome-browser-cloud-management.html",
+          "author": null,
+          "description": "Posted by Ashish Pujari, Chrome Security Team\n\n\nIntroduction\n\n\nChrome is trusted by millions of business users as a secure enterprise browser. Organizations can use Chrome Browser Cloud Management to help manage Chrome browsers more effectively. As an admin, they can use the Google Admin console to get Chrome to report critical security events to third-party service providers such as Splunk® to create custom enterprise security remediation workflows.\n\n\nSecurity remediation is the process of responding to security events that have been triggered by a system or a user. Remediation can be done manually or automatically, and it is an important part of an enterprise security program.\n\n\nWhy is Automated Security Remediation Important?\n\n\nWhen a security event is identified, it is imperative to re…",
+          "link": "http://security.googleblog.com/2023/05/adding-chrome-browser-cloud-management.html",
+          "publishedOn": "2023-05-31T16:00:00.001Z",
+          "wordCount": 1692,
+          "title": "Adding Chrome Browser Cloud Management remediation actions in Splunk using Alert Actions"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/05/time-to-challenge-yourself-in-2023-google-ctf2023.html",
+          "author": null,
+          "description": "Vincent Winstead, Technical Program Manager\n\n\n\n\n\n\n\nIt’s Google CTF time! Get your hacking toolbox ready and prepare your caffeine for rapid intake. The competition kicks off on June 23 2023 6:00 PM UTC and runs through June 25 2023 6:00 PM UTC. Registration is now open at g.co/ctf.\n\n\n\n\n\nGoogle CTF gives you a chance to challenge your skillz, show off your hacktastic abilities, and learn some new tricks along the way. It consists of a set of computer security puzzles (or challenges) involving reverse-engineering, memory corruption, cryptography, web technologies, and more. Use obscure security knowledge to find exploits through bugs and creative misuse. With each completed challenge your team will earn points and move up through the ranks. \n\n\n\n\n\nThe top 8 teams will qualify for our Hackcele…",
+          "link": "http://security.googleblog.com/2023/05/time-to-challenge-yourself-in-2023-google-ctf2023.html",
+          "publishedOn": "2023-05-26T21:55:00.021Z",
+          "wordCount": 1484,
+          "title": "Time to challenge yourself in the 2023 Google CTF!"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/05/google-trust-services-acme-api_0503894189.html",
+          "author": null,
+          "description": "David Kluge, Technical Program Manager, and Andy Warner, Product Manager\n\n\n\n\n\n\n\n\n\nNobody likes preventable site errors, but they happen disappointingly often. \n\n\n\nThe last thing you want your customers to see is a dreaded 'Your connection is not private' error instead of the service they expected to reach. Most certificate errors are preventable and one of the best ways to help prevent issues is by automating your certificate lifecycle using the ACME standard. Google Trust Services now offers our ACME API to all users with a Google Cloud account (referred to as “users” here), allowing them to automatically acquire and renew publicly-trusted TLS certificates for free. The ACME API has been available as a preview and over 200 million certificates have been issued already, offering the same c…",
+          "link": "http://security.googleblog.com/2023/05/google-trust-services-acme-api_0503894189.html",
+          "publishedOn": "2023-05-25T16:00:00.046Z",
+          "wordCount": 2582,
+          "title": "Google Trust Services ACME API available to all users at no cost"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/05/announcing-launch-of-guac-v01.html",
+          "author": null,
+          "description": "Brandon Lum and Mihai Maruseac, Google Open Source Security Team\n\n\n\n\nToday, we are announcing the launch of the v0.1 version of Graph for Understanding Artifact Composition (GUAC). Introduced at Kubecon 2022 in October, GUAC targets a critical need in the software industry to understand the software supply chain. In collaboration with Kusari, Purdue University, Citi, and community members, we have incorporated feedback from our early testers to improve GUAC and make it more useful for security professionals. This improved version is now available as an API for you to start developing on top of, and integrating into, your systems.\nThe need for GUAC\nHigh-profile incidents such as Solarwinds, and the recent 3CX supply chain double-exposure, are evidence that supply chain attacks are getting m…",
+          "link": "http://security.googleblog.com/2023/05/announcing-launch-of-guac-v01.html",
+          "publishedOn": "2023-05-24T16:01:00.008Z",
+          "wordCount": 3175,
+          "title": "Announcing the launch of GUAC v0.1"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/05/how-chrome-root-program-keeps-users-safe.html",
+          "author": null,
+          "description": "Posted by Chrome Root Program, Chrome Security Team\n\n\n\nWhat is the Chrome Root Program?\nannounced in September 2022. If you missed it, don’t worry -  we’ll give you a quick summary below!\n\nChrome Root Program: TL;DR\ndigital certificates (often referred to as “certificates,” “HTTPS certificates,” or “server authentication certificates”) to ensure the connections it makes for its users are secure and private. Certificates are issued by trusted entities called “Certification Authorities” (CAs). The collection of digital certificates, CA systems, and other related online services is the foundation of HTTPS and is often referred to as the “Web PKI.”\n\n\nBefore issuing a certificate to a website, the CA must verify that the certificate requestor legitimately controls the domain whose name will be …",
+          "link": "http://security.googleblog.com/2023/05/how-chrome-root-program-keeps-users-safe.html",
+          "publishedOn": "2023-05-23T16:01:00.002Z",
+          "wordCount": 1681,
+          "title": "How the Chrome Root Program Keeps Users Safe"
+        },
+        {
           "id": "http://security.googleblog.com/2023/05/new-android-google-device-VRP.html",
           "author": null,
           "description": "Posted by Sarah Jacobus, Vulnerability Rewards Team \n\n\nAs technology continues to advance, so do efforts by cybercriminals who look to exploit vulnerabilities in software and devices. This is why at Google and Android, security is a top priority, and we are constantly working to make our products more secure. One way we do this is through our Vulnerability Reward Programs (VRP), which incentivize security researchers to find and report vulnerabilities in our operating system and devices. \n\n\nWe are pleased to announce that we are implementing a new quality rating system for security vulnerability reports to encourage more security research in higher impact areas of our products and ensure the security of our users.  This system will rate vulnerability reports as High, Medium, or Low quality…",
@@ -58,60 +112,6 @@
           "publishedOn": "2023-05-05T15:02:00.001Z",
           "wordCount": 2903,
           "title": "Introducing rules_oci"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/so-long-passwords-thanks-for-all-phish.html",
-          "author": null,
-          "description": "By: Arnar Birgisson and Diana K Smetters, Identity Ecosystems and Google Account Security and Safety teams\n\n\n\n\nStarting today, you can create and use passkeys on your personal Google Account. When you do, Google will not ask for your password or 2-Step Verification (2SV) when you sign in.\n\n\n\n\n\nPasskeys are a more convenient and safer alternative to passwords. They work on all major platforms and browsers, and allow users to sign in by unlocking their computer or mobile device with their fingerprint, face recognition or a local PIN.\n\n\n\n\n\nUsing passwords puts a lot of responsibility on users. Choosing strong passwords and remembering them across various accounts can be hard. In addition, even the most savvy users are often misled into giving them up during phishing attempts. 2SV (2FA/MFA) he…",
-          "link": "http://security.googleblog.com/2023/05/so-long-passwords-thanks-for-all-phish.html",
-          "publishedOn": "2023-05-03T12:00:00.001Z",
-          "wordCount": 2906,
-          "title": "So long passwords, thanks for all the phish"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/google-and-apple-lead-initiative-for.html",
-          "author": null,
-          "description": "Companies welcome input from industry participants and advocacy groups on a draft specification to alert users in the event of suspected unwanted tracking\n\n\n“Bluetooth trackers have created tremendous user benefits but also bring the potential of unwanted tracking, which requires industry-wide action to solve,” said Dave Burke, Google’s vice president of Engineering for Android. “Android has an unwavering commitment to protecting users and will continue to develop strong safeguards and collaborate with the industry to help combat the misuse of Bluetooth tracking devices.”\n\n\n“Apple launched AirTag to give users the peace of mind knowing where to find their most important items,” said Ron Huang, Apple’s vice president of Sensing and Connectivity. “We built AirTag and the Find My network with…",
-          "link": "http://security.googleblog.com/2023/05/google-and-apple-lead-initiative-for.html",
-          "publishedOn": "2023-05-02T13:01:00.002Z",
-          "wordCount": 1061,
-          "title": "Google and Apple lead initiative for an industry specification to address unwanted tracking"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/04/secure-mobile-payment-transactions.html",
-          "author": null,
-          "description": "Posted by Rae Wang, Director of Product Management (Android Security and Privacy Team) \n\n\nUnlike other mobile OSes, Android is built with a transparent, open-source architecture. We firmly believe that our users and the mobile ecosystem at-large should be able to verify Android’s security and safety and not just take our word for it. \nThe Assurance of Android Protected Confirmation\nannounced they’re working with Google on a pilot project to establish Protected Confirmation as a common application programmable interface standard. In a pilot planned for 2023, UBS online banking customers with Pixel 6 or 7 devices can use Android Protected Confirmation backed by StrongBox, a certified hardware vault with physical attack protections, to confirm payments and verify online purchases through a hardware-based confirmation in their UBS Access App. \n\n\nDemonstrating Real-World Use for Android Protection Confirmation\n\n\nWe’ve been working closely with UBS to bring this pilot to life and ensure they’re able to test it on Google Pixel devices. Demonstrating real-world use cases that are enabled by Android Protected Confirmation unlocks the promise of this technology by delivering improved and innovative experiences for our users. We’re seeing interest in Android Protected Confirmation across the industry and OEMs are increasingly looking at how to build even more hardware-based confirmation into critical security user moments. We look forward to forming an industry alliance that will work together to strengthen mobile security and home in on protecting confirmation support.",
-          "link": "http://security.googleblog.com/2023/04/secure-mobile-payment-transactions.html",
-          "publishedOn": "2023-04-28T15:59:00.002Z",
-          "wordCount": 784,
-          "title": "Secure mobile payment transactions enabled by Android Protected Confirmation"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/04/how-we-fought-bad-apps-and-bad-actors.html",
-          "author": null,
-          "description": "Posted by Anu Yamunan and Khawaja Shams (Android Security and Privacy Team), and Mohet Saxena (Compute Trust and Safety)\n\n\nKeeping Google Play safe for users and developers remains a top priority for Google. Google Play Protect continues to scan billions of installed apps each day across billions of Android devices to keep users safe from threats like malware and unwanted software. \n\n\nIn 2022, we prevented 1.43 million policy-violating apps from being published on Google Play in part due to new and improved security features and policy enhancements — in combination with our continuous investments in machine learning systems and app review processes. We also continued to combat malicious developers and fraud rings, banning 173K bad accounts, and preventing over $2 billion in fraudulent and …",
-          "link": "http://security.googleblog.com/2023/04/how-we-fought-bad-apps-and-bad-actors.html",
-          "publishedOn": "2023-04-27T14:59:00.001Z",
-          "wordCount": 1416,
-          "title": "How we fought bad apps and bad actors in 2022"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/04/celebrating-slsa-v10-securing-software.html",
-          "author": null,
-          "description": "Bob Callaway, Staff Security Engineer, Google Open Source Security team\n\n\nLast week the Open Source Security Foundation (OpenSSF) announced the release of SLSA v1.0, a framework that helps secure the software supply chain. Ten years of using an internal version of SLSA at Google has shown that it’s crucial to warding off tampering and keeping software secure. It’s especially gratifying to see SLSA reaching v1.0 as an open source project—contributors have come together to produce solutions that will benefit everyone. \n\nSLSA for safer supply chains \nU.S. Executive Order on Cybersecurity and the associated NIST Secure Software Development Framework (SSDF) to guide national standards for software used by the U.S. government, as well as the Network and Information Security (NIS2) Directive in t…",
-          "link": "http://security.googleblog.com/2023/04/celebrating-slsa-v10-securing-software.html",
-          "publishedOn": "2023-04-26T15:00:00.003Z",
-          "wordCount": 1114,
-          "title": "Celebrating SLSA v1.0: securing the software supply chain for everyone"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/04/google-authenticator-now-supports.html",
-          "author": null,
-          "description": "Christiaan Brand, Group Product Manager\n\n\n\n\n\n\n\n\n\n\nWe are excited to announce an update to Google Authenticator, across both iOS and Android, which adds the ability to safely backup your one-time codes (also known as one-time passwords or OTPs) to your Google Account.\n\n\n\nAcross all of your online accounts, signing in is the front door to your personal information. It’s also the primary entry point for risks, making it important to protect.\n\n\n\nWe make signing into Google, and all the apps and services you love, simple and secure with built-in authentication tools like Google Password Manager and Sign in with Google, as well as automatic protections like alerts when your Google Account is being accessed from a new device. \n\n\n\nWe released Google Authenticator in 2010 as a free and easy way for…",
-          "link": "http://security.googleblog.com/2023/04/google-authenticator-now-supports.html",
-          "publishedOn": "2023-04-24T16:00:00.001Z",
-          "wordCount": 1168,
-          "title": "Google Authenticator now supports Google Account synchronization"
         }
       ]
     },
@@ -119,23 +119,188 @@
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://testing.googleblog.com/2023/04/sensenmann-code-deletion-at-scale.html",
-          "author": null,
-          "description": "By Phil Norman\nCode at Scale\nAt Google, tens of thousands of software engineers contribute to a multi-billion-line mono-repository. This repository, stored in a system called Piper, contains the source code of shared libraries, production services, experimental programs, diagnostic and debugging tools: basically anything that's code-related.\n\nThis open approach can be very powerful. For example, if an engineer is unsure how to use a library, they can find examples just by searching. It also allows kind-hearted individuals to perform important updates across the whole repository, be that migrating to newer APIs, or following language developments such as Python 3, or Go generics.\n\nCode, however, doesn't come for free: it's expensive to produce, but also costs real engineering time to mainta…",
-          "link": "http://testing.googleblog.com/2023/04/sensenmann-code-deletion-at-scale.html",
-          "publishedOn": "2023-04-28T12:24:00.000Z",
-          "wordCount": 4030,
-          "title": "Sensenmann: Code Deletion at Scale"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Changelog",
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/2092",
+          "author": null,
+          "description": "KBall interviews Nick Nisi about the Pandora’s box that is his tooling/developer setup. Starting at the lowest layer of the terminal emulator he uses, they move upwards into command line tools, into Tmux (terminals within terminals!), his epic NeoVim configuration, and finally into the tools he uses for notekeeping and productivity.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nNick Nisi – Twitter, GitHub, Website\n\nShow Notes:\n\nNick’s Dotfiles\nKitty\nWezTerm\nNerd Fonts\nRipGrep\nfzf\nZoxide\ntmux\nNeovim\nLua\nLazy.nvim\nTelescope.nvim\nZettelkasten\nObsidian\nYabai\nRaycast\nOmnifocus\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:45) - The one and only\n(01:47) - dotfiles\n(02:56) - Homebrew\n(05:50) - Nerd Fonts\n(07:29) - WezTerm\n(10:32) - RipGrep\n(12:02) - fzf\n(15:24) - Zoxide\n(17:15) - Sponsor: Changelog News\n(18:38) - tmux\n(30:21) - Neovim\n(34:16) - Plugins\n(42:59) - His beloved TypeScript\n(44:16) - Obsidian\n(50:44) - Yabai\n(53:31) - Raycast\n(55:46) - Omnifocus\n(58:01) - Closing time\n(59:12) - Outro",
+          "link": "https://changelog.com/jsparty/278",
+          "publishedOn": "2023-06-01T17:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 278: Digging through Nick Nisi’s tool box",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/278/js-party-278.mp3",
+            "length": "58237921",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/2091",
+          "author": null,
+          "description": "This week on The Changelog we’re continuing our Maintainer Month series by taking to you back to the hallway track of The Linux Foundation’s Open Source Summit North America 2023 in Vancouver, Canada. Today’s anthology episode features: Stormy Peters (VP of Communities at GitHub), Dr. Dawn Foster (Director of Open Source Community Strategy at VMware), and Angie Byron (Drupal Core Product Manager and Community Director at Aiven).\nSpecial thanks to our friends at GitHub for sponsoring us to attend this conference as part of Maintainer Month.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nGitHub – Harnessed for productivity. Designed for collaboration. Celebrated for built-in security. Welcome to the platfo…",
+          "link": "https://changelog.com/podcast/542",
+          "publishedOn": "2023-05-31T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 542: ANTHOLOGY — Maintaining maintainers",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/542/the-changelog-542.mp3",
+            "length": "86589181",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/2072",
+          "author": null,
+          "description": "Return guests Ben Johnson & Chris James join Mat & Kris to talk about the files and folders of your Go projects, big and small. Does the holy grail exist, of the perfect structure to rule them all? Or are we doomed to be figuring this out for the rest of our lives?\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nBen Johnson – Twitter, GitHub, Website\nChris James – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nBen’s post about package layout\nRuss Cox saying this is NOT standard\nChris’ unpopular opinion\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:44) - Introducing our guests\n(03:34) - What are files and folders?\n(08:12) - _opperatingSystem\n(15:51) - What folders we choose\n(20:22) - Packages depending on each other\n(23:37) - Just one folder? Or multiple\n(32:55) - Sponsor: Changelog News\n(34:49) - Is there a correct way?\n(36:30) - Vendor folders\n(37:45) - How do we know if it's wrong?\n(44:57) - Unpopular opinions\n(45:28) - Ben Johnson's unpop\n(49:40) - Chris James' unpop\n(55:19) - Kris Brandow's unpop\n(1:00:12) - Wrapping up\n(1:02:49) - Outro",
+          "link": "https://changelog.com/gotime/278",
+          "publishedOn": "2023-05-31T19:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 278: The files & folders of Go projects",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/278/go-time-278.mp3",
+            "length": "62223965",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/2095",
+          "author": null,
+          "description": "You can’t build robust systems with inconsistent, unstructured text output from LLMs. Moreover, LLM integrations scare corporate lawyers, finance departments, and security professionals due to hallucinations, cost, lack of compliance (e.g., HIPAA), leaked IP/PII, and “injection” vulnerabilities.\nIn this episode, Chris interviews Daniel about his new company called Prediction Guard, which addresses these issues. They discuss some practical methodologies for getting consistent, structured output from compliant AI systems. These systems, driven by open access models and various kinds of LLM wrappers, can help you delight customers AND navigate the increasing restrictions on “GPT” models.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear.…",
+          "link": "https://changelog.com/practicalai/225",
+          "publishedOn": "2023-05-31T17:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 225: Controlled and compliant AI applications",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/225/practical-ai-225.mp3",
+            "length": "47926213",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/16/2094",
+          "author": null,
+          "description": "The Gorilla team is building an API store for LLMs, DeviceScript is Microsoft’s new TypeScript programming environment for microcontrollers, Nyxt is a hackable browser written in Lisp, Morgan Housel writes about expectations debt & I issue a gentle reminder to my fellow software engineers: there’s still no silver bullet.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nRaycast – Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more. Turn Pro to harness the power of AI, make Raycast your own with custom themes, keep your Macs in sync and more on the way.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:49) - Gorilla\n(01:47) - DeviceScript\n(02:34) - Nyxt\n(03:13) - Sponsor: Raycast\n(04:00) - Expectations Debt\n(05:36) - Still no silver bullet\n(07:20) - Outro",
+          "link": "https://changelog.com/news/46",
+          "publishedOn": "2023-05-30T20:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 46: An API store for LLMs, DeviceScript, Nyxt: the hacker's browser, expectations debt & there's still no silver bullet",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/46/changelog-news-46.mp3",
+            "length": "7705389",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/17/2086",
+          "author": null,
+          "description": "What if your favorite conference’s hallway track continued year round? That’s the vibe we’re trying to capture with Changelog & Friends, a new Friday talk show from your friends at Changelog. In this intro episode, Adam & Jerod talk all about our new MWF plan for The Changelog , discuss what this Friends flavor is all about, and have a lot of fun along the way.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nMonday: Changelog News\nWednesday: Changelog Interviews\nFriday: Changelog & Friends\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:38) - The new place for...\n(02:59) - Trying new things\n(04:27) - The first experiment\n(07:41) - Jason Seifer!\n(11:57) - \"2 minutes or less\"\n(12:48) - Playing with a new toy\n(14:50) - Missing a talk show\n(17:37) - More timely plz\n(20:04) - Trying to simplify\n(21:12) - The rename that wasn't\n(22:29) - Changelogonomics\n(26:02) - Something worth sharing\n(27:25) - The private public beta\n(29:45) - The Changelog feed\n(31:46) - Adam's long-winded questions\n(32:22) - How we manage\n(33:32) - News is a lot\n(37:02) - Send in your requests!\n(38:04) - What we're looking forward to\n(41:13) - Capturing the vibe\n(41:40) - Outro banger",
+          "link": "https://changelog.com/friends/1",
+          "publishedOn": "2023-05-26T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 1: Introducing Changelog & Friends",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/1/changelog--friends-1.mp3",
+            "length": "41870970",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/2082",
+          "author": null,
+          "description": "Nick is excited to explain CVA to us like we’re five (then again like we’re 41).\nexcited to share details of his new stack (for the new app he’s building).\nexcited to share some recent news items (but he’s the only one).\nAnd finally, we’re all excited to debate TypeScript vs JSDoc comments!\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNick Nisi – Twitter, GitHub, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nClass Variance Authority\nKBall’s new stack\n\nQwikCity\nJoist-ORM\nBun’s new bundler\nMDN’s new Baseline\nJavaScript’s new frontend framework: VanJS\n\nkriszyp/put-selector\nRich Harris quote\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:46) - Let's get excited\n(02:28) - CVA... ELI5!\n(08:11) - CVA... ELI41!\n(11:50) - Cleanup in aisle Tailwind\n(15:12) - @apply vs CVA\n(18:10) - Type safe composition\n(19:51) - Sponsor: Changelog News\n(21:44) - KBall's new stack\n(26:25) - GenAI diversion\n(27:17) - KBall's full stack\n(31:20) - KBall's new app\n(35:11) - Coding: the fun parts\n(41:12) - Bun's new bundler\n(44:14) - MDN's new Baseline\n(48:24) - VanJS\n(52:50) - TypeScript vs JSDoc\n(58:09) - Dance it out\n(58:42) - Next up on the pod",
+          "link": "https://changelog.com/jsparty/277",
+          "publishedOn": "2023-05-25T18:15:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 277: Exciting! Exciting? !Exciting",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/277/js-party-277.mp3",
+            "length": "58004807",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/2068",
+          "author": null,
+          "description": "This week on The Changelog we’re taking you to the hallway track of The Linux Foundation’s Open Source Summit North America 2023 in Vancouver, Canada. Today’s anthology episode features: Beyang Liu (Co-founder and CTO at Sourcegraph), Denny Lee (Developer Advocate at Databricks), and Stella Biderman (Executive Director and Head of Research at EleutherAI).\nSpecial thanks to our friends at GitHub for sponsoring us to attend this conference as part of Maintainer Month.\nLeave us a comment\nChangelog++ members get a bonus 3 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nDevCycle – Build better software with DevCycle. Feature flags, without the tech debt. DevCycle is a Feature Flag Management platform designed to help you build maintainable code at scale.\n\nSentry – See…",
+          "link": "https://changelog.com/podcast/541",
+          "publishedOn": "2023-05-24T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 541: ANTHOLOGY — Open source AI",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/541/the-changelog-541.mp3",
+            "length": "94357877",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/posts/2583",
+          "author": "Jerod Santo",
+          "description": "The late, great Fred Brooks wrote many words about software engineering. You may have heard of Brooks’s Law or read his seminal book, The Mythical Man-Month. Even if you haven’t, you’ve probably heard at least one colleague proclaim:\nNine women can’t make a baby in one month!\nThis is a powerful metaphor for two reasons. First: it’s so vivid that it’s hard to forget (and easy to recall in a time of need). Second: it makes obvious a not-so-obvious conclusion. Which is:\nAdding manpower to a late software project makes it later.\nThat’s a hard pill to swallow, especially when your project is late. But it’s a truth pill, which makes it worth choking down. Here’s another truth pill that Brooks wrote in his paper No Silver Bullet–Essence and Accident in Software Engineering:\nThere is no single dev…",
+          "link": "https://changelog.com/posts/still-no-silver-bullet",
+          "publishedOn": "2023-05-24T16:25:22.000Z",
+          "wordCount": null,
+          "title": "There's still no silver bullet",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/2/2035",
+          "author": null,
+          "description": "Now that you’ve aced that CFP, the gang is back to share our best tips & tricks to help you give your best conference talk ever.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nNatalie Pistunovich – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nGo Time #265: How to ace that CFP\nGo Time #164: Why writing is important\nxkcd #2501\nPhind: AI search engine for devs\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:58) - Eurovision\n(03:53) - Conferences!\n(16:59) - The crowd doesn't know what you meant to say\n(25:25) - Dealing with attention seakers\n(32:36) - Introducing yourself in a talk\n(45:03) - How to ace your talk\n(50:10) - Twitter handles on your slides?\n(57:12) - AI opinions\n(1:00:30) - Phind\n(1:05:27) - Johnny's unpop\n(1:14:44) - Gotta go!\n(1:15:37) - Next time on Go Time",
+          "link": "https://changelog.com/gotime/277",
+          "publishedOn": "2023-05-23T20:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 277: How to ace that talk",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/277/go-time-277.mp3",
+            "length": "74364830",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/2085",
+          "author": null,
+          "description": "Large Language Models (LLMs) continue to amaze us with their capabilities. However, the utilization of LLMs in production AI applications requires the integration of private data. Join us as we have a captivating conversation with Jerry Liu from LlamaIndex, where he provides valuable insights into the process of data ingestion, indexing, and query specifically tailored for LLM applications. Delving into the topic, we uncover different query patterns and venture beyond the realm of vector databases.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nJerry Liu – Twitter, GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nLlamaIndex Docs\nLlamaHub\nLlamaIndex Blog\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Jerry Liu\n(04:28) - LlamaIndex\n(08:12) - What do I get?\n(11:23) - More power less work\n(13:26) - Fitting the pieces together\n(16:49) - 3 Levels of integrating\n(19:13) - How to think about indexing\n(21:44) - Defining embedding\n(23:09) - Index vs Vector storage\n(25:07) - Alternatives\n(30:41) - Query scheme workflow\n(35:22) - Evaluating responses\n(40:03) - Awesome new stuff\n(43:23) - Links and show notes\n(44:05) - Outro",
+          "link": "https://changelog.com/practicalai/224",
+          "publishedOn": "2023-05-23T16:15:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 224: Data augmentation with LlamaIndex",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/224/practical-ai-224.mp3",
+            "length": "43282511",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/16/2084",
+          "author": null,
+          "description": "Will McGugan’s Trogon auto-generates friendly TUIs for your CLI apps, Stability AI’s official open source variant of DreamStudio, John Calhoun writes about life after 26 years programming at Apple, Google’s news TLDs could be a boon to scammers & Pablo Meier documents a way to discuss programming languages.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – See the untested code causing errors - or whether it’s partially or fully covered - directly in your stack trace, so you can avoid similar errors from happening in the future. Use the code CHANGELOG and get the team plan free for three months.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:47) - Trogon\n(01:53) - StableStudio\n(03:00) - Life after Apple\n(04:42) - Sponsor: Sentry\n(05:26) - Google's new TLDs\n(06:44) - Discussing programming languages\n(07:40) - Outro",
+          "link": "https://changelog.com/news/45",
+          "publishedOn": "2023-05-22T19:20:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 45: Trogon, StableStudio, life after Apple, Google's problematic new TLDs & how to discuss programming languages",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/45/changelog-news-45.mp3",
+            "length": "8291783",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/6/2078",
           "author": null,
@@ -315,141 +480,6 @@
             "length": "71677652",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/2056",
-          "author": null,
-          "description": "José Valim joins Jerod to talk all about what’s new in Livebook – the Elixir-based interactive code notebook he’s been working on the last few years.\nJosé made a big bet when he decided to bring machine learning to Elixir. That bet is now paying off with amazing new capabilities such as building and deploying a Whisper-based chat app to Hugging Face in just 15 minutes.\nJosé demoed that and much more during Livebook’s first-ever launch week. Let’s get into it.\nLeave us a comment\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Get to the root cause of an error or latency issue faster by seeing all the technical details related to that issue in one visual replay on your web application. Use the code CHANGELOG and get t…",
-          "link": "https://changelog.com/podcast/538",
-          "publishedOn": "2023-05-03T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 538: Livebook's big launch week",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/538/the-changelog-538.mp3",
-            "length": "79590386",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2066",
-          "author": null,
-          "description": "Model sizes are crazy these days with billions and billions of parameters. As Mark Kurtz explains in this episode, this makes inference slow and expensive despite the fact that up to 90%+ of the parameters don’t influence the outputs at all.\nMark helps us understand all of the practicalities and progress that is being made in model optimization and CPU inference, including the increasing opportunities to run LLMs and other Generative AI models on commodity hardware.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nMark Kurtz – Twitter, LinkedIn\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nNeural Magic\nSparseML\nSparseZoo\nNeural Magic Scales up MLPerf™ Inference v3.0 Performance With Demonstrated Power Efficiency; No GPUs Needed\nDeploy Optimized Hugging Face Models With DeepSparse and SparseZoo\nSparseGPT: Remove 100 Billion Parameters for Free\nSomething missing or broken? PRs welcome!\nTimestamps:\n(03:24) - Why does LLM size matter?\n(06:15) - GPUs vs. CPUs\n(08:45) - Overcoming perception\n(10:54) - Most parameters dont affect results\n(16:01) - Balancing space & sparsity\n(17:47) - Tackling performance hits\n(20:38) - Aware optimization vs not?\n(23:52) - Community tools\n(26:11) - Neural Magic tools\n(29:56) - Supporting new architecture\n(31:40) - Exciting research trends\n(34:52) - Looking forward in this space\n(37:05) - Outro",
-          "link": "https://changelog.com/practicalai/221",
-          "publishedOn": "2023-05-02T16:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 221: Large models on CPUs",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/221/practical-ai-221.mp3",
-            "length": "37164744",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/16/2065",
-          "author": null,
-          "description": "Hyperswitch is like the adapter pattern for payments, Austin Henley writes about the future of programming by summarizing recent research papers, Thoughtworks published their 28th volume of their Tech Radar, the team at General Products reminds devs to scan our technical writing for words such as “easy”, “painless”, “straightforward”, “trivial”, “simple” and “just” & we finish with a lightning round of cool tools.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:31) - Hyperswitch\n(01:19) - The future of programming\n(02:28) - Thoughtworks Tech Radar\n(03:47) - Sponsor: Postman\n(04:43) - JustSimply.dev\n(05:44) - Lightning round\n(06:20) - Outro",
-          "link": "https://changelog.com/news/42",
-          "publishedOn": "2023-05-01T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 42: Hyperswitch, the future of programming, Thoughtworks' latest tech radar & your docs aren't \"simple\"",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/42/changelog-news-42.mp3",
-            "length": "6982876",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/2038",
-          "author": null,
-          "description": "Adam Argyle joins Amelia and Nick to catch them up on all the goings on within the world of CSS colors. There are a lot more options than you’d expect if you haven’t been keeping up, and Adam’s here to help you avoid the “gray dead zone”!\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more a…",
-          "link": "https://changelog.com/jsparty/273",
-          "publishedOn": "2023-04-28T16:40:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 273: CSS Color Party 🎉",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/273/js-party-273.mp3",
-            "length": "71700723",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/2/2044",
-          "author": null,
-          "description": "Go conferences are not as diverse as we’d like them to be. There are initiatives in place to improve this situation. Among other roles, Ronna Steinberg is the Head of Diversity at GopherCon Europe. In this episode we’ll learn more about the goal, the process and the problems, and how can each one of us help make this better.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nRonna Steinberg – Twitter, GitHub\nKaylyn Gibilterra – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:44) - Welcoming our guests\n(09:49) - The diversity problem at confs\n(13:41) - Welcoming environments\n(26:57) - On diversity scholarships\n(46:50) - Sponsor: Changelog News\n(48:38) - Roundtables & de-rails\n(1:02:12) - Recommendations\n(1:09:40) - It's time for Unpopular Opinions!\n(1:10:01) - Ronna's unpop\n(1:11:49) - Kaylyn's unpop\n(1:13:22) - Natalie's unpop\n(1:13:49) - Kris' unpop\n(1:17:10) - Gotta Go!\n(1:17:26) - Next time on Go Time",
-          "link": "https://changelog.com/gotime/274",
-          "publishedOn": "2023-04-27T16:45:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 274: Diversity at conferences",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/274/go-time-274.mp3",
-            "length": "76189070",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/1/2026",
-          "author": null,
-          "description": "This week Adam talks with Andy Klein from Backblaze about hard drive reliability at scale.\nLeave us a comment\nChangelog++ members get a bonus 15 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nDevCycle – Build better software with DevCycle. Feature flags, without the tech debt. DevCycle is a Feature Flag Management platform designed to help you build maintainable code at scale.\n\nSentry – See the untested code causing errors - or whether it’s partially or fully covered - directly in your stack trace, so you can avoid similar errors from happening in the future. Use the code CHANGELOG and get the team plan free for three months.\n\nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of …",
-          "link": "https://changelog.com/podcast/537",
-          "publishedOn": "2023-04-26T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 537: Hard drive reliability at scale",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/537/the-changelog-537.mp3",
-            "length": "97115701",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2061",
-          "author": null,
-          "description": "With all the LLM hype, it’s worth remembering that enterprise stakeholders want answers to “why” questions. Enter causal inference. Paul Hünermund has been doing research and writing on this topic for some time and joins us to introduce the topic. He also shares some relevant trends and some tips for getting started with methods including double machine learning, experimentation, difference-in-difference, and more.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy you…",
-          "link": "https://changelog.com/practicalai/220",
-          "publishedOn": "2023-04-25T16:35:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 220: Causal inference",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/220/practical-ai-220.mp3",
-            "length": "40858338",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/16/2060",
-          "author": null,
-          "description": "The dataset wars are heating up, Bark is a transformer-based text-to-audio model that can generate highly realistic, multilingual speech as well as other audio, Kent Beck needs to recalibrate after using ChatGPT, the team behind Stable Diffusion release a new open source language model & Mitchel Hashimoto weighs in on prompt engineering.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Session Replay! Rewind and replay every step of the user’s journey before and after they encountered an issue. Eliminate the guesswork and get to the root cause of an issue, faster. Use the code CHANGELOG and get the team plan free for three months.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:47) - Dataset wars\n(02:05) - Bark\n(03:07) - Kent Beck\n(04:12) - StableLM\n(05:05) - Sponsor: Sentry\n(06:10) - Blind prompting\n(07:12) - Outro",
-          "link": "https://changelog.com/news/41",
-          "publishedOn": "2023-04-24T19:25:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 41: Dataset wars, Bark, Kent Beck needs to recalibrate, StableLM & blind prompting is not prompt engineering",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/41/changelog-news-41.mp3",
-            "length": "7998519",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/2051",
-          "author": null,
-          "description": "Feross and his team at Socket recently shipped a wrapper library for the ubiquitous npm package manager’s command-line interface that brings enhanced security when you need it most: before executing any code\nBradly Farias lead this effort, so Jerod & Chris invited him on the show to learn all about it.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (…",
-          "link": "https://changelog.com/jsparty/272",
-          "publishedOn": "2023-04-21T17:15:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 272: Making \"safe npm\"",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/272/js-party-272.mp3",
-            "length": "60074418",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -459,13 +489,13 @@
       "siteUrl": "https://blog.comma.ai/",
       "articles": [
         {
-          "id": "https://blog.comma.ai/dumb-questions/",
+          "id": "https://blog.comma.ai/092release/",
           "author": null,
-          "description": "We get these questions over and over, and I figured it was worth writing a blog post to address them. Then, instead of reanswering them, we can just link to this blog post.",
-          "link": "https://blog.comma.ai/dumb-questions/",
-          "publishedOn": "2023-04-25T18:00:00.000Z",
-          "wordCount": 968,
-          "title": "Dumb Questions"
+          "description": "New driving model, Ford support, and faster boot time!",
+          "link": "https://blog.comma.ai/092release/",
+          "publishedOn": "2023-05-24T00:00:00.000Z",
+          "wordCount": 1138,
+          "title": "openpilot 0.9.2"
         }
       ]
     },
@@ -474,6 +504,24 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/products/search/search-generative-ai-tips/",
+          "author": null,
+          "description": "Today, we’re starting to open up access to SGE (Search Generative Experience), one of our first experiments in Search Labs.",
+          "link": "https://blog.google/products/search/search-generative-ai-tips/",
+          "publishedOn": "2023-05-25T15:00:00.000Z",
+          "wordCount": 1243,
+          "title": "3 new ways generative AI can help you search"
+        },
+        {
+          "id": "https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/",
+          "author": null,
+          "description": "AI-powered Flood Hub is expanding to nearly 80 countries worldwide.",
+          "link": "https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/",
+          "publishedOn": "2023-05-22T14:00:00.000Z",
+          "wordCount": 1156,
+          "title": "Helping more people stay safe with flood forecasting"
+        },
         {
           "id": "https://blog.google/technology/ai/a-policy-agenda-for-responsible-ai-progress-opportunity-responsibility-security/",
           "author": null,
@@ -599,33 +647,6 @@
           "publishedOn": "2023-05-08T11:00:00.000Z",
           "wordCount": 1370,
           "title": "How 4 startups are using AI to solve climate change challenges"
-        },
-        {
-          "id": "https://blog.google/technology/ai/checks-googles-ai-powered-privacy-platform/",
-          "author": null,
-          "description": "Checks takes the complexity out of compliance, using AI to help companies quickly discover, communicate and fix issues.",
-          "link": "https://blog.google/technology/ai/checks-googles-ai-powered-privacy-platform/",
-          "publishedOn": "2023-05-03T17:00:00.000Z",
-          "wordCount": 1177,
-          "title": "Checks, Google’s AI-powered privacy platform"
-        },
-        {
-          "id": "https://blog.google/outreach-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/",
-          "author": null,
-          "description": "Four new online interactive artworks from Google Arts & Culture Lab artists in residence",
-          "link": "https://blog.google/outreach-initiatives/arts-culture/try-4-new-arts-and-ai-experiments/",
-          "publishedOn": "2023-05-03T09:00:00.000Z",
-          "wordCount": 969,
-          "title": "Try 4 new Arts and AI experiments"
-        },
-        {
-          "id": "https://blog.google/technology/ai/code-with-bard/",
-          "author": null,
-          "description": "Bard can now help with programming and software development tasks, across more than 20 programming languages.",
-          "link": "https://blog.google/technology/ai/code-with-bard/",
-          "publishedOn": "2023-04-21T13:00:00.000Z",
-          "wordCount": 1179,
-          "title": "Bard now helps you code"
         }
       ]
     },
@@ -634,6 +655,51 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=22610",
+          "author": "Daniel Stenberg",
+          "description": "This is the second follow-up patch release in the 8.1.x series due to regressions and bugs that are too annoying to leave lingering around. Release video Numbers the 219th release0 changes7 days (total: 9,202)14 bug-fixes (total: 9,045)22 commits (total: 30,4290 new public libcurl function (total: 91)0 new curl_easy_setopt() option (total: 302)0 new curl command line … Continue reading curl 8.1.2 ate one too →",
+          "link": "https://daniel.haxx.se/blog/2023/05/30/8-1-2-ate-one-too/",
+          "publishedOn": "2023-05-30T06:28:55.000Z",
+          "wordCount": 544,
+          "title": "curl 8.1.2 ate one too"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=22434",
+          "author": "Daniel Stenberg",
+          "description": "There is again a pull-request submitted to the curl project to bring support for the Gemini protocol. It seems like a worthwhile effort that I support, even if it is also a lot of work involved and it might take some time before it reaches the state in which it can be merged. A previous … Continue reading The Gemini protocol seen by this HTTP client person →",
+          "link": "https://daniel.haxx.se/blog/2023/05/28/the-gemini-protocol-seen-by-this-http-client-person/",
+          "publishedOn": "2023-05-28T14:20:43.000Z",
+          "wordCount": 3302,
+          "title": "The Gemini protocol seen by this HTTP client person"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=22389",
+          "author": "Daniel Stenberg",
+          "description": "For widely used, widely distributed open source project such as curl, we often have little to no relation at all with our users and therefore it is hard to get feedback and learn what works and what is less good. Our best and primary way is thus simply to ask users every year how they … Continue reading curl user survey 2023 →",
+          "link": "https://daniel.haxx.se/blog/2023/05/24/curl-user-survey-2023/",
+          "publishedOn": "2023-05-24T21:38:54.000Z",
+          "wordCount": 583,
+          "title": "curl user survey 2023"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=21773",
+          "author": "Daniel Stenberg",
+          "description": "I was invited, and I have accepted, to become a member of Polhemsrådet, the “Polhem Council”, that works for the Polhem Prize nomination committee and serves to appoint the award winners. I consider it a great honor to get to serve on this board. I am not an engineer by education, but I do know … Continue reading Polhemsrådet →",
+          "link": "https://daniel.haxx.se/blog/2023/05/24/polhemsradet/",
+          "publishedOn": "2023-05-24T07:15:03.000Z",
+          "wordCount": 446,
+          "title": "Polhemsrådet"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=22424",
+          "author": "Daniel Stenberg",
+          "description": "Only 6 days since the previous release we are again here with a curl release. It turned out 8.1.0 had some rather nasty regressions that we felt were urgent enough to warrant another round on the dance floor. So here goes curl 8.1.1. A bugfix release. Release presentation Numbers the 218th release0 changes6 days (total: … Continue reading curl 8.1.1 lets do this →",
+          "link": "https://daniel.haxx.se/blog/2023/05/23/curl-8-1-1-lets-do-this/",
+          "publishedOn": "2023-05-23T06:17:43.000Z",
+          "wordCount": 752,
+          "title": "curl 8.1.1 lets do this"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=22325",
           "author": "Daniel Stenberg",
@@ -660,33 +726,6 @@
           "publishedOn": "2023-05-05T11:08:35.000Z",
           "wordCount": 1079,
           "title": "CVE as JSON"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22296",
-          "author": "Daniel Stenberg",
-          "description": "First: performance is tricky and bechmarking even more so. I will talk some numbers in this post but of course they are what I have measured for my specific tests on my machine. Your numbers for your test cases will be different. Over the last six months or so, curl has undergone a number of … Continue reading curl 8 is faster →",
-          "link": "https://daniel.haxx.se/blog/2023/04/28/curl-8-is-faster/",
-          "publishedOn": "2023-04-28T11:06:09.000Z",
-          "wordCount": 890,
-          "title": "curl 8 is faster"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22214",
-          "author": "Daniel Stenberg",
-          "description": "Let me tell you a story about how Windows users are deleting files from their installation and as a consequence end up in tears. Background The real and actual curl tool has been shipped as part of Windows 10 and Windows 11 for many years already. It is called curl.exe and is located in the … Continue reading deleting system32\\curl.exe →",
-          "link": "https://daniel.haxx.se/blog/2023/04/24/deleting-system32curl-exe/",
-          "publishedOn": "2023-04-24T09:31:25.000Z",
-          "wordCount": 954,
-          "title": "deleting system32\\curl.exe"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22160",
-          "author": "Daniel Stenberg",
-          "description": "I am honored to yet again receive a peer bonus award from Google. This is a Google program for which persons like me can be nominated by Googlers and as a result receive grants. I previously receive such an award in 2020. Update A few people noticed and have commented on the fact that this … Continue reading Google Open Source Peer Bonus award 2023 →",
-          "link": "https://daniel.haxx.se/blog/2023/04/23/google-open-source-peer-bonus-award-2023/",
-          "publishedOn": "2023-04-23T21:14:54.000Z",
-          "wordCount": 335,
-          "title": "Google Open Source Peer Bonus award 2023"
         }
       ]
     },
@@ -695,6 +734,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "author": null,
+          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "publishedOn": "2023-06-02T12:02:40.340Z",
+          "wordCount": 890,
+          "title": "Data Quality Automation at Twitter"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
           "author": null,
@@ -721,60 +769,6 @@
           "publishedOn": "2023-05-13T12:14:04.218Z",
           "wordCount": 1103,
           "title": "The data platform cluster operator service for Hadoop cluster management"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
-          "author": null,
-          "description": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
-          "publishedOn": "2023-05-02T12:16:23.618Z",
-          "wordCount": 1761,
-          "title": "Twitter's Recommendation Algorithm"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "publishedOn": "2023-04-28T12:15:10.124Z",
-          "wordCount": 915,
-          "title": "How we scaled Reads On the Twitter Users Database"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "publishedOn": "2023-04-28T12:15:10.112Z",
-          "wordCount": 1725,
-          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "publishedOn": "2023-04-28T12:15:10.099Z",
-          "wordCount": 3410,
-          "title": "Kerberizing Hadoop Clusters at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "author": null,
-          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "publishedOn": "2023-04-26T12:15:52.080Z",
-          "wordCount": 2277,
-          "title": "Measuring the impact of Twitter network latency with CausalImpact"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
-          "author": null,
-          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
-          "publishedOn": "2023-04-23T12:15:35.610Z",
-          "wordCount": 1985,
-          "title": "Constraint Management for cluster operation safety and reliability at Twitter"
         }
       ]
     },
@@ -782,17 +776,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2023/04/technical-report-into-intel-tdx.html",
-          "author": null,
-          "description": "ol{margin:0;padding:0}table td,table th{padding:0}.RqhFbizZKN-c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:normal}.RqhFbizZKN-c2{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left}.RqhFbizZKN-c4{text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#1155cc;text-decoration:underline}.RqhFbizZKN-c1{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}.RqhFbizZKN-c7{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.RqhFbizZKN-c5{color:inherit;text-decoration:inherit}.RqhFbizZKN-c3{border:1px solid black;margin:5px}.RqhFbizZKN-c6{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:\"Arial\";l…",
-          "link": "https://googleprojectzero.blogspot.com/2023/04/technical-report-into-intel-tdx.html",
-          "publishedOn": "2023-04-24T16:27:00.000Z",
-          "wordCount": 611,
-          "title": "Release of a Technical Report into Intel Trust Domain Extensions"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -805,6 +789,69 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=72156",
+          "author": "Klint Finley",
+          "description": "Experts explain how to recruit and onboard co-maintainers.",
+          "link": "https://github.blog/2023-06-01-elevating-open-source-contributors-to-open-source-maintainers/",
+          "publishedOn": "2023-06-01T17:46:43.000Z",
+          "wordCount": 2811,
+          "title": "Elevating open source contributors to open source maintainers"
+        },
+        {
+          "id": "https://github.blog/?p=72174",
+          "author": "Taylor Blau",
+          "description": "The open-source Git project just released Git 2.41. Take a look at our highlights on what’s new in Git 2.41.",
+          "link": "https://github.blog/2023-06-01-highlights-from-git-2-41/",
+          "publishedOn": "2023-06-01T16:34:28.000Z",
+          "wordCount": 2959,
+          "title": "Highlights from Git 2.41"
+        },
+        {
+          "id": "https://github.blog/?p=72106",
+          "author": "Eric Sorenson",
+          "description": "Help quantify the state of enterprise open source by taking the 2023 OSPO survey.",
+          "link": "https://github.blog/2023-05-25-the-2023-open-source-program-office-ospo-survey-is-live/",
+          "publishedOn": "2023-05-25T17:00:28.000Z",
+          "wordCount": 556,
+          "title": "The 2023 Open Source Program Office (OSPO) Survey is live!"
+        },
+        {
+          "id": "https://github.blog/?p=72040",
+          "author": "Man Yue Mo",
+          "description": "In this blog, I’ll look at CVE-2022-46395, a variant of CVE-2022-36449 (Project Zero issue 2327), and use it to gain arbitrary kernel code execution and root privileges from the untrusted app domain on an Android phone that uses the Arm Mali GPU. I’ll also explain how root cause analysis of CVE-2022-36449 led to the discovery of CVE-2022-46395.",
+          "link": "https://github.blog/2023-05-25-rooting-with-root-cause-finding-a-variant-of-a-project-zero-bug/",
+          "publishedOn": "2023-05-25T16:00:59.000Z",
+          "wordCount": 5987,
+          "title": "Rooting with root cause: finding a variant of a Project Zero bug"
+        },
+        {
+          "id": "https://github.blog/?p=72048",
+          "author": "April Edwards",
+          "description": "Low-code enables developers and non-developers to build custom applications and solutions with less effort. In this blog, we show you how to automate your low-code deployments using GitHub Actions.",
+          "link": "https://github.blog/2023-05-24-how-to-automate-a-microsoft-power-platform-deployment-using-github-actions/",
+          "publishedOn": "2023-05-24T18:04:56.000Z",
+          "wordCount": 1019,
+          "title": "How to automate a Microsoft Power Platform deployment using GitHub Actions"
+        },
+        {
+          "id": "https://github.blog/?p=72055",
+          "author": "Neha Batra",
+          "description": "In this special episode of The ReadME Podcast, dedicated to GitHub’s Maintainer Month, Kelsey Hightower joins hosts Martin Woodward and Neha Batra to discuss his philosophy on fostering thriving open source communities and the importance of empathy to a maintainer’s success.",
+          "link": "https://github.blog/2023-05-24-kelsey-hightower-on-leadership-in-open-source-and-the-future-of-kubernetes/",
+          "publishedOn": "2023-05-24T16:00:53.000Z",
+          "wordCount": 895,
+          "title": "Kelsey Hightower on leadership in open source and the future of Kubernetes"
+        },
+        {
+          "id": "https://github.blog/?p=72033",
+          "author": "Walker Chabbott",
+          "description": "GitHub Advanced Security for Azure DevOps is now available for public preview, making GitHub’s same application security testing tools natively available on Azure Repos.",
+          "link": "https://github.blog/2023-05-23-announcing-the-public-preview-of-github-advanced-security-for-azure-devops/",
+          "publishedOn": "2023-05-23T15:00:43.000Z",
+          "wordCount": 1028,
+          "title": "Announcing the public preview of GitHub Advanced Security for Azure DevOps"
+        },
         {
           "id": "https://github.blog/?p=72003",
           "author": "Rachel Heller",
@@ -1002,78 +1049,6 @@
           "publishedOn": "2023-05-04T17:35:32.000Z",
           "wordCount": 1703,
           "title": "All In for Students 2023 cohort: our biggest group of open source leaders yet!"
-        },
-        {
-          "id": "https://github.blog/?p=71593",
-          "author": "Jakub Oleksy",
-          "description": "In April, we experienced four incidents that resulted in degraded performance across GitHub services. This report also sheds light into three March incidents that resulted in degraded performance across GitHub services.",
-          "link": "https://github.blog/2023-05-03-github-availability-report-april-2023/",
-          "publishedOn": "2023-05-03T21:00:32.000Z",
-          "wordCount": 1596,
-          "title": "GitHub Availability Report: April 2023"
-        },
-        {
-          "id": "https://github.blog/?p=71577",
-          "author": "Mike Melanson",
-          "description": "Creating an open source project can feel a bit like sending out an open invite to a party—will it be a roaring good time, or will you unbegrudginly dine on leftover junk food for the following week after nobody shows? When the first guest arrives, you breathe a sigh of relief. The party’s a success, […]",
-          "link": "https://github.blog/2023-05-03-more-than-meets-the-pull-request-maintainers-talk-contributions/",
-          "publishedOn": "2023-05-03T16:00:42.000Z",
-          "wordCount": 4184,
-          "title": "More than meets the pull request: maintainers talk contributions"
-        },
-        {
-          "id": "https://github.blog/?p=71558",
-          "author": "Eric Tooley",
-          "description": "A new alert rules engine for Dependabot leverages alert metadata to identify and auto-dismiss up to 15% of alerts as false positives.",
-          "link": "https://github.blog/2023-05-02-dependabot-relieves-alert-fatigue-from-npm-devdependencies/",
-          "publishedOn": "2023-05-02T20:36:16.000Z",
-          "wordCount": 939,
-          "title": "Dependabot relieves alert fatigue from npm devDependencies"
-        },
-        {
-          "id": "https://github.blog/?p=71529",
-          "author": "Martin Woodward",
-          "description": "Open source’s impact on nuclear fusion research, adapting to technological change, and mastering GitHub essentials.",
-          "link": "https://github.blog/2023-04-28-this-month-on-the-readme-podcast-exploring-the-fusion-of-technology-and-progress/",
-          "publishedOn": "2023-04-28T16:00:45.000Z",
-          "wordCount": 1005,
-          "title": "This month on The ReadME Podcast: exploring the fusion of technology and progress"
-        },
-        {
-          "id": "https://github.blog/?p=71491",
-          "author": "Kedasha Kerr",
-          "description": "Learn some tips, tricks, and tools for mastering the command line from GitHub’s own developers.",
-          "link": "https://github.blog/2023-04-26-cli-tricks-every-developer-should-know/",
-          "publishedOn": "2023-04-26T16:00:18.000Z",
-          "wordCount": 1891,
-          "title": "CLI tricks every developer should know"
-        },
-        {
-          "id": "https://github.blog/?p=71479",
-          "author": "Taylor Blau",
-          "description": "A new set of Git releases were published to address a variety of security vulnerabilities. All users are encouraged to upgrade. Take a look at GitHub’s view of the latest round of releases.",
-          "link": "https://github.blog/2023-04-25-git-security-vulnerabilities-announced-4/",
-          "publishedOn": "2023-04-25T17:13:36.000Z",
-          "wordCount": 1244,
-          "title": "Git security vulnerabilities announced"
-        },
-        {
-          "id": "https://github.blog/?p=71475",
-          "author": "Abby Cabunoc Mayes",
-          "description": "Are you looking for ways to support open source maintainers? Maintainer Month is the perfect opportunity!",
-          "link": "https://github.blog/2023-04-25-gearing-up-for-maintainer-month-this-may/",
-          "publishedOn": "2023-04-25T16:00:30.000Z",
-          "wordCount": 687,
-          "title": "Gearing up for Maintainer Month this May!"
-        },
-        {
-          "id": "https://github.blog/?p=71471",
-          "author": "Kyle Daigle",
-          "description": "GitHub is driving the future of software development and, after 10 years as a Hubber, I’m more energized than ever as I take on the role of COO to help bring our vision to life.",
-          "link": "https://github.blog/2023-04-25-shaping-the-github-of-the-future-as-coo/",
-          "publishedOn": "2023-04-25T14:00:50.000Z",
-          "wordCount": 680,
-          "title": "Shaping the GitHub of the future as COO"
         }
       ]
     },
@@ -1082,6 +1057,24 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=21004",
+          "author": "Cristiano Dalbem - Product Design at Nubank",
+          "description": "A walk-through of the different techniques we used to define and prioritize some of the biggest pain points of our customer support team.\nThe post Designing Shuffle, the internal tool that powers Nubank’s award-winning customer service appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/designing-shuffle-the-internal-tool-that-powers-nubanks-award-winning-customer-service/",
+          "publishedOn": "2023-05-30T22:14:02.000Z",
+          "wordCount": 7146,
+          "title": "Designing Shuffle, the internal tool that powers Nubank’s award-winning customer service"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=20934",
+          "author": "BU Team",
+          "description": "From monolithic to microservices: learn how Nubank's Controlinho streamlines data control and enhances reporting.\nThe post Controlinho: Nubank’s answer to democratizing data appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/controlinho-nubanks-answer-to-democratizing-data/",
+          "publishedOn": "2023-05-26T15:01:12.000Z",
+          "wordCount": 4407,
+          "title": "Controlinho: Nubank’s answer to democratizing data"
+        },
         {
           "id": "https://building.nubank.com.br/?p=20868",
           "author": "Nubank Editorial",
@@ -1140,24 +1133,6 @@
           "publishedOn": "2023-05-04T23:01:35.000Z",
           "wordCount": 3383,
           "title": "Nu México joins to the list of LinkedIn’s Best Companies 2023"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20734",
-          "author": "Nubank Editorial",
-          "description": "How to pursuit  operational excellence as  we navigate through seeking to solve the conundrum of how to implement processes that minimize problems and prevent incidents.\nThe post Engineering operational excellence, a case of continuous improvement appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/engineering-operational-excellence-case-continuous-improvement/",
-          "publishedOn": "2023-05-03T12:47:23.000Z",
-          "wordCount": 4602,
-          "title": "Engineering operational excellence, a case of continuous improvement"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20684",
-          "author": "Nubank Editorial",
-          "description": "Discover how Nubank, a leading digital bank, revolutionizes the financial industry by leveraging cutting-edge technology, including Datomic.\nThe post Datomic is now available free of licensing fees appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/datomic-is-available-free-of-licensing-fees/",
-          "publishedOn": "2023-04-27T16:31:17.000Z",
-          "wordCount": 3913,
-          "title": "Datomic is now available free of licensing fees"
         }
       ]
     },
@@ -1166,6 +1141,33 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/year-hackerones-bug-bounty-program",
+          "author": "Rafael de Carvalho",
+          "description": "",
+          "link": "https://www.hackerone.com/year-hackerones-bug-bounty-program",
+          "publishedOn": "2023-05-30T22:00:00.000Z",
+          "wordCount": 2258,
+          "title": "A Year In HackerOne’s Bug Bounty Program"
+        },
+        {
+          "id": "https://hackerone.com/guest-blog-governments-across-world-are-mandating-vulnerability-disclosure-so-why-are-companies",
+          "author": "alice@hackerone.com",
+          "description": "",
+          "link": "https://www.hackerone.com/guest-blog-governments-across-world-are-mandating-vulnerability-disclosure-so-why-are-companies",
+          "publishedOn": "2023-05-24T22:00:00.000Z",
+          "wordCount": 1914,
+          "title": "GUEST BLOG: Governments Across The World Are Mandating Vulnerability Disclosure So Why Are Companies Sitting On Their Hands?"
+        },
+        {
+          "id": "https://hackerone.com/vulnerability-disclosure/guest-blog-vulnerability-disclosure-adoption-consumer-iot-space-lagging",
+          "author": "alice@hackerone.com",
+          "description": "",
+          "link": "https://www.hackerone.com/vulnerability-disclosure/guest-blog-vulnerability-disclosure-adoption-consumer-iot-space-lagging",
+          "publishedOn": "2023-05-19T22:00:00.000Z",
+          "wordCount": 1726,
+          "title": "GUEST BLOG: Vulnerability Disclosure Adoption In The Consumer IoT space Is Lagging, But What About Elsewhere?"
+        },
         {
           "id": "https://hackerone.com/hackerone-community-blog/decoding-hackerone-code-conduct",
           "author": "HackerOne",
@@ -1210,60 +1212,6 @@
           "publishedOn": "2023-05-08T22:05:16.000Z",
           "wordCount": 2136,
           "title": "HackBackBetter Sponsorship: Learn What Younger Coders Think About Hackers and Tips for Secure Code Review"
-        },
-        {
-          "id": "https://hackerone.com/events/rsa-2023-top-trends-beyond-ai-tools-and-products",
-          "author": "Mahesh Chukkapali",
-          "description": "",
-          "link": "https://www.hackerone.com/events/rsa-2023-top-trends-beyond-ai-tools-and-products",
-          "publishedOn": "2023-05-04T00:00:00.000Z",
-          "wordCount": 1083,
-          "title": "RSA 2023: Top Trends - Beyond AI, Tools, and Products"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/heads-hackers-update-our-mediation-team",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/heads-hackers-update-our-mediation-team",
-          "publishedOn": "2023-04-29T15:43:38.000Z",
-          "wordCount": 753,
-          "title": "Heads Up Hackers: An Update from Our Mediation Team"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-blaklis",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/ambassador-spotlight-awc-edition-blaklis",
-          "publishedOn": "2023-04-28T15:06:03.000Z",
-          "wordCount": 1252,
-          "title": "Ambassador Spotlight AWC Edition: Blaklis"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/evolution-hackerones-live-hacking-events",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/evolution-hackerones-live-hacking-events",
-          "publishedOn": "2023-04-27T00:47:32.000Z",
-          "wordCount": 651,
-          "title": "The Evolution of HackerOne's Live Hacking Events"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/best-practice-makes-perfect",
-          "author": "Chris Evans",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/best-practice-makes-perfect",
-          "publishedOn": "2023-04-24T19:09:35.000Z",
-          "wordCount": 2444,
-          "title": "(Best) Practice Makes Perfect"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/getting-started-high-school-bug-hunter-cubeds-hacker-afk",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/getting-started-high-school-bug-hunter-cubeds-hacker-afk",
-          "publishedOn": "2023-04-21T18:31:07.000Z",
-          "wordCount": 2030,
-          "title": "Getting Started as a High School Bug Hunter: Cubed's Hacker AFK"
         }
       ]
     },
@@ -1272,6 +1220,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/f99490fdf1ba",
+          "author": "Netflix Technology Blog",
+          "description": "By Jose Fernandez, Ed Barker, Hank Jacobs",
+          "link": "https://netflixtechblog.com/ensuring-the-successful-launch-of-ads-on-netflix-f99490fdf1ba?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-06-01T19:22:48.000Z",
+          "wordCount": 1043,
+          "title": "Ensuring the Successful Launch of Ads on Netflix"
+        },
         {
           "id": "https://medium.com/p/c75cd7989b6d",
           "author": "Netflix Technology Blog",
@@ -1298,15 +1255,6 @@
           "publishedOn": "2023-05-04T21:32:37.000Z",
           "wordCount": 2426,
           "title": "Migrating Critical Traffic At Scale with No Downtime — Part 1"
-        },
-        {
-          "id": "https://medium.com/p/e691c60dc61e",
-          "author": "Netflix Technology Blog",
-          "description": "Ruchir Jha, Brian Harrington, Yingwu Zhao",
-          "link": "https://netflixtechblog.com/improved-alerting-with-atlas-streaming-eval-e691c60dc61e?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-04-27T20:52:51.000Z",
-          "wordCount": 1645,
-          "title": "Improved Alerting with Atlas Streaming Eval"
         }
       ]
     },
