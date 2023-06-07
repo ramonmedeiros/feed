@@ -94,24 +94,6 @@
           "publishedOn": "2023-05-10T18:59:00.001Z",
           "wordCount": 1818,
           "title": "I/O 2023: What's new in Android security and privacy"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/making-authentication-faster-than-ever.html",
-          "author": null,
-          "description": "Silvia Convento, Senior UX Researcher, Court Jacinic, Senior UX Content Designer, Becca Shareff, User Experience Researcher\n\n\n\n\n\n\nIn recognition of World Password Day 2023, Google announced its next step toward a passwordless future: passkeys. \n\n\n\nPasskeys are a new, passwordless authentication method that offer a convenient authentication experience for sites and apps, using just a fingerprint, face scan or other screen lock. They are designed to enhance online security for users. Because they are based on the public key cryptographic protocols that underpin security keys, they are resistant to phishing and other online attacks, making them more secure than SMS, app based one-time passwords and other forms of multi-factor authentication (MFA). And since passkeys are standardized, a single…",
-          "link": "http://security.googleblog.com/2023/05/making-authentication-faster-than-ever.html",
-          "publishedOn": "2023-05-05T16:00:00.005Z",
-          "wordCount": 1803,
-          "title": "Making authentication faster than ever: passkeys vs. passwords"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/introducing-rulesoci.html",
-          "author": null,
-          "description": "Appu Goundan, Google Open Source Security Team\n\n\nToday, we are announcing the General Availability 1.0 version of rules_oci, an open-sourced Bazel plugin (“ruleset”) that makes it simpler and more secure to build container images with Bazel. This effort was a collaboration we had with Aspect and the Rules Authors Special Interest Group. In this post, we’ll explain how rules_oci differs from its predecessor, rules_docker, and describe the benefits it offers for both container image security and the container community. \n\n\n\nBazel and Distroless for supply chain security\n\n\nGoogle’s popular build and test tool, known as Bazel, is gaining fast adoption within enterprises thanks to its ability to scale to the largest codebases and handle builds in almost any language. Because Bazel manages and c…",
-          "link": "http://security.googleblog.com/2023/05/introducing-rulesoci.html",
-          "publishedOn": "2023-05-05T15:02:00.001Z",
-          "wordCount": 2903,
-          "title": "Introducing rules_oci"
         }
       ]
     },
@@ -126,6 +108,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2102",
+          "author": null,
+          "description": "Lately.AI has been working for years on content generation systems that capture your unique “voice” and are tailored to your unique audience. At first, they didn’t know that they were going to build an AI system, but now they have a state-of-the-art generative platform that provides much more than “prompting” out of thin air. Lately.AI’s CEO Kate explain their journey, her perspective on generative AI in marketing, and much more in this episode!\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nKate Bradley Chernis – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nLately.AI\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Kate from Lately AI\n(01:47) - Origins of Lately\n(04:04) - Initial intentions\n(08:19) - Capabilities of Lately\n(14:17) - What is voice?\n(16:10) - Beyond a formula\n(19:27) - Approaching the problem\n(23:23) - More human?\n(28:16) - Sponsor: Changelog News\n(29:40) - Silence is sometimes the best practice\n(30:38) - The megaphone vs the magnet\n(33:07) - Non-profit vs for profit\n(35:49) - Calm down everybody\n(39:08) - New things coming\n(40:46) - Goodbyes\n(41:16) - Outro",
+          "link": "https://changelog.com/practicalai/226",
+          "publishedOn": "2023-06-06T20:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 226: Accidentally building SOTA AI",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/226/practical-ai-226.mp3",
+            "length": "40586394",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/2046",
+          "author": null,
+          "description": "Tips, tricks, best practices and philosophical AI debates abound when OpenAI ambassador Bram Adams joins Natalie, Johnny & Mat to discuss prompt engineering.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nBram Adams – Twitter, GitHub, Website\nNatalie Pistunovich – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJohnny Boursiquot – Twitter, GitHub, Website\n\nShow Notes:\n\nDJ by Spotify\nStenography\nRLHF\nPhind\nKarpathy building a kind of Jarvis\nShip of Theseus\nmicrosoft/guidance\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:45) - Introducing our guests\n(10:02) - Intro to prompt engineering\n(12:34) - Lay person prompt engineering\n(21:29) - Prompt hacking\n(25:20) - Sponsor: Changelog News\n(26:45) - \"Her\" isn't so far off!\n(35:48) - AI is inevitable\n(41:20) - Creativity in AI\n(44:56) - Practical prompt engineering\n(49:02) - Unpopular opinions!\n(49:43) - Bram's unpop\n(56:10) - AI implants\n(1:00:37) - Johnny's unpop\n(1:03:52) - Natalie's unpop\n(1:06:45) - Outro",
+          "link": "https://changelog.com/gotime/279",
+          "publishedOn": "2023-06-06T18:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 279: Of prompts and engineers",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/279/go-time-279.mp3",
+            "length": "65989150",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/16/2101",
+          "author": null,
+          "description": "The Astro team releases a new documentation builder, legendary computer scientist Donald Knuth plays with ChatGPT, over 500 volunteer mods have signed an open letter to Stack Overflow Inc, Reddit faces a revolt due to their new API pricing & the Technology Innovation Institute release Falcon, a new open source LLM that’s topping Hugging Face’s leaderboard.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nHasuraCon 2023 – Our friends at Hasura would like to invite you to HasuraCon on June 20th through the 22nd! Three days to learn, share, celebrate, and geek out on the future of Hasura and data APIs. And best of all, it’s 100% FREE and easily accessible online. Get all the details and register today hasura.io/hasuracon\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:32) - Starlight\n(01:55) - Knuth asks ChatGPT\n(03:15) - Sponsor: HasuraCon 2023\n(04:25) - Stack Overflow mods strike\n(05:30) - Reddit API pricing revolt\n(06:22) - New open source LLM champ\n(07:01) - Unpop roundup!\n(09:11) - Outro",
+          "link": "https://changelog.com/news/47",
+          "publishedOn": "2023-06-05T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 47: Starlight, Knuth asks ChatGPT, Stack Overflow mods strike, Reddit API pricing revolt & open source AI has a new champ",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/47/changelog-news-47.mp3",
+            "length": "9578396",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/4/2063",
           "author": null,
@@ -450,51 +477,6 @@
             "length": "67677059",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2073",
-          "author": null,
-          "description": "Jeremy Howard thinks Mojo might be the biggest programming language advance in decades, Amelia Wattenberger is not impressed by AI chatbots, a leaked Google memo admits big tech has no AI moats & Werner Vogels reminds us that monoliths are not dinosaurs.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Get to the root cause of an error or latency issue faster by seeing all the technical details related to that issue in one visual replay on your web application. Use the code CHANGELOG and get the team plan free for three months.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:14) - Mojo Lang\n(01:53) - Boo to AI chatbots\n(03:15) - Sponsor: Sentry\n(03:50) - No AI moat\n(04:48) - Monoliths != dinosaurs\n(05:26) - Outro\n(06:05) - Rajiv Shah on LLMs",
-          "link": "https://changelog.com/news/43",
-          "publishedOn": "2023-05-08T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 43: Mojo might be huge, chatbots aren't it, big tech lacks an AI moat & monoliths are not dinosaurs",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/43/changelog-news-43.mp3",
-            "length": "9422651",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/4/2049",
-          "author": null,
-          "description": "This week Adam is joined by Michael Grinich, Founder & CEO at WorkOS. Michael shares his journey to build WorkOS, what it takes to cross the Enterprise Chasm, and how he’s building his sales organization for growth.\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Get to the root cause of an error or latency issue faster by seeing all the technical details related to that issue in one visual replay on your web application. Use the code CHANGELOG and get the team plan free for three months.\n\nPostman – Build APIs together — More than 20 million developers use Postman for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—f…",
-          "link": "https://changelog.com/founderstalk/96",
-          "publishedOn": "2023-05-05T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Founders Talk 96: Selling to Enterprise",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/founderstalk/96/founders-talk-96.mp3",
-            "length": "118273255",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/2058",
-          "author": null,
-          "description": "Dax Raad joins KBall and Nick to chat about SST, a framework that makes it easier to build full-stack applications on AWS. We chat about how the project got started and its goals. Then we discuss OpenNext, an open source, framework-agnostic server less adapter for Next.js.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the w…",
-          "link": "https://changelog.com/jsparty/274",
-          "publishedOn": "2023-05-05T19:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 274: SST and OpenNext",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/274/js-party-274.mp3",
-            "length": "55661879",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -653,15 +635,6 @@
           "publishedOn": "2023-05-10T17:00:00.000Z",
           "wordCount": 830,
           "title": "Turn ideas into music with MusicLM"
-        },
-        {
-          "id": "https://blog.google/outreach-initiatives/entrepreneurs/how-4-startups-are-using-ai-to-solve-climate-change-challenges/",
-          "author": null,
-          "description": "These startups are using AI to decarbonize buildings, create sustainable agriculture, protect biodiversity, and remove carbon from the atmosphere.",
-          "link": "https://blog.google/outreach-initiatives/entrepreneurs/how-4-startups-are-using-ai-to-solve-climate-change-challenges/",
-          "publishedOn": "2023-05-08T11:00:00.000Z",
-          "wordCount": 1370,
-          "title": "How 4 startups are using AI to solve climate change challenges"
         }
       ]
     },
@@ -732,15 +705,6 @@
           "publishedOn": "2023-05-11T08:18:59.000Z",
           "wordCount": 384,
           "title": "30,000 GitHub stars"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22270",
-          "author": "Daniel Stenberg",
-          "description": "It started as just a test to see if I could use the existing advisory data we have for all curl CVEs to date and provide that as JSON.",
-          "link": "https://daniel.haxx.se/blog/2023/05/05/cve-as-json/",
-          "publishedOn": "2023-05-05T11:08:35.000Z",
-          "wordCount": 1079,
-          "title": "CVE as JSON"
         }
       ]
     },
@@ -858,6 +822,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=72239",
+          "author": "Walker Chabbott",
+          "description": "We’ve launched the beta of code scanning support for Swift. This launch, paired with our launch of Kotlin support in November, means that CodeQL covers both IOS and Android development languages, bringing a heightened level of security to the mobile application development process.",
+          "link": "https://github.blog/2023-06-06-swift-support-brings-broader-mobile-application-security-to-github-advanced-security/",
+          "publishedOn": "2023-06-06T16:01:34.000Z",
+          "wordCount": 1359,
+          "title": "Swift support brings broader mobile application security to GitHub Advanced Security"
+        },
+        {
+          "id": "https://github.blog/?p=72231",
+          "author": "Zack Koppert",
+          "description": "A tool to help you keep your open source catalog organized and up to date.",
+          "link": "https://github.blog/2023-06-05-announcing-the-stale-repos-action/",
+          "publishedOn": "2023-06-05T16:17:57.000Z",
+          "wordCount": 1059,
+          "title": "Announcing the Stale Repos Action"
+        },
         {
           "id": "https://github.blog/?p=72224",
           "author": "Chris Reddington",
@@ -1064,51 +1046,6 @@
           "publishedOn": "2023-05-09T16:00:10.000Z",
           "wordCount": 987,
           "title": "Push protection is generally available, and free for all public repositories"
-        },
-        {
-          "id": "https://github.blog/?p=71686",
-          "author": "Mia Arts",
-          "description": "Learn about tools and processes the GitHub Accessibility leadership team uses for retrospectives that fully engage every team member.",
-          "link": "https://github.blog/2023-05-08-how-we-work-inclusive-retrospectives-for-the-github-accessibility-leadership-team/",
-          "publishedOn": "2023-05-08T18:21:40.000Z",
-          "wordCount": 1374,
-          "title": "How we work: inclusive retrospectives for the GitHub Accessibility leadership team"
-        },
-        {
-          "id": "https://github.blog/?p=71649",
-          "author": "Colin Merkel",
-          "description": "The world’s code is now at your fingertips.",
-          "link": "https://github.blog/2023-05-08-github-code-search-is-generally-available/",
-          "publishedOn": "2023-05-08T16:00:37.000Z",
-          "wordCount": 1247,
-          "title": "GitHub code search is generally available"
-        },
-        {
-          "id": "https://github.blog/?p=71664",
-          "author": "Chris Reddington",
-          "description": "Consider the typical software development practices in an organization. Projects are commonly closed, and causes friction across engineering teams. But open source communities work asynchronously, openly, remotely and at global-scale. What if our internal teams could reuse those same practices?",
-          "link": "https://github.blog/2023-05-08-building-a-culture-of-innovation-in-your-business-with-github/",
-          "publishedOn": "2023-05-08T15:00:05.000Z",
-          "wordCount": 2295,
-          "title": "Building a culture of innovation in your business with GitHub"
-        },
-        {
-          "id": "https://github.blog/?p=71644",
-          "author": "Arelia Jones",
-          "description": "Every student and teacher deserves the same access to GitHub Education offerings. We’ve enlisted GitHub’s Accessibility team to help identify areas for improving inclusivity.",
-          "link": "https://github.blog/2023-05-05-building-a-more-inclusive-github-global-campus/",
-          "publishedOn": "2023-05-05T16:49:40.000Z",
-          "wordCount": 989,
-          "title": "Building a more inclusive GitHub Global Campus"
-        },
-        {
-          "id": "https://github.blog/?p=71626",
-          "author": "Thomas Dohmke",
-          "description": "GitHub CEO Thomas Dohmke demonstrated the power of GitHub Copilot X live on stage.",
-          "link": "https://github.blog/2023-05-05-web-summit-rio-2023-building-an-app-in-18-minutes-with-github-copilot-x/",
-          "publishedOn": "2023-05-05T14:07:04.000Z",
-          "wordCount": 1189,
-          "title": "Web Summit Rio 2023: Building an app in 18 minutes with GitHub Copilot X"
         }
       ]
     },
@@ -1263,15 +1200,6 @@
           "publishedOn": "2023-05-09T22:00:00.000Z",
           "wordCount": 1133,
           "title": "Prove Your Worth: How to Measure Cybersecurity ROI and Impress Your Board"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/hackbackbetter-sponsorship-learn-what-younger-coders-think-about-hackers",
-          "author": "HackerOne",
-          "description": "",
-          "link": "https://www.hackerone.com/hackerone-community-blog/hackbackbetter-sponsorship-learn-what-younger-coders-think-about-hackers",
-          "publishedOn": "2023-05-08T22:05:16.000Z",
-          "wordCount": 2136,
-          "title": "HackBackBetter Sponsorship: Learn What Younger Coders Think About Hackers and Tips for Secure Code Review"
         }
       ]
     },
@@ -1280,6 +1208,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/6c87836a948",
+          "author": "Netflix Technology Blog",
+          "description": "This article talks about a novel HDMI technology and how it is used within the Netflix Application to improve a user’s experience.",
+          "link": "https://netflixtechblog.com/native-frame-rate-playback-6c87836a948?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-06-05T16:31:44.000Z",
+          "wordCount": 2064,
+          "title": "Native Frame Rate Playback"
+        },
         {
           "id": "https://medium.com/p/f99490fdf1ba",
           "author": "Netflix Technology Blog",
