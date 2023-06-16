@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/06/learnings-from-kctf-vrps-42-linux.html",
+          "author": null,
+          "description": "Tamás Koczka, Security Engineer\n\n\n\n\nIn 2020, we integrated kCTF into Google's Vulnerability Rewards Program (VRP) to support researchers evaluating the security of Google Kubernetes Engine (GKE) and the underlying Linux kernel. As the Linux kernel is a key component not just for Google, but for the Internet, we started heavily investing in this area. We extended the VRP's scope and maximum reward in 2021 (to $50k), then again in February 2022 (to $91k), and finally in August 2022 (to $133k). In 2022, we also summarized our learnings to date in our cookbook, and introduced our experimental mitigations for the most common exploitation techniques.\n\n\nIn this post, we'd like to share our learnings and statistics about the latest Linux kernel exploit submissions, how effective our mitigations ar…",
+          "link": "http://security.googleblog.com/2023/06/learnings-from-kctf-vrps-42-linux.html",
+          "publishedOn": "2023-06-14T15:59:00.001Z",
+          "wordCount": 2639,
+          "title": "Learnings from kCTF VRP's 42 Linux kernel exploits submissions"
+        },
+        {
           "id": "http://security.googleblog.com/2023/06/announcing-chrome-browser-full-chain.html",
           "author": null,
           "description": "Amy Ressler, Chrome Security Team on behalf of the Chrome VRP\n\n\n\nFor 13 years, a key pillar of the Chrome Security ecosystem has included encouraging security researchers to find security vulnerabilities in Chrome browser and report them to us, through the Chrome Vulnerability Rewards Program.\n\n\nStarting today and until 1 December 2023, the first security bug report we receive with a functional full chain exploit, resulting in a Chrome sandbox escape, is eligible for triple the full reward amount. Your full chain exploit could result in a reward up to $180,000 (potentially more with other bonuses).\n\n\n \n\n\nAny subsequent full chains submitted during this time are eligible for double the full reward amount! \n\n\nWe have historically put a premium on reports with exploits –  “high quality report…",
@@ -58,15 +67,6 @@
           "publishedOn": "2023-05-23T16:01:00.002Z",
           "wordCount": 1681,
           "title": "How the Chrome Root Program Keeps Users Safe"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/new-android-google-device-VRP.html",
-          "author": null,
-          "description": "Posted by Sarah Jacobus, Vulnerability Rewards Team \n\n\nAs technology continues to advance, so do efforts by cybercriminals who look to exploit vulnerabilities in software and devices. This is why at Google and Android, security is a top priority, and we are constantly working to make our products more secure. One way we do this is through our Vulnerability Reward Programs (VRP), which incentivize security researchers to find and report vulnerabilities in our operating system and devices. \n\n\nWe are pleased to announce that we are implementing a new quality rating system for security vulnerability reports to encourage more security research in higher impact areas of our products and ensure the security of our users.  This system will rate vulnerability reports as High, Medium, or Low quality…",
-          "link": "http://security.googleblog.com/2023/05/new-android-google-device-VRP.html",
-          "publishedOn": "2023-05-17T15:58:00.005Z",
-          "wordCount": 916,
-          "title": "New Android & Google Device Vulnerability Reward Program Initiatives"
         }
       ]
     },
@@ -81,6 +81,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/2097",
+          "author": null,
+          "description": "The panel dives into all of the supporting structures that we build around writing code, what works in different environments, and good and bad practices they have seen. From PR etiquette to CI/CD to how to write a ticket, they look at them from an open source perspective, an enterprise perspective, and everything in between.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nAmal Hussein – Twitter, GitHub\nChristopher Hiller – Twitter, GitHub, Website\n\nShow Notes:\n\nGraphite\nReviewable\nThe way to fully automated releases in open source projects\nFeature Toggles (aka Feature Flags)\nLaunchDarkly\nSplit.io\nMinimum Reproducible Example\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:40) - Hellooooo party people\n(01:52) - PR etiquette\n(08:46) - Effective feedback\n(14:21) - Synchronous reviews\n(15:24) - Levels of feedback\n(18:03) - CI/CD\n(21:28) - Too much CI?\n(24:37) - Continuous deployment\n(27:50) - Feature branches\n(34:43) - Tickets\n(39:13) - Ticket comms\n(41:19) - More on comms\n(48:42) - Closing thoughts\n(51:07) - Closing time\n(51:32) - Coming soon on the pod",
+          "link": "https://changelog.com/jsparty/280",
+          "publishedOn": "2023-06-15T18:20:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 280: It's all part of the process",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/280/js-party-280.mp3",
+            "length": "51672121",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/2089",
+          "author": null,
+          "description": "This week we’re talking about Passkeys with Anna Pobletts, Head of Passwordless, at 1Password. Will Passkeys enable a passwordless future? Time will tell. Anna shares the what, the why, how, and the when on Passkeys.\nLeave us a comment\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSquare – Develop on the platform that sellers trust. There is a massive opportunity for developers to support Square sellers by building apps for today’s business needs. Learn more at developer.squareup.com to dive into the docs, APIs, SDKs and to create your Square Developer account — tell them Changelog sent you.\n\nDrata – Put security and compliance on autopilot. Build trust with your customers and scale securely with Drata, the smartest way to…",
+          "link": "https://changelog.com/podcast/544",
+          "publishedOn": "2023-06-15T14:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 544: Passkeys for a passwordless future",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/544/the-changelog-544.mp3",
+            "length": "67986396",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/2109",
+          "author": null,
+          "description": "Daniel had the chance to sit down with @swyx and Alessio from the Latent Space pod in SF to talk about current AI trends and to highlight some key learnings from past episodes. The discussion covers open access LLMs, smol models, model controls, prompt engineering, and LLMOps. This mashup is magical. Don’t miss it!\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or …",
+          "link": "https://changelog.com/practicalai/227",
+          "publishedOn": "2023-06-14T19:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 227: AI trends: a Latent Space crossover",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/227/practical-ai-227.mp3",
+            "length": "57492332",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/2/1999",
           "author": null,
@@ -420,36 +465,6 @@
             "length": "69845282",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/1998",
-          "author": null,
-          "description": "This week Sarah Drasner joins us to talk about her book Engineering Management for the Rest of Us and her experience leading engineering at Zillow, Microsoft, Netlify, and now Google.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nDevCycle – Build better software with DevCycle. Feature flags, without the tech debt. DevCycle is a Feature Flag Management platform designed to help you build maintainable code at scale.\n\nSentry – See the untested code causing errors - or whether it’s partially or fully covered - directly in your stack trace, so you can avoid similar errors from happening in the future. Use the code CHANGELOG and get the team plan free for three months.\n\nRocky Linux – Enterprise Linux, the ope…",
-          "link": "https://changelog.com/podcast/540",
-          "publishedOn": "2023-05-17T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 540: Engineering management (for the rest of us)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/540/the-changelog-540.mp3",
-            "length": "78375964",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2081",
-          "author": null,
-          "description": "At the recent ODSC East conference, Daniel got a chance to sit down with Erin Mikail Staples to discuss the process of gathering human feedback and creating an instruction tuned Large Language Models (LLM). They also chatted about the importance of open data and practical tooling for data annotation and fine-tuning. Do you want to create your own custom generative AI models? This is the episode for you!\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nErin Mikail Staples – Mastodon, Twitter\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nLabel Studio\nSlides from Erin’s recent PyData talk on RLHF\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Erin Mikail Staples\n(02:09) - Open source attendees\n(03:54) - The key to RLHF \n(05:35) - Tooling for RLHF\n(07:33) - Humanities in data science\n(11:22) - Label Studio's workflow\n(15:41) - The open data ecosystem\n(21:04) - Do data labeling\n(22:33) - Exciting changes coming\n(24:15) - DevRel(ish) and other resources\n(25:13) - Goodbyes\n(25:45) - Outro",
-          "link": "https://changelog.com/practicalai/223",
-          "publishedOn": "2023-05-16T18:20:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 223: Creating instruction tuned models",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/223/practical-ai-223.mp3",
-            "length": "25688736",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -474,6 +489,24 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/products/google-lens/google-lens-features/",
+          "author": null,
+          "description": "Lens makes it easy to search what you see and explore the world around you — including the new ability to search for skin conditions.",
+          "link": "https://blog.google/products/google-lens/google-lens-features/",
+          "publishedOn": "2023-06-14T16:00:00.000Z",
+          "wordCount": 1581,
+          "title": "8 ways Google Lens can help make your life easier"
+        },
+        {
+          "id": "https://blog.google/products/gmail/gmail-ai-features/",
+          "author": null,
+          "description": "These AI-powered Gmail features can make your email experience even faster, easier and more organized.",
+          "link": "https://blog.google/products/gmail/gmail-ai-features/",
+          "publishedOn": "2023-06-14T13:00:00.000Z",
+          "wordCount": 2008,
+          "title": "6 Gmail AI features to help save you time"
+        },
         {
           "id": "https://blog.google/products/ads-commerce/new-ai-powered-ads-to-drive-demand/",
           "author": null,
@@ -536,15 +569,6 @@
           "publishedOn": "2023-05-19T10:00:00.000Z",
           "wordCount": 1685,
           "title": "A policy agenda for responsible AI progress: Opportunity, Responsibility, Security"
-        },
-        {
-          "id": "https://blog.google/technology/ai/quantum-computing-partnership-chicago-tokyo-universities/",
-          "author": null,
-          "description": "The University of Tokyo, the University of Chicago and Google establish a strategic partnership on quantum information science and engineering.",
-          "link": "https://blog.google/technology/ai/quantum-computing-partnership-chicago-tokyo-universities/",
-          "publishedOn": "2023-05-17T22:25:00.000Z",
-          "wordCount": 1339,
-          "title": "A quantum computing partnership with the University of Chicago and the University of Tokyo"
         }
       ]
     },
@@ -633,15 +657,6 @@
           "publishedOn": "2023-05-23T06:17:43.000Z",
           "wordCount": 752,
           "title": "curl 8.1.1 lets do this"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22325",
-          "author": "Daniel Stenberg",
-          "description": "We are back with the first release since that crazy March day when we did two releases on the same day. First 8.0.0 shipped that bumped the major version for the first time in decades. Then curl 8.0.1 followed just hours after, due to a serious mess-up in the factory lines. Release video presentation Numbers … Continue reading curl 8.1.0 – http2 over proxy →",
-          "link": "https://daniel.haxx.se/blog/2023/05/17/curl-8-1-0-http2-over-proxy/",
-          "publishedOn": "2023-05-17T06:24:56.000Z",
-          "wordCount": 1205,
-          "title": "curl 8.1.0 – http2 over proxy"
         }
       ]
     },
@@ -759,6 +774,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=72462",
+          "author": "Justin Young",
+          "description": "GitHub’s redesigned navigation is enabled for all users as a public beta.",
+          "link": "https://github.blog/2023-06-15-exploring-github-with-the-redesigned-navigation-now-in-public-beta/",
+          "publishedOn": "2023-06-15T16:20:30.000Z",
+          "wordCount": 1039,
+          "title": "Exploring GitHub with the redesigned navigation, now in public beta"
+        },
+        {
+          "id": "https://github.blog/?p=72474",
+          "author": "Sylwia Budzynska",
+          "description": "Learn the basics of CodeQL and how to use it for security research! In this blog, we will teach you how to leverage GitHub’s static analysis tool CodeQL to write custom CodeQL queries.",
+          "link": "https://github.blog/2023-06-15-codeql-zero-to-hero-part-2-getting-started-with-codeql/",
+          "publishedOn": "2023-06-15T12:53:54.000Z",
+          "wordCount": 6780,
+          "title": "CodeQL zero to hero part 2: getting started with CodeQL"
+        },
+        {
+          "id": "https://github.blog/?p=72471",
+          "author": "Jakub Oleksy",
+          "description": "In May, we experienced four incidents that resulted in degraded performance across GitHub services. This report also sheds light into three April incidents that resulted in degraded performance across GitHub services.",
+          "link": "https://github.blog/2023-06-14-github-availability-report-may-2023/",
+          "publishedOn": "2023-06-14T18:56:07.000Z",
+          "wordCount": 1775,
+          "title": "GitHub Availability Report: May 2023"
+        },
         {
           "id": "https://github.blog/?p=72246",
           "author": "Inbal Shani",
@@ -929,42 +971,6 @@
           "publishedOn": "2023-05-18T13:00:09.000Z",
           "wordCount": 1624,
           "title": "GitHub celebrates developers with disabilities on Global Accessibility Awareness Day"
-        },
-        {
-          "id": "https://github.blog/?p=71956",
-          "author": "Sara Verdi",
-          "description": "Developers behind GitHub Copilot discuss what it was like to work with OpenAI’s large language model and how it informed the development of Copilot as we know it today.",
-          "link": "https://github.blog/2023-05-17-inside-github-working-with-the-llms-behind-github-copilot/",
-          "publishedOn": "2023-05-17T17:32:32.000Z",
-          "wordCount": 2655,
-          "title": "Inside GitHub: Working with the LLMs behind GitHub Copilot"
-        },
-        {
-          "id": "https://github.blog/?p=71978",
-          "author": "Johan Rosenkilde",
-          "description": "With a new Fill-in-the-Middle paradigm, GitHub engineers improved the way GitHub Copilot contextualizes your code. By continuing to develop and test advanced retrieval algorithms, they’re working on making our AI tool even more advanced.",
-          "link": "https://github.blog/2023-05-17-how-github-copilot-is-getting-better-at-understanding-your-code/",
-          "publishedOn": "2023-05-17T17:32:16.000Z",
-          "wordCount": 2508,
-          "title": "How GitHub Copilot is getting better at understanding your code"
-        },
-        {
-          "id": "https://github.blog/?p=71971",
-          "author": "Diana Mounter",
-          "description": "Design can have a significant impact on delivering accessible experiences to our users. It takes a cultural shift, dedicated experts, and permission to make progress over perfection in order to build momentum. We’ve got a long way to go, but we’re starting to see a real shift in our journey to make GitHub a true home for all developers.",
-          "link": "https://github.blog/2023-05-17-designs-journey-towards-accessibility/",
-          "publishedOn": "2023-05-17T15:30:00.000Z",
-          "wordCount": 2363,
-          "title": "Design’s journey towards accessibility"
-        },
-        {
-          "id": "https://github.blog/?p=71945",
-          "author": "Mike Hanley",
-          "description": "GitHub recently experienced several availability incidents, both long running and shorter duration. We have since mitigated these incidents and all systems are now operating normally. Read on for more details about what caused these incidents and what we’re doing to mitigate in the future.",
-          "link": "https://github.blog/2023-05-16-addressing-githubs-recent-availability-issues/",
-          "publishedOn": "2023-05-16T18:33:22.000Z",
-          "wordCount": 1659,
-          "title": "Addressing GitHub’s recent availability issues"
         }
       ]
     },
@@ -1007,6 +1013,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/customer-stories/grammarly-ciso-suha-can-discusses-preemptive-security",
+          "author": "ktansley@hackerone.com",
+          "description": "Suha Can, the CISO of Grammarly, recently joined HackerOne’s CTO & Co-founder, Alex Rice, for a discussion on user trust, the benefits of Grammarly’s bug bounty program, and the advantages of preemptive security measures.",
+          "link": "https://www.hackerone.com/customer-stories/grammarly-ciso-suha-can-discusses-preemptive-security",
+          "publishedOn": "2023-06-14T16:00:00.000Z",
+          "wordCount": 1666,
+          "title": "Grammarly CISO Suha Can Discusses the Impact of Preemptive Security with HackerOne"
+        },
         {
           "id": "https://hackerone.com/seven-essential-components-top-tier-attack-surface-management-program",
           "author": "Naz Bozdemir",
@@ -1051,15 +1066,6 @@
           "publishedOn": "2023-05-19T22:00:00.000Z",
           "wordCount": 1726,
           "title": "GUEST BLOG: Vulnerability Disclosure Adoption In The Consumer IoT space Is Lagging, But What About Elsewhere?"
-        },
-        {
-          "id": "https://hackerone.com/hackerone-community-blog/decoding-hackerone-code-conduct",
-          "author": "HackerOne",
-          "description": "As the industry continues to rapidly evolve, it is on HackerOne to try to ensure that we align with the industry norms of Code of Conduct management.",
-          "link": "https://www.hackerone.com/hackerone-community-blog/decoding-hackerone-code-conduct",
-          "publishedOn": "2023-05-16T16:00:00.000Z",
-          "wordCount": 919,
-          "title": "Decoding the HackerOne Code of Conduct"
         }
       ]
     },
@@ -1068,6 +1074,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/8e1e4d4f1e72",
+          "author": "Netflix Technology Blog",
+          "description": "By Jennifer Shin, Tejas Shikhare, Will Emmanuel",
+          "link": "https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-06-14T17:59:46.000Z",
+          "wordCount": 1746,
+          "title": "Migrating Netflix to GraphQL Safely"
+        },
         {
           "id": "https://medium.com/p/4b1c8c7155c1",
           "author": "Netflix Technology Blog",
