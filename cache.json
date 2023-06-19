@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/06/bringing-transparency-to-confidential.html",
+          "author": null,
+          "description": "Asra Ali, Razieh Behjati, Tiziano Santoro, Software Engineers\n\n\n\n\nEvery day, personal data, such as location information, images, or text queries are passed between your device and remote, cloud-based services. Your data is encrypted when in transit and at rest, but as potential attack vectors grow more sophisticated, data must also be protected during use by the service, especially for software systems that handle personally identifiable user data.\n\n\n\n\n\nToward this goal, Google’s Project Oak is a research effort that relies on the confidential computing paradigm to build an infrastructure for processing sensitive user data in a secure and privacy-preserving way: we ensure data is protected during transit, at rest, and while in use. As an assurance that the user data is in fact protected, …",
+          "link": "http://security.googleblog.com/2023/06/bringing-transparency-to-confidential.html",
+          "publishedOn": "2023-06-16T17:10:00.003Z",
+          "wordCount": 2771,
+          "title": "Bringing Transparency to Confidential Computing with SLSA"
+        },
+        {
           "id": "http://security.googleblog.com/2023/06/learnings-from-kctf-vrps-42-linux.html",
           "author": null,
           "description": "Tamás Koczka, Security Engineer\n\n\n\n\nIn 2020, we integrated kCTF into Google's Vulnerability Rewards Program (VRP) to support researchers evaluating the security of Google Kubernetes Engine (GKE) and the underlying Linux kernel. As the Linux kernel is a key component not just for Google, but for the Internet, we started heavily investing in this area. We extended the VRP's scope and maximum reward in 2021 (to $50k), then again in February 2022 (to $91k), and finally in August 2022 (to $133k). In 2022, we also summarized our learnings to date in our cookbook, and introduced our experimental mitigations for the most common exploitation techniques.\n\n\nIn this post, we'd like to share our learnings and statistics about the latest Linux kernel exploit submissions, how effective our mitigations ar…",
@@ -81,6 +90,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/17/2093",
+          "author": null,
+          "description": "Mat Ryer is back and he’s brought with him 10 tips to be a 10x developer (like he is). After that, we try a new segment we’re calling “Tool Time” (and try out a few jingles for it along the way). Finally, it’s time to review our previous unpopular opinions and put some new ones into the world for your (dis)agreeing pleasure. Join us for an automagical time!\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you…",
+          "link": "https://changelog.com/friends/4",
+          "publishedOn": "2023-06-16T18:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 4: \"Mat Depends\"",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/4/changelog--friends-4.mp3",
+            "length": "98487484",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/6/2097",
           "author": null,
@@ -450,21 +474,6 @@
             "length": "8291783",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/6/2078",
-          "author": null,
-          "description": "Nick & KBall sit down with the brilliant Stephen Haberman to discuss all things ORMs! 💻🔍\nFrom the advantages and disadvantages of ORMs in general, to delving into the intricacies of his innovative project Joist, which brings a fresh, idiomatic, ActiveRecord-esque approach to TypeScript. 🚀\nSo sit back, relax, and let’s dive deep into the world of ORMs with the experts!\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In …",
-          "link": "https://changelog.com/jsparty/276",
-          "publishedOn": "2023-05-19T15:30:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 276: The ORMazing show",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/276/js-party-276.mp3",
-            "length": "69845282",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -560,15 +569,6 @@
           "publishedOn": "2023-05-22T14:00:00.000Z",
           "wordCount": 1156,
           "title": "Helping more people stay safe with flood forecasting"
-        },
-        {
-          "id": "https://blog.google/technology/ai/a-policy-agenda-for-responsible-ai-progress-opportunity-responsibility-security/",
-          "author": null,
-          "description": "For society to reap the benefits of AI, opportunity, responsibility, and national security strategies must be baked into that shared AI agenda.",
-          "link": "https://blog.google/technology/ai/a-policy-agenda-for-responsible-ai-progress-opportunity-responsibility-security/",
-          "publishedOn": "2023-05-19T10:00:00.000Z",
-          "wordCount": 1685,
-          "title": "A policy agenda for responsible AI progress: Opportunity, Responsibility, Security"
         }
       ]
     },
@@ -577,6 +577,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=22776",
+          "author": "Daniel Stenberg",
+          "description": "The curl user survey 2023 ran for two full weeks in the end of May, in the same fashion we run it every year. I have then collected all the answers, ran the numbers and looked at the trends and put all the conclusions and graphs into a single document for everyone to enjoy. Five … Continue reading curl user survey 2023 analysis →",
+          "link": "https://daniel.haxx.se/blog/2023/06/17/curl-user-survey-2023-analysis/",
+          "publishedOn": "2023-06-17T14:20:26.000Z",
+          "wordCount": 507,
+          "title": "curl user survey 2023 analysis"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=22690",
           "author": "Daniel Stenberg",
@@ -745,15 +754,6 @@
           "publishedOn": "2023-06-02T12:02:40.340Z",
           "wordCount": 890,
           "title": "Data Quality Automation at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "author": null,
-          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "publishedOn": "2023-05-20T12:14:01.261Z",
-          "wordCount": 1708,
-          "title": "Stability and scalability for search"
         }
       ]
     },
@@ -953,24 +953,6 @@
           "publishedOn": "2023-05-23T15:00:43.000Z",
           "wordCount": 1028,
           "title": "Announcing the public preview of GitHub Advanced Security for Azure DevOps"
-        },
-        {
-          "id": "https://github.blog/?p=72003",
-          "author": "Rachel Heller",
-          "description": "Here’s what you need to know to write a compelling session proposal and get on stage.",
-          "link": "https://github.blog/2023-05-18-9-tips-to-go-from-attendee-to-speaker-at-a-tech-conference/",
-          "publishedOn": "2023-05-18T16:28:25.000Z",
-          "wordCount": 1530,
-          "title": "9 tips to go from attendee to speaker at a tech conference"
-        },
-        {
-          "id": "https://github.blog/?p=71963",
-          "author": "Ed Summers",
-          "description": "GitHub is the home for all developers and on this Global Accessibility Awareness Day we are thrilled to celebrate the achievements of disabled developers and recent ships that help them build on GitHub.",
-          "link": "https://github.blog/2023-05-18-github-celebrates-developers-with-disabilities-on-global-accessibility-awareness-day/",
-          "publishedOn": "2023-05-18T13:00:09.000Z",
-          "wordCount": 1624,
-          "title": "GitHub celebrates developers with disabilities on Global Accessibility Awareness Day"
         }
       ]
     },
@@ -979,6 +961,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=21032",
+          "author": "Wellington Monteiro",
+          "description": "Explainable AI (XAI) is crucial to make artificial intelligence (AI) more understandable and accessible.\nThe post Way beyond SHAP: a XAI overview appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/way-beyond-shap-a-xai-overview/",
+          "publishedOn": "2023-06-16T22:56:31.000Z",
+          "wordCount": 4035,
+          "title": "Way beyond SHAP: a XAI overview"
+        },
         {
           "id": "https://building.nubank.com.br/?p=21004",
           "author": "Cristiano Dalbem - Product Design at Nubank",
@@ -996,15 +987,6 @@
           "publishedOn": "2023-05-26T15:01:12.000Z",
           "wordCount": 4407,
           "title": "Controlinho: Nubank’s answer to democratizing data"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=20868",
-          "author": "Nubank Editorial",
-          "description": "Unfortunately, victory did not come for Brazil in the FIFA World Cup. But on April 12, 2023, NuBolão achieved the title of world record holder – and you're a part of it.\nThe post Nubank achieves a world record with more than 7 million people participating in NuBolão in one month appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-achieves-world-record-with-nubolao/",
-          "publishedOn": "2023-05-18T21:23:27.000Z",
-          "wordCount": 3127,
-          "title": "Nubank achieves a world record with more than 7 million people participating in NuBolão in one month"
         }
       ]
     },
@@ -1057,15 +1039,6 @@
           "publishedOn": "2023-05-24T22:00:00.000Z",
           "wordCount": 1914,
           "title": "GUEST BLOG: Governments Across The World Are Mandating Vulnerability Disclosure So Why Are Companies Sitting On Their Hands?"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-disclosure/guest-blog-vulnerability-disclosure-adoption-consumer-iot-space-lagging",
-          "author": "alice@hackerone.com",
-          "description": "",
-          "link": "https://www.hackerone.com/vulnerability-disclosure/guest-blog-vulnerability-disclosure-adoption-consumer-iot-space-lagging",
-          "publishedOn": "2023-05-19T22:00:00.000Z",
-          "wordCount": 1726,
-          "title": "GUEST BLOG: Vulnerability Disclosure Adoption In The Consumer IoT space Is Lagging, But What About Elsewhere?"
         }
       ]
     },
@@ -1118,24 +1091,6 @@
           "publishedOn": "2023-06-01T19:22:48.000Z",
           "wordCount": 1043,
           "title": "Ensuring the Successful Launch of Ads on Netflix"
-        },
-        {
-          "id": "https://medium.com/p/c75cd7989b6d",
-          "author": "Netflix Technology Blog",
-          "description": "Tycho Andersen",
-          "link": "https://netflixtechblog.com/debugging-a-fuse-deadlock-in-the-linux-kernel-c75cd7989b6d?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-05-19T19:21:03.000Z",
-          "wordCount": 2241,
-          "title": "Debugging a FUSE deadlock in the Linux kernel"
-        },
-        {
-          "id": "https://medium.com/p/c118f374fa89",
-          "author": "Netflix Technology Blog",
-          "description": "By Chris Wolfe, Joey Schorr, and Victor Roldán Betancort",
-          "link": "https://netflixtechblog.com/abac-on-spicedb-enabling-netflixs-complex-identity-types-c118f374fa89?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-05-19T12:01:47.000Z",
-          "wordCount": 2321,
-          "title": "ABAC on SpiceDB: Enabling Netflix’s Complex Identity Types"
         }
       ]
     },
