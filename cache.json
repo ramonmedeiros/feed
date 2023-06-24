@@ -6,6 +6,24 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/06/supply-chain-security-for-go-part-2.html",
+          "author": null,
+          "description": "Julie Qiu, Go Security & Reliability, and Roger Ng, Google Open Source Security Team\n\n\n“Secure your dependencies”—it’s the new supply chain mantra. With attacks targeting software supply chains sharply rising, open source developers need to monitor and judge the risks of the projects they rely on. Our previous installment of the Supply chain security for Go series shared the ecosystem tools available to Go developers to manage their dependencies and vulnerabilities. This second installment describes the ways that Go helps you trust the integrity of a Go package. \n\n\n\n\n\n\n\n\n\n\nGo has built-in protections against three major ways packages can be compromised before reaching you: \n\nA new, malicious version of your dependency is published\n\nA package is withdrawn from the ecosystem\n\nA malicious fil…",
+          "link": "http://security.googleblog.com/2023/06/supply-chain-security-for-go-part-2.html",
+          "publishedOn": "2023-06-23T16:00:00.004Z",
+          "wordCount": 3310,
+          "title": "Supply chain security for Go, Part 2: Compromised dependencies"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/06/google-cloud-awards-313337-in-2022-vrp.html",
+          "author": null,
+          "description": "Anthony Weems, Information Security Engineer\n\n\n\n\n2022 was a successful year for Google's Vulnerability Reward Programs (VRPs), with over 2,900 security issues identified and fixed, and over $12 million in bounty rewards awarded to researchers. A significant amount of these vulnerability reports helped improve the security of Google Cloud products, which in turn helps improve security for our users, customers, and the Internet at large.\n\n\n\n\n\nWe first announced the Google Cloud VRP Prize in 2019 to encourage security researchers to focus on the security of Google Cloud and to incentivize sharing knowledge on Cloud vulnerability research with the world. This year, we were excited to see an increase in collaboration between researchers, which often led to more detailed and complex vulnerabilit…",
+          "link": "http://security.googleblog.com/2023/06/google-cloud-awards-313337-in-2022-vrp.html",
+          "publishedOn": "2023-06-22T16:05:00.000Z",
+          "wordCount": 2002,
+          "title": "Google Cloud Awards $313,337 in 2022 VRP Prizes"
+        },
+        {
           "id": "http://security.googleblog.com/2023/06/protect-and-manage-browser-extensions.html",
           "author": null,
           "description": "Posted by Anuj Goyal, Product Manager, Chrome Browser\nChrome Browser Cloud Management. In this blog post, we will walk you through how to utilize these features to keep your data and users safe.\n\n\nVisibility into Extensions being used in your environment\n\n\nHaving visibility into what and how extensions are being used enables IT and security teams to assess potential security implications, ensure compliance with organizational policies, and mitigate potential risks. There are three ways you can get critical information about extensions in your organization:\n1. App and extension usage reporting\nOrganizations can gain visibility into every Chrome extension that is installed across an enterprise’s fleet in Chrome App and Extension Usage Reporting.\n2. Extension Risk Assessment\nCRXcavator and Sp…",
@@ -58,24 +76,6 @@
           "publishedOn": "2023-05-26T21:55:00.021Z",
           "wordCount": 1484,
           "title": "Time to challenge yourself in the 2023 Google CTF!"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/google-trust-services-acme-api_0503894189.html",
-          "author": null,
-          "description": "David Kluge, Technical Program Manager, and Andy Warner, Product Manager\n\n\n\n\n\n\n\n\n\nNobody likes preventable site errors, but they happen disappointingly often. \n\n\n\nThe last thing you want your customers to see is a dreaded 'Your connection is not private' error instead of the service they expected to reach. Most certificate errors are preventable and one of the best ways to help prevent issues is by automating your certificate lifecycle using the ACME standard. Google Trust Services now offers our ACME API to all users with a Google Cloud account (referred to as “users” here), allowing them to automatically acquire and renew publicly-trusted TLS certificates for free. The ACME API has been available as a preview and over 200 million certificates have been issued already, offering the same c…",
-          "link": "http://security.googleblog.com/2023/05/google-trust-services-acme-api_0503894189.html",
-          "publishedOn": "2023-05-25T16:00:00.046Z",
-          "wordCount": 2582,
-          "title": "Google Trust Services ACME API available to all users at no cost"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/announcing-launch-of-guac-v01.html",
-          "author": null,
-          "description": "Brandon Lum and Mihai Maruseac, Google Open Source Security Team\n\n\n\n\nToday, we are announcing the launch of the v0.1 version of Graph for Understanding Artifact Composition (GUAC). Introduced at Kubecon 2022 in October, GUAC targets a critical need in the software industry to understand the software supply chain. In collaboration with Kusari, Purdue University, Citi, and community members, we have incorporated feedback from our early testers to improve GUAC and make it more useful for security professionals. This improved version is now available as an API for you to start developing on top of, and integrating into, your systems.\nThe need for GUAC\nHigh-profile incidents such as Solarwinds, and the recent 3CX supply chain double-exposure, are evidence that supply chain attacks are getting m…",
-          "link": "http://security.googleblog.com/2023/05/announcing-launch-of-guac-v01.html",
-          "publishedOn": "2023-05-24T16:01:00.008Z",
-          "wordCount": 3175,
-          "title": "Announcing the launch of GUAC v0.1"
         }
       ]
     },
@@ -90,6 +90,61 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/17/2108",
+          "author": null,
+          "description": "Brett Cannon (our unofficial ambassador to the Python community) is here to help alleviate our pip install anxiety. Along the way, we ask him about Python 4, removing the GIL, what he thinks about Chris Lattner’s Mojo project, Rust in the Python world & way more (of course).\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over …",
+          "link": "https://changelog.com/friends/5",
+          "publishedOn": "2023-06-23T17:15:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 5: There's a whole PEP about that",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/5/changelog--friends-5.mp3",
+            "length": "87644945",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/2113",
+          "author": null,
+          "description": "Let’s debate debugging techniques! Do you print debug or dive deep into debugging tools? KBall & Jerod argue that print statements are all you need while Amal & guest Eric Clemmons take the other side. Who will win and why will it be Jerod? 😉\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn m…",
+          "link": "https://changelog.com/jsparty/281",
+          "publishedOn": "2023-06-22T19:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 281: Is print debugging good enough?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/281/js-party-281.mp3",
+            "length": "59186708",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/posts/2584",
+          "author": "Jonathan Norris",
+          "description": "This is a fancified excerpt of Jonathan Norris’ unpopular opinion on Go Time #275. Jonathan is Co-Founder & CTO @ DevCycle where they’re using WebAssembly in very interesting ways. To get the full experience you should listen while you read.\n🎧  Click here to listen along while you read. It's better!   🎧\nThe advantages of WebAssembly, with its:\ntight security model\nvery fast boot-up time\nscalability at the edge\nmuch smaller footprints\nportability across environments\nwill really drive a shift away from container-based runtimes for things Kubernetes and edge workloads by 2030. There’s a ton of energy around making this happen within the WebAssembly community.\n\n  \nSubscribe to Changelog's YouTube channel for more clips like this, live show recordings & more ✌️\n\nKris Brandow: What do you thin…",
+          "link": "https://changelog.com/posts/webassembly-runtimes-will-replace-container-runtimes-by-2030",
+          "publishedOn": "2023-06-22T15:59:27.000Z",
+          "wordCount": null,
+          "title": "WebAssembly runtimes will replace container-based runtimes by 2030",
+          "itunes": {}
+        },
+        {
+          "id": "changelog.com/1/2111",
+          "author": null,
+          "description": "This week we’re joined by Adam Jacob and we’re talking about his mission at System Initiative to rebuild DevOps. They are out of stealth mode and ready to show off their transformative new power tool that reimagines what’s possible from DevOps. It’s an intelligent automation platform that allows DevOps teams to build detailed interactive simulations of their infrastructure and use them to rapidly update their production environments.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nDevCycle – Build better software with DevCycle. Feature flags, without the tech debt. DevCycle is a Feature Flag Management platform designed to help you build maintainable code at scale.\n\nDrata – Put security and compliance on a…",
+          "link": "https://changelog.com/podcast/545",
+          "publishedOn": "2023-06-22T13:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 545: Rebuilding DevOps from the ground up",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/545/the-changelog-545.mp3",
+            "length": "84456793",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/2/2076",
           "author": null,
@@ -434,46 +489,6 @@
             "length": "41870970",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/6/2082",
-          "author": null,
-          "description": "Nick is excited to explain CVA to us like we’re five (then again like we’re 41).\nexcited to share details of his new stack (for the new app he’s building).\nexcited to share some recent news items (but he’s the only one).\nAnd finally, we’re all excited to debate TypeScript vs JSDoc comments!\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNick Nisi – Twitter, GitHub, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nClass Variance Authority\nKBall’s new stack\n\nQwikCity\nJoist-ORM\nBun’s new bundler\nMDN’s new Baseline\nJavaScript’s new frontend framework: VanJS\n\nkriszyp/put-selector\nRich Harris quote\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:46) - Let's get excited\n(02:28) - CVA... ELI5!\n(08:11) - CVA... ELI41!\n(11:50) - Cleanup in aisle Tailwind\n(15:12) - @apply vs CVA\n(18:10) - Type safe composition\n(19:51) - Sponsor: Changelog News\n(21:44) - KBall's new stack\n(26:25) - GenAI diversion\n(27:17) - KBall's full stack\n(31:20) - KBall's new app\n(35:11) - Coding: the fun parts\n(41:12) - Bun's new bundler\n(44:14) - MDN's new Baseline\n(48:24) - VanJS\n(52:50) - TypeScript vs JSDoc\n(58:09) - Dance it out\n(58:42) - Next up on the pod",
-          "link": "https://changelog.com/jsparty/277",
-          "publishedOn": "2023-05-25T18:15:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 277: Exciting! Exciting? !Exciting",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/277/js-party-277.mp3",
-            "length": "58004807",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/1/2068",
-          "author": null,
-          "description": "This week on The Changelog we’re taking you to the hallway track of The Linux Foundation’s Open Source Summit North America 2023 in Vancouver, Canada. Today’s anthology episode features: Beyang Liu (Co-founder and CTO at Sourcegraph), Denny Lee (Developer Advocate at Databricks), and Stella Biderman (Executive Director and Head of Research at EleutherAI).\nSpecial thanks to our friends at GitHub for sponsoring us to attend this conference as part of Maintainer Month.\nLeave us a comment\nChangelog++ members get a bonus 3 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nDevCycle – Build better software with DevCycle. Feature flags, without the tech debt. DevCycle is a Feature Flag Management platform designed to help you build maintainable code at scale.\n\nSentry – See…",
-          "link": "https://changelog.com/podcast/541",
-          "publishedOn": "2023-05-24T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 541: ANTHOLOGY — Open source AI",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/541/the-changelog-541.mp3",
-            "length": "94357877",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/posts/2583",
-          "author": "Jerod Santo",
-          "description": "The late, great Fred Brooks wrote many words about software engineering. You may have heard of Brooks’s Law or read his seminal book, The Mythical Man-Month. Even if you haven’t, you’ve probably heard at least one colleague proclaim:\nNine women can’t make a baby in one month!\nThis is a powerful metaphor for two reasons. First: it’s so vivid that it’s hard to forget (and easy to recall in a time of need). Second: it makes obvious a not-so-obvious conclusion. Which is:\nAdding manpower to a late software project makes it later.\nThat’s a hard pill to swallow, especially when your project is late. But it’s a truth pill, which makes it worth choking down. Here’s another truth pill that Brooks wrote in his paper No Silver Bullet–Essence and Accident in Software Engineering:\nThere is no single dev…",
-          "link": "https://changelog.com/posts/still-no-silver-bullet",
-          "publishedOn": "2023-05-24T16:25:22.000Z",
-          "wordCount": null,
-          "title": "There's still no silver bullet",
-          "itunes": {}
         }
       ]
     },
@@ -488,6 +503,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/sustainability/early-warning-system-wmo-google/",
+          "author": null,
+          "description": "Google’s Yossi Matias and WMO Director of Infrastructure Anthony Rea discuss the Early Warnings For All Initiative.",
+          "link": "https://blog.google/outreach-initiatives/sustainability/early-warning-system-wmo-google/",
+          "publishedOn": "2023-06-22T23:45:00.000Z",
+          "wordCount": 1447,
+          "title": "Our support for early warning systems"
+        },
         {
           "id": "https://blog.google/outreach-initiatives/entrepreneurs/accelerator-ai-first/",
           "author": null,
@@ -559,15 +583,6 @@
           "publishedOn": "2023-06-07T16:00:00.000Z",
           "wordCount": 1244,
           "title": "Bard is getting better at logic and reasoning"
-        },
-        {
-          "id": "https://blog.google/products/search/search-generative-ai-tips/",
-          "author": null,
-          "description": "Today, we’re starting to open up access to SGE (Search Generative Experience), one of our first experiments in Search Labs.",
-          "link": "https://blog.google/products/search/search-generative-ai-tips/",
-          "publishedOn": "2023-05-25T15:00:00.000Z",
-          "wordCount": 1243,
-          "title": "3 new ways generative AI can help you search"
         }
       ]
     },
@@ -638,24 +653,6 @@
           "publishedOn": "2023-05-28T14:20:43.000Z",
           "wordCount": 3302,
           "title": "The Gemini protocol seen by this HTTP client person"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22389",
-          "author": "Daniel Stenberg",
-          "description": "For widely used, widely distributed open source project such as curl, we often have little to no relation at all with our users and therefore it is hard to get feedback and learn what works and what is less good. Our best and primary way is thus simply to ask users every year how they … Continue reading curl user survey 2023 →",
-          "link": "https://daniel.haxx.se/blog/2023/05/24/curl-user-survey-2023/",
-          "publishedOn": "2023-05-24T21:38:54.000Z",
-          "wordCount": 583,
-          "title": "curl user survey 2023"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=21773",
-          "author": "Daniel Stenberg",
-          "description": "I was invited, and I have accepted, to become a member of Polhemsrådet, the “Polhem Council”, that works for the Polhem Prize nomination committee and serves to appoint the award winners. I consider it a great honor to get to serve on this board. I am not an engineer by education, but I do know … Continue reading Polhemsrådet →",
-          "link": "https://daniel.haxx.se/blog/2023/05/24/polhemsradet/",
-          "publishedOn": "2023-05-24T07:15:03.000Z",
-          "wordCount": 446,
-          "title": "Polhemsrådet"
         }
       ]
     },
@@ -952,42 +949,6 @@
           "publishedOn": "2023-06-01T16:34:28.000Z",
           "wordCount": 2959,
           "title": "Highlights from Git 2.41"
-        },
-        {
-          "id": "https://github.blog/?p=72106",
-          "author": "Eric Sorenson",
-          "description": "Help quantify the state of enterprise open source by taking the 2023 OSPO survey.",
-          "link": "https://github.blog/2023-05-25-the-2023-open-source-program-office-ospo-survey-is-live/",
-          "publishedOn": "2023-05-25T17:00:28.000Z",
-          "wordCount": 556,
-          "title": "The 2023 Open Source Program Office (OSPO) Survey is live!"
-        },
-        {
-          "id": "https://github.blog/?p=72040",
-          "author": "Man Yue Mo",
-          "description": "In this blog, I’ll look at CVE-2022-46395, a variant of CVE-2022-36449 (Project Zero issue 2327), and use it to gain arbitrary kernel code execution and root privileges from the untrusted app domain on an Android phone that uses the Arm Mali GPU. I’ll also explain how root cause analysis of CVE-2022-36449 led to the discovery of CVE-2022-46395.",
-          "link": "https://github.blog/2023-05-25-rooting-with-root-cause-finding-a-variant-of-a-project-zero-bug/",
-          "publishedOn": "2023-05-25T16:00:59.000Z",
-          "wordCount": 5987,
-          "title": "Rooting with root cause: finding a variant of a Project Zero bug"
-        },
-        {
-          "id": "https://github.blog/?p=72048",
-          "author": "April Edwards",
-          "description": "Low-code enables developers and non-developers to build custom applications and solutions with less effort. In this blog, we show you how to automate your low-code deployments using GitHub Actions.",
-          "link": "https://github.blog/2023-05-24-how-to-automate-a-microsoft-power-platform-deployment-using-github-actions/",
-          "publishedOn": "2023-05-24T18:04:56.000Z",
-          "wordCount": 1019,
-          "title": "How to automate a Microsoft Power Platform deployment using GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=72055",
-          "author": "Neha Batra",
-          "description": "In this special episode of The ReadME Podcast, dedicated to GitHub’s Maintainer Month, Kelsey Hightower joins hosts Martin Woodward and Neha Batra to discuss his philosophy on fostering thriving open source communities and the importance of empathy to a maintainer’s success.",
-          "link": "https://github.blog/2023-05-24-kelsey-hightower-on-leadership-in-open-source-and-the-future-of-kubernetes/",
-          "publishedOn": "2023-05-24T16:00:53.000Z",
-          "wordCount": 895,
-          "title": "Kelsey Hightower on leadership in open source and the future of Kubernetes"
         }
       ]
     },
@@ -1074,15 +1035,6 @@
           "publishedOn": "2023-05-30T22:00:00.000Z",
           "wordCount": 2258,
           "title": "A Year In HackerOne’s Bug Bounty Program"
-        },
-        {
-          "id": "https://hackerone.com/guest-blog-governments-across-world-are-mandating-vulnerability-disclosure-so-why-are-companies",
-          "author": "alice@hackerone.com",
-          "description": "",
-          "link": "https://www.hackerone.com/guest-blog-governments-across-world-are-mandating-vulnerability-disclosure-so-why-are-companies",
-          "publishedOn": "2023-05-24T22:00:00.000Z",
-          "wordCount": 1914,
-          "title": "GUEST BLOG: Governments Across The World Are Mandating Vulnerability Disclosure So Why Are Companies Sitting On Their Hands?"
         }
       ]
     },
