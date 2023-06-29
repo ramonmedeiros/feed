@@ -82,6 +82,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/2100",
+          "author": null,
+          "description": "Taylor Troesh joins Jerod to discuss a bevy of software development topics: yak shaves, dependency selection, -10x engineers, IKEA-oriented development, his new content-addressable programming language & much more along the way.\nLeave us a comment\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nDevCycle – Build better software with DevCycle. Feature flags, without the tech debt. DevCycle is a Feature Flag Management platform designed to help you build maintainable code at scale.\n\nDrata – Put security and compliance on autopilot. Build trust with your customers and scale securely with Drata, the smartest way to achieve continuous framework compliance for SOC 2, ISO 27001, HIPAA, GDPR, and more.\n\nChangelog News – A podcast+newslett…",
+          "link": "https://changelog.com/podcast/546",
+          "publishedOn": "2023-06-28T17:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 546: Don't make things worse!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/546/the-changelog-546.mp3",
+            "length": "64758862",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/2119",
+          "author": null,
+          "description": "Your feed might be dominated by LLMs these days, but there are some amazing things happening in computer vision that you shouldn’t ignore! In this episode, we bring you one of those amazing stories from Gabriel Ortiz, who is working with the government of Cantabria in Spain to automate cartography and apply AI to geospatial analysis. We hear about how AI tooling fits into the GIS workflow, and Gabriel shares some of his recent work (including work that can identify individual people, invasive plant species, building and more from aerial survey data).\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your…",
+          "link": "https://changelog.com/practicalai/229",
+          "publishedOn": "2023-06-28T14:30:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 229: Automated cartography using AI",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/229/practical-ai-229.mp3",
+            "length": "43060145",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/16/2118",
           "author": null,
           "description": "Tracy Durnell thinks AI has already poisoned its own well, Adam Hill’s microsite catalogs everything you need to UnsuckJS, Lionel Dricot thinks we need more Richard Stallman, not less & the Vulcan team proves you can’t trust ChatGPT’s package recommendations.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – See the untested code causing errors - or whether it’s partially or fully covered - directly in your stack trace, so you can avoid similar errors from happening in the future. Use the code CHANGELOG and get the team plan free for three months.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:40) - AI model collapse\n(03:15) - UnSuckJS.com\n(04:27) - We need more RMS\n(05:57) - Sponsor: Sentry\n(06:43) - AI package hallucination\n(07:37) - Outro",
@@ -465,21 +495,6 @@
             "length": "47926213",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2094",
-          "author": null,
-          "description": "The Gorilla team is building an API store for LLMs, DeviceScript is Microsoft’s new TypeScript programming environment for microcontrollers, Nyxt is a hackable browser written in Lisp, Morgan Housel writes about expectations debt & I issue a gentle reminder to my fellow software engineers: there’s still no silver bullet.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nRaycast – Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more. Turn Pro to harness the power of AI, make Raycast your own with custom themes, keep your Macs in sync and more on the way.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:49) - Gorilla\n(01:47) - DeviceScript\n(02:34) - Nyxt\n(03:13) - Sponsor: Raycast\n(04:00) - Expectations Debt\n(05:36) - Still no silver bullet\n(07:20) - Outro",
-          "link": "https://changelog.com/news/46",
-          "publishedOn": "2023-05-30T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 46: An API store for LLMs, DeviceScript, Nyxt: the hacker's browser, expectations debt & there's still no silver bullet",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/46/changelog-news-46.mp3",
-            "length": "7705389",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -626,15 +641,6 @@
           "publishedOn": "2023-06-08T15:35:19.000Z",
           "wordCount": 1194,
           "title": "Parallel curl tests"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22610",
-          "author": "Daniel Stenberg",
-          "description": "This is the second follow-up patch release in the 8.1.x series due to regressions and bugs that are too annoying to leave lingering around. Release video Numbers the 219th release0 changes7 days (total: 9,202)14 bug-fixes (total: 9,045)22 commits (total: 30,4290 new public libcurl function (total: 91)0 new curl_easy_setopt() option (total: 302)0 new curl command line … Continue reading curl 8.1.2 ate one too →",
-          "link": "https://daniel.haxx.se/blog/2023/05/30/8-1-2-ate-one-too/",
-          "publishedOn": "2023-05-30T06:28:55.000Z",
-          "wordCount": 544,
-          "title": "curl 8.1.2 ate one too"
         }
       ]
     },
@@ -1001,15 +1007,6 @@
           "publishedOn": "2023-06-16T22:56:31.000Z",
           "wordCount": 4035,
           "title": "Way beyond SHAP: a XAI overview"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=21004",
-          "author": "Cristiano Dalbem - Product Design at Nubank",
-          "description": "A walk-through of the different techniques we used to define and prioritize some of the biggest pain points of our customer support team.\nThe post Designing Shuffle, the internal tool that powers Nubank’s award-winning customer service appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/designing-shuffle-the-internal-tool-that-powers-nubanks-award-winning-customer-service/",
-          "publishedOn": "2023-05-30T22:14:02.000Z",
-          "wordCount": 7146,
-          "title": "Designing Shuffle, the internal tool that powers Nubank’s award-winning customer service"
         }
       ]
     },
@@ -1044,15 +1041,6 @@
           "publishedOn": "2023-06-01T22:00:00.000Z",
           "wordCount": 1684,
           "title": "Audit the Security Posture of DevOps with HackerOne Source Code Assessments"
-        },
-        {
-          "id": "https://hackerone.com/year-hackerones-bug-bounty-program",
-          "author": "Rafael de Carvalho",
-          "description": "",
-          "link": "https://www.hackerone.com/year-hackerones-bug-bounty-program",
-          "publishedOn": "2023-05-30T22:00:00.000Z",
-          "wordCount": 2258,
-          "title": "A Year In HackerOne’s Bug Bounty Program"
         }
       ]
     },
