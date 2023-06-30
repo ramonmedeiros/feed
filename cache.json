@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/06/gmail-client-side-encryption-deep-dive.html",
+          "author": null,
+          "description": "Nicolas Lidzborski, Principal Engineer and Jaishankar Sundararaman, Sr. Director of Engineering, Google Workspace\n\n\n\nIn February, we expanded Google Workspace client-side encryption (CSE) capabilities to include Gmail and Calendar in addition to Drive, Docs, Slides, Sheets, and Meet.\nCSE in Gmail was designed to provide commercial and public sector organizations an additional layer of confidentiality and data integrity protection beyond the existing encryption offered by default in Workspace. When CSE is enabled, email messages are protected using encryption keys that are fully under the customer’s control. The data is encrypted on the client device before it’s sent to Google servers that do not have access to the encryption keys, which means the data is indecipherable to us–we have no tec…",
+          "link": "http://security.googleblog.com/2023/06/gmail-client-side-encryption-deep-dive.html",
+          "publishedOn": "2023-06-29T22:09:00.002Z",
+          "wordCount": 2564,
+          "title": "Gmail client-side encryption: A deep dive"
+        },
+        {
           "id": "http://security.googleblog.com/2023/06/supply-chain-security-for-go-part-2.html",
           "author": null,
           "description": "Julie Qiu, Go Security & Reliability, and Roger Ng, Google Open Source Security Team\n\n\n“Secure your dependencies”—it’s the new supply chain mantra. With attacks targeting software supply chains sharply rising, open source developers need to monitor and judge the risks of the projects they rely on. Our previous installment of the Supply chain security for Go series shared the ecosystem tools available to Go developers to manage their dependencies and vulnerabilities. This second installment describes the ways that Go helps you trust the integrity of a Go package. \n\n\n\n\n\n\n\n\n\n\nGo has built-in protections against three major ways packages can be compromised before reaching you: \n\nA new, malicious version of your dependency is published\n\nA package is withdrawn from the ecosystem\n\nA malicious fil…",
@@ -58,15 +67,6 @@
           "publishedOn": "2023-06-01T15:59:00.000Z",
           "wordCount": 971,
           "title": "Announcing the Chrome Browser Full Chain Exploit Bonus"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/05/adding-chrome-browser-cloud-management.html",
-          "author": null,
-          "description": "Posted by Ashish Pujari, Chrome Security Team\n\n\nIntroduction\n\n\nChrome is trusted by millions of business users as a secure enterprise browser. Organizations can use Chrome Browser Cloud Management to help manage Chrome browsers more effectively. As an admin, they can use the Google Admin console to get Chrome to report critical security events to third-party service providers such as Splunk® to create custom enterprise security remediation workflows.\n\n\nSecurity remediation is the process of responding to security events that have been triggered by a system or a user. Remediation can be done manually or automatically, and it is an important part of an enterprise security program.\n\n\nWhy is Automated Security Remediation Important?\n\n\nWhen a security event is identified, it is imperative to re…",
-          "link": "http://security.googleblog.com/2023/05/adding-chrome-browser-cloud-management.html",
-          "publishedOn": "2023-05-31T16:00:00.001Z",
-          "wordCount": 1692,
-          "title": "Adding Chrome Browser Cloud Management remediation actions in Splunk using Alert Actions"
         }
       ]
     },
@@ -81,6 +81,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/2064",
+          "author": null,
+          "description": "Listener Joe Davidson recently tweeted: “I’d really be interested in an episode debating Kubernetes vs serverless functions for distributed systems. As someone working a lot with serverless to create large scale systems, for me the complexity in Kubernetes doesn’t seem worth it, especially when onboarding new people. But I’d like to see it from the other perspectives. I could be missing something.”\nSo we invited Joe on the show alongside Abdel Sghiouar and Srdjan Petrovic to discuss!\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Lea…",
+          "link": "https://changelog.com/gotime/282",
+          "publishedOn": "2023-06-29T21:20:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 282: K8s vs serverless for distributed systems",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/282/go-time-282.mp3",
+            "length": "45990546",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/1/2100",
           "author": null,
@@ -450,51 +465,6 @@
             "length": "58237921",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/2091",
-          "author": null,
-          "description": "This week on The Changelog we’re continuing our Maintainer Month series by taking to you back to the hallway track of The Linux Foundation’s Open Source Summit North America 2023 in Vancouver, Canada. Today’s anthology episode features: Stormy Peters (VP of Communities at GitHub), Dr. Dawn Foster (Director of Open Source Community Strategy at VMware), and Angie Byron (Drupal Core Product Manager and Community Director at Aiven).\nSpecial thanks to our friends at GitHub for sponsoring us to attend this conference as part of Maintainer Month.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nGitHub – Harnessed for productivity. Designed for collaboration. Celebrated for built-in security. Welcome to the platfo…",
-          "link": "https://changelog.com/podcast/542",
-          "publishedOn": "2023-05-31T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 542: ANTHOLOGY — Maintaining maintainers",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/542/the-changelog-542.mp3",
-            "length": "86589181",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/2/2072",
-          "author": null,
-          "description": "Return guests Ben Johnson & Chris James join Mat & Kris to talk about the files and folders of your Go projects, big and small. Does the holy grail exist, of the perfect structure to rule them all? Or are we doomed to be figuring this out for the rest of our lives?\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nBen Johnson – Twitter, GitHub, Website\nChris James – Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nBen’s post about package layout\nRuss Cox saying this is NOT standard\nChris’ unpopular opinion\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:44) - Introducing our guests\n(03:34) - What are files and folders?\n(08:12) - _opperatingSystem\n(15:51) - What folders we choose\n(20:22) - Packages depending on each other\n(23:37) - Just one folder? Or multiple\n(32:55) - Sponsor: Changelog News\n(34:49) - Is there a correct way?\n(36:30) - Vendor folders\n(37:45) - How do we know if it's wrong?\n(44:57) - Unpopular opinions\n(45:28) - Ben Johnson's unpop\n(49:40) - Chris James' unpop\n(55:19) - Kris Brandow's unpop\n(1:00:12) - Wrapping up\n(1:02:49) - Outro",
-          "link": "https://changelog.com/gotime/278",
-          "publishedOn": "2023-05-31T19:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 278: The files & folders of Go projects",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/278/go-time-278.mp3",
-            "length": "62223965",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2095",
-          "author": null,
-          "description": "You can’t build robust systems with inconsistent, unstructured text output from LLMs. Moreover, LLM integrations scare corporate lawyers, finance departments, and security professionals due to hallucinations, cost, lack of compliance (e.g., HIPAA), leaked IP/PII, and “injection” vulnerabilities.\nIn this episode, Chris interviews Daniel about his new company called Prediction Guard, which addresses these issues. They discuss some practical methodologies for getting consistent, structured output from compliant AI systems. These systems, driven by open access models and various kinds of LLM wrappers, can help you delight customers AND navigate the increasing restrictions on “GPT” models.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear.…",
-          "link": "https://changelog.com/practicalai/225",
-          "publishedOn": "2023-05-31T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 225: Controlled and compliant AI applications",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/225/practical-ai-225.mp3",
-            "length": "47926213",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -758,6 +728,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=72761",
+          "author": "Melody Mileski",
+          "description": "GitHub Enterprise Server 3.9 is now generally available. Organizations can now take advantage of more features that enable deeper collaboration, greater observability and faster workflows.",
+          "link": "https://github.blog/2023-06-29-github-enterprise-server-3-9-is-now-generally-available/",
+          "publishedOn": "2023-06-29T16:45:23.000Z",
+          "wordCount": 1445,
+          "title": "GitHub Enterprise Server 3.9 is now generally available"
+        },
         {
           "id": "https://github.blog/?p=72682",
           "author": "Thomas Dohmke",

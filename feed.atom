@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-29T12:03:29.772Z</updated>
+    <updated>2023-06-30T12:02:52.633Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gmail client-side encryption: A deep dive]]></title>
+        <id>http://security.googleblog.com/2023/06/gmail-client-side-encryption-deep-dive.html</id>
+        <link href="http://security.googleblog.com/2023/06/gmail-client-side-encryption-deep-dive.html"/>
+        <updated>2023-06-29T22:09:00.002Z</updated>
+        <summary type="html"><![CDATA[Nicolas Lidzborski, Principal Engineer and Jaishankar Sundararaman, Sr. Director of Engineering, Google Workspace
+
+
+
+In February, we expanded Google Workspace client-side encryption (CSE) capabilities to include Gmail and Calendar in addition to Drive, Docs, Slides, Sheets, and Meet.
+CSE in Gmail was designed to provide commercial and public sector organizations an additional layer of confidentiality and data integrity protection beyond the existing encryption offered by default in Workspace. When CSE is enabled, email messages are protected using encryption keys that are fully under the customer’s control. The data is encrypted on the client device before it’s sent to Google servers that do not have access to the encryption keys, which means the data is indecipherable to us–we have no tec…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 282: K8s vs serverless for distributed systems]]></title>
+        <id>changelog.com/2/2064</id>
+        <link href="https://changelog.com/gotime/282"/>
+        <updated>2023-06-29T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Listener Joe Davidson recently tweeted: “I’d really be interested in an episode debating Kubernetes vs serverless functions for distributed systems. As someone working a lot with serverless to create large scale systems, for me the complexity in Kubernetes doesn’t seem worth it, especially when onboarding new people. But I’d like to see it from the other perspectives. I could be missing something.”
+So we invited Joe on the show alongside Abdel Sghiouar and Srdjan Petrovic to discuss!
+Leave us a comment
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Lea…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Enterprise Server 3.9 is now generally available]]></title>
+        <id>https://github.blog/?p=72761</id>
+        <link href="https://github.blog/2023-06-29-github-enterprise-server-3-9-is-now-generally-available/"/>
+        <updated>2023-06-29T16:45:23.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Enterprise Server 3.9 is now generally available. Organizations can now take advantage of more features that enable deeper collaboration, greater observability and faster workflows.]]></summary>
+        <author>
+            <name>Melody Mileski</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog Interviews 546: Don't make things worse!]]></title>
         <id>changelog.com/1/2100</id>
@@ -1543,113 +1585,6 @@ Any subsequent full chains submitted during this time are eligible for double th
 
 
 We have historically put a premium on reports with exploits –  “high quality report…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog Interviews 542: ANTHOLOGY — Maintaining maintainers]]></title>
-        <id>changelog.com/1/2091</id>
-        <link href="https://changelog.com/podcast/542"/>
-        <updated>2023-05-31T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week on The Changelog we’re continuing our Maintainer Month series by taking to you back to the hallway track of The Linux Foundation’s Open Source Summit North America 2023 in Vancouver, Canada. Today’s anthology episode features: Stormy Peters (VP of Communities at GitHub), Dr. Dawn Foster (Director of Open Source Community Strategy at VMware), and Angie Byron (Drupal Core Product Manager and Community Director at Aiven).
-Special thanks to our friends at GitHub for sponsoring us to attend this conference as part of Maintainer Month.
-Leave us a comment
-Changelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-GitHub – Harnessed for productivity. Designed for collaboration. Celebrated for built-in security. Welcome to the platfo…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 278: The files & folders of Go projects]]></title>
-        <id>changelog.com/2/2072</id>
-        <link href="https://changelog.com/gotime/278"/>
-        <updated>2023-05-31T19:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Return guests Ben Johnson & Chris James join Mat & Kris to talk about the files and folders of your Go projects, big and small. Does the holy grail exist, of the perfect structure to rule them all? Or are we doomed to be figuring this out for the rest of our lives?
-Leave us a comment
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
-
-
-Featuring:
-
-Ben Johnson – Twitter, GitHub, Website
-Chris James – Twitter, GitHub
-Mat Ryer – Twitter, GitHub, LinkedIn, Website
-Kris Brandow – Twitter, GitHub
-
-Show Notes:
-
-Ben’s post about package layout
-Russ Cox saying this is NOT standard
-Chris’ unpopular opinion
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:44) - Introducing our guests
-(03:34) - What are files and folders?
-(08:12) - _opperatingSystem
-(15:51) - What folders we choose
-(20:22) - Packages depending on each other
-(23:37) - Just one folder? Or multiple
-(32:55) - Sponsor: Changelog News
-(34:49) - Is there a correct way?
-(36:30) - Vendor folders
-(37:45) - How do we know if it's wrong?
-(44:57) - Unpopular opinions
-(45:28) - Ben Johnson's unpop
-(49:40) - Chris James' unpop
-(55:19) - Kris Brandow's unpop
-(1:00:12) - Wrapping up
-(1:02:49) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 225: Controlled and compliant AI applications]]></title>
-        <id>changelog.com/7/2095</id>
-        <link href="https://changelog.com/practicalai/225"/>
-        <updated>2023-05-31T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[You can’t build robust systems with inconsistent, unstructured text output from LLMs. Moreover, LLM integrations scare corporate lawyers, finance departments, and security professionals due to hallucinations, cost, lack of compliance (e.g., HIPAA), leaked IP/PII, and “injection” vulnerabilities.
-In this episode, Chris interviews Daniel about his new company called Prediction Guard, which addresses these issues. They discuss some practical methodologies for getting consistent, structured output from compliant AI systems. These systems, driven by open access models and various kinds of LLM wrappers, can help you delight customers AND navigate the increasing restrictions on “GPT” models.
-Leave us a comment
-Changelog++ members save 3 minutes on this episode because they made the ads disappear.…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding Chrome Browser Cloud Management remediation actions in Splunk using Alert Actions]]></title>
-        <id>http://security.googleblog.com/2023/05/adding-chrome-browser-cloud-management.html</id>
-        <link href="http://security.googleblog.com/2023/05/adding-chrome-browser-cloud-management.html"/>
-        <updated>2023-05-31T16:00:00.001Z</updated>
-        <summary type="html"><![CDATA[Posted by Ashish Pujari, Chrome Security Team
-
-
-Introduction
-
-
-Chrome is trusted by millions of business users as a secure enterprise browser. Organizations can use Chrome Browser Cloud Management to help manage Chrome browsers more effectively. As an admin, they can use the Google Admin console to get Chrome to report critical security events to third-party service providers such as Splunk® to create custom enterprise security remediation workflows.
-
-
-Security remediation is the process of responding to security events that have been triggered by a system or a user. Remediation can be done manually or automatically, and it is an important part of an enterprise security program.
-
-
-Why is Automated Security Remediation Important?
-
-
-When a security event is identified, it is imperative to re…]]></summary>
         <author>
             <name>Google Online Security Blog</name>
         </author>
