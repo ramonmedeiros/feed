@@ -2,10 +2,87 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-11T12:03:10.883Z</updated>
+    <updated>2023-07-12T12:03:23.280Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Monitoring vs Observability: Differences and Usages]]></title>
+        <id>https://building.nubank.com.br/?p=21183</id>
+        <link href="https://building.nubank.com.br/monitoring-vs-observability-differences-and-usages/"/>
+        <updated>2023-07-12T01:54:17.000Z</updated>
+        <summary type="html"><![CDATA[The nuances between observability and monitoring are an important compass for navigating modern systems 
+The post Monitoring vs Observability: Differences and Usages appeared first on Building Nubank.]]></summary>
+        <author>
+            <name>Marcos Teixeira - Machine Learning Engineer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub CLI project command is now generally available!]]></title>
+        <id>https://github.blog/?p=72981</id>
+        <link href="https://github.blog/2023-07-11-github-cli-project-command-is-now-generally-available/"/>
+        <updated>2023-07-11T21:52:34.000Z</updated>
+        <summary type="html"><![CDATA[Level up your use of GitHub Projects on the command line and in GitHub Actions with the new project CLI command.]]></summary>
+        <author>
+            <name>Ariel Deitcher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 284: Gophers Say! GopherCon EU 2023]]></title>
+        <id>changelog.com/2/2071</id>
+        <link href="https://changelog.com/gotime/284"/>
+        <updated>2023-07-11T18:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Our award winning worthy survey game show is back, this time Mat Ryer hosts it live on stage at GopherCon Europe 2023!
+Elena Grahovac joins forces with Björn Rabenstein to battle it out with Alice Merrick & Mohammed S. Al Sahaf. Let’s see who can better guess what the GopherCon Europe gophers had to say!
+Leave us a comment
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+Typesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!
+
+
+Featuring:
+
+Elena Grahovac – Twitter
+Björn Rabenstein – GitHub
+Alice Merrick – Twitter, LinkedIn
+Mohammed S. Al Sahaf – Twitter, GitHub, LinkedIn, Website
+Mat Ryer – Twitter, GitHub, LinkedIn, Website
+
+Show Notes:
+
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:32) - The rules
+(01:59) - Mohammed Sahaf
+(02:32) - Alice Merrick
+(03:04) - Elena Grahovac
+(03:34) - Björn Rabenstein
+(04:09) - Round 1
+(07:39) - Round 2
+(11:19) - Round 3
+(14:23) - Round 4
+(18:57) - Round 5
+(23:32) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demonstrating end-to-end traceability with pull requests]]></title>
+        <id>https://github.blog/?p=72807</id>
+        <link href="https://github.blog/2023-07-11-demonstrating-end-to-end-traceability-with-pull-requests/"/>
+        <updated>2023-07-11T16:52:08.000Z</updated>
+        <summary type="html"><![CDATA[Reduce developer and auditor friction involved in demonstrating compliance and maintaining end-to-end traceability by focusing your efforts around the pull request.]]></summary>
+        <author>
+            <name>Philip Holleran</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog News 52: Oracle smacks IBM over RHEL, a Slack clone in 5 lines of Bash, 13 ways to think about joins, llama.cpp learns web chat & Meta will pay to remove Python's GIL]]></title>
         <id>changelog.com/16/2127</id>
@@ -1305,91 +1382,6 @@ Timestamps:
         <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
         <author>
             <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 48: Reddit goes dark, Lemmy lights up, OpenObserve, some blogging myths & Jefro on Automotive Linux]]></title>
-        <id>changelog.com/16/2107</id>
-        <link href="https://changelog.com/news/48"/>
-        <updated>2023-06-12T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Reddit goes dark as subreddits protest, Lemmy lights up as disillusioned redditors turn to the fediverse, OpenObserve is a cloud native observability platform, Julia Evans dispels some myths about blogging & Red Hat’s Jeffrey “Jefro” Osier-Mixon tells Adam and Jerod all about Automotive Linux at Open Source Summit NA.
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors:
-
-  
-Speakeasy – Instantly create SDKs that make API integration easy for your users. Join the beta today.
-
-
-Featuring:
-
-Jefro – Twitter, GitHub, LinkedIn
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
-
-Show Notes:
-All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:29) - Reddit goes dark
-(01:22) - Lemmy lights up
-(02:16) - OpenObserve
-(03:51) - Sponsor: Speakeasy
-(04:51) - Some blogging myths
-(05:46) - Outro
-(06:22) - Jefro on Automotive Linux]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub’s revamped VIP Bug Bounty Program]]></title>
-        <id>https://github.blog/?p=72391</id>
-        <link href="https://github.blog/2023-06-12-githubs-revamped-vip-bug-bounty-program/"/>
-        <updated>2023-06-12T19:51:14.000Z</updated>
-        <summary type="html"><![CDATA[GitHub’s VIP Bug Bounty Program has been updated to include a clear and accessible criteria for receiving an invitation to the program and more. Learn more about the program and how you can become a Hacktocat, and join our community of researchers who are contributing to GitHub’s security with fun perks and access to staff and beta features!]]></summary>
-        <author>
-            <name>Jeff Guerra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make your GitHub projects more accessible with accessibility-alt-text-bot]]></title>
-        <id>https://github.blog/?p=72378</id>
-        <link href="https://github.blog/2023-06-12-make-your-github-projects-more-accessible-with-accessibility-alt-text-bot/"/>
-        <updated>2023-06-12T17:00:34.000Z</updated>
-        <summary type="html"><![CDATA[The accessibility-alt-text-bot leaves automated reminders in a comment when a user shares an image without providing meaningful alt text.]]></summary>
-        <author>
-            <name>Kate Higa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Escrow Buddy: An open-source tool from Netflix for remediation of missing FileVault keys in MDM]]></title>
-        <id>https://medium.com/p/815aef5107cd</id>
-        <link href="https://netflixtechblog.com/escrow-buddy-an-open-source-tool-from-netflix-for-remediation-of-missing-filevault-keys-in-mdm-815aef5107cd?source=rss----2615bd06b42e---4"/>
-        <updated>2023-06-12T16:36:25.000Z</updated>
-        <summary type="html"><![CDATA[Netflix has open-sourced Escrow Buddy, which helps Security and IT teams ensure they have valid FileVault recovery keys for all their Macs…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud migration made easy: introducing GitHub Enterprise Importer]]></title>
-        <id>https://github.blog/?p=72386</id>
-        <link href="https://github.blog/2023-06-12-cloud-migration-made-easy-introducing-github-enterprise-importer/"/>
-        <updated>2023-06-12T16:04:24.000Z</updated>
-        <summary type="html"><![CDATA[With GitHub Enterprise Importer, you can seamlessly move to GitHub Enterprise Cloud, bringing your code and collaboration history with you so your team doesn’t miss a beat.]]></summary>
-        <author>
-            <name>Tim Rogers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NVD damage continued]]></title>
-        <id>https://daniel.haxx.se/blog/?p=22645</id>
-        <link href="https://daniel.haxx.se/blog/2023/06/12/nvd-damage-continued/"/>
-        <updated>2023-06-12T12:35:17.000Z</updated>
-        <summary type="html"><![CDATA[There is something about having your product installed in over twenty billion instances all over the world and even out of the globe. In my case it helps me remain focused on and committed to working on the security aspects of curl. Ideally, we will never have our heartbleed moment. Security is also a generally … Continue reading NVD damage continued →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
         </author>
     </entry>
 </feed>
