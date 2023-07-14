@@ -49,15 +49,6 @@
           "publishedOn": "2023-06-16T17:10:00.003Z",
           "wordCount": 2771,
           "title": "Bringing Transparency to Confidential Computing with SLSA"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/06/learnings-from-kctf-vrps-42-linux.html",
-          "author": null,
-          "description": "Tamás Koczka, Security Engineer\n\n\n\n\nIn 2020, we integrated kCTF into Google's Vulnerability Rewards Program (VRP) to support researchers evaluating the security of Google Kubernetes Engine (GKE) and the underlying Linux kernel. As the Linux kernel is a key component not just for Google, but for the Internet, we started heavily investing in this area. We extended the VRP's scope and maximum reward in 2021 (to $50k), then again in February 2022 (to $91k), and finally in August 2022 (to $133k). In 2022, we also summarized our learnings to date in our cookbook, and introduced our experimental mitigations for the most common exploitation techniques.\n\n\nIn this post, we'd like to share our learnings and statistics about the latest Linux kernel exploit submissions, how effective our mitigations ar…",
-          "link": "http://security.googleblog.com/2023/06/learnings-from-kctf-vrps-42-linux.html",
-          "publishedOn": "2023-06-14T15:59:00.001Z",
-          "wordCount": 2639,
-          "title": "Learnings from kCTF VRP's 42 Linux kernel exploits submissions"
         }
       ]
     },
@@ -72,6 +63,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2099",
+          "author": null,
+          "description": "This week we’re talking about type checking with Jake Zimmerman. Jake is one of the leads at Stripe working on Sorbet — an open source project that does Type checking in Ruby and runs over Stripe’s entire Ruby codebase. As of May of 2022 Stripe’s codebase was over 15 million lines of code spread across 150,000 files. If you think you have a bigger Ruby codebase, Jake is down to go byte-for-byte to see who wins. Jake shares tons of wisdom and more importantly he shares why he thinks types will win in the end.\nLeave us a comment\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code-level APM built for developers! Stay ahead of latency issues and trace every slow transaction to a poor-performing API call or database query. S…",
+          "link": "https://changelog.com/podcast/548",
+          "publishedOn": "2023-07-13T20:10:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 548: Types will win in the end",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/548/the-changelog-548.mp3",
+            "length": "62579352",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/7/2128",
           "author": null,
@@ -411,21 +417,6 @@
             "length": "67986396",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2109",
-          "author": null,
-          "description": "Daniel had the chance to sit down with @swyx and Alessio from the Latent Space pod in SF to talk about current AI trends and to highlight some key learnings from past episodes. The discussion covers open access LLMs, smol models, model controls, prompt engineering, and LLMOps. This mashup is magical. Don’t miss it!\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or …",
-          "link": "https://changelog.com/practicalai/227",
-          "publishedOn": "2023-06-14T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 227: AI trends: a Latent Space crossover",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/227/practical-ai-227.mp3",
-            "length": "57492332",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -512,33 +503,6 @@
           "publishedOn": "2023-06-21T09:00:00.000Z",
           "wordCount": 1225,
           "title": "The creative and transformational possibilities of AI"
-        },
-        {
-          "id": "https://blog.google/products/google-lens/google-lens-features/",
-          "author": null,
-          "description": "Lens makes it easy to search what you see and explore the world around you — including the new ability to search for skin conditions.",
-          "link": "https://blog.google/products/google-lens/google-lens-features/",
-          "publishedOn": "2023-06-14T16:00:00.000Z",
-          "wordCount": 1581,
-          "title": "8 ways Google Lens can help make your life easier"
-        },
-        {
-          "id": "https://blog.google/products/gmail/gmail-ai-features/",
-          "author": null,
-          "description": "These AI-powered Gmail features can make your email experience even faster, easier and more organized.",
-          "link": "https://blog.google/products/gmail/gmail-ai-features/",
-          "publishedOn": "2023-06-14T13:00:00.000Z",
-          "wordCount": 2008,
-          "title": "6 Gmail AI features to help save you time"
-        },
-        {
-          "id": "https://blog.google/products/ads-commerce/new-ai-powered-ads-to-drive-demand/",
-          "author": null,
-          "description": "Google and YouTube’s new AI-powered solutions help advertisers multiply their creativity and generate demand.",
-          "link": "https://blog.google/products/ads-commerce/new-ai-powered-ads-to-drive-demand/",
-          "publishedOn": "2023-06-14T04:00:00.000Z",
-          "wordCount": 890,
-          "title": "Introducing new AI-powered ad solutions to drive demand"
         }
       ]
     },
@@ -555,15 +519,6 @@
           "publishedOn": "2023-06-17T14:20:26.000Z",
           "wordCount": 507,
           "title": "curl user survey 2023 analysis"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22690",
-          "author": "Daniel Stenberg",
-          "description": "June 15, 2023 10:00 AM PST (19:00 CEST, 17:00 UTC) Register Here This will be an overview by Daniel Stenberg of the new WebSocket support in curl and in particular how to use this API with libcurl in your applications. It is followed by a live Q&A. The session will be recorded and made available … Continue reading WebSocket with libcurl webinar →",
-          "link": "https://daniel.haxx.se/blog/2023/06/14/websocket-with-libcurl-webinar/",
-          "publishedOn": "2023-06-14T06:21:35.000Z",
-          "wordCount": 355,
-          "title": "WebSocket with libcurl webinar"
         }
       ]
     },
@@ -572,6 +527,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
+          "author": null,
+          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
+          "publishedOn": "2023-07-14T12:03:17.171Z",
+          "wordCount": 1101,
+          "title": "The data platform cluster operator service for Hadoop cluster management"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
           "author": null,
@@ -643,15 +607,6 @@
           "publishedOn": "2023-06-20T12:02:46.678Z",
           "wordCount": 1706,
           "title": "Stability and scalability for search"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "publishedOn": "2023-06-14T12:02:35.357Z",
-          "wordCount": 997,
-          "title": "How Twitter uses rasdaemon for hardware reliability"
         }
       ]
     },
@@ -672,6 +627,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=72805",
+          "author": "Michelle Mannering",
+          "description": "It’s been a while since we’ve published our Release Radar. You can blame IRL conferences coming back, getting influenza, and being struck down by the weather. But those are just me problems. While I’ve been down or travelling, the community has been hard at work shipping new releases and new projects. So, we thought we’d […]",
+          "link": "https://github.blog/2023-07-13-release-radar-spring-23/",
+          "publishedOn": "2023-07-14T00:58:12.000Z",
+          "wordCount": 1789,
+          "title": "Release Radar · Spring 2023 Edition"
+        },
+        {
+          "id": "https://github.blog/?p=73093",
+          "author": "Martin Woodward",
+          "description": "Navigating the ebb and flow of programming paradigms–from the shifts in the JavaScript ecosystem and TypeScript's rise, to AI's role in advancing accessibility, and strategies for encouraging non-code contributions–tune in to the latest episode of The ReadME Podcast for more.",
+          "link": "https://github.blog/2023-07-13-decoding-conventions/",
+          "publishedOn": "2023-07-13T18:02:52.000Z",
+          "wordCount": 885,
+          "title": "(De)coding conventions"
+        },
+        {
+          "id": "https://github.blog/?p=73088",
+          "author": "Chris Reddington",
+          "description": "Thanks to DevOps, cloud computing and other industry trends, many organizations are shifting from a product mindset to a service mindset. Here’s how you can implement a service-led strategy.",
+          "link": "https://github.blog/2023-07-13-moving-from-a-product-to-a-service-mindset/",
+          "publishedOn": "2023-07-13T13:44:24.000Z",
+          "wordCount": 2922,
+          "title": "Moving from a product to a service mindset"
+        },
         {
           "id": "https://github.blog/?p=73052",
           "author": "Jakub Oleksy",
@@ -869,15 +851,6 @@
           "publishedOn": "2023-06-15T12:53:54.000Z",
           "wordCount": 6780,
           "title": "CodeQL zero to hero part 2: getting started with CodeQL"
-        },
-        {
-          "id": "https://github.blog/?p=72471",
-          "author": "Jakub Oleksy",
-          "description": "In May, we experienced four incidents that resulted in degraded performance across GitHub services. This report also sheds light into three April incidents that resulted in degraded performance across GitHub services.",
-          "link": "https://github.blog/2023-06-14-github-availability-report-may-2023/",
-          "publishedOn": "2023-06-14T18:56:07.000Z",
-          "wordCount": 1775,
-          "title": "GitHub Availability Report: May 2023"
         }
       ]
     },
@@ -966,6 +939,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/thought-leadership/generative-ai-security-predictions",
+          "author": "Michiel Prins",
+          "description": "GAI capabilities will soon be table stakes for any software company as their customers will simply expect it. Those who do not take advantage of this technological evolution will decline into irrelevancy and be replaced by better and more productive alternatives. A world where Generative AI is ubiquitous will soon be here. What does that mean for security? We have two main predictions.",
+          "link": "https://www.hackerone.com/thought-leadership/generative-ai-security-predictions",
+          "publishedOn": "2023-07-12T16:00:00.000Z",
+          "wordCount": 1893,
+          "title": "Generative AI and Security: HackerOne's Predictions"
+        },
+        {
           "id": "https://hackerone.com/best-practices/a-conversation-between-hackers-and-program-managers",
           "author": "ktansley@hackerone.com",
           "description": "In recent years, HackerOne has brought hackers and customers together more frequently. Bug bounty and pentests are where these two parts of the HackerOne community have historically met, but fostering open conversations outside of paid engagements has further reinforced the sense of community and collaboration that HackerOne embodies.",
@@ -973,15 +955,6 @@
           "publishedOn": "2023-07-05T19:00:00.000Z",
           "wordCount": 2152,
           "title": "Takeaways from a Conversation Between Hackers and Program Managers"
-        },
-        {
-          "id": "https://hackerone.com/customer-stories/grammarly-ciso-suha-can-discusses-preemptive-security",
-          "author": "ktansley@hackerone.com",
-          "description": "Suha Can, the CISO of Grammarly, recently joined HackerOne’s CTO & Co-founder, Alex Rice, for a discussion on user trust, the benefits of Grammarly’s bug bounty program, and the advantages of preemptive security measures.",
-          "link": "https://www.hackerone.com/customer-stories/grammarly-ciso-suha-can-discusses-preemptive-security",
-          "publishedOn": "2023-06-14T16:00:00.000Z",
-          "wordCount": 1666,
-          "title": "Grammarly CISO Suha Can Discusses the Impact of Preemptive Security with HackerOne"
         }
       ]
     },
@@ -998,15 +971,6 @@
           "publishedOn": "2023-06-20T16:51:36.000Z",
           "wordCount": 1604,
           "title": "Detecting Scene Changes in Audiovisual Content"
-        },
-        {
-          "id": "https://medium.com/p/8e1e4d4f1e72",
-          "author": "Netflix Technology Blog",
-          "description": "By Jennifer Shin, Tejas Shikhare, Will Emmanuel",
-          "link": "https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-06-14T17:59:46.000Z",
-          "wordCount": 1746,
-          "title": "Migrating Netflix to GraphQL Safely"
         }
       ]
     },
