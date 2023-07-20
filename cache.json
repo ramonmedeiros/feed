@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/07/an-important-step-towards-secure-and.html",
+          "author": null,
+          "description": "Posted by Giles Hogben, Privacy Engineering Director\n\n\nMost modern consumer messaging platforms (including Google Messages) support end-to-end encryption, but users today are limited to communicating with contacts who use the same platform. This is why Google is strongly supportive of regulatory efforts that require interoperability for large end-to-end messaging platforms.\n\n\nFor interoperability to succeed in practice, however, regulations must be combined with open, industry-vetted, standards, particularly in the area of privacy, security, and end-to-end encryption. Without robust standardization, the result will be a spaghetti of ad hoc middleware that could lower security standards to cater for the lowest common denominator and raise implementation costs, particularly for smaller providers. Lack of standardization would also make advanced features such as end-to-end encrypted group messaging impossible in practice – group messages would have to be encrypted and delivered multiple times to cater for every different protocol.\n\n\nWith the recent publication of the IETF’s Message Layer Security (MLS) specification RFC 9420, messaging users can look forward to this reality. For the first time, MLS enables practical interoperability across services and platforms, scaling to groups of thousands of multi-device users. It is also flexible enough to allow providers to  address emerging threats to user privacy and security, such as quantum computing.  \n\n\nBy ensuring a uniformly high security and privacy bar that users can trust, MLS will unleash a huge field of new opportunities for the users and developers of  interoperable messaging services that adopt it. This is why we intend to build MLS into Google Messages and support its wide deployment across the industry by open sourcing our implementation in the Android codebase.",
+          "link": "http://security.googleblog.com/2023/07/an-important-step-towards-secure-and.html",
+          "publishedOn": "2023-07-19T19:44:00.000Z",
+          "wordCount": 667,
+          "title": "An important step towards secure and interoperable messaging"
+        },
+        {
           "id": "http://security.googleblog.com/2023/06/gmail-client-side-encryption-deep-dive.html",
           "author": null,
           "description": "Nicolas Lidzborski, Principal Engineer and Jaishankar Sundararaman, Sr. Director of Engineering, Google Workspace\n\n\n\nIn February, we expanded Google Workspace client-side encryption (CSE) capabilities to include Gmail and Calendar in addition to Drive, Docs, Slides, Sheets, and Meet.\nCSE in Gmail was designed to provide commercial and public sector organizations an additional layer of confidentiality and data integrity protection beyond the existing encryption offered by default in Workspace. When CSE is enabled, email messages are protected using encryption keys that are fully under the customer’s control. The data is encrypted on the client device before it’s sent to Google servers that do not have access to the encryption keys, which means the data is indecipherable to us–we have no tec…",
@@ -31,15 +40,6 @@
           "publishedOn": "2023-06-22T16:05:00.000Z",
           "wordCount": 2002,
           "title": "Google Cloud Awards $313,337 in 2022 VRP Prizes"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/06/protect-and-manage-browser-extensions.html",
-          "author": null,
-          "description": "Posted by Anuj Goyal, Product Manager, Chrome Browser\nChrome Browser Cloud Management. In this blog post, we will walk you through how to utilize these features to keep your data and users safe.\n\n\nVisibility into Extensions being used in your environment\n\n\nHaving visibility into what and how extensions are being used enables IT and security teams to assess potential security implications, ensure compliance with organizational policies, and mitigate potential risks. There are three ways you can get critical information about extensions in your organization:\n1. App and extension usage reporting\nOrganizations can gain visibility into every Chrome extension that is installed across an enterprise’s fleet in Chrome App and Extension Usage Reporting.\n2. Extension Risk Assessment\nCRXcavator and Sp…",
-          "link": "http://security.googleblog.com/2023/06/protect-and-manage-browser-extensions.html",
-          "publishedOn": "2023-06-20T15:58:00.000Z",
-          "wordCount": 1240,
-          "title": "Protect and manage browser extensions using Chrome Browser Cloud Management"
         }
       ]
     },
@@ -54,6 +54,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/2123",
+          "author": null,
+          "description": "The Go ecosystem has a hoard of tools and editors for Gophers to choose from and it can be difficult to find ones that are a good fit for each individual. In this episode, we discuss what tools and editors we’re using, the ones we wish existed, how we go about finding new ones, and why we sometimes choose to write our own tools.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Den…",
+          "link": "https://changelog.com/gotime/285",
+          "publishedOn": "2023-07-19T15:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 285: The tools we love",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/285/go-time-285.mp3",
+            "length": "94341567",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/7/2165",
           "author": null,
@@ -433,6 +448,15 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/technology/safety-security/googles-ai-red-team-the-ethical-hackers-making-ai-safer/",
+          "author": null,
+          "description": "Today, we're publishing information on Google’s AI Red Team for the first time.",
+          "link": "https://blog.google/technology/safety-security/googles-ai-red-team-the-ethical-hackers-making-ai-safer/",
+          "publishedOn": "2023-07-19T12:00:00.000Z",
+          "wordCount": 1383,
+          "title": "Google's AI Red Team: the ethical hackers making AI safer"
+        },
+        {
           "id": "https://blog.google/outreach-initiatives/diversity/why-inclusive-sets-of-images-help-us-make-better-products/",
           "author": null,
           "description": "We worked with TONL, a stock image company, to create more representative datasets to help teams build more inclusive products.",
@@ -634,15 +658,6 @@
           "publishedOn": "2023-07-04T12:02:39.641Z",
           "wordCount": 890,
           "title": "Data Quality Automation at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "author": null,
-          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
-          "publishedOn": "2023-06-20T12:02:46.678Z",
-          "wordCount": 1706,
-          "title": "Stability and scalability for search"
         }
       ]
     },
@@ -663,6 +678,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=73245",
+          "author": "Amanda Swan",
+          "description": "As a design organization, we have the opportunity to make a significant impact on designing the platform for all developers. How does the emergence of creative AI impact our work? How can we achieve an inclusive experience for a spectrum of all abilities? What does designing for developer happiness look like?",
+          "link": "https://github.blog/2023-07-19-exploring-developer-happiness-inclusion-and-productivity-at-githubs-design-conference/",
+          "publishedOn": "2023-07-19T17:00:44.000Z",
+          "wordCount": 2595,
+          "title": "Exploring developer happiness, inclusion, and productivity at GitHub’s Design Conference"
+        },
+        {
+          "id": "https://github.blog/?p=73232",
+          "author": "Zack Koppert",
+          "description": "With the new Issue Metrics GitHub Action, you can now track and monitor important metrics related to issues, pull requests, and discussions, such as time to first response, time to close, and more!",
+          "link": "https://github.blog/2023-07-19-metrics-for-issues-pull-requests-and-discussions/",
+          "publishedOn": "2023-07-19T16:00:04.000Z",
+          "wordCount": 1443,
+          "title": "Metrics for issues, pull requests, and discussions"
+        },
         {
           "id": "https://github.blog/?p=73188",
           "author": "Alexis Wales",
@@ -869,15 +902,6 @@
           "publishedOn": "2023-06-21T17:35:17.000Z",
           "wordCount": 3314,
           "title": "Crafting a better, faster code view"
-        },
-        {
-          "id": "https://github.blog/?p=72576",
-          "author": "Rizel Scarlett",
-          "description": "In this prompt guide for GitHub Copilot, two GitHub developer advocates, Rizel and Michelle, will share examples and best practices for communicating your desired results to the AI pair programmer.",
-          "link": "https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/",
-          "publishedOn": "2023-06-20T16:00:08.000Z",
-          "wordCount": 2346,
-          "title": "How to use GitHub Copilot: Prompts, tips, and use cases"
         }
       ]
     },
@@ -1007,17 +1031,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/77a61d3eaad6",
-          "author": "Netflix Technology Blog",
-          "description": "Avneesh Saluja, Andy Yao, Hossein Taghavi",
-          "link": "https://netflixtechblog.com/detecting-scene-changes-in-audiovisual-content-77a61d3eaad6?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-06-20T16:51:36.000Z",
-          "wordCount": 1604,
-          "title": "Detecting Scene Changes in Audiovisual Content"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "All Eyes on Markets",
