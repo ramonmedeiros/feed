@@ -6,6 +6,24 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/07/supply-chain-security-for-go-part-3.html",
+          "author": null,
+          "description": "Julie Qiu, Go Security & Reliability and Jonathan Metzman, Google Open Source Security Team\n\n\nPreviously in our Supply chain security for Go series, we covered dependency and vulnerability management tools and how Go ensures package integrity and availability as part of the commitment to countering the rise in supply chain attacks in recent years. \nIn this final installment, we’ll discuss how “shift left” security can help make sure you have the security information you need, when you need it, to avoid unwelcome surprises. \nShifting left\n\nThe software development life cycle (SDLC) refers to the series of steps that a software project goes through, from planning all the way through operation. It’s a cycle because once code has been released, the process continues and repeats through actions…",
+          "link": "http://security.googleblog.com/2023/07/supply-chain-security-for-go-part-3.html",
+          "publishedOn": "2023-07-20T19:58:00.001Z",
+          "wordCount": 2375,
+          "title": "Supply chain security for Go, Part 3: Shifting left"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/07/a-look-at-chromes-security-review.html",
+          "author": null,
+          "description": "Posted by Alex Gough, Chrome Security Team\n\nSecurity Review in Chrome\nfeature flag and must pass a Launch Review before turning it on. Teams think about security early-on and coordinate with the security team. Teams are responsible for the safety of their features and ensuring that the security team is able to say ‘yes’ to its security review.\n\n\nSecurity review focuses on the design of a proposed feature, not its details and is distinct from code review. Chrome changes need approval from engineers familiar with the code being changed but not necessarily from security experts. It is not practical for security engineers to scrutinize every change. Instead we focus on the feature’s architecture, and how it might affect people using Chrome.\n\n\nReviewers function best in an open and supportive e…",
+          "link": "http://security.googleblog.com/2023/07/a-look-at-chromes-security-review.html",
+          "publishedOn": "2023-07-20T16:00:00.000Z",
+          "wordCount": 3381,
+          "title": "A look at Chrome’s security review culture"
+        },
+        {
           "id": "http://security.googleblog.com/2023/07/an-important-step-towards-secure-and.html",
           "author": null,
           "description": "Posted by Giles Hogben, Privacy Engineering Director\n\n\nMost modern consumer messaging platforms (including Google Messages) support end-to-end encryption, but users today are limited to communicating with contacts who use the same platform. This is why Google is strongly supportive of regulatory efforts that require interoperability for large end-to-end messaging platforms.\n\n\nFor interoperability to succeed in practice, however, regulations must be combined with open, industry-vetted, standards, particularly in the area of privacy, security, and end-to-end encryption. Without robust standardization, the result will be a spaghetti of ad hoc middleware that could lower security standards to cater for the lowest common denominator and raise implementation costs, particularly for smaller providers. Lack of standardization would also make advanced features such as end-to-end encrypted group messaging impossible in practice – group messages would have to be encrypted and delivered multiple times to cater for every different protocol.\n\n\nWith the recent publication of the IETF’s Message Layer Security (MLS) specification RFC 9420, messaging users can look forward to this reality. For the first time, MLS enables practical interoperability across services and platforms, scaling to groups of thousands of multi-device users. It is also flexible enough to allow providers to  address emerging threats to user privacy and security, such as quantum computing.  \n\n\nBy ensuring a uniformly high security and privacy bar that users can trust, MLS will unleash a huge field of new opportunities for the users and developers of  interoperable messaging services that adopt it. This is why we intend to build MLS into Google Messages and support its wide deployment across the industry by open sourcing our implementation in the Android codebase.",
@@ -54,6 +72,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2069",
+          "author": null,
+          "description": "This week it’s storytime with Steve Yegge! Steve came out of retirement to join Sourcegraph as Head of Engineering. Their next frontier is Cody, their AI coding assistant that answers code questions and writes code for you by reading your entire codebase and the code graph. But, we really spent a lot of time talking with Steve about his time at Amazon, Google, and Grab. Ok, it’s storytime!\nLeave us a comment\nChangelog++ members get a bonus 9 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code-level APM built for developers! Stay ahead of latency issues and trace every slow transaction to a poor-performing API call or database query. Sentry is the only developer-first application monitoring platform that shows you what’s slow, down to the line of code. U…",
+          "link": "https://changelog.com/podcast/549",
+          "publishedOn": "2023-07-20T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 549: Storytime with Steve Yegge",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/549/the-changelog-549.mp3",
+            "length": "99162624",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/6/2114",
+          "author": null,
+          "description": "Justin Fagnani joins us this week to talk about Lit, a library that helps you build web components. With 17% of pageviews in Chrome registering use of web components, Lit has gained widespread adoption across a variety of companies looking to create reusable components which leverage the power and interoperability of the web platform. Tune in to learn about what makes this tiny library so incredibly lit!\nLeave us a comment\nChangelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!\nFeaturing:\n\nJustin Fagnani – Mastodon, Twitter, GitHub, LinkedIn, Website\nAmal Hussein – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nLit docs & examples\nThrowback Lit html episode on the Web Platform Podcast with Amal\nPolymer Library - Lit’s predecessor\nCustom Elements\nShadow DOM\nTemplates and Slots\nJS Tagged Template Literals\nLit Element base class\nAmal’s singing about “dangerously set innerHTML”\nProposal for Scoped Custom Element Global Registries\nProposal for declarative Shadow DOM\nProposal for Template Instantiation\nProposal for DOM Parts\nProposal for “open-stylable” Shadow Roots\nProposal for JavaScript Decorators\nLit labs packages\nGoogle’s Wireit - updates your npm scripts to make them smarter\nJustin’s npm cli RFC for adding Googe’s Wireit script runner to npm\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:40) - Welcoming Justin to the show\n(02:36) - What is it?\n(04:36) - The evolution of the project\n(10:02) - How do updates flow in to the DOM?\n(11:19) - How it tracks data\n(14:38) - Managing references\n(17:13) - dangerouslySetInnertHTML\n(21:25) - Lit is simple (af)\n(23:54) - Absolutely necessary\n(26:41) - App frameworks built on Lit\n(31:33) - Who's using this?\n(34:44) - How Lit is governed\n(38:48) - Building for the platform first\n(40:46) - Web components aren't sexy\n(43:26) - Incorporating shadow DOM\n(53:35) - Good role models\n(54:53) - Justin's web wish\n(57:30) - Closing time\n(58:46) - Outro",
+          "link": "https://changelog.com/jsparty/284",
+          "publishedOn": "2023-07-20T16:30:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 284: This is going to be Lit 🔥",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/284/js-party-284.mp3",
+            "length": "58103801",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/2/2123",
           "author": null,
@@ -393,36 +441,6 @@
             "length": "84456793",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/2/2076",
-          "author": null,
-          "description": "Kaylyn Gibilterra returns as Natalie & the gang take our diversity conversation one step further. This time we’re talking about neurodiversity as it relates to being a developer, a manager, a conference participant & more.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nKaylyn Gibilterra – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:44) - Kaylyn Gibilterra\n(03:46) - Neurodiversity, what is that?\n(07:43) - Why the need for labels?\n(20:48) - Relative neurotypicalness\n(23:11) - Johnny's main concern\n(32:11) - Is diagnosing important?\n(41:00) - Sponsor: Changelog News\n(42:25) - What can conferences do?\n(46:46) - Responsibility of the people\n(51:30) - In the context of work...\n(1:03:54) - Unpopular opinions!\n(1:04:25) - Johnny's unpop\n(1:05:47) - Kris's unpop\n(1:06:22) - Kaylyn's unpop\n(1:08:23) - Natalie's unpop\n(1:10:12) - Kris' second unpop??\n(1:12:07) - Closing\n(1:12:29) - Outro",
-          "link": "https://changelog.com/gotime/281",
-          "publishedOn": "2023-06-21T22:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 281: Neurodiverse gophers",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/281/go-time-281.mp3",
-            "length": "71450914",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2116",
-          "author": null,
-          "description": "Chris and Daniel take a step back to look at how generative AI fits into the wider landscape of ML/AI and data science. They talk through the differences in how one approaches “traditional” supervised learning and how practitioners are approaching generative AI based solutions (such as those using Midjourney or GPT family models). Finally, they talk through the risk and compliance implications of generative AI, which was in the news this week in the EU.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nNYT Article: “Europeans Take a Major Step Toward Regulating A.I.”\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Fully Connected\n(02:38) - What is AI today?\n(05:54) - A big AI misconception\n(14:18) - Generative AI\n(16:48) - Foundation models\n(18:22) - Generative models\n(26:20) - Sponsor: Changelog News\n(27:45) - AI and the destruction of mankind\n(33:26) - AI pilots\n(41:42) - Fundamentally transforming humans\n(45:54) - Outro",
-          "link": "https://changelog.com/practicalai/228",
-          "publishedOn": "2023-06-21T13:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 228: From ML to AI to Generative AI",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/228/practical-ai-228.mp3",
-            "length": "45022994",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -536,24 +554,6 @@
           "publishedOn": "2023-06-22T23:45:00.000Z",
           "wordCount": 1447,
           "title": "Our support for early warning systems"
-        },
-        {
-          "id": "https://blog.google/outreach-initiatives/entrepreneurs/accelerator-ai-first/",
-          "author": null,
-          "description": "This 10-week program supports startups using AI in their core business through tailored training and mentoring by making use of the best of Google and its network.",
-          "link": "https://blog.google/outreach-initiatives/entrepreneurs/accelerator-ai-first/",
-          "publishedOn": "2023-06-21T11:00:00.000Z",
-          "wordCount": 1324,
-          "title": "A new accelerator for AI-first startups in Europe and Israel"
-        },
-        {
-          "id": "https://blog.google/technology/ai/ai-creativity/",
-          "author": null,
-          "description": "James Manyika spoke at the Cannes Lions Festival about AI and creativity. Read excerpts from his remarks.",
-          "link": "https://blog.google/technology/ai/ai-creativity/",
-          "publishedOn": "2023-06-21T09:00:00.000Z",
-          "wordCount": 1225,
-          "title": "The creative and transformational possibilities of AI"
         }
       ]
     },
@@ -578,6 +578,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "author": null,
+          "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
+          "publishedOn": "2023-07-21T12:02:48.845Z",
+          "wordCount": 1706,
+          "title": "Stability and scalability for search"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
           "author": null,
@@ -678,6 +687,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=73185",
+          "author": "Mario Rodriguez",
+          "description": "All GitHub Copilot for Business users now have access to a limited GitHub Copilot Chat beta, bringing the power of conversational coding right to the IDE.",
+          "link": "https://github.blog/2023-07-20-github-copilot-chat-beta-now-available-for-every-organization/",
+          "publishedOn": "2023-07-20T15:45:57.000Z",
+          "wordCount": 1635,
+          "title": "GitHub Copilot Chat beta now available for every organization"
+        },
         {
           "id": "https://github.blog/?p=73245",
           "author": "Amanda Swan",
@@ -875,33 +893,6 @@
           "publishedOn": "2023-06-26T16:36:07.000Z",
           "wordCount": 996,
           "title": "New tool to secure your GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=72132",
-          "author": "Andrzej Mazur",
-          "description": "Highlighting 13 of the top games plus source from the latest Gamedev.js jam–by GitHub Star and event organizer, Andrzej Mazur.",
-          "link": "https://github.blog/2023-06-21-gamedev-js-2023/",
-          "publishedOn": "2023-06-21T22:20:30.000Z",
-          "wordCount": 1303,
-          "title": "Open Source challenge results from Gamedev.js Jam 2023"
-        },
-        {
-          "id": "https://github.blog/?p=72590",
-          "author": "Martin Woodward",
-          "description": "Explore the impact of non-code contributions—and why they are often undervalued, the challenges of using open source in regulated environments, and the art of managing projects at the scale of Kubernetes, now on The ReadME Podcast.",
-          "link": "https://github.blog/2023-06-21-bridging-code-and-community/",
-          "publishedOn": "2023-06-21T20:44:06.000Z",
-          "wordCount": 889,
-          "title": "Bridging code and community"
-        },
-        {
-          "id": "https://github.blog/?p=72597",
-          "author": "Joshua Brown",
-          "description": "The new GitHub Code View brings users many new features to improve the code reading and exploration experiences, and we overcame a number of unique technical hurdles in order to deliver those features without compromising performance.",
-          "link": "https://github.blog/2023-06-21-crafting-a-better-faster-code-view/",
-          "publishedOn": "2023-06-21T17:35:17.000Z",
-          "wordCount": 3314,
-          "title": "Crafting a better, faster code view"
         }
       ]
     },
@@ -972,15 +963,6 @@
           "publishedOn": "2023-06-26T14:36:50.000Z",
           "wordCount": 4084,
           "title": "Team Management from Engineering Managers perspective"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=21049",
-          "author": "Nubank Editorial",
-          "description": "Understand the promising future of Precog and customer representation AI at Nubank\nThe post Presenting Precog, Nubank’s Real Time Event AI appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/presenting-precog-nubanks-real-time-event-ai/",
-          "publishedOn": "2023-06-21T01:16:30.000Z",
-          "wordCount": 4531,
-          "title": "Presenting Precog, Nubank’s Real Time Event AI"
         }
       ]
     },

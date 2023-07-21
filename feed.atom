@@ -2,10 +2,141 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-20T12:03:09.717Z</updated>
+    <updated>2023-07-21T12:03:05.686Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stability and scalability for search]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search"/>
+        <updated>2023-07-21T12:02:48.845Z</updated>
+        <summary type="html"><![CDATA[In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 549: Storytime with Steve Yegge]]></title>
+        <id>changelog.com/1/2069</id>
+        <link href="https://changelog.com/podcast/549"/>
+        <updated>2023-07-20T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week it’s storytime with Steve Yegge! Steve came out of retirement to join Sourcegraph as Head of Engineering. Their next frontier is Cody, their AI coding assistant that answers code questions and writes code for you by reading your entire codebase and the code graph. But, we really spent a lot of time talking with Steve about his time at Amazon, Google, and Grab. Ok, it’s storytime!
+Leave us a comment
+Changelog++ members get a bonus 9 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Sentry – Code-level APM built for developers! Stay ahead of latency issues and trace every slow transaction to a poor-performing API call or database query. Sentry is the only developer-first application monitoring platform that shows you what’s slow, down to the line of code. U…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supply chain security for Go, Part 3: Shifting left]]></title>
+        <id>http://security.googleblog.com/2023/07/supply-chain-security-for-go-part-3.html</id>
+        <link href="http://security.googleblog.com/2023/07/supply-chain-security-for-go-part-3.html"/>
+        <updated>2023-07-20T19:58:00.001Z</updated>
+        <summary type="html"><![CDATA[Julie Qiu, Go Security & Reliability and Jonathan Metzman, Google Open Source Security Team
+
+
+Previously in our Supply chain security for Go series, we covered dependency and vulnerability management tools and how Go ensures package integrity and availability as part of the commitment to countering the rise in supply chain attacks in recent years. 
+In this final installment, we’ll discuss how “shift left” security can help make sure you have the security information you need, when you need it, to avoid unwelcome surprises. 
+Shifting left
+
+The software development life cycle (SDLC) refers to the series of steps that a software project goes through, from planning all the way through operation. It’s a cycle because once code has been released, the process continues and repeats through actions…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 284: This is going to be Lit 🔥]]></title>
+        <id>changelog.com/6/2114</id>
+        <link href="https://changelog.com/jsparty/284"/>
+        <updated>2023-07-20T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Justin Fagnani joins us this week to talk about Lit, a library that helps you build web components. With 17% of pageviews in Chrome registering use of web components, Lit has gained widespread adoption across a variety of companies looking to create reusable components which leverage the power and interoperability of the web platform. Tune in to learn about what makes this tiny library so incredibly lit!
+Leave us a comment
+Changelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!
+Featuring:
+
+Justin Fagnani – Mastodon, Twitter, GitHub, LinkedIn, Website
+Amal Hussein – Twitter, GitHub
+Kevin Ball – Twitter, GitHub, LinkedIn, Website
+
+Show Notes:
+
+Lit docs & examples
+Throwback Lit html episode on the Web Platform Podcast with Amal
+Polymer Library - Lit’s predecessor
+Custom Elements
+Shadow DOM
+Templates and Slots
+JS Tagged Template Literals
+Lit Element base class
+Amal’s singing about “dangerously set innerHTML”
+Proposal for Scoped Custom Element Global Registries
+Proposal for declarative Shadow DOM
+Proposal for Template Instantiation
+Proposal for DOM Parts
+Proposal for “open-stylable” Shadow Roots
+Proposal for JavaScript Decorators
+Lit labs packages
+Google’s Wireit - updates your npm scripts to make them smarter
+Justin’s npm cli RFC for adding Googe’s Wireit script runner to npm
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:40) - Welcoming Justin to the show
+(02:36) - What is it?
+(04:36) - The evolution of the project
+(10:02) - How do updates flow in to the DOM?
+(11:19) - How it tracks data
+(14:38) - Managing references
+(17:13) - dangerouslySetInnertHTML
+(21:25) - Lit is simple (af)
+(23:54) - Absolutely necessary
+(26:41) - App frameworks built on Lit
+(31:33) - Who's using this?
+(34:44) - How Lit is governed
+(38:48) - Building for the platform first
+(40:46) - Web components aren't sexy
+(43:26) - Incorporating shadow DOM
+(53:35) - Good role models
+(54:53) - Justin's web wish
+(57:30) - Closing time
+(58:46) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A look at Chrome’s security review culture]]></title>
+        <id>http://security.googleblog.com/2023/07/a-look-at-chromes-security-review.html</id>
+        <link href="http://security.googleblog.com/2023/07/a-look-at-chromes-security-review.html"/>
+        <updated>2023-07-20T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Alex Gough, Chrome Security Team
+
+Security Review in Chrome
+feature flag and must pass a Launch Review before turning it on. Teams think about security early-on and coordinate with the security team. Teams are responsible for the safety of their features and ensuring that the security team is able to say ‘yes’ to its security review.
+
+
+Security review focuses on the design of a proposed feature, not its details and is distinct from code review. Chrome changes need approval from engineers familiar with the code being changed but not necessarily from security experts. It is not practical for security engineers to scrutinize every change. Instead we focus on the feature’s architecture, and how it might affect people using Chrome.
+
+
+Reviewers function best in an open and supportive e…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot Chat beta now available for every organization]]></title>
+        <id>https://github.blog/?p=73185</id>
+        <link href="https://github.blog/2023-07-20-github-copilot-chat-beta-now-available-for-every-organization/"/>
+        <updated>2023-07-20T15:45:57.000Z</updated>
+        <summary type="html"><![CDATA[All GitHub Copilot for Business users now have access to a limited GitHub Copilot Chat beta, bringing the power of conversational coding right to the IDE.]]></summary>
+        <author>
+            <name>Mario Rodriguez</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An important step towards secure and interoperable messaging]]></title>
         <id>http://security.googleblog.com/2023/07/an-important-step-towards-secure-and.html</id>
@@ -1218,161 +1349,6 @@ DevCycle – Build better software with DevCycle. Feature flags, without the te
 Drata – Put security and compliance on a…]]></summary>
         <author>
             <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Source challenge results from Gamedev.js Jam 2023]]></title>
-        <id>https://github.blog/?p=72132</id>
-        <link href="https://github.blog/2023-06-21-gamedev-js-2023/"/>
-        <updated>2023-06-21T22:20:30.000Z</updated>
-        <summary type="html"><![CDATA[Highlighting 13 of the top games plus source from the latest Gamedev.js jam–by GitHub Star and event organizer, Andrzej Mazur.]]></summary>
-        <author>
-            <name>Andrzej Mazur</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time 281: Neurodiverse gophers]]></title>
-        <id>changelog.com/2/2076</id>
-        <link href="https://changelog.com/gotime/281"/>
-        <updated>2023-06-21T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kaylyn Gibilterra returns as Natalie & the gang take our diversity conversation one step further. This time we’re talking about neurodiversity as it relates to being a developer, a manager, a conference participant & more.
-Leave us a comment
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
-
-
-Featuring:
-
-Kaylyn Gibilterra – Twitter, GitHub
-Natalie Pistunovich – Twitter, GitHub
-Kris Brandow – Twitter, GitHub
-Johnny Boursiquot – Twitter, GitHub, Website
-
-Show Notes:
-
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:44) - Kaylyn Gibilterra
-(03:46) - Neurodiversity, what is that?
-(07:43) - Why the need for labels?
-(20:48) - Relative neurotypicalness
-(23:11) - Johnny's main concern
-(32:11) - Is diagnosing important?
-(41:00) - Sponsor: Changelog News
-(42:25) - What can conferences do?
-(46:46) - Responsibility of the people
-(51:30) - In the context of work...
-(1:03:54) - Unpopular opinions!
-(1:04:25) - Johnny's unpop
-(1:05:47) - Kris's unpop
-(1:06:22) - Kaylyn's unpop
-(1:08:23) - Natalie's unpop
-(1:10:12) - Kris' second unpop??
-(1:12:07) - Closing
-(1:12:29) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bridging code and community]]></title>
-        <id>https://github.blog/?p=72590</id>
-        <link href="https://github.blog/2023-06-21-bridging-code-and-community/"/>
-        <updated>2023-06-21T20:44:06.000Z</updated>
-        <summary type="html"><![CDATA[Explore the impact of non-code contributions—and why they are often undervalued, the challenges of using open source in regulated environments, and the art of managing projects at the scale of Kubernetes, now on The ReadME Podcast.]]></summary>
-        <author>
-            <name>Martin Woodward</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crafting a better, faster code view]]></title>
-        <id>https://github.blog/?p=72597</id>
-        <link href="https://github.blog/2023-06-21-crafting-a-better-faster-code-view/"/>
-        <updated>2023-06-21T17:35:17.000Z</updated>
-        <summary type="html"><![CDATA[The new GitHub Code View brings users many new features to improve the code reading and exploration experiences, and we overcame a number of unique technical hurdles in order to deliver those features without compromising performance.]]></summary>
-        <author>
-            <name>Joshua Brown</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 228: From ML to AI to Generative AI]]></title>
-        <id>changelog.com/7/2116</id>
-        <link href="https://changelog.com/practicalai/228"/>
-        <updated>2023-06-21T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Chris and Daniel take a step back to look at how generative AI fits into the wider landscape of ML/AI and data science. They talk through the differences in how one approaches “traditional” supervised learning and how practitioners are approaching generative AI based solutions (such as those using Midjourney or GPT family models). Finally, they talk through the risk and compliance implications of generative AI, which was in the news this week in the EU.
-Leave us a comment
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
-
-
-Featuring:
-
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-
-Show Notes:
-
-NYT Article: “Europeans Take a Major Step Toward Regulating A.I.”
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:43) - Fully Connected
-(02:38) - What is AI today?
-(05:54) - A big AI misconception
-(14:18) - Generative AI
-(16:48) - Foundation models
-(18:22) - Generative models
-(26:20) - Sponsor: Changelog News
-(27:45) - AI and the destruction of mankind
-(33:26) - AI pilots
-(41:42) - Fundamentally transforming humans
-(45:54) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new accelerator for AI-first startups in Europe and Israel]]></title>
-        <id>https://blog.google/outreach-initiatives/entrepreneurs/accelerator-ai-first/</id>
-        <link href="https://blog.google/outreach-initiatives/entrepreneurs/accelerator-ai-first/"/>
-        <updated>2023-06-21T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This 10-week program supports startups using AI in their core business through tailored training and mentoring by making use of the best of Google and its network.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The creative and transformational possibilities of AI]]></title>
-        <id>https://blog.google/technology/ai/ai-creativity/</id>
-        <link href="https://blog.google/technology/ai/ai-creativity/"/>
-        <updated>2023-06-21T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[James Manyika spoke at the Cannes Lions Festival about AI and creativity. Read excerpts from his remarks.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Presenting Precog, Nubank’s Real Time Event AI]]></title>
-        <id>https://building.nubank.com.br/?p=21049</id>
-        <link href="https://building.nubank.com.br/presenting-precog-nubanks-real-time-event-ai/"/>
-        <updated>2023-06-21T01:16:30.000Z</updated>
-        <summary type="html"><![CDATA[Understand the promising future of Precog and customer representation AI at Nubank
-The post Presenting Precog, Nubank’s Real Time Event AI appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Nubank Editorial</name>
         </author>
     </entry>
 </feed>
