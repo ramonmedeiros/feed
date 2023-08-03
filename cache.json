@@ -55,6 +55,31 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/2/2130",
+          "author": null,
+          "description": "Today we’re talking with Alice Merrick & Andy Walker about building a world-class developer experience. You know it when you see it, things just feel right. But it’s more than just a pleasant UI or lipstick on a pig (which is a saying), it really matters.\nLeave us a comment\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nAlice Merrick – Twitter, LinkedIn\nAndy Walker – Twitter, GitHub, LinkedIn, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nCharm on GitHub\nUse system fonts\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:45) - Introducing the guests\n(04:01) - What is the dev experience\n(07:14) - Multimodal experience\n(10:22) - Change aversion\n(12:44) - Measuring time to fluency\n(17:27) - Fonts\n(23:28) - Cookie consent forms\n(26:29) - Interactive docs\n(32:17) - In-browser playground\n(35:44) - Short comings of the playground\n(40:51) - Sponsor: Changelog News\n(42:54) - Patterns we don't like\n(52:23) - Unpopular opinions!\n(52:54) - Alice's unpop\n(1:07:25) - Andy's unpop\n(1:09:33) - Kris' unpop\n(1:18:55) - Outro (BONUS++)",
+          "link": "https://changelog.com/gotime/287",
+          "publishedOn": "2023-08-02T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 287: Building world-class developer experiences",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/287/go-time-287.mp3",
+            "length": "77634634",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/posts/2617",
+          "author": "Jerod Santo",
+          "description": "Our Frontend Feud game show series forces me to survey JS Party listeners frequently to get their thoughts on software, development, life, and software development life.\nEach question has to be accompanied by an <input type=text> because providing choices ruins the entire point of the game. So, before we play I compile all the answers in an SQLite database, group similar responses, and put the most popular ones on the game board.\nThat “grouping similar responses” step is the hardest part and can be somewhat controversial during the games. I’ve gotten better over the years at crafting the questions to constrain the responses.\nFor example, instead of asking: “How do you feel about GitHub Copilot?”\nWe ask: “In one word, how does GitHub Copilot make you feel?”\n\"Anxious\" works better in a `GROU…",
+          "link": "https://changelog.com/posts/things-we-always-remind-ourselves-while-coding",
+          "publishedOn": "2023-08-02T14:48:48.000Z",
+          "wordCount": null,
+          "title": "Things we always remind ourselves while coding",
+          "itunes": {}
+        },
+        {
           "id": "changelog.com/7/2173",
           "author": null,
           "description": "There’s so much talk (and hype) these days about vector databases. We thought it would be timely and practical to have someone on the show that has been hands on with the various options and actually tried to build applications leveraging vector search. Prashanth Rao is a real practitioner that has spent and huge amount of time exploring the expanding set of vector database offerings. After introducing vector database and giving us a mental model of how they fit in with other datastores, Prashanth digs into the trade offs as related to indices, hosting options, embedding vs. query optimization, and more.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, sec…",
@@ -447,6 +472,15 @@
           "title": "A new fund for women creating AI startups in Asia Pacific"
         },
         {
+          "id": "https://blog.google/technology/ai/lab-sessions/",
+          "author": null,
+          "description": "Lab Sessions is a series of experimental AI collaborations with everyone from artists to academics, scientists to students.",
+          "link": "https://blog.google/technology/ai/lab-sessions/",
+          "publishedOn": "2023-08-02T16:00:00.000Z",
+          "wordCount": 1241,
+          "title": "Lab Sessions: A new series of experimental AI collaborations"
+        },
+        {
           "id": "https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/",
           "author": null,
           "description": "Google DeepMind introduces a new vision-language-action model for improving robotics.",
@@ -684,15 +718,6 @@
           "publishedOn": "2023-07-05T12:03:11.181Z",
           "wordCount": 3410,
           "title": "Kerberizing Hadoop Clusters at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "author": null,
-          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
-          "publishedOn": "2023-07-04T12:02:39.641Z",
-          "wordCount": 890,
-          "title": "Data Quality Automation at Twitter"
         }
       ]
     },
@@ -700,7 +725,44 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-3-kernel.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=4mNYFHt_IKFsPe52toizH6nwuZUPj2AFYBEz-aMyENVctA_KpTDBIb9wIwVqFCm-);.lst-kix_46kwnuz47r-3>li{counter-increment:lst-ctn-kix_46kwnuz47r-3}ol.lst-kix_46kwnuz47r-1.start{counter-reset:lst-ctn-kix_46kwnuz47r-1 0}.lst-kix_8lngbvh6wilc-4>li{counter-increment:lst-ctn-kix_8lngbvh6wilc-4}ol.lst-kix_46kwnuz47r-0{list-style-type:none}ol.lst-kix_46kwnuz47r-2{list-style-type:none}.lst-kix_46kwnuz47r-2>li{counter-increment:lst-ctn-kix_46kwnuz47r-2}.lst-kix_8lngbvh6wilc-5>li{counter-increment:lst-ctn-kix_8lngbvh6wilc-5}ol.lst-kix_cp4qttrp12lb-6.start{counter-reset:lst-ctn-kix_cp4qttrp12lb-6 0}ol.lst-kix_46kwnuz47r-1{list-style-type:none}ol.lst-kix_46kwnuz47r-4{list-style-type:none}ol.lst-kix_46kwnuz47r-3{list-style-type:none}ol.lst-kix_8lngbvh6w…",
+          "link": "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-3-kernel.html",
+          "publishedOn": "2023-08-02T16:30:00.003Z",
+          "wordCount": 1396,
+          "title": "MTE As Implemented, Part 3: The Kernel"
+        },
+        {
+          "id": "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-2-mitigation.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=4mNYFHt_IKFsPe52toizH6nwuZUPj2AFYBEz-aMyENXbDjL3Cv1g7CpfdyRoONLEXShKQSnoFmUtAspFfwQKag);ol.lst-kix_46kwnuz47r-8.start{counter-reset:lst-ctn-kix_46kwnuz47r-8 0}.lst-kix_46kwnuz47r-3>li{counter-increment:lst-ctn-kix_46kwnuz47r-3}ol.lst-kix_46kwnuz47r-1.start{counter-reset:lst-ctn-kix_46kwnuz47r-1 0}.lst-kix_46kwnuz47r-8>li{counter-increment:lst-ctn-kix_46kwnuz47r-8}ol.lst-kix_46kwnuz47r-0{list-style-type:none}ol.lst-kix_46kwnuz47r-2{list-style-type:none}.lst-kix_46kwnuz47r-2>li{counter-increment:lst-ctn-kix_46kwnuz47r-2}ol.lst-kix_cp4qttrp12lb-6.start{counter-reset:lst-ctn-kix_cp4qttrp12lb-6 0}ol.lst-kix_46kwnuz47r-1{list-style-type:none}ol.lst-kix_46kwnuz47r-4{list-style-type:none}ol.lst-kix_46kwnuz47r-3{list-style-type:none}.ls…",
+          "link": "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-2-mitigation.html",
+          "publishedOn": "2023-08-02T16:30:00.002Z",
+          "wordCount": 1849,
+          "title": "MTE As Implemented, Part 2: Mitigation Case Studies"
+        },
+        {
+          "id": "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-1.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6AbvdjsQquauI-GoInd1DzsRjfxSl7duaBsON8MRB32eGNP6BCxV-AQSEvP01Vpd9xT0e5qzIIUg9OvSRGeMDk3I);.lst-kix_exl34y7adtul-6>li{counter-increment:lst-ctn-kix_exl34y7adtul-6}.lst-kix_s8b3u49h11dr-4>li:before{content:\"-  \"}.lst-kix_s8b3u49h11dr-6>li:before{content:\"-  \"}.lst-kix_w66ctsc8735u-5>li{counter-increment:lst-ctn-kix_w66ctsc8735u-5}.lst-kix_s8b3u49h11dr-3>li:before{content:\"-  \"}.lst-kix_s8b3u49h11dr-7>li:before{content:\"-  \"}.lst-kix_7336pfhg38rf-8>li{counter-increment:lst-ctn-kix_7336pfhg38rf-8}ol.lst-kix_w66ctsc8735u-1.start{counter-reset:lst-ctn-kix_w66ctsc8735u-1 0}.lst-kix_s8b3u49h11dr-5>li:before{content:\"-  \"}ol.lst-kix_pmivlm2h8rwq-6.start{counter-reset:lst-ctn-kix_pmivlm2h8rwq-6 0}.lst-kix_cm1sbgja1sfy-…",
+          "link": "https://googleprojectzero.blogspot.com/2023/08/mte-as-implemented-part-1.html",
+          "publishedOn": "2023-08-02T16:30:00.001Z",
+          "wordCount": 3801,
+          "title": "MTE As Implemented, Part 1: Implementation Testing"
+        },
+        {
+          "id": "https://googleprojectzero.blogspot.com/2023/08/summary-mte-as-implemented.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=DFQxm4rd7fRHgM9OTejWVT5Vho6BE7M80rHXEVKqXWdbV0WvE1cEyAoIq5yYZlSc);.lst-kix_exl34y7adtul-6>li{counter-increment:lst-ctn-kix_exl34y7adtul-6}.lst-kix_kzys3uxts4nk-6>li:before{content:\"\" counter(lst-ctn-kix_kzys3uxts4nk-6,decimal) \". \"}.lst-kix_kzys3uxts4nk-8>li:before{content:\"\" counter(lst-ctn-kix_kzys3uxts4nk-8,lower-roman) \". \"}.lst-kix_s8b3u49h11dr-4>li:before{content:\"-  \"}.lst-kix_s8b3u49h11dr-6>li:before{content:\"-  \"}.lst-kix_kzys3uxts4nk-7>li:before{content:\"\" counter(lst-ctn-kix_kzys3uxts4nk-7,lower-latin) \". \"}.lst-kix_w66ctsc8735u-5>li{counter-increment:lst-ctn-kix_w66ctsc8735u-5}.lst-kix_s8b3u49h11dr-3>li:before{content:\"-  \"}.lst-kix_s8b3u49h11dr-7>li:before{content:\"-  \"}.lst-kix_7336pfhg38rf-8>li{counter-increment:…",
+          "link": "https://googleprojectzero.blogspot.com/2023/08/summary-mte-as-implemented.html",
+          "publishedOn": "2023-08-02T16:30:00.000Z",
+          "wordCount": 831,
+          "title": "Summary: MTE As Implemented"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -723,6 +785,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=73480",
+          "author": "David Losert",
+          "description": "Learn how you can structure your enterprise to get the most value out of GitHub and provide the best experience for your developers!",
+          "link": "https://github.blog/2023-08-02-best-practices-for-organizations-and-teams-using-github-enterprise-cloud/",
+          "publishedOn": "2023-08-02T19:55:12.000Z",
+          "wordCount": 3952,
+          "title": "Best practices for organizations and teams using GitHub Enterprise Cloud"
+        },
+        {
+          "id": "https://github.blog/?p=73456",
+          "author": "MV Karan",
+          "description": "Learn about how we build containerized services that power microservices on the GitHub.com platform and many internal tools.",
+          "link": "https://github.blog/2023-08-02-how-we-build-containerized-services-at-github-using-github/",
+          "publishedOn": "2023-08-02T12:31:17.000Z",
+          "wordCount": 1723,
+          "title": "How we build containerized services at GitHub using GitHub"
+        },
         {
           "id": "https://github.blog/?p=73405",
           "author": "Peter Stöckli",
@@ -990,15 +1070,6 @@
           "publishedOn": "2023-07-05T19:27:47.000Z",
           "wordCount": 4084,
           "title": "Personal growth, problem-solving and more: delving deep into The Hammock’s second episode"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=21163",
-          "author": "Nubank Editorial",
-          "description": "First, align the vision and where you want to get. Then, just try to make things happen!\nThe post AI at Nubank: how one of the largest digital banks in the world uses artificial intelligence appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/ai-at-nubank-how-one-of-the-largest-digital-banks-in-the-world-uses-artificial-intelligence/",
-          "publishedOn": "2023-07-04T14:48:31.000Z",
-          "wordCount": 3806,
-          "title": "AI at Nubank: how one of the largest digital banks in the world uses artificial intelligence"
         }
       ]
     },
