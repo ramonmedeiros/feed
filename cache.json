@@ -6,6 +6,33 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
+          "author": null,
+          "description": "Tavis Ormandy, Software Engineer and Daniel Moghimi, Senior Research Scientist\n\n\n\n\nFinding and mitigating security vulnerabilities is critical to keeping Internet users safe.  However, the more complex a system becomes, the harder it is to secure—and that is also the case with computing hardware and processors, which have developed highly advanced capabilities over the years. This post will detail this trend by exploring Downfall and Zenbleed, two new security vulnerabilities (one of which was disclosed today) that prior to mitigation had the potential to affect billions of personal and cloud computers, signifying the importance of vulnerability research and cross-industry collaboration. Had these vulnerabilities not been discovered by Google researchers, and instead by adversaries, they w…",
+          "link": "http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
+          "publishedOn": "2023-08-08T17:00:00.001Z",
+          "wordCount": 4212,
+          "title": "Downfall and Zenbleed: Googlers helping secure the ecosystem"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html",
+          "author": null,
+          "description": "Posted by Roger Piqueras Jover, Yomna Nasser, and Sudhi Herle\n\n\nAndroid is the first mobile operating system to introduce advanced cellular security mitigations for both consumers and enterprises. Android 14 introduces support for IT administrators to disable 2G support in their managed device fleet. Android 14 also introduces a feature that disables support for null-ciphered cellular connectivity.\n\nHardening network security on Android\nFalse Base Stations (FBS) and Stingrays exploit weaknesses in cellular telephony standards to cause harm to users. Additionally, a smartphone cannot reliably know the legitimacy of the cellular base station before attempting to connect to it. Attackers exploit this in a number of ways, ranging from traffic interception and malware sideloading, to sophistica…",
+          "link": "http://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html",
+          "publishedOn": "2023-08-08T15:59:00.001Z",
+          "wordCount": 1918,
+          "title": "Android 14 introduces first-of-its-kind cellular connectivity security features"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/08/an-update-on-chrome-security-updates.html",
+          "author": null,
+          "description": "Posted by Amy Ressler, Chrome Security Team\n\n\nTo get security fixes to you faster, starting now in Chrome 116, Chrome is shipping weekly Stable channel updates.\n\n\nChrome ships a new milestone release every four weeks. In between those major releases, we ship updates to address security and other high impact bugs. We currently schedule one of these Stable channel updates (or “Stable Refresh”) between each milestone. Starting in Chrome 116, Stable updates will be released every week between milestones.\n\n\nThis should not change how you use or update Chrome, nor is the frequency of milestone releases changing, but it does mean security fixes will get to you faster.\n\nReducing the Patch Gap\nChromium is the open source project which powers Chrome and many other browsers. Anyone can view the sourc…",
+          "link": "http://security.googleblog.com/2023/08/an-update-on-chrome-security-updates.html",
+          "publishedOn": "2023-08-08T15:59:00.000Z",
+          "wordCount": 1308,
+          "title": "An update on Chrome Security updates – shipping security fixes to you faster"
+        },
+        {
           "id": "http://security.googleblog.com/2023/08/pixel-binary-transparency-verifiable.html",
           "author": null,
           "description": "Jay Hou, Software Engineer, TrustFabric (transparency.dev) \n\n\n\n\nPixel Binary Transparency\nWith Android powering billions of devices, we’ve long put security first. There’s the more visible security features you might interact with regularly, like spam and phishing protection, as well as less obvious integrated security features, like daily scans for malware. For example, Android Verified Boot strives to ensure all executed code comes from a trusted source, rather than from an attacker or corruption. And with attacks on software and mobile devices constantly evolving, we’re continually strengthening these features and adding transparency into how Google protects users. This blog post peeks under the hood of Pixel Binary Transparency, a recent addition to Pixel security that puts you in cont…",
@@ -417,21 +444,6 @@
             "length": "25186598",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2127",
-          "author": null,
-          "description": "Oracle smacks IBM for their handling of RHEL, the folks at The Dam share a Slack clone in 5 lines of Bash, Justin Jaffray writes up 13 ways to think about joins, llama.cpp learns web chat thanks to a contribution by Tobi Lütke & Meta is willing to pay 3 engineers to remove Python’s GIL.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Instantly create SDKs that make API integration easy for your users. Check it out today.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:31) - Oracle smacks IBM\n(03:03) - A Slack clone in 5 lines of Bash\n(03:42) - 13 ways to think about joins\n(04:10) - llama.cpp learns web chat\n(04:51) - Sponsor: Speakeasy\n(05:45) - Meta to pay for Python GIL removal\n(06:57) - Outro (Shout outs++)",
-          "link": "https://changelog.com/news/52",
-          "publishedOn": "2023-07-10T20:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 52: Oracle smacks IBM over RHEL, a Slack clone in 5 lines of Bash, 13 ways to think about joins, llama.cpp learns web chat & Meta will pay to remove Python's GIL",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/52/changelog-news-52.mp3",
-            "length": "7855760",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -465,6 +477,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ai/ai-airlines-contrails-climate-change/",
+          "author": null,
+          "description": "We used AI to help airlines choose routes that are less likely to cause contrails, minimizing the environmental impact of flights.",
+          "link": "https://blog.google/technology/ai/ai-airlines-contrails-climate-change/",
+          "publishedOn": "2023-08-08T19:00:00.000Z",
+          "wordCount": 1333,
+          "title": "How AI is helping airlines mitigate the climate impact of contrails"
+        },
         {
           "id": "https://blog.google/around-the-globe/google-asia/new-ai-women-fund/",
           "author": null,
@@ -580,6 +601,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=22806",
+          "author": "Daniel Stenberg",
+          "description": "For the firs time ever, I am going to present a single, very long, video class with the title shown above. This session will be streamed and recorded live on August 31, starting at 16:00 UTC (18:00 CEST, 09:00 PDT) and is expected to take about two and a half hours. Due to many uncertainties, … Continue reading Mastering the curl command line →",
+          "link": "https://daniel.haxx.se/blog/2023/08/08/mastering-the-curl-command-line/",
+          "publishedOn": "2023-08-08T12:38:51.000Z",
+          "wordCount": 711,
+          "title": "Mastering the curl command line"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=22786",
           "author": "Daniel Stenberg",
@@ -788,6 +818,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=73573",
+          "author": "Nicole Choi",
+          "description": "GitHub’s design experts share 10 tips and lessons for designing magical user experiences for AI applications and AI coding tools. \nThe post A guide to designing and shipping AI developer tools appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-08-08-a-guide-to-designing-and-shipping-ai-developer-tools/",
+          "publishedOn": "2023-08-08T14:28:15.000Z",
+          "wordCount": 3679,
+          "title": "A guide to designing and shipping AI developer tools"
+        },
         {
           "id": "https://github.blog/?p=73519",
           "author": "Jon Peck",
