@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/08/making-chrome-more-secure-by-bringing.html",
+          "author": null,
+          "description": "Posted by David Adrian, Joe DeBlasio and Carlos Joan Rafael Ibarra Lopez, Chrome Security\n\n\nChrome 106 added support for enforcing key pins on Android by default, bringing Android to parity with Chrome on desktop platforms. But what is key pinning anyway?\n\n\nOne of the reasons Chrome implements key pinning is the “rule of two”. This rule is part of Chrome’s holistic secure development process. It says that when you are writing code for Chrome, you can pick no more than two of: code written in an unsafe language, processing untrustworthy inputs, and running without a sandbox. This blog post explains how key pinning and the rule of two are related.\n\n\nThe Rule of Two\n\n\nwrite Chrome code in Rust, which is also memory-safe.\n\n\nMuch of Chrome is sandboxed, but the sandbox still requires a core hig…",
+          "link": "http://security.googleblog.com/2023/08/making-chrome-more-secure-by-bringing.html",
+          "publishedOn": "2023-08-10T16:01:00.001Z",
+          "wordCount": 1849,
+          "title": "Making Chrome more secure by bringing  Key Pinning to Android"
+        },
+        {
           "id": "http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
           "author": null,
           "description": "Tavis Ormandy, Software Engineer and Daniel Moghimi, Senior Research Scientist\n\n\n\n\nFinding and mitigating security vulnerabilities is critical to keeping Internet users safe.  However, the more complex a system becomes, the harder it is to secure—and that is also the case with computing hardware and processors, which have developed highly advanced capabilities over the years. This post will detail this trend by exploring Downfall and Zenbleed, two new security vulnerabilities (one of which was disclosed today) that prior to mitigation had the potential to affect billions of personal and cloud computers, signifying the importance of vulnerability research and cross-industry collaboration. Had these vulnerabilities not been discovered by Google researchers, and instead by adversaries, they w…",
@@ -90,6 +99,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/2121",
+          "author": null,
+          "description": "Val Town is a shiny, new social programming environment to write, run, deploy and share code. Steve Krouse –Val Town creator– joins Jerod & Amal to tell us all about it.\nLeave us a comment\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nSteve Krouse – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAmal Hussein – Twitter, GitHub\n\nShow Notes:\n\nVal Town\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:55) - Welcoming Steve\n(03:22) - A great concept\n(13:36) - \"Sent from my phone\"\n(17:24) - What does my code live?\n(24:01) - Fraud & abuse\n(25:24) - Sponsor: Changelog News\n(26:32) - Smart people behind it\n(28:33) - The business side of things\n(34:01) - Getting your data\n(36:58) - Sharing is caring\n(38:56) - Discovering Vals\n(40:57) - Large Val-based systems\n(47:55) - The pricing story\n(50:13) - Val's tech stack\n(52:05) - Questions from the chat\n(55:57) - Security concerns\n(58:08) - Closing time\n(59:06) - Next up on the pod",
+          "link": "https://changelog.com/jsparty/287",
+          "publishedOn": "2023-08-10T18:45:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 287: Take me to Val Town",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/287/js-party-287.mp3",
+            "length": "58345762",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/1/2106",
           "author": null,
@@ -444,21 +468,6 @@
             "length": "62579352",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2128",
-          "author": null,
-          "description": "Chris sat down with Varun Mohan and Anshul Ramachandran, CEO / Cofounder and Lead of Enterprise and Partnership at Codeium, respectively. They discussed how to streamline and enable modern development in generative AI and large language models (LLMs).  Their new tool, Codeium, was born out of the insights they gleaned from their work in GPU software and solutions development, particularly with respect to generative AI, large language models, and supporting infrastructure.  Codeium is a free AI-powered toolkit for developers, with in-house models and infrastructure - not another API wrapper.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalab…",
-          "link": "https://changelog.com/practicalai/231",
-          "publishedOn": "2023-07-12T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 231: A developer's toolkit for SOTA AI",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/231/practical-ai-231.mp3",
-            "length": "40565552",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -492,6 +501,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/products/bard/how-to-use-google-bard/",
+          "author": null,
+          "description": "Check out 10 ways Bard can help you get things done, from brainstorming ideas to planning trip itineraries.",
+          "link": "https://blog.google/products/bard/how-to-use-google-bard/",
+          "publishedOn": "2023-08-10T20:00:00.000Z",
+          "wordCount": 1430,
+          "title": "10 helpful ways to use Bard"
+        },
         {
           "id": "https://blog.google/technology/ai/ai-airlines-contrails-climate-change/",
           "author": null,
@@ -599,15 +617,6 @@
           "publishedOn": "2023-07-17T04:00:00.000Z",
           "wordCount": 1687,
           "title": "6 mujeres lideran la lucha contra el cambio climático"
-        },
-        {
-          "id": "https://blog.google/technology/ai/notebooklm-google-ai/",
-          "author": null,
-          "description": "We’re rolling out NotebookLM, an experimental offering from Google Labs to summarize information, complex ideas and brainstorm new connections.",
-          "link": "https://blog.google/technology/ai/notebooklm-google-ai/",
-          "publishedOn": "2023-07-12T16:00:00.000Z",
-          "wordCount": 1386,
-          "title": "Introducing NotebookLM"
         }
       ]
     },
@@ -1048,42 +1057,6 @@
           "publishedOn": "2023-07-13T13:44:24.000Z",
           "wordCount": 2922,
           "title": "Moving from a product to a service mindset"
-        },
-        {
-          "id": "https://github.blog/?p=73052",
-          "author": "Jakub Oleksy",
-          "description": "In June, we experienced two incidents that resulted in degraded performance across GitHub services.  June 7 16:11 UTC (lasting 2 hours 28 minutes) On June 7 at 16:11 UTC, GitHub started experiencing increasing delays in an internal job queue used to process Git pushes. Our monitoring systems alerted our first responders after 19 minutes. During […]",
-          "link": "https://github.blog/2023-07-12-github-availability-report-june-2023/",
-          "publishedOn": "2023-07-12T20:00:32.000Z",
-          "wordCount": 979,
-          "title": "GitHub Availability Report: June 2023"
-        },
-        {
-          "id": "https://github.blog/?p=73068",
-          "author": "Mike Linksvayer",
-          "description": "Have your say to protect open source in the EU.",
-          "link": "https://github.blog/2023-07-12-no-cyber-resilience-without-open-source-sustainability/",
-          "publishedOn": "2023-07-12T18:36:57.000Z",
-          "wordCount": 2052,
-          "title": "No cyber resilience without open source sustainability"
-        },
-        {
-          "id": "https://github.blog/?p=73017",
-          "author": "Dustin Yin",
-          "description": "Supercharge pull request merges on your busiest branches by enabling your team to queue.",
-          "link": "https://github.blog/2023-07-12-github-merge-queue-is-generally-available/",
-          "publishedOn": "2023-07-12T15:12:52.000Z",
-          "wordCount": 1090,
-          "title": "GitHub merge queue is generally available"
-        },
-        {
-          "id": "https://github.blog/?p=72966",
-          "author": "Hirsch Singhal",
-          "description": "Passkeys are now available in public beta. Opting in lets you upgrade security keys to passkeys, and use those in place of both your password and your 2FA method.",
-          "link": "https://github.blog/2023-07-12-introducing-passwordless-authentication-on-github-com/",
-          "publishedOn": "2023-07-12T15:02:45.000Z",
-          "wordCount": 1482,
-          "title": "Introducing passwordless authentication on GitHub.com"
         }
       ]
     },
@@ -1118,15 +1091,6 @@
           "publishedOn": "2023-07-18T13:36:55.000Z",
           "wordCount": 4877,
           "title": "Bridging the gap: Nubank’s commitment in serving the visually impaired"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=21183",
-          "author": "Marcos Teixeira - Machine Learning Engineer",
-          "description": "The nuances between observability and monitoring are an important compass for navigating modern systems \nThe post Monitoring vs Observability: Differences and Usages appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/monitoring-vs-observability-differences-and-usages/",
-          "publishedOn": "2023-07-12T01:54:17.000Z",
-          "wordCount": 4135,
-          "title": "Monitoring vs Observability: Differences and Usages"
         }
       ]
     },
@@ -1135,6 +1099,15 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/security-compliance/new-sec-cybersercurity-rules",
+          "author": "Ilona Cohen",
+          "description": "The Securities and Exchange Commission (SEC) recently finalized a regulation that imposes increased transparency related to cybersecurity risk management, governance, and incidents.",
+          "link": "https://www.hackerone.com/security-compliance/new-sec-cybersercurity-rules",
+          "publishedOn": "2023-08-09T16:00:00.000Z",
+          "wordCount": 1730,
+          "title": "New SEC Cyber Rules Incentivize Proactive Security Measures"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/owasp-llm-vulnerabilities",
           "author": "Manjesh S.",
@@ -1197,15 +1170,6 @@
           "publishedOn": "2023-07-18T16:00:00.000Z",
           "wordCount": 1670,
           "title": "Security Should Never Sleep: Adopting Continuous Testing for Evolving Threats"
-        },
-        {
-          "id": "https://hackerone.com/thought-leadership/generative-ai-security-predictions",
-          "author": "Michiel Prins",
-          "description": "GAI capabilities will soon be table stakes for any software company as their customers will simply expect it. Those who do not take advantage of this technological evolution will decline into irrelevancy and be replaced by better and more productive alternatives. A world where Generative AI is ubiquitous will soon be here. What does that mean for security? We have two main predictions.",
-          "link": "https://www.hackerone.com/thought-leadership/generative-ai-security-predictions",
-          "publishedOn": "2023-07-12T16:00:00.000Z",
-          "wordCount": 1893,
-          "title": "Generative AI and Security: HackerOne's Predictions"
         }
       ]
     },
