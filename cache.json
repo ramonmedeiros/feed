@@ -100,6 +100,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/17/2179",
+          "author": null,
+          "description": "Gerhard joins us for the 11th Kaizen and this one might contain the most improvements ever. We’re on Fly Apps V2, we’ve moved from S3 to R2 & we have a status page now, just to name a few.\nLeave us a comment\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their …",
+          "link": "https://changelog.com/friends/10",
+          "publishedOn": "2023-08-11T17:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 10: Kaizen! S3 R2 B2 D2",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/10/changelog--friends-10.mp3",
+            "length": "76252030",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/2170",
+          "author": null,
+          "description": "A technical dive into how the Go stack works and why we as programmers should care.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nTailscale – Simple, secure networks for teams of any scale. Built on WireGuard.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nYarden Laifenfeld – Mastodon, Twitter, GitHub\nDavid Chase – Mastodon, Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:35) - Sponsor: Tailscale\n(04:12) - Meeting our guests\n(05:45) - Growing lilies\n(10:05) - Starting at the basics\n(14:13) - Sponsor: Changelog News\n(15:23) - When does the stack shrink\n(17:59) - Working backwards with memory\n(23:38) - Can you be good enough?\n(35:59) - The stack vs the heap\n(43:10) - When to care about the heap\n(56:26) - Measure first, optimize after\n(1:00:53) - Unpopular opinions!\n(1:01:10) - Yarden's unpop\n(1:05:08) - David's unpop\n(1:10:24) - Wrapping up\n(1:11:30) - Outro",
+          "link": "https://changelog.com/gotime/288",
+          "publishedOn": "2023-08-11T13:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 288: A deep dive into Go's stack",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/288/go-time-288.mp3",
+            "length": "70454409",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/6/2121",
           "author": null,
           "description": "Val Town is a shiny, new social programming environment to write, run, deploy and share code. Steve Krouse –Val Town creator– joins Jerod & Amal to tell us all about it.\nLeave us a comment\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nSteve Krouse – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAmal Hussein – Twitter, GitHub\n\nShow Notes:\n\nVal Town\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:55) - Welcoming Steve\n(03:22) - A great concept\n(13:36) - \"Sent from my phone\"\n(17:24) - What does my code live?\n(24:01) - Fraud & abuse\n(25:24) - Sponsor: Changelog News\n(26:32) - Smart people behind it\n(28:33) - The business side of things\n(34:01) - Getting your data\n(36:58) - Sharing is caring\n(38:56) - Discovering Vals\n(40:57) - Large Val-based systems\n(47:55) - The pricing story\n(50:13) - Val's tech stack\n(52:05) - Questions from the chat\n(55:57) - Security concerns\n(58:08) - Closing time\n(59:06) - Next up on the pod",
@@ -451,21 +481,6 @@
           "enclosure": {
             "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/283/js-party-283.mp3",
             "length": "64846044",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/1/2099",
-          "author": null,
-          "description": "This week we’re talking about type checking with Jake Zimmerman. Jake is one of the leads at Stripe working on Sorbet — an open source project that does Type checking in Ruby and runs over Stripe’s entire Ruby codebase. As of May of 2022 Stripe’s codebase was over 15 million lines of code spread across 150,000 files. If you think you have a bigger Ruby codebase, Jake is down to go byte-for-byte to see who wins. Jake shares tons of wisdom and more importantly he shares why he thinks types will win in the end.\nLeave us a comment\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code-level APM built for developers! Stay ahead of latency issues and trace every slow transaction to a poor-performing API call or database query. S…",
-          "link": "https://changelog.com/podcast/548",
-          "publishedOn": "2023-07-13T20:10:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 548: Types will win in the end",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/548/the-changelog-548.mp3",
-            "length": "62579352",
             "type": "audio/mpeg"
           }
         }
@@ -1039,24 +1054,6 @@
           "publishedOn": "2023-07-14T00:58:12.000Z",
           "wordCount": 1789,
           "title": "Release Radar · Spring 2023 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=73093",
-          "author": "Martin Woodward",
-          "description": "Navigating the ebb and flow of programming paradigms–from the shifts in the JavaScript ecosystem and TypeScript's rise, to AI's role in advancing accessibility, and strategies for encouraging non-code contributions–tune in to the latest episode of The ReadME Podcast for more.",
-          "link": "https://github.blog/2023-07-13-decoding-conventions/",
-          "publishedOn": "2023-07-13T18:02:52.000Z",
-          "wordCount": 885,
-          "title": "(De)coding conventions"
-        },
-        {
-          "id": "https://github.blog/?p=73088",
-          "author": "Chris Reddington",
-          "description": "Thanks to DevOps, cloud computing and other industry trends, many organizations are shifting from a product mindset to a service mindset. Here’s how you can implement a service-led strategy.",
-          "link": "https://github.blog/2023-07-13-moving-from-a-product-to-a-service-mindset/",
-          "publishedOn": "2023-07-13T13:44:24.000Z",
-          "wordCount": 2922,
-          "title": "Moving from a product to a service mindset"
         }
       ]
     },
