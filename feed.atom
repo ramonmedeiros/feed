@@ -2,10 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-15T12:03:18.432Z</updated>
+    <updated>2023-08-16T12:03:09.444Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Toward Quantum Resilient Security Keys]]></title>
+        <id>http://security.googleblog.com/2023/08/toward-quantum-resilient-security-keys.html</id>
+        <link href="http://security.googleblog.com/2023/08/toward-quantum-resilient-security-keys.html"/>
+        <updated>2023-08-15T21:57:00.002Z</updated>
+        <summary type="html"><![CDATA[Elie Bursztein, cybersecurity and AI research director, Fabian Kaczmarczyck, software engineer
+
+
+
+
+As part of our effort to deploy quantum resistant cryptography, we are happy to announce the release of the first quantum resilient FIDO2 security key implementation as part of OpenSK, our open source security key firmware. This open-source hardware optimized implementation uses a novel ECC/Dilithium hybrid signature schema that benefits from the security of ECC against standard attacks and Dilithium’s resilience against quantum attacks. This schema was co-developed in partnership with the ETH Zürich and won the ACNS secure cryptographic implementation workshop best paper.
+
+
+
+
+
+
+Quantum processor
+
+
+
+
+
+As progress toward practical quantum computers is accelerating, preparing for their advent i…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build for today, transform for tomorrow at GitHub Universe 2023]]></title>
+        <id>https://github.blog/?p=73688</id>
+        <link href="https://github.blog/2023-08-15-build-for-today-transform-for-tomorrow-at-github-universe-2023/"/>
+        <updated>2023-08-15T19:04:09.000Z</updated>
+        <summary type="html"><![CDATA[Get tickets to our global developer and customer event for 30% off during our Super-Early Bird special, only for a limited time. 
+The post Build for today, transform for tomorrow at GitHub Universe 2023 appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Jeimy Ruiz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Radar · July 2023 Edition]]></title>
+        <id>https://github.blog/?p=73630</id>
+        <link href="https://github.blog/2023-08-15-release-radar-jul-23/"/>
+        <updated>2023-08-15T18:00:52.000Z</updated>
+        <summary type="html"><![CDATA[After the last Release Radar, I promised the next one wouldn’t be far away, so here it is. This is the low down on some of the best open source projects that shipped major version updates in July. There’s lots of cool stuff from natural language processing, to APIs, money, and SDKs. I won’t spoil […]
+The post Release Radar · July 2023 Edition appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Michelle Mannering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hardening repositories against credential theft]]></title>
+        <id>https://github.blog/?p=73675</id>
+        <link href="https://github.blog/2023-08-15-hardening-repositories-against-credential-theft/"/>
+        <updated>2023-08-15T16:00:49.000Z</updated>
+        <summary type="html"><![CDATA[Some best practices and important defenses to prevent common attacks against GitHub Actions that are enabled by stolen personal access tokens, compromised accounts, or compromised GitHub sessions.
+The post Hardening repositories against credential theft appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Matthew Masarik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn as you search (and browse) using generative AI]]></title>
+        <id>https://blog.google/products/search/google-search-generative-ai-learning-features/</id>
+        <link href="https://blog.google/products/search/google-search-generative-ai-learning-features/"/>
+        <updated>2023-08-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New updates to Search Generative Experience (SGE) help people easily learn new things and understand key concepts while searching online.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
@@ -1636,79 +1707,6 @@ Fly.io – The home of Changelog.com — Deploy your app…]]></summary>
 The post Bridging the gap: Nubank’s commitment in serving the visually impaired appeared first on Building Nubank.]]></summary>
         <author>
             <name>BU Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 53: Magical shell history, engineers should focus on writing, LazyVim, CSS in 2023 & bad issue tracker behaviors]]></title>
-        <id>changelog.com/16/2164</id>
-        <link href="https://changelog.com/news/53"/>
-        <updated>2023-07-17T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ellie Huxtable’s Atuin makes your shell history magical, Dmitry Kudryavtsev writes why he thinks engineers should focus on writing, LazyVim promises to transform your Neovim setup into a full-fleged IDE, Geoff Graham shares with Smashing Magazine how he writes CSS in 2023 & Brad Fitzpatrick collects a public list of bad issue track behaviors.
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors:
-
-  
-Passbolt – It’s time for a new password manager. Read why
-
-
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
-Something missing or broken? PRs welcome!
-Timestamps:
-(00:27) - Magical shell history
-(02:05) - Engineers should focus on writing
-(03:01) - LazyVim
-(03:41) - Sponsor: Passbolt
-(04:31) - Writing CSS in 2023
-(05:36) - Bad issue tracker behaviors
-(06:21) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A developer’s guide to prompt engineering and LLMs]]></title>
-        <id>https://github.blog/?p=73105</id>
-        <link href="https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/"/>
-        <updated>2023-07-17T14:27:15.000Z</updated>
-        <summary type="html"><![CDATA[Prompt engineering is the art of communicating with a generative AI model. In this article, we’ll cover how we approach prompt engineering at GitHub, and how you can use it to build your own LLM-based application.]]></summary>
-        <author>
-            <name>Albert Ziegler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google.org’s new grant to help track permafrost thaw]]></title>
-        <id>https://blog.google/outreach-initiatives/google-org/google-permafrost-thaw-tracking/</id>
-        <link href="https://blog.google/outreach-initiatives/google-org/google-permafrost-thaw-tracking/"/>
-        <updated>2023-07-17T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new $5 million grant aims to help Woodwell Climate Research Center track Arctic permafrost thaw in near real-time.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 women leading the fight against climate change]]></title>
-        <id>https://blog.google/outreach-initiatives/google-org/climate-change-sustainability-women-scientists/</id>
-        <link href="https://blog.google/outreach-initiatives/google-org/climate-change-sustainability-women-scientists/"/>
-        <updated>2023-07-17T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re celebrating climate science pioneer Eunice Newton Foote and six women-led Google.org grantees building a more sustainable future.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 mujeres lideran la lucha contra el cambio climático]]></title>
-        <id>https://blog.google/outreach-initiatives/google-org/climate-change-sustainability-women-scientists-es/</id>
-        <link href="https://blog.google/outreach-initiatives/google-org/climate-change-sustainability-women-scientists-es/"/>
-        <updated>2023-07-17T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Homenajeamos a Eunice Newton Foot, científica pionera de la ciencia climática, y a 6 organizaciones beneficiarias de Google.org dirigidas por mujeres que construyen un f…]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
