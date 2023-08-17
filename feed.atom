@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-16T12:03:09.444Z</updated>
+    <updated>2023-08-17T12:03:16.479Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Curbing Connection Churn in Zuul]]></title>
+        <id>https://medium.com/p/2feb273a3598</id>
+        <link href="https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4"/>
+        <updated>2023-08-16T17:55:48.000Z</updated>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-Powered Fuzzing: Breaking the Bug Hunting Barrier]]></title>
+        <id>http://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html</id>
+        <link href="http://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html"/>
+        <updated>2023-08-16T17:02:00.002Z</updated>
+        <summary type="html"><![CDATA[Dongge Liu, Jonathan Metzman, Oliver Chang, Google Open Source Security Team 
+
+
+
+
+Since 2016, OSS-Fuzz has been at the forefront of automated vulnerability discovery for open source projects. Vulnerability discovery is an important part of keeping software supply chains secure, so our team is constantly working to improve OSS-Fuzz. For the last few months, we’ve tested whether we could boost OSS-Fuzz’s performance using Google’s Large Language Models (LLM). 
+
+
+
+
+
+This blog post shares our experience of successfully applying the generative power of LLMs to improve the automated vulnerability detection technique known as fuzz testing (“fuzzing”). By using LLMs, we’re able to increase the code coverage for critical projects using our OSS-Fuzz service without manually writing additional code. …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Toward Quantum Resilient Security Keys]]></title>
         <id>http://security.googleblog.com/2023/08/toward-quantum-resilient-security-keys.html</id>
@@ -1637,76 +1667,6 @@ Fly.io – The home of Changelog.com — Deploy your apps and databases close t
         <summary type="html"><![CDATA[Welcome to another curl release. You know how this dance goes… Numbers the 220th release5 changes50 days (total: 9,252)122 bug-fixes (total: 9,167)177 commits (total: 30,606)0 new public libcurl function (total: 91)1 new curl_easy_setopt() option (total: 303)4 new curl command line option (total: 255)55 contributors, 34 new (total: 2,922)35 authors, 20 new (total: 1,170)1 security fixes … Continue reading curl 8.2.0 →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 232: Legal consequences of generated content]]></title>
-        <id>changelog.com/7/2165</id>
-        <link href="https://changelog.com/practicalai/232"/>
-        <updated>2023-07-18T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[As a technologist, coder, and lawyer, few people are better equipped to discuss the legal and practical consequences of generative AI than Damien Riehl. He demonstrated this a couple years ago by generating, writing to disk, and then releasing every possible musical melody. Damien joins us to answer our many questions about generated content, copyright, dataset licensing/usage, and the future of knowledge work.
-Leave us a comment
-Changelog++ members save 1 minute on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your app…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why inclusive sets of images help us make better products]]></title>
-        <id>https://blog.google/outreach-initiatives/diversity/why-inclusive-sets-of-images-help-us-make-better-products/</id>
-        <link href="https://blog.google/outreach-initiatives/diversity/why-inclusive-sets-of-images-help-us-make-better-products/"/>
-        <updated>2023-07-18T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We worked with TONL, a stock image company, to create more representative datasets to help teams build more inclusive products.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Five Takeaways from Ohio Secretary of State's VDP Success Story]]></title>
-        <id>https://hackerone.com/vulnerability-disclosure/five-takeaways-ohio-secretary-states-vdp-success-story</id>
-        <link href="https://www.hackerone.com/vulnerability-disclosure/five-takeaways-ohio-secretary-states-vdp-success-story"/>
-        <updated>2023-07-18T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA["Cybersecurity is on everyone’s radar, but not everyone knows all the specific details to ensure protection. We know bad actors are constantly looking for cracks in our defenses and applications. That's why it's so important for us to work with ethical hackers. They know what vulnerabilities the bad actors are looking for, and they know how to find them before the bad guys can."
-- Jillian Burner, CISO, Ohio Secretary of State]]></summary>
-        <author>
-            <name>Elizabeth Raffa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Should Never Sleep: Adopting Continuous Testing for Evolving Threats]]></title>
-        <id>https://hackerone.com/vulnerability-management/adopting-continuous-testing-evolving-threats</id>
-        <link href="https://www.hackerone.com/vulnerability-management/adopting-continuous-testing-evolving-threats"/>
-        <updated>2023-07-18T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Compounding security debt from daily new releases creates serious challenges for security organizations — especially considering the scarcity of skilled personnel. Point-in-time security measures and an overreliance on automation and AI create a false sense of security that often leaves the door open for attackers.]]></summary>
-        <author>
-            <name>Joe Coletta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security alert: social engineering campaign targets technology industry employees]]></title>
-        <id>https://github.blog/?p=73188</id>
-        <link href="https://github.blog/2023-07-18-security-alert-social-engineering-campaign-targets-technology-industry-employees/"/>
-        <updated>2023-07-18T14:43:24.000Z</updated>
-        <summary type="html"><![CDATA[GitHub has identified a low-volume social engineering campaign that targets the personal accounts of employees of technology firms. No GitHub or npm systems were compromised in this campaign. We’re publishing this blog post as a warning for our customers to prevent exploitation by this threat actor.]]></summary>
-        <author>
-            <name>Alexis Wales</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bridging the gap: Nubank’s commitment in serving the visually impaired]]></title>
-        <id>https://building.nubank.com.br/?p=21197</id>
-        <link href="https://building.nubank.com.br/bridging-the-gap-nubanks-commitment-in-serving-the-visually-impaired/"/>
-        <updated>2023-07-18T13:36:55.000Z</updated>
-        <summary type="html"><![CDATA[Embark on NuBraille's journey to address a significant gap: the need for accessible banking services for the visually impaired.
-The post Bridging the gap: Nubank’s commitment in serving the visually impaired appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>BU Team</name>
         </author>
     </entry>
 </feed>

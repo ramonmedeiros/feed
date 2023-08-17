@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html",
+          "author": null,
+          "description": "Dongge Liu, Jonathan Metzman, Oliver Chang, Google Open Source Security Team \n\n\n\n\nSince 2016, OSS-Fuzz has been at the forefront of automated vulnerability discovery for open source projects. Vulnerability discovery is an important part of keeping software supply chains secure, so our team is constantly working to improve OSS-Fuzz. For the last few months, we’ve tested whether we could boost OSS-Fuzz’s performance using Google’s Large Language Models (LLM). \n\n\n\n\n\nThis blog post shares our experience of successfully applying the generative power of LLMs to improve the automated vulnerability detection technique known as fuzz testing (“fuzzing”). By using LLMs, we’re able to increase the code coverage for critical projects using our OSS-Fuzz service without manually writing additional code. …",
+          "link": "http://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html",
+          "publishedOn": "2023-08-16T17:02:00.002Z",
+          "wordCount": 3629,
+          "title": "AI-Powered Fuzzing: Breaking the Bug Hunting Barrier"
+        },
+        {
           "id": "http://security.googleblog.com/2023/08/toward-quantum-resilient-security-keys.html",
           "author": null,
           "description": "Elie Bursztein, cybersecurity and AI research director, Fabian Kaczmarczyck, software engineer\n\n\n\n\nAs part of our effort to deploy quantum resistant cryptography, we are happy to announce the release of the first quantum resilient FIDO2 security key implementation as part of OpenSK, our open source security key firmware. This open-source hardware optimized implementation uses a novel ECC/Dilithium hybrid signature schema that benefits from the security of ECC against standard attacks and Dilithium’s resilience against quantum attacks. This schema was co-developed in partnership with the ETH Zürich and won the ACNS secure cryptographic implementation workshop best paper.\n\n\n\n\n\n\nQuantum processor\n\n\n\n\n\nAs progress toward practical quantum computers is accelerating, preparing for their advent i…",
@@ -447,21 +456,6 @@
             "length": "94341567",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2165",
-          "author": null,
-          "description": "As a technologist, coder, and lawyer, few people are better equipped to discuss the legal and practical consequences of generative AI than Damien Riehl. He demonstrated this a couple years ago by generating, writing to disk, and then releasing every possible musical melody. Damien joins us to answer our many questions about generated content, copyright, dataset licensing/usage, and the future of knowledge work.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your app…",
-          "link": "https://changelog.com/practicalai/232",
-          "publishedOn": "2023-07-18T18:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 232: Legal consequences of generated content",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/232/practical-ai-232.mp3",
-            "length": "41366796",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -593,15 +587,6 @@
           "publishedOn": "2023-07-19T12:00:00.000Z",
           "wordCount": 1383,
           "title": "Google's AI Red Team: the ethical hackers making AI safer"
-        },
-        {
-          "id": "https://blog.google/outreach-initiatives/diversity/why-inclusive-sets-of-images-help-us-make-better-products/",
-          "author": null,
-          "description": "We worked with TONL, a stock image company, to create more representative datasets to help teams build more inclusive products.",
-          "link": "https://blog.google/outreach-initiatives/diversity/why-inclusive-sets-of-images-help-us-make-better-products/",
-          "publishedOn": "2023-07-18T16:00:00.000Z",
-          "wordCount": 1155,
-          "title": "Why inclusive sets of images help us make better products"
         }
       ]
     },
@@ -1042,15 +1027,6 @@
           "publishedOn": "2023-07-19T16:00:04.000Z",
           "wordCount": 1443,
           "title": "Metrics for issues, pull requests, and discussions"
-        },
-        {
-          "id": "https://github.blog/?p=73188",
-          "author": "Alexis Wales",
-          "description": "GitHub has identified a low-volume social engineering campaign that targets the personal accounts of employees of technology firms. No GitHub or npm systems were compromised in this campaign. We’re publishing this blog post as a warning for our customers to prevent exploitation by this threat actor.",
-          "link": "https://github.blog/2023-07-18-security-alert-social-engineering-campaign-targets-technology-industry-employees/",
-          "publishedOn": "2023-07-18T14:43:24.000Z",
-          "wordCount": 1047,
-          "title": "Security alert: social engineering campaign targets technology industry employees"
         }
       ]
     },
@@ -1076,15 +1052,6 @@
           "publishedOn": "2023-07-27T20:01:01.000Z",
           "wordCount": 4223,
           "title": "Smarter banking: how intelligent suggestions in the Nubank app empower customers"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=21197",
-          "author": "BU Team",
-          "description": "Embark on NuBraille's journey to address a significant gap: the need for accessible banking services for the visually impaired.\nThe post Bridging the gap: Nubank’s commitment in serving the visually impaired appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/bridging-the-gap-nubanks-commitment-in-serving-the-visually-impaired/",
-          "publishedOn": "2023-07-18T13:36:55.000Z",
-          "wordCount": 4877,
-          "title": "Bridging the gap: Nubank’s commitment in serving the visually impaired"
         }
       ]
     },
@@ -1155,24 +1122,6 @@
           "publishedOn": "2023-07-25T16:00:00.000Z",
           "wordCount": 805,
           "title": "Amazon's Security Researcher Collaboration: Highlights from H1-213"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-disclosure/five-takeaways-ohio-secretary-states-vdp-success-story",
-          "author": "Elizabeth Raffa",
-          "description": "\"Cybersecurity is on everyone’s radar, but not everyone knows all the specific details to ensure protection. We know bad actors are constantly looking for cracks in our defenses and applications. That's why it's so important for us to work with ethical hackers. They know what vulnerabilities the bad actors are looking for, and they know how to find them before the bad guys can.\"\n- Jillian Burner, CISO, Ohio Secretary of State",
-          "link": "https://www.hackerone.com/vulnerability-disclosure/five-takeaways-ohio-secretary-states-vdp-success-story",
-          "publishedOn": "2023-07-18T16:00:00.000Z",
-          "wordCount": 2011,
-          "title": "Five Takeaways from Ohio Secretary of State's VDP Success Story"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/adopting-continuous-testing-evolving-threats",
-          "author": "Joe Coletta",
-          "description": "Compounding security debt from daily new releases creates serious challenges for security organizations — especially considering the scarcity of skilled personnel. Point-in-time security measures and an overreliance on automation and AI create a false sense of security that often leaves the door open for attackers.",
-          "link": "https://www.hackerone.com/vulnerability-management/adopting-continuous-testing-evolving-threats",
-          "publishedOn": "2023-07-18T16:00:00.000Z",
-          "wordCount": 1670,
-          "title": "Security Should Never Sleep: Adopting Continuous Testing for Evolving Threats"
         }
       ]
     },
@@ -1180,7 +1129,17 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/2feb273a3598",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-08-16T17:55:48.000Z",
+          "wordCount": null,
+          "title": "Curbing Connection Churn in Zuul"
+        }
+      ]
     },
     {
       "title": "All Eyes on Markets",
