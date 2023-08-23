@@ -83,13 +83,38 @@
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://testing.googleblog.com/2023/08/testing-on-toilet-presents.html",
+          "author": null,
+          "description": "Testing on the Toilet Presents...\n Healthy Code on the Commode\n\n\n\n\n\n\n\n\n\nBetter Feedback Makes for Faster Reviews\nby Felipe Sodré and Adam Bender\n\n\n\n\n\nHave you ever received a code review with a comment like this?\n\n\n\nserver_is_alive = InitializeServer()\n\n\n\nComment:\n\nThis doesn’t make any sense. Why don't you use InitializeServerWithAFewExtraSteps() instead?\n\n\n\n\n\n\nIf so, it probably left you scratching your head. Why is the reviewer asking this question? Are they testing you? Did you make a big mistake? The problem is the comment is vague (and maybe even a bit rude). It also leaves out important context as to what the reviewer is thinking, making it difficult to respond to. Here are a few simple ways to ensure your review comments are effective, helpful, and clear. \n\nBe kind! People are more…",
+          "link": "http://testing.googleblog.com/2023/08/testing-on-toilet-presents.html",
+          "publishedOn": "2023-08-22T18:40:00.001Z",
+          "wordCount": 3238,
+          "title": "Better Feedback Makes for Faster Reviews"
+        }
+      ]
     },
     {
       "title": "Changelog",
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/16/2183",
+          "author": null,
+          "description": "New research shows that CAPTCHAs are now utterly useless, hundreds of concerned technologists signed the OpenTF Manifesto to keep Terraform open source forever, Josh Collinsworth writes down all the things you forgot (or never knew) because of React, Mike Seidle shared some quick-but-powerful advice on building new software features & Erlend Sogge Heggen urges new open source projects to join the Fediverse (by way of Mastodon).\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – On September 7th, Sentry is hosting a discussion with the CEOs of three SaaS companies that adopt an open source strategy for their core product. Register to attend right here.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(01:09) - CAPTCHAs are now utterly useless\n(02:10) - The OpenTF Manifesto\n(03:06) - Things you forgot (or never knew) because of React\n(04:53) - Sponsor: Sentry\n(05:44) - Work, Like, Love\n(06:31) - Greenfield OSS projects should join Mastodon\n(07:37) - Outro",
+          "link": "https://changelog.com/news/58",
+          "publishedOn": "2023-08-21T19:45:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 58: All your CAPTCHAs are belong to bots",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/58/changelog-news-58.mp3",
+            "length": "8259798",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/17/2180",
           "author": null,
@@ -397,21 +422,6 @@
           "enclosure": {
             "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/233/practical-ai-233.mp3",
             "length": "46490881",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/16/2167",
-          "author": null,
-          "description": "Our friends at Supabase quietly went public today, Redpoint’s InfraRed 100 report is out, Twitter is now X, GitHub’s Copilot Chat now in public preview (for businesses) & Oxide has homelab plans (in 2050).\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Instantly create SDKs that make API integration easy for your users. Check it out today.\n\n\nFeaturing:\n\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:18) - Supabase quietly went public\n(02:04) - Twitter is now X\n(03:36) - GitHub’s Copilot Chat now in public preview\n(05:16) - Sponsor: Speakeasy\n(06:00) - Apple Vision Pro developer kit\n(07:02) - Oxide in the Homelab\n(08:45) - Outro",
-          "link": "https://changelog.com/news/54",
-          "publishedOn": "2023-07-24T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 54: Supabase quietly went public, Twitter is now X, GitHub's Copilot Chat now in public preview & Oxide has homelab plans (in 2050)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/54/changelog-news-54.mp3",
-            "length": "9335580",
             "type": "audio/mpeg"
           }
         }
@@ -762,6 +772,15 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=73759",
+          "author": "Taylor Blau",
+          "description": "Another new release of Git is here! Take a look at some of our highlights on what's new in Git 2.42.\nThe post Highlights from Git 2.42 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-08-21-highlights-from-git-2-42/",
+          "publishedOn": "2023-08-21T17:45:07.000Z",
+          "wordCount": 3438,
+          "title": "Highlights from Git 2.42"
+        },
+        {
           "id": "https://github.blog/?p=73738",
           "author": "Michael Stepankin",
           "description": "In this post, we'll deep dive into some interesting attacks on mTLS authentication. We'll have a look at implementation vulnerabilities and how developers can make their mTLS systems vulnerable to user impersonation, privilege escalation, and information leakages.\nThe post mTLS: When certificate authentication is done wrong appeared first on The GitHub Blog.",
@@ -940,15 +959,6 @@
           "publishedOn": "2023-07-25T16:00:12.000Z",
           "wordCount": 1412,
           "title": "How to responsibly adopt GitHub Copilot with the GitHub Copilot Trust Center"
-        },
-        {
-          "id": "https://github.blog/?p=73300",
-          "author": "Patrick Knight",
-          "description": "Repository rules provide an easy, flexible way to define branch protections and ensure consistency in code across repositories.",
-          "link": "https://github.blog/2023-07-24-github-repository-rules-are-now-generally-available/",
-          "publishedOn": "2023-07-24T16:01:58.000Z",
-          "wordCount": 1562,
-          "title": "GitHub Repository Rules are now generally available"
         }
       ]
     },
@@ -957,6 +967,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=21287",
+          "author": "BU Team",
+          "description": "Uncover the power of user-centricity and iterative refinement in creating an exceptional application experience.\nThe post Modo Rua: Redefining App Development through User-Centered Iteration appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/modo-rua-redefining-app-development-through-user-centered-iteration/",
+          "publishedOn": "2023-08-23T04:07:14.000Z",
+          "wordCount": 4402,
+          "title": "Modo Rua: Redefining App Development through User-Centered Iteration"
+        },
         {
           "id": "https://building.nubank.com.br/?p=21260",
           "author": "Gabriel Bastos",
