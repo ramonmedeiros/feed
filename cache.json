@@ -101,6 +101,36 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/1/2199",
+          "author": null,
+          "description": "This week on The Changelog Adam is joined by Zach Lloyd, Founder & CEO of Warp. We talked with Zach last year about what it takes to build the terminal of the future, and today Adam catches up with Zach to see where they are at on that mission. They talk about the business model of Warp, how they measure success, reaching product/market fit, building features developers love, integrating AI, and the pros and cons of going open source (again).\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nConvex – Convex is a better type of backend — the full-stack TypeScript development platform that lets you replace your database, server functions, and glue code. Get started at convex.dev\n\nSquare – Develop on the platfo…",
+          "link": "https://changelog.com/podcast/555",
+          "publishedOn": "2023-08-30T16:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 555: Back to the terminal of the future",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/555/the-changelog-555.mp3",
+            "length": "105737272",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/2191",
+          "author": null,
+          "description": "Our “what’s new in Go” correspondent Carl Johnson joins Johnny & Kris yet again to discuss what’s new with the latest iteration of Go in version 1.21.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nTailscale – Simple, secure networks for teams of any scale. Built on WireGuard.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nCarl Johnson – Mastodon, Twitter, GitHub, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nGo 1.21 Release Notes\nWhat Carl worked on for Go 1.21\n“Waterfall” doesn’t mean what you think it means\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:35) - Sponsor: Tailscale\n(04:02) - Carl Johnson\n(06:11) - Most important release note\n(11:14) - Logging\n(17:41) - maps.keys\n(20:09) - CMP package\n(23:47) - min-maxing\n(29:04) - loop variable closer\n(34:05) - PGO\n(37:49) - Forward and backward compatibility\n(40:01) - Sponsor: Changelog News\n(41:13) - WebAssembly\n(44:54) - Funk\n(47:47) - Unpopular opinions!\n(48:06) - Carl's unpop\n(1:01:20) - Waterfall paper\n(1:03:27) - Outro",
+          "link": "https://changelog.com/gotime/289",
+          "publishedOn": "2023-08-30T16:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 289: What's new in Go 1.21",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/289/go-time-289.mp3",
+            "length": "62827483",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "changelog.com/7/2196",
           "author": null,
           "description": "You might have heard a lot about code generation tools using AI, but could LLMs and generative AI make our existing code better? In this episode, we sit down with Mike from TurinTech to hear about practical code optimizations using AI “translation” of slow to fast code. We learn about their process for accomplishing this task along with impressive results when automated code optimization is run on existing open source projects.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nMike Basios – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nTurinTech AI\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Code optimizing with Mike Basios\n(03:19) - Solving code\n(07:24) - The AI code ecosystem\n(10:41) - Other targets\n(12:58) - AI rephrasing?\n(15:28) - Sponsor: Changelog News\n(16:40) - State of current models\n(20:31) - Improvements to devs\n(22:31) - Managing your AI intern\n(25:09) - Custom LLM models\n(29:49) - Biggest challenges\n(33:19) - Hallucination & optimization\n(35:42) - Test chaining?\n(39:09) - LLM workflow\n(41:25) - Most exciting developments\n(43:40) - Looking forward to faster code\n(44:14) - Outro",
@@ -404,21 +434,6 @@
           "wordCount": null,
           "title": "Things we always remind ourselves while coding",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/7/2173",
-          "author": null,
-          "description": "There’s so much talk (and hype) these days about vector databases. We thought it would be timely and practical to have someone on the show that has been hands on with the various options and actually tried to build applications leveraging vector search. Prashanth Rao is a real practitioner that has spent and huge amount of time exploring the expanding set of vector database offerings. After introducing vector database and giving us a mental model of how they fit in with other datastores, Prashanth digs into the trade offs as related to indices, hosting options, embedding vs. query optimization, and more.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, sec…",
-          "link": "https://changelog.com/practicalai/234",
-          "publishedOn": "2023-08-01T18:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 234: Vector databases (beyond the hype)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/234/practical-ai-234.mp3",
-            "length": "49661178",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -452,6 +467,24 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/products/search/google-search-generative-ai-india-japan/",
+          "author": null,
+          "description": "We’re bringing generative AI capabilities in Search (SGE) to more people, making  Search Labs available in India and Japan.",
+          "link": "https://blog.google/products/search/google-search-generative-ai-india-japan/",
+          "publishedOn": "2023-08-31T00:30:00.000Z",
+          "wordCount": 1325,
+          "title": "Bringing generative AI in Search to more people around the world"
+        },
+        {
+          "id": "https://blog.google/products/google-cloud/companies-using-google-cloud-ai/",
+          "author": null,
+          "description": "At Google Cloud Next 2023, thousands of people gathered in San Francisco to learn about the newest updates from Google Cloud.",
+          "link": "https://blog.google/products/google-cloud/companies-using-google-cloud-ai/",
+          "publishedOn": "2023-08-30T16:00:00.000Z",
+          "wordCount": 1331,
+          "title": "7 ways businesses are using Google Cloud AI"
+        },
         {
           "id": "https://blog.google/technology/health/cloud-next-generative-ai-health/",
           "author": null,
@@ -539,15 +572,6 @@
           "publishedOn": "2023-08-08T12:38:51.000Z",
           "wordCount": 711,
           "title": "Mastering the curl command line"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22786",
-          "author": "Daniel Stenberg",
-          "description": "The curl option –write-out is one of my personal favorites and offers users an excitingly powerful way to output information from a transfer. Over time, it has been extended to provide more and more features. It was for example not that long ago we added the ability to output the content of specific headers with … Continue reading curl write-out to files →",
-          "link": "https://daniel.haxx.se/blog/2023/08/01/curl-write-out-to-files/",
-          "publishedOn": "2023-08-01T06:21:48.000Z",
-          "wordCount": 491,
-          "title": "curl write-out to files"
         }
       ]
     },
@@ -712,6 +736,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=73913",
+          "author": "Sara Verdi",
+          "description": "Rust continues to top the charts as the most admired and desired language by developers, and in this post, we dive a little deeper into how (and why) Rust is stealing the hearts of developers around the world.\nThe post Why Rust is the most admired language among developers appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/",
+          "publishedOn": "2023-08-30T14:00:08.000Z",
+          "wordCount": 2337,
+          "title": "Why Rust is the most admired language among developers"
+        },
         {
           "id": "https://github.blog/?p=73896",
           "author": "David Jarzebowski",
