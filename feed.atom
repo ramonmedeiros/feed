@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-03T12:02:28.808Z</updated>
+    <updated>2023-09-04T12:03:19.784Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Data Quality Automation at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter"/>
+        <updated>2023-09-04T12:02:43.449Z</updated>
+        <summary type="html"><![CDATA[In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The curl-wget Venn diagram]]></title>
+        <id>https://daniel.haxx.se/blog/?p=23032</id>
+        <link href="https://daniel.haxx.se/blog/2023/09/04/the-curl-wget-venn-diagram/"/>
+        <updated>2023-09-04T08:10:38.000Z</updated>
+        <summary type="html"><![CDATA[In my view, wget is not a curl competitor. It is a companion tool that has a feature overlap with curl. Use the tool that does the job. Getting the job done is the key. If that means using wget instead of curl, then that is good and I don’t mind. Why would I? To … Continue reading The curl-wget Venn diagram →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog & Friends 12: You call it tech debt I call it malpractice]]></title>
         <id>changelog.com/17/2193</id>
@@ -1379,66 +1399,6 @@ Timestamps:
         <summary type="html"><![CDATA[Here is HackerOne’s perspective on the Top 10 list for LLM vulnerabilities and how organizations can prevent these critical security risks.]]></summary>
         <author>
             <name>Manjesh S.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service"/>
-        <updated>2023-08-05T12:02:32.342Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we scaled Reads On the Twitter Users Database]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database"/>
-        <updated>2023-08-05T12:02:32.263Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Constraint Management for cluster operation safety and reliability at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter"/>
-        <updated>2023-08-05T12:02:32.252Z</updated>
-        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
-        <updated>2023-08-05T12:02:32.232Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kerberizing Hadoop Clusters at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter"/>
-        <updated>2023-08-05T12:02:32.213Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter's Recommendation Algorithm]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"/>
-        <updated>2023-08-05T12:02:32.071Z</updated>
-        <summary type="html"><![CDATA[Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>
