@@ -2,10 +2,130 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-06T12:03:04.710Z</updated>
+    <updated>2023-09-07T12:03:33.372Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to build an enterprise LLM application: Lessons from GitHub Copilot]]></title>
+        <id>https://github.blog/?p=73994</id>
+        <link href="https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/"/>
+        <updated>2023-09-06T19:04:19.000Z</updated>
+        <summary type="html"><![CDATA[The team behind GitHub Copilot shares its lessons for building an LLM app that delivers value to both individuals and enterprise users at scale. 
+The post How to build an enterprise LLM application: Lessons from GitHub Copilot appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Shuyin Zhao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 556: OpenTF for an open Terraform]]></title>
+        <id>changelog.com/1/2190</id>
+        <link href="https://changelog.com/podcast/556"/>
+        <updated>2023-09-06T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re talking about the launch of OpenTF and what it’s going to take to successfully fork HashiCorp’s Terraform. We’re joined by Josh Padnick to discuss what exactly happened, how HashiCorp’s license change changes things, who has been impacted by this change, and ultimately what they are doing about it.
+Leave us a comment
+Changelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Tailscale – Simple, secure networks for teams of any scale. Built on WireGuard.
+
+Sentry – Scheduled jobs are supposed to be predictable, but sometimes, predictable != reliable. Sentry Cron Monitoring (Beta) helps you monitor the uptime and performance of any scheduled or recurring job in Sentry. Learn more by attending this FREE webinar!
+
+Fastly – Our ba…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 238: Fine-tuning vs RAG]]></title>
+        <id>changelog.com/7/2203</id>
+        <link href="https://changelog.com/practicalai/238"/>
+        <updated>2023-09-06T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode we welcome back our good friend Demetrios from the MLOps Community to discuss fine-tuning vs. retrieval augmented generation. Along the way, we also chat about OpenAI Enterprise, results from the MLOps Community LLM survey, and the orchestration and evaluation of generative AI workloads.
+Leave us a comment
+Changelog++ members save 1 minute on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+Typesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!
+
+
+Featuring:
+
+Demetrios Brinkmann – Twitter
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+
+Show Notes:
+
+MLOps Community
+LLM survey report
+LLMs in Production Event - Part III
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:43) - Practical AI & Friends
+(02:01) - Look into MLOps community
+(04:19) - Changes in the AI community
+(07:34) - Finding the norm
+(08:30) - Matching models & uses
+(11:21) - Stages of debugging
+(13:10) - Layer orchestration
+(16:26) - Practical hot takes
+(21:46) - Fine-tuning is more work
+(24:13) - Retrieval augmented generation
+(31:23) - MLOps survey
+(38:09) - The next survey
+(41:50) - Enterprise hypetrain
+(42:39) - OpenAI & your data
+(43:19) - AI vendor lock-in?
+(47:44) - Now what do we do?
+(48:58) - Hype in the AI life
+(56:35) - Goodbye
+(57:23) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use Abstraction to Improve Function Readability]]></title>
+        <id>http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html</id>
+        <link href="http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html"/>
+        <updated>2023-09-06T12:29:00.001Z</updated>
+        <summary type="html"><![CDATA[This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+
+By Palak Bansal and Mark Manley
+
+
+ Which version of the createPizza function below is easier to understand?
+
+
+
+func createPizza(order *Order) *Pizza {  
+  pizza := &Pizza{Base: order.Size,
+                  Sauce: order.Sauce,
+                  Cheese: “Mozzarella”}
+
+  if order.kind == “Veg” {
+    pizza.Toppings = vegToppings
+  } else if order.kind == “Meat” {
+    pizza.Toppings = meatToppings
+  }
+
+  oven := oven.New()
+  if oven.Temp != cookingTemp { 
+    for (oven.Temp < cookingTemp) {
+      time.Sleep(checkOvenInterval)
+      oven.Temp = getOvenTemp(oven)…]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Questions, shrugs and what comes next: A quarter century of change]]></title>
         <id>https://blog.google/inside-google/message-ceo/google-25th-birthday-sundar-pichai/</id>
@@ -1385,101 +1505,6 @@ The post Four tips to keep your GitHub Actions workflows secure appeared first o
         <summary type="html"><![CDATA[The Securities and Exchange Commission (SEC) recently finalized a regulation that imposes increased transparency related to cybersecurity risk management, governance, and incidents.]]></summary>
         <author>
             <name>Ilona Cohen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How AI is helping airlines mitigate the climate impact of contrails]]></title>
-        <id>https://blog.google/technology/ai/ai-airlines-contrails-climate-change/</id>
-        <link href="https://blog.google/technology/ai/ai-airlines-contrails-climate-change/"/>
-        <updated>2023-08-08T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We used AI to help airlines choose routes that are less likely to cause contrails, minimizing the environmental impact of flights.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Downfall and Zenbleed: Googlers helping secure the ecosystem]]></title>
-        <id>http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html</id>
-        <link href="http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html"/>
-        <updated>2023-08-08T17:00:00.001Z</updated>
-        <summary type="html"><![CDATA[Tavis Ormandy, Software Engineer and Daniel Moghimi, Senior Research Scientist
-
-
-
-
-Finding and mitigating security vulnerabilities is critical to keeping Internet users safe.  However, the more complex a system becomes, the harder it is to secure—and that is also the case with computing hardware and processors, which have developed highly advanced capabilities over the years. This post will detail this trend by exploring Downfall and Zenbleed, two new security vulnerabilities (one of which was disclosed today) that prior to mitigation had the potential to affect billions of personal and cloud computers, signifying the importance of vulnerability research and cross-industry collaboration. Had these vulnerabilities not been discovered by Google researchers, and instead by adversaries, they w…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android 14 introduces first-of-its-kind cellular connectivity security features]]></title>
-        <id>http://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html</id>
-        <link href="http://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html"/>
-        <updated>2023-08-08T15:59:00.001Z</updated>
-        <summary type="html"><![CDATA[Posted by Roger Piqueras Jover, Yomna Nasser, and Sudhi Herle
-
-
-Android is the first mobile operating system to introduce advanced cellular security mitigations for both consumers and enterprises. Android 14 introduces support for IT administrators to disable 2G support in their managed device fleet. Android 14 also introduces a feature that disables support for null-ciphered cellular connectivity.
-
-Hardening network security on Android
-False Base Stations (FBS) and Stingrays exploit weaknesses in cellular telephony standards to cause harm to users. Additionally, a smartphone cannot reliably know the legitimacy of the cellular base station before attempting to connect to it. Attackers exploit this in a number of ways, ranging from traffic interception and malware sideloading, to sophistica…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An update on Chrome Security updates – shipping security fixes to you faster]]></title>
-        <id>http://security.googleblog.com/2023/08/an-update-on-chrome-security-updates.html</id>
-        <link href="http://security.googleblog.com/2023/08/an-update-on-chrome-security-updates.html"/>
-        <updated>2023-08-08T15:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Amy Ressler, Chrome Security Team
-
-
-To get security fixes to you faster, starting now in Chrome 116, Chrome is shipping weekly Stable channel updates.
-
-
-Chrome ships a new milestone release every four weeks. In between those major releases, we ship updates to address security and other high impact bugs. We currently schedule one of these Stable channel updates (or “Stable Refresh”) between each milestone. Starting in Chrome 116, Stable updates will be released every week between milestones.
-
-
-This should not change how you use or update Chrome, nor is the frequency of milestone releases changing, but it does mean security fixes will get to you faster.
-
-Reducing the Patch Gap
-Chromium is the open source project which powers Chrome and many other browsers. Anyone can view the sourc…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A guide to designing and shipping AI developer tools]]></title>
-        <id>https://github.blog/?p=73573</id>
-        <link href="https://github.blog/2023-08-08-a-guide-to-designing-and-shipping-ai-developer-tools/"/>
-        <updated>2023-08-08T14:28:15.000Z</updated>
-        <summary type="html"><![CDATA[GitHub’s design experts share 10 tips and lessons for designing magical user experiences for AI applications and AI coding tools. 
-The post A guide to designing and shipping AI developer tools appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Nicole Choi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mastering the curl command line]]></title>
-        <id>https://daniel.haxx.se/blog/?p=22806</id>
-        <link href="https://daniel.haxx.se/blog/2023/08/08/mastering-the-curl-command-line/"/>
-        <updated>2023-08-08T12:38:51.000Z</updated>
-        <summary type="html"><![CDATA[For the firs time ever, I am going to present a single, very long, video class with the title shown above. This session will be streamed and recorded live on August 31, starting at 16:00 UTC (18:00 CEST, 09:00 PDT) and is expected to take about two and a half hours. Due to many uncertainties, … Continue reading Mastering the curl command line →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Autogenerating Rust-JS bindings with UniFFI]]></title>
-        <id>https://hacks.mozilla.org/?p=48021</id>
-        <link href="https://hacks.mozilla.org/2023/08/autogenerating-rust-js-bindings-with-uniffi/"/>
-        <updated>2023-08-08T11:15:31.000Z</updated>
-        <summary type="html"><![CDATA[This blog post will walk through how we developed UniFFI: a Rust library for auto-generating foreign language bindings. We will walk through some of the issues that arose along the way and how we handled them.
-The post Autogenerating Rust-JS bindings with UniFFI appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Ben Dean-Kawamura</name>
         </author>
     </entry>
 </feed>

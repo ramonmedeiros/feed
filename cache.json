@@ -40,33 +40,6 @@
           "publishedOn": "2023-08-10T16:01:00.001Z",
           "wordCount": 1849,
           "title": "Making Chrome more secure by bringing  Key Pinning to Android"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
-          "author": null,
-          "description": "Tavis Ormandy, Software Engineer and Daniel Moghimi, Senior Research Scientist\n\n\n\n\nFinding and mitigating security vulnerabilities is critical to keeping Internet users safe.  However, the more complex a system becomes, the harder it is to secure—and that is also the case with computing hardware and processors, which have developed highly advanced capabilities over the years. This post will detail this trend by exploring Downfall and Zenbleed, two new security vulnerabilities (one of which was disclosed today) that prior to mitigation had the potential to affect billions of personal and cloud computers, signifying the importance of vulnerability research and cross-industry collaboration. Had these vulnerabilities not been discovered by Google researchers, and instead by adversaries, they w…",
-          "link": "http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
-          "publishedOn": "2023-08-08T17:00:00.001Z",
-          "wordCount": 4212,
-          "title": "Downfall and Zenbleed: Googlers helping secure the ecosystem"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html",
-          "author": null,
-          "description": "Posted by Roger Piqueras Jover, Yomna Nasser, and Sudhi Herle\n\n\nAndroid is the first mobile operating system to introduce advanced cellular security mitigations for both consumers and enterprises. Android 14 introduces support for IT administrators to disable 2G support in their managed device fleet. Android 14 also introduces a feature that disables support for null-ciphered cellular connectivity.\n\nHardening network security on Android\nFalse Base Stations (FBS) and Stingrays exploit weaknesses in cellular telephony standards to cause harm to users. Additionally, a smartphone cannot reliably know the legitimacy of the cellular base station before attempting to connect to it. Attackers exploit this in a number of ways, ranging from traffic interception and malware sideloading, to sophistica…",
-          "link": "http://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html",
-          "publishedOn": "2023-08-08T15:59:00.001Z",
-          "wordCount": 1918,
-          "title": "Android 14 introduces first-of-its-kind cellular connectivity security features"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/08/an-update-on-chrome-security-updates.html",
-          "author": null,
-          "description": "Posted by Amy Ressler, Chrome Security Team\n\n\nTo get security fixes to you faster, starting now in Chrome 116, Chrome is shipping weekly Stable channel updates.\n\n\nChrome ships a new milestone release every four weeks. In between those major releases, we ship updates to address security and other high impact bugs. We currently schedule one of these Stable channel updates (or “Stable Refresh”) between each milestone. Starting in Chrome 116, Stable updates will be released every week between milestones.\n\n\nThis should not change how you use or update Chrome, nor is the frequency of milestone releases changing, but it does mean security fixes will get to you faster.\n\nReducing the Patch Gap\nChromium is the open source project which powers Chrome and many other browsers. Anyone can view the sourc…",
-          "link": "http://security.googleblog.com/2023/08/an-update-on-chrome-security-updates.html",
-          "publishedOn": "2023-08-08T15:59:00.000Z",
-          "wordCount": 1308,
-          "title": "An update on Chrome Security updates – shipping security fixes to you faster"
         }
       ]
     },
@@ -75,6 +48,15 @@
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
+        {
+          "id": "http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html",
+          "author": null,
+          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Palak Bansal and Mark Manley\n\n\n Which version of the createPizza function below is easier to understand?\n\n\n\nfunc createPizza(order *Order) *Pizza {  \n  pizza := &Pizza{Base: order.Size,\n                  Sauce: order.Sauce,\n                  Cheese: “Mozzarella”}\n\n  if order.kind == “Veg” {\n    pizza.Toppings = vegToppings\n  } else if order.kind == “Meat” {\n    pizza.Toppings = meatToppings\n  }\n\n  oven := oven.New()\n  if oven.Temp != cookingTemp { \n    for (oven.Temp < cookingTemp) {\n      time.Sleep(checkOvenInterval)\n      oven.Temp = getOvenTemp(oven)…",
+          "link": "http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html",
+          "publishedOn": "2023-09-06T12:29:00.001Z",
+          "wordCount": 4633,
+          "title": "Use Abstraction to Improve Function Readability"
+        },
         {
           "id": "http://testing.googleblog.com/2023/08/testing-on-toilet-presents.html",
           "author": null,
@@ -91,6 +73,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2190",
+          "author": null,
+          "description": "This week we’re talking about the launch of OpenTF and what it’s going to take to successfully fork HashiCorp’s Terraform. We’re joined by Josh Padnick to discuss what exactly happened, how HashiCorp’s license change changes things, who has been impacted by this change, and ultimately what they are doing about it.\nLeave us a comment\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nTailscale – Simple, secure networks for teams of any scale. Built on WireGuard.\n\nSentry – Scheduled jobs are supposed to be predictable, but sometimes, predictable != reliable. Sentry Cron Monitoring (Beta) helps you monitor the uptime and performance of any scheduled or recurring job in Sentry. Learn more by attending this FREE webinar!\n\nFastly – Our ba…",
+          "link": "https://changelog.com/podcast/556",
+          "publishedOn": "2023-09-06T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 556: OpenTF for an open Terraform",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/556/the-changelog-556.mp3",
+            "length": "79052854",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/2203",
+          "author": null,
+          "description": "In this episode we welcome back our good friend Demetrios from the MLOps Community to discuss fine-tuning vs. retrieval augmented generation. Along the way, we also chat about OpenAI Enterprise, results from the MLOps Community LLM survey, and the orchestration and evaluation of generative AI workloads.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nDemetrios Brinkmann – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nMLOps Community\nLLM survey report\nLLMs in Production Event - Part III\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Practical AI & Friends\n(02:01) - Look into MLOps community\n(04:19) - Changes in the AI community\n(07:34) - Finding the norm\n(08:30) - Matching models & uses\n(11:21) - Stages of debugging\n(13:10) - Layer orchestration\n(16:26) - Practical hot takes\n(21:46) - Fine-tuning is more work\n(24:13) - Retrieval augmented generation\n(31:23) - MLOps survey\n(38:09) - The next survey\n(41:50) - Enterprise hypetrain\n(42:39) - OpenAI & your data\n(43:19) - AI vendor lock-in?\n(47:44) - Now what do we do?\n(48:58) - Hype in the AI life\n(56:35) - Goodbye\n(57:23) - Outro",
+          "link": "https://changelog.com/practicalai/238",
+          "publishedOn": "2023-09-06T12:30:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 238: Fine-tuning vs RAG",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/238/practical-ai-238.mp3",
+            "length": "56028494",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/16/2204",
           "author": null,
@@ -477,15 +489,6 @@
           "publishedOn": "2023-08-10T20:00:00.000Z",
           "wordCount": 1430,
           "title": "10 helpful ways to use Bard"
-        },
-        {
-          "id": "https://blog.google/technology/ai/ai-airlines-contrails-climate-change/",
-          "author": null,
-          "description": "We used AI to help airlines choose routes that are less likely to cause contrails, minimizing the environmental impact of flights.",
-          "link": "https://blog.google/technology/ai/ai-airlines-contrails-climate-change/",
-          "publishedOn": "2023-08-08T19:00:00.000Z",
-          "wordCount": 1333,
-          "title": "How AI is helping airlines mitigate the climate impact of contrails"
         }
       ]
     },
@@ -529,15 +532,6 @@
           "publishedOn": "2023-08-15T06:29:44.000Z",
           "wordCount": 878,
           "title": "changes from before it was curl"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22806",
-          "author": "Daniel Stenberg",
-          "description": "For the firs time ever, I am going to present a single, very long, video class with the title shown above. This session will be streamed and recorded live on August 31, starting at 16:00 UTC (18:00 CEST, 09:00 PDT) and is expected to take about two and a half hours. Due to many uncertainties, … Continue reading Mastering the curl command line →",
-          "link": "https://daniel.haxx.se/blog/2023/08/08/mastering-the-curl-command-line/",
-          "publishedOn": "2023-08-08T12:38:51.000Z",
-          "wordCount": 711,
-          "title": "Mastering the curl command line"
         }
       ]
     },
@@ -657,15 +651,6 @@
           "publishedOn": "2023-09-05T16:39:32.000Z",
           "wordCount": 508,
           "title": "Faster Vue.js Execution in Firefox"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=48021",
-          "author": "Ben Dean-Kawamura",
-          "description": "This blog post will walk through how we developed UniFFI: a Rust library for auto-generating foreign language bindings. We will walk through some of the issues that arose along the way and how we handled them.\nThe post Autogenerating Rust-JS bindings with UniFFI appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2023/08/autogenerating-rust-js-bindings-with-uniffi/",
-          "publishedOn": "2023-08-08T11:15:31.000Z",
-          "wordCount": 1249,
-          "title": "Autogenerating Rust-JS bindings with UniFFI"
         }
       ]
     },
@@ -674,6 +659,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=73994",
+          "author": "Shuyin Zhao",
+          "description": "The team behind GitHub Copilot shares its lessons for building an LLM app that delivers value to both individuals and enterprise users at scale. \nThe post How to build an enterprise LLM application: Lessons from GitHub Copilot appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/",
+          "publishedOn": "2023-09-06T19:04:19.000Z",
+          "wordCount": 2953,
+          "title": "How to build an enterprise LLM application: Lessons from GitHub Copilot"
+        },
         {
           "id": "https://github.blog/?p=73957",
           "author": "Klint Finley",
@@ -835,15 +829,6 @@
           "publishedOn": "2023-08-09T16:00:15.000Z",
           "wordCount": 1745,
           "title": "Four tips to keep your GitHub Actions workflows secure"
-        },
-        {
-          "id": "https://github.blog/?p=73573",
-          "author": "Nicole Choi",
-          "description": "GitHub’s design experts share 10 tips and lessons for designing magical user experiences for AI applications and AI coding tools. \nThe post A guide to designing and shipping AI developer tools appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-08-08-a-guide-to-designing-and-shipping-ai-developer-tools/",
-          "publishedOn": "2023-08-08T14:28:15.000Z",
-          "wordCount": 3679,
-          "title": "A guide to designing and shipping AI developer tools"
         }
       ]
     },

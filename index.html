@@ -16,6 +16,153 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2023-09-06">2023-09-06</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://testing.googleblog.com/">Google Testing Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Use Abstraction to Improve Function Readability</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(15 min)</span>
+                    <span>This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+
+By Palak Bansal and Mark Manley
+
+
+ Which version of the createPizza function below is easier to understand?
+
+
+
+func createPizza(order *Order) *Pizza {  
+  pizza :&#x3D; &amp;Pizza{Base: order.Size,
+                  Sauce: order.Sauce,
+                  Cheese: “Mozzarella”}
+
+  if order.kind &#x3D;&#x3D; “Veg” {
+    pizza.Toppings &#x3D; vegToppings
+  } else if order.kind &#x3D;&#x3D; “Meat” {
+    pizza.Toppings &#x3D; meatToppings
+  }
+
+  oven :&#x3D; oven.New()
+  if oven.Temp !&#x3D; cookingTemp { 
+    for (oven.Temp &lt; cookingTemp) {
+      time.Sleep(checkOvenInterval)
+      oven.Temp &#x3D; getOvenTemp(oven)…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://changelog.com/">Changelog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Changelog Interviews 556: OpenTF for an open Terraform</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/podcast/556">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>This week we’re talking about the launch of OpenTF and what it’s going to take to successfully fork HashiCorp’s Terraform. We’re joined by Josh Padnick to discuss what exactly happened, how HashiCorp’s license change changes things, who has been impacted by this change, and ultimately what they are doing about it.
+Leave us a comment
+Changelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Tailscale – Simple, secure networks for teams of any scale. Built on WireGuard.
+
+Sentry – Scheduled jobs are supposed to be predictable, but sometimes, predictable !&#x3D; reliable. Sentry Cron Monitoring (Beta) helps you monitor the uptime and performance of any scheduled or recurring job in Sentry. Learn more by attending this FREE webinar!
+
+Fastly – Our ba…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Practical AI 238: Fine-tuning vs RAG</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://changelog.com/practicalai/238">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>In this episode we welcome back our good friend Demetrios from the MLOps Community to discuss fine-tuning vs. retrieval augmented generation. Along the way, we also chat about OpenAI Enterprise, results from the MLOps Community LLM survey, and the orchestration and evaluation of generative AI workloads.
+Leave us a comment
+Changelog++ members save 1 minute on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+Typesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!
+
+
+Featuring:
+
+Demetrios Brinkmann – Twitter
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+
+Show Notes:
+
+MLOps Community
+LLM survey report
+LLMs in Production Event - Part III
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:43) - Practical AI &amp; Friends
+(02:01) - Look into MLOps community
+(04:19) - Changes in the AI community
+(07:34) - Finding the norm
+(08:30) - Matching models &amp; uses
+(11:21) - Stages of debugging
+(13:10) - Layer orchestration
+(16:26) - Practical hot takes
+(21:46) - Fine-tuning is more work
+(24:13) - Retrieval augmented generation
+(31:23) - MLOps survey
+(38:09) - The next survey
+(41:50) - Enterprise hypetrain
+(42:39) - OpenAI &amp; your data
+(43:19) - AI vendor lock-in?
+(47:44) - Now what do we do?
+(48:58) - Hype in the AI life
+(56:35) - Goodbye
+(57:23) - Outro</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog/">The GitHub Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to build an enterprise LLM application: Lessons from GitHub Copilot</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>The team behind GitHub Copilot shares its lessons for building an LLM app that delivers value to both individuals and enterprise users at scale. 
+The post How to build an enterprise LLM application: Lessons from GitHub Copilot appeared first on The GitHub Blog.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2023-09-05">2023-09-05</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -1939,146 +2086,9 @@ The post Four tips to keep your GitHub Actions workflows secure appeared first o
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2023-08-08">2023-08-08</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://blog.google/technology/ai/">AI</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How AI is helping airlines mitigate the climate impact of contrails</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.google/technology/ai/ai-airlines-contrails-climate-change/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>We used AI to help airlines choose routes that are less likely to cause contrails, minimizing the environmental impact of flights.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://daniel.haxx.se/blog">daniel.haxx.se</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Mastering the curl command line</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://daniel.haxx.se/blog/2023/08/08/mastering-the-curl-command-line/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>For the firs time ever, I am going to present a single, very long, video class with the title shown above. This session will be streamed and recorded live on August 31, starting at 16:00 UTC (18:00 CEST, 09:00 PDT) and is expected to take about two and a half hours. Due to many uncertainties, … Continue reading Mastering the curl command line →</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://github.blog/">The GitHub Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A guide to designing and shipping AI developer tools</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2023-08-08-a-guide-to-designing-and-shipping-ai-developer-tools/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>GitHub’s design experts share 10 tips and lessons for designing magical user experiences for AI applications and AI coding tools. 
-The post A guide to designing and shipping AI developer tools appeared first on The GitHub Blog.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="http://security.googleblog.com/">Google Online Security Blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Downfall and Zenbleed: Googlers helping secure the ecosystem</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>Tavis Ormandy, Software Engineer and Daniel Moghimi, Senior Research Scientist
-
-
-
-
-Finding and mitigating security vulnerabilities is critical to keeping Internet users safe.  However, the more complex a system becomes, the harder it is to secure—and that is also the case with computing hardware and processors, which have developed highly advanced capabilities over the years. This post will detail this trend by exploring Downfall and Zenbleed, two new security vulnerabilities (one of which was disclosed today) that prior to mitigation had the potential to affect billions of personal and cloud computers, signifying the importance of vulnerability research and cross-industry collaboration. Had these vulnerabilities not been discovered by Google researchers, and instead by adversaries, they w…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Android 14 introduces first-of-its-kind cellular connectivity security features</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2023/08/android-14-introduces-first-of-its-kind.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Posted by Roger Piqueras Jover, Yomna Nasser, and Sudhi Herle
-
-
-Android is the first mobile operating system to introduce advanced cellular security mitigations for both consumers and enterprises. Android 14 introduces support for IT administrators to disable 2G support in their managed device fleet. Android 14 also introduces a feature that disables support for null-ciphered cellular connectivity.
-
-Hardening network security on Android
-False Base Stations (FBS) and Stingrays exploit weaknesses in cellular telephony standards to cause harm to users. Additionally, a smartphone cannot reliably know the legitimacy of the cellular base station before attempting to connect to it. Attackers exploit this in a number of ways, ranging from traffic interception and malware sideloading, to sophistica…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">An update on Chrome Security updates – shipping security fixes to you faster</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://security.googleblog.com/2023/08/an-update-on-chrome-security-updates.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Posted by Amy Ressler, Chrome Security Team
-
-
-To get security fixes to you faster, starting now in Chrome 116, Chrome is shipping weekly Stable channel updates.
-
-
-Chrome ships a new milestone release every four weeks. In between those major releases, we ship updates to address security and other high impact bugs. We currently schedule one of these Stable channel updates (or “Stable Refresh”) between each milestone. Starting in Chrome 116, Stable updates will be released every week between milestones.
-
-
-This should not change how you use or update Chrome, nor is the frequency of milestone releases changing, but it does mean security fixes will get to you faster.
-
-Reducing the Patch Gap
-Chromium is the open source project which powers Chrome and many other browsers. Anyone can view the sourc…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://hacks.mozilla.org/">Mozilla Hacks – the Web developer blog</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Autogenerating Rust-JS bindings with UniFFI</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://hacks.mozilla.org/2023/08/autogenerating-rust-js-bindings-with-uniffi/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>This blog post will walk through how we developed UniFFI: a Rust library for auto-generating foreign language bindings. We will walk through some of the issues that arose along the way and how we handled them.
-The post Autogenerating Rust-JS bindings with UniFFI appeared first on Mozilla Hacks - the Web developer blog.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2023-09-06T12:03:04.692Z">2023-09-06T12:03:04.692Z</time>
+    <time id="build-timestamp" datetime="2023-09-07T12:03:33.353Z">2023-09-07T12:03:33.353Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
