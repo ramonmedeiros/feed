@@ -22,15 +22,6 @@
           "publishedOn": "2023-08-16T17:02:00.002Z",
           "wordCount": 3629,
           "title": "AI-Powered Fuzzing: Breaking the Bug Hunting Barrier"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/08/toward-quantum-resilient-security-keys.html",
-          "author": null,
-          "description": "Elie Bursztein, cybersecurity and AI research director, Fabian Kaczmarczyck, software engineer\n\n\n\n\nAs part of our effort to deploy quantum resistant cryptography, we are happy to announce the release of the first quantum resilient FIDO2 security key implementation as part of OpenSK, our open source security key firmware. This open-source hardware optimized implementation uses a novel ECC/Dilithium hybrid signature schema that benefits from the security of ECC against standard attacks and Dilithium’s resilience against quantum attacks. This schema was co-developed in partnership with the ETH Zürich and won the ACNS secure cryptographic implementation workshop best paper.\n\n\n\n\n\n\nQuantum processor\n\n\n\n\n\nAs progress toward practical quantum computers is accelerating, preparing for their advent i…",
-          "link": "http://security.googleblog.com/2023/08/toward-quantum-resilient-security-keys.html",
-          "publishedOn": "2023-08-15T21:57:00.002Z",
-          "wordCount": 1872,
-          "title": "Toward Quantum Resilient Security Keys"
         }
       ]
     },
@@ -64,6 +55,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2192",
+          "author": null,
+          "description": "This week we’re joined by Haroon Meer from Thinkst — the makers of Canary and Canary Tokens. Haroon walks us through a network getting compromised, what it takes to deploy a Canary on your network, how they maintain low false-positive numbers, their thoughts and principles on building their business (major wisdom shared!), and how a Canary helps surface network attacks in real time.\nLeave us a comment\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nStatsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature flags, experimentation, and analytics. Our listeners get free white-glove onboarding, migration support, and 5 m…",
+          "link": "https://changelog.com/podcast/557",
+          "publishedOn": "2023-09-13T22:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 557: Attack of the Canaries!",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/557/the-changelog-557.mp3",
+            "length": "99627804",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/2175",
+          "author": null,
+          "description": "Go’s known for it’s fantastic standard library, but there are some places where the libraries can be challenging to use. The html/template package is one of those places. So what alternatives do we have? On today’s episode we’re talking about Templ, an HTML templating language for Go that has great developer tooling. Co-hosts Kris Brandow and Jon Calhoun are joined by Adrian Hesketh, the creator of Templ, and Joe Davidson, one of the maintainers on the project.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n…",
+          "link": "https://changelog.com/gotime/291",
+          "publishedOn": "2023-09-13T15:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 291: Go templating using Templ",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/291/go-time-291.mp3",
+            "length": "63512268",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/16/2207",
           "author": null,
@@ -388,6 +409,15 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/technology/ai/google-data-commons-ai/",
+          "author": null,
+          "description": "A look at Data Commons, Google’s initiative to make publicly available data more useful for people working on solutions to societal challenges.",
+          "link": "https://blog.google/technology/ai/google-data-commons-ai/",
+          "publishedOn": "2023-09-13T16:00:00.000Z",
+          "wordCount": 1805,
+          "title": "Data Commons is using AI to make the world’s public data more accessible and helpful"
+        },
+        {
           "id": "https://blog.google/outreach-initiatives/google-org/httpsbloggoogleoutreach-initiativesgoogle-orgunited-nations-global-goals-google-ai-/",
           "author": null,
           "description": "Google.org is funding 15 projects that will use AI to make progress on the UN’s Sustainable Development Goals.",
@@ -431,15 +461,6 @@
           "publishedOn": "2023-08-29T12:00:00.000Z",
           "wordCount": 1427,
           "title": "How 3 healthcare organizations are using generative AI"
-        },
-        {
-          "id": "https://blog.google/products/search/google-search-generative-ai-learning-features/",
-          "author": null,
-          "description": "New updates to Search Generative Experience (SGE) help people easily learn new things and understand key concepts while searching online.",
-          "link": "https://blog.google/products/search/google-search-generative-ai-learning-features/",
-          "publishedOn": "2023-08-15T16:00:00.000Z",
-          "wordCount": 1402,
-          "title": "Learn as you search (and browse) using generative AI"
         }
       ]
     },
@@ -483,15 +504,6 @@
           "publishedOn": "2023-08-25T22:34:58.000Z",
           "wordCount": 1310,
           "title": "CVE-2020-19909 is everything that is wrong with CVEs"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22890",
-          "author": "Daniel Stenberg",
-          "description": "I have the birthday of curl remembered and I often repeat that it was started on March 20 1998. But that’s just the first time we shipped a version of the tool using the name curl. The tool, the code and the idea started before. httpget Back in November 1996 I found the tool httpget … Continue reading changes from before it was curl →",
-          "link": "https://daniel.haxx.se/blog/2023/08/15/changes-from-before-it-was-curl/",
-          "publishedOn": "2023-08-15T06:29:44.000Z",
-          "wordCount": 878,
-          "title": "changes from before it was curl"
         }
       ]
     },
@@ -500,6 +512,15 @@
       "feedUrl": "https://blog.twitter.com/engineering/en_us/blog.rss",
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
+          "author": null,
+          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
+          "publishedOn": "2023-09-14T12:02:46.700Z",
+          "wordCount": 1126,
+          "title": "The data platform cluster operator service for Hadoop cluster management"
+        },
         {
           "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
           "author": null,
@@ -571,15 +592,6 @@
           "publishedOn": "2023-08-21T12:02:35.634Z",
           "wordCount": 1698,
           "title": "Stability and scalability for search"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "publishedOn": "2023-08-15T12:02:30.055Z",
-          "wordCount": 994,
-          "title": "How Twitter uses rasdaemon for hardware reliability"
         }
       ]
     },
@@ -610,6 +622,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74067",
+          "author": "Jakub Oleksy",
+          "description": "In August, we experienced two incidents that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: August 2023 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-09-13-github-availability-report-august-2023/",
+          "publishedOn": "2023-09-13T19:00:20.000Z",
+          "wordCount": 789,
+          "title": "GitHub Availability Report: August 2023"
+        },
+        {
+          "id": "https://github.blog/?p=74051",
+          "author": "Camaley Jennings",
+          "description": "As part of our ongoing commitment to accelerate human progress through Social Impact initiatives, we’re offering students 30-minute, 1:1 micro-mentoring sessions with GitHub employees ahead of Universe.\nThe post Apply now for GitHub Universe 2023 micro-mentoring appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-09-13-apply-now-for-github-universe-2023-micro-mentoring/",
+          "publishedOn": "2023-09-13T16:00:31.000Z",
+          "wordCount": 671,
+          "title": "Apply now for GitHub Universe 2023 micro-mentoring"
+        },
         {
           "id": "https://github.blog/?p=74030",
           "author": "Walker Chabbott",
@@ -726,33 +756,6 @@
           "publishedOn": "2023-08-17T21:22:26.000Z",
           "wordCount": 3603,
           "title": "mTLS: When certificate authentication is done wrong"
-        },
-        {
-          "id": "https://github.blog/?p=73688",
-          "author": "Jeimy Ruiz",
-          "description": "Get tickets to our global developer and customer event for 30% off during our Super-Early Bird special, only for a limited time. \nThe post Build for today, transform for tomorrow at GitHub Universe 2023 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-08-15-build-for-today-transform-for-tomorrow-at-github-universe-2023/",
-          "publishedOn": "2023-08-15T19:04:09.000Z",
-          "wordCount": 1276,
-          "title": "Build for today, transform for tomorrow at GitHub Universe 2023"
-        },
-        {
-          "id": "https://github.blog/?p=73630",
-          "author": "Michelle Mannering",
-          "description": "After the last Release Radar, I promised the next one wouldn’t be far away, so here it is. This is the low down on some of the best open source projects that shipped major version updates in July. There’s lots of cool stuff from natural language processing, to APIs, money, and SDKs. I won’t spoil […]\nThe post Release Radar · July 2023 Edition appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-08-15-release-radar-jul-23/",
-          "publishedOn": "2023-08-15T18:00:52.000Z",
-          "wordCount": 1648,
-          "title": "Release Radar · July 2023 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=73675",
-          "author": "Matthew Masarik",
-          "description": "Some best practices and important defenses to prevent common attacks against GitHub Actions that are enabled by stolen personal access tokens, compromised accounts, or compromised GitHub sessions.\nThe post Hardening repositories against credential theft appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-08-15-hardening-repositories-against-credential-theft/",
-          "publishedOn": "2023-08-15T16:00:49.000Z",
-          "wordCount": 947,
-          "title": "Hardening repositories against credential theft"
         }
       ]
     },
@@ -761,6 +764,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=21356",
+          "author": "Nubank Editorial",
+          "description": "Let's delve into the journeys of three Nubankers who embody our core values every step of the way.\nThe post NuStories: embracing transitions to own your career journey appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nustories-embracing-transitions-to-own-your-career-journey/",
+          "publishedOn": "2023-09-13T13:41:51.000Z",
+          "wordCount": 3888,
+          "title": "NuStories: embracing transitions to own your career journey"
+        },
         {
           "id": "https://building.nubank.com.br/?p=21313",
           "author": "Felipe Almeida - Machine Learning Engineer",
