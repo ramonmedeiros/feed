@@ -13,15 +13,6 @@
           "publishedOn": "2023-08-29T16:06:00.003Z",
           "wordCount": 2696,
           "title": "Android Goes All-in on Fuzzing"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html",
-          "author": null,
-          "description": "Dongge Liu, Jonathan Metzman, Oliver Chang, Google Open Source Security Team \n\n\n\n\nSince 2016, OSS-Fuzz has been at the forefront of automated vulnerability discovery for open source projects. Vulnerability discovery is an important part of keeping software supply chains secure, so our team is constantly working to improve OSS-Fuzz. For the last few months, we’ve tested whether we could boost OSS-Fuzz’s performance using Google’s Large Language Models (LLM). \n\n\n\n\n\nThis blog post shares our experience of successfully applying the generative power of LLMs to improve the automated vulnerability detection technique known as fuzz testing (“fuzzing”). By using LLMs, we’re able to increase the code coverage for critical projects using our OSS-Fuzz service without manually writing additional code. …",
-          "link": "http://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html",
-          "publishedOn": "2023-08-16T17:02:00.002Z",
-          "wordCount": 3629,
-          "title": "AI-Powered Fuzzing: Breaking the Bug Hunting Barrier"
         }
       ]
     },
@@ -55,6 +46,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/2208",
+          "author": null,
+          "description": "Love it or hate it, TypeScript is here to stay for the foreseeable future.  But, what happens when widely adopted packages go completely Type free or remove TypeScript in favor of JS with type annotations? Join us to unpack these recent events with Rich Harris, creator of Svelte, as he walks us through the nuanced decision his team made for the Svelte project, and ofc, lots of laughs along the way.\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nConvex – Convex is a better type of backend — the full-stack TypeScript development platform that lets you replace your database, server functions, and glue code. Get started at convex.dev\n\nCaisy – Caisy is the headless CMS that gives developers endless possibilities. L…",
+          "link": "https://changelog.com/jsparty/292",
+          "publishedOn": "2023-09-14T17:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 292: Type War (what is it good for?)",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/292/js-party-292.mp3",
+            "length": "67735020",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/1/2192",
           "author": null,
@@ -513,6 +519,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
+          "publishedOn": "2023-09-15T12:02:33.222Z",
+          "wordCount": 1016,
+          "title": "How Twitter uses rasdaemon for hardware reliability"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
           "author": null,
           "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
@@ -622,6 +637,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74069",
+          "author": "Erin Havens",
+          "description": "Make quick work of alerts with preset and custom rules.\nThe post Introducing auto-triage rules for Dependabot appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-09-14-introducing-auto-triage-rules-for-dependabot/",
+          "publishedOn": "2023-09-14T17:34:10.000Z",
+          "wordCount": 1151,
+          "title": "Introducing auto-triage rules for Dependabot"
+        },
         {
           "id": "https://github.blog/?p=74067",
           "author": "Jakub Oleksy",
@@ -808,6 +832,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/thought-leadership/aws-podcast-ethical-hacking-cybersecurity",
+          "author": "Marten Mickos",
+          "description": "HackerOne CEO Marten Mickos joins the Amazon Web Services podcast, Conversations With Leaders.",
+          "link": "https://www.hackerone.com/thought-leadership/aws-podcast-ethical-hacking-cybersecurity",
+          "publishedOn": "2023-09-12T16:11:00.000Z",
+          "wordCount": 1632,
+          "title": "Ethical Hacking: Unveiling the Power of Hacking for Good in Cybersecurity"
+        },
+        {
           "id": "https://hackerone.com/thought-leadership/generative-ai-cybersecurity-hacker-perspective",
           "author": "Michiel Prins",
           "description": "HackerOne spoken with several experienced hackers in the space to get their perspectives on the most important considerations for Generative AI and cybersecurity.",
@@ -815,6 +848,15 @@
           "publishedOn": "2023-09-07T17:10:24.000Z",
           "wordCount": 1636,
           "title": "The Hacker Perspective on Generative AI and Cybersecurity"
+        },
+        {
+          "id": "https://hackerone.com/penetration-testing/youre-doing-pentesting-wrong",
+          "author": "Spencer Chin",
+          "description": "Leveraging the power of the pentester community and the efficiency of a Pentest as a Service (PTaaS) platform, pentesting can add real value to your organization.",
+          "link": "https://www.hackerone.com/penetration-testing/youre-doing-pentesting-wrong",
+          "publishedOn": "2023-08-31T16:42:04.000Z",
+          "wordCount": 1896,
+          "title": "You're Doing Pentesting Wrong"
         },
         {
           "id": "https://hackerone.com/youre-doing-pentesting-wrong",
@@ -867,15 +909,6 @@
           "publishedOn": "2023-08-17T22:07:14.000Z",
           "wordCount": 2427,
           "title": "AVA Discovery View: Surfacing Authentic Moments"
-        },
-        {
-          "id": "https://medium.com/p/2feb273a3598",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-08-16T17:55:48.000Z",
-          "wordCount": null,
-          "title": "Curbing Connection Churn in Zuul"
         }
       ]
     },
