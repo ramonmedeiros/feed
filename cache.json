@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html",
+          "author": null,
+          "description": "Jess McClintock and John Dethridge, Google Open Source Security Team, and Damien Miller, Enterprise Infrastructure Protection Team\n\n\n\n\n\n\nWhen you import a third party library, do you review every line of code? Most software packages depend on external libraries, trusting that those packages aren’t doing anything unexpected. If that trust is violated, the consequences can be huge—regardless of whether the package is malicious, or well-intended but using overly broad permissions, such as with Log4j in 2021. Supply chain security is a growing issue, and we hope that greater transparency into package capabilities will help make secure coding easier for everyone.\n\n\n\n\n\nAvoiding bad dependencies can be hard without appropriate information on what the dependency’s code actually does, and reviewing…",
+          "link": "http://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html",
+          "publishedOn": "2023-09-15T18:10:00.002Z",
+          "wordCount": 2632,
+          "title": "Capslock: What is your code really capable of?"
+        },
+        {
           "id": "http://security.googleblog.com/2023/08/android-goes-all-in-on-fuzzing.html",
           "author": null,
           "description": "Posted by Hamzeh Zawawy and Jon Bottarini, Android Security\n\n\nFuzzing is an effective technique for finding software vulnerabilities. Over the past few years Android has been focused on improving the effectiveness, scope, and convenience of fuzzing across the organization. This effort has directly resulted in improved test coverage, fewer security/stability bugs, and higher code quality. Our implementation of continuous fuzzing allows software teams to find new bugs/vulnerabilities, and prevent regressions automatically without having to manually initiate fuzzing runs themselves. This post recounts a brief history of fuzzing on Android, shares how Google performs fuzzing at scale, and documents our experience, challenges, and success in building an infrastructure for automating fuzzing acr…",
@@ -46,6 +55,31 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/17/2185",
+          "author": null,
+          "description": "A hoy hoy! Our old friend Nick Nisi does his best to bring up TypeScript, Vim & Tmux as many times as possible while we discuss a new batch of web browsers, justify why we like the ones we do & try to figure out what it’d take to disrupt the status quo of Big Browser.\nLeave us a comment\nChangelog++ members get a bonus 8 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nStatsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature flags, experimentation, and analytics. Our listeners get free white-glove onboarding, migration support, and 5 million free events per month.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital exper…",
+          "link": "https://changelog.com/friends/14",
+          "publishedOn": "2023-09-15T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 14: What do we want from a web browser?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/14/changelog--friends-14.mp3",
+            "length": "100576836",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/posts/2619",
+          "author": "Jerod Santo",
+          "description": "The LAST Strange Loop conference is right around the corner!\nThe conference has accumulated 673 videos on its YouTube channel, which means there’s gold in them hills, but finding the gold might consume some of your precious time. Good news!\nI was hanging out in the conference’s Slack when someone asked:\nWhat are some of y’all’s favorite past Strange Loop talks? As someone who knows the conf by reputation but hasn’t been before, I’m curious what some of your favorites are!\nA barrage of YouTube links followed, so I scooped them up to share here so everyone can enjoy these golden Strange Loop talks ✨\n🎥 Stop Writing Dead Programs by Jack Rusher (2022)\nMost new programming languages are accidentally designed to be backwards compatible with punchcards. This talk argues that it would be better t…",
+          "link": "https://changelog.com/posts/strange-loops-greatest-hits",
+          "publishedOn": "2023-09-15T12:12:43.000Z",
+          "wordCount": null,
+          "title": "Strange Loop's greatest hits",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/6/2208",
           "author": null,
@@ -368,36 +402,6 @@
           "enclosure": {
             "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/11/changelog--friends-11.mp3",
             "length": "78915919",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/2174",
-          "author": null,
-          "description": "Jim (Hyphen) Nielsen joins Jerod & Nick for a fun conversation about language-level toll roads, when (and how) to quit, the stratification of social networking & the state of the world in publishing your thoughts on the internet.\nLeave us a comment\nChangelog++ members get a bonus 13 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nJim Nielsen – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNick Nisi – Twitter, GitHub, Website\n\nShow Notes:\n\nLanguage-Level Toll Roads\nThe Art of Knowing When to Quit\nMetalsmith\nGorilla is back\nSubscribe Wherever You Get Your Content\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:55) - Hello, hello\n(02:04) - Welcoming Jim to the show\n(05:15) - The trough of AI disillusionment\n(06:19) - The Thing of the Moment\n(07:25) - Language-level Toll Roads\n(22:15) - The art of knowing when to quit\n(30:24) - Shout out to Metalsmith\n(32:17) - But HOW do you quit?\n(38:22) - Stratification of social networking\n(43:49) - A podcaster's perspective\n(53:13) - On Mastodon\n(57:25) - RSS *is* the indie social web\n(1:01:33) - Closing time\n(1:03:05) - Next up on the pod (Changelog++!)",
-          "link": "https://changelog.com/jsparty/288",
-          "publishedOn": "2023-08-17T20:45:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 288: Refined thinking",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/288/js-party-288.mp3",
-            "length": "62414589",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/1/2178",
-          "author": null,
-          "description": "This week we’re talking with Jonathan Carter who’s on his fourth term as Debian Project Lead (DPL) and we’re talking about 30 years of Debian!\nLeave us a comment\nChangelog++ members get a bonus 12 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Watch Lazar Nikolov livestream on YouTube at youtube.com/@nikolovlazar. Use the code CHANGELOGMEDIA and get the team plan FREE for six (6) months.\n\nTailscale – Simple, secure networks for teams of any scale. Built on WireGuard.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. …",
-          "link": "https://changelog.com/podcast/553",
-          "publishedOn": "2023-08-17T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 553: 30 years of Debian",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/553/the-changelog-553.mp3",
-            "length": "87775587",
             "type": "audio/mpeg"
           }
         }
@@ -771,15 +775,6 @@
           "publishedOn": "2023-08-21T17:45:07.000Z",
           "wordCount": 3438,
           "title": "Highlights from Git 2.42"
-        },
-        {
-          "id": "https://github.blog/?p=73738",
-          "author": "Michael Stepankin",
-          "description": "In this post, we'll deep dive into some interesting attacks on mTLS authentication. We'll have a look at implementation vulnerabilities and how developers can make their mTLS systems vulnerable to user impersonation, privilege escalation, and information leakages.\nThe post mTLS: When certificate authentication is done wrong appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-08-17-mtls-when-certificate-authentication-is-done-wrong/",
-          "publishedOn": "2023-08-17T21:22:26.000Z",
-          "wordCount": 3603,
-          "title": "mTLS: When certificate authentication is done wrong"
         }
       ]
     },
@@ -875,15 +870,6 @@
           "publishedOn": "2023-08-28T16:57:07.000Z",
           "wordCount": 1433,
           "title": "VDPs Are Good For the Government — and Good For Business"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/ethical-hackers-help-ciso-budget",
-          "author": "HackerOne",
-          "description": "Security leaders are using ethical hackers to help address strains and challenges in their security programs.",
-          "link": "https://www.hackerone.com/vulnerability-management/ethical-hackers-help-ciso-budget",
-          "publishedOn": "2023-08-17T16:00:00.000Z",
-          "wordCount": 1644,
-          "title": "How Ethical Hackers Are Helping Security Leaders Navigate the Budget Crunch"
         }
       ]
     },
@@ -900,15 +886,6 @@
           "publishedOn": "2023-08-29T23:08:45.000Z",
           "wordCount": 2376,
           "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery"
-        },
-        {
-          "id": "https://medium.com/p/b8cd145491cc",
-          "author": "Netflix Technology Blog",
-          "description": "By: Hamid Shahid, Laura Johnson, Tiffany Low",
-          "link": "https://netflixtechblog.com/ava-discovery-view-surfacing-authentic-moments-b8cd145491cc?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-08-17T22:07:14.000Z",
-          "wordCount": 2427,
-          "title": "AVA Discovery View: Surfacing Authentic Moments"
         }
       ]
     },
