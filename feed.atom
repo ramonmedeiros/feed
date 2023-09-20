@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-17T12:03:09.015Z</updated>
+    <updated>2023-09-20T12:02:53.210Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Analyzing a Modern In-the-wild Android Exploit]]></title>
+        <id>https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html</id>
+        <link href="https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html"/>
+        <updated>2023-09-19T16:01:00.001Z</updated>
+        <summary type="html"><![CDATA[By Seth Jenkins, Project Zero
+
+Introduction
+
+In December 2022, Google’s Threat Analysis Group (TAG) discovered an in-the-wild exploit chain targeting Samsung Android devices. TAG’s blog post covers the targeting and the actor behind the campaign. This is a technical analysis of the final stage of one of the exploit chains, specifically CVE-2023-0266 (a 0-day in the ALSA compatibility layer) and CVE-2023-26083 (a 0-day in the Mali GPU driver) as well as the techniques used by the attacker to gain kernel arbitrary read/write access.
+
+Notably, all of the previous stages of the exploit chain used n-day vulnerabilities:
+
+
+CVE-2022-4262, a vulnerability patched in Chrome that was unpatched in the Samsung browser (i.e. a "Chrome n-day"), was used to achieve RCE.
+
+
+CVE-2022-3038, another Chrome n-…]]></summary>
+        <author>
+            <name>Project Zero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using data and AI to track progress toward the UN Global Goals]]></title>
+        <id>https://blog.google/technology/ai/google-ai-data-un-global-goals/</id>
+        <link href="https://blog.google/technology/ai/google-ai-data-un-global-goals/"/>
+        <updated>2023-09-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Data Commons works with the UN and ONE to track progress toward the SDGs.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News 62: Death by a thousand microservices]]></title>
+        <id>changelog.com/16/2214</id>
+        <link href="https://changelog.com/news/62"/>
+        <updated>2023-09-18T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Andrei Taranchenko says the software industry is learning once again that complexity kills, Casey Muratori outlines a long list of Unity alternatives, Filip Szkandera builds a functioning (macro) processor for RISC-V & Matt Basta tells the tale of the time he built a web-based Excel clone inside Uber only to have it discarded a week later.
+Leave us a comment
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Sponsors:
+
+  
+Sentry – Learn the basics of frontend application performance monitoring with Sentry in this upcoming livestream. Sign up here.
+
+
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
+Something missing or broken? PRs welcome!
+Timestamps:
+(00:44) - Death by a thousand microservices
+(02:25) - Game development post-Unity
+(03:34) - Sponsor: Sentry
+(04:26) - Pineapple ONE
+(05:52) - No sacred masterpieces
+(06:59) - Pagefind
+(08:07) - Outro]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Switching from Bitbucket Server and Bamboo to GitHub just got easier]]></title>
+        <id>https://github.blog/?p=74107</id>
+        <link href="https://github.blog/2023-09-18-switching-from-bitbucket-server-and-bamboo-to-github-just-got-easier/"/>
+        <updated>2023-09-18T16:00:22.000Z</updated>
+        <summary type="html"><![CDATA[Starting today, GitHub Enterprise Importer supports repository migrations from Bitbucket Server and Bitbucket Data Center, and GitHub Actions Importer offers CI/CD migrations from Bitbucket and Bamboo.
+The post Switching from Bitbucket Server and Bamboo to GitHub just got easier appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Melody Mileski</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog & Friends 14: What do we want from a web browser?]]></title>
         <id>changelog.com/17/2185</id>
@@ -1221,60 +1297,6 @@ If so, it probably left you scratching your head. Why is the reviewer asking thi
 Be kind! People are more…]]></summary>
         <author>
             <name>Google Testing Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 58: All your CAPTCHAs are belong to bots]]></title>
-        <id>changelog.com/16/2183</id>
-        <link href="https://changelog.com/news/58"/>
-        <updated>2023-08-21T19:45:00.000Z</updated>
-        <summary type="html"><![CDATA[New research shows that CAPTCHAs are now utterly useless, hundreds of concerned technologists signed the OpenTF Manifesto to keep Terraform open source forever, Josh Collinsworth writes down all the things you forgot (or never knew) because of React, Mike Seidle shared some quick-but-powerful advice on building new software features & Erlend Sogge Heggen urges new open source projects to join the Fediverse (by way of Mastodon).
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors:
-
-  
-Sentry – On September 7th, Sentry is hosting a discussion with the CEOs of three SaaS companies that adopt an open source strategy for their core product. Register to attend right here.
-
-
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
-Something missing or broken? PRs welcome!
-Timestamps:
-(01:09) - CAPTCHAs are now utterly useless
-(02:10) - The OpenTF Manifesto
-(03:06) - Things you forgot (or never knew) because of React
-(04:53) - Sponsor: Sentry
-(05:44) - Work, Like, Love
-(06:31) - Greenfield OSS projects should join Mastodon
-(07:37) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Highlights from Git 2.42]]></title>
-        <id>https://github.blog/?p=73759</id>
-        <link href="https://github.blog/2023-08-21-highlights-from-git-2-42/"/>
-        <updated>2023-08-21T17:45:07.000Z</updated>
-        <summary type="html"><![CDATA[Another new release of Git is here! Take a look at some of our highlights on what's new in Git 2.42.
-The post Highlights from Git 2.42 appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Taylor Blau</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stability and scalability for search]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search"/>
-        <updated>2023-08-21T12:02:35.634Z</updated>
-        <summary type="html"><![CDATA[In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>
