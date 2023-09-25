@@ -40,6 +40,24 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2023/09/communicate-design-tradeoffs-visually.html",
+          "author": null,
+          "description": "A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\n\nBy Tim Lyakhovetskiy\n\n\n\n\n\nA goal of any written design or project proposal is to present and evaluate alternatives. However, documents that include multiple solutions can be difficult to read when the qualities of each solution are not clearly expressed.\nA common approach to simplifying proposals is to use “pros and cons” for each alternative, but this leads to biased writing since the pros and cons may be weighed differently depending on the reader’s priorities.\nIn this example, can you quickly tell how this option would measure up against others?\n\n\n\nOption 1 - Optimize Shoelace Untangling Wizard in Sh…",
+          "link": "http://testing.googleblog.com/2023/09/communicate-design-tradeoffs-visually.html",
+          "publishedOn": "2023-09-21T12:28:00.001Z",
+          "wordCount": 3174,
+          "title": "Communicate Design Tradeoffs Visually"
+        },
+        {
+          "id": "http://testing.googleblog.com/2023/09/else-nuances.html",
+          "author": null,
+          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\nBy Sam Lee and Stan Chan\n\nIf your function exits early in an if statement, using or not using an else clause is equivalent in terms of behavior. However, the proper use of else clauses and guard clauses (lack of else) can help emphasize the intent of the code to the reader.\nConsider the following guidelines to help you structure your functions:\n\nUse a guard clause to handle special cases upfront, so that the rest of the code can focus\non the core logic. A guard clause checks a criterion and fails fast or returns early if it is not\nmet, which reduces nesting …",
+          "link": "http://testing.googleblog.com/2023/09/else-nuances.html",
+          "publishedOn": "2023-09-13T14:51:00.008Z",
+          "wordCount": 3829,
+          "title": "Else Nuances"
+        },
+        {
           "id": "http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html",
           "author": null,
           "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Palak Bansal and Mark Manley\n\n\n Which version of the createPizza function below is easier to understand?\n\n\n\nfunc createPizza(order *Order) *Pizza {  \n  pizza := &Pizza{Base: order.Size,\n                  Sauce: order.Sauce,\n                  Cheese: “Mozzarella”}\n\n  if order.kind == “Veg” {\n    pizza.Toppings = vegToppings\n  } else if order.kind == “Meat” {\n    pizza.Toppings = meatToppings\n  }\n\n  oven := oven.New()\n  if oven.Temp != cookingTemp { \n    for (oven.Temp < cookingTemp) {\n      time.Sleep(checkOvenInterval)\n      oven.Temp = getOvenTemp(oven)…",

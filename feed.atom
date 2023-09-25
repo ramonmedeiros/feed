@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-24T12:02:42.000Z</updated>
+    <updated>2023-09-25T12:03:02.793Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
@@ -102,6 +102,32 @@ Quickly ramp up engineers: It is hard to take people away from their regul…]]>
 The post Announcing the GitHub Innovation Graph appeared first on The GitHub Blog.]]></summary>
         <author>
             <name>Mike Linksvayer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Communicate Design Tradeoffs Visually]]></title>
+        <id>http://testing.googleblog.com/2023/09/communicate-design-tradeoffs-visually.html</id>
+        <link href="http://testing.googleblog.com/2023/09/communicate-design-tradeoffs-visually.html"/>
+        <updated>2023-09-21T12:28:00.001Z</updated>
+        <summary type="html"><![CDATA[A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+
+
+By Tim Lyakhovetskiy
+
+
+
+
+
+A goal of any written design or project proposal is to present and evaluate alternatives. However, documents that include multiple solutions can be difficult to read when the qualities of each solution are not clearly expressed.
+A common approach to simplifying proposals is to use “pros and cons” for each alternative, but this leads to biased writing since the pros and cons may be weighed differently depending on the reader’s priorities.
+In this example, can you quickly tell how this option would measure up against others?
+
+
+
+Option 1 - Optimize Shoelace Untangling Wizard in Sh…]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
         </author>
     </entry>
     <entry>
@@ -453,6 +479,25 @@ Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digi
 …]]></summary>
         <author>
             <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Else Nuances]]></title>
+        <id>http://testing.googleblog.com/2023/09/else-nuances.html</id>
+        <link href="http://testing.googleblog.com/2023/09/else-nuances.html"/>
+        <updated>2023-09-13T14:51:00.008Z</updated>
+        <summary type="html"><![CDATA[This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+By Sam Lee and Stan Chan
+
+If your function exits early in an if statement, using or not using an else clause is equivalent in terms of behavior. However, the proper use of else clauses and guard clauses (lack of else) can help emphasize the intent of the code to the reader.
+Consider the following guidelines to help you structure your functions:
+
+Use a guard clause to handle special cases upfront, so that the rest of the code can focus
+on the core logic. A guard clause checks a criterion and fails fast or returns early if it is not
+met, which reduces nesting …]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
         </author>
     </entry>
     <entry>
