@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/09/sms-security-privacy-gaps-make-it-clear.html",
+          "author": null,
+          "description": "Posted by Eugene Liderman and Roger Piqueras Jover \n\n\nSMS texting is frozen in time.\n\n\nPeople still use and rely on trillions of SMS texts each year to exchange messages with friends, share family photos, and copy two-factor authentication codes to access sensitive data in their bank accounts. It’s hard to believe that at a time where technologies like AI are transforming our world, a forty-year old mobile messaging standard is still so prevalent.\n\n\nLike any forty-year-old technology, SMS is antiquated compared to its modern counterparts. That’s especially concerning when it comes to security.\n\n\nThe World Has Changed, But SMS Hasn’t Changed With It\n\n\nAccording to a recent whitepaper from Dekra, a safety certifications and testing lab, the security shortcomings of SMS can notably lead to: \n…",
+          "link": "http://security.googleblog.com/2023/09/sms-security-privacy-gaps-make-it-clear.html",
+          "publishedOn": "2023-09-27T16:50:00.003Z",
+          "wordCount": 1205,
+          "title": "SMS Security & Privacy Gaps Make It Clear Users Need a Messaging Upgrade"
+        },
+        {
           "id": "http://security.googleblog.com/2023/09/scaling-rust-adoption-through-training.html",
           "author": null,
           "description": "Posted by Martin Geisler, Android team\n\n\n\nAndroid 14 is the third major Android release with Rust support. We are already seeing a number of benefits:\n\n\n\nProductivity: Developers quickly feel productive writing Rust. They report important indicators of development velocity, such as confidence in the code quality and ease of code review.\n\nSecurity: There has been a reduction in memory safety vulnerabilities as we shift more development to memory safe languages.\n\n\n\nThese positive early results provided an enticing motivation to increase the speed and scope of Rust adoption. We hoped to accomplish this by investing heavily in training to expand from the early adopters.\n\nScaling up from Early Adopters\nTraining Engineers\nQuickly ramp up engineers: It is hard to take people away from their regul…",
@@ -22,15 +31,6 @@
           "publishedOn": "2023-09-15T18:10:00.002Z",
           "wordCount": 2632,
           "title": "Capslock: What is your code really capable of?"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/08/android-goes-all-in-on-fuzzing.html",
-          "author": null,
-          "description": "Posted by Hamzeh Zawawy and Jon Bottarini, Android Security\n\n\nFuzzing is an effective technique for finding software vulnerabilities. Over the past few years Android has been focused on improving the effectiveness, scope, and convenience of fuzzing across the organization. This effort has directly resulted in improved test coverage, fewer security/stability bugs, and higher code quality. Our implementation of continuous fuzzing allows software teams to find new bugs/vulnerabilities, and prevent regressions automatically without having to manually initiate fuzzing runs themselves. This post recounts a brief history of fuzzing on Android, shares how Google performs fuzzing at scale, and documents our experience, challenges, and success in building an infrastructure for automating fuzzing acr…",
-          "link": "http://security.googleblog.com/2023/08/android-goes-all-in-on-fuzzing.html",
-          "publishedOn": "2023-08-29T16:06:00.003Z",
-          "wordCount": 2696,
-          "title": "Android Goes All-in on Fuzzing"
         }
       ]
     },
@@ -73,6 +73,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2220",
+          "author": null,
+          "description": "This week on The Changelog we’re taking you to the hallway track of the final Strange Loop conference. First up is AnnMarie Thomas — an engineering, business, and education professor. AnnMarie gave one of the opening keynotes titled “Playing with Engineering.” We also caught up with many first-time and multi-time attendees who shared their favorite moments from Strange Loop over the years. You’ll hear from Richard Feldman, Colin Dean, and Taylor Troesch. Last up we talk with Pokey Rule. He gave a talk about his project called Cursorless which is a spoken language for structural code editing.\nChangelog++ subscribers get a super extended version of this episode which includes everything we recorded at Strange Loop. Become a Changelog++ subscriber\nLeave us a comment\nChangelog++ members get a …",
+          "link": "https://changelog.com/podcast/559",
+          "publishedOn": "2023-09-28T01:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 559: Vibes from Strange Loop",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/559/the-changelog-559.mp3",
+            "length": "72630751",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/2188",
+          "author": null,
+          "description": "Michael Quiqley from NetFoundry joins Natalie to discuss Zero Trust concepts, why they are important for secure systems & how to implement them in Go.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nMichael Quigley – GitHub, LinkedIn, Website\nNatalie Pistunovich – Twitter, GitHub\n\nShow Notes:\n\nBeyondCorp initiative by Google\nTor\nIstio\nNgrok\nOpenZiti and zrok\nQUIC and [quic-go](https://github.com/quic-go/quic-go  : http alternative\nbbolt (part of k8s)\nTranswarp/Dilithium - better than tcp (in some cases)\nOpenZiti Test Kitchen Repos\nOpen Source LLM: Karen The Editor\nFabLab\nzrok SDK “pastebin” example: A buffer for moving buffers between machines\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:45) - Michael Quigley\n(01:09) - Zero Trust\n(02:51) - Early adoption\n(09:59) - Go\n(14:45) - Traditional Zero Trust\n(16:53) - Misconceptions of Zero Trust\n(20:38) - Generics\n(21:24) - AI\n(28:08) - Identity and access management\n(31:33) - FabLab\n(33:01) - Good metrics\n(36:37) - Contributions\n(40:15) - Michael's favorite protocol\n(44:14) - UTP for Zero Trust\n(46:10) - Unpopular opinions!\n(46:42) - Michael's unpop\n(49:02) - Natalie's unpop\n(50:01) - Outro",
+          "link": "https://changelog.com/gotime/292",
+          "publishedOn": "2023-09-27T15:45:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 292: Zero Trust & Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/292/go-time-292.mp3",
+            "length": "49595641",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/16/2218",
           "author": null,
@@ -392,21 +422,6 @@
             "length": "62827483",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2196",
-          "author": null,
-          "description": "You might have heard a lot about code generation tools using AI, but could LLMs and generative AI make our existing code better? In this episode, we sit down with Mike from TurinTech to hear about practical code optimizations using AI “translation” of slow to fast code. We learn about their process for accomplishing this task along with impressive results when automated code optimization is run on existing open source projects.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nMike Basios – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nTurinTech AI\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Code optimizing with Mike Basios\n(03:19) - Solving code\n(07:24) - The AI code ecosystem\n(10:41) - Other targets\n(12:58) - AI rephrasing?\n(15:28) - Sponsor: Changelog News\n(16:40) - State of current models\n(20:31) - Improvements to devs\n(22:31) - Managing your AI intern\n(25:09) - Custom LLM models\n(29:49) - Biggest challenges\n(33:19) - Hallucination & optimization\n(35:42) - Test chaining?\n(39:09) - LLM workflow\n(41:25) - Most exciting developments\n(43:40) - Looking forward to faster code\n(44:14) - Outro",
-          "link": "https://changelog.com/practicalai/237",
-          "publishedOn": "2023-08-29T21:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 237: Automating code optimization with LLMs",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/237/practical-ai-237.mp3",
-            "length": "43425734",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -510,15 +525,6 @@
           "publishedOn": "2023-08-30T16:00:00.000Z",
           "wordCount": 1331,
           "title": "7 ways businesses are using Google Cloud AI"
-        },
-        {
-          "id": "https://blog.google/technology/health/cloud-next-generative-ai-health/",
-          "author": null,
-          "description": "We’re introducing Google Cloud healthcare customers using Med-PaLM 2 and other generative AI solutions.",
-          "link": "https://blog.google/technology/health/cloud-next-generative-ai-health/",
-          "publishedOn": "2023-08-29T12:00:00.000Z",
-          "wordCount": 1427,
-          "title": "How 3 healthcare organizations are using generative AI"
         }
       ]
     },
@@ -691,6 +697,15 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=74315",
+          "author": "Senna Parsa",
+          "description": "GitHub Copilot Chat can help developers create prototypes, understand code, make UI changes, troubleshoot errors, make code more accessible, and generate unit tests. \nThe post How I used GitHub Copilot Chat to build a ReactJS gallery prototype appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-09-27-how-i-used-github-copilot-chat-to-build-a-reactjs-gallery-prototype/",
+          "publishedOn": "2023-09-27T16:24:25.000Z",
+          "wordCount": 2256,
+          "title": "How I used GitHub Copilot Chat to build a ReactJS gallery prototype"
+        },
+        {
           "id": "https://github.blog/?p=74251",
           "author": "Max Wagner",
           "description": "Recently, we’ve been working to make our CI experience better by leveraging the newly released GitHub feature, Actions larger runners, to run our CI. \nThe post How GitHub uses GitHub Actions and Actions larger runners to build and test GitHub.com appeared first on The GitHub Blog.",
@@ -860,15 +875,6 @@
           "publishedOn": "2023-08-30T14:00:08.000Z",
           "wordCount": 2337,
           "title": "Why Rust is the most admired language among developers"
-        },
-        {
-          "id": "https://github.blog/?p=73896",
-          "author": "David Jarzebowski",
-          "description": "Customers using GHES can now ensure secure development is a top priority with enhanced security and compliance controls for their repositories.\nThe post GitHub Enterprise Server 3.10 is now generally available appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-08-29-github-enterprise-server-3-10-is-now-generally-available/",
-          "publishedOn": "2023-08-29T18:59:00.000Z",
-          "wordCount": 1459,
-          "title": "GitHub Enterprise Server 3.10 is now generally available"
         }
       ]
     },
@@ -962,17 +968,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/ac6483b52a51",
-          "author": "Netflix Technology Blog",
-          "description": "Netflix’s service mesh adoption: history, motivations, and how we worked with the Envoy community on a feature to streamline mesh adoption",
-          "link": "https://netflixtechblog.com/zero-configuration-service-mesh-with-on-demand-cluster-discovery-ac6483b52a51?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-08-29T23:08:45.000Z",
-          "wordCount": 2376,
-          "title": "Zero Configuration Service Mesh with On-Demand Cluster Discovery"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "All Eyes on Markets",
