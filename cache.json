@@ -65,15 +65,6 @@
           "publishedOn": "2023-09-13T14:51:00.008Z",
           "wordCount": 3829,
           "title": "Else Nuances"
-        },
-        {
-          "id": "http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html",
-          "author": null,
-          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Palak Bansal and Mark Manley\n\n\n Which version of the createPizza function below is easier to understand?\n\n\n\nfunc createPizza(order *Order) *Pizza {  \n  pizza := &Pizza{Base: order.Size,\n                  Sauce: order.Sauce,\n                  Cheese: “Mozzarella”}\n\n  if order.kind == “Veg” {\n    pizza.Toppings = vegToppings\n  } else if order.kind == “Meat” {\n    pizza.Toppings = meatToppings\n  }\n\n  oven := oven.New()\n  if oven.Temp != cookingTemp { \n    for (oven.Temp < cookingTemp) {\n      time.Sleep(checkOvenInterval)\n      oven.Temp = getOvenTemp(oven)…",
-          "link": "http://testing.googleblog.com/2023/09/use-abstraction-to-improve-function.html",
-          "publishedOn": "2023-09-06T12:29:00.001Z",
-          "wordCount": 4633,
-          "title": "Use Abstraction to Improve Function Readability"
         }
       ]
     },
@@ -82,6 +73,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/2217",
+          "author": null,
+          "description": "Fresh off Bun’s big 1.0 launch, Jarred Sumner goes one-on-one with Jerod to discuss the all-in-one JavaScript runtime that’s captured the interest of many. We get into it all: what problem he’s solving, how it’s so fast, why no Windows support, answering the critics, the (not real) beef between Bun and Node, how the VC-backed startup will sustain & more.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nAppwrite – Build Fast. Scale Big. All in One Place. Appwrite is a backend platform for developing Web, Mobile, and Flutter applications. Built with the open source community and optimized for developer experience in the coding languages you love.\n\nChangelog News – A podcast+newsletter combo that’s brief, ente…",
+          "link": "https://changelog.com/jsparty/295",
+          "publishedOn": "2023-10-05T21:00:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 295: Reflecting on Bun's big launch",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/295/js-party-295.mp3",
+            "length": "52052313",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/2206",
+          "author": null,
+          "description": "This week we’re joined by Daniel Thompson, Co-founder and Core Member of Tauri. It’s been a year since we last had Daniel on the show. He catches us up on all things Tauri, their continued efforts towards Tauri 1.5 (which just released), the launch of CrabNebula and how they’re the people pushing the Tauri ecosystem forward and building on top of it, the state of Electron vs Tauri, and UI with Tauri. He even surprises us with his idea of creating a web browser.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Get $100 towards your error monitoring with Sentry! Use the code changelog.\n\n.Tech Domains – They’re giving selected startups guest spots on the biggest podcasts, conferences, and billboards i…",
+          "link": "https://changelog.com/podcast/560",
+          "publishedOn": "2023-10-05T20:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 560: Tauri’s next big move",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/560/the-changelog-560.mp3",
+            "length": "68880248",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/7/2237",
           "author": null,
@@ -386,36 +407,6 @@
             "length": "63332346",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/2190",
-          "author": null,
-          "description": "This week we’re talking about the launch of OpenTF and what it’s going to take to successfully fork HashiCorp’s Terraform. We’re joined by Josh Padnick to discuss what exactly happened, how HashiCorp’s license change changes things, who has been impacted by this change, and ultimately what they are doing about it.\nLeave us a comment\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nTailscale – Simple, secure networks for teams of any scale. Built on WireGuard.\n\nSentry – Scheduled jobs are supposed to be predictable, but sometimes, predictable != reliable. Sentry Cron Monitoring (Beta) helps you monitor the uptime and performance of any scheduled or recurring job in Sentry. Learn more by attending this FREE webinar!\n\nFastly – Our ba…",
-          "link": "https://changelog.com/podcast/556",
-          "publishedOn": "2023-09-06T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 556: OpenTF for an open Terraform",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/556/the-changelog-556.mp3",
-            "length": "79052854",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2203",
-          "author": null,
-          "description": "In this episode we welcome back our good friend Demetrios from the MLOps Community to discuss fine-tuning vs. retrieval augmented generation. Along the way, we also chat about OpenAI Enterprise, results from the MLOps Community LLM survey, and the orchestration and evaluation of generative AI workloads.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nDemetrios Brinkmann – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nMLOps Community\nLLM survey report\nLLMs in Production Event - Part III\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:43) - Practical AI & Friends\n(02:01) - Look into MLOps community\n(04:19) - Changes in the AI community\n(07:34) - Finding the norm\n(08:30) - Matching models & uses\n(11:21) - Stages of debugging\n(13:10) - Layer orchestration\n(16:26) - Practical hot takes\n(21:46) - Fine-tuning is more work\n(24:13) - Retrieval augmented generation\n(31:23) - MLOps survey\n(38:09) - The next survey\n(41:50) - Enterprise hypetrain\n(42:39) - OpenAI & your data\n(43:19) - AI vendor lock-in?\n(47:44) - Now what do we do?\n(48:58) - Hype in the AI life\n(56:35) - Goodbye\n(57:23) - Outro",
-          "link": "https://changelog.com/practicalai/238",
-          "publishedOn": "2023-09-06T12:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 238: Fine-tuning vs RAG",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/238/practical-ai-238.mp3",
-            "length": "56028494",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -535,6 +526,60 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+          "publishedOn": "2023-10-06T12:02:42.379Z",
+          "wordCount": 3441,
+          "title": "Kerberizing Hadoop Clusters at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "author": null,
+          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "publishedOn": "2023-10-06T12:02:42.357Z",
+          "wordCount": 2302,
+          "title": "Measuring the impact of Twitter network latency with CausalImpact"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "author": null,
+          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "publishedOn": "2023-10-06T12:02:42.346Z",
+          "wordCount": 2010,
+          "title": "Constraint Management for cluster operation safety and reliability at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+          "publishedOn": "2023-10-06T12:02:42.337Z",
+          "wordCount": 934,
+          "title": "How we scaled Reads On the Twitter Users Database"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
+          "publishedOn": "2023-10-06T12:02:42.329Z",
+          "wordCount": 1750,
+          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+          "author": null,
+          "description": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+          "publishedOn": "2023-10-06T12:02:42.319Z",
+          "wordCount": 1786,
+          "title": "Twitter's Recommendation Algorithm"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
           "author": null,
           "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
@@ -599,6 +644,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74518",
+          "author": "Gwen Davis",
+          "description": "Open source generative AI projects are a great way to build new AI-powered features and apps.\nThe post A developer’s guide to open source LLMs and generative AI appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-05-a-developers-guide-to-open-source-llms-and-generative-ai/",
+          "publishedOn": "2023-10-05T16:00:38.000Z",
+          "wordCount": 1865,
+          "title": "A developer’s guide to open source LLMs and generative AI"
+        },
         {
           "id": "https://github.blog/?p=74509",
           "author": "Ben Balter",
@@ -814,15 +868,6 @@
           "publishedOn": "2023-09-12T16:48:44.000Z",
           "wordCount": 1189,
           "title": "CodeQL team uses AI to power vulnerability detection in code"
-        },
-        {
-          "id": "https://github.blog/?p=73994",
-          "author": "Shuyin Zhao",
-          "description": "The team behind GitHub Copilot shares its lessons for building an LLM app that delivers value to both individuals and enterprise users at scale. \nThe post How to build an enterprise LLM application: Lessons from GitHub Copilot appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/",
-          "publishedOn": "2023-09-06T19:04:19.000Z",
-          "wordCount": 2953,
-          "title": "How to build an enterprise LLM application: Lessons from GitHub Copilot"
         }
       ]
     },
