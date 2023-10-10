@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/10/bare-metal-rust-in-android.html",
+          "author": null,
+          "description": "Posted by Andrew Walbran, Android Rust Team\n\n\nmoving native code in Android from C++ to Rust has resulted in fewer security vulnerabilities. Most of the components we mentioned then were system services in userspace (running under Linux), but these are not the only components typically written in memory-unsafe languages. Many security-critical components of an Android system run in a “bare-metal” environment, outside of the Linux kernel, and these are historically written in C. As part of our efforts to harden firmware on Android devices, we are increasingly using Rust in these bare-metal environments too.\n\n\nTo that end, we have rewritten the Android Virtualization Framework’s protected VM (pVM) firmware in Rust to provide a memory safe foundation for the pVM root of trust. This firmware p…",
+          "link": "http://security.googleblog.com/2023/10/bare-metal-rust-in-android.html",
+          "publishedOn": "2023-10-09T16:30:00.001Z",
+          "wordCount": 1666,
+          "title": "Bare-metal Rust in Android"
+        },
+        {
           "id": "http://security.googleblog.com/2023/10/expanding-our-exploit-reward-program-to.html",
           "author": null,
           "description": "Stephen Roettger and Marios Pomonis, Google Software Engineers\n\n\nIn 2020, we launched a novel format for our vulnerability reward program (VRP) with the kCTF VRP and its continuation kernelCTF. For the first time, security researchers could get bounties for n-day exploits even if they didn’t find the vulnerability themselves. This format proved valuable in improving our understanding of the most widely exploited parts of the linux kernel. Its success motivated us to expand it to new areas and we're now excited to announce that we're extending it to two new targets: v8CTF and kvmCTF.\n\n\n\n\n\nToday, we're launching v8CTF, a CTF focused on V8, the JavaScript engine that powers Chrome. kvmCTF is an upcoming CTF focused on Kernel-based Virtual Machine (KVM) that will be released later in the year.…",
@@ -82,6 +91,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/16/2243",
+          "author": null,
+          "description": "Jacob Kaplan-Moss’ recommendations for remote vs colocated teams, Duarte Carmo created a neural search engine from Changelog transcripts, Tom Hacohen says strong static typing is a hill he’s willing to die on, Orhun Parmaksız created a CLI that makes your keyboard sound like a typewriter & Luke Plant spits hard truths about simplicity.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – NODES 2023 is coming in October!\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:30) - RTO vs WFH\n(02:16) - Changelog neural search\n(03:02) - Static typing is a hill I'm willing to die on\n(04:29) - Sponsor: Neo4j\n(05:29) - Turn your keyboard into a typewriter\n(06:33) - No one actually wants simplicity\n(07:42) - Outro",
+          "link": "https://changelog.com/news/65",
+          "publishedOn": "2023-10-09T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 65: RTO vs WFH & the case for strong static typing",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/65/changelog-news-65.mp3",
+            "length": "8465310",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/17/2238",
           "author": null,
@@ -401,6 +425,24 @@
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
         {
+          "id": "https://blog.google/outreach-initiatives/sustainability/google-transportation-energy-emissions-reduction/",
+          "author": null,
+          "description": "These new product features and expansions help people, city planners and policy makers take action toward building a sustainable future.",
+          "link": "https://blog.google/outreach-initiatives/sustainability/google-transportation-energy-emissions-reduction/",
+          "publishedOn": "2023-10-10T11:00:00.000Z",
+          "wordCount": 2218,
+          "title": "New ways we’re helping reduce transportation and energy emissions"
+        },
+        {
+          "id": "https://blog.google/technology/health/hlth-2023-bringing-ai-to-health-responsibly/",
+          "author": null,
+          "description": "Google leaders take the stage at HLTH to discuss the transformative power of AI for health.",
+          "link": "https://blog.google/technology/health/hlth-2023-bringing-ai-to-health-responsibly/",
+          "publishedOn": "2023-10-09T18:45:00.000Z",
+          "wordCount": 1409,
+          "title": "HLTH 2023: Bringing AI to health responsibly"
+        },
+        {
           "id": "https://blog.google/products/android/android-14/",
           "author": null,
           "description": "Android 14 is here with personal, protective and accessible features that put users first and celebrate their individuality.",
@@ -623,6 +665,33 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74613",
+          "author": "Kevin Backhouse",
+          "description": "CVE-2023-43641 is a vulnerability in libcue, which can lead to code execution by downloading a file on GNOME.\nThe post Coordinated Disclosure: 1-Click RCE on GNOME (CVE-2023-43641) appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-09-coordinated-disclosure-1-click-rce-on-gnome-cve-2023-43641/",
+          "publishedOn": "2023-10-09T17:00:41.000Z",
+          "wordCount": 2059,
+          "title": "Coordinated Disclosure: 1-Click RCE on GNOME (CVE-2023-43641)"
+        },
+        {
+          "id": "https://github.blog/?p=74604",
+          "author": "Ed Summers",
+          "description": "GitHub Copilot Chat can help you learn about accessibility and improve the accessibility of your code. In this blog, we share a sample foundational prompt that instructs GitHub Copilot Chat to become your personal AI assistant for accessibility.\nThe post Prompting GitHub Copilot Chat to become your personal AI assistant for accessibility appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-09-prompting-github-copilot-chat-to-become-your-personal-ai-assistant-for-accessibility/",
+          "publishedOn": "2023-10-09T16:00:05.000Z",
+          "wordCount": 3015,
+          "title": "Prompting GitHub Copilot Chat to become your personal AI assistant for accessibility"
+        },
+        {
+          "id": "https://github.blog/?p=74536",
+          "author": "Sarah Oyetubo",
+          "description": "All In Africa is a gateway to growth, learning, and meaningful connections within the African open source ecosystem and beyond.\nThe post Skilling African developers through All In Africa appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-09-skilling-african-developers-through-all-in-africa/",
+          "publishedOn": "2023-10-09T14:02:45.000Z",
+          "wordCount": 1032,
+          "title": "Skilling African developers through All In Africa"
+        },
         {
           "id": "https://github.blog/?p=74518",
           "author": "Gwen Davis",
