@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/10/scaling-beyondcorp-with-ai-assisted.html",
+          "author": null,
+          "description": "Ayush Khandelwal, Software Engineer, Michael Torres, Security Engineer, Hemil Patel, Technical Product Expert, Sameer Ladiwala, Software Enginner\n\n\n\n\nIn July 2023, four Googlers from the Enterprise Security and Access Security organizations developed a tool that aimed at revolutionizing the way Googlers interact with Access Control Lists - SpeakACL. This tool, awarded the Gold Prize during Google’s internal Security & AI Hackathon, allows developers to create or modify security policies using simple English instructions rather than having to learn system-specific syntax or complex security principles. This can save security and product teams hours of time and effort, while helping to protect the information of their users by encouraging the reduction of permitted access by adhering to the …",
+          "link": "http://security.googleblog.com/2023/10/scaling-beyondcorp-with-ai-assisted.html",
+          "publishedOn": "2023-10-10T19:39:00.005Z",
+          "wordCount": 1826,
+          "title": "Scaling BeyondCorp with AI-Assisted Access Control Policies"
+        },
+        {
           "id": "http://security.googleblog.com/2023/10/bare-metal-rust-in-android.html",
           "author": null,
           "description": "Posted by Andrew Walbran, Android Rust Team\n\n\nmoving native code in Android from C++ to Rust has resulted in fewer security vulnerabilities. Most of the components we mentioned then were system services in userspace (running under Linux), but these are not the only components typically written in memory-unsafe languages. Many security-critical components of an Android system run in a “bare-metal” environment, outside of the Linux kernel, and these are historically written in C. As part of our efforts to harden firmware on Android devices, we are increasingly using Rust in these bare-metal environments too.\n\n\nTo that end, we have rewritten the Android Virtualization Framework’s protected VM (pVM) firmware in Rust to provide a memory safe foundation for the pVM root of trust. This firmware p…",
@@ -395,21 +404,6 @@
             "length": "63512268",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2207",
-          "author": null,
-          "description": "Bun 1.0 is out of the oven, Mojo is now available for local download, Vince Lwt asked 60+ LLMs a set of 20 questions & published the answers, Textual Web turns TUIs in to web applications & James Haydon dives deep to discover the bug that the UK air traffic control meltdown.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nTailscale – Simple, secure networks for teams of any scale. Built on WireGuard.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(01:05) - Bun 1.0 is here\n(02:08) - Mojo is ready for download\n(02:57) - 20 questions for 60 LLMs\n(04:01) - Textual Web\n(05:03) - Sponsor: Tailscale\n(06:00) - The UK air traffic meltdown\n(07:43) - Outro",
-          "link": "https://changelog.com/news/61",
-          "publishedOn": "2023-09-11T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 61: Bun 1.0 is here & Mojo is ready for download",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/61/changelog-news-61.mp3",
-            "length": "8369100",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -432,6 +426,15 @@
           "publishedOn": "2023-10-10T11:00:00.000Z",
           "wordCount": 2218,
           "title": "New ways we’re helping reduce transportation and energy emissions"
+        },
+        {
+          "id": "https://blog.google/products/ads-commerce/demand-more-from-social-with-ai-powered-ads/",
+          "author": null,
+          "description": "Learn how Demand Gen campaigns can help you drive better results across YouTube and Google. See new case studies, videos, tips, and more.",
+          "link": "https://blog.google/products/ads-commerce/demand-more-from-social-with-ai-powered-ads/",
+          "publishedOn": "2023-10-10T10:00:00.000Z",
+          "wordCount": 1035,
+          "title": "Demand more from social with AI-powered ads"
         },
         {
           "id": "https://blog.google/technology/health/hlth-2023-bringing-ai-to-health-responsibly/",
@@ -530,6 +533,24 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=23212",
+          "author": "Daniel Stenberg",
+          "description": "In association with the release of curl 8.4.0, we publish a security advisory and all the details for CVE-2023-38545. This problem is the worst security problem found in curl in a long time. We set it to severity HIGH. While the advisory contains all the necessary details. I figured I would use a few additional … Continue reading How I made a heap overflow in curl →",
+          "link": "https://daniel.haxx.se/blog/2023/10/11/how-i-made-a-heap-overflow-in-curl/",
+          "publishedOn": "2023-10-11T06:05:28.000Z",
+          "wordCount": 2035,
+          "title": "How I made a heap overflow in curl"
+        },
+        {
+          "id": "https://daniel.haxx.se/blog/?p=23241",
+          "author": "Daniel Stenberg",
+          "description": "We cut the release cycle short and decided to ship this release now rather than later because of the heap overflow issue we found. Release presentation Numbers the 252nd release3 changes28 days (total: 9,336)136 bug-fixes (total: 9,551)216 commits (total: 31,158)1 new public libcurl function (total: 93)0 new curl_easy_setopt() option (total: 303)1 new curl command line … Continue reading curl 8.4.0 →",
+          "link": "https://daniel.haxx.se/blog/2023/10/11/curl-8-4-0/",
+          "publishedOn": "2023-10-11T06:01:17.000Z",
+          "wordCount": 1057,
+          "title": "curl 8.4.0"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=22926",
           "author": "Daniel Stenberg",
@@ -665,6 +686,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74630",
+          "author": "Mario Rodriguez",
+          "description": "Findings show that code quality is better across the board and developers felt more confident, too.\nThe post Research: Quantifying GitHub Copilot’s impact on code quality appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-10-research-quantifying-github-copilots-impact-on-code-quality/",
+          "publishedOn": "2023-10-10T16:00:26.000Z",
+          "wordCount": 2108,
+          "title": "Research: Quantifying GitHub Copilot’s impact on code quality"
+        },
         {
           "id": "https://github.blog/?p=74613",
           "author": "Kevin Backhouse",

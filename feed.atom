@@ -2,16 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-10T12:03:48.615Z</updated>
+    <updated>2023-10-11T12:03:16.330Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How I made a heap overflow in curl]]></title>
+        <id>https://daniel.haxx.se/blog/?p=23212</id>
+        <link href="https://daniel.haxx.se/blog/2023/10/11/how-i-made-a-heap-overflow-in-curl/"/>
+        <updated>2023-10-11T06:05:28.000Z</updated>
+        <summary type="html"><![CDATA[In association with the release of curl 8.4.0, we publish a security advisory and all the details for CVE-2023-38545. This problem is the worst security problem found in curl in a long time. We set it to severity HIGH. While the advisory contains all the necessary details. I figured I would use a few additional … Continue reading How I made a heap overflow in curl →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[curl 8.4.0]]></title>
+        <id>https://daniel.haxx.se/blog/?p=23241</id>
+        <link href="https://daniel.haxx.se/blog/2023/10/11/curl-8-4-0/"/>
+        <updated>2023-10-11T06:01:17.000Z</updated>
+        <summary type="html"><![CDATA[We cut the release cycle short and decided to ship this release now rather than later because of the heap overflow issue we found. Release presentation Numbers the 252nd release3 changes28 days (total: 9,336)136 bug-fixes (total: 9,551)216 commits (total: 31,158)1 new public libcurl function (total: 93)0 new curl_easy_setopt() option (total: 303)1 new curl command line … Continue reading curl 8.4.0 →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling BeyondCorp with AI-Assisted Access Control Policies]]></title>
+        <id>http://security.googleblog.com/2023/10/scaling-beyondcorp-with-ai-assisted.html</id>
+        <link href="http://security.googleblog.com/2023/10/scaling-beyondcorp-with-ai-assisted.html"/>
+        <updated>2023-10-10T19:39:00.005Z</updated>
+        <summary type="html"><![CDATA[Ayush Khandelwal, Software Engineer, Michael Torres, Security Engineer, Hemil Patel, Technical Product Expert, Sameer Ladiwala, Software Enginner
+
+
+
+
+In July 2023, four Googlers from the Enterprise Security and Access Security organizations developed a tool that aimed at revolutionizing the way Googlers interact with Access Control Lists - SpeakACL. This tool, awarded the Gold Prize during Google’s internal Security & AI Hackathon, allows developers to create or modify security policies using simple English instructions rather than having to learn system-specific syntax or complex security principles. This can save security and product teams hours of time and effort, while helping to protect the information of their users by encouraging the reduction of permitted access by adhering to the …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research: Quantifying GitHub Copilot’s impact on code quality]]></title>
+        <id>https://github.blog/?p=74630</id>
+        <link href="https://github.blog/2023-10-10-research-quantifying-github-copilots-impact-on-code-quality/"/>
+        <updated>2023-10-10T16:00:26.000Z</updated>
+        <summary type="html"><![CDATA[Findings show that code quality is better across the board and developers felt more confident, too.
+The post Research: Quantifying GitHub Copilot’s impact on code quality appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Mario Rodriguez</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New ways we’re helping reduce transportation and energy emissions]]></title>
         <id>https://blog.google/outreach-initiatives/sustainability/google-transportation-energy-emissions-reduction/</id>
         <link href="https://blog.google/outreach-initiatives/sustainability/google-transportation-energy-emissions-reduction/"/>
         <updated>2023-10-10T11:00:00.000Z</updated>
         <summary type="html"><![CDATA[These new product features and expansions help people, city planners and policy makers take action toward building a sustainable future.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demand more from social with AI-powered ads]]></title>
+        <id>https://blog.google/products/ads-commerce/demand-more-from-social-with-ai-powered-ads/</id>
+        <link href="https://blog.google/products/ads-commerce/demand-more-from-social-with-ai-powered-ads/"/>
+        <updated>2023-10-10T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Demand Gen campaigns can help you drive better results across YouTube and Google. See new case studies, videos, tips, and more.]]></summary>
         <author>
             <name>AI</name>
         </author>
@@ -1299,39 +1355,6 @@ The post CodeQL team uses AI to power vulnerability detection in code appeared f
         <summary type="html"><![CDATA[Google.org is funding 15 projects that will use AI to make progress on the UN’s Sustainable Development Goals.]]></summary>
         <author>
             <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 61: Bun 1.0 is here & Mojo is ready for download]]></title>
-        <id>changelog.com/16/2207</id>
-        <link href="https://changelog.com/news/61"/>
-        <updated>2023-09-11T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bun 1.0 is out of the oven, Mojo is now available for local download, Vince Lwt asked 60+ LLMs a set of 20 questions & published the answers, Textual Web turns TUIs in to web applications & James Haydon dives deep to discover the bug that the UK air traffic control meltdown.
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors:
-
-  
-Tailscale – Simple, secure networks for teams of any scale. Built on WireGuard.
-
-
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
-Something missing or broken? PRs welcome!
-Timestamps:
-(01:05) - Bun 1.0 is here
-(02:08) - Mojo is ready for download
-(02:57) - 20 questions for 60 LLMs
-(04:01) - Textual Web
-(05:03) - Sponsor: Tailscale
-(06:00) - The UK air traffic meltdown
-(07:43) - Outro]]></summary>
-        <author>
-            <name>Changelog</name>
         </author>
     </entry>
 </feed>
