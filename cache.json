@@ -67,6 +67,15 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nA version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy David Mandelberg\n\n\n\nShell scripts (including Bash scripts) can be convenient for automating simple command line procedures, and they are often better than keeping complicated commands in a single developer's history. However, shell scripts can be hard to understand and maintain, and are typically not as well-supported as other programming languages. Shell scripts have less support for unit testing, and there is likely a lower chance that somebody reading one will be experienced with the language.\nPython, Go, or other …",
+          "link": "http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html",
+          "publishedOn": "2023-10-11T12:21:00.002Z",
+          "wordCount": 2900,
+          "title": "Shell Scripts: Stay Small & Simple"
+        },
+        {
           "id": "http://testing.googleblog.com/2023/10/the-secret-to-great-code-reviews.html",
           "author": null,
           "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\n\nBy Marius Latinis\n\n\n\nYou prepared a code change and asked for a review. A reviewer left a comment you disagree with. Are you going to reply that you will not address the comment? \nWhen addressing comments for your code reviewed by colleagues, find a solution that makes both you and the reviewer happy. The fact that a reviewer left a comment suggests you may be able to improve the code further. Here are two effective ways to respond:\n\nWhen it’s easy for you to make an improv…",
@@ -83,15 +92,6 @@
           "publishedOn": "2023-09-21T12:28:00.001Z",
           "wordCount": 3174,
           "title": "Communicate Design Tradeoffs Visually"
-        },
-        {
-          "id": "http://testing.googleblog.com/2023/09/else-nuances.html",
-          "author": null,
-          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\nBy Sam Lee and Stan Chan\n\nIf your function exits early in an if statement, using or not using an else clause is equivalent in terms of behavior. However, the proper use of else clauses and guard clauses (lack of else) can help emphasize the intent of the code to the reader.\nConsider the following guidelines to help you structure your functions:\n\nUse a guard clause to handle special cases upfront, so that the rest of the code can focus\non the core logic. A guard clause checks a criterion and fails fast or returns early if it is not\nmet, which reduces nesting …",
-          "link": "http://testing.googleblog.com/2023/09/else-nuances.html",
-          "publishedOn": "2023-09-13T14:51:00.008Z",
-          "wordCount": 3829,
-          "title": "Else Nuances"
         }
       ]
     },
@@ -100,6 +100,51 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/6/2228",
+          "author": null,
+          "description": "With a name like PartyKit, you know we just had to get its founder and CEO Sunil Pai on the show! PartyKit is an open source tool that simplifies creating collaborative, multiplayer applications. Join us to learn all about it and the journey of Sunil and his team!\nLeave us a comment\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nAppwrite – Build Fast. Scale Big. All in One Place. Appwrite is a backend platform for developing Web, Mobile, and Flutter applications. Built with the open source community and optimized for developer experience in the coding languages you love.\n\n\nFeaturing:\n\nSunil Pai – Twitter, GitHub, LinkedIn, Website\nAmal Hussein – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nChristopher Hiller –…",
+          "link": "https://changelog.com/jsparty/296",
+          "publishedOn": "2023-10-12T21:45:00.000Z",
+          "wordCount": null,
+          "title": "JS Party 296: Party on PartyKit",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/296/js-party-296.mp3",
+            "length": "80872242",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/2210",
+          "author": null,
+          "description": "This week we’re joined by Marcin Kulik to talk about his project asciinema. You’ve likely seen this out there in the wild — asciinema lets you record and share your terminal sessions in full fidelity. Forget screen recording apps that offer blurry video. asciinema provides a lightweight, text-based approach to terminal recording with lots of possibilities. Marcin shares the backstory on this project, where he’d like to take it, who’s supporting him along the way, and we even included 11 minutes of bonus content for Changelog ++ subscribers.\nLeave us a comment\nChangelog++ members get a bonus 10 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nStatsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter…",
+          "link": "https://changelog.com/podcast/561",
+          "publishedOn": "2023-10-11T20:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 561: Coming to asciinema near you",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/561/the-changelog-561.mp3",
+            "length": "79893413",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/2/2242",
+          "author": null,
+          "description": "The 10th GopherCon took place the last week of September and it was a blast. In this episode, we’re talking about our experiences at the conference from several different viewpoints. Angelica as a conference organizer, Johnny as an emcee and workshop instructor, Kaylyn as a speaker, and Kris as a regular attendee.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nKaylyn Gibilterra – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nAngelica Hill – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:45) - Kaylyn\n(06:45) - Organizing\n(12:25) - Russ Cox\n(18:41) - Captions\n(23:36) - Café X: By Any Beans Necessary\n(33:05) - Neurospicy meetup\n(37:09) - Meetup Organizers Unite!\n(38:32) - The RainGo Alliance Meetup\n(43:53) - Everywhere all at once\n(51:04) - Fangirling over Rebecca Bilbro\n(57:18) - Unpopular opinions!\n(58:26) - Kaylyn's unpop\n(59:24) - Kaylyn's 2nd unpop\n(1:00:23) - Angelica's unpop\n(1:01:43) - Johnny's unpop\n(1:04:54) - Kris' unpop\n(1:14:31) - Outro",
+          "link": "https://changelog.com/gotime/293",
+          "publishedOn": "2023-10-11T16:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 293: Experiences from GopherCon 2023",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/293/go-time-293.mp3",
+            "length": "74020755",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/16/2243",
           "author": null,
@@ -374,36 +419,6 @@
             "length": "67735020",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/2192",
-          "author": null,
-          "description": "This week we’re joined by Haroon Meer from Thinkst — the makers of Canary and Canary Tokens. Haroon walks us through a network getting compromised, what it takes to deploy a Canary on your network, how they maintain low false-positive numbers, their thoughts and principles on building their business (major wisdom shared!), and how a Canary helps surface network attacks in real time.\nLeave us a comment\nChangelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nStatsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature flags, experimentation, and analytics. Our listeners get free white-glove onboarding, migration support, and 5 m…",
-          "link": "https://changelog.com/podcast/557",
-          "publishedOn": "2023-09-13T22:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 557: Attack of the Canaries!",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/557/the-changelog-557.mp3",
-            "length": "99627804",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/2/2175",
-          "author": null,
-          "description": "Go’s known for it’s fantastic standard library, but there are some places where the libraries can be challenging to use. The html/template package is one of those places. So what alternatives do we have? On today’s episode we’re talking about Templ, an HTML templating language for Go that has great developer tooling. Co-hosts Kris Brandow and Jon Calhoun are joined by Adrian Hesketh, the creator of Templ, and Joe Davidson, one of the maintainers on the project.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n…",
-          "link": "https://changelog.com/gotime/291",
-          "publishedOn": "2023-09-13T15:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 291: Go templating using Templ",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/291/go-time-291.mp3",
-            "length": "63512268",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -411,13 +426,41 @@
       "title": "comma.ai blog",
       "feedUrl": "https://blog.comma.ai/feed.xml",
       "siteUrl": "https://blog.comma.ai/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.comma.ai/comma3X/",
+          "author": null,
+          "description": "our most refined openpilot hardware yet, available now for $1250",
+          "link": "https://blog.comma.ai/comma3X/",
+          "publishedOn": "2023-10-12T13:00:00.000Z",
+          "wordCount": 627,
+          "title": "Introducing the comma 3X"
+        }
+      ]
     },
     {
       "title": "AI",
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/products/search/google-search-generative-ai-october-update/",
+          "author": null,
+          "description": "We’re testing new ways to get started on something you need to do — like creating an image that can bring an idea to life, or a written draft when you need a starting po…",
+          "link": "https://blog.google/products/search/google-search-generative-ai-october-update/",
+          "publishedOn": "2023-10-12T16:00:00.000Z",
+          "wordCount": 1405,
+          "title": "New ways to get inspired with generative AI in Search"
+        },
+        {
+          "id": "https://blog.google/technology/ai/our-responsible-approach-to-building-guardrails-for-generative-ai/",
+          "author": null,
+          "description": "We’re sharing some of the ways we’re building guardrails for generative AI.",
+          "link": "https://blog.google/technology/ai/our-responsible-approach-to-building-guardrails-for-generative-ai/",
+          "publishedOn": "2023-10-12T16:00:00.000Z",
+          "wordCount": 1599,
+          "title": "Our responsible approach to building guardrails for generative AI"
+        },
         {
           "id": "https://blog.google/outreach-initiatives/sustainability/google-transportation-energy-emissions-reduction/",
           "author": null,
@@ -507,24 +550,6 @@
           "publishedOn": "2023-09-19T16:00:00.000Z",
           "wordCount": 1525,
           "title": "Using data and AI to track progress toward the UN Global Goals"
-        },
-        {
-          "id": "https://blog.google/technology/ai/google-data-commons-ai/",
-          "author": null,
-          "description": "A look at Data Commons, Google’s initiative to make publicly available data more useful for people working on solutions to societal challenges.",
-          "link": "https://blog.google/technology/ai/google-data-commons-ai/",
-          "publishedOn": "2023-09-13T16:00:00.000Z",
-          "wordCount": 1805,
-          "title": "Data Commons is using AI to make the world’s public data more accessible and helpful"
-        },
-        {
-          "id": "https://blog.google/outreach-initiatives/google-org/httpsbloggoogleoutreach-initiativesgoogle-orgunited-nations-global-goals-google-ai-/",
-          "author": null,
-          "description": "Google.org is funding 15 projects that will use AI to make progress on the UN’s Sustainable Development Goals.",
-          "link": "https://blog.google/outreach-initiatives/google-org/httpsbloggoogleoutreach-initiativesgoogle-orgunited-nations-global-goals-google-ai-/",
-          "publishedOn": "2023-09-12T10:00:00.000Z",
-          "wordCount": 862,
-          "title": "15 projects using AI to reach the UN’s Global Goals"
         }
       ]
     },
@@ -533,6 +558,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=22888",
+          "author": "Daniel Stenberg",
+          "description": "Thank you everyone who has helped out in making curl into what it is today. We make an effort to note the names of and say thanks to every single individual who ever reported bugs, fixed problems, ran tests, wrote code, polished the website, spell-fixed documentation, assisted debug sessions, helped interpret protocol standards, reported security … Continue reading 3,000 contributors →",
+          "link": "https://daniel.haxx.se/blog/2023/10/13/3000-contributors/",
+          "publishedOn": "2023-10-13T09:21:38.000Z",
+          "wordCount": 1197,
+          "title": "3,000 contributors"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=23212",
           "author": "Daniel Stenberg",
@@ -550,15 +584,6 @@
           "publishedOn": "2023-10-11T06:01:17.000Z",
           "wordCount": 1057,
           "title": "curl 8.4.0"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=22926",
-          "author": "Daniel Stenberg",
-          "description": "Welcome to this new curl release! Release video Numbers the 251st release9 changes49 days (total: 9,308)174 bug-fixes (total: 9,415)296 commits (total: 30,942)1 new public libcurl function (total: 92)0 new curl_easy_setopt() option (total: 303)2 new curl command line option (total: 257)80 contributors, 50 new (total: 2,977)40 authors, 20 new (total: 1,193)1 security fixes (total: 146) Numbers … Continue reading curl 8.3.0 →",
-          "link": "https://daniel.haxx.se/blog/2023/09/13/curl-8-3-0/",
-          "publishedOn": "2023-09-13T06:26:26.000Z",
-          "wordCount": 1468,
-          "title": "curl 8.3.0"
         }
       ]
     },
@@ -665,6 +690,15 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
+          "id": "https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=lhDjYqiy3mZ0x6ROQEUoUw);.lst-kix_fcb9u51bqgft-4>li{counter-increment:lst-ctn-kix_fcb9u51bqgft-4}ol.lst-kix_shbeio5ln3sf-3.start{counter-reset:lst-ctn-kix_shbeio5ln3sf-3 0}.lst-kix_shbeio5ln3sf-0>li{counter-increment:lst-ctn-kix_shbeio5ln3sf-0}ul.lst-kix_wvnn2lytn2eh-3{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-2{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-5{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-4{list-style-type:none}ul.lst-kix_wvnn2lytn2eh-1{list-style-type:none}.lst-kix_shbeio5ln3sf-6>li{counter-increment:lst-ctn-kix_shbeio5ln3sf-6}ul.lst-kix_wvnn2lytn2eh-0{list-style-type:none}ol.lst-kix_shbeio5ln3sf-7.start{counter-reset:lst-ctn-kix_shbeio5ln3sf-7 0}ol.lst-kix_fcb9u51bqgft-2.start{counter-reset:lst-ctn-kix_fcb9u51…",
+          "link": "https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html",
+          "publishedOn": "2023-10-13T10:47:00.001Z",
+          "wordCount": 13104,
+          "title": "An analysis of an in-the-wild iOS Safari WebContent to GPU Process exploit"
+        },
+        {
           "id": "https://googleprojectzero.blogspot.com/2023/09/analyzing-modern-in-wild-android-exploit.html",
           "author": null,
           "description": "By Seth Jenkins, Project Zero\n\nIntroduction\n\nIn December 2022, Google’s Threat Analysis Group (TAG) discovered an in-the-wild exploit chain targeting Samsung Android devices. TAG’s blog post covers the targeting and the actor behind the campaign. This is a technical analysis of the final stage of one of the exploit chains, specifically CVE-2023-0266 (a 0-day in the ALSA compatibility layer) and CVE-2023-26083 (a 0-day in the Mali GPU driver) as well as the techniques used by the attacker to gain kernel arbitrary read/write access.\n\nNotably, all of the previous stages of the exploit chain used n-day vulnerabilities:\n\n\nCVE-2022-4262, a vulnerability patched in Chrome that was unpatched in the Samsung browser (i.e. a \"Chrome n-day\"), was used to achieve RCE.\n\n\nCVE-2022-3038, another Chrome n-…",
@@ -679,13 +713,50 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=48032",
+          "author": "Bobby Holley",
+          "description": "Protecting user privacy is a core element of Mozilla’s vision for the web and the internet at large. In pursuit of this vision, we’re pleased to announce new partnerships with Fastly and Divvi Up to deploy privacy-preserving technology in Firefox.\nThe post Built for Privacy: Partnering to Deploy Oblivious HTTP and Prio in Firefox appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2023/10/built-for-privacy-partnering-to-deploy-oblivious-http-and-prio-in-firefox/",
+          "publishedOn": "2023-10-12T13:02:35.000Z",
+          "wordCount": 831,
+          "title": "Built for Privacy: Partnering to Deploy Oblivious HTTP and Prio in Firefox"
+        }
+      ]
     },
     {
       "title": "The GitHub Blog",
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74727",
+          "author": "Sarah Oyetubo",
+          "description": "If you are a student from a U.S. minority-serving institution looking to start your journey into open source, join us!\nThe post Ensuring the next generation of open source leaders are truly “all in” appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-12-ensuring-the-next-generation-of-open-source-leaders-are-truly-all-in/",
+          "publishedOn": "2023-10-12T15:00:04.000Z",
+          "wordCount": 1149,
+          "title": "Ensuring the next generation of open source leaders are truly “all in”"
+        },
+        {
+          "id": "https://github.blog/?p=74719",
+          "author": "Jakub Oleksy",
+          "description": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: September 2023 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-11-github-availability-report-september-2023/",
+          "publishedOn": "2023-10-11T19:47:46.000Z",
+          "wordCount": 915,
+          "title": "GitHub Availability Report: September 2023"
+        },
+        {
+          "id": "https://github.blog/?p=74681",
+          "author": "Tony Camp",
+          "description": "GitHub Enterprise Cloud customers can now ensure controlled workflows run and pass before code is merged into any of its repositories.\nThe post Enforcing code reliability by requiring workflows with GitHub Repository Rules appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-11-enforcing-code-reliability-by-requiring-workflows-with-github-repository-rules/",
+          "publishedOn": "2023-10-11T15:00:42.000Z",
+          "wordCount": 1218,
+          "title": "Enforcing code reliability by requiring workflows with GitHub Repository Rules"
+        },
         {
           "id": "https://github.blog/?p=74630",
           "author": "Mario Rodriguez",
@@ -919,33 +990,6 @@
           "publishedOn": "2023-09-14T17:34:10.000Z",
           "wordCount": 1151,
           "title": "Introducing auto-triage rules for Dependabot"
-        },
-        {
-          "id": "https://github.blog/?p=74067",
-          "author": "Jakub Oleksy",
-          "description": "In August, we experienced two incidents that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: August 2023 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-13-github-availability-report-august-2023/",
-          "publishedOn": "2023-09-13T19:00:20.000Z",
-          "wordCount": 789,
-          "title": "GitHub Availability Report: August 2023"
-        },
-        {
-          "id": "https://github.blog/?p=74051",
-          "author": "Camaley Jennings",
-          "description": "As part of our ongoing commitment to accelerate human progress through Social Impact initiatives, we’re offering students 30-minute, 1:1 micro-mentoring sessions with GitHub employees ahead of Universe.\nThe post Apply now for GitHub Universe 2023 micro-mentoring appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-13-apply-now-for-github-universe-2023-micro-mentoring/",
-          "publishedOn": "2023-09-13T16:00:31.000Z",
-          "wordCount": 671,
-          "title": "Apply now for GitHub Universe 2023 micro-mentoring"
-        },
-        {
-          "id": "https://github.blog/?p=74030",
-          "author": "Walker Chabbott",
-          "description": "Learn how GitHub’s CodeQL leveraged AI modeling and multi-repository variant analysis to discover a new CVE in Gradle.\nThe post CodeQL team uses AI to power vulnerability detection in code appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-12-codeql-team-uses-ai-to-power-vulnerability-detection-in-code/",
-          "publishedOn": "2023-09-12T16:48:44.000Z",
-          "wordCount": 1189,
-          "title": "CodeQL team uses AI to power vulnerability detection in code"
         }
       ]
     },
@@ -962,15 +1006,6 @@
           "publishedOn": "2023-09-26T13:49:47.000Z",
           "wordCount": 4251,
           "title": "The birth of the Dark Mode: a journey into Nubank’s app evolution"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=21356",
-          "author": "Nubank Editorial",
-          "description": "Let's delve into the journeys of three Nubankers who embody our core values every step of the way.\nThe post NuStories: embracing transitions to own your career journey appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nustories-embracing-transitions-to-own-your-career-journey/",
-          "publishedOn": "2023-09-13T13:41:51.000Z",
-          "wordCount": 3888,
-          "title": "NuStories: embracing transitions to own your career journey"
         }
       ]
     },
@@ -996,15 +1031,6 @@
           "publishedOn": "2023-09-21T22:00:00.000Z",
           "wordCount": 1693,
           "title": "Why This Moment In Cybersecurity Needs Hackers To Protect All Software"
-        },
-        {
-          "id": "https://hackerone.com/thought-leadership/aws-podcast-ethical-hacking-cybersecurity",
-          "author": "Marten Mickos",
-          "description": "HackerOne CEO Marten Mickos joins the Amazon Web Services podcast, Conversations With Leaders.",
-          "link": "https://www.hackerone.com/thought-leadership/aws-podcast-ethical-hacking-cybersecurity",
-          "publishedOn": "2023-09-12T16:11:00.000Z",
-          "wordCount": 1632,
-          "title": "Ethical Hacking: Unveiling the Power of Hacking for Good in Cybersecurity"
         }
       ]
     },
