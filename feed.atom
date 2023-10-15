@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-13T12:02:56.036Z</updated>
+    <updated>2023-10-15T12:02:55.469Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Changelog & Friends 17: Kaizen! Slightly more instant]]></title>
+        <id>changelog.com/17/2213</id>
+        <link href="https://changelog.com/friends/17"/>
+        <updated>2023-10-13T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Gerhard joins us for the 12th Kaizen and this time talk about what we DIDN’T do. We were holding S3 wrong, we put some cash back in our pockets, we enabled HTTP/3, Brotli compression, and Fastly websockets, we improved our SLOs, we improved Changelog Nightly, and we’re going to KubeCon 2023 in Chicago.
+Leave us a comment
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Neo4j – NODES 2023 is coming in October!
+
+Statsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature flags, experimentation, and analytics. Our listeners get free white-glove onboarding, migration support, and 5 million free events per month.
+
+Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Gerhard Lazu – Mastodon, Twitter, GitHub, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
+
+Show Notes:
+
+👕 Kaizen T-Shirt
+🗒️ Kaizen 12
+Changelog Neural Search by Duarte O.Carmo
+Fastly URL purge
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An analysis of an in-the-wild iOS Safari WebContent to GPU Process exploit]]></title>
         <id>https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html</id>
@@ -24,6 +61,17 @@
         <summary type="html"><![CDATA[Thank you everyone who has helped out in making curl into what it is today. We make an effort to note the names of and say thanks to every single individual who ever reported bugs, fixed problems, ran tests, wrote code, polished the website, spell-fixed documentation, assisted debug sessions, helped interpret protocol standards, reported security … Continue reading 3,000 contributors →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[js13kGames 2023 winners 🏆]]></title>
+        <id>https://github.blog/?p=74640</id>
+        <link href="https://github.blog/2023-10-13-js13k-2023-winners/"/>
+        <updated>2023-10-13T07:13:44.000Z</updated>
+        <summary type="html"><![CDATA[The twelfth annual js13kGames coding competition, challenging participants to create games in 13kB or less of JavaScript in a month, just wrapped up. This post highlights the top thirteen entries.
+The post js13kGames 2023 winners 🏆 appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Lee Reilly</name>
         </author>
     </entry>
     <entry>
@@ -48,6 +96,16 @@ Kevin Ball – Twitter, GitHub, LinkedIn, Website
 Christopher Hiller –…]]></summary>
         <author>
             <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet HackerOne’s Brand Ambassadors That Break the Hacker Stereotype]]></title>
+        <id>https://hackerone.com/ethical-hacker/young-hackers-for-good</id>
+        <link href="https://www.hackerone.com/ethical-hacker/young-hackers-for-good"/>
+        <updated>2023-10-12T16:13:03.000Z</updated>
+        <summary type="html"><![CDATA[The publicity around exploited young hackers perpetuates fear and stigma that young, skilled hackers have no ethical path to put their talent to work.]]></summary>
+        <author>
+            <name>Ariel Garcia</name>
         </author>
     </entry>
     <entry>
@@ -249,6 +307,16 @@ Python, Go, or other …]]></summary>
 In July 2023, four Googlers from the Enterprise Security and Access Security organizations developed a tool that aimed at revolutionizing the way Googlers interact with Access Control Lists - SpeakACL. This tool, awarded the Gold Prize during Google’s internal Security & AI Hackathon, allows developers to create or modify security policies using simple English instructions rather than having to learn system-specific syntax or complex security principles. This can save security and product teams hours of time and effort, while helping to protect the information of their users by encouraging the reduction of permitted access by adhering to the …]]></summary>
         <author>
             <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Ethical Hackers Are Securing Elections]]></title>
+        <id>https://hackerone.com/ethical-hacker/election-security</id>
+        <link href="https://www.hackerone.com/ethical-hacker/election-security"/>
+        <updated>2023-10-10T16:09:37.000Z</updated>
+        <summary type="html"><![CDATA[Election technology manufacturers are teaming up with ethical hackers to secure elections.]]></summary>
+        <author>
+            <name>Kayla Underkoffler</name>
         </author>
     </entry>
     <entry>
@@ -1322,112 +1390,6 @@ Timestamps:
 The post Switching from Bitbucket Server and Bamboo to GitHub just got easier appeared first on The GitHub Blog.]]></summary>
         <author>
             <name>Melody Mileski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog & Friends 14: What do we want from a web browser?]]></title>
-        <id>changelog.com/17/2185</id>
-        <link href="https://changelog.com/friends/14"/>
-        <updated>2023-09-15T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A hoy hoy! Our old friend Nick Nisi does his best to bring up TypeScript, Vim & Tmux as many times as possible while we discuss a new batch of web browsers, justify why we like the ones we do & try to figure out what it’d take to disrupt the status quo of Big Browser.
-Leave us a comment
-Changelog++ members get a bonus 8 minutes at the end of this episode and zero ads. Join today!
-Sponsors:
-
-  
-Statsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature flags, experimentation, and analytics. Our listeners get free white-glove onboarding, migration support, and 5 million free events per month.
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital exper…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Capslock: What is your code really capable of?]]></title>
-        <id>http://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html</id>
-        <link href="http://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html"/>
-        <updated>2023-09-15T18:10:00.002Z</updated>
-        <summary type="html"><![CDATA[Jess McClintock and John Dethridge, Google Open Source Security Team, and Damien Miller, Enterprise Infrastructure Protection Team
-
-
-
-
-
-
-When you import a third party library, do you review every line of code? Most software packages depend on external libraries, trusting that those packages aren’t doing anything unexpected. If that trust is violated, the consequences can be huge—regardless of whether the package is malicious, or well-intended but using overly broad permissions, such as with Log4j in 2021. Supply chain security is a growing issue, and we hope that greater transparency into package capabilities will help make secure coding easier for everyone.
-
-
-
-
-
-Avoiding bad dependencies can be hard without appropriate information on what the dependency’s code actually does, and reviewing…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Strange Loop's greatest hits]]></title>
-        <id>changelog.com/posts/2619</id>
-        <link href="https://changelog.com/posts/strange-loops-greatest-hits"/>
-        <updated>2023-09-15T12:12:43.000Z</updated>
-        <summary type="html"><![CDATA[The LAST Strange Loop conference is right around the corner!
-The conference has accumulated 673 videos on its YouTube channel, which means there’s gold in them hills, but finding the gold might consume some of your precious time. Good news!
-I was hanging out in the conference’s Slack when someone asked:
-What are some of y’all’s favorite past Strange Loop talks? As someone who knows the conf by reputation but hasn’t been before, I’m curious what some of your favorites are!
-A barrage of YouTube links followed, so I scooped them up to share here so everyone can enjoy these golden Strange Loop talks ✨
-🎥 Stop Writing Dead Programs by Jack Rusher (2022)
-Most new programming languages are accidentally designed to be backwards compatible with punchcards. This talk argues that it would be better t…]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability"/>
-        <updated>2023-09-15T12:02:33.222Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing auto-triage rules for Dependabot]]></title>
-        <id>https://github.blog/?p=74069</id>
-        <link href="https://github.blog/2023-09-14-introducing-auto-triage-rules-for-dependabot/"/>
-        <updated>2023-09-14T17:34:10.000Z</updated>
-        <summary type="html"><![CDATA[Make quick work of alerts with preset and custom rules.
-The post Introducing auto-triage rules for Dependabot appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Erin Havens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 292: Type War (what is it good for?)]]></title>
-        <id>changelog.com/6/2208</id>
-        <link href="https://changelog.com/jsparty/292"/>
-        <updated>2023-09-14T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Love it or hate it, TypeScript is here to stay for the foreseeable future.  But, what happens when widely adopted packages go completely Type free or remove TypeScript in favor of JS with type annotations? Join us to unpack these recent events with Rich Harris, creator of Svelte, as he walks us through the nuanced decision his team made for the Svelte project, and ofc, lots of laughs along the way.
-Leave us a comment
-Changelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!
-Sponsors:
-
-  
-Convex – Convex is a better type of backend — the full-stack TypeScript development platform that lets you replace your database, server functions, and glue code. Get started at convex.dev
-
-Caisy – Caisy is the headless CMS that gives developers endless possibilities. L…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The data platform cluster operator service for Hadoop cluster management]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management"/>
-        <updated>2023-09-14T12:02:46.700Z</updated>
-        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>

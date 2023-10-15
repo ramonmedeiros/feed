@@ -49,15 +49,6 @@
           "publishedOn": "2023-09-21T16:00:00.003Z",
           "wordCount": 1953,
           "title": "Scaling Rust Adoption Through Training"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html",
-          "author": null,
-          "description": "Jess McClintock and John Dethridge, Google Open Source Security Team, and Damien Miller, Enterprise Infrastructure Protection Team\n\n\n\n\n\n\nWhen you import a third party library, do you review every line of code? Most software packages depend on external libraries, trusting that those packages aren’t doing anything unexpected. If that trust is violated, the consequences can be huge—regardless of whether the package is malicious, or well-intended but using overly broad permissions, such as with Log4j in 2021. Supply chain security is a growing issue, and we hope that greater transparency into package capabilities will help make secure coding easier for everyone.\n\n\n\n\n\nAvoiding bad dependencies can be hard without appropriate information on what the dependency’s code actually does, and reviewing…",
-          "link": "http://security.googleblog.com/2023/09/capslock-what-is-your-code-really.html",
-          "publishedOn": "2023-09-15T18:10:00.002Z",
-          "wordCount": 2632,
-          "title": "Capslock: What is your code really capable of?"
         }
       ]
     },
@@ -100,6 +91,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/17/2213",
+          "author": null,
+          "description": "Gerhard joins us for the 12th Kaizen and this time talk about what we DIDN’T do. We were holding S3 wrong, we put some cash back in our pockets, we enabled HTTP/3, Brotli compression, and Fastly websockets, we improved our SLOs, we improved Changelog Nightly, and we’re going to KubeCon 2023 in Chicago.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – NODES 2023 is coming in October!\n\nStatsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature flags, experimentation, and analytics. Our listeners get free white-glove onboarding, migration support, and 5 million free events per month.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nGerhard Lazu – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\n👕 Kaizen T-Shirt\n🗒️ Kaizen 12\nChangelog Neural Search by Duarte O.Carmo\nFastly URL purge\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/17",
+          "publishedOn": "2023-10-13T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 17: Kaizen! Slightly more instant",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/17/changelog--friends-17.mp3",
+            "length": "79524214",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/6/2228",
           "author": null,
@@ -379,46 +385,6 @@
             "length": "8516395",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/17/2185",
-          "author": null,
-          "description": "A hoy hoy! Our old friend Nick Nisi does his best to bring up TypeScript, Vim & Tmux as many times as possible while we discuss a new batch of web browsers, justify why we like the ones we do & try to figure out what it’d take to disrupt the status quo of Big Browser.\nLeave us a comment\nChangelog++ members get a bonus 8 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nStatsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature flags, experimentation, and analytics. Our listeners get free white-glove onboarding, migration support, and 5 million free events per month.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital exper…",
-          "link": "https://changelog.com/friends/14",
-          "publishedOn": "2023-09-15T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog & Friends 14: What do we want from a web browser?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/14/changelog--friends-14.mp3",
-            "length": "100576836",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/posts/2619",
-          "author": "Jerod Santo",
-          "description": "The LAST Strange Loop conference is right around the corner!\nThe conference has accumulated 673 videos on its YouTube channel, which means there’s gold in them hills, but finding the gold might consume some of your precious time. Good news!\nI was hanging out in the conference’s Slack when someone asked:\nWhat are some of y’all’s favorite past Strange Loop talks? As someone who knows the conf by reputation but hasn’t been before, I’m curious what some of your favorites are!\nA barrage of YouTube links followed, so I scooped them up to share here so everyone can enjoy these golden Strange Loop talks ✨\n🎥 Stop Writing Dead Programs by Jack Rusher (2022)\nMost new programming languages are accidentally designed to be backwards compatible with punchcards. This talk argues that it would be better t…",
-          "link": "https://changelog.com/posts/strange-loops-greatest-hits",
-          "publishedOn": "2023-09-15T12:12:43.000Z",
-          "wordCount": null,
-          "title": "Strange Loop's greatest hits",
-          "itunes": {}
-        },
-        {
-          "id": "changelog.com/6/2208",
-          "author": null,
-          "description": "Love it or hate it, TypeScript is here to stay for the foreseeable future.  But, what happens when widely adopted packages go completely Type free or remove TypeScript in favor of JS with type annotations? Join us to unpack these recent events with Rich Harris, creator of Svelte, as he walks us through the nuanced decision his team made for the Svelte project, and ofc, lots of laughs along the way.\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nConvex – Convex is a better type of backend — the full-stack TypeScript development platform that lets you replace your database, server functions, and glue code. Get started at convex.dev\n\nCaisy – Caisy is the headless CMS that gives developers endless possibilities. L…",
-          "link": "https://changelog.com/jsparty/292",
-          "publishedOn": "2023-09-14T17:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 292: Type War (what is it good for?)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/292/js-party-292.mp3",
-            "length": "67735020",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -663,24 +629,6 @@
           "publishedOn": "2023-09-21T12:02:34.343Z",
           "wordCount": 1735,
           "title": "Stability and scalability for search"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability",
-          "publishedOn": "2023-09-15T12:02:33.222Z",
-          "wordCount": 1016,
-          "title": "How Twitter uses rasdaemon for hardware reliability"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
-          "author": null,
-          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management",
-          "publishedOn": "2023-09-14T12:02:46.700Z",
-          "wordCount": 1126,
-          "title": "The data platform cluster operator service for Hadoop cluster management"
         }
       ]
     },
@@ -730,6 +678,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74640",
+          "author": "Lee Reilly",
+          "description": "The twelfth annual js13kGames coding competition, challenging participants to create games in 13kB or less of JavaScript in a month, just wrapped up. This post highlights the top thirteen entries.\nThe post js13kGames 2023 winners 🏆 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-13-js13k-2023-winners/",
+          "publishedOn": "2023-10-13T07:13:44.000Z",
+          "wordCount": 1136,
+          "title": "js13kGames 2023 winners 🏆"
+        },
         {
           "id": "https://github.blog/?p=74727",
           "author": "Sarah Oyetubo",
@@ -981,15 +938,6 @@
           "publishedOn": "2023-09-18T16:00:22.000Z",
           "wordCount": 1170,
           "title": "Switching from Bitbucket Server and Bamboo to GitHub just got easier"
-        },
-        {
-          "id": "https://github.blog/?p=74069",
-          "author": "Erin Havens",
-          "description": "Make quick work of alerts with preset and custom rules.\nThe post Introducing auto-triage rules for Dependabot appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-14-introducing-auto-triage-rules-for-dependabot/",
-          "publishedOn": "2023-09-14T17:34:10.000Z",
-          "wordCount": 1151,
-          "title": "Introducing auto-triage rules for Dependabot"
         }
       ]
     },
@@ -1014,6 +962,24 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/ethical-hacker/young-hackers-for-good",
+          "author": "Ariel Garcia",
+          "description": "The publicity around exploited young hackers perpetuates fear and stigma that young, skilled hackers have no ethical path to put their talent to work.",
+          "link": "https://www.hackerone.com/ethical-hacker/young-hackers-for-good",
+          "publishedOn": "2023-10-12T16:13:03.000Z",
+          "wordCount": 1859,
+          "title": "Meet HackerOne’s Brand Ambassadors That Break the Hacker Stereotype"
+        },
+        {
+          "id": "https://hackerone.com/ethical-hacker/election-security",
+          "author": "Kayla Underkoffler",
+          "description": "Election technology manufacturers are teaming up with ethical hackers to secure elections.",
+          "link": "https://www.hackerone.com/ethical-hacker/election-security",
+          "publishedOn": "2023-10-10T16:09:37.000Z",
+          "wordCount": 1555,
+          "title": "How Ethical Hackers Are Securing Elections"
+        },
         {
           "id": "https://hackerone.com/security-compliance/new-cybersecurity-rules-for-cisos",
           "author": "Chris Evans",
