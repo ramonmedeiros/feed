@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-21T12:02:36.122Z</updated>
+    <updated>2023-10-22T12:03:20.085Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stability and scalability for search]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search"/>
+        <updated>2023-10-22T12:02:38.164Z</updated>
+        <summary type="html"><![CDATA[In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog & Friends 18: Human skills to pay the bills]]></title>
         <id>changelog.com/17/2240</id>
@@ -165,6 +175,24 @@ Something missing or broken? PRs welcome!]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Enhanced Google Play Protect real-time scanning for app installs]]></title>
+        <id>http://security.googleblog.com/2023/10/enhanced-google-play-protect-real-time.html</id>
+        <link href="http://security.googleblog.com/2023/10/enhanced-google-play-protect-real-time.html"/>
+        <updated>2023-10-18T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Steve Kafka, Group Product Manager and Roman Kirillov, Senior Engineering Manager
+
+
+
+Mobile devices have supercharged our modern lives, helping us do everything from purchasing goods in store and paying bills online to storing financial data, health records, passwords and pictures. According to Data.ai, the pandemic accelerated existing mobile habits – with app categories like finance growing 25% year-over-year and users spending over 100 billion hours in shopping apps. It's now even more important that data is protected so that bad actors can't access the information.
+
+
+Powering up Google Play Protect
+Google Play Protect is built-in, proactive protection against malware and unwanted software and is enabled on all Android devices with Google Play Services. Google Play Protect sca…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to build a secure foundation for American leadership in AI]]></title>
         <id>https://blog.google/technology/ai/how-to-build-a-secure-foundation-for-american-leadership-in-ai/</id>
         <link href="https://blog.google/technology/ai/how-to-build-a-secure-foundation-for-american-leadership-in-ai/"/>
@@ -216,6 +244,43 @@ The post The clock is ticking: Atlassian’s support for Bitbucket Server ends o
 The post Getting RCE in Chrome with incomplete object initialization in the Maglev compiler appeared first on The GitHub Blog.]]></summary>
         <author>
             <name>Man Yue Mo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improve Readability With Positive Booleans]]></title>
+        <id>http://testing.googleblog.com/2023/10/improve-readability-with-positive.html</id>
+        <link href="http://testing.googleblog.com/2023/10/improve-readability-with-positive.html"/>
+        <updated>2023-10-17T12:50:00.003Z</updated>
+        <summary type="html"><![CDATA[@media only screen and (max-width: 600px) {
+  .body {
+    overflow-x: auto;
+  }
+}
+
+
+
+This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+
+By Max Kanat-Alexander
+
+
+
+Reading healthy code should be as easy as reading a book in your native language. You shouldn’t have to stop and puzzle over what a line of code is doing. One small trick that can assist with this is to make boolean checks about something positive rather than about something negative.
+Here’s an extreme example:
+
+
+
+if not nodisable_kryponite_shield:
+  devise_clever_escape_plan()
+else:
+  engage_in_epic_battle()
+
+
+
+What does that code do? Sure, you ca…]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
         </author>
     </entry>
     <entry>
@@ -1405,16 +1470,6 @@ Timestamps:
 The post Calling all teachers! Learn how to build new commands on the GitHub Classroom CLI appeared first on The GitHub Blog.]]></summary>
         <author>
             <name>Zenara Daley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 ways AI can help communities adapt to climate change in Africa]]></title>
-        <id>https://blog.google/around-the-globe/google-africa/3-ways-ai-can-help-africans-adapt-to-climate-change/</id>
-        <link href="https://blog.google/around-the-globe/google-africa/3-ways-ai-can-help-africans-adapt-to-climate-change/"/>
-        <updated>2023-09-22T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last week at the inaugural Africa Climate Summit (ACS) in Nairobi, Kenya, we joined African leaders and shared our commitment to advance AI solutions to address the clim…]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
