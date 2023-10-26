@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/10/joint-industry-statement-of-support-for.html",
+          "author": null,
+          "description": "David Kleidermacher, VP Engineering, Android Security & Privacy and DSPA Security & Privacy, and Eugene Liderman, Director, Android Security Strategy\n\n\n\n\nLast week at Singapore International Cyber Week and the ETSI Security Conferences, the international community gathered together to discuss cybersecurity hot topics of the day. Amidst a number of important cybersecurity discussions, we want to highlight progress on connected device security demonstrated by  joint industry principles for IoT security transparency. The future of connected devices offers tremendous potential for innovation and quality of life improvements. Putting a spotlight on consumer IoT security is a key aspect of achieving these benefits. Marketplace competition can be an important driver of security improvements, with…",
+          "link": "http://security.googleblog.com/2023/10/joint-industry-statement-of-support-for.html",
+          "publishedOn": "2023-10-25T12:00:00.002Z",
+          "wordCount": 1197,
+          "title": "Joint Industry statement of support for Consumer IoT Security Principles"
+        },
+        {
           "id": "http://security.googleblog.com/2023/10/enhanced-google-play-protect-real-time.html",
           "author": null,
           "description": "Posted by Steve Kafka, Group Product Manager and Roman Kirillov, Senior Engineering Manager\n\n\n\nMobile devices have supercharged our modern lives, helping us do everything from purchasing goods in store and paying bills online to storing financial data, health records, passwords and pictures. According to Data.ai, the pandemic accelerated existing mobile habits – with app categories like finance growing 25% year-over-year and users spending over 100 billion hours in shopping apps. It's now even more important that data is protected so that bad actors can't access the information.\n\n\nPowering up Google Play Protect\nGoogle Play Protect is built-in, proactive protection against malware and unwanted software and is enabled on all Android devices with Google Play Services. Google Play Protect sca…",
@@ -58,6 +67,15 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2023/10/simplify-your-control-flows.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Jeff Hoy\n\n\n\nWhen adding loops and conditionals, even simple code can become difficult to understand.\nConsider this change:\n\n\n\n\nif (commode.HasPreferredCustomer()) {\n\nif (commode.HasPreferredCustomer()) {\n\n\n  commode.WarmSeat();\n\n  commode.WarmSeat();\n\n\n\n} else if (commode.CustomerOnPhone()) {\n\n\n\n  commode.ChillSeat();\n\n\n}\n\n}\n\n\n\n\nWhile the above change may seem simple, even adding a single else statement can make the code harder to follow since the complexity of code grow…",
+          "link": "http://testing.googleblog.com/2023/10/simplify-your-control-flows.html",
+          "publishedOn": "2023-10-24T12:46:00.000Z",
+          "wordCount": 3558,
+          "title": "Simplify Your Control Flows"
+        },
+        {
           "id": "http://testing.googleblog.com/2023/10/improve-readability-with-positive.html",
           "author": null,
           "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Max Kanat-Alexander\n\n\n\nReading healthy code should be as easy as reading a book in your native language. You shouldn’t have to stop and puzzle over what a line of code is doing. One small trick that can assist with this is to make boolean checks about something positive rather than about something negative.\nHere’s an extreme example:\n\n\n\nif not nodisable_kryponite_shield:\n  devise_clever_escape_plan()\nelse:\n  engage_in_epic_battle()\n\n\n\nWhat does that code do? Sure, you ca…",
@@ -91,6 +109,76 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/2246",
+          "author": null,
+          "description": "John Gregory’s GopherCon talk “7 Deadly Gopher Sins” is the ostensible basis of this spooky Go Time episode, but with Mat Ryer at the helm… the only thing to expect is the unexpected. And failed jokes. Expect lots of failed jokes.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nJohn Gregory – Mastodon, Twitter, GitHub, LinkedIn\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\n7 Deadly Gopher Sins\nEliza: a chatbot therapist\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/294",
+          "publishedOn": "2023-10-25T15:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 294: The se7en deadly sins of Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/294/go-time-294.mp3",
+            "length": "72832179",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/7/2250",
+          "author": null,
+          "description": "It seems like everyone is interested in Rust these days. Even the most popular Python linter, Ruff, isn’t written in Python! It’s written in Rust. But what is the state of training or inferencing deep learning models in Rust? In this episode, we are joined by Nathaniel Simard, the creator burn. We discuss Rust in general, the need to have support for AI in multiple languages, and the current state of doing “AI things” in Rust.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – NODES 2023 is coming in October!\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nNathaniel Simard – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\nburn-rs: This library strives to serve as a comprehensive deep learning framework, offering exceptional flexibility and written in Rust.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/242",
+          "publishedOn": "2023-10-24T20:40:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 242: Deep learning in Rust with Burn 🔥",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/242/practical-ai-242.mp3",
+            "length": "39187819",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/1/2248",
+          "author": null,
+          "description": "Listen to our Next Level album as a podcast! We grew up in the days of the Nintendo Entertainment System and the Sega Genesis. It’s no surprise that so many of our tracks are inspired by the 8-bit and 16-bit music of our youth. From Castlevania to Contra, Sonic the Hedgehog, and many more — we were inspired by all the nostalgic soundtracks from the games that got us here, to give our pods one-of-a-kind vibes. If you’ve been head nodding to our beats during our shows and you’ve been wishing for a way to listen outside of our pods, then this release will be an absolute delight.\nIt’s dangerous to go alone! Take this on your next coding adventure or deep work session…\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nFeaturing:\n\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nBreakmaster Cylinder – Twitter, Website\n\nShow Notes:\n\nBuy on Apple Music\nBuy on Bandcamp\nStream on Spotify\nStream on Apple Music\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/next-level",
+          "publishedOn": "2023-10-23T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews Next Level",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/next-level/the-changelog-next-level.mp3",
+            "length": "60679257",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/16/2249",
+          "author": null,
+          "description": "Changelog drops full-length musical albums in collaboration with Breakmaster Cylinder, Justin Searls on why the right tools fail for the wrong reasons, The Unix Sheikh says we have too many level of abstractions, Adam at PiCockpit compares the newly-announced Raspberry Pi 5 to the competition & Jorge Medina assures us that we’re not lacking creativity, we’re just overwhelmed by content.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – NODES 2023 is coming in October!\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/67",
+          "publishedOn": "2023-10-23T19:15:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 67: Introducing Changelog Beats",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/67/changelog-news-67.mp3",
+            "length": "10156692",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/posts/2621",
+          "author": "Adam Stacoviak",
+          "description": "It’s not that uncommon to have the mysterious Breakmaster Cylinder produce your podcast’s theme song. But it’s super uncommon to collaborate with BMC over the course of 7 years to produce fresh, custom beats for your entire podcast portfolio.\nTheme songs, outros, ad music, ins, outs, stabs, robot noises, jingles… you name it and BMC has produced it for us. All with that signature glitchy goodness that BMC is known for. Eventually, we ended up with a deep catalog of tracks that only live on our podcasts or on our hard drives. Not anymore, baby!\nWe’re excited to announce the release of TWO full-length musical albums!\nTake this on your next coding adventure \n\nIf you’ve been head nodding to our beats during our shows and you’ve been wishing for a way to listen outside of our pods, then this re…",
+          "link": "https://changelog.com/posts/introducing-changelog-beats",
+          "publishedOn": "2023-10-23T18:40:00.000Z",
+          "wordCount": null,
+          "title": "Introducing Changelog Beats",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/17/2240",
           "author": null,
@@ -375,21 +463,6 @@
             "length": "49595641",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2218",
-          "author": null,
-          "description": "ElectricSQL is a project that offers a local-first sync layer for web and mobile apps, Ned Batchelder writes about the myth of the myth of “learning styles”, Carl Johnson thinks XML is better than YAML, Berkan Sasmaz defines and describes “idempotency” & HyperDX is an open source alternative Datadog or New Relic.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nTailscale – Simple, secure networks for teams of any scale. Built on WireGuard.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:48) - ElectricSQL\n(01:29) - Learning styles myth x2\n(02:45) - XML is better than YAML\n(03:34) - Sponsor: Tailscale\n(04:27) - Idempotency\n(05:15) - HyperDX\n(06:04) - Follow-up\n(07:44) - Outro",
-          "link": "https://changelog.com/news/63",
-          "publishedOn": "2023-09-25T19:20:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 63: The missing sync layer for modern apps",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/63/changelog-news-63.mp3",
-            "length": "8014238",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -512,15 +585,6 @@
           "publishedOn": "2023-09-27T10:00:00.000Z",
           "wordCount": 1178,
           "title": "New Google.org grants to introduce 300,000 students to robotics and AI"
-        },
-        {
-          "id": "https://blog.google/technology/ai/google-ai-ml-timeline/",
-          "author": null,
-          "description": "A round-up of our top 10 AI moments of the last 25 years.",
-          "link": "https://blog.google/technology/ai/google-ai-ml-timeline/",
-          "publishedOn": "2023-09-26T16:00:00.000Z",
-          "wordCount": 1700,
-          "title": "Our 10 biggest AI moments so far"
         }
       ]
     },
@@ -529,6 +593,15 @@
       "feedUrl": "https://daniel.haxx.se/blog/feed/",
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
+        {
+          "id": "https://daniel.haxx.se/blog/?p=23215",
+          "author": "Daniel Stenberg",
+          "description": "What happens when you invoke curl. In a single picture. Yes it is simplified and I chose to show a HTTP/1.1 transfer.",
+          "link": "https://daniel.haxx.se/blog/2023/10/24/curl-from-start-to-end/",
+          "publishedOn": "2023-10-24T21:01:00.000Z",
+          "wordCount": 313,
+          "title": "curl from start to end"
+        },
         {
           "id": "https://daniel.haxx.se/blog/?p=22888",
           "author": "Daniel Stenberg",
@@ -692,6 +765,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=74908",
+          "author": "Shilpa Kumari",
+          "description": "We’re excited to highlight another top contributing researcher to GitHub’s Bug Bounty Program—@Ammar Askar!\nThe post Cybersecurity spotlight on bug bounty researcher @Ammar Askar appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-25-cybersecurity-spotlight-on-bug-bounty-researcher-ammar-askar/",
+          "publishedOn": "2023-10-25T16:00:30.000Z",
+          "wordCount": 1848,
+          "title": "Cybersecurity spotlight on bug bounty researcher @Ammar Askar"
+        },
+        {
+          "id": "https://github.blog/?p=74875",
+          "author": "Zack Koppert",
+          "description": "We're excited to share with you the contributors Action! At GitHub, we maintain several open source repositories and have developed this Action to empower maintainers to measure how many new and returning contributors and contributions have occurred over any given time period.\nThe post How to gain insight into your project contributors appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-23-how-to-gain-insight-into-your-project-contributors/",
+          "publishedOn": "2023-10-23T20:39:46.000Z",
+          "wordCount": 1015,
+          "title": "How to gain insight into your project contributors"
+        },
         {
           "id": "https://github.blog/?p=74846",
           "author": "Walker Chabbott",
@@ -898,42 +989,6 @@
           "publishedOn": "2023-09-27T16:24:25.000Z",
           "wordCount": 2256,
           "title": "How I used GitHub Copilot Chat to build a ReactJS gallery prototype"
-        },
-        {
-          "id": "https://github.blog/?p=74251",
-          "author": "Max Wagner",
-          "description": "Recently, we’ve been working to make our CI experience better by leveraging the newly released GitHub feature, Actions larger runners, to run our CI. \nThe post How GitHub uses GitHub Actions and Actions larger runners to build and test GitHub.com appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-26-how-github-uses-github-actions-and-actions-larger-runners-to-build-and-test-github-com/",
-          "publishedOn": "2023-09-26T17:30:14.000Z",
-          "wordCount": 2318,
-          "title": "How GitHub uses GitHub Actions and Actions larger runners to build and test GitHub.com"
-        },
-        {
-          "id": "https://github.blog/?p=74261",
-          "author": "Jeimy Ruiz",
-          "description": "Get a sneak peek into the must-attend sessions, speakers, workshops, and GitHub certifications available at our global developer event.\nThe post Your ultimate guide to the GitHub Universe ‘23 agenda appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-26-your-ultimate-guide-to-the-github-universe-23-agenda/",
-          "publishedOn": "2023-09-26T16:00:52.000Z",
-          "wordCount": 1592,
-          "title": "Your ultimate guide to the GitHub Universe ‘23 agenda"
-        },
-        {
-          "id": "https://github.blog/?p=74273",
-          "author": "Man Yue Mo",
-          "description": "In this post, I'll exploit CVE-2023-3420, a type confusion in Chrome that allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site.\nThe post Getting RCE in Chrome with incorrect side effect in the JIT compiler appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-26-getting-rce-in-chrome-with-incorrect-side-effect-in-the-jit-compiler/",
-          "publishedOn": "2023-09-26T15:00:54.000Z",
-          "wordCount": 5021,
-          "title": "Getting RCE in Chrome with incorrect side effect in the JIT compiler"
-        },
-        {
-          "id": "https://github.blog/?p=74237",
-          "author": "Zenara Daley",
-          "description": "In this step-by-step tutorial, we’ll dive into how you can become the next open source contributor to the GitHub Classroom CLI, building commands that you can use to improve your workflow as an educator!\nThe post Calling all teachers! Learn how to build new commands on the GitHub Classroom CLI appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-09-25-calling-all-teachers-learn-how-to-build-new-commands-on-the-github-classroom-cli/",
-          "publishedOn": "2023-09-25T16:08:06.000Z",
-          "wordCount": 1504,
-          "title": "Calling all teachers! Learn how to build new commands on the GitHub Classroom CLI"
         }
       ]
     },
@@ -943,6 +998,24 @@
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=21437",
+          "author": "Nubank Editorial",
+          "description": "The LatAm leap forward: David Vélez, Nubank's CEO. A journey from financial disruption to consumer empowerment with Nubank\nThe post From a Small House to a Public Company appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/from-a-small-house-to-a-bn-public-company/",
+          "publishedOn": "2023-10-25T20:13:49.000Z",
+          "wordCount": 3632,
+          "title": "From a Small House to a Public Company"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=21423",
+          "author": "Nubank Editorial",
+          "description": "The meeting brought together members of the product team from various companies\nThe post Scaling with purpose: insights from the São Paulo Product Community Meetup at Nubank appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/scaling-with-purpose-insights-from-the-sao-paulo-product-community-meetup-at-nubank/",
+          "publishedOn": "2023-10-23T13:32:01.000Z",
+          "wordCount": 4534,
+          "title": "Scaling with purpose: insights from the São Paulo Product Community Meetup at Nubank"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=21404",
           "author": "Nubank Editorial",
           "description": "Empowering machines with language, from training to specialization. Unveiling the magic of Large Language Models.\nThe post Large Language Models: What are they, how they work, and how to use them? appeared first on Building Nubank.",
@@ -950,15 +1023,6 @@
           "publishedOn": "2023-10-17T22:24:17.000Z",
           "wordCount": 4250,
           "title": "Large Language Models: What are they, how they work, and how to use them?"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=21382",
-          "author": "BU Team",
-          "description": "The Dark Mode's development process has been marked by a commitment to continuous improvement based on user feedback.\nThe post The birth of the Dark Mode: a journey into Nubank’s app evolution appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/the-birth-of-the-dark-mode-a-journey-into-nubanks-app-evolution/",
-          "publishedOn": "2023-09-26T13:49:47.000Z",
-          "wordCount": 4251,
-          "title": "The birth of the Dark Mode: a journey into Nubank’s app evolution"
         }
       ]
     },
@@ -967,6 +1031,24 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/thought-leadership/responsible-ai",
+          "author": "Jobert Abma",
+          "description": "At HackerOne, we are combining human intelligence with artificial intelligence at scale to improve the efficiency of people and unlock entirely new capabilities.",
+          "link": "https://www.hackerone.com/thought-leadership/responsible-ai",
+          "publishedOn": "2023-10-25T17:52:10.000Z",
+          "wordCount": 1536,
+          "title": "Responsible AI at HackerOne"
+        },
+        {
+          "id": "https://hackerone.com/vulnerability-management/hacktivity-epss-integration",
+          "author": "Michiel Prins",
+          "description": "HackerOne has integrated EPSS scoring into Hacktivity for more comprehensive CVE remediation.",
+          "link": "https://www.hackerone.com/vulnerability-management/hacktivity-epss-integration",
+          "publishedOn": "2023-10-24T16:30:44.000Z",
+          "wordCount": 1186,
+          "title": "Elevate CVE Remediation with EPSS, Now Integrated in HackerOne Hacktivity"
+        },
         {
           "id": "https://hackerone.com/lhe/awc-final-round-2023",
           "author": "HackerOne",
@@ -1011,24 +1093,6 @@
           "publishedOn": "2023-09-27T20:00:00.000Z",
           "wordCount": 1141,
           "title": "About the HackerOne Engineering Mentoring Program"
-        },
-        {
-          "id": "https://hackerone.com/culture-and-talent/women-in-sales",
-          "author": "Joy Aaring",
-          "description": "At HackerOne, a diverse sales organization plays a pivotal role in driving growth and success.",
-          "link": "https://www.hackerone.com/culture-and-talent/women-in-sales",
-          "publishedOn": "2023-09-26T20:00:00.000Z",
-          "wordCount": 1304,
-          "title": "Women in Sales: The Importance of a Diverse Team"
-        },
-        {
-          "id": "https://hackerone.com/culture-and-talent/hackeronesie",
-          "author": "Debbie Cotton",
-          "description": "The story behind HackerOne’s first anniversary gift for employees",
-          "link": "https://www.hackerone.com/culture-and-talent/hackeronesie",
-          "publishedOn": "2023-09-26T20:00:00.000Z",
-          "wordCount": 1033,
-          "title": "What is the HackerOnesie?"
         }
       ]
     },
