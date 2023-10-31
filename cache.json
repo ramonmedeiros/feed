@@ -76,6 +76,15 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2023/10/include-only-relevant-details-in-tests.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis article was adapted from a Google Testing on the Toilet (TotT) episode. You can download a printer-friendly version of this TotT episode and post it in your office.\n\n\nBy Dagang Wei\n\n\n\nWhat problem in the code below makes the test hard to follow?\n\n\n\n\ndef test_get_balance(self):\n  settings = BankSettings(FDIC_INSURED, REGULATED, US_BASED)\n  account = Account(settings, ID, BALANCE, ADDRESS, NAME, EMAIL, PHONE)\n  self.assertEqual(account.GetBalance(), BALANCE)\n\n\n\n\n\nThe problem is that there is a lot of noise in the account creation code, which makes it hard to tell which details are relevant to the assert statement. \nBut going from one extreme to the other can also make the test hard to follow:\n\n\n\ndef tes…",
+          "link": "http://testing.googleblog.com/2023/10/include-only-relevant-details-in-tests.html",
+          "publishedOn": "2023-10-30T12:43:00.001Z",
+          "wordCount": 4239,
+          "title": "Include Only Relevant Details In Tests"
+        },
+        {
           "id": "http://testing.googleblog.com/2023/10/simplify-your-control-flows.html",
           "author": null,
           "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Jeff Hoy\n\n\n\nWhen adding loops and conditionals, even simple code can become difficult to understand.\nConsider this change:\n\n\n\n\nif (commode.HasPreferredCustomer()) {\n\nif (commode.HasPreferredCustomer()) {\n\n\n  commode.WarmSeat();\n\n  commode.WarmSeat();\n\n\n\n} else if (commode.CustomerOnPhone()) {\n\n\n\n  commode.ChillSeat();\n\n\n}\n\n}\n\n\n\n\nWhile the above change may seem simple, even adding a single else statement can make the code harder to follow since the complexity of code grow…",
@@ -118,6 +127,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/16/2253",
+          "author": null,
+          "description": "The hubbub of the web dev world right now is Next.js’ integration of React Server Components, Kent C. Dodds writes up why he doesn’t use Next, Lee Robinson responds with why he does, the NixOS team hits a milestone in their reproducible builds effort & OpenSign is an open source alternative to DocuSign.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSocket – Secure your software supply chain in GitHub PRs! Try it for yourself today\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/68",
+          "publishedOn": "2023-10-30T19:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 68: What will React come up with Next?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/68/changelog-news-68.mp3",
+            "length": "7251009",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/17/2241",
           "author": null,
@@ -751,6 +775,24 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=74952",
+          "author": "Michelle Mannering",
+          "description": "As Hacktoberfest comes to a close, you still have a day or so left to complete and submit your pull requests. If you’re struggling to think of projects to contribute to, our picks below might help you. This edition of the Release Radar covers a few projects that shipped major version updates this August and […]\nThe post Release Radar · Hacktoberfest 2023 Edition appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-30-release-radar-hack-23/",
+          "publishedOn": "2023-10-31T06:11:07.000Z",
+          "wordCount": 1683,
+          "title": "Release Radar · Hacktoberfest 2023 Edition"
+        },
+        {
+          "id": "https://github.blog/?p=74969",
+          "author": "Nicole Choi",
+          "description": "Here’s everything you need to know to build your first LLM app and problem spaces you can start exploring today.\nThe post The architecture of today’s LLM applications appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/",
+          "publishedOn": "2023-10-30T16:22:59.000Z",
+          "wordCount": 3253,
+          "title": "The architecture of today’s LLM applications"
+        },
+        {
           "id": "https://github.blog/?p=73980",
           "author": "Lee Reilly",
           "description": "13 spooktacular games plus source code for readers to jam on.\nThe post Hackable Halloween games MMXXIII appeared first on The GitHub Blog.",
@@ -991,6 +1033,15 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=21473",
+          "author": "Nubank Editorial",
+          "description": "The ethos of “solving sharp pains” and staying agile to local needs isn’t just about the now; it’s a legacy\nThe post NuStories: Tailoring products for fanatical customers in various countries appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/tailoring-products-for-fanatical-customers-in-various-countries/",
+          "publishedOn": "2023-10-30T14:12:00.000Z",
+          "wordCount": 3652,
+          "title": "NuStories: Tailoring products for fanatical customers in various countries"
+        },
         {
           "id": "https://building.nubank.com.br/?p=21461",
           "author": "Nubank Editorial",
