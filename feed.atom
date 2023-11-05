@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-04T12:02:29.562Z</updated>
+    <updated>2023-11-05T12:02:50.231Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Data Quality Automation at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter"/>
+        <updated>2023-11-05T12:02:38.254Z</updated>
+        <summary type="html"><![CDATA[In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog & Friends 20: Beat freak in residence]]></title>
         <id>changelog.com/17/2252</id>
@@ -97,6 +107,22 @@ Something missing or broken? PRs welcome!]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Qualified certificates with qualified risks]]></title>
+        <id>http://security.googleblog.com/2023/11/qualified-certificates-with-qualified.html</id>
+        <link href="http://security.googleblog.com/2023/11/qualified-certificates-with-qualified.html"/>
+        <updated>2023-11-03T18:38:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Chrome Security team
+
+
+Improving the interoperability of web services is an important and worthy goal. We believe that it should be easier for people to maintain and control their digital identities. And we appreciate that policymakers working on European Union digital certificate legislation, known as eIDAS, are working toward this goal. However, a specific part of the legislation, Article 45, hinders browsers’ ability to enforce certain security requirements on certificates, potentially holding back advances in web security for decades. We and many past and present leaders in the international web community have significant concerns about Article 45's impact on security. 
+
+
+We urge lawmakers to heed the calls of scientists and security experts to revise this part of the legislation rather than erode users’ privacy and security on the web.]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[First handset with MTE on the market]]></title>
         <id>https://googleprojectzero.blogspot.com/2023/11/first-handset-with-mte-on-market.html</id>
         <link href="https://googleprojectzero.blogspot.com/2023/11/first-handset-with-mte-on-market.html"/>
@@ -125,6 +151,25 @@ Something missing or broken? PRs welcome!]]></summary>
 The post Leveraging AI to empower all developers at GitHub Universe 2023 appeared first on The GitHub Blog.]]></summary>
         <author>
             <name>Ed Summers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More ways for users to identify independently security tested apps on Google Play]]></title>
+        <id>http://security.googleblog.com/2023/11/more-ways-for-users-to-identify.html</id>
+        <link href="http://security.googleblog.com/2023/11/more-ways-for-users-to-identify.html"/>
+        <updated>2023-11-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Nataliya Stanetsky, Android Security and Privacy Team
+
+
+Keeping Google Play safe for users and developers remains a top priority for Google. As users increasingly prioritize their digital privacy and security, we continue to invest in our Data Safety section and transparency labeling efforts to help users make more informed choices about the apps they use. 
+
+
+Research shows that transparent security labeling plays a crucial role in consumer risk perception, building trust, and influencing product purchasing decisions. We believe the same principles apply for labeling and badging in the Google Play store. The transparency of an app’s data security and privacy play a key role in a user’s decision to download, trust, and use an app.
+
+
+Highlighting Independently Security Tested VPN A…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
         </author>
     </entry>
     <entry>
@@ -1724,107 +1769,6 @@ The post Prompting GitHub Copilot Chat to become your personal AI assistant for 
 The post Skilling African developers through All In Africa appeared first on The GitHub Blog.]]></summary>
         <author>
             <name>Sarah Oyetubo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog & Friends 16: The beginning of the end of physical media]]></title>
-        <id>changelog.com/17/2238</id>
-        <link href="https://changelog.com/friends/16"/>
-        <updated>2023-10-06T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[On September 29th, Netflix shipped its final DVDs, marking the end of an era in physical media. So, we invited our friend Christina Warren (aka film_girl) from GitHub to pour out a drink with us and lament the end of this golden age of access to the films we all love.
-Leave us a comment
-Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Neo4j – NODES 2023 is coming in October!
-
-Sentry – Get $100 towards your error monitoring with Sentry! Use the code changelog.
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases c…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Expanding our exploit reward program to Chrome and Cloud]]></title>
-        <id>http://security.googleblog.com/2023/10/expanding-our-exploit-reward-program-to.html</id>
-        <link href="http://security.googleblog.com/2023/10/expanding-our-exploit-reward-program-to.html"/>
-        <updated>2023-10-06T14:21:00.001Z</updated>
-        <summary type="html"><![CDATA[Stephen Roettger and Marios Pomonis, Google Software Engineers
-
-
-In 2020, we launched a novel format for our vulnerability reward program (VRP) with the kCTF VRP and its continuation kernelCTF. For the first time, security researchers could get bounties for n-day exploits even if they didn’t find the vulnerability themselves. This format proved valuable in improving our understanding of the most widely exploited parts of the linux kernel. Its success motivated us to expand it to new areas and we're now excited to announce that we're extending it to two new targets: v8CTF and kvmCTF.
-
-
-
-
-
-Today, we're launching v8CTF, a CTF focused on V8, the JavaScript engine that powers Chrome. kvmCTF is an upcoming CTF focused on Kernel-based Virtual Machine (KVM) that will be released later in the year.…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kerberizing Hadoop Clusters at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter"/>
-        <updated>2023-10-06T12:02:42.379Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
-        <updated>2023-10-06T12:02:42.357Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Constraint Management for cluster operation safety and reliability at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter"/>
-        <updated>2023-10-06T12:02:42.346Z</updated>
-        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we scaled Reads On the Twitter Users Database]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database"/>
-        <updated>2023-10-06T12:02:42.337Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service"/>
-        <updated>2023-10-06T12:02:42.329Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter's Recommendation Algorithm]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"/>
-        <updated>2023-10-06T12:02:42.319Z</updated>
-        <summary type="html"><![CDATA[Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>
