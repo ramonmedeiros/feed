@@ -6,6 +6,15 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/11/mte-promising-path-forward-for-memory.html",
+          "author": null,
+          "description": "Posted by Andy Qin, Irene Ang, Kostya Serebryany, Evgenii Stepanov \n\n\nSince 2018, Google has partnered with ARM and collaborated with many ecosystem partners (SoCs vendors, mobile phone OEMs, etc.) to develop Memory Tagging Extension (MTE) technology. We are now happy to share the growing adoption in the ecosystem. MTE is now available on some OEM devices (as noted in a recent blog post by Project Zero) with Android 14 as a developer option, enabling developers to use MTE to discover memory safety issues in their application easily. \nThe biggest contributor to security vulnerabilities are memory safety related defects and Google has invested in a set of technologies to help mitigate memory safety risks. These include but are not limited to:\nShifting to memory safe languages such as Rust as…",
+          "link": "http://security.googleblog.com/2023/11/mte-promising-path-forward-for-memory.html",
+          "publishedOn": "2023-11-07T18:56:00.002Z",
+          "wordCount": 1050,
+          "title": "MTE - The promising path forward for memory safety"
+        },
+        {
           "id": "http://security.googleblog.com/2023/11/qualified-certificates-with-qualified.html",
           "author": null,
           "description": "Posted by Chrome Security team\n\n\nImproving the interoperability of web services is an important and worthy goal. We believe that it should be easier for people to maintain and control their digital identities. And we appreciate that policymakers working on European Union digital certificate legislation, known as eIDAS, are working toward this goal. However, a specific part of the legislation, Article 45, hinders browsers’ ability to enforce certain security requirements on certificates, potentially holding back advances in web security for decades. We and many past and present leaders in the international web community have significant concerns about Article 45's impact on security. \n\n\nWe urge lawmakers to heed the calls of scientists and security experts to revise this part of the legislation rather than erode users’ privacy and security on the web.",
@@ -67,15 +76,6 @@
           "publishedOn": "2023-10-10T19:39:00.005Z",
           "wordCount": 1826,
           "title": "Scaling BeyondCorp with AI-Assisted Access Control Policies"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/10/bare-metal-rust-in-android.html",
-          "author": null,
-          "description": "Posted by Andrew Walbran, Android Rust Team\n\n\nmoving native code in Android from C++ to Rust has resulted in fewer security vulnerabilities. Most of the components we mentioned then were system services in userspace (running under Linux), but these are not the only components typically written in memory-unsafe languages. Many security-critical components of an Android system run in a “bare-metal” environment, outside of the Linux kernel, and these are historically written in C. As part of our efforts to harden firmware on Android devices, we are increasingly using Rust in these bare-metal environments too.\n\n\nTo that end, we have rewritten the Android Virtualization Framework’s protected VM (pVM) firmware in Rust to provide a memory safe foundation for the pVM root of trust. This firmware p…",
-          "link": "http://security.googleblog.com/2023/10/bare-metal-rust-in-android.html",
-          "publishedOn": "2023-10-09T16:30:00.001Z",
-          "wordCount": 1666,
-          "title": "Bare-metal Rust in Android"
         }
       ]
     },
@@ -84,6 +84,15 @@
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
+        {
+          "id": "http://testing.googleblog.com/2023/11/write-clean-code-to-reduce-cognitive.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Andrew Trenk\n\n\n\nDo you ever read code and find it hard to understand? You may be experiencing cognitive load!\nCognitive load refers to the amount of mental effort required to complete a task. When reading code, you have to keep in mind information such as values of variables, conditional logic, loop indices, data structure state, and interface contracts. Cognitive load increases as code becomes more complex. People can typically hold up to 5–7 separate pieces of informat…",
+          "link": "http://testing.googleblog.com/2023/11/write-clean-code-to-reduce-cognitive.html",
+          "publishedOn": "2023-11-06T13:45:00.000Z",
+          "wordCount": 2754,
+          "title": "Write Clean Code to Reduce Cognitive Load"
+        },
         {
           "id": "http://testing.googleblog.com/2023/10/include-only-relevant-details-in-tests.html",
           "author": null,
@@ -127,6 +136,36 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2257",
+          "author": null,
+          "description": "On Monday, October 30, 2023, the U.S. White House issued its Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence.  Two days later, a policy paper was issued by the U.K. government entitled The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023.  It was signed by 29 countries, including the United States and China, the global leaders in AI research.\nIn this Fully Connected episode, Daniel and Chris parse the details and highlight key takeaways from these documents, especially the extensive and detailed executive order, which has the force of law in the United States.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nTraceroute Podcast – Listen and follow Season 3 of Traceroute starting November 2 on Apple, Spotify, or wherever you get your podcasts!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nExecutive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence\nFACT SHEET: President Biden Issues Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence\nThe Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/244",
+          "publishedOn": "2023-11-07T14:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 244: Government regulation of AI has arrived",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/244/practical-ai-244.mp3",
+            "length": "43520952",
+            "type": "audio/mpeg"
+          }
+        },
+        {
+          "id": "changelog.com/16/2258",
+          "author": null,
+          "description": "David Hugh-Jones has a lot to say about what makes a good comment, Hugging Face released a distilled variant of Whisper for speech recognition, The New Stack reports on C++ creator Bjarne Stroustrup’s plan for bringing safety to the language, Jeff Sandberg declares that CSS is fun again & Jose M. Gilgado praises the beauty of finished software.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nAppwrite – Build Fast. Scale Big. All in One Place. Appwrite is a backend platform for developing Web, Mobile, and Flutter applications. Built with the open source community and optimized for developer experience in the coding languages you love.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/69",
+          "publishedOn": "2023-11-06T19:15:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 69: How to write a good comment",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/69/changelog-news-69.mp3",
+            "length": "7537310",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/17/2252",
           "author": null,
@@ -466,21 +505,6 @@
             "length": "74020755",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2243",
-          "author": null,
-          "description": "Jacob Kaplan-Moss’ recommendations for remote vs colocated teams, Duarte Carmo created a neural search engine from Changelog transcripts, Tom Hacohen says strong static typing is a hill he’s willing to die on, Orhun Parmaksız created a CLI that makes your keyboard sound like a typewriter & Luke Plant spits hard truths about simplicity.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – NODES 2023 is coming in October!\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:30) - RTO vs WFH\n(02:16) - Changelog neural search\n(03:02) - Static typing is a hill I'm willing to die on\n(04:29) - Sponsor: Neo4j\n(05:29) - Turn your keyboard into a typewriter\n(06:33) - No one actually wants simplicity\n(07:42) - Outro",
-          "link": "https://changelog.com/news/65",
-          "publishedOn": "2023-10-09T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 65: RTO vs WFH & the case for strong static typing",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/65/changelog-news-65.mp3",
-            "length": "8465310",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -505,6 +529,15 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/sustainability/boosting-sustainable-solutions-from-sweden/",
+          "author": null,
+          "description": "Today, we’re announcing the Swedish recipients of Google.org Impact Challenge: Tech for Social Good - receiving technical support and 3 million Euros in funding for char…",
+          "link": "https://blog.google/outreach-initiatives/sustainability/boosting-sustainable-solutions-from-sweden/",
+          "publishedOn": "2023-11-08T06:00:00.000Z",
+          "wordCount": 1409,
+          "title": "Boosting sustainable solutions from Sweden"
+        },
         {
           "id": "https://blog.google/technology/safety-security/google-ai-security-expansion/",
           "author": null,
@@ -576,15 +609,6 @@
           "publishedOn": "2023-10-10T10:00:00.000Z",
           "wordCount": 1035,
           "title": "Demand more from social with AI-powered ads"
-        },
-        {
-          "id": "https://blog.google/technology/health/hlth-2023-bringing-ai-to-health-responsibly/",
-          "author": null,
-          "description": "Google leaders take the stage at HLTH to discuss the transformative power of AI for health.",
-          "link": "https://blog.google/technology/health/hlth-2023-bringing-ai-to-health-responsibly/",
-          "publishedOn": "2023-10-09T18:45:00.000Z",
-          "wordCount": 1409,
-          "title": "HLTH 2023: Bringing AI to health responsibly"
         }
       ]
     },
@@ -1007,33 +1031,6 @@
           "publishedOn": "2023-10-10T16:00:26.000Z",
           "wordCount": 2108,
           "title": "Research: Quantifying GitHub Copilot’s impact on code quality"
-        },
-        {
-          "id": "https://github.blog/?p=74613",
-          "author": "Kevin Backhouse",
-          "description": "CVE-2023-43641 is a vulnerability in libcue, which can lead to code execution by downloading a file on GNOME.\nThe post Coordinated Disclosure: 1-Click RCE on GNOME (CVE-2023-43641) appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-10-09-coordinated-disclosure-1-click-rce-on-gnome-cve-2023-43641/",
-          "publishedOn": "2023-10-09T17:00:41.000Z",
-          "wordCount": 2059,
-          "title": "Coordinated Disclosure: 1-Click RCE on GNOME (CVE-2023-43641)"
-        },
-        {
-          "id": "https://github.blog/?p=74604",
-          "author": "Ed Summers",
-          "description": "GitHub Copilot Chat can help you learn about accessibility and improve the accessibility of your code. In this blog, we share a sample foundational prompt that instructs GitHub Copilot Chat to become your personal AI assistant for accessibility.\nThe post Prompting GitHub Copilot Chat to become your personal AI assistant for accessibility appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-10-09-prompting-github-copilot-chat-to-become-your-personal-ai-assistant-for-accessibility/",
-          "publishedOn": "2023-10-09T16:00:05.000Z",
-          "wordCount": 3015,
-          "title": "Prompting GitHub Copilot Chat to become your personal AI assistant for accessibility"
-        },
-        {
-          "id": "https://github.blog/?p=74536",
-          "author": "Sarah Oyetubo",
-          "description": "All In Africa is a gateway to growth, learning, and meaningful connections within the African open source ecosystem and beyond.\nThe post Skilling African developers through All In Africa appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-10-09-skilling-african-developers-through-all-in-africa/",
-          "publishedOn": "2023-10-09T14:02:45.000Z",
-          "wordCount": 1032,
-          "title": "Skilling African developers through All In Africa"
         }
       ]
     },
@@ -1173,6 +1170,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/936766f0017c",
+          "author": "Netflix Technology Blog",
+          "description": "Empowering video editors with multimodal machine learning to discover perfect moments across the entire Netflix catalog",
+          "link": "https://netflixtechblog.com/building-in-video-search-936766f0017c?source=rss----2615bd06b42e---4",
+          "publishedOn": "2023-11-06T17:35:19.000Z",
+          "wordCount": 1518,
+          "title": "Building In-Video Search"
+        },
         {
           "id": "https://medium.com/p/0d83f5a00d08",
           "author": "Netflix Technology Blog",
