@@ -119,15 +119,6 @@
           "publishedOn": "2023-10-17T12:50:00.003Z",
           "wordCount": 2920,
           "title": "Improve Readability With Positive Booleans"
-        },
-        {
-          "id": "http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nA version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy David Mandelberg\n\n\n\nShell scripts (including Bash scripts) can be convenient for automating simple command line procedures, and they are often better than keeping complicated commands in a single developer's history. However, shell scripts can be hard to understand and maintain, and are typically not as well-supported as other programming languages. Shell scripts have less support for unit testing, and there is likely a lower chance that somebody reading one will be experienced with the language.\nPython, Go, or other …",
-          "link": "http://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html",
-          "publishedOn": "2023-10-11T12:21:00.002Z",
-          "wordCount": 2900,
-          "title": "Shell Scripts: Stay Small & Simple"
         }
       ]
     },
@@ -136,6 +127,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/2255",
+          "author": null,
+          "description": "Rob Pike says, “Simplicity is the art of hiding complexity.” If that’s true, what is simplicity in the context of writing software in Go? Is it even something we should strive for? Can software be too simple? Ian & Kris discuss with return guest  sam boyer.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nsam boyer – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nRob Pike - Simplicity is Complicated\nThe Infinite Game - Simon Sinek\n“Simple Made Easy” - Rich Hickey (2011)\n“You can’t get snakes from chicken eggs”\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/296",
+          "publishedOn": "2023-11-08T13:15:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 296: Principles of simplicity",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/296/go-time-296.mp3",
+            "length": "84740716",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/7/2257",
           "author": null,
@@ -475,36 +481,6 @@
             "length": "80872242",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/1/2210",
-          "author": null,
-          "description": "This week we’re joined by Marcin Kulik to talk about his project asciinema. You’ve likely seen this out there in the wild — asciinema lets you record and share your terminal sessions in full fidelity. Forget screen recording apps that offer blurry video. asciinema provides a lightweight, text-based approach to terminal recording with lots of possibilities. Marcin shares the backstory on this project, where he’d like to take it, who’s supporting him along the way, and we even included 11 minutes of bonus content for Changelog ++ subscribers.\nLeave us a comment\nChangelog++ members get a bonus 10 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nStatsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter…",
-          "link": "https://changelog.com/podcast/561",
-          "publishedOn": "2023-10-11T20:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 561: Coming to asciinema near you",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/561/the-changelog-561.mp3",
-            "length": "79893413",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/2/2242",
-          "author": null,
-          "description": "The 10th GopherCon took place the last week of September and it was a blast. In this episode, we’re talking about our experiences at the conference from several different viewpoints. Angelica as a conference organizer, Johnny as an emcee and workshop instructor, Kaylyn as a speaker, and Kris as a regular attendee.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nTypesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You iterlly can’t get any faster!\n\n\nFeaturing:\n\nKaylyn Gibilterra – Twitter, GitHub\nKris Brandow – Twitter, GitHub\nAngelica Hill – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!\nTimestamps:\n(00:45) - Kaylyn\n(06:45) - Organizing\n(12:25) - Russ Cox\n(18:41) - Captions\n(23:36) - Café X: By Any Beans Necessary\n(33:05) - Neurospicy meetup\n(37:09) - Meetup Organizers Unite!\n(38:32) - The RainGo Alliance Meetup\n(43:53) - Everywhere all at once\n(51:04) - Fangirling over Rebecca Bilbro\n(57:18) - Unpopular opinions!\n(58:26) - Kaylyn's unpop\n(59:24) - Kaylyn's 2nd unpop\n(1:00:23) - Angelica's unpop\n(1:01:43) - Johnny's unpop\n(1:04:54) - Kris' unpop\n(1:14:31) - Outro",
-          "link": "https://changelog.com/gotime/293",
-          "publishedOn": "2023-10-11T16:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 293: Experiences from GopherCon 2023",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/293/go-time-293.mp3",
-            "length": "74020755",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -643,24 +619,6 @@
           "publishedOn": "2023-10-13T09:21:38.000Z",
           "wordCount": 1197,
           "title": "3,000 contributors"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=23212",
-          "author": "Daniel Stenberg",
-          "description": "In association with the release of curl 8.4.0, we publish a security advisory and all the details for CVE-2023-38545. This problem is the worst security problem found in curl in a long time. We set it to severity HIGH. While the advisory contains all the necessary details. I figured I would use a few additional … Continue reading How I made a heap overflow in curl →",
-          "link": "https://daniel.haxx.se/blog/2023/10/11/how-i-made-a-heap-overflow-in-curl/",
-          "publishedOn": "2023-10-11T06:05:28.000Z",
-          "wordCount": 2035,
-          "title": "How I made a heap overflow in curl"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=23241",
-          "author": "Daniel Stenberg",
-          "description": "We cut the release cycle short and decided to ship this release now rather than later because of the heap overflow issue we found. Release presentation Numbers the 252nd release3 changes28 days (total: 9,336)136 bug-fixes (total: 9,551)216 commits (total: 31,158)1 new public libcurl function (total: 93)0 new curl_easy_setopt() option (total: 303)1 new curl command line … Continue reading curl 8.4.0 →",
-          "link": "https://daniel.haxx.se/blog/2023/10/11/curl-8-4-0/",
-          "publishedOn": "2023-10-11T06:01:17.000Z",
-          "wordCount": 1057,
-          "title": "curl 8.4.0"
         }
       ]
     },
@@ -816,6 +774,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=75275",
+          "author": "Lee Reilly",
+          "description": "The GitHub Awards recognizes and celebrates the outstanding contributions and achievements in the developer community, honoring individuals, projects, and organizations for their impactful work, innovation, thought leadership, and creating an outsized positive impact on the community.\nThe post Celebrating the GitHub Awards 2023 recipients 🎉 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-11-09-celebrating-the-github-awards-2023-recipients/",
+          "publishedOn": "2023-11-10T00:00:11.000Z",
+          "wordCount": 2307,
+          "title": "Celebrating the GitHub Awards 2023 recipients 🎉"
+        },
         {
           "id": "https://github.blog/?p=75187",
           "author": "Thomas Dohmke",
@@ -1022,24 +989,6 @@
           "publishedOn": "2023-10-12T15:00:04.000Z",
           "wordCount": 1149,
           "title": "Ensuring the next generation of open source leaders are truly “all in”"
-        },
-        {
-          "id": "https://github.blog/?p=74719",
-          "author": "Jakub Oleksy",
-          "description": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: September 2023 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-10-11-github-availability-report-september-2023/",
-          "publishedOn": "2023-10-11T19:47:46.000Z",
-          "wordCount": 915,
-          "title": "GitHub Availability Report: September 2023"
-        },
-        {
-          "id": "https://github.blog/?p=74681",
-          "author": "Tony Camp",
-          "description": "GitHub Enterprise Cloud customers can now ensure controlled workflows run and pass before code is merged into any of its repositories.\nThe post Enforcing code reliability by requiring workflows with GitHub Repository Rules appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-10-11-enforcing-code-reliability-by-requiring-workflows-with-github-repository-rules/",
-          "publishedOn": "2023-10-11T15:00:42.000Z",
-          "wordCount": 1218,
-          "title": "Enforcing code reliability by requiring workflows with GitHub Repository Rules"
         }
       ]
     },
@@ -1118,6 +1067,33 @@
       "feedUrl": "https://www.hackerone.com/blog.rss",
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
+        {
+          "id": "https://hackerone.com/security-compliance/budgeting-for-vdps",
+          "author": "Ilona Cohen",
+          "description": "U.S. policymakers are increasingly encouraging and mandating public and private sector organizations to enhance their cybersecurity programs by adopting VDPs. Have you planned for a VDP in next year’s budget?",
+          "link": "https://www.hackerone.com/security-compliance/budgeting-for-vdps",
+          "publishedOn": "2023-11-09T17:12:48.000Z",
+          "wordCount": 1378,
+          "title": "2024 Budget Planning: Preparing For U.S. Mandates to Implement Vulnerability Disclosure Policies (VDPs)"
+        },
+        {
+          "id": "https://hackerone.com/penetration-testing/what-difference-between-pentesting-and-bug-bounty",
+          "author": "Naz Bozdemir",
+          "description": "Do pentesting and bug bounties serve the same purpose or complement each other? Let’s explore the four different approaches to pentests and the key differences between bug bounty and pentesting.",
+          "link": "https://www.hackerone.com/penetration-testing/what-difference-between-pentesting-and-bug-bounty",
+          "publishedOn": "2023-11-08T16:50:09.000Z",
+          "wordCount": 1656,
+          "title": "What Is the Difference Between Pentesting and Bug Bounty?"
+        },
+        {
+          "id": "https://hackerone.com/thought-leadership/ai-safety-red-teaming",
+          "author": "Michiel Prins",
+          "description": "HackerOne builds upon the foundation of bug bounty in our approach to AI Red Teaming.",
+          "link": "https://www.hackerone.com/thought-leadership/ai-safety-red-teaming",
+          "publishedOn": "2023-11-07T17:01:19.000Z",
+          "wordCount": 1706,
+          "title": "An Emerging Playbook for AI Red Teaming With HackerOne"
+        },
         {
           "id": "https://hackerone.com/vulnerability-management/common-bug-bounty-program-mistakes",
           "author": "Emma Whitford",
