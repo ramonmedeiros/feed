@@ -92,15 +92,6 @@
           "publishedOn": "2023-10-30T12:43:00.001Z",
           "wordCount": 4239,
           "title": "Include Only Relevant Details In Tests"
-        },
-        {
-          "id": "http://testing.googleblog.com/2023/10/simplify-your-control-flows.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Jeff Hoy\n\n\n\nWhen adding loops and conditionals, even simple code can become difficult to understand.\nConsider this change:\n\n\n\n\nif (commode.HasPreferredCustomer()) {\n\nif (commode.HasPreferredCustomer()) {\n\n\n  commode.WarmSeat();\n\n  commode.WarmSeat();\n\n\n\n} else if (commode.CustomerOnPhone()) {\n\n\n\n  commode.ChillSeat();\n\n\n}\n\n}\n\n\n\n\nWhile the above change may seem simple, even adding a single else statement can make the code harder to follow since the complexity of code grow…",
-          "link": "http://testing.googleblog.com/2023/10/simplify-your-control-flows.html",
-          "publishedOn": "2023-10-24T12:46:00.000Z",
-          "wordCount": 3558,
-          "title": "Simplify Your Control Flows"
         }
       ]
     },
@@ -109,6 +100,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2244",
+          "author": null,
+          "description": "This week on we’re joined by Emil Sjölander from Figma — talking about bringing Dev Mode to Figma. Dev Mode is their new workspace in Figma that’s designed to bring developers and design to the same tool.\nThe question they’re trying to answer is “How do you create a home for developers in a design tool?” We go way back to Emil’s startup that was acquired by Figma called Visly, how we iterated to here from 20 years ago (think PSD > HTML days), what they did to build Dev Mode, what they’re doing around codegen, the popularity of design systems, and what it takes to go from zero to Dev Mode.\nLeave us a comment\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nNeon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.\n\nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nTraceroute – Listen and follow Season 3 of Traceroute starting November 2 on Apple, Spotify, or wherever you get your podcasts!\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nEmil Sjölander – Twitter, GitHub\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nDev Mode: Building a design tool that works harder for developers\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/567",
+          "publishedOn": "2023-11-22T16:50:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 567: Bringing Dev Mode to Figma",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/567/the-changelog-567.mp3",
+            "length": "74270897",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/7/2267",
           "author": null,
@@ -468,21 +474,6 @@
             "length": "72832179",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2250",
-          "author": null,
-          "description": "It seems like everyone is interested in Rust these days. Even the most popular Python linter, Ruff, isn’t written in Python! It’s written in Rust. But what is the state of training or inferencing deep learning models in Rust? In this episode, we are joined by Nathaniel Simard, the creator burn. We discuss Rust in general, the need to have support for AI in multiple languages, and the current state of doing “AI things” in Rust.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – NODES 2023 is coming in October!\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nNathaniel Simard – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\nburn-rs: This library strives to serve as a comprehensive deep learning framework, offering exceptional flexibility and written in Rust.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/242",
-          "publishedOn": "2023-10-24T20:40:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 242: Deep learning in Rust with Burn 🔥",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/242/practical-ai-242.mp3",
-            "length": "39187819",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -630,15 +621,6 @@
           "publishedOn": "2023-11-01T09:03:49.000Z",
           "wordCount": 793,
           "title": "mastering libcurl"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=23215",
-          "author": "Daniel Stenberg",
-          "description": "What happens when you invoke curl. In a single picture. Yes it is simplified and I chose to show a HTTP/1.1 transfer.",
-          "link": "https://daniel.haxx.se/blog/2023/10/24/curl-from-start-to-end/",
-          "publishedOn": "2023-10-24T21:01:00.000Z",
-          "wordCount": 313,
-          "title": "curl from start to end"
         }
       ]
     },
@@ -1122,15 +1104,6 @@
           "publishedOn": "2023-10-25T17:52:10.000Z",
           "wordCount": 1536,
           "title": "Responsible AI at HackerOne"
-        },
-        {
-          "id": "https://hackerone.com/vulnerability-management/hacktivity-epss-integration",
-          "author": "Michiel Prins",
-          "description": "HackerOne has integrated EPSS scoring into Hacktivity for more comprehensive CVE remediation.",
-          "link": "https://www.hackerone.com/vulnerability-management/hacktivity-epss-integration",
-          "publishedOn": "2023-10-24T16:30:44.000Z",
-          "wordCount": 1186,
-          "title": "Elevate CVE Remediation with EPSS, Now Integrated in HackerOne Hacktivity"
         }
       ]
     },

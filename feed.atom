@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-22T12:03:10.540Z</updated>
+    <updated>2023-11-23T12:03:12.485Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 567: Bringing Dev Mode to Figma]]></title>
+        <id>changelog.com/1/2244</id>
+        <link href="https://changelog.com/podcast/567"/>
+        <updated>2023-11-22T16:50:00.000Z</updated>
+        <summary type="html"><![CDATA[This week on we’re joined by Emil Sjölander from Figma — talking about bringing Dev Mode to Figma. Dev Mode is their new workspace in Figma that’s designed to bring developers and design to the same tool.
+The question they’re trying to answer is “How do you create a home for developers in a design tool?” We go way back to Emil’s startup that was acquired by Figma called Visly, how we iterated to here from 20 years ago (think PSD > HTML days), what they did to build Dev Mode, what they’re doing around codegen, the popularity of design systems, and what it takes to go from zero to Dev Mode.
+Leave us a comment
+Changelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
+
+Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
+
+Traceroute – Listen and follow Season 3 of Traceroute starting November 2 on Apple, Spotify, or wherever you get your podcasts!
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Emil Sjölander – Twitter, GitHub
+Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+Dev Mode: Building a design tool that works harder for developers
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Stability and scalability for search]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
@@ -1766,113 +1801,6 @@ Something missing or broken? PRs welcome!]]></summary>
 Last week at Singapore International Cyber Week and the ETSI Security Conferences, the international community gathered together to discuss cybersecurity hot topics of the day. Amidst a number of important cybersecurity discussions, we want to highlight progress on connected device security demonstrated by  joint industry principles for IoT security transparency. The future of connected devices offers tremendous potential for innovation and quality of life improvements. Putting a spotlight on consumer IoT security is a key aspect of achieving these benefits. Marketplace competition can be an important driver of security improvements, with…]]></summary>
         <author>
             <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[curl from start to end]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23215</id>
-        <link href="https://daniel.haxx.se/blog/2023/10/24/curl-from-start-to-end/"/>
-        <updated>2023-10-24T21:01:00.000Z</updated>
-        <summary type="html"><![CDATA[What happens when you invoke curl. In a single picture. Yes it is simplified and I chose to show a HTTP/1.1 transfer.]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 242: Deep learning in Rust with Burn 🔥]]></title>
-        <id>changelog.com/7/2250</id>
-        <link href="https://changelog.com/practicalai/242"/>
-        <updated>2023-10-24T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[It seems like everyone is interested in Rust these days. Even the most popular Python linter, Ruff, isn’t written in Python! It’s written in Rust. But what is the state of training or inferencing deep learning models in Rust? In this episode, we are joined by Nathaniel Simard, the creator burn. We discuss Rust in general, the need to have support for AI in multiple languages, and the current state of doing “AI things” in Rust.
-Leave us a comment
-Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Neo4j – NODES 2023 is coming in October!
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Nathaniel Simard – Twitter, GitHub, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
-
-Show Notes:
-burn-rs: This library strives to serve as a comprehensive deep learning framework, offering exceptional flexibility and written in Rust.
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elevate CVE Remediation with EPSS, Now Integrated in HackerOne Hacktivity]]></title>
-        <id>https://hackerone.com/vulnerability-management/hacktivity-epss-integration</id>
-        <link href="https://www.hackerone.com/vulnerability-management/hacktivity-epss-integration"/>
-        <updated>2023-10-24T16:30:44.000Z</updated>
-        <summary type="html"><![CDATA[HackerOne has integrated EPSS scoring into Hacktivity for more comprehensive CVE remediation.]]></summary>
-        <author>
-            <name>Michiel Prins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simplify Your Control Flows]]></title>
-        <id>http://testing.googleblog.com/2023/10/simplify-your-control-flows.html</id>
-        <link href="http://testing.googleblog.com/2023/10/simplify-your-control-flows.html"/>
-        <updated>2023-10-24T12:46:00.000Z</updated>
-        <summary type="html"><![CDATA[@media only screen and (max-width: 600px) {
-  .body {
-    overflow-x: auto;
-  }
-}
-
-
-
-This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
-
-
-By Jeff Hoy
-
-
-
-When adding loops and conditionals, even simple code can become difficult to understand.
-Consider this change:
-
-
-
-
-if (commode.HasPreferredCustomer()) {
-
-if (commode.HasPreferredCustomer()) {
-
-
-  commode.WarmSeat();
-
-  commode.WarmSeat();
-
-
-
-} else if (commode.CustomerOnPhone()) {
-
-
-
-  commode.ChillSeat();
-
-
-}
-
-}
-
-
-
-
-While the above change may seem simple, even adding a single else statement can make the code harder to follow since the complexity of code grow…]]></summary>
-        <author>
-            <name>Google Testing Blog</name>
         </author>
     </entry>
 </feed>
