@@ -6,6 +6,24 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2023/11/improving-text-classification.html",
+          "author": null,
+          "description": "Elie Bursztein, Cybersecurity & AI Research Director, and Marina Zhang, Software Engineer\n\n\n\n\nSystems such as Gmail, YouTube and Google Play rely on text classification models to identify harmful content including phishing attacks, inappropriate comments, and scams. These types of texts are harder for machine learning models to classify because bad actors rely on adversarial text manipulations to actively attempt to evade the classifiers. For example, they will use homoglyphs, invisible characters, and keyword stuffing to bypass defenses. \n\n\n\n\n\nTo help make text classifiers more robust and efficient, we’ve developed a novel, multilingual text vectorizer called RETVec (Resilient & Efficient Text Vectorizer) that helps models achieve state-of-the-art classification performance and drasticall…",
+          "link": "http://security.googleblog.com/2023/11/improving-text-classification.html",
+          "publishedOn": "2023-11-29T17:00:00.000Z",
+          "wordCount": 2304,
+          "title": "Improving Text Classification Resilience and Efficiency with RETVec"
+        },
+        {
+          "id": "http://security.googleblog.com/2023/11/two-years-later-baseline-that-drives-up.html",
+          "author": null,
+          "description": "Royal Hansen, Vice President of Privacy, Safety and Security Engineering, Google\n\n\nNearly half of third-parties fail to meet two or more of the Minimum Viable Secure Product controls. Why is this a problem? Because \"98% of organizations have a relationship with at least one third-party that has experienced a breach in the last 2 years.\"\nIn this post, we're excited to share the latest improvements to the Minimum Viable Secure Product (MVSP) controls. We'll also shed light on how adoption of MVSP has helped Google improve its security processes, and hope this example will help motivate third-parties to increase their adoption of MVSP controls and thus improve product security across the industry.\nAbout MVSP\nIn October 2021, Google publicly launched MVSP alongside launch partners. Our origina…",
+          "link": "http://security.googleblog.com/2023/11/two-years-later-baseline-that-drives-up.html",
+          "publishedOn": "2023-11-20T16:49:00.000Z",
+          "wordCount": 2494,
+          "title": "Two years later: a baseline that drives up security for the industry"
+        },
+        {
           "id": "http://security.googleblog.com/2023/11/evolving-app-defense-alliance.html",
           "author": null,
           "description": "Posted by Nataliya Stanetsky, Android Security and Privacy Team\n\n\nThe App Defense Alliance (ADA), an industry-leading collaboration launched by Google in 2019 dedicated to ensuring the safety of the app ecosystem, is taking a major step forward. We are proud to announce that the App Defense Alliance is moving under the umbrella of the Linux Foundation, with Meta, Microsoft, and Google as founding steering members.\n\n\nThis strategic migration represents a pivotal moment in the Alliance’s journey, signifying a shared commitment by the members to strengthen app security and related standards across ecosystems. This evolution of the App Defense Alliance will enable us to foster more collaborative implementation of industry standards for app security. \n\n\nUniting for App Security\n\n\nThe digital la…",
@@ -22,15 +40,6 @@
           "publishedOn": "2023-11-07T18:56:00.002Z",
           "wordCount": 1050,
           "title": "MTE - The promising path forward for memory safety"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/11/qualified-certificates-with-qualified.html",
-          "author": null,
-          "description": "Posted by Chrome Security team\n\n\nImproving the interoperability of web services is an important and worthy goal. We believe that it should be easier for people to maintain and control their digital identities. And we appreciate that policymakers working on European Union digital certificate legislation, known as eIDAS, are working toward this goal. However, a specific part of the legislation, Article 45, hinders browsers’ ability to enforce certain security requirements on certificates, potentially holding back advances in web security for decades. We and many past and present leaders in the international web community have significant concerns about Article 45's impact on security. \n\n\nWe urge lawmakers to heed the calls of scientists and security experts to revise this part of the legislation rather than erode users’ privacy and security on the web.",
-          "link": "http://security.googleblog.com/2023/11/qualified-certificates-with-qualified.html",
-          "publishedOn": "2023-11-03T18:38:00.001Z",
-          "wordCount": 524,
-          "title": "Qualified certificates with qualified risks"
         }
       ]
     },
@@ -378,36 +387,6 @@
             "length": "7537310",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/17/2252",
-          "author": null,
-          "description": "We’re joined this week by the beat freak in residence himself, the mysterious Breakmaster Cylinder. Listen along as we talk about how we make our beats, what inspires us for our music, and some behind the scenes on our latest albums.\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nTraceroute Podcast – Listen and follow Season 3 of Traceroute starting November 2 on Apple, Spotify, or wherever you get your podcasts!\n\nSentry – Get $100 towards your error monitoring with Sentry! Use the code changelog.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nBreakmaster Cylinder – Twitter, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\nOur Albums\nNext Level: Buy on Apple Music or Bandcamp. Stream on Spotify or Apple Music.\nTheme Songs: Buy on Apple Music or Bandcamp. Stream on Spotify or Apple Music.\nNotes from the show\nWatermelon Sugar X Seaside\nThe Song Michael Jackson ‘Stole’ From Hall & Oates\nSia - Elastic Heart feat. Shia LaBeouf & Maddie Ziegler (Official Video)\nHalt and Catch Fire Theme\nPole Position Theme Song (Cover)\nOsmo Coding Jam\nLet’s Rescore Mad Max: Fury Road\nBallroom Blitz (Wayne’s World)\nBohemian Rhapsody (Wayne’s World)\nJay_cee: Castlevania NES Speedrun in 10:45 (WR)\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/20",
-          "publishedOn": "2023-11-03T23:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog & Friends 20: Beat freak in residence",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/20/changelog--friends-20.mp3",
-            "length": "77898059",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/2232",
-          "author": null,
-          "description": "Valerie Phoenix from Tech By Choice joins Amal & Kball to tell them all about her non-profit that’s passionate about helping people interested in technology, no matter their experience level.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nAppwrite – Build Fast. Scale Big. All in One Place. Appwrite is a backend platform for developing Web, Mobile, and Flutter applications. Built with the open source community and optimized for developer experience in the coding languages you love.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nValerie Phoenix  – Twitter, GitHub, Website\nAmal Hussein – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nTech By Choice\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/299",
-          "publishedOn": "2023-11-03T21:15:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 299: Helping people enter, stay & thrive in tech",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/299/js-party-299.mp3",
-            "length": "56425752",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -564,15 +543,6 @@
           "publishedOn": "2023-11-10T23:02:27.000Z",
           "wordCount": 354,
           "title": "Another Google Open Source Peer Bonus"
-        },
-        {
-          "id": "https://daniel.haxx.se/blog/?p=23140",
-          "author": "Daniel Stenberg",
-          "description": "Durable, sturdy, washable and good-looking curl cheat sheet coasters. What more can you possibly need? Buy them here Tim Westermann is the creator who makes, sells and distributes these beauties. My only involvement has been to help Tim with the textual content on them. There is no money going to me or the curl project … Continue reading curl coasters →",
-          "link": "https://daniel.haxx.se/blog/2023/11/03/curl-coasters/",
-          "publishedOn": "2023-11-03T07:26:40.000Z",
-          "wordCount": 395,
-          "title": "curl coasters"
         }
       ]
     },
@@ -677,17 +647,7 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": [
-        {
-          "id": "https://googleprojectzero.blogspot.com/2023/11/first-handset-with-mte-on-market.html",
-          "author": null,
-          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=DFQxm4rd7fRHgM9OTejWVT5Vho6BE7M80rHXEVKqXWcinf93kRmgH2T4xWS0JMLd96xlbbE5D7Gw2o7jubnkMA);.lst-kix_mpwcgajc4xj4-0>li{counter-increment:lst-ctn-kix_mpwcgajc4xj4-0}ol.lst-kix_mpwcgajc4xj4-4{list-style-type:none}.lst-kix_d02lf6xv7lip-8>li:before{content:\"-  \"}ol.lst-kix_mpwcgajc4xj4-3{list-style-type:none}ol.lst-kix_mpwcgajc4xj4-6{list-style-type:none}.lst-kix_d02lf6xv7lip-7>li:before{content:\"-  \"}.lst-kix_6winxzvxkxle-2>li:before{content:\"-  \"}.lst-kix_6winxzvxkxle-4>li:before{content:\"-  \"}ol.lst-kix_mpwcgajc4xj4-5{list-style-type:none}ol.lst-kix_mpwcgajc4xj4-0{list-style-type:none}ol.lst-kix_mpwcgajc4xj4-2.start{counter-reset:lst-ctn-kix_mpwcgajc4xj4-2 0}.lst-kix_d02lf6xv7lip-6>li:before{content:\"-  \"}.lst-kix_mpwcgajc4xj4-6>li{…",
-          "link": "https://googleprojectzero.blogspot.com/2023/11/first-handset-with-mte-on-market.html",
-          "publishedOn": "2023-11-03T17:04:00.000Z",
-          "wordCount": 2161,
-          "title": "First handset with MTE on the market"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
@@ -1045,15 +1005,6 @@
           "publishedOn": "2023-11-06T17:35:19.000Z",
           "wordCount": 1518,
           "title": "Building In-Video Search"
-        },
-        {
-          "id": "https://medium.com/p/0d83f5a00d08",
-          "author": "Netflix Technology Blog",
-          "description": "Democratizing Stream Processing @ Netflix",
-          "link": "https://netflixtechblog.com/streaming-sql-in-data-mesh-0d83f5a00d08?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-03T21:48:50.000Z",
-          "wordCount": 1900,
-          "title": "Streaming SQL in Data Mesh"
         }
       ]
     },
