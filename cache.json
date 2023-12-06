@@ -49,6 +49,15 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2023/12/exceptional-exception-handling.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nby Yiming Sun\n\n\nHave you ever seen huge exception-handling blocks? Here is an example. Let's assume we are calling bakePizza() to bake a pizza, and it can be overbaked, throwing a PizzaOverbakedException.\n\n\n\n\nclass PizzaOverbakedException extends Exception {};\n\n\nvoid bakePizza () throws PizzaOverbakedException {};\n\n\ntry {\n  // 100+ lines of code to prepare pizza ingredients.\n  ...\n  bakePizza();\n  // Another 100+ lines of code to deliver pizza to a customer.\n  ...\n} catch (Exception e) {\n  throw new IllegalStateException(); // Root cause ignored while throwing new exception.\n}\n\n\n\nHere are the problems with the above code:\n\nObscuring the logic. The method bakePizza(), is obscured by the additional lines of code of preparation and delivery, so unintended exceptions from preparation and delivery may be caught.\nCatching the general exception. catch (Exception e) will catch everything, despite that we might only want to handle PizzaOverbakedException here.\nRethrowing a general exception, with the original exception ignored. This means that the root cause is lost - we don't know what exactly goes wrong with pizza baking while debugging.\n\nHere is a better alternative, rewritten to avoid the problems above.\n\n\n\nclass PizzaOverbakedException extends Exception {};\n\nvoid bakePizza () throws PizzaOverbakedException {};\n\n// 100+ lines of code to prepare pizza ingredients.\n...\ntry {\n  bakePizza();\n} catch (PizzaOverbakedException e) {  // Other exceptions won’t be caught.\n  // Rethrow a more meaningful exception; so that we know pizza is overbaked.\n  throw new IllegalStateException(“You burned the pizza!”, e);  \n}\n// Another 100+ lines of code to deliver pizza to a customer.\n...",
+          "link": "http://testing.googleblog.com/2023/12/exceptional-exception-handling.html",
+          "publishedOn": "2023-12-05T13:19:00.000Z",
+          "wordCount": 3249,
+          "title": "Exceptional Exception Handling"
+        },
+        {
           "id": "http://testing.googleblog.com/2023/11/clean-up-code-cruft.html",
           "author": null,
           "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Per Jacobsson\n\nThe book Clean Code discusses a camping rule that is good to keep in the back of your mind when writing code:\n\n\n\nLeave the campground cleaner than you found it\n\n\n\nSo how does that fit into software development? The thinking is this: When you make changes to code that can potentially be improved, try to make it just a little bit better.\nThis doesn't necessarily mean you have to go out of your way to do huge refactorings. Changing something small can go a long way:\n\nRename a variable to something more descriptive. \n\nBreak apart a huge functi…",
@@ -56,15 +65,6 @@
           "publishedOn": "2023-11-28T13:00:00.000Z",
           "wordCount": 2435,
           "title": "Clean Up Code Cruft"
-        },
-        {
-          "id": "http://testing.googleblog.com/2023/11/write-clean-code-to-reduce-cognitive.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Andrew Trenk\n\n\n\nDo you ever read code and find it hard to understand? You may be experiencing cognitive load!\nCognitive load refers to the amount of mental effort required to complete a task. When reading code, you have to keep in mind information such as values of variables, conditional logic, loop indices, data structure state, and interface contracts. Cognitive load increases as code becomes more complex. People can typically hold up to 5–7 separate pieces of informat…",
-          "link": "http://testing.googleblog.com/2023/11/write-clean-code-to-reduce-cognitive.html",
-          "publishedOn": "2023-11-06T13:45:00.000Z",
-          "wordCount": 2754,
-          "title": "Write Clean Code to Reduce Cognitive Load"
         }
       ]
     },
@@ -73,6 +73,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2282",
+          "author": null,
+          "description": "In this enlightening episode, we delve deeper than the usual buzz surrounding AI’s perils, focusing instead on the tangible problems emerging from the use of machine learning algorithms across Europe. We explore “suspicion machines” — systems that assign scores to welfare program participants, estimating their likelihood of committing fraud. Join us as Justin and Gabriel share insights from their thorough investigation, which involved gaining access to one of these models and meticulously analyzing its behavior.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nGabriel Geiger – Twitter\nJustin-Casimir Braun – Twitter\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nArticle - “Inside the suspicion machine”\nThe methodology behind Justin and Gabriel’s report\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/248",
+          "publishedOn": "2023-12-05T21:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 248: Suspicion machines ⚙️",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/248/practical-ai-248.mp3",
+            "length": "45273512",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/16/2281",
           "author": null,
@@ -387,21 +402,6 @@
             "length": "43520952",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2258",
-          "author": null,
-          "description": "David Hugh-Jones has a lot to say about what makes a good comment, Hugging Face released a distilled variant of Whisper for speech recognition, The New Stack reports on C++ creator Bjarne Stroustrup’s plan for bringing safety to the language, Jeff Sandberg declares that CSS is fun again & Jose M. Gilgado praises the beauty of finished software.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nAppwrite – Build Fast. Scale Big. All in One Place. Appwrite is a backend platform for developing Web, Mobile, and Flutter applications. Built with the open source community and optimized for developer experience in the coding languages you love.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/69",
-          "publishedOn": "2023-11-06T19:15:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 69: How to write a good comment",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/69/changelog-news-69.mp3",
-            "length": "7537310",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -515,6 +515,15 @@
       "siteUrl": "https://daniel.haxx.se/blog",
       "articles": [
         {
+          "id": "https://daniel.haxx.se/blog/?p=23543",
+          "author": "Daniel Stenberg",
+          "description": "Release presentation Today, December 6 at 09:00 UTC (10:00 CET), I will live-stream the curl 8.5.0 release presentation over at Twitch. After the fact, the release video will be made available on YouTube. Numbers the 253rd release2 changes56 days (total: 9,392)188 bug-fixes (total: 9,734)266 commits (total: 31,427)0 new public libcurl function (total: 93)0 new curl_easy_setopt() … Continue reading curl 8.5.0 →",
+          "link": "https://daniel.haxx.se/blog/2023/12/06/curl-8-5-0/",
+          "publishedOn": "2023-12-06T07:25:22.000Z",
+          "wordCount": 1199,
+          "title": "curl 8.5.0"
+        },
+        {
           "id": "https://daniel.haxx.se/blog/?p=23546",
           "author": "Daniel Stenberg",
           "description": "It is often said that Imitation is the Sincerest Form of Flattery. Also, remember libcrurl? That was the name of the thing Google once planned to do: reimplement the libcurl API on top of their Chrome networking library. Flattery or not, it never went anywhere. The other day I received an email asking me about … Continue reading xCurl →",
@@ -567,6 +576,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "author": null,
+          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "publishedOn": "2023-12-06T12:02:57.215Z",
+          "wordCount": 915,
+          "title": "Data Quality Automation at Twitter"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
           "author": null,
           "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
@@ -592,60 +610,6 @@
           "publishedOn": "2023-11-16T12:02:36.038Z",
           "wordCount": 1022,
           "title": "How Twitter uses rasdaemon for hardware reliability"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "author": null,
-          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "publishedOn": "2023-11-06T12:03:10.192Z",
-          "wordCount": 2302,
-          "title": "Measuring the impact of Twitter network latency with CausalImpact"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
-          "author": null,
-          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
-          "publishedOn": "2023-11-06T12:03:10.180Z",
-          "wordCount": 2016,
-          "title": "Constraint Management for cluster operation safety and reliability at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "publishedOn": "2023-11-06T12:03:10.157Z",
-          "wordCount": 3435,
-          "title": "Kerberizing Hadoop Clusters at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "publishedOn": "2023-11-06T12:03:10.138Z",
-          "wordCount": 934,
-          "title": "How we scaled Reads On the Twitter Users Database"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "publishedOn": "2023-11-06T12:03:10.119Z",
-          "wordCount": 1756,
-          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
-          "author": null,
-          "description": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
-          "publishedOn": "2023-11-06T12:03:10.099Z",
-          "wordCount": 1788,
-          "title": "Twitter's Recommendation Algorithm"
         }
       ]
     },
@@ -694,6 +658,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=75650",
+          "author": "David Jarzebowski",
+          "description": "Customers using GitHub Enterprise Server can gain more insight and understanding into the security of their code.\nThe post GitHub Enterprise Server 3.11 is now generally available appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-12-05-github-enterprise-server-3-11-is-now-generally-available/",
+          "publishedOn": "2023-12-05T23:00:52.000Z",
+          "wordCount": 1550,
+          "title": "GitHub Enterprise Server 3.11 is now generally available"
+        },
+        {
+          "id": "https://github.blog/?p=75655",
+          "author": "Walker Chabbott",
+          "description": "Learn how researchers and security experts at GitHub, Microsoft, and Santander came together to address the challenges presented by the post-quantum cryptography world.  \nThe post Addressing post-quantum cryptography with CodeQL appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-12-05-addressing-post-quantum-cryptography-with-codeql/",
+          "publishedOn": "2023-12-05T22:00:41.000Z",
+          "wordCount": 1770,
+          "title": "Addressing post-quantum cryptography with CodeQL"
+        },
         {
           "id": "https://github.blog/?p=75633",
           "author": "Lavinia Sfetcu",
@@ -1020,15 +1002,6 @@
           "publishedOn": "2023-11-08T20:56:53.000Z",
           "wordCount": 1688,
           "title": "The Next Step in Personalization: Dynamic Sizzles"
-        },
-        {
-          "id": "https://medium.com/p/936766f0017c",
-          "author": "Netflix Technology Blog",
-          "description": "Empowering video editors with multimodal machine learning to discover perfect moments across the entire Netflix catalog",
-          "link": "https://netflixtechblog.com/building-in-video-search-936766f0017c?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-06T17:35:19.000Z",
-          "wordCount": 1518,
-          "title": "Building In-Video Search"
         }
       ]
     },
