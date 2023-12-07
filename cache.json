@@ -31,15 +31,6 @@
           "publishedOn": "2023-11-08T14:00:00.001Z",
           "wordCount": 801,
           "title": "Evolving the App Defense Alliance"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/11/mte-promising-path-forward-for-memory.html",
-          "author": null,
-          "description": "Posted by Andy Qin, Irene Ang, Kostya Serebryany, Evgenii Stepanov \n\n\nSince 2018, Google has partnered with ARM and collaborated with many ecosystem partners (SoCs vendors, mobile phone OEMs, etc.) to develop Memory Tagging Extension (MTE) technology. We are now happy to share the growing adoption in the ecosystem. MTE is now available on some OEM devices (as noted in a recent blog post by Project Zero) with Android 14 as a developer option, enabling developers to use MTE to discover memory safety issues in their application easily. \nThe biggest contributor to security vulnerabilities are memory safety related defects and Google has invested in a set of technologies to help mitigate memory safety risks. These include but are not limited to:\nShifting to memory safe languages such as Rust as…",
-          "link": "http://security.googleblog.com/2023/11/mte-promising-path-forward-for-memory.html",
-          "publishedOn": "2023-11-07T18:56:00.002Z",
-          "wordCount": 1050,
-          "title": "MTE - The promising path forward for memory safety"
         }
       ]
     },
@@ -73,6 +64,21 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2273",
+          "author": null,
+          "description": "This week on The Changelog we’re joined by Drew DeVault, talking about the Hare programming language. From the website, Hare is a systems programming language designed to be simple, stable, and robust. When we asked Drew why he credted it, he said “[because] I wanted it to exist, and it did not exist.” Wise words.\nHare aims to be a 100 year language (which we get into on the show), why he’s so possionate about all things open source, the state of the language, fostering a culture that values stability, and oddly enough — what it takes to make a peanut butter and jelly sandwhich.\nLeave us a comment\nChangelog++ members get a bonus 10 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nNeon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.\n\nSentry – On Thursday, December 14th Sentry is doing a FREE web browser performance webinar. Sign up and bring your questions! There will be a Q&A at the end of the stream. ✌️\n\n.Tech Domains – They’re giving selected startups guest spots on the biggest podcasts, conferences, and billboards in the tech game. Apply at startups.tech/changelog\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nDrew DeVault – GitHub, Website\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nsourcehut - the hacker’s forge!\nThe Hare programming language\nHimitsu\nSourceHut’s 2022 Financial report\nCan I be on your podcast\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/569",
+          "publishedOn": "2023-12-06T22:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 569: Hare aims to be a 100 year language",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/569/the-changelog-569.mp3",
+            "length": "62964700",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/7/2282",
           "author": null,
@@ -387,21 +393,6 @@
             "length": "84740716",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2257",
-          "author": null,
-          "description": "On Monday, October 30, 2023, the U.S. White House issued its Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence.  Two days later, a policy paper was issued by the U.K. government entitled The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023.  It was signed by 29 countries, including the United States and China, the global leaders in AI research.\nIn this Fully Connected episode, Daniel and Chris parse the details and highlight key takeaways from these documents, especially the extensive and detailed executive order, which has the force of law in the United States.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nTraceroute Podcast – Listen and follow Season 3 of Traceroute starting November 2 on Apple, Spotify, or wherever you get your podcasts!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nExecutive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence\nFACT SHEET: President Biden Issues Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence\nThe Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/244",
-          "publishedOn": "2023-11-07T14:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 244: Government regulation of AI has arrived",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/244/practical-ai-244.mp3",
-            "length": "43520952",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -426,6 +417,42 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/technology/ai/gemini-collection/",
+          "author": null,
+          "description": "Explore our collection to find out more about Gemini, the most capable and general model we’ve ever built.",
+          "link": "https://blog.google/technology/ai/gemini-collection/",
+          "publishedOn": "2023-12-06T15:15:00.000Z",
+          "wordCount": 973,
+          "title": "Learn more about Gemini, our most capable AI model"
+        },
+        {
+          "id": "https://blog.google/technology/ai/google-gemini-ai/",
+          "author": null,
+          "description": "Gemini is our most capable and general model, built to be multimodal and optimized for three different sizes: Ultra, Pro and Nano.",
+          "link": "https://blog.google/technology/ai/google-gemini-ai/",
+          "publishedOn": "2023-12-06T15:00:00.000Z",
+          "wordCount": 3265,
+          "title": "Introducing Gemini: our largest and most capable AI model"
+        },
+        {
+          "id": "https://blog.google/products/bard/google-bard-try-gemini-ai/",
+          "author": null,
+          "description": "We’re starting to bring Gemini’s advanced capabilities into Bard.",
+          "link": "https://blog.google/products/bard/google-bard-try-gemini-ai/",
+          "publishedOn": "2023-12-06T15:00:00.000Z",
+          "wordCount": 1290,
+          "title": "Bard gets its biggest upgrade yet with Gemini"
+        },
+        {
+          "id": "https://blog.google/products/pixel/pixel-feature-drop-december-2023/",
+          "author": null,
+          "description": "New Feature Drop brings updates to your Pixel hardware. Plus, Gemini Nano now powers on-device generative AI features for Pixel 8 Pro.",
+          "link": "https://blog.google/products/pixel/pixel-feature-drop-december-2023/",
+          "publishedOn": "2023-12-06T15:00:00.000Z",
+          "wordCount": 2259,
+          "title": "Pixel 8 Pro — the first smartphone with AI built in — is now running Gemini Nano, plus more AI updates coming to the Pixel portfolio"
+        },
         {
           "id": "https://blog.google/technology/ai/google-fort-peck-tribes/",
           "author": null,
@@ -576,6 +603,60 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
+          "publishedOn": "2023-12-07T12:03:00.445Z",
+          "wordCount": 1756,
+          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "author": null,
+          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
+          "publishedOn": "2023-12-07T12:03:00.429Z",
+          "wordCount": 2016,
+          "title": "Constraint Management for cluster operation safety and reliability at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "author": null,
+          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
+          "publishedOn": "2023-12-07T12:03:00.423Z",
+          "wordCount": 2283,
+          "title": "Measuring the impact of Twitter network latency with CausalImpact"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+          "publishedOn": "2023-12-07T12:03:00.413Z",
+          "wordCount": 940,
+          "title": "How we scaled Reads On the Twitter Users Database"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+          "author": null,
+          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+          "publishedOn": "2023-12-07T12:03:00.406Z",
+          "wordCount": 3441,
+          "title": "Kerberizing Hadoop Clusters at Twitter"
+        },
+        {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+          "author": null,
+          "description": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+          "publishedOn": "2023-12-07T12:03:00.386Z",
+          "wordCount": 1786,
+          "title": "Twitter's Recommendation Algorithm"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
           "author": null,
           "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
@@ -658,6 +739,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=75690",
+          "author": "Kevin Backhouse",
+          "description": "Using CVE-2023-43641 as an example, I’ll explain how to develop an exploit for a memory corruption vulnerability on Linux. The exploit has to bypass several mitigations to achieve code execution.\nThe post Cueing up a calculator: an introduction to exploit development on Linux appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-12-06-cueing-up-a-calculator-an-introduction-to-exploit-development-on-linux/",
+          "publishedOn": "2023-12-06T17:30:42.000Z",
+          "wordCount": 8238,
+          "title": "Cueing up a calculator: an introduction to exploit development on Linux"
+        },
+        {
+          "id": "https://github.blog/?p=75682",
+          "author": "Sara Verdi",
+          "description": "Learn how we’re experimenting with generative AI models to extend GitHub Copilot across the developer lifecycle.\nThe post How we’re experimenting with LLMs to evolve GitHub Copilot appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-12-06-how-were-experimenting-with-llms-to-evolve-github-copilot/",
+          "publishedOn": "2023-12-06T16:00:37.000Z",
+          "wordCount": 3290,
+          "title": "How we’re experimenting with LLMs to evolve GitHub Copilot"
+        },
         {
           "id": "https://github.blog/?p=75650",
           "author": "David Jarzebowski",
@@ -826,6 +925,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/ceo/maintaining-intelligence-edge-cybersecurity",
+          "author": "Marten Mickos",
+          "description": "A message from HackerOne's CEO about the power of both artificial and human intelligence.",
+          "link": "https://www.hackerone.com/ceo/maintaining-intelligence-edge-cybersecurity",
+          "publishedOn": "2023-12-05T18:19:42.000Z",
+          "wordCount": 1567,
+          "title": "Maintaining the Intelligence Edge in Cybersecurity"
+        },
+        {
           "id": "https://hackerone.com/culture-and-talent/hack-my-career-meet-kayla-underkoffler",
           "author": "Marina Briones",
           "description": "HackerOne's Kayla Underkoffler shares her career journey and how she arrived at her current role.",
@@ -905,15 +1013,6 @@
           "publishedOn": "2023-11-08T16:50:09.000Z",
           "wordCount": 1656,
           "title": "What Is the Difference Between Pentesting and Bug Bounty?"
-        },
-        {
-          "id": "https://hackerone.com/thought-leadership/ai-safety-red-teaming",
-          "author": "Michiel Prins",
-          "description": "HackerOne builds upon the foundation of bug bounty in our approach to AI Red Teaming.",
-          "link": "https://www.hackerone.com/thought-leadership/ai-safety-red-teaming",
-          "publishedOn": "2023-11-07T17:01:19.000Z",
-          "wordCount": 1706,
-          "title": "An Emerging Playbook for AI Red Teaming With HackerOne"
         }
       ]
     },
