@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-12-15T12:03:12.196Z</updated>
+    <updated>2023-12-16T12:03:06.653Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 570: ANTHOLOGY — The technical bits]]></title>
+        <id>changelog.com/1/2274</id>
+        <link href="https://changelog.com/podcast/570"/>
+        <updated>2023-12-15T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re taking you to the hallway track of All Things Open 2023 in Raleigh, NC. Today’s episode features: Heikki Linnakangas (Co-founder of Neon and Postgre hacker), Robert Aboukhalil (Bioinformatics software engineer) working on bringing desktop apps to the web with WASM, and Scott Ford who loves taking a codebase from brown to green at Corgibytes.
+Leave us a comment
+Changelog++ members save 12 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
+
+Sentry – Get $100 towards your error monitoring with Sentry! Use the code changelog.
+
+Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
+
+Typesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You literally can’t get any faster!
+
+
+Featuring:
+
+Heikki Linnakangas – GitHub, LinkedIn, Website
+Robert Aboukhalil – Twitter, GitHub, LinkedIn, Website
+Scott Ford – Twitter, GitHub, Website
+Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+Neon
+Sandbox.bio
+Corgibytes
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NixOS has one fatal flaw]]></title>
+        <id>changelog.com/posts/2622</id>
+        <link href="https://changelog.com/posts/nixos-fatal-flaw"/>
+        <updated>2023-12-15T17:03:32.000Z</updated>
+        <summary type="html"><![CDATA[Jerod’s Note: The short embedded below of Tammer Saleh on Ship It! created a firestorm of comments from folks who were unsatisfied with the lack of explanation behind his conclusion.
+
+  
+I caught up with Tammer at KubeCon NA 2023 and took the opportunity to ask him to clarify and defend the comment. This post is a fancied-up transcript of his response.
+It’s better in audio where I read him some comments & we all have a good laugh. Play the audio.
+NixOS has one fatal flaw, which is the usability of Nix.
+(By the way, I really do love the passion in the Nix community. They created that, right? They created those comments. But Nix does have that fatal flaw of a really horrible learning curve  and user experience.)
+I’ve never talked to a single Nix advocate… for example, some of the people insi…]]></summary>
+        <author>
+            <name>Tammer Saleh</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Our First Netflix Data Engineering Summit]]></title>
         <id>https://medium.com/p/f326b0589102</id>
@@ -1353,129 +1408,6 @@ Something missing or broken? PRs welcome!]]></summary>
         <summary type="html"><![CDATA[New dirivng model architecture, improved navigate on openpilot, and full e2e lateral planning]]></summary>
         <author>
             <name>comma.ai blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog Interviews 566: All the places Swift will go]]></title>
-        <id>changelog.com/1/2262</id>
-        <link href="https://changelog.com/podcast/566"/>
-        <updated>2023-11-16T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re talking about Swift with Ben Cohen, the Swift Team Manager at Apple. We caught up with Ben while at KubeCon last week. Ben takes us into the world of Swift, from Apple Native apps on iOS and macOS, to the Swift Server Workgroup for developing and deploying server side applications, to the Swift extension for VS Code, Swift as a safe C/C++ successor language, Swift on Linux and Windows, and of course what The Browser Company’s Arc browser is doing to bring Arc to Windows.
-Leave us a comment
-Changelog++ members save 11 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Statsig – Build faster with confidence. Startups to Fortune 500s rely on Statsig to make data-driven decisions. Ship smarter and faster with the unified platform for feature …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 301: Building something new]]></title>
-        <id>changelog.com/6/2259</id>
-        <link href="https://changelog.com/jsparty/301"/>
-        <updated>2023-11-16T17:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Amal & Nick are joined by Saron Yitbarek (developer, podcaster, community leader & serial entrepreneur) to catch up and discuss her latest project: Not A Designer
-We discuss all the ins & outs of tech entrepreneurship & the challenges of building something new in today’s saturated market. Tune in for a behind-the-scenes look at how she does it & get a sneak peek on what’s possibly next! (Spoiler Alert: we brain stormed it here)
-Leave us a comment
-Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Saron Yitbarek – Twitter, GitHub, Website
-Amal Hussein – Twitter, GitHub
-Nick Nisi – Twitter, GitHub, Website
-
-Show Notes:
-
-Changelog Merch (re-stocked)
-Not A Designer
-Code Newbie
-Code Newbie Podcast
-Base CS Podcast (via Code Newbie)
-Command Line Heroes Podcast (via RedHat)
-CodeLand Conf
-Forem (now parent company of Dev.to)
-Beehiiv - the newsletter platform built for growth
-Substack - a new economic growth for culture
-ConvertKit - the creator marketing platform
-Y Combinator
-Baz Luhrmann - Everybody’s Free To Wear Sunscreen (aka Amal’s “favorite song”)
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fortifying Assets for SEC Compliance with HackerOne]]></title>
-        <id>https://hackerone.com/public-policy/fortify-assets-sec-compliance</id>
-        <link href="https://www.hackerone.com/public-policy/fortify-assets-sec-compliance"/>
-        <updated>2023-11-16T17:08:07.000Z</updated>
-        <summary type="html"><![CDATA[After the SEC's recent charges against SolarWinds, publicly traded companies need robust cybersecurity risk management.]]></summary>
-        <author>
-            <name>Ilona Cohen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security best practices for authors of GitHub Actions]]></title>
-        <id>https://github.blog/?p=75427</id>
-        <link href="https://github.blog/2023-11-16-security-best-practices-for-authors-of-github-actions/"/>
-        <updated>2023-11-16T17:00:38.000Z</updated>
-        <summary type="html"><![CDATA[Improve your GitHub Action’s security posture by securing your source repository, protecting your maintainers, and making it easy to report security incidents. 
-The post Security best practices for authors of GitHub Actions appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Matthew Manning</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mozilla AI Guide Launch with Summarization Code Example]]></title>
-        <id>https://hacks.mozilla.org/?p=48055</id>
-        <link href="https://hacks.mozilla.org/2023/11/mozilla-ai-guide-launch-with-summarization-code-example/"/>
-        <updated>2023-11-16T16:20:15.000Z</updated>
-        <summary type="html"><![CDATA[Mozilla has just launched the AI Guide, a collaborative hub for developers to join forces, inspire each other, and lead the way in groundbreaking generative AI advancements.  The AI Guide’s initial focus begins with language models and the aim is to become a collaborative community-driven resource covering other types of models.
-The post Mozilla AI Guide Launch with Summarization Code Example appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
-        <author>
-            <name>Melissa Thermidor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The data platform cluster operator service for Hadoop cluster management]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management"/>
-        <updated>2023-11-16T12:02:36.663Z</updated>
-        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability"/>
-        <updated>2023-11-16T12:02:36.038Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New ways generative AI can help you find holiday gifts]]></title>
-        <id>https://blog.google/products/shopping/google-search-generative-ai-holiday-gifts/</id>
-        <link href="https://blog.google/products/shopping/google-search-generative-ai-holiday-gifts/"/>
-        <updated>2023-11-16T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Holiday shoppers can use generative AI to find gifts for others and themselves.]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
