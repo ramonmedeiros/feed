@@ -31,6 +31,15 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2023/12/let-code-speak-for-itself.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n  td{\n    white-space: nowrap;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\n\nby Shiva Garg and Francois Aube\n\n\n\nComments can be invaluable for understanding and maintaining a code base.  But excessive comments in code can become unhelpful clutter full of extraneous and/or outdated detail. \nComments that offer useless (or worse, obsolete) information hurt readability. Here are some tips to let your code speak for itself: \n\n\nWrite comments to explain the “why” behind a certain approach in code. The comment below has…",
+          "link": "http://testing.googleblog.com/2023/12/let-code-speak-for-itself.html",
+          "publishedOn": "2023-12-12T16:06:00.000Z",
+          "wordCount": 3079,
+          "title": "Let Code Speak for Itself"
+        },
+        {
           "id": "http://testing.googleblog.com/2023/12/exceptional-exception-handling.html",
           "author": null,
           "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nby Yiming Sun\n\n\nHave you ever seen huge exception-handling blocks? Here is an example. Let's assume we are calling bakePizza() to bake a pizza, and it can be overbaked, throwing a PizzaOverbakedException.\n\n\n\n\nclass PizzaOverbakedException extends Exception {};\n\n\nvoid bakePizza () throws PizzaOverbakedException {};\n\n\ntry {\n  // 100+ lines of code to prepare pizza ingredients.\n  ...\n  bakePizza();\n  // Another 100+ lines of code to deliver pizza to a customer.\n  ...\n} catch (Exception e) {\n  throw new IllegalStateException(); // Root cause ignored while throwing new exception.\n}\n\n\n\nHere are the problems with the above code:\n\nObscuring the logic. The method bakePizza(), is obscured by the additional lines of code of preparation and delivery, so unintended exceptions from preparation and delivery may be caught.\nCatching the general exception. catch (Exception e) will catch everything, despite that we might only want to handle PizzaOverbakedException here.\nRethrowing a general exception, with the original exception ignored. This means that the root cause is lost - we don't know what exactly goes wrong with pizza baking while debugging.\n\nHere is a better alternative, rewritten to avoid the problems above.\n\n\n\nclass PizzaOverbakedException extends Exception {};\n\nvoid bakePizza () throws PizzaOverbakedException {};\n\n// 100+ lines of code to prepare pizza ingredients.\n...\ntry {\n  bakePizza();\n} catch (PizzaOverbakedException e) {  // Other exceptions won’t be caught.\n  // Rethrow a more meaningful exception; so that we know pizza is overbaked.\n  throw new IllegalStateException(“You burned the pizza!”, e);  \n}\n// Another 100+ lines of code to deliver pizza to a customer.\n...",
@@ -347,21 +356,6 @@
           "enclosure": {
             "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/72/changelog-news-72.mp3",
             "length": "8416979",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/6/2225",
-          "author": null,
-          "description": "Una Kravets, developer advocate at Google & web platform ambassador, joins Amal & Nick to take them CSS to school as they start this podcast in CSS kindergarten and end it with a Level-Up CSS Diploma. (LUCD?)\nWe explore all the amazing features which have recently landed in CSS — enabling super-charged user experiences with no JavaScript. Don’t forgot to check out all the epic links & demos in the show notes — and hold on to your butts, kids, this one is a ride!\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.c…",
-          "link": "https://changelog.com/jsparty/302",
-          "publishedOn": "2023-11-24T18:30:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 302: What's new in CSS land",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/302/js-party-302.mp3",
-            "length": "71936636",
             "type": "audio/mpeg"
           }
         }
