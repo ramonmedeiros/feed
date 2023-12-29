@@ -13,15 +13,6 @@
           "publishedOn": "2023-12-12T17:00:00.000Z",
           "wordCount": 2446,
           "title": "Hardening cellular basebands in Android"
-        },
-        {
-          "id": "http://security.googleblog.com/2023/11/improving-text-classification.html",
-          "author": null,
-          "description": "Elie Bursztein, Cybersecurity & AI Research Director, and Marina Zhang, Software Engineer\n\n\n\n\nSystems such as Gmail, YouTube and Google Play rely on text classification models to identify harmful content including phishing attacks, inappropriate comments, and scams. These types of texts are harder for machine learning models to classify because bad actors rely on adversarial text manipulations to actively attempt to evade the classifiers. For example, they will use homoglyphs, invisible characters, and keyword stuffing to bypass defenses. \n\n\n\n\n\nTo help make text classifiers more robust and efficient, we’ve developed a novel, multilingual text vectorizer called RETVec (Resilient & Efficient Text Vectorizer) that helps models achieve state-of-the-art classification performance and drasticall…",
-          "link": "http://security.googleblog.com/2023/11/improving-text-classification.html",
-          "publishedOn": "2023-11-29T17:00:00.000Z",
-          "wordCount": 2304,
-          "title": "Improving Text Classification Resilience and Efficiency with RETVec"
         }
       ]
     },
@@ -47,15 +38,6 @@
           "publishedOn": "2023-12-05T13:19:00.000Z",
           "wordCount": 3249,
           "title": "Exceptional Exception Handling"
-        },
-        {
-          "id": "http://testing.googleblog.com/2023/11/clean-up-code-cruft.html",
-          "author": null,
-          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Per Jacobsson\n\nThe book Clean Code discusses a camping rule that is good to keep in the back of your mind when writing code:\n\n\n\nLeave the campground cleaner than you found it\n\n\n\nSo how does that fit into software development? The thinking is this: When you make changes to code that can potentially be improved, try to make it just a little bit better.\nThis doesn't necessarily mean you have to go out of your way to do huge refactorings. Changing something small can go a long way:\n\nRename a variable to something more descriptive. \n\nBreak apart a huge functi…",
-          "link": "http://testing.googleblog.com/2023/11/clean-up-code-cruft.html",
-          "publishedOn": "2023-11-28T13:00:00.000Z",
-          "wordCount": 2435,
-          "title": "Clean Up Code Cruft"
         }
       ]
     },
@@ -64,6 +46,16 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/posts/2623",
+          "author": "Jerod Santo",
+          "description": "In the 14+ years we’ve been making The Changelog podcast, it has never gone viral.\nWe’ve had popular  episodes and not so popular episodes. We’ve made episodes we love and episodes listeners love. But we’ve never had a viral moment like Elon Musk smoking weed or Jeff Bezos talking Blue Origin on our show.\nI’m not here to complain about that!\nWe’ve had tons of success with our shows and I’m super grateful that we get to make awesome developer pods for a living. I do think the fact is interesting, though, and worth exploring. Hopefully this exploration is an encouragement to other folks who record deep conversations for niche audiences like we do.\nMaybe we can't go viral because we still like memes from the early 2000s...\n\nTo debug why our podcast has never gone viral, we should troubleshoot…",
+          "link": "https://changelog.com/posts/the-changelog-has-never-gone-viral",
+          "publishedOn": "2023-12-28T19:57:05.000Z",
+          "wordCount": null,
+          "title": "The Changelog has never gone viral",
+          "itunes": {}
+        },
         {
           "id": "changelog.com/1/2276",
           "author": null,
@@ -328,21 +320,6 @@
             "length": "71197578",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2279",
-          "author": null,
-          "description": "Daniel & Chris conduct a retrospective analysis of the recent OpenAI debacle in which CEO Sam Altman was sacked by the OpenAI board, only to return days later with a new supportive board.  The events and people involved are discussed from start to finish along with the potential impact of these events on the AI industry.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nTraceroute – Listen and follow Season 3 of Traceroute starting November 2 on Apple, Spotify, or wherever you get your podcasts!\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nOpenAI | Wikipedia\nHow OpenAI’s origins explain the Sam Altman drama\nOpenAI chaos: A timeline of firings, interim CEOs, re-hirings and other twists\nOpenAI researchers warned board of AI breakthrough ahead of CEO ouster, sources say\nEveryone’s talking about OpenAI’s Q*. Here’s what you need to know about the mysterious project.\nIt is Time to Profit off of the OpenAI Drama\nYann LeCun | LinkedIn\nAdvent of GenAI Hackathon\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/247",
-          "publishedOn": "2023-11-29T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 247: The OpenAI debacle (a retrospective)",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/247/practical-ai-247.mp3",
-            "length": "45470982",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -464,15 +441,6 @@
           "publishedOn": "2023-11-30T19:00:00.000Z",
           "wordCount": 1319,
           "title": "Members of Fort Peck Tribes and Googlers meet to learn, celebrate and support socially beneficial technology"
-        },
-        {
-          "id": "https://blog.google/technology/ai/artist-refik-anadol-ai-creativity-google/",
-          "author": null,
-          "description": "Mira Lane explores how AI is empowering creativity with pioneering artist Refik Anadol.",
-          "link": "https://blog.google/technology/ai/artist-refik-anadol-ai-creativity-google/",
-          "publishedOn": "2023-11-29T17:00:00.000Z",
-          "wordCount": 1088,
-          "title": "A conversation with Refik Anadol on creativity and AI"
         }
       ]
     },
@@ -644,15 +612,6 @@
           "publishedOn": "2023-11-30T19:55:38.000Z",
           "wordCount": 556,
           "title": "Firefox Developer Edition and Beta: Try out Mozilla’s .deb package!"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=48061",
-          "author": "Stephen Hood",
-          "description": "We're thrilled to announce the first release of llamafile, inviting the open source community to join this groundbreaking project. \nWith llamafile, you can effortlessly convert large language model (LLM) weights into executables. Imagine transforming a 4GB file of LLM weights into a binary that runs smoothly on six different operating systems, without requiring installation. \nThe post Introducing llamafile appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2023/11/introducing-llamafile/",
-          "publishedOn": "2023-11-29T18:46:02.000Z",
-          "wordCount": 546,
-          "title": "Introducing llamafile"
         }
       ]
     },
@@ -661,6 +620,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=75904",
+          "author": "Laura Lindeman",
+          "description": "As the year winds down, we're highlighting some of the incredible work from GitHub’s engineers, product teams, and security researchers.\nThe post GitHub’s top blog posts of 2023 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2023-12-27-githubs-top-blog-posts-of-2023/",
+          "publishedOn": "2023-12-27T17:00:23.000Z",
+          "wordCount": 1086,
+          "title": "GitHub’s top blog posts of 2023"
+        },
         {
           "id": "https://github.blog/?p=75858",
           "author": "Max Beizer",
@@ -838,6 +806,15 @@
       "siteUrl": "https://www.hackerone.com/",
       "articles": [
         {
+          "id": "https://hackerone.com/culture-and-talent/power-connection-importance-weekly-all-hands-meetings-hackerone",
+          "author": "debbie@hackerone.com",
+          "description": "",
+          "link": "https://www.hackerone.com/culture-and-talent/power-connection-importance-weekly-all-hands-meetings-hackerone",
+          "publishedOn": "2023-12-28T19:52:41.000Z",
+          "wordCount": 1493,
+          "title": "The Power of Connection: The Importance of Weekly All-Hands Meetings at HackerOne"
+        },
+        {
           "id": "https://hackerone.com/customer-stories/sega-six-group",
           "author": "HackerOne",
           "description": "SEGA Europe and SIX Group discuss the power of bug bounty and vulnerability disclosure programs (VDPs) with HackerOne.",
@@ -926,15 +903,6 @@
           "publishedOn": "2023-12-04T17:55:00.000Z",
           "wordCount": 1694,
           "title": "Hack My Career: Meet Kayla Underkoffler"
-        },
-        {
-          "id": "https://hackerone.com/customer-stories/mercado-libre-public-bug-bounty",
-          "author": "HackerOne",
-          "description": "HackerOne is delighted to announce the launch of Mercado Libre’s Public Bug Bounty Program.",
-          "link": "https://www.hackerone.com/customer-stories/mercado-libre-public-bug-bounty",
-          "publishedOn": "2023-11-28T17:21:19.000Z",
-          "wordCount": 3873,
-          "title": "Mercado Libre’s Journey to a Public Bug Bounty Program"
         }
       ]
     },
@@ -951,15 +919,6 @@
           "publishedOn": "2023-12-14T16:54:11.000Z",
           "wordCount": 569,
           "title": "Our First Netflix Data Engineering Summit"
-        },
-        {
-          "id": "https://medium.com/p/e9e0cb15f2ba",
-          "author": "Netflix Technology Blog",
-          "description": "by  Aditya Mavlankar, Zhi Li, Lukáš Krasula and Christos Bampis",
-          "link": "https://netflixtechblog.com/all-of-netflixs-hdr-video-streaming-is-now-dynamically-optimized-e9e0cb15f2ba?source=rss----2615bd06b42e---4",
-          "publishedOn": "2023-11-29T21:26:33.000Z",
-          "wordCount": 1941,
-          "title": "All of Netflix’s HDR video streaming is now dynamically optimized"
         }
       ]
     },
