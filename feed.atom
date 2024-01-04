@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-01-03T12:03:09.738Z</updated>
+    <updated>2024-01-04T12:03:00.326Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Our move to generated SDKs]]></title>
+        <id>https://github.blog/?p=75896</id>
+        <link href="https://github.blog/2024-01-03-our-move-to-generated-sdks/"/>
+        <updated>2024-01-03T15:03:41.000Z</updated>
+        <summary type="html"><![CDATA[GitHub SDKs: software generated meets hand curated.
+The post Our move to generated SDKs appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Nick Floyd</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The I in LLM stands for intelligence]]></title>
         <id>https://daniel.haxx.se/blog/?p=23836</id>
@@ -996,141 +1007,6 @@ The post How we’re experimenting with LLMs to evolve GitHub Copilot appeared f
         <summary type="html"><![CDATA[Release presentation Today, December 6 at 09:00 UTC (10:00 CET), I will live-stream the curl 8.5.0 release presentation over at Twitch. After the fact, the release video will be made available on YouTube. Numbers the 253rd release2 changes56 days (total: 9,392)188 bug-fixes (total: 9,734)266 commits (total: 31,427)0 new public libcurl function (total: 93)0 new curl_easy_setopt() … Continue reading curl 8.5.0 →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Enterprise Server 3.11 is now generally available]]></title>
-        <id>https://github.blog/?p=75650</id>
-        <link href="https://github.blog/2023-12-05-github-enterprise-server-3-11-is-now-generally-available/"/>
-        <updated>2023-12-05T23:00:52.000Z</updated>
-        <summary type="html"><![CDATA[Customers using GitHub Enterprise Server can gain more insight and understanding into the security of their code.
-The post GitHub Enterprise Server 3.11 is now generally available appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>David Jarzebowski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Addressing post-quantum cryptography with CodeQL]]></title>
-        <id>https://github.blog/?p=75655</id>
-        <link href="https://github.blog/2023-12-05-addressing-post-quantum-cryptography-with-codeql/"/>
-        <updated>2023-12-05T22:00:41.000Z</updated>
-        <summary type="html"><![CDATA[Learn how researchers and security experts at GitHub, Microsoft, and Santander came together to address the challenges presented by the post-quantum cryptography world.  
-The post Addressing post-quantum cryptography with CodeQL appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Walker Chabbott</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 248: Suspicion machines ⚙️]]></title>
-        <id>changelog.com/7/2282</id>
-        <link href="https://changelog.com/practicalai/248"/>
-        <updated>2023-12-05T21:45:00.000Z</updated>
-        <summary type="html"><![CDATA[In this enlightening episode, we delve deeper than the usual buzz surrounding AI’s perils, focusing instead on the tangible problems emerging from the use of machine learning algorithms across Europe. We explore “suspicion machines” — systems that assign scores to welfare program participants, estimating their likelihood of committing fraud. Join us as Justin and Gabriel share insights from their thorough investigation, which involved gaining access to one of these models and meticulously analyzing its behavior.
-Leave us a comment
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Gabriel Geiger – Twitter
-Justin-Casimir Braun – Twitter
-Daniel Whitenack – Twitter, GitHub, Website
-
-Show Notes:
-
-Article - “Inside the suspicion machine”
-The methodology behind Justin and Gabriel’s report
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maintaining the Intelligence Edge in Cybersecurity]]></title>
-        <id>https://hackerone.com/ceo/maintaining-intelligence-edge-cybersecurity</id>
-        <link href="https://www.hackerone.com/ceo/maintaining-intelligence-edge-cybersecurity"/>
-        <updated>2023-12-05T18:19:42.000Z</updated>
-        <summary type="html"><![CDATA[A message from HackerOne's CEO about the power of both artificial and human intelligence.]]></summary>
-        <author>
-            <name>Marten Mickos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exceptional Exception Handling]]></title>
-        <id>http://testing.googleblog.com/2023/12/exceptional-exception-handling.html</id>
-        <link href="http://testing.googleblog.com/2023/12/exceptional-exception-handling.html"/>
-        <updated>2023-12-05T13:19:00.000Z</updated>
-        <summary type="html"><![CDATA[@media only screen and (max-width: 600px) {
-  .body {
-    overflow-x: auto;
-  }
-}
-
-
-
-This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
-
-
-by Yiming Sun
-
-
-Have you ever seen huge exception-handling blocks? Here is an example. Let's assume we are calling bakePizza() to bake a pizza, and it can be overbaked, throwing a PizzaOverbakedException.
-
-
-
-
-class PizzaOverbakedException extends Exception {};
-
-
-void bakePizza () throws PizzaOverbakedException {};
-
-
-try {
-  // 100+ lines of code to prepare pizza ingredients.
-  ...
-  bakePizza();
-  // Another 100+ lines of code to deliver pizza to a customer.
-  ...
-} catch (Exception e) {
-  throw new IllegalStateException(); // Root cause ignored while throwing new exception.
-}
-
-
-
-Here are the problems with the above code:
-
-Obscuring the logic. The method bakePizza(), is obscured by the additional lines of code of preparation and delivery, so unintended exceptions from preparation and delivery may be caught.
-Catching the general exception. catch (Exception e) will catch everything, despite that we might only want to handle PizzaOverbakedException here.
-Rethrowing a general exception, with the original exception ignored. This means that the root cause is lost - we don't know what exactly goes wrong with pizza baking while debugging.
-
-Here is a better alternative, rewritten to avoid the problems above.
-
-
-
-class PizzaOverbakedException extends Exception {};
-
-void bakePizza () throws PizzaOverbakedException {};
-
-// 100+ lines of code to prepare pizza ingredients.
-...
-try {
-  bakePizza();
-} catch (PizzaOverbakedException e) {  // Other exceptions won’t be caught.
-  // Rethrow a more meaningful exception; so that we know pizza is overbaked.
-  throw new IllegalStateException(“You burned the pizza!”, e);  
-}
-// Another 100+ lines of code to deliver pizza to a customer.
-...]]></summary>
-        <author>
-            <name>Google Testing Blog</name>
         </author>
     </entry>
 </feed>
