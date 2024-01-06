@@ -236,28 +236,13 @@
             "length": "100473935",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/6/2202",
-          "author": null,
-          "description": "Gregg Tavares (author of WebGL/WebGPU Fundamentals) joins Jerod & Amal to give us a tour of these low-level technologies that are pushing the web forward into the world of video games, machine learning & other exciting rich applications.\nLeave us a comment\nChangelog++ members get a bonus 16 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nReact Jam – React Jam is an online event where React developers come together to create games in 10 days. Let’s do this!\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nGregg Tavares – Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAmal Hussein – Twitter, GitHub\n\nShow Notes:\n\nWebGL Fundamentals\nWebGPU Fundamentals\nWebGPU - Wikipedia\n“webgpu” | Can I use…\nDownload the latest indie games - itch.io\nPlayCanvas WebGL Game Engine\nPICO-8 Fantasy Console\nTomorrow, and Tomorrow, and Tomorrow: A Novel\nChangelog++\nZelda, Tears of the Kingdom - Disappointing\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/304",
-          "publishedOn": "2023-12-07T17:40:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 304: From WebGL to WebGPU",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/304/js-party-304.mp3",
-            "length": "57028215",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
     {
       "title": "comma.ai blog",
       "feedUrl": "https://blog.comma.ai/feed.xml",
-      "siteUrl": "https://blog.comma.ai/",
+      "siteUrl": "https://blog.comma.ai",
       "articles": []
     },
     {
@@ -370,6 +355,15 @@
       "siteUrl": "https://blog.twitter.com/engineering/en_us",
       "articles": [
         {
+          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "author": null,
+          "description": "In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.",
+          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter",
+          "publishedOn": "2024-01-06T12:02:26.477Z",
+          "wordCount": 915,
+          "title": "Data Quality Automation at Twitter"
+        },
+        {
           "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search",
           "author": null,
           "description": "In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.",
@@ -395,60 +389,6 @@
           "publishedOn": "2023-12-17T12:02:43.999Z",
           "wordCount": 1022,
           "title": "How Twitter uses rasdaemon for hardware reliability"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service",
-          "publishedOn": "2023-12-07T12:03:00.445Z",
-          "wordCount": 1756,
-          "title": "Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
-          "author": null,
-          "description": "As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter",
-          "publishedOn": "2023-12-07T12:03:00.429Z",
-          "wordCount": 2016,
-          "title": "Constraint Management for cluster operation safety and reliability at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "author": null,
-          "description": "In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac",
-          "publishedOn": "2023-12-07T12:03:00.423Z",
-          "wordCount": 2283,
-          "title": "Measuring the impact of Twitter network latency with CausalImpact"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-          "publishedOn": "2023-12-07T12:03:00.413Z",
-          "wordCount": 940,
-          "title": "How we scaled Reads On the Twitter Users Database"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "author": null,
-          "description": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-          "publishedOn": "2023-12-07T12:03:00.406Z",
-          "wordCount": 3441,
-          "title": "Kerberizing Hadoop Clusters at Twitter"
-        },
-        {
-          "id": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
-          "author": null,
-          "description": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.",
-          "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
-          "publishedOn": "2023-12-07T12:03:00.386Z",
-          "wordCount": 1786,
-          "title": "Twitter's Recommendation Algorithm"
         }
       ]
     },
@@ -479,6 +419,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=75941",
+          "author": "Nick Liffen",
+          "description": "Developers care about security, but poorly integrated tools and other factors can cause frustration. Here are five best practices to reduce friction.\nThe post 5 ways to make your DevSecOps strategy developer-friendly appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-01-05-5-ways-to-make-your-devsecops-strategy-developer-friendly/",
+          "publishedOn": "2024-01-05T15:02:36.000Z",
+          "wordCount": 2509,
+          "title": "5 ways to make your DevSecOps strategy developer-friendly"
+        },
         {
           "id": "https://github.blog/?p=75896",
           "author": "Nick Floyd",
@@ -568,33 +517,6 @@
           "publishedOn": "2023-12-13T16:00:16.000Z",
           "wordCount": 918,
           "title": "Default setup now includes scheduled scans and supports all languages covered by CodeQL"
-        },
-        {
-          "id": "https://github.blog/?p=75736",
-          "author": "Jiaqi Liu",
-          "description": "GitHub uses MySQL to store vast amounts of relational data. This is the story of how we seamlessly upgraded our production fleet to MySQL 8.0.\nThe post Upgrading GitHub.com to MySQL 8.0 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-12-07-upgrading-github-com-to-mysql-8-0/",
-          "publishedOn": "2023-12-07T22:00:36.000Z",
-          "wordCount": 2928,
-          "title": "Upgrading GitHub.com to MySQL 8.0"
-        },
-        {
-          "id": "https://github.blog/?p=75749",
-          "author": "Rachel Siemens",
-          "description": "Read a roundup of the exciting, new innovation coming from GitHub Actions.\nThe post From macOS runners to secure deployments, what’s new from GitHub Actions appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-12-07-from-macos-runners-to-secure-deployments-whats-new-from-github-actions/",
-          "publishedOn": "2023-12-07T21:01:53.000Z",
-          "wordCount": 1528,
-          "title": "From macOS runners to secure deployments, what’s new from GitHub Actions"
-        },
-        {
-          "id": "https://github.blog/?p=75729",
-          "author": "Kevin Xu",
-          "description": "Discover the latest trends and insights on public software development activity on GitHub with the release of Q2 2023 data for the Innovation Graph.\nThe post GitHub Innovation Graph Q2 2023 Data Release appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2023-12-07-github-innovation-graph-q2-2023-data-release/",
-          "publishedOn": "2023-12-07T16:37:33.000Z",
-          "wordCount": 725,
-          "title": "GitHub Innovation Graph Q2 2023 Data Release"
         }
       ]
     },
@@ -680,15 +602,6 @@
           "publishedOn": "2023-12-11T17:34:59.000Z",
           "wordCount": 1482,
           "title": "How Do You Know Ethical Hackers Can Be Trusted?"
-        },
-        {
-          "id": "https://hackerone.com/lhe/2024-lhe-invitations",
-          "author": "HackerOne",
-          "description": "2024 HackerOne Live Hacking Events are here and better than ever!",
-          "link": "https://www.hackerone.com/lhe/2024-lhe-invitations",
-          "publishedOn": "2023-12-07T21:06:19.000Z",
-          "wordCount": 1870,
-          "title": "2024 Live Hacking Events"
         }
       ]
     },
