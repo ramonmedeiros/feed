@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-01-06T12:02:41.877Z</updated>
+    <updated>2024-01-07T12:02:56.621Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Kerberizing Hadoop Clusters at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter"/>
+        <updated>2024-01-07T12:02:43.138Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Constraint Management for cluster operation safety and reliability at Twitter]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter"/>
+        <updated>2024-01-07T12:02:43.118Z</updated>
+        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service"/>
+        <updated>2024-01-07T12:02:43.109Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
+        <updated>2024-01-07T12:02:43.092Z</updated>
+        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter's Recommendation Algorithm]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"/>
+        <updated>2024-01-07T12:02:43.067Z</updated>
+        <summary type="html"><![CDATA[Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we scaled Reads On the Twitter Users Database]]></title>
+        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database</id>
+        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database"/>
+        <updated>2024-01-07T12:02:43.041Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Data Quality Automation at Twitter]]></title>
         <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter</id>
@@ -783,56 +843,6 @@ Something missing or broken? PRs welcome!]]></summary>
         <summary type="html"><![CDATA[HackerOne has rolled out new updates that make our human-powered security program the most trusted in the industry.]]></summary>
         <author>
             <name>Michiel Prins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog & Friends 24: HATEOAS corpus]]></title>
-        <id>changelog.com/17/2283</id>
-        <link href="https://changelog.com/friends/24"/>
-        <updated>2023-12-08T18:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Jerod is back with another “It Depends” episode! This time he’s joined by Kris Brandow from Go Time and they’re talking all things API design. What makes a good API? Is GraphQL a solid choice? Why do we do REST wrong? And WTF does HATEOAS mean, anyway?
-Leave us a comment
-Changelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
-
-Sentry – Get $100 towards your error monitoring with Sentry! Use the code changelog.
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-Kris Brandow – Twitter, GitHub
-
-Show Notes:
-
-PHP: a fractal of bad design
-PostGraphile Instant GraphQL API
-HATEOAS
-The Tech Behind the New Grooveshark
-OpenAPI Spec
-HTTP Specifications
-Roy Fielding Dissertation on REST
-Mike Amundsen
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NotebookLM adds more than a dozen new features]]></title>
-        <id>https://blog.google/technology/ai/notebooklm-new-features-availability/</id>
-        <link href="https://blog.google/technology/ai/notebooklm-new-features-availability/"/>
-        <updated>2023-12-08T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Now available in the U.S., NotebookLM has new features to help you easily read, take notes and organize your writing projects.]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
