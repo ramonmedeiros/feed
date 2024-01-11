@@ -4,39 +4,34 @@
       "title": "Google Online Security Blog",
       "feedUrl": "https://googleonlinesecurity.blogspot.com/atom.xml",
       "siteUrl": "http://security.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://security.googleblog.com/2023/12/hardening-cellular-basebands-in-android.html",
-          "author": null,
-          "description": "Posted by Ivan Lozano and Roger Piqueras Jover\n\n\nAndroid’s defense-in-depth strategy applies not only to the Android OS running on the Application Processor (AP) but also the firmware that runs on devices. We particularly prioritize hardening the cellular baseband given its unique combination of running in an elevated privilege and parsing untrusted inputs that are remotely delivered into the device.\n\n\nThis post covers how to use two high-value sanitizers which can prevent specific classes of vulnerabilities found within the baseband. They are architecture agnostic, suitable for bare-metal deployment, and should be enabled in existing C/C++ code bases to mitigate unknown vulnerabilities. Beyond security, addressing the issues uncovered by these sanitizers improves code health and overall s…",
-          "link": "http://security.googleblog.com/2023/12/hardening-cellular-basebands-in-android.html",
-          "publishedOn": "2023-12-12T17:00:00.000Z",
-          "wordCount": 2446,
-          "title": "Hardening cellular basebands in Android"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://testing.googleblog.com/2023/12/let-code-speak-for-itself.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n  td{\n    white-space: nowrap;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\n\nby Shiva Garg and Francois Aube\n\n\n\nComments can be invaluable for understanding and maintaining a code base.  But excessive comments in code can become unhelpful clutter full of extraneous and/or outdated detail. \nComments that offer useless (or worse, obsolete) information hurt readability. Here are some tips to let your code speak for itself: \n\n\nWrite comments to explain the “why” behind a certain approach in code. The comment below has…",
-          "link": "http://testing.googleblog.com/2023/12/let-code-speak-for-itself.html",
-          "publishedOn": "2023-12-12T16:06:00.000Z",
-          "wordCount": 3079,
-          "title": "Let Code Speak for Itself"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Changelog",
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2303",
+          "author": null,
+          "description": "We scoured the internet to find all the AI related predictions for 2024 (at least from people that might know what they are talking about), and, in this episode, we talk about some of the common themes. We also take a moment to look back at 2023 commenting with some distance on a crazy AI year.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/251",
+          "publishedOn": "2024-01-10T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 251: AI predictions for 2024",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/251/practical-ai-251.mp3",
+            "length": "43403582",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "changelog.com/16/2301",
           "author": null,
@@ -191,36 +186,6 @@
           "wordCount": null,
           "title": "NixOS has one fatal flaw",
           "itunes": {}
-        },
-        {
-          "id": "changelog.com/2/2251",
-          "author": null,
-          "description": "Filippo Valsorda & Roland Shoemaker from the Go Team return & bring Nicola Murino with them to continue catching us up on what’s new in Go’s crypto libraries.\nThis is everything we didn’t cover + deep dives from Part 1!\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nFilippo Valsorda – Mastodon, Twitter, GitHub, Website\nRoland Shoemaker – Twitter, GitHub, Website\nNicola Murino – GitHub\nNatalie Pistunovich – Twitter, GitHub\n\nShow Notes:\n\nWhat’s new in Go’s cryptography libraries: Part 1\nNIST\nFIPS\nDiffie–Hellman key exchange\nFIPS standard 140\ngithub.com/quic-go/quic-go\ntip.golang.org/src/crypto/tls/quic.go\npkg.go.dev/crypto/x509\nMultiAlgorithmSigner\nOpenSSH format keys\nKerberos edge case, use the correct token from the client\ndefer channel window adjustment\nImproved test cases (removed t.Fatal calls from goroutines), added test against SSH CLI\nAgent compatibility\ngithub.com/drakkan/sftpgo\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/298",
-          "publishedOn": "2023-12-12T21:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 298: What's new in Go's cryptography libraries: Part 2",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/298/go-time-298.mp3",
-            "length": "69284961",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2287",
-          "author": null,
-          "description": "The new open source AI book from PremAI starts with “As a data scientist/ML engineer/developer with a 9 to 5 job, it’s difficult to keep track of all the innovations.” We couldn’t agree more, and we are so happy that this week’s guest Casper (among other contributors) have created this resource for practitioners.\nDuring the episode, we cover the key categories to think about as you try to navigate the open source AI ecosystem, and Casper gives his thoughts on fine-tuning, vector DBs & more.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nCasper da Costa-Luis – GitHub\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\nState of Open Source AI Book - 2023 Edition\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/249",
-          "publishedOn": "2023-12-12T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 249: The state of open source AI",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/249/practical-ai-249.mp3",
-            "length": "41123896",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -459,17 +424,7 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": [
-        {
-          "id": "https://hacks.mozilla.org/?p=48070",
-          "author": "James Graham",
-          "description": "Puppeteer now supports the next-generation, cross-browser WebDriver BiDi standard. This new protocol makes it easy for web developers to write automated tests that work across multiple browser engines.\nThe post Puppeteer Support for the Cross-Browser WebDriver BiDi Standard appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2023/12/puppeteer-webdriver-bidi/",
-          "publishedOn": "2023-12-12T16:14:03.000Z",
-          "wordCount": 854,
-          "title": "Puppeteer Support for the Cross-Browser WebDriver BiDi Standard"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
@@ -677,24 +632,6 @@
           "publishedOn": "2023-12-13T17:51:56.000Z",
           "wordCount": 2212,
           "title": "How to Use Your Bug Bounty Budget Efficiently"
-        },
-        {
-          "id": "https://hackerone.com/culture-and-talent/career-growth-insights-tiffany-jones-vp-go-market-operations-and-strategy",
-          "author": "Debbie Cotton",
-          "description": "",
-          "link": "https://www.hackerone.com/culture-and-talent/career-growth-insights-tiffany-jones-vp-go-market-operations-and-strategy",
-          "publishedOn": "2023-12-12T17:46:12.000Z",
-          "wordCount": 1212,
-          "title": "Career Growth: Insights from Tiffany Jones, VP of Go to Market Operations and Strategy"
-        },
-        {
-          "id": "https://hackerone.com/penetration-testing/hackerone-named-leader-penetration-testing-service-ptaas-gigaom-radar-report",
-          "author": "Naz Bozdemir",
-          "description": "HackerOne has been named a \"Leader\" and a \"Fast Mover\" in the 2023 GigaOm PTaaS Radar Report.",
-          "link": "https://www.hackerone.com/penetration-testing/hackerone-named-leader-penetration-testing-service-ptaas-gigaom-radar-report",
-          "publishedOn": "2023-12-12T16:00:00.000Z",
-          "wordCount": 1903,
-          "title": "Interpret the 2023 GigaOm PTaaS Radar Report with HackerOne"
         }
       ]
     },
@@ -703,6 +640,15 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/4e5e6310e359",
+          "author": "Netflix Technology Blog",
+          "description": "This is the first blog in a multi-part series on how Netflix rebuilt its video processing pipeline with microservices, so we can maintain…",
+          "link": "https://netflixtechblog.com/rebuilding-netflix-video-processing-pipeline-with-microservices-4e5e6310e359?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-01-10T23:20:40.000Z",
+          "wordCount": 2227,
+          "title": "Rebuilding Netflix Video Processing Pipeline with Microservices"
+        },
         {
           "id": "https://medium.com/p/f326b0589102",
           "author": "Netflix Technology Blog",
