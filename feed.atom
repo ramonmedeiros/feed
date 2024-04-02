@@ -2,165 +2,866 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-01-15T12:03:08.834Z</updated>
+    <updated>2024-04-02T06:53:21.680Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[Changelog & Friends 26: Kaizen! Should we build a CDN?]]></title>
-        <id>changelog.com/17/2295</id>
-        <link href="https://changelog.com/friends/26"/>
-        <updated>2024-01-12T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s our 13th Kaizen episode! We’re back from KubeCon, we’re making goals for the year, we’re migrating to Neon & we’re weighing the pros/cons of building our own custom CDN.
+        <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability"/>
+        <updated>2024-04-02T06:53:04.982Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we scaled Reads On the Twitter Users Database]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database"/>
+        <updated>2024-04-02T06:53:04.978Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
+        <updated>2024-04-02T06:53:04.935Z</updated>
+        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Constraint Management for cluster operation safety and reliability at Twitter]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter"/>
+        <updated>2024-04-02T06:53:04.929Z</updated>
+        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The data platform cluster operator service for Hadoop cluster management]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management"/>
+        <updated>2024-04-02T06:53:04.925Z</updated>
+        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter's Recommendation Algorithm]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"/>
+        <updated>2024-04-02T06:53:04.910Z</updated>
+        <summary type="html"><![CDATA[Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service"/>
+        <updated>2024-04-02T06:53:04.905Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kerberizing Hadoop Clusters at Twitter]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter"/>
+        <updated>2024-04-02T06:53:04.900Z</updated>
+        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stability and scalability for search]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search"/>
+        <updated>2024-04-02T06:53:04.886Z</updated>
+        <summary type="html"><![CDATA[In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Quality Automation at Twitter]]></title>
+        <id>https://blog.x.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter</id>
+        <link href="https://blog.x.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter"/>
+        <updated>2024-04-02T06:53:04.581Z</updated>
+        <summary type="html"><![CDATA[In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.]]></summary>
+        <author>
+            <name>English (US)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News 88: Who in the world is Jia Tan?]]></title>
+        <id>changelog.com/16/2390</id>
+        <link href="https://changelog.com/news/88"/>
+        <updated>2024-04-01T19:45:00.000Z</updated>
+        <summary type="html"><![CDATA[The big story right now is the recently uncovered backdoor in liblzma (aka XZ) – a relatively obscure compression library that happens to be a dependency of OpenSSH.
+This incident is noteworthy for so many reasons: the exploit itself, how it was deployed, how it was found, what it says about our industry & how the community reacted. Let’s dig in!
 Leave us a comment
-Changelog++ members get a bonus 2 minutes at the end of this episode and zero ads. Join today!
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
 Sponsors:
 
   
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
+Sentry – AI-powered Autofix debugs & fixes your code in minutes. Give it a try… oh, and don’t forget to use code CHANGELOG when you sign up for Sentry to get $100 off their team plan. ✊
 
-Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+Tailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required.
 
 
 Featuring:
 
-Gerhard Lazu – Mastodon, Twitter, GitHub, Website
 Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
 
 Show Notes:
-
-📄 Kaizen 13
-Migrate Postgres to Neon.tech by gerhard · Pull Request #492
-CDN cache misses increased 7x · Issue #486
-🎥 TGI RabbitMQ
-Neon.tech
-Supabase Postgres · Fly Docs
-Vercel Postgres
-KeyCDN - Content delivery made easy
+All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JS Party 307: htmx: a new old way to build the web]]></title>
-        <id>changelog.com/6/2304</id>
-        <link href="https://changelog.com/jsparty/307"/>
-        <updated>2024-01-12T15:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Carson Gross (creator of htmx) & Alex Russell (Mr. Web Platform 3000) join Amal for an EPIC discussion on web architectures, the evolution of rendering patterns & the advantages of hypermedia and htmx. We dive deep on why modern web app best practices are falling short & explore how htmx gives devs an HTML-first approach to use tech that’s over 20 years old.
-Tune in to learn a new way to do something old, so you can simplify your code & use JavaScript when/where it’s uniquely able to shine ✨
+        <title type="html"><![CDATA[Changelog & Friends 37: The undercover generalist]]></title>
+        <id>changelog.com/17/2380</id>
+        <link href="https://changelog.com/friends/37"/>
+        <updated>2024-03-29T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Which is smarter: specializing in a particular tech or becoming more of a generalist? It depends! Which is why Jerod invited “undercover generalist” Adolfo Ochagavía on our “It Depends” series to weigh the pros & cons of each path.
 Leave us a comment
-Changelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!
+Changelog++ members get a bonus 37 minutes at the end of this episode and zero ads. Join today!
 Sponsors:
 
   
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals
 
-Changelog News – A podcast+newsletter combo that’s brief, e…]]></summary>
+Cloudflare – Cloudflare’s Developer Week is happening April 1-5, 2024. Also you can hang with Adam and the rest of the folks at Cloudflare at the Cloudflare offices in Austin, TX on Wednesday, April 3rd at 5:30pm — register here.
+
+Synadia – Take NATS to the next level via a global, multi-cloud, multi-geo and extensible service, fully managed by Synadia. They take care of all the infrastructure, management, monitoring, and maintenance for you so you can focus on building exceptional distributed applications.
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Adolfo Ochagavía – GitHub, LinkedIn, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+More “It Depends” episodes
+The undercover generalist
+Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[emails I received, the collection]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23961</id>
-        <link href="https://daniel.haxx.se/blog/2024/01/12/emails-i-received-the-collection/"/>
-        <updated>2024-01-12T08:09:19.000Z</updated>
-        <summary type="html"><![CDATA[I have since at least 2009 posted occasional emails I received on this blog. Often they are emails from people who found my email address somewhere, thinking I am involved in the product or service where they found me. In cars, games, traces after breaches, apps and more. They range from plain weird to fun … Continue reading emails I received, the collection →]]></summary>
+        <title type="html"><![CDATA[10,000 bugfixes in 10,000 days]]></title>
+        <id>https://daniel.haxx.se/blog/?p=22827</id>
+        <link href="https://daniel.haxx.se/blog/2024/03/29/10000-bugfixes-in-10000-days/"/>
+        <updated>2024-03-29T15:17:57.000Z</updated>
+        <summary type="html"><![CDATA[We keep track of bugfixes done to curl. All bugfixes ever done. A while back I also went back and populated the lists with details from all the releases to the pre-cursors of curl: httpget and urlget. All and every change made since November 1996. The bugfixes are all listed on the curl changelog page. … Continue reading 10,000 bugfixes in 10,000 days →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Changelog Interviews 573: Amazon's silent sacking]]></title>
-        <id>changelog.com/1/2293</id>
-        <link href="https://changelog.com/podcast/573"/>
-        <updated>2024-01-11T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Justin Garrison joins us to talk about Amazon’s silent sacking, from his perspective. He should know. He works there. Well, as of yesterday he quit. We discuss how the cloud and Kubernetes have transformed the way software is developed and deployed, the impact silent layoffs have on employees and their careers, speaking out about workplace issues (the right way), how changes in organizational structure can lead to gaps in expertise and responsibility which can lead to potential outages and slower response times.
-By the way, we officially let the cat off out of the bag in this episode. Justin has joined the ranks here at Changelog and is taking over as the host of Ship It! Expect new episodes soon.
+        <title type="html"><![CDATA[Ship It! 97: SoCal Linux Expo]]></title>
+        <id>changelog.com/14/2375</id>
+        <link href="https://changelog.com/shipit/97"/>
+        <updated>2024-03-29T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Justin & Autumn take you with them to the 2024 SoCal Linux Expo where they asked six fellow attendees about their favorite open source projects and their least favorite commands.
 Leave us a comment
-Changelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
 Sponsors:
 
   
-Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
-
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
-
-Sentry – Get $100 towards your error monitoring with Sentry! Use the code changelog.
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals
 
 Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
 
 
 Featuring:
 
-Justin Garrison – GitHub, LinkedIn
-Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+Jeremy Price – LinkedIn
+Elizabeth K. Joseph – Mastodon, Twitter, GitHub, LinkedIn, Website
+Gareth Greenaway – Mastodon, GitHub
+Noel Miller – GitHub, LinkedIn
+Rit Li – Twitter, GitHub, LinkedIn
+Paul Yu – Twitter, GitHub, LinkedIn, Website
+Justin Garrison – Twitter, GitHub, LinkedIn
+Autumn Nash – Twitter, GitHub, LinkedIn
 
 Show Notes:
-
-Amazon’s Silent Sacking
-mintCast 
-Ship It
-Justin on Ship It takeover
+Favorite projects mentioned
+Linux
+SQLite
+Lua
+KEDA
+SaltStack
+Universal Blue
+Least favorite commands
+sl
+nano
+sed
+tar
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Empowering Uruguay’s future workforce with AI]]></title>
-        <id>https://github.blog/?p=76100</id>
-        <link href="https://github.blog/2024-01-11-empowering-uruguays-future-workforce-with-ai/"/>
-        <updated>2024-01-11T20:44:16.000Z</updated>
-        <summary type="html"><![CDATA[During the second cycle of Git Commit Uruguay, students learned the basics of AI and built their own AI-powered projects.
-The post Empowering Uruguay’s future workforce with AI appeared first on The GitHub Blog.]]></summary>
+        <title type="html"><![CDATA[Empowering women through open source]]></title>
+        <id>https://github.blog/?p=77177</id>
+        <link href="https://github.blog/2024-03-28-empowering-women-through-open-source/"/>
+        <updated>2024-03-28T18:42:21.000Z</updated>
+        <summary type="html"><![CDATA[A discussion about how tech is aiding organizations fighting for gender equality, what it means to be a woman in tech and the world today, and advice on how we all move forward.
+The post Empowering women through open source appeared first on The GitHub Blog.]]></summary>
         <author>
-            <name>Karen Bella</name>
+            <name>Jiyon Yun</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[HackerOne Partners With Semgrep to Combine Expert Code Review With Powerful Automation]]></title>
-        <id>https://hackerone.com/vulnerability-management/semgrep-partnership</id>
-        <link href="https://www.hackerone.com/vulnerability-management/semgrep-partnership"/>
-        <updated>2024-01-11T17:17:58.000Z</updated>
-        <summary type="html"><![CDATA[HackerOne's partnership with Semgrep harnesses the power of automation and combines it with expert code review.]]></summary>
+        <title type="html"><![CDATA[JS Party 317: 13% of the time, Devin works every time]]></title>
+        <id>changelog.com/6/2377</id>
+        <link href="https://changelog.com/jsparty/317"/>
+        <updated>2024-03-28T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Jerod, KBall & Nick discuss the latest news: Devin, Astro DB, The JavaScript Registry, Tailwind 4 & Angular merging with Wiz. Oh, and a surprise mini-game of HeadLIES!
+Leave us a comment
+Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+PowerSync – Build local-first web apps — Give users instantly reactive UX with an in-browser database that keeps itself in sync with any backend Postgres. No need to wait for network requests, code complicated caching logic or to maintain in-memory state. Set up is easy, removal too. Try on a generous free plan.
+
+CrabNebula Cloud – CrabNebula Cloud is here! Distribute Tauri apps and Electron apps with best in class updater. At the heart of CrabNebula Cloud is a purpose-built CDN ready for global scale, and secure updates as a first-class citizen. Learn more at crabnebula.dev/cloud
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+Kevin Ball – Twitter, GitHub, LinkedIn, Website
+Nick Nisi – Twitter, GitHub, Website
+
+Show Notes:
+
+Devin, the first AI software engineer
+Astro DB
+JSR - the JavaScript Registry
+Tailwind 4
+Angular merging with Wiz
+Something missing or broken? PRs welcome!]]></summary>
         <author>
-            <name>Alex Rice</name>
+            <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Five ways Victoria’s Secret & Co. is using AI to make shopping more personalized and inclusive]]></title>
-        <id>https://blog.google/products/google-cloud/victorias-secret-google-cloud-ai/</id>
-        <link href="https://blog.google/products/google-cloud/victorias-secret-google-cloud-ai/"/>
-        <updated>2024-01-11T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new partnership between Victoria’s Secret & Company and Google Cloud uses AI and generative AI to make online shopping more personalized and inclusive.]]></summary>
+        <title type="html"><![CDATA[3 insights from nonprofits about generative AI]]></title>
+        <id>https://blog.google/outreach-initiatives/google-org/google-for-nonprofits-generative-ai-report/</id>
+        <link href="https://blog.google/outreach-initiatives/google-org/google-for-nonprofits-generative-ai-report/"/>
+        <updated>2024-03-28T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re sharing a few insights from a survey with nonprofits about how they’re using generative AI.]]></summary>
         <author>
             <name>AI</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rebuilding Netflix Video Processing Pipeline with Microservices]]></title>
-        <id>https://medium.com/p/4e5e6310e359</id>
-        <link href="https://netflixtechblog.com/rebuilding-netflix-video-processing-pipeline-with-microservices-4e5e6310e359?source=rss----2615bd06b42e---4"/>
-        <updated>2024-01-10T23:20:40.000Z</updated>
-        <summary type="html"><![CDATA[This is the first blog in a multi-part series on how Netflix rebuilt its video processing pipeline with microservices, so we can maintain…]]></summary>
+        <title type="html"><![CDATA[21 nonprofits join our first generative AI accelerator]]></title>
+        <id>https://blog.google/outreach-initiatives/google-org/google-generative-ai-accelerator-nonprofits/</id>
+        <link href="https://blog.google/outreach-initiatives/google-org/google-generative-ai-accelerator-nonprofits/"/>
+        <updated>2024-03-28T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn about the nonprofits joining our newest accelerator focused on generative AI.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Bytes · March 2024]]></title>
+        <id>https://github.blog/?p=77050</id>
+        <link href="https://github.blog/2024-03-27-game-bytes-march-2024/"/>
+        <updated>2024-03-27T23:04:21.000Z</updated>
+        <summary type="html"><![CDATA[Game Bytes is our monthly series taking a peek at the world of gamedev on GitHub—featuring game engine updates, game jam details, open source games, mods, maps, and more. Game on!
+The post Game Bytes · March 2024 appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Lee Reilly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 584: We're flipping the script]]></title>
+        <id>changelog.com/1/2383</id>
+        <link href="https://changelog.com/podcast/584"/>
+        <updated>2024-03-27T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Script flipped! Today we’re sharing two interviews of us on Other People’s Podcasts (OPP): Kathrine Druckman from the Open at Intel podcast invited us on the show at KubeCon NA in November and Den Delimarsky hosted Jerod on The Work Item podcast in February.
+Leave us a comment
+Changelog++ members save 11 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Synadia – Take NATS to the next level via a global, multi-cloud, multi-geo and extensible service, fully managed by Synadia. They take care of all the infrastructure, management, monitoring, and maintenance for you so you can focus on building exceptional distributed applications.
+
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals
+
+Cloudflare – Cloudflare’s Developer Week is happening April 1-5, 2024. Also you can hang with Adam and the rest of the folks at Cloudflare at the Cloudflare offices in Austin, TX on Wednesday, April 3rd at 5:30pm — register here.
+
+
+Featuring:
+
+Katherine Druckman – Mastodon, Twitter, LinkedIn
+Den Delimarsky – Twitter, GitHub, LinkedIn, Website
+Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+
+Open at Intel Our episode
+The Work Item (Jerod’s episode)
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[curl 8.7.0 and 8.7.1]]></title>
+        <id>https://daniel.haxx.se/blog/?p=24390</id>
+        <link href="https://daniel.haxx.se/blog/2024/03/27/curl-8-7-0/"/>
+        <updated>2024-03-27T07:00:08.000Z</updated>
+        <summary type="html"><![CDATA[Numbers the 255th and 256th releases5 changes56 days (total: 9,504)162 bug-fixes (total: 10,050)246 commits (total: 31,931)0 new public libcurl function (total: 93)0 new curl_easy_setopt() option (total: 304)0 new curl command line option (total: 258)92 contributors, 56 new (total: 3,133)37 authors, 15 new (total: 1,252)4 security fixes (total: 155) Versions I first released 8.7.0, but immediately … Continue reading curl 8.7.0 and 8.7.1 →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 309: Debugging]]></title>
+        <id>changelog.com/2/2357</id>
+        <link href="https://changelog.com/gotime/309"/>
+        <updated>2024-03-26T20:15:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode Matt, Bill & Jon discuss various debugging techniques for use in both production and development. Bill explains why he doesn’t like his developers to use the debugger and how he prefers to only use techniques available in production. Matt expresses a few counterpoints based on his different experiences, and then the group goes over some techniques for debugging in production.
+Leave us a comment
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Matthew Boyle – Twitter, GitHub, Website
+Bill Kennedy – Twitter, GitHub, Website
+Jon Calhoun – Twitter, GitHub, Website
+
+Show Notes:
+
+Limits in Kubernetes - A blog by Bill
+Prometheus
+crawler-hints
+distributed tracing
+service weaver
+encore
+Petr Levels
+Andrea Medda
+Matt’s debugging course
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 262: AI vs software devs]]></title>
+        <id>changelog.com/7/2381</id>
+        <link href="https://changelog.com/practicalai/262"/>
+        <updated>2024-03-26T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Daniel and Chris are out this week, so we’re bringing you conversations all about AI’s complicated relationship to software developers from other Changelog pods: JS Party, Go Time & The Changelog.
+Leave us a comment
+Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Neo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into yo…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s in a Name?]]></title>
+        <id>http://testing.googleblog.com/2024/03/whats-in-name.html</id>
+        <link href="http://testing.googleblog.com/2024/03/whats-in-name.html"/>
+        <updated>2024-03-26T12:34:00.000Z</updated>
+        <summary type="html"><![CDATA[@media only screen and (max-width: 600px) {
+  .body {
+    overflow-x: auto;
+  }
+}
+  
+@media (max-width: 480px), (max-height: 480px) {
+.post-content table, .post-content td {
+   width: auto !important;
+   white-space: nowrap;
+}
+
+
+
+This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+
+by Adam Raider
+
+
+
+
+
+“There are only two hard things in computer science: cache invalidation and naming things.” —Phil Karlton
+Have you ever read an identifier only to realize later it doesn’t do what you expected? Or had to read the implementation in order to understand an interface? These indirections eat up our cognitive bandwidt…]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News 87: Another one bites the dust]]></title>
+        <id>changelog.com/16/2379</id>
+        <link href="https://changelog.com/news/87"/>
+        <updated>2024-03-25T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redis’ re-licensing prompts forks like Drew DeVault’s Redict, Matthew Miller thinks we need more community built software, Paul Gross makes the case that DuckDB is the new jq, Anton Zhiyanov shares how he makes a living as a developer despite being “pretty dumb” & Baldur Bjarnason chimes in on the state of the web developer job market.
+Leave us a comment
+Changelog++ members save 1 minute on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+POST/CON 24 – Postman’s annual user conference pops off April 30th-May 1st in San Fransisco and they’re going all out to ensure this is your must-attend event of the year!
+Register now… before it’s too late!
+
+CrabNebula Cloud – CrabNebula Cloud is here! Distribute Tauri apps and Electron apps with best in class updater. At the heart of CrabNebula Cloud is a purpose-built CDN ready for global scale, and secure updates as a first-class citizen. Learn more at crabnebula.dev/cloud
+
+
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using GitHub Copilot in your IDE: Tips, tricks and best practices]]></title>
+        <id>https://github.blog/?p=77119</id>
+        <link href="https://github.blog/2024-03-25-how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/"/>
+        <updated>2024-03-25T17:06:19.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Copilot is a powerful AI assistant. Learn practical strategies to get the most out of GitHub Copilot to generate the most relevant and useful code suggestions in your editor.
+The post Using GitHub Copilot in your IDE: Tips, tricks and best practices appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Kedasha Kerr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[curl distro report]]></title>
+        <id>https://daniel.haxx.se/blog/?p=24368</id>
+        <link href="https://daniel.haxx.se/blog/2024/03/25/curl-distro-report/"/>
+        <updated>2024-03-25T16:03:31.000Z</updated>
+        <summary type="html"><![CDATA[On March 21 2024 we had a curl distro meeting where people from at least ten different distros and curl project members had a video meeting and talked curl and distro related topics for a while. Here is my summary of what we talked about and concluded. Attendees We had about 25 persons attending. At … Continue reading curl distro report →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 96: Productivity engineering at Netflix]]></title>
+        <id>changelog.com/14/2337</id>
+        <link href="https://changelog.com/shipit/96"/>
+        <updated>2024-03-23T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What’s the difference between productivity engineering and platform engineering? How can you continue to re-platform with a moving target? On this episode, we’re joined by Andy Glover, who spent ten years productivity engineering at Netflix, to discuss.
+Leave us a comment
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Andy Glover – Twitter, GitHub, LinkedIn, Website
+Justin Garrison – Twitter, GitHub, LinkedIn
+Autumn Nash – Twitter, GitHub, LinkedIn
+
+Show Notes:
+Links of the week
+Maybe you don’t need SRE
+Ex-Google Engineer Charged With Stealing A.I. Secrets for Chinese Firm
+Interview
+ReadySet
+WTA: What the Acronym?
+K8s - Kubernetes numeronym
+O11y - Observability
+I18n - internationalization
+A11y - accessibility
+Y2k - millennial tech problem
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog & Friends 36: Retirement is for suckers]]></title>
+        <id>changelog.com/17/2378</id>
+        <link href="https://changelog.com/friends/36"/>
+        <updated>2024-03-23T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THE Cameron Seay joins us once again! This time we learn more about his life/history, hear all about the boot camps he runs, discuss recent advancements in AI / quantum computing and how they might affect the tech labor market & more!
+Leave us a comment
+Changelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Sentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9am PT to hear the latest scoop. Too busy? No problem - enter your email address to receive all the announcements (and win swag along the way). Use the code CHANGELOG when you sign up to get $100 OFF the team plan.
+
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals put…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 583: It's a TrueNAS world]]></title>
+        <id>changelog.com/1/2370</id>
+        <link href="https://changelog.com/podcast/583"/>
+        <updated>2024-03-22T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Adam talks with Kris Moore, Senior Vice President of Engineering at iXsystems, about all things TrueNAS. They discuss the history of TrueNAS starting from its origins as a FreeBSD project, TrueNAS Core being in maintenance mode, the momentum and innovation happening in TrueNAS Scale, the evolution of the TrueNAS user interface, managing ZFS compatibility in TrueNAS, the business model of iXsystems and their commitment to the open-source community, and of course what’s to come in the upcoming Dragonfish release of TrueNAS Scale.
+Leave us a comment
+Changelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Sentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Insider newsletter digest: 4 things you didn’t know you could do with GitHub Projects]]></title>
+        <id>https://github.blog/?p=77094</id>
+        <link href="https://github.blog/2024-03-21-insider-newsletter-digest-4-things-you-didnt-know-you-could-do-with-github-projects/"/>
+        <updated>2024-03-21T16:18:03.000Z</updated>
+        <summary type="html"><![CDATA[Unlock the secret to organization and collaboration magic with our GitHub Projects tips and tricks roundup. 
+The post Insider newsletter digest: 4 things you didn’t know you could do with GitHub Projects appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Sara Verdi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 308: Questions from a new Go developer]]></title>
+        <id>changelog.com/2/2369</id>
+        <link href="https://changelog.com/gotime/308"/>
+        <updated>2024-03-20T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode we answer any/all questions from a new Go developer. Features, best practices, quirks of the language… it’s all on the table for discussion.
+Leave us a comment
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Duarte O.C⚡️ – Mastodon, Twitter, GitHub, LinkedIn, Website
+Johnny Boursiquot – Twitter, GitHub, Website
+Ian Lopshire – Twitter, GitHub
+
+Show Notes:
+
+Ambrosio
+NewsHavn
+errgroup package
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we are using AI for reliable flood forecasting at a global scale]]></title>
+        <id>https://blog.google/technology/ai/google-ai-global-flood-forecasting/</id>
+        <link href="https://blog.google/technology/ai/google-ai-global-flood-forecasting/"/>
+        <updated>2024-03-20T16:05:00.000Z</updated>
+        <summary type="html"><![CDATA[An overview of our paper in Nature on how we are using AI to help scale flood forecasting to vulnerable communities around the world.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Found means fixed: Introducing code scanning autofix, powered by GitHub Copilot and CodeQL]]></title>
+        <id>https://github.blog/?p=77063</id>
+        <link href="https://github.blog/2024-03-20-found-means-fixed-introducing-code-scanning-autofix-powered-by-github-copilot-and-codeql/"/>
+        <updated>2024-03-20T16:00:40.000Z</updated>
+        <summary type="html"><![CDATA[Now in public beta for GitHub Advanced Security customers, code scanning autofix helps developers remediate more than two-thirds of supported alerts with little or no editing.
+The post Found means fixed: Introducing code scanning autofix, powered by GitHub Copilot and CodeQL appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Pierre Tempel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical AI 261: Prompting the future]]></title>
+        <id>changelog.com/7/2376</id>
+        <link href="https://changelog.com/practicalai/261"/>
+        <updated>2024-03-20T13:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Daniel & Chris explore the state of the art in prompt engineering with Jared Zoneraich, the founder of PromptLayer. PromptLayer is the first platform built specifically for prompt engineering.  It can visually manage prompts, evaluate models, log LLM requests, search usage history, and help your organization collaborate as a team.  Jared provides expert guidance in how to be implement prompt engineering, but also illustrates how we got here, and where we’re likely to go next.
+Leave us a comment
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Shopify – Sign up for a $1/month trial period at shopify.com/practicalai
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Jared Zoneraich – Twitter, LinkedIn
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+Daniel Whitenack – Twitter, GitHub, Website
+
+Show Notes:
+
+PromptLayer
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[curl turns 26 today]]></title>
+        <id>https://daniel.haxx.se/blog/?p=24335</id>
+        <link href="https://daniel.haxx.se/blog/2024/03/20/curl-turns-26-today/"/>
+        <updated>2024-03-20T07:13:58.000Z</updated>
+        <summary type="html"><![CDATA[years++; It feels like it was not very long ago that we had the big curl 25 year celebrations. I still have plenty of fluid left in my 25 year old whiskey from last year and I believe I will treat myself a drink from that tonight. I have worked on curl full-time and spare … Continue reading curl turns 26 today →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8 years later: A world Go champion’s reflections on AlphaGo]]></title>
+        <id>https://blog.google/around-the-globe/google-asia/8-years-later-a-world-go-champions-reflections-on-alphago/</id>
+        <link href="https://blog.google/around-the-globe/google-asia/8-years-later-a-world-go-champions-reflections-on-alphago/"/>
+        <updated>2024-03-19T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[World-famous Go champion Lee Sae Dol reflects on his match against our AI system AlphaGo eight years ago.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's cooking: How Hellmann's is using Google Cloud AI to turn leftovers into meals]]></title>
+        <id>https://blog.google/around-the-globe/google-europe/united-kingdom/whats-cooking-how-hellmanns-is-using-google-cloud-ai-to-turn-leftovers-into-meals/</id>
+        <link href="https://blog.google/around-the-globe/google-europe/united-kingdom/whats-cooking-how-hellmanns-is-using-google-cloud-ai-to-turn-leftovers-into-meals/"/>
+        <updated>2024-03-19T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hellmann's introduces Meal Reveal, a new tool powered by Google Cloud AI that analyses fridge contents and suggests matching recipes.]]></summary>
+        <author>
+            <name>AI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog News 86: No Maintenance Intended]]></title>
+        <id>changelog.com/16/2374</id>
+        <link href="https://changelog.com/news/86"/>
+        <updated>2024-03-18T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A new badge for open source projects that won’t be getting any maintenance, everything Chip Huyen learned from looking at 900 open source AI tools, CNBC writes up tech’s renewed layoff trend, Teable is a Postgres-Airtable fusion & Target announces an open source fund.
+Leave us a comment
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Sponsors:
+
+  
+Neo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.
+
+CrabNebula Cloud – CrabNebula Cloud is here! Distribute Tauri apps and Electron apps with best in class updater. At the heart of CrabNebula Cloud is a purpose-built CDN ready for global scale, and secure updates as a first-class citizen. Learn more at crabnebula.dev/cloud
+
+
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gaining kernel code execution on an MTE-enabled Pixel 8]]></title>
+        <id>https://github.blog/?p=77004</id>
+        <link href="https://github.blog/2024-03-18-gaining-kernel-code-execution-on-an-mte-enabled-pixel-8/"/>
+        <updated>2024-03-18T15:00:55.000Z</updated>
+        <summary type="html"><![CDATA[In this post, I’ll look at CVE-2023-6241, a vulnerability in the Arm Mali GPU that allows a malicious app to gain arbitrary kernel code execution and root on an Android phone. I’ll show how this vulnerability can be exploited even when Memory Tagging Extension (MTE), a powerful mitigation, is enabled on the device.
+The post Gaining kernel code execution on an MTE-enabled Pixel 8 appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Man Yue Mo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[getting started with libcurl]]></title>
+        <id>https://daniel.haxx.se/blog/?p=24286</id>
+        <link href="https://daniel.haxx.se/blog/2024/03/18/getting-started-with-libcurl/"/>
+        <updated>2024-03-18T13:33:07.000Z</updated>
+        <summary type="html"><![CDATA[I am doing another webinar on March 28 2024, introducing newcomers to how to Internet transfers using the libcurl API. Starting at 10am Pacific time. 17:00 UTC. 18:00 CET. Agenda The plan is to spend about 30 minutes going through the topics in the agenda and then take as long as necessary to let the … Continue reading getting started with libcurl →]]></summary>
+        <author>
+            <name>Daniel Stenberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sequential Testing Keeps the World Streaming Netflix Part 2: Counting Processes]]></title>
+        <id>https://medium.com/p/da6805341642</id>
+        <link href="https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source=rss----2615bd06b42e---4"/>
+        <updated>2024-03-18T12:46:46.000Z</updated>
+        <summary type="html"><![CDATA[Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Practical AI 251: AI predictions for 2024]]></title>
-        <id>changelog.com/7/2303</id>
-        <link href="https://changelog.com/practicalai/251"/>
-        <updated>2024-01-10T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[We scoured the internet to find all the AI related predictions for 2024 (at least from people that might know what they are talking about), and, in this episode, we talk about some of the common themes. We also take a moment to look back at 2023 commenting with some distance on a crazy AI year.
+        <title type="html"><![CDATA[Ship It! 95: Containers on a diet]]></title>
+        <id>changelog.com/14/2336</id>
+        <link href="https://changelog.com/shipit/95"/>
+        <updated>2024-03-16T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kyle Quest joins the show to tell Autumn & Justin all about the evolution of DockerSlim & minimal container images. Why are small container images important? What are different strategies to make containers smaller? Let’s find out!
 Leave us a comment
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
+Changelog++ members get a bonus 4 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Sentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9am PT to hear the latest scoop. Too busy? No problem - enter your email address to receive all the announcements (and win swag along the way). Use the code CHANGELOG when you sign up to get $100 OFF the team plan.
+
+Synadia – Take NATS to the next level via a global, multi-cloud, multi-geo and extensible service, fully managed by Synadia. They take care of all the infrastructure, management, monitoring, and maintenance for you so you can focus on building exceptional distributed applications.
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Kyle Quest – Twitter, GitHub, LinkedIn
+Justin Garrison – Twitter, GitHub, LinkedIn
+Autumn Nash – Twitter, GitHub, LinkedIn
+
+Show Notes:
+Links of the week
+How the Tech Industry Broke the Promises It Made to Women
+Where is all of the fediverse?
+Interview
+SlimToolkit
+How things break
+AT&T and Verizon outage
+Meta outage
+LinkedIn outage
+Kagi postmortem (cached)
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog & Friends 35: The Oban Pros]]></title>
+        <id>changelog.com/17/2368</id>
+        <link href="https://changelog.com/friends/35"/>
+        <updated>2024-03-15T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today you get Sorentwo for the price of one! We are joined by Shannon & Parker Selbert, both halves of the mom-and-pop software shop behind Oban, the robust job processing library that’s been delivering our emails & processing our audio for years.
+Leave us a comment
+Changelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals native…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 582: We have a right to repair!]]></title>
+        <id>changelog.com/1/2371</id>
+        <link href="https://changelog.com/podcast/582"/>
+        <updated>2024-03-15T12:45:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Adam went solo — talking to Kyle Wiens, Founder and CEO at iFixit, about all things Right to Repair. They discussed the latest win here in the US with Oregon passing an electronics Right to Repair law to allow owners the right to get their stuff fixed anywhere as well as limit the anti-repair practices of parts pairing. They also discussed the history of the DMCA, the challenges posed by Section 1201, the challenges of recycling products with glued-in batteries, the need for producer responsibility, the future of repairability, repair scoring systems to inform consumers, and so much more. Did you know that iFixit funds its advocacy work through the sale of its tools and parts? So cool.
+Leave us a comment
+Changelog++ members save 12 minutes on this episode because they made the ad…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS Party 316: Advocating for the future of the open web]]></title>
+        <id>changelog.com/6/2364</id>
+        <link href="https://changelog.com/jsparty/316"/>
+        <updated>2024-03-14T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Alex & James Moore, founding members of the Open Web Advocacy (OWA), join Amal to talk about the critical work the OWA has been doing to ensure users have browser choice and that web apps can be first-class citizens on mobile devices. We learn about how an ad-hoc group of software engineers worked with regulators, legislators & policymakers to help drive some of the most impactful legislation curbing anti-competitive behaviors on the web for tech giants such as Apple, Google & Microsoft via the EU’s Digital Markets Act (DMA).
+Tune in for this deeply important & timely discussion as we also unpack recent events with Apple and their DMA (un)compliance, and how the OWA helped successfully organize thousands of web developers from around the world to hold ground for a free & open web.
+Leave us…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-time, privacy-preserving URL protection]]></title>
+        <id>http://security.googleblog.com/2024/03/blog-post.html</id>
+        <link href="http://security.googleblog.com/2024/03/blog-post.html"/>
+        <updated>2024-03-14T14:00:00.010Z</updated>
+        <summary type="html"><![CDATA[Posted by Jasika Bawa, Xinghui Lu, Google Chrome Security & Jonathan Li, Alex Wozniak, Google Safe Browsing
+
+
+For more than 15 years, Google Safe Browsing has been protecting users from phishing, malware, unwanted software and more, by identifying and warning users about potentially abusive sites on more than 5 billion devices around the world. As attackers grow more sophisticated, we've seen the need for protections that can adapt as quickly as the threats they defend against. That’s why we're excited to announce a new version of Safe Browsing that will provide real-time, privacy-preserving URL protection for people using the Standard protection mode of Safe Browsing in Chrome.
+
+Current landscape
+hash-based checks.
+
+
+
+
+
+
+Hash-based check overview
+
+
+But unsafe sites have adapted — today, t…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: February 2024]]></title>
+        <id>https://github.blog/?p=76981</id>
+        <link href="https://github.blog/2024-03-13-github-availability-report-february-2024/"/>
+        <updated>2024-03-13T18:00:35.000Z</updated>
+        <summary type="html"><![CDATA[In February, we experienced two incidents that resulted in degraded performance across GitHub services.
+The post GitHub Availability Report: February 2024 appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Jakub Oleksy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 307: Jumping into an existing codebase]]></title>
+        <id>changelog.com/2/2324</id>
+        <link href="https://changelog.com/gotime/307"/>
+        <updated>2024-03-12T20:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Jumping into a codebase you’re unfamiliar with can be challenging. Are there better & worse ways to go about it? In this episode, Ian gathers a panel (Johnny, Kris & Jon) to discuss the ins & outs of familiarizing yourself with an existing codebase.
+Leave us a comment
+Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
 Sponsors:
 
   
@@ -171,70 +872,101 @@ Fly.io – The home of Changelog.com — Deploy your apps and databases close t
 
 Featuring:
 
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
+Ian Lopshire – Twitter, GitHub
+Kris Brandow – Twitter, GitHub
+Johnny Boursiquot – Twitter, GitHub, Website
+Jon Calhoun – Twitter, GitHub, Website
 
 Show Notes:
 
+DAO acronym
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PSL in curl]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23901</id>
-        <link href="https://daniel.haxx.se/blog/2024/01/10/psl-in-curl/"/>
-        <updated>2024-01-10T07:05:49.000Z</updated>
-        <summary type="html"><![CDATA[PSL in this context stands for Public Suffix List. It is a list of known public suffixes in domain names. A public suffix is a name under which Internet users can (or historically could) directly register names – other than the top-level domains. One of the most commonly known and used such suffixes is “co.uk”, … Continue reading PSL in curl →]]></summary>
+        <title type="html"><![CDATA[Practical AI 260: Generating the future of art & entertainment]]></title>
+        <id>changelog.com/7/2367</id>
+        <link href="https://changelog.com/practicalai/260"/>
+        <updated>2024-03-12T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Runway is an applied AI research company shaping the next era of art, entertainment & human creativity. Chris sat down with Runway co-founder / CTO, Anastasis Germanidis, to discuss their rise and how it’s defining the future of the creative landscape with its text & image to video models. We hope you find Anastasis’s founder story as inspiring as Chris did.
+Leave us a comment
+Changelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Neo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.
+
+Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Anastasis Germanidis – Twitter, GitHub, LinkedIn, Website
+Chris Benson – Twitter, GitHub, LinkedIn, Website
+
+Show Notes:
+
+Runway | Website
+Runway | Twitter
+Runway | AI Film Festival (AIFF)
+Runway | Gen-2
+Runway | Gen48
+Something missing or broken? PRs welcome!]]></summary>
         <author>
-            <name>Daniel Stenberg</name>
+            <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Game Off 2023 results 🏆]]></title>
-        <id>https://github.blog/?p=76021</id>
-        <link href="https://github.blog/2024-01-09-game-off-2023-results/"/>
-        <updated>2024-01-09T20:28:09.000Z</updated>
-        <summary type="html"><![CDATA[The GitHub Game Off results are in! All games have been rated, ranked, and reviewed. Read on for a look at the ten highest-rated submissions overall.
-The post Game Off 2023 results 🏆 appeared first on The GitHub Blog.]]></summary>
+        <title type="html"><![CDATA[4 updates from the 2024 Google for Games Developer Summit]]></title>
+        <id>https://blog.google/products/google-play/google-for-games-developer-summit-2024/</id>
+        <link href="https://blog.google/products/google-play/google-for-games-developer-summit-2024/"/>
+        <updated>2024-03-12T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[These new tools help developers build immersive and engaging games that players love.]]></summary>
         <author>
-            <name>Lee Reilly</name>
+            <name>AI</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Funding Stefan’s curl work]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23848</id>
-        <link href="https://daniel.haxx.se/blog/2024/01/09/funding-stefans-curl-work/"/>
-        <updated>2024-01-09T13:18:25.000Z</updated>
-        <summary type="html"><![CDATA[The curl fund sponsors curl development in Q1 2024 . The curl fund consists entirely and only of money donated to the project by companies and individuals. Thank you sponsors! These two funded projects are first out in 2024. Support for OpenSSL’s QUIC API Designated lead developer: Stefan Eissing In OpenSSL‘s recent 3.2 release, they … Continue reading Funding Stefan’s curl work →]]></summary>
+        <title type="html"><![CDATA[Vulnerability Reward Program: 2023 Year in Review]]></title>
+        <id>http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html</id>
+        <link href="http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html"/>
+        <updated>2024-03-12T15:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Sarah Jacobus, Vulnerability Rewards Team
+
+
+Last year, we again witnessed the power of community-driven security efforts as researchers from around the world contributed to help us identify and address thousands of vulnerabilities in our products and services. Working with our dedicated bug hunter community, we awarded $10 million to our 600+ researchers based in 68 countries. 
+
+
+New Resources and Improvements
+
+
+Just like every year, 2023 brought a series of changes and improvements to our vulnerability reward programs:
+
+
+
+Through our new Bonus Awards program, we now periodically offer time-limited, extra rewards for reports to specific VRP targets.
+
+We expanded our exploit reward program to Chrome and Cloud through the launch of  v8CTF, a CTF focused on V8, the JavaScript engine…]]></summary>
         <author>
-            <name>Daniel Stenberg</name>
+            <name>Google Online Security Blog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GitHub Certifications are generally available]]></title>
-        <id>https://github.blog/?p=76013</id>
-        <link href="https://github.blog/2024-01-08-github-certifications-are-generally-available/"/>
-        <updated>2024-01-08T20:42:01.000Z</updated>
-        <summary type="html"><![CDATA[Unlock your full potential with GitHub Certifications! Earning a GitHub certification will give you the competitive advantage of showing up as a GitHub expert.
-The post GitHub Certifications are generally available appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Kedasha Kerr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 76: The I in LLM stands for intelligence]]></title>
-        <id>changelog.com/16/2301</id>
-        <link href="https://changelog.com/news/76"/>
-        <updated>2024-01-08T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Daniel Stenberg is frustrated with the state of AI tooling for finding security bugs, Brian Birtles is surprised by weird things engineers believe about web dev, Feross Aboukhadijeh details the fallout from a nasty npm prank, Rob Pike shares what he thinks they got right and wrong with Go & Gavin Howard writes up why he believes “all code is tech debt” is all wrong.
+        <title type="html"><![CDATA[Changelog News 85: Puter is the internet OS]]></title>
+        <id>changelog.com/16/2366</id>
+        <link href="https://changelog.com/news/85"/>
+        <updated>2024-03-11T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Puter puts an entire operating system in your web browser, the kapa.ai team write down how to structure your docs for LLMs, Daytona is an open source Codespaces alternative, Gleam v1.0 has been released & Rolldown is a JavaScript bundler written in Rust.
 Leave us a comment
 Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
 Sponsors:
 
   
-Synadia – Join the NATS community for RethinkConn 2024
+Neo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.
 
 
 Featuring:
@@ -242,6 +974,7 @@ Featuring:
 Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
 
 Show Notes:
+Leave us nice words!
 All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
 Something missing or broken? PRs welcome!]]></summary>
         <author>
@@ -249,461 +982,285 @@ Something missing or broken? PRs welcome!]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GitHub and the Ekoparty 2023 Capture the Flag]]></title>
-        <id>https://github.blog/?p=75927</id>
-        <link href="https://github.blog/2024-01-08-github-and-the-ekoparty-2023-capture-the-flag/"/>
-        <updated>2024-01-08T17:00:22.000Z</updated>
-        <summary type="html"><![CDATA[The GitHub Security Lab teamed up with Ekoparty once again to create some challenges for its yearly Capture the Flag competition!
-The post GitHub and the Ekoparty 2023 Capture the Flag appeared first on The GitHub Blog.]]></summary>
+        <title type="html"><![CDATA[Improving Performance in Firefox and Across the Web with Speedometer 3]]></title>
+        <id>https://hacks.mozilla.org/?p=48114</id>
+        <link href="https://hacks.mozilla.org/2024/03/improving-performance-in-firefox-and-across-the-web-with-speedometer-3/"/>
+        <updated>2024-03-11T16:00:36.000Z</updated>
+        <summary type="html"><![CDATA[In collaboration with the other major browser engine developers, Mozilla is thrilled to announce Speedometer 3 today. Like previous versions of Speedometer, this benchmark measures what we think matters most for performance online: responsiveness. But today’s release is more open and more challenging than before, and is the best tool for driving browser performance improvements that we’ve ever seen.
+The post Improving Performance in Firefox and Across the Web with Speedometer 3 appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
         <author>
-            <name>Logan MacLaren</name>
+            <name>Brian Grinstead</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Frenemies to friends: Developers and security tools]]></title>
-        <id>https://github.blog/?p=75933</id>
-        <link href="https://github.blog/2024-01-08-frenemies-to-friends-developers-and-security-tools/"/>
-        <updated>2024-01-08T15:15:02.000Z</updated>
-        <summary type="html"><![CDATA[When socializing a new security tool, it IS possible to build a bottom-up security culture where engineering has a seat at the table. Let's explore some effective strategies witnessed by the GitHub technical sales team to make this shift successful.
-The post Frenemies to friends: Developers and security tools appeared first on The GitHub Blog.]]></summary>
+        <title type="html"><![CDATA[Ship It! 94: Scoring your project’s security]]></title>
+        <id>changelog.com/14/2335</id>
+        <link href="https://changelog.com/shipit/94"/>
+        <updated>2024-03-09T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Autumn and Justin are joined by Chris Swan to discuss tech industry trends like AI and sustainability, gamifying the software development process and motivating devs to write more secure code, OpenSSF Scorecards and how they offer a way to measure and improve the security and compliance of GitHub repos, the scoring system, and the security posture of a repository.
+Leave us a comment
+Changelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Synadia – Take NATS to the next level via a global, multi-cloud, multi-geo and extensible service, fully managed by Synadia. They take care of all the infrastructure, management, monitoring, and maintenance for you so you can focus on building exceptional distributed applications.
+
+Sentry – Launch …]]></summary>
         <author>
-            <name>Shelby Gluck</name>
+            <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[My upcoming FOSDEM 2024]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23534</id>
-        <link href="https://daniel.haxx.se/blog/2024/01/08/my-upcoming-fosdem-2024/"/>
-        <updated>2024-01-08T10:16:39.000Z</updated>
-        <summary type="html"><![CDATA[I attended FOSDEM for the first time back in 2010. I have since been back and attended every single physical version of the conference since then (remember that it skipped a few years in the COVID days). FOSDEM is my favorite conference no doubt. I did a presentation in the embedded dev room in 2010. … Continue reading My upcoming FOSDEM 2024 →]]></summary>
+        <title type="html"><![CDATA[the Apple curl security incident 12604]]></title>
+        <id>https://daniel.haxx.se/blog/?p=23833</id>
+        <link href="https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/"/>
+        <updated>2024-03-08T21:51:18.000Z</updated>
+        <summary type="html"><![CDATA[tldr: Apple thinks it is fine. I do not. On December 28 2023, bugreport 12604 was filed in the curl issue tracker. We get a lot issues filed most days so this fact alone was hardly anything out of the ordinary. We read the reports, investigate, ask follow-up questions to see what we can learn … Continue reading the Apple curl security incident 12604 →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kerberizing Hadoop Clusters at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter"/>
-        <updated>2024-01-07T12:02:43.138Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <title type="html"><![CDATA[Changelog & Friends 34: Bourbon and better software]]></title>
+        <id>changelog.com/17/2365</id>
+        <link href="https://changelog.com/friends/34"/>
+        <updated>2024-03-08T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Adam is joined by Robert Ross, Founder and CEO of FireHydrant — they discuss Bourbon, sniffing arms, better software, leading a successful startup, scaling teams, building vs acquiring, and Adam even gets Robert to commit to watching Silicon Valley!!
+Leave us a comment
+Changelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Sentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9am PT to hear the latest scoop. Too busy? No problem - enter your email address to receive all the announcements (and win swag along the way). Use the code CHANGELOG when you sign up to get $100 OFF the team plan.
+
+imgproxy – imgproxy is open source an optimizes images for the web on the fly. It makes websites and apps blazing fast while saving storage and SaaS costs. It uses the world’s fastest image processing library under the hood — libvips. It is screaming fast and has a tiny memory footprint.
+
+Tailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required.
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Robert Ross – Twitter, GitHub, LinkedIn, Website
+Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
+
+Show Notes:
+
+firehydrant.com
+Something missing or broken? PRs welcome!]]></summary>
         <author>
-            <name>English (US)</name>
+            <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Constraint Management for cluster operation safety and reliability at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/constraint-management-for-cluster-operation-safety-and-reliability-at-twitter"/>
-        <updated>2024-01-07T12:02:43.118Z</updated>
-        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
+        <title type="html"><![CDATA[Changelog Interviews 581: It's not always DNS]]></title>
+        <id>changelog.com/1/2319</id>
+        <link href="https://changelog.com/podcast/581"/>
+        <updated>2024-03-08T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week we’re talking about DNS with Paul Vixie — Paul is well known for his contributions to DNS and agrees with Adam on having a “love/hate relationship with DNS.” We discuss the limitations of current DNS technologies and the need for revisions to support future internet scale, the challenges in doing that. Paul shares insights on the future of the internet and how he’d reinvent DNS if given the opportunity. We even discuss the cultural idiom “It’s always DNS,” and the shift to using DNS resolvers like OpenDNS, Google’s 8.8.8.8 and Cloudflare’s 1.1.1.1. Buckle up, this is a good one.
+Leave us a comment
+Changelog++ members save 14 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Sentry – Launch week! New features and products all week long (so get …]]></summary>
         <author>
-            <name>English (US)</name>
+            <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Twitter’s Blobstore Hardware Lifecycle Monitoring and Reporting Service]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/twitters-blobstore-hardware-lifecycle-monitoring-and-reporting-service"/>
-        <updated>2024-01-07T12:02:43.109Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
+        <title type="html"><![CDATA[How AI is helping advance women’s health around the world]]></title>
+        <id>https://blog.google/technology/health/how-ai-is-helping-advance-womens-health-around-the-world/</id>
+        <link href="https://blog.google/technology/health/how-ai-is-helping-advance-womens-health-around-the-world/"/>
+        <updated>2024-03-08T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For International Women’s day, we’re highlighting AI solutions that can improve early diagnosis, quality and access to care for women’s health worldwide.]]></summary>
         <author>
-            <name>English (US)</name>
+            <name>AI</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Measuring the impact of Twitter network latency with CausalImpact]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/insights/2022/measuring-the-impact-of-twitter-network-latency-with-causalimpac"/>
-        <updated>2024-01-07T12:02:43.092Z</updated>
-        <summary type="html"><![CDATA[In this blog, we share how we adopted the CausalImpact package from Google on a Twitter edge network experiment to measure the impact of improving Twitter's latency on customer engagement and revenue.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter's Recommendation Algorithm]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"/>
-        <updated>2024-01-07T12:02:43.067Z</updated>
-        <summary type="html"><![CDATA[Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we scaled Reads On the Twitter Users Database]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database"/>
-        <updated>2024-01-07T12:02:43.041Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data Quality Automation at Twitter]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/data-quality-automation-at-twitter"/>
-        <updated>2024-01-06T12:02:26.477Z</updated>
-        <summary type="html"><![CDATA[In this post, we share how Twitter implemented a Data Quality Platform that gave customers the ability to have automated data quality checks.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 ways to make your DevSecOps strategy developer-friendly]]></title>
-        <id>https://github.blog/?p=75941</id>
-        <link href="https://github.blog/2024-01-05-5-ways-to-make-your-devsecops-strategy-developer-friendly/"/>
-        <updated>2024-01-05T15:02:36.000Z</updated>
-        <summary type="html"><![CDATA[Developers care about security, but poorly integrated tools and other factors can cause frustration. Here are five best practices to reduce friction.
-The post 5 ways to make your DevSecOps strategy developer-friendly appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Nick Liffen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 306: New Year's Party 🎊]]></title>
-        <id>changelog.com/6/2263</id>
-        <link href="https://changelog.com/jsparty/306"/>
-        <updated>2024-01-04T18:05:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s our 5th annual New Year’s party! Jerod & the gang review our predictions from last year, discuss what’s trending in the web world, make a few predictions for 2024 & even set some new resolutions for this year.
+        <title type="html"><![CDATA[JS Party 315: Getting a pulse on your Core Web Vitals 🩺]]></title>
+        <id>changelog.com/6/2345</id>
+        <link href="https://changelog.com/jsparty/315"/>
+        <updated>2024-03-07T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week, Amal and Nick are joined by Rick Viscomi and Annie Sullivan from the Chrome team to dive into Core Web Vitals, a set of performance metrics geared towards helping developers surface web page quality signals that are key to delivering great user experiences.
+We deconstruct the different vitals and learn how they are helpful, as well as introduce the newest vital to hit the scene, Interaction to Next Paint (INP). Join us for a fun and nerdtastic discussion as we dive into the humbling universe of web performance!
 Leave us a comment
 Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
 Sponsors:
 
   
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-Amal Hussein – Twitter, GitHub
-Nick Nisi – Twitter, GitHub, Website
-Kevin Ball – Twitter, GitHub, LinkedIn, Website
-Christopher Hiller – Mastodon, Twitter, GitHub, Website
-
-Show Notes:
-
-Last year’s New Year’s party
-Twitter thread highlighting collaboration between NodeJS and Bun maintainers on finding and improving a node performance bottleneck
-Joyee Cheung (Node contributor and TSC member) sharing her updates on the node performance issue highlighted above
-Direct link to GH issue thread on the suggested node perf improvement
-Smoot - Wikipedia
-JS Party Survey Github Collaboration Repo (content coming soon)
-Something missing or broken? PRs welcome!]]></summary>
+PowerSync – Build local-first web apps — Give users instantly reactive UX with an in-browser database that keeps itself in sync with any ba…]]></summary>
         <author>
             <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How Coordinated Vulnerability Disclosure Can Boost Election Integrity and Public Perception]]></title>
-        <id>https://hackerone.com/security-compliance/election-integrity-coordinated-vulnerability-disclosure</id>
-        <link href="https://www.hackerone.com/security-compliance/election-integrity-coordinated-vulnerability-disclosure"/>
-        <updated>2024-01-04T17:29:55.000Z</updated>
-        <summary type="html"><![CDATA[A panel of experts in election security and Coordinated Vulnerability Disclosure (CVD) convened to share advice and best practices with a small group of U.S. election officials.]]></summary>
+        <title type="html"><![CDATA[Supporting Diverse ML Systems at Netflix]]></title>
+        <id>https://medium.com/p/2d2e6b6d205d</id>
+        <link href="https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4"/>
+        <updated>2024-03-07T18:33:07.000Z</updated>
+        <summary type="html"><![CDATA[David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu]]></summary>
         <author>
-            <name>Alex Rice</name>
+            <name>Netflix Technology Blog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Changelog Interviews 572: Dear new developer]]></title>
-        <id>changelog.com/1/2277</id>
-        <link href="https://changelog.com/podcast/572"/>
-        <updated>2024-01-04T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello 2024! We’re kicking off the year with Dan Moore, author of ‘Letters to a New Developer’ — a blog series of letters of what Dan wished he had known when starting his developer career. We discuss the value of online communities for new developers, the importance of communication skills, and the need to stay relevant in a rapidly changing industry. Dan shares his best advice for new developers, including the importance of saying no, leaving code better than you found it, and the value of skill stacking. So much wisdom and advice in this episode!
-Leave us a comment
-Changelog++ members get a bonus 13 minutes at the end of this episode and zero ads. Join today!
-Sponsors:
-
-  
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
-
-Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
-
-Sentry – Get $100 towards your error monitoring with Sentry! Use the code changelog.
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Dan Moore – Twitter, GitHub, LinkedIn, Website
-Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-
-Letters to a New Developer - What I wish I had known when starting my development career
-Letters to a New Developer (the book)
-Something missing or broken? PRs welcome!]]></summary>
+        <title type="html"><![CDATA[Exploring an increase in circumvention claims in our transparency data]]></title>
+        <id>https://github.blog/?p=76954</id>
+        <link href="https://github.blog/2024-03-07-exploring-an-increase-in-circumvention-claims-in-our-transparency-data/"/>
+        <updated>2024-03-07T18:00:09.000Z</updated>
+        <summary type="html"><![CDATA[Our full year of 2023 transparency reporting data is now available and we’re taking a deep dive into how a form change caused an abrupt increase in circumvention claims. 
+The post Exploring an increase in circumvention claims in our transparency data appeared first on The GitHub Blog.]]></summary>
         <author>
-            <name>Changelog</name>
+            <name>Kevin Xu</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Our move to generated SDKs]]></title>
-        <id>https://github.blog/?p=75896</id>
-        <link href="https://github.blog/2024-01-03-our-move-to-generated-sdks/"/>
-        <updated>2024-01-03T15:03:41.000Z</updated>
-        <summary type="html"><![CDATA[GitHub SDKs: software generated meets hand curated.
-The post Our move to generated SDKs appeared first on The GitHub Blog.]]></summary>
+        <title type="html"><![CDATA[Hard and soft skills for developers coding in the age of AI]]></title>
+        <id>https://github.blog/?p=76941</id>
+        <link href="https://github.blog/2024-03-07-hard-and-soft-skills-for-developers-coding-in-the-age-of-ai/"/>
+        <updated>2024-03-07T17:00:54.000Z</updated>
+        <summary type="html"><![CDATA[While AI revolutionizes software development, it still relies on developers to pilot its use. In this blog, we’ll cover the skills that developers need to have for navigating this new AI-powered coding frontier. 
+The post Hard and soft skills for developers coding in the age of AI appeared first on The GitHub Blog.]]></summary>
         <author>
-            <name>Nick Floyd</name>
+            <name>Sara Verdi</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The I in LLM stands for intelligence]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23836</id>
-        <link href="https://daniel.haxx.se/blog/2024/01/02/the-i-in-llm-stands-for-intelligence/"/>
-        <updated>2024-01-02T11:37:17.000Z</updated>
-        <summary type="html"><![CDATA[I have held back on writing anything about AI or how we (not) use AI for development in the curl factory. Now I can’t hold back anymore. Let me show you the most significant effect of AI on curl as of today – with examples. Bug Bounty Having a bug bounty means that we offer … Continue reading The I in LLM stands for intelligence →]]></summary>
+        <title type="html"><![CDATA[curl’s built-in manual without nroff]]></title>
+        <id>https://daniel.haxx.se/blog/?p=24216</id>
+        <link href="https://daniel.haxx.se/blog/2024/03/07/curls-built-in-manual-without-nroff/"/>
+        <updated>2024-03-07T12:40:49.000Z</updated>
+        <summary type="html"><![CDATA[On December 14 1998 we released curl 5.2. The project was still early back then and lots of things had not settled yet. In that release, which came only two weeks after 5.1, we introduced the --manual option, or -M for short. Long before I started working on curl I learnt to value and appreciate … Continue reading curl’s built-in manual without nroff →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GitHub Copilot Chat now generally available for organizations and individuals]]></title>
-        <id>https://github.blog/?p=75910</id>
-        <link href="https://github.blog/2023-12-29-github-copilot-chat-now-generally-available-for-organizations-and-individuals/"/>
-        <updated>2023-12-29T17:00:24.000Z</updated>
-        <summary type="html"><![CDATA[All GitHub Copilot users can now enjoy natural language-powered coding with Copilot Chat at no additional cost.
-The post GitHub Copilot Chat now generally available for organizations and individuals appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Shuyin Zhao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Changelog has never gone viral]]></title>
-        <id>changelog.com/posts/2623</id>
-        <link href="https://changelog.com/posts/the-changelog-has-never-gone-viral"/>
-        <updated>2023-12-28T19:57:05.000Z</updated>
-        <summary type="html"><![CDATA[In the 14+ years we’ve been making The Changelog podcast, it has never gone viral.
-We’ve had popular  episodes and not so popular episodes. We’ve made episodes we love and episodes listeners love. But we’ve never had a viral moment like Elon Musk smoking weed or Jeff Bezos talking Blue Origin on our show.
-I’m not here to complain about that!
-We’ve had tons of success with our shows and I’m super grateful that we get to make awesome developer pods for a living. I do think the fact is interesting, though, and worth exploring. Hopefully this exploration is an encouragement to other folks who record deep conversations for niche audiences like we do.
-Maybe we can't go viral because we still like memes from the early 2000s...
-
-To debug why our podcast has never gone viral, we should troubleshoot…]]></summary>
-        <author>
-            <name>Jerod Santo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Power of Connection: The Importance of Weekly All-Hands Meetings at HackerOne]]></title>
-        <id>https://hackerone.com/culture-and-talent/power-connection-importance-weekly-all-hands-meetings-hackerone</id>
-        <link href="https://www.hackerone.com/culture-and-talent/power-connection-importance-weekly-all-hands-meetings-hackerone"/>
-        <updated>2023-12-28T19:52:41.000Z</updated>
-        <author>
-            <name>debbie@hackerone.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub’s top blog posts of 2023]]></title>
-        <id>https://github.blog/?p=75904</id>
-        <link href="https://github.blog/2023-12-27-githubs-top-blog-posts-of-2023/"/>
-        <updated>2023-12-27T17:00:23.000Z</updated>
-        <summary type="html"><![CDATA[As the year winds down, we're highlighting some of the incredible work from GitHub’s engineers, product teams, and security researchers.
-The post GitHub’s top blog posts of 2023 appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Laura Lindeman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The curl activity of 2023]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23348</id>
-        <link href="https://daniel.haxx.se/blog/2023/12/25/the-curl-activity-of-2023/"/>
-        <updated>2023-12-25T22:38:53.000Z</updated>
-        <summary type="html"><![CDATA[We have the full commit history of all curl source code since late December 1999. The reason we don’t have the history from before that moment is simply because I did not bother with that when I imported our code into Sourceforge back then. Just me being sloppy. We know exactly when and who authored … Continue reading The curl activity of 2023 →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stability and scalability for search]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search"/>
-        <updated>2023-12-23T12:02:20.086Z</updated>
-        <summary type="html"><![CDATA[In this blog, we discuss how we power real-time search for Tweets, Users, Direct Messages and more using Elasticsearch.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog Interviews 571: State of the "log" 2023]]></title>
-        <id>changelog.com/1/2276</id>
-        <link href="https://changelog.com/podcast/571"/>
-        <updated>2023-12-20T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Our 6th annual year-end wrap-up episode! This time we’re featuring 12 (yes, 12!) listener voice mails, our favorite episodes of the year & some insanely cool Breakmaster Cylinder beats made just for this occasion. Thanks for listening! 💚
+        <title type="html"><![CDATA[Practical AI 259: YOLOv9: Computer vision is alive and well]]></title>
+        <id>changelog.com/7/2355</id>
+        <link href="https://changelog.com/practicalai/259"/>
+        <updated>2024-03-06T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While everyone is super hyped about generative AI, computer vision researchers have been working in the background on significant advancements in deep learning architectures. YOLOv9 was just released with some noteworthy advancements relevant to parameter efficient models. In this episode, Chris and Daniel dig into the details and also discuss advancements in parameter efficient LLMs, such as Microsofts 1-Bit LLMs and Qualcomm’s new AI Hub.
 Leave us a comment
-Changelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!
+Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
 Sponsors:
 
   
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
 
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly…]]></summary>
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run yo…]]></summary>
         <author>
             <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JS Party 305: What's next in JavaScript (a tc39 update)]]></title>
-        <id>changelog.com/6/2233</id>
-        <link href="https://changelog.com/jsparty/305"/>
-        <updated>2023-12-20T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Daniel Ehrenberg (software engineer at Bloomberg, web standards author / champion & VP of ECMA International) joins us to discuss new features that have landed in JavaScript and to preview what’s cooking in various standards bodies across the web platform.
-We cover a wide array (get it?) of topics from improvements to built-ins such as Promises, Maps & Sets, as well as new primitives like Records, Tuples & Temporal. We round out this epic discussion with a look at cross-project standardization efforts like WinterCG, open source sustainability & how Bloomberg’s open source program gives back in important projects in the web ecosystem.
+        <title type="html"><![CDATA[How GitHub uses merge queue to ship hundreds of changes every day]]></title>
+        <id>https://github.blog/?p=76907</id>
+        <link href="https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/"/>
+        <updated>2024-03-06T16:43:39.000Z</updated>
+        <summary type="html"><![CDATA[Here's how merge queue transformed the way GitHub deploys changes to production at scale, so you can do the same for your organization.
+The post How GitHub uses merge queue to ship hundreds of changes every day appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Will Smythe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bending pause times to your will with Generational ZGC]]></title>
+        <id>https://medium.com/p/256629c9386b</id>
+        <link href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4"/>
+        <updated>2024-03-06T01:35:08.000Z</updated>
+        <summary type="html"><![CDATA[The surprising and not so surprising benefits of generations in the Z Garbage Collector.]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Time 306: How long until I lose my job to AI?]]></title>
+        <id>changelog.com/2/2350</id>
+        <link href="https://changelog.com/gotime/306"/>
+        <updated>2024-03-05T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re all thinking about it and wondering if our job is safe from AI. Maybe. Maybe not. In this episode Johnny Boursiquot is joined some industry veterans who have been through multiple innovation cycles to share their insights and advice on this subject.
 Leave us a comment
-Changelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!
+Changelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!
 Sponsors:
 
   
-Socket – Secure your supp…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[23 of our most helpful tips from 2023]]></title>
-        <id>https://blog.google/inside-google/google-most-helpful-tips-2023/</id>
-        <link href="https://blog.google/inside-google/google-most-helpful-tips-2023/"/>
-        <updated>2023-12-20T17:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A roundup of Google’s best tips from 2023 for saving time and money, being more creative and putting AI to work in the New Year.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 at Google]]></title>
-        <id>https://blog.google/inside-google/google-2023-recaps-highlights/</id>
-        <link href="https://blog.google/inside-google/google-2023-recaps-highlights/"/>
-        <updated>2023-12-20T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Explore our collection looking back on some of our biggest moments and milestones from 2023.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[23 of our biggest moments in 2023]]></title>
-        <id>https://blog.google/technology/ai/google-product-launches-2023/</id>
-        <link href="https://blog.google/technology/ai/google-product-launches-2023/"/>
-        <updated>2023-12-20T16:10:00.000Z</updated>
-        <summary type="html"><![CDATA[A look back at 2023 at Google, from AI announcements to hardware launches and more.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SEGA and SIX Group: The Value of VDP and Bug Bounty]]></title>
-        <id>https://hackerone.com/customer-stories/sega-six-group</id>
-        <link href="https://www.hackerone.com/customer-stories/sega-six-group"/>
-        <updated>2023-12-20T13:12:40.000Z</updated>
-        <summary type="html"><![CDATA[SEGA Europe and SIX Group discuss the power of bug bounty and vulnerability disclosure programs (VDPs) with HackerOne.]]></summary>
-        <author>
-            <name>HackerOne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Democratizing access to AI-enabled coding with Colab]]></title>
-        <id>https://blog.google/technology/ai/democratizing-access-to-ai-enabled-coding-with-colab/</id>
-        <link href="https://blog.google/technology/ai/democratizing-access-to-ai-enabled-coding-with-colab/"/>
-        <updated>2023-12-19T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An overview of how we're expanding code assistance features to all Colab users.]]></summary>
-        <author>
-            <name>AI</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 250: Open source, on-disk vector search with LanceDB]]></title>
-        <id>changelog.com/7/2291</id>
-        <link href="https://changelog.com/practicalai/250"/>
-        <updated>2023-12-19T19:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Prashanth Rao mentioned LanceDB as a stand out amongst the many vector DB options in episode #234. Now, Chang She (co-founder and CEO of LanceDB) joins us to talk through the specifics of their open source, on-disk, embedded vector search offering. We talk about how their unique columnar database structure enables serverless deployments and drastic savings (without performance hits) at scale. This one is super practical, so don’t miss it!
-Leave us a comment
-Changelog++ members save 1 minute on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
+Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
 
 Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+Sentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9am PT to hear the latest scoop. Too busy? No problem - enter your email address to receive all the announcements (and win swag along the way). Use the code CHANGELOG when you sign up to get $100 OFF the team plan.
 
 Typesense – Lightning fast, globally distributed Search-as-a-Service that runs in memory. You literally can’t get any faster!
 
 
 Featuring:
 
-Chang She – Twitter, GitHub, LinkedIn
-Chris Benson – Twitter, GitHub, LinkedIn, Website
-Daniel Whitenack – Twitter, GitHub, Website
+Kent Quirk – Twitter, GitHub
+Sharon DiOrio – Twitter
+Steven Pyle – LinkedIn
+Johnny Boursiquot – Twitter, GitHub, Website
 
 Show Notes:
 
-LanceDB
-Episode #234 “Vector DBs beyond the hype”
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How we organize and get things done with SERVICEOWNERS]]></title>
-        <id>https://github.blog/?p=75858</id>
-        <link href="https://github.blog/2023-12-19-how-we-organize-and-get-things-done-with-serviceowners/"/>
-        <updated>2023-12-19T18:00:08.000Z</updated>
-        <summary type="html"><![CDATA[Take CODEOWNERS and GitHub teams to the next level. Learn about how GitHub engineering solves the age old problem of who owns what.
-The post How we organize and get things done with SERVICEOWNERS appeared first on The GitHub Blog.]]></summary>
+        <title type="html"><![CDATA[Building and Maintaining Internal Tools for DS/ML teams: Lessons Learned]]></title>
+        <id>https://building.nubank.com.br/?p=28478</id>
+        <link href="https://building.nubank.com.br/building-and-maintaining-internal-tools-for-ds-ml-teams-lessons-learned/"/>
+        <updated>2024-03-05T15:10:06.000Z</updated>
+        <summary type="html"><![CDATA[Lessons learned on how to build and maintain inner-source tools, with a focus on data science and machine learning use-cases
+The post Building and Maintaining Internal Tools for DS/ML teams: Lessons Learned appeared first on Building Nubank.]]></summary>
         <author>
-            <name>Max Beizer</name>
+            <name>Felipe Almeida - Machine Learning Engineer</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Unlocking Trust in AI: The Ethical Hacker's Approach to AI Red Teaming]]></title>
-        <id>https://hackerone.com/ai/ethical-hackers-ai-red-teaming</id>
-        <link href="https://www.hackerone.com/ai/ethical-hackers-ai-red-teaming"/>
-        <updated>2023-12-19T17:15:41.000Z</updated>
-        <summary type="html"><![CDATA[HackerOne offers robust AI Red Teaming services that help organizations bolster the security, fairness, and reliability of their AI deployments.]]></summary>
+        <title type="html"><![CDATA[Secure by Design: Google’s Perspective on Memory Safety]]></title>
+        <id>http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html</id>
+        <link href="http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html"/>
+        <updated>2024-03-04T19:00:00.022Z</updated>
+        <summary type="html"><![CDATA[Alex Rebert, Software Engineer, Christoph Kern, Principal Engineer, Security Foundations
+
+
+
+
+Google’s Project Zero reports that memory safety vulnerabilities—security defects caused by subtle coding errors related to how a program accesses memory—have been "the standard for attacking software for the last few decades and it’s still how attackers are having success". Their analysis shows two thirds of 0-day exploits detected in the wild used memory corruption vulnerabilities. Despite substantial investments to improve memory-unsafe languages, those vulnerabilities continue to top the most commonly exploited vulnerability classes.
+
+In this post, we share our perspective on memory safety in a comprehensive whitepaper. This paper delves into the data, challenges of tackling memory unsafety, an…]]></summary>
         <author>
-            <name>Ilona Cohen</name>
+            <name>Google Online Security Blog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From migration tools to updates to Enterprise Managed Users, what’s new in GitHub Enterprise]]></title>
-        <id>https://github.blog/?p=75778</id>
-        <link href="https://github.blog/2023-12-19-from-migration-tools-to-updates-to-enterprise-managed-users-whats-new-in-github-enterprise/"/>
-        <updated>2023-12-19T17:00:23.000Z</updated>
-        <summary type="html"><![CDATA[Read a round-up of the exciting, new innovation coming from GitHub Enterprise.
-The post From migration tools to updates to Enterprise Managed Users, what’s new in GitHub Enterprise appeared first on The GitHub Blog.]]></summary>
+        <title type="html"><![CDATA[Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…]]></title>
+        <id>https://medium.com/p/039d5efd115b</id>
+        <link href="https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4"/>
+        <updated>2024-03-04T18:01:55.000Z</updated>
+        <summary type="html"><![CDATA[by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit]]></summary>
         <author>
-            <name>Van Ly</name>
+            <name>Netflix Technology Blog</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Release Radar · End of 2023 Edition]]></title>
-        <id>https://github.blog/?p=75615</id>
-        <link href="https://github.blog/2023-12-19-release-radar-dec-2023/"/>
-        <updated>2023-12-19T16:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Hacktoberfest has wrapped up, GitHub Universe has come to a close, and our community has been super hard at work. All the while people enjoyed turkey over Thanksgiving in the United States and Canada and expressed gratitude for those around them. In this edition, we’d like to thank the open source community for all the […]
-The post Release Radar · End of 2023 Edition appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Michelle Mannering</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 75: The code, prose & conversations that shaped 2023]]></title>
-        <id>changelog.com/16/2290</id>
-        <link href="https://changelog.com/news/75"/>
-        <updated>2023-12-18T22:40:00.000Z</updated>
-        <summary type="html"><![CDATA[This episodes diverges from our traditional fare. I’ve reviewed the 50 previous editions and picked (IMHO) the coolest code, best prose & my favorite podcast episode from each month!
+        <title type="html"><![CDATA[Changelog News 84: Apple backs off killing EU web apps]]></title>
+        <id>changelog.com/16/2354</id>
+        <link href="https://changelog.com/news/84"/>
+        <updated>2024-03-04T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple backs off killing web apps (but the fight continues), Luka Kladaric writes about how to ship quality software in hostile environments, Deno’s new package registry is an npm superset, Martin Fowler on the value of periodic face-to-face & Eugene Ghanizadeh wants us to get more decentralized than the Fediverse. Leave us nice words!
 Leave us a comment
 Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
 Sponsors:
 
   
-Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
+Sentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9am PT to hear the latest scoop. Too busy? No problem - enter your email address to receive all the announcements (and win swag along the way). Use the code CHANGELOG when you sign up to get $100 OFF the team plan.
 
 
 Featuring:
@@ -711,69 +1268,11 @@ Featuring:
 Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
 
 Show Notes:
+Leave us nice words!
 All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog & Friends 25: #define: game theory, dude]]></title>
-        <id>changelog.com/17/2289</id>
-        <link href="https://changelog.com/friends/25"/>
-        <updated>2023-12-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What happens when you take four grizzled #define veterans and throw an Emma Bostian into the mix? Find out on this episode because our award-worthy game of fake definitions is back and this time it’s even better!
-Leave us a comment
-Changelog++ members get a bonus 17 minutes at the end of this episode and zero ads. Join today!
-Sponsors:
-
-  
-Neon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.
-
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
-
-Fastly – Our bandwidth partner. Fastly powers fast, secure, and scalable digital experiences. Move beyond your content delivery network to their powerful edge cloud platform. Learn more at fastly.com
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Amal Hussein – Twitter, GitHub
-Lars Wikman – Twitter, GitHub, Website
-Taylor Troesh – GitHub, LinkedIn, Website
-Emma Bostian – Twitter, GitHub, LinkedIn
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
-
-Show Notes:
-
-Join Changelog++ for bonus rounds!
-I hereby pardon all junior engineers
-wigwam.directory
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The data platform cluster operator service for Hadoop cluster management]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/the-data-platform-cluster-operator-service-for-hadoop-cluster-management"/>
-        <updated>2023-12-17T12:02:44.013Z</updated>
-        <summary type="html"><![CDATA[As any team and its infrastructure grows, the risk of an unplanned service outage and potential data loss will grow.]]></summary>
-        <author>
-            <name>English (US)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Twitter uses rasdaemon for hardware reliability]]></title>
-        <id>https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability</id>
-        <link href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2023/how-twitter-uses-rasdaemon-for-hardware-reliability"/>
-        <updated>2023-12-17T12:02:43.999Z</updated>
-        <summary type="html"><![CDATA[At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components.]]></summary>
-        <author>
-            <name>English (US)</name>
         </author>
     </entry>
 </feed>
