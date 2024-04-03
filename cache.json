@@ -22,15 +22,6 @@
           "publishedOn": "2024-03-12T15:59:00.000Z",
           "wordCount": 1542,
           "title": "Vulnerability Reward Program: 2023 Year in Review"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html",
-          "author": null,
-          "description": "Alex Rebert, Software Engineer, Christoph Kern, Principal Engineer, Security Foundations\n\n\n\n\nGoogle’s Project Zero reports that memory safety vulnerabilities—security defects caused by subtle coding errors related to how a program accesses memory—have been \"the standard for attacking software for the last few decades and it’s still how attackers are having success\". Their analysis shows two thirds of 0-day exploits detected in the wild used memory corruption vulnerabilities. Despite substantial investments to improve memory-unsafe languages, those vulnerabilities continue to top the most commonly exploited vulnerability classes.\n\nIn this post, we share our perspective on memory safety in a comprehensive whitepaper. This paper delves into the data, challenges of tackling memory unsafety, an…",
-          "link": "http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html",
-          "publishedOn": "2024-03-04T19:00:00.022Z",
-          "wordCount": 2967,
-          "title": "Secure by Design: Google’s Perspective on Memory Safety"
         }
       ]
     },
@@ -55,6 +46,22 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2385",
+          "author": null,
+          "description": "In this fully connected episode, Daniel & Chris discuss NVIDIA GTC keynote comments from CEO Jensen Huang about teaching kids to code.  Then they dive into the notion of “community” in the AI world, before discussing challenges in the adoption of generative AI by non-technical people.  They finish by addressing the evolving balance between generative AI interfaces and search engines.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nLadder Life Insurance – 100% digital — no doctors, no needles, no paperwork. Don’t put it off until the very last minute to get term coverage life insurance through Ladder. Find out if you’re instantly approved. They’re rated A and A plus. Life insurance costs more as you age, now’s the time to cross it off your list.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nNVIDIA GTC March 2024 Keynote with NVIDIA CEO Jensen Huang\n5 Forces That Will Drive the Adoption of GenAI | Harvard Business Review\nHere’s why AI search engines really can’t kill Google | The Verge\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/263",
+          "publishedOn": "2024-04-02T20:00:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 263: Should kids still learn to code?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/263/practical-ai-263.mp3",
+            "length": "37999916",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/16/2390",
           "author": null,
@@ -459,21 +466,6 @@
             "length": "73765833",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2354",
-          "author": null,
-          "description": "Apple backs off killing web apps (but the fight continues), Luka Kladaric writes about how to ship quality software in hostile environments, Deno’s new package registry is an npm superset, Martin Fowler on the value of periodic face-to-face & Eugene Ghanizadeh wants us to get more decentralized than the Fediverse. Leave us nice words!\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9am PT to hear the latest scoop. Too busy? No problem - enter your email address to receive all the announcements (and win swag along the way). Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nLeave us nice words!\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/84",
-          "publishedOn": "2024-03-04T18:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 84: Apple backs off killing EU web apps",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/84/changelog-news-84.mp3",
-            "length": "8285326",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -482,6 +474,16 @@
       "feedUrl": "https://blog.google/technology/ai/rss",
       "siteUrl": "https://blog.google/technology/ai/",
       "articles": [
+        {
+          "id": "https://blog.google/outreach-initiatives/public-policy/google-ai-developing-countries-growth/",
+          "author": null,
+          "description": "Today we’re releasing our “AI Sprinters” report, outlining ways for developing countries to take advantage of AI’s potential.",
+          "link": "https://blog.google/outreach-initiatives/public-policy/google-ai-developing-countries-growth/",
+          "publishedOn": "2024-04-03T09:30:00.000Z",
+          "wordCount": 1763,
+          "title": "Our new report on AI's opportunity for developing countries",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_sprinters_report_hero.width-1300.png"
+        },
         {
           "id": "https://blog.google/outreach-initiatives/google-org/google-for-nonprofits-generative-ai-report/",
           "author": null,
@@ -742,6 +744,16 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=77210",
+          "author": "Tanmayee Kamath",
+          "description": "GitHub-hosted runners now support Azure private networking. Plus, we've added 2 vCPU Linux, 4 vCPU Windows, macOS L, macOS XL, and GPU hosted runners to our runner fleet.\nThe post Bringing enterprise-level security and even more power to GitHub-hosted runners appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-04-02-bringing-enterprise-level-security-and-even-more-power-to-github-hosted-runners/",
+          "publishedOn": "2024-04-02T16:35:24.000Z",
+          "wordCount": 2580,
+          "title": "Bringing enterprise-level security and even more power to GitHub-hosted runners",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/Enterprise-LightMode-3.png"
+        },
+        {
           "id": "https://github.blog/?p=77177",
           "author": "Jiyon Yun",
           "description": "A discussion about how tech is aiding organizations fighting for gender equality, what it means to be a woman in tech and the world today, and advice on how we all move forward.\nThe post Empowering women through open source appeared first on The GitHub Blog.",
@@ -839,6 +851,26 @@
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
         {
+          "id": "https://building.nubank.com.br/?p=28916",
+          "author": "Nubank Editorial",
+          "description": "Unveiling the impact of generative AI and LLMs through collaboration and innovation at Brazil's premier tech summit\nThe post AI and beyond: insights and impacts from the TDC Summit São Paulo 2024 appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/ai-and-beyond-insights-and-impacts-from-the-tdc-summit-sao-paulo-2024/",
+          "publishedOn": "2024-04-02T21:46:05.000Z",
+          "wordCount": 5966,
+          "title": "AI and beyond: insights and impacts from the TDC Summit São Paulo 2024",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/04/unnamed-e1712094321466.jpg"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=28898",
+          "author": "Nubank Editorial",
+          "description": "Today, data isn't just numbers; it's the catalyst that drives decisions, forecasts trends, and creates sustainable business models.\nThe post Nubank DS & ML Meetup #82: a deep dive into optimization models in practice appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nubank-ds-ml-meetup-82-a-deep-dive-into-optimization-models-in-practice/",
+          "publishedOn": "2024-04-02T21:12:53.000Z",
+          "wordCount": 6661,
+          "title": "Nubank DS & ML Meetup #82: a deep dive into optimization models in practice",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/04/1156-www.victoriaholguin.com-Victoria-Holguin-_DSF0741-Mejorado-NR-1024x683.jpg"
+        },
+        {
           "id": "https://building.nubank.com.br/?p=28478",
           "author": "Felipe Almeida - Machine Learning Engineer",
           "description": "Lessons learned on how to build and maintain inner-source tools, with a focus on data science and machine learning use-cases\nThe post Building and Maintaining Internal Tools for DS/ML teams: Lessons Learned appeared first on Building Nubank.",
@@ -880,15 +912,6 @@
           "publishedOn": "2024-03-06T01:35:08.000Z",
           "wordCount": 1227,
           "title": "Bending pause times to your will with Generational ZGC"
-        },
-        {
-          "id": "https://medium.com/p/039d5efd115b",
-          "author": "Netflix Technology Blog",
-          "description": "by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit",
-          "link": "https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-03-04T18:01:55.000Z",
-          "wordCount": 3088,
-          "title": "Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…"
         }
       ]
     },
