@@ -31,6 +31,16 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\n\nThis article was adapted from a Google Testing on the Toilet (TotT) episode. You can download a printer-friendly version of this TotT episode and post it in your office.\n\n\nby Kai Kent\n\n\n\nYour project is adding a loyalty promotion feature, so you add a new column CREATION_DATE to the ACCOUNT table. Suddenly the test below starts failing. Can you spot the problem?\n\n\n\nTEST_F(AccountTest, UpdatesBalanceAfterWithdrawal) {\n  ASSERT_OK_AND_ASSIGN(Account account,\n                       database.CreateNewAccount(/*initial_balance=*/5000));\n  ASSERT_OK(account.Withdraw(30…",
+          "link": "http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html",
+          "publishedOn": "2024-04-04T12:47:00.000Z",
+          "wordCount": 8699,
+          "title": "Prefer Narrow Assertions in Unit Tests",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
           "id": "http://testing.googleblog.com/2024/03/whats-in-name.html",
           "author": null,
           "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nby Adam Raider\n\n\n\n\n\n“There are only two hard things in computer science: cache invalidation and naming things.” —Phil Karlton\nHave you ever read an identifier only to realize later it doesn’t do what you expected? Or had to read the implementation in order to understand an interface? These indirections eat up our cognitive bandwidt…",
@@ -46,6 +56,22 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2393",
+          "author": null,
+          "description": "This week Adam is joined by Zeno Rocha — the creator of the beloved Dracula theme and Co-founder and CEO of Resend. They discuss his personal journey and the challenges of balancing work and family life, how becoming a parent has given him new perspectives and influenced his decision to start his own company, the role of citizenship and immigration in his journey, how he prepared for the Y Combinator interview, meeting Paul Graham, the challenges of sending email, and the future of Resend and the possibility of a Series A round.\nLeave us a comment\nChangelog++ members save 12 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate…",
+          "link": "https://changelog.com/podcast/585",
+          "publishedOn": "2024-04-04T21:00:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 585: Getting to Resend",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/585/the-changelog-585.mp3",
+            "length": "91513298",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/2/2360",
           "author": null,
@@ -452,21 +478,6 @@
             "length": "81428407",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/7/2355",
-          "author": null,
-          "description": "While everyone is super hyped about generative AI, computer vision researchers have been working in the background on significant advancements in deep learning architectures. YOLOv9 was just released with some noteworthy advancements relevant to parameter efficient models. In this episode, Chris and Daniel dig into the details and also discuss advancements in parameter efficient LLMs, such as Microsofts 1-Bit LLMs and Qualcomm’s new AI Hub.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run yo…",
-          "link": "https://changelog.com/practicalai/259",
-          "publishedOn": "2024-03-06T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 259: YOLOv9: Computer vision is alive and well",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/259/practical-ai-259.mp3",
-            "length": "41291649",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -745,6 +756,16 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
+          "id": "https://github.blog/?p=77268",
+          "author": "Nicole Choi",
+          "description": "Here’s how retrieval-augmented generation, or RAG, uses a variety of data sources to keep AI models fresh with up-to-date information and organizational knowledge.\nThe post What is retrieval-augmented generation, and what does it do for generative AI? appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-04-04-what-is-retrieval-augmented-generation-and-what-does-it-do-for-generative-ai/",
+          "publishedOn": "2024-04-04T16:00:07.000Z",
+          "wordCount": 2932,
+          "title": "What is retrieval-augmented generation, and what does it do for generative AI?",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/rag-header.png"
+        },
+        {
           "id": "https://github.blog/?p=77239",
           "author": "Jorge Rosillo",
           "description": "This blog post is an in-depth walkthrough on how we perform security research leveraging GitHub features, including code scanning, CodeQL, and Codespaces.\nThe post Security research without ever leaving GitHub: From code scanning to CVE via Codespaces and private vulnerability reporting appeared first on The GitHub Blog.",
@@ -844,15 +865,6 @@
           "publishedOn": "2024-03-07T17:00:54.000Z",
           "wordCount": 2665,
           "title": "Hard and soft skills for developers coding in the age of AI"
-        },
-        {
-          "id": "https://github.blog/?p=76907",
-          "author": "Will Smythe",
-          "description": "Here's how merge queue transformed the way GitHub deploys changes to production at scale, so you can do the same for your organization.\nThe post How GitHub uses merge queue to ship hundreds of changes every day appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/",
-          "publishedOn": "2024-03-06T16:43:39.000Z",
-          "wordCount": 1968,
-          "title": "How GitHub uses merge queue to ship hundreds of changes every day"
         }
       ]
     },
@@ -889,6 +901,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/222ac5d23576",
+          "author": "Netflix Technology Blog",
+          "description": "By Ricky Gardiner, Alex Hutter, and Katie Lefevre",
+          "link": "https://netflixtechblog.com/reverse-searching-netflixs-federated-graph-222ac5d23576?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-04-04T21:26:42.000Z",
+          "wordCount": 4292,
+          "title": "Reverse Searching Netflix’s Federated Graph",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GCZRoNqT8seObcUFzYthXg.png"
+        },
+        {
           "id": "https://medium.com/p/da6805341642",
           "author": "Netflix Technology Blog",
           "description": "Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley",
@@ -905,15 +927,6 @@
           "publishedOn": "2024-03-07T18:33:07.000Z",
           "wordCount": 2812,
           "title": "Supporting Diverse ML Systems at Netflix"
-        },
-        {
-          "id": "https://medium.com/p/256629c9386b",
-          "author": "Netflix Technology Blog",
-          "description": "The surprising and not so surprising benefits of generations in the Z Garbage Collector.",
-          "link": "https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-03-06T01:35:08.000Z",
-          "wordCount": 1227,
-          "title": "Bending pause times to your will with Generational ZGC"
         }
       ]
     },

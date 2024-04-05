@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-04-04T12:03:37.639Z</updated>
+    <updated>2024-04-05T12:03:09.066Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Reverse Searching Netflix’s Federated Graph]]></title>
+        <id>https://medium.com/p/222ac5d23576</id>
+        <link href="https://netflixtechblog.com/reverse-searching-netflixs-federated-graph-222ac5d23576?source=rss----2615bd06b42e---4"/>
+        <updated>2024-04-04T21:26:42.000Z</updated>
+        <summary type="html"><![CDATA[By Ricky Gardiner, Alex Hutter, and Katie Lefevre]]></summary>
+        <author>
+            <name>Netflix Technology Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 585: Getting to Resend]]></title>
+        <id>changelog.com/1/2393</id>
+        <link href="https://changelog.com/podcast/585"/>
+        <updated>2024-04-04T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week Adam is joined by Zeno Rocha — the creator of the beloved Dracula theme and Co-founder and CEO of Resend. They discuss his personal journey and the challenges of balancing work and family life, how becoming a parent has given him new perspectives and influenced his decision to start his own company, the role of citizenship and immigration in his journey, how he prepared for the Y Combinator interview, meeting Paul Graham, the challenges of sending email, and the future of Resend and the possibility of a Series A round.
+Leave us a comment
+Changelog++ members save 12 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+FireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is retrieval-augmented generation, and what does it do for generative AI?]]></title>
+        <id>https://github.blog/?p=77268</id>
+        <link href="https://github.blog/2024-04-04-what-is-retrieval-augmented-generation-and-what-does-it-do-for-generative-ai/"/>
+        <updated>2024-04-04T16:00:07.000Z</updated>
+        <summary type="html"><![CDATA[Here’s how retrieval-augmented generation, or RAG, uses a variety of data sources to keep AI models fresh with up-to-date information and organizational knowledge.
+The post What is retrieval-augmented generation, and what does it do for generative AI? appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Nicole Choi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prefer Narrow Assertions in Unit Tests]]></title>
+        <id>http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html</id>
+        <link href="http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html"/>
+        <updated>2024-04-04T12:47:00.000Z</updated>
+        <summary type="html"><![CDATA[@media only screen and (max-width: 600px) {
+  .body {
+    overflow-x: auto;
+  }
+}
+  
+@media (max-width: 480px), (max-height: 480px) {
+.post-content table, .post-content td {
+   width: auto !important;
+   white-space: nowrap;
+}
+
+
+
+
+This article was adapted from a Google Testing on the Toilet (TotT) episode. You can download a printer-friendly version of this TotT episode and post it in your office.
+
+
+by Kai Kent
+
+
+
+Your project is adding a loyalty promotion feature, so you add a new column CREATION_DATE to the ACCOUNT table. Suddenly the test below starts failing. Can you spot the problem?
+
+
+
+TEST_F(AccountTest, UpdatesBalanceAfterWithdrawal) {
+  ASSERT_OK_AND_ASSIGN(Account account,
+                       database.CreateNewAccount(/*initial_balance=*/5000));
+  ASSERT_OK(account.Withdraw(30…]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Go Time 310: The magic of a trace]]></title>
         <id>changelog.com/2/2360</id>
@@ -1252,45 +1328,6 @@ The post Hard and soft skills for developers coding in the age of AI appeared fi
         <summary type="html"><![CDATA[On December 14 1998 we released curl 5.2. The project was still early back then and lots of things had not settled yet. In that release, which came only two weeks after 5.1, we introduced the --manual option, or -M for short. Long before I started working on curl I learnt to value and appreciate … Continue reading curl’s built-in manual without nroff →]]></summary>
         <author>
             <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical AI 259: YOLOv9: Computer vision is alive and well]]></title>
-        <id>changelog.com/7/2355</id>
-        <link href="https://changelog.com/practicalai/259"/>
-        <updated>2024-03-06T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While everyone is super hyped about generative AI, computer vision researchers have been working in the background on significant advancements in deep learning architectures. YOLOv9 was just released with some noteworthy advancements relevant to parameter efficient models. In this episode, Chris and Daniel dig into the details and also discuss advancements in parameter efficient LLMs, such as Microsofts 1-Bit LLMs and Qualcomm’s new AI Hub.
-Leave us a comment
-Changelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Changelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run yo…]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How GitHub uses merge queue to ship hundreds of changes every day]]></title>
-        <id>https://github.blog/?p=76907</id>
-        <link href="https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/"/>
-        <updated>2024-03-06T16:43:39.000Z</updated>
-        <summary type="html"><![CDATA[Here's how merge queue transformed the way GitHub deploys changes to production at scale, so you can do the same for your organization.
-The post How GitHub uses merge queue to ship hundreds of changes every day appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Will Smythe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bending pause times to your will with Generational ZGC]]></title>
-        <id>https://medium.com/p/256629c9386b</id>
-        <link href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4"/>
-        <updated>2024-03-06T01:35:08.000Z</updated>
-        <summary type="html"><![CDATA[The surprising and not so surprising benefits of generations in the Z Garbage Collector.]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
         </author>
     </entry>
 </feed>
