@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-04-06T12:03:16.233Z</updated>
+    <updated>2024-04-07T12:03:08.662Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ship It! 98: Deploying projects vs products]]></title>
+        <id>changelog.com/14/2384</id>
+        <link href="https://changelog.com/shipit/98"/>
+        <updated>2024-04-07T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Verónica López, Kubernetes SIG Release tech lead & distributed systems engineer, joins Justin & Autumn to share her experiences deploying services at scale.
+Leave us a comment
+Changelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!
+Sponsors:
+
+  
+Synadia – Take NATS to the next level via a global, multi-cloud, multi-geo and extensible service, fully managed by Synadia. They take care of all the infrastructure, management, monitoring, and maintenance for you so you can focus on building exceptional distributed applications.
+
+Sentry – AI-powered Autofix debugs & fixes your code in minutes. Give it a try… oh, and don’t forget to use code CHANGELOG when you sign up for Sentry to get $100 off their team plan. ✊
+
+Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
+
+
+Featuring:
+
+Verónica López – Twitter, LinkedIn
+Justin Garrison – Twitter, GitHub, LinkedIn
+Autumn Nash – Twitter, GitHub, LinkedIn
+
+Show Notes:
+Links
+CVE-2024-3094
+Open source foundations unite on common standards for EU’s Cyber Resilience Act
+All the releases of the rainbow 🌈
+Options discussed:
+Blue/Green
+Red/Black
+Canary
+Feature flagging/Dark launch
+A/B testing
+Database migrations
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog & Friends 38: Kaizen! There goes my PgHero]]></title>
         <id>changelog.com/17/2394</id>
@@ -445,6 +486,22 @@ The post Empowering women through open source appeared first on The GitHub Blog.
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Google Public DNS’s approach to fight against cache poisoning attacks]]></title>
+        <id>http://security.googleblog.com/2024/03/google-public-dnss-approach-to-fight.html</id>
+        <link href="http://security.googleblog.com/2024/03/google-public-dnss-approach-to-fight.html"/>
+        <updated>2024-03-28T17:41:00.007Z</updated>
+        <summary type="html"><![CDATA[Tianhao Chi and Puneet Sood, Google Public DNS
+
+
+
+
+The Domain Name System (DNS) is a fundamental protocol used on the Internet to translate human-readable domain names (e.g., www.example.com) into numeric IP addresses (e.g., 192.0.2.1) so that devices and servers can find and communicate with each other. When a user enters a domain name in their browser, the DNS resolver (e.g. Google Public DNS) locates the authoritative DNS nameservers for the requested name, and queries one or more of them to obtain the IP address(es) to return to the browser.
+When DNS was launched in the early 1980s as a trusted, content-neutral infrastructure, security was not yet a pressing concern, however, as the Internet grew DNS became vulnerable to various attacks. In this post, we will look at DNS cache poisonin…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[JS Party 317: 13% of the time, Devin works every time]]></title>
         <id>changelog.com/6/2377</id>
         <link href="https://changelog.com/jsparty/317"/>
@@ -607,6 +664,25 @@ Sponsors:
 Neo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into yo…]]></summary>
         <author>
             <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Address Sanitizer for Bare-metal Firmware]]></title>
+        <id>http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html</id>
+        <link href="http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html"/>
+        <updated>2024-03-26T15:59:00.004Z</updated>
+        <summary type="html"><![CDATA[Posted by Eugene Rodionov and Ivan Lozano, Android Team
+
+
+With steady improvements to Android userspace and kernel security, we have noticed an increasing interest from security researchers directed towards lower level firmware. This area has traditionally received less scrutiny, but is critical to device security. We have previously discussed how we have been prioritizing firmware security, and how to apply mitigations in a firmware environment to mitigate unknown vulnerabilities.
+
+
+ 
+
+
+In this post we will show how the Kernel Address Sanitizer (KASan) can be used to proactively discover vulnerabilities earlier in the development lifecycle. Despite the narrow application implied by its name, KASan is applicable to a wide-range of firmware targets. Using KASan enabled builds during testing…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
         </author>
     </entry>
     <entry>
@@ -1218,75 +1294,6 @@ Synadia – Take NATS to the next level via a global, multi-cloud, multi-geo an
 Sentry – Launch …]]></summary>
         <author>
             <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the Apple curl security incident 12604]]></title>
-        <id>https://daniel.haxx.se/blog/?p=23833</id>
-        <link href="https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/"/>
-        <updated>2024-03-08T21:51:18.000Z</updated>
-        <summary type="html"><![CDATA[tldr: Apple thinks it is fine. I do not. On December 28 2023, bugreport 12604 was filed in the curl issue tracker. We get a lot issues filed most days so this fact alone was hardly anything out of the ordinary. We read the reports, investigate, ask follow-up questions to see what we can learn … Continue reading the Apple curl security incident 12604 →]]></summary>
-        <author>
-            <name>Daniel Stenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog & Friends 34: Bourbon and better software]]></title>
-        <id>changelog.com/17/2365</id>
-        <link href="https://changelog.com/friends/34"/>
-        <updated>2024-03-08T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Adam is joined by Robert Ross, Founder and CEO of FireHydrant — they discuss Bourbon, sniffing arms, better software, leading a successful startup, scaling teams, building vs acquiring, and Adam even gets Robert to commit to watching Silicon Valley!!
-Leave us a comment
-Changelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Sentry – Launch week! New features and products all week long (so get comfy)! Tune in to Sentry’s YouTube and Discord daily at 9am PT to hear the latest scoop. Too busy? No problem - enter your email address to receive all the announcements (and win swag along the way). Use the code CHANGELOG when you sign up to get $100 OFF the team plan.
-
-imgproxy – imgproxy is open source an optimizes images for the web on the fly. It makes websites and apps blazing fast while saving storage and SaaS costs. It uses the world’s fastest image processing library under the hood — libvips. It is screaming fast and has a tiny memory footprint.
-
-Tailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required.
-
-Fly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.
-
-
-Featuring:
-
-Robert Ross – Twitter, GitHub, LinkedIn, Website
-Adam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website
-
-Show Notes:
-
-firehydrant.com
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog Interviews 581: It's not always DNS]]></title>
-        <id>changelog.com/1/2319</id>
-        <link href="https://changelog.com/podcast/581"/>
-        <updated>2024-03-08T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This week we’re talking about DNS with Paul Vixie — Paul is well known for his contributions to DNS and agrees with Adam on having a “love/hate relationship with DNS.” We discuss the limitations of current DNS technologies and the need for revisions to support future internet scale, the challenges in doing that. Paul shares insights on the future of the internet and how he’d reinvent DNS if given the opportunity. We even discuss the cultural idiom “It’s always DNS,” and the shift to using DNS resolvers like OpenDNS, Google’s 8.8.8.8 and Cloudflare’s 1.1.1.1. Buckle up, this is a good one.
-Leave us a comment
-Changelog++ members save 14 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Sentry – Launch week! New features and products all week long (so get …]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How AI is helping advance women’s health around the world]]></title>
-        <id>https://blog.google/technology/health/how-ai-is-helping-advance-womens-health-around-the-world/</id>
-        <link href="https://blog.google/technology/health/how-ai-is-helping-advance-womens-health-around-the-world/"/>
-        <updated>2024-03-08T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For International Women’s day, we’re highlighting AI solutions that can improve early diagnosis, quality and access to care for women’s health worldwide.]]></summary>
-        <author>
-            <name>AI</name>
         </author>
     </entry>
 </feed>
