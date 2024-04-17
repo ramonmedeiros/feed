@@ -59,6 +59,22 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
+          "id": "changelog.com/7/2401",
+          "author": null,
+          "description": "2024 promises to be the year of multi-modal AI, and we are already seeing some amazing things. In this “fully connected” episode, Chris and Daniel explore the new Udio product/service for generating music. Then they dig into the differences between recent multi-modal efforts and more “traditional” ways of combining data modalities.\nLeave us a comment\nChangelog++ members save 26 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nUdio\nCLIP\nBridgeTower\nLLaVA\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/265",
+          "publishedOn": "2024-04-16T18:20:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 265: Udio & the age of multi-modal AI",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/265/practical-ai-265.mp3",
+            "length": "37544541",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "changelog.com/16/2400",
           "author": null,
           "description": "YouTuber “Internet of Bugs” breaks down why AI “software engineer” Devin is no Upwork hero, Redka is Anton Zhiyanov’s attempt to reimplement Redis with SQLite, OpenTofu issues its response to Hashicorp’s Cease and Desist letter, Brian LeRoux introduces Enhance WASM & PumpkinOS is not your average PalmOS emulator.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
@@ -460,21 +476,6 @@
             "length": "44437843",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/16/2374",
-          "author": null,
-          "description": "A new badge for open source projects that won’t be getting any maintenance, everything Chip Huyen learned from looking at 900 open source AI tools, CNBC writes up tech’s renewed layoff trend, Teable is a Postgres-Airtable fusion & Target announces an open source fund.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\nCrabNebula Cloud – CrabNebula Cloud is here! Distribute Tauri apps and Electron apps with best in class updater. At the heart of CrabNebula Cloud is a purpose-built CDN ready for global scale, and secure updates as a first-class citizen. Learn more at crabnebula.dev/cloud\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/86",
-          "publishedOn": "2024-03-18T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 86: No Maintenance Intended",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/86/changelog-news-86.mp3",
-            "length": "8336995",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -506,6 +507,16 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=77511",
+          "author": "Jeimy Ruiz",
+          "description": "It’s the 10th anniversary of our global developer event! Celebrate with us by picking up in-person tickets today. It’s bound to be our best one yet.\nThe post The world’s fair of software: Join us at GitHub Universe 2024 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-04-16-the-worlds-fair-of-software-join-us-at-github-universe-2024/",
+          "publishedOn": "2024-04-16T16:00:39.000Z",
+          "wordCount": 1767,
+          "title": "The world’s fair of software: Join us at GitHub Universe 2024",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/1200x630-Blog-Hero.png"
+        },
         {
           "id": "https://github.blog/?p=77473",
           "author": "Sarah Oyetubo",
@@ -630,15 +641,6 @@
           "publishedOn": "2024-03-20T16:00:40.000Z",
           "wordCount": 1099,
           "title": "Found means fixed: Introducing code scanning autofix, powered by GitHub Copilot and CodeQL"
-        },
-        {
-          "id": "https://github.blog/?p=77004",
-          "author": "Man Yue Mo",
-          "description": "In this post, I’ll look at CVE-2023-6241, a vulnerability in the Arm Mali GPU that allows a malicious app to gain arbitrary kernel code execution and root on an Android phone. I’ll show how this vulnerability can be exploited even when Memory Tagging Extension (MTE), a powerful mitigation, is enabled on the device.\nThe post Gaining kernel code execution on an MTE-enabled Pixel 8 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-03-18-gaining-kernel-code-execution-on-an-mte-enabled-pixel-8/",
-          "publishedOn": "2024-03-18T15:00:55.000Z",
-          "wordCount": 6223,
-          "title": "Gaining kernel code execution on an MTE-enabled Pixel 8"
         }
       ]
     },
@@ -647,6 +649,16 @@
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=28975",
+          "author": "Nubank Editorial",
+          "description": "The list celebrates companies that empower and elevate their workforce for sustained career growth\nThe post Why Nubank was listed among Brazil’s LinkedIn Top Companies in 2024 appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/why-nubank-was-listed-among-brazils-linkedin-top-companies-in-2024/",
+          "publishedOn": "2024-04-16T14:07:41.000Z",
+          "wordCount": 5225,
+          "title": "Why Nubank was listed among Brazil’s LinkedIn Top Companies in 2024",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2023/01/Global-expansion-of-ML-Models_Feature_1200x675.jpg"
+        },
         {
           "id": "https://building.nubank.com.br/?p=28950",
           "author": "Nubank Editorial",
@@ -703,15 +715,6 @@
           "wordCount": 4292,
           "title": "Reverse Searching Netflix’s Federated Graph",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GCZRoNqT8seObcUFzYthXg.png"
-        },
-        {
-          "id": "https://medium.com/p/da6805341642",
-          "author": "Netflix Technology Blog",
-          "description": "Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley",
-          "link": "https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-03-18T12:46:46.000Z",
-          "wordCount": 1597,
-          "title": "Sequential Testing Keeps the World Streaming Netflix Part 2: Counting Processes"
         }
       ]
     },
