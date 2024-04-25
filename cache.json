@@ -34,16 +34,6 @@
           "wordCount": 8041,
           "title": "Google Public DNS’s approach to fight against cache poisoning attacks",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html",
-          "author": null,
-          "description": "Posted by Eugene Rodionov and Ivan Lozano, Android Team\n\n\nWith steady improvements to Android userspace and kernel security, we have noticed an increasing interest from security researchers directed towards lower level firmware. This area has traditionally received less scrutiny, but is critical to device security. We have previously discussed how we have been prioritizing firmware security, and how to apply mitigations in a firmware environment to mitigate unknown vulnerabilities.\n\n\n \n\n\nIn this post we will show how the Kernel Address Sanitizer (KASan) can be used to proactively discover vulnerabilities earlier in the development lifecycle. Despite the narrow application implied by its name, KASan is applicable to a wide-range of firmware targets. Using KASan enabled builds during testing…",
-          "link": "http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html",
-          "publishedOn": "2024-03-26T15:59:00.004Z",
-          "wordCount": 8514,
-          "title": "Address Sanitizer for Bare-metal Firmware",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         }
       ]
     },
@@ -71,15 +61,6 @@
           "wordCount": 8699,
           "title": "Prefer Narrow Assertions in Unit Tests",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://testing.googleblog.com/2024/03/whats-in-name.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nby Adam Raider\n\n\n\n\n\n“There are only two hard things in computer science: cache invalidation and naming things.” —Phil Karlton\nHave you ever read an identifier only to realize later it doesn’t do what you expected? Or had to read the implementation in order to understand an interface? These indirections eat up our cognitive bandwidt…",
-          "link": "http://testing.googleblog.com/2024/03/whats-in-name.html",
-          "publishedOn": "2024-03-26T12:34:00.000Z",
-          "wordCount": 3210,
-          "title": "What’s in a Name?"
         }
       ]
     },
@@ -88,6 +69,38 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/7/2412",
+          "author": null,
+          "description": "First there was Mamba… now there is Jamba from AI21. This is a model that combines the best non-transformer goodness of Mamba with good ‘ol attention layers. This results in a highly performant and efficient model that AI21 has open sourced! We hear all about it (along with a variety of other LLM things) from AI21’s co-founder Yoav.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nYoav Shoham – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nJamba - A Groundbreaking SSM - Transformer Open Model\nAI21 Labs\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/266",
+          "publishedOn": "2024-04-24T15:45:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 266: Mamba & Jamba",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/266/practical-ai-266.mp3",
+            "length": "39851499",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "changelog.com/1/2382",
+          "author": null,
+          "description": "This week we’re joined by Louis Pilfold, the creator of the Gleam programming language. For the uninitiated, Gleam is a functional programming language for building type-safe systems that compiles to Erlang and JavaScript and it’s written in Rust. We discuss the inspiration and development of Gleam, how it compares to other languages, where it shines, the overwhelming amount of support Louis is getting through GitHub sponsors, what’s next for Gleam and their near-term plans for a language server.\nLeave us a comment\nChangelog++ members save 12 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, an…",
+          "link": "https://changelog.com/podcast/588",
+          "publishedOn": "2024-04-24T12:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 588: Run Gleam run",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/588/the-changelog-588.mp3",
+            "length": "72895393",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/2/2356",
           "author": null,
@@ -498,36 +511,6 @@
             "length": "74038649",
             "type": "audio/mpeg"
           }
-        },
-        {
-          "id": "changelog.com/2/2357",
-          "author": null,
-          "description": "In this episode Matt, Bill & Jon discuss various debugging techniques for use in both production and development. Bill explains why he doesn’t like his developers to use the debugger and how he prefers to only use techniques available in production. Matt expresses a few counterpoints based on his different experiences, and then the group goes over some techniques for debugging in production.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nMatthew Boyle – Twitter, GitHub, Website\nBill Kennedy – Twitter, GitHub, Website\nJon Calhoun – Twitter, GitHub, Website\n\nShow Notes:\n\nLimits in Kubernetes - A blog by Bill\nPrometheus\ncrawler-hints\ndistributed tracing\nservice weaver\nencore\nPetr Levels\nAndrea Medda\nMatt’s debugging course\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/309",
-          "publishedOn": "2024-03-26T20:15:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 309: Debugging",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/309/go-time-309.mp3",
-            "length": "68414965",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "changelog.com/7/2381",
-          "author": null,
-          "description": "Daniel and Chris are out this week, so we’re bringing you conversations all about AI’s complicated relationship to software developers from other Changelog pods: JS Party, Go Time & The Changelog.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into yo…",
-          "link": "https://changelog.com/practicalai/262",
-          "publishedOn": "2024-03-26T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 262: AI vs software devs",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/262/practical-ai-262.mp3",
-            "length": "54957365",
-            "type": "audio/mpeg"
-          }
         }
       ]
     },
@@ -590,6 +573,16 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=77576",
+          "author": "Mike Hanley",
+          "description": "We’ve dramatically increased 2FA adoption on GitHub as part of our responsibility to make the software ecosystem more secure. Read on to learn how we secured millions of developers and why we’re urging more organizations to join us in these efforts.\nThe post Securing millions of developers through 2FA appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-04-24-securing-millions-of-developers-through-2fa/",
+          "publishedOn": "2024-04-24T15:00:53.000Z",
+          "wordCount": 2824,
+          "title": "Securing millions of developers through 2FA",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/2fa-header.png"
+        },
         {
           "id": "https://github.blog/?p=77565",
           "author": "Paull Young",
