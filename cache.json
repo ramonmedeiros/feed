@@ -6,6 +6,56 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html",
+          "author": null,
+          "description": "Sriram Karra and Christiaan Brand, Google product managers\n\n\nLast year, Google launched passkey support for Google Accounts. Passkeys are a new industry standard that give users an easy, highly secure way to sign-in to apps and websites. Today, we announced that passkeys have been used to authenticate users more than 1 billion times across over 400 million Google Accounts.\n\n\n\n\n\nAs more users encounter passkeys, we’re often asked questions about how they relate to security keys, how Google Workspace administrators can configure passkeys for the user accounts that they manage, and how they relate to the Advanced Protection Program (APP). This post will seek to clarify these topics.\n\n\n\n\n\nPasskeys and security keys\nPasskeys are an evolution of security keys, meaning users get the same security…",
+          "link": "http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html",
+          "publishedOn": "2024-05-02T11:59:00.001Z",
+          "wordCount": 7587,
+          "title": "Your Google Account allows you to create passkeys on your phone, computer and security keys",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
+          "id": "http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html",
+          "author": null,
+          "description": "Posted by  Will Harris, Chrome Security Team\n\n\n\n\n    \n.code {\n    font-family: \"Courier New\", Courier, monospace;\n    font-size: 11.8px;\n    font-weight: bold;\n    background-color: #f4f4f4;\n    padding: 2px;\n    border: 1px solid #ccc;\n    border-radius: 2px;\n    white-space: pre-wrap;\n    display: inline-block;\n    line-height: 12px;\n}\n.highlight {\n    color: red;\n}\n    \n\n\n\n\n\n\nChromium's sandboxed process model defends well from malicious web content, but there are limits to how well the application can protect itself from malware already on the computer. Cookies and other credentials remain a high value target for attackers, and we are trying to tackle this ongoing threat in multiple ways, including working on web standards like\n  DBSC\n  that will help disrupt the cookie theft industry …",
+          "link": "http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html",
+          "publishedOn": "2024-04-30T16:14:00.000Z",
+          "wordCount": 7479,
+          "title": "Detecting browser data theft using Windows Event Logs",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
+          "id": "http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html",
+          "author": null,
+          "description": "Posted by Steve Kafka and Khawaja Shams (Android Security and Privacy Team), and Mohet Saxena (Play Trust and Safety)\n\n\nA safe and trusted Google Play experience is our top priority. We leverage our SAFE (see below) principles to provide the framework to create that experience for both users and developers. Here's what these principles mean in practice:\n(S)afeguard our Users. Help them discover quality apps that they can trust.\n\n(A)dvocate for Developer Protection. Build platform safeguards to enable developers to focus on growth.\n\n(F)oster Responsible Innovation. Thoughtfully unlock value for all without compromising on user safety.\n\n(E)volve Platform Defenses. Stay ahead of emerging threats by evolving our policies, tools and technology.\n\n\n\nWith those principles in mind, we’ve made recen…",
+          "link": "http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html",
+          "publishedOn": "2024-04-29T15:59:00.000Z",
+          "wordCount": 5921,
+          "title": "How we fought bad apps and bad actors in 2023",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
+          "id": "http://security.googleblog.com/2024/04/accelerating-incident-response-using.html",
+          "author": null,
+          "description": "Lambert Rosique and Jan Keller, Security Workflow Automation, and Diana Kramer, Alexandra Bowen and Andrew Cho, Privacy and Security Incident Response\n\n\n\n\n\n\n\n\nIntroduction\nAs security professionals, we're constantly looking for ways to reduce risk and improve our workflow's efficiency. We've made great strides in using AI to identify malicious content, block threats, and discover and fix vulnerabilities. We also published the Secure AI Framework (SAIF), a conceptual framework for secure AI systems to ensure we are deploying AI in a responsible manner. \n\n\n\n\n\nToday we are highlighting another way we use generative AI to help the defenders gain the advantage: Leveraging LLMs (Large Language Model) to speed-up our security and privacy incidents workflows.\n\n\n\n\n\nIncident management is a team spo…",
+          "link": "http://security.googleblog.com/2024/04/accelerating-incident-response-using.html",
+          "publishedOn": "2024-04-26T17:27:00.023Z",
+          "wordCount": 14345,
+          "title": "Accelerating incident response using generative AI",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
+          "id": "http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html",
+          "author": null,
+          "description": "Posted by Yoshi Yamaguchi, Santiago Díaz, Maud Nalpas,  Eiji Kitamura, DevRel team\n\n\nThe Reporting API is an emerging web standard that provides a generic reporting mechanism for issues occurring on the browsers visiting your production website. The reports you receive detail issues such as security violations or soon-to-be-deprecated APIs, from users’ browsers from all over the world.\n\n\nCollecting reports is often as simple as specifying an endpoint URL in the HTTP header; the browser will automatically start forwarding reports covering the issues you are interested in to those endpoints. However, processing and analyzing these reports is not that simple. For example, you may receive a massive number of reports on your endpoint, and it is possible that not all of them will be helpful in i…",
+          "link": "http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html",
+          "publishedOn": "2024-04-23T17:15:00.000Z",
+          "wordCount": 11946,
+          "title": "Uncovering potential threats to your web application by leveraging security reports",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
           "id": "http://security.googleblog.com/2024/04/prevent-generative-ai-data-leaks-with.html",
           "author": null,
           "description": "Posted Kaleigh Rosenblat, Chrome Enterprise Senior Staff Software Engineer, Security Lead \n\n\nGenerative AI has emerged as a powerful and popular tool to automate content creation and simple tasks. From customized content creation to source code generation, it can increase both our productivity and creative potential.\n\n\nBusinesses want to leverage the power of LLMs, like Gemini, but many may have security concerns and want more control around how employees make sure of these new tools. For example, companies may want to ensure that various forms of sensitive data, such as Personally Identifiable Information (PII), financial records and internal intellectual property, is not to be shared publicly on Generative AI platforms. Security leaders face the challenge of finding the right balance — e…",
@@ -51,16 +101,6 @@
           "wordCount": 9030,
           "title": "How I Learned To Stop Writing Brittle Tests and Love Expressive APIs",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\n\nThis article was adapted from a Google Testing on the Toilet (TotT) episode. You can download a printer-friendly version of this TotT episode and post it in your office.\n\n\nby Kai Kent\n\n\n\nYour project is adding a loyalty promotion feature, so you add a new column CREATION_DATE to the ACCOUNT table. Suddenly the test below starts failing. Can you spot the problem?\n\n\n\nTEST_F(AccountTest, UpdatesBalanceAfterWithdrawal) {\n  ASSERT_OK_AND_ASSIGN(Account account,\n                       database.CreateNewAccount(/*initial_balance=*/5000));\n  ASSERT_OK(account.Withdraw(30…",
-          "link": "http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html",
-          "publishedOn": "2024-04-04T12:47:00.000Z",
-          "wordCount": 8699,
-          "title": "Prefer Narrow Assertions in Unit Tests",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         }
       ]
     },
@@ -69,6 +109,22 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/17/2421",
+          "author": null,
+          "description": "Our friend Ron Evans is a technologist for hire, an open source developer, an author, a speaker, an iconoclast, and one of our favorite people in tech. This conversation with Ron goes everywhere: from high-altitude weather balloons, to life on Mars, to Zeno’s paradox applied to ML, to what open source devs should learn from the Wu-Tang Clan & more.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nCloudflare – Read the Developer Week 2024 wrap-up or tune into Developer Week on Cloudflare TV.\n\nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nRon Evans – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nBook: A City on Mars\nBio-Dome - Wikipedia\nZeno’s paradoxes\nTinyGo on Hackaday\nggerganov/llama.cpp: LLM inference in C/C++\nWhat exactly is Open Source AI? with Stefano Maffulli\nOn the dangers of stochastic parrots | The Alan Turing Institute\n2053: A Go Odyssey (Go Time #235)\nGetting started with TinyGo\nLooking back at Go from 2053 with Ron Evans - YouTube\nThe Hybrid Group\nAli Spagnola - YouTube\nGopherCon 2024 - Register Now\nFOSDEM 2024 - Home\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/42",
+          "publishedOn": "2024-05-03T18:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 42: The Wu-Tang way",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/42/changelog--friends-42.mp3",
+            "length": "102001599",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/6/2402",
           "author": null,
@@ -516,22 +572,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "changelog.com/1/2393",
-          "author": null,
-          "description": "This week Adam is joined by Zeno Rocha — the creator of the beloved Dracula theme and Co-founder and CEO of Resend. They discuss his personal journey and the challenges of balancing work and family life, how becoming a parent has given him new perspectives and influenced his decision to start his own company, the role of citizenship and immigration in his journey, how he prepared for the Y Combinator interview, meeting Paul Graham, the challenges of sending email, and the future of Resend and the possibility of a Series A round.\nLeave us a comment\nChangelog++ members save 12 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate…",
-          "link": "https://changelog.com/podcast/585",
-          "publishedOn": "2024-04-04T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 585: Getting to Resend",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/585/the-changelog-585.mp3",
-            "length": "91513298",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -803,16 +843,6 @@
           "wordCount": 1859,
           "title": "Explore the seasons of software development with four full years of data",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/04/1200x630-Collaboration-Unfurl-LIGHT-Logo.png"
-        },
-        {
-          "id": "https://github.blog/?p=77268",
-          "author": "Nicole Choi",
-          "description": "Here’s how retrieval-augmented generation, or RAG, uses a variety of data sources to keep AI models fresh with up-to-date information and organizational knowledge.\nThe post What is retrieval-augmented generation, and what does it do for generative AI? appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-04-04-what-is-retrieval-augmented-generation-and-what-does-it-do-for-generative-ai/",
-          "publishedOn": "2024-04-04T16:00:07.000Z",
-          "wordCount": 2932,
-          "title": "What is retrieval-augmented generation, and what does it do for generative AI?",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/rag-header.png"
         }
       ]
     },
@@ -887,16 +917,6 @@
           "wordCount": 5878,
           "title": "The Making of VES: the Cosmos Microservice for Netflix Video Encoding",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*7n3hN3lYhe89Ezk6"
-        },
-        {
-          "id": "https://medium.com/p/222ac5d23576",
-          "author": "Netflix Technology Blog",
-          "description": "By Ricky Gardiner, Alex Hutter, and Katie Lefevre",
-          "link": "https://netflixtechblog.com/reverse-searching-netflixs-federated-graph-222ac5d23576?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-04-04T21:26:42.000Z",
-          "wordCount": 4292,
-          "title": "Reverse Searching Netflix’s Federated Graph",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GCZRoNqT8seObcUFzYthXg.png"
         }
       ]
     },
