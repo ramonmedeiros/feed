@@ -73,6 +73,16 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2024/05/test-failures-should-be-actionable.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis article was adapted from a Google Testing on the Toilet (TotT) episode. You can download a printer-friendly version of this TotT episode and post it in your office.\n\n\nBy Titus Winters\n\n\n\nThere are a lot of rules and best practices around unit testing. There are many posts on this blog; there is deeper material in the Software Engineering at Google book; there is specific guidance for every major language; there is guidance on test frameworks, test naming, and dozens of other test-related topics. Isn’t this excessive?\nGood unit tests contain several important …",
+          "link": "http://testing.googleblog.com/2024/05/test-failures-should-be-actionable.html",
+          "publishedOn": "2024-05-06T13:26:00.000Z",
+          "wordCount": 9259,
+          "title": "Test Failures Should Be Actionable",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
           "id": "http://testing.googleblog.com/2024/04/isbooleantoolongandcomplex.html",
           "author": null,
           "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Yiming Sun\n\n\n\nYou may have come across some complex, hard-to-read Boolean expressions in your codebase and wished they were easier to understand. For example, let's say we want to decide whether a pizza is fantastic:\n\n\n\n// Decide whether this pizza is fantastic.\nif ((!pepperoniService.empty() || sausages.size() > 0)\n    && (useO…",
@@ -543,38 +553,6 @@
           "enclosure": {
             "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/90/changelog-news-90.mp3",
             "length": "7723661",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/17/2399",
-          "author": null,
-          "description": "Our beat freak in residence returns, this time to discuss the shiny new Dance Party album! We deconstruct its nostalgic mix, break down some of our favorite tracks & even learn that BMC is writing a mysterious book…\nLeave us a comment\nChangelog++ members get a bonus 9 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nBreakmaster Cylinder – Twitter, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nDance Party\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/39",
-          "publishedOn": "2024-04-13T15:15:00.000Z",
-          "wordCount": null,
-          "title": "Changelog & Friends 39: More BMC goodness",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/39/changelog--friends-39.mp3",
-            "length": "73850691",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/14/2386",
-          "author": null,
-          "description": "Why would you want to switch your developer environments from containers to nix? Ádám from LastPass has a few reasons.\nLeave us a comment\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSynadia – Take NATS to the next level via a global, multi-cloud, multi-geo and extensible service, fully managed by Synadia. They take care of all the infrastructure, management, monitoring, and maintenance for you so you can focus on building exceptional distributed applications.\n\nSentry – AI-powered Autofix debugs & fixes your code in minutes. Give it a try… oh, and don’t forget to use code CHANGELOG when you sign up for Sentry to get $100 off their team plan. ✊\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nÁdám Szücs-Mátyás – Twitter, GitHub, LinkedIn\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nLinks of the week\nSoftware needs to be more expensive\nNASA moon rover lunar terrain vehicle proposals\nInterview\nDevenv\nRemote dev environments\nAmazon Workspaces\nVScode code-server\nGitpod\nCodespaces\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/99",
-          "publishedOn": "2024-04-13T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 99: From Kubernetes to Nix",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/99/ship-it-99.mp3",
-            "length": "71756809",
             "type": "audio/mpeg"
           },
           "imageUrl": null
