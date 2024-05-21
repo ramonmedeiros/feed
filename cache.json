@@ -83,6 +83,16 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
+          "id": "http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html",
+          "author": null,
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Gene Volovich\n\n\n\nHave you seen code like this?\n\n\n\nvoid transform(String fileIn, String fileOut, String separatorIn, String separatorOut);\n\n\n\nThis seems simple enough, but it can be difficult to remember the parameter ordering. It gets worse if you add more parameters (e.g., to specify the encoding, or to email the resulting file…",
+          "link": "http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html",
+          "publishedOn": "2024-05-20T13:42:00.000Z",
+          "wordCount": 9428,
+          "title": "Avoid the Long Parameter List",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
           "id": "http://testing.googleblog.com/2024/05/test-failures-should-be-actionable.html",
           "author": null,
           "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis article was adapted from a Google Testing on the Toilet (TotT) episode. You can download a printer-friendly version of this TotT episode and post it in your office.\n\n\nBy Titus Winters\n\n\n\nThere are a lot of rules and best practices around unit testing. There are many posts on this blog; there is deeper material in the Software Engineering at Google book; there is specific guidance for every major language; there is guidance on test frameworks, test naming, and dozens of other test-related topics. Isn’t this excessive?\nGood unit tests contain several important …",
@@ -109,6 +119,22 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/16/2435",
+          "author": null,
+          "description": "Taylor Troesh writes Kyle explaining “Legacy Software” to the aliens, Vitaly Friedman addresses why so many designers feel misunderstood and under appreciated in business contexts, Oracle dumps Terraform for OpenTofu & hackers discover how to reprogram NES Tetris from within the game.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nCloudflare TV – Tune in for weekly updates on the latest news at Cloudflare and across the Internet.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/95",
+          "publishedOn": "2024-05-20T16:45:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 95: Kyle explains \"Legacy Software\" to the aliens",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/95/changelog-news-95.mp3",
+            "length": "6699234",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/14/2333",
           "author": null,

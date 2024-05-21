@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-05-20T12:04:45.298Z</updated>
+    <updated>2024-05-21T12:03:42.102Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Changelog News 95: Kyle explains "Legacy Software" to the aliens]]></title>
+        <id>changelog.com/16/2435</id>
+        <link href="https://changelog.com/news/95"/>
+        <updated>2024-05-20T16:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Taylor Troesh writes Kyle explaining “Legacy Software” to the aliens, Vitaly Friedman addresses why so many designers feel misunderstood and under appreciated in business contexts, Oracle dumps Terraform for OpenTofu & hackers discover how to reprogram NES Tetris from within the game.
+Leave us a comment
+Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
+Sponsors:
+
+  
+Cloudflare TV – Tune in for weekly updates on the latest news at Cloudflare and across the Internet.
+
+
+Featuring:
+
+Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
+
+Show Notes:
+All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
+Something missing or broken? PRs welcome!]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avoid the Long Parameter List]]></title>
+        <id>http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html</id>
+        <link href="http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html"/>
+        <updated>2024-05-20T13:42:00.000Z</updated>
+        <summary type="html"><![CDATA[@media only screen and (max-width: 600px) {
+  .body {
+    overflow-x: auto;
+  }
+}
+  
+@media (max-width: 480px), (max-height: 480px) {
+.post-content table, .post-content td {
+   width: auto !important;
+   white-space: nowrap;
+}
+
+
+
+This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+
+By Gene Volovich
+
+
+
+Have you seen code like this?
+
+
+
+void transform(String fileIn, String fileOut, String separatorIn, String separatorOut);
+
+
+
+This seems simple enough, but it can be difficult to remember the parameter ordering. It gets worse if you add more parameters (e.g., to specify the encoding, or to email the resulting file…]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ship It! 104: FROM guests SELECT Andrew]]></title>
         <id>changelog.com/14/2333</id>
