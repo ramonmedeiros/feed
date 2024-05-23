@@ -64,16 +64,6 @@
           "wordCount": 14345,
           "title": "Accelerating incident response using generative AI",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html",
-          "author": null,
-          "description": "Posted by Yoshi Yamaguchi, Santiago Díaz, Maud Nalpas,  Eiji Kitamura, DevRel team\n\n\nThe Reporting API is an emerging web standard that provides a generic reporting mechanism for issues occurring on the browsers visiting your production website. The reports you receive detail issues such as security violations or soon-to-be-deprecated APIs, from users’ browsers from all over the world.\n\n\nCollecting reports is often as simple as specifying an endpoint URL in the HTTP header; the browser will automatically start forwarding reports covering the issues you are interested in to those endpoints. However, processing and analyzing these reports is not that simple. For example, you may receive a massive number of reports on your endpoint, and it is possible that not all of them will be helpful in i…",
-          "link": "http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html",
-          "publishedOn": "2024-04-23T17:15:00.000Z",
-          "wordCount": 11946,
-          "title": "Uncovering potential threats to your web application by leveraging security reports",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         }
       ]
     },
@@ -119,6 +109,38 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/2/2432",
+          "author": null,
+          "description": "Based on their experience in Curve and Cloudflare, Matthew Boyle & Chris Shepherd share their experience migrating from PHP to Go.\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nMatthew Boyle – Twitter, GitHub, Website\nChris Shepherd – Twitter, GitHub, LinkedIn\nNatalie Pistunovich – Twitter, GitHub\n\nShow Notes:\n\nSonar\nEncore\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/316",
+          "publishedOn": "2024-05-22T22:00:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 316: Migrating from PHP to Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/316/go-time-316.mp3",
+            "length": "57769375",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "changelog.com/1/2434",
+          "author": null,
+          "description": "Bryan Cantrill, Co-founder and CTO of Oxide Computer Company, joins Adam to share his journey from Sun to Oxide – from Sun and Fishworks, to DTrace, to ZFS, to Joyent and Node.js, and now working to build on-prem cloud servers as they should be at Oxide.\nLeave us a comment\nChangelog++ members save 11 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secur…",
+          "link": "https://changelog.com/podcast/592",
+          "publishedOn": "2024-05-22T12:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 592: From Sun to Oxide",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/592/the-changelog-592.mp3",
+            "length": "146614103",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/7/2436",
           "author": null,
@@ -550,22 +572,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "changelog.com/2/2356",
-          "author": null,
-          "description": "The 3 Musketeers return! Filippo Valsorda, Roland Shoemaker & Nicola Murino continue their deep-dive conversation with Natalie about Go’s crypto libraries.\nAlso listen to Part 1 and Part 2!\nLeave us a comment\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident manage…",
-          "link": "https://changelog.com/gotime/313",
-          "publishedOn": "2024-04-23T20:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 313: What's new in Go's cryptography libraries: Part 3",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/313/go-time-313.mp3",
-            "length": "65783713",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -589,16 +595,6 @@
           "wordCount": 2319,
           "title": "Llamafile’s progress, four months in",
           "imageUrl": "https://hacks.mozilla.org/files/2023/11/image-3.png"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=48127",
-          "author": "Alex Franchuk",
-          "description": "In this blog post, we delve into the motivations for choosing Rust for our crash reporter, outline the unique challenges of designing an application that operates when the main browser has failed, and discuss the new architecture we've implemented. We also share insights into the technical nuances of the implementation, demonstrating how Rust's features are leveraged to handle crashes more effectively and securely.\nThe post Porting a cross-platform GUI application to Rust appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2024/04/porting-a-cross-platform-gui-application-to-rust/",
-          "publishedOn": "2024-04-23T19:08:08.000Z",
-          "wordCount": 5314,
-          "title": "Porting a cross-platform GUI application to Rust",
-          "imageUrl": "https://hacks.mozilla.org/files/2024/04/crashreporter.png"
         }
       ]
     },
