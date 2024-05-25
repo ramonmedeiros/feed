@@ -91,16 +91,6 @@
           "wordCount": 9259,
           "title": "Test Failures Should Be Actionable",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://testing.googleblog.com/2024/04/isbooleantoolongandcomplex.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Yiming Sun\n\n\n\nYou may have come across some complex, hard-to-read Boolean expressions in your codebase and wished they were easier to understand. For example, let's say we want to decide whether a pizza is fantastic:\n\n\n\n// Decide whether this pizza is fantastic.\nif ((!pepperoniService.empty() || sausages.size() > 0)\n    && (useO…",
-          "link": "http://testing.googleblog.com/2024/04/isbooleantoolongandcomplex.html",
-          "publishedOn": "2024-04-25T13:14:00.000Z",
-          "wordCount": 8578,
-          "title": "isBooleanTooLongAndComplex",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         }
       ]
     },
@@ -109,6 +99,38 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/17/2439",
+          "author": null,
+          "description": "We kick off our Microsoft Build 2024 “coverage” in this free-wheelin’ conversation with our friend, Shaundai Person! We’re talking Netflix infra, we’re talking sales, we’re talking real-world AI usage, we’re talking career choices…. What’s a good next step? Listen in!\nLeave us a comment\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required. Also check out Remotely access Home Assistant via Tailscale for free!\n\nNeon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.\n\n\nFeaturing:\n\nShaundai Person – Twitter, GitHub, LinkedIn\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/45",
+          "publishedOn": "2024-05-24T19:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog & Friends 45: It's a long & windy road",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/45/changelog--friends-45.mp3",
+            "length": "64123881",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "changelog.com/14/2407",
+          "author": null,
+          "description": "Jon “gzip enthusiast” Johnson joins us for a history lesson on compression & how it impacts everything from containers to Alpine.\nLeave us a comment\nChangelog++ members get a bonus 8 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nNeon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.\n\nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJon Johnson – Twitter, GitHub\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nLinks of the week\nMicrosoft’s AI carbon footprint\nCopilot Plus\nInterview\nRFC 1951\nRegistry explorer\nstargz snapshotter\nSOCI\nClaude Shannon\nWikipedia\nA Mind at Play\nThe Bit Player\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/105",
+          "publishedOn": "2024-05-24T17:00:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 105: Tars all the way down",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/105/ship-it-105.mp3",
+            "length": "80925487",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/6/2433",
           "author": null,
@@ -540,22 +562,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "changelog.com/6/2413",
-          "author": null,
-          "description": "Ryan Carniato joins Amal & Nick to discuss Solid with a major focus on Signals, which are the cornerstone of reactivity in Solid.\nLeave us a comment\nChangelog++ members save 11 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nClerk – Clerk is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage your users.\n\nCrabNebula Cloud – CrabNebula Cloud is here! Distribute Tauri apps and Electron apps with best in class updater. At the heart of CrabNebula Cloud is a purpose-built CDN ready for global scale, and secure updates as a first-class citizen. Learn more at crabnebula.dev/cloud\n\nSpeakeasy – Instantly create SDKs that make API integration easy for your users. Create your first SDK for free! today.\n\n\nFeaturing:\n\nRyan Carniato – Twitter, GitHub\nAmal Hussein – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\n\nShow Notes:\n\nSolid JS\nSolid/Signals\nThe Signals Proposal\nSolid’s Discord\nRyan’s YouTube\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/320",
-          "publishedOn": "2024-04-25T19:15:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 320: A Solid primer on Signals",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/320/js-party-320.mp3",
-            "length": "85376146",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -569,18 +575,7 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": [
-        {
-          "id": "https://hacks.mozilla.org/?p=48149",
-          "author": "Stephen Hood",
-          "description": "When Mozilla’s Innovation group first launched the llamafile project late last year, we were thrilled by the immediate positive response from open source AI developers. It’s become one of Mozilla’s top three most-favorited repositories on GitHub, attracting a number of contributors, some excellent PRs, and a growing community on our Discord server.\nThe post Llamafile’s progress, four months in appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2024/04/llamafiles-progress-four-months-in/",
-          "publishedOn": "2024-04-25T15:34:08.000Z",
-          "wordCount": 2319,
-          "title": "Llamafile’s progress, four months in",
-          "imageUrl": "https://hacks.mozilla.org/files/2023/11/image-3.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
@@ -843,16 +838,6 @@
           "wordCount": 6098,
           "title": "The Art and Science of Product Management: An In-Depth Interview with Jag Duggal",
           "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/04/1107-www.victoriaholguin.com-Victoria-Holguin-_DSF0458-Mejorado-NR-1024x685.jpg"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=29032",
-          "author": "Nubank Editorial",
-          "description": "Insights from Jag Duggal, Nubank's CPO, on the Product Thinking Podcast: charting the path to 90 million customers and beyond\nThe post Building a global product powerhouse appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/building-a-global-product-powerhouse/",
-          "publishedOn": "2024-04-25T17:32:44.000Z",
-          "wordCount": 6046,
-          "title": "Building a global product powerhouse",
-          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2023/06/0851-www.victoriaholguin.com-Victoria-Holguin-_DSF9246-Mejorado-NR-1024x683.jpg"
         }
       ]
     },
