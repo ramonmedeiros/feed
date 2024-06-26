@@ -6,53 +6,23 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
-          "id": "http://security.googleblog.com/2024/05/io-2024-whats-new-in-android-security.html",
+          "id": "http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html",
           "author": null,
-          "description": "Posted by Dave Kleidermacher, VP Engineering, Android Security and Privacy\n\n\n\nOur commitment to user safety is a top priority for Android. We’ve been consistently working to stay ahead of the world’s scammers, fraudsters and bad actors. And as their tactics evolve in sophistication and scale, we continually adapt and enhance our advanced security features and AI-powered protections to help keep Android users safe. \n\n\nIn addition to our new suite of advanced theft protection features to help keep your device and data safe in the case of theft, we’re also focusing increasingly on providing additional protections against mobile financial fraud and scams. \nGoogle Play Protect live threat detection\n\n\nGoogle Play Protect now scans 200 billion Android apps daily, helping keep more than 3 billion …",
-          "link": "http://security.googleblog.com/2024/05/io-2024-whats-new-in-android-security.html",
-          "publishedOn": "2024-05-15T16:59:00.000Z",
-          "wordCount": 6542,
-          "title": "I/O 2024: What’s new in Android security and privacy",
+          "description": "Posted by Benjamin Ackerman, Anunoy Ghosh and David Warren, Chrome Security Team \n\n\n    \n.code {\n    background-color: #f4f4f4;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    padding: 13px;\n\n  \n}\n.highlight {\n    color: red;\n}\n    \n\n\n\n\nChrome extensions can boost your browsing, empowering you to do anything from customizing the look of sites to providing personalized advice when you’re planning a vacation. But as with any software, extensions can also introduce risk. \n\n\nThat’s why we have a team whose only job is to focus on keeping you safe as you install and take advantage of Chrome extensions. Our team:\nProvides you with a personalized summary of the extensions you’ve installed\n\n\nReviews extensions before they’re published on the Chrome Web Store\n\n\nContinuously monitors extensi…",
+          "link": "http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html",
+          "publishedOn": "2024-06-20T16:20:00.000Z",
+          "wordCount": 5978,
+          "title": "Staying Safe with Chrome Extensions",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         },
         {
-          "id": "http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html",
+          "id": "http://security.googleblog.com/2024/06/time-to-challenge-yourself-in-2024.html",
           "author": null,
-          "description": "Detecting Unwanted Location Trackers – for Bluetooth tracking devices that makes it possible to alert users across both Android and iOS if such a device is unknowingly being used to track them. This will help mitigate the misuse of devices designed to help keep track of belongings. Google is now launching this capability on Android 6.0+ devices, and today Apple is implementing this capability in iOS 17.5.\nMulti-layered user protections, including first of its kind safety-first protections, help mitigate potential risks to user privacy and safety while allowing users to effectively locate and recover lost devices. This cross-platform collaboration — an industry first, involving community and industry input — offers instructions and best practices for manufacturers, should they choose to build unwanted tracking alert capabilities into their products. Google and Apple will continue to work with the Internet Engineering Task Force via the Detecting Unwanted Location Trackers working group to develop the official standard for this technology.",
-          "link": "http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html",
-          "publishedOn": "2024-05-13T17:00:00.001Z",
-          "wordCount": 4575,
-          "title": "Google and Apple deliver support for unwanted tracking alerts in Android and iOS",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html",
-          "author": null,
-          "description": "Sriram Karra and Christiaan Brand, Google product managers\n\n\nLast year, Google launched passkey support for Google Accounts. Passkeys are a new industry standard that give users an easy, highly secure way to sign-in to apps and websites. Today, we announced that passkeys have been used to authenticate users more than 1 billion times across over 400 million Google Accounts.\n\n\n\n\n\nAs more users encounter passkeys, we’re often asked questions about how they relate to security keys, how Google Workspace administrators can configure passkeys for the user accounts that they manage, and how they relate to the Advanced Protection Program (APP). This post will seek to clarify these topics.\n\n\n\n\n\nPasskeys and security keys\nPasskeys are an evolution of security keys, meaning users get the same security…",
-          "link": "http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html",
-          "publishedOn": "2024-05-02T11:59:00.001Z",
-          "wordCount": 7587,
-          "title": "Your Google Account allows you to create passkeys on your phone, computer and security keys",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html",
-          "author": null,
-          "description": "Posted by  Will Harris, Chrome Security Team\n\n\n\n\n    \n.code {\n    font-family: \"Courier New\", Courier, monospace;\n    font-size: 11.8px;\n    font-weight: bold;\n    background-color: #f4f4f4;\n    padding: 2px;\n    border: 1px solid #ccc;\n    border-radius: 2px;\n    white-space: pre-wrap;\n    display: inline-block;\n    line-height: 12px;\n}\n.highlight {\n    color: red;\n}\n    \n\n\n\n\n\n\nChromium's sandboxed process model defends well from malicious web content, but there are limits to how well the application can protect itself from malware already on the computer. Cookies and other credentials remain a high value target for attackers, and we are trying to tackle this ongoing threat in multiple ways, including working on web standards like\n  DBSC\n  that will help disrupt the cookie theft industry …",
-          "link": "http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html",
-          "publishedOn": "2024-04-30T16:14:00.000Z",
-          "wordCount": 7479,
-          "title": "Detecting browser data theft using Windows Event Logs",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html",
-          "author": null,
-          "description": "Posted by Steve Kafka and Khawaja Shams (Android Security and Privacy Team), and Mohet Saxena (Play Trust and Safety)\n\n\nA safe and trusted Google Play experience is our top priority. We leverage our SAFE (see below) principles to provide the framework to create that experience for both users and developers. Here's what these principles mean in practice:\n(S)afeguard our Users. Help them discover quality apps that they can trust.\n\n(A)dvocate for Developer Protection. Build platform safeguards to enable developers to focus on growth.\n\n(F)oster Responsible Innovation. Thoughtfully unlock value for all without compromising on user safety.\n\n(E)volve Platform Defenses. Stay ahead of emerging threats by evolving our policies, tools and technology.\n\n\n\nWith those principles in mind, we’ve made recen…",
-          "link": "http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html",
-          "publishedOn": "2024-04-29T15:59:00.000Z",
-          "wordCount": 5921,
-          "title": "How we fought bad apps and bad actors in 2023",
+          "description": "Hlynur Gudmundsson, Software Engineer\n\n\nIt’s Google CTF time! Install your tools, commit your scripts, and clear your schedule. The competition kicks off on June 21 2024 6:00 PM UTC and runs through June 23 2024 6:00 PM UTC. Registration is now open at goo.gle/ctf.\n\n\nJoin the Google CTF (at goo.gle/ctf), a thrilling arena to showcase your technical prowess. The Google CTF consists of a set of computer security puzzles (or challenges) involving reverse-engineering, memory corruption, cryptography, web technologies, and more. Participants can use obscure security knowledge to find exploits through bugs and creative misuse, and with each completed challenge your team will earn points and move up through the ranks. \n\n\n\n\n\nThe top 8 teams of the Google CTF will qualify for our Hackceler8 competi…",
+          "link": "http://security.googleblog.com/2024/06/time-to-challenge-yourself-in-2024.html",
+          "publishedOn": "2024-06-12T19:37:00.008Z",
+          "wordCount": 6879,
+          "title": "Time to challenge yourself in the 2024 Google CTF",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         }
       ]
@@ -63,23 +33,13 @@
       "siteUrl": "http://testing.googleblog.com/",
       "articles": [
         {
-          "id": "http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html",
+          "id": "http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html",
           "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Gene Volovich\n\n\n\nHave you seen code like this?\n\n\n\nvoid transform(String fileIn, String fileOut, String separatorIn, String separatorOut);\n\n\n\nThis seems simple enough, but it can be difficult to remember the parameter ordering. It gets worse if you add more parameters (e.g., to specify the encoding, or to email the resulting file…",
-          "link": "http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html",
-          "publishedOn": "2024-05-20T13:42:00.000Z",
-          "wordCount": 9428,
-          "title": "Avoid the Long Parameter List",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://testing.googleblog.com/2024/05/test-failures-should-be-actionable.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n}\n  \n@media (max-width: 480px), (max-height: 480px) {\n.post-content table, .post-content td {\n   width: auto !important;\n   white-space: nowrap;\n}\n\n\n\nThis article was adapted from a Google Testing on the Toilet (TotT) episode. You can download a printer-friendly version of this TotT episode and post it in your office.\n\n\nBy Titus Winters\n\n\n\nThere are a lot of rules and best practices around unit testing. There are many posts on this blog; there is deeper material in the Software Engineering at Google book; there is specific guidance for every major language; there is guidance on test frameworks, test naming, and dozens of other test-related topics. Isn’t this excessive?\nGood unit tests contain several important …",
-          "link": "http://testing.googleblog.com/2024/05/test-failures-should-be-actionable.html",
-          "publishedOn": "2024-05-06T13:26:00.000Z",
-          "wordCount": 9259,
-          "title": "Test Failures Should Be Actionable",
+          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n\n  .post-content table, .post-content td {\n    width: auto !important;\n    white-space: nowrap;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Dan Maksimovich\n\n\n\nMany of us have been told the virtues of “Don’t Repeat Yourself” or DRY. Pause and consider: Is the duplication truly redundant or will the functionality need to evolve independently over time?  Applying DRY principles too rigidly leads to premature abstractions that make future changes more complex than necessary. \nConsider carefully if code is truly re…",
+          "link": "http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html",
+          "publishedOn": "2024-05-28T14:20:00.000Z",
+          "wordCount": 9838,
+          "title": "Don't DRY Your Code Prematurely",
           "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         }
       ]
@@ -90,433 +50,481 @@
       "siteUrl": "https://changelog.com/",
       "articles": [
         {
-          "id": "changelog.com/17/2439",
+          "id": "changelog.com/7/2473",
           "author": null,
-          "description": "We kick off our Microsoft Build 2024 “coverage” in this free-wheelin’ conversation with our friend, Shaundai Person! We’re talking Netflix infra, we’re talking sales, we’re talking real-world AI usage, we’re talking career choices…. What’s a good next step? Listen in!\nLeave us a comment\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required. Also check out Remotely access Home Assistant via Tailscale for free!\n\nNeon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.\n\n\nFeaturing:\n\nShaundai Person – Twitter, GitHub, LinkedIn\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/45",
-          "publishedOn": "2024-05-24T19:30:00.000Z",
+          "description": "Daniel & Chris engage in an impromptu discussion of the state of AI in the enterprise. Then they dive into the recent Apple Intelligence announcement to explore its implications.  Finally, Daniel leads a deep dive into a new topic - Advanced RAG - covering everything you need to know to be practical & productive.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\nPlumb – Low-code AI pipeline builder that helps you build complex AI pipelines fast. Easily create AI pipelines using their node-based editor. Iterate and deploy faster and more reliably than coding by hand, without sacrificing control.\n\nBackblaze – Unlimited cloud backup for Macs, PCs, and businesses for just $99/year. Easily protect business data through a centrally managed admin. Protect all the data on your machines automatically. Easy to deploy across multiple workstations with various deployment options.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nApple Intelligence\nIntroducing Apple Intelligence, the personal intelligence system that puts powerful generative models at the core of iPhone, iPad, and Mac\nThe top AI features Apple announced at WWDC 2024\nHybrid Search: Combining BM25 and Semantic Search for Better Results with Langchain\nAdvanced RAG: Precise Zero-Shot Dense Retrieval with HyDE\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/275",
+          "publishedOn": "2024-06-25T20:45:00.000Z",
           "wordCount": null,
-          "title": "Changelog & Friends 45: It's a long & windy road",
+          "title": "Practical AI 275: Apple Intelligence & Advanced RAG",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/45/changelog--friends-45.mp3",
-            "length": "64123881",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/275/practical-ai-275.mp3",
+            "length": "43531401",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/14/2407",
+          "id": "changelog.com/2/2389",
           "author": null,
-          "description": "Jon “gzip enthusiast” Johnson joins us for a history lesson on compression & how it impacts everything from containers to Alpine.\nLeave us a comment\nChangelog++ members get a bonus 8 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nNeon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.\n\nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJon Johnson – Twitter, GitHub\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nLinks of the week\nMicrosoft’s AI carbon footprint\nCopilot Plus\nInterview\nRFC 1951\nRegistry explorer\nstargz snapshotter\nSOCI\nClaude Shannon\nWikipedia\nA Mind at Play\nThe Bit Player\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/105",
-          "publishedOn": "2024-05-24T17:00:00.000Z",
+          "description": "Our award winning worthy survey game show is back, this time Mat Ryer hosts it live on stage at GopherCon EU Berlin 2024! Join in & play along as we see which team can better guess what these GopherCon gophers had to say!\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nCameron Balahan – Twitter\nChioma Onyekpere – Twitter, GitHub, LinkedIn\nRon Evans – Mastodon, Twitter, GitHub, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nTravis Cline – Twitter, GitHub\nPaula Babbicola – Mastodon, Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nMoar dev game shows!\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/320",
+          "publishedOn": "2024-06-25T17:30:00.000Z",
           "wordCount": null,
-          "title": "Ship It! 105: Tars all the way down",
+          "title": "Go Time 320: Gophers Say! GopherCon EU Berlin 2024",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/105/ship-it-105.mp3",
-            "length": "80925487",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/320/go-time-320.mp3",
+            "length": "39877752",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/6/2433",
+          "id": "changelog.com/16/2472",
           "author": null,
-          "description": "Jerod & KBall discuss what’s new in the world of web development: the State of HTML survey results, Node 22, React Compiler, React 19 Beta, vlt.sh & the Gulp (!) Developer Survey.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nClerk – Clerk is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage your users.\n\nNeon – The fully managed serverless Postgres with a generous free tier. We separate storage and compute to offer autoscaling, branching, and bottomless storage.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nKevin Ball – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nState of HTML results\nCanIEmail\nMJML\nNode 22 released\nReact Compiler now open source (more info)\nReact 19 Beta\nvlt\nGulp Developer Survey\nGrunt\nnalgeon/redka: Redis re-implemented with SQLite\nAI in Production conference\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/324",
-          "publishedOn": "2024-05-23T21:15:00.000Z",
+          "description": "Søren Fuglede Jørgensen builds a font thats also an LLM, Hugo Landau writes about the demise of the mildly dynamic website, SQL Studio is the simplest little database explorer ever, Mathew Duggan reviews GitHub Copilot Workspace & Stephan Schmidt lays out the case against mocking + what to do instead.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/100",
+          "publishedOn": "2024-06-24T19:15:00.000Z",
           "wordCount": null,
-          "title": "JS Party 324: Big Gulps, huh?",
+          "title": "Changelog News 100: Please let this be Peak LLM",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/324/js-party-324.mp3",
-            "length": "55686263",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/100/changelog-news-100.mp3",
+            "length": "10711871",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/2/2432",
+          "id": "changelog.com/17/2467",
           "author": null,
-          "description": "Based on their experience in Curve and Cloudflare, Matthew Boyle & Chris Shepherd share their experience migrating from PHP to Go.\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nMatthew Boyle – Twitter, GitHub, Website\nChris Shepherd – Twitter, GitHub, LinkedIn\nNatalie Pistunovich – Twitter, GitHub\n\nShow Notes:\n\nSonar\nEncore\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/316",
-          "publishedOn": "2024-05-22T22:00:00.000Z",
+          "description": "Daniel Stenberg shares his guiding principles for BDFL’ing curl, gives us his perspective on the state of the internet, talks financial independence, ensuring curl won’t be the next XZ & more!\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n\nFeaturing:\n\nDaniel Stenberg – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\ncurl turns 26 today\nMy BDFL guiding principles\nThe I in LLM stands for intelligence\ntiny-curl\nVerified curl\nHow to verify a curl release\ngithub.com/curl/trurl\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/49",
+          "publishedOn": "2024-06-21T21:00:00.000Z",
           "wordCount": null,
-          "title": "Go Time 316: Migrating from PHP to Go",
+          "title": "Changelog & Friends 49: Where DOESN’T curl run",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/316/go-time-316.mp3",
-            "length": "57769375",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/49/changelog--friends-49.mp3",
+            "length": "97573141",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/1/2434",
+          "id": "changelog.com/14/2441",
           "author": null,
-          "description": "Bryan Cantrill, Co-founder and CTO of Oxide Computer Company, joins Adam to share his journey from Sun to Oxide – from Sun and Fishworks, to DTrace, to ZFS, to Joyent and Node.js, and now working to build on-prem cloud servers as they should be at Oxide.\nLeave us a comment\nChangelog++ members save 11 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secur…",
-          "link": "https://changelog.com/podcast/592",
-          "publishedOn": "2024-05-22T12:30:00.000Z",
+          "description": "Devyn Cairns & Jakub Žádník join Justin & Autumn to talk about building a new kind of cross-platform shell that provides easy extensions with traditional command compatibility. That’s no easy feat!\nLeave us a comment\nChangelog++ members save 11 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nDevyn Cairns – Twitter, GitHub\nJakub Žádník – Mastodon, GitHub\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nIntro\nNu Shell\niBook iPad cases\nWhat the distro\nRhino Linux\nDiamond Linux-TT\nPardus\n4M Linux\nq4os\nAccessible Coconut\nDragonfly BSD\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/109",
+          "publishedOn": "2024-06-21T17:40:00.000Z",
           "wordCount": null,
-          "title": "Changelog Interviews 592: From Sun to Oxide",
+          "title": "Ship It! 109: How to build a Nushell",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/592/the-changelog-592.mp3",
-            "length": "146614103",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/109/ship-it-109.mp3",
+            "length": "70353138",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/7/2436",
+          "id": "changelog.com/6/2459",
           "author": null,
-          "description": "Daniel & Chris share their first impressions of OpenAI’s newest LLM: GPT-4o and Daniel tries to bring the model into the conversation with humorously mixed results.  Together, they explore the implications of Omni’s new feature set - the speed, the voice interface, and the new multimodal capabilities.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nLadder Life Insurance – 100% digital — no doctors, no needles, no paperwork. Don’t put it off until the very last minute to get term coverage life insurance through Ladder. Find out if you’re instantly approved. They’re rated A and A plus. Life insurance costs more as you age, now’s the time to cross it off your list.\n\nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\n\nFeaturing:\n\nDaniel Whitenack – Twitter, GitHub, Website\nChris Benson – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nHello GPT-4o\nAI Engineer World’s Fair\nAIQCON - the AI Quality Conference\nBrave New Words: How AI Will Revolutionize Education (and Why That’s a Good Thing)\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/270",
-          "publishedOn": "2024-05-22T00:30:00.000Z",
+          "description": "Polypane purveyor Kilian Valkhof joins Nick & Jerod to tell us all about his efforts building a web browser just for web development. We cover it all: from the business concerns, to the technical details, to his excellent choice not to use TypeScript! We even sneak in a feature request that already made its way into this excellent dev tool for ambitious web developers.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nKilian Valkhof – Twitter, GitHub, LinkedIn\nNick Nisi – Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nWhat do we want from a web browser?(Friends #14)\nYou have how many open tabs?! (Friends #29)\nCore web vitals\nPolypane\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/327",
+          "publishedOn": "2024-06-20T19:30:00.000Z",
           "wordCount": null,
-          "title": "Practical AI 270: First impressions of GPT-4o",
+          "title": "JS Party 327: Polypane-demonium",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/270/practical-ai-270.mp3",
-            "length": "41964758",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/327/js-party-327.mp3",
+            "length": "86165969",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/16/2435",
+          "id": "changelog.com/1/2461",
           "author": null,
-          "description": "Taylor Troesh writes Kyle explaining “Legacy Software” to the aliens, Vitaly Friedman addresses why so many designers feel misunderstood and under appreciated in business contexts, Oracle dumps Terraform for OpenTofu & hackers discover how to reprogram NES Tetris from within the game.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nCloudflare TV – Tune in for weekly updates on the latest news at Cloudflare and across the Internet.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/95",
-          "publishedOn": "2024-05-20T16:45:00.000Z",
+          "description": "Jacob DePriest, VP and Deputy Chief Security Officer at GitHub, joins the show this week to talk about securing GitHub. From Artifact Attestations, profile hardening, preventing XZ-like attacks, GitHub Advanced Security, code scanning, improving Dependabot, and more.\nLeave us a comment\nChangelog++ members save 14 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJacob DePriest – Twitter, GitHub\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nWhere does your software (really) come from?\nKeeping secrets out of public repositories\nGitHub Advanced Security\nDependabot\nIntroducing Artifact Attestations–now in public beta\nSoftware Bill of Materials (SBOM)\n😶‍🌫️ Who in the world is Jia Tan?!\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/596",
+          "publishedOn": "2024-06-19T17:00:00.000Z",
           "wordCount": null,
-          "title": "Changelog News 95: Kyle explains \"Legacy Software\" to the aliens",
+          "title": "Changelog Interviews 596: Securing GitHub",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/95/changelog-news-95.mp3",
-            "length": "6699234",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/596/the-changelog-596.mp3",
+            "length": "86217174",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/14/2333",
+          "id": "changelog.com/7/2462",
           "author": null,
-          "description": "Andrew Atkinson joins Autumn & Justin to tell them why folks should (and are) picking PostgreSQL as their database in 2024 and how to scale it.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nAndrew Atkinson – Mastodon, Twitter, GitHub, LinkedIn, Website\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nLinks of the week\nsysctl explorer\nThe gender pay gap will ‘never’ close unless this happens\nInterview\nAndrew’s website\nFresh OSS\nrHttp\ntu\npoetry-camera website\nWomen in Open Source\nAwesome TUIs\nAwesome tmux\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/104",
-          "publishedOn": "2024-05-18T11:45:00.000Z",
+          "description": "Daniel & Chris sit down with Denis Yarats, Co-founder & CTO at Perplexity, to discuss Perplexity’s sophisticated AI-driven answer engine. Denis outlines some of the deficiencies in search engines, and how Perplexity’s approach to information retrieval improves on traditional search engine systems, with a focus on accuracy and validation of the information provided.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\nBackblaze – Unlimited cloud backup for Macs, PCs, and businesses for just $99/year. Easily protect business data through a centrally managed admin. Protect all the data on your machines automatically. Easy to deploy across multiple workstations with various deployment options.\n\nNordVPN – Get NordVPN 2Y plan + 4 months extra at nordvpn.com/practicalai It’s risk-free with Nord’s 30-day money-back guarantee.\n\n\nFeaturing:\n\nDenis Yarats – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nPerplexity\nPerplexity | Blog\nPerplexity | Getting Started\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/274",
+          "publishedOn": "2024-06-19T16:30:00.000Z",
           "wordCount": null,
-          "title": "Ship It! 104: FROM guests SELECT Andrew",
+          "title": "Practical AI 274: The perplexities of information retrieval",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/104/ship-it-104.mp3",
-            "length": "61682744",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/274/practical-ai-274.mp3",
+            "length": "44536302",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/17/2431",
+          "id": "changelog.com/2/2466",
           "author": null,
-          "description": "Alex Kretzschmar joins Adam to discuss their experiences with building the “perfect media server” and all the hardware and software involved to make it happen — LinuxServer.io, PerfectMediaServer.com, Plex, Jellyfin, ZFS, mergerfs, TrueNAS, Docker Compose and so much more in this episode.\nLeave us a comment\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required. Also check out Remotely access Home Assistant via Tailscale for free!\n\nCoda – Your all-in-one collaborative workspace. Coda brings teams and tools together for a more organized work day.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nAlex Kretzschmar – Twitter, GitHub, LinkedIn, Website\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nblog.ktz.me\nlinuxserver.io\nperfectmediaserver.com\nZFS is resource efficient.\nselfhosted.show\nThe Best Media Server CPU… in the world.\nA Cheap No-Frills OPNsense box\nmergerfs\nThe beginning of linuxserver.io\njimsalterjrs/sanoid\nJellyfin\nPlex\nRestic\nAuto-Restic\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/44",
-          "publishedOn": "2024-05-17T20:30:00.000Z",
+          "description": "This week we’re catching up on the news! Kris is joined by Ian to discuss some of the recent news from around the Go community. Listen in to hear whether the co-hosts believe there’s software that shouldn’t be written in Go, their thoughts on if Go is evolving in the right direction & whether common nouns make good package names.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\n\nFeaturing:\n\nKris Brandow – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\n\nShow Notes:\n\nWhat software shouldn’t you write in Go?\nThe myth of Go garbage collection hindering “real-time” software?\nThe long-overdue problem coming for some people in Go 1.23\nDon’t name packages common nouns\nAlternatives to Makefiles written in Go\nGo evolves in the wrong direction\nTeaching Concurrency\nComputation and State Machines\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/319",
+          "publishedOn": "2024-06-18T21:30:00.000Z",
           "wordCount": null,
-          "title": "Changelog & Friends 44: Self-hosted media server goodness",
+          "title": "Go Time 319: Is Go evolving in the wrong direction?",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/44/changelog--friends-44.mp3",
-            "length": "99433238",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/319/go-time-319.mp3",
+            "length": "71383371",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/6/2422",
+          "id": "changelog.com/16/2463",
           "author": null,
-          "description": "Two-time React Jammer, Brian Breiholz, joins Jerod & Nick to discuss building 3D games in the browser! We hear of his game jam trials & tribulations, the in-progress game engine he’s building, the dream game he’s been building for a long time & more\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nClerk – Clerk is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage your users.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nBrian Breiholz – Twitter\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNick Nisi – Twitter, GitHub, Website\n\nShow Notes:\n\nReact Jam\nDisco-Warrior\nCooper & Onita: Midnight Snack\nReact Three Fiber\nWeb Game Dev\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/323",
-          "publishedOn": "2024-05-16T13:30:00.000Z",
+          "description": "Luminousmen writes about Senior Engineer Fatigue, Microsoft rethinks its AI-based Recall feature, Mike Hoye gives a big shout out to the “diff” program, Thom Holwerda covers ChromeOS’ quiet switch to Android Linux subsystems & Mihail Eric tells the inside story on how Alexa dropped the ball on being the top conversational system on Earth.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \n1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/99",
+          "publishedOn": "2024-06-17T20:00:00.000Z",
           "wordCount": null,
-          "title": "JS Party 323: 3D web game dev jam!",
+          "title": "Changelog News 99: The onset of \"Senior Engineer Fatigue\"",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/323/js-party-323.mp3",
-            "length": "49206908",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/99/changelog-news-99.mp3",
+            "length": "8711777",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/1/2404",
+          "id": "changelog.com/17/2456",
           "author": null,
-          "description": "Birk Jernström from Polar joins the show to tell us all about the creator platform for developers: why he built it, how it works, why it works how it works, what’s in store for the future & we even give Birk some super deep UX feedback on the funding flow.\nLeave us a comment\nChangelog++ members get a bonus 8 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required. Also check out Remotely access Home Assistant via Tailscale for free!\n\nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nLadder Life Insurance – 100% digital — no doctors, no needles, no paperwork. Don’t put it off until the very last minute to get term coverage life insurance through Ladder. Find out if you’re instantly approved. They’re rated A and A plus. Life insurance costs more as you age, now’s the time to cross it off your list.\n\n\nFeaturing:\n\nBirk Jernström – Twitter, GitHub\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nPolar\nSerenityOS on Polar\nSerenityOS issues on Polar\nSerenityOS on GitHub\nDavid Hewitt on Polar\nGitHub Sponsors\nOpen Collective\nVagrant and Virtualized Environments with Mitchell Hashimoto (Changelog Interviews #72)\nThe serenity of building your own OS with Andreas Kling (Changelog Interviews #554)\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/591",
-          "publishedOn": "2024-05-15T19:30:00.000Z",
+          "description": "Justin Searls joins us for hot takes on Apple’s 2024 WWDC keynote. Apple Intelligence stole the show, but did it steal our hearts? Oh, and we learn all about Justin’s Vision Pro Life and how he hopes/expects Apple’s latest device to improve in future iterations.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.\n\nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\n\nFeaturing:\n\nJustin Searls – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nJustin’s podcast: Breaking Change\nApple WWDC 2024: the 13 biggest announcements\nmacOS Sequoia Preview\nCompare iPhone models\nRCS on Wikipedia\nRug pull, not cool! (Changelog & Friends #40)\nSandwich’s Theater app (Adam Lisagor)\nSteve Jobs QA - WWDC 1997\nAsahi Linux\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/48",
+          "publishedOn": "2024-06-14T15:15:00.000Z",
           "wordCount": null,
-          "title": "Changelog Interviews 591: Building the Patreon for developers",
+          "title": "Changelog & Friends 48: Putting the Apple in AI",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/591/the-changelog-591.mp3",
-            "length": "102521935",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/48/changelog--friends-48.mp3",
+            "length": "116573447",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/7/2429",
+          "id": "changelog.com/14/2440",
           "author": null,
-          "description": "There’s a lot of hype about AI agents right now, but developing robust agents isn’t yet a reality in general. Imbue is leading the way towards more robust agents by taking a full-stack approach; from hardware innovations through to user interface. In this episode, Josh, Imbue’s CTO, tell us more about their approach and some of what they have learned along the way.\nLeave us a comment\nChangelog++ members save 2 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack. Visit Neo4j.com/developer to get started.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJosh Albrecht – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nCARBS (Imbue’s cost-aware hyperparameter optimizer)\nImbue paper on the stepwise nature of self-supervised learning\nA paper on initialization/feature learning co-authored by Jamie Simon, a member of Imbue’s technical team\nImbue\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/269",
-          "publishedOn": "2024-05-15T14:00:00.000Z",
+          "description": "Render founder/CEO Anurag Goel joins us for a look behind their platform. An application native hosting option that hides the lower levels still requires a LOT of infrastructure.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\n\nFeaturing:\n\nAnurag Goel – Twitter, LinkedIn\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nHow things break\nGoogle’s post mortem\nArs technica’s writeup\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/108",
+          "publishedOn": "2024-06-14T13:30:00.000Z",
           "wordCount": null,
-          "title": "Practical AI 269: Full-stack approach for effective AI agents",
+          "title": "Ship It! 108: The infrastructure behind a PaaS",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/269/practical-ai-269.mp3",
-            "length": "45421346",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/108/ship-it-108.mp3",
+            "length": "75772761",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/16/2428",
+          "id": "changelog.com/7/2457",
           "author": null,
-          "description": "Tim Fisken explains the problem with soft deletion, a simple measure of software dependency freshness is proposed, a deep-dive on sound design in software, a web app with over 80 handy developer tools built in & Luke Plant reminds us that programming mantras are proverbs, not laws.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/94",
-          "publishedOn": "2024-05-13T19:45:00.000Z",
+          "description": "We’ve all heard about breaches of privacy and leaks of private health information (PHI). For healthcare providers and those storing this data, knowing where all the sensitive data is stored is non-trivial. Ramin, from Tausight, joins us to discuss how they have deploy edge AI models to help company search through billions of records for PHI.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\nBackblaze – Unlimited cloud backup for Macs, PCs, and businesses for just $99/year. Easily protect business data through a centrally managed admin. Protect all the data on your machines automatically. Easy to deploy across multiple workstations with various deployment options.\n\n\nFeaturing:\n\nRamin Mohammadi – GitHub, LinkedIn\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nTausight\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/273",
+          "publishedOn": "2024-06-13T16:45:00.000Z",
           "wordCount": null,
-          "title": "Changelog News 94: Avoiding the soft delete anti-pattern",
+          "title": "Practical AI 273: Using edge models to find sensitive data",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/94/changelog-news-94.mp3",
-            "length": "7093846",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/273/practical-ai-273.mp3",
+            "length": "37161267",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/14/2409",
+          "id": "changelog.com/17/2460",
           "author": null,
-          "description": "All of the health anxiety of early internet adopters traced back to WebMD’s self diagnosis. Some sysadmin’s on-call nightmares came from a different part of the site.\nLeave us a comment\nChangelog++ members save 4 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nRich Burroughs – Twitter, GitHub, LinkedIn, Website\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nLinks of the week\nThe Cloud Under the Sea\nUK introduces first IoT security laws\nInterview\nRich Burroughs on Bluesky and LinkedIn\nContinuous Conversation\nHey moved CI to dev machines with a bash script\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/103",
-          "publishedOn": "2024-05-10T21:30:00.000Z",
+          "description": "Adam & Jerod hallway-track-it between Microsoft Build interviews. Was 1999 the best year in film history? Was 2004 the worst? Have you heard the full story behind Blues Traveler’s “Hook”? Are you still reading this? Go listen! (This episode is for Changelog++ ears only.)\nLeave us a comment\nChangelog++ members get a bonus 43 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nChangelog++ – You love our content and you want to take it to the next level by showing your support. We’ll take you closer to the metal with extended episodes, make the ads disappear & more. It’s better! Let’s do this\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nChangelog++ (It’s better!)\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/plusplus-build-2024",
+          "publishedOn": "2024-06-13T16:00:00.000Z",
           "wordCount": null,
-          "title": "Ship It! 103: How WebMD ran in the year 2000",
+          "title": "Changelog & Friends 1999: A Film Odyssey (Changelog++ 🔐)",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/103/ship-it-103.mp3",
-            "length": "83193182",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/plusplus-build-2024/changelog--friends-plusplus-build-2024.mp3",
+            "length": "4584855",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/17/2424",
+          "id": "changelog.com/1/2450",
           "author": null,
-          "description": "Annie Sexton has been on quite a journey since she was last on the show back in early ‘22. On this episode, Annie takes us on that journey, shares her new-found perspective & tells us about how she’s approaching her side project this time around.\nLeave us a comment\nChangelog++ members get a bonus 12 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nTailscale – Adam loves Tailscale! Tailscale is programmable networking software that’s private and secure by default. It’s the easiest way to connect devices and services to each other, wherever they are. Secure, remote access to production, databases, servers, kubernetes, and more. Try Tailscale for free for up to 100 devices and 3 users at changelog.com/tailscale, no credit card required.\n\nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nCoda – Your all-in-one collaborative workspace. Coda brings teams and tools together for a more organized work day.\n\n\nFeaturing:\n\nAnnie Sexton – Twitter, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nGit your reset on (Changelog Interviews #480)\nI’m rebuilding my notes app, Typist, and here’s why\nBen Gillin on Instagram\nHow to talk to LLMs | Storybot demo - YouTube\nAI video post-processing in the cloud | Sieve + Daily - YouTube\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/43",
-          "publishedOn": "2024-05-10T18:00:00.000Z",
+          "description": "Kelsey Hightower is back to share more of his wisdom. This time it’s one year after his retirement from Google. But guess what? He might be “retired,” but he’s not tired. In this episode Kelsey shares what drives him, what he fears, and how he thinks through his life choices and parenting. This is a good one.\nLeave us a comment\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.\n\nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nKelsey Hightower – Twitter, GitHub\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\n“I’m retired, not tired.”\nChangelog & Friends #6: Even the best rides come to an end\nRun:ai\nBrondell Bidet\nFrom Sleeping in His Car to Distinguished Engineer at Google (Kelsey Hightower)\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/595",
+          "publishedOn": "2024-06-12T15:20:00.000Z",
           "wordCount": null,
-          "title": "Changelog & Friends 43: Motivated by play",
+          "title": "Changelog Interviews 595: Retired, not tired.",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/43/changelog--friends-43.mp3",
-            "length": "93748017",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/595/the-changelog-595.mp3",
+            "length": "89870656",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/6/2415",
+          "id": "changelog.com/2/2308",
           "author": null,
-          "description": "Shoelace creator Cory LaViska joins Amal & Jess to tell them all about the forward-thinking library of web components that just joined the Font Awesome family to create Web Awesome.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nCrabNebula Cloud – Join Tauri’s “DevTools Premium” waitlist — If you’re building with Tauri, this might be the best news you hear all week! DevTools Premium is right around the corner. It’s not just about finding and fixing issues; it’s about understanding, optimizing, and perfecting the application development process. Join the waitlist today!\n\n\nFeaturing:\n\nCory LaViska – Mastodon, Twitter, GitHub, LinkedIn, Website\nAmal Hussein – Twitter, GitHub\nJessica Sachs – Twitter, GitHub, Website\n\nShow Notes:\n\nShoelace.style\nFont Awesome\nWeb Awesome\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/322",
-          "publishedOn": "2024-05-09T22:45:00.000Z",
+          "description": "Angelica is joined by Cameron Balahan, Sameer Ajmani & Russ Cox from the Go Team at Google to talk about how things get done on the Go Team, how do they decide what to improve and then how do they go about improving it. We also discuss how they decide what to work when & what the future of Go might look like.\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nCameron Balahan – Twitter\nSameer Ajmani – Twitter, GitHub\nRuss Cox – Twitter, GitHub, Website\nAngelica Hill – Twitter, GitHub, LinkedIn\n\nShow Notes:\n\ngo.dev\nIssue Tracker\nProposing Changes to Go\nGopherCon 2022: Russ Cox - Compatibility: How Go Programs Keep Working\nJohn Ousterhout - Open Decision Making\nGothamGo 2016 Codebase Refactoring (with help from Go) by Russ Cox\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/318",
+          "publishedOn": "2024-06-12T14:45:00.000Z",
           "wordCount": null,
-          "title": "JS Party 322: From Shoelace to Web Awesome",
+          "title": "Go Time 318: How things get done on the Go Team",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/322/js-party-322.mp3",
-            "length": "65682974",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/318/go-time-318.mp3",
+            "length": "61193718",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/7/2425",
+          "id": "changelog.com/16/2455",
           "author": null,
-          "description": "Yep, you heard that right. Autonomous fighter jets are in the news. Chris and Daniel discuss a modified F-16 known as the X-62A VISTA and autonomous vehicles/ systems more generally. They also comment on the Linux Foundation’s new Open Platform for Enterprise AI.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nLadder Life Insurance – 100% digital — no doctors, no needles, no paperwork. Don’t put it off until the very last minute to get term coverage life insurance through Ladder. Find out if you’re instantly approved. They’re rated A and A plus. Life insurance costs more as you age, now’s the time to cross it off your list.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nPentagon takes AI dogfighting to next level in real-world flight tests against human F-16 pilot\nTop US Air Force official rides in front seat of autonomous F-16\nOpen Platform for Enterprise AI\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/268",
-          "publishedOn": "2024-05-08T19:00:00.000Z",
+          "description": "Apple announces its “new” style of AI, piku gives you “git push” deployment on your own servers, Dabo Chen rebuilds nanoGPT in a spreadsheet, Mark Seemann thinks you’ll regret using natural keys in your database design & Glyph Lefkowitz describes his grand unified theory of the AI hype cycle.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/98",
+          "publishedOn": "2024-06-10T19:45:00.000Z",
           "wordCount": null,
-          "title": "Practical AI 268: Autonomous fighter jets?!",
+          "title": "Changelog News 98: Apple finally gets Siri-ous",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/268/practical-ai-268.mp3",
-            "length": "39778569",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/98/changelog-news-98.mp3",
+            "length": "8179419",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/2/2298",
+          "id": "changelog.com/14/2408",
           "author": null,
-          "description": "In this week’s episode we’re talking about the news! In this laugh-filled episode, Kris is joined by Ian & Johnny to discuss the future of Go, both the Go team itself and iterations of packages within the standard library; Microsoft creating a Go blog & a Go fork; and SQLite and Go.\nLeave us a comment\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\nSpeakeasy – Instantly create SDKs that make API integration easy for your users. Create your first SDK for free! today.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nKris Brandow – Twitter, GitHub\nIan Lopshire – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\n\nShow Notes:\n\nIf Google decided to part with the core Go team, what would that mean for its future adoption?\nMicrosoft now has a Go blog\nEvolving the Go Standard Library with math/rand/v2\nRedis re-implemented in Go with SQLite\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/315",
-          "publishedOn": "2024-05-08T14:45:00.000Z",
+          "description": "Gina Häußge is here to tell us about the infra behind the OctoPrint project, which tests and releases new versions that work on multiple different printers and gets deployed hundreds of thousands of times.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nGina Häußge – Mastodon, Twitter, GitHub, LinkedIn\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nOctoPrint.org\n3D or K8\nFusion\nArgo\nSkooner\nEraser\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/107",
+          "publishedOn": "2024-06-07T19:00:00.000Z",
           "wordCount": null,
-          "title": "Go Time 315: What if Google lays off the Go team?",
+          "title": "Ship It! 107: 3D printed infrastructure",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/315/go-time-315.mp3",
-            "length": "70368543",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/107/ship-it-107.mp3",
+            "length": "59541888",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/1/2396",
+          "id": "changelog.com/17/2451",
           "author": null,
-          "description": "Paul Orlando is back to talk about his book titled “Why Now?” You may remember Paul from his last appearance (a fan favorite) talking with Jerod about complex systems & second-order effects. Paul’s book, “Why Now?” explores the concept of timing and the importance of understanding the ‘why now’ in business and product development. We discuss timing examples from the book that were either too early or too late (such as the first video phone and car phones), the need to consider both technological advancements and user demand when assessing timing, the significance of timing in the success of companies like Apple and the launch of the iPhone, Uber and Heroku, and more. Also, join our Slack community for a chance to get a signed copy of Paul’s book.\nLeave us a comment\nChangelog++ members get …",
-          "link": "https://changelog.com/podcast/590",
-          "publishedOn": "2024-05-08T12:30:00.000Z",
+          "description": "What happens when you take three #define newbs (Thomas Eckert, Nick Nisi, Mat Ryer) & pit them against the grizzled vet, Adam? Find out on this episode because our award-worthy game of fake definitions is back & this time it’s even more legendary!\nLeave us a comment\nChangelog++ members get a bonus 6 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\n1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.\n\nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\n\nFeaturing:\n\nThomas Eckert – Twitter, GitHub, LinkedIn, Website\nNick Nisi – Twitter, GitHub, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\ngithub.com/projectdiscovery/nuclei\ndevy.page\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/47",
+          "publishedOn": "2024-06-07T17:45:00.000Z",
           "wordCount": null,
-          "title": "Changelog Interviews 590: Good timing makes great products",
+          "title": "Changelog & Friends 47: #define: legendary",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/590/the-changelog-590.mp3",
-            "length": "76496559",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/47/changelog--friends-47.mp3",
+            "length": "107864576",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/16/2423",
+          "id": "changelog.com/6/2347",
           "author": null,
-          "description": "Bahaa Zidan says your web framework doesn’t matter, DHH writes about magic machines, Dylan Huang reviews thousands of opinions on HTMX, Tim Ottinger says programming is thinking & Tim Spann says small language models (SLM) for the win.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/93",
-          "publishedOn": "2024-05-06T19:15:00.000Z",
+          "description": "We’re back with another spicy YepNope debate! This time, Nick & regular guest Eric Clemmons are arguing that web development should need a build step, while KBall & special guest Amy Dutton argue that we really shouldn’t. Of course, the stance each panelist is taking is assigned ahead of time. Is that how they really feel? Tune in to find out!\nLeave us a comment\nChangelog++ members get a bonus 14 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nClerk – Clerk is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage your users.\n\nCrabNebula Cloud – Join Tauri’s “DevTools Premium” waitlist — If you’re building with Tauri, this might be the best news you hear all week! DevTools Premium is right around the corner. It’s not just about finding and fixing issues; it’s about understanding, optimizing, and perfecting the application development process. Join the waitlist today!\n\n\nFeaturing:\n\nAmy Dutton – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\nEric Clemmons – Twitter, GitHub\nNick Nisi – Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/326",
+          "publishedOn": "2024-06-06T16:00:00.000Z",
           "wordCount": null,
-          "title": "Changelog News 93: Why your framework doesn't matter",
+          "title": "JS Party 326: Should web development need a build step?",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/93/changelog-news-93.mp3",
-            "length": "7907960",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/326/js-party-326.mp3",
+            "length": "64367321",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/14/2406",
+          "id": "changelog.com/1/2438",
           "author": null,
-          "description": "Anita Zhang is here to tell us how Meta manages millions of bare metal Linux hosts and containers. We also discuss the Twine white paper and how AI is changing their requirements.\nLeave us a comment\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n\nFeaturing:\n\nAnita Zhang – Mastodon, Twitter, GitHub, LinkedIn\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nLinks of the week\nDecoder podcast with Drew Houston\nTwine: A Unified Cluster Management System for Shared Infrastructure\nFaux or fo sho\nAttention is all you need\nProbabilistic Inference in Language Models via Twisted Sequential Monte Carlo\nCausally Abstracted Multi-armed Bandits\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/102",
-          "publishedOn": "2024-05-04T15:45:00.000Z",
+          "description": "Mark Russinovich, Eric Boyd & Neha Batra join us to discuss the state of AI for Microsoft and OpenAI at Microsoft Build 2024. It’s safe to say that Microsoft is all-in on AI.\nLeave us a comment\nChangelog++ members save 14 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\n1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.\n\nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nMark Russinovich – LinkedIn\nEric Boyd – LinkedIn\nNeha Batra – Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nMark Russinovich, Author on Amazon\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/594",
+          "publishedOn": "2024-06-05T12:30:00.000Z",
           "wordCount": null,
-          "title": "Ship It! 102: Managing Meta's millions of machines",
+          "title": "Changelog Interviews 594: Microsoft is all-in on AI: Part 2",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/102/ship-it-102.mp3",
-            "length": "60734799",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/594/the-changelog-594.mp3",
+            "length": "160479319",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/17/2421",
+          "id": "changelog.com/7/2449",
           "author": null,
-          "description": "Our friend Ron Evans is a technologist for hire, an open source developer, an author, a speaker, an iconoclast, and one of our favorite people in tech. This conversation with Ron goes everywhere: from high-altitude weather balloons, to life on Mars, to Zeno’s paradox applied to ML, to what open source devs should learn from the Wu-Tang Clan & more.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nCloudflare – Read the Developer Week 2024 wrap-up or tune into Developer Week on Cloudflare TV.\n\nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nRon Evans – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nBook: A City on Mars\nBio-Dome - Wikipedia\nZeno’s paradoxes\nTinyGo on Hackaday\nggerganov/llama.cpp: LLM inference in C/C++\nWhat exactly is Open Source AI? with Stefano Maffulli\nOn the dangers of stochastic parrots | The Alan Turing Institute\n2053: A Go Odyssey (Go Time #235)\nGetting started with TinyGo\nLooking back at Go from 2053 with Ron Evans - YouTube\nThe Hybrid Group\nAli Spagnola - YouTube\nGopherCon 2024 - Register Now\nFOSDEM 2024 - Home\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/42",
-          "publishedOn": "2024-05-03T18:30:00.000Z",
+          "description": "We’ve seen a rise in interest recently and a number of major announcements related to local LLMs and AI PCs. NVIDIA, Apple, and Intel are getting into this along with models like the Phi family from Microsoft. In this episode, we dig into local AI tooling, frameworks, and optimizations to help you navigate this AI niche, and we talk about how this might impact AI adoption in the longer term.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nLadder Life Insurance – 100% digital — no doctors, no needles, no paperwork. Don’t put it off until the very last minute to get term coverage life insurance through Ladder. Find out if you’re instantly approved. They’re rated A and A plus. Life insurance costs more as you age, now’s the time to cross it off your list.\n\nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nOllama\nLM Studio\nllama.cpp\nOpenVINO\nMLPerf client working group\nArticle - 5 top small language models\nGPTQ article\nArticle - Which quantization method is right for you\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/272",
+          "publishedOn": "2024-06-04T18:45:00.000Z",
           "wordCount": null,
-          "title": "Changelog & Friends 42: The Wu-Tang way",
+          "title": "Practical AI 272: Rise of the AI PC & local LLMs",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/42/changelog--friends-42.mp3",
-            "length": "102001599",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/272/practical-ai-272.mp3",
+            "length": "34392208",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/6/2402",
+          "id": "changelog.com/16/2448",
           "author": null,
-          "description": "Brian LeRoux joins Jerod to share how the Enhance team are bringing server side rendered web components to everyone. With Enhance WASM, you author components in friendly, standards based syntax and reuse them across multiple languages, frameworks & servers.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Instantly create SDKs that make API integration easy for your users. Create your first SDK for free! today.\n\nClerk – Clerk is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage your users.\n\nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n\nFeaturing:\n\nBrian Leroux – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nEnhance\nEnhance WASM\nExtism\nBegin\nArchitect\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/321",
-          "publishedOn": "2024-05-02T15:20:00.000Z",
+          "description": "A popular open source iOS authenticator app goes rogue under new ownership, Andreas Kling steps back from SerenityOS & forks Ladybird, Vhyrro takes a thought-provoking try at a “static effect system”, Matt Bessey is over GraphQL & Marc-Andre Giroux still likes GraphQL sometimes (in the right context).\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/97",
+          "publishedOn": "2024-06-03T19:45:00.000Z",
           "wordCount": null,
-          "title": "JS Party 321: SSR web components for all",
+          "title": "Changelog News 97: Yet another open source rug pull",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/321/js-party-321.mp3",
-            "length": "55941504",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/97/changelog-news-97.mp3",
+            "length": "9566236",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/1/2420",
+          "id": "changelog.com/17/2443",
           "author": null,
-          "description": "This week we’re joined by Dustin Bluck to discuss his acquisition of the well known (and beloved) Castro podcast app to take it indie-focused once again. As previous users of Castro, we were excited to dig into the details behind this popular podcast client to see what’s next, how the deal was done, a peek into the code, and where exactly this indie and creator focused podcast app can go.\nLeave us a comment\nChangelog++ members get a bonus 3 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nCloudflare – Read the Developer Week 2024 wrap-up or tune into Developer Week on Cloudflare TV.\n\nNotion – Notion is a place where any team can write, plan, organize, and rediscover the joy of play. It’s a workspace designed not just for making progress, but getting inspired. Notion is for everyone — whether you’re a Fortune 500 company or freelance designer, starting a new startup or a student juggling classes and clubs.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nDustin Bluck – GitHub, Website\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nA Fresh Start for Castro\nPodcast app Castro now owned by indie developer Bluck Apps\nI am the owner of Castro Podcasts. Ask me anything!\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/589",
-          "publishedOn": "2024-05-01T12:30:00.000Z",
+          "description": "Tech lawyer Luis Villa returns to answer our most pressing questions: what’s up with all these new content deals? How did Google think it was a good idea to ship AI Summaries in its current state? Is it too late to opt out of AI? We also discuss AI in Hollywood (spoilers!), positive things we’re seeing (or hoping for) & Upstream 2024 (June 5th)!\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\nExpressVPN – Stop handing over your personal data to ISPs and other tech giants who mine your activity and sell off your information. Protect yourself with ExpressVPN. Go to ExpressVPN.com/changelog and get three (3) extra months free.\n\n\nFeaturing:\n\nLuis Villa – Mastodon, Twitter, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nUpstream 2024 | A celebration of open source\nANTHOLOGY — The way of open source (Changelog Interviews #563)\nOn self driving, Waymo is playing chess while Tesla plays checkers\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/friends/46",
+          "publishedOn": "2024-05-31T20:30:00.000Z",
           "wordCount": null,
-          "title": "Changelog Interviews 589: Castro leans into indie",
+          "title": "Changelog & Friends 46: Is it too late to opt out of AI?",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/589/the-changelog-589.mp3",
-            "length": "54224887",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/46/changelog--friends-46.mp3",
+            "length": "95298187",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/2/2416",
+          "id": "changelog.com/14/2418",
           "author": null,
-          "description": "What makes a good, bad, and truly great workshop? How do you put together a Go workshop that works, and how do you get the most out of workshops you attend?\nLeave us a comment\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFireHydrant – The alerting and on-call tool designed for humans, not systems. Signals puts teams at the center, giving you ultimate control over rules, policies, and schedules. No need to configure your services or do wonky work-arounds. Signals filters out the noise, alerting you only on what matters. Manage coverage requests and on-call notifications effortlessly within Slack. But here’s the game-changer…Signals natively integrates with FireHydrant’s full incident management suite, so as soon as you’re alerted you can seamlessly kickoff and manage your entire incident inside a single platform. Learn more or switch today at firehydrant.com/signals\n\nSpeakeasy – Instantly create SDKs that make API integration easy for your users. Create your first SDK for free! today.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nAngelica Hill – Twitter, GitHub, LinkedIn\nJohnny Boursiquot – Twitter, GitHub, Website\nKris Brandow – Twitter, GitHub\n\nShow Notes:\n\nGo Bridge\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/314",
-          "publishedOn": "2024-04-30T21:30:00.000Z",
+          "description": "Danielle Lancashire is here to tell us how Fermyon cloud is built on top of nomad and EC2 and how they put it in a box with Kubernetes and WebAssembly.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nDanielle Lancashire – Mastodon, Twitter, GitHub, Website\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nWTA: What The Acronym\nASM - Assembly\nWASM - WebAssembly. Came from asm.js from Mozilla\nAOT - ahead of time compilation\nJIT - just in time compilation\nWASI - WebAssembly system interface. Types: io, clocks, random, filesystem, sockets, cli, http\nWIT - WebAssembly Interface Type\nWasmer - by wasmer company\nWAPM - WebAssembly Package Manager\nWasmtime - Bytecode alliance (amazon, cisco, arm, docker, intel microsoft)\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/106",
+          "publishedOn": "2024-05-31T16:00:00.000Z",
           "wordCount": null,
-          "title": "Go Time 314: Go workshops that work",
+          "title": "Ship It! 106: Is Wasm the new Java?",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/314/go-time-314.mp3",
-            "length": "83489088",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/106/ship-it-106.mp3",
+            "length": "63129689",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/7/2419",
+          "id": "changelog.com/6/2447",
           "author": null,
-          "description": "We recently gathered some Practical AI listeners for a live webinar with Danny from LibreChat to discuss the future of private, open source chat UIs. During the discussion we hear about the motivations behind LibreChat, why enterprise users are hosting their own chat UIs, and how Danny (and the LibreChat community) is creating amazing features (like RAG and plugins).\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nDanny Avila – Twitter\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nRegister for our next webinar (similar to this one) focused on multimodal AI\nLibreChat\nPrediction Guard\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/267",
-          "publishedOn": "2024-04-30T20:45:00.000Z",
+          "description": "11ty creator Zach Leatherman is taking the open source site generator fully independent in 2024 and he’s back on the pod to tell us why, how & what we all can do to help.\nLeave us a comment\nChangelog++ members get a bonus 12 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nClerk – Clerk is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage your users.\n\nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\n\nFeaturing:\n\nZach Leatherman – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nNick Nisi – Twitter, GitHub, Website\n\nShow Notes:\n\nI Need Your Help to Make 11ty Fully Independent and Sustainable in 2024\nAn Organizer’s Retrospective on the 11ty Conference\nxkcd: Dependency\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/jsparty/325",
+          "publishedOn": "2024-05-30T21:10:00.000Z",
           "wordCount": null,
-          "title": "Practical AI 267: Private, open source chat UIs",
+          "title": "JS Party 325: 11ty goes fully independent",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/267/practical-ai-267.mp3",
-            "length": "37171055",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/325/js-party-325.mp3",
+            "length": "72661238",
             "type": "audio/mpeg"
           },
           "imageUrl": null
         },
         {
-          "id": "changelog.com/16/2417",
+          "id": "changelog.com/1/2437",
           "author": null,
-          "description": "Daniel Hooper lists out all the good ideas in computer science, Jeff Geerling declares 2024 the year corporate open source dies, Jared Turner says all kinds of works-in-progress are waste, Daroc Alden covers the leadership crisis in the Nix community & John Hawthorn explains why Ruby may be faster than you think.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nCrabNebula Cloud – CrabNebula Cloud is here! Distribute Tauri apps and Electron apps with best in class updater. At the heart of CrabNebula Cloud is a purpose-built CDN ready for global scale, and secure updates as a first-class citizen. Learn more at crabnebula.dev/cloud\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/92",
-          "publishedOn": "2024-04-29T19:15:00.000Z",
+          "description": "Scott Guthrie joins the show this week from Microsoft Build 2024 to discuss Microsoft being all-in on AI. From Copilot, to Azure AI and Prompty, to their developer first focus, leading GitHub, VS Code being the long bet that paid off, to the future of a doctor’s bedside manner assisted with AI. Microsoft is all-in on AI and Build 2024’s discussions and announcements proves it.\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\nExpressVPN – Stop handing over your personal data to ISPs and other tech giants who mine your activity and sell off your information. Protect yourself with ExpressVPN. Go to ExpressVPN.com/changelog and get three (3) extra months free.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nScott Guthrie – Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nmicrosoft/prompty\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/podcast/593",
+          "publishedOn": "2024-05-30T12:30:00.000Z",
           "wordCount": null,
-          "title": "Changelog News 92: Good ideas in computer science",
+          "title": "Changelog Interviews 593: Microsoft is all-in on AI: Part 1",
           "itunes": {},
           "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/92/changelog-news-92.mp3",
-            "length": "8268135",
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/593/the-changelog-593.mp3",
+            "length": "61843430",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "changelog.com/2/2430",
+          "author": null,
+          "description": "Angelica is joined by Samantha Coyle to talk about her newly published textbook: Go Programming - From Beginner to Professional. This book serves as a go-to guide to master Go for real-world software dev success covering fundamentals to advanced topics.\nLeave us a comment\nChangelog++ members save 8 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nLadder Life Insurance – 100% digital — no doctors, no needles, no paperwork. Don’t put it off until the very last minute to get term coverage life insurance through Ladder. Find out if you’re instantly approved. They’re rated A and A plus. Life insurance costs more as you age, now’s the time to cross it off your list.\n\nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nSamantha Coyle – Twitter, LinkedIn\nAngelica Hill – Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nGo Programming - From Beginner to Professional\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/gotime/317",
+          "publishedOn": "2024-05-29T20:30:00.000Z",
+          "wordCount": null,
+          "title": "Go Time 317: Your ultimate guide to mastering Go",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/317/go-time-317.mp3",
+            "length": "60889341",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "changelog.com/7/2442",
+          "author": null,
+          "description": "At the age of 72, U.S. Representative Don Beyer of Virginia enrolled at GMU to pursue a Master’s degree in C.S. with a concentration in Machine Learning.\nRep. Beyer is Vice Chair of the bipartisan Artificial Intelligence Caucus & Vice Chair of the NDC’s AI Working Group.  He is the author of the AI Foundation Model Transparency Act & a lead cosponsor of the CREATE AI Act, the Federal Artificial Intelligence Risk Management Act & the Artificial Intelligence Environmental Impacts Act.\nWe hope you tune into this inspiring, nonpartisan conversation with Rep. Beyer about his decision to dive into the deep end of the AI pool & his leadership in bringing that expertise to Capitol Hill.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nDon Beyer – Twitter, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nU.S. Representative Don Beyer\nCongressman Don Beyer, Mason student and lifelong learner\nBeyer Statement On President Biden’s AI Executive Order\nBeyer Appointed To Bipartisan Task Force On Artificial Intelligence\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/practicalai/271",
+          "publishedOn": "2024-05-29T14:30:00.000Z",
+          "wordCount": null,
+          "title": "Practical AI 271: AI in the U.S. Congress",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/271/practical-ai-271.mp3",
+            "length": "39456721",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
+          "id": "changelog.com/16/2444",
+          "author": null,
+          "description": "Swizec’s article on not using AI to writes tests, LlamaFs is a self-organizing file system with Llama 3, a Pew Research analysis confirmed that the internet is full of broken links, Sam Rose built a spectacular interactive study of queueing strategies & Jordan Cutler shares a real-life experience of him writing clear/readable code… and it backfiring.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/news/96",
+          "publishedOn": "2024-05-28T19:45:00.000Z",
+          "wordCount": null,
+          "title": "Changelog News 96: Why you shouldn't use AI to write your tests",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/96/changelog-news-96.mp3",
+            "length": "8746720",
             "type": "audio/mpeg"
           },
           "imageUrl": null
@@ -527,13 +535,55 @@
       "title": "Project Zero",
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2024/06/project-naptime.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=DFQxm4rd7fRHgM9OTejWVT5Vho6BE7M80rHXEVKqXWckOnM5xqt2DUw2f5lNcrroidEvLLi3H0BPvcL7ypcd6c76ZZ8PqJ7WOKqynLI9-xo);.lst-kix_s8mzwdo5vrhy-8>li:before{content:\"\\0025a0   \"}ol.lst-kix_s8mzwdo5vrhy-0{list-style-type:none}.lst-kix_s8mzwdo5vrhy-5>li:before{content:\"\\0025a0   \"}.lst-kix_s8mzwdo5vrhy-0>li{counter-increment:lst-ctn-kix_s8mzwdo5vrhy-0}.lst-kix_s8mzwdo5vrhy-6>li:before{content:\"\\0025cf   \"}li.li-bullet-0:before{margin-left:-18pt;white-space:nowrap;display:inline-block;min-width:18pt}.lst-kix_s8mzwdo5vrhy-7>li:before{content:\"\\0025cb   \"}ol.lst-kix_s8mzwdo5vrhy-0.start{counter-reset:lst-ctn-kix_s8mzwdo5vrhy-0 0}ul.lst-kix_s8mzwdo5vrhy-7{list-style-type:none}.lst-kix_s8mzwdo5vrhy-0>li:before{content:\"\" counter(lst-ctn-kix_s8mzwdo…",
+          "link": "https://googleprojectzero.blogspot.com/2024/06/project-naptime.html",
+          "publishedOn": "2024-06-20T17:00:00.000Z",
+          "wordCount": 8327,
+          "title": "Project Naptime: Evaluating Offensive Security Capabilities of Large Language Models",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUsslUps6fXYDTe1LTla61ZHuQLv2h6flAxuPHXle-F-vYP8fIEXL55-HMQlSYG1XhfXule3L0dDSJz8qkLrrWUCUji8ezzlmoFdOkd_eqrqKnS5TOTjdWOoJh-4V6YZvrP-8U4VY96mKZkTHbNaQ6radLfno2l4FiwaA68bYQAo1j0lCtK1ZMvMZmgB4/w1200-h630-p-k-no-nu/image4_large.png"
+        },
+        {
+          "id": "https://googleprojectzero.blogspot.com/2024/06/driving-forward-in-android-drivers.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=MXVwpSGzOOhqOc5hUWJbBLizfYjsfH9XaeDpmRKYJN5bV0WvE1cEyAoIq5yYZlSc);.lst-kix_3dxxrae9diso-3>li:before{content:\"\\0025cf   \"}.lst-kix_m966q2gfyys4-7>li:before{content:\"\" counter(lst-ctn-kix_m966q2gfyys4-7,lower-latin) \". \"}.lst-kix_3dxxrae9diso-2>li:before{content:\"\\0025a0   \"}.lst-kix_3dxxrae9diso-4>li:before{content:\"\\0025cb   \"}.lst-kix_m966q2gfyys4-6>li:before{content:\"\" counter(lst-ctn-kix_m966q2gfyys4-6,decimal) \". \"}.lst-kix_m966q2gfyys4-8>li:before{content:\"\" counter(lst-ctn-kix_m966q2gfyys4-8,lower-roman) \". \"}.lst-kix_kbd3zqh16g9u-4>li{counter-increment:lst-ctn-kix_kbd3zqh16g9u-4}.lst-kix_3dxxrae9diso-1>li:before{content:\"\\0025cb   \"}.lst-kix_3dxxrae9diso-5>li:before{content:\"\\0025a0   \"}ol.lst-kix_m966q2gfyys4-3.start{co…",
+          "link": "https://googleprojectzero.blogspot.com/2024/06/driving-forward-in-android-drivers.html",
+          "publishedOn": "2024-06-13T18:03:00.000Z",
+          "wordCount": 8121,
+          "title": "Driving forward in Android drivers",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioT3h0f4HwgQDI_0LTWJU6KJU3MwVqZ8zuQYgPhF0SXHNCeaw1ut_-WkpVwwqcqLytAsgahAjKshk8ugcbaCZyk8-Us3i8ZfRihE-EA3n8tRFIi0oPUntubw1dJ7y9l1LjTe4Zot7iFd-WJRQ0I1DPdsFA_sULQ5vLIQ8xgQerrz1hyphenhyphenwLj_2J8oC2VD0M/w1200-h630-p-k-no-nu/image2.png"
+        }
+      ]
     },
     {
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://hacks.mozilla.org/?p=48162",
+          "author": "Stephen Hood",
+          "description": "Today we’re proud to announce the next Mozilla Builders project: sqlite-vec. Led by independent developer Alex Garcia, this project brings vector search functionality to the beloved SQLite embedded database. Alex has been working on this problem for a while, and we think his latest approach will have a great impact by providing application developers with a powerful new tool for building Local AI applications.\nThe post Sponsoring sqlite-vec to enable more powerful Local AI applications appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/",
+          "publishedOn": "2024-06-25T15:25:58.000Z",
+          "wordCount": 1150,
+          "title": "Sponsoring sqlite-vec to enable more powerful Local AI applications",
+          "imageUrl": "https://hacks.mozilla.org/wp-content/uploads/2024/06/sqlite-vec-transparent.png"
+        },
+        {
+          "id": "https://hacks.mozilla.org/?p=48155",
+          "author": "Tarek Ziadé",
+          "description": "Firefox 130 will introduce an experimental new capability to automatically generate alt-text for images using a fully private on-device AI model. The feature will be available as part of Firefox’s built-in PDF editor, and our end goal is to make it available in general browsing for users with screen readers.\nThe post Experimenting with local alt text generation in Firefox Nightly appeared first on Mozilla Hacks - the Web developer blog.",
+          "link": "https://hacks.mozilla.org/2024/05/experimenting-with-local-alt-text-generation-in-firefox-nightly/",
+          "publishedOn": "2024-05-31T16:43:46.000Z",
+          "wordCount": 2692,
+          "title": "Experimenting with local alt text generation in Firefox Nightly",
+          "imageUrl": "https://hacks.mozilla.org/wp-content/uploads/2024/05/Screenshot-2024-05-28-at-18.39.17.png"
+        }
+      ]
     },
     {
       "title": "The GitHub Blog",
@@ -541,224 +591,104 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
-          "id": "https://github.blog/?p=78178",
+          "id": "https://github.blog/?p=78590",
           "author": "Kedasha Kerr",
-          "description": "Let’s get you started on your Git journey with basic concepts to know, plus a step-by-step on how to install and configure the most widely used version control system in the world.\nThe post What is Git? Our beginner’s guide to version control appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-27-what-is-git-our-beginners-guide-to-version-control/",
-          "publishedOn": "2024-05-27T14:25:55.000Z",
-          "wordCount": 2273,
-          "title": "What is Git? Our beginner’s guide to version control",
+          "description": "Git started on your first repository in the third installment of GitHub for Beginners. Discover the essential features and settings to manage your projects effectively.\nThe post Beginner’s guide to GitHub repositories: How to create your first repo appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-24-beginners-guide-to-github-repositories-how-to-create-your-first-repo/",
+          "publishedOn": "2024-06-24T13:00:43.000Z",
+          "wordCount": 1898,
+          "title": "Beginner’s guide to GitHub repositories: How to create your first repo",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/05/GitHub-for-beginners.png"
         },
         {
-          "id": "https://github.blog/?p=78141",
-          "author": "Stormy Peters",
-          "description": "Announcing the second cohort, delivering value to projects, and driving a new frontier.\nThe post 2024 GitHub Accelerator: Meet the 11 projects shaping open source AI appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-23-2024-github-accelerator-meet-the-11-projects-shaping-open-source-ai/",
-          "publishedOn": "2024-05-23T16:00:01.000Z",
-          "wordCount": 2337,
-          "title": "2024 GitHub Accelerator: Meet the 11 projects shaping open source AI",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/github-accelerator-2024.jpeg"
+          "id": "https://github.blog/?p=78534",
+          "author": "Peter Stöckli",
+          "description": "Can an attacker execute arbitrary commands on a remote server just by sending JSON? Yes, if the running code contains unsafe deserialization vulnerabilities. But how is that possible? In this blog post, we’ll describe how unsafe deserialization vulnerabilities work and how you can detect them in Ruby projects.\nThe post Execute commands by sending JSON? Learn how unsafe deserialization vulnerabilities work in Ruby projects appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-20-execute-commands-by-sending-json-learn-how-unsafe-deserialization-vulnerabilities-work-in-ruby-projects/",
+          "publishedOn": "2024-06-20T15:00:48.000Z",
+          "wordCount": 6024,
+          "title": "Execute commands by sending JSON? Learn how unsafe deserialization vulnerabilities work in Ruby projects",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Security-DarkMode-3-1.png"
         },
         {
-          "id": "https://github.blog/?p=78012",
-          "author": "Mario Rodriguez",
-          "description": "The world of Copilot is getting bigger, improving the developer experience by keeping developers in the flow longer and allowing them to do more in natural language.\nThe post Introducing GitHub Copilot Extensions: Unlocking unlimited possibilities with our ecosystem of partners appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-21-introducing-github-copilot-extensions/",
-          "publishedOn": "2024-05-21T15:27:46.000Z",
-          "wordCount": 1905,
-          "title": "Introducing GitHub Copilot Extensions: Unlocking unlimited possibilities with our ecosystem of partners",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/1200x630-GitHub-Blog_Copilot-Extensions-SecondaryPill.png"
+          "id": "https://github.blog/?p=78521",
+          "author": "Amanda Ulrich",
+          "description": "With this version, customers can choose how to best scale their security strategy, gain more control over deployments, and so much more.\nThe post GitHub Enterprise Server 3.13 is now generally available appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-18-github-enterprise-server-3-13-is-now-generally-available/",
+          "publishedOn": "2024-06-18T17:02:58.000Z",
+          "wordCount": 1345,
+          "title": "GitHub Enterprise Server 3.13 is now generally available",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/06/GHES3-13.png"
         },
         {
-          "id": "https://github.blog/?p=78071",
-          "author": "Ed Summers",
-          "description": "GitHub celebrates Global Accessibility Awareness Day by launching another installment of the Coding Accessibility series and sharing how we scale accessibility within GitHub and beyond.\nThe post Scaling accessibility within GitHub and beyond appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-16-scaling-accessibility-within-github-and-beyond/",
-          "publishedOn": "2024-05-16T16:00:06.000Z",
-          "wordCount": 2886,
-          "title": "Scaling accessibility within GitHub and beyond",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-1.png"
-        },
-        {
-          "id": "https://github.blog/?p=78046",
-          "author": "Johannes Schindelin",
-          "description": "Git is releasing several new versions to address five CVEs. Upgrading to the latest Git version is essential to protect against these vulnerabilities.\nThe post Securing Git: Addressing 5 new vulnerabilities appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-14-securing-git-addressing-5-new-vulnerabilities/",
-          "publishedOn": "2024-05-14T17:07:49.000Z",
-          "wordCount": 2169,
-          "title": "Securing Git: Addressing 5 new vulnerabilities",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Git-bugfix-security-release.png"
-        },
-        {
-          "id": "https://github.blog/?p=78014",
-          "author": "Ya Gao",
-          "description": "We conducted research with developers at Accenture to understand GitHub Copilot’s real-world impact in enterprise organizations. \nThe post Research: Quantifying GitHub Copilot’s impact in the enterprise with Accenture appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-13-research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/",
-          "publishedOn": "2024-05-13T18:27:34.000Z",
-          "wordCount": 2738,
-          "title": "Research: Quantifying GitHub Copilot’s impact in the enterprise with Accenture",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/accenture-github.png"
-        },
-        {
-          "id": "https://github.blog/?p=77956",
-          "author": "Lavinia Sfetcu",
-          "description": "Whether you’re a rookie coder or a seasoned pro, our new SPORTech shop collection is tailored for you. And here’s the kicker: we’re offering free delivery worldwide over $20 until May 20!\nThe post Say hello to the SPORTech collection appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-13-say-hello-to-the-sportech-collection/",
-          "publishedOn": "2024-05-13T17:01:57.000Z",
-          "wordCount": 1355,
-          "title": "Say hello to the SPORTech collection",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/image1.jpg"
-        },
-        {
-          "id": "https://github.blog/?p=78018",
-          "author": "Jakub Oleksy",
-          "description": "In April, we experienced four incidents that resulted in degraded performance across GitHub services.\nThe post GitHub Availability Report: April 2024 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-10-github-availability-report-april-2024/",
-          "publishedOn": "2024-05-10T17:13:01.000Z",
-          "wordCount": 1378,
-          "title": "GitHub Availability Report: April 2024",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Enterprise-DarkMode-3.png"
-        },
-        {
-          "id": "https://github.blog/?p=77987",
+          "id": "https://github.blog/?p=78382",
           "author": "Nicole Choi",
-          "description": "Here’s how SAST tools combine generative AI with code scanning to help you deliver features faster and keep vulnerabilities out of code. \nThe post How AI enhances static application security testing (SAST) appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-09-how-ai-enhances-static-application-security-testing-sast/",
-          "publishedOn": "2024-05-09T16:00:24.000Z",
-          "wordCount": 3331,
-          "title": "How AI enhances static application security testing (SAST)",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/AI-LightMode-3.png"
+          "description": "Unstructured data holds valuable information about codebases, organizational best practices, and customer feedback. Here are some ways you can leverage it with RAG, or retrieval-augmented generation.\nThe post Unlocking the power of unstructured data with RAG appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-13-unlocking-the-power-of-unstructured-data-with-rag/",
+          "publishedOn": "2024-06-13T16:00:28.000Z",
+          "wordCount": 3061,
+          "title": "Unlocking the power of unstructured data with RAG",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/06/AI-DarkMode-4.png"
         },
         {
-          "id": "https://github.blog/?p=77950",
-          "author": "Cynthia Lo",
-          "description": "Are you looking to have a positive impact in open source development? This program may be for you! Apply by May 30 to join.\nThe post Just launched: Second cohort of the DPG Open Source Community Manager Program! appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-08-just-launched-second-cohort-of-the-dpg-open-source-community-manager-program/",
-          "publishedOn": "2024-05-08T16:07:23.000Z",
-          "wordCount": 1683,
-          "title": "Just launched: Second cohort of the DPG Open Source Community Manager Program!",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-3-1.png"
+          "id": "https://github.blog/?p=78394",
+          "author": "Jakub Oleksy",
+          "description": "In May, we experienced one incident that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: May 2024 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-12-github-availability-report-may-2024/",
+          "publishedOn": "2024-06-12T19:00:30.000Z",
+          "wordCount": 1094,
+          "title": "GitHub Availability Report: May 2024",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Enterprise-LightMode-2.png?fit=1200%2C630"
         },
         {
-          "id": "https://github.blog/?p=77929",
-          "author": "Eric Bailey",
-          "description": "We've made improvements to the way users of assistive technology can interact with and navigate lists of issues and pull requests and tables across GitHub.com.\nThe post How we’re building more inclusive and accessible components at GitHub appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-07-how-were-building-more-inclusive-and-accessible-components-at-github/",
-          "publishedOn": "2024-05-07T17:00:20.000Z",
-          "wordCount": 1724,
-          "title": "How we’re building more inclusive and accessible components at GitHub",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-2-1.png?fit=1200%2C630"
+          "id": "https://github.blog/?p=78369",
+          "author": "Camaley Jennings",
+          "description": "From sending emergency alerts about nearby fires to mapping services in refugee camps, developers are taking action to solve global problems.\nThe post Leveraging technology on the frontlines of emergency: How communities of developers are taking action appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-12-leveraging-technology-on-the-frontlines-of-emergency-how-communities-of-developers-are-taking-action/",
+          "publishedOn": "2024-06-12T16:37:15.000Z",
+          "wordCount": 2497,
+          "title": "Leveraging technology on the frontlines of emergency: How communities of developers are taking action",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/06/Collaboration-LightMode-2-2.png"
         },
         {
-          "id": "https://github.blog/?p=77910",
-          "author": "Mario Rodriguez",
-          "description": "With GitHub Copilot Chat in GitHub Mobile, developers can collaborate, ask coding questions, and gain insights into both public and private repositories anywhere, anytime–all in natural language for users on all GitHub Copilot plans.\nThe post GitHub Copilot Chat in GitHub Mobile is now generally available appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-07-github-copilot-chat-in-github-mobile/",
-          "publishedOn": "2024-05-07T16:00:04.000Z",
-          "wordCount": 1991,
-          "title": "GitHub Copilot Chat in GitHub Mobile is now generally available",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/GA-Social-Post-Asset.png"
+          "id": "https://github.blog/?p=78344",
+          "author": "Will Haltom",
+          "description": "Pushing code to GitHub is one of the most fundamental interactions that developers have with GitHub every day. Read how we have significantly improved the ability of our monolith to correctly and fully process pushes from our users.\nThe post How we improved push processing on GitHub appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-11-how-we-improved-push-processing-on-github/",
+          "publishedOn": "2024-06-11T17:00:33.000Z",
+          "wordCount": 2345,
+          "title": "How we improved push processing on GitHub",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Productivity-DarkMode-2-1.png?fit=1200%2C630"
         },
         {
-          "id": "https://github.blog/?p=77863",
-          "author": "Anna Ossowski",
-          "description": "GitHub Community-in-a-box provides the tooling, resources, and knowledge you need to build internal communities of learning at scale with GitHub Discussions.\nThe post Create a home for your community with GitHub Discussions appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-06-create-a-home-for-your-community-with-github-discussions/",
-          "publishedOn": "2024-05-06T18:43:40.000Z",
-          "wordCount": 2427,
-          "title": "Create a home for your community with GitHub Discussions",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Collaboration-DarkMode-2.png"
+          "id": "https://github.blog/?p=78289",
+          "author": "Jill Moné-Corallo",
+          "description": "Let’s take a look at 10 key moments from the first decade of the GitHub Security Bug Bounty program. \nThe post 10 years of the GitHub Security Bug Bounty Program appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-11-10-years-of-the-github-security-bug-bounty-program/",
+          "publishedOn": "2024-06-11T16:00:14.000Z",
+          "wordCount": 2332,
+          "title": "10 years of the GitHub Security Bug Bounty Program",
+          "imageUrl": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png"
         },
         {
-          "id": "https://github.blog/?p=77824",
-          "author": "Carlin Cherry",
-          "description": "A quick guide on the advantages of Dependabot as a GitHub Actions workflow and the benefits this unlocks, including self-hosted runner support.\nThe post Dependabot on GitHub Actions and self-hosted runners is now generally available appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-02-dependabot-on-github-actions-and-self-hosted-runners-is-now-generally-available/",
-          "publishedOn": "2024-05-02T16:30:32.000Z",
-          "wordCount": 2326,
-          "title": "Dependabot on GitHub Actions and self-hosted runners is now generally available",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/dependabot-gh-actions.png"
+          "id": "https://github.blog/?p=78314",
+          "author": "Kedasha Kerr",
+          "description": "The latest installment of GitHub for Beginners, where we cover the essential Git commands to get you Git-literate. \nThe post Top 12 Git commands every developer must know appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-10-top-12-git-commands-every-developer-must-know/",
+          "publishedOn": "2024-06-10T13:00:32.000Z",
+          "wordCount": 3233,
+          "title": "Top 12 Git commands every developer must know",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/GitHub-for-beginners.png"
         },
         {
-          "id": "https://github.blog/?p=77830",
-          "author": "Trevor Rosen",
-          "description": "Generate and verify signed attestations for anything you make with GitHub Actions.\nThe post Introducing Artifact Attestations–now in public beta appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-02-introducing-artifact-attestations-now-in-public-beta/",
-          "publishedOn": "2024-05-02T16:00:43.000Z",
-          "wordCount": 2743,
-          "title": "Introducing Artifact Attestations–now in public beta",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/11/Security-LightMode-4.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/?p=77819",
-          "author": "Alexis Lucio",
-          "description": "A11y Design Bootcamp is a live educational program that consists of exercises, discussions, and knowledge shares to raise awareness of web accessibility best practices, the role designers play in creating accessible products, and how to advocate for accessibility with cross-functional partners.\nThe post Celebrating 1 year of A11y Design Bootcamp: Takeaways and tips appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-02-celebrating-1-year-of-a11y-design-bootcamp-takeaways-and-tips/",
-          "publishedOn": "2024-05-02T15:00:56.000Z",
-          "wordCount": 2415,
-          "title": "Celebrating 1 year of A11y Design Bootcamp: Takeaways and tips",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-3.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/?p=77810",
-          "author": "Carie Fisher",
-          "description": "As part of GitHub's dedication to accessibility, we expanded our internal accessibility program and scaled up our internal auditing process to help remove or lower barriers for users with disabilities. Then, we empowered employees from various disciplines to drive accessibility efforts within their teams.\nThe post Empowering accessibility: GitHub’s journey building an in-house Champions program appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-01-empowering-accessibility-githubs-journey-building-an-in-house-champions-program/",
-          "publishedOn": "2024-05-01T17:00:13.000Z",
-          "wordCount": 2617,
-          "title": "Empowering accessibility: GitHub’s journey building an in-house Champions program",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Collaboration-LightMode-4.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/?p=77775",
-          "author": "Jeimy Ruiz",
-          "description": "From mastering prompt engineering to leveraging AI for code security, here’s how you can excel in today's competitive job market.  \nThe post 5 tips to supercharge your developer career in 2024 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/",
-          "publishedOn": "2024-05-01T16:10:45.000Z",
-          "wordCount": 2481,
-          "title": "5 tips to supercharge your developer career in 2024",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-LightMode-3.png"
-        },
-        {
-          "id": "https://github.blog/?p=77757",
-          "author": "Trevor Rosen",
-          "description": "GitHub is working with the OSS community to bring new supply chain security capabilities to the platform.\nThe post Where does your software (really) come from? appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-04-30-where-does-your-software-really-come-from/",
-          "publishedOn": "2024-04-30T16:35:21.000Z",
-          "wordCount": 2607,
-          "title": "Where does your software (really) come from?",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Security-DarkMode-4.png"
-        },
-        {
-          "id": "https://github.blog/?p=77738",
-          "author": "Taylor Blau",
-          "description": "Git 2.45 is here with experimental support for reftables, and SHA-256 interoperability. Get our take on the latest here.\nThe post Highlights from Git 2.45 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-04-29-highlights-from-git-2-45/",
-          "publishedOn": "2024-04-29T17:14:27.000Z",
-          "wordCount": 3317,
-          "title": "Highlights from Git 2.45",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/git-245.png"
-        },
-        {
-          "id": "https://github.blog/?p=77597",
-          "author": "Thomas Dohmke",
-          "description": "We’re redefining the developer environment with GitHub Copilot Workspace - where any developer can go from idea, to code, to software all in natural language. \nThe post GitHub Copilot Workspace: Welcome to the Copilot-native developer environment appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-04-29-github-copilot-workspace/",
-          "publishedOn": "2024-04-29T16:00:02.000Z",
-          "wordCount": 1975,
-          "title": "GitHub Copilot Workspace: Welcome to the Copilot-native developer environment",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/1200x630-Blog-Social-Primary.png"
-        },
-        {
-          "id": "https://github.blog/?p=77703",
-          "author": "Sylwia Budzynska",
-          "description": "Learn how to use CodeQL for security research and improve your security research workflow.\nThe post CodeQL zero to hero part 3: Security research with CodeQL appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-04-29-codeql-zero-to-hero-part-3-security-research-with-codeql/",
-          "publishedOn": "2024-04-29T08:00:57.000Z",
-          "wordCount": 7482,
-          "title": "CodeQL zero to hero part 3: Security research with CodeQL",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/security-research-with-codeql.png?fit=1600%2C900"
+          "id": "https://github.blog/?p=78252",
+          "author": "Stephen Glass",
+          "description": "Learn how GitHub used macOS and Apple Silicon runners for GitHub Actions to build, test, and deploy our iOS app faster.\nThe post How GitHub reduced testing time for iOS apps with new runner features appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-03-how-github-reduced-testing-time-for-ios-apps-with-new-runner-features/",
+          "publishedOn": "2024-06-03T16:45:06.000Z",
+          "wordCount": 1786,
+          "title": "How GitHub reduced testing time for iOS apps with new runner features",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-DarkMode-3.png?fit=1200%2C630"
         }
       ]
     },
@@ -768,34 +698,24 @@
       "siteUrl": "https://building.nubank.com.br/",
       "articles": [
         {
-          "id": "https://building.nubank.com.br/?p=29245",
+          "id": "https://building.nubank.com.br/?p=29413",
           "author": "Nubank Editorial",
-          "description": "Delve into the intricacies of hiring top talent and fostering a culture of trust, agility, and innovation.\nThe post Building the bench: Hiring the best product team at Nubank appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/building-the-bench-hiring-the-best-product-team-at-nubank/",
-          "publishedOn": "2024-05-21T13:30:02.000Z",
-          "wordCount": 6024,
-          "title": "Building the bench: Hiring the best product team at Nubank",
-          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/05/1601-www.victoriaholguin.com-Victoria-Holguin-_DSF1237-Mejorado-NR-1024x683.jpg"
+          "description": "Nu Mexico climbs 138 positions in the Merco Talento Ranking. Nu went from the 170th place to the 32nd in this list that measures companies by their ability to attract and retain talent.\nThe post Nu Mexico receives Merco Talento 2024 recognition appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nu-mexico-receives-merco-talento-2024-recognition/",
+          "publishedOn": "2024-06-05T21:25:01.000Z",
+          "wordCount": 5509,
+          "title": "Nu Mexico receives Merco Talento 2024 recognition",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/06/Screenshot-2024-06-05-at-18.23.45.png"
         },
         {
-          "id": "https://building.nubank.com.br/?p=29083",
+          "id": "https://building.nubank.com.br/?p=29370",
           "author": "Nubank Editorial",
-          "description": "Imagine a workspace where every employee has the ability to access and analyze necessary data whenever required\nThe post Enhancing data reliability with Core Datasets appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/enhancing-data-reliability-with-core-datasets/",
-          "publishedOn": "2024-05-07T14:13:30.000Z",
-          "wordCount": 5962,
-          "title": "Enhancing data reliability with Core Datasets",
-          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/05/0930-www.victoriaholguin.com-Victoria-Holguin-_DSF9577-Mejorado-NR-1024x683.jpg"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=29049",
-          "author": "Nubank Editorial",
-          "description": "Read on for valuable tips and best practices to take your product management skills to the next level.\nThe post The Art and Science of Product Management: An In-Depth Interview with Jag Duggal appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/the-art-and-science-of-product-management-an-in-depth-interview-with-jag-duggal/",
-          "publishedOn": "2024-04-30T13:28:46.000Z",
-          "wordCount": 6098,
-          "title": "The Art and Science of Product Management: An In-Depth Interview with Jag Duggal",
-          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/04/1107-www.victoriaholguin.com-Victoria-Holguin-_DSF0458-Mejorado-NR-1024x685.jpg"
+          "description": "Jag Duggal's interview with Harry Stebbings offers insights into the world of product management and the strategies that have contributed to Nubank's success\nThe post Go Time: Building, Management and Execution of Products appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/go-time-building-management-and-execution-of-products/",
+          "publishedOn": "2024-05-28T13:33:59.000Z",
+          "wordCount": 5990,
+          "title": "Go Time: Building, Management and Execution of Products",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/05/Screenshot-2024-05-28-at-10.32.27-1024x539.png"
         }
       ]
     },
@@ -803,7 +723,48 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/e735e6ce8f7d",
+          "author": "Netflix Technology Blog",
+          "description": "Applying Quality of Service techniques at the application level",
+          "link": "https://netflixtechblog.com/enhancing-netflix-reliability-with-service-level-prioritized-load-shedding-e735e6ce8f7d?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-25T22:58:09.000Z",
+          "wordCount": 6091,
+          "title": "Enhancing Netflix Reliability with Service-Level Prioritized Load Shedding",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*2KByIB47RWng5UNH"
+        },
+        {
+          "id": "https://medium.com/p/6b4d4410b88f",
+          "author": "Netflix Technology Blog",
+          "description": "A summary of sessions at the first Data Engineering Open Forum at Netflix on April 18th, 2024",
+          "link": "https://netflixtechblog.com/a-recap-of-the-data-engineering-open-forum-at-netflix-6b4d4410b88f?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-20T15:01:27.000Z",
+          "wordCount": 2570,
+          "title": "A Recap of the Data Engineering Open Forum at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:981/0*k1mwTj0BpJuP0TDi"
+        },
+        {
+          "id": "https://medium.com/p/8ebdda0b2db4",
+          "author": "Netflix Technology Blog",
+          "description": "Harness domain expertise with Video Annotator: streamline ML annotations, cut costs, and deploy faster using a human-in-the-loop system 🚀",
+          "link": "https://netflixtechblog.com/video-annotator-building-video-classifiers-using-vision-language-models-and-active-learning-8ebdda0b2db4?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-19T15:29:29.000Z",
+          "wordCount": 3451,
+          "title": "Video annotator: building video classifiers using vision-language models and active learning",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:620/1*hqNZjvWBlREV5GIv4uEmHw.png"
+        },
+        {
+          "id": "https://medium.com/p/fd78328ee0bb",
+          "author": "Netflix Technology Blog",
+          "description": "At Netflix, we want to ensure that every current and future member finds content that thrills them today and excites them to come back for…",
+          "link": "https://netflixtechblog.com/round-2-a-survey-of-causal-inference-applications-at-netflix-fd78328ee0bb?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-06T20:10:54.000Z",
+          "wordCount": 5149,
+          "title": "Round 2: A Survey of Causal Inference Applications at Netflix",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:823/0*e8IMSJf7p60mk-WG"
+        }
+      ]
     },
     {
       "title": "BetterExplained",
