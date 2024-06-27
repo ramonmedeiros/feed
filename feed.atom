@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-06-26T12:03:55.721Z</updated>
+    <updated>2024-06-27T12:03:52.526Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties]]></title>
+        <id>https://github.blog/?p=78606</id>
+        <link href="https://github.blog/2024-06-26-attack-of-the-clones-getting-rce-in-chromes-renderer-with-duplicate-object-properties/"/>
+        <updated>2024-06-26T16:00:53.000Z</updated>
+        <summary type="html"><![CDATA[In this post, I'll exploit CVE-2024-3833, an object corruption bug in v8, the Javascript engine of Chrome, that allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site.
+The post Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties appeared first on The GitHub Blog.]]></summary>
+        <author>
+            <name>Man Yue Mo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changelog Interviews 597: MAJOR.SEMVER.PATCH]]></title>
+        <id>changelog.com/1/2470</id>
+        <link href="https://changelog.com/podcast/597"/>
+        <updated>2024-06-26T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Predrag Gruevski and Chris Krycho joined the show to talk about SemVer. We explore the challenges and the advantages of semantic versioning (aka SemVer), the need for improving the tooling around SemVer, where semantic versioning really shines and where it’s needed, Types and SemVer, whether or not there’s a better way, and why it’s not as simple as just opting out.
+Leave us a comment
+Changelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!
+Sponsors:
+
+  
+Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
+
+Retool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, a…]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Enhancing Netflix Reliability with Service-Level Prioritized Load Shedding]]></title>
         <id>https://medium.com/p/e735e6ce8f7d</id>
@@ -1241,73 +1270,6 @@ Beyer Appointed To Bipartisan Task Force On Artificial Intelligence
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 96: Why you shouldn't use AI to write your tests]]></title>
-        <id>changelog.com/16/2444</id>
-        <link href="https://changelog.com/news/96"/>
-        <updated>2024-05-28T19:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Swizec’s article on not using AI to writes tests, LlamaFs is a self-organizing file system with Llama 3, a Pew Research analysis confirmed that the internet is full of broken links, Sam Rose built a spectacular interactive study of queueing strategies & Jordan Cutler shares a real-life experience of him writing clear/readable code… and it backfiring.
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors:
-
-  
-Cronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.
-
-
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't DRY Your Code Prematurely]]></title>
-        <id>http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html</id>
-        <link href="http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html"/>
-        <updated>2024-05-28T14:20:00.000Z</updated>
-        <summary type="html"><![CDATA[@media only screen and (max-width: 600px) {
-  .body {
-    overflow-x: auto;
-  }
-
-  .post-content table, .post-content td {
-    width: auto !important;
-    white-space: nowrap;
-  }
-}
-
-
-
-This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
-
-
-By Dan Maksimovich
-
-
-
-Many of us have been told the virtues of “Don’t Repeat Yourself” or DRY. Pause and consider: Is the duplication truly redundant or will the functionality need to evolve independently over time?  Applying DRY principles too rigidly leads to premature abstractions that make future changes more complex than necessary. 
-Consider carefully if code is truly re…]]></summary>
-        <author>
-            <name>Google Testing Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Time: Building, Management and Execution of Products]]></title>
-        <id>https://building.nubank.com.br/?p=29370</id>
-        <link href="https://building.nubank.com.br/go-time-building-management-and-execution-of-products/"/>
-        <updated>2024-05-28T13:33:59.000Z</updated>
-        <summary type="html"><![CDATA[Jag Duggal's interview with Harry Stebbings offers insights into the world of product management and the strategies that have contributed to Nubank's success
-The post Go Time: Building, Management and Execution of Products appeared first on Building Nubank.]]></summary>
-        <author>
-            <name>Nubank Editorial</name>
         </author>
     </entry>
 </feed>

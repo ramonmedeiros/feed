@@ -31,24 +31,29 @@
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html",
-          "author": null,
-          "description": "@media only screen and (max-width: 600px) {\n  .body {\n    overflow-x: auto;\n  }\n\n  .post-content table, .post-content td {\n    width: auto !important;\n    white-space: nowrap;\n  }\n}\n\n\n\nThis is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\nBy Dan Maksimovich\n\n\n\nMany of us have been told the virtues of “Don’t Repeat Yourself” or DRY. Pause and consider: Is the duplication truly redundant or will the functionality need to evolve independently over time?  Applying DRY principles too rigidly leads to premature abstractions that make future changes more complex than necessary. \nConsider carefully if code is truly re…",
-          "link": "http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html",
-          "publishedOn": "2024-05-28T14:20:00.000Z",
-          "wordCount": 9838,
-          "title": "Don't DRY Your Code Prematurely",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Changelog",
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/1/2470",
+          "author": null,
+          "description": "Predrag Gruevski and Chris Krycho joined the show to talk about SemVer. We explore the challenges and the advantages of semantic versioning (aka SemVer), the need for improving the tooling around SemVer, where semantic versioning really shines and where it’s needed, Types and SemVer, whether or not there’s a better way, and why it’s not as simple as just opting out.\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, a…",
+          "link": "https://changelog.com/podcast/597",
+          "publishedOn": "2024-06-26T14:30:00.000Z",
+          "wordCount": null,
+          "title": "Changelog Interviews 597: MAJOR.SEMVER.PATCH",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/597/the-changelog-597.mp3",
+            "length": "88627065",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/7/2473",
           "author": null,
@@ -512,22 +517,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "changelog.com/16/2444",
-          "author": null,
-          "description": "Swizec’s article on not using AI to writes tests, LlamaFs is a self-organizing file system with Llama 3, a Pew Research analysis confirmed that the internet is full of broken links, Sam Rose built a spectacular interactive study of queueing strategies & Jordan Cutler shares a real-life experience of him writing clear/readable code… and it backfiring.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/96",
-          "publishedOn": "2024-05-28T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 96: Why you shouldn't use AI to write your tests",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/96/changelog-news-96.mp3",
-            "length": "8746720",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -590,6 +579,16 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=78606",
+          "author": "Man Yue Mo",
+          "description": "In this post, I'll exploit CVE-2024-3833, an object corruption bug in v8, the Javascript engine of Chrome, that allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site.\nThe post Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties appeared first on The GitHub Blog.",
+          "link": "https://github.blog/2024-06-26-attack-of-the-clones-getting-rce-in-chromes-renderer-with-duplicate-object-properties/",
+          "publishedOn": "2024-06-26T16:00:53.000Z",
+          "wordCount": 6595,
+          "title": "Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Security-DarkMode-1-2.png?fit=1200%2C630"
+        },
         {
           "id": "https://github.blog/?p=78590",
           "author": "Kedasha Kerr",
@@ -706,16 +705,6 @@
           "wordCount": 5509,
           "title": "Nu Mexico receives Merco Talento 2024 recognition",
           "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/06/Screenshot-2024-06-05-at-18.23.45.png"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=29370",
-          "author": "Nubank Editorial",
-          "description": "Jag Duggal's interview with Harry Stebbings offers insights into the world of product management and the strategies that have contributed to Nubank's success\nThe post Go Time: Building, Management and Execution of Products appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/go-time-building-management-and-execution-of-products/",
-          "publishedOn": "2024-05-28T13:33:59.000Z",
-          "wordCount": 5990,
-          "title": "Go Time: Building, Management and Execution of Products",
-          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/05/Screenshot-2024-05-28-at-10.32.27-1024x539.png"
         }
       ]
     },
