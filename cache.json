@@ -6,6 +6,36 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html",
+          "author": null,
+          "description": "Posted by Chrome Root Program, Chrome Security Team\n\n    \n.code {\n    font-family: \"Courier New\", Courier, monospace;\n    font-size: 11.8px;\n    font-weight: bold;\n    background-color: #f4f4f4;\n    padding: 10px;\n    border: 1px solid #ccc;\n    border-radius: 2px;\n    white-space: pre-wrap;\n    display: inline-block;\n    line-height: 12px;\n}\n.highlight {\n    color: red;\n}\n    \n\n\nThe Chrome Security Team prioritizes the security and privacy of Chrome’s users, and we are unwilling to compromise on these values.\n\n\nThe Chrome Root Program Policy states that CA certificates included in the Chrome Root Store must provide value to Chrome end users that exceeds the risk of their continued inclusion. It also describes many of the factors we consider significant when CA Owners disclose and respond …",
+          "link": "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html",
+          "publishedOn": "2024-06-27T17:16:00.000Z",
+          "wordCount": 6438,
+          "title": "Sustaining Digital Certificate Security - Entrust Certificate Distrust",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
+          "id": "http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html",
+          "author": null,
+          "description": "Marios Pomonis, Software Engineer\n\n\nGoogle is committed to enhancing the security of open-source technologies, especially those that make up the foundation for many of our products, like Linux and KVM. To this end we are excited to announce the launch of kvmCTF, a vulnerability reward program (VRP) for the Kernel-based Virtual Machine (KVM) hypervisor first announced in October 2023.\n\n\n\n\n\nKVM is a robust hypervisor with over 15 years of open-source development and is widely used throughout the consumer and enterprise landscape, including platforms such as Android and Google Cloud. Google is an active contributor to the project and we designed kvmCTF as a collaborative way to help identify & remediate vulnerabilities and further harden this fundamental security boundary. \n\n\n\n\n\nSimilar to ke…",
+          "link": "http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html",
+          "publishedOn": "2024-06-27T17:12:00.004Z",
+          "wordCount": 6867,
+          "title": "Virtual Escape; Real Reward: Introducing Google’s kvmCTF",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
+          "id": "http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html",
+          "author": null,
+          "description": "Oliver Chang, Jonathan Metzman, OSS-Fuzz and Alex Rebert, Security Engineering\n\n\n\n\n\n\nThe US Defense Advanced Research Projects Agency, DARPA, recently kicked off a two-year AI Cyber Challenge (AIxCC), inviting top AI and cybersecurity experts to design new AI systems to help secure major open source projects which our critical infrastructure relies upon. As AI continues to grow, it’s crucial to invest in AI tools for Defenders, and this competition will help advance technology to do so. \n\n\n\n\n\nGoogle’s OSS-Fuzz and Security Engineering teams have been excited to assist AIxCC organizers in designing their challenges and competition framework. We also playtested the competition by building a Cyber Reasoning System (CRS) tackling DARPA’s exemplar challenge. \n\n\n\n\n\nThis blog post will share our …",
+          "link": "http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html",
+          "publishedOn": "2024-06-25T12:57:00.001Z",
+          "wordCount": 13161,
+          "title": "Hacking for Defenders: approaches to DARPA’s AI Cyber Challenge",
+          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+        },
+        {
           "id": "http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html",
           "author": null,
           "description": "Posted by Benjamin Ackerman, Anunoy Ghosh and David Warren, Chrome Security Team \n\n\n    \n.code {\n    background-color: #f4f4f4;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    padding: 13px;\n\n  \n}\n.highlight {\n    color: red;\n}\n    \n\n\n\n\nChrome extensions can boost your browsing, empowering you to do anything from customizing the look of sites to providing personalized advice when you’re planning a vacation. But as with any software, extensions can also introduce risk. \n\n\nThat’s why we have a team whose only job is to focus on keeping you safe as you install and take advantage of Chrome extensions. Our team:\nProvides you with a personalized summary of the extensions you’ve installed\n\n\nReviews extensions before they’re published on the Chrome Web Store\n\n\nContinuously monitors extensi…",
@@ -38,6 +68,22 @@
       "feedUrl": "https://changelog.com/feed",
       "siteUrl": "https://changelog.com/",
       "articles": [
+        {
+          "id": "changelog.com/14/2426",
+          "author": null,
+          "description": "Bailey Hayes & Taylor Thomas from Cosmonic join the show for a look at WebAssembly Standard Interfaces (WASI) and trade-offs for portable interfaces.\nLeave us a comment\nChangelog++ members save 12 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n\nFeaturing:\n\nBailey Hayes – Twitter, GitHub, LinkedIn\nTaylor Thomas – Twitter, GitHub\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nRequest For Comments (RFC)\nAbout RFCs\nCommon network RFCs\nSomething missing or broken? PRs welcome!",
+          "link": "https://changelog.com/shipit/110",
+          "publishedOn": "2024-06-29T12:15:00.000Z",
+          "wordCount": null,
+          "title": "Ship It! 110: The Kubernetes of Lambda",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/110/ship-it-110.mp3",
+            "length": "74073946",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "changelog.com/17/2469",
           "author": null,
@@ -453,38 +499,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "changelog.com/17/2443",
-          "author": null,
-          "description": "Tech lawyer Luis Villa returns to answer our most pressing questions: what’s up with all these new content deals? How did Google think it was a good idea to ship AI Summaries in its current state? Is it too late to opt out of AI? We also discuss AI in Hollywood (spoilers!), positive things we’re seeing (or hoping for) & Upstream 2024 (June 5th)!\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\nExpressVPN – Stop handing over your personal data to ISPs and other tech giants who mine your activity and sell off your information. Protect yourself with ExpressVPN. Go to ExpressVPN.com/changelog and get three (3) extra months free.\n\n\nFeaturing:\n\nLuis Villa – Mastodon, Twitter, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nUpstream 2024 | A celebration of open source\nANTHOLOGY — The way of open source (Changelog Interviews #563)\nOn self driving, Waymo is playing chess while Tesla plays checkers\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/46",
-          "publishedOn": "2024-05-31T20:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog & Friends 46: Is it too late to opt out of AI?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/46/changelog--friends-46.mp3",
-            "length": "95298187",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/14/2418",
-          "author": null,
-          "description": "Danielle Lancashire is here to tell us how Fermyon cloud is built on top of nomad and EC2 and how they put it in a box with Kubernetes and WebAssembly.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeon – The fully managed serverless Postgres with a generous free tier. Neon separates storage and compute to offer autoscaling, branching, and bottomless storage.\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nDanielle Lancashire – Mastodon, Twitter, GitHub, Website\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nWTA: What The Acronym\nASM - Assembly\nWASM - WebAssembly. Came from asm.js from Mozilla\nAOT - ahead of time compilation\nJIT - just in time compilation\nWASI - WebAssembly system interface. Types: io, clocks, random, filesystem, sockets, cli, http\nWIT - WebAssembly Interface Type\nWasmer - by wasmer company\nWAPM - WebAssembly Package Manager\nWasmtime - Bytecode alliance (amazon, cisco, arm, docker, intel microsoft)\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/106",
-          "publishedOn": "2024-05-31T16:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 106: Is Wasm the new Java?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/106/ship-it-106.mp3",
-            "length": "63129689",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -549,16 +563,6 @@
           "wordCount": 1150,
           "title": "Sponsoring sqlite-vec to enable more powerful Local AI applications",
           "imageUrl": "https://hacks.mozilla.org/wp-content/uploads/2024/06/sqlite-vec-transparent.png"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=48155",
-          "author": "Tarek Ziadé",
-          "description": "Firefox 130 will introduce an experimental new capability to automatically generate alt-text for images using a fully private on-device AI model. The feature will be available as part of Firefox’s built-in PDF editor, and our end goal is to make it available in general browsing for users with screen readers.\nThe post Experimenting with local alt text generation in Firefox Nightly appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2024/05/experimenting-with-local-alt-text-generation-in-firefox-nightly/",
-          "publishedOn": "2024-05-31T16:43:46.000Z",
-          "wordCount": 2692,
-          "title": "Experimenting with local alt text generation in Firefox Nightly",
-          "imageUrl": "https://hacks.mozilla.org/wp-content/uploads/2024/05/Screenshot-2024-05-28-at-18.39.17.png"
         }
       ]
     },
