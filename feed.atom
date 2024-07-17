@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-16T12:03:17.504Z</updated>
+    <updated>2024-07-17T12:03:52.901Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[In Praise of Small Pull Requests]]></title>
+        <id>http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html</id>
+        <link href="http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html"/>
+        <updated>2024-07-16T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.
+
+
+
+
+By Elliotte Rusty Harold
+
+
+Note: A “pull request” refers to one self-contained change that has been submitted to version control or which is undergoing code review. At Google, this is referred to as a“CL”, which is short for “changelist”.
+
+
+Prefer small, focused pull requests that do exactly one thing each. Why? Several reasons:
+
+
+Small pull requests are easier to review. A mistake in a focused pull request is more obvious. In a 40 file pull request that does several things, would you notice that one if statement had reversed the logic it should have and …]]></summary>
+        <author>
+            <name>Google Testing Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changelog News 103: The six dumbest ideas in computer security]]></title>
         <id>changelog.com/16/2495</id>
@@ -1190,31 +1214,6 @@ Something missing or broken? PRs welcome!]]></summary>
 The post GitHub Enterprise Server 3.13 is now generally available appeared first on The GitHub Blog.]]></summary>
         <author>
             <name>Amanda Ulrich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changelog News 99: The onset of "Senior Engineer Fatigue"]]></title>
-        <id>changelog.com/16/2463</id>
-        <link href="https://changelog.com/news/99"/>
-        <updated>2024-06-17T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Luminousmen writes about Senior Engineer Fatigue, Microsoft rethinks its AI-based Recall feature, Mike Hoye gives a big shout out to the “diff” program, Thom Holwerda covers ChromeOS’ quiet switch to Android Linux subsystems & Mihail Eric tells the inside story on how Alexa dropped the ball on being the top conversational system on Earth.
-Leave us a comment
-Changelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!
-Sponsors:
-
-  
-1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.
-
-
-Featuring:
-
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-All links mentioned in this episode of Changelog News (and more) are in its companion newsletter.
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
         </author>
     </entry>
 </feed>

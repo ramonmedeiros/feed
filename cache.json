@@ -51,7 +51,18 @@
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html",
+          "author": null,
+          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\n\n\nBy Elliotte Rusty Harold\n\n\nNote: A “pull request” refers to one self-contained change that has been submitted to version control or which is undergoing code review. At Google, this is referred to as a“CL”, which is short for “changelist”.\n\n\nPrefer small, focused pull requests that do exactly one thing each. Why? Several reasons:\n\n\nSmall pull requests are easier to review. A mistake in a focused pull request is more obvious. In a 40 file pull request that does several things, would you notice that one if statement had reversed the logic it should have and …",
+          "link": "http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html",
+          "publishedOn": "2024-07-16T13:00:00.000Z",
+          "wordCount": 8229,
+          "title": "In Praise of Small Pull Requests",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNWyw4Y5_hwMmvzu2TQN_NRQe6-nor1zoNerbGFZMkuXilBwORhKLK4Cf75dRPb_c_xrgglRKORxnGEMbEzIhylpLol-Z0DvG047859hcp2m3ZB1TXgQAbFp4rAJ7w1TsYsb7ZNw/s1600/googlelogo_color_200x200.png"
+        }
+      ]
     },
     {
       "title": "Changelog",
@@ -502,22 +513,6 @@
           "enclosure": {
             "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/319/go-time-319.mp3",
             "length": "71383371",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/16/2463",
-          "author": null,
-          "description": "Luminousmen writes about Senior Engineer Fatigue, Microsoft rethinks its AI-based Recall feature, Mike Hoye gives a big shout out to the “diff” program, Thom Holwerda covers ChromeOS’ quiet switch to Android Linux subsystems & Mihail Eric tells the inside story on how Alexa dropped the ball on being the top conversational system on Earth.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \n1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/99",
-          "publishedOn": "2024-06-17T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 99: The onset of \"Senior Engineer Fatigue\"",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/99/changelog-news-99.mp3",
-            "length": "8711777",
             "type": "audio/mpeg"
           },
           "imageUrl": null
