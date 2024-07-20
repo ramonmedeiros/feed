@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://feed.ramonmedeiros.dev/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-19T12:03:46.886Z</updated>
+    <updated>2024-07-20T12:03:26.290Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://feed.ramonmedeiros.dev/index.html"/>
     <link rel="self" href="https://feed.ramonmedeiros.dev/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[There’s a TUI for that]]></title>
+        <id>changelog.com/17/2496</id>
+        <link href="https://changelog.com/friends/53"/>
+        <updated>2024-07-19T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nick Janetakis is back and this time we're talking about TUIs (text-based user interfaces) — some we've tried and some we plan to try. All are collected from Justin Garrison's Awesome TUIs repo on GitHub. This episode is "AI free."]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitLab's infrastructure]]></title>
+        <id>changelog.com/14/2453</id>
+        <link href="https://changelog.com/shipit/113"/>
+        <updated>2024-07-19T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[GitLab has changed a lot over the past 8 years and so has Abubakar. Starting in the help desk he's seen a lot and takes us through GitLab's and his progression.]]></summary>
+        <author>
+            <name>Changelog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JS Party 331: Building LLM agents in JS]]></title>
         <id>changelog.com/6/2486</id>
@@ -1138,110 +1158,6 @@ Dragonfly BSD
 Something missing or broken? PRs welcome!]]></summary>
         <author>
             <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Party 327: Polypane-demonium]]></title>
-        <id>changelog.com/6/2459</id>
-        <link href="https://changelog.com/jsparty/327"/>
-        <updated>2024-06-20T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Polypane purveyor Kilian Valkhof joins Nick & Jerod to tell us all about his efforts building a web browser just for web development. We cover it all: from the business concerns, to the technical details, to his excellent choice not to use TypeScript! We even sneak in a feature request that already made its way into this excellent dev tool for ambitious web developers.
-Leave us a comment
-Changelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!
-Sponsors:
-
-  
-Socket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more
-
-Neon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.
-
-
-Featuring:
-
-Kilian Valkhof – Twitter, GitHub, LinkedIn
-Nick Nisi – Twitter, GitHub, Website
-Jerod Santo – Mastodon, Twitter, GitHub, LinkedIn
-
-Show Notes:
-
-What do we want from a web browser?(Friends #14)
-You have how many open tabs?! (Friends #29)
-Core web vitals
-Polypane
-Something missing or broken? PRs welcome!]]></summary>
-        <author>
-            <name>Changelog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Project Naptime: Evaluating Offensive Security Capabilities of Large Language Models]]></title>
-        <id>https://googleprojectzero.blogspot.com/2024/06/project-naptime.html</id>
-        <link href="https://googleprojectzero.blogspot.com/2024/06/project-naptime.html"/>
-        <updated>2024-06-20T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[@import url(https://themes.googleusercontent.com/fonts/css?kit=DFQxm4rd7fRHgM9OTejWVT5Vho6BE7M80rHXEVKqXWckOnM5xqt2DUw2f5lNcrroidEvLLi3H0BPvcL7ypcd6c76ZZ8PqJ7WOKqynLI9-xo);.lst-kix_s8mzwdo5vrhy-8>li:before{content:"\0025a0   "}ol.lst-kix_s8mzwdo5vrhy-0{list-style-type:none}.lst-kix_s8mzwdo5vrhy-5>li:before{content:"\0025a0   "}.lst-kix_s8mzwdo5vrhy-0>li{counter-increment:lst-ctn-kix_s8mzwdo5vrhy-0}.lst-kix_s8mzwdo5vrhy-6>li:before{content:"\0025cf   "}li.li-bullet-0:before{margin-left:-18pt;white-space:nowrap;display:inline-block;min-width:18pt}.lst-kix_s8mzwdo5vrhy-7>li:before{content:"\0025cb   "}ol.lst-kix_s8mzwdo5vrhy-0.start{counter-reset:lst-ctn-kix_s8mzwdo5vrhy-0 0}ul.lst-kix_s8mzwdo5vrhy-7{list-style-type:none}.lst-kix_s8mzwdo5vrhy-0>li:before{content:"" counter(lst-ctn-kix_s8mzwdo…]]></summary>
-        <author>
-            <name>Project Zero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Staying Safe with Chrome Extensions]]></title>
-        <id>http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html</id>
-        <link href="http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html"/>
-        <updated>2024-06-20T16:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted by Benjamin Ackerman, Anunoy Ghosh and David Warren, Chrome Security Team 
-
-
-    
-.code {
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 13px;
-
-  
-}
-.highlight {
-    color: red;
-}
-    
-
-
-
-
-Chrome extensions can boost your browsing, empowering you to do anything from customizing the look of sites to providing personalized advice when you’re planning a vacation. But as with any software, extensions can also introduce risk. 
-
-
-That’s why we have a team whose only job is to focus on keeping you safe as you install and take advantage of Chrome extensions. Our team:
-Provides you with a personalized summary of the extensions you’ve installed
-
-
-Reviews extensions before they’re published on the Chrome Web Store
-
-
-Continuously monitors extensi…]]></summary>
-        <author>
-            <name>Google Online Security Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Recap of the Data Engineering Open Forum at Netflix]]></title>
-        <id>https://medium.com/p/6b4d4410b88f</id>
-        <link href="https://netflixtechblog.com/a-recap-of-the-data-engineering-open-forum-at-netflix-6b4d4410b88f?source=rss----2615bd06b42e---4"/>
-        <updated>2024-06-20T15:01:27.000Z</updated>
-        <summary type="html"><![CDATA[A summary of sessions at the first Data Engineering Open Forum at Netflix on April 18th, 2024]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Execute commands by sending JSON? Learn how unsafe deserialization vulnerabilities work in Ruby projects]]></title>
-        <id>https://github.blog/?p=78534</id>
-        <link href="https://github.blog/2024-06-20-execute-commands-by-sending-json-learn-how-unsafe-deserialization-vulnerabilities-work-in-ruby-projects/"/>
-        <updated>2024-06-20T15:00:48.000Z</updated>
-        <summary type="html"><![CDATA[Can an attacker execute arbitrary commands on a remote server just by sending JSON? Yes, if the running code contains unsafe deserialization vulnerabilities. But how is that possible? In this blog post, we’ll describe how unsafe deserialization vulnerabilities work and how you can detect them in Ruby projects.
-The post Execute commands by sending JSON? Learn how unsafe deserialization vulnerabilities work in Ruby projects appeared first on The GitHub Blog.]]></summary>
-        <author>
-            <name>Peter Stöckli</name>
         </author>
     </entry>
 </feed>
