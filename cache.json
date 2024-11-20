@@ -6,34 +6,34 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
-          "id": "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html",
+          "id": "http://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html",
           "author": null,
-          "description": "Posted by Chrome Root Program, Chrome Security Team\n\n    \n.code {\n    font-family: \"Courier New\", Courier, monospace;\n    font-size: 11.8px;\n    font-weight: bold;\n    background-color: #f4f4f4;\n    padding: 10px;\n    border: 1px solid #ccc;\n    border-radius: 2px;\n    white-space: pre-wrap;\n    display: inline-block;\n    line-height: 12px;\n}\n.highlight {\n    color: red;\n}\n    \n\n\nThe Chrome Security Team prioritizes the security and privacy of Chrome’s users, and we are unwilling to compromise on these values.\n\n\nThe Chrome Root Program Policy states that CA certificates included in the Chrome Root Store must provide value to Chrome end users that exceeds the risk of their continued inclusion. It also describes many of the factors we consider significant when CA Owners disclose and respond …",
-          "link": "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html",
-          "publishedOn": "2024-06-27T17:16:00.000Z",
-          "wordCount": 6438,
-          "title": "Sustaining Digital Certificate Security - Entrust Certificate Distrust",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+          "description": "Posted by Alex Rebert and Max Shavrick, Security Foundations, and Kinuko Yasuda, Core Developer\n\n\n\n\n\nAttackers regularly exploit spatial memory safety vulnerabilities, which occur when code accesses a memory allocation outside of its intended bounds, to compromise systems and sensitive data. These vulnerabilities represent a major security risk to users. \n\n\n\nBased on an analysis of in-the-wild exploits tracked by Google's Project Zero, spatial safety vulnerabilities represent 40% of in-the-wild memory safety exploits over the past decade:\n\n\n\nBreakdown of memory safety CVEs exploited in the wild by vulnerability class.1\nGoogle is taking a comprehensive approach to memory safety. A key element of our strategy focuses on Safe Coding and using memory-safe languages in new code. This leads to a…",
+          "link": "http://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html",
+          "publishedOn": "2024-11-15T17:42:00.015Z",
+          "wordCount": 6923,
+          "title": "Retrofitting spatial safety to hundreds of millions of lines of C++",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
         },
         {
-          "id": "http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html",
+          "id": "http://security.googleblog.com/2024/11/new-real-time-protections-on-Android.html",
           "author": null,
-          "description": "Marios Pomonis, Software Engineer\n\n\nGoogle is committed to enhancing the security of open-source technologies, especially those that make up the foundation for many of our products, like Linux and KVM. To this end we are excited to announce the launch of kvmCTF, a vulnerability reward program (VRP) for the Kernel-based Virtual Machine (KVM) hypervisor first announced in October 2023.\n\n\n\n\n\nKVM is a robust hypervisor with over 15 years of open-source development and is widely used throughout the consumer and enterprise landscape, including platforms such as Android and Google Cloud. Google is an active contributor to the project and we designed kvmCTF as a collaborative way to help identify & remediate vulnerabilities and further harden this fundamental security boundary. \n\n\n\n\n\nSimilar to ke…",
-          "link": "http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html",
-          "publishedOn": "2024-06-27T17:12:00.004Z",
-          "wordCount": 6867,
-          "title": "Virtual Escape; Real Reward: Introducing Google’s kvmCTF",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+          "description": "Posted by Lyubov Farafonova, Product Manager and Steve Kafka, Group Product Manager, Android\n\n\nUser safety is at the heart of everything we do at Google. Our mission to make technology helpful for everyone means building features that protect you while keeping your privacy top of mind. From Gmail’s defenses that stop more than 99.9% of spam, phishing and malware, to Google Messages’ advanced security that protects users from 2 billion suspicious messages a month and beyond, we're constantly developing and expanding protection features that help keep you safe.\n\n\nWe're introducing two new real-time protection features that enhance your safety, all while safeguarding your privacy: Scam Detection in Phone by Google to protect you from scams and fraud, and Google Play Protect live threat detect…",
+          "link": "http://security.googleblog.com/2024/11/new-real-time-protections-on-Android.html",
+          "publishedOn": "2024-11-13T17:59:00.001Z",
+          "wordCount": 5555,
+          "title": "Safer with Google: New intelligent, real-time protections on Android to keep you safe",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
         },
         {
-          "id": "http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html",
+          "id": "http://security.googleblog.com/2024/10/5-new-protections-on-google-messages.html",
           "author": null,
-          "description": "Oliver Chang, Jonathan Metzman, OSS-Fuzz and Alex Rebert, Security Engineering\n\n\n\n\n\n\nThe US Defense Advanced Research Projects Agency, DARPA, recently kicked off a two-year AI Cyber Challenge (AIxCC), inviting top AI and cybersecurity experts to design new AI systems to help secure major open source projects which our critical infrastructure relies upon. As AI continues to grow, it’s crucial to invest in AI tools for Defenders, and this competition will help advance technology to do so. \n\n\n\n\n\nGoogle’s OSS-Fuzz and Security Engineering teams have been excited to assist AIxCC organizers in designing their challenges and competition framework. We also playtested the competition by building a Cyber Reasoning System (CRS) tackling DARPA’s exemplar challenge. \n\n\n\n\n\nThis blog post will share our …",
-          "link": "http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html",
-          "publishedOn": "2024-06-25T12:57:00.001Z",
-          "wordCount": 13161,
-          "title": "Hacking for Defenders: approaches to DARPA’s AI Cyber Challenge",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
+          "description": "Posted by Jan Jedrzejowicz, Director of Product, Android and Business Communications; Alberto Pastor Nieto, Sr. Product Manager Google Messages and RCS Spam and Abuse; Stephan Somogyi, Product Lead, User Protection; Branden Archer, Software Engineer\n\n\nEvery day, over a billion people use Google Messages to communicate. That’s why we’ve made security a top priority, building in powerful on-device, AI-powered filters and advanced security that protects users from 2 billion suspicious messages a month. With end-to-end encrypted1 RCS conversations, you can communicate privately with other Google Messages RCS users. And we’re not stopping there. We're committed to constantly developing new controls and features to make your conversations on Google Messages even more secure and private.\n\n\nAs par…",
+          "link": "http://security.googleblog.com/2024/10/5-new-protections-on-google-messages.html",
+          "publishedOn": "2024-10-22T16:59:00.001Z",
+          "wordCount": 5636,
+          "title": "5 new protections on Google Messages to help keep you safe",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
         }
       ]
     },
@@ -41,479 +41,7 @@
       "title": "Google Testing Blog",
       "feedUrl": "http://googletesting.blogspot.com/atom.xml",
       "siteUrl": "http://testing.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html",
-          "author": null,
-          "description": "This is another post in our Code Health series. A version of this post originally appeared in Google bathrooms worldwide as a Google Testing on the Toilet episode. You can download a printer-friendly version to display in your office.\n\n\n\n\nBy Elliotte Rusty Harold\n\n\nNote: A “pull request” refers to one self-contained change that has been submitted to version control or which is undergoing code review. At Google, this is referred to as a“CL”, which is short for “changelist”.\n\n\nPrefer small, focused pull requests that do exactly one thing each. Why? Several reasons:\n\n\nSmall pull requests are easier to review. A mistake in a focused pull request is more obvious. In a 40 file pull request that does several things, would you notice that one if statement had reversed the logic it should have and …",
-          "link": "http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html",
-          "publishedOn": "2024-07-16T13:00:00.000Z",
-          "wordCount": 8229,
-          "title": "In Praise of Small Pull Requests",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNWyw4Y5_hwMmvzu2TQN_NRQe6-nor1zoNerbGFZMkuXilBwORhKLK4Cf75dRPb_c_xrgglRKORxnGEMbEzIhylpLol-Z0DvG047859hcp2m3ZB1TXgQAbFp4rAJ7w1TsYsb7ZNw/s1600/googlelogo_color_200x200.png"
-        }
-      ]
-    },
-    {
-      "title": "Changelog",
-      "feedUrl": "https://changelog.com/feed",
-      "siteUrl": "https://changelog.com/",
-      "articles": [
-        {
-          "id": "changelog.com/16/2500",
-          "author": null,
-          "description": "Brendan Gregg details how eBPF can help us have no more blue Fridays, Misty De Meo thinks  GitHub is starting to feel like legacy software, Gavin D. Howard does not want Rust to be used for everything, The Notion team published a deep dive into how they used the WASM version of SQLite to improve browser performance & Gregor Ojstersek writes up how to build good relationships inside and outside your engineering teams.",
-          "link": "https://changelog.com/news/104",
-          "publishedOn": "2024-07-22T21:15:00.000Z",
-          "wordCount": null,
-          "title": "Windows 3.1 keeps Southwest flying high",
-          "itunes": {
-            "duration": "08:17"
-          },
-          "enclosure": {
-            "type": "audio/mpeg",
-            "length": "8123346",
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/104/changelog-news-104.mp3"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/17/2496",
-          "author": null,
-          "description": "Nick Janetakis is back and this time we're talking about TUIs (text-based user interfaces) — some we've tried and some we plan to try. All are collected from Justin Garrison's Awesome TUIs repo on GitHub. This episode is \"AI free.\"",
-          "link": "https://changelog.com/friends/53",
-          "publishedOn": "2024-07-19T21:00:00.000Z",
-          "wordCount": null,
-          "title": "There’s a TUI for that",
-          "itunes": {
-            "duration": "1:53:12"
-          },
-          "enclosure": {
-            "type": "audio/mpeg",
-            "length": "108844281",
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/53/changelog--friends-53.mp3"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/14/2453",
-          "author": null,
-          "description": "GitLab has changed a lot over the past 8 years and so has Abubakar. Starting in the help desk he's seen a lot and takes us through GitLab's and his progression.",
-          "link": "https://changelog.com/shipit/113",
-          "publishedOn": "2024-07-19T16:40:00.000Z",
-          "wordCount": null,
-          "title": "GitLab's infrastructure",
-          "itunes": {
-            "duration": "1:00:39"
-          },
-          "enclosure": {
-            "type": "audio/mpeg",
-            "length": "58445813",
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/113/ship-it-113.mp3"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/6/2486",
-          "author": null,
-          "description": "KBall and returning guest Tejas Kumar dive into the topic of building LLM agents using JavaScript. What they are, how they can be useful (including how Tejas used home-built agents to double his podcasting productivity) & how to get started building and running your own agents, even all on your own device with local models.\nLeave us a comment\nChangelog++ members save 7 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nTejas Kumar – Twitter, GitHub\nKevin Ball – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nBringing the vibe\nAndrew Ng on Agentic workflows\nOllama\nMixtral 8x 22b\nStately Agent\nVercel AI SDK\nTejas’s talk on rebuilding React\nHugging Face\nJupyter Notebooks\nDatastax\nLangflow\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/331",
-          "publishedOn": "2024-07-18T18:30:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 331: Building LLM agents in JS",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/331/js-party-331.mp3",
-            "length": "57551138",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/2/2445",
-          "author": null,
-          "description": "Jesús Espino from Mattermost tells Natalie all about (the first six of) his 10 “aha moments” he had reading the Go source code. Part 2 (with the rest of his aha moments) coming soon!\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\n\nFeaturing:\n\nJesús Espino – Twitter, GitHub\nNatalie Pistunovich – Twitter, GitHub\n\nShow Notes:\n\nDissecting slices, maps and channels in Go (at fosdem)\nThe secret life of a goroutine\nUnderstanding the go compiler\nGo compiler inliner overhaul\nMr. Meeseeks\nTinyGo\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/323",
-          "publishedOn": "2024-07-18T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 323: Aha moments reading Go's source: Part 1",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/323/go-time-323.mp3",
-            "length": "45259336",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/7/2497",
-          "author": null,
-          "description": "In the midst of the demos & discussion about OpenAI’s GPT-4o voice assistant, Kyutai swooped in to release the first real-time AI voice assistant model and a pretty slick demo (Moshi). Chris & Daniel discuss what this more open approach to a voice assistant might catalyze. They also discuss recent changes to Gartner’s ranking of GenAI on their hype cycle.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nPlumb – Low-code AI pipeline builder that helps you build complex AI pipelines fast. Easily create AI pipelines using their node-based editor. Iterate and deploy faster and more reliably than coding by hand, without sacrificing control.\n\nMotific – Accelerate your GenAI adoption journey. Rapidly deliver trustworthy GenAI assistants. Learn more at motific.ai\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nKyutai\nKyutai keynote video\nGartner Hype Cycle for AI\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/278",
-          "publishedOn": "2024-07-18T12:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 278: The first real-time voice assistant",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/278/practical-ai-278.mp3",
-            "length": "41844849",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/1/2494",
-          "author": null,
-          "description": "Benn Stancil’s weekly Substack on data and technology provides a fascinating perspective on the modern data stack & the industry building it. On this episode, Benn joins Jerod to dissect a few of his essays, discuss opportunities he sees during this slowdown & discuss why he thinks maybe we should disband the analytics team.\nLeave us a comment\nChangelog++ members save 13 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nBenn Stancil – Twitter, LinkedIn\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nBenn’s Substack\nIt’s time to build\ngithub.com/dbt-labs/dbt-core\nDisband the analytics team\nA gambler’s guide to giving talks\ngilesbowkett/archaeopteryx\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/podcast/600",
-          "publishedOn": "2024-07-17T18:15:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 600: What even is the modern data stack",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/600/the-changelog-600.mp3",
-            "length": "69412908",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/16/2495",
-          "author": null,
-          "description": "Marcus J. Ranum’s 2005 post on dumb ideas in computer security still holds up, Barry Jones argues why story points are useless, Posting is an HTTP client as a TUI, Varnish ceator Poul-Henning Kamp (phk) reflects on ten years of working on the HTTP cache & es-tookit is a major upgrade to Lodash.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/103",
-          "publishedOn": "2024-07-15T19:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 103: The six dumbest ideas in computer security",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/103/changelog-news-103.mp3",
-            "length": "8373818",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/17/2493",
-          "author": null,
-          "description": "Shawn “swyx” Wang is back to talk with us about the state of DevRel according to ZIRP (the Zero Interest Rate Phenomenon), the data that backs up the rise and fall of job openings, whether or not DevRel is dead or dying, speculation of the near-term arrival of AGI, AI Engineering as the last job standing, the innovation from Cognition with Devin as well as their mis-steps during Devin’s launch, and what’s to come in the next innovation round of AI.\nLeave us a comment\nChangelog++ members get a bonus 16 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to fin…",
-          "link": "https://changelog.com/friends/52",
-          "publishedOn": "2024-07-12T21:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog & Friends 52: Last DevRel standing",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/52/changelog--friends-52.mp3",
-            "length": "89825522",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/14/2480",
-          "author": null,
-          "description": "Git was designed to be distributed but there is a lot of gravity around GitHub. What does the model look like for a business that encourages you to run your own git server and what does the backend for gitea.com look like?\nLeave us a comment\nChangelog++ members save 9 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n\nFeaturing:\n\nMatti Ranta – Twitter, GitHub\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nIntro links\nSony BMG rootkit\nThe longest fast\nInterview\ngitea\nxgo\nact\nOutro\ngit extras\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/112",
-          "publishedOn": "2024-07-12T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 112: Spilling the git tea",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/112/ship-it-112.mp3",
-            "length": "70302671",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/1/2465",
-          "author": null,
-          "description": "Paul Copplestone, CEO of Supabase (the meme-lord himself), joins the show to take us on the journey of Supabase leading Postgres for life, and how it all starts with Postgres as the base-layer substrate for the entire Supabase platform. They’re laser focused on the drive ahead, not the rear-view mirror.\nDisclosure: Adam and Jerod are angel investors in Supabase.\nLeave us a comment\nChangelog++ members get a bonus 5 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n…",
-          "link": "https://changelog.com/podcast/599",
-          "publishedOn": "2024-07-11T16:40:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 599: It all starts with Postgres",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/599/the-changelog-599.mp3",
-            "length": "91165282",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/6/2474",
-          "author": null,
-          "description": "KBall takes another dive into recent hot topics around reactivity and build systems, this time with three members of the Ember core team. They also talk about some of the reasons why the Ember community has been so long lived, how thinking about upgradeability leads to universality, and how features first built specifically for frameworks make their way into the language specification or universal libraries.\nLeave us a comment\nChangelog++ members get a bonus 16 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\n\nFeaturing:\n\nChris Manson – Twitter, GitHub, Website\nChris Thoburn – Twitter, GitHub, LinkedIn, Website\nEdward Faulkner – Twitter, GitHub, LinkedIn, Website\nKevin Ball – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nAngular moves fast without breaking things\nShould web development need a build step?\nEmbroider\nEmberData\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/330",
-          "publishedOn": "2024-07-11T16:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 330: The Ember take on recent hot topics",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/330/js-party-330.mp3",
-            "length": "80083522",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/7/2491",
-          "author": null,
-          "description": "Daniel & Chris explore the advantages of vector databases with Roie Schwaber-Cohen of Pinecone.  Roie starts with a very lucid explanation of why you need a vector database in your machine learning pipeline, and then goes on to discuss Pinecone’s vector database, designed to facilitate efficient storage, retrieval, and management of vector data.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nPlumb – Low-code AI pipeline builder that helps you build complex AI pipelines fast. Easily create AI pipelines using their node-based editor. Iterate and deploy faster and more reliably than coding by hand, without sacrificing control.\n\n\nFeaturing:\n\nRoie Schwaber-Cohen – Twitter, GitHub, LinkedIn\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nPinecone\nPinecone | Blog\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/277",
-          "publishedOn": "2024-07-10T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 277: Vectoring in on Pinecone",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/277/practical-ai-277.mp3",
-            "length": "42649542",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/2/2492",
-          "author": null,
-          "description": "Mat Ryer has been writing HTTP services in Go for more than 13 years. Needless to say, he’s learned a lot along the way. Today, Johnny & Ian sit down with Mat to ask him all about it.\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nJohnny Boursiquot – Twitter, GitHub, Website\nMat Ryer – Twitter, GitHub, LinkedIn, Website\nIan Lopshire – Twitter, GitHub\n\nShow Notes:\n\nHow I write HTTP services in Go after 13 years\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/322",
-          "publishedOn": "2024-07-09T16:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 322: How Mat writes HTTP services in Go",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/322/go-time-322.mp3",
-            "length": "68796416",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/16/2488",
-          "author": null,
-          "description": "Marcus Buffett writes his younger self programming advice, Swyx asks and answers whether or not DevRel is dead, the Ghost team opens up their ActivityPub server, Pongo is like MongoDB but on Postgres, Jack Kelly is funding Ladybird because he can’t fund Firefox & Hyrum’s Law.\nLeave us a comment\nChangelog++ members save 1 minute on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/102",
-          "publishedOn": "2024-07-08T19:10:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 102: Programming advice for my younger self",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/102/changelog-news-102.mp3",
-            "length": "8620100",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/14/2471",
-          "author": null,
-          "description": "Gareth Greenaway from the Salt project joins us for a trip down memory lane with configuration management and why open source projects have changed over the past decade.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n\nFeaturing:\n\nGareth Greenaway – Mastodon, GitHub\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nInterview\nGareth Greenaway\nSCaLE\nSalt project\nOutro\nThe serverless illusion\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/111",
-          "publishedOn": "2024-07-06T14:00:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 111: What happened to open source",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/111/ship-it-111.mp3",
-            "length": "69317861",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/17/2478",
-          "author": null,
-          "description": "Adam & Jerod discuss the news! But first, we discuss how you can keep up with the software world (good question, Tyler Boyd!) On the docket: Developer job postings trend, the Ladybird Browser Initiative, the Polyfill.js supply chain attack & is the future self-hosted?\nLeave us a comment\nChangelog++ members get a bonus 15 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n1Password – Build securely with 1Password - 1Password simplifies how you securely use, manage, and integrate developer credentials. Manage SSH keys and sign Git commits. Access secrets stored in 1Password. Automate administrative tasks. Integrate with third-party tools. Also, check out our INFRASTRUCTURE.md file for more details on how we do secrets with 1Password.\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nSoftware Development Job Postings on Indeed in the United States\nAnnouncing the Ladybird Browser Initiative\nChris Wanstrath’s announcement\nPolyfill supply chain attack hits 100K+ sites\nThe future is self-hosted\nBONUS++\nDoggo – CLI DNS client for humans\nDoggo on Socket\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/51",
-          "publishedOn": "2024-07-05T17:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog & Friends 51: A different kind of rug pull",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/51/changelog--friends-51.mp3",
-            "length": "86176247",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/6/2458",
-          "author": null,
-          "description": "Philipp Burckhardt, Athan Reines & the team behind stdlib.io believe in a future in which the web is a preferred environment for numerical computation. They’ve been working toward building that future for over a decade. Thanks to listener, Brian Zelip, Jerod sits down with Philipp to learn all about this excellent effort: where it’s been & where it’s headed.\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nChangelog News – A podcast+newsletter combo that’s brief, entertaining & always on-point. Subscribe today.\n\n\nFeaturing:\n\nPhilipp Burckhardt – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nstdlib.io\nstdlib on GitHub\nTake the Community Survey!\nRequest an episode!\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/329",
-          "publishedOn": "2024-07-04T14:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 329: A standard library for JavaScript",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/329/js-party-329.mp3",
-            "length": "49748595",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/2/2479",
-          "author": null,
-          "description": "Dependencies! We need them, but how do we use them effectively and safely? In this week’s episode Kris is joined by Ian and Johnny to discuss the polyfill.io supply chain attack, the history of dependency management and usage in Go, and the Go Proverb that “a little copying is better than a little dependency”. Of course, we wrap up the episode with some Unpopular Opinions!\nLeave us a comment\nChangelog++ members save 5 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\n\nFeaturing:\n\nKris Brandow – Twitter, GitHub\nJohnny Boursiquot – Twitter, GitHub, Website\nIan Lopshire – Twitter, GitHub\n\nShow Notes:\n\nPolyfill.io supply chain attack hits 100,000+ websites — all you need to know\nHow Go Mitigates Supply Chain Attacks\nGo Proverbs\nA little copying is better than a little dependency\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/321",
-          "publishedOn": "2024-07-03T20:00:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 321: Dependencies are dangerous",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/321/go-time-321.mp3",
-            "length": "61580911",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/1/2464",
-          "author": null,
-          "description": "Carol Lee (Clinical Scientist) shares her research on code review anxiety. We dive deep into her recent research paper “Understanding and Effectively Mitigating Code Review Anxiety”. We get into all the nooks and crannies of this topic — common code review myths, strategies for coping, the need for awareness and self-reflection, the value of exposure and practice to build confidence, the importance of team dynamics, respect, empathy, and connection, and more. This show is jam-packed with goodies for everyone…and we even give a nod to the work we did on our podcast Brain Science.\nLeave us a comment\nChangelog++ members get a bonus 3 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the on…",
-          "link": "https://changelog.com/podcast/598",
-          "publishedOn": "2024-07-03T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 598: Code review anxiety",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/598/the-changelog-598.mp3",
-            "length": "69399830",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/7/2477",
-          "author": null,
-          "description": "We’ve had representatives from Stanford’s Institute for Human-Centered Artificial Intelligence (HAI) on the show in the past, but we were super excited to talk through their 2024 AI Index Report after such a crazy year in AI! Nestor from HAI joins us in this episode to talk about some of the main takeaways including how AI makes workers more productive, the US is increasing regulations sharply, and industry continues to dominate frontier AI research.\nLeave us a comment\nChangelog++ members save 3 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nPlumb – Low-code AI pipeline builder that helps you build complex AI pipelines fast. Easily create AI pipelines using their node-based editor. Iterate and deploy faster and more reliably than coding by hand, without sacrificing control.\n\n\nFeaturing:\n\nNestor Maslej – Twitter, LinkedIn\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nStanford HAI\n2024 AI Index Report\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/276",
-          "publishedOn": "2024-07-02T19:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 276:  Stanford's AI Index Report 2024",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/276/practical-ai-276.mp3",
-            "length": "45413865",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/16/2476",
-          "author": null,
-          "description": "Software developer jobs are trending down, the creator of dotenv creates a better dotenv, the Chrome team puts Gemini Nano AI model right inside your browser, a pollyfill.js supply chain attack hits 100k+ sites & Steph Ango asks, “What can we remove?”\nLeave us a comment\nChangelog++ members support our work, get closer to the metal, and make the ads disappear. Join today!\nSponsors:\n\n  \nSentry – Code breaks, fix it faster. Don’t just observe. Take action. Sentry is the only app monitoring platform built for developers that gets to the root cause for every issue. 90,000+ growing teams use sentry to find problems fast. Use the code CHANGELOG when you sign up to get $100 OFF the team plan.\n\n\nFeaturing:\n\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\nAll links mentioned in this episode of Changelog News (and more) are in its companion newsletter.\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/news/101",
-          "publishedOn": "2024-07-01T19:15:00.000Z",
-          "wordCount": null,
-          "title": "Changelog News 101: The scariest chart in all of software",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/news/101/changelog-news-101.mp3",
-            "length": "8169287",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/14/2426",
-          "author": null,
-          "description": "Bailey Hayes & Taylor Thomas from Cosmonic join the show for a look at WebAssembly Standard Interfaces (WASI) and trade-offs for portable interfaces.\nLeave us a comment\nChangelog++ members save 12 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\n\nFeaturing:\n\nBailey Hayes – Twitter, GitHub, LinkedIn\nTaylor Thomas – Twitter, GitHub\nJustin Garrison – Twitter, GitHub, LinkedIn\nAutumn Nash – Twitter, GitHub, LinkedIn\n\nShow Notes:\nRequest For Comments (RFC)\nAbout RFCs\nCommon network RFCs\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/shipit/110",
-          "publishedOn": "2024-06-29T12:15:00.000Z",
-          "wordCount": null,
-          "title": "Ship It! 110: The Kubernetes of Lambda",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/110/ship-it-110.mp3",
-            "length": "74073946",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/17/2469",
-          "author": null,
-          "description": "Welcome to Kaizen 15! We go deep on the big Changelog News redesign, give shout outs to folks who’ve helped us along the way & Gerhard takes us on his journey to turn Jerod’s pipe dream into a reality!\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nCronitor – Cronitor helps you understand your cron jobs. Capture the status, metrics, and output from every cron job and background process. Name and organize each job, and ensure the right people are alerted when something goes wrong.\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, and so many more – the developers at these teams trust Retool as the platform to build their internal tools. Try it free at retool.com/changelog\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nGerhard Lazu – Mastodon, Twitter, GitHub, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\nAdam Stacoviak – Mastodon, Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nDiscussion #511: 🎧 Kaizen 15 - changelog.com/friends/50\nNavel gazing on Wikipedia\nOmphaloskepsis on #define: game theory, dude\nPull Request #510: News redesign\nPull Request #517: 29 reasons to subscribe to Changelog News\nPull Request #513: Remove # from episode numbers in commit messages\nPull Request #516: Trace GitHub Actions Workflows\n\nSupport for HTTPS tracing protocol\ncorentinmusard/otel-cicd-action\nworldpagespeed.fly.dev\npipedream.changelog.com\n\n🎬 Let’s build a CDN\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/friends/50",
-          "publishedOn": "2024-06-28T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog & Friends 50: Kaizen! NOT a pipe dream",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/friends/50/changelog--friends-50.mp3",
-            "length": "95557105",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/6/2468",
-          "author": null,
-          "description": "Jerod sits down with React Native aficionado, Simon Grimm, to catch up on everyone’s favorite native app platform & learn about Expo, which Simon thinks is the way forward for devs building with React Native.\nLeave us a comment\nChangelog++ members save 10 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nNeon – Fleets of Postgres! Enterprises use Neon to operate hundreds of thousands of Postgres databases: Automated, instant provisioning of the world’s most popular database.\n\n\nFeaturing:\n\nSimon Grimm – Twitter, GitHub, LinkedIn, Website\nJerod Santo – Mastodon, Twitter, GitHub, LinkedIn\n\nShow Notes:\n\nReact Native\nExpo\nGalaxies.dev\nSimon’s YouTube channel\nTamagui — React Native + Web UI kit\nfacebook/react-strict-dom\nEvan Bacon\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/jsparty/328",
-          "publishedOn": "2024-06-27T14:00:00.000Z",
-          "wordCount": null,
-          "title": "JS Party 328: React Native the Expo way",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/jsparty/328/js-party-328.mp3",
-            "length": "56497995",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/1/2470",
-          "author": null,
-          "description": "Predrag Gruevski and Chris Krycho joined the show to talk about SemVer. We explore the challenges and the advantages of semantic versioning (aka SemVer), the need for improving the tooling around SemVer, where semantic versioning really shines and where it’s needed, Types and SemVer, whether or not there’s a better way, and why it’s not as simple as just opting out.\nLeave us a comment\nChangelog++ members get a bonus 7 minutes at the end of this episode and zero ads. Join today!\nSponsors:\n\n  \nSocket – Secure your supply chain and ship with confidence. Install the GitHub app, book a demo or learn more\n\nRetool – The low-code platform for developers to build internal tools — Some of the best teams out there trust Retool…Brex, Coinbase, Plaid, Doordash, LegalGenius, Amazon, Allbirds, Peloton, a…",
-          "link": "https://changelog.com/podcast/597",
-          "publishedOn": "2024-06-26T14:30:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Interviews 597: MAJOR.SEMVER.PATCH",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/597/the-changelog-597.mp3",
-            "length": "88627065",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/7/2473",
-          "author": null,
-          "description": "Daniel & Chris engage in an impromptu discussion of the state of AI in the enterprise. Then they dive into the recent Apple Intelligence announcement to explore its implications.  Finally, Daniel leads a deep dive into a new topic - Advanced RAG - covering everything you need to know to be practical & productive.\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nNeo4j – Is your code getting dragged down by JOINs and long query times? The problem might be your database…Try simplifying the complex with graphs. Stop asking relational databases to do more than they were made for. Graphs work well for use cases with lots of data connections like supply chain, fraud detection, real-time analytics, and genAI. With Neo4j, you can code in your favorite programming language and against any driver. Plus, it’s easy to integrate into your tech stack.\n\nPlumb – Low-code AI pipeline builder that helps you build complex AI pipelines fast. Easily create AI pipelines using their node-based editor. Iterate and deploy faster and more reliably than coding by hand, without sacrificing control.\n\nBackblaze – Unlimited cloud backup for Macs, PCs, and businesses for just $99/year. Easily protect business data through a centrally managed admin. Protect all the data on your machines automatically. Easy to deploy across multiple workstations with various deployment options.\n\n\nFeaturing:\n\nChris Benson – Twitter, GitHub, LinkedIn, Website\nDaniel Whitenack – Twitter, GitHub, Website\n\nShow Notes:\n\nApple Intelligence\nIntroducing Apple Intelligence, the personal intelligence system that puts powerful generative models at the core of iPhone, iPad, and Mac\nThe top AI features Apple announced at WWDC 2024\nHybrid Search: Combining BM25 and Semantic Search for Better Results with Langchain\nAdvanced RAG: Precise Zero-Shot Dense Retrieval with HyDE\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/practicalai/275",
-          "publishedOn": "2024-06-25T20:45:00.000Z",
-          "wordCount": null,
-          "title": "Practical AI 275: Apple Intelligence & Advanced RAG",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/practicalai/275/practical-ai-275.mp3",
-            "length": "43531401",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "changelog.com/2/2389",
-          "author": null,
-          "description": "Our award winning worthy survey game show is back, this time Mat Ryer hosts it live on stage at GopherCon EU Berlin 2024! Join in & play along as we see which team can better guess what these GopherCon gophers had to say!\nLeave us a comment\nChangelog++ members save 6 minutes on this episode because they made the ads disappear. Join today!\nSponsors:\n\n  \nSpeakeasy – Production-ready, Enterprise-resilient, best-in-class SDKs crafted in minutes. Speakeasy takes care of the entire SDK workflow to save you significant time, delivering SDKs to your customers in minutes with just a few clicks! Create your first SDK for free!\n\nFly.io – The home of Changelog.com — Deploy your apps and databases close to your users. In minutes you can run your Ruby, Go, Node, Deno, Python, or Elixir app (and databases!) all over the world. No ops required. Learn more at fly.io/changelog and check out the speedrun in their docs.\n\n\nFeaturing:\n\nCameron Balahan – Twitter\nChioma Onyekpere – Twitter, GitHub, LinkedIn\nRon Evans – Mastodon, Twitter, GitHub, Website\nJohnny Boursiquot – Twitter, GitHub, Website\nTravis Cline – Twitter, GitHub\nPaula Babbicola – Mastodon, Twitter, GitHub\nMat Ryer – Twitter, GitHub, LinkedIn, Website\n\nShow Notes:\n\nMoar dev game shows!\nSomething missing or broken? PRs welcome!",
-          "link": "https://changelog.com/gotime/320",
-          "publishedOn": "2024-06-25T17:30:00.000Z",
-          "wordCount": null,
-          "title": "Go Time 320: Gophers Say! GopherCon EU Berlin 2024",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/320/go-time-320.mp3",
-            "length": "39877752",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Project Zero",
@@ -521,14 +49,24 @@
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
         {
-          "id": "https://googleprojectzero.blogspot.com/2024/06/the-windows-registry-adventure-3.html",
+          "id": "https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html",
           "author": null,
-          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=4mNYFHt_IKFsPe52toizHz0e5qzIIUg9OvSRGeMDk3I);\n\n    .lst-kix_80vdbxrca7qi-0>li:before {\n        content: \"\\0025cf   \"\n    }\n\n    ul.lst-kix_pv42b0usiw40-7 {\n        list-style-type: none\n    }\n\n    ul.lst-kix_pv42b0usiw40-8 {\n        list-style-type: none\n    }\n\n    .lst-kix_80vdbxrca7qi-5>li:before {\n        content: \"\\0025a0   \"\n    }\n\n    .lst-kix_80vdbxrca7qi-4>li:before {\n        content: \"\\0025cb   \"\n    }\n\n    .lst-kix_80vdbxrca7qi-2>li:before {\n        content: \"\\0025a0   \"\n    }\n\n    .lst-kix_80vdbxrca7qi-3>li:before {\n        content: \"\\0025cf   \"\n    }\n\n    .lst-kix_80vdbxrca7qi-1>li:before {\n        content: \"\\0025cb   \"\n    }\n\n    ol.lst-kix_hmg5xw3mb42j-2.start {\n        counter-reset: lst-ctn-kix_hmg5xw3mb42j-2 0\n…",
-          "link": "https://googleprojectzero.blogspot.com/2024/06/the-windows-registry-adventure-3.html",
-          "publishedOn": "2024-06-27T16:51:00.000Z",
-          "wordCount": 12262,
-          "title": "The Windows Registry Adventure #3: Learning resources",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSh03bRXYAIjyvdZP3lSfXk0rpn0MEMFsNzqr7Xjw-Vrt0LhsC7iXeEYkdxTAKH1koDNwIz0_VB55VrczcLHWd_TAlDG4K6dUFzHEx6kRmNTRdEyOCbRKFPZbFhlLRvwT9EWbt1drI_64OwPv3vmv5nNwYZLDRwihV4gEX_imvhdf05RkEjwtDMP0TmSQ/w1200-h630-p-k-no-nu/image3.png"
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=DFQxm4rd7fRHgM9OTejWVT5Vho6BE7M80rHXEVKqXWegg2XYR88pwOsaJkfiF7cJqK1eFp2GJsVhlMR5BXOPGt79p-q8FYbnKzBwv5-1qoNCoVS-3WOVZC1FrhfZb5Vp);ol{margin:0;padding:0}table td,table th{padding:0}.UmcNyNBsWB-c12{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:12pt;font-family:\"Google Sans\";font-style:normal}.UmcNyNBsWB-c8{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left}.UmcNyNBsWB-c18{color:#000000;text-decoration:none;vertical-align:baseline;font-size:12pt;font-style:normal}.UmcNyNBsWB-c13{color:#000000;text-decoration:none;vertical-align:baseline;font-size:11pt;font-style:normal}.UmcNyNBsWB-c0{margin-left:36pt;padding-top:0pt;padding-bottom:0pt;line-height:1.5;text-al…",
+          "link": "https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html",
+          "publishedOn": "2024-11-01T15:12:00.003Z",
+          "wordCount": 5385,
+          "title": "From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code",
+          "imageUrl": null
+        },
+        {
+          "id": "https://googleprojectzero.blogspot.com/2024/10/the-windows-registry-adventure-4-hives.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=XGMkxXUZTA64h2imyzu79g);.lst-kix_xrbpc8tfqvva-7>li:before{content:\"\" counter(lst-ctn-kix_xrbpc8tfqvva-7,lower-latin) \". \"}.lst-kix_xrbpc8tfqvva-6>li:before{content:\"\" counter(lst-ctn-kix_xrbpc8tfqvva-6,decimal) \". \"}.lst-kix_phgwltrvdlzg-8>li{counter-increment:lst-ctn-kix_phgwltrvdlzg-8}.lst-kix_xrbpc8tfqvva-0>li:before{content:\"\" counter(lst-ctn-kix_xrbpc8tfqvva-0,decimal) \". \"}.lst-kix_xrbpc8tfqvva-8>li:before{content:\"\" counter(lst-ctn-kix_xrbpc8tfqvva-8,lower-roman) \". \"}.lst-kix_tidwaau4ppsg-2>li:before{content:\"\\0025a0   \"}.lst-kix_xrbpc8tfqvva-1>li:before{content:\"\" counter(lst-ctn-kix_xrbpc8tfqvva-1,lower-latin) \". \"}.lst-kix_tidwaau4ppsg-1>li:before{content:\"\\0025cb   \"}.lst-kix_xrbpc8tfqvva-2>li:before{content:\"\" coun…",
+          "link": "https://googleprojectzero.blogspot.com/2024/10/the-windows-registry-adventure-4-hives.html",
+          "publishedOn": "2024-10-25T17:30:00.001Z",
+          "wordCount": 12278,
+          "title": "The Windows Registry Adventure #4: Hives and the registry layout",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3DcA4NRlJwRBwZj_EfcUNKjvc_9LuRBEDgidTVSPDGLOqKyspZ1Xl3QNx3n9eXGTHLnRctQ49HyrBmXcRTc-_g2S_vBbm0Uo67bScEqCV15lcRWWb_eNVGb7K7bc9caSF0lKuRDH5GXlJsyMzZ6DqYVkR_JVP8wIYWuqAgUSuXM1x6BXcaJeAZWHADu8/w1200-h630-p-k-no-nu/image3.png"
         }
       ]
     },
@@ -536,28 +74,7 @@
       "title": "Mozilla Hacks – the Web developer blog",
       "feedUrl": "https://hacks.mozilla.org/feed/",
       "siteUrl": "https://hacks.mozilla.org/",
-      "articles": [
-        {
-          "id": "https://hacks.mozilla.org/?p=48167",
-          "author": "Christian Holler",
-          "description": "Process separation remains one of the most important parts of the Firefox security model and securing our IPC (Inter-Process Communication) interfaces is crucial to keep privileges in the different processes separated. We take a more detailed look at our newest tool for finding vulnerabilities in these interfaces – snapshot fuzzing.\nThe post Snapshots for IPC Fuzzing appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2024/06/snapshots-for-ipc-fuzzing/",
-          "publishedOn": "2024-06-27T16:18:49.000Z",
-          "wordCount": 1142,
-          "title": "Snapshots for IPC Fuzzing",
-          "imageUrl": "https://hacks.mozilla.org/wp-content/uploads/2024/06/snapshot-stack.webp"
-        },
-        {
-          "id": "https://hacks.mozilla.org/?p=48162",
-          "author": "Stephen Hood",
-          "description": "Today we’re proud to announce the next Mozilla Builders project: sqlite-vec. Led by independent developer Alex Garcia, this project brings vector search functionality to the beloved SQLite embedded database. Alex has been working on this problem for a while, and we think his latest approach will have a great impact by providing application developers with a powerful new tool for building Local AI applications.\nThe post Sponsoring sqlite-vec to enable more powerful Local AI applications appeared first on Mozilla Hacks - the Web developer blog.",
-          "link": "https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/",
-          "publishedOn": "2024-06-25T15:25:58.000Z",
-          "wordCount": 1150,
-          "title": "Sponsoring sqlite-vec to enable more powerful Local AI applications",
-          "imageUrl": "https://hacks.mozilla.org/wp-content/uploads/2024/06/sqlite-vec-transparent.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
@@ -565,164 +82,104 @@
       "siteUrl": "https://github.blog/",
       "articles": [
         {
-          "id": "https://github.blog/?p=78924",
-          "author": "Nick Hengeveld",
-          "description": "Solving and staying ahead of problems when scaling up a system of GitHub’s size is a delicate process. Here's a look at some of the tools in GitHub's toolbox, and how we’ve used them to solve problems.\nThe post How we improved availability through iterative simplification appeared first on The GitHub Blog.",
-          "link": "https://github.blog/engineering/engineering-principles/how-we-improved-availability-through-iterative-simplification/",
-          "publishedOn": "2024-07-23T17:00:19.000Z",
-          "wordCount": 3354,
-          "title": "How we improved availability through iterative simplification",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Productivity-DarkMode-2-1.png?fit=1200%2C630"
+          "id": "https://github.blog/?p=81135",
+          "author": "Martin Woodward",
+          "description": "Applications for the new GitHub Secure Open Source Fund are now open! Applications will be reviewed on a rolling basis until they close on January 7 at 11:59 pm PT. Programming and funding will begin in early 2025.\nThe post Announcing GitHub Secure Open Source Fund: Help secure the open source ecosystem for everyone appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/",
+          "publishedOn": "2024-11-19T17:00:35.000Z",
+          "wordCount": 3587,
+          "title": "Announcing GitHub Secure Open Source Fund: Help secure the open source ecosystem for everyone",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/11/github-secure-open-source-fund-header.png"
         },
         {
-          "id": "https://github.blog/?p=78805",
-          "author": "Sarah Vessels",
-          "description": "GitHub Staff Engineer Sarah Vessels discusses her philosophy of code review, what separates good code review from bad, her strategy for finding and reviewing code, and how to get the most from reviews of her own code.\nThe post How to review code effectively: A GitHub staff engineer’s philosophy appeared first on The GitHub Blog.",
-          "link": "https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/",
-          "publishedOn": "2024-07-23T16:00:05.000Z",
-          "wordCount": 5565,
-          "title": "How to review code effectively: A GitHub staff engineer’s philosophy",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-2-1.png"
+          "id": "https://github.blog/?p=81137",
+          "author": "Mario Rodriguez",
+          "description": "Microsoft and GitHub are committed to empowering developers around the world to innovate, collaborate, and create solutions that’ll shape the next generation of technology. \nThe post Software is a team sport: Building the future of software development together appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/company-news/software-is-a-team-sport-building-the-future-of-software-development-together/",
+          "publishedOn": "2024-11-18T17:00:18.000Z",
+          "wordCount": 4890,
+          "title": "Software is a team sport: Building the future of software development together",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/Enterprise-DarkMode-2-3.png"
         },
         {
-          "id": "https://github.blog/?p=78791",
-          "author": "Michael Stepankin",
-          "description": "In this blog post, we'll explain how we discovered three critical vulnerabilities in Kafka UI and how they can be exploited.\nThe post 3 ways to get Remote Code Execution in Kafka UI appeared first on The GitHub Blog.",
-          "link": "https://github.blog/security/vulnerability-research/3-ways-to-get-remote-code-execution-in-kafka-ui/",
-          "publishedOn": "2024-07-22T15:00:59.000Z",
-          "wordCount": 4141,
-          "title": "3 ways to get Remote Code Execution in Kafka UI",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Security-DarkMode-1-2.png"
+          "id": "https://github.blog/?p=81151",
+          "author": "Jared Bauer",
+          "description": "Findings in our latest study show that the quality of code written with GitHub Copilot is significantly more functional, readable, reliable, maintainable, and concise. \nThe post Does GitHub Copilot improve code quality? Here’s what the data says appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/",
+          "publishedOn": "2024-11-18T16:00:46.000Z",
+          "wordCount": 3430,
+          "title": "Does GitHub Copilot improve code quality? Here’s what the data says",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/11/Header.png"
         },
         {
-          "id": "https://github.blog/?p=78791",
-          "author": "Michael Stepankin",
-          "description": "In this blog post, we'll explain how we discovered three critical vulnerabilities in Kafka UI and how they can be exploited.\nThe post 3 ways to get Remote Code Execution in Kafka UI appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-07-22-3-ways-to-get-remote-code-execution-in-kafka-ui/",
-          "publishedOn": "2024-07-22T15:00:59.000Z",
-          "wordCount": 2995,
-          "title": "3 ways to get Remote Code Execution in Kafka UI",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Security-DarkMode-1-2.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/?p=78765",
-          "author": "Kevin Xu",
-          "description": "An interview with economic researchers who are applying causal inference techniques to analyze the effect of generative AI tools on software development activity.\nThe post How researchers are using GitHub Innovation Graph data to estimate the impact of ChatGPT appeared first on The GitHub Blog.",
-          "link": "https://github.blog/news-insights/policy-news-and-insights/how-researchers-are-using-github-innovation-graph-data-to-estimate-the-impact-of-chatgpt/",
-          "publishedOn": "2024-07-17T16:00:51.000Z",
-          "wordCount": 5094,
-          "title": "How researchers are using GitHub Innovation Graph data to estimate the impact of ChatGPT",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/09/screencapture-innovationgraph-github-2023-09-20-15_44_54-1.png"
-        },
-        {
-          "id": "https://github.blog/?p=78765",
-          "author": "Kevin Xu",
-          "description": "An interview with economic researchers who are applying causal inference techniques to analyze the effect of generative AI tools on software development activity.\nThe post How researchers are using GitHub Innovation Graph data to estimate the impact of ChatGPT appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-07-17-how-researchers-are-using-github-innovation-graph-data-to-estimate-the-impact-of-chatgpt/",
-          "publishedOn": "2024-07-17T16:00:51.000Z",
-          "wordCount": 4059,
-          "title": "How researchers are using GitHub Innovation Graph data to estimate the impact of ChatGPT",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/09/screencapture-innovationgraph-github-2023-09-20-15_44_54-1.png?fit=2400%2C1259"
-        },
-        {
-          "id": "https://github.blog/?p=78749",
+          "id": "https://github.blog/?p=81131",
           "author": "Jakub Oleksy",
-          "description": "In June, we experienced two incidents that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: June 2024 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/news-insights/company-news/github-availability-report-june-2024/",
-          "publishedOn": "2024-07-12T20:32:20.000Z",
-          "wordCount": 2286,
-          "title": "GitHub Availability Report: June 2024",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Enterprise-DarkMode-1.png?fit=1200%2C630"
+          "description": "In October, we experienced one incident that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: October 2024 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/company-news/github-availability-report-october-2024/",
+          "publishedOn": "2024-11-14T23:41:50.000Z",
+          "wordCount": 2251,
+          "title": "GitHub Availability Report: October 2024",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/09/1200x630-Enterprise-Unfurl-DARK-Inverto.png"
         },
         {
-          "id": "https://github.blog/?p=78749",
-          "author": "Jakub Oleksy",
-          "description": "In June, we experienced two incidents that resulted in degraded performance across GitHub services. \nThe post GitHub Availability Report: June 2024 appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-07-12-github-availability-report-june-2024/",
-          "publishedOn": "2024-07-12T20:32:20.000Z",
-          "wordCount": 1174,
-          "title": "GitHub Availability Report: June 2024",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Enterprise-DarkMode-1.png"
+          "id": "https://github.blog/?p=81120",
+          "author": "Klint Finley",
+          "description": "Developers tell us how GitHub Copilot and other AI coding tools are transforming their work and changing how they spend their days.\nThe post How developers spend the time they save thanks to AI coding tools appeared first on The GitHub Blog.",
+          "link": "https://github.blog/ai-and-ml/generative-ai/how-developers-spend-the-time-they-save-thanks-to-ai-coding-tools/",
+          "publishedOn": "2024-11-14T17:32:20.000Z",
+          "wordCount": 3613,
+          "title": "How developers spend the time they save thanks to AI coding tools",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/02/AI-DarkMode-3-1.png"
         },
         {
-          "id": "https://github.blog/?p=78742",
-          "author": "Peter Cihon",
-          "description": "Outcomes from the Partnership on AI and GitHub workshop.\nThe post Advancing responsible practices for open source AI appeared first on The GitHub Blog.",
-          "link": "https://github.blog/news-insights/policy-news-and-insights/advancing-responsible-practices-for-open-source-ai/",
-          "publishedOn": "2024-07-11T21:26:38.000Z",
-          "wordCount": 3261,
-          "title": "Advancing responsible practices for open source AI",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/06/AI-DarkMode-4.png?fit=1200%2C630"
+          "id": "https://github.blog/?p=80484",
+          "author": "Lee Reilly",
+          "description": "GitHub’s annual month-long game jam, where creativity knows no limits! Throughout November, dive into your favorite game engines, libraries, and programming languages to bring your wildest game ideas to life. Whether you're a seasoned dev or just getting started, it’s all about having fun and making something awesome!\nThe post Game Off 2024 theme announcement appeared first on The GitHub Blog.",
+          "link": "https://github.blog/open-source/game-off-2024-theme-announcement/",
+          "publishedOn": "2024-11-01T20:36:22.000Z",
+          "wordCount": 2761,
+          "title": "Game Off 2024 theme announcement",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/10/ggo.png"
         },
         {
-          "id": "https://github.blog/?p=78742",
-          "author": "Peter Cihon",
-          "description": "Outcomes from the Partnership on AI and GitHub workshop.\nThe post Advancing responsible practices for open source AI appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-07-11-advancing-responsible-practices-for-open-source-ai/",
-          "publishedOn": "2024-07-11T21:26:38.000Z",
-          "wordCount": 1189,
-          "title": "Advancing responsible practices for open source AI",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/06/AI-DarkMode-4.png"
+          "id": "https://github.blog/?p=81025",
+          "author": "Laura Lindeman",
+          "description": "The GitHub Awards celebrates the outstanding contributions and achievements in the developer community by honoring individuals, projects, and organizations for creating an outsized positive impact on the community.\nThe post Celebrating the GitHub Awards 2024 recipients 🎉 appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/company-news/celebrating-the-github-awards-2024-recipients/",
+          "publishedOn": "2024-10-30T21:30:54.000Z",
+          "wordCount": 3991,
+          "title": "Celebrating the GitHub Awards 2024 recipients 🎉",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/10/Proof_32365_BlogHeader_v1b.png"
         },
         {
-          "id": "https://github.blog/?p=78695",
-          "author": "Kendall Gassner",
-          "description": "Drag-and-drop is a highly interactive and visual interface. We often use drag-and-drop to perform tasks like uploading files, reordering browser bookmarks, or even moving a card in solitaire.\nThe post Exploring the challenges in creating an accessible sortable list (drag-and-drop) appeared first on The GitHub Blog.",
-          "link": "https://github.blog/engineering/user-experience/exploring-the-challenges-in-creating-an-accessible-sortable-list-drag-and-drop/",
-          "publishedOn": "2024-07-09T19:06:50.000Z",
-          "wordCount": 3562,
-          "title": "Exploring the challenges in creating an accessible sortable list (drag-and-drop)",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-3-1.png?fit=1200%2C630"
+          "id": "https://github.blog/?p=80735",
+          "author": "Mario Rodriguez",
+          "description": "Find out how we’re evolving GitHub and GitHub Copilot—and get access to the latest previews and GA releases.\nThe post New from Universe 2024: Get the latest previews and releases appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/product-news/universe-2024-previews-releases/",
+          "publishedOn": "2024-10-29T16:40:23.000Z",
+          "wordCount": 4628,
+          "title": "New from Universe 2024: Get the latest previews and releases",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/10/copilot-square.png"
         },
         {
-          "id": "https://github.blog/?p=78695",
-          "author": "Kendall Gassner",
-          "description": "Drag-and-drop is a highly interactive and visual interface. We often use drag-and-drop to perform tasks like uploading files, reordering browser bookmarks, or even moving a card in solitaire.\nThe post Exploring the challenges in creating an accessible sortable list (drag-and-drop) appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-07-09-exploring-the-challenges-in-creating-an-accessible-sortable-list-drag-and-drop/",
-          "publishedOn": "2024-07-09T19:06:50.000Z",
-          "wordCount": 2427,
-          "title": "Exploring the challenges in creating an accessible sortable list (drag-and-drop)",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-3-1.png"
+          "id": "https://github.blog/?p=80819",
+          "author": "Thomas Dohmke",
+          "description": "At GitHub Universe, we announced Anthropic’s Claude 3.5 Sonnet, Google’s Gemini 1.5 Pro, and OpenAI’s o1-preview and o1-mini are coming to GitHub Copilot—bringing a new level of choice to every developer. \nThe post Bringing developer choice to Copilot with Anthropic’s Claude 3.5 Sonnet, Google’s Gemini 1.5 Pro, and OpenAI’s o1-preview appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/product-news/bringing-developer-choice-to-copilot/",
+          "publishedOn": "2024-10-29T16:08:30.000Z",
+          "wordCount": 2977,
+          "title": "Bringing developer choice to Copilot with Anthropic’s Claude 3.5 Sonnet, Google’s Gemini 1.5 Pro, and OpenAI’s o1-preview",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/10/hero-image-github-universe-2024.png"
         },
         {
-          "id": "https://github.blog/?p=78658",
-          "author": "Kedasha Kerr",
-          "description": "The next step in our GitHub for Beginners series is learning how to add files and folders to your GitHub repository.\nThe post Beginner’s guide to GitHub: Uploading files and folders to GitHub appeared first on The GitHub Blog.",
-          "link": "https://github.blog/developer-skills/github/beginners-guide-to-github-uploading-files-and-folders-to-github/",
-          "publishedOn": "2024-07-08T13:00:51.000Z",
-          "wordCount": 3010,
-          "title": "Beginner’s guide to GitHub: Uploading files and folders to GitHub",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/GitHub-for-beginners.png?fit=1600%2C840"
-        },
-        {
-          "id": "https://github.blog/?p=78658",
-          "author": "Kedasha Kerr",
-          "description": "The next step in our GitHub for Beginners series is learning how to add files and folders to your GitHub repository.\nThe post Beginner’s guide to GitHub: Uploading files and folders to GitHub appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-07-08-beginners-guide-to-github-uploading-files-and-folders-to-github/",
-          "publishedOn": "2024-07-08T13:00:51.000Z",
-          "wordCount": 1850,
-          "title": "Beginner’s guide to GitHub: Uploading files and folders to GitHub",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/GitHub-for-beginners.png?fit=1600%2C840"
-        },
-        {
-          "id": "https://github.blog/?p=78606",
-          "author": "Man Yue Mo",
-          "description": "In this post, I'll exploit CVE-2024-3833, an object corruption bug in v8, the Javascript engine of Chrome, that allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site.\nThe post Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties appeared first on The GitHub Blog.",
-          "link": "https://github.blog/security/vulnerability-research/attack-of-the-clones-getting-rce-in-chromes-renderer-with-duplicate-object-properties/",
-          "publishedOn": "2024-06-26T16:00:53.000Z",
-          "wordCount": 7563,
-          "title": "Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Security-DarkMode-1-2.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/?p=78606",
-          "author": "Man Yue Mo",
-          "description": "In this post, I'll exploit CVE-2024-3833, an object corruption bug in v8, the Javascript engine of Chrome, that allows remote code execution (RCE) in the renderer sandbox of Chrome by a single visit to a malicious site.\nThe post Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties appeared first on The GitHub Blog.",
-          "link": "https://github.blog/2024-06-26-attack-of-the-clones-getting-rce-in-chromes-renderer-with-duplicate-object-properties/",
-          "publishedOn": "2024-06-26T16:00:53.000Z",
-          "wordCount": 6595,
-          "title": "Attack of the clones: Getting RCE in Chrome’s renderer with duplicate object properties",
-          "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Security-DarkMode-1-2.png?fit=1200%2C630"
+          "id": "https://github.blog/?p=80550",
+          "author": "GitHub Staff",
+          "description": "In this year’s Octoverse report, we study how public and open source activity on GitHub shows how AI is expanding as the global developer community surges in size. \nThe post Octoverse: AI leads Python to top language as the number of global developers surges appeared first on The GitHub Blog.",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-2024/",
+          "publishedOn": "2024-10-29T16:07:47.000Z",
+          "wordCount": 8577,
+          "title": "Octoverse: AI leads Python to top language as the number of global developers surges",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/10/image7.png"
         }
       ]
     },
@@ -730,7 +187,108 @@
       "title": "Building Nubank",
       "feedUrl": "https://building.nubank.com.br/feed/",
       "siteUrl": "https://building.nubank.com.br/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://building.nubank.com.br/?p=30785",
+          "author": "Nubank Editorial",
+          "description": "At George UX 2024, Nubank explored the role of design in simplifying finance and empowering over 110M customers in Latin America.\nThe post Empowering Latin America through innovation: Nu highlights at the George UX Conference 2024 appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/empowering-latin-america-through-innovation-nubank-george-ux-conference/",
+          "publishedOn": "2024-11-19T15:16:44.000Z",
+          "wordCount": 5780,
+          "title": "Empowering Latin America through innovation: Nu highlights at the George UX Conference 2024",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/11/Screenshot-2024-11-19-at-12.14.40.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30737",
+          "author": "Nubank Editorial",
+          "description": "To be a Business Analyst at Nubank, it's essential to combine different skills. This guide demonstrates how to tackle complex problems and turn challenges into strategic solutions.\nThe post Required Skills to be a Business Analyst at Nubank appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/required-skills-to-be-a-business-analyst-at-nubank/",
+          "publishedOn": "2024-11-18T17:18:14.000Z",
+          "wordCount": 6748,
+          "title": "Required Skills to be a Business Analyst at Nubank",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/11/Screenshot-2024-11-18-at-14.28.22.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30685",
+          "author": "Nubank Editorial",
+          "description": "Practical Preparation for the Case Interview: Fundamental Tools and Concepts\nThe post How to Prepare for a Case Interview? (Part 3) appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/how-to-prepare-for-a-case-interview-part-3/",
+          "publishedOn": "2024-11-13T13:10:35.000Z",
+          "wordCount": 5636,
+          "title": "How to Prepare for a Case Interview? (Part 3)",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/11/Screenshot-2024-11-11-at-11.06.53.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30672",
+          "author": "Nubank Editorial",
+          "description": "Master the Essential Concepts and Stand Out in Case Interviews\nThe post How to Prepare for a Case Interview? (Part 2) appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/how-to-prepare-for-a-case-interview-part-2/",
+          "publishedOn": "2024-11-12T17:12:18.000Z",
+          "wordCount": 5643,
+          "title": "How to Prepare for a Case Interview? (Part 2)",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/11/Screenshot-2024-11-11-at-11.06.15.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30658",
+          "author": "Nubank Editorial",
+          "description": "A practical guide with examples and annotated answers for those in the selection process\nThe post Crack the case: How the case interview works for the Business Analysis role at Nubank (Part 1) appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/crack-the-case-how-the-case-interview-works-for-the-business-analysis-role-at-nubank-part-1/",
+          "publishedOn": "2024-11-11T16:32:35.000Z",
+          "wordCount": 7160,
+          "title": "Crack the case: How the case interview works for the Business Analysis role at Nubank (Part 1)",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/11/Screenshot-2024-11-11-at-11.09.44.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=19326",
+          "author": "Nubank Editorial",
+          "description": "We are looking for people to help build the purple future with Nubank\nThe post What does a BA, or Business Analyst, do at Nubank? appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/what-does-a-ba-or-business-analyst-do-at-nubank/",
+          "publishedOn": "2024-11-06T21:49:00.000Z",
+          "wordCount": 6359,
+          "title": "What does a BA, or Business Analyst, do at Nubank?",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2022/10/Screenshot-2024-11-07-at-10.54.03-1024x693.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30543",
+          "author": "Nubank Editorial",
+          "description": "Primarily designed for Big Data processing, Spark is notable for being completely open source\nThe post How Nubank uses Spark to process data appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/how-nubank-uses-spark-to-process-data/",
+          "publishedOn": "2024-11-04T21:51:57.000Z",
+          "wordCount": 6212,
+          "title": "How Nubank uses Spark to process data",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/10/Screenshot-2024-10-28-at-13.53.45.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30505",
+          "author": "Nubank Editorial",
+          "description": "Each of these roles plays a crucial part in the development, optimization, and deployment of data-driven solutions.\nThe post A deep dive into data roles at Nubank appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/a-deep-dive-into-data-roles-at-nubank/",
+          "publishedOn": "2024-10-31T13:10:44.000Z",
+          "wordCount": 5941,
+          "title": "A deep dive into data roles at Nubank",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/10/Screenshot-2024-10-28-at-13.54.26.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30451",
+          "author": "Nubank Editorial",
+          "description": "In-depth discussions on inclusive design, digital accessibility, and the role of generative AI in the tech market.\nThe post DexConf 2024: How UX and AI Are Redefining Digital Design appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/dexconf-2024-how-ux-and-ai-are-redefining-digital-design/",
+          "publishedOn": "2024-10-24T13:24:47.000Z",
+          "wordCount": 5642,
+          "title": "DexConf 2024: How UX and AI Are Redefining Digital Design",
+          "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/10/Screenshot-2024-10-24-at-10.29.53-1024x576.png"
+        },
+        {
+          "id": "https://building.nubank.com.br/?p=30429",
+          "author": "Nubank Editorial",
+          "description": "This information is from a survey conducted by PM3, reference school in Digital Products and Business in Brazil, in partnership with Bain & Company.\nThe post Nubank is the most admired company in the field of Product in Brazil once again appeared first on Building Nubank.",
+          "link": "https://building.nubank.com.br/nubank-is-the-most-admired-company-in-the-field-of-product-in-brazil-once-again/",
+          "publishedOn": "2024-10-22T19:08:59.000Z",
+          "wordCount": null,
+          "title": "Nubank is the most admired company in the field of Product in Brazil once again",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -738,24 +296,14 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
-          "id": "https://medium.com/p/ee13a06f9c78",
+          "id": "https://medium.com/p/8d0c45eb66b2",
           "author": "Netflix Technology Blog",
-          "description": "By Jun He, Natallia Dzenisenka, Praneeth Yenugutala, Yingyi Zhang, and Anjali Norwood",
-          "link": "https://netflixtechblog.com/maestro-netflixs-workflow-orchestrator-ee13a06f9c78?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-07-22T17:38:23.000Z",
-          "wordCount": 9076,
-          "title": "Maestro: Netflix’s Workflow Orchestrator",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*d7XTqfPjAkuCBv6C"
-        },
-        {
-          "id": "https://medium.com/p/e735e6ce8f7d",
-          "author": "Netflix Technology Blog",
-          "description": "Applying Quality of Service techniques at the application level",
-          "link": "https://netflixtechblog.com/enhancing-netflix-reliability-with-service-level-prioritized-load-shedding-e735e6ce8f7d?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-06-25T22:58:09.000Z",
-          "wordCount": 6091,
-          "title": "Enhancing Netflix Reliability with Service-Level Prioritized Load Shedding",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*2KByIB47RWng5UNH"
+          "description": "By: Rajiv Shringi, Oleksii Tkachuk, Kartik Sathyanarayanan",
+          "link": "https://netflixtechblog.com/netflixs-distributed-counter-abstraction-8d0c45eb66b2?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-11-12T20:45:23.000Z",
+          "wordCount": 9205,
+          "title": "Netflix’s Distributed Counter Abstraction",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Yusg6kC9Jj9ayjbi"
         }
       ]
     },
@@ -766,25 +314,65 @@
       "articles": []
     },
     {
-      "title": "busybee: Code",
-      "feedUrl": "https://beesbuzz.biz/code/feed",
-      "siteUrl": "https://beesbuzz.biz/code/feed",
-      "articles": []
-    },
-    {
       "title": "research!rsc",
       "feedUrl": "https://research.swtch.com/feed.atom",
       "siteUrl": "http://research.swtch.com/feed.atom",
+      "articles": []
+    },
+    {
+      "title": "Martin Fowler",
+      "feedUrl": "https://martinfowler.com/feed.atom",
+      "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
-          "id": "http://research.swtch.com/bisect",
+          "id": "https://martinfowler.com/articles/exploring-gen-ai.html#memo-11",
           "author": null,
-          "description": "Binary search over program code or execution to find why a new library or compiler causes a failure.",
-          "link": "http://research.swtch.com/bisect",
-          "publishedOn": "2024-07-18T14:18:53.000Z",
-          "wordCount": 7666,
-          "title": "Hash-Based Bisect Debugging in Compilers and Runtimes",
-          "imageUrl": null
+          "description": "A very powerful new coding assistance feature made its way into GitHub\n       Copilot at the end of October. This new “multi-file editing” capability\n       expands the scope of AI assistance from small, localized suggestions to\n       larger implementations across multiple files. Birgitta\n       Böckeler tries out this new capability and finds\n       out how useful its changes tend to be, and wonders about what feedback\n       loops are needed with them.\nmore…",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai.html#memo-11",
+          "publishedOn": "2024-11-19T15:17:00.000Z",
+          "wordCount": 12513,
+          "title": "Exploring Gen AI: Copilot's new multi-file editing",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/2024-social-media.html",
+          "author": null,
+          "description": "With the recent uptick in tech activity on Bluesky, I've decided that\n       I will start posting there in addition to\n       my current locations.\nI've also put together my general thoughts on the state of social\n       media, and how I'm using it, now that it's two years since The Muskover. \nmore…",
+          "link": "https://martinfowler.com/articles/2024-social-media.html",
+          "publishedOn": "2024-11-13T17:33:00.000Z",
+          "wordCount": 1765,
+          "title": "Posting on Bluesky, and other thoughts on social media",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/strangler-fig-mobile-apps.html#Results",
+          "author": null,
+          "description": "Matthew Foster and John Mikel Amiel\n       Regida finish their account of how they incrementally modernized\n       a mobile application by looking at the results of their work. They\n       achieved a significant shortening of time to new value, and found that\n       changes in the new application could be prepared in about half the time\n       it took on the old codebase.\nmore…",
+          "link": "https://martinfowler.com/articles/strangler-fig-mobile-apps.html#Results",
+          "publishedOn": "2024-11-05T13:55:00.000Z",
+          "wordCount": 5935,
+          "title": "Assessing the results of using the Strangler Fig on a Mobile App",
+          "imageUrl": "https://martinfowler.com/articles/strangler-fig-mobile-apps/card.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/strangler-fig-mobile-apps.html#DivingDeeperx2026",
+          "author": null,
+          "description": "Matthew Foster and John Mikel Amiel\n       Regida dive into the details of incrementally modernizing a\n       legacy mobile application. They look at how to implant the strangler fig\n       into the existing app, setting up bi-directional communication between\n       the new app and the legacy, and ensuring effective regression testing on the\n       overall system.\nmore…",
+          "link": "https://martinfowler.com/articles/strangler-fig-mobile-apps.html#DivingDeeperx2026",
+          "publishedOn": "2024-10-30T14:29:00.000Z",
+          "wordCount": 5935,
+          "title": "Diving deeper into using the Strangler Fig with Mobile Apps",
+          "imageUrl": "https://martinfowler.com/articles/strangler-fig-mobile-apps/card.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/strangler-fig-mobile-apps.html",
+          "author": null,
+          "description": "My colleagues are often involved in modernizing legacy systems, and\n       our approach is to do this in an incremental fashion. Doing this with a\n       mobile application raises some specific challenges. Matthew\n       Foster and John Mikel Amiel Regida share their\n       experiences of a recent engagement to do this, shifting from a monolithic\n       legacy application to one using a modular micro-app architecture. \nmore…",
+          "link": "https://martinfowler.com/articles/strangler-fig-mobile-apps.html",
+          "publishedOn": "2024-10-29T14:34:00.000Z",
+          "wordCount": 5935,
+          "title": "Using the Strangler Fig with Mobile Apps",
+          "imageUrl": "https://martinfowler.com/articles/strangler-fig-mobile-apps/card.png"
         }
       ]
     }
