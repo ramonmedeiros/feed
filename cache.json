@@ -6,6 +6,16 @@
       "siteUrl": "http://security.googleblog.com/",
       "articles": [
         {
+          "id": "http://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html",
+          "author": null,
+          "description": "Posted by Oliver Chang, Dongge Liu and Jonathan Metzman, Google Open Source Security Team\n\n\nRecently, OSS-Fuzz reported 26 new vulnerabilities to open source project maintainers, including one vulnerability in the critical OpenSSL library (CVE-2024-9143) that underpins much of internet infrastructure. The reports themselves aren’t unusual—we’ve reported and helped maintainers fix over 11,000 vulnerabilities in the 8 years of the project. \n\n\n\nBut these particular vulnerabilities represent a milestone for automated vulnerability finding: each was found with AI, using AI-generated and enhanced fuzz targets. The OpenSSL CVE is one of the first vulnerabilities in a critical piece of software that was discovered by LLMs, adding another real-world example to a recent Google discovery of an exploi…",
+          "link": "http://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html",
+          "publishedOn": "2024-11-20T16:55:00.000Z",
+          "wordCount": 17889,
+          "title": "Leveling Up Fuzzing: Finding more vulnerabilities with AI",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
+        },
+        {
           "id": "http://security.googleblog.com/2024/11/retrofitting-spatial-safety-to-hundreds.html",
           "author": null,
           "description": "Posted by Alex Rebert and Max Shavrick, Security Foundations, and Kinuko Yasuda, Core Developer\n\n\n\n\n\nAttackers regularly exploit spatial memory safety vulnerabilities, which occur when code accesses a memory allocation outside of its intended bounds, to compromise systems and sensitive data. These vulnerabilities represent a major security risk to users. \n\n\n\nBased on an analysis of in-the-wild exploits tracked by Google's Project Zero, spatial safety vulnerabilities represent 40% of in-the-wild memory safety exploits over the past decade:\n\n\n\nBreakdown of memory safety CVEs exploited in the wild by vulnerability class.1\nGoogle is taking a comprehensive approach to memory safety. A key element of our strategy focuses on Safe Coding and using memory-safe languages in new code. This leads to a…",
@@ -23,16 +33,6 @@
           "publishedOn": "2024-11-13T17:59:00.001Z",
           "wordCount": 5555,
           "title": "Safer with Google: New intelligent, real-time protections on Android to keep you safe",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/10/5-new-protections-on-google-messages.html",
-          "author": null,
-          "description": "Posted by Jan Jedrzejowicz, Director of Product, Android and Business Communications; Alberto Pastor Nieto, Sr. Product Manager Google Messages and RCS Spam and Abuse; Stephan Somogyi, Product Lead, User Protection; Branden Archer, Software Engineer\n\n\nEvery day, over a billion people use Google Messages to communicate. That’s why we’ve made security a top priority, building in powerful on-device, AI-powered filters and advanced security that protects users from 2 billion suspicious messages a month. With end-to-end encrypted1 RCS conversations, you can communicate privately with other Google Messages RCS users. And we’re not stopping there. We're committed to constantly developing new controls and features to make your conversations on Google Messages even more secure and private.\n\n\nAs par…",
-          "link": "http://security.googleblog.com/2024/10/5-new-protections-on-google-messages.html",
-          "publishedOn": "2024-10-22T16:59:00.001Z",
-          "wordCount": 5636,
-          "title": "5 new protections on Google Messages to help keep you safe",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
         }
       ]
@@ -81,6 +81,16 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=81231",
+          "author": "Kendall Gassner",
+          "description": "With this custom addon, you can ensure your workplace remains accessible to users with motion sensitivities while benefiting from Storybook’s Interactions.\nThe post How to make Storybook Interactions respect user motion preferences appeared first on The GitHub Blog.",
+          "link": "https://github.blog/engineering/user-experience/how-to-make-storybook-interactions-respect-user-motion-preferences/",
+          "publishedOn": "2024-11-20T17:00:51.000Z",
+          "wordCount": 2845,
+          "title": "How to make Storybook Interactions respect user motion preferences",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Productivity-DarkMode-2-2.png"
+        },
         {
           "id": "https://github.blog/?p=81135",
           "author": "Martin Woodward",
@@ -277,16 +287,6 @@
           "wordCount": 5642,
           "title": "DexConf 2024: How UX and AI Are Redefining Digital Design",
           "imageUrl": "https://building.nubank.com.br/wp-content/uploads/2024/10/Screenshot-2024-10-24-at-10.29.53-1024x576.png"
-        },
-        {
-          "id": "https://building.nubank.com.br/?p=30429",
-          "author": "Nubank Editorial",
-          "description": "This information is from a survey conducted by PM3, reference school in Digital Products and Business in Brazil, in partnership with Bain & Company.\nThe post Nubank is the most admired company in the field of Product in Brazil once again appeared first on Building Nubank.",
-          "link": "https://building.nubank.com.br/nubank-is-the-most-admired-company-in-the-field-of-product-in-brazil-once-again/",
-          "publishedOn": "2024-10-22T19:08:59.000Z",
-          "wordCount": null,
-          "title": "Nubank is the most admired company in the field of Product in Brazil once again",
-          "imageUrl": null
         }
       ]
     },
