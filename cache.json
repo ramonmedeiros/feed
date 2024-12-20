@@ -24,16 +24,6 @@
           "wordCount": 8113,
           "title": "Announcing the launch of Vanir: Open-source Security Patch Validation",
           "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html",
-          "author": null,
-          "description": "Posted by Oliver Chang, Dongge Liu and Jonathan Metzman, Google Open Source Security Team\n\n\nRecently, OSS-Fuzz reported 26 new vulnerabilities to open source project maintainers, including one vulnerability in the critical OpenSSL library (CVE-2024-9143) that underpins much of internet infrastructure. The reports themselves aren’t unusual—we’ve reported and helped maintainers fix over 11,000 vulnerabilities in the 8 years of the project. \n\n\n\nBut these particular vulnerabilities represent a milestone for automated vulnerability finding: each was found with AI, using AI-generated and enhanced fuzz targets. The OpenSSL CVE is one of the first vulnerabilities in a critical piece of software that was discovered by LLMs, adding another real-world example to a recent Google discovery of an exploi…",
-          "link": "http://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html",
-          "publishedOn": "2024-11-20T16:55:00.000Z",
-          "wordCount": 17889,
-          "title": "Leveling Up Fuzzing: Finding more vulnerabilities with AI",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png"
         }
       ]
     },
@@ -59,6 +49,16 @@
       "feedUrl": "https://googleprojectzero.blogspot.com/atom.xml",
       "siteUrl": "https://googleprojectzero.blogspot.com/",
       "articles": [
+        {
+          "id": "https://googleprojectzero.blogspot.com/2024/12/the-windows-registry-adventure-5-regf.html",
+          "author": null,
+          "description": "@import url(https://themes.googleusercontent.com/fonts/css?kit=4mNYFHt_IKFsPe52toizHz0e5qzIIUg9OvSRGeMDk3I);.widget .post-body ul{padding: 0 0}ol.lst-kix_s8f9k49k9svk-8{list-style-type:none}ol.lst-kix_s8f9k49k9svk-7{list-style-type:none}ol.lst-kix_s8f9k49k9svk-6{list-style-type:none}ol.lst-kix_s8f9k49k9svk-5{list-style-type:none}ol.lst-kix_9i4egiire8k6-8.start{counter-reset:lst-ctn-kix_9i4egiire8k6-8 0}.lst-kix_82pihj16nguk-6>li:before{content:\"\\0025cf   \"}.lst-kix_82pihj16nguk-4>li:before{content:\"\\0025cb   \"}.lst-kix_82pihj16nguk-5>li:before{content:\"\\0025a0   \"}.lst-kix_82pihj16nguk-3>li:before{content:\"\\0025cf   \"}ul.lst-kix_2gqv10mkziv8-2{list-style-type:none}ul.lst-kix_2gqv10mkziv8-1{list-style-type:none}ul.lst-kix_2gqv10mkziv8-4{list-style-type:none}ul.lst-kix_2gqv10mkziv8-3{list-st…",
+          "link": "https://googleprojectzero.blogspot.com/2024/12/the-windows-registry-adventure-5-regf.html",
+          "publishedOn": "2024-12-19T19:03:00.000Z",
+          "wordCount": 24028,
+          "title": "The Windows Registry Adventure #5: The regf file format",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQtJm0XNkozXGxjQnB9n1ka9OuxP7lrLSQN1KZF-Zc60Z06dBEz3AAA8aAYnmdrU4imLebCFvF6qXaE0h-uA_iXnuyAisG90JWawSAMPPaToLdXMGeC4FlyGz42FWkf1bPhJmwSez8Ot-DLI29n4jinIXswZ-LQoLyWX7PIKVF5EwkRoAXNUFYIdcCOwo/w1200-h630-p-k-no-nu/image8.png"
+        },
         {
           "id": "https://googleprojectzero.blogspot.com/2024/12/qualcomm-dsp-driver-unexpectedly-excavating-exploit.html",
           "author": null,
@@ -113,6 +113,26 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog/",
       "articles": [
+        {
+          "id": "https://github.blog/?p=81734",
+          "author": "Kristina Heidinger",
+          "description": "Learn how GitHub Artifact Attestations can enhance your build security and help your organization achieve SLSA Level 3. This post breaks down the basics of SLSA, explains the importance of artifact attestations, and provides a step-by-step guide to securing your build process.\nThe post Enhance build security and reach SLSA Level 3 with GitHub Artifact Attestations appeared first on The GitHub Blog.",
+          "link": "https://github.blog/enterprise-software/devsecops/enhance-build-security-and-reach-slsa-level-3-with-github-artifact-attestations/",
+          "publishedOn": "2024-12-19T18:00:13.000Z",
+          "wordCount": 3727,
+          "title": "Enhance build security and reach SLSA Level 3 with GitHub Artifact Attestations",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/04/Enterprise-DarkMode-2-3.png?fit=1200%2C630"
+        },
+        {
+          "id": "https://github.blog/?p=81705",
+          "author": "Joseph Henrich",
+          "description": "We’re open sourcing Annotated Logger, a Python package that helps make logs searchable with consistent metadata.\nThe post Introducing Annotated Logger: A Python package to aid in adding metadata to logs appeared first on The GitHub Blog.",
+          "link": "https://github.blog/developer-skills/programming-languages-and-frameworks/introducing-annotated-logger-a-python-package-to-aid-in-adding-metadata-to-logs/",
+          "publishedOn": "2024-12-19T17:00:28.000Z",
+          "wordCount": 5837,
+          "title": "Introducing Annotated Logger: A Python package to aid in adding metadata to logs",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Productivity-DarkMode-2-2.png?fit=1200%2C630"
+        },
         {
           "id": "https://github.blog/?p=81683",
           "author": "Thomas Dohmke",
@@ -222,16 +242,6 @@
           "wordCount": 2749,
           "title": "Students: Start building your skills with the GitHub Foundations certification",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-LightMode-3.png"
-        },
-        {
-          "id": "https://github.blog/?p=81231",
-          "author": "Kendall Gassner",
-          "description": "With this custom addon, you can ensure your workplace remains accessible to users with motion sensitivities while benefiting from Storybook’s Interactions.\nThe post How to make Storybook Interactions respect user motion preferences appeared first on The GitHub Blog.",
-          "link": "https://github.blog/engineering/user-experience/how-to-make-storybook-interactions-respect-user-motion-preferences/",
-          "publishedOn": "2024-11-20T17:00:51.000Z",
-          "wordCount": 2845,
-          "title": "How to make Storybook Interactions respect user motion preferences",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Productivity-DarkMode-2-2.png"
         }
       ]
     },
@@ -297,6 +307,16 @@
       "feedUrl": "https://netflixtechblog.com/feed",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
+        {
+          "id": "https://medium.com/p/d2fb8e9ba1c6",
+          "author": "Netflix Technology Blog",
+          "description": "David J. Berg*, David Casler^, Romain Cledat*, Qian Huang*, Rui Lin*, Nissan Pow*, Nurcan Sonmez*, Shashank Srikanth*, Chaoying Wang*…",
+          "link": "https://netflixtechblog.com/introducing-configurable-metaflow-d2fb8e9ba1c6?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-12-20T07:11:37.000Z",
+          "wordCount": 6580,
+          "title": "Introducing Configurable Metaflow",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1143/1*XrOVl25ZLx8_4nHLRxNgDg.png"
+        },
         {
           "id": "https://medium.com/p/d761cfd551ee",
           "author": "Netflix Technology Blog",
